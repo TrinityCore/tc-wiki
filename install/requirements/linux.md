@@ -2,7 +2,7 @@
 title: Linux Requirements
 description: 
 published: true
-date: 2021-08-14T13:58:59.856Z
+date: 2021-08-14T17:36:14.342Z
 tags: requirements, installation, setup, linux
 editor: markdown
 dateCreated: 2021-08-14T00:09:23.038Z
@@ -143,6 +143,34 @@ Then initialize your MySQL database
 ```
 sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 ```
+
+<div id="faccordion">
+
+- ### Item 1
+  Text
+
+- ### Item 2
+  Text
+
+- ### Section 1
+  Text
+
+  - #### Section 1, item 1
+    Text
+
+  - #### Section 2
+    Text
+
+    - ##### Section 2, Item 1
+      Text
+
+    - ##### Section 2, Item 2
+      Text
+
+- ### Item 3
+  Text
+  
+</div>
 
 ## Help
 If you still have any problem, check:
