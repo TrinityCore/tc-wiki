@@ -2,7 +2,7 @@
 title: macOS Requirements
 description: 
 published: true
-date: 2021-08-14T17:31:39.115Z
+date: 2021-08-14T17:33:04.522Z
 tags: requirements, installation, setup, macos, mac
 editor: markdown
 dateCreated: 2021-08-14T00:39:12.068Z
@@ -36,7 +36,10 @@ The following dependencies have to be installed from sources for every branch of
 - [GNU Readline 8.0](https://ftp.gnu.org/gnu/readline/readline-8.0.tar.gz)
 
 Alternatively, if you use [Homebrew](http://brew.sh/), you can copy-paste the following. A detailed guide can be found here: [[HowTo] Compile TrinityCore on Mac OS X using Homebrew](http://www.trinitycore.org/f/topic/10515-howto-compile-trinitycore-on-mac-os-x-using-homebrew)
-```
+
+<div class="next-codeblock-no-line-numbers"></div>
+
+```bash
 brew update
 brew install mysql openssl readline cmake boost
 ```
