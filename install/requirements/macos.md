@@ -2,7 +2,7 @@
 title: macOS Requirements
 description: 
 published: true
-date: 2021-08-14T17:31:03.561Z
+date: 2021-08-14T17:31:39.115Z
 tags: requirements, installation, setup, macos, mac
 editor: markdown
 dateCreated: 2021-08-14T00:39:12.068Z
@@ -20,6 +20,7 @@ dateCreated: 2021-08-14T00:39:12.068Z
 ## Xcode
 Xcode is available from the App Store for free. Run the following command from the terminal to install the required command line tools:
 <div class="next-codeblock-no-line-numbers"></div>
+
 ```bash
 xcode-select --install
 ```
