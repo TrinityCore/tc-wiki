@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2021-08-14T03:26:13.170Z
+date: 2021-08-14T17:33:39.961Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -37,11 +37,15 @@ If you are running a Windows 10 Creator/Anniversary Edition, you additional have
 ![visualstudio_anniversary.png](/visualstudio_anniversary.png)
 &nbsp;
 **You can also install it from command line with the command:**
-```
+<div class="next-codeblock-no-line-numbers"></div>
+
+```bash
 vs_community.exe /q /norestart /InstallSelectableItems NativeLanguageSupport_Group
 ```
 or if you have enterprise version with:
-```
+<div class="next-codeblock-no-line-numbers"></div>
+
+```bash
 vs_community.exe /q /norestart /InstallSelectableItems NativeLanguageSupport_Group
 ```
 &nbsp;
