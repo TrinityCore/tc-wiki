@@ -2,7 +2,7 @@
 title: Linux Requirements
 description: 
 published: true
-date: 2021-08-14T17:36:14.342Z
+date: 2021-08-14T17:36:42.280Z
 tags: requirements, installation, setup, linux
 editor: markdown
 dateCreated: 2021-08-14T00:09:23.038Z
@@ -144,6 +144,13 @@ Then initialize your MySQL database
 sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 ```
 
+## Help
+If you still have any problem, check:
+
+Updating or starting with TrinityCore issues, Trouble with your TrinityCore Install / Readme 1st / FAQs
+Ask help on the Forum
+If you still have problems, you can try to ask help on IRC, but remember it's not real time 24/7 support, most of people there lives on GMT and they can be sleeping or working.
+
 <div id="faccordion">
 
 - ### Item 1
@@ -171,10 +178,3 @@ sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
   Text
   
 </div>
-
-## Help
-If you still have any problem, check:
-
-Updating or starting with TrinityCore issues, Trouble with your TrinityCore Install / Readme 1st / FAQs
-Ask help on the Forum
-If you still have problems, you can try to ask help on IRC, but remember it's not real time 24/7 support, most of people there lives on GMT and they can be sleeping or working.
