@@ -2,7 +2,7 @@
 title: Linux Requirements
 description: 
 published: true
-date: 2021-08-14T00:22:54.000Z
+date: 2021-08-14T00:24:35.415Z
 tags: requirements, installation, setup, linux
 editor: markdown
 dateCreated: 2021-08-14T00:09:23.038Z
@@ -35,8 +35,8 @@ dateCreated: 2021-08-14T00:09:23.038Z
 {.is-warning}
 
 ## OS
-# Linux {.tabset}
-## Debian based distributions
+## Linux {.tabset}
+### Debian based distributions
 ***(heavy recommended debian stable, it's the distribution we use to set minimum requirements)***
 
 **Recommendation:** Use apt-get with stable source list instead of install packages. We recommend the latest stable version of your distribution. We usually update requirements to the lastest stable Debian version. Avoid mixing stable with experimental packages as it may break your linux OS.
@@ -66,7 +66,7 @@ update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
 > If you have an old Ubuntu version, follow https://help.ubuntu.com/community/Upgrades steps to upgrade it.
 {.is-info}
 
-## Fedora based distributions
+### Fedora based distributions
 Tested on Fedora Server 27/28 (Fedora Workstation 27/28 should also work).
 ```
 dnf install https://dev.mysql.com/get/mysql57-community-release-fc27-1.noarch.rpm
@@ -76,7 +76,7 @@ update-alternatives --install /usr/bin/cc cc /usr/bin/clang 100
 update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
 ```
 
-## Red Hat based distributions
+### Red Hat based distributions
 
 > NOT SUPPORTED!
 {.is-warning}
@@ -115,7 +115,7 @@ yum install mariadb-server p7zip
 {.is-info}
 
 
-## Arch Linux based distributions
+### Arch Linux based distributions
 
 > NOT SUPPORTED!
 > FOLLOW AT YOUR OWN RISK!
