@@ -2,7 +2,7 @@
 title: Linux Requirements
 description: 
 published: true
-date: 2021-08-14T17:36:42.280Z
+date: 2021-08-14T18:03:56.016Z
 tags: requirements, installation, setup, linux
 editor: markdown
 dateCreated: 2021-08-14T00:09:23.038Z
@@ -42,15 +42,18 @@ dateCreated: 2021-08-14T00:09:23.038Z
 **Recommendation:** Use apt-get with stable source list instead of install packages. We recommend the latest stable version of your distribution. We usually update requirements to the lastest stable Debian version. Avoid mixing stable with experimental packages as it may break your linux OS.
 
 Debian 10.x (you will need to use su to install the packages)
-```
+<div class="next-codeblock-no-line-numbers"></div>
+
+```bash
 apt-get update
 apt-get install git clang cmake make gcc g++ libmariadbclient-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev libboost-all-dev mariadb-server p7zip default-libmysqlclient-dev
 update-alternatives --install /usr/bin/cc cc /usr/bin/clang 100
 update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
 ```
 Ubuntu 19.10/20.04/20.10 (you will need to use sudo to install the packages).
-```
+<div class="next-codeblock-no-line-numbers"></div>
 
+```bash
 apt-get update
 apt-get install git clang cmake make gcc g++ libmariadbclient-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev libboost-all-dev mariadb-server p7zip libmariadb-client-lgpl-dev-compat
 update-alternatives --install /usr/bin/cc cc /usr/bin/clang 100
@@ -68,7 +71,9 @@ update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
 
 ### Fedora based distributions
 Tested on Fedora Server 27/28 (Fedora Workstation 27/28 should also work).
-```
+<div class="next-codeblock-no-line-numbers"></div>
+
+```bash
 dnf install https://dev.mysql.com/get/mysql57-community-release-fc27-1.noarch.rpm
 dnf install git clang cmake make gcc gcc-c++ community-mysql-devel compat-openssl10-devel bzip2-devel readline-devel ncurses-devel boost-devel community-mysql-server p7zip
 rm -f /usr/bin/c++
@@ -80,7 +85,9 @@ update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
 
 > NOT SUPPORTED!
 {.is-warning}
-```
+<div class="next-codeblock-no-line-numbers"></div>
+
+```bash
 yum install epel-release
 yum install git cmake3 make clang mariadb-devel openssl-devel bzip2-devel readline-devel ncurses-devel gcc-c++
 ln -s /usr/bin/cmake3 /usr/bin/cmake
@@ -122,7 +129,9 @@ yum install mariadb-server p7zip
 {.is-warning}
 
 Tested on 2/19/2020. If you run into any issues with the dependencies don't report it to the TrinityCore team, report it to me on through email at paulrblack.prb@gmail.com
-```
+<div class="next-codeblock-no-line-numbers"></div>
+
+```bash
 pacman -S git clang cmake make gcc openssl bzip2 readline ncurses boost p7zip rpcsvc-proto
 mkdir ~/mysql-tmp
 cd ~/mysql-tmp
@@ -135,12 +144,16 @@ cd ~
 rm -rf ./mysql-tmp
 ```
 Or if you have yay installed, you can follow this instead
-```
+<div class="next-codeblock-no-line-numbers"></div>
+
+```bash
 pacman -S --needed git clang cmake make gcc openssl bzip2 readline ncurses boost p7zip rpcsvc-proto
 yay -S mysql57
 ```
 Then initialize your MySQL database
-```
+<div class="next-codeblock-no-line-numbers"></div>
+
+```bash
 sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 ```
 
@@ -150,31 +163,3 @@ If you still have any problem, check:
 Updating or starting with TrinityCore issues, Trouble with your TrinityCore Install / Readme 1st / FAQs
 Ask help on the Forum
 If you still have problems, you can try to ask help on IRC, but remember it's not real time 24/7 support, most of people there lives on GMT and they can be sleeping or working.
-
-<div id="faccordion">
-
-- ### Item 1
-  Text
-
-- ### Item 2
-  Text
-
-- ### Section 1
-  Text
-
-  - #### Section 1, item 1
-    Text
-
-  - #### Section 2
-    Text
-
-    - ##### Section 2, Item 1
-      Text
-
-    - ##### Section 2, Item 2
-      Text
-
-- ### Item 3
-  Text
-  
-</div>
