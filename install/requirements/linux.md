@@ -2,7 +2,7 @@
 title: Linux Requirements
 description: 
 published: true
-date: 2021-08-14T18:03:56.016Z
+date: 2021-08-14T18:04:57.631Z
 tags: requirements, installation, setup, linux
 editor: markdown
 dateCreated: 2021-08-14T00:09:23.038Z
@@ -111,7 +111,9 @@ yum install mariadb-server p7zip
 
 > **Note:** Some distribution versions might not match our requirements for CMake. If you can't install the EPEL repository on your build server, use the following instructions to install CMake manually.
 >
->```
+><div class="next-codeblock-no-line-numbers"></div>
+>
+>```bash
 >curl https://cmake.org/files/v3.6/cmake-3.6.1.tar.gz -o cmake-3.6.1.tar.gz
 >tar -zxvf cmake-3.6.1.tar.gz
 >cd cmake-3.6.1
