@@ -2,7 +2,7 @@
 title: Requirements
 description: 
 published: true
-date: 2021-08-14T03:29:50.869Z
+date: 2021-08-14T03:29:52.537Z
 tags: requirements, installation, setup
 editor: markdown
 dateCreated: 2021-08-13T23:52:06.467Z

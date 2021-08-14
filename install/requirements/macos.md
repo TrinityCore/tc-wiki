@@ -2,7 +2,7 @@
 title: macOS Requirements
 description: 
 published: true
-date: 2021-08-14T00:39:12.068Z
+date: 2021-08-14T00:39:13.722Z
 tags: requirements, installation, setup, macos, mac
 editor: markdown
 dateCreated: 2021-08-14T00:39:12.068Z

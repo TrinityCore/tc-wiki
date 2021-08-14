@@ -2,7 +2,7 @@
 title: Linux Requirements
 description: 
 published: true
-date: 2021-08-14T00:24:35.415Z
+date: 2021-08-14T00:24:37.268Z
 tags: requirements, installation, setup, linux
 editor: markdown
 dateCreated: 2021-08-14T00:09:23.038Z
