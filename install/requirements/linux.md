@@ -2,7 +2,7 @@
 title: Linux Requirements
 description: 
 published: true
-date: 2021-08-14T18:04:57.631Z
+date: 2021-08-14T18:06:28.035Z
 tags: requirements, installation, setup, linux
 editor: markdown
 dateCreated: 2021-08-14T00:09:23.038Z
@@ -84,7 +84,8 @@ update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
 ### Red Hat based distributions
 
 > NOT SUPPORTED!
-{.is-warning}
+{.is-danger}
+
 <div class="next-codeblock-no-line-numbers"></div>
 
 ```bash
@@ -128,7 +129,7 @@ yum install mariadb-server p7zip
 
 > NOT SUPPORTED!
 > FOLLOW AT YOUR OWN RISK!
-{.is-warning}
+{.is-danger}
 
 Tested on 2/19/2020. If you run into any issues with the dependencies don't report it to the TrinityCore team, report it to me on through email at paulrblack.prb@gmail.com
 <div class="next-codeblock-no-line-numbers"></div>
