@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2021-08-14T17:33:39.961Z
+date: 2021-08-14T18:13:50.374Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -65,13 +65,15 @@ vs_community.exe /q /norestart /InstallSelectableItems NativeLanguageSupport_Gro
 
 ### 4. Database management tools:
 Choose one of these
-- mysql cli *(comes with MySQL installation)*
-  *(fastest and recommended)*
+
+- mysql cli *(comes with MySQL installation)* 
+*(fastest and recommended)*
 - [SQLYog Community Edition](https://github.com/webyog/sqlyog-community/wiki/Downloads)
 - [HeidiSQL](http://www.heidisql.com/download.php) *(Best for beginners)*
 - [MySQL Workbench](http://dev.mysql.com/downloads/workbench/) (*already installed if you chose to install full MySQL package)*
 - [DBeaver](https://dbeaver.io/) *(Multiplattform Database Management Tool)*
 {.links-list}
+
 &nbsp;
 
 ### 5. Test your tool
