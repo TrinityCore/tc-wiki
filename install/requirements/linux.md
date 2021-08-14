@@ -2,7 +2,7 @@
 title: Linux Requirements
 description: 
 published: true
-date: 2021-08-14T00:17:48.549Z
+date: 2021-08-14T00:22:54.000Z
 tags: requirements, installation, setup, linux
 editor: markdown
 dateCreated: 2021-08-14T00:09:23.038Z
@@ -34,6 +34,8 @@ dateCreated: 2021-08-14T00:09:23.038Z
 >you will need to use less jobs (make -j1) or increase swap.
 {.is-warning}
 
+## OS
+# Linux {.tabset}
 ## Debian based distributions
 ***(heavy recommended debian stable, it's the distribution we use to set minimum requirements)***
 
@@ -74,8 +76,7 @@ update-alternatives --install /usr/bin/cc cc /usr/bin/clang 100
 update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
 ```
 
-### Tabs {.tabset}
-#### Red Hat based distributions
+## Red Hat based distributions
 
 > NOT SUPPORTED!
 {.is-warning}
@@ -114,7 +115,7 @@ yum install mariadb-server p7zip
 {.is-info}
 
 
-#### Arch Linux based distributions
+## Arch Linux based distributions
 
 > NOT SUPPORTED!
 > FOLLOW AT YOUR OWN RISK!
