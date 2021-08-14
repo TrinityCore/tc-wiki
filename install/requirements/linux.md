@@ -2,7 +2,7 @@
 title: Linux Requirements
 description: 
 published: true
-date: 2021-08-14T00:09:23.038Z
+date: 2021-08-14T00:17:48.549Z
 tags: requirements, installation, setup, linux
 editor: markdown
 dateCreated: 2021-08-14T00:09:23.038Z
@@ -74,15 +74,78 @@ update-alternatives --install /usr/bin/cc cc /usr/bin/clang 100
 update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
 ```
 
-# Tabs {.tabset}
-## First Tab
+### Tabs {.tabset}
+#### Red Hat based distributions
 
-Any content here will go into the first tab...
+> NOT SUPPORTED!
+{.is-warning}
+```
+yum install epel-release
+yum install git cmake3 make clang mariadb-devel openssl-devel bzip2-devel readline-devel ncurses-devel gcc-c++
+ln -s /usr/bin/cmake3 /usr/bin/cmake
+yum install centos-release-scl
+yum install devtoolset-6-gcc-c++
+scl enable devtoolset-6 bash
+gcc --version | head -1
+ 
+yum install libquadmath-devel python-devel
+curl -L https://dl.bintray.com/boostorg/release/1.64.0/source/boost_1_64_0.tar.gz -o boost_1_64_0.tar.gz
+tar -zxvf boost_1_64_0.tar.gz
+cd boost_1_64_0
+./bootstrap.sh
+./b2 install
+ 
+yum install mariadb-server p7zip 
+```
+> **Note:** You will only have to compile the boost library one time, unless you update your kernel or update certain security packages. You will also need to update boost-devel. The developer libraries will conflict with the compiled version of boost on Red Hat distros. Also be sure to install boost-devel after compiling latest version of boost.
+{.is-info}
 
-## Second Tab
 
-Any content here will go into the second tab...
+> **Note:** Some distribution versions might not match our requirements for CMake. If you can't install the EPEL repository on your build server, use the following instructions to install CMake manually.
+>
+>```
+>curl https://cmake.org/files/v3.6/cmake-3.6.1.tar.gz -o cmake-3.6.1.tar.gz
+>tar -zxvf cmake-3.6.1.tar.gz
+>cd cmake-3.6.1
+>./bootstrap
+>make
+>make install
+>```
+{.is-info}
 
-## Third Tab
 
-Any content here will go into the third tab...
+#### Arch Linux based distributions
+
+> NOT SUPPORTED!
+> FOLLOW AT YOUR OWN RISK!
+{.is-warning}
+
+Tested on 2/19/2020. If you run into any issues with the dependencies don't report it to the TrinityCore team, report it to me on through email at paulrblack.prb@gmail.com
+```
+pacman -S git clang cmake make gcc openssl bzip2 readline ncurses boost p7zip rpcsvc-proto
+mkdir ~/mysql-tmp
+cd ~/mysql-tmp
+wget https://aur.archlinux.org/cgit/aur.git/snapshot/mysql57.tar.gz # Note if this no longer exists go here and download the snapshot https://aur.archlinux.org/packages/mysql57/
+tar -xf mysql57.tar.gz
+cd mysql57
+makepkg
+sudo pacman -U libmysqlclient57-5.7.29-1-x86_64.pkg.tar.xz mysql-clients57-5.7.29-1-x86_64.pkg.tar.xz mysql57-5.7.29-1-x86_64.pkg.tar.xz
+cd ~
+rm -rf ./mysql-tmp
+```
+Or if you have yay installed, you can follow this instead
+```
+pacman -S --needed git clang cmake make gcc openssl bzip2 readline ncurses boost p7zip rpcsvc-proto
+yay -S mysql57
+```
+Then initialize your MySQL database
+```
+sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+```
+
+## Help
+If you still have any problem, check:
+
+Updating or starting with TrinityCore issues, Trouble with your TrinityCore Install / Readme 1st / FAQs
+Ask help on the Forum
+If you still have problems, you can try to ask help on IRC, but remember it's not real time 24/7 support, most of people there lives on GMT and they can be sleeping or working.
