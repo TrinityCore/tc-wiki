@@ -2,7 +2,7 @@
 title: Linux Core Installation
 description: 
 published: true
-date: 2021-08-15T03:28:35.003Z
+date: 2021-08-15T03:36:06.232Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-14T21:37:11.567Z
@@ -147,17 +147,17 @@ cmake ../ [additional parameters]
   |  | - **0**: Disables the building of tools. |  |  |
   | DSERVERS | - **1**: Builds authserver and worldserver. | -DSERVERS=1 | 1 | \
   |  | - **0**: Disables the building of servers. |  |  |
-  | - DSCRIPTS | "none": Disables all scripts |  |  | \
-  | - DSCRIPTS_COMMANDS |  |  |  | \
-  | - DSCRIPTS_CUSTOM |  |  |  | \
-  | - DSCRIPTS_EASTERNKINGDOMS |  |  |  | \
-  | - DSCRIPTS_EVENTS |  |  |  | \
-  | - DSCRIPTS_KALIMDOR |  |  |  | \
-  | - DSCRIPTS_NORTHREND |  |  |  | \
-  | - DSCRIPTS_OUTDOORPVP |  |  |  | \
-  | - DSCRIPTS_OUTLAND |  |  |  | \
-  | - DSCRIPTS_PET |  |  |  | \
-  | - DSCRIPTS_SPELLS |  |  |  | \
+  | DSCRIPTS | - **"none"**: Disables all scripts |  |  | \
+  | - DSCRIPTS_COMMANDS | - **"static"**: - Builds all scripts statically. (this is the old -DSCRIPTS=1 option). |  |  | \
+  | - DSCRIPTS_CUSTOM | - **"dynamic"**: - Builds all scripts dynamically (Experimental feature). |  |  | \
+  | - DSCRIPTS_EASTERNKINGDOMS | - **"minimal-static"**: Builds Commands and Spells statically, disables other scripts (this is the old -DSCRIPTS=0 option). |  |  | \
+  | - DSCRIPTS_EVENTS | - **"minimal-dynamic"**: Builds Commands and Spells dynamically, disables other scripts. |  |  | \
+  | - DSCRIPTS_KALIMDOR | 	- **DSCRIPTS MODULES** |  |  | \
+  | - DSCRIPTS_NORTHREND | 	- **"default"**: Inherit DSCRIPTS value. |  |  | \
+  | - DSCRIPTS_OUTDOORPVP | 	- **"disabled"**: Disables the building of the given module. |  |  | \
+  | - DSCRIPTS_OUTLAND | 	- **"dynamic"**: Compiles the given module as a dynamic library. |  |  | \
+  | - DSCRIPTS_PET | 	- **"static"**: Compiles the given module as a static library. |  |  | \
+  | - DSCRIPTS_SPELLS | 	{.grid-list} |  |  | \
   | - DSCRIPTS_WORLD |  |  |  | \
   | {.grid-list} |  |  |  |
   | DLIBSDIR | Sets libraries directory. (Advanced users only) | -DLIBSDIR=/lib |  |
