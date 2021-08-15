@@ -2,7 +2,7 @@
 title: macOS Core Installation
 description: 
 published: true
-date: 2021-08-15T08:23:23.965Z
+date: 2021-08-15T08:24:46.148Z
 tags: 
 editor: ckeditor
 dateCreated: 2021-08-15T08:23:23.965Z
@@ -28,28 +28,28 @@ nano ~/.profile</code></pre>
 <p>Press Ctrl+O followed by Ctrl+X to save and close the file. Done. Quit the terminal application and restart it.</p>
 <h1>Building the libraries</h1>
 <p>Open a terminal and change to your download folder. Safari automatically extracts .gz archives and leaves the tar ball.</p>
-<h3>OpenSSL</h3>
+<h2>OpenSSL</h2>
 <pre><code class="language-plaintext">tar xvf openssl-1.0.2r.tar
 cd openssl-1.0.2r
 ./Configure darwin64-x86_64-cc shared --prefix=$TRINITY
 make -j 4
 make install
 cd ..</code></pre>
-<h3>Readline</h3>
+<h2>Readline</h2>
 <pre><code class="language-plaintext">tar xvf readline-8.0.tar
 cd readline-8.0
 ./configure --prefix=$TRINITY
 make -j 4
 make install
 cd ..</code></pre>
-<h3>CMake</h3>
+<h2>CMake</h2>
 <pre><code class="language-plaintext">tar xvf cmake-3.14.3.tar
 cd cmake-3.14.3
 ./bootstrap --prefix=$TRINITY
 make -j 4
 make install
 cd ..</code></pre>
-<h3>Boost</h3>
+<h2>Boost</h2>
 <pre><code class="language-plaintext">tar xvf boost_1_69_0.tar
 cd boost_1_69_0
 ./bootstrap.sh --prefix=$TRINITY
