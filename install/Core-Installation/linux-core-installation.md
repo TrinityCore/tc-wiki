@@ -2,7 +2,7 @@
 title: Linux Core Installation
 description: 
 published: true
-date: 2021-08-15T02:24:51.527Z
+date: 2021-08-15T02:25:58.079Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-14T21:37:11.567Z
@@ -178,18 +178,27 @@ Note that you WILL have to configure the server well if you ever want to use the
 &nbsp;
 
 After configuring and checking that everything is in order (read cmakes output), you can build Trinity (this will take some time unless you are on a rather fast machine)
+<div class="next-codeblock-no-line-numbers"></div>
 
->make
+```bash
+make
 make install
+```
 
 If you have multiple CPU cores, you can enable the use of those during compile :
+<div class="next-codeblock-no-line-numbers"></div>
 
->make -j X(number of cores)
+```bash
+make -j X(number of cores)
 make install 
+```
 
 Alternatively:
+<div class="next-codeblock-no-line-numbers"></div>
 
->make -j $(nproc) install
+```bash
+make -j $(nproc) install
+```
 
 After compiling and installing, you will find your core binaries in **/home/username/server/bin**, and the standard configuration files in the **/home/username/server/etc** folder.
  (*As usual, replace username with the username you created earlier*). Now you can continue reading on and learn how how to update the source tree.
@@ -201,12 +210,20 @@ After compiling and installing, you will find your core binaries in **/home/user
 TrinityCore developers are always at work fixing and adding new features to the core. You can always check them [here](https://github.com/TrinityCore/TrinityCore/commits/3.3.5). To update the core files, do the following 
 
 For 3.3.5 Branch:
->cd ~/TrinityCore/
+<div class="next-codeblock-no-line-numbers"></div>
+
+```bash
+cd ~/TrinityCore/
 git pull origin 3.3.5
+```
 
 For master Branch
->cd ~/TrinityCore/
+<div class="next-codeblock-no-line-numbers"></div>
+
+```bash
+cd ~/TrinityCore/
 git pull origin master
+```
 
 Afterwards return to the "Compiling the source code" section again, and repeat the instructions there.
 
