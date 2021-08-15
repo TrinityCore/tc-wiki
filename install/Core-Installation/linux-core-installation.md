@@ -2,7 +2,7 @@
 title: Linux Core Installation
 description: 
 published: true
-date: 2021-08-15T02:25:58.079Z
+date: 2021-08-15T02:36:43.612Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-14T21:37:11.567Z
@@ -119,8 +119,6 @@ To configure the core, we use space-separated parameters attached to the configu
 ```bash
 cmake ../ [additional parameters]
 ```
-
-&nbsp;
 &nbsp;
 
 <details>
@@ -136,7 +134,21 @@ cmake ../ [additional parameters]
   
 > TODO - Tables in Markdown are crazy, not sure how to copy over https://trinitycore.atlassian.net/wiki/spaces/tc/pages/10977309/Linux+Core+Installation#LinuxCoreInstallation-Parameterexplanations
 {.is-danger}
-  </details>
+  
+  | Parameter             | Values                                                                                                                               | Usage             | Default |
+  |-----------------------|--------------------------------------------------------------------------------------------------------------------------------------|-------------------|---------|
+  | DWITH_WARNINGS        | 1: Show all warning during compile. (Advanced users only) 0: Disable most warnings during compile.                                   | -DWITH_WARNINGS=1 |    0    |
+  | DUSE_SCRIPTPCH        | 1: Use precompiled headers when compiling scripts. 0: Disables precompiled headers during servers compilation. (Advanced users only) | -DUSE_SCRIPTPCH=0 |    1    |
+  | DUSE_COREPCH          |                                                                                                                                      |                   |         |
+  | DTOOLS                |                                                                                                                                      |                   |         |
+  | DSERVERS              |                                                                                                                                      |                   |         |
+  | DSCRIPTS              |                                                                                                                                      |                   |         |
+  | DLIBSDIR              |                                                                                                                                      |                   |         |
+  | DCONF_DIR             |                                                                                                                                      |                   |         |
+  | DCMAKE_INSTALL_PREFIX |                                                                                                                                      |                   |         |
+  | DCMAKE_CXX_FLAGS      |                                                                                                                                      |                   |         |
+  | DCMAKE_C_FLAGS        |                                                                                                                                      |                   |         |
+</details>
   
 **The above parameters when combined into a full example:**
 
