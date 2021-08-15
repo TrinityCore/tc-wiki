@@ -2,7 +2,7 @@
 title: Core Installation
 description: Core Installation
 published: true
-date: 2021-08-15T08:28:42.907Z
+date: 2021-08-15T08:29:02.349Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-14T20:41:23.744Z
@@ -14,7 +14,7 @@ Pick one of the following guides
 
 ## By Platform
 - [Linux Core Installation](linux-core-installation)
-- [macOS Core Installation]((macOS-core-installation)
+- [macOS Core Installation](macOS-core-installation)
 - [Windows Core Installation]
 - [Windows Setup Troubleshooting]
 - [MinGW GCC toolchain]
