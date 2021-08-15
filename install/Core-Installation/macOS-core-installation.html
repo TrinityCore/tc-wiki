@@ -2,7 +2,7 @@
 title: macOS Core Installation
 description: 
 published: true
-date: 2021-08-15T08:38:42.266Z
+date: 2021-08-15T08:39:26.499Z
 tags: 
 editor: ckeditor
 dateCreated: 2021-08-15T08:23:23.965Z
@@ -11,10 +11,11 @@ dateCreated: 2021-08-15T08:23:23.965Z
 <h1>Getting started</h1>
 <p>This guide describes how to get TrinityCore running on macOS. macOS ships with several libraries including OpenSSL and a special version of Readline - both required by TrinityCore. But: They are useless. OpenSSL is too old and Readline is... well... special. So we have to build the right ones. This is fairly easy and by doing this on your own (using programs like MacPorts or Homebrew is the alternative) you may learn more about libraries, your Mac and its handling on a non-graphic way. But no matter what you're doing in this guide there is one rule you should remind and never ever break:</p>
 <p><strong>DO NOT INSTALL ANYTHING YOU BUILD IN THIS GUIDE TO A SYSTEM-RELEVANT PATH</strong>! Rather use a path in your home directory.</p>
-<p>We're going to put all the TrinityCore stuff to your home directory in the next step, even the installed binaries.&nbsp;We need to tell TrinityCore where its libraries are installed to. Further I guess you simply want to type "cmake" or "mysql" instead of "/Users/&lt;Username&gt;/Trinity/bin/cmake" or "/usr/local/mysql/bin/mysql". So we gonna set up a profile file which extends the default PATH and DYLD_LIBRARY_PATH variable and create a folder for the TrinityCore stuff:</p>
+<p>We're going to put all the TrinityCore stuff to your home directory in the next step, even the installed binaries.&nbsp;We need to tell TrinityCore where its libraries are installed to. Further I guess you simply want to type "cmake" or "mysql" instead of "/Users/&lt;Username&gt;/Trinity/bin/cmake" or "/usr/local/mysql/bin/mysql".&nbsp;</p>
+<p>So we gonna set up a profile file which extends the default PATH and DYLD_LIBRARY_PATH variable and create a folder for the TrinityCore stuff:</p>
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<p><code>mkdir ~/Trinity</code><br><code>nano ~/.profile</code></p>
+<pre><code class="language-plaintext">mkdir ~/Trinity
+nano ~/.profile</code></pre>
 <p>Add the following lines:</p>
 <pre><code class="language-plaintext">export TRINITY=/Users/&lt;Username&gt;/Trinity
 export PATH=$TRINITY/bin:/usr/local/mysql/bin:$PATH
