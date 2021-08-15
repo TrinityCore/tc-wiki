@@ -2,7 +2,7 @@
 title: Linux Core Installation
 description: 
 published: true
-date: 2021-08-15T03:15:35.413Z
+date: 2021-08-15T03:17:48.023Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-14T21:37:11.567Z
@@ -139,14 +139,14 @@ cmake ../ [additional parameters]
   |---|---|---|---|
   | DWITH_WARNINGS | - **1**: Show all warning during compile. (Advanced users only) | -DWITH_WARNINGS=1 | 0 | \
   |  | - **0**: Disable most warnings during compile. |  |  |
-  | DUSE_SCRIPTPCH | **1**: Use precompiled headers when compiling scripts. | -DUSE_SCRIPTPCH=0 | 1 | \
-  |  | **0**: Disables precompiled headers during servers compilation. (Advanced users only) |  |  |
-  | DUSE_COREPCH | **1**: Use precompiled headers when compiling servers. | -DUSE_COREPCH=0 | 1 | \
-  |  | **0**: Disables precompiled headers during servers compilation. (Advanced users only) |  |  |
-  | DTOOLS | **1**: Builds map/vmap/mmap etractor/assembler and connection_patcher (6.x) | -DTOOLS=0 | 1 | \
-  |  | **0**: Disables the building of tools. |  |  |
-  | DSERVERS | **1**: Builds authserver and worldserver. | -DSERVERS=1 | 1 | \
-  |  | **0**: Disables the building of servers. |  |  |
+  | DUSE_SCRIPTPCH | - **1**: Use precompiled headers when compiling scripts. | -DUSE_SCRIPTPCH=0 | 1 | \
+  |  | - **0**: Disables precompiled headers during servers compilation. (Advanced users only) |  |  |
+  | DUSE_COREPCH | - **1**: Use precompiled headers when compiling servers. | -DUSE_COREPCH=0 | 1 | \
+  |  | - **0**: Disables precompiled headers during servers compilation. (Advanced users only) |  |  |
+  | DTOOLS | - **1**: Builds map/vmap/mmap etractor/assembler and connection_patcher (6.x) | -DTOOLS=0 | 1 | \
+  |  | - **0**: Disables the building of tools. |  |  |
+  | DSERVERS | - **1**: Builds authserver and worldserver. | -DSERVERS=1 | 1 | \
+  |  | - **0**: Disables the building of servers. |  |  |
   | DSCRIPTS | "none": Disables all scripts |  |  |
   | DLIBSDIR | Sets libraries directory. (Advanced users only) | -DLIBSDIR=/lib |  |
   | DCONF_DIR | Sets configuration directory. (Advanced users only) | -DCONF_DIR=/home/trinitycore/conf | /usr/local/lib |
