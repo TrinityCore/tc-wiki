@@ -2,7 +2,7 @@
 title: Linux Core Installation
 description: 
 published: true
-date: 2021-08-15T03:17:48.023Z
+date: 2021-08-15T03:28:35.003Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-14T21:37:11.567Z
@@ -147,7 +147,19 @@ cmake ../ [additional parameters]
   |  | - **0**: Disables the building of tools. |  |  |
   | DSERVERS | - **1**: Builds authserver and worldserver. | -DSERVERS=1 | 1 | \
   |  | - **0**: Disables the building of servers. |  |  |
-  | DSCRIPTS | "none": Disables all scripts |  |  |
+  | - DSCRIPTS | "none": Disables all scripts |  |  | \
+  | - DSCRIPTS_COMMANDS |  |  |  | \
+  | - DSCRIPTS_CUSTOM |  |  |  | \
+  | - DSCRIPTS_EASTERNKINGDOMS |  |  |  | \
+  | - DSCRIPTS_EVENTS |  |  |  | \
+  | - DSCRIPTS_KALIMDOR |  |  |  | \
+  | - DSCRIPTS_NORTHREND |  |  |  | \
+  | - DSCRIPTS_OUTDOORPVP |  |  |  | \
+  | - DSCRIPTS_OUTLAND |  |  |  | \
+  | - DSCRIPTS_PET |  |  |  | \
+  | - DSCRIPTS_SPELLS |  |  |  | \
+  | - DSCRIPTS_WORLD |  |  |  | \
+  | {.grid-list} |  |  |  |
   | DLIBSDIR | Sets libraries directory. (Advanced users only) | -DLIBSDIR=/lib |  |
   | DCONF_DIR | Sets configuration directory. (Advanced users only) | -DCONF_DIR=/home/trinitycore/conf | /usr/local/lib |
   | DCMAKE_INSTALL_PREFIX | Path to the directory where TrinityCore will be installed. Required for script hotswapping. | -DCMAKE_INSTALL_PREFIX=/home/trinitycore/bin | /usr/local/etc |
