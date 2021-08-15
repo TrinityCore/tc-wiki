@@ -2,7 +2,7 @@
 title: Linux Core Installation
 description: 
 published: true
-date: 2021-08-15T02:57:04.618Z
+date: 2021-08-15T02:58:16.797Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-14T21:37:11.567Z
@@ -137,8 +137,8 @@ cmake ../ [additional parameters]
   
   | Parameter | Values | Usage | Default |
 |---|---|---|---|
-| DWITH_WARNINGS | 1: Show all warning during compile. (Advanced users only)<br>0: Disable most warnings during compile. | -DWITH_WARNINGS=1 | 0 |
-| DUSE_SCRIPTPCH | 1: Use precompiled headers when compiling scripts.0: Disables precompiled headers during servers compilation. (Advanced users only) | -DUSE_SCRIPTPCH=0 | 1 |
+| DWITH_WARNINGS | **1**: Show all warning during compile. (Advanced users only)<br>**0**: Disable most warnings during compile. | -DWITH_WARNINGS=1 | 0 |
+| DUSE_SCRIPTPCH | 1: Use precompiled headers when compiling scripts.<br>0: Disables precompiled headers during servers compilation. (Advanced users only) | -DUSE_SCRIPTPCH=0 | 1 |
 | DUSE_COREPCH | 1: Use precompiled headers when compiling servers.<br>0: Disables precompiled headers during servers compilation. (Advanced users only) | -DUSE_COREPCH=0 | 1 |
 | DTOOLS | 1: Builds map/vmap/mmap etractor/assembler and connection_patcher (6.x)<br>0: Disables the building of tools. | -DTOOLS=0 | 1 |
 | DSERVERS | 1: Builds authserver and worldserver.<br>0: Disables the building of servers. | -DSERVERS=1 | 1 |
