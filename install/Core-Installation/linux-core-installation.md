@@ -2,7 +2,7 @@
 title: Linux Core Installation
 description: 
 published: true
-date: 2021-08-15T02:36:43.612Z
+date: 2021-08-15T02:50:26.228Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-14T21:37:11.567Z
@@ -134,20 +134,20 @@ cmake ../ [additional parameters]
   
 > TODO - Tables in Markdown are crazy, not sure how to copy over https://trinitycore.atlassian.net/wiki/spaces/tc/pages/10977309/Linux+Core+Installation#LinuxCoreInstallation-Parameterexplanations
 {.is-danger}
-  
-  | Parameter             | Values                                                                                                                               | Usage             | Default |
-  |-----------------------|--------------------------------------------------------------------------------------------------------------------------------------|-------------------|---------|
-  | DWITH_WARNINGS        | 1: Show all warning during compile. (Advanced users only) 0: Disable most warnings during compile.                                   | -DWITH_WARNINGS=1 |    0    |
-  | DUSE_SCRIPTPCH        | 1: Use precompiled headers when compiling scripts. 0: Disables precompiled headers during servers compilation. (Advanced users only) | -DUSE_SCRIPTPCH=0 |    1    |
-  | DUSE_COREPCH          |                                                                                                                                      |                   |         |
-  | DTOOLS                |                                                                                                                                      |                   |         |
-  | DSERVERS              |                                                                                                                                      |                   |         |
-  | DSCRIPTS              |                                                                                                                                      |                   |         |
-  | DLIBSDIR              |                                                                                                                                      |                   |         |
-  | DCONF_DIR             |                                                                                                                                      |                   |         |
-  | DCMAKE_INSTALL_PREFIX |                                                                                                                                      |                   |         |
-  | DCMAKE_CXX_FLAGS      |                                                                                                                                      |                   |         |
-  | DCMAKE_C_FLAGS        |                                                                                                                                      |                   |         |
+
+  | Parameter             | Values                                                                                                                               | Usage                                        | Default        |
+|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|----------------|
+| DWITH_WARNINGS        | 1: Show all warning during compile. (Advanced users only) 0: Disable most warnings during compile.                                   | -DWITH_WARNINGS=1                            | 0              |
+| DUSE_SCRIPTPCH        | 1: Use precompiled headers when compiling scripts. 0: Disables precompiled headers during servers compilation. (Advanced users only) | -DUSE_SCRIPTPCH=0                            | 1              |
+| DUSE_COREPCH          | 1: Use precompiled headers when compiling servers.                                                                                   | -DUSE_COREPCH=0                              | 1              |
+| DTOOLS                | 1: Builds map/vmap/mmap etractor/assembler and connection_patcher (6.x)                                                              | -DTOOLS=0                                    | 1              |
+| DSERVERS              | 1: Builds authserver and worldserver.                                                                                                | -DSERVERS=1                                  | 1              |
+| DSCRIPTS              | "none": Disables all scripts                                                                                                         |                                              |                |
+| DLIBSDIR              | Sets libraries directory. (Advanced users only)                                                                                      | -DLIBSDIR=/lib                               |                |
+| DCONF_DIR             | Sets configuration directory. (Advanced users only)                                                                                  | -DCONF_DIR=/home/trinitycore/conf            | /usr/local/lib |
+| DCMAKE_INSTALL_PREFIX | Path to the directory where TrinityCore will be installed. Required for script hotswapping.                                          | -DCMAKE_INSTALL_PREFIX=/home/trinitycore/bin | /usr/local/etc |
+| DCMAKE_CXX_FLAGS      | Set CXX_FLAGS for compilation. (Advanced users only)                                                                                 | -DCMAKE_CXX_FLAGS="-std=c++11 -O0"           | /usr/local     |
+| DCMAKE_C_FLAGS        | Set C_FLAGS for compilation. (Advanced users only)                                                                                   | -DCMAKE_C_FLAGS="-msse3 -O3"                 |                |
 </details>
   
 **The above parameters when combined into a full example:**
