@@ -2,14 +2,11 @@
 title: Linux Core Installation
 description: 
 published: true
-date: 2021-08-14T21:37:11.567Z
+date: 2021-08-15T02:24:51.527Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-14T21:37:11.567Z
 ---
-
-# Linux Core Installation
-
 
 ## Getting started
 
@@ -40,14 +37,20 @@ DON'T clone, compile or run server as sudo or root.
 ### Creating a user to work with
 
 Start with logging in to your Linux-machine and create an account for the server itself - on most recent distributions this can easily be done with the following command :
+<div class="next-codeblock-no-line-numbers"></div>
 
->sudo adduser username
+```bash
+sudo adduser username
+```
 
 Note: Change "username" into the preferred username of your server-account - we will as far as possible avoid using specific usernames in this how-to.
 
 Sample usernames found in various parts of this guide: **wow , trinity** ( - select a logical name that makes sense to you when creating the user - ).
+<div class="next-codeblock-no-line-numbers"></div>
 
->sudo su - username
+```bash
+sudo su - username
+```
 
 Note : Change your current user to "username" so everything will run and compile with the user you just have created.
 
@@ -66,16 +69,22 @@ See [Requirements](/install/requirements/)
 **Getting the source code**
 
 3.3.5 (wotlk client)
+<div class="next-codeblock-no-line-numbers"></div>
 
->cd ~/
+```bash
+cd ~/
 git clone -b 3.3.5 git://github.com/TrinityCore/TrinityCore.git 
+```
 
 This will clone 3.3.5a branch, this is the  **RECOMMENDED**  branch for starters.
 
 master (check [Trinitycore Github](https://github.com/TrinityCore/TrinityCore) for current version)
+<div class="next-codeblock-no-line-numbers"></div>
 
->cd ~/
-git clone -b master git://github.com/TrinityCore/TrinityCore.git 
+```bash
+cd ~/
+git clone -b master git://github.com/TrinityCore/TrinityCore.git
+```
 
 This will clone **master** branch, note that this is **NOT** the recommended branch for starters.
 &nbsp;
@@ -92,17 +101,24 @@ The directory **TrinityCore** will be created automatically and all the source f
 **Creating the build-directory**
 
 To avoid issues with updates and colliding source builds, we create a specific build-directory, so we avoid any possible issues due to that (if any might occur)
+<div class="next-codeblock-no-line-numbers"></div>
 
->cd TrinityCore
+```bash
+cd TrinityCore
 mkdir build
 cd build
+```
 
 **Configuring for compiling**
 
 To configure the core, we use space-separated parameters attached to the configuration-tool (cmake) - **do read the entire section before even starting on the configuration-part.**
 <ins>This is for your own good, and you HAVE been warned. A full example will also be shown underneath the explanations.</ins>
 
->cmake ../ [additional parameters]
+<div class="next-codeblock-no-line-numbers"></div>
+
+```bash
+cmake ../ [additional parameters]
+```
 
 &nbsp;
 &nbsp;
@@ -124,12 +140,20 @@ To configure the core, we use space-separated parameters attached to the configu
   
 **The above parameters when combined into a full example:**
 
->By default this is the only row you will need to run to setup your install:
-cmake ../ -DCMAKE_INSTALL_PREFIX=/home/username/server
+> By default this is the only row you will need to run to setup your install:
+> <div class="next-codeblock-no-line-numbers"></div>
+> 
+> ```bash
+> cmake ../ -DCMAKE_INSTALL_PREFIX=/home/username/server
+> ```
 >
 >More examples below: 
-cmake ../ -DCMAKE_INSTALL_PREFIX=/home/wow/server -DTOOLS=0
-cmake ../ -DCMAKE_INSTALL_PREFIX=/home/$USER/server -DTOOLS=0 -DWITH_WARNINGS=1
+><div class="next-codeblock-no-line-numbers"></div>
+>
+>```bash
+>cmake ../ -DCMAKE_INSTALL_PREFIX=/home/wow/server -DTOOLS=0
+>cmake ../ -DCMAKE_INSTALL_PREFIX=/home/$USER/server -DTOOLS=0 -DWITH_WARNINGS=1
+>```
   
 The 1st row builds the core with the tools, set installation base directory to **/home/username/server**.
 
