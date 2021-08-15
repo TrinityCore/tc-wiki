@@ -2,7 +2,7 @@
 title: Linux Core Installation
 description: 
 published: true
-date: 2021-08-15T03:14:01.400Z
+date: 2021-08-15T03:15:35.413Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-14T21:37:11.567Z
@@ -137,8 +137,8 @@ cmake ../ [additional parameters]
   
   | Parameter | Values | Usage | Default |
   |---|---|---|---|
-  | DWITH_WARNINGS | **1**: Show all warning during compile. (Advanced users only) | -DWITH_WARNINGS=1 | 0 | \
-  |  | **0**: Disable most warnings during compile. |  |  |
+  | DWITH_WARNINGS | - **1**: Show all warning during compile. (Advanced users only) | -DWITH_WARNINGS=1 | 0 | \
+  |  | - **0**: Disable most warnings during compile. |  |  |
   | DUSE_SCRIPTPCH | **1**: Use precompiled headers when compiling scripts. | -DUSE_SCRIPTPCH=0 | 1 | \
   |  | **0**: Disables precompiled headers during servers compilation. (Advanced users only) |  |  |
   | DUSE_COREPCH | **1**: Use precompiled headers when compiling servers. | -DUSE_COREPCH=0 | 1 | \
