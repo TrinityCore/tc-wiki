@@ -2,7 +2,7 @@
 title: Linux Core Installation
 description: 
 published: true
-date: 2021-08-15T03:40:46.352Z
+date: 2021-08-16T13:08:01.308Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-14T21:37:11.567Z
@@ -167,6 +167,37 @@ cmake ../ [additional parameters]
   | DCMAKE_C_FLAGS | Set C_FLAGS for compilation. (Advanced users only) | -DCMAKE_C_FLAGS="-msse3 -O3" |  |
 </details>
   
+  | Parameter | Values | Usage | Default |
+  |---|---|:---:|:---:|
+  | DWITH_WARNINGS | - **1**: Show all warning during compile. (Advanced users only) | -DWITH_WARNINGS=1 | 0 | \
+  |  | - **0**: Disable most warnings during compile. |  |  |
+  | DUSE_SCRIPTPCH | - **1**: Use precompiled headers when compiling scripts. | -DUSE_SCRIPTPCH=0 | 1 | \
+  |  | - **0**: Disables precompiled headers during servers compilation. (Advanced users only) |  |  |
+  | DUSE_COREPCH | - **1**: Use precompiled headers when compiling servers. | -DUSE_COREPCH=0 | 1 | \
+  |  | - **0**: Disables precompiled headers during servers compilation. (Advanced users only) |  |  |
+  | DTOOLS | - **1**: Builds map/vmap/mmap etractor/assembler and connection_patcher (6.x) | -DTOOLS=0 | 1 | \
+  |  | - **0**: Disables the building of tools. |  |  |
+  | DSERVERS | - **1**: Builds authserver and worldserver. | -DSERVERS=1 | 1 | \
+  |  | - **0**: Disables the building of servers. |  |  |
+  | DSCRIPTS | - **"none"**: Disables all scripts |  |  | \
+  | - DSCRIPTS_COMMANDS | - **"static"**: - Builds all scripts statically. (this is the old -DSCRIPTS=1 option). |  |  | \
+  | - DSCRIPTS_CUSTOM | - **"dynamic"**: - Builds all scripts dynamically (Experimental feature). |  |  | \
+  | - DSCRIPTS_EASTERNKINGDOMS | - **"minimal-static"**: Builds Commands and Spells statically, disables other scripts (this is the old -DSCRIPTS=0 option). |  |  | \
+  | - DSCRIPTS_EVENTS | - **"minimal-dynamic"**: Builds Commands and Spells dynamically, disables other scripts. |  |  | \
+  | - DSCRIPTS_KALIMDOR | 	- **DSCRIPTS MODULES** |  |  | \
+  | - DSCRIPTS_NORTHREND | 	- **"default"**: Inherit DSCRIPTS value. |  |  | \
+  | - DSCRIPTS_OUTDOORPVP | 	- **"disabled"**: Disables the building of the given module. |  |  | \
+  | - DSCRIPTS_OUTLAND | 	- **"dynamic"**: Compiles the given module as a dynamic library. |  |  | \
+  | - DSCRIPTS_PET | 	- **"static"**: Compiles the given module as a static library. |  |  | \
+  | - DSCRIPTS_SPELLS | 	{.grid-list} |  |  | \
+  | - DSCRIPTS_WORLD |  |  |  | \
+  | {.grid-list} |  |  |  |
+  | DLIBSDIR | Sets libraries directory. (Advanced users only) | -DLIBSDIR=/lib |  |
+  | DCONF_DIR | Sets configuration directory. (Advanced users only) | -DCONF_DIR=/home/trinitycore/conf | /usr/local/lib |
+  | DCMAKE_INSTALL_PREFIX | Path to the directory where TrinityCore will be installed. Required for script hotswapping. | -DCMAKE_INSTALL_PREFIX=/home/trinitycore/bin | /usr/local/etc |
+  | DCMAKE_CXX_FLAGS | Set CXX_FLAGS for compilation. (Advanced users only) | -DCMAKE_CXX_FLAGS="-std=c++11 -O0" | /usr/local |
+  | DCMAKE_C_FLAGS | Set C_FLAGS for compilation. (Advanced users only) | -DCMAKE_C_FLAGS="-msse3 -O3" |  |
+
 **The above parameters when combined into a full example:**
 
 > By default this is the only row you will need to run to setup your install:
