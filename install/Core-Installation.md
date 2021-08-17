@@ -2,13 +2,22 @@
 title: Core Installation
 description: Core Installation
 published: true
-date: 2021-08-15T10:20:50.921Z
+date: 2021-08-17T09:59:21.358Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-14T20:41:23.744Z
 ---
 
 # Core Installation
+
+> **Note:** 
+> Trinitycore is divided into 2 branches. These are **3.3.5** (Wrath of the Lich King) & **Master** (follows the current live version of WoW). 
+> 3.3.5 is recommended for everyone. 
+> Master has hardly any game content and should therefore not be taken with the intention of having a good gaming experience.
+> Within the instructions we will make an explicit distinction between these two branches at some points.
+> Read each chapter carefully and follow the steps for your planned game version.
+{.is-info}
+
 
 Pick one of the following guides
 
