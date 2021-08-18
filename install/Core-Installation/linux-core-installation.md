@@ -2,7 +2,7 @@
 title: Linux Core Installation
 description: 
 published: true
-date: 2021-08-18T20:17:30.402Z
+date: 2021-08-18T20:17:54.897Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-14T21:37:11.567Z
@@ -163,34 +163,6 @@ path to your OpenSSL includes directory - **use if you have OpenSSL installed sy
 | DCMAKE_INSTALL_PREFIX | Path to the directory where TrinityCore will be installed. Required for script hotswapping. | -DCMAKE_INSTALL_PREFIX=/home/trinitycore/bin | /usr/local/etc |
 | DCMAKE_CXX_FLAGS | Set CXX_FLAGS for compilation. (Advanced users only) | -DCMAKE_CXX_FLAGS="-std=c++11 -O0" | /usr/local |
 | DCMAKE_C_FLAGS | Set C_FLAGS for compilation. (Advanced users only) | -DCMAKE_C_FLAGS="-msse3 -O3" |  |
-
-<div id="faccordion">
-
-- ### Item 1
-  Text
-
-- ### Item 2
-  Text
-
-- ### Section 1
-  Text
-
-  - #### Section 1, item 1
-    Text
-
-  - #### Section 2
-    Text
-
-    - ##### Section 2, Item 1
-      Text
-
-    - ##### Section 2, Item 2
-      Text
-
-- ### Item 3
-  Text
-  
-</div>
 
 **The above parameters when combined into a full example:**
 
