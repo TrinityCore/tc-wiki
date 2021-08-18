@@ -2,7 +2,7 @@
 title: Linux Core Installation
 description: 
 published: true
-date: 2021-08-16T13:08:01.308Z
+date: 2021-08-18T20:17:30.402Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-14T21:37:11.567Z
@@ -121,82 +121,76 @@ cmake ../ [additional parameters]
 ```
 &nbsp;
 
-<details>
-  <summary>Parameter explanations (advanced users) (expand)</summary>
+#### Parameter explanations (advanced users)
+
+path to your OpenSSL library - **use if you have OpenSSL installed system wide with a different version to 1.0.x:**
+
+>-DOPENSSL_LIBRARIES=path to OpenSSL library
+
+path to your OpenSSL includes directory - **use if you have OpenSSL installed system wide with a different version to 1.0.x:**
+
+>-DOPENSSL_INCLUDE_DIR=path to OpenSSL includes
+
+&nbsp;
+
+| Parameter | Values | Usage | Default |
+|---|---|:---:|:---:|
+| DWITH_WARNINGS | - **1**: Show all warning during compile. (Advanced users only) | -DWITH_WARNINGS=1 | 0 | \
+|  | - **0**: Disable most warnings during compile. |  |  |
+| DUSE_SCRIPTPCH | - **1**: Use precompiled headers when compiling scripts. | -DUSE_SCRIPTPCH=0 | 1 | \
+|  | - **0**: Disables precompiled headers during servers compilation. (Advanced users only) |  |  |
+| DUSE_COREPCH | - **1**: Use precompiled headers when compiling servers. | -DUSE_COREPCH=0 | 1 | \
+|  | - **0**: Disables precompiled headers during servers compilation. (Advanced users only) |  |  |
+| DTOOLS | - **1**: Builds map/vmap/mmap etractor/assembler and connection_patcher (6.x) | -DTOOLS=0 | 1 | \
+|  | - **0**: Disables the building of tools. |  |  |
+| DSERVERS | - **1**: Builds authserver and worldserver. | -DSERVERS=1 | 1 | \
+|  | - **0**: Disables the building of servers. |  |  |
+| DSCRIPTS | - **"none"**: Disables all scripts |  |  | \
+| - DSCRIPTS_COMMANDS | - **"static"**: - Builds all scripts statically. (this is the old -DSCRIPTS=1 option). |  |  | \
+| - DSCRIPTS_CUSTOM | - **"dynamic"**: - Builds all scripts dynamically (Experimental feature). |  |  | \
+| - DSCRIPTS_EASTERNKINGDOMS | - **"minimal-static"**: Builds Commands and Spells statically, disables other scripts (this is the old -DSCRIPTS=0 option). |  |  | \
+| - DSCRIPTS_EVENTS | - **"minimal-dynamic"**: Builds Commands and Spells dynamically, disables other scripts. |  |  | \
+| - DSCRIPTS_KALIMDOR | 	- **DSCRIPTS MODULES** |  |  | \
+| - DSCRIPTS_NORTHREND | 	- **"default"**: Inherit DSCRIPTS value. |  |  | \
+| - DSCRIPTS_OUTDOORPVP | 	- **"disabled"**: Disables the building of the given module. |  |  | \
+| - DSCRIPTS_OUTLAND | 	- **"dynamic"**: Compiles the given module as a dynamic library. |  |  | \
+| - DSCRIPTS_PET | 	- **"static"**: Compiles the given module as a static library. |  |  | \
+| - DSCRIPTS_SPELLS | 	{.grid-list} |  |  | \
+| - DSCRIPTS_WORLD |  |  |  | \
+| {.grid-list} |  |  |  |
+| DLIBSDIR | Sets libraries directory. (Advanced users only) | -DLIBSDIR=/lib |  |
+| DCONF_DIR | Sets configuration directory. (Advanced users only) | -DCONF_DIR=/home/trinitycore/conf | /usr/local/lib |
+| DCMAKE_INSTALL_PREFIX | Path to the directory where TrinityCore will be installed. Required for script hotswapping. | -DCMAKE_INSTALL_PREFIX=/home/trinitycore/bin | /usr/local/etc |
+| DCMAKE_CXX_FLAGS | Set CXX_FLAGS for compilation. (Advanced users only) | -DCMAKE_CXX_FLAGS="-std=c++11 -O0" | /usr/local |
+| DCMAKE_C_FLAGS | Set C_FLAGS for compilation. (Advanced users only) | -DCMAKE_C_FLAGS="-msse3 -O3" |  |
+
+<div id="faccordion">
+
+- ### Item 1
+  Text
+
+- ### Item 2
+  Text
+
+- ### Section 1
+  Text
+
+  - #### Section 1, item 1
+    Text
+
+  - #### Section 2
+    Text
+
+    - ##### Section 2, Item 1
+      Text
+
+    - ##### Section 2, Item 2
+      Text
+
+- ### Item 3
+  Text
   
-  path to your OpenSSL library - **use if you have OpenSSL installed system wide with a different version to 1.0.x:**
-  
-  >-DOPENSSL_LIBRARIES=path to OpenSSL library
-  
-  path to your OpenSSL includes directory - **use if you have OpenSSL installed system wide with a different version to 1.0.x:**
-  
-  >-DOPENSSL_INCLUDE_DIR=path to OpenSSL includes
-  
-> TODO - Tables in Markdown are crazy, not sure how to copy over https://trinitycore.atlassian.net/wiki/spaces/tc/pages/10977309/Linux+Core+Installation#LinuxCoreInstallation-Parameterexplanations
-{.is-danger}
-  
-  | Parameter | Values | Usage | Default |
-  |---|---|:---:|:---:|
-  | DWITH_WARNINGS | - **1**: Show all warning during compile. (Advanced users only) | -DWITH_WARNINGS=1 | 0 | \
-  |  | - **0**: Disable most warnings during compile. |  |  |
-  | DUSE_SCRIPTPCH | - **1**: Use precompiled headers when compiling scripts. | -DUSE_SCRIPTPCH=0 | 1 | \
-  |  | - **0**: Disables precompiled headers during servers compilation. (Advanced users only) |  |  |
-  | DUSE_COREPCH | - **1**: Use precompiled headers when compiling servers. | -DUSE_COREPCH=0 | 1 | \
-  |  | - **0**: Disables precompiled headers during servers compilation. (Advanced users only) |  |  |
-  | DTOOLS | - **1**: Builds map/vmap/mmap etractor/assembler and connection_patcher (6.x) | -DTOOLS=0 | 1 | \
-  |  | - **0**: Disables the building of tools. |  |  |
-  | DSERVERS | - **1**: Builds authserver and worldserver. | -DSERVERS=1 | 1 | \
-  |  | - **0**: Disables the building of servers. |  |  |
-  | DSCRIPTS | - **"none"**: Disables all scripts |  |  | \
-  | - DSCRIPTS_COMMANDS | - **"static"**: - Builds all scripts statically. (this is the old -DSCRIPTS=1 option). |  |  | \
-  | - DSCRIPTS_CUSTOM | - **"dynamic"**: - Builds all scripts dynamically (Experimental feature). |  |  | \
-  | - DSCRIPTS_EASTERNKINGDOMS | - **"minimal-static"**: Builds Commands and Spells statically, disables other scripts (this is the old -DSCRIPTS=0 option). |  |  | \
-  | - DSCRIPTS_EVENTS | - **"minimal-dynamic"**: Builds Commands and Spells dynamically, disables other scripts. |  |  | \
-  | - DSCRIPTS_KALIMDOR | 	- **DSCRIPTS MODULES** |  |  | \
-  | - DSCRIPTS_NORTHREND | 	- **"default"**: Inherit DSCRIPTS value. |  |  | \
-  | - DSCRIPTS_OUTDOORPVP | 	- **"disabled"**: Disables the building of the given module. |  |  | \
-  | - DSCRIPTS_OUTLAND | 	- **"dynamic"**: Compiles the given module as a dynamic library. |  |  | \
-  | - DSCRIPTS_PET | 	- **"static"**: Compiles the given module as a static library. |  |  | \
-  | - DSCRIPTS_SPELLS | 	{.grid-list} |  |  | \
-  | - DSCRIPTS_WORLD |  |  |  | \
-  | {.grid-list} |  |  |  |
-  | DLIBSDIR | Sets libraries directory. (Advanced users only) | -DLIBSDIR=/lib |  |
-  | DCONF_DIR | Sets configuration directory. (Advanced users only) | -DCONF_DIR=/home/trinitycore/conf | /usr/local/lib |
-  | DCMAKE_INSTALL_PREFIX | Path to the directory where TrinityCore will be installed. Required for script hotswapping. | -DCMAKE_INSTALL_PREFIX=/home/trinitycore/bin | /usr/local/etc |
-  | DCMAKE_CXX_FLAGS | Set CXX_FLAGS for compilation. (Advanced users only) | -DCMAKE_CXX_FLAGS="-std=c++11 -O0" | /usr/local |
-  | DCMAKE_C_FLAGS | Set C_FLAGS for compilation. (Advanced users only) | -DCMAKE_C_FLAGS="-msse3 -O3" |  |
-</details>
-  
-  | Parameter | Values | Usage | Default |
-  |---|---|:---:|:---:|
-  | DWITH_WARNINGS | - **1**: Show all warning during compile. (Advanced users only) | -DWITH_WARNINGS=1 | 0 | \
-  |  | - **0**: Disable most warnings during compile. |  |  |
-  | DUSE_SCRIPTPCH | - **1**: Use precompiled headers when compiling scripts. | -DUSE_SCRIPTPCH=0 | 1 | \
-  |  | - **0**: Disables precompiled headers during servers compilation. (Advanced users only) |  |  |
-  | DUSE_COREPCH | - **1**: Use precompiled headers when compiling servers. | -DUSE_COREPCH=0 | 1 | \
-  |  | - **0**: Disables precompiled headers during servers compilation. (Advanced users only) |  |  |
-  | DTOOLS | - **1**: Builds map/vmap/mmap etractor/assembler and connection_patcher (6.x) | -DTOOLS=0 | 1 | \
-  |  | - **0**: Disables the building of tools. |  |  |
-  | DSERVERS | - **1**: Builds authserver and worldserver. | -DSERVERS=1 | 1 | \
-  |  | - **0**: Disables the building of servers. |  |  |
-  | DSCRIPTS | - **"none"**: Disables all scripts |  |  | \
-  | - DSCRIPTS_COMMANDS | - **"static"**: - Builds all scripts statically. (this is the old -DSCRIPTS=1 option). |  |  | \
-  | - DSCRIPTS_CUSTOM | - **"dynamic"**: - Builds all scripts dynamically (Experimental feature). |  |  | \
-  | - DSCRIPTS_EASTERNKINGDOMS | - **"minimal-static"**: Builds Commands and Spells statically, disables other scripts (this is the old -DSCRIPTS=0 option). |  |  | \
-  | - DSCRIPTS_EVENTS | - **"minimal-dynamic"**: Builds Commands and Spells dynamically, disables other scripts. |  |  | \
-  | - DSCRIPTS_KALIMDOR | 	- **DSCRIPTS MODULES** |  |  | \
-  | - DSCRIPTS_NORTHREND | 	- **"default"**: Inherit DSCRIPTS value. |  |  | \
-  | - DSCRIPTS_OUTDOORPVP | 	- **"disabled"**: Disables the building of the given module. |  |  | \
-  | - DSCRIPTS_OUTLAND | 	- **"dynamic"**: Compiles the given module as a dynamic library. |  |  | \
-  | - DSCRIPTS_PET | 	- **"static"**: Compiles the given module as a static library. |  |  | \
-  | - DSCRIPTS_SPELLS | 	{.grid-list} |  |  | \
-  | - DSCRIPTS_WORLD |  |  |  | \
-  | {.grid-list} |  |  |  |
-  | DLIBSDIR | Sets libraries directory. (Advanced users only) | -DLIBSDIR=/lib |  |
-  | DCONF_DIR | Sets configuration directory. (Advanced users only) | -DCONF_DIR=/home/trinitycore/conf | /usr/local/lib |
-  | DCMAKE_INSTALL_PREFIX | Path to the directory where TrinityCore will be installed. Required for script hotswapping. | -DCMAKE_INSTALL_PREFIX=/home/trinitycore/bin | /usr/local/etc |
-  | DCMAKE_CXX_FLAGS | Set CXX_FLAGS for compilation. (Advanced users only) | -DCMAKE_CXX_FLAGS="-std=c++11 -O0" | /usr/local |
-  | DCMAKE_C_FLAGS | Set C_FLAGS for compilation. (Advanced users only) | -DCMAKE_C_FLAGS="-msse3 -O3" |  |
+</div>
 
 **The above parameters when combined into a full example:**
 
