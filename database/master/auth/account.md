@@ -2,7 +2,7 @@
 title: account
 description: This table holds information on all available game accounts.
 published: true
-date: 2021-08-19T10:41:34.433Z
+date: 2021-08-19T10:47:04.695Z
 tags: database, auth, master, account
 editor: markdown
 dateCreated: 2021-08-19T10:37:27.827Z
@@ -12,7 +12,7 @@ dateCreated: 2021-08-19T10:37:27.827Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 |---|---|---|---|---|---|---|---|
-| id | int(10) | unsigned | PRI | NO |  | AUTO_INCREMENT | Identifier |
+| id | int(10) | unsigned | PRI | NO |  | Auto increment | Identifier |
 | username |  |  | UNI |  |  |  |  |
 | salt |  |  |  |  |  |  |  |
 | verifier |  |  |  |  |  |  |  |
