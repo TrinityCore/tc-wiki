@@ -2,7 +2,7 @@
 title: account
 description: This table holds information on all available game accounts.
 published: true
-date: 2021-08-19T19:26:24.066Z
+date: 2021-08-19T19:27:55.841Z
 tags: database, auth, master, account
 editor: markdown
 dateCreated: 2021-08-19T10:37:27.827Z
@@ -69,7 +69,13 @@ The account user name.
 &nbsp;
 
 ### sha_pass_hash
-*- no description -*
+This field contains the encrypted password. The encryption is SHA1 and is in the following format: username:password. The SQL to create the password (or to compare with the current hash) is:
+
+<div class="next-codeblock-no-line-numbers"></div>
+
+```bash
+SELECT SHA1(CONCAT(UPPER(`username`), ':', UPPER(&lt;pass&gt;)));
+```
 &nbsp;
 
 ### v
