@@ -2,7 +2,7 @@
 title: account
 description: This table holds information on all available game accounts.
 published: true
-date: 2021-08-19T15:56:28.329Z
+date: 2021-08-19T15:59:46.570Z
 tags: database, auth, master, account
 editor: markdown
 dateCreated: 2021-08-19T10:37:27.827Z
@@ -13,7 +13,7 @@ dateCreated: 2021-08-19T10:37:27.827Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 |---|---|---|---|---|---|---|---|
 | [id](/database/master/auth/account#id) | int(10) | unsigned | PRI | NO |  | Auto increment | Identifier |
-| username |  |  | UNI |  |  |  |  |
+| [username](https://dev.trinitycore.info/database/master/auth/account#id) |  |  | UNI |  |  |  |  |
 | salt |  |  |  |  |  |  |  |
 | verifier |  |  |  |  |  |  |  |
 | session_key_auth |  |  |  |  |  |  |  |
