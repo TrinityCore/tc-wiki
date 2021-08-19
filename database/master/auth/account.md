@@ -2,7 +2,7 @@
 title: account
 description: This table holds information on all available game accounts.
 published: true
-date: 2021-08-19T19:12:26.196Z
+date: 2021-08-19T19:26:24.066Z
 tags: database, auth, master, account
 editor: markdown
 dateCreated: 2021-08-19T10:37:27.827Z
@@ -45,117 +45,144 @@ dateCreated: 2021-08-19T10:37:27.827Z
 ## Description of fields
 
 ### id
-Some stuff here
+The unique account ID.
 &nbsp;
 
 ### username
-Some stuff here
+The account user name.
 &nbsp;
 
 ### salt
-Some stuff here
+*- no description -*
 &nbsp;
 
 ### verifier
-Some stuff here
+*- no description -*
 &nbsp;
 
 ### session_key_auth
-Some stuff here
+*- no description -*
 &nbsp;
 
 ### session_key_bnet
-Some stuff here
+*- no description -*
 &nbsp;
 
 ### sha_pass_hash
-Some stuff here
+*- no description -*
 &nbsp;
 
 ### v
-Some stuff here
+*- no description -*
 &nbsp;
 
 ### s
-Some stuff here
+*- no description -*
 &nbsp;
 
 ### token_key
-Some stuff here
+The authenticator key.
+
+Key can be generated through the Google Authenticator API, a 3rd-party TOTP generator, or manually specified (must be a Base32-compliant expression that is 16 characters).
+
+Implementation link on Wikipedia for the Google Authenticator API
+
+http://en.wikipedia.org/wiki/Google_Authenticator#Implementations
 &nbsp;
 
 ### email
-Some stuff here
+The e-mail address associated with this account.
 &nbsp;
 
 ### reg_mail
-Some stuff here
+The registration e-mail address associated with this account.
 &nbsp;
 
 ### joindate
-Some stuff here
+The date when the account was created.
 &nbsp;
 
 ### last_ip
-Some stuff here
+The last IP used by the person who logged in the account.
 &nbsp;
 
 ### last_attempt_ip
-Some stuff here
+*- no description -*
 &nbsp;
 
 ### failed_logins
-Some stuff here
+The number of failed logins attempted on the account.
 &nbsp;
 
 ### locked
-Some stuff here
+Boolean 0 or 1 controlling if the account has been locked or not. This can be controlled with the ".account lock" GM command. If locked (1), the user can only log in with their last_ip. If unlocked (0), a user can log in from any IP, and their last_ip will be updated if it is different. ".Ban account" does not lock it.
 &nbsp;
 
 ### lock_country
-Some stuff here
+*- no description -*
 &nbsp;
 
 ### last_login
-Some stuff here
+The date when the account was last logged into.
 &nbsp;
 
 ### online
-Some stuff here
+Boolean 0 or 1 controlling if the account is currently logged in and online.
 &nbsp;
 
 ### expansion
-Some stuff here
+Integer 0 - 8 controlling if the client logged in on the account has any expansions. (for example if client is TBC, but expansion is set to 0, it will not be able to enter outlands and etc.)
+
+|Value|Expansion|
+|:---:|:---: |
+|0|Vanilla|
+|1|The Burning Crusade (TBC)|
+|2|Wrath of the Lich King (WotLK)|
+|3|Cataclysm (Cata)|
+|4|Mist of Pandaria (MoP)|
+|5|Warlords of Draenor (WoD)|
+|6|Legion|
+|7|Battle for Azeroth (BfA)|
+|8|Shadowlands (SL)|
 &nbsp;
 
 ### mutetime
-Some stuff here
+The time, in Unix time, when the account will be unmuted. To see when mute will be expired you can use this query:
+
+<div class="next-codeblock-no-line-numbers"></div>
+
+```bash
+SELECT FROM_UNIXTIME(`mutetime`);
+```
 &nbsp;
 
 ### mutereason
-Some stuff here
+The reason for the mute.
 &nbsp;
 
 ### muteby
-Some stuff here
+The character name with the rights to the .mute command that give the mute.
 &nbsp;
 
 ### locale
-Some stuff here
+The locale used by the client logged into this account. If multiple locale data has been configured and added to the world servers, the world servers will return the proper locale strings to the client. See localization IDs
 &nbsp;
 
 ### os
-Some stuff here
+Stores information about client's OS. Used by Warden system.
+
+- Win
+- Mac
 &nbsp;
 
 ### recruiter
-Some stuff here
+The account ID of another account. Used for recuit-a-friend system. See [account.id](#id)
 &nbsp;
 
 ### battlenet_account
-Some stuff here
+*- no description -*
 &nbsp;
 
 ### battlenet_index
-Some stuff here
+*- no description -*
 &nbsp;
