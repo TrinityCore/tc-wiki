@@ -2,7 +2,7 @@
 title: account
 description: This table holds information on all available game accounts.
 published: true
-date: 2021-08-19T16:01:46.617Z
+date: 2021-08-19T16:03:06.738Z
 tags: database, auth, master, account
 editor: markdown
 dateCreated: 2021-08-19T10:37:27.827Z
@@ -42,38 +42,38 @@ dateCreated: 2021-08-19T10:37:27.827Z
 | battlenet_account |  |  |  |  |  |  |  |
 | battlenet_index |  |  |  |  |  |  |  |
 
-## id
+### id
 Some stuff here
 
-## username
+### username
 Some stuff here
 
-## salt
+### salt
 Some stuff here
 
-## verifier
+### verifier
 Some stuff here
 
-## session_key_auth
+### session_key_auth
 Some stuff here
 
-## session_key_bnet
+### session_key_bnet
 Some stuff here
 
-## sha_pass_hash
+### sha_pass_hash
 Some stuff here
 
-## v
+### v
 Some stuff here
 
-## s
+### s
 Some stuff here
 
-## token_key
+### token_key
 Some stuff here
 
-## email
+### email
 Some stuff here
 
-## reg_mail
+### reg_mail
 Some stuff here
