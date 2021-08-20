@@ -2,11 +2,13 @@
 title: account_last_played_character
 description: 
 published: true
-date: 2021-08-20T13:48:14.868Z
+date: 2021-08-20T13:52:12.773Z
 tags: database, auth, master
 editor: markdown
 dateCreated: 2021-08-20T13:48:14.868Z
 ---
+
+## Structure
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 |---|---|---|---|---|---|---|---|
