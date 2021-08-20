@@ -2,15 +2,13 @@
 title: Requirements
 description: 
 published: true
-date: 2021-08-14T03:29:52.537Z
+date: 2021-08-20T03:53:50.517Z
 tags: requirements, installation, setup
 editor: markdown
 dateCreated: 2021-08-13T23:52:06.467Z
 ---
 
 > If you have trouble installing upon recent version of OpenSSL, try to follow https://github.com/TrinityCore/TrinityCore/issues/21350#issuecomment-363150020 solution
->
->You will need MySQL Strict Mode to be disabled (specially if you use mysql 5.7 or higher).
 {.is-info}
 
 >**Supported Client Version**
