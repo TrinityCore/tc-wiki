@@ -2,7 +2,7 @@
 title: account
 description: This table holds information on all available game accounts.
 published: true
-date: 2021-08-19T19:27:55.841Z
+date: 2021-08-20T18:11:36.275Z
 tags: database, auth, master, account
 editor: markdown
 dateCreated: 2021-08-19T10:37:27.827Z
@@ -11,36 +11,36 @@ dateCreated: 2021-08-19T10:37:27.827Z
 ## Structure
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
-|---|---|---|---|---|---|---|---|
+|---|---|---|:---:|:---:|---|---|---|
 | [id](#id) | int(10) | unsigned | PRI | NO |  | Auto increment | Identifier |
-| [username](#username) |  |  | UNI |  |  |  |  |
-| [salt](#salt) |  |  |  |  |  |  |  |
-| [verifier](#verifier) |  |  |  |  |  |  |  |
-| [session_key_auth](#session_key_auth) |  |  |  |  |  |  |  |
-| [session_key_bnet](#session_key_bnet) |  |  |  |  |  |  |  |
-| [sha_pass_hash](#sha_pass_hash) |  |  |  |  |  |  |  |
-| [v](#v) |  |  |  |  |  |  |  |
-| [s](#s) |  |  |  |  |  |  |  |
-| [token_key](#token_key) |  |  |  |  |  |  |  |
-| [email](#email) |  |  |  |  |  |  |  |
-| [reg_mail](#reg_mail) |  |  |  |  |  |  |  |
-| [joindate](#joindate) |  |  |  |  |  |  |  |
-| [last_ip](#last_ip) |  |  |  |  |  |  |  |
-| [last_attempt_ip](#last_attempt_ip) |  |  |  |  |  |  |  |
-| [failed_logins](#failed_logins) |  |  |  |  |  |  |  |
-| [locked](#locked) |  |  |  |  |  |  |  |
-| [lock_country](#lock_country) |  |  |  |  |  |  |  |
-| [last_login](#last_login) |  |  |  |  |  |  |  |
-| [online](#online) |  |  |  |  |  |  |  |
-| [expansion](#expansion) |  |  |  |  |  |  |  |
-| [mutetime](#mutetime) |  |  |  |  |  |  |  |
-| [mutereason](#mutereason) |  |  |  |  |  |  |  |
-| [muteby](#muteby) |  |  |  |  |  |  |  |
-| [locale](#locale) |  |  |  |  |  |  |  |
-| [os](#os) |  |  |  |  |  |  |  |
-| [recruiter](#recruiter) |  |  |  |  |  |  |  |
-| [battlenet_account](#battlenet_account) |  |  |  |  |  |  |  |
-| [battlenet_index](#battlenet_index) |  |  |  |  |  |  |  |
+| [username](#username) | varchar(32) |  | UNI | NO | '' |  |  |
+| [salt](#salt) | binary(32) |  |  | YES | NULL |  |  |
+| [verifier](#verifier) | binary(32) |  |  | YES | NULL |  |  |
+| [session_key_auth](#session_key_auth) | binary(40) |  |  | YES | NULL |  |  |
+| [session_key_bnet](#session_key_bnet) | varbinary(64) |  |  | YES | NULL |  |  |
+| [sha_pass_hash](#sha_pass_hash) | varchar(40) |  |  | NO | '' |  |  |
+| [v](#v) | varchar(64) |  |  | NO | dummy value, use \`verifier\` instead |  |  |
+| [s](#s) | varchar(64) |  |  | NO | dummy value, use \`salt\` instead |  |  |
+| [token_key](#token_key) | varchar(100) |  |  | NO | '' |  |  |
+| [email](#email) | varchar(255) |  |  | NO | '' |  |  |
+| [reg_mail](#reg_mail) | varchar(255) |  |  | NO | '' |  |  |
+| [joindate](#joindate) | timestamp | signed |  | NO | CURRENT_TIMESTAMP |  |  |
+| [last_ip](#last_ip) | varchar(15) |  |  | NO | '127.0.0.1' |  |  |
+| [last_attempt_ip](#last_attempt_ip) | varchar(15) |  |  | NO | '127.0.0.1' |  |  |
+| [failed_logins](#failed_logins) | int(10) | unsigned |  | NO | 0 |  |  |
+| [locked](#locked) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [lock_country](#lock_country) | varchar(2) |  |  | NO | '00' |  |  |
+| [last_login](#last_login) | timestamp | signed |  | YES | NULL |  |  |
+| [online](#online) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [expansion](#expansion) | tinyint(3) | unsigned |  | NO | 8 |  |  |
+| [mutetime](#mutetime) | bigint(20) | signed |  | NO | 0 |  |  |
+| [mutereason](#mutereason) | varchar(255) |  |  | NO | '' |  |  |
+| [muteby](#muteby) | varchar(50) |  |  | NO | '' |  |  |
+| [locale](#locale) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [os](#os) | varchar(4) |  |  | NO | '' |  |  |
+| [recruiter](#recruiter) | int(10) | unsigned |  | NO | 0 |  |  |
+| [battlenet_account](#battlenet_account) | int(10) | unsigned |  | YES | NULL |  |  |
+| [battlenet_index](#battlenet_index) | tinyint(3) | unsigned |  | YES |  NULL|  |  |
 &nbsp;
 ## Description of fields
 
