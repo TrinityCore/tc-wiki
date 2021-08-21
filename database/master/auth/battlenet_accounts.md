@@ -2,7 +2,7 @@
 title: battlenet_accounts
 description: This table holds information on all available battlenet accounts.
 published: true
-date: 2021-08-20T14:34:01.031Z
+date: 2021-08-21T03:30:00.174Z
 tags: database, auth, master
 editor: markdown
 dateCreated: 2021-08-20T14:34:01.031Z
@@ -11,22 +11,22 @@ dateCreated: 2021-08-20T14:34:01.031Z
 ## Structure
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
-|---|---|---|---|---|---|---|---|
-| [id](#id)  |  |  |  |  |  |  |  |
-| [email](#email)  |  |  |  |  |  |  |  |
-| [sha_pass_hash](#sha_pass_hash)  |  |  |  |  |  |  |  |
-| [joindate](#joindate)  |  |  |  |  |  |  |  |
-| [last_ip](#last_ip)  |  |  |  |  |  |  |  |
-| [failed_logins](#failed_logins)  |  |  |  |  |  |  |  |
-| [locked](#locked)  |  |  |  |  |  |  |  |
-| [lock_country](#lock_country)  |  |  |  |  |  |  |  |
-| [last_login](#last_login)  |  |  |  |  |  |  |  |
-| [online](#online)  |  |  |  |  |  |  |  |
-| [locale](#locale)  |  |  |  |  |  |  |  |
-| [os](#os)  |  |  |  |  |  |  |  |
-| [LastCharacterUndelete](#LastCharacterUndelete)  |  |  |  |  |  |  |  |
-| [LoginTicket](#LoginTicket)  |  |  |  |  |  |  |  |
-| [LoginTicketExpiry](#LoginTicketExpiry)  |  |  |  |  |  |  |  |
+|---|---|---|:---:|:---:|---|---|---|
+| [id](#id) | int(10) | unsigned | PRI | NO |  | AUTO_INCREMENT | Identifier |
+| [email](#email) | varchar(320) | signed |  | NO |  |  |  |
+| [sha_pass_hash](#sha_pass_hash) | varchar(64) | signed |  | NO | '' |  |  |
+| [joindate](#joindate) | timestamp | signed |  | NO | CURRENT_TIMESTAMP |  |  |
+| [last_ip](#last_ip) | varchar(15) | signed |  | NO | '127.0.0.1' |  |  |
+| [failed_logins](#failed_logins) | int(10) | unsigned |  | NO | 0 |  |  |
+| [locked](#locked) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [lock_country](#lock_country) | varchar(2) | signed |  | NO | '00' |  |  |
+| [last_login](#last_login) | timestamp | signed |  | YES | NULL |  |  |
+| [online](#online) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [locale](#locale) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [os](#os) | varchar(4) | signed |  | NO | '' |  |  |
+| [LastCharacterUndelete](#LastCharacterUndelete) | int(10) | unsigned |  | NO | 0 |  |  |
+| [LoginTicket](#LoginTicket) | varchar(64) | signed |  | YES | NULL |  |  |
+| [LoginTicketExpiry](#LoginTicketExpiry) | int(10) | unsigned |  | YES | NULL |  |  |
 
 &nbsp;
 ## Description of fields
