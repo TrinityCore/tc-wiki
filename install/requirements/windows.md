@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2021-08-14T18:40:43.278Z
+date: 2021-08-26T03:22:33.765Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -46,7 +46,7 @@ or if you have enterprise version with:
 <div class="next-codeblock-no-line-numbers"></div>
 
 ```bash
-vs_community.exe /q /norestart /InstallSelectableItems NativeLanguageSupport_Group
+vs_enterprise.exe /q /norestart /InstallSelectableItems NativeLanguageSupport_Group
 ```
 &nbsp;
 
