@@ -1,8 +1,8 @@
 ---
 title: updates
-description: 
+description: List of all applied updates in this database.
 published: true
-date: 2021-08-26T03:10:42.105Z
+date: 2021-08-26T03:11:16.020Z
 tags: database, auth, master
 editor: markdown
 dateCreated: 2021-08-26T03:10:42.105Z
