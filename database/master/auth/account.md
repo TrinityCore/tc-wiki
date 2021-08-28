@@ -2,14 +2,13 @@
 title: account
 description: This table holds information on all available game accounts.
 published: true
-date: 2021-08-28T19:36:25.168Z
+date: 2021-08-28T19:40:16.284Z
 tags: database, auth, master, account
 editor: markdown
 dateCreated: 2021-08-19T10:37:27.827Z
 ---
 
-- [:arrow_left: Back-to:Auth](/database/master/auth/home)
-{.links-list}
+[:arrow_left:Back-to:Auth](/database/master/auth/home)
 
 ## Structure
 
@@ -196,5 +195,4 @@ The account ID of another account. Used for recuit-a-friend system. See [account
 *- no description -*
 &nbsp;
 
-- [:arrow_left: Back-to:Auth](/database/master/auth/home)
-{.links-list}
+[:arrow_left:Back-to:Auth](/database/master/auth/home) 
