@@ -2,14 +2,13 @@
 title: account
 description: This table holds information on all available game accounts.
 published: true
-date: 2021-08-29T21:02:03.819Z
+date: 2021-08-29T21:08:29.882Z
 tags: database, auth, master, account
 editor: markdown
 dateCreated: 2021-08-19T10:37:27.827Z
 ---
 
 <a href="https://dev.trinitycore.info/en/database/master/auth/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to auth</span></span></a>
-
 
 ## Structure
 
