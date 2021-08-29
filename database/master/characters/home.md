@@ -2,11 +2,13 @@
 title: Characters
 description: 
 published: true
-date: 2021-08-29T20:24:53.830Z
+date: 2021-08-29T20:55:44.075Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-28T20:36:56.913Z
 ---
+
+<a href="javascript:window.history.go(-1);" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default purple--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Go back</span></span></a>
 
 ## a
 - [account_data](/database/master/characters/account_data)
