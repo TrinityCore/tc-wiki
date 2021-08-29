@@ -2,7 +2,7 @@
 title: account_instance_times
 description: 
 published: true
-date: 2021-08-29T20:03:54.735Z
+date: 2021-08-29T20:05:07.437Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-29T20:03:54.735Z
@@ -32,5 +32,5 @@ dateCreated: 2021-08-29T20:03:54.735Z
 *- no description -*
 &nbsp;
 
-[:arrow_left:Back-to:Characters](/database/characters/world/home)
+[:arrow_left:Back-to:Characters](/database/master/characters/home)
 
