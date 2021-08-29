@@ -2,11 +2,13 @@
 title: account_muted
 description: 
 published: true
-date: 2021-08-21T00:48:23.396Z
+date: 2021-08-29T21:09:47.334Z
 tags: database, auth, master
 editor: markdown
 dateCreated: 2021-08-20T13:54:11.358Z
 ---
+
+<a href="https://dev.trinitycore.info/en/database/master/auth/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to auth</span></span></a>
 
 ## Structure
 
@@ -40,3 +42,5 @@ dateCreated: 2021-08-20T13:54:11.358Z
 ### mutereason
 *- no description -*
 &nbsp;
+
+<a href="https://dev.trinitycore.info/en/database/master/auth/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to auth</span></span></a>
