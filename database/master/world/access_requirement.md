@@ -2,13 +2,13 @@
 title: access_requirement
 description: 
 published: true
-date: 2021-08-29T20:43:51.863Z
+date: 2021-08-29T20:44:40.290Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-29T20:43:51.863Z
 ---
 
-[:arrow_left:Back-to:Hotfixes](/database/master/hotfixes/home)
+[:arrow_left:Back-to:World](/database/master/world/home)
 
 ## Structure
 
@@ -72,5 +72,5 @@ dateCreated: 2021-08-29T20:43:51.863Z
 *- no description -*
 &nbsp;
 
-[:arrow_left:Back-to:Hotfixes](/database/master/hotfixes/home)
+[:arrow_left:Back-to:World](/database/master/world/home)
 
