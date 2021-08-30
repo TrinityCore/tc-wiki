@@ -2,14 +2,14 @@
 title: Characters
 description: 
 published: true
-date: 2021-08-30T07:39:21.792Z
+date: 2021-08-30T07:39:26.005Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-28T20:36:56.913Z
 ---
 
 ## a
-- [account_data](/database/master/characters/account_data) 
+- [account_data](/database/master/characters/account_data)
 - [account_instance_times](/database/master/characters/account_instance_times)
 - [account_tutorial](/database/master/characters/account_tutorial)
 - [arena_team](/database/master/characters/arena_team)
