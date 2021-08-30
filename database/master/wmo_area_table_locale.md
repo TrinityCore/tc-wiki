@@ -1,0 +1,41 @@
+---
+title: wmo_area_table_locale
+description: 
+published: true
+date: 2021-08-30T09:42:08.237Z
+tags: database, master, hotfixes
+editor: markdown
+dateCreated: 2021-08-30T06:00:00.000Z
+---
+
+<a href="https://dev.trinitycore.info/en/database/master/hotfixes/wmo_area_table" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'wmo_area_table'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/hotfixes/world_effect" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'world_effect'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+
+## Structure
+
+| Field | Type | Attributes | Key | Null | Default | Extra | Comment |
+| --- | --- | --- | :---: | :---: | --- | --- | --- |
+| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [locale](#locale) | varchar(4) | signed | PRI | NO |  |  |  |
+| [AreaName_lang](#AreaName_lang) | text |  |  | YES | NULL |  |  |
+| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+&nbsp;
+## Description of fields
+
+### ID
+*- no description -*
+&nbsp;
+
+### locale
+*- no description -*
+&nbsp;
+
+### AreaName_lang
+*- no description -*
+&nbsp;
+
+### VerifiedBuild
+*- no description -*
+&nbsp;
+
+<a href="https://dev.trinitycore.info/en/database/master/hotfixes/wmo_area_table" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'wmo_area_table'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/hotfixes/world_effect" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'world_effect'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+

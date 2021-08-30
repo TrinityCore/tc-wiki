@@ -1,0 +1,56 @@
+---
+title: garr_building_plot_inst
+description: 
+published: true
+date: 2021-08-30T09:42:08.165Z
+tags: database, master, hotfixes
+editor: markdown
+dateCreated: 2021-08-30T06:00:00.000Z
+---
+
+<a href="https://dev.trinitycore.info/en/database/master/hotfixes/garr_building_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'garr_building_locale'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/hotfixes/garr_class_spec" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'garr_class_spec'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+
+## Structure
+
+| Field | Type | Attributes | Key | Null | Default | Extra | Comment |
+| --- | --- | --- | :---: | :---: | --- | --- | --- |
+| [MapOffsetX](#MapOffsetX) | float |  |  | NO | 0 |  |  |
+| [MapOffsetY](#MapOffsetY) | float |  |  | NO | 0 |  |  |
+| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [GarrBuildingID](#GarrBuildingID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [GarrSiteLevelPlotInstID](#GarrSiteLevelPlotInstID) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [UiTextureAtlasMemberID](#UiTextureAtlasMemberID) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+&nbsp;
+## Description of fields
+
+### MapOffsetX
+*- no description -*
+&nbsp;
+
+### MapOffsetY
+*- no description -*
+&nbsp;
+
+### ID
+*- no description -*
+&nbsp;
+
+### GarrBuildingID
+*- no description -*
+&nbsp;
+
+### GarrSiteLevelPlotInstID
+*- no description -*
+&nbsp;
+
+### UiTextureAtlasMemberID
+*- no description -*
+&nbsp;
+
+### VerifiedBuild
+*- no description -*
+&nbsp;
+
+<a href="https://dev.trinitycore.info/en/database/master/hotfixes/garr_building_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'garr_building_locale'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/hotfixes/garr_class_spec" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'garr_class_spec'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+
