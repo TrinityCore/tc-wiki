@@ -2,7 +2,7 @@
 title: toy
 description: 
 published: true
-date: 2021-08-30T09:44:29.592Z
+date: 2021-08-30T19:58:43.111Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [SourceText](#SourceText) | text |  |  | YES | NULL |  |  |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ItemID](#ItemID) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags](#Flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SourceTypeEnum](#SourceTypeEnum) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [SourceText](#sourcetext) | text |  |  | YES | NULL |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ItemID](#itemid) | int(11) | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [SourceTypeEnum](#sourcetypeenum) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

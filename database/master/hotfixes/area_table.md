@@ -2,7 +2,7 @@
 title: area_table
 description: 
 published: true
-date: 2021-08-30T09:44:29.486Z
+date: 2021-08-30T19:58:43.004Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,35 +14,35 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ZoneName](#ZoneName) | text |  |  | YES | NULL |  |  |
-| [AreaName](#AreaName) | text |  |  | YES | NULL |  |  |
-| [ContinentID](#ContinentID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ParentAreaID](#ParentAreaID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [AreaBit](#AreaBit) | smallint(6) | signed |  | NO | 0 |  |  |
-| [SoundProviderPref](#SoundProviderPref) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SoundProviderPrefUnderwater](#SoundProviderPrefUnderwater) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [AmbienceID](#AmbienceID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [UwAmbience](#UwAmbience) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ZoneMusic](#ZoneMusic) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [UwZoneMusic](#UwZoneMusic) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [IntroSound](#IntroSound) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [UwIntroSound](#UwIntroSound) | int(10) | unsigned |  | NO | 0 |  |  |
-| [FactionGroupMask](#FactionGroupMask) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [AmbientMultiplier](#AmbientMultiplier) | float |  |  | NO | 0 |  |  |
-| [MountFlags](#MountFlags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [PvpCombatWorldStateID](#PvpCombatWorldStateID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [WildBattlePetLevelMin](#WildBattlePetLevelMin) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [WildBattlePetLevelMax](#WildBattlePetLevelMax) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [WindSettingsID](#WindSettingsID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ContentTuningID](#ContentTuningID) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags1](#Flags1) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags2](#Flags2) | int(11) | signed |  | NO | 0 |  |  |
-| [LiquidTypeID1](#LiquidTypeID1) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [LiquidTypeID2](#LiquidTypeID2) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [LiquidTypeID3](#LiquidTypeID3) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [LiquidTypeID4](#LiquidTypeID4) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ZoneName](#zonename) | text |  |  | YES | NULL |  |  |
+| [AreaName](#areaname) | text |  |  | YES | NULL |  |  |
+| [ContinentID](#continentid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ParentAreaID](#parentareaid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [AreaBit](#areabit) | smallint(6) | signed |  | NO | 0 |  |  |
+| [SoundProviderPref](#soundproviderpref) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [SoundProviderPrefUnderwater](#soundproviderprefunderwater) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [AmbienceID](#ambienceid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [UwAmbience](#uwambience) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ZoneMusic](#zonemusic) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [UwZoneMusic](#uwzonemusic) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [IntroSound](#introsound) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [UwIntroSound](#uwintrosound) | int(10) | unsigned |  | NO | 0 |  |  |
+| [FactionGroupMask](#factiongroupmask) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [AmbientMultiplier](#ambientmultiplier) | float |  |  | NO | 0 |  |  |
+| [MountFlags](#mountflags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [PvpCombatWorldStateID](#pvpcombatworldstateid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [WildBattlePetLevelMin](#wildbattlepetlevelmin) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [WildBattlePetLevelMax](#wildbattlepetlevelmax) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [WindSettingsID](#windsettingsid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ContentTuningID](#contenttuningid) | int(11) | signed |  | NO | 0 |  |  |
+| [Flags1](#flags1) | int(11) | signed |  | NO | 0 |  |  |
+| [Flags2](#flags2) | int(11) | signed |  | NO | 0 |  |  |
+| [LiquidTypeID1](#liquidtypeid1) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [LiquidTypeID2](#liquidtypeid2) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [LiquidTypeID3](#liquidtypeid3) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [LiquidTypeID4](#liquidtypeid4) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: achievement_category
 description: 
 published: true
-date: 2021-08-30T09:44:29.480Z
+date: 2021-08-30T19:58:43.000Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Name](#Name) | text |  |  | YES | NULL |  |  |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Parent](#Parent) | smallint(6) | signed |  | NO | 0 |  |  |
-| [UiOrder](#UiOrder) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Parent](#parent) | smallint(6) | signed |  | NO | 0 |  |  |
+| [UiOrder](#uiorder) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

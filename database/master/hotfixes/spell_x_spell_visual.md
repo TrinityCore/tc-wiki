@@ -2,7 +2,7 @@
 title: spell_x_spell_visual
 description: 
 published: true
-date: 2021-08-30T09:44:29.588Z
+date: 2021-08-30T19:58:43.108Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,19 +14,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [DifficultyID](#DifficultyID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SpellVisualID](#SpellVisualID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Probability](#Probability) | float |  |  | NO | 0 |  |  |
-| [Priority](#Priority) | int(11) | signed |  | NO | 0 |  |  |
-| [SpellIconFileID](#SpellIconFileID) | int(11) | signed |  | NO | 0 |  |  |
-| [ActiveIconFileID](#ActiveIconFileID) | int(11) | signed |  | NO | 0 |  |  |
-| [ViewerUnitConditionID](#ViewerUnitConditionID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ViewerPlayerConditionID](#ViewerPlayerConditionID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [CasterUnitConditionID](#CasterUnitConditionID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [CasterPlayerConditionID](#CasterPlayerConditionID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SpellID](#SpellID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [DifficultyID](#difficultyid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [SpellVisualID](#spellvisualid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Probability](#probability) | float |  |  | NO | 0 |  |  |
+| [Priority](#priority) | int(11) | signed |  | NO | 0 |  |  |
+| [SpellIconFileID](#spelliconfileid) | int(11) | signed |  | NO | 0 |  |  |
+| [ActiveIconFileID](#activeiconfileid) | int(11) | signed |  | NO | 0 |  |  |
+| [ViewerUnitConditionID](#viewerunitconditionid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ViewerPlayerConditionID](#viewerplayerconditionid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [CasterUnitConditionID](#casterunitconditionid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [CasterPlayerConditionID](#casterplayerconditionid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [SpellID](#spellid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

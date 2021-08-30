@@ -2,7 +2,7 @@
 title: chr_model
 description: 
 published: true
-date: 2021-08-30T09:44:29.508Z
+date: 2021-08-30T19:58:43.028Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,28 +14,28 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [FaceCustomizationOffset1](#FaceCustomizationOffset1) | float |  |  | NO | 0 |  |  |
-| [FaceCustomizationOffset2](#FaceCustomizationOffset2) | float |  |  | NO | 0 |  |  |
-| [FaceCustomizationOffset3](#FaceCustomizationOffset3) | float |  |  | NO | 0 |  |  |
-| [CustomizeOffset1](#CustomizeOffset1) | float |  |  | NO | 0 |  |  |
-| [CustomizeOffset2](#CustomizeOffset2) | float |  |  | NO | 0 |  |  |
-| [CustomizeOffset3](#CustomizeOffset3) | float |  |  | NO | 0 |  |  |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Sex](#Sex) | int(11) | signed |  | NO | 0 |  |  |
-| [DisplayID](#DisplayID) | int(11) | signed |  | NO | 0 |  |  |
-| [CharComponentTextureLayoutID](#CharComponentTextureLayoutID) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags](#Flags) | int(11) | signed |  | NO | 0 |  |  |
-| [SkeletonFileDataID](#SkeletonFileDataID) | int(11) | signed |  | NO | 0 |  |  |
-| [ModelFallbackChrModelID](#ModelFallbackChrModelID) | int(11) | signed |  | NO | 0 |  |  |
-| [TextureFallbackChrModelID](#TextureFallbackChrModelID) | int(11) | signed |  | NO | 0 |  |  |
-| [HelmVisFallbackChrModelID](#HelmVisFallbackChrModelID) | int(11) | signed |  | NO | 0 |  |  |
-| [CustomizeScale](#CustomizeScale) | float |  |  | NO | 0 |  |  |
-| [CustomizeFacing](#CustomizeFacing) | float |  |  | NO | 0 |  |  |
-| [CameraDistanceOffset](#CameraDistanceOffset) | float |  |  | NO | 0 |  |  |
-| [BarberShopCameraOffsetScale](#BarberShopCameraOffsetScale) | float |  |  | NO | 0 |  |  |
-| [BarberShopCameraHeightOffsetScale](#BarberShopCameraHeightOffsetScale) | float |  |  | NO | 0 |  |  |
-| [BarberShopCameraRotationOffset](#BarberShopCameraRotationOffset) | float |  |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [FaceCustomizationOffset1](#facecustomizationoffset1) | float |  |  | NO | 0 |  |  |
+| [FaceCustomizationOffset2](#facecustomizationoffset2) | float |  |  | NO | 0 |  |  |
+| [FaceCustomizationOffset3](#facecustomizationoffset3) | float |  |  | NO | 0 |  |  |
+| [CustomizeOffset1](#customizeoffset1) | float |  |  | NO | 0 |  |  |
+| [CustomizeOffset2](#customizeoffset2) | float |  |  | NO | 0 |  |  |
+| [CustomizeOffset3](#customizeoffset3) | float |  |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Sex](#sex) | int(11) | signed |  | NO | 0 |  |  |
+| [DisplayID](#displayid) | int(11) | signed |  | NO | 0 |  |  |
+| [CharComponentTextureLayoutID](#charcomponenttexturelayoutid) | int(11) | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
+| [SkeletonFileDataID](#skeletonfiledataid) | int(11) | signed |  | NO | 0 |  |  |
+| [ModelFallbackChrModelID](#modelfallbackchrmodelid) | int(11) | signed |  | NO | 0 |  |  |
+| [TextureFallbackChrModelID](#texturefallbackchrmodelid) | int(11) | signed |  | NO | 0 |  |  |
+| [HelmVisFallbackChrModelID](#helmvisfallbackchrmodelid) | int(11) | signed |  | NO | 0 |  |  |
+| [CustomizeScale](#customizescale) | float |  |  | NO | 0 |  |  |
+| [CustomizeFacing](#customizefacing) | float |  |  | NO | 0 |  |  |
+| [CameraDistanceOffset](#cameradistanceoffset) | float |  |  | NO | 0 |  |  |
+| [BarberShopCameraOffsetScale](#barbershopcameraoffsetscale) | float |  |  | NO | 0 |  |  |
+| [BarberShopCameraHeightOffsetScale](#barbershopcameraheightoffsetscale) | float |  |  | NO | 0 |  |  |
+| [BarberShopCameraRotationOffset](#barbershopcamerarotationoffset) | float |  |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

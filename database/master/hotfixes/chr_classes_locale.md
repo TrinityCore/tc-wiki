@@ -2,7 +2,7 @@
 title: chr_classes_locale
 description: 
 published: true
-date: 2021-08-30T09:44:29.504Z
+date: 2021-08-30T19:58:43.025Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,17 +14,17 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) | signed | PRI | NO |  |  |  |
-| [Name_lang](#Name_lang) | text |  |  | YES | NULL |  |  |
-| [NameMale_lang](#NameMale_lang) | text |  |  | YES | NULL |  |  |
-| [NameFemale_lang](#NameFemale_lang) | text |  |  | YES | NULL |  |  |
-| [Description_lang](#Description_lang) | text |  |  | YES | NULL |  |  |
-| [RoleInfoString_lang](#RoleInfoString_lang) | text |  |  | YES | NULL |  |  |
-| [DisabledString_lang](#DisabledString_lang) | text |  |  | YES | NULL |  |  |
-| [HyphenatedNameMale_lang](#HyphenatedNameMale_lang) | text |  |  | YES | NULL |  |  |
-| [HyphenatedNameFemale_lang](#HyphenatedNameFemale_lang) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [Name_lang](#name_lang) | text |  |  | YES | NULL |  |  |
+| [NameMale_lang](#namemale_lang) | text |  |  | YES | NULL |  |  |
+| [NameFemale_lang](#namefemale_lang) | text |  |  | YES | NULL |  |  |
+| [Description_lang](#description_lang) | text |  |  | YES | NULL |  |  |
+| [RoleInfoString_lang](#roleinfostring_lang) | text |  |  | YES | NULL |  |  |
+| [DisabledString_lang](#disabledstring_lang) | text |  |  | YES | NULL |  |  |
+| [HyphenatedNameMale_lang](#hyphenatednamemale_lang) | text |  |  | YES | NULL |  |  |
+| [HyphenatedNameFemale_lang](#hyphenatednamefemale_lang) | text |  |  | YES | NULL |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

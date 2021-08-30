@@ -2,7 +2,7 @@
 title: area_trigger
 description: 
 published: true
-date: 2021-08-30T09:44:29.486Z
+date: 2021-08-30T19:58:43.005Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,24 +14,24 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [PosX](#PosX) | float |  |  | NO | 0 |  |  |
-| [PosY](#PosY) | float |  |  | NO | 0 |  |  |
-| [PosZ](#PosZ) | float |  |  | NO | 0 |  |  |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ContinentID](#ContinentID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [PhaseUseFlags](#PhaseUseFlags) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [PhaseID](#PhaseID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [PhaseGroupID](#PhaseGroupID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [Radius](#Radius) | float |  |  | NO | 0 |  |  |
-| [BoxLength](#BoxLength) | float |  |  | NO | 0 |  |  |
-| [BoxWidth](#BoxWidth) | float |  |  | NO | 0 |  |  |
-| [BoxHeight](#BoxHeight) | float |  |  | NO | 0 |  |  |
-| [BoxYaw](#BoxYaw) | float |  |  | NO | 0 |  |  |
-| [ShapeType](#ShapeType) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [ShapeID](#ShapeID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [AreaTriggerActionSetID](#AreaTriggerActionSetID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [Flags](#Flags) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [PosX](#posx) | float |  |  | NO | 0 |  |  |
+| [PosY](#posy) | float |  |  | NO | 0 |  |  |
+| [PosZ](#posz) | float |  |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ContinentID](#continentid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [PhaseUseFlags](#phaseuseflags) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [PhaseID](#phaseid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [PhaseGroupID](#phasegroupid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [Radius](#radius) | float |  |  | NO | 0 |  |  |
+| [BoxLength](#boxlength) | float |  |  | NO | 0 |  |  |
+| [BoxWidth](#boxwidth) | float |  |  | NO | 0 |  |  |
+| [BoxHeight](#boxheight) | float |  |  | NO | 0 |  |  |
+| [BoxYaw](#boxyaw) | float |  |  | NO | 0 |  |  |
+| [ShapeType](#shapetype) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [ShapeID](#shapeid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [AreaTriggerActionSetID](#areatriggeractionsetid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

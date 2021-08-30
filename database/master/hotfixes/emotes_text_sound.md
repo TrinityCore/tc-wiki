@@ -2,7 +2,7 @@
 title: emotes_text_sound
 description: 
 published: true
-date: 2021-08-30T09:44:29.522Z
+date: 2021-08-30T19:58:43.041Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [RaceID](#RaceID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ClassID](#ClassID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SexID](#SexID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SoundID](#SoundID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [EmotesTextID](#EmotesTextID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [RaceID](#raceid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ClassID](#classid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [SexID](#sexid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [SoundID](#soundid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [EmotesTextID](#emotestextid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

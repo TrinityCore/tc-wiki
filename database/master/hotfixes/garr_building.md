@@ -2,7 +2,7 @@
 title: garr_building
 description: 
 published: true
-date: 2021-08-30T09:44:29.527Z
+date: 2021-08-30T19:58:43.046Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,32 +14,32 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [HordeName](#HordeName) | text |  |  | YES | NULL |  |  |
-| [AllianceName](#AllianceName) | text |  |  | YES | NULL |  |  |
-| [Description](#Description) | text |  |  | YES | NULL |  |  |
-| [Tooltip](#Tooltip) | text |  |  | YES | NULL |  |  |
-| [GarrTypeID](#GarrTypeID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [BuildingType](#BuildingType) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [HordeGameObjectID](#HordeGameObjectID) | int(11) | signed |  | NO | 0 |  |  |
-| [AllianceGameObjectID](#AllianceGameObjectID) | int(11) | signed |  | NO | 0 |  |  |
-| [GarrSiteID](#GarrSiteID) | int(11) | signed |  | NO | 0 |  |  |
-| [UpgradeLevel](#UpgradeLevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [BuildSeconds](#BuildSeconds) | int(11) | signed |  | NO | 0 |  |  |
-| [CurrencyTypeID](#CurrencyTypeID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [CurrencyQty](#CurrencyQty) | int(11) | signed |  | NO | 0 |  |  |
-| [HordeUiTextureKitID](#HordeUiTextureKitID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [AllianceUiTextureKitID](#AllianceUiTextureKitID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [IconFileDataID](#IconFileDataID) | int(11) | signed |  | NO | 0 |  |  |
-| [AllianceSceneScriptPackageID](#AllianceSceneScriptPackageID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [HordeSceneScriptPackageID](#HordeSceneScriptPackageID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [MaxAssignments](#MaxAssignments) | int(11) | signed |  | NO | 0 |  |  |
-| [ShipmentCapacity](#ShipmentCapacity) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [GarrAbilityID](#GarrAbilityID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [BonusGarrAbilityID](#BonusGarrAbilityID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [GoldCost](#GoldCost) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Flags](#Flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [HordeName](#hordename) | text |  |  | YES | NULL |  |  |
+| [AllianceName](#alliancename) | text |  |  | YES | NULL |  |  |
+| [Description](#description) | text |  |  | YES | NULL |  |  |
+| [Tooltip](#tooltip) | text |  |  | YES | NULL |  |  |
+| [GarrTypeID](#garrtypeid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [BuildingType](#buildingtype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [HordeGameObjectID](#hordegameobjectid) | int(11) | signed |  | NO | 0 |  |  |
+| [AllianceGameObjectID](#alliancegameobjectid) | int(11) | signed |  | NO | 0 |  |  |
+| [GarrSiteID](#garrsiteid) | int(11) | signed |  | NO | 0 |  |  |
+| [UpgradeLevel](#upgradelevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [BuildSeconds](#buildseconds) | int(11) | signed |  | NO | 0 |  |  |
+| [CurrencyTypeID](#currencytypeid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [CurrencyQty](#currencyqty) | int(11) | signed |  | NO | 0 |  |  |
+| [HordeUiTextureKitID](#hordeuitexturekitid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [AllianceUiTextureKitID](#allianceuitexturekitid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [IconFileDataID](#iconfiledataid) | int(11) | signed |  | NO | 0 |  |  |
+| [AllianceSceneScriptPackageID](#alliancescenescriptpackageid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [HordeSceneScriptPackageID](#hordescenescriptpackageid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [MaxAssignments](#maxassignments) | int(11) | signed |  | NO | 0 |  |  |
+| [ShipmentCapacity](#shipmentcapacity) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [GarrAbilityID](#garrabilityid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [BonusGarrAbilityID](#bonusgarrabilityid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [GoldCost](#goldcost) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

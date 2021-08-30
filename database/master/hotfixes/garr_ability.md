@@ -2,7 +2,7 @@
 title: garr_ability
 description: 
 published: true
-date: 2021-08-30T09:44:29.527Z
+date: 2021-08-30T19:58:43.045Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,15 +14,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Name](#Name) | text |  |  | YES | NULL |  |  |
-| [Description](#Description) | text |  |  | YES | NULL |  |  |
-| [GarrAbilityCategoryID](#GarrAbilityCategoryID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [GarrFollowerTypeID](#GarrFollowerTypeID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [IconFileDataID](#IconFileDataID) | int(11) | signed |  | NO | 0 |  |  |
-| [FactionChangeGarrAbilityID](#FactionChangeGarrAbilityID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Flags](#Flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [Description](#description) | text |  |  | YES | NULL |  |  |
+| [GarrAbilityCategoryID](#garrabilitycategoryid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [GarrFollowerTypeID](#garrfollowertypeid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [IconFileDataID](#iconfiledataid) | int(11) | signed |  | NO | 0 |  |  |
+| [FactionChangeGarrAbilityID](#factionchangegarrabilityid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

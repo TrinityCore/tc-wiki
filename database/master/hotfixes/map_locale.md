@@ -2,7 +2,7 @@
 title: map_locale
 description: 
 published: true
-date: 2021-08-30T09:44:29.557Z
+date: 2021-08-30T19:58:43.075Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,14 +14,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) | signed | PRI | NO |  |  |  |
-| [MapName_lang](#MapName_lang) | text |  |  | YES | NULL |  |  |
-| [MapDescription0_lang](#MapDescription0_lang) | text |  |  | YES | NULL |  |  |
-| [MapDescription1_lang](#MapDescription1_lang) | text |  |  | YES | NULL |  |  |
-| [PvpShortDescription_lang](#PvpShortDescription_lang) | text |  |  | YES | NULL |  |  |
-| [PvpLongDescription_lang](#PvpLongDescription_lang) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [MapName_lang](#mapname_lang) | text |  |  | YES | NULL |  |  |
+| [MapDescription0_lang](#mapdescription0_lang) | text |  |  | YES | NULL |  |  |
+| [MapDescription1_lang](#mapdescription1_lang) | text |  |  | YES | NULL |  |  |
+| [PvpShortDescription_lang](#pvpshortdescription_lang) | text |  |  | YES | NULL |  |  |
+| [PvpLongDescription_lang](#pvplongdescription_lang) | text |  |  | YES | NULL |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

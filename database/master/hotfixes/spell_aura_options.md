@@ -2,7 +2,7 @@
 title: spell_aura_options
 description: 
 published: true
-date: 2021-08-30T09:44:29.576Z
+date: 2021-08-30T19:58:43.094Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,17 +14,17 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [DifficultyID](#DifficultyID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [CumulativeAura](#CumulativeAura) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ProcCategoryRecovery](#ProcCategoryRecovery) | int(11) | signed |  | NO | 0 |  |  |
-| [ProcChance](#ProcChance) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ProcCharges](#ProcCharges) | int(11) | signed |  | NO | 0 |  |  |
-| [SpellProcsPerMinuteID](#SpellProcsPerMinuteID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ProcTypeMask1](#ProcTypeMask1) | int(11) | signed |  | NO | 0 |  |  |
-| [ProcTypeMask2](#ProcTypeMask2) | int(11) | signed |  | NO | 0 |  |  |
-| [SpellID](#SpellID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [DifficultyID](#difficultyid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [CumulativeAura](#cumulativeaura) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ProcCategoryRecovery](#proccategoryrecovery) | int(11) | signed |  | NO | 0 |  |  |
+| [ProcChance](#procchance) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ProcCharges](#proccharges) | int(11) | signed |  | NO | 0 |  |  |
+| [SpellProcsPerMinuteID](#spellprocsperminuteid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ProcTypeMask1](#proctypemask1) | int(11) | signed |  | NO | 0 |  |  |
+| [ProcTypeMask2](#proctypemask2) | int(11) | signed |  | NO | 0 |  |  |
+| [SpellID](#spellid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

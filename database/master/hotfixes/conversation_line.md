@@ -2,7 +2,7 @@
 title: conversation_line
 description: 
 published: true
-date: 2021-08-30T09:44:29.514Z
+date: 2021-08-30T19:58:43.032Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,16 +14,16 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [BroadcastTextID](#BroadcastTextID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SpellVisualKitID](#SpellVisualKitID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [AdditionalDuration](#AdditionalDuration) | int(11) | signed |  | NO | 0 |  |  |
-| [NextConversationLineID](#NextConversationLineID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [AnimKitID](#AnimKitID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [SpeechType](#SpeechType) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [StartAnimation](#StartAnimation) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [EndAnimation](#EndAnimation) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [BroadcastTextID](#broadcasttextid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [SpellVisualKitID](#spellvisualkitid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [AdditionalDuration](#additionalduration) | int(11) | signed |  | NO | 0 |  |  |
+| [NextConversationLineID](#nextconversationlineid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [AnimKitID](#animkitid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [SpeechType](#speechtype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [StartAnimation](#startanimation) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [EndAnimation](#endanimation) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: adventure_journal
 description: 
 published: true
-date: 2021-08-30T09:44:29.481Z
+date: 2021-08-30T19:58:43.001Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,32 +14,32 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Name](#Name) | text |  |  | YES | NULL |  |  |
-| [Description](#Description) | text |  |  | YES | NULL |  |  |
-| [ButtonText](#ButtonText) | text |  |  | YES | NULL |  |  |
-| [RewardDescription](#RewardDescription) | text |  |  | YES | NULL |  |  |
-| [ContinueDescription](#ContinueDescription) | text |  |  | YES | NULL |  |  |
-| [Type](#Type) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [PlayerConditionID](#PlayerConditionID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Flags](#Flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ButtonActionType](#ButtonActionType) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [TextureFileDataID](#TextureFileDataID) | int(11) | signed |  | NO | 0 |  |  |
-| [LfgDungeonID](#LfgDungeonID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [QuestID](#QuestID) | int(11) | signed |  | NO | 0 |  |  |
-| [BattleMasterListID](#BattleMasterListID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [PriorityMin](#PriorityMin) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [PriorityMax](#PriorityMax) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ItemID](#ItemID) | int(11) | signed |  | NO | 0 |  |  |
-| [ItemQuantity](#ItemQuantity) | int(10) | unsigned |  | NO | 0 |  |  |
-| [CurrencyType](#CurrencyType) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [CurrencyQuantity](#CurrencyQuantity) | int(10) | unsigned |  | NO | 0 |  |  |
-| [UiMapID](#UiMapID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [BonusPlayerConditionID1](#BonusPlayerConditionID1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [BonusPlayerConditionID2](#BonusPlayerConditionID2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [BonusValue1](#BonusValue1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [BonusValue2](#BonusValue2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [Description](#description) | text |  |  | YES | NULL |  |  |
+| [ButtonText](#buttontext) | text |  |  | YES | NULL |  |  |
+| [RewardDescription](#rewarddescription) | text |  |  | YES | NULL |  |  |
+| [ContinueDescription](#continuedescription) | text |  |  | YES | NULL |  |  |
+| [Type](#type) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [PlayerConditionID](#playerconditionid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ButtonActionType](#buttonactiontype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [TextureFileDataID](#texturefiledataid) | int(11) | signed |  | NO | 0 |  |  |
+| [LfgDungeonID](#lfgdungeonid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [QuestID](#questid) | int(11) | signed |  | NO | 0 |  |  |
+| [BattleMasterListID](#battlemasterlistid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [PriorityMin](#prioritymin) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [PriorityMax](#prioritymax) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ItemID](#itemid) | int(11) | signed |  | NO | 0 |  |  |
+| [ItemQuantity](#itemquantity) | int(10) | unsigned |  | NO | 0 |  |  |
+| [CurrencyType](#currencytype) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [CurrencyQuantity](#currencyquantity) | int(10) | unsigned |  | NO | 0 |  |  |
+| [UiMapID](#uimapid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [BonusPlayerConditionID1](#bonusplayerconditionid1) | int(10) | unsigned |  | NO | 0 |  |  |
+| [BonusPlayerConditionID2](#bonusplayerconditionid2) | int(10) | unsigned |  | NO | 0 |  |  |
+| [BonusValue1](#bonusvalue1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [BonusValue2](#bonusvalue2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

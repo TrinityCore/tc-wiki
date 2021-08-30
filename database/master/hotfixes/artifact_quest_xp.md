@@ -2,7 +2,7 @@
 title: artifact_quest_xp
 description: 
 published: true
-date: 2021-08-30T09:44:29.491Z
+date: 2021-08-30T19:58:43.010Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Difficulty1](#Difficulty1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Difficulty2](#Difficulty2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Difficulty3](#Difficulty3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Difficulty4](#Difficulty4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Difficulty5](#Difficulty5) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Difficulty6](#Difficulty6) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Difficulty7](#Difficulty7) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Difficulty8](#Difficulty8) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Difficulty9](#Difficulty9) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Difficulty10](#Difficulty10) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Difficulty1](#difficulty1) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Difficulty2](#difficulty2) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Difficulty3](#difficulty3) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Difficulty4](#difficulty4) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Difficulty5](#difficulty5) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Difficulty6](#difficulty6) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Difficulty7](#difficulty7) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Difficulty8](#difficulty8) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Difficulty9](#difficulty9) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Difficulty10](#difficulty10) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

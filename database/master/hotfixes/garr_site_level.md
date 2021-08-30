@@ -2,7 +2,7 @@
 title: garr_site_level
 description: 
 published: true
-date: 2021-08-30T09:44:29.531Z
+date: 2021-08-30T19:58:43.049Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [TownHallUiPosX](#TownHallUiPosX) | float |  |  | NO | 0 |  |  |
-| [TownHallUiPosY](#TownHallUiPosY) | float |  |  | NO | 0 |  |  |
-| [GarrSiteID](#GarrSiteID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [GarrLevel](#GarrLevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MapID](#MapID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [UpgradeMovieID](#UpgradeMovieID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [UiTextureKitID](#UiTextureKitID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [MaxBuildingLevel](#MaxBuildingLevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [UpgradeCost](#UpgradeCost) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [UpgradeGoldCost](#UpgradeGoldCost) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [TownHallUiPosX](#townhalluiposx) | float |  |  | NO | 0 |  |  |
+| [TownHallUiPosY](#townhalluiposy) | float |  |  | NO | 0 |  |  |
+| [GarrSiteID](#garrsiteid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [GarrLevel](#garrlevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [MapID](#mapid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [UpgradeMovieID](#upgrademovieid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [UiTextureKitID](#uitexturekitid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [MaxBuildingLevel](#maxbuildinglevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [UpgradeCost](#upgradecost) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [UpgradeGoldCost](#upgradegoldcost) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

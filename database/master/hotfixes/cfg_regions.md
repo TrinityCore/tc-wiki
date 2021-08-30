@@ -2,7 +2,7 @@
 title: cfg_regions
 description: 
 published: true
-date: 2021-08-30T09:44:29.501Z
+date: 2021-08-30T19:58:43.022Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Tag](#Tag) | text |  |  | YES | NULL |  |  |
-| [RegionID](#RegionID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Raidorigin](#Raidorigin) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RegionGroupMask](#RegionGroupMask) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ChallengeOrigin](#ChallengeOrigin) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Tag](#tag) | text |  |  | YES | NULL |  |  |
+| [RegionID](#regionid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Raidorigin](#raidorigin) | int(10) | unsigned |  | NO | 0 |  |  |
+| [RegionGroupMask](#regiongroupmask) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ChallengeOrigin](#challengeorigin) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: quest_faction_reward
 description: 
 published: true
-date: 2021-08-30T09:44:29.566Z
+date: 2021-08-30T19:58:43.085Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Difficulty1](#Difficulty1) | smallint(6) | signed |  | NO | 0 |  |  |
-| [Difficulty2](#Difficulty2) | smallint(6) | signed |  | NO | 0 |  |  |
-| [Difficulty3](#Difficulty3) | smallint(6) | signed |  | NO | 0 |  |  |
-| [Difficulty4](#Difficulty4) | smallint(6) | signed |  | NO | 0 |  |  |
-| [Difficulty5](#Difficulty5) | smallint(6) | signed |  | NO | 0 |  |  |
-| [Difficulty6](#Difficulty6) | smallint(6) | signed |  | NO | 0 |  |  |
-| [Difficulty7](#Difficulty7) | smallint(6) | signed |  | NO | 0 |  |  |
-| [Difficulty8](#Difficulty8) | smallint(6) | signed |  | NO | 0 |  |  |
-| [Difficulty9](#Difficulty9) | smallint(6) | signed |  | NO | 0 |  |  |
-| [Difficulty10](#Difficulty10) | smallint(6) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Difficulty1](#difficulty1) | smallint(6) | signed |  | NO | 0 |  |  |
+| [Difficulty2](#difficulty2) | smallint(6) | signed |  | NO | 0 |  |  |
+| [Difficulty3](#difficulty3) | smallint(6) | signed |  | NO | 0 |  |  |
+| [Difficulty4](#difficulty4) | smallint(6) | signed |  | NO | 0 |  |  |
+| [Difficulty5](#difficulty5) | smallint(6) | signed |  | NO | 0 |  |  |
+| [Difficulty6](#difficulty6) | smallint(6) | signed |  | NO | 0 |  |  |
+| [Difficulty7](#difficulty7) | smallint(6) | signed |  | NO | 0 |  |  |
+| [Difficulty8](#difficulty8) | smallint(6) | signed |  | NO | 0 |  |  |
+| [Difficulty9](#difficulty9) | smallint(6) | signed |  | NO | 0 |  |  |
+| [Difficulty10](#difficulty10) | smallint(6) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

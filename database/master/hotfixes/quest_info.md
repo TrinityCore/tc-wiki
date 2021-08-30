@@ -2,7 +2,7 @@
 title: quest_info
 description: 
 published: true
-date: 2021-08-30T09:44:29.567Z
+date: 2021-08-30T19:58:43.085Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [InfoName](#InfoName) | text |  |  | YES | NULL |  |  |
-| [Type](#Type) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Modifiers](#Modifiers) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Profession](#Profession) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [InfoName](#infoname) | text |  |  | YES | NULL |  |  |
+| [Type](#type) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [Modifiers](#modifiers) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Profession](#profession) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

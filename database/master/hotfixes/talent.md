@@ -2,7 +2,7 @@
 title: talent
 description: 
 published: true
-date: 2021-08-30T09:44:29.589Z
+date: 2021-08-30T19:58:43.109Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Description](#Description) | text |  |  | YES | NULL |  |  |
-| [TierID](#TierID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Flags](#Flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ColumnIndex](#ColumnIndex) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ClassID](#ClassID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SpecID](#SpecID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [SpellID](#SpellID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [OverridesSpellID](#OverridesSpellID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [CategoryMask1](#CategoryMask1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [CategoryMask2](#CategoryMask2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Description](#description) | text |  |  | YES | NULL |  |  |
+| [TierID](#tierid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ColumnIndex](#columnindex) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ClassID](#classid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [SpecID](#specid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [SpellID](#spellid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [OverridesSpellID](#overridesspellid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [CategoryMask1](#categorymask1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [CategoryMask2](#categorymask2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

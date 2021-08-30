@@ -2,7 +2,7 @@
 title: adventure_map_poi
 description: 
 published: true
-date: 2021-08-30T09:44:29.484Z
+date: 2021-08-30T19:58:43.002Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,21 +14,21 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Title](#Title) | text |  |  | YES | NULL |  |  |
-| [Description](#Description) | text |  |  | YES | NULL |  |  |
-| [WorldPositionX](#WorldPositionX) | float |  |  | NO | 0 |  |  |
-| [WorldPositionY](#WorldPositionY) | float |  |  | NO | 0 |  |  |
-| [Type](#Type) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [PlayerConditionID](#PlayerConditionID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [QuestID](#QuestID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [LfgDungeonID](#LfgDungeonID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardItemID](#RewardItemID) | int(11) | signed |  | NO | 0 |  |  |
-| [UiTextureAtlasMemberID](#UiTextureAtlasMemberID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [UiTextureKitID](#UiTextureKitID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [MapID](#MapID) | int(11) | signed |  | NO | 0 |  |  |
-| [AreaTableID](#AreaTableID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Title](#title) | text |  |  | YES | NULL |  |  |
+| [Description](#description) | text |  |  | YES | NULL |  |  |
+| [WorldPositionX](#worldpositionx) | float |  |  | NO | 0 |  |  |
+| [WorldPositionY](#worldpositiony) | float |  |  | NO | 0 |  |  |
+| [Type](#type) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [PlayerConditionID](#playerconditionid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [QuestID](#questid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [LfgDungeonID](#lfgdungeonid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [RewardItemID](#rewarditemid) | int(11) | signed |  | NO | 0 |  |  |
+| [UiTextureAtlasMemberID](#uitextureatlasmemberid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [UiTextureKitID](#uitexturekitid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [MapID](#mapid) | int(11) | signed |  | NO | 0 |  |  |
+| [AreaTableID](#areatableid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

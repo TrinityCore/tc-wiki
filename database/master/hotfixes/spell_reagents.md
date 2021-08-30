@@ -2,7 +2,7 @@
 title: spell_reagents
 description: 
 published: true
-date: 2021-08-30T09:44:29.586Z
+date: 2021-08-30T19:58:43.105Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,25 +14,25 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [SpellID](#SpellID) | int(11) | signed |  | NO | 0 |  |  |
-| [Reagent1](#Reagent1) | int(11) | signed |  | NO | 0 |  |  |
-| [Reagent2](#Reagent2) | int(11) | signed |  | NO | 0 |  |  |
-| [Reagent3](#Reagent3) | int(11) | signed |  | NO | 0 |  |  |
-| [Reagent4](#Reagent4) | int(11) | signed |  | NO | 0 |  |  |
-| [Reagent5](#Reagent5) | int(11) | signed |  | NO | 0 |  |  |
-| [Reagent6](#Reagent6) | int(11) | signed |  | NO | 0 |  |  |
-| [Reagent7](#Reagent7) | int(11) | signed |  | NO | 0 |  |  |
-| [Reagent8](#Reagent8) | int(11) | signed |  | NO | 0 |  |  |
-| [ReagentCount1](#ReagentCount1) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ReagentCount2](#ReagentCount2) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ReagentCount3](#ReagentCount3) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ReagentCount4](#ReagentCount4) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ReagentCount5](#ReagentCount5) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ReagentCount6](#ReagentCount6) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ReagentCount7](#ReagentCount7) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ReagentCount8](#ReagentCount8) | smallint(6) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [SpellID](#spellid) | int(11) | signed |  | NO | 0 |  |  |
+| [Reagent1](#reagent1) | int(11) | signed |  | NO | 0 |  |  |
+| [Reagent2](#reagent2) | int(11) | signed |  | NO | 0 |  |  |
+| [Reagent3](#reagent3) | int(11) | signed |  | NO | 0 |  |  |
+| [Reagent4](#reagent4) | int(11) | signed |  | NO | 0 |  |  |
+| [Reagent5](#reagent5) | int(11) | signed |  | NO | 0 |  |  |
+| [Reagent6](#reagent6) | int(11) | signed |  | NO | 0 |  |  |
+| [Reagent7](#reagent7) | int(11) | signed |  | NO | 0 |  |  |
+| [Reagent8](#reagent8) | int(11) | signed |  | NO | 0 |  |  |
+| [ReagentCount1](#reagentcount1) | smallint(6) | signed |  | NO | 0 |  |  |
+| [ReagentCount2](#reagentcount2) | smallint(6) | signed |  | NO | 0 |  |  |
+| [ReagentCount3](#reagentcount3) | smallint(6) | signed |  | NO | 0 |  |  |
+| [ReagentCount4](#reagentcount4) | smallint(6) | signed |  | NO | 0 |  |  |
+| [ReagentCount5](#reagentcount5) | smallint(6) | signed |  | NO | 0 |  |  |
+| [ReagentCount6](#reagentcount6) | smallint(6) | signed |  | NO | 0 |  |  |
+| [ReagentCount7](#reagentcount7) | smallint(6) | signed |  | NO | 0 |  |  |
+| [ReagentCount8](#reagentcount8) | smallint(6) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

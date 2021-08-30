@@ -2,7 +2,7 @@
 title: azerite_unlock_mapping
 description: 
 published: true
-date: 2021-08-30T09:44:29.496Z
+date: 2021-08-30T19:58:43.017Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ItemLevel](#ItemLevel) | int(11) | signed |  | NO | 0 |  |  |
-| [ItemBonusListHead](#ItemBonusListHead) | int(11) | signed |  | NO | 0 |  |  |
-| [ItemBonusListShoulders](#ItemBonusListShoulders) | int(11) | signed |  | NO | 0 |  |  |
-| [ItemBonusListChest](#ItemBonusListChest) | int(11) | signed |  | NO | 0 |  |  |
-| [AzeriteUnlockMappingSetID](#AzeriteUnlockMappingSetID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ItemLevel](#itemlevel) | int(11) | signed |  | NO | 0 |  |  |
+| [ItemBonusListHead](#itembonuslisthead) | int(11) | signed |  | NO | 0 |  |  |
+| [ItemBonusListShoulders](#itembonuslistshoulders) | int(11) | signed |  | NO | 0 |  |  |
+| [ItemBonusListChest](#itembonuslistchest) | int(11) | signed |  | NO | 0 |  |  |
+| [AzeriteUnlockMappingSetID](#azeriteunlockmappingsetid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

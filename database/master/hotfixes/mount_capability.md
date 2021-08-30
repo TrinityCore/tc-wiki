@@ -2,7 +2,7 @@
 title: mount_capability
 description: 
 published: true
-date: 2021-08-30T09:44:29.558Z
+date: 2021-08-30T19:58:43.076Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,16 +14,16 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Flags](#Flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ReqRidingSkill](#ReqRidingSkill) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ReqAreaID](#ReqAreaID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ReqSpellAuraID](#ReqSpellAuraID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ReqSpellKnownID](#ReqSpellKnownID) | int(11) | signed |  | NO | 0 |  |  |
-| [ModSpellAuraID](#ModSpellAuraID) | int(11) | signed |  | NO | 0 |  |  |
-| [ReqMapID](#ReqMapID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [PlayerConditionID](#PlayerConditionID) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ReqRidingSkill](#reqridingskill) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ReqAreaID](#reqareaid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ReqSpellAuraID](#reqspellauraid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ReqSpellKnownID](#reqspellknownid) | int(11) | signed |  | NO | 0 |  |  |
+| [ModSpellAuraID](#modspellauraid) | int(11) | signed |  | NO | 0 |  |  |
+| [ReqMapID](#reqmapid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [PlayerConditionID](#playerconditionid) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

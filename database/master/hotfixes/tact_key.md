@@ -2,7 +2,7 @@
 title: tact_key
 description: 
 published: true
-date: 2021-08-30T09:44:29.589Z
+date: 2021-08-30T19:58:43.109Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,24 +14,24 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Key1](#Key1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key2](#Key2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key3](#Key3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key4](#Key4) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key5](#Key5) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key6](#Key6) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key7](#Key7) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key8](#Key8) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key9](#Key9) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key10](#Key10) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key11](#Key11) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key12](#Key12) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key13](#Key13) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key14](#Key14) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key15](#Key15) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key16](#Key16) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Key1](#key1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Key2](#key2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Key3](#key3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Key4](#key4) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Key5](#key5) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Key6](#key6) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Key7](#key7) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Key8](#key8) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Key9](#key9) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Key10](#key10) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Key11](#key11) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Key12](#key12) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Key13](#key13) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Key14](#key14) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Key15](#key15) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Key16](#key16) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

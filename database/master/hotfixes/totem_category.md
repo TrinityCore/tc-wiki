@@ -2,7 +2,7 @@
 title: totem_category
 description: 
 published: true
-date: 2021-08-30T09:44:29.591Z
+date: 2021-08-30T19:58:43.111Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Name](#Name) | text |  |  | YES | NULL |  |  |
-| [TotemCategoryType](#TotemCategoryType) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [TotemCategoryMask](#TotemCategoryMask) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [TotemCategoryType](#totemcategorytype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [TotemCategoryMask](#totemcategorymask) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

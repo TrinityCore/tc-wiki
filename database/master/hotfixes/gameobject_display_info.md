@@ -2,7 +2,7 @@
 title: gameobject_display_info
 description: 
 published: true
-date: 2021-08-30T09:44:29.526Z
+date: 2021-08-30T19:58:43.045Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [GeoBoxMinX](#GeoBoxMinX) | float |  |  | NO | 0 |  |  |
-| [GeoBoxMinY](#GeoBoxMinY) | float |  |  | NO | 0 |  |  |
-| [GeoBoxMinZ](#GeoBoxMinZ) | float |  |  | NO | 0 |  |  |
-| [GeoBoxMaxX](#GeoBoxMaxX) | float |  |  | NO | 0 |  |  |
-| [GeoBoxMaxY](#GeoBoxMaxY) | float |  |  | NO | 0 |  |  |
-| [GeoBoxMaxZ](#GeoBoxMaxZ) | float |  |  | NO | 0 |  |  |
-| [FileDataID](#FileDataID) | int(11) | signed |  | NO | 0 |  |  |
-| [ObjectEffectPackageID](#ObjectEffectPackageID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [OverrideLootEffectScale](#OverrideLootEffectScale) | float |  |  | NO | 0 |  |  |
-| [OverrideNameScale](#OverrideNameScale) | float |  |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [GeoBoxMinX](#geoboxminx) | float |  |  | NO | 0 |  |  |
+| [GeoBoxMinY](#geoboxminy) | float |  |  | NO | 0 |  |  |
+| [GeoBoxMinZ](#geoboxminz) | float |  |  | NO | 0 |  |  |
+| [GeoBoxMaxX](#geoboxmaxx) | float |  |  | NO | 0 |  |  |
+| [GeoBoxMaxY](#geoboxmaxy) | float |  |  | NO | 0 |  |  |
+| [GeoBoxMaxZ](#geoboxmaxz) | float |  |  | NO | 0 |  |  |
+| [FileDataID](#filedataid) | int(11) | signed |  | NO | 0 |  |  |
+| [ObjectEffectPackageID](#objecteffectpackageid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [OverrideLootEffectScale](#overridelooteffectscale) | float |  |  | NO | 0 |  |  |
+| [OverrideNameScale](#overridenamescale) | float |  |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

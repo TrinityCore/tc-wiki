@@ -2,7 +2,7 @@
 title: chr_class_ui_display
 description: 
 published: true
-date: 2021-08-30T09:44:29.503Z
+date: 2021-08-30T19:58:43.024Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ChrClassesID](#ChrClassesID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [AdvGuidePlayerConditionID](#AdvGuidePlayerConditionID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SplashPlayerConditionID](#SplashPlayerConditionID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ChrClassesID](#chrclassesid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [AdvGuidePlayerConditionID](#advguideplayerconditionid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [SplashPlayerConditionID](#splashplayerconditionid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

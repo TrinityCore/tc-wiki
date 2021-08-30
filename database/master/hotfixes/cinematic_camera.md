@@ -2,7 +2,7 @@
 title: cinematic_camera
 description: 
 published: true
-date: 2021-08-30T09:44:29.512Z
+date: 2021-08-30T19:58:43.031Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,14 +14,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [OriginX](#OriginX) | float |  |  | NO | 0 |  |  |
-| [OriginY](#OriginY) | float |  |  | NO | 0 |  |  |
-| [OriginZ](#OriginZ) | float |  |  | NO | 0 |  |  |
-| [SoundID](#SoundID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [OriginFacing](#OriginFacing) | float |  |  | NO | 0 |  |  |
-| [FileDataID](#FileDataID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [OriginX](#originx) | float |  |  | NO | 0 |  |  |
+| [OriginY](#originy) | float |  |  | NO | 0 |  |  |
+| [OriginZ](#originz) | float |  |  | NO | 0 |  |  |
+| [SoundID](#soundid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [OriginFacing](#originfacing) | float |  |  | NO | 0 |  |  |
+| [FileDataID](#filedataid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

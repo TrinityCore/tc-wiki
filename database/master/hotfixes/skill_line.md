@@ -2,7 +2,7 @@
 title: skill_line
 description: 
 published: true
-date: 2021-08-30T09:44:29.573Z
+date: 2021-08-30T19:58:43.092Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,20 +14,20 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [DisplayName](#DisplayName) | text |  |  | YES | NULL |  |  |
-| [AlternateVerb](#AlternateVerb) | text |  |  | YES | NULL |  |  |
-| [Description](#Description) | text |  |  | YES | NULL |  |  |
-| [HordeDisplayName](#HordeDisplayName) | text |  |  | YES | NULL |  |  |
-| [OverrideSourceInfoDisplayName](#OverrideSourceInfoDisplayName) | text |  |  | YES | NULL |  |  |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [CategoryID](#CategoryID) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [SpellIconFileID](#SpellIconFileID) | int(11) | signed |  | NO | 0 |  |  |
-| [CanLink](#CanLink) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [ParentSkillLineID](#ParentSkillLineID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ParentTierIndex](#ParentTierIndex) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags](#Flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [SpellBookSpellID](#SpellBookSpellID) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [DisplayName](#displayname) | text |  |  | YES | NULL |  |  |
+| [AlternateVerb](#alternateverb) | text |  |  | YES | NULL |  |  |
+| [Description](#description) | text |  |  | YES | NULL |  |  |
+| [HordeDisplayName](#hordedisplayname) | text |  |  | YES | NULL |  |  |
+| [OverrideSourceInfoDisplayName](#overridesourceinfodisplayname) | text |  |  | YES | NULL |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [CategoryID](#categoryid) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [SpellIconFileID](#spelliconfileid) | int(11) | signed |  | NO | 0 |  |  |
+| [CanLink](#canlink) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [ParentSkillLineID](#parentskilllineid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ParentTierIndex](#parenttierindex) | int(11) | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [SpellBookSpellID](#spellbookspellid) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

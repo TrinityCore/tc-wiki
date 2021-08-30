@@ -2,7 +2,7 @@
 title: content_tuning
 description: 
 published: true
-date: 2021-08-30T09:44:29.513Z
+date: 2021-08-30T19:58:43.031Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,19 +14,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Flags](#Flags) | int(11) | signed |  | NO | 0 |  |  |
-| [ExpansionID](#ExpansionID) | int(11) | signed |  | NO | 0 |  |  |
-| [MinLevel](#MinLevel) | int(11) | signed |  | NO | 0 |  |  |
-| [MaxLevel](#MaxLevel) | int(11) | signed |  | NO | 0 |  |  |
-| [MinLevelType](#MinLevelType) | int(11) | signed |  | NO | 0 |  |  |
-| [MaxLevelType](#MaxLevelType) | int(11) | signed |  | NO | 0 |  |  |
-| [TargetLevelDelta](#TargetLevelDelta) | int(11) | signed |  | NO | 0 |  |  |
-| [TargetLevelMaxDelta](#TargetLevelMaxDelta) | int(11) | signed |  | NO | 0 |  |  |
-| [TargetLevelMin](#TargetLevelMin) | int(11) | signed |  | NO | 0 |  |  |
-| [TargetLevelMax](#TargetLevelMax) | int(11) | signed |  | NO | 0 |  |  |
-| [MinItemLevel](#MinItemLevel) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
+| [ExpansionID](#expansionid) | int(11) | signed |  | NO | 0 |  |  |
+| [MinLevel](#minlevel) | int(11) | signed |  | NO | 0 |  |  |
+| [MaxLevel](#maxlevel) | int(11) | signed |  | NO | 0 |  |  |
+| [MinLevelType](#minleveltype) | int(11) | signed |  | NO | 0 |  |  |
+| [MaxLevelType](#maxleveltype) | int(11) | signed |  | NO | 0 |  |  |
+| [TargetLevelDelta](#targetleveldelta) | int(11) | signed |  | NO | 0 |  |  |
+| [TargetLevelMaxDelta](#targetlevelmaxdelta) | int(11) | signed |  | NO | 0 |  |  |
+| [TargetLevelMin](#targetlevelmin) | int(11) | signed |  | NO | 0 |  |  |
+| [TargetLevelMax](#targetlevelmax) | int(11) | signed |  | NO | 0 |  |  |
+| [MinItemLevel](#minitemlevel) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

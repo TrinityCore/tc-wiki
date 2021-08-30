@@ -2,7 +2,7 @@
 title: override_spell_data
 description: 
 published: true
-date: 2021-08-30T09:44:29.561Z
+date: 2021-08-30T19:58:43.079Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,20 +14,20 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Spells1](#Spells1) | int(11) | signed |  | NO | 0 |  |  |
-| [Spells2](#Spells2) | int(11) | signed |  | NO | 0 |  |  |
-| [Spells3](#Spells3) | int(11) | signed |  | NO | 0 |  |  |
-| [Spells4](#Spells4) | int(11) | signed |  | NO | 0 |  |  |
-| [Spells5](#Spells5) | int(11) | signed |  | NO | 0 |  |  |
-| [Spells6](#Spells6) | int(11) | signed |  | NO | 0 |  |  |
-| [Spells7](#Spells7) | int(11) | signed |  | NO | 0 |  |  |
-| [Spells8](#Spells8) | int(11) | signed |  | NO | 0 |  |  |
-| [Spells9](#Spells9) | int(11) | signed |  | NO | 0 |  |  |
-| [Spells10](#Spells10) | int(11) | signed |  | NO | 0 |  |  |
-| [PlayerActionBarFileDataID](#PlayerActionBarFileDataID) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags](#Flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Spells1](#spells1) | int(11) | signed |  | NO | 0 |  |  |
+| [Spells2](#spells2) | int(11) | signed |  | NO | 0 |  |  |
+| [Spells3](#spells3) | int(11) | signed |  | NO | 0 |  |  |
+| [Spells4](#spells4) | int(11) | signed |  | NO | 0 |  |  |
+| [Spells5](#spells5) | int(11) | signed |  | NO | 0 |  |  |
+| [Spells6](#spells6) | int(11) | signed |  | NO | 0 |  |  |
+| [Spells7](#spells7) | int(11) | signed |  | NO | 0 |  |  |
+| [Spells8](#spells8) | int(11) | signed |  | NO | 0 |  |  |
+| [Spells9](#spells9) | int(11) | signed |  | NO | 0 |  |  |
+| [Spells10](#spells10) | int(11) | signed |  | NO | 0 |  |  |
+| [PlayerActionBarFileDataID](#playeractionbarfiledataid) | int(11) | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

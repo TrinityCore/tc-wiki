@@ -2,7 +2,7 @@
 title: transmog_set
 description: 
 published: true
-date: 2021-08-30T09:44:29.593Z
+date: 2021-08-30T19:58:43.113Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,20 +14,20 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Name](#Name) | text |  |  | YES | NULL |  |  |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ClassMask](#ClassMask) | int(11) | signed |  | NO | 0 |  |  |
-| [TrackingQuestID](#TrackingQuestID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Flags](#Flags) | int(11) | signed |  | NO | 0 |  |  |
-| [TransmogSetGroupID](#TransmogSetGroupID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemNameDescriptionID](#ItemNameDescriptionID) | int(11) | signed |  | NO | 0 |  |  |
-| [ParentTransmogSetID](#ParentTransmogSetID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Unknown810](#Unknown810) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ExpansionID](#ExpansionID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [PatchID](#PatchID) | int(11) | signed |  | NO | 0 |  |  |
-| [UiOrder](#UiOrder) | smallint(6) | signed |  | NO | 0 |  |  |
-| [PlayerConditionID](#PlayerConditionID) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ClassMask](#classmask) | int(11) | signed |  | NO | 0 |  |  |
+| [TrackingQuestID](#trackingquestid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
+| [TransmogSetGroupID](#transmogsetgroupid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ItemNameDescriptionID](#itemnamedescriptionid) | int(11) | signed |  | NO | 0 |  |  |
+| [ParentTransmogSetID](#parenttransmogsetid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Unknown810](#unknown810) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ExpansionID](#expansionid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [PatchID](#patchid) | int(11) | signed |  | NO | 0 |  |  |
+| [UiOrder](#uiorder) | smallint(6) | signed |  | NO | 0 |  |  |
+| [PlayerConditionID](#playerconditionid) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

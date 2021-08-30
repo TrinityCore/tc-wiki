@@ -2,7 +2,7 @@
 title: vehicle_seat
 description: 
 published: true
-date: 2021-08-30T09:44:29.598Z
+date: 2021-08-30T19:58:43.118Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,73 +14,73 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [AttachmentOffsetX](#AttachmentOffsetX) | float |  |  | NO | 0 |  |  |
-| [AttachmentOffsetY](#AttachmentOffsetY) | float |  |  | NO | 0 |  |  |
-| [AttachmentOffsetZ](#AttachmentOffsetZ) | float |  |  | NO | 0 |  |  |
-| [CameraOffsetX](#CameraOffsetX) | float |  |  | NO | 0 |  |  |
-| [CameraOffsetY](#CameraOffsetY) | float |  |  | NO | 0 |  |  |
-| [CameraOffsetZ](#CameraOffsetZ) | float |  |  | NO | 0 |  |  |
-| [Flags](#Flags) | int(11) | signed |  | NO | 0 |  |  |
-| [FlagsB](#FlagsB) | int(11) | signed |  | NO | 0 |  |  |
-| [FlagsC](#FlagsC) | int(11) | signed |  | NO | 0 |  |  |
-| [AttachmentID](#AttachmentID) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [EnterPreDelay](#EnterPreDelay) | float |  |  | NO | 0 |  |  |
-| [EnterSpeed](#EnterSpeed) | float |  |  | NO | 0 |  |  |
-| [EnterGravity](#EnterGravity) | float |  |  | NO | 0 |  |  |
-| [EnterMinDuration](#EnterMinDuration) | float |  |  | NO | 0 |  |  |
-| [EnterMaxDuration](#EnterMaxDuration) | float |  |  | NO | 0 |  |  |
-| [EnterMinArcHeight](#EnterMinArcHeight) | float |  |  | NO | 0 |  |  |
-| [EnterMaxArcHeight](#EnterMaxArcHeight) | float |  |  | NO | 0 |  |  |
-| [EnterAnimStart](#EnterAnimStart) | int(11) | signed |  | NO | 0 |  |  |
-| [EnterAnimLoop](#EnterAnimLoop) | int(11) | signed |  | NO | 0 |  |  |
-| [RideAnimStart](#RideAnimStart) | int(11) | signed |  | NO | 0 |  |  |
-| [RideAnimLoop](#RideAnimLoop) | int(11) | signed |  | NO | 0 |  |  |
-| [RideUpperAnimStart](#RideUpperAnimStart) | int(11) | signed |  | NO | 0 |  |  |
-| [RideUpperAnimLoop](#RideUpperAnimLoop) | int(11) | signed |  | NO | 0 |  |  |
-| [ExitPreDelay](#ExitPreDelay) | float |  |  | NO | 0 |  |  |
-| [ExitSpeed](#ExitSpeed) | float |  |  | NO | 0 |  |  |
-| [ExitGravity](#ExitGravity) | float |  |  | NO | 0 |  |  |
-| [ExitMinDuration](#ExitMinDuration) | float |  |  | NO | 0 |  |  |
-| [ExitMaxDuration](#ExitMaxDuration) | float |  |  | NO | 0 |  |  |
-| [ExitMinArcHeight](#ExitMinArcHeight) | float |  |  | NO | 0 |  |  |
-| [ExitMaxArcHeight](#ExitMaxArcHeight) | float |  |  | NO | 0 |  |  |
-| [ExitAnimStart](#ExitAnimStart) | int(11) | signed |  | NO | 0 |  |  |
-| [ExitAnimLoop](#ExitAnimLoop) | int(11) | signed |  | NO | 0 |  |  |
-| [ExitAnimEnd](#ExitAnimEnd) | int(11) | signed |  | NO | 0 |  |  |
-| [VehicleEnterAnim](#VehicleEnterAnim) | smallint(6) | signed |  | NO | 0 |  |  |
-| [VehicleEnterAnimBone](#VehicleEnterAnimBone) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [VehicleExitAnim](#VehicleExitAnim) | smallint(6) | signed |  | NO | 0 |  |  |
-| [VehicleExitAnimBone](#VehicleExitAnimBone) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [VehicleRideAnimLoop](#VehicleRideAnimLoop) | smallint(6) | signed |  | NO | 0 |  |  |
-| [VehicleRideAnimLoopBone](#VehicleRideAnimLoopBone) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [PassengerAttachmentID](#PassengerAttachmentID) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [PassengerYaw](#PassengerYaw) | float |  |  | NO | 0 |  |  |
-| [PassengerPitch](#PassengerPitch) | float |  |  | NO | 0 |  |  |
-| [PassengerRoll](#PassengerRoll) | float |  |  | NO | 0 |  |  |
-| [VehicleEnterAnimDelay](#VehicleEnterAnimDelay) | float |  |  | NO | 0 |  |  |
-| [VehicleExitAnimDelay](#VehicleExitAnimDelay) | float |  |  | NO | 0 |  |  |
-| [VehicleAbilityDisplay](#VehicleAbilityDisplay) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [EnterUISoundID](#EnterUISoundID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ExitUISoundID](#ExitUISoundID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [UiSkinFileDataID](#UiSkinFileDataID) | int(11) | signed |  | NO | 0 |  |  |
-| [CameraEnteringDelay](#CameraEnteringDelay) | float |  |  | NO | 0 |  |  |
-| [CameraEnteringDuration](#CameraEnteringDuration) | float |  |  | NO | 0 |  |  |
-| [CameraExitingDelay](#CameraExitingDelay) | float |  |  | NO | 0 |  |  |
-| [CameraExitingDuration](#CameraExitingDuration) | float |  |  | NO | 0 |  |  |
-| [CameraPosChaseRate](#CameraPosChaseRate) | float |  |  | NO | 0 |  |  |
-| [CameraFacingChaseRate](#CameraFacingChaseRate) | float |  |  | NO | 0 |  |  |
-| [CameraEnteringZoom](#CameraEnteringZoom) | float |  |  | NO | 0 |  |  |
-| [CameraSeatZoomMin](#CameraSeatZoomMin) | float |  |  | NO | 0 |  |  |
-| [CameraSeatZoomMax](#CameraSeatZoomMax) | float |  |  | NO | 0 |  |  |
-| [EnterAnimKitID](#EnterAnimKitID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [RideAnimKitID](#RideAnimKitID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ExitAnimKitID](#ExitAnimKitID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [VehicleEnterAnimKitID](#VehicleEnterAnimKitID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [VehicleRideAnimKitID](#VehicleRideAnimKitID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [VehicleExitAnimKitID](#VehicleExitAnimKitID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [CameraModeID](#CameraModeID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [AttachmentOffsetX](#attachmentoffsetx) | float |  |  | NO | 0 |  |  |
+| [AttachmentOffsetY](#attachmentoffsety) | float |  |  | NO | 0 |  |  |
+| [AttachmentOffsetZ](#attachmentoffsetz) | float |  |  | NO | 0 |  |  |
+| [CameraOffsetX](#cameraoffsetx) | float |  |  | NO | 0 |  |  |
+| [CameraOffsetY](#cameraoffsety) | float |  |  | NO | 0 |  |  |
+| [CameraOffsetZ](#cameraoffsetz) | float |  |  | NO | 0 |  |  |
+| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
+| [FlagsB](#flagsb) | int(11) | signed |  | NO | 0 |  |  |
+| [FlagsC](#flagsc) | int(11) | signed |  | NO | 0 |  |  |
+| [AttachmentID](#attachmentid) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [EnterPreDelay](#enterpredelay) | float |  |  | NO | 0 |  |  |
+| [EnterSpeed](#enterspeed) | float |  |  | NO | 0 |  |  |
+| [EnterGravity](#entergravity) | float |  |  | NO | 0 |  |  |
+| [EnterMinDuration](#enterminduration) | float |  |  | NO | 0 |  |  |
+| [EnterMaxDuration](#entermaxduration) | float |  |  | NO | 0 |  |  |
+| [EnterMinArcHeight](#enterminarcheight) | float |  |  | NO | 0 |  |  |
+| [EnterMaxArcHeight](#entermaxarcheight) | float |  |  | NO | 0 |  |  |
+| [EnterAnimStart](#enteranimstart) | int(11) | signed |  | NO | 0 |  |  |
+| [EnterAnimLoop](#enteranimloop) | int(11) | signed |  | NO | 0 |  |  |
+| [RideAnimStart](#rideanimstart) | int(11) | signed |  | NO | 0 |  |  |
+| [RideAnimLoop](#rideanimloop) | int(11) | signed |  | NO | 0 |  |  |
+| [RideUpperAnimStart](#rideupperanimstart) | int(11) | signed |  | NO | 0 |  |  |
+| [RideUpperAnimLoop](#rideupperanimloop) | int(11) | signed |  | NO | 0 |  |  |
+| [ExitPreDelay](#exitpredelay) | float |  |  | NO | 0 |  |  |
+| [ExitSpeed](#exitspeed) | float |  |  | NO | 0 |  |  |
+| [ExitGravity](#exitgravity) | float |  |  | NO | 0 |  |  |
+| [ExitMinDuration](#exitminduration) | float |  |  | NO | 0 |  |  |
+| [ExitMaxDuration](#exitmaxduration) | float |  |  | NO | 0 |  |  |
+| [ExitMinArcHeight](#exitminarcheight) | float |  |  | NO | 0 |  |  |
+| [ExitMaxArcHeight](#exitmaxarcheight) | float |  |  | NO | 0 |  |  |
+| [ExitAnimStart](#exitanimstart) | int(11) | signed |  | NO | 0 |  |  |
+| [ExitAnimLoop](#exitanimloop) | int(11) | signed |  | NO | 0 |  |  |
+| [ExitAnimEnd](#exitanimend) | int(11) | signed |  | NO | 0 |  |  |
+| [VehicleEnterAnim](#vehicleenteranim) | smallint(6) | signed |  | NO | 0 |  |  |
+| [VehicleEnterAnimBone](#vehicleenteranimbone) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [VehicleExitAnim](#vehicleexitanim) | smallint(6) | signed |  | NO | 0 |  |  |
+| [VehicleExitAnimBone](#vehicleexitanimbone) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [VehicleRideAnimLoop](#vehiclerideanimloop) | smallint(6) | signed |  | NO | 0 |  |  |
+| [VehicleRideAnimLoopBone](#vehiclerideanimloopbone) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [PassengerAttachmentID](#passengerattachmentid) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [PassengerYaw](#passengeryaw) | float |  |  | NO | 0 |  |  |
+| [PassengerPitch](#passengerpitch) | float |  |  | NO | 0 |  |  |
+| [PassengerRoll](#passengerroll) | float |  |  | NO | 0 |  |  |
+| [VehicleEnterAnimDelay](#vehicleenteranimdelay) | float |  |  | NO | 0 |  |  |
+| [VehicleExitAnimDelay](#vehicleexitanimdelay) | float |  |  | NO | 0 |  |  |
+| [VehicleAbilityDisplay](#vehicleabilitydisplay) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [EnterUISoundID](#enteruisoundid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ExitUISoundID](#exituisoundid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [UiSkinFileDataID](#uiskinfiledataid) | int(11) | signed |  | NO | 0 |  |  |
+| [CameraEnteringDelay](#cameraenteringdelay) | float |  |  | NO | 0 |  |  |
+| [CameraEnteringDuration](#cameraenteringduration) | float |  |  | NO | 0 |  |  |
+| [CameraExitingDelay](#cameraexitingdelay) | float |  |  | NO | 0 |  |  |
+| [CameraExitingDuration](#cameraexitingduration) | float |  |  | NO | 0 |  |  |
+| [CameraPosChaseRate](#cameraposchaserate) | float |  |  | NO | 0 |  |  |
+| [CameraFacingChaseRate](#camerafacingchaserate) | float |  |  | NO | 0 |  |  |
+| [CameraEnteringZoom](#cameraenteringzoom) | float |  |  | NO | 0 |  |  |
+| [CameraSeatZoomMin](#cameraseatzoommin) | float |  |  | NO | 0 |  |  |
+| [CameraSeatZoomMax](#cameraseatzoommax) | float |  |  | NO | 0 |  |  |
+| [EnterAnimKitID](#enteranimkitid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [RideAnimKitID](#rideanimkitid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [ExitAnimKitID](#exitanimkitid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [VehicleEnterAnimKitID](#vehicleenteranimkitid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [VehicleRideAnimKitID](#vehiclerideanimkitid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [VehicleExitAnimKitID](#vehicleexitanimkitid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [CameraModeID](#cameramodeid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

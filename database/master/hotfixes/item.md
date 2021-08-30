@@ -2,7 +2,7 @@
 title: item
 description: 
 published: true
-date: 2021-08-30T09:44:29.537Z
+date: 2021-08-30T19:58:43.056Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,17 +14,17 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ClassID](#ClassID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SubclassID](#SubclassID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Material](#Material) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [InventoryType](#InventoryType) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [SheatheType](#SheatheType) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SoundOverrideSubclassID](#SoundOverrideSubclassID) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [IconFileDataID](#IconFileDataID) | int(11) | signed |  | NO | 0 |  |  |
-| [ItemGroupSoundsID](#ItemGroupSoundsID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ModifiedCraftingReagentItemID](#ModifiedCraftingReagentItemID) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ClassID](#classid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [SubclassID](#subclassid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Material](#material) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [InventoryType](#inventorytype) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [SheatheType](#sheathetype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [SoundOverrideSubclassID](#soundoverridesubclassid) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [IconFileDataID](#iconfiledataid) | int(11) | signed |  | NO | 0 |  |  |
+| [ItemGroupSoundsID](#itemgroupsoundsid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ModifiedCraftingReagentItemID](#modifiedcraftingreagentitemid) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

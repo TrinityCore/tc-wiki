@@ -2,7 +2,7 @@
 title: chr_specialization
 description: 
 published: true
-date: 2021-08-30T09:44:29.510Z
+date: 2021-08-30T19:58:43.030Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,21 +14,21 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Name](#Name) | text |  |  | YES | NULL |  |  |
-| [FemaleName](#FemaleName) | text |  |  | YES | NULL |  |  |
-| [Description](#Description) | text |  |  | YES | NULL |  |  |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ClassID](#ClassID) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [OrderIndex](#OrderIndex) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [PetTalentType](#PetTalentType) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Role](#Role) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Flags](#Flags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SpellIconFileID](#SpellIconFileID) | int(11) | signed |  | NO | 0 |  |  |
-| [PrimaryStatPriority](#PrimaryStatPriority) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [AnimReplacements](#AnimReplacements) | int(11) | signed |  | NO | 0 |  |  |
-| [MasterySpellID1](#MasterySpellID1) | int(11) | signed |  | NO | 0 |  |  |
-| [MasterySpellID2](#MasterySpellID2) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [FemaleName](#femalename) | text |  |  | YES | NULL |  |  |
+| [Description](#description) | text |  |  | YES | NULL |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ClassID](#classid) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [OrderIndex](#orderindex) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [PetTalentType](#pettalenttype) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [Role](#role) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
+| [SpellIconFileID](#spelliconfileid) | int(11) | signed |  | NO | 0 |  |  |
+| [PrimaryStatPriority](#primarystatpriority) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [AnimReplacements](#animreplacements) | int(11) | signed |  | NO | 0 |  |  |
+| [MasterySpellID1](#masteryspellid1) | int(11) | signed |  | NO | 0 |  |  |
+| [MasterySpellID2](#masteryspellid2) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: spell_scaling
 description: 
 published: true
-date: 2021-08-30T09:44:29.586Z
+date: 2021-08-30T19:58:43.105Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [SpellID](#SpellID) | int(11) | signed |  | NO | 0 |  |  |
-| [MinScalingLevel](#MinScalingLevel) | int(10) | unsigned |  | NO | 0 |  |  |
-| [MaxScalingLevel](#MaxScalingLevel) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ScalesFromItemLevel](#ScalesFromItemLevel) | smallint(6) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [SpellID](#spellid) | int(11) | signed |  | NO | 0 |  |  |
+| [MinScalingLevel](#minscalinglevel) | int(10) | unsigned |  | NO | 0 |  |  |
+| [MaxScalingLevel](#maxscalinglevel) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ScalesFromItemLevel](#scalesfromitemlevel) | smallint(6) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

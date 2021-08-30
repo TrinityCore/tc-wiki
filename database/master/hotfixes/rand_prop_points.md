@@ -2,7 +2,7 @@
 title: rand_prop_points
 description: 
 published: true
-date: 2021-08-30T09:44:29.569Z
+date: 2021-08-30T19:58:43.088Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,42 +14,42 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [DamageReplaceStatF](#DamageReplaceStatF) | float |  |  | NO | 0 |  |  |
-| [DamageSecondaryF](#DamageSecondaryF) | float |  |  | NO | 0 |  |  |
-| [DamageReplaceStat](#DamageReplaceStat) | int(11) | signed |  | NO | 0 |  |  |
-| [DamageSecondary](#DamageSecondary) | int(11) | signed |  | NO | 0 |  |  |
-| [EpicF1](#EpicF1) | float |  |  | NO | 0 |  |  |
-| [EpicF2](#EpicF2) | float |  |  | NO | 0 |  |  |
-| [EpicF3](#EpicF3) | float |  |  | NO | 0 |  |  |
-| [EpicF4](#EpicF4) | float |  |  | NO | 0 |  |  |
-| [EpicF5](#EpicF5) | float |  |  | NO | 0 |  |  |
-| [SuperiorF1](#SuperiorF1) | float |  |  | NO | 0 |  |  |
-| [SuperiorF2](#SuperiorF2) | float |  |  | NO | 0 |  |  |
-| [SuperiorF3](#SuperiorF3) | float |  |  | NO | 0 |  |  |
-| [SuperiorF4](#SuperiorF4) | float |  |  | NO | 0 |  |  |
-| [SuperiorF5](#SuperiorF5) | float |  |  | NO | 0 |  |  |
-| [GoodF1](#GoodF1) | float |  |  | NO | 0 |  |  |
-| [GoodF2](#GoodF2) | float |  |  | NO | 0 |  |  |
-| [GoodF3](#GoodF3) | float |  |  | NO | 0 |  |  |
-| [GoodF4](#GoodF4) | float |  |  | NO | 0 |  |  |
-| [GoodF5](#GoodF5) | float |  |  | NO | 0 |  |  |
-| [Epic1](#Epic1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Epic2](#Epic2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Epic3](#Epic3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Epic4](#Epic4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Epic5](#Epic5) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Superior1](#Superior1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Superior2](#Superior2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Superior3](#Superior3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Superior4](#Superior4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Superior5](#Superior5) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Good1](#Good1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Good2](#Good2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Good3](#Good3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Good4](#Good4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Good5](#Good5) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [DamageReplaceStatF](#damagereplacestatf) | float |  |  | NO | 0 |  |  |
+| [DamageSecondaryF](#damagesecondaryf) | float |  |  | NO | 0 |  |  |
+| [DamageReplaceStat](#damagereplacestat) | int(11) | signed |  | NO | 0 |  |  |
+| [DamageSecondary](#damagesecondary) | int(11) | signed |  | NO | 0 |  |  |
+| [EpicF1](#epicf1) | float |  |  | NO | 0 |  |  |
+| [EpicF2](#epicf2) | float |  |  | NO | 0 |  |  |
+| [EpicF3](#epicf3) | float |  |  | NO | 0 |  |  |
+| [EpicF4](#epicf4) | float |  |  | NO | 0 |  |  |
+| [EpicF5](#epicf5) | float |  |  | NO | 0 |  |  |
+| [SuperiorF1](#superiorf1) | float |  |  | NO | 0 |  |  |
+| [SuperiorF2](#superiorf2) | float |  |  | NO | 0 |  |  |
+| [SuperiorF3](#superiorf3) | float |  |  | NO | 0 |  |  |
+| [SuperiorF4](#superiorf4) | float |  |  | NO | 0 |  |  |
+| [SuperiorF5](#superiorf5) | float |  |  | NO | 0 |  |  |
+| [GoodF1](#goodf1) | float |  |  | NO | 0 |  |  |
+| [GoodF2](#goodf2) | float |  |  | NO | 0 |  |  |
+| [GoodF3](#goodf3) | float |  |  | NO | 0 |  |  |
+| [GoodF4](#goodf4) | float |  |  | NO | 0 |  |  |
+| [GoodF5](#goodf5) | float |  |  | NO | 0 |  |  |
+| [Epic1](#epic1) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Epic2](#epic2) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Epic3](#epic3) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Epic4](#epic4) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Epic5](#epic5) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Superior1](#superior1) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Superior2](#superior2) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Superior3](#superior3) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Superior4](#superior4) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Superior5](#superior5) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Good1](#good1) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Good2](#good2) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Good3](#good3) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Good4](#good4) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Good5](#good5) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

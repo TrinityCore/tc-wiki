@@ -2,7 +2,7 @@
 title: ui_map_link
 description: 
 published: true
-date: 2021-08-30T09:44:29.596Z
+date: 2021-08-30T19:58:43.115Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [UiMinX](#UiMinX) | float |  |  | NO | 0 |  |  |
-| [UiMinY](#UiMinY) | float |  |  | NO | 0 |  |  |
-| [UiMaxX](#UiMaxX) | float |  |  | NO | 0 |  |  |
-| [UiMaxY](#UiMaxY) | float |  |  | NO | 0 |  |  |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ParentUiMapID](#ParentUiMapID) | int(11) | signed |  | NO | 0 |  |  |
-| [OrderIndex](#OrderIndex) | int(11) | signed |  | NO | 0 |  |  |
-| [ChildUiMapID](#ChildUiMapID) | int(11) | signed |  | NO | 0 |  |  |
-| [OverrideHighlightFileDataID](#OverrideHighlightFileDataID) | int(11) | signed |  | NO | 0 |  |  |
-| [OverrideHighlightAtlasID](#OverrideHighlightAtlasID) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags](#Flags) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [UiMinX](#uiminx) | float |  |  | NO | 0 |  |  |
+| [UiMinY](#uiminy) | float |  |  | NO | 0 |  |  |
+| [UiMaxX](#uimaxx) | float |  |  | NO | 0 |  |  |
+| [UiMaxY](#uimaxy) | float |  |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ParentUiMapID](#parentuimapid) | int(11) | signed |  | NO | 0 |  |  |
+| [OrderIndex](#orderindex) | int(11) | signed |  | NO | 0 |  |  |
+| [ChildUiMapID](#childuimapid) | int(11) | signed |  | NO | 0 |  |  |
+| [OverrideHighlightFileDataID](#overridehighlightfiledataid) | int(11) | signed |  | NO | 0 |  |  |
+| [OverrideHighlightAtlasID](#overridehighlightatlasid) | int(11) | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

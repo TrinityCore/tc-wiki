@@ -2,7 +2,7 @@
 title: dungeon_encounter
 description: 
 published: true
-date: 2021-08-30T09:44:29.521Z
+date: 2021-08-30T19:58:43.039Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Name](#Name) | text |  |  | YES | NULL |  |  |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [MapID](#MapID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [DifficultyID](#DifficultyID) | int(11) | signed |  | NO | 0 |  |  |
-| [OrderIndex](#OrderIndex) | int(11) | signed |  | NO | 0 |  |  |
-| [CompleteWorldStateID](#CompleteWorldStateID) | int(11) | signed |  | NO | 0 |  |  |
-| [Bit](#Bit) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [CreatureDisplayID](#CreatureDisplayID) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags](#Flags) | int(11) | signed |  | NO | 0 |  |  |
-| [SpellIconFileID](#SpellIconFileID) | int(11) | signed |  | NO | 0 |  |  |
-| [Faction](#Faction) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [MapID](#mapid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [DifficultyID](#difficultyid) | int(11) | signed |  | NO | 0 |  |  |
+| [OrderIndex](#orderindex) | int(11) | signed |  | NO | 0 |  |  |
+| [CompleteWorldStateID](#completeworldstateid) | int(11) | signed |  | NO | 0 |  |  |
+| [Bit](#bit) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [CreatureDisplayID](#creaturedisplayid) | int(11) | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
+| [SpellIconFileID](#spelliconfileid) | int(11) | signed |  | NO | 0 |  |  |
+| [Faction](#faction) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

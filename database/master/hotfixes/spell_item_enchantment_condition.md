@@ -2,7 +2,7 @@
 title: spell_item_enchantment_condition
 description: 
 published: true
-date: 2021-08-30T09:44:29.581Z
+date: 2021-08-30T19:58:43.100Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,38 +14,38 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [LtOperandType1](#LtOperandType1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [LtOperandType2](#LtOperandType2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [LtOperandType3](#LtOperandType3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [LtOperandType4](#LtOperandType4) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [LtOperandType5](#LtOperandType5) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [LtOperand1](#LtOperand1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [LtOperand2](#LtOperand2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [LtOperand3](#LtOperand3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [LtOperand4](#LtOperand4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [LtOperand5](#LtOperand5) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Operator1](#Operator1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Operator2](#Operator2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Operator3](#Operator3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Operator4](#Operator4) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Operator5](#Operator5) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [RtOperandType1](#RtOperandType1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [RtOperandType2](#RtOperandType2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [RtOperandType3](#RtOperandType3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [RtOperandType4](#RtOperandType4) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [RtOperandType5](#RtOperandType5) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [RtOperand1](#RtOperand1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [RtOperand2](#RtOperand2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [RtOperand3](#RtOperand3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [RtOperand4](#RtOperand4) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [RtOperand5](#RtOperand5) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Logic1](#Logic1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Logic2](#Logic2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Logic3](#Logic3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Logic4](#Logic4) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Logic5](#Logic5) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [LtOperandType1](#ltoperandtype1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [LtOperandType2](#ltoperandtype2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [LtOperandType3](#ltoperandtype3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [LtOperandType4](#ltoperandtype4) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [LtOperandType5](#ltoperandtype5) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [LtOperand1](#ltoperand1) | int(10) | unsigned |  | NO | 0 |  |  |
+| [LtOperand2](#ltoperand2) | int(10) | unsigned |  | NO | 0 |  |  |
+| [LtOperand3](#ltoperand3) | int(10) | unsigned |  | NO | 0 |  |  |
+| [LtOperand4](#ltoperand4) | int(10) | unsigned |  | NO | 0 |  |  |
+| [LtOperand5](#ltoperand5) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Operator1](#operator1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Operator2](#operator2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Operator3](#operator3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Operator4](#operator4) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Operator5](#operator5) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [RtOperandType1](#rtoperandtype1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [RtOperandType2](#rtoperandtype2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [RtOperandType3](#rtoperandtype3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [RtOperandType4](#rtoperandtype4) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [RtOperandType5](#rtoperandtype5) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [RtOperand1](#rtoperand1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [RtOperand2](#rtoperand2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [RtOperand3](#rtoperand3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [RtOperand4](#rtoperand4) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [RtOperand5](#rtoperand5) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Logic1](#logic1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Logic2](#logic2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Logic3](#logic3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Logic4](#logic4) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Logic5](#logic5) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

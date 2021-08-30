@@ -2,7 +2,7 @@
 title: ui_map_assignment
 description: 
 published: true
-date: 2021-08-30T09:44:29.595Z
+date: 2021-08-30T19:58:43.115Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,24 +14,24 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [UiMinX](#UiMinX) | float |  |  | NO | 0 |  |  |
-| [UiMinY](#UiMinY) | float |  |  | NO | 0 |  |  |
-| [UiMaxX](#UiMaxX) | float |  |  | NO | 0 |  |  |
-| [UiMaxY](#UiMaxY) | float |  |  | NO | 0 |  |  |
-| [Region1X](#Region1X) | float |  |  | NO | 0 |  |  |
-| [Region1Y](#Region1Y) | float |  |  | NO | 0 |  |  |
-| [Region1Z](#Region1Z) | float |  |  | NO | 0 |  |  |
-| [Region2X](#Region2X) | float |  |  | NO | 0 |  |  |
-| [Region2Y](#Region2Y) | float |  |  | NO | 0 |  |  |
-| [Region2Z](#Region2Z) | float |  |  | NO | 0 |  |  |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [UiMapID](#UiMapID) | int(11) | signed |  | NO | 0 |  |  |
-| [OrderIndex](#OrderIndex) | int(11) | signed |  | NO | 0 |  |  |
-| [MapID](#MapID) | int(11) | signed |  | NO | 0 |  |  |
-| [AreaID](#AreaID) | int(11) | signed |  | NO | 0 |  |  |
-| [WmoDoodadPlacementID](#WmoDoodadPlacementID) | int(11) | signed |  | NO | 0 |  |  |
-| [WmoGroupID](#WmoGroupID) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [UiMinX](#uiminx) | float |  |  | NO | 0 |  |  |
+| [UiMinY](#uiminy) | float |  |  | NO | 0 |  |  |
+| [UiMaxX](#uimaxx) | float |  |  | NO | 0 |  |  |
+| [UiMaxY](#uimaxy) | float |  |  | NO | 0 |  |  |
+| [Region1X](#region1x) | float |  |  | NO | 0 |  |  |
+| [Region1Y](#region1y) | float |  |  | NO | 0 |  |  |
+| [Region1Z](#region1z) | float |  |  | NO | 0 |  |  |
+| [Region2X](#region2x) | float |  |  | NO | 0 |  |  |
+| [Region2Y](#region2y) | float |  |  | NO | 0 |  |  |
+| [Region2Z](#region2z) | float |  |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [UiMapID](#uimapid) | int(11) | signed |  | NO | 0 |  |  |
+| [OrderIndex](#orderindex) | int(11) | signed |  | NO | 0 |  |  |
+| [MapID](#mapid) | int(11) | signed |  | NO | 0 |  |  |
+| [AreaID](#areaid) | int(11) | signed |  | NO | 0 |  |  |
+| [WmoDoodadPlacementID](#wmodoodadplacementid) | int(11) | signed |  | NO | 0 |  |  |
+| [WmoGroupID](#wmogroupid) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

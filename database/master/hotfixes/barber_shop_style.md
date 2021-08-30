@@ -2,7 +2,7 @@
 title: barber_shop_style
 description: 
 published: true
-date: 2021-08-30T09:44:29.497Z
+date: 2021-08-30T19:58:43.018Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,15 +14,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [DisplayName](#DisplayName) | text |  |  | YES | NULL |  |  |
-| [Description](#Description) | text |  |  | YES | NULL |  |  |
-| [Type](#Type) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [CostModifier](#CostModifier) | float |  |  | NO | 0 |  |  |
-| [Race](#Race) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Sex](#Sex) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Data](#Data) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [DisplayName](#displayname) | text |  |  | YES | NULL |  |  |
+| [Description](#description) | text |  |  | YES | NULL |  |  |
+| [Type](#type) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [CostModifier](#costmodifier) | float |  |  | NO | 0 |  |  |
+| [Race](#race) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Sex](#sex) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Data](#data) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

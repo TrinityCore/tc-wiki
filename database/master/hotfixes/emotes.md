@@ -2,7 +2,7 @@
 title: emotes
 description: 
 published: true
-date: 2021-08-30T09:44:29.522Z
+date: 2021-08-30T19:58:43.040Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,17 +14,17 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [RaceMask](#RaceMask) | bigint(20) | signed |  | NO | 0 |  |  |
-| [EmoteSlashCommand](#EmoteSlashCommand) | text |  |  | YES | NULL |  |  |
-| [AnimID](#AnimID) | int(11) | signed |  | NO | 0 |  |  |
-| [EmoteFlags](#EmoteFlags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [EmoteSpecProc](#EmoteSpecProc) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [EmoteSpecProcParam](#EmoteSpecProcParam) | int(10) | unsigned |  | NO | 0 |  |  |
-| [EventSoundID](#EventSoundID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SpellVisualKitID](#SpellVisualKitID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ClassMask](#ClassMask) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [RaceMask](#racemask) | bigint(20) | signed |  | NO | 0 |  |  |
+| [EmoteSlashCommand](#emoteslashcommand) | text |  |  | YES | NULL |  |  |
+| [AnimID](#animid) | int(11) | signed |  | NO | 0 |  |  |
+| [EmoteFlags](#emoteflags) | int(10) | unsigned |  | NO | 0 |  |  |
+| [EmoteSpecProc](#emotespecproc) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [EmoteSpecProcParam](#emotespecprocparam) | int(10) | unsigned |  | NO | 0 |  |  |
+| [EventSoundID](#eventsoundid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [SpellVisualKitID](#spellvisualkitid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ClassMask](#classmask) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

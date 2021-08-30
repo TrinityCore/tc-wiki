@@ -2,7 +2,7 @@
 title: item_extended_cost
 description: 
 published: true
-date: 2021-08-30T09:44:29.544Z
+date: 2021-08-30T19:58:43.062Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,34 +14,34 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [RequiredArenaRating](#RequiredArenaRating) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ArenaBracket](#ArenaBracket) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Flags](#Flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MinFactionID](#MinFactionID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MinReputation](#MinReputation) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [RequiredAchievement](#RequiredAchievement) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ItemID1](#ItemID1) | int(11) | signed |  | NO | 0 |  |  |
-| [ItemID2](#ItemID2) | int(11) | signed |  | NO | 0 |  |  |
-| [ItemID3](#ItemID3) | int(11) | signed |  | NO | 0 |  |  |
-| [ItemID4](#ItemID4) | int(11) | signed |  | NO | 0 |  |  |
-| [ItemID5](#ItemID5) | int(11) | signed |  | NO | 0 |  |  |
-| [ItemCount1](#ItemCount1) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ItemCount2](#ItemCount2) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ItemCount3](#ItemCount3) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ItemCount4](#ItemCount4) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ItemCount5](#ItemCount5) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [CurrencyID1](#CurrencyID1) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [CurrencyID2](#CurrencyID2) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [CurrencyID3](#CurrencyID3) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [CurrencyID4](#CurrencyID4) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [CurrencyID5](#CurrencyID5) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [CurrencyCount1](#CurrencyCount1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [CurrencyCount2](#CurrencyCount2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [CurrencyCount3](#CurrencyCount3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [CurrencyCount4](#CurrencyCount4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [CurrencyCount5](#CurrencyCount5) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [RequiredArenaRating](#requiredarenarating) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ArenaBracket](#arenabracket) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [MinFactionID](#minfactionid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [MinReputation](#minreputation) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [RequiredAchievement](#requiredachievement) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ItemID1](#itemid1) | int(11) | signed |  | NO | 0 |  |  |
+| [ItemID2](#itemid2) | int(11) | signed |  | NO | 0 |  |  |
+| [ItemID3](#itemid3) | int(11) | signed |  | NO | 0 |  |  |
+| [ItemID4](#itemid4) | int(11) | signed |  | NO | 0 |  |  |
+| [ItemID5](#itemid5) | int(11) | signed |  | NO | 0 |  |  |
+| [ItemCount1](#itemcount1) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ItemCount2](#itemcount2) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ItemCount3](#itemcount3) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ItemCount4](#itemcount4) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ItemCount5](#itemcount5) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [CurrencyID1](#currencyid1) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [CurrencyID2](#currencyid2) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [CurrencyID3](#currencyid3) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [CurrencyID4](#currencyid4) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [CurrencyID5](#currencyid5) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [CurrencyCount1](#currencycount1) | int(10) | unsigned |  | NO | 0 |  |  |
+| [CurrencyCount2](#currencycount2) | int(10) | unsigned |  | NO | 0 |  |  |
+| [CurrencyCount3](#currencycount3) | int(10) | unsigned |  | NO | 0 |  |  |
+| [CurrencyCount4](#currencycount4) | int(10) | unsigned |  | NO | 0 |  |  |
+| [CurrencyCount5](#currencycount5) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: spell_power
 description: 
 published: true
-date: 2021-08-30T09:44:29.584Z
+date: 2021-08-30T19:58:43.103Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,21 +14,21 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [OrderIndex](#OrderIndex) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ManaCost](#ManaCost) | int(11) | signed |  | NO | 0 |  |  |
-| [ManaCostPerLevel](#ManaCostPerLevel) | int(11) | signed |  | NO | 0 |  |  |
-| [ManaPerSecond](#ManaPerSecond) | int(11) | signed |  | NO | 0 |  |  |
-| [PowerDisplayID](#PowerDisplayID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [AltPowerBarID](#AltPowerBarID) | int(11) | signed |  | NO | 0 |  |  |
-| [PowerCostPct](#PowerCostPct) | float |  |  | NO | 0 |  |  |
-| [PowerCostMaxPct](#PowerCostMaxPct) | float |  |  | NO | 0 |  |  |
-| [PowerPctPerSecond](#PowerPctPerSecond) | float |  |  | NO | 0 |  |  |
-| [PowerType](#PowerType) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [RequiredAuraSpellID](#RequiredAuraSpellID) | int(11) | signed |  | NO | 0 |  |  |
-| [OptionalCost](#OptionalCost) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SpellID](#SpellID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [OrderIndex](#orderindex) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ManaCost](#manacost) | int(11) | signed |  | NO | 0 |  |  |
+| [ManaCostPerLevel](#manacostperlevel) | int(11) | signed |  | NO | 0 |  |  |
+| [ManaPerSecond](#manapersecond) | int(11) | signed |  | NO | 0 |  |  |
+| [PowerDisplayID](#powerdisplayid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [AltPowerBarID](#altpowerbarid) | int(11) | signed |  | NO | 0 |  |  |
+| [PowerCostPct](#powercostpct) | float |  |  | NO | 0 |  |  |
+| [PowerCostMaxPct](#powercostmaxpct) | float |  |  | NO | 0 |  |  |
+| [PowerPctPerSecond](#powerpctpersecond) | float |  |  | NO | 0 |  |  |
+| [PowerType](#powertype) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [RequiredAuraSpellID](#requiredauraspellid) | int(11) | signed |  | NO | 0 |  |  |
+| [OptionalCost](#optionalcost) | int(10) | unsigned |  | NO | 0 |  |  |
+| [SpellID](#spellid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

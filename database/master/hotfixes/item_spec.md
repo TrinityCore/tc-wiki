@@ -2,7 +2,7 @@
 title: item_spec
 description: 
 published: true
-date: 2021-08-30T09:44:29.551Z
+date: 2021-08-30T19:58:43.069Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,14 +14,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [MinLevel](#MinLevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MaxLevel](#MaxLevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ItemType](#ItemType) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [PrimaryStat](#PrimaryStat) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SecondaryStat](#SecondaryStat) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SpecializationID](#SpecializationID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [MinLevel](#minlevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [MaxLevel](#maxlevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ItemType](#itemtype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [PrimaryStat](#primarystat) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [SecondaryStat](#secondarystat) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [SpecializationID](#specializationid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: taxi_path_node
 description: 
 published: true
-date: 2021-08-30T09:44:29.591Z
+date: 2021-08-30T19:58:43.110Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [LocX](#LocX) | float |  |  | NO | 0 |  |  |
-| [LocY](#LocY) | float |  |  | NO | 0 |  |  |
-| [LocZ](#LocZ) | float |  |  | NO | 0 |  |  |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [PathID](#PathID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [NodeIndex](#NodeIndex) | int(11) | signed |  | NO | 0 |  |  |
-| [ContinentID](#ContinentID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Flags](#Flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Delay](#Delay) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ArrivalEventID](#ArrivalEventID) | int(11) | signed |  | NO | 0 |  |  |
-| [DepartureEventID](#DepartureEventID) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [LocX](#locx) | float |  |  | NO | 0 |  |  |
+| [LocY](#locy) | float |  |  | NO | 0 |  |  |
+| [LocZ](#locz) | float |  |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [PathID](#pathid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [NodeIndex](#nodeindex) | int(11) | signed |  | NO | 0 |  |  |
+| [ContinentID](#continentid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Delay](#delay) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ArrivalEventID](#arrivaleventid) | int(11) | signed |  | NO | 0 |  |  |
+| [DepartureEventID](#departureeventid) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: spell_effect
 description: 
 published: true
-date: 2021-08-30T09:44:29.579Z
+date: 2021-08-30T19:58:43.098Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,43 +14,43 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [EffectAura](#EffectAura) | smallint(6) | signed |  | NO | 0 |  |  |
-| [DifficultyID](#DifficultyID) | int(11) | signed |  | NO | 0 |  |  |
-| [EffectIndex](#EffectIndex) | int(11) | signed |  | NO | 0 |  |  |
-| [Effect](#Effect) | int(11) | signed |  | NO | 0 |  |  |
-| [EffectAmplitude](#EffectAmplitude) | float |  |  | NO | 0 |  |  |
-| [EffectAttributes](#EffectAttributes) | int(11) | signed |  | NO | 0 |  |  |
-| [EffectAuraPeriod](#EffectAuraPeriod) | int(11) | signed |  | NO | 0 |  |  |
-| [EffectBonusCoefficient](#EffectBonusCoefficient) | float |  |  | NO | 0 |  |  |
-| [EffectChainAmplitude](#EffectChainAmplitude) | float |  |  | NO | 0 |  |  |
-| [EffectChainTargets](#EffectChainTargets) | int(11) | signed |  | NO | 0 |  |  |
-| [EffectItemType](#EffectItemType) | int(11) | signed |  | NO | 0 |  |  |
-| [EffectMechanic](#EffectMechanic) | int(11) | signed |  | NO | 0 |  |  |
-| [EffectPointsPerResource](#EffectPointsPerResource) | float |  |  | NO | 0 |  |  |
-| [EffectPosFacing](#EffectPosFacing) | float |  |  | NO | 0 |  |  |
-| [EffectRealPointsPerLevel](#EffectRealPointsPerLevel) | float |  |  | NO | 0 |  |  |
-| [EffectTriggerSpell](#EffectTriggerSpell) | int(11) | signed |  | NO | 0 |  |  |
-| [BonusCoefficientFromAP](#BonusCoefficientFromAP) | float |  |  | NO | 0 |  |  |
-| [PvpMultiplier](#PvpMultiplier) | float |  |  | NO | 0 |  |  |
-| [Coefficient](#Coefficient) | float |  |  | NO | 0 |  |  |
-| [Variance](#Variance) | float |  |  | NO | 0 |  |  |
-| [ResourceCoefficient](#ResourceCoefficient) | float |  |  | NO | 0 |  |  |
-| [GroupSizeBasePointsCoefficient](#GroupSizeBasePointsCoefficient) | float |  |  | NO | 0 |  |  |
-| [EffectBasePoints](#EffectBasePoints) | float |  |  | NO | 0 |  |  |
-| [ScalingClass](#ScalingClass) | int(11) | signed |  | NO | 0 |  |  |
-| [EffectMiscValue1](#EffectMiscValue1) | int(11) | signed |  | NO | 0 |  |  |
-| [EffectMiscValue2](#EffectMiscValue2) | int(11) | signed |  | NO | 0 |  |  |
-| [EffectRadiusIndex1](#EffectRadiusIndex1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [EffectRadiusIndex2](#EffectRadiusIndex2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [EffectSpellClassMask1](#EffectSpellClassMask1) | int(11) | signed |  | NO | 0 |  |  |
-| [EffectSpellClassMask2](#EffectSpellClassMask2) | int(11) | signed |  | NO | 0 |  |  |
-| [EffectSpellClassMask3](#EffectSpellClassMask3) | int(11) | signed |  | NO | 0 |  |  |
-| [EffectSpellClassMask4](#EffectSpellClassMask4) | int(11) | signed |  | NO | 0 |  |  |
-| [ImplicitTarget1](#ImplicitTarget1) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ImplicitTarget2](#ImplicitTarget2) | smallint(6) | signed |  | NO | 0 |  |  |
-| [SpellID](#SpellID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [EffectAura](#effectaura) | smallint(6) | signed |  | NO | 0 |  |  |
+| [DifficultyID](#difficultyid) | int(11) | signed |  | NO | 0 |  |  |
+| [EffectIndex](#effectindex) | int(11) | signed |  | NO | 0 |  |  |
+| [Effect](#effect) | int(11) | signed |  | NO | 0 |  |  |
+| [EffectAmplitude](#effectamplitude) | float |  |  | NO | 0 |  |  |
+| [EffectAttributes](#effectattributes) | int(11) | signed |  | NO | 0 |  |  |
+| [EffectAuraPeriod](#effectauraperiod) | int(11) | signed |  | NO | 0 |  |  |
+| [EffectBonusCoefficient](#effectbonuscoefficient) | float |  |  | NO | 0 |  |  |
+| [EffectChainAmplitude](#effectchainamplitude) | float |  |  | NO | 0 |  |  |
+| [EffectChainTargets](#effectchaintargets) | int(11) | signed |  | NO | 0 |  |  |
+| [EffectItemType](#effectitemtype) | int(11) | signed |  | NO | 0 |  |  |
+| [EffectMechanic](#effectmechanic) | int(11) | signed |  | NO | 0 |  |  |
+| [EffectPointsPerResource](#effectpointsperresource) | float |  |  | NO | 0 |  |  |
+| [EffectPosFacing](#effectposfacing) | float |  |  | NO | 0 |  |  |
+| [EffectRealPointsPerLevel](#effectrealpointsperlevel) | float |  |  | NO | 0 |  |  |
+| [EffectTriggerSpell](#effecttriggerspell) | int(11) | signed |  | NO | 0 |  |  |
+| [BonusCoefficientFromAP](#bonuscoefficientfromap) | float |  |  | NO | 0 |  |  |
+| [PvpMultiplier](#pvpmultiplier) | float |  |  | NO | 0 |  |  |
+| [Coefficient](#coefficient) | float |  |  | NO | 0 |  |  |
+| [Variance](#variance) | float |  |  | NO | 0 |  |  |
+| [ResourceCoefficient](#resourcecoefficient) | float |  |  | NO | 0 |  |  |
+| [GroupSizeBasePointsCoefficient](#groupsizebasepointscoefficient) | float |  |  | NO | 0 |  |  |
+| [EffectBasePoints](#effectbasepoints) | float |  |  | NO | 0 |  |  |
+| [ScalingClass](#scalingclass) | int(11) | signed |  | NO | 0 |  |  |
+| [EffectMiscValue1](#effectmiscvalue1) | int(11) | signed |  | NO | 0 |  |  |
+| [EffectMiscValue2](#effectmiscvalue2) | int(11) | signed |  | NO | 0 |  |  |
+| [EffectRadiusIndex1](#effectradiusindex1) | int(10) | unsigned |  | NO | 0 |  |  |
+| [EffectRadiusIndex2](#effectradiusindex2) | int(10) | unsigned |  | NO | 0 |  |  |
+| [EffectSpellClassMask1](#effectspellclassmask1) | int(11) | signed |  | NO | 0 |  |  |
+| [EffectSpellClassMask2](#effectspellclassmask2) | int(11) | signed |  | NO | 0 |  |  |
+| [EffectSpellClassMask3](#effectspellclassmask3) | int(11) | signed |  | NO | 0 |  |  |
+| [EffectSpellClassMask4](#effectspellclassmask4) | int(11) | signed |  | NO | 0 |  |  |
+| [ImplicitTarget1](#implicittarget1) | smallint(6) | signed |  | NO | 0 |  |  |
+| [ImplicitTarget2](#implicittarget2) | smallint(6) | signed |  | NO | 0 |  |  |
+| [SpellID](#spellid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

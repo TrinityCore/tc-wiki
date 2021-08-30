@@ -2,7 +2,7 @@
 title: achievement
 description: 
 published: true
-date: 2021-08-30T09:44:29.479Z
+date: 2021-08-30T19:58:42.999Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,24 +14,24 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Description](#Description) | text |  |  | YES | NULL |  |  |
-| [Title](#Title) | text |  |  | YES | NULL |  |  |
-| [Reward](#Reward) | text |  |  | YES | NULL |  |  |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [InstanceID](#InstanceID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [Faction](#Faction) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Supercedes](#Supercedes) | smallint(6) | signed |  | NO | 0 |  |  |
-| [Category](#Category) | smallint(6) | signed |  | NO | 0 |  |  |
-| [MinimumCriteria](#MinimumCriteria) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Points](#Points) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Flags](#Flags) | int(11) | signed |  | NO | 0 |  |  |
-| [UiOrder](#UiOrder) | smallint(6) | signed |  | NO | 0 |  |  |
-| [IconFileID](#IconFileID) | int(11) | signed |  | NO | 0 |  |  |
-| [RewardItemID](#RewardItemID) | int(11) | signed |  | NO | 0 |  |  |
-| [CriteriaTree](#CriteriaTree) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SharesCriteria](#SharesCriteria) | smallint(6) | signed |  | NO | 0 |  |  |
-| [CovenantID](#CovenantID) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [Description](#description) | text |  |  | YES | NULL |  |  |
+| [Title](#title) | text |  |  | YES | NULL |  |  |
+| [Reward](#reward) | text |  |  | YES | NULL |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [InstanceID](#instanceid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [Faction](#faction) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [Supercedes](#supercedes) | smallint(6) | signed |  | NO | 0 |  |  |
+| [Category](#category) | smallint(6) | signed |  | NO | 0 |  |  |
+| [MinimumCriteria](#minimumcriteria) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [Points](#points) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
+| [UiOrder](#uiorder) | smallint(6) | signed |  | NO | 0 |  |  |
+| [IconFileID](#iconfileid) | int(11) | signed |  | NO | 0 |  |  |
+| [RewardItemID](#rewarditemid) | int(11) | signed |  | NO | 0 |  |  |
+| [CriteriaTree](#criteriatree) | int(10) | unsigned |  | NO | 0 |  |  |
+| [SharesCriteria](#sharescriteria) | smallint(6) | signed |  | NO | 0 |  |  |
+| [CovenantID](#covenantid) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

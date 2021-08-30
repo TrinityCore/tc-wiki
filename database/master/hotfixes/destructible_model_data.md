@@ -2,7 +2,7 @@
 title: destructible_model_data
 description: 
 published: true
-date: 2021-08-30T09:44:29.520Z
+date: 2021-08-30T19:58:43.038Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,30 +14,30 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [State0ImpactEffectDoodadSet](#State0ImpactEffectDoodadSet) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [State0AmbientDoodadSet](#State0AmbientDoodadSet) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [State1Wmo](#State1Wmo) | int(11) | signed |  | NO | 0 |  |  |
-| [State1DestructionDoodadSet](#State1DestructionDoodadSet) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [State1ImpactEffectDoodadSet](#State1ImpactEffectDoodadSet) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [State1AmbientDoodadSet](#State1AmbientDoodadSet) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [State2Wmo](#State2Wmo) | int(11) | signed |  | NO | 0 |  |  |
-| [State2DestructionDoodadSet](#State2DestructionDoodadSet) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [State2ImpactEffectDoodadSet](#State2ImpactEffectDoodadSet) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [State2AmbientDoodadSet](#State2AmbientDoodadSet) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [State3Wmo](#State3Wmo) | int(11) | signed |  | NO | 0 |  |  |
-| [State3InitDoodadSet](#State3InitDoodadSet) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [State3AmbientDoodadSet](#State3AmbientDoodadSet) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [EjectDirection](#EjectDirection) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [DoNotHighlight](#DoNotHighlight) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [State0Wmo](#State0Wmo) | int(11) | signed |  | NO | 0 |  |  |
-| [HealEffect](#HealEffect) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [HealEffectSpeed](#HealEffectSpeed) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [State0NameSet](#State0NameSet) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [State1NameSet](#State1NameSet) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [State2NameSet](#State2NameSet) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [State3NameSet](#State3NameSet) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [State0ImpactEffectDoodadSet](#state0impacteffectdoodadset) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [State0AmbientDoodadSet](#state0ambientdoodadset) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [State1Wmo](#state1wmo) | int(11) | signed |  | NO | 0 |  |  |
+| [State1DestructionDoodadSet](#state1destructiondoodadset) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [State1ImpactEffectDoodadSet](#state1impacteffectdoodadset) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [State1AmbientDoodadSet](#state1ambientdoodadset) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [State2Wmo](#state2wmo) | int(11) | signed |  | NO | 0 |  |  |
+| [State2DestructionDoodadSet](#state2destructiondoodadset) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [State2ImpactEffectDoodadSet](#state2impacteffectdoodadset) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [State2AmbientDoodadSet](#state2ambientdoodadset) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [State3Wmo](#state3wmo) | int(11) | signed |  | NO | 0 |  |  |
+| [State3InitDoodadSet](#state3initdoodadset) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [State3AmbientDoodadSet](#state3ambientdoodadset) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [EjectDirection](#ejectdirection) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [DoNotHighlight](#donothighlight) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [State0Wmo](#state0wmo) | int(11) | signed |  | NO | 0 |  |  |
+| [HealEffect](#healeffect) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [HealEffectSpeed](#healeffectspeed) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [State0NameSet](#state0nameset) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [State1NameSet](#state1nameset) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [State2NameSet](#state2nameset) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [State3NameSet](#state3nameset) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

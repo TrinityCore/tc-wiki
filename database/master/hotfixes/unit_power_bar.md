@@ -2,7 +2,7 @@
 title: unit_power_bar
 description: 
 published: true
-date: 2021-08-30T09:44:29.597Z
+date: 2021-08-30T19:58:43.116Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,34 +14,34 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Name](#Name) | text |  |  | YES | NULL |  |  |
-| [Cost](#Cost) | text |  |  | YES | NULL |  |  |
-| [OutOfError](#OutOfError) | text |  |  | YES | NULL |  |  |
-| [ToolTip](#ToolTip) | text |  |  | YES | NULL |  |  |
-| [MinPower](#MinPower) | int(10) | unsigned |  | NO | 0 |  |  |
-| [MaxPower](#MaxPower) | int(10) | unsigned |  | NO | 0 |  |  |
-| [StartPower](#StartPower) | int(10) | unsigned |  | NO | 0 |  |  |
-| [CenterPower](#CenterPower) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [RegenerationPeace](#RegenerationPeace) | float |  |  | NO | 0 |  |  |
-| [RegenerationCombat](#RegenerationCombat) | float |  |  | NO | 0 |  |  |
-| [BarType](#BarType) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Flags](#Flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [StartInset](#StartInset) | float |  |  | NO | 0 |  |  |
-| [EndInset](#EndInset) | float |  |  | NO | 0 |  |  |
-| [FileDataID1](#FileDataID1) | int(11) | signed |  | NO | 0 |  |  |
-| [FileDataID2](#FileDataID2) | int(11) | signed |  | NO | 0 |  |  |
-| [FileDataID3](#FileDataID3) | int(11) | signed |  | NO | 0 |  |  |
-| [FileDataID4](#FileDataID4) | int(11) | signed |  | NO | 0 |  |  |
-| [FileDataID5](#FileDataID5) | int(11) | signed |  | NO | 0 |  |  |
-| [FileDataID6](#FileDataID6) | int(11) | signed |  | NO | 0 |  |  |
-| [Color1](#Color1) | int(11) | signed |  | NO | 0 |  |  |
-| [Color2](#Color2) | int(11) | signed |  | NO | 0 |  |  |
-| [Color3](#Color3) | int(11) | signed |  | NO | 0 |  |  |
-| [Color4](#Color4) | int(11) | signed |  | NO | 0 |  |  |
-| [Color5](#Color5) | int(11) | signed |  | NO | 0 |  |  |
-| [Color6](#Color6) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [Cost](#cost) | text |  |  | YES | NULL |  |  |
+| [OutOfError](#outoferror) | text |  |  | YES | NULL |  |  |
+| [ToolTip](#tooltip) | text |  |  | YES | NULL |  |  |
+| [MinPower](#minpower) | int(10) | unsigned |  | NO | 0 |  |  |
+| [MaxPower](#maxpower) | int(10) | unsigned |  | NO | 0 |  |  |
+| [StartPower](#startpower) | int(10) | unsigned |  | NO | 0 |  |  |
+| [CenterPower](#centerpower) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [RegenerationPeace](#regenerationpeace) | float |  |  | NO | 0 |  |  |
+| [RegenerationCombat](#regenerationcombat) | float |  |  | NO | 0 |  |  |
+| [BarType](#bartype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [StartInset](#startinset) | float |  |  | NO | 0 |  |  |
+| [EndInset](#endinset) | float |  |  | NO | 0 |  |  |
+| [FileDataID1](#filedataid1) | int(11) | signed |  | NO | 0 |  |  |
+| [FileDataID2](#filedataid2) | int(11) | signed |  | NO | 0 |  |  |
+| [FileDataID3](#filedataid3) | int(11) | signed |  | NO | 0 |  |  |
+| [FileDataID4](#filedataid4) | int(11) | signed |  | NO | 0 |  |  |
+| [FileDataID5](#filedataid5) | int(11) | signed |  | NO | 0 |  |  |
+| [FileDataID6](#filedataid6) | int(11) | signed |  | NO | 0 |  |  |
+| [Color1](#color1) | int(11) | signed |  | NO | 0 |  |  |
+| [Color2](#color2) | int(11) | signed |  | NO | 0 |  |  |
+| [Color3](#color3) | int(11) | signed |  | NO | 0 |  |  |
+| [Color4](#color4) | int(11) | signed |  | NO | 0 |  |  |
+| [Color5](#color5) | int(11) | signed |  | NO | 0 |  |  |
+| [Color6](#color6) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

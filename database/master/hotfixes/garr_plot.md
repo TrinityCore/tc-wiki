@@ -2,7 +2,7 @@
 title: garr_plot
 description: 
 published: true
-date: 2021-08-30T09:44:29.530Z
+date: 2021-08-30T19:58:43.048Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,16 +14,16 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Name](#Name) | text |  |  | YES | NULL |  |  |
-| [PlotType](#PlotType) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [HordeConstructObjID](#HordeConstructObjID) | int(11) | signed |  | NO | 0 |  |  |
-| [AllianceConstructObjID](#AllianceConstructObjID) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags](#Flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [UiCategoryID](#UiCategoryID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [UpgradeRequirement1](#UpgradeRequirement1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [UpgradeRequirement2](#UpgradeRequirement2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [PlotType](#plottype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [HordeConstructObjID](#hordeconstructobjid) | int(11) | signed |  | NO | 0 |  |  |
+| [AllianceConstructObjID](#allianceconstructobjid) | int(11) | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [UiCategoryID](#uicategoryid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [UpgradeRequirement1](#upgraderequirement1) | int(10) | unsigned |  | NO | 0 |  |  |
+| [UpgradeRequirement2](#upgraderequirement2) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: spell_casting_requirements
 description: 
 published: true
-date: 2021-08-30T09:44:29.577Z
+date: 2021-08-30T19:58:43.096Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,15 +14,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [SpellID](#SpellID) | int(11) | signed |  | NO | 0 |  |  |
-| [FacingCasterFlags](#FacingCasterFlags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MinFactionID](#MinFactionID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [MinReputation](#MinReputation) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [RequiredAreasID](#RequiredAreasID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [RequiredAuraVision](#RequiredAuraVision) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [RequiresSpellFocus](#RequiresSpellFocus) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [SpellID](#spellid) | int(11) | signed |  | NO | 0 |  |  |
+| [FacingCasterFlags](#facingcasterflags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [MinFactionID](#minfactionid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [MinReputation](#minreputation) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [RequiredAreasID](#requiredareasid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [RequiredAuraVision](#requiredauravision) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [RequiresSpellFocus](#requiresspellfocus) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

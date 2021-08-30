@@ -2,7 +2,7 @@
 title: item_effect
 description: 
 published: true
-date: 2021-08-30T09:44:29.544Z
+date: 2021-08-30T19:58:43.062Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,16 +14,16 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [LegacySlotIndex](#LegacySlotIndex) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [TriggerType](#TriggerType) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Charges](#Charges) | smallint(6) | signed |  | NO | 0 |  |  |
-| [CoolDownMSec](#CoolDownMSec) | int(11) | signed |  | NO | 0 |  |  |
-| [CategoryCoolDownMSec](#CategoryCoolDownMSec) | int(11) | signed |  | NO | 0 |  |  |
-| [SpellCategoryID](#SpellCategoryID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [SpellID](#SpellID) | int(11) | signed |  | NO | 0 |  |  |
-| [ChrSpecializationID](#ChrSpecializationID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [LegacySlotIndex](#legacyslotindex) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [TriggerType](#triggertype) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [Charges](#charges) | smallint(6) | signed |  | NO | 0 |  |  |
+| [CoolDownMSec](#cooldownmsec) | int(11) | signed |  | NO | 0 |  |  |
+| [CategoryCoolDownMSec](#categorycooldownmsec) | int(11) | signed |  | NO | 0 |  |  |
+| [SpellCategoryID](#spellcategoryid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [SpellID](#spellid) | int(11) | signed |  | NO | 0 |  |  |
+| [ChrSpecializationID](#chrspecializationid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

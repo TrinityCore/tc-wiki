@@ -2,7 +2,7 @@
 title: item_search_name
 description: 
 published: true
-date: 2021-08-30T09:44:29.548Z
+date: 2021-08-30T19:58:43.066Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,24 +14,24 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [AllowableRace](#AllowableRace) | bigint(20) | signed |  | NO | 0 |  |  |
-| [Display](#Display) | text |  |  | YES | NULL |  |  |
-| [OverallQualityID](#OverallQualityID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ExpansionID](#ExpansionID) | int(11) | signed |  | NO | 0 |  |  |
-| [MinFactionID](#MinFactionID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [MinReputation](#MinReputation) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [AllowableClass](#AllowableClass) | int(11) | signed |  | NO | 0 |  |  |
-| [RequiredLevel](#RequiredLevel) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [RequiredSkill](#RequiredSkill) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [RequiredSkillRank](#RequiredSkillRank) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [RequiredAbility](#RequiredAbility) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemLevel](#ItemLevel) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Flags1](#Flags1) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags2](#Flags2) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags3](#Flags3) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags4](#Flags4) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [AllowableRace](#allowablerace) | bigint(20) | signed |  | NO | 0 |  |  |
+| [Display](#display) | text |  |  | YES | NULL |  |  |
+| [OverallQualityID](#overallqualityid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ExpansionID](#expansionid) | int(11) | signed |  | NO | 0 |  |  |
+| [MinFactionID](#minfactionid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [MinReputation](#minreputation) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [AllowableClass](#allowableclass) | int(11) | signed |  | NO | 0 |  |  |
+| [RequiredLevel](#requiredlevel) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [RequiredSkill](#requiredskill) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [RequiredSkillRank](#requiredskillrank) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [RequiredAbility](#requiredability) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ItemLevel](#itemlevel) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Flags1](#flags1) | int(11) | signed |  | NO | 0 |  |  |
+| [Flags2](#flags2) | int(11) | signed |  | NO | 0 |  |  |
+| [Flags3](#flags3) | int(11) | signed |  | NO | 0 |  |  |
+| [Flags4](#flags4) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: item_damage_one_hand_caster
 description: 
 published: true
-date: 2021-08-30T09:44:29.542Z
+date: 2021-08-30T19:58:43.061Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,16 +14,16 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ItemLevel](#ItemLevel) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Quality1](#Quality1) | float |  |  | NO | 0 |  |  |
-| [Quality2](#Quality2) | float |  |  | NO | 0 |  |  |
-| [Quality3](#Quality3) | float |  |  | NO | 0 |  |  |
-| [Quality4](#Quality4) | float |  |  | NO | 0 |  |  |
-| [Quality5](#Quality5) | float |  |  | NO | 0 |  |  |
-| [Quality6](#Quality6) | float |  |  | NO | 0 |  |  |
-| [Quality7](#Quality7) | float |  |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ItemLevel](#itemlevel) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Quality1](#quality1) | float |  |  | NO | 0 |  |  |
+| [Quality2](#quality2) | float |  |  | NO | 0 |  |  |
+| [Quality3](#quality3) | float |  |  | NO | 0 |  |  |
+| [Quality4](#quality4) | float |  |  | NO | 0 |  |  |
+| [Quality5](#quality5) | float |  |  | NO | 0 |  |  |
+| [Quality6](#quality6) | float |  |  | NO | 0 |  |  |
+| [Quality7](#quality7) | float |  |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

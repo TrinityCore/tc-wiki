@@ -2,7 +2,7 @@
 title: garr_follower_locale
 description: 
 published: true
-date: 2021-08-30T09:44:29.529Z
+date: 2021-08-30T19:58:43.048Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) | signed | PRI | NO |  |  |  |
-| [HordeSourceText_lang](#HordeSourceText_lang) | text |  |  | YES | NULL |  |  |
-| [AllianceSourceText_lang](#AllianceSourceText_lang) | text |  |  | YES | NULL |  |  |
-| [TitleName_lang](#TitleName_lang) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [HordeSourceText_lang](#hordesourcetext_lang) | text |  |  | YES | NULL |  |  |
+| [AllianceSourceText_lang](#alliancesourcetext_lang) | text |  |  | YES | NULL |  |  |
+| [TitleName_lang](#titlename_lang) | text |  |  | YES | NULL |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

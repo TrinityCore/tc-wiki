@@ -2,7 +2,7 @@
 title: azerite_level_info
 description: 
 published: true
-date: 2021-08-30T09:44:29.495Z
+date: 2021-08-30T19:58:43.016Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [BaseExperienceToNextLevel](#BaseExperienceToNextLevel) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [MinimumExperienceToNextLevel](#MinimumExperienceToNextLevel) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [ItemLevel](#ItemLevel) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [BaseExperienceToNextLevel](#baseexperiencetonextlevel) | bigint(20) | unsigned |  | NO | 0 |  |  |
+| [MinimumExperienceToNextLevel](#minimumexperiencetonextlevel) | bigint(20) | unsigned |  | NO | 0 |  |  |
+| [ItemLevel](#itemlevel) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

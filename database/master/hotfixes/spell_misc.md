@@ -2,7 +2,7 @@
 title: spell_misc
 description: 
 published: true
-date: 2021-08-30T09:44:29.583Z
+date: 2021-08-30T19:58:43.102Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,38 +14,38 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Attributes1](#Attributes1) | int(11) | signed |  | NO | 0 |  |  |
-| [Attributes2](#Attributes2) | int(11) | signed |  | NO | 0 |  |  |
-| [Attributes3](#Attributes3) | int(11) | signed |  | NO | 0 |  |  |
-| [Attributes4](#Attributes4) | int(11) | signed |  | NO | 0 |  |  |
-| [Attributes5](#Attributes5) | int(11) | signed |  | NO | 0 |  |  |
-| [Attributes6](#Attributes6) | int(11) | signed |  | NO | 0 |  |  |
-| [Attributes7](#Attributes7) | int(11) | signed |  | NO | 0 |  |  |
-| [Attributes8](#Attributes8) | int(11) | signed |  | NO | 0 |  |  |
-| [Attributes9](#Attributes9) | int(11) | signed |  | NO | 0 |  |  |
-| [Attributes10](#Attributes10) | int(11) | signed |  | NO | 0 |  |  |
-| [Attributes11](#Attributes11) | int(11) | signed |  | NO | 0 |  |  |
-| [Attributes12](#Attributes12) | int(11) | signed |  | NO | 0 |  |  |
-| [Attributes13](#Attributes13) | int(11) | signed |  | NO | 0 |  |  |
-| [Attributes14](#Attributes14) | int(11) | signed |  | NO | 0 |  |  |
-| [Attributes15](#Attributes15) | int(11) | signed |  | NO | 0 |  |  |
-| [DifficultyID](#DifficultyID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [CastingTimeIndex](#CastingTimeIndex) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [DurationIndex](#DurationIndex) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [RangeIndex](#RangeIndex) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [SchoolMask](#SchoolMask) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Speed](#Speed) | float |  |  | NO | 0 |  |  |
-| [LaunchDelay](#LaunchDelay) | float |  |  | NO | 0 |  |  |
-| [MinDuration](#MinDuration) | float |  |  | NO | 0 |  |  |
-| [SpellIconFileDataID](#SpellIconFileDataID) | int(11) | signed |  | NO | 0 |  |  |
-| [ActiveIconFileDataID](#ActiveIconFileDataID) | int(11) | signed |  | NO | 0 |  |  |
-| [ContentTuningID](#ContentTuningID) | int(11) | signed |  | NO | 0 |  |  |
-| [ShowFutureSpellPlayerConditionID](#ShowFutureSpellPlayerConditionID) | int(11) | signed |  | NO | 0 |  |  |
-| [SpellVisualScript](#SpellVisualScript) | int(11) | signed |  | NO | 0 |  |  |
-| [ActiveSpellVisualScript](#ActiveSpellVisualScript) | int(11) | signed |  | NO | 0 |  |  |
-| [SpellID](#SpellID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Attributes1](#attributes1) | int(11) | signed |  | NO | 0 |  |  |
+| [Attributes2](#attributes2) | int(11) | signed |  | NO | 0 |  |  |
+| [Attributes3](#attributes3) | int(11) | signed |  | NO | 0 |  |  |
+| [Attributes4](#attributes4) | int(11) | signed |  | NO | 0 |  |  |
+| [Attributes5](#attributes5) | int(11) | signed |  | NO | 0 |  |  |
+| [Attributes6](#attributes6) | int(11) | signed |  | NO | 0 |  |  |
+| [Attributes7](#attributes7) | int(11) | signed |  | NO | 0 |  |  |
+| [Attributes8](#attributes8) | int(11) | signed |  | NO | 0 |  |  |
+| [Attributes9](#attributes9) | int(11) | signed |  | NO | 0 |  |  |
+| [Attributes10](#attributes10) | int(11) | signed |  | NO | 0 |  |  |
+| [Attributes11](#attributes11) | int(11) | signed |  | NO | 0 |  |  |
+| [Attributes12](#attributes12) | int(11) | signed |  | NO | 0 |  |  |
+| [Attributes13](#attributes13) | int(11) | signed |  | NO | 0 |  |  |
+| [Attributes14](#attributes14) | int(11) | signed |  | NO | 0 |  |  |
+| [Attributes15](#attributes15) | int(11) | signed |  | NO | 0 |  |  |
+| [DifficultyID](#difficultyid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [CastingTimeIndex](#castingtimeindex) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [DurationIndex](#durationindex) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [RangeIndex](#rangeindex) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [SchoolMask](#schoolmask) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Speed](#speed) | float |  |  | NO | 0 |  |  |
+| [LaunchDelay](#launchdelay) | float |  |  | NO | 0 |  |  |
+| [MinDuration](#minduration) | float |  |  | NO | 0 |  |  |
+| [SpellIconFileDataID](#spelliconfiledataid) | int(11) | signed |  | NO | 0 |  |  |
+| [ActiveIconFileDataID](#activeiconfiledataid) | int(11) | signed |  | NO | 0 |  |  |
+| [ContentTuningID](#contenttuningid) | int(11) | signed |  | NO | 0 |  |  |
+| [ShowFutureSpellPlayerConditionID](#showfuturespellplayerconditionid) | int(11) | signed |  | NO | 0 |  |  |
+| [SpellVisualScript](#spellvisualscript) | int(11) | signed |  | NO | 0 |  |  |
+| [ActiveSpellVisualScript](#activespellvisualscript) | int(11) | signed |  | NO | 0 |  |  |
+| [SpellID](#spellid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

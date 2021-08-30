@@ -2,7 +2,7 @@
 title: item_disenchant_loot
 description: 
 published: true
-date: 2021-08-30T09:44:29.543Z
+date: 2021-08-30T19:58:43.062Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,15 +14,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Subclass](#Subclass) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Quality](#Quality) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MinLevel](#MinLevel) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [MaxLevel](#MaxLevel) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [SkillRequired](#SkillRequired) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ExpansionID](#ExpansionID) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Class](#Class) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Subclass](#subclass) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [Quality](#quality) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [MinLevel](#minlevel) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [MaxLevel](#maxlevel) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [SkillRequired](#skillrequired) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ExpansionID](#expansionid) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [Class](#class) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: taxi_nodes
 description: 
 published: true
-date: 2021-08-30T09:44:29.590Z
+date: 2021-08-30T19:58:43.110Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,27 +14,27 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Name](#Name) | text |  |  | YES | NULL |  |  |
-| [PosX](#PosX) | float |  |  | NO | 0 |  |  |
-| [PosY](#PosY) | float |  |  | NO | 0 |  |  |
-| [PosZ](#PosZ) | float |  |  | NO | 0 |  |  |
-| [MapOffsetX](#MapOffsetX) | float |  |  | NO | 0 |  |  |
-| [MapOffsetY](#MapOffsetY) | float |  |  | NO | 0 |  |  |
-| [FlightMapOffsetX](#FlightMapOffsetX) | float |  |  | NO | 0 |  |  |
-| [FlightMapOffsetY](#FlightMapOffsetY) | float |  |  | NO | 0 |  |  |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ContinentID](#ContinentID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ConditionID](#ConditionID) | int(11) | signed |  | NO | 0 |  |  |
-| [CharacterBitNumber](#CharacterBitNumber) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Flags](#Flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [UiTextureKitID](#UiTextureKitID) | int(11) | signed |  | NO | 0 |  |  |
-| [MinimapAtlasMemberID](#MinimapAtlasMemberID) | int(11) | signed |  | NO | 0 |  |  |
-| [Facing](#Facing) | float |  |  | NO | 0 |  |  |
-| [SpecialIconConditionID](#SpecialIconConditionID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VisibilityConditionID](#VisibilityConditionID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [MountCreatureID1](#MountCreatureID1) | int(11) | signed |  | NO | 0 |  |  |
-| [MountCreatureID2](#MountCreatureID2) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [PosX](#posx) | float |  |  | NO | 0 |  |  |
+| [PosY](#posy) | float |  |  | NO | 0 |  |  |
+| [PosZ](#posz) | float |  |  | NO | 0 |  |  |
+| [MapOffsetX](#mapoffsetx) | float |  |  | NO | 0 |  |  |
+| [MapOffsetY](#mapoffsety) | float |  |  | NO | 0 |  |  |
+| [FlightMapOffsetX](#flightmapoffsetx) | float |  |  | NO | 0 |  |  |
+| [FlightMapOffsetY](#flightmapoffsety) | float |  |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ContinentID](#continentid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ConditionID](#conditionid) | int(11) | signed |  | NO | 0 |  |  |
+| [CharacterBitNumber](#characterbitnumber) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [UiTextureKitID](#uitexturekitid) | int(11) | signed |  | NO | 0 |  |  |
+| [MinimapAtlasMemberID](#minimapatlasmemberid) | int(11) | signed |  | NO | 0 |  |  |
+| [Facing](#facing) | float |  |  | NO | 0 |  |  |
+| [SpecialIconConditionID](#specialiconconditionid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VisibilityConditionID](#visibilityconditionid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [MountCreatureID1](#mountcreatureid1) | int(11) | signed |  | NO | 0 |  |  |
+| [MountCreatureID2](#mountcreatureid2) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

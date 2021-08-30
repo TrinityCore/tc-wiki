@@ -2,7 +2,7 @@
 title: lock
 description: 
 published: true
-date: 2021-08-30T09:44:29.555Z
+date: 2021-08-30T19:58:43.073Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,41 +14,41 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Flags](#Flags) | int(11) | signed |  | NO | 0 |  |  |
-| [Index1](#Index1) | int(11) | signed |  | NO | 0 |  |  |
-| [Index2](#Index2) | int(11) | signed |  | NO | 0 |  |  |
-| [Index3](#Index3) | int(11) | signed |  | NO | 0 |  |  |
-| [Index4](#Index4) | int(11) | signed |  | NO | 0 |  |  |
-| [Index5](#Index5) | int(11) | signed |  | NO | 0 |  |  |
-| [Index6](#Index6) | int(11) | signed |  | NO | 0 |  |  |
-| [Index7](#Index7) | int(11) | signed |  | NO | 0 |  |  |
-| [Index8](#Index8) | int(11) | signed |  | NO | 0 |  |  |
-| [Skill1](#Skill1) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Skill2](#Skill2) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Skill3](#Skill3) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Skill4](#Skill4) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Skill5](#Skill5) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Skill6](#Skill6) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Skill7](#Skill7) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Skill8](#Skill8) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Type1](#Type1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Type2](#Type2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Type3](#Type3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Type4](#Type4) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Type5](#Type5) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Type6](#Type6) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Type7](#Type7) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Type8](#Type8) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Action1](#Action1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Action2](#Action2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Action3](#Action3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Action4](#Action4) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Action5](#Action5) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Action6](#Action6) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Action7](#Action7) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Action8](#Action8) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
+| [Index1](#index1) | int(11) | signed |  | NO | 0 |  |  |
+| [Index2](#index2) | int(11) | signed |  | NO | 0 |  |  |
+| [Index3](#index3) | int(11) | signed |  | NO | 0 |  |  |
+| [Index4](#index4) | int(11) | signed |  | NO | 0 |  |  |
+| [Index5](#index5) | int(11) | signed |  | NO | 0 |  |  |
+| [Index6](#index6) | int(11) | signed |  | NO | 0 |  |  |
+| [Index7](#index7) | int(11) | signed |  | NO | 0 |  |  |
+| [Index8](#index8) | int(11) | signed |  | NO | 0 |  |  |
+| [Skill1](#skill1) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Skill2](#skill2) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Skill3](#skill3) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Skill4](#skill4) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Skill5](#skill5) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Skill6](#skill6) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Skill7](#skill7) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Skill8](#skill8) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Type1](#type1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Type2](#type2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Type3](#type3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Type4](#type4) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Type5](#type5) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Type6](#type6) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Type7](#type7) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Type8](#type8) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Action1](#action1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Action2](#action2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Action3](#action3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Action4](#action4) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Action5](#action5) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Action6](#action6) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Action7](#action7) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Action8](#action8) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

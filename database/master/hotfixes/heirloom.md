@@ -2,7 +2,7 @@
 title: heirloom
 description: 
 published: true
-date: 2021-08-30T09:44:29.534Z
+date: 2021-08-30T19:58:43.053Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,23 +14,23 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [SourceText](#SourceText) | text |  |  | YES | NULL |  |  |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ItemID](#ItemID) | int(11) | signed |  | NO | 0 |  |  |
-| [LegacyUpgradedItemID](#LegacyUpgradedItemID) | int(11) | signed |  | NO | 0 |  |  |
-| [StaticUpgradedItemID](#StaticUpgradedItemID) | int(11) | signed |  | NO | 0 |  |  |
-| [SourceTypeEnum](#SourceTypeEnum) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Flags](#Flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [LegacyItemID](#LegacyItemID) | int(11) | signed |  | NO | 0 |  |  |
-| [UpgradeItemID1](#UpgradeItemID1) | int(11) | signed |  | NO | 0 |  |  |
-| [UpgradeItemID2](#UpgradeItemID2) | int(11) | signed |  | NO | 0 |  |  |
-| [UpgradeItemID3](#UpgradeItemID3) | int(11) | signed |  | NO | 0 |  |  |
-| [UpgradeItemID4](#UpgradeItemID4) | int(11) | signed |  | NO | 0 |  |  |
-| [UpgradeItemBonusListID1](#UpgradeItemBonusListID1) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [UpgradeItemBonusListID2](#UpgradeItemBonusListID2) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [UpgradeItemBonusListID3](#UpgradeItemBonusListID3) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [UpgradeItemBonusListID4](#UpgradeItemBonusListID4) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [SourceText](#sourcetext) | text |  |  | YES | NULL |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ItemID](#itemid) | int(11) | signed |  | NO | 0 |  |  |
+| [LegacyUpgradedItemID](#legacyupgradeditemid) | int(11) | signed |  | NO | 0 |  |  |
+| [StaticUpgradedItemID](#staticupgradeditemid) | int(11) | signed |  | NO | 0 |  |  |
+| [SourceTypeEnum](#sourcetypeenum) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [LegacyItemID](#legacyitemid) | int(11) | signed |  | NO | 0 |  |  |
+| [UpgradeItemID1](#upgradeitemid1) | int(11) | signed |  | NO | 0 |  |  |
+| [UpgradeItemID2](#upgradeitemid2) | int(11) | signed |  | NO | 0 |  |  |
+| [UpgradeItemID3](#upgradeitemid3) | int(11) | signed |  | NO | 0 |  |  |
+| [UpgradeItemID4](#upgradeitemid4) | int(11) | signed |  | NO | 0 |  |  |
+| [UpgradeItemBonusListID1](#upgradeitembonuslistid1) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [UpgradeItemBonusListID2](#upgradeitembonuslistid2) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [UpgradeItemBonusListID3](#upgradeitembonuslistid3) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [UpgradeItemBonusListID4](#upgradeitembonuslistid4) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

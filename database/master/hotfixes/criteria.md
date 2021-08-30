@@ -2,7 +2,7 @@
 title: criteria
 description: 
 published: true
-date: 2021-08-30T09:44:29.517Z
+date: 2021-08-30T19:58:43.035Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,19 +14,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Type](#Type) | smallint(6) | signed |  | NO | 0 |  |  |
-| [Asset](#Asset) | int(10) | signed |  | NO | 0 |  |  |
-| [ModifierTreeId](#ModifierTreeId) | int(10) | unsigned |  | NO | 0 |  |  |
-| [StartEvent](#StartEvent) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [StartAsset](#StartAsset) | int(11) | signed |  | NO | 0 |  |  |
-| [StartTimer](#StartTimer) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [FailEvent](#FailEvent) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [FailAsset](#FailAsset) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags](#Flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [EligibilityWorldStateID](#EligibilityWorldStateID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [EligibilityWorldStateValue](#EligibilityWorldStateValue) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Type](#type) | smallint(6) | signed |  | NO | 0 |  |  |
+| [Asset](#asset) | int(10) | signed |  | NO | 0 |  |  |
+| [ModifierTreeId](#modifiertreeid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [StartEvent](#startevent) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [StartAsset](#startasset) | int(11) | signed |  | NO | 0 |  |  |
+| [StartTimer](#starttimer) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [FailEvent](#failevent) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [FailAsset](#failasset) | int(11) | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [EligibilityWorldStateID](#eligibilityworldstateid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [EligibilityWorldStateValue](#eligibilityworldstatevalue) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

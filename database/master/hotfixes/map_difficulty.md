@@ -2,7 +2,7 @@
 title: map_difficulty
 description: 
 published: true
-date: 2021-08-30T09:44:29.556Z
+date: 2021-08-30T19:58:43.074Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Message](#Message) | text |  |  | YES | NULL |  |  |
-| [DifficultyID](#DifficultyID) | int(11) | signed |  | NO | 0 |  |  |
-| [LockID](#LockID) | int(11) | signed |  | NO | 0 |  |  |
-| [ResetInterval](#ResetInterval) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [MaxPlayers](#MaxPlayers) | int(11) | signed |  | NO | 0 |  |  |
-| [ItemContext](#ItemContext) | int(11) | signed |  | NO | 0 |  |  |
-| [ItemContextPickerID](#ItemContextPickerID) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags](#Flags) | int(11) | signed |  | NO | 0 |  |  |
-| [ContentTuningID](#ContentTuningID) | int(11) | signed |  | NO | 0 |  |  |
-| [MapID](#MapID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Message](#message) | text |  |  | YES | NULL |  |  |
+| [DifficultyID](#difficultyid) | int(11) | signed |  | NO | 0 |  |  |
+| [LockID](#lockid) | int(11) | signed |  | NO | 0 |  |  |
+| [ResetInterval](#resetinterval) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [MaxPlayers](#maxplayers) | int(11) | signed |  | NO | 0 |  |  |
+| [ItemContext](#itemcontext) | int(11) | signed |  | NO | 0 |  |  |
+| [ItemContextPickerID](#itemcontextpickerid) | int(11) | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
+| [ContentTuningID](#contenttuningid) | int(11) | signed |  | NO | 0 |  |  |
+| [MapID](#mapid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: item_armor_quality
 description: 
 published: true
-date: 2021-08-30T09:44:29.538Z
+date: 2021-08-30T19:58:43.057Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,15 +14,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Qualitymod1](#Qualitymod1) | float |  |  | NO | 0 |  |  |
-| [Qualitymod2](#Qualitymod2) | float |  |  | NO | 0 |  |  |
-| [Qualitymod3](#Qualitymod3) | float |  |  | NO | 0 |  |  |
-| [Qualitymod4](#Qualitymod4) | float |  |  | NO | 0 |  |  |
-| [Qualitymod5](#Qualitymod5) | float |  |  | NO | 0 |  |  |
-| [Qualitymod6](#Qualitymod6) | float |  |  | NO | 0 |  |  |
-| [Qualitymod7](#Qualitymod7) | float |  |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Qualitymod1](#qualitymod1) | float |  |  | NO | 0 |  |  |
+| [Qualitymod2](#qualitymod2) | float |  |  | NO | 0 |  |  |
+| [Qualitymod3](#qualitymod3) | float |  |  | NO | 0 |  |  |
+| [Qualitymod4](#qualitymod4) | float |  |  | NO | 0 |  |  |
+| [Qualitymod5](#qualitymod5) | float |  |  | NO | 0 |  |  |
+| [Qualitymod6](#qualitymod6) | float |  |  | NO | 0 |  |  |
+| [Qualitymod7](#qualitymod7) | float |  |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

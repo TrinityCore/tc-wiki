@@ -2,7 +2,7 @@
 title: faction_template
 description: 
 published: true
-date: 2021-08-30T09:44:29.524Z
+date: 2021-08-30T19:58:43.043Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,21 +14,21 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Faction](#Faction) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Flags](#Flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [FactionGroup](#FactionGroup) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [FriendGroup](#FriendGroup) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [EnemyGroup](#EnemyGroup) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Enemies1](#Enemies1) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Enemies2](#Enemies2) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Enemies3](#Enemies3) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Enemies4](#Enemies4) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Friend1](#Friend1) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Friend2](#Friend2) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Friend3](#Friend3) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Friend4](#Friend4) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Faction](#faction) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [FactionGroup](#factiongroup) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [FriendGroup](#friendgroup) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [EnemyGroup](#enemygroup) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Enemies1](#enemies1) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Enemies2](#enemies2) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Enemies3](#enemies3) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Enemies4](#enemies4) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Friend1](#friend1) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Friend2](#friend2) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Friend3](#friend3) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Friend4](#friend4) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

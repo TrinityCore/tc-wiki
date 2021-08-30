@@ -2,7 +2,7 @@
 title: chr_customization_option
 description: 
 published: true
-date: 2021-08-30T09:44:29.507Z
+date: 2021-08-30T19:58:43.026Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,19 +14,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Name](#Name) | text |  |  | YES | NULL |  |  |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [SecondaryID](#SecondaryID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Flags](#Flags) | int(11) | signed |  | NO | 0 |  |  |
-| [ChrModelID](#ChrModelID) | int(11) | signed |  | NO | 0 |  |  |
-| [SortIndex](#SortIndex) | int(11) | signed |  | NO | 0 |  |  |
-| [ChrCustomizationCategoryID](#ChrCustomizationCategoryID) | int(11) | signed |  | NO | 0 |  |  |
-| [OptionType](#OptionType) | int(11) | signed |  | NO | 0 |  |  |
-| [BarberShopCostModifier](#BarberShopCostModifier) | float |  |  | NO | 0 |  |  |
-| [ChrCustomizationID](#ChrCustomizationID) | int(11) | signed |  | NO | 0 |  |  |
-| [ChrCustomizationReqID](#ChrCustomizationReqID) | int(11) | signed |  | NO | 0 |  |  |
-| [UiOrderIndex](#UiOrderIndex) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [SecondaryID](#secondaryid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
+| [ChrModelID](#chrmodelid) | int(11) | signed |  | NO | 0 |  |  |
+| [SortIndex](#sortindex) | int(11) | signed |  | NO | 0 |  |  |
+| [ChrCustomizationCategoryID](#chrcustomizationcategoryid) | int(11) | signed |  | NO | 0 |  |  |
+| [OptionType](#optiontype) | int(11) | signed |  | NO | 0 |  |  |
+| [BarberShopCostModifier](#barbershopcostmodifier) | float |  |  | NO | 0 |  |  |
+| [ChrCustomizationID](#chrcustomizationid) | int(11) | signed |  | NO | 0 |  |  |
+| [ChrCustomizationReqID](#chrcustomizationreqid) | int(11) | signed |  | NO | 0 |  |  |
+| [UiOrderIndex](#uiorderindex) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

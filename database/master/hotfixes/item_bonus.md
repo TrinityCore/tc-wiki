@@ -2,7 +2,7 @@
 title: item_bonus
 description: 
 published: true
-date: 2021-08-30T09:44:29.540Z
+date: 2021-08-30T19:58:43.058Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,15 +14,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Value1](#Value1) | int(11) | signed |  | NO | 0 |  |  |
-| [Value2](#Value2) | int(11) | signed |  | NO | 0 |  |  |
-| [Value3](#Value3) | int(11) | signed |  | NO | 0 |  |  |
-| [Value4](#Value4) | int(11) | signed |  | NO | 0 |  |  |
-| [ParentItemBonusListID](#ParentItemBonusListID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Type](#Type) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [OrderIndex](#OrderIndex) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Value1](#value1) | int(11) | signed |  | NO | 0 |  |  |
+| [Value2](#value2) | int(11) | signed |  | NO | 0 |  |  |
+| [Value3](#value3) | int(11) | signed |  | NO | 0 |  |  |
+| [Value4](#value4) | int(11) | signed |  | NO | 0 |  |  |
+| [ParentItemBonusListID](#parentitembonuslistid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Type](#type) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [OrderIndex](#orderindex) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: skill_line_locale
 description: 
 published: true
-date: 2021-08-30T09:44:29.574Z
+date: 2021-08-30T19:58:43.092Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) | signed | PRI | NO |  |  |  |
-| [DisplayName_lang](#DisplayName_lang) | text |  |  | YES | NULL |  |  |
-| [AlternateVerb_lang](#AlternateVerb_lang) | text |  |  | YES | NULL |  |  |
-| [Description_lang](#Description_lang) | text |  |  | YES | NULL |  |  |
-| [HordeDisplayName_lang](#HordeDisplayName_lang) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [DisplayName_lang](#displayname_lang) | text |  |  | YES | NULL |  |  |
+| [AlternateVerb_lang](#alternateverb_lang) | text |  |  | YES | NULL |  |  |
+| [Description_lang](#description_lang) | text |  |  | YES | NULL |  |  |
+| [HordeDisplayName_lang](#hordedisplayname_lang) | text |  |  | YES | NULL |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: character_loadout
 description: 
 published: true
-date: 2021-08-30T09:44:29.502Z
+date: 2021-08-30T19:58:43.023Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [RaceMask](#RaceMask) | bigint(20) | signed |  | NO | 0 |  |  |
-| [ChrClassID](#ChrClassID) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Purpose](#Purpose) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Unused910](#Unused910) | tinyint(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [RaceMask](#racemask) | bigint(20) | signed |  | NO | 0 |  |  |
+| [ChrClassID](#chrclassid) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [Purpose](#purpose) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [Unused910](#unused910) | tinyint(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

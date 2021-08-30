@@ -2,7 +2,7 @@
 title: import_price_armor
 description: 
 published: true
-date: 2021-08-30T09:44:29.536Z
+date: 2021-08-30T19:58:43.055Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ClothModifier](#ClothModifier) | float |  |  | NO | 0 |  |  |
-| [LeatherModifier](#LeatherModifier) | float |  |  | NO | 0 |  |  |
-| [ChainModifier](#ChainModifier) | float |  |  | NO | 0 |  |  |
-| [PlateModifier](#PlateModifier) | float |  |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ClothModifier](#clothmodifier) | float |  |  | NO | 0 |  |  |
+| [LeatherModifier](#leathermodifier) | float |  |  | NO | 0 |  |  |
+| [ChainModifier](#chainmodifier) | float |  |  | NO | 0 |  |  |
+| [PlateModifier](#platemodifier) | float |  |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: gameobjects
 description: 
 published: true
-date: 2021-08-30T09:44:29.526Z
+date: 2021-08-30T19:58:43.045Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,31 +14,31 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Name](#Name) | text |  |  | YES | NULL |  |  |
-| [PosX](#PosX) | float |  |  | NO | 0 |  |  |
-| [PosY](#PosY) | float |  |  | NO | 0 |  |  |
-| [PosZ](#PosZ) | float |  |  | NO | 0 |  |  |
-| [Rot1](#Rot1) | float |  |  | NO | 0 |  |  |
-| [Rot2](#Rot2) | float |  |  | NO | 0 |  |  |
-| [Rot3](#Rot3) | float |  |  | NO | 0 |  |  |
-| [Rot4](#Rot4) | float |  |  | NO | 0 |  |  |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [OwnerID](#OwnerID) | int(11) | signed |  | NO | 0 |  |  |
-| [DisplayID](#DisplayID) | int(11) | signed |  | NO | 0 |  |  |
-| [Scale](#Scale) | float |  |  | NO | 0 |  |  |
-| [TypeID](#TypeID) | int(11) | signed |  | NO | 0 |  |  |
-| [PhaseUseFlags](#PhaseUseFlags) | int(11) | signed |  | NO | 0 |  |  |
-| [PhaseID](#PhaseID) | int(11) | signed |  | NO | 0 |  |  |
-| [PhaseGroupID](#PhaseGroupID) | int(11) | signed |  | NO | 0 |  |  |
-| [PropValue1](#PropValue1) | int(11) | signed |  | NO | 0 |  |  |
-| [PropValue2](#PropValue2) | int(11) | signed |  | NO | 0 |  |  |
-| [PropValue3](#PropValue3) | int(11) | signed |  | NO | 0 |  |  |
-| [PropValue4](#PropValue4) | int(11) | signed |  | NO | 0 |  |  |
-| [PropValue5](#PropValue5) | int(11) | signed |  | NO | 0 |  |  |
-| [PropValue6](#PropValue6) | int(11) | signed |  | NO | 0 |  |  |
-| [PropValue7](#PropValue7) | int(11) | signed |  | NO | 0 |  |  |
-| [PropValue8](#PropValue8) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [PosX](#posx) | float |  |  | NO | 0 |  |  |
+| [PosY](#posy) | float |  |  | NO | 0 |  |  |
+| [PosZ](#posz) | float |  |  | NO | 0 |  |  |
+| [Rot1](#rot1) | float |  |  | NO | 0 |  |  |
+| [Rot2](#rot2) | float |  |  | NO | 0 |  |  |
+| [Rot3](#rot3) | float |  |  | NO | 0 |  |  |
+| [Rot4](#rot4) | float |  |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [OwnerID](#ownerid) | int(11) | signed |  | NO | 0 |  |  |
+| [DisplayID](#displayid) | int(11) | signed |  | NO | 0 |  |  |
+| [Scale](#scale) | float |  |  | NO | 0 |  |  |
+| [TypeID](#typeid) | int(11) | signed |  | NO | 0 |  |  |
+| [PhaseUseFlags](#phaseuseflags) | int(11) | signed |  | NO | 0 |  |  |
+| [PhaseID](#phaseid) | int(11) | signed |  | NO | 0 |  |  |
+| [PhaseGroupID](#phasegroupid) | int(11) | signed |  | NO | 0 |  |  |
+| [PropValue1](#propvalue1) | int(11) | signed |  | NO | 0 |  |  |
+| [PropValue2](#propvalue2) | int(11) | signed |  | NO | 0 |  |  |
+| [PropValue3](#propvalue3) | int(11) | signed |  | NO | 0 |  |  |
+| [PropValue4](#propvalue4) | int(11) | signed |  | NO | 0 |  |  |
+| [PropValue5](#propvalue5) | int(11) | signed |  | NO | 0 |  |  |
+| [PropValue6](#propvalue6) | int(11) | signed |  | NO | 0 |  |  |
+| [PropValue7](#propvalue7) | int(11) | signed |  | NO | 0 |  |  |
+| [PropValue8](#propvalue8) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

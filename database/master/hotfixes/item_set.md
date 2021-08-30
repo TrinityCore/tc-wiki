@@ -2,7 +2,7 @@
 title: item_set
 description: 
 published: true
-date: 2021-08-30T09:44:29.548Z
+date: 2021-08-30T19:58:43.067Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,29 +14,29 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Name](#Name) | text |  |  | YES | NULL |  |  |
-| [SetFlags](#SetFlags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RequiredSkill](#RequiredSkill) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RequiredSkillRank](#RequiredSkillRank) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ItemID1](#ItemID1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemID2](#ItemID2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemID3](#ItemID3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemID4](#ItemID4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemID5](#ItemID5) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemID6](#ItemID6) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemID7](#ItemID7) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemID8](#ItemID8) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemID9](#ItemID9) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemID10](#ItemID10) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemID11](#ItemID11) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemID12](#ItemID12) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemID13](#ItemID13) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemID14](#ItemID14) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemID15](#ItemID15) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemID16](#ItemID16) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemID17](#ItemID17) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [SetFlags](#setflags) | int(10) | unsigned |  | NO | 0 |  |  |
+| [RequiredSkill](#requiredskill) | int(10) | unsigned |  | NO | 0 |  |  |
+| [RequiredSkillRank](#requiredskillrank) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ItemID1](#itemid1) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ItemID2](#itemid2) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ItemID3](#itemid3) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ItemID4](#itemid4) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ItemID5](#itemid5) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ItemID6](#itemid6) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ItemID7](#itemid7) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ItemID8](#itemid8) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ItemID9](#itemid9) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ItemID10](#itemid10) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ItemID11](#itemid11) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ItemID12](#itemid12) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ItemID13](#itemid13) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ItemID14](#itemid14) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ItemID15](#itemid15) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ItemID16](#itemid16) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ItemID17](#itemid17) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

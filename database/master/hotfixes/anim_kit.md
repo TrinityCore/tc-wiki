@@ -2,7 +2,7 @@
 title: anim_kit
 description: 
 published: true
-date: 2021-08-30T09:44:29.484Z
+date: 2021-08-30T19:58:43.003Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [OneShotDuration](#OneShotDuration) | int(10) | unsigned |  | NO | 0 |  |  |
-| [OneShotStopAnimKitID](#OneShotStopAnimKitID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [LowDefAnimKitID](#LowDefAnimKitID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [OneShotDuration](#oneshotduration) | int(10) | unsigned |  | NO | 0 |  |  |
+| [OneShotStopAnimKitID](#oneshotstopanimkitid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [LowDefAnimKitID](#lowdefanimkitid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

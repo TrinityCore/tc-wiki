@@ -2,7 +2,7 @@
 title: world_map_overlay
 description: 
 published: true
-date: 2021-08-30T09:44:29.600Z
+date: 2021-08-30T19:58:43.120Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,23 +14,23 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [UiMapArtID](#UiMapArtID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [TextureWidth](#TextureWidth) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [TextureHeight](#TextureHeight) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [OffsetX](#OffsetX) | int(11) | signed |  | NO | 0 |  |  |
-| [OffsetY](#OffsetY) | int(11) | signed |  | NO | 0 |  |  |
-| [HitRectTop](#HitRectTop) | int(11) | signed |  | NO | 0 |  |  |
-| [HitRectBottom](#HitRectBottom) | int(11) | signed |  | NO | 0 |  |  |
-| [HitRectLeft](#HitRectLeft) | int(11) | signed |  | NO | 0 |  |  |
-| [HitRectRight](#HitRectRight) | int(11) | signed |  | NO | 0 |  |  |
-| [PlayerConditionID](#PlayerConditionID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Flags](#Flags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [AreaID1](#AreaID1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [AreaID2](#AreaID2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [AreaID3](#AreaID3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [AreaID4](#AreaID4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [UiMapArtID](#uimapartid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [TextureWidth](#texturewidth) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [TextureHeight](#textureheight) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [OffsetX](#offsetx) | int(11) | signed |  | NO | 0 |  |  |
+| [OffsetY](#offsety) | int(11) | signed |  | NO | 0 |  |  |
+| [HitRectTop](#hitrecttop) | int(11) | signed |  | NO | 0 |  |  |
+| [HitRectBottom](#hitrectbottom) | int(11) | signed |  | NO | 0 |  |  |
+| [HitRectLeft](#hitrectleft) | int(11) | signed |  | NO | 0 |  |  |
+| [HitRectRight](#hitrectright) | int(11) | signed |  | NO | 0 |  |  |
+| [PlayerConditionID](#playerconditionid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
+| [AreaID1](#areaid1) | int(10) | unsigned |  | NO | 0 |  |  |
+| [AreaID2](#areaid2) | int(10) | unsigned |  | NO | 0 |  |  |
+| [AreaID3](#areaid3) | int(10) | unsigned |  | NO | 0 |  |  |
+| [AreaID4](#areaid4) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

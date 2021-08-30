@@ -2,7 +2,7 @@
 title: garr_site_level_plot_inst
 description: 
 published: true
-date: 2021-08-30T09:44:29.531Z
+date: 2021-08-30T19:58:43.049Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [UiMarkerPosX](#UiMarkerPosX) | float |  |  | NO | 0 |  |  |
-| [UiMarkerPosY](#UiMarkerPosY) | float |  |  | NO | 0 |  |  |
-| [GarrSiteLevelID](#GarrSiteLevelID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [GarrPlotInstanceID](#GarrPlotInstanceID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [UiMarkerSize](#UiMarkerSize) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [UiMarkerPosX](#uimarkerposx) | float |  |  | NO | 0 |  |  |
+| [UiMarkerPosY](#uimarkerposy) | float |  |  | NO | 0 |  |  |
+| [GarrSiteLevelID](#garrsitelevelid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [GarrPlotInstanceID](#garrplotinstanceid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [UiMarkerSize](#uimarkersize) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

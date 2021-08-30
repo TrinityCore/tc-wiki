@@ -2,7 +2,7 @@
 title: durability_costs
 description: 
 published: true
-date: 2021-08-30T09:44:29.521Z
+date: 2021-08-30T19:58:43.039Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,37 +14,37 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [WeaponSubClassCost1](#WeaponSubClassCost1) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [WeaponSubClassCost2](#WeaponSubClassCost2) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [WeaponSubClassCost3](#WeaponSubClassCost3) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [WeaponSubClassCost4](#WeaponSubClassCost4) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [WeaponSubClassCost5](#WeaponSubClassCost5) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [WeaponSubClassCost6](#WeaponSubClassCost6) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [WeaponSubClassCost7](#WeaponSubClassCost7) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [WeaponSubClassCost8](#WeaponSubClassCost8) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [WeaponSubClassCost9](#WeaponSubClassCost9) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [WeaponSubClassCost10](#WeaponSubClassCost10) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [WeaponSubClassCost11](#WeaponSubClassCost11) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [WeaponSubClassCost12](#WeaponSubClassCost12) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [WeaponSubClassCost13](#WeaponSubClassCost13) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [WeaponSubClassCost14](#WeaponSubClassCost14) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [WeaponSubClassCost15](#WeaponSubClassCost15) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [WeaponSubClassCost16](#WeaponSubClassCost16) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [WeaponSubClassCost17](#WeaponSubClassCost17) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [WeaponSubClassCost18](#WeaponSubClassCost18) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [WeaponSubClassCost19](#WeaponSubClassCost19) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [WeaponSubClassCost20](#WeaponSubClassCost20) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [WeaponSubClassCost21](#WeaponSubClassCost21) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ArmorSubClassCost1](#ArmorSubClassCost1) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ArmorSubClassCost2](#ArmorSubClassCost2) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ArmorSubClassCost3](#ArmorSubClassCost3) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ArmorSubClassCost4](#ArmorSubClassCost4) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ArmorSubClassCost5](#ArmorSubClassCost5) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ArmorSubClassCost6](#ArmorSubClassCost6) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ArmorSubClassCost7](#ArmorSubClassCost7) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ArmorSubClassCost8](#ArmorSubClassCost8) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [WeaponSubClassCost1](#weaponsubclasscost1) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [WeaponSubClassCost2](#weaponsubclasscost2) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [WeaponSubClassCost3](#weaponsubclasscost3) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [WeaponSubClassCost4](#weaponsubclasscost4) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [WeaponSubClassCost5](#weaponsubclasscost5) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [WeaponSubClassCost6](#weaponsubclasscost6) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [WeaponSubClassCost7](#weaponsubclasscost7) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [WeaponSubClassCost8](#weaponsubclasscost8) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [WeaponSubClassCost9](#weaponsubclasscost9) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [WeaponSubClassCost10](#weaponsubclasscost10) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [WeaponSubClassCost11](#weaponsubclasscost11) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [WeaponSubClassCost12](#weaponsubclasscost12) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [WeaponSubClassCost13](#weaponsubclasscost13) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [WeaponSubClassCost14](#weaponsubclasscost14) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [WeaponSubClassCost15](#weaponsubclasscost15) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [WeaponSubClassCost16](#weaponsubclasscost16) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [WeaponSubClassCost17](#weaponsubclasscost17) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [WeaponSubClassCost18](#weaponsubclasscost18) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [WeaponSubClassCost19](#weaponsubclasscost19) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [WeaponSubClassCost20](#weaponsubclasscost20) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [WeaponSubClassCost21](#weaponsubclasscost21) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ArmorSubClassCost1](#armorsubclasscost1) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ArmorSubClassCost2](#armorsubclasscost2) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ArmorSubClassCost3](#armorsubclasscost3) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ArmorSubClassCost4](#armorsubclasscost4) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ArmorSubClassCost5](#armorsubclasscost5) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ArmorSubClassCost6](#armorsubclasscost6) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ArmorSubClassCost7](#armorsubclasscost7) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ArmorSubClassCost8](#armorsubclasscost8) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: lfg_dungeons
 description: 
 published: true
-date: 2021-08-30T09:44:29.553Z
+date: 2021-08-30T19:58:43.072Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,38 +14,38 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Name](#Name) | text |  |  | YES | NULL |  |  |
-| [Description](#Description) | text |  |  | YES | NULL |  |  |
-| [TypeID](#TypeID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Subtype](#Subtype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Faction](#Faction) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [IconTextureFileID](#IconTextureFileID) | int(11) | signed |  | NO | 0 |  |  |
-| [RewardsBgTextureFileID](#RewardsBgTextureFileID) | int(11) | signed |  | NO | 0 |  |  |
-| [PopupBgTextureFileID](#PopupBgTextureFileID) | int(11) | signed |  | NO | 0 |  |  |
-| [ExpansionLevel](#ExpansionLevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MapID](#MapID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [DifficultyID](#DifficultyID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MinGear](#MinGear) | float |  |  | NO | 0 |  |  |
-| [GroupID](#GroupID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [OrderIndex](#OrderIndex) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [RequiredPlayerConditionId](#RequiredPlayerConditionId) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RandomID](#RandomID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ScenarioID](#ScenarioID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [FinalEncounterID](#FinalEncounterID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [CountTank](#CountTank) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [CountHealer](#CountHealer) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [CountDamage](#CountDamage) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MinCountTank](#MinCountTank) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MinCountHealer](#MinCountHealer) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MinCountDamage](#MinCountDamage) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [BonusReputationAmount](#BonusReputationAmount) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [MentorItemLevel](#MentorItemLevel) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [MentorCharLevel](#MentorCharLevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ContentTuningID](#ContentTuningID) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags1](#Flags1) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags2](#Flags2) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [Description](#description) | text |  |  | YES | NULL |  |  |
+| [TypeID](#typeid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Subtype](#subtype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Faction](#faction) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [IconTextureFileID](#icontexturefileid) | int(11) | signed |  | NO | 0 |  |  |
+| [RewardsBgTextureFileID](#rewardsbgtexturefileid) | int(11) | signed |  | NO | 0 |  |  |
+| [PopupBgTextureFileID](#popupbgtexturefileid) | int(11) | signed |  | NO | 0 |  |  |
+| [ExpansionLevel](#expansionlevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [MapID](#mapid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [DifficultyID](#difficultyid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [MinGear](#mingear) | float |  |  | NO | 0 |  |  |
+| [GroupID](#groupid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [OrderIndex](#orderindex) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [RequiredPlayerConditionId](#requiredplayerconditionid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [RandomID](#randomid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ScenarioID](#scenarioid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [FinalEncounterID](#finalencounterid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [CountTank](#counttank) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [CountHealer](#counthealer) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [CountDamage](#countdamage) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [MinCountTank](#mincounttank) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [MinCountHealer](#mincounthealer) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [MinCountDamage](#mincountdamage) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [BonusReputationAmount](#bonusreputationamount) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [MentorItemLevel](#mentoritemlevel) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [MentorCharLevel](#mentorcharlevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ContentTuningID](#contenttuningid) | int(11) | signed |  | NO | 0 |  |  |
+| [Flags1](#flags1) | int(11) | signed |  | NO | 0 |  |  |
+| [Flags2](#flags2) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

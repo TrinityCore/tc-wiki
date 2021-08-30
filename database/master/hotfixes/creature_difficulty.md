@@ -2,7 +2,7 @@
 title: creature_difficulty
 description: 
 published: true
-date: 2021-08-30T09:44:29.515Z
+date: 2021-08-30T19:58:43.033Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,20 +14,20 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
-| [CreatureID](#CreatureID) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [Flags1](#Flags1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Flags2](#Flags2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Flags3](#Flags3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Flags4](#Flags4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Flags5](#Flags5) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Flags6](#Flags6) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Flags7](#Flags7) | int(10) | unsigned |  | NO | 0 |  |  |
-| [FactionTemplateID](#FactionTemplateID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Expansion](#Expansion) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [MinLevel](#MinLevel) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [MaxLevel](#MaxLevel) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [CreatureID](#creatureid) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [Flags1](#flags1) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Flags2](#flags2) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Flags3](#flags3) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Flags4](#flags4) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Flags5](#flags5) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Flags6](#flags6) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Flags7](#flags7) | int(10) | unsigned |  | NO | 0 |  |  |
+| [FactionTemplateID](#factiontemplateid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Expansion](#expansion) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [MinLevel](#minlevel) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [MaxLevel](#maxlevel) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

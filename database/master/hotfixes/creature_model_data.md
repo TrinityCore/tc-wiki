@@ -2,7 +2,7 @@
 title: creature_model_data
 description: 
 published: true
-date: 2021-08-30T09:44:29.516Z
+date: 2021-08-30T19:58:43.035Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,45 +14,45 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [GeoBox1](#GeoBox1) | float |  |  | NO | 0 |  |  |
-| [GeoBox2](#GeoBox2) | float |  |  | NO | 0 |  |  |
-| [GeoBox3](#GeoBox3) | float |  |  | NO | 0 |  |  |
-| [GeoBox4](#GeoBox4) | float |  |  | NO | 0 |  |  |
-| [GeoBox5](#GeoBox5) | float |  |  | NO | 0 |  |  |
-| [GeoBox6](#GeoBox6) | float |  |  | NO | 0 |  |  |
-| [Flags](#Flags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [FileDataID](#FileDataID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [BloodID](#BloodID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [FootprintTextureID](#FootprintTextureID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [FootprintTextureLength](#FootprintTextureLength) | float |  |  | NO | 0 |  |  |
-| [FootprintTextureWidth](#FootprintTextureWidth) | float |  |  | NO | 0 |  |  |
-| [FootprintParticleScale](#FootprintParticleScale) | float |  |  | NO | 0 |  |  |
-| [FoleyMaterialID](#FoleyMaterialID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [FootstepCameraEffectID](#FootstepCameraEffectID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [DeathThudCameraEffectID](#DeathThudCameraEffectID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SoundID](#SoundID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SizeClass](#SizeClass) | int(10) | unsigned |  | NO | 0 |  |  |
-| [CollisionWidth](#CollisionWidth) | float |  |  | NO | 0 |  |  |
-| [CollisionHeight](#CollisionHeight) | float |  |  | NO | 0 |  |  |
-| [WorldEffectScale](#WorldEffectScale) | float |  |  | NO | 0 |  |  |
-| [CreatureGeosetDataID](#CreatureGeosetDataID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [HoverHeight](#HoverHeight) | float |  |  | NO | 0 |  |  |
-| [AttachedEffectScale](#AttachedEffectScale) | float |  |  | NO | 0 |  |  |
-| [ModelScale](#ModelScale) | float |  |  | NO | 0 |  |  |
-| [MissileCollisionRadius](#MissileCollisionRadius) | float |  |  | NO | 0 |  |  |
-| [MissileCollisionPush](#MissileCollisionPush) | float |  |  | NO | 0 |  |  |
-| [MissileCollisionRaise](#MissileCollisionRaise) | float |  |  | NO | 0 |  |  |
-| [MountHeight](#MountHeight) | float |  |  | NO | 0 |  |  |
-| [OverrideLootEffectScale](#OverrideLootEffectScale) | float |  |  | NO | 0 |  |  |
-| [OverrideNameScale](#OverrideNameScale) | float |  |  | NO | 0 |  |  |
-| [OverrideSelectionRadius](#OverrideSelectionRadius) | float |  |  | NO | 0 |  |  |
-| [TamedPetBaseScale](#TamedPetBaseScale) | float |  |  | NO | 0 |  |  |
-| [Unknown820_1](#Unknown820_1) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Unknown820_2](#Unknown820_2) | float |  |  | NO | 0 |  |  |
-| [Unknown820_31](#Unknown820_31) | float |  |  | NO | 0 |  |  |
-| [Unknown820_32](#Unknown820_32) | float |  |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [GeoBox1](#geobox1) | float |  |  | NO | 0 |  |  |
+| [GeoBox2](#geobox2) | float |  |  | NO | 0 |  |  |
+| [GeoBox3](#geobox3) | float |  |  | NO | 0 |  |  |
+| [GeoBox4](#geobox4) | float |  |  | NO | 0 |  |  |
+| [GeoBox5](#geobox5) | float |  |  | NO | 0 |  |  |
+| [GeoBox6](#geobox6) | float |  |  | NO | 0 |  |  |
+| [Flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
+| [FileDataID](#filedataid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [BloodID](#bloodid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [FootprintTextureID](#footprinttextureid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [FootprintTextureLength](#footprinttexturelength) | float |  |  | NO | 0 |  |  |
+| [FootprintTextureWidth](#footprinttexturewidth) | float |  |  | NO | 0 |  |  |
+| [FootprintParticleScale](#footprintparticlescale) | float |  |  | NO | 0 |  |  |
+| [FoleyMaterialID](#foleymaterialid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [FootstepCameraEffectID](#footstepcameraeffectid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [DeathThudCameraEffectID](#deaththudcameraeffectid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [SoundID](#soundid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [SizeClass](#sizeclass) | int(10) | unsigned |  | NO | 0 |  |  |
+| [CollisionWidth](#collisionwidth) | float |  |  | NO | 0 |  |  |
+| [CollisionHeight](#collisionheight) | float |  |  | NO | 0 |  |  |
+| [WorldEffectScale](#worldeffectscale) | float |  |  | NO | 0 |  |  |
+| [CreatureGeosetDataID](#creaturegeosetdataid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [HoverHeight](#hoverheight) | float |  |  | NO | 0 |  |  |
+| [AttachedEffectScale](#attachedeffectscale) | float |  |  | NO | 0 |  |  |
+| [ModelScale](#modelscale) | float |  |  | NO | 0 |  |  |
+| [MissileCollisionRadius](#missilecollisionradius) | float |  |  | NO | 0 |  |  |
+| [MissileCollisionPush](#missilecollisionpush) | float |  |  | NO | 0 |  |  |
+| [MissileCollisionRaise](#missilecollisionraise) | float |  |  | NO | 0 |  |  |
+| [MountHeight](#mountheight) | float |  |  | NO | 0 |  |  |
+| [OverrideLootEffectScale](#overridelooteffectscale) | float |  |  | NO | 0 |  |  |
+| [OverrideNameScale](#overridenamescale) | float |  |  | NO | 0 |  |  |
+| [OverrideSelectionRadius](#overrideselectionradius) | float |  |  | NO | 0 |  |  |
+| [TamedPetBaseScale](#tamedpetbasescale) | float |  |  | NO | 0 |  |  |
+| [Unknown820_1](#unknown820_1) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [Unknown820_2](#unknown820_2) | float |  |  | NO | 0 |  |  |
+| [Unknown820_31](#unknown820_31) | float |  |  | NO | 0 |  |  |
+| [Unknown820_32](#unknown820_32) | float |  |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: broadcast_text
 description: 
 published: true
-date: 2021-08-30T09:44:29.501Z
+date: 2021-08-30T19:58:43.021Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,23 +14,23 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Text](#Text) | text |  |  | YES | NULL |  |  |
-| [Text1](#Text1) | text |  |  | YES | NULL |  |  |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [LanguageID](#LanguageID) | int(11) | signed |  | NO | 0 |  |  |
-| [ConditionID](#ConditionID) | int(11) | signed |  | NO | 0 |  |  |
-| [EmotesID](#EmotesID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Flags](#Flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ChatBubbleDurationMs](#ChatBubbleDurationMs) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SoundEntriesID1](#SoundEntriesID1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SoundEntriesID2](#SoundEntriesID2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [EmoteID1](#EmoteID1) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [EmoteID2](#EmoteID2) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [EmoteID3](#EmoteID3) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay1](#EmoteDelay1) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay2](#EmoteDelay2) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay3](#EmoteDelay3) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [Text](#text) | text |  |  | YES | NULL |  |  |
+| [Text1](#text1) | text |  |  | YES | NULL |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [LanguageID](#languageid) | int(11) | signed |  | NO | 0 |  |  |
+| [ConditionID](#conditionid) | int(11) | signed |  | NO | 0 |  |  |
+| [EmotesID](#emotesid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ChatBubbleDurationMs](#chatbubbledurationms) | int(10) | unsigned |  | NO | 0 |  |  |
+| [SoundEntriesID1](#soundentriesid1) | int(10) | unsigned |  | NO | 0 |  |  |
+| [SoundEntriesID2](#soundentriesid2) | int(10) | unsigned |  | NO | 0 |  |  |
+| [EmoteID1](#emoteid1) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [EmoteID2](#emoteid2) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [EmoteID3](#emoteid3) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay1](#emotedelay1) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay2](#emotedelay2) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay3](#emotedelay3) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

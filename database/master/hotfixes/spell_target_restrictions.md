@@ -2,7 +2,7 @@
 title: spell_target_restrictions
 description: 
 published: true
-date: 2021-08-30T09:44:29.588Z
+date: 2021-08-30T19:58:43.107Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,16 +14,16 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [DifficultyID](#DifficultyID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ConeDegrees](#ConeDegrees) | float |  |  | NO | 0 |  |  |
-| [MaxTargets](#MaxTargets) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MaxTargetLevel](#MaxTargetLevel) | int(10) | unsigned |  | NO | 0 |  |  |
-| [TargetCreatureType](#TargetCreatureType) | smallint(6) | signed |  | NO | 0 |  |  |
-| [Targets](#Targets) | int(11) | signed |  | NO | 0 |  |  |
-| [Width](#Width) | float |  |  | NO | 0 |  |  |
-| [SpellID](#SpellID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [DifficultyID](#difficultyid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ConeDegrees](#conedegrees) | float |  |  | NO | 0 |  |  |
+| [MaxTargets](#maxtargets) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [MaxTargetLevel](#maxtargetlevel) | int(10) | unsigned |  | NO | 0 |  |  |
+| [TargetCreatureType](#targetcreaturetype) | smallint(6) | signed |  | NO | 0 |  |  |
+| [Targets](#targets) | int(11) | signed |  | NO | 0 |  |  |
+| [Width](#width) | float |  |  | NO | 0 |  |  |
+| [SpellID](#spellid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

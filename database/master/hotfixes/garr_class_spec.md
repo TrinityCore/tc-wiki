@@ -2,7 +2,7 @@
 title: garr_class_spec
 description: 
 published: true
-date: 2021-08-30T09:44:29.528Z
+date: 2021-08-30T19:58:43.047Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,15 +14,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ClassSpec](#ClassSpec) | text |  |  | YES | NULL |  |  |
-| [ClassSpecMale](#ClassSpecMale) | text |  |  | YES | NULL |  |  |
-| [ClassSpecFemale](#ClassSpecFemale) | text |  |  | YES | NULL |  |  |
-| [UiTextureAtlasMemberID](#UiTextureAtlasMemberID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [GarrFollItemSetID](#GarrFollItemSetID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [FollowerClassLimit](#FollowerClassLimit) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Flags](#Flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ClassSpec](#classspec) | text |  |  | YES | NULL |  |  |
+| [ClassSpecMale](#classspecmale) | text |  |  | YES | NULL |  |  |
+| [ClassSpecFemale](#classspecfemale) | text |  |  | YES | NULL |  |  |
+| [UiTextureAtlasMemberID](#uitextureatlasmemberid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [GarrFollItemSetID](#garrfollitemsetid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [FollowerClassLimit](#followerclasslimit) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: skill_race_class_info
 description: 
 published: true
-date: 2021-08-30T09:44:29.574Z
+date: 2021-08-30T19:58:43.093Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,15 +14,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [RaceMask](#RaceMask) | bigint(20) | signed |  | NO | 0 |  |  |
-| [SkillID](#SkillID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ClassMask](#ClassMask) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags](#Flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Availability](#Availability) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [MinLevel](#MinLevel) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [SkillTierID](#SkillTierID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [RaceMask](#racemask) | bigint(20) | signed |  | NO | 0 |  |  |
+| [SkillID](#skillid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [ClassMask](#classmask) | int(11) | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Availability](#availability) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [MinLevel](#minlevel) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [SkillTierID](#skilltierid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

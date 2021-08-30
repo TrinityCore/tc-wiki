@@ -2,7 +2,7 @@
 title: hotfix_optional_data
 description: 
 published: true
-date: 2021-08-30T09:44:29.536Z
+date: 2021-08-30T19:58:43.054Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [TableHash](#TableHash) | int(10) | unsigned |  | NO |  |  |  |
-| [RecordId](#RecordId) | int(10) | unsigned |  | NO |  |  |  |
+| [TableHash](#tablehash) | int(10) | unsigned |  | NO |  |  |  |
+| [RecordId](#recordid) | int(10) | unsigned |  | NO |  |  |  |
 | [locale](#locale) | varchar(4) | signed |  | NO |  |  |  |
-| [Key](#Key) | int(10) | unsigned |  | NO |  |  |  |
-| [Data](#Data) | blob |  |  | NO |  |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [Key](#key) | int(10) | unsigned |  | NO |  |  |  |
+| [Data](#data) | blob |  |  | NO |  |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: glyph_properties
 description: 
 published: true
-date: 2021-08-30T09:44:29.532Z
+date: 2021-08-30T19:58:43.051Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [SpellID](#SpellID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [GlyphType](#GlyphType) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [GlyphExclusiveCategoryID](#GlyphExclusiveCategoryID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SpellIconFileDataID](#SpellIconFileDataID) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [SpellID](#spellid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [GlyphType](#glyphtype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [GlyphExclusiveCategoryID](#glyphexclusivecategoryid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [SpellIconFileDataID](#spelliconfiledataid) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

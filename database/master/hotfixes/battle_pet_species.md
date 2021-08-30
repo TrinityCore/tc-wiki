@@ -2,7 +2,7 @@
 title: battle_pet_species
 description: 
 published: true
-date: 2021-08-30T09:44:29.499Z
+date: 2021-08-30T19:58:43.019Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,19 +14,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Description](#Description) | text |  |  | YES | NULL |  |  |
-| [SourceText](#SourceText) | text |  |  | YES | NULL |  |  |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [CreatureID](#CreatureID) | int(11) | signed |  | NO | 0 |  |  |
-| [SummonSpellID](#SummonSpellID) | int(11) | signed |  | NO | 0 |  |  |
-| [IconFileDataID](#IconFileDataID) | int(11) | signed |  | NO | 0 |  |  |
-| [PetTypeEnum](#PetTypeEnum) | tinyint(11) | signed |  | NO | 0 |  |  |
-| [Flags](#Flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [SourceTypeEnum](#SourceTypeEnum) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [CardUIModelSceneID](#CardUIModelSceneID) | int(11) | signed |  | NO | 0 |  |  |
-| [LoadoutUIModelSceneID](#LoadoutUIModelSceneID) | int(11) | signed |  | NO | 0 |  |  |
-| [CovenantID](#CovenantID) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [Description](#description) | text |  |  | YES | NULL |  |  |
+| [SourceText](#sourcetext) | text |  |  | YES | NULL |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [CreatureID](#creatureid) | int(11) | signed |  | NO | 0 |  |  |
+| [SummonSpellID](#summonspellid) | int(11) | signed |  | NO | 0 |  |  |
+| [IconFileDataID](#iconfiledataid) | int(11) | signed |  | NO | 0 |  |  |
+| [PetTypeEnum](#pettypeenum) | tinyint(11) | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [SourceTypeEnum](#sourcetypeenum) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [CardUIModelSceneID](#carduimodelsceneid) | int(11) | signed |  | NO | 0 |  |  |
+| [LoadoutUIModelSceneID](#loadoutuimodelsceneid) | int(11) | signed |  | NO | 0 |  |  |
+| [CovenantID](#covenantid) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

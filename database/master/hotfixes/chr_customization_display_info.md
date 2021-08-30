@@ -2,7 +2,7 @@
 title: chr_customization_display_info
 description: 
 published: true
-date: 2021-08-30T09:44:29.506Z
+date: 2021-08-30T19:58:43.026Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ShapeshiftFormID](#ShapeshiftFormID) | int(11) | signed |  | NO | 0 |  |  |
-| [DisplayID](#DisplayID) | int(11) | signed |  | NO | 0 |  |  |
-| [BarberShopMinCameraDistance](#BarberShopMinCameraDistance) | float |  |  | NO | 0 |  |  |
-| [BarberShopHeightOffset](#BarberShopHeightOffset) | float |  |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ShapeshiftFormID](#shapeshiftformid) | int(11) | signed |  | NO | 0 |  |  |
+| [DisplayID](#displayid) | int(11) | signed |  | NO | 0 |  |  |
+| [BarberShopMinCameraDistance](#barbershopmincameradistance) | float |  |  | NO | 0 |  |  |
+| [BarberShopHeightOffset](#barbershopheightoffset) | float |  |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

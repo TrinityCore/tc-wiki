@@ -2,7 +2,7 @@
 title: scenario_step
 description: 
 published: true
-date: 2021-08-30T09:44:29.571Z
+date: 2021-08-30T19:58:43.090Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,19 +14,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Description](#Description) | text |  |  | YES | NULL |  |  |
-| [Title](#Title) | text |  |  | YES | NULL |  |  |
-| [ScenarioID](#ScenarioID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Criteriatreeid](#Criteriatreeid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardQuestID](#RewardQuestID) | int(11) | signed |  | NO | 0 |  |  |
-| [RelatedStep](#RelatedStep) | int(11) | signed |  | NO | 0 |  |  |
-| [Supersedes](#Supersedes) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [OrderIndex](#OrderIndex) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Flags](#Flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VisibilityPlayerConditionID](#VisibilityPlayerConditionID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [WidgetSetID](#WidgetSetID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Description](#description) | text |  |  | YES | NULL |  |  |
+| [Title](#title) | text |  |  | YES | NULL |  |  |
+| [ScenarioID](#scenarioid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Criteriatreeid](#criteriatreeid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [RewardQuestID](#rewardquestid) | int(11) | signed |  | NO | 0 |  |  |
+| [RelatedStep](#relatedstep) | int(11) | signed |  | NO | 0 |  |  |
+| [Supersedes](#supersedes) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [OrderIndex](#orderindex) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [VisibilityPlayerConditionID](#visibilityplayerconditionid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [WidgetSetID](#widgetsetid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

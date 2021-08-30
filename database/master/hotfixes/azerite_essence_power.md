@@ -2,7 +2,7 @@
 title: azerite_essence_power
 description: 
 published: true
-date: 2021-08-30T09:44:29.493Z
+date: 2021-08-30T19:58:43.014Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,16 +14,16 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [SourceAlliance](#SourceAlliance) | text |  |  | YES | NULL |  |  |
-| [SourceHorde](#SourceHorde) | text |  |  | YES | NULL |  |  |
-| [AzeriteEssenceID](#AzeriteEssenceID) | int(11) | signed |  | NO | 0 |  |  |
-| [Tier](#Tier) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MajorPowerDescription](#MajorPowerDescription) | int(11) | signed |  | NO | 0 |  |  |
-| [MinorPowerDescription](#MinorPowerDescription) | int(11) | signed |  | NO | 0 |  |  |
-| [MajorPowerActual](#MajorPowerActual) | int(11) | signed |  | NO | 0 |  |  |
-| [MinorPowerActual](#MinorPowerActual) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [SourceAlliance](#sourcealliance) | text |  |  | YES | NULL |  |  |
+| [SourceHorde](#sourcehorde) | text |  |  | YES | NULL |  |  |
+| [AzeriteEssenceID](#azeriteessenceid) | int(11) | signed |  | NO | 0 |  |  |
+| [Tier](#tier) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [MajorPowerDescription](#majorpowerdescription) | int(11) | signed |  | NO | 0 |  |  |
+| [MinorPowerDescription](#minorpowerdescription) | int(11) | signed |  | NO | 0 |  |  |
+| [MajorPowerActual](#majorpoweractual) | int(11) | signed |  | NO | 0 |  |  |
+| [MinorPowerActual](#minorpoweractual) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

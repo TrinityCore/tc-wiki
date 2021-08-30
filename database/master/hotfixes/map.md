@@ -2,7 +2,7 @@
 title: map
 description: 
 published: true
-date: 2021-08-30T09:44:29.556Z
+date: 2021-08-30T19:58:43.074Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,33 +14,33 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Directory](#Directory) | text |  |  | YES | NULL |  |  |
-| [MapName](#MapName) | text |  |  | YES | NULL |  |  |
-| [MapDescription0](#MapDescription0) | text |  |  | YES | NULL |  |  |
-| [MapDescription1](#MapDescription1) | text |  |  | YES | NULL |  |  |
-| [PvpShortDescription](#PvpShortDescription) | text |  |  | YES | NULL |  |  |
-| [PvpLongDescription](#PvpLongDescription) | text |  |  | YES | NULL |  |  |
-| [CorpseX](#CorpseX) | float |  |  | NO | 0 |  |  |
-| [CorpseY](#CorpseY) | float |  |  | NO | 0 |  |  |
-| [MapType](#MapType) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [InstanceType](#InstanceType) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [ExpansionID](#ExpansionID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [AreaTableID](#AreaTableID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [LoadingScreenID](#LoadingScreenID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [TimeOfDayOverride](#TimeOfDayOverride) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ParentMapID](#ParentMapID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [CosmeticParentMapID](#CosmeticParentMapID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [TimeOffset](#TimeOffset) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MinimapIconScale](#MinimapIconScale) | float |  |  | NO | 0 |  |  |
-| [CorpseMapID](#CorpseMapID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [MaxPlayers](#MaxPlayers) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [WindSettingsID](#WindSettingsID) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ZmpFileDataID](#ZmpFileDataID) | int(11) | signed |  | NO | 0 |  |  |
-| [WdtFileDataID](#WdtFileDataID) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags1](#Flags1) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags2](#Flags2) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Directory](#directory) | text |  |  | YES | NULL |  |  |
+| [MapName](#mapname) | text |  |  | YES | NULL |  |  |
+| [MapDescription0](#mapdescription0) | text |  |  | YES | NULL |  |  |
+| [MapDescription1](#mapdescription1) | text |  |  | YES | NULL |  |  |
+| [PvpShortDescription](#pvpshortdescription) | text |  |  | YES | NULL |  |  |
+| [PvpLongDescription](#pvplongdescription) | text |  |  | YES | NULL |  |  |
+| [CorpseX](#corpsex) | float |  |  | NO | 0 |  |  |
+| [CorpseY](#corpsey) | float |  |  | NO | 0 |  |  |
+| [MapType](#maptype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [InstanceType](#instancetype) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [ExpansionID](#expansionid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [AreaTableID](#areatableid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [LoadingScreenID](#loadingscreenid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [TimeOfDayOverride](#timeofdayoverride) | smallint(6) | signed |  | NO | 0 |  |  |
+| [ParentMapID](#parentmapid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [CosmeticParentMapID](#cosmeticparentmapid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [TimeOffset](#timeoffset) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [MinimapIconScale](#minimapiconscale) | float |  |  | NO | 0 |  |  |
+| [CorpseMapID](#corpsemapid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [MaxPlayers](#maxplayers) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [WindSettingsID](#windsettingsid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [ZmpFileDataID](#zmpfiledataid) | int(11) | signed |  | NO | 0 |  |  |
+| [WdtFileDataID](#wdtfiledataid) | int(11) | signed |  | NO | 0 |  |  |
+| [Flags1](#flags1) | int(11) | signed |  | NO | 0 |  |  |
+| [Flags2](#flags2) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

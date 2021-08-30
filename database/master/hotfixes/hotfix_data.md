@@ -2,7 +2,7 @@
 title: hotfix_data
 description: 
 published: true
-date: 2021-08-30T09:44:29.536Z
+date: 2021-08-30T19:58:43.054Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Id](#Id) | int(11) | signed | PRI | NO |  |  |  |
-| [TableHash](#TableHash) | int(10) | unsigned | PRI | NO |  |  |  |
-| [RecordId](#RecordId) | int(11) | signed | PRI | NO |  |  |  |
-| [Status](#Status) | tinyint(3) | unsigned |  | NO | 3 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [Id](#id) | int(11) | signed | PRI | NO |  |  |  |
+| [TableHash](#tablehash) | int(10) | unsigned | PRI | NO |  |  |  |
+| [RecordId](#recordid) | int(11) | signed | PRI | NO |  |  |  |
+| [Status](#status) | tinyint(3) | unsigned |  | NO | 3 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

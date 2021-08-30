@@ -2,7 +2,7 @@
 title: garr_building_plot_inst
 description: 
 published: true
-date: 2021-08-30T09:44:29.528Z
+date: 2021-08-30T19:58:43.047Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [MapOffsetX](#MapOffsetX) | float |  |  | NO | 0 |  |  |
-| [MapOffsetY](#MapOffsetY) | float |  |  | NO | 0 |  |  |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [GarrBuildingID](#GarrBuildingID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [GarrSiteLevelPlotInstID](#GarrSiteLevelPlotInstID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [UiTextureAtlasMemberID](#UiTextureAtlasMemberID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [MapOffsetX](#mapoffsetx) | float |  |  | NO | 0 |  |  |
+| [MapOffsetY](#mapoffsety) | float |  |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [GarrBuildingID](#garrbuildingid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [GarrSiteLevelPlotInstID](#garrsitelevelplotinstid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [UiTextureAtlasMemberID](#uitextureatlasmemberid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

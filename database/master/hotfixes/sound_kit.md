@@ -2,7 +2,7 @@
 title: sound_kit
 description: 
 published: true
-date: 2021-08-30T09:44:29.574Z
+date: 2021-08-30T19:58:43.093Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,23 +14,23 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [SoundType](#SoundType) | int(11) | signed |  | NO | 0 |  |  |
-| [VolumeFloat](#VolumeFloat) | float |  |  | NO | 0 |  |  |
-| [Flags](#Flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [MinDistance](#MinDistance) | float |  |  | NO | 0 |  |  |
-| [DistanceCutoff](#DistanceCutoff) | float |  |  | NO | 0 |  |  |
-| [EAXDef](#EAXDef) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SoundKitAdvancedID](#SoundKitAdvancedID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VolumeVariationPlus](#VolumeVariationPlus) | float |  |  | NO | 0 |  |  |
-| [VolumeVariationMinus](#VolumeVariationMinus) | float |  |  | NO | 0 |  |  |
-| [PitchVariationPlus](#PitchVariationPlus) | float |  |  | NO | 0 |  |  |
-| [PitchVariationMinus](#PitchVariationMinus) | float |  |  | NO | 0 |  |  |
-| [DialogType](#DialogType) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [PitchAdjust](#PitchAdjust) | float |  |  | NO | 0 |  |  |
-| [BusOverwriteID](#BusOverwriteID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [MaxInstances](#MaxInstances) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [SoundType](#soundtype) | int(11) | signed |  | NO | 0 |  |  |
+| [VolumeFloat](#volumefloat) | float |  |  | NO | 0 |  |  |
+| [Flags](#flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [MinDistance](#mindistance) | float |  |  | NO | 0 |  |  |
+| [DistanceCutoff](#distancecutoff) | float |  |  | NO | 0 |  |  |
+| [EAXDef](#eaxdef) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [SoundKitAdvancedID](#soundkitadvancedid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VolumeVariationPlus](#volumevariationplus) | float |  |  | NO | 0 |  |  |
+| [VolumeVariationMinus](#volumevariationminus) | float |  |  | NO | 0 |  |  |
+| [PitchVariationPlus](#pitchvariationplus) | float |  |  | NO | 0 |  |  |
+| [PitchVariationMinus](#pitchvariationminus) | float |  |  | NO | 0 |  |  |
+| [DialogType](#dialogtype) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [PitchAdjust](#pitchadjust) | float |  |  | NO | 0 |  |  |
+| [BusOverwriteID](#busoverwriteid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [MaxInstances](#maxinstances) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

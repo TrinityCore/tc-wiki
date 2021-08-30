@@ -2,7 +2,7 @@
 title: expected_stat_mod
 description: 
 published: true
-date: 2021-08-30T09:44:29.523Z
+date: 2021-08-30T19:58:43.041Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,17 +14,17 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [CreatureHealthMod](#CreatureHealthMod) | float |  |  | NO | 0 |  |  |
-| [PlayerHealthMod](#PlayerHealthMod) | float |  |  | NO | 0 |  |  |
-| [CreatureAutoAttackDPSMod](#CreatureAutoAttackDPSMod) | float |  |  | NO | 0 |  |  |
-| [CreatureArmorMod](#CreatureArmorMod) | float |  |  | NO | 0 |  |  |
-| [PlayerManaMod](#PlayerManaMod) | float |  |  | NO | 0 |  |  |
-| [PlayerPrimaryStatMod](#PlayerPrimaryStatMod) | float |  |  | NO | 0 |  |  |
-| [PlayerSecondaryStatMod](#PlayerSecondaryStatMod) | float |  |  | NO | 0 |  |  |
-| [ArmorConstantMod](#ArmorConstantMod) | float |  |  | NO | 0 |  |  |
-| [CreatureSpellDamageMod](#CreatureSpellDamageMod) | float |  |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [CreatureHealthMod](#creaturehealthmod) | float |  |  | NO | 0 |  |  |
+| [PlayerHealthMod](#playerhealthmod) | float |  |  | NO | 0 |  |  |
+| [CreatureAutoAttackDPSMod](#creatureautoattackdpsmod) | float |  |  | NO | 0 |  |  |
+| [CreatureArmorMod](#creaturearmormod) | float |  |  | NO | 0 |  |  |
+| [PlayerManaMod](#playermanamod) | float |  |  | NO | 0 |  |  |
+| [PlayerPrimaryStatMod](#playerprimarystatmod) | float |  |  | NO | 0 |  |  |
+| [PlayerSecondaryStatMod](#playersecondarystatmod) | float |  |  | NO | 0 |  |  |
+| [ArmorConstantMod](#armorconstantmod) | float |  |  | NO | 0 |  |  |
+| [CreatureSpellDamageMod](#creaturespelldamagemod) | float |  |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

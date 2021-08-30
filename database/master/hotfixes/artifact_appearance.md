@@ -2,7 +2,7 @@
 title: artifact_appearance
 description: 
 published: true
-date: 2021-08-30T09:44:29.487Z
+date: 2021-08-30T19:58:43.006Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,23 +14,23 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Name](#Name) | text |  |  | YES | NULL |  |  |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ArtifactAppearanceSetID](#ArtifactAppearanceSetID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [DisplayIndex](#DisplayIndex) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [UnlockPlayerConditionID](#UnlockPlayerConditionID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemAppearanceModifierID](#ItemAppearanceModifierID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [UiSwatchColor](#UiSwatchColor) | int(11) | signed |  | NO | 0 |  |  |
-| [UiModelSaturation](#UiModelSaturation) | float |  |  | NO | 0 |  |  |
-| [UiModelOpacity](#UiModelOpacity) | float |  |  | NO | 0 |  |  |
-| [OverrideShapeshiftFormID](#OverrideShapeshiftFormID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [OverrideShapeshiftDisplayID](#OverrideShapeshiftDisplayID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [UiItemAppearanceID](#UiItemAppearanceID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [UiAltItemAppearanceID](#UiAltItemAppearanceID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Flags](#Flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [UiCameraID](#UiCameraID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [UsablePlayerConditionID](#UsablePlayerConditionID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ArtifactAppearanceSetID](#artifactappearancesetid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [DisplayIndex](#displayindex) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [UnlockPlayerConditionID](#unlockplayerconditionid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ItemAppearanceModifierID](#itemappearancemodifierid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [UiSwatchColor](#uiswatchcolor) | int(11) | signed |  | NO | 0 |  |  |
+| [UiModelSaturation](#uimodelsaturation) | float |  |  | NO | 0 |  |  |
+| [UiModelOpacity](#uimodelopacity) | float |  |  | NO | 0 |  |  |
+| [OverrideShapeshiftFormID](#overrideshapeshiftformid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [OverrideShapeshiftDisplayID](#overrideshapeshiftdisplayid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [UiItemAppearanceID](#uiitemappearanceid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [UiAltItemAppearanceID](#uialtitemappearanceid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [UiCameraID](#uicameraid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [UsablePlayerConditionID](#usableplayerconditionid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

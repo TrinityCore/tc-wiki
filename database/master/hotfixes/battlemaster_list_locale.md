@@ -2,7 +2,7 @@
 title: battlemaster_list_locale
 description: 
 published: true
-date: 2021-08-30T09:44:29.500Z
+date: 2021-08-30T19:58:43.021Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) | signed | PRI | NO |  |  |  |
-| [Name_lang](#Name_lang) | text |  |  | YES | NULL |  |  |
-| [GameType_lang](#GameType_lang) | text |  |  | YES | NULL |  |  |
-| [ShortDescription_lang](#ShortDescription_lang) | text |  |  | YES | NULL |  |  |
-| [LongDescription_lang](#LongDescription_lang) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [Name_lang](#name_lang) | text |  |  | YES | NULL |  |  |
+| [GameType_lang](#gametype_lang) | text |  |  | YES | NULL |  |  |
+| [ShortDescription_lang](#shortdescription_lang) | text |  |  | YES | NULL |  |  |
+| [LongDescription_lang](#longdescription_lang) | text |  |  | YES | NULL |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

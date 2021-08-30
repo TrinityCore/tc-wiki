@@ -2,7 +2,7 @@
 title: creature_family
 description: 
 published: true
-date: 2021-08-30T09:44:29.516Z
+date: 2021-08-30T19:58:43.034Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Name](#Name) | text |  |  | YES | NULL |  |  |
-| [MinScale](#MinScale) | float |  |  | NO | 0 |  |  |
-| [MinScaleLevel](#MinScaleLevel) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [MaxScale](#MaxScale) | float |  |  | NO | 0 |  |  |
-| [MaxScaleLevel](#MaxScaleLevel) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [PetFoodMask](#PetFoodMask) | smallint(6) | signed |  | NO | 0 |  |  |
-| [PetTalentType](#PetTalentType) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [IconFileID](#IconFileID) | int(11) | signed |  | NO | 0 |  |  |
-| [SkillLine1](#SkillLine1) | smallint(6) | signed |  | NO | 0 |  |  |
-| [SkillLine2](#SkillLine2) | smallint(6) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [MinScale](#minscale) | float |  |  | NO | 0 |  |  |
+| [MinScaleLevel](#minscalelevel) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [MaxScale](#maxscale) | float |  |  | NO | 0 |  |  |
+| [MaxScaleLevel](#maxscalelevel) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [PetFoodMask](#petfoodmask) | smallint(6) | signed |  | NO | 0 |  |  |
+| [PetTalentType](#pettalenttype) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [IconFileID](#iconfileid) | int(11) | signed |  | NO | 0 |  |  |
+| [SkillLine1](#skillline1) | smallint(6) | signed |  | NO | 0 |  |  |
+| [SkillLine2](#skillline2) | smallint(6) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

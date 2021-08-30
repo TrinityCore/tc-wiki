@@ -2,7 +2,7 @@
 title: chr_classes
 description: 
 published: true
-date: 2021-08-30T09:44:29.504Z
+date: 2021-08-30T19:58:43.024Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,46 +14,46 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Name](#Name) | text |  |  | YES | NULL |  |  |
-| [Filename](#Filename) | text |  |  | YES | NULL |  |  |
-| [NameMale](#NameMale) | text |  |  | YES | NULL |  |  |
-| [NameFemale](#NameFemale) | text |  |  | YES | NULL |  |  |
-| [PetNameToken](#PetNameToken) | text |  |  | YES | NULL |  |  |
-| [Description](#Description) | text |  |  | YES | NULL |  |  |
-| [RoleInfoString](#RoleInfoString) | text |  |  | YES | NULL |  |  |
-| [DisabledString](#DisabledString) | text |  |  | YES | NULL |  |  |
-| [HyphenatedNameMale](#HyphenatedNameMale) | text |  |  | YES | NULL |  |  |
-| [HyphenatedNameFemale](#HyphenatedNameFemale) | text |  |  | YES | NULL |  |  |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [CreateScreenFileDataID](#CreateScreenFileDataID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SelectScreenFileDataID](#SelectScreenFileDataID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [IconFileDataID](#IconFileDataID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [LowResScreenFileDataID](#LowResScreenFileDataID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Flags](#Flags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SpellTextureBlobFileDataID](#SpellTextureBlobFileDataID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RolesMask](#RolesMask) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ArmorTypeMask](#ArmorTypeMask) | int(10) | unsigned |  | NO | 0 |  |  |
-| [CharStartKitUnknown901](#CharStartKitUnknown901) | int(11) | signed |  | NO | 0 |  |  |
-| [MaleCharacterCreationVisualFallback](#MaleCharacterCreationVisualFallback) | int(11) | signed |  | NO | 0 |  |  |
-| [MaleCharacterCreationIdleVisualFallback](#MaleCharacterCreationIdleVisualFallback) | int(11) | signed |  | NO | 0 |  |  |
-| [FemaleCharacterCreationVisualFallback](#FemaleCharacterCreationVisualFallback) | int(11) | signed |  | NO | 0 |  |  |
-| [FemaleCharacterCreationIdleVisualFallback](#FemaleCharacterCreationIdleVisualFallback) | int(11) | signed |  | NO | 0 |  |  |
-| [CharacterCreationIdleGroundVisualFallback](#CharacterCreationIdleGroundVisualFallback) | int(11) | signed |  | NO | 0 |  |  |
-| [CharacterCreationGroundVisualFallback](#CharacterCreationGroundVisualFallback) | int(11) | signed |  | NO | 0 |  |  |
-| [AlteredFormCharacterCreationIdleVisualFallback](#AlteredFormCharacterCreationIdleVisualFallback) | int(11) | signed |  | NO | 0 |  |  |
-| [CharacterCreationAnimLoopWaitTimeMsFallback](#CharacterCreationAnimLoopWaitTimeMsFallback) | int(11) | signed |  | NO | 0 |  |  |
-| [CinematicSequenceID](#CinematicSequenceID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [DefaultSpec](#DefaultSpec) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [PrimaryStatPriority](#PrimaryStatPriority) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [DisplayPower](#DisplayPower) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [RangedAttackPowerPerAgility](#RangedAttackPowerPerAgility) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [AttackPowerPerAgility](#AttackPowerPerAgility) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [AttackPowerPerStrength](#AttackPowerPerStrength) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SpellClassSet](#SpellClassSet) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ChatColorR](#ChatColorR) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ChatColorG](#ChatColorG) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ChatColorB](#ChatColorB) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [Filename](#filename) | text |  |  | YES | NULL |  |  |
+| [NameMale](#namemale) | text |  |  | YES | NULL |  |  |
+| [NameFemale](#namefemale) | text |  |  | YES | NULL |  |  |
+| [PetNameToken](#petnametoken) | text |  |  | YES | NULL |  |  |
+| [Description](#description) | text |  |  | YES | NULL |  |  |
+| [RoleInfoString](#roleinfostring) | text |  |  | YES | NULL |  |  |
+| [DisabledString](#disabledstring) | text |  |  | YES | NULL |  |  |
+| [HyphenatedNameMale](#hyphenatednamemale) | text |  |  | YES | NULL |  |  |
+| [HyphenatedNameFemale](#hyphenatednamefemale) | text |  |  | YES | NULL |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [CreateScreenFileDataID](#createscreenfiledataid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [SelectScreenFileDataID](#selectscreenfiledataid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [IconFileDataID](#iconfiledataid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [LowResScreenFileDataID](#lowresscreenfiledataid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
+| [SpellTextureBlobFileDataID](#spelltextureblobfiledataid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [RolesMask](#rolesmask) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ArmorTypeMask](#armortypemask) | int(10) | unsigned |  | NO | 0 |  |  |
+| [CharStartKitUnknown901](#charstartkitunknown901) | int(11) | signed |  | NO | 0 |  |  |
+| [MaleCharacterCreationVisualFallback](#malecharactercreationvisualfallback) | int(11) | signed |  | NO | 0 |  |  |
+| [MaleCharacterCreationIdleVisualFallback](#malecharactercreationidlevisualfallback) | int(11) | signed |  | NO | 0 |  |  |
+| [FemaleCharacterCreationVisualFallback](#femalecharactercreationvisualfallback) | int(11) | signed |  | NO | 0 |  |  |
+| [FemaleCharacterCreationIdleVisualFallback](#femalecharactercreationidlevisualfallback) | int(11) | signed |  | NO | 0 |  |  |
+| [CharacterCreationIdleGroundVisualFallback](#charactercreationidlegroundvisualfallback) | int(11) | signed |  | NO | 0 |  |  |
+| [CharacterCreationGroundVisualFallback](#charactercreationgroundvisualfallback) | int(11) | signed |  | NO | 0 |  |  |
+| [AlteredFormCharacterCreationIdleVisualFallback](#alteredformcharactercreationidlevisualfallback) | int(11) | signed |  | NO | 0 |  |  |
+| [CharacterCreationAnimLoopWaitTimeMsFallback](#charactercreationanimloopwaittimemsfallback) | int(11) | signed |  | NO | 0 |  |  |
+| [CinematicSequenceID](#cinematicsequenceid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [DefaultSpec](#defaultspec) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [PrimaryStatPriority](#primarystatpriority) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [DisplayPower](#displaypower) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [RangedAttackPowerPerAgility](#rangedattackpowerperagility) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [AttackPowerPerAgility](#attackpowerperagility) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [AttackPowerPerStrength](#attackpowerperstrength) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [SpellClassSet](#spellclassset) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ChatColorR](#chatcolorr) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ChatColorG](#chatcolorg) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ChatColorB](#chatcolorb) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

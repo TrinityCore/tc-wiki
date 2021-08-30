@@ -2,7 +2,7 @@
 title: power_type
 description: 
 published: true
-date: 2021-08-30T09:44:29.563Z
+date: 2021-08-30T19:58:43.082Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,20 +14,20 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [NameGlobalStringTag](#NameGlobalStringTag) | text |  |  | YES | NULL |  |  |
-| [CostGlobalStringTag](#CostGlobalStringTag) | text |  |  | YES | NULL |  |  |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [PowerTypeEnum](#PowerTypeEnum) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [MinPower](#MinPower) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [MaxBasePower](#MaxBasePower) | smallint(6) | signed |  | NO | 0 |  |  |
-| [CenterPower](#CenterPower) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [DefaultPower](#DefaultPower) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [DisplayModifier](#DisplayModifier) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [RegenInterruptTimeMS](#RegenInterruptTimeMS) | smallint(6) | signed |  | NO | 0 |  |  |
-| [RegenPeace](#RegenPeace) | float |  |  | NO | 0 |  |  |
-| [RegenCombat](#RegenCombat) | float |  |  | NO | 0 |  |  |
-| [Flags](#Flags) | smallint(6) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [NameGlobalStringTag](#nameglobalstringtag) | text |  |  | YES | NULL |  |  |
+| [CostGlobalStringTag](#costglobalstringtag) | text |  |  | YES | NULL |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [PowerTypeEnum](#powertypeenum) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [MinPower](#minpower) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [MaxBasePower](#maxbasepower) | smallint(6) | signed |  | NO | 0 |  |  |
+| [CenterPower](#centerpower) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [DefaultPower](#defaultpower) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [DisplayModifier](#displaymodifier) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [RegenInterruptTimeMS](#regeninterrupttimems) | smallint(6) | signed |  | NO | 0 |  |  |
+| [RegenPeace](#regenpeace) | float |  |  | NO | 0 |  |  |
+| [RegenCombat](#regencombat) | float |  |  | NO | 0 |  |  |
+| [Flags](#flags) | smallint(6) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

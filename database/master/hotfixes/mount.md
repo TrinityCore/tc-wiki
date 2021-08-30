@@ -2,7 +2,7 @@
 title: mount
 description: 
 published: true
-date: 2021-08-30T09:44:29.558Z
+date: 2021-08-30T19:58:43.076Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,20 +14,20 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Name](#Name) | text |  |  | YES | NULL |  |  |
-| [SourceText](#SourceText) | text |  |  | YES | NULL |  |  |
-| [Description](#Description) | text |  |  | YES | NULL |  |  |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [MountTypeID](#MountTypeID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Flags](#Flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [SourceTypeEnum](#SourceTypeEnum) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [SourceSpellID](#SourceSpellID) | int(11) | signed |  | NO | 0 |  |  |
-| [PlayerConditionID](#PlayerConditionID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [MountFlyRideHeight](#MountFlyRideHeight) | float |  |  | NO | 0 |  |  |
-| [UiModelSceneID](#UiModelSceneID) | int(11) | signed |  | NO | 0 |  |  |
-| [MountSpecialRiderAnimKitID](#MountSpecialRiderAnimKitID) | int(11) | signed |  | NO | 0 |  |  |
-| [MountSpecialSpellVisualKitID](#MountSpecialSpellVisualKitID) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [SourceText](#sourcetext) | text |  |  | YES | NULL |  |  |
+| [Description](#description) | text |  |  | YES | NULL |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [MountTypeID](#mounttypeid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [SourceTypeEnum](#sourcetypeenum) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [SourceSpellID](#sourcespellid) | int(11) | signed |  | NO | 0 |  |  |
+| [PlayerConditionID](#playerconditionid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [MountFlyRideHeight](#mountflyrideheight) | float |  |  | NO | 0 |  |  |
+| [UiModelSceneID](#uimodelsceneid) | int(11) | signed |  | NO | 0 |  |  |
+| [MountSpecialRiderAnimKitID](#mountspecialrideranimkitid) | int(11) | signed |  | NO | 0 |  |  |
+| [MountSpecialSpellVisualKitID](#mountspecialspellvisualkitid) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

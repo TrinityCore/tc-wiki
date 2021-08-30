@@ -2,7 +2,7 @@
 title: curve_point
 description: 
 published: true
-date: 2021-08-30T09:44:29.519Z
+date: 2021-08-30T19:58:43.037Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,14 +14,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [PosX](#PosX) | float |  |  | NO | 0 |  |  |
-| [PosY](#PosY) | float |  |  | NO | 0 |  |  |
-| [PosPreSquishX](#PosPreSquishX) | float |  |  | NO | 0 |  |  |
-| [PosPreSquishY](#PosPreSquishY) | float |  |  | NO | 0 |  |  |
-| [CurveID](#CurveID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [OrderIndex](#OrderIndex) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [PosX](#posx) | float |  |  | NO | 0 |  |  |
+| [PosY](#posy) | float |  |  | NO | 0 |  |  |
+| [PosPreSquishX](#pospresquishx) | float |  |  | NO | 0 |  |  |
+| [PosPreSquishY](#pospresquishy) | float |  |  | NO | 0 |  |  |
+| [CurveID](#curveid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [OrderIndex](#orderindex) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: battlemaster_list
 description: 
 published: true
-date: 2021-08-30T09:44:29.500Z
+date: 2021-08-30T19:58:43.020Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,40 +14,40 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Name](#Name) | text |  |  | YES | NULL |  |  |
-| [GameType](#GameType) | text |  |  | YES | NULL |  |  |
-| [ShortDescription](#ShortDescription) | text |  |  | YES | NULL |  |  |
-| [LongDescription](#LongDescription) | text |  |  | YES | NULL |  |  |
-| [InstanceType](#InstanceType) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [MinLevel](#MinLevel) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [MaxLevel](#MaxLevel) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [RatedPlayers](#RatedPlayers) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [MinPlayers](#MinPlayers) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [MaxPlayers](#MaxPlayers) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [GroupsAllowed](#GroupsAllowed) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [MaxGroupSize](#MaxGroupSize) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [HolidayWorldState](#HolidayWorldState) | smallint(6) | signed |  | NO | 0 |  |  |
-| [Flags](#Flags) | int(11) | signed |  | NO | 0 |  |  |
-| [IconFileDataID](#IconFileDataID) | int(11) | signed |  | NO | 0 |  |  |
-| [RequiredPlayerConditionID](#RequiredPlayerConditionID) | int(11) | signed |  | NO | 0 |  |  |
-| [MapID1](#MapID1) | smallint(6) | signed |  | NO | 0 |  |  |
-| [MapID2](#MapID2) | smallint(6) | signed |  | NO | 0 |  |  |
-| [MapID3](#MapID3) | smallint(6) | signed |  | NO | 0 |  |  |
-| [MapID4](#MapID4) | smallint(6) | signed |  | NO | 0 |  |  |
-| [MapID5](#MapID5) | smallint(6) | signed |  | NO | 0 |  |  |
-| [MapID6](#MapID6) | smallint(6) | signed |  | NO | 0 |  |  |
-| [MapID7](#MapID7) | smallint(6) | signed |  | NO | 0 |  |  |
-| [MapID8](#MapID8) | smallint(6) | signed |  | NO | 0 |  |  |
-| [MapID9](#MapID9) | smallint(6) | signed |  | NO | 0 |  |  |
-| [MapID10](#MapID10) | smallint(6) | signed |  | NO | 0 |  |  |
-| [MapID11](#MapID11) | smallint(6) | signed |  | NO | 0 |  |  |
-| [MapID12](#MapID12) | smallint(6) | signed |  | NO | 0 |  |  |
-| [MapID13](#MapID13) | smallint(6) | signed |  | NO | 0 |  |  |
-| [MapID14](#MapID14) | smallint(6) | signed |  | NO | 0 |  |  |
-| [MapID15](#MapID15) | smallint(6) | signed |  | NO | 0 |  |  |
-| [MapID16](#MapID16) | smallint(6) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [GameType](#gametype) | text |  |  | YES | NULL |  |  |
+| [ShortDescription](#shortdescription) | text |  |  | YES | NULL |  |  |
+| [LongDescription](#longdescription) | text |  |  | YES | NULL |  |  |
+| [InstanceType](#instancetype) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [MinLevel](#minlevel) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [MaxLevel](#maxlevel) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [RatedPlayers](#ratedplayers) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [MinPlayers](#minplayers) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [MaxPlayers](#maxplayers) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [GroupsAllowed](#groupsallowed) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [MaxGroupSize](#maxgroupsize) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [HolidayWorldState](#holidayworldstate) | smallint(6) | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
+| [IconFileDataID](#iconfiledataid) | int(11) | signed |  | NO | 0 |  |  |
+| [RequiredPlayerConditionID](#requiredplayerconditionid) | int(11) | signed |  | NO | 0 |  |  |
+| [MapID1](#mapid1) | smallint(6) | signed |  | NO | 0 |  |  |
+| [MapID2](#mapid2) | smallint(6) | signed |  | NO | 0 |  |  |
+| [MapID3](#mapid3) | smallint(6) | signed |  | NO | 0 |  |  |
+| [MapID4](#mapid4) | smallint(6) | signed |  | NO | 0 |  |  |
+| [MapID5](#mapid5) | smallint(6) | signed |  | NO | 0 |  |  |
+| [MapID6](#mapid6) | smallint(6) | signed |  | NO | 0 |  |  |
+| [MapID7](#mapid7) | smallint(6) | signed |  | NO | 0 |  |  |
+| [MapID8](#mapid8) | smallint(6) | signed |  | NO | 0 |  |  |
+| [MapID9](#mapid9) | smallint(6) | signed |  | NO | 0 |  |  |
+| [MapID10](#mapid10) | smallint(6) | signed |  | NO | 0 |  |  |
+| [MapID11](#mapid11) | smallint(6) | signed |  | NO | 0 |  |  |
+| [MapID12](#mapid12) | smallint(6) | signed |  | NO | 0 |  |  |
+| [MapID13](#mapid13) | smallint(6) | signed |  | NO | 0 |  |  |
+| [MapID14](#mapid14) | smallint(6) | signed |  | NO | 0 |  |  |
+| [MapID15](#mapid15) | smallint(6) | signed |  | NO | 0 |  |  |
+| [MapID16](#mapid16) | smallint(6) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

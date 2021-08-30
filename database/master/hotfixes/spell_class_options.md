@@ -2,7 +2,7 @@
 title: spell_class_options
 description: 
 published: true
-date: 2021-08-30T09:44:29.578Z
+date: 2021-08-30T19:58:43.097Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,15 +14,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [SpellID](#SpellID) | int(11) | signed |  | NO | 0 |  |  |
-| [ModalNextSpell](#ModalNextSpell) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SpellClassSet](#SpellClassSet) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SpellClassMask1](#SpellClassMask1) | int(11) | signed |  | NO | 0 |  |  |
-| [SpellClassMask2](#SpellClassMask2) | int(11) | signed |  | NO | 0 |  |  |
-| [SpellClassMask3](#SpellClassMask3) | int(11) | signed |  | NO | 0 |  |  |
-| [SpellClassMask4](#SpellClassMask4) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [SpellID](#spellid) | int(11) | signed |  | NO | 0 |  |  |
+| [ModalNextSpell](#modalnextspell) | int(10) | unsigned |  | NO | 0 |  |  |
+| [SpellClassSet](#spellclassset) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [SpellClassMask1](#spellclassmask1) | int(11) | signed |  | NO | 0 |  |  |
+| [SpellClassMask2](#spellclassmask2) | int(11) | signed |  | NO | 0 |  |  |
+| [SpellClassMask3](#spellclassmask3) | int(11) | signed |  | NO | 0 |  |  |
+| [SpellClassMask4](#spellclassmask4) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
