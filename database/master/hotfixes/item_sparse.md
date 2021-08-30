@@ -2,7 +2,7 @@
 title: item_sparse
 description: 
 published: true
-date: 2021-08-30T16:39:07.604Z
+date: 2021-08-30T16:39:17.085Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:57:03.008Z
@@ -28,7 +28,7 @@ dateCreated: 2021-08-30T09:57:03.008Z
 | [QualityModifier](#QualityModifier) | float |  |  | NO | 0 |  |  |
 | [BagFamily](#BagFamily) | int(10) | unsigned |  | NO | 0 |  |  |
 | [ItemRange](#ItemRange) | float |  |  | NO | 0 |  |  |
-| [StatPercentageOfSocket1](#StatPercentageOfSocket1) | float |  |  | NO | 0 |  |  | 
+| [StatPercentageOfSocket1](#StatPercentageOfSocket1) | float |  |  | NO | 0 |  |  |
 | [StatPercentageOfSocket2](#StatPercentageOfSocket2) | float |  |  | NO | 0 |  |  |
 | [StatPercentageOfSocket3](#StatPercentageOfSocket3) | float |  |  | NO | 0 |  |  |
 | [StatPercentageOfSocket4](#StatPercentageOfSocket4) | float |  |  | NO | 0 |  |  |
