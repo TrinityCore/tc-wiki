@@ -2,7 +2,7 @@
 title: guild_finder_guild_settings
 description: 
 published: true
-date: 2021-08-30T09:14:40.975Z
+date: 2021-08-30T21:22:03.998Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guildId](#guildId) | bigint(20) | unsigned | PRI | NO |  |  |  |
+| [guildId](#guildid) | bigint(20) | unsigned | PRI | NO |  |  |  |
 | [availability](#availability) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [classRoles](#classRoles) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [classRoles](#classroles) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [interests](#interests) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [level](#level) | tinyint(3) | unsigned |  | NO | 1 |  |  |
 | [listed](#listed) | tinyint(3) | unsigned |  | NO | 0 |  |  |

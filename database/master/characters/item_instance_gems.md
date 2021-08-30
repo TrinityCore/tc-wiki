@@ -2,7 +2,7 @@
 title: item_instance_gems
 description: 
 published: true
-date: 2021-08-30T09:14:40.979Z
+date: 2021-08-30T21:22:04.003Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,19 +14,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [itemGuid](#itemGuid) | bigint(20) | unsigned | PRI | NO |  |  |  |
-| [gemItemId1](#gemItemId1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [gemBonuses1](#gemBonuses1) | text |  |  | YES | NULL |  |  |
-| [gemContext1](#gemContext1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [gemScalingLevel1](#gemScalingLevel1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [gemItemId2](#gemItemId2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [gemBonuses2](#gemBonuses2) | text |  |  | YES | NULL |  |  |
-| [gemContext2](#gemContext2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [gemScalingLevel2](#gemScalingLevel2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [gemItemId3](#gemItemId3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [gemBonuses3](#gemBonuses3) | text |  |  | YES | NULL |  |  |
-| [gemContext3](#gemContext3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [gemScalingLevel3](#gemScalingLevel3) | int(10) | unsigned |  | NO | 0 |  |  |
+| [itemGuid](#itemguid) | bigint(20) | unsigned | PRI | NO |  |  |  |
+| [gemItemId1](#gemitemid1) | int(10) | unsigned |  | NO | 0 |  |  |
+| [gemBonuses1](#gembonuses1) | text |  |  | YES | NULL |  |  |
+| [gemContext1](#gemcontext1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [gemScalingLevel1](#gemscalinglevel1) | int(10) | unsigned |  | NO | 0 |  |  |
+| [gemItemId2](#gemitemid2) | int(10) | unsigned |  | NO | 0 |  |  |
+| [gemBonuses2](#gembonuses2) | text |  |  | YES | NULL |  |  |
+| [gemContext2](#gemcontext2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [gemScalingLevel2](#gemscalinglevel2) | int(10) | unsigned |  | NO | 0 |  |  |
+| [gemItemId3](#gemitemid3) | int(10) | unsigned |  | NO | 0 |  |  |
+| [gemBonuses3](#gembonuses3) | text |  |  | YES | NULL |  |  |
+| [gemContext3](#gemcontext3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [gemScalingLevel3](#gemscalinglevel3) | int(10) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

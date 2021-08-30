@@ -2,7 +2,7 @@
 title: character_queststatus_seasonal
 description: 
 published: true
-date: 2021-08-30T09:14:40.966Z
+date: 2021-08-30T21:22:03.987Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z

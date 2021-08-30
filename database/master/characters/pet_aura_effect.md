@@ -2,7 +2,7 @@
 title: pet_aura_effect
 description: 
 published: true
-date: 2021-08-30T09:14:40.982Z
+date: 2021-08-30T21:22:04.006Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,12 +15,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | int(10) | unsigned | PRI | NO |  |  | Global Unique Identifier |
-| [casterGuid](#casterGuid) | binary(16) | signed | PRI | NO |  |  | Full Global Unique Identifier |
+| [casterGuid](#casterguid) | binary(16) | signed | PRI | NO |  |  | Full Global Unique Identifier |
 | [spell](#spell) | int(10) | unsigned | PRI | NO |  |  |  |
-| [effectMask](#effectMask) | int(10) | unsigned | PRI | NO |  |  |  |
-| [effectIndex](#effectIndex) | tinyint(3) | unsigned | PRI | NO |  |  |  |
+| [effectMask](#effectmask) | int(10) | unsigned | PRI | NO |  |  |  |
+| [effectIndex](#effectindex) | tinyint(3) | unsigned | PRI | NO |  |  |  |
 | [amount](#amount) | int(11) | signed |  | NO | 0 |  |  |
-| [baseAmount](#baseAmount) | int(11) | signed |  | NO | 0 |  |  |
+| [baseAmount](#baseamount) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

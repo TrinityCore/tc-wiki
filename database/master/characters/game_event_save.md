@@ -2,7 +2,7 @@
 title: game_event_save
 description: 
 published: true
-date: 2021-08-30T09:14:40.971Z
+date: 2021-08-30T21:22:03.993Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [eventEntry](#eventEntry) | tinyint(3) | unsigned | PRI | NO |  |  |  |
+| [eventEntry](#evententry) | tinyint(3) | unsigned | PRI | NO |  |  |  |
 | [state](#state) | tinyint(3) | unsigned |  | NO | 1 |  |  |
 | [next_start](#next_start) | bigint(20) | signed |  | NO | 0 |  |  |
 &nbsp;

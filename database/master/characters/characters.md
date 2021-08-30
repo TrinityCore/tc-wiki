@@ -2,7 +2,7 @@
 title: characters
 description: 
 published: true
-date: 2021-08-30T09:14:40.969Z
+date: 2021-08-30T21:22:03.990Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -24,19 +24,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [level](#level) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [xp](#xp) | int(10) | unsigned |  | NO | 0 |  |  |
 | [money](#money) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [inventorySlots](#inventorySlots) | tinyint(3) | unsigned |  | NO | 16 |  |  |
-| [bankSlots](#bankSlots) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [restState](#restState) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [playerFlags](#playerFlags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [playerFlagsEx](#playerFlagsEx) | int(10) | unsigned |  | NO | 0 |  |  |
+| [inventorySlots](#inventoryslots) | tinyint(3) | unsigned |  | NO | 16 |  |  |
+| [bankSlots](#bankslots) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [restState](#reststate) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [playerFlags](#playerflags) | int(10) | unsigned |  | NO | 0 |  |  |
+| [playerFlagsEx](#playerflagsex) | int(10) | unsigned |  | NO | 0 |  |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |
 | [map](#map) | smallint(5) | unsigned |  | NO | 0 |  | Map Identifier |
 | [instance_id](#instance_id) | int(10) | unsigned |  | NO | 0 |  |  |
-| [dungeonDifficulty](#dungeonDifficulty) | tinyint(3) | unsigned |  | NO | 1 |  |  |
-| [raidDifficulty](#raidDifficulty) | tinyint(3) | unsigned |  | NO | 14 |  |  |
-| [legacyRaidDifficulty](#legacyRaidDifficulty) | tinyint(3) | unsigned |  | NO | 3 |  |  |
+| [dungeonDifficulty](#dungeondifficulty) | tinyint(3) | unsigned |  | NO | 1 |  |  |
+| [raidDifficulty](#raiddifficulty) | tinyint(3) | unsigned |  | NO | 14 |  |  |
+| [legacyRaidDifficulty](#legacyraiddifficulty) | tinyint(3) | unsigned |  | NO | 3 |  |  |
 | [orientation](#orientation) | float |  |  | NO | 0 |  |  |
 | [taximask](#taximask) | text |  |  | NO |  |  |  |
 | [online](#online) | tinyint(3) | unsigned | MUL | NO | 0 |  |  |
@@ -48,8 +48,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [rest_bonus](#rest_bonus) | float |  |  | NO | 0 |  |  |
 | [resettalents_cost](#resettalents_cost) | int(10) | unsigned |  | NO | 0 |  |  |
 | [resettalents_time](#resettalents_time) | bigint(20) | signed |  | NO | 0 |  |  |
-| [numRespecs](#numRespecs) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [primarySpecialization](#primarySpecialization) | int(10) | unsigned |  | NO | 0 |  |  |
+| [numRespecs](#numrespecs) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [primarySpecialization](#primaryspecialization) | int(10) | unsigned |  | NO | 0 |  |  |
 | [trans_x](#trans_x) | float |  |  | NO | 0 |  |  |
 | [trans_y](#trans_y) | float |  |  | NO | 0 |  |  |
 | [trans_z](#trans_z) | float |  |  | NO | 0 |  |  |
@@ -61,11 +61,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [zone](#zone) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [death_expire_time](#death_expire_time) | bigint(20) | signed |  | NO | 0 |  |  |
 | [taxi_path](#taxi_path) | text |  |  | YES | NULL |  |  |
-| [totalKills](#totalKills) | int(10) | unsigned |  | NO | 0 |  |  |
-| [todayKills](#todayKills) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [yesterdayKills](#yesterdayKills) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [chosenTitle](#chosenTitle) | int(10) | unsigned |  | NO | 0 |  |  |
-| [watchedFaction](#watchedFaction) | int(10) | unsigned |  | NO | 0 |  |  |
+| [totalKills](#totalkills) | int(10) | unsigned |  | NO | 0 |  |  |
+| [todayKills](#todaykills) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [yesterdayKills](#yesterdaykills) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [chosenTitle](#chosentitle) | int(10) | unsigned |  | NO | 0 |  |  |
+| [watchedFaction](#watchedfaction) | int(10) | unsigned |  | NO | 0 |  |  |
 | [drunk](#drunk) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [health](#health) | int(10) | unsigned |  | NO | 0 |  |  |
 | [power1](#power1) | int(10) | unsigned |  | NO | 0 |  |  |
@@ -75,20 +75,20 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [power5](#power5) | int(10) | unsigned |  | NO | 0 |  |  |
 | [power6](#power6) | int(10) | unsigned |  | NO | 0 |  |  |
 | [latency](#latency) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [activeTalentGroup](#activeTalentGroup) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [lootSpecId](#lootSpecId) | int(10) | unsigned |  | NO | 0 |  |  |
-| [exploredZones](#exploredZones) | longtext |  |  | YES | NULL |  |  |
-| [equipmentCache](#equipmentCache) | longtext |  |  | YES | NULL |  |  |
-| [knownTitles](#knownTitles) | longtext |  |  | YES | NULL |  |  |
-| [actionBars](#actionBars) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [deleteInfos_Account](#deleteInfos_Account) | int(10) | unsigned |  | YES | NULL |  |  |
-| [deleteInfos_Name](#deleteInfos_Name) | varchar(12) | signed |  | YES | NULL |  |  |
-| [deleteDate](#deleteDate) | bigint(20) | signed |  | YES | NULL |  |  |
+| [activeTalentGroup](#activetalentgroup) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [lootSpecId](#lootspecid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [exploredZones](#exploredzones) | longtext |  |  | YES | NULL |  |  |
+| [equipmentCache](#equipmentcache) | longtext |  |  | YES | NULL |  |  |
+| [knownTitles](#knowntitles) | longtext |  |  | YES | NULL |  |  |
+| [actionBars](#actionbars) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [deleteInfos_Account](#deleteinfos_account) | int(10) | unsigned |  | YES | NULL |  |  |
+| [deleteInfos_Name](#deleteinfos_name) | varchar(12) | signed |  | YES | NULL |  |  |
+| [deleteDate](#deletedate) | bigint(20) | signed |  | YES | NULL |  |  |
 | [honor](#honor) | int(10) | unsigned |  | NO | 0 |  |  |
-| [honorLevel](#honorLevel) | int(10) | unsigned |  | NO | 1 |  |  |
-| [honorRestState](#honorRestState) | tinyint(3) | unsigned |  | NO | 2 |  |  |
-| [honorRestBonus](#honorRestBonus) | float |  |  | NO | 0 |  |  |
-| [lastLoginBuild](#lastLoginBuild) | int(10) | unsigned |  | NO | 0 |  |  |
+| [honorLevel](#honorlevel) | int(10) | unsigned |  | NO | 1 |  |  |
+| [honorRestState](#honorreststate) | tinyint(3) | unsigned |  | NO | 2 |  |  |
+| [honorRestBonus](#honorrestbonus) | float |  |  | NO | 0 |  |  |
+| [lastLoginBuild](#lastloginbuild) | int(10) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: character_stats
 description: 
 published: true
-date: 2021-08-30T09:14:40.968Z
+date: 2021-08-30T21:22:03.989Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -27,21 +27,21 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [stamina](#stamina) | int(10) | unsigned |  | NO | 0 |  |  |
 | [intellect](#intellect) | int(10) | unsigned |  | NO | 0 |  |  |
 | [armor](#armor) | int(10) | unsigned |  | NO | 0 |  |  |
-| [resHoly](#resHoly) | int(10) | unsigned |  | NO | 0 |  |  |
-| [resFire](#resFire) | int(10) | unsigned |  | NO | 0 |  |  |
-| [resNature](#resNature) | int(10) | unsigned |  | NO | 0 |  |  |
-| [resFrost](#resFrost) | int(10) | unsigned |  | NO | 0 |  |  |
-| [resShadow](#resShadow) | int(10) | unsigned |  | NO | 0 |  |  |
-| [resArcane](#resArcane) | int(10) | unsigned |  | NO | 0 |  |  |
-| [blockPct](#blockPct) | float | unsigned |  | NO | 0 |  |  |
-| [dodgePct](#dodgePct) | float | unsigned |  | NO | 0 |  |  |
-| [parryPct](#parryPct) | float | unsigned |  | NO | 0 |  |  |
-| [critPct](#critPct) | float | unsigned |  | NO | 0 |  |  |
-| [rangedCritPct](#rangedCritPct) | float | unsigned |  | NO | 0 |  |  |
-| [spellCritPct](#spellCritPct) | float | unsigned |  | NO | 0 |  |  |
-| [attackPower](#attackPower) | int(10) | unsigned |  | NO | 0 |  |  |
-| [rangedAttackPower](#rangedAttackPower) | int(10) | unsigned |  | NO | 0 |  |  |
-| [spellPower](#spellPower) | int(10) | unsigned |  | NO | 0 |  |  |
+| [resHoly](#resholy) | int(10) | unsigned |  | NO | 0 |  |  |
+| [resFire](#resfire) | int(10) | unsigned |  | NO | 0 |  |  |
+| [resNature](#resnature) | int(10) | unsigned |  | NO | 0 |  |  |
+| [resFrost](#resfrost) | int(10) | unsigned |  | NO | 0 |  |  |
+| [resShadow](#resshadow) | int(10) | unsigned |  | NO | 0 |  |  |
+| [resArcane](#resarcane) | int(10) | unsigned |  | NO | 0 |  |  |
+| [blockPct](#blockpct) | float | unsigned |  | NO | 0 |  |  |
+| [dodgePct](#dodgepct) | float | unsigned |  | NO | 0 |  |  |
+| [parryPct](#parrypct) | float | unsigned |  | NO | 0 |  |  |
+| [critPct](#critpct) | float | unsigned |  | NO | 0 |  |  |
+| [rangedCritPct](#rangedcritpct) | float | unsigned |  | NO | 0 |  |  |
+| [spellCritPct](#spellcritpct) | float | unsigned |  | NO | 0 |  |  |
+| [attackPower](#attackpower) | int(10) | unsigned |  | NO | 0 |  |  |
+| [rangedAttackPower](#rangedattackpower) | int(10) | unsigned |  | NO | 0 |  |  |
+| [spellPower](#spellpower) | int(10) | unsigned |  | NO | 0 |  |  |
 | [resilience](#resilience) | int(10) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

@@ -2,7 +2,7 @@
 title: pet_spell_charges
 description: 
 published: true
-date: 2021-08-30T09:14:40.983Z
+date: 2021-08-30T21:22:04.007Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,9 +15,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | int(10) | unsigned | MUL | NO |  |  |  |
-| [categoryId](#categoryId) | int(10) | unsigned |  | NO | 0 |  | SpellCategory.dbc Identifier |
-| [rechargeStart](#rechargeStart) | bigint(20) | signed |  | NO | 0 |  |  |
-| [rechargeEnd](#rechargeEnd) | bigint(20) | signed |  | NO | 0 |  |  |
+| [categoryId](#categoryid) | int(10) | unsigned |  | NO | 0 |  | SpellCategory.dbc Identifier |
+| [rechargeStart](#rechargestart) | bigint(20) | signed |  | NO | 0 |  |  |
+| [rechargeEnd](#rechargeend) | bigint(20) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: guild_eventlog
 description: 
 published: true
-date: 2021-08-30T09:14:40.975Z
+date: 2021-08-30T21:22:03.997Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,12 +15,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guildid](#guildid) | bigint(20) | unsigned | PRI | NO |  |  | Guild Identificator |
-| [LogGuid](#LogGuid) | int(10) | unsigned | PRI | NO |  |  | Log record identificator - auxiliary column |
-| [EventType](#EventType) | tinyint(3) | unsigned |  | NO |  |  | Event type |
-| [PlayerGuid1](#PlayerGuid1) | bigint(20) | unsigned | MUL | NO |  |  | Player 1 |
-| [PlayerGuid2](#PlayerGuid2) | bigint(20) | unsigned | MUL | NO |  |  | Player 2 |
-| [NewRank](#NewRank) | tinyint(3) | unsigned |  | NO |  |  | New rank(in case promotion/demotion) |
-| [TimeStamp](#TimeStamp) | bigint(20) | signed |  | NO |  |  | Event UNIX time |
+| [LogGuid](#logguid) | int(10) | unsigned | PRI | NO |  |  | Log record identificator - auxiliary column |
+| [EventType](#eventtype) | tinyint(3) | unsigned |  | NO |  |  | Event type |
+| [PlayerGuid1](#playerguid1) | bigint(20) | unsigned | MUL | NO |  |  | Player 1 |
+| [PlayerGuid2](#playerguid2) | bigint(20) | unsigned | MUL | NO |  |  | Player 2 |
+| [NewRank](#newrank) | tinyint(3) | unsigned |  | NO |  |  | New rank(in case promotion/demotion) |
+| [TimeStamp](#timestamp) | bigint(20) | signed |  | NO |  |  | Event UNIX time |
 &nbsp;
 ## Description of fields
 

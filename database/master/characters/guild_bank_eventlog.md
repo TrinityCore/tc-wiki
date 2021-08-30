@@ -2,7 +2,7 @@
 title: guild_bank_eventlog
 description: 
 published: true
-date: 2021-08-30T09:14:40.974Z
+date: 2021-08-30T21:22:03.996Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,14 +15,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guildid](#guildid) | bigint(20) | unsigned | PRI | NO | 0 |  | Guild Identificator |
-| [LogGuid](#LogGuid) | int(10) | unsigned | PRI | NO | 0 |  | Log record identificator - auxiliary column |
-| [TabId](#TabId) | tinyint(3) | unsigned | PRI | NO | 0 |  | Guild bank TabId |
-| [EventType](#EventType) | tinyint(3) | unsigned |  | NO | 0 |  | Event type |
-| [PlayerGuid](#PlayerGuid) | bigint(20) | unsigned | MUL | NO | 0 |  |  |
-| [ItemOrMoney](#ItemOrMoney) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [ItemStackCount](#ItemStackCount) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [DestTabId](#DestTabId) | tinyint(3) | unsigned |  | NO | 0 |  | Destination Tab Id |
-| [TimeStamp](#TimeStamp) | bigint(20) | signed |  | NO | 0 |  | Event UNIX time |
+| [LogGuid](#logguid) | int(10) | unsigned | PRI | NO | 0 |  | Log record identificator - auxiliary column |
+| [TabId](#tabid) | tinyint(3) | unsigned | PRI | NO | 0 |  | Guild bank TabId |
+| [EventType](#eventtype) | tinyint(3) | unsigned |  | NO | 0 |  | Event type |
+| [PlayerGuid](#playerguid) | bigint(20) | unsigned | MUL | NO | 0 |  |  |
+| [ItemOrMoney](#itemormoney) | bigint(20) | unsigned |  | NO | 0 |  |  |
+| [ItemStackCount](#itemstackcount) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [DestTabId](#desttabid) | tinyint(3) | unsigned |  | NO | 0 |  | Destination Tab Id |
+| [TimeStamp](#timestamp) | bigint(20) | signed |  | NO | 0 |  | Event UNIX time |
 &nbsp;
 ## Description of fields
 

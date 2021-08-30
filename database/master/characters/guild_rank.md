@@ -2,7 +2,7 @@
 title: guild_rank
 description: 
 published: true
-date: 2021-08-30T09:14:40.976Z
+date: 2021-08-30T21:22:03.999Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -18,7 +18,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [rid](#rid) | tinyint(3) | unsigned | PRI | NO |  |  |  |
 | [rname](#rname) | varchar(20) | signed |  | NO | '' |  |  |
 | [rights](#rights) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [BankMoneyPerDay](#BankMoneyPerDay) | int(10) | unsigned |  | NO | 0 |  |  |
+| [BankMoneyPerDay](#bankmoneyperday) | int(10) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

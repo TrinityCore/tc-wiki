@@ -2,7 +2,7 @@
 title: group_member
 description: 
 published: true
-date: 2021-08-30T09:14:40.972Z
+date: 2021-08-30T21:22:03.995Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,8 +15,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | int(10) | unsigned |  | NO |  |  |  |
-| [memberGuid](#memberGuid) | bigint(20) | unsigned | PRI | NO |  |  |  |
-| [memberFlags](#memberFlags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [memberGuid](#memberguid) | bigint(20) | unsigned | PRI | NO |  |  |  |
+| [memberFlags](#memberflags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [subgroup](#subgroup) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [roles](#roles) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 &nbsp;

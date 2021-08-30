@@ -2,7 +2,7 @@
 title: guild_newslog
 description: 
 published: true
-date: 2021-08-30T09:14:40.976Z
+date: 2021-08-30T21:22:03.999Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,12 +15,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guildid](#guildid) | bigint(20) | unsigned | PRI | NO | 0 |  | Guild Identificator |
-| [LogGuid](#LogGuid) | int(10) | unsigned | PRI | NO | 0 |  | Log record identificator - auxiliary column |
-| [EventType](#EventType) | tinyint(3) | unsigned |  | NO | 0 |  | Event type |
-| [PlayerGuid](#PlayerGuid) | bigint(20) | unsigned | MUL | NO | 0 |  |  |
-| [Flags](#Flags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Value](#Value) | int(10) | unsigned |  | NO | 0 |  |  |
-| [TimeStamp](#TimeStamp) | bigint(20) | signed |  | NO | 0 |  | Event UNIX time |
+| [LogGuid](#logguid) | int(10) | unsigned | PRI | NO | 0 |  | Log record identificator - auxiliary column |
+| [EventType](#eventtype) | tinyint(3) | unsigned |  | NO | 0 |  | Event type |
+| [PlayerGuid](#playerguid) | bigint(20) | unsigned | MUL | NO | 0 |  |  |
+| [Flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Value](#value) | int(10) | unsigned |  | NO | 0 |  |  |
+| [TimeStamp](#timestamp) | bigint(20) | signed |  | NO | 0 |  | Event UNIX time |
 &nbsp;
 ## Description of fields
 

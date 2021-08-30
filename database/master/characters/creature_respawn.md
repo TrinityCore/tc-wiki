@@ -2,7 +2,7 @@
 title: creature_respawn
 description: 
 published: true
-date: 2021-08-30T09:14:40.970Z
+date: 2021-08-30T21:22:03.992Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,9 +15,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
-| [respawnTime](#respawnTime) | bigint(20) | signed |  | NO | 0 |  |  |
-| [mapId](#mapId) | smallint(10) | unsigned |  | NO | 0 |  |  |
-| [instanceId](#instanceId) | int(10) | unsigned | PRI | NO | 0 |  | Instance Identifier |
+| [respawnTime](#respawntime) | bigint(20) | signed |  | NO | 0 |  |  |
+| [mapId](#mapid) | smallint(10) | unsigned |  | NO | 0 |  |  |
+| [instanceId](#instanceid) | int(10) | unsigned | PRI | NO | 0 |  | Instance Identifier |
 &nbsp;
 ## Description of fields
 

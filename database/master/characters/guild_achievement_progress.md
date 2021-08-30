@@ -2,7 +2,7 @@
 title: guild_achievement_progress
 description: 
 published: true
-date: 2021-08-30T09:14:40.973Z
+date: 2021-08-30T21:22:03.996Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guildId](#guildId) | bigint(20) | unsigned | PRI | NO |  |  |  |
+| [guildId](#guildid) | bigint(20) | unsigned | PRI | NO |  |  |  |
 | [criteria](#criteria) | int(10) | unsigned | PRI | NO |  |  |  |
 | [counter](#counter) | bigint(20) | unsigned |  | NO |  |  |  |
 | [date](#date) | bigint(20) | signed |  | NO | 0 |  |  |
-| [completedGuid](#completedGuid) | bigint(20) | unsigned |  | NO | 0 |  |  |
+| [completedGuid](#completedguid) | bigint(20) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

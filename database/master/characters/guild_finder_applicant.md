@@ -2,7 +2,7 @@
 title: guild_finder_applicant
 description: 
 published: true
-date: 2021-08-30T09:14:40.975Z
+date: 2021-08-30T21:22:03.998Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guildId](#guildId) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
-| [playerGuid](#playerGuid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
+| [guildId](#guildid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
+| [playerGuid](#playerguid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
 | [availability](#availability) | tinyint(3) | unsigned |  | YES | 0 |  |  |
-| [classRole](#classRole) | tinyint(3) | unsigned |  | YES | 0 |  |  |
+| [classRole](#classrole) | tinyint(3) | unsigned |  | YES | 0 |  |  |
 | [interests](#interests) | tinyint(3) | unsigned |  | YES | 0 |  |  |
 | [comment](#comment) | varchar(255) | signed |  | YES | NULL |  |  |
-| [submitTime](#submitTime) | bigint(20) | signed |  | YES | NULL |  |  |
+| [submitTime](#submittime) | bigint(20) | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: pet_aura
 description: 
 published: true
-date: 2021-08-30T09:14:40.982Z
+date: 2021-08-30T21:22:04.006Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,15 +15,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | int(10) | unsigned | PRI | NO |  |  | Global Unique Identifier |
-| [casterGuid](#casterGuid) | binary(16) | signed |  | NO |  |  | Full Global Unique Identifier |
+| [casterGuid](#casterguid) | binary(16) | signed |  | NO |  |  | Full Global Unique Identifier |
 | [spell](#spell) | int(10) | unsigned | PRI | NO |  |  |  |
-| [effectMask](#effectMask) | int(10) | unsigned | PRI | NO |  |  |  |
-| [recalculateMask](#recalculateMask) | int(10) | unsigned |  | NO | 0 |  |  |
+| [effectMask](#effectmask) | int(10) | unsigned | PRI | NO |  |  |  |
+| [recalculateMask](#recalculatemask) | int(10) | unsigned |  | NO | 0 |  |  |
 | [difficulty](#difficulty) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [stackCount](#stackCount) | tinyint(3) | unsigned |  | NO | 1 |  |  |
-| [maxDuration](#maxDuration) | int(11) | signed |  | NO | 0 |  |  |
-| [remainTime](#remainTime) | int(11) | signed |  | NO | 0 |  |  |
-| [remainCharges](#remainCharges) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [stackCount](#stackcount) | tinyint(3) | unsigned |  | NO | 1 |  |  |
+| [maxDuration](#maxduration) | int(11) | signed |  | NO | 0 |  |  |
+| [remainTime](#remaintime) | int(11) | signed |  | NO | 0 |  |  |
+| [remainCharges](#remaincharges) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

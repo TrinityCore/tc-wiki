@@ -2,10 +2,10 @@
 title: character_homebind
 description: 
 published: true
-date: 2021-08-30T08:34:13.654Z
+date: 2021-08-30T21:22:03.983Z
 tags: database, master, characters
 editor: markdown
-dateCreated: 2021-08-30T07:28:57.172Z
+dateCreated: 2021-08-30T06:00:00.000Z
 ---
 
 <a href="https://dev.trinitycore.info/en/database/master/characters/character_glyphs" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_glyphs'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/characters/character_instance" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_instance'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -15,11 +15,11 @@ dateCreated: 2021-08-30T07:28:57.172Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
-| [mapId](#mapId) | smallint(5) | unsigned |  | NO | 0 |  | Map Identifier |
-| [zoneId](#zoneId) | smallint(5) | unsigned |  | NO | 0 |  | Zone Identifier |
-| [posX](#posX) | float |  |  | NO | 0 |  |  |
-| [posY](#posY) | float |  |  | NO | 0 |  |  |
-| [posZ](#posZ) | float |  |  | NO | 0 |  |  |
+| [mapId](#mapid) | smallint(5) | unsigned |  | NO | 0 |  | Map Identifier |
+| [zoneId](#zoneid) | smallint(5) | unsigned |  | NO | 0 |  | Zone Identifier |
+| [posX](#posx) | float |  |  | NO | 0 |  |  |
+| [posY](#posy) | float |  |  | NO | 0 |  |  |
+| [posZ](#posz) | float |  |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: game_event_condition_save
 description: 
 published: true
-date: 2021-08-30T09:14:40.970Z
+date: 2021-08-30T21:22:03.992Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [eventEntry](#eventEntry) | tinyint(3) | unsigned | PRI | NO |  |  |  |
+| [eventEntry](#evententry) | tinyint(3) | unsigned | PRI | NO |  |  |  |
 | [condition_id](#condition_id) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [done](#done) | float |  |  | YES | 0 |  |  |
 &nbsp;

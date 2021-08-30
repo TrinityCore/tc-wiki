@@ -2,7 +2,7 @@
 title: character_pet
 description: 
 published: true
-date: 2021-08-30T09:14:40.963Z
+date: 2021-08-30T21:22:03.984Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -18,11 +18,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [entry](#entry) | int(10) | unsigned |  | NO | 0 |  |  |
 | [owner](#owner) | bigint(10) | unsigned | MUL | NO | 0 |  |  |
 | [modelid](#modelid) | int(10) | unsigned |  | YES | 0 |  |  |
-| [CreatedBySpell](#CreatedBySpell) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [PetType](#PetType) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [CreatedBySpell](#createdbyspell) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [PetType](#pettype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [level](#level) | smallint(5) | unsigned |  | NO | 1 |  |  |
 | [exp](#exp) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Reactstate](#Reactstate) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Reactstate](#reactstate) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [name](#name) | varchar(21) | signed |  | NO | Pet |  |  |
 | [renamed](#renamed) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [slot](#slot) | tinyint(3) | unsigned | MUL | NO | 0 |  |  |

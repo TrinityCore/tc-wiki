@@ -2,7 +2,7 @@
 title: character_talent
 description: 
 published: true
-date: 2021-08-30T09:14:40.968Z
+date: 2021-08-30T21:22:03.989Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,8 +15,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | bigint(20) | unsigned | PRI | NO |  |  |  |
-| [talentId](#talentId) | mediumint(8) | unsigned | PRI | NO |  |  |  |
-| [talentGroup](#talentGroup) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
+| [talentId](#talentid) | mediumint(8) | unsigned | PRI | NO |  |  |  |
+| [talentGroup](#talentgroup) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,10 +2,10 @@
 title: arena_team
 description: 
 published: true
-date: 2021-08-30T08:24:21.344Z
+date: 2021-08-30T21:22:03.972Z
 tags: database, master, characters
 editor: markdown
-dateCreated: 2021-08-30T07:14:51.093Z
+dateCreated: 2021-08-30T06:00:00.000Z
 ---
 
 <a href="https://dev.trinitycore.info/en/database/master/characters/account_tutorial" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'account_tutorial'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/characters/arena_team_member" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'arena_team_member'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -14,21 +14,21 @@ dateCreated: 2021-08-30T07:14:51.093Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [arenaTeamId](#arenaTeamId) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [arenaTeamId](#arenateamid) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [name](#name) | varchar(24) | signed |  | NO |  |  |  |
-| [captainGuid](#captainGuid) | bigint(20) | unsigned |  | NO | 0 |  |  |
+| [captainGuid](#captainguid) | bigint(20) | unsigned |  | NO | 0 |  |  |
 | [type](#type) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [rating](#rating) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [seasonGames](#seasonGames) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [seasonWins](#seasonWins) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [weekGames](#weekGames) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [weekWins](#weekWins) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [seasonGames](#seasongames) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [seasonWins](#seasonwins) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [weekGames](#weekgames) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [weekWins](#weekwins) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [rank](#rank) | int(10) | unsigned |  | NO | 0 |  |  |
-| [backgroundColor](#backgroundColor) | int(10) | unsigned |  | NO | 0 |  |  |
-| [emblemStyle](#emblemStyle) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [emblemColor](#emblemColor) | int(10) | unsigned |  | NO | 0 |  |  |
-| [borderStyle](#borderStyle) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [borderColor](#borderColor) | int(10) | unsigned |  | NO | 0 |  |  |
+| [backgroundColor](#backgroundcolor) | int(10) | unsigned |  | NO | 0 |  |  |
+| [emblemStyle](#emblemstyle) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [emblemColor](#emblemcolor) | int(10) | unsigned |  | NO | 0 |  |  |
+| [borderStyle](#borderstyle) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [borderColor](#bordercolor) | int(10) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

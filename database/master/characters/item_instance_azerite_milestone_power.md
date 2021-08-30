@@ -2,7 +2,7 @@
 title: item_instance_azerite_milestone_power
 description: 
 published: true
-date: 2021-08-30T09:14:40.979Z
+date: 2021-08-30T21:22:04.002Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [itemGuid](#itemGuid) | bigint(20) | unsigned | PRI | NO |  |  |  |
-| [azeriteItemMilestonePowerId](#azeriteItemMilestonePowerId) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [itemGuid](#itemguid) | bigint(20) | unsigned | PRI | NO |  |  |  |
+| [azeriteItemMilestonePowerId](#azeriteitemmilestonepowerid) | int(10) | unsigned | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

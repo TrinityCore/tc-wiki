@@ -2,7 +2,7 @@
 title: warden_action
 description: 
 published: true
-date: 2021-08-30T09:14:40.985Z
+date: 2021-08-30T21:22:04.010Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [wardenId](#wardenId) | smallint(5) | unsigned | PRI | NO |  |  |  |
+| [wardenId](#wardenid) | smallint(5) | unsigned | PRI | NO |  |  |  |
 | [action](#action) | tinyint(3) | unsigned |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields

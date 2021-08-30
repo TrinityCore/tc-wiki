@@ -2,7 +2,7 @@
 title: character_void_storage
 description: 
 published: true
-date: 2021-08-30T09:14:40.969Z
+date: 2021-08-30T21:22:03.990Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,16 +14,16 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [itemId](#itemId) | bigint(20) | unsigned | PRI | NO |  |  |  |
-| [playerGuid](#playerGuid) | bigint(20) | unsigned | MUL | NO |  |  |  |
-| [itemEntry](#itemEntry) | mediumint(8) | unsigned |  | NO |  |  |  |
+| [itemId](#itemid) | bigint(20) | unsigned | PRI | NO |  |  |  |
+| [playerGuid](#playerguid) | bigint(20) | unsigned | MUL | NO |  |  |  |
+| [itemEntry](#itementry) | mediumint(8) | unsigned |  | NO |  |  |  |
 | [slot](#slot) | tinyint(3) | unsigned |  | NO |  |  |  |
-| [creatorGuid](#creatorGuid) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [randomBonusListId](#randomBonusListId) | int(10) | unsigned |  | NO | 0 |  |  |
-| [fixedScalingLevel](#fixedScalingLevel) | int(10) | unsigned |  | YES | 0 |  |  |
-| [artifactKnowledgeLevel](#artifactKnowledgeLevel) | int(10) | unsigned |  | YES | 0 |  |  |
+| [creatorGuid](#creatorguid) | bigint(20) | unsigned |  | NO | 0 |  |  |
+| [randomBonusListId](#randombonuslistid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [fixedScalingLevel](#fixedscalinglevel) | int(10) | unsigned |  | YES | 0 |  |  |
+| [artifactKnowledgeLevel](#artifactknowledgelevel) | int(10) | unsigned |  | YES | 0 |  |  |
 | [context](#context) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [bonusListIDs](#bonusListIDs) | text |  |  | YES | NULL |  |  |
+| [bonusListIDs](#bonuslistids) | text |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

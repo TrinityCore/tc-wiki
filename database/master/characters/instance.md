@@ -2,7 +2,7 @@
 title: instance
 description: 
 published: true
-date: 2021-08-30T09:14:40.977Z
+date: 2021-08-30T21:22:04.000Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -18,9 +18,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [map](#map) | smallint(5) | unsigned | MUL | NO | 0 |  |  |
 | [resettime](#resettime) | bigint(20) | signed | MUL | NO | 0 |  |  |
 | [difficulty](#difficulty) | tinyint(3) | unsigned | MUL | NO | 0 |  |  |
-| [completedEncounters](#completedEncounters) | int(10) | unsigned |  | NO | 0 |  |  |
+| [completedEncounters](#completedencounters) | int(10) | unsigned |  | NO | 0 |  |  |
 | [data](#data) | tinytext |  |  | NO |  |  |  |
-| [entranceId](#entranceId) | int(10) | unsigned |  | NO | 0 |  |  |
+| [entranceId](#entranceid) | int(10) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

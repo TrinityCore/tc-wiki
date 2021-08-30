@@ -2,7 +2,7 @@
 title: character_spell_cooldown
 description: 
 published: true
-date: 2021-08-30T09:14:40.967Z
+date: 2021-08-30T21:22:03.989Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -18,8 +18,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [spell](#spell) | int(10) | unsigned | PRI | NO | 0 |  | Spell Identifier |
 | [item](#item) | int(10) | unsigned |  | NO | 0 |  | Item Identifier |
 | [time](#time) | bigint(20) | signed |  | NO | 0 |  |  |
-| [categoryId](#categoryId) | int(10) | unsigned |  | NO | 0 |  | Spell category Id |
-| [categoryEnd](#categoryEnd) | bigint(20) | signed |  | NO | 0 |  |  |
+| [categoryId](#categoryid) | int(10) | unsigned |  | NO | 0 |  | Spell category Id |
+| [categoryEnd](#categoryend) | bigint(20) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

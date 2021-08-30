@@ -2,7 +2,7 @@
 title: item_instance_artifact_powers
 description: 
 published: true
-date: 2021-08-30T09:14:40.978Z
+date: 2021-08-30T21:22:04.001Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [itemGuid](#itemGuid) | bigint(20) | unsigned | PRI | NO |  |  |  |
-| [artifactPowerId](#artifactPowerId) | int(10) | unsigned | PRI | NO |  |  |  |
-| [purchasedRank](#purchasedRank) | tinyint(3) | unsigned |  | YES | 0 |  |  |
+| [itemGuid](#itemguid) | bigint(20) | unsigned | PRI | NO |  |  |  |
+| [artifactPowerId](#artifactpowerid) | int(10) | unsigned | PRI | NO |  |  |  |
+| [purchasedRank](#purchasedrank) | tinyint(3) | unsigned |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 

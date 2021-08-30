@@ -2,7 +2,7 @@
 title: item_instance_azerite
 description: 
 published: true
-date: 2021-08-30T09:14:40.978Z
+date: 2021-08-30T21:22:04.002Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,30 +14,30 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [itemGuid](#itemGuid) | bigint(20) | unsigned | PRI | NO |  |  |  |
+| [itemGuid](#itemguid) | bigint(20) | unsigned | PRI | NO |  |  |  |
 | [xp](#xp) | bigint(20) | unsigned |  | NO | 0 |  |  |
 | [level](#level) | int(10) | unsigned |  | NO | 1 |  |  |
-| [knowledgeLevel](#knowledgeLevel) | int(10) | unsigned |  | NO | 0 |  |  |
-| [selectedAzeriteEssences1specId](#selectedAzeriteEssences1specId) | int(10) | unsigned |  | YES | 0 |  |  |
-| [selectedAzeriteEssences1azeriteEssenceId1](#selectedAzeriteEssences1azeriteEssenceId1) | int(10) | unsigned |  | YES | 0 |  |  |
-| [selectedAzeriteEssences1azeriteEssenceId2](#selectedAzeriteEssences1azeriteEssenceId2) | int(10) | unsigned |  | YES | 0 |  |  |
-| [selectedAzeriteEssences1azeriteEssenceId3](#selectedAzeriteEssences1azeriteEssenceId3) | int(10) | unsigned |  | YES | 0 |  |  |
-| [selectedAzeriteEssences1azeriteEssenceId4](#selectedAzeriteEssences1azeriteEssenceId4) | int(10) | unsigned |  | YES | 0 |  |  |
-| [selectedAzeriteEssences2specId](#selectedAzeriteEssences2specId) | int(10) | unsigned |  | YES | 0 |  |  |
-| [selectedAzeriteEssences2azeriteEssenceId1](#selectedAzeriteEssences2azeriteEssenceId1) | int(10) | unsigned |  | YES | 0 |  |  |
-| [selectedAzeriteEssences2azeriteEssenceId2](#selectedAzeriteEssences2azeriteEssenceId2) | int(10) | unsigned |  | YES | 0 |  |  |
-| [selectedAzeriteEssences2azeriteEssenceId3](#selectedAzeriteEssences2azeriteEssenceId3) | int(10) | unsigned |  | YES | 0 |  |  |
-| [selectedAzeriteEssences2azeriteEssenceId4](#selectedAzeriteEssences2azeriteEssenceId4) | int(10) | unsigned |  | YES | 0 |  |  |
-| [selectedAzeriteEssences3specId](#selectedAzeriteEssences3specId) | int(10) | unsigned |  | YES | 0 |  |  |
-| [selectedAzeriteEssences3azeriteEssenceId1](#selectedAzeriteEssences3azeriteEssenceId1) | int(10) | unsigned |  | YES | 0 |  |  |
-| [selectedAzeriteEssences3azeriteEssenceId2](#selectedAzeriteEssences3azeriteEssenceId2) | int(10) | unsigned |  | YES | 0 |  |  |
-| [selectedAzeriteEssences3azeriteEssenceId3](#selectedAzeriteEssences3azeriteEssenceId3) | int(10) | unsigned |  | YES | 0 |  |  |
-| [selectedAzeriteEssences3azeriteEssenceId4](#selectedAzeriteEssences3azeriteEssenceId4) | int(10) | unsigned |  | YES | 0 |  |  |
-| [selectedAzeriteEssences4specId](#selectedAzeriteEssences4specId) | int(10) | unsigned |  | YES | 0 |  |  |
-| [selectedAzeriteEssences4azeriteEssenceId1](#selectedAzeriteEssences4azeriteEssenceId1) | int(10) | unsigned |  | YES | 0 |  |  |
-| [selectedAzeriteEssences4azeriteEssenceId2](#selectedAzeriteEssences4azeriteEssenceId2) | int(10) | unsigned |  | YES | 0 |  |  |
-| [selectedAzeriteEssences4azeriteEssenceId3](#selectedAzeriteEssences4azeriteEssenceId3) | int(10) | unsigned |  | YES | 0 |  |  |
-| [selectedAzeriteEssences4azeriteEssenceId4](#selectedAzeriteEssences4azeriteEssenceId4) | int(10) | unsigned |  | YES | 0 |  |  |
+| [knowledgeLevel](#knowledgelevel) | int(10) | unsigned |  | NO | 0 |  |  |
+| [selectedAzeriteEssences1specId](#selectedazeriteessences1specid) | int(10) | unsigned |  | YES | 0 |  |  |
+| [selectedAzeriteEssences1azeriteEssenceId1](#selectedazeriteessences1azeriteessenceid1) | int(10) | unsigned |  | YES | 0 |  |  |
+| [selectedAzeriteEssences1azeriteEssenceId2](#selectedazeriteessences1azeriteessenceid2) | int(10) | unsigned |  | YES | 0 |  |  |
+| [selectedAzeriteEssences1azeriteEssenceId3](#selectedazeriteessences1azeriteessenceid3) | int(10) | unsigned |  | YES | 0 |  |  |
+| [selectedAzeriteEssences1azeriteEssenceId4](#selectedazeriteessences1azeriteessenceid4) | int(10) | unsigned |  | YES | 0 |  |  |
+| [selectedAzeriteEssences2specId](#selectedazeriteessences2specid) | int(10) | unsigned |  | YES | 0 |  |  |
+| [selectedAzeriteEssences2azeriteEssenceId1](#selectedazeriteessences2azeriteessenceid1) | int(10) | unsigned |  | YES | 0 |  |  |
+| [selectedAzeriteEssences2azeriteEssenceId2](#selectedazeriteessences2azeriteessenceid2) | int(10) | unsigned |  | YES | 0 |  |  |
+| [selectedAzeriteEssences2azeriteEssenceId3](#selectedazeriteessences2azeriteessenceid3) | int(10) | unsigned |  | YES | 0 |  |  |
+| [selectedAzeriteEssences2azeriteEssenceId4](#selectedazeriteessences2azeriteessenceid4) | int(10) | unsigned |  | YES | 0 |  |  |
+| [selectedAzeriteEssences3specId](#selectedazeriteessences3specid) | int(10) | unsigned |  | YES | 0 |  |  |
+| [selectedAzeriteEssences3azeriteEssenceId1](#selectedazeriteessences3azeriteessenceid1) | int(10) | unsigned |  | YES | 0 |  |  |
+| [selectedAzeriteEssences3azeriteEssenceId2](#selectedazeriteessences3azeriteessenceid2) | int(10) | unsigned |  | YES | 0 |  |  |
+| [selectedAzeriteEssences3azeriteEssenceId3](#selectedazeriteessences3azeriteessenceid3) | int(10) | unsigned |  | YES | 0 |  |  |
+| [selectedAzeriteEssences3azeriteEssenceId4](#selectedazeriteessences3azeriteessenceid4) | int(10) | unsigned |  | YES | 0 |  |  |
+| [selectedAzeriteEssences4specId](#selectedazeriteessences4specid) | int(10) | unsigned |  | YES | 0 |  |  |
+| [selectedAzeriteEssences4azeriteEssenceId1](#selectedazeriteessences4azeriteessenceid1) | int(10) | unsigned |  | YES | 0 |  |  |
+| [selectedAzeriteEssences4azeriteEssenceId2](#selectedazeriteessences4azeriteessenceid2) | int(10) | unsigned |  | YES | 0 |  |  |
+| [selectedAzeriteEssences4azeriteEssenceId3](#selectedazeriteessences4azeriteessenceid3) | int(10) | unsigned |  | YES | 0 |  |  |
+| [selectedAzeriteEssences4azeriteEssenceId4](#selectedazeriteessences4azeriteessenceid4) | int(10) | unsigned |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: pet_spell_cooldown
 description: 
 published: true
-date: 2021-08-30T09:14:40.983Z
+date: 2021-08-30T21:22:04.007Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -17,8 +17,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [guid](#guid) | int(10) | unsigned | PRI | NO | 0 |  | Global Unique Identifier, Low part |
 | [spell](#spell) | int(10) | unsigned | PRI | NO | 0 |  | Spell Identifier |
 | [time](#time) | bigint(20) | signed |  | NO | 0 |  |  |
-| [categoryId](#categoryId) | int(10) | unsigned |  | NO | 0 |  | Spell category Id |
-| [categoryEnd](#categoryEnd) | bigint(20) | signed |  | NO | 0 |  |  |
+| [categoryId](#categoryid) | int(10) | unsigned |  | NO | 0 |  | Spell category Id |
+| [categoryEnd](#categoryend) | bigint(20) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

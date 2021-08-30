@@ -2,7 +2,7 @@
 title: character_transmog_outfits
 description: 
 published: true
-date: 2021-08-30T09:14:40.968Z
+date: 2021-08-30T21:22:03.990Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -39,8 +39,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [appearance16](#appearance16) | int(10) | signed |  | NO | 0 |  |  |
 | [appearance17](#appearance17) | int(10) | signed |  | NO | 0 |  |  |
 | [appearance18](#appearance18) | int(10) | signed |  | NO | 0 |  |  |
-| [mainHandEnchant](#mainHandEnchant) | int(10) | signed |  | NO | 0 |  |  |
-| [offHandEnchant](#offHandEnchant) | int(10) | signed |  | NO | 0 |  |  |
+| [mainHandEnchant](#mainhandenchant) | int(10) | signed |  | NO | 0 |  |  |
+| [offHandEnchant](#offhandenchant) | int(10) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

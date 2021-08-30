@@ -2,7 +2,7 @@
 title: item_refund_instance
 description: 
 published: true
-date: 2021-08-30T09:14:40.981Z
+date: 2021-08-30T21:22:04.004Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,8 +16,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [item_guid](#item_guid) | bigint(20) | unsigned | PRI | NO |  |  | Item GUID |
 | [player_guid](#player_guid) | bigint(20) | unsigned | PRI | NO |  |  | Player GUID |
-| [paidMoney](#paidMoney) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [paidExtendedCost](#paidExtendedCost) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [paidMoney](#paidmoney) | bigint(20) | unsigned |  | NO | 0 |  |  |
+| [paidExtendedCost](#paidextendedcost) | smallint(5) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: item_instance_artifact
 description: 
 published: true
-date: 2021-08-30T09:14:40.978Z
+date: 2021-08-30T21:22:04.001Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [itemGuid](#itemGuid) | bigint(20) | unsigned | PRI | NO |  |  |  |
+| [itemGuid](#itemguid) | bigint(20) | unsigned | PRI | NO |  |  |  |
 | [xp](#xp) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [artifactAppearanceId](#artifactAppearanceId) | int(10) | unsigned |  | NO | 0 |  |  |
-| [artifactTierId](#artifactTierId) | int(10) | unsigned |  | NO | 0 |  |  |
+| [artifactAppearanceId](#artifactappearanceid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [artifactTierId](#artifacttierid) | int(10) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

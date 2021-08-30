@@ -2,10 +2,10 @@
 title: account_tutorial
 description: 
 published: true
-date: 2021-08-30T08:24:02.616Z
+date: 2021-08-30T21:22:03.971Z
 tags: database, master, characters
 editor: markdown
-dateCreated: 2021-08-30T07:13:30.491Z
+dateCreated: 2021-08-30T06:00:00.000Z
 ---
 
 <a href="https://dev.trinitycore.info/en/database/master/characters/account_instance_times" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'account_instance_times'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/characters/arena_team" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'arena_team'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T07:13:30.491Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [accountId](#accountId) | int(10) | unsigned | PRI | NO | 0 |  | Account Identifier |
+| [accountId](#accountid) | int(10) | unsigned | PRI | NO | 0 |  | Account Identifier |
 | [tut0](#tut0) | int(10) | unsigned |  | NO | 0 |  |  |
 | [tut1](#tut1) | int(10) | unsigned |  | NO | 0 |  |  |
 | [tut2](#tut2) | int(10) | unsigned |  | NO | 0 |  |  |

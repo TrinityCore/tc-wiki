@@ -2,7 +2,7 @@
 title: character_queststatus
 description: 
 published: true
-date: 2021-08-30T09:14:40.964Z
+date: 2021-08-30T21:22:03.985Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -18,8 +18,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [quest](#quest) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [status](#status) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [explored](#explored) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [acceptTime](#acceptTime) | bigint(20) | signed |  | NO | 0 |  |  |
-| [endTime](#endTime) | bigint(20) | signed |  | NO | 0 |  |  |
+| [acceptTime](#accepttime) | bigint(20) | signed |  | NO | 0 |  |  |
+| [endTime](#endtime) | bigint(20) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

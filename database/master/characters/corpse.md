@@ -2,7 +2,7 @@
 title: corpse
 description: 
 published: true
-date: 2021-08-30T09:14:40.969Z
+date: 2021-08-30T21:22:03.991Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,21 +15,21 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  | Character Global Unique Identifier |
-| [posX](#posX) | float |  |  | NO | 0 |  |  |
-| [posY](#posY) | float |  |  | NO | 0 |  |  |
-| [posZ](#posZ) | float |  |  | NO | 0 |  |  |
+| [posX](#posx) | float |  |  | NO | 0 |  |  |
+| [posY](#posy) | float |  |  | NO | 0 |  |  |
+| [posZ](#posz) | float |  |  | NO | 0 |  |  |
 | [orientation](#orientation) | float |  |  | NO | 0 |  |  |
-| [mapId](#mapId) | smallint(5) | unsigned |  | NO | 0 |  | Map Identifier |
-| [displayId](#displayId) | int(10) | unsigned |  | NO | 0 |  |  |
-| [itemCache](#itemCache) | text |  |  | NO |  |  |  |
+| [mapId](#mapid) | smallint(5) | unsigned |  | NO | 0 |  | Map Identifier |
+| [displayId](#displayid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [itemCache](#itemcache) | text |  |  | NO |  |  |  |
 | [race](#race) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [class](#class) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [gender](#gender) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [dynFlags](#dynFlags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [dynFlags](#dynflags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [time](#time) | int(10) | unsigned | MUL | NO | 0 |  |  |
-| [corpseType](#corpseType) | tinyint(3) | unsigned | MUL | NO | 0 |  |  |
-| [instanceId](#instanceId) | int(10) | unsigned | MUL | NO | 0 |  | Instance Identifier |
+| [corpseType](#corpsetype) | tinyint(3) | unsigned | MUL | NO | 0 |  |  |
+| [instanceId](#instanceid) | int(10) | unsigned | MUL | NO | 0 |  | Instance Identifier |
 &nbsp;
 ## Description of fields
 
