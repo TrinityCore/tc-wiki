@@ -2,14 +2,14 @@
 title: Hotfixes
 description: 
 published: true
-date: 2021-08-29T20:42:31.704Z
+date: 2021-08-30T20:23:55.910Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-29T20:42:31.704Z
 ---
 
 ## a
-- [achievement](/database/master/hotfixes/achievement)
+- [achievement](/database/master/hotfixes/achievement) 
 - [achievement_category](/database/master/hotfixes/achievement_category)
 - [achievement_category_locale](/database/master/hotfixes/achievement_category_locale)
 - [achievement_locale](/database/master/hotfixes/achievement_locale)
