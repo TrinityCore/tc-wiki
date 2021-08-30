@@ -2,7 +2,7 @@
 title: character_queststatus_daily
 description: 
 published: true
-date: 2021-08-30T21:53:23.593Z
+date: 2021-08-30T22:00:42.126Z
 tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
