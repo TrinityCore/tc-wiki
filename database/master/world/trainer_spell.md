@@ -2,7 +2,7 @@
 title: trainer_spell
 description: 
 published: true
-date: 2021-08-30T09:24:17.532Z
+date: 2021-08-30T20:38:02.319Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,16 +14,16 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [TrainerId](#TrainerId) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [SpellId](#SpellId) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [MoneyCost](#MoneyCost) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ReqSkillLine](#ReqSkillLine) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ReqSkillRank](#ReqSkillRank) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ReqAbility1](#ReqAbility1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ReqAbility2](#ReqAbility2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ReqAbility3](#ReqAbility3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ReqLevel](#ReqLevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [TrainerId](#trainerid) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [SpellId](#spellid) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [MoneyCost](#moneycost) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ReqSkillLine](#reqskillline) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ReqSkillRank](#reqskillrank) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ReqAbility1](#reqability1) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ReqAbility2](#reqability2) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ReqAbility3](#reqability3) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ReqLevel](#reqlevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

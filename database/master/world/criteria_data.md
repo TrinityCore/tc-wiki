@@ -2,7 +2,7 @@
 title: criteria_data
 description: 
 published: true
-date: 2021-08-30T09:24:17.481Z
+date: 2021-08-30T20:38:02.268Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -18,7 +18,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [type](#type) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
 | [value1](#value1) | mediumint(8) | unsigned |  | NO | 0 |  |  |
 | [value2](#value2) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [ScriptName](#ScriptName) | char(64) | signed |  | NO | '' |  |  |
+| [ScriptName](#scriptname) | char(64) | signed |  | NO | '' |  |  |
 &nbsp;
 ## Description of fields
 

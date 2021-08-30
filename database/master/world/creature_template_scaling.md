@@ -2,7 +2,7 @@
 title: creature_template_scaling
 description: 
 published: true
-date: 2021-08-30T09:24:17.479Z
+date: 2021-08-30T20:38:02.266Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Entry](#Entry) | mediumint(8) | unsigned | PRI | NO |  |  |  |
-| [DifficultyID](#DifficultyID) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
-| [LevelScalingDeltaMin](#LevelScalingDeltaMin) | smallint(5) | signed |  | NO | 0 |  |  |
-| [LevelScalingDeltaMax](#LevelScalingDeltaMax) | smallint(5) | signed |  | NO | 0 |  |  |
-| [ContentTuningID](#ContentTuningID) | int(10) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [Entry](#entry) | mediumint(8) | unsigned | PRI | NO |  |  |  |
+| [DifficultyID](#difficultyid) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
+| [LevelScalingDeltaMin](#levelscalingdeltamin) | smallint(5) | signed |  | NO | 0 |  |  |
+| [LevelScalingDeltaMax](#levelscalingdeltamax) | smallint(5) | signed |  | NO | 0 |  |  |
+| [ContentTuningID](#contenttuningid) | int(10) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

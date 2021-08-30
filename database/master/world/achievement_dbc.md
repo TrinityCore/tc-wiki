@@ -2,7 +2,7 @@
 title: achievement_dbc
 description: 
 published: true
-date: 2021-08-30T09:24:17.465Z
+date: 2021-08-30T20:38:02.251Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO |  |  |  |
-| [requiredFaction](#requiredFaction) | int(11) | signed |  | NO | -1 |  |  |
-| [mapID](#mapID) | int(11) | signed |  | NO | -1 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO |  |  |  |
+| [requiredFaction](#requiredfaction) | int(11) | signed |  | NO | -1 |  |  |
+| [mapID](#mapid) | int(11) | signed |  | NO | -1 |  |  |
 | [points](#points) | int(10) | unsigned |  | NO | 0 |  |  |
 | [flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
 | [count](#count) | int(10) | unsigned |  | NO | 0 |  |  |
-| [refAchievement](#refAchievement) | int(10) | unsigned |  | NO | 0 |  |  |
+| [refAchievement](#refachievement) | int(10) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

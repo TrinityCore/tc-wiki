@@ -2,7 +2,7 @@
 title: graveyard_zone
 description: 
 published: true
-date: 2021-08-30T09:24:17.493Z
+date: 2021-08-30T20:38:02.281Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
-| [GhostZone](#GhostZone) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
-| [Faction](#Faction) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Comment](#Comment) | text |  |  | YES | NULL |  |  |
+| [ID](#id) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [GhostZone](#ghostzone) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [Faction](#faction) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Comment](#comment) | text |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

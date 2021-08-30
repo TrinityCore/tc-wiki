@@ -2,7 +2,7 @@
 title: playerchoice_response
 description: 
 published: true
-date: 2021-08-30T09:24:17.505Z
+date: 2021-08-30T20:38:02.292Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,25 +14,25 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ChoiceId](#ChoiceId) | int(11) | signed | PRI | NO |  |  |  |
-| [ResponseId](#ResponseId) | int(11) | signed | PRI | NO |  |  |  |
-| [ResponseIdentifier](#ResponseIdentifier) | smallint(5) | unsigned |  | NO |  |  |  |
-| [Index](#Index) | int(10) | unsigned |  | NO |  |  |  |
-| [ChoiceArtFileId](#ChoiceArtFileId) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags](#Flags) | int(11) | signed |  | NO | 0 |  |  |
-| [WidgetSetID](#WidgetSetID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [UiTextureAtlasElementID](#UiTextureAtlasElementID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SoundKitID](#SoundKitID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [GroupID](#GroupID) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [UiTextureKitID](#UiTextureKitID) | int(11) | signed |  | NO | 0 |  |  |
-| [Header](#Header) | varchar(511) | signed |  | NO |  |  |  |
-| [SubHeader](#SubHeader) | varchar(100) | signed |  | NO | '' |  |  |
-| [ButtonTooltip](#ButtonTooltip) | varchar(400) | signed |  | NO | '' |  |  |
-| [Answer](#Answer) | varchar(511) | signed |  | NO |  |  |  |
-| [Description](#Description) | varchar(2047) | signed |  | NO |  |  |  |
-| [Confirmation](#Confirmation) | varchar(127) | signed |  | NO |  |  |  |
-| [RewardQuestID](#RewardQuestID) | int(10) | unsigned |  | YES | NULL |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(10) | signed |  | NO | 0 |  |  |
+| [ChoiceId](#choiceid) | int(11) | signed | PRI | NO |  |  |  |
+| [ResponseId](#responseid) | int(11) | signed | PRI | NO |  |  |  |
+| [ResponseIdentifier](#responseidentifier) | smallint(5) | unsigned |  | NO |  |  |  |
+| [Index](#index) | int(10) | unsigned |  | NO |  |  |  |
+| [ChoiceArtFileId](#choiceartfileid) | int(11) | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
+| [WidgetSetID](#widgetsetid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [UiTextureAtlasElementID](#uitextureatlaselementid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [SoundKitID](#soundkitid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [GroupID](#groupid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [UiTextureKitID](#uitexturekitid) | int(11) | signed |  | NO | 0 |  |  |
+| [Header](#header) | varchar(511) | signed |  | NO |  |  |  |
+| [SubHeader](#subheader) | varchar(100) | signed |  | NO | '' |  |  |
+| [ButtonTooltip](#buttontooltip) | varchar(400) | signed |  | NO | '' |  |  |
+| [Answer](#answer) | varchar(511) | signed |  | NO |  |  |  |
+| [Description](#description) | varchar(2047) | signed |  | NO |  |  |  |
+| [Confirmation](#confirmation) | varchar(127) | signed |  | NO |  |  |  |
+| [RewardQuestID](#rewardquestid) | int(10) | unsigned |  | YES | NULL |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(10) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

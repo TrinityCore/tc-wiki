@@ -2,7 +2,7 @@
 title: gossip_menu_option_box
 description: 
 published: true
-date: 2021-08-30T09:24:17.493Z
+date: 2021-08-30T20:38:02.280Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [MenuId](#MenuId) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [OptionIndex](#OptionIndex) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [BoxCoded](#BoxCoded) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [BoxMoney](#BoxMoney) | int(11) | unsigned |  | NO | 0 |  |  |
-| [BoxText](#BoxText) | text |  |  | YES | NULL |  |  |
-| [BoxBroadcastTextId](#BoxBroadcastTextId) | int(11) | unsigned |  | NO | 0 |  |  |
+| [MenuId](#menuid) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [OptionIndex](#optionindex) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [BoxCoded](#boxcoded) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [BoxMoney](#boxmoney) | int(11) | unsigned |  | NO | 0 |  |  |
+| [BoxText](#boxtext) | text |  |  | YES | NULL |  |  |
+| [BoxBroadcastTextId](#boxbroadcasttextid) | int(11) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

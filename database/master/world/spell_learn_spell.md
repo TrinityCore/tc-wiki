@@ -2,7 +2,7 @@
 title: spell_learn_spell
 description: 
 published: true
-date: 2021-08-30T09:24:17.527Z
+date: 2021-08-30T20:38:02.314Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,8 +15,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entry](#entry) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [SpellID](#SpellID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Active](#Active) | tinyint(3) | unsigned |  | NO | 1 |  |  |
+| [SpellID](#spellid) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Active](#active) | tinyint(3) | unsigned |  | NO | 1 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: gameobject
 description: 
 published: true
-date: 2021-08-30T09:24:17.488Z
+date: 2021-08-30T20:38:02.276Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -17,13 +17,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
 | [id](#id) | mediumint(8) | unsigned |  | NO | 0 |  | Gameobject Identifier |
 | [map](#map) | smallint(5) | unsigned |  | NO | 0 |  | Map Identifier |
-| [zoneId](#zoneId) | smallint(5) | unsigned |  | NO | 0 |  | Zone Identifier |
-| [areaId](#areaId) | smallint(5) | unsigned |  | NO | 0 |  | Area Identifier |
-| [spawnDifficulties](#spawnDifficulties) | varchar(100) | signed |  | NO | 0 |  |  |
-| [phaseUseFlags](#phaseUseFlags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [PhaseId](#PhaseId) | int(10) | signed |  | YES | 0 |  |  |
-| [PhaseGroup](#PhaseGroup) | int(10) | signed |  | YES | 0 |  |  |
-| [terrainSwapMap](#terrainSwapMap) | int(11) | signed |  | NO | -1 |  |  |
+| [zoneId](#zoneid) | smallint(5) | unsigned |  | NO | 0 |  | Zone Identifier |
+| [areaId](#areaid) | smallint(5) | unsigned |  | NO | 0 |  | Area Identifier |
+| [spawnDifficulties](#spawndifficulties) | varchar(100) | signed |  | NO | 0 |  |  |
+| [phaseUseFlags](#phaseuseflags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [PhaseId](#phaseid) | int(10) | signed |  | YES | 0 |  |  |
+| [PhaseGroup](#phasegroup) | int(10) | signed |  | YES | 0 |  |  |
+| [terrainSwapMap](#terrainswapmap) | int(11) | signed |  | NO | -1 |  |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |
@@ -35,8 +35,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [spawntimesecs](#spawntimesecs) | int(11) | signed |  | NO | 0 |  |  |
 | [animprogress](#animprogress) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [state](#state) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ScriptName](#ScriptName) | char(64) | signed |  | YES | '' |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ScriptName](#scriptname) | char(64) | signed |  | YES | '' |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

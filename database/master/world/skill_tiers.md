@@ -2,7 +2,7 @@
 title: skill_tiers
 description: 
 published: true
-date: 2021-08-30T09:24:17.523Z
+date: 2021-08-30T20:38:02.311Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,23 +14,23 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Value1](#Value1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Value2](#Value2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Value3](#Value3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Value4](#Value4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Value5](#Value5) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Value6](#Value6) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Value7](#Value7) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Value8](#Value8) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Value9](#Value9) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Value10](#Value10) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Value11](#Value11) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Value12](#Value12) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Value13](#Value13) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Value14](#Value14) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Value15](#Value15) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Value16](#Value16) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Value1](#value1) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Value2](#value2) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Value3](#value3) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Value4](#value4) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Value5](#value5) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Value6](#value6) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Value7](#value7) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Value8](#value8) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Value9](#value9) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Value10](#value10) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Value11](#value11) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Value12](#value12) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Value13](#value13) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Value14](#value14) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Value15](#value15) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Value16](#value16) | int(10) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

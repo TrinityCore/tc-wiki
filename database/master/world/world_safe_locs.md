@@ -2,7 +2,7 @@
 title: world_safe_locs
 description: 
 published: true
-date: 2021-08-30T09:24:17.536Z
+date: 2021-08-30T20:38:02.323Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO |  |  |  |
-| [MapID](#MapID) | int(10) | unsigned |  | YES | NULL |  |  |
-| [LocX](#LocX) | float |  |  | YES | NULL |  |  |
-| [LocY](#LocY) | float |  |  | YES | NULL |  |  |
-| [LocZ](#LocZ) | float |  |  | YES | NULL |  |  |
-| [Facing](#Facing) | float |  |  | YES | NULL |  |  |
-| [Comment](#Comment) | varchar(255) | signed |  | YES | NULL |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO |  |  |  |
+| [MapID](#mapid) | int(10) | unsigned |  | YES | NULL |  |  |
+| [LocX](#locx) | float |  |  | YES | NULL |  |  |
+| [LocY](#locy) | float |  |  | YES | NULL |  |  |
+| [LocZ](#locz) | float |  |  | YES | NULL |  |  |
+| [Facing](#facing) | float |  |  | YES | NULL |  |  |
+| [Comment](#comment) | varchar(255) | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

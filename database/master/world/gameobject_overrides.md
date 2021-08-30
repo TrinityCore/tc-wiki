@@ -2,7 +2,7 @@
 title: gameobject_overrides
 description: 
 published: true
-date: 2021-08-30T09:24:17.489Z
+date: 2021-08-30T20:38:02.277Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [spawnId](#spawnId) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
+| [spawnId](#spawnid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
 | [faction](#faction) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
 &nbsp;

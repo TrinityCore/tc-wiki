@@ -2,7 +2,7 @@
 title: quest_template_locale
 description: 
 published: true
-date: 2021-08-30T09:24:17.517Z
+date: 2021-08-30T20:38:02.305Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) | signed | PRI | NO |  |  |  |
-| [LogTitle](#LogTitle) | text |  |  | YES | NULL |  |  |
-| [LogDescription](#LogDescription) | text |  |  | YES | NULL |  |  |
-| [QuestDescription](#QuestDescription) | text |  |  | YES | NULL |  |  |
-| [AreaDescription](#AreaDescription) | text |  |  | YES | NULL |  |  |
-| [PortraitGiverText](#PortraitGiverText) | text |  |  | YES | NULL |  |  |
-| [PortraitGiverName](#PortraitGiverName) | text |  |  | YES | NULL |  |  |
-| [PortraitTurnInText](#PortraitTurnInText) | text |  |  | YES | NULL |  |  |
-| [PortraitTurnInName](#PortraitTurnInName) | text |  |  | YES | NULL |  |  |
-| [QuestCompletionLog](#QuestCompletionLog) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [LogTitle](#logtitle) | text |  |  | YES | NULL |  |  |
+| [LogDescription](#logdescription) | text |  |  | YES | NULL |  |  |
+| [QuestDescription](#questdescription) | text |  |  | YES | NULL |  |  |
+| [AreaDescription](#areadescription) | text |  |  | YES | NULL |  |  |
+| [PortraitGiverText](#portraitgivertext) | text |  |  | YES | NULL |  |  |
+| [PortraitGiverName](#portraitgivername) | text |  |  | YES | NULL |  |  |
+| [PortraitTurnInText](#portraitturnintext) | text |  |  | YES | NULL |  |  |
+| [PortraitTurnInName](#portraitturninname) | text |  |  | YES | NULL |  |  |
+| [QuestCompletionLog](#questcompletionlog) | text |  |  | YES | NULL |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: achievement_reward
 description: 
 published: true
-date: 2021-08-30T09:24:17.466Z
+date: 2021-08-30T20:38:02.252Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,14 +14,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [TitleA](#TitleA) | int(10) | unsigned |  | NO | 0 |  |  |
-| [TitleH](#TitleH) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemID](#ItemID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Sender](#Sender) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Subject](#Subject) | varchar(255) | signed |  | YES | NULL |  |  |
-| [Body](#Body) | text |  |  | YES | NULL |  |  |
-| [MailTemplateID](#MailTemplateID) | int(10) | unsigned |  | YES | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [TitleA](#titlea) | int(10) | unsigned |  | NO | 0 |  |  |
+| [TitleH](#titleh) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ItemID](#itemid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Sender](#sender) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Subject](#subject) | varchar(255) | signed |  | YES | NULL |  |  |
+| [Body](#body) | text |  |  | YES | NULL |  |  |
+| [MailTemplateID](#mailtemplateid) | int(10) | unsigned |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 

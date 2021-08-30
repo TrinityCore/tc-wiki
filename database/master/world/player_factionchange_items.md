@@ -2,7 +2,7 @@
 title: player_factionchange_items
 description: 
 published: true
-date: 2021-08-30T09:24:17.502Z
+date: 2021-08-30T20:38:02.290Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [race_A](#race_A) | int(10) | unsigned |  | NO |  |  |  |
+| [race_A](#race_a) | int(10) | unsigned |  | NO |  |  |  |
 | [alliance_id](#alliance_id) | int(10) | unsigned | PRI | NO |  |  |  |
-| [commentA](#commentA) | text |  |  | YES | NULL |  |  |
-| [race_H](#race_H) | int(10) | unsigned |  | NO |  |  |  |
+| [commentA](#commenta) | text |  |  | YES | NULL |  |  |
+| [race_H](#race_h) | int(10) | unsigned |  | NO |  |  |  |
 | [horde_id](#horde_id) | int(10) | unsigned | PRI | NO |  |  |  |
-| [commentH](#commentH) | text |  |  | YES | NULL |  |  |
+| [commentH](#commenth) | text |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

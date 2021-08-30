@@ -2,7 +2,7 @@
 title: areatrigger_template_polygon_vertices
 description: 
 published: true
-date: 2021-08-30T09:24:17.469Z
+date: 2021-08-30T20:38:02.255Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [AreaTriggerId](#AreaTriggerId) | int(10) | unsigned | PRI | NO |  |  |  |
-| [Idx](#Idx) | int(10) | unsigned | PRI | NO |  |  |  |
-| [VerticeX](#VerticeX) | float |  |  | NO | 0 |  |  |
-| [VerticeY](#VerticeY) | float |  |  | NO | 0 |  |  |
-| [VerticeTargetX](#VerticeTargetX) | float |  |  | YES | NULL |  |  |
-| [VerticeTargetY](#VerticeTargetY) | float |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(10) | unsigned |  | NO | 0 |  |  |
+| [AreaTriggerId](#areatriggerid) | int(10) | unsigned | PRI | NO |  |  |  |
+| [Idx](#idx) | int(10) | unsigned | PRI | NO |  |  |  |
+| [VerticeX](#verticex) | float |  |  | NO | 0 |  |  |
+| [VerticeY](#verticey) | float |  |  | NO | 0 |  |  |
+| [VerticeTargetX](#verticetargetx) | float |  |  | YES | NULL |  |  |
+| [VerticeTargetY](#verticetargety) | float |  |  | YES | NULL |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(10) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

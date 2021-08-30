@@ -2,7 +2,7 @@
 title: playerchoice_response_reward_item
 description: 
 published: true
-date: 2021-08-30T09:24:17.507Z
+date: 2021-08-30T20:38:02.294Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ChoiceId](#ChoiceId) | int(11) | signed | PRI | NO |  |  |  |
-| [ResponseId](#ResponseId) | int(11) | signed | PRI | NO |  |  |  |
-| [Index](#Index) | int(10) | unsigned |  | NO |  |  |  |
-| [ItemId](#ItemId) | int(10) | unsigned |  | NO | 0 |  |  |
-| [BonusListIDs](#BonusListIDs) | text |  |  | YES | NULL |  |  |
-| [Quantity](#Quantity) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(10) | signed |  | NO | 0 |  |  |
+| [ChoiceId](#choiceid) | int(11) | signed | PRI | NO |  |  |  |
+| [ResponseId](#responseid) | int(11) | signed | PRI | NO |  |  |  |
+| [Index](#index) | int(10) | unsigned |  | NO |  |  |  |
+| [ItemId](#itemid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [BonusListIDs](#bonuslistids) | text |  |  | YES | NULL |  |  |
+| [Quantity](#quantity) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(10) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

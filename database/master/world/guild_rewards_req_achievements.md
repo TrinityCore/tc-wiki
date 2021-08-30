@@ -2,7 +2,7 @@
 title: guild_rewards_req_achievements
 description: 
 published: true
-date: 2021-08-30T09:24:17.494Z
+date: 2021-08-30T20:38:02.282Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ItemID](#ItemID) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
-| [AchievementRequired](#AchievementRequired) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [ItemID](#itemid) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [AchievementRequired](#achievementrequired) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

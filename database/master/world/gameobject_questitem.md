@@ -2,7 +2,7 @@
 title: gameobject_questitem
 description: 
 published: true
-date: 2021-08-30T09:24:17.490Z
+date: 2021-08-30T20:38:02.277Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [GameObjectEntry](#GameObjectEntry) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Idx](#Idx) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ItemId](#ItemId) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(10) | signed |  | NO | 0 |  |  |
+| [GameObjectEntry](#gameobjectentry) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Idx](#idx) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ItemId](#itemid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(10) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

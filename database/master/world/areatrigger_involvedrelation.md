@@ -2,7 +2,7 @@
 title: areatrigger_involvedrelation
 description: 
 published: true
-date: 2021-08-30T09:24:17.467Z
+date: 2021-08-30T20:38:02.253Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z

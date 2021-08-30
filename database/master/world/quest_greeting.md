@@ -2,7 +2,7 @@
 title: quest_greeting
 description: 
 published: true
-date: 2021-08-30T09:24:17.512Z
+date: 2021-08-30T20:38:02.299Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
-| [Type](#Type) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
-| [GreetEmoteType](#GreetEmoteType) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [GreetEmoteDelay](#GreetEmoteDelay) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Greeting](#Greeting) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(10) | signed |  | NO | 0 |  |  |
+| [ID](#id) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [Type](#type) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
+| [GreetEmoteType](#greetemotetype) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [GreetEmoteDelay](#greetemotedelay) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Greeting](#greeting) | text |  |  | YES | NULL |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(10) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

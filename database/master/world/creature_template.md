@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2021-08-30T09:24:17.478Z
+date: 2021-08-30T20:38:02.264Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -18,19 +18,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [difficulty_entry_1](#difficulty_entry_1) | mediumint(8) | unsigned |  | NO | 0 |  |  |
 | [difficulty_entry_2](#difficulty_entry_2) | mediumint(8) | unsigned |  | NO | 0 |  |  |
 | [difficulty_entry_3](#difficulty_entry_3) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [KillCredit1](#KillCredit1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [KillCredit2](#KillCredit2) | int(10) | unsigned |  | NO | 0 |  |  |
+| [KillCredit1](#killcredit1) | int(10) | unsigned |  | NO | 0 |  |  |
+| [KillCredit2](#killcredit2) | int(10) | unsigned |  | NO | 0 |  |  |
 | [name](#name) | text |  |  | YES | NULL |  |  |
-| [femaleName](#femaleName) | text |  |  | YES | NULL |  |  |
+| [femaleName](#femalename) | text |  |  | YES | NULL |  |  |
 | [subname](#subname) | text |  |  | YES | NULL |  |  |
-| [TitleAlt](#TitleAlt) | text |  |  | YES | NULL |  |  |
-| [IconName](#IconName) | varchar(64) | signed |  | YES | NULL |  |  |
+| [TitleAlt](#titlealt) | text |  |  | YES | NULL |  |  |
+| [IconName](#iconname) | varchar(64) | signed |  | YES | NULL |  |  |
 | [gossip_menu_id](#gossip_menu_id) | mediumint(8) | unsigned |  | NO | 0 |  |  |
 | [minlevel](#minlevel) | smallint(5) | signed |  | NO | 1 |  |  |
 | [maxlevel](#maxlevel) | smallint(5) | signed |  | NO | 1 |  |  |
-| [HealthScalingExpansion](#HealthScalingExpansion) | mediumint(5) | signed |  | NO | 0 |  |  |
-| [RequiredExpansion](#RequiredExpansion) | mediumint(5) | signed |  | NO | 0 |  |  |
-| [VignetteID](#VignetteID) | mediumint(5) | signed |  | NO | 0 |  |  |
+| [HealthScalingExpansion](#healthscalingexpansion) | mediumint(5) | signed |  | NO | 0 |  |  |
+| [RequiredExpansion](#requiredexpansion) | mediumint(5) | signed |  | NO | 0 |  |  |
+| [VignetteID](#vignetteid) | mediumint(5) | signed |  | NO | 0 |  |  |
 | [faction](#faction) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [npcflag](#npcflag) | bigint(20) | unsigned |  | NO | 0 |  |  |
 | [speed_walk](#speed_walk) | float |  |  | NO | 1 |  | Result of 2.5/2.5, most common value |
@@ -38,10 +38,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [scale](#scale) | float |  |  | NO | 1 |  |  |
 | [rank](#rank) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [dmgschool](#dmgschool) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [BaseAttackTime](#BaseAttackTime) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RangeAttackTime](#RangeAttackTime) | int(10) | unsigned |  | NO | 0 |  |  |
-| [BaseVariance](#BaseVariance) | float |  |  | NO | 1 |  |  |
-| [RangeVariance](#RangeVariance) | float |  |  | NO | 1 |  |  |
+| [BaseAttackTime](#baseattacktime) | int(10) | unsigned |  | NO | 0 |  |  |
+| [RangeAttackTime](#rangeattacktime) | int(10) | unsigned |  | NO | 0 |  |  |
+| [BaseVariance](#basevariance) | float |  |  | NO | 1 |  |  |
+| [RangeVariance](#rangevariance) | float |  |  | NO | 1 |  |  |
 | [unit_class](#unit_class) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [unit_flags](#unit_flags) | int(10) | unsigned |  | NO | 0 |  |  |
 | [unit_flags2](#unit_flags2) | int(10) | unsigned |  | NO | 0 |  |  |
@@ -69,30 +69,30 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [spell6](#spell6) | mediumint(8) | unsigned |  | NO | 0 |  |  |
 | [spell7](#spell7) | mediumint(8) | unsigned |  | NO | 0 |  |  |
 | [spell8](#spell8) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [VehicleId](#VehicleId) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [VehicleId](#vehicleid) | mediumint(8) | unsigned |  | NO | 0 |  |  |
 | [mingold](#mingold) | mediumint(8) | unsigned |  | NO | 0 |  |  |
 | [maxgold](#maxgold) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [AIName](#AIName) | varchar(64) | signed |  | NO | '' |  |  |
-| [MovementType](#MovementType) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [HoverHeight](#HoverHeight) | float |  |  | NO | 1 |  |  |
-| [HealthModifier](#HealthModifier) | float |  |  | NO | 1 |  |  |
-| [HealthModifierExtra](#HealthModifierExtra) | float |  |  | NO | 1 |  |  |
-| [ManaModifier](#ManaModifier) | float |  |  | NO | 1 |  |  |
-| [ManaModifierExtra](#ManaModifierExtra) | float |  |  | NO | 1 |  |  |
-| [ArmorModifier](#ArmorModifier) | float |  |  | NO | 1 |  |  |
-| [DamageModifier](#DamageModifier) | float |  |  | NO | 1 |  |  |
-| [ExperienceModifier](#ExperienceModifier) | float |  |  | NO | 1 |  |  |
-| [RacialLeader](#RacialLeader) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [movementId](#movementId) | int(11) | unsigned |  | NO | 0 |  |  |
-| [CreatureDifficultyID](#CreatureDifficultyID) | int(11) | signed |  | NO | 0 |  |  |
-| [WidgetSetID](#WidgetSetID) | int(11) | signed |  | NO | 0 |  |  |
-| [WidgetSetUnitConditionID](#WidgetSetUnitConditionID) | int(11) | signed |  | NO | 0 |  |  |
-| [RegenHealth](#RegenHealth) | tinyint(3) | unsigned |  | NO | 1 |  |  |
+| [AIName](#ainame) | varchar(64) | signed |  | NO | '' |  |  |
+| [MovementType](#movementtype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [HoverHeight](#hoverheight) | float |  |  | NO | 1 |  |  |
+| [HealthModifier](#healthmodifier) | float |  |  | NO | 1 |  |  |
+| [HealthModifierExtra](#healthmodifierextra) | float |  |  | NO | 1 |  |  |
+| [ManaModifier](#manamodifier) | float |  |  | NO | 1 |  |  |
+| [ManaModifierExtra](#manamodifierextra) | float |  |  | NO | 1 |  |  |
+| [ArmorModifier](#armormodifier) | float |  |  | NO | 1 |  |  |
+| [DamageModifier](#damagemodifier) | float |  |  | NO | 1 |  |  |
+| [ExperienceModifier](#experiencemodifier) | float |  |  | NO | 1 |  |  |
+| [RacialLeader](#racialleader) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [movementId](#movementid) | int(11) | unsigned |  | NO | 0 |  |  |
+| [CreatureDifficultyID](#creaturedifficultyid) | int(11) | signed |  | NO | 0 |  |  |
+| [WidgetSetID](#widgetsetid) | int(11) | signed |  | NO | 0 |  |  |
+| [WidgetSetUnitConditionID](#widgetsetunitconditionid) | int(11) | signed |  | NO | 0 |  |  |
+| [RegenHealth](#regenhealth) | tinyint(3) | unsigned |  | NO | 1 |  |  |
 | [mechanic_immune_mask](#mechanic_immune_mask) | int(10) | unsigned |  | NO | 0 |  |  |
 | [spell_school_immune_mask](#spell_school_immune_mask) | int(3) | unsigned |  | NO | 0 |  |  |
 | [flags_extra](#flags_extra) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ScriptName](#ScriptName) | varchar(64) | signed |  | NO | '' |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ScriptName](#scriptname) | varchar(64) | signed |  | NO | '' |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

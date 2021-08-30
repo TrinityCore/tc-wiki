@@ -2,7 +2,7 @@
 title: achievement_reward_locale
 description: 
 published: true
-date: 2021-08-30T09:24:17.466Z
+date: 2021-08-30T20:38:02.252Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Locale](#Locale) | varchar(4) | signed | PRI | NO |  |  |  |
-| [Subject](#Subject) | text |  |  | YES | NULL |  |  |
-| [Body](#Body) | text |  |  | YES | NULL |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Locale](#locale) | varchar(4) | signed | PRI | NO |  |  |  |
+| [Subject](#subject) | text |  |  | YES | NULL |  |  |
+| [Body](#body) | text |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

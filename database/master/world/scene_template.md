@@ -2,7 +2,7 @@
 title: scene_template
 description: 
 published: true
-date: 2021-08-30T09:24:17.520Z
+date: 2021-08-30T20:38:02.307Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [SceneId](#SceneId) | int(10) | unsigned | PRI | NO |  |  |  |
-| [Flags](#Flags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ScriptPackageID](#ScriptPackageID) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Encrypted](#Encrypted) | tinyint(1) | unsigned |  | NO | 0 |  |  |
-| [ScriptName](#ScriptName) | varchar(64) | signed |  | NO | '' |  |  |
+| [SceneId](#sceneid) | int(10) | unsigned | PRI | NO |  |  |  |
+| [Flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ScriptPackageID](#scriptpackageid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Encrypted](#encrypted) | tinyint(1) | unsigned |  | NO | 0 |  |  |
+| [ScriptName](#scriptname) | varchar(64) | signed |  | NO | '' |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: script_spline_chain_meta
 description: 
 published: true
-date: 2021-08-30T09:24:17.520Z
+date: 2021-08-30T20:38:02.308Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,10 +15,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entry](#entry) | int(10) | unsigned | PRI | NO |  |  |  |
-| [chainId](#chainId) | smallint(5) | unsigned | PRI | NO |  |  |  |
-| [splineId](#splineId) | tinyint(3) | unsigned | PRI | NO |  |  |  |
-| [expectedDuration](#expectedDuration) | int(10) | unsigned |  | NO |  |  |  |
-| [msUntilNext](#msUntilNext) | int(10) | unsigned |  | NO |  |  |  |
+| [chainId](#chainid) | smallint(5) | unsigned | PRI | NO |  |  |  |
+| [splineId](#splineid) | tinyint(3) | unsigned | PRI | NO |  |  |  |
+| [expectedDuration](#expectedduration) | int(10) | unsigned |  | NO |  |  |  |
+| [msUntilNext](#msuntilnext) | int(10) | unsigned |  | NO |  |  |  |
 &nbsp;
 ## Description of fields
 

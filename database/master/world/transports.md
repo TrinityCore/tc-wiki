@@ -2,7 +2,7 @@
 title: transports
 description: 
 published: true
-date: 2021-08-30T09:24:17.532Z
+date: 2021-08-30T20:38:02.319Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -17,10 +17,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
 | [entry](#entry) | mediumint(8) | unsigned | UNI | NO | 0 |  |  |
 | [name](#name) | text |  |  | YES | NULL |  |  |
-| [phaseUseFlags](#phaseUseFlags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [phaseUseFlags](#phaseuseflags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [phaseid](#phaseid) | int(10) | signed |  | NO | 0 |  |  |
 | [phasegroup](#phasegroup) | int(10) | signed |  | NO | 0 |  |  |
-| [ScriptName](#ScriptName) | char(64) | signed |  | NO | '' |  |  |
+| [ScriptName](#scriptname) | char(64) | signed |  | NO | '' |  |  |
 &nbsp;
 ## Description of fields
 

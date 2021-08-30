@@ -2,7 +2,7 @@
 title: skill_extra_item_template
 description: 
 published: true
-date: 2021-08-30T09:24:17.522Z
+date: 2021-08-30T20:38:02.310Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [spellId](#spellId) | mediumint(8) | unsigned | PRI | NO | 0 |  | SpellId of the item creation spell |
-| [requiredSpecialization](#requiredSpecialization) | mediumint(8) | unsigned |  | NO | 0 |  | Specialization spell id |
-| [additionalCreateChance](#additionalCreateChance) | float |  |  | NO | 0 |  | chance to create add |
-| [additionalMaxNum](#additionalMaxNum) | tinyint(3) | unsigned |  | NO | 0 |  | max num of adds |
+| [spellId](#spellid) | mediumint(8) | unsigned | PRI | NO | 0 |  | SpellId of the item creation spell |
+| [requiredSpecialization](#requiredspecialization) | mediumint(8) | unsigned |  | NO | 0 |  | Specialization spell id |
+| [additionalCreateChance](#additionalcreatechance) | float |  |  | NO | 0 |  | chance to create add |
+| [additionalMaxNum](#additionalmaxnum) | tinyint(3) | unsigned |  | NO | 0 |  | max num of adds |
 &nbsp;
 ## Description of fields
 

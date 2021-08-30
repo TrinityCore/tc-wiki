@@ -2,7 +2,7 @@
 title: quest_request_items_locale
 description: 
 published: true
-date: 2021-08-30T09:24:17.515Z
+date: 2021-08-30T20:38:02.303Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) | signed | PRI | NO |  |  |  |
-| [CompletionText](#CompletionText) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(10) | signed |  | NO | 0 |  |  |
+| [CompletionText](#completiontext) | text |  |  | YES | NULL |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(10) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: quest_template_addon
 description: 
 published: true
-date: 2021-08-30T09:24:17.517Z
+date: 2021-08-30T20:38:02.304Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,24 +14,24 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
-| [MaxLevel](#MaxLevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [AllowableClasses](#AllowableClasses) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SourceSpellID](#SourceSpellID) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [PrevQuestID](#PrevQuestID) | mediumint(8) | signed |  | NO | 0 |  |  |
-| [NextQuestID](#NextQuestID) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [ExclusiveGroup](#ExclusiveGroup) | mediumint(8) | signed |  | NO | 0 |  |  |
-| [RewardMailTemplateID](#RewardMailTemplateID) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [RewardMailDelay](#RewardMailDelay) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RequiredSkillID](#RequiredSkillID) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [RequiredSkillPoints](#RequiredSkillPoints) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [RequiredMinRepFaction](#RequiredMinRepFaction) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [RequiredMaxRepFaction](#RequiredMaxRepFaction) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [RequiredMinRepValue](#RequiredMinRepValue) | mediumint(8) | signed |  | NO | 0 |  |  |
-| [RequiredMaxRepValue](#RequiredMaxRepValue) | mediumint(8) | signed |  | NO | 0 |  |  |
-| [ProvidedItemCount](#ProvidedItemCount) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SpecialFlags](#SpecialFlags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ScriptName](#ScriptName) | varchar(64) | signed |  | NO | '' |  |  |
+| [ID](#id) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [MaxLevel](#maxlevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [AllowableClasses](#allowableclasses) | int(10) | unsigned |  | NO | 0 |  |  |
+| [SourceSpellID](#sourcespellid) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [PrevQuestID](#prevquestid) | mediumint(8) | signed |  | NO | 0 |  |  |
+| [NextQuestID](#nextquestid) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [ExclusiveGroup](#exclusivegroup) | mediumint(8) | signed |  | NO | 0 |  |  |
+| [RewardMailTemplateID](#rewardmailtemplateid) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [RewardMailDelay](#rewardmaildelay) | int(10) | unsigned |  | NO | 0 |  |  |
+| [RequiredSkillID](#requiredskillid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [RequiredSkillPoints](#requiredskillpoints) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [RequiredMinRepFaction](#requiredminrepfaction) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [RequiredMaxRepFaction](#requiredmaxrepfaction) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [RequiredMinRepValue](#requiredminrepvalue) | mediumint(8) | signed |  | NO | 0 |  |  |
+| [RequiredMaxRepValue](#requiredmaxrepvalue) | mediumint(8) | signed |  | NO | 0 |  |  |
+| [ProvidedItemCount](#provideditemcount) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [SpecialFlags](#specialflags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ScriptName](#scriptname) | varchar(64) | signed |  | NO | '' |  |  |
 &nbsp;
 ## Description of fields
 

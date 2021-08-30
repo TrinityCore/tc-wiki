@@ -2,7 +2,7 @@
 title: scenarios
 description: 
 published: true
-date: 2021-08-30T09:24:17.520Z
+date: 2021-08-30T20:38:02.307Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,8 +16,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [map](#map) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [difficulty](#difficulty) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
-| [scenario_A](#scenario_A) | int(10) | unsigned |  | NO | 0 |  |  |
-| [scenario_H](#scenario_H) | int(10) | unsigned |  | NO | 0 |  |  |
+| [scenario_A](#scenario_a) | int(10) | unsigned |  | NO | 0 |  |  |
+| [scenario_H](#scenario_h) | int(10) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

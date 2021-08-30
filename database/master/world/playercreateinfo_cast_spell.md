@@ -2,7 +2,7 @@
 title: playercreateinfo_cast_spell
 description: 
 published: true
-date: 2021-08-30T09:24:17.509Z
+date: 2021-08-30T20:38:02.295Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [raceMask](#raceMask) | bigint(20) | unsigned | PRI | NO |  |  |  |
-| [classMask](#classMask) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [raceMask](#racemask) | bigint(20) | unsigned | PRI | NO |  |  |  |
+| [classMask](#classmask) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [spell](#spell) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
 | [note](#note) | varchar(255) | signed |  | YES | NULL |  |  |
 &nbsp;

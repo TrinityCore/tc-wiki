@@ -2,7 +2,7 @@
 title: quest_mail_sender
 description: 
 published: true
-date: 2021-08-30T09:24:17.513Z
+date: 2021-08-30T20:38:02.300Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [QuestId](#QuestId) | int(5) | unsigned | PRI | NO | 0 |  |  |
-| [RewardMailSenderEntry](#RewardMailSenderEntry) | int(5) | unsigned |  | NO | 0 |  |  |
+| [QuestId](#questid) | int(5) | unsigned | PRI | NO | 0 |  |  |
+| [RewardMailSenderEntry](#rewardmailsenderentry) | int(5) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

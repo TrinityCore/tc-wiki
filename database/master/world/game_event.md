@@ -2,7 +2,7 @@
 title: game_event
 description: 
 published: true
-date: 2021-08-30T09:24:17.483Z
+date: 2021-08-30T20:38:02.271Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [eventEntry](#eventEntry) | tinyint(3) | unsigned | PRI | NO |  |  | Entry of the game event |
+| [eventEntry](#evententry) | tinyint(3) | unsigned | PRI | NO |  |  | Entry of the game event |
 | [start_time](#start_time) | timestamp | signed |  | YES | NULL |  | Absolute start date, the event will never start before |
 | [end_time](#end_time) | timestamp | signed |  | YES | NULL |  | Absolute end date, the event will never start after |
 | [occurence](#occurence) | bigint(20) | unsigned |  | NO | 5184000 |  | Delay in minutes between occurences of the event |
 | [length](#length) | bigint(20) | unsigned |  | NO | 2592000 |  | Length in minutes of the event |
 | [holiday](#holiday) | mediumint(8) | unsigned |  | NO | 0 |  | Client side holiday id |
-| [holidayStage](#holidayStage) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [holidayStage](#holidaystage) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [description](#description) | varchar(255) | signed |  | YES | NULL |  | Description of the event displayed in console |
 | [world_event](#world_event) | tinyint(3) | unsigned |  | NO | 0 |  | 0 if normal event, 1 if world event |
 | [announce](#announce) | tinyint(3) | unsigned |  | YES | 2 |  | 0 dont announce, 1 announce, 2 value from config |

@@ -2,7 +2,7 @@
 title: disables
 description: 
 published: true
-date: 2021-08-30T09:24:17.481Z
+date: 2021-08-30T20:38:02.268Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [sourceType](#sourceType) | int(10) | unsigned | PRI | NO |  |  |  |
+| [sourceType](#sourcetype) | int(10) | unsigned | PRI | NO |  |  |  |
 | [entry](#entry) | int(10) | unsigned | PRI | NO |  |  |  |
 | [flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [params_0](#params_0) | varchar(255) | signed |  | NO | '' |  |  |

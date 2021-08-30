@@ -2,7 +2,7 @@
 title: scenario_poi
 description: 
 published: true
-date: 2021-08-30T09:24:17.519Z
+date: 2021-08-30T20:38:02.306Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,17 +14,17 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [CriteriaTreeID](#CriteriaTreeID) | int(11) | signed | PRI | NO | 0 |  |  |
-| [BlobIndex](#BlobIndex) | int(11) | signed | PRI | NO | 0 |  |  |
-| [Idx1](#Idx1) | int(11) | signed | PRI | NO | 0 |  |  |
-| [MapID](#MapID) | int(11) | signed |  | NO | 0 |  |  |
-| [UiMapID](#UiMapID) | int(11) | signed |  | NO | 0 |  |  |
-| [Priority](#Priority) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags](#Flags) | int(11) | signed |  | NO | 0 |  |  |
-| [WorldEffectID](#WorldEffectID) | int(11) | signed |  | NO | 0 |  |  |
-| [PlayerConditionID](#PlayerConditionID) | int(11) | signed |  | NO | 0 |  |  |
-| [NavigationPlayerConditionID](#NavigationPlayerConditionID) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [CriteriaTreeID](#criteriatreeid) | int(11) | signed | PRI | NO | 0 |  |  |
+| [BlobIndex](#blobindex) | int(11) | signed | PRI | NO | 0 |  |  |
+| [Idx1](#idx1) | int(11) | signed | PRI | NO | 0 |  |  |
+| [MapID](#mapid) | int(11) | signed |  | NO | 0 |  |  |
+| [UiMapID](#uimapid) | int(11) | signed |  | NO | 0 |  |  |
+| [Priority](#priority) | int(11) | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
+| [WorldEffectID](#worldeffectid) | int(11) | signed |  | NO | 0 |  |  |
+| [PlayerConditionID](#playerconditionid) | int(11) | signed |  | NO | 0 |  |  |
+| [NavigationPlayerConditionID](#navigationplayerconditionid) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

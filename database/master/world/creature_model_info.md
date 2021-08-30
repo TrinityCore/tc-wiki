@@ -2,7 +2,7 @@
 title: creature_model_info
 description: 
 published: true
-date: 2021-08-30T09:24:17.476Z
+date: 2021-08-30T20:38:02.262Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [DisplayID](#DisplayID) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
-| [BoundingRadius](#BoundingRadius) | float |  |  | NO | 0 |  |  |
-| [CombatReach](#CombatReach) | float |  |  | NO | 0 |  |  |
-| [DisplayID_Other_Gender](#DisplayID_Other_Gender) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [DisplayID](#displayid) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [BoundingRadius](#boundingradius) | float |  |  | NO | 0 |  |  |
+| [CombatReach](#combatreach) | float |  |  | NO | 0 |  |  |
+| [DisplayID_Other_Gender](#displayid_other_gender) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

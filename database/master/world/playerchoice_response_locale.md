@@ -2,7 +2,7 @@
 title: playerchoice_response_locale
 description: 
 published: true
-date: 2021-08-30T09:24:17.506Z
+date: 2021-08-30T20:38:02.293Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,16 +14,16 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ChoiceId](#ChoiceId) | int(11) | signed | PRI | NO |  |  |  |
-| [ResponseId](#ResponseId) | int(11) | signed | PRI | NO |  |  |  |
+| [ChoiceId](#choiceid) | int(11) | signed | PRI | NO |  |  |  |
+| [ResponseId](#responseid) | int(11) | signed | PRI | NO |  |  |  |
 | [locale](#locale) | varchar(4) | signed | PRI | NO |  |  |  |
-| [Header](#Header) | varchar(511) | signed |  | NO | '' |  |  |
-| [SubHeader](#SubHeader) | varchar(100) | signed |  | NO | '' |  |  |
-| [ButtonTooltip](#ButtonTooltip) | varchar(400) | signed |  | NO | '' |  |  |
-| [Answer](#Answer) | varchar(511) | signed |  | NO | '' |  |  |
-| [Description](#Description) | varchar(2047) | signed |  | NO | '' |  |  |
-| [Confirmation](#Confirmation) | varchar(127) | signed |  | NO | '' |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(10) | signed |  | NO | 0 |  |  |
+| [Header](#header) | varchar(511) | signed |  | NO | '' |  |  |
+| [SubHeader](#subheader) | varchar(100) | signed |  | NO | '' |  |  |
+| [ButtonTooltip](#buttontooltip) | varchar(400) | signed |  | NO | '' |  |  |
+| [Answer](#answer) | varchar(511) | signed |  | NO | '' |  |  |
+| [Description](#description) | varchar(2047) | signed |  | NO | '' |  |  |
+| [Confirmation](#confirmation) | varchar(127) | signed |  | NO | '' |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(10) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

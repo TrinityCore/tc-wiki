@@ -2,7 +2,7 @@
 title: gossip_menu
 description: 
 published: true
-date: 2021-08-30T09:24:17.492Z
+date: 2021-08-30T20:38:02.280Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [MenuId](#MenuId) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [TextId](#TextId) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(10) | signed |  | NO | 0 |  |  |
+| [MenuId](#menuid) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [TextId](#textid) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(10) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

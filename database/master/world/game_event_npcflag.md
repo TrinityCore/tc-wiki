@@ -2,7 +2,7 @@
 title: game_event_npcflag
 description: 
 published: true
-date: 2021-08-30T09:24:17.486Z
+date: 2021-08-30T20:38:02.274Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [eventEntry](#eventEntry) | tinyint(3) | unsigned | PRI | NO |  |  | Entry of the game event |
+| [eventEntry](#evententry) | tinyint(3) | unsigned | PRI | NO |  |  | Entry of the game event |
 | [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
 | [npcflag](#npcflag) | bigint(20) | unsigned |  | NO | 0 |  |  |
 &nbsp;

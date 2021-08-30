@@ -2,7 +2,7 @@
 title: conversation_template
 description: 
 published: true
-date: 2021-08-30T09:24:17.473Z
+date: 2021-08-30T20:38:02.260Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Id](#Id) | int(10) | unsigned | PRI | NO |  |  |  |
-| [FirstLineId](#FirstLineId) | int(10) | unsigned |  | NO |  |  |  |
-| [LastLineEndTime](#LastLineEndTime) | int(10) | unsigned |  | NO |  |  |  |
-| [TextureKitId](#TextureKitId) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ScriptName](#ScriptName) | varchar(64) | signed |  | NO | '' |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Id](#id) | int(10) | unsigned | PRI | NO |  |  |  |
+| [FirstLineId](#firstlineid) | int(10) | unsigned |  | NO |  |  |  |
+| [LastLineEndTime](#lastlineendtime) | int(10) | unsigned |  | NO |  |  |  |
+| [TextureKitId](#texturekitid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ScriptName](#scriptname) | varchar(64) | signed |  | NO | '' |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(10) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: spell_pet_auras
 description: 
 published: true
-date: 2021-08-30T09:24:17.528Z
+date: 2021-08-30T20:38:02.315Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,7 +15,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [spell](#spell) | mediumint(8) | unsigned | PRI | NO |  |  | dummy spell id |
-| [effectId](#effectId) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
+| [effectId](#effectid) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
 | [pet](#pet) | mediumint(8) | unsigned | PRI | NO | 0 |  | pet id; 0 = all |
 | [aura](#aura) | mediumint(8) | unsigned |  | NO |  |  | pet aura id |
 &nbsp;

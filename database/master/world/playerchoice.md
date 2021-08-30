@@ -2,7 +2,7 @@
 title: playerchoice
 description: 
 published: true
-date: 2021-08-30T09:24:17.505Z
+date: 2021-08-30T20:38:02.292Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ChoiceId](#ChoiceId) | int(11) | signed | PRI | NO |  |  |  |
-| [UiTextureKitId](#UiTextureKitId) | int(11) | signed |  | NO | 0 |  |  |
-| [SoundKitId](#SoundKitId) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Question](#Question) | varchar(255) | signed |  | YES | NULL |  |  |
-| [HideWarboardHeader](#HideWarboardHeader) | tinyint(1) | signed |  | NO | 0 |  |  |
-| [KeepOpenAfterChoice](#KeepOpenAfterChoice) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(10) | signed |  | NO | 0 |  |  |
+| [ChoiceId](#choiceid) | int(11) | signed | PRI | NO |  |  |  |
+| [UiTextureKitId](#uitexturekitid) | int(11) | signed |  | NO | 0 |  |  |
+| [SoundKitId](#soundkitid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Question](#question) | varchar(255) | signed |  | YES | NULL |  |  |
+| [HideWarboardHeader](#hidewarboardheader) | tinyint(1) | signed |  | NO | 0 |  |  |
+| [KeepOpenAfterChoice](#keepopenafterchoice) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(10) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

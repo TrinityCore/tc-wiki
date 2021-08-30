@@ -2,7 +2,7 @@
 title: spell_areatrigger_splines
 description: 
 published: true
-date: 2021-08-30T09:24:17.526Z
+date: 2021-08-30T20:38:02.313Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [SpellMiscId](#SpellMiscId) | int(10) | unsigned | PRI | NO |  |  |  |
-| [Idx](#Idx) | int(10) | unsigned | PRI | NO |  |  |  |
-| [X](#X) | float |  |  | NO | 0 |  |  |
-| [Y](#Y) | float |  |  | NO | 0 |  |  |
-| [Z](#Z) | float |  |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(10) | unsigned |  | NO | 0 |  |  |
+| [SpellMiscId](#spellmiscid) | int(10) | unsigned | PRI | NO |  |  |  |
+| [Idx](#idx) | int(10) | unsigned | PRI | NO |  |  |  |
+| [X](#x) | float |  |  | NO | 0 |  |  |
+| [Y](#y) | float |  |  | NO | 0 |  |  |
+| [Z](#z) | float |  |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(10) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

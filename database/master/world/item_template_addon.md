@@ -2,7 +2,7 @@
 title: item_template_addon
 description: 
 published: true
-date: 2021-08-30T09:24:17.497Z
+date: 2021-08-30T20:38:02.284Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Id](#Id) | int(10) | unsigned | PRI | NO |  |  |  |
-| [FlagsCu](#FlagsCu) | int(10) | unsigned |  | NO | 0 |  |  |
-| [FoodType](#FoodType) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MinMoneyLoot](#MinMoneyLoot) | int(10) | unsigned |  | NO | 0 |  |  |
-| [MaxMoneyLoot](#MaxMoneyLoot) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SpellPPMChance](#SpellPPMChance) | float | unsigned |  | NO | 0 |  |  |
-| [RandomBonusListTemplateId](#RandomBonusListTemplateId) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Id](#id) | int(10) | unsigned | PRI | NO |  |  |  |
+| [FlagsCu](#flagscu) | int(10) | unsigned |  | NO | 0 |  |  |
+| [FoodType](#foodtype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [MinMoneyLoot](#minmoneyloot) | int(10) | unsigned |  | NO | 0 |  |  |
+| [MaxMoneyLoot](#maxmoneyloot) | int(10) | unsigned |  | NO | 0 |  |  |
+| [SpellPPMChance](#spellppmchance) | float | unsigned |  | NO | 0 |  |  |
+| [RandomBonusListTemplateId](#randombonuslisttemplateid) | int(10) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

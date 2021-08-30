@@ -2,7 +2,7 @@
 title: areatrigger_template
 description: 
 published: true
-date: 2021-08-30T09:24:17.468Z
+date: 2021-08-30T20:38:02.254Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Id](#Id) | int(10) | unsigned | PRI | NO |  |  |  |
-| [IsServerSide](#IsServerSide) | tinyint(1) | unsigned | PRI | NO |  |  |  |
-| [Type](#Type) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Flags](#Flags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Data0](#Data0) | float |  |  | NO | 0 |  |  |
-| [Data1](#Data1) | float |  |  | NO | 0 |  |  |
-| [Data2](#Data2) | float |  |  | NO | 0 |  |  |
-| [Data3](#Data3) | float |  |  | NO | 0 |  |  |
-| [Data4](#Data4) | float |  |  | NO | 0 |  |  |
-| [Data5](#Data5) | float |  |  | NO | 0 |  |  |
-| [ScriptName](#ScriptName) | char(64) | signed |  | NO | '' |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Id](#id) | int(10) | unsigned | PRI | NO |  |  |  |
+| [IsServerSide](#isserverside) | tinyint(1) | unsigned | PRI | NO |  |  |  |
+| [Type](#type) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Data0](#data0) | float |  |  | NO | 0 |  |  |
+| [Data1](#data1) | float |  |  | NO | 0 |  |  |
+| [Data2](#data2) | float |  |  | NO | 0 |  |  |
+| [Data3](#data3) | float |  |  | NO | 0 |  |  |
+| [Data4](#data4) | float |  |  | NO | 0 |  |  |
+| [Data5](#data5) | float |  |  | NO | 0 |  |  |
+| [ScriptName](#scriptname) | char(64) | signed |  | NO | '' |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(10) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

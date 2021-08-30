@@ -2,7 +2,7 @@
 title: battle_pet_quality
 description: 
 published: true
-date: 2021-08-30T09:24:17.470Z
+date: 2021-08-30T20:38:02.256Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [speciesId](#speciesId) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [speciesId](#speciesid) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [quality](#quality) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

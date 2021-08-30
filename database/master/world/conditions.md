@@ -2,7 +2,7 @@
 title: conditions
 description: 
 published: true
-date: 2021-08-30T09:24:17.472Z
+date: 2021-08-30T20:38:02.259Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,21 +14,21 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [SourceTypeOrReferenceId](#SourceTypeOrReferenceId) | mediumint(8) | signed | PRI | NO | 0 |  |  |
-| [SourceGroup](#SourceGroup) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
-| [SourceEntry](#SourceEntry) | mediumint(8) | signed | PRI | NO | 0 |  |  |
-| [SourceId](#SourceId) | int(11) | signed | PRI | NO | 0 |  |  |
-| [ElseGroup](#ElseGroup) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
-| [ConditionTypeOrReference](#ConditionTypeOrReference) | mediumint(8) | signed | PRI | NO | 0 |  |  |
-| [ConditionTarget](#ConditionTarget) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
-| [ConditionValue1](#ConditionValue1) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ConditionValue2](#ConditionValue2) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ConditionValue3](#ConditionValue3) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [NegativeCondition](#NegativeCondition) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ErrorType](#ErrorType) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [ErrorTextId](#ErrorTextId) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [ScriptName](#ScriptName) | char(64) | signed |  | NO | '' |  |  |
-| [Comment](#Comment) | varchar(255) | signed |  | YES | NULL |  |  |
+| [SourceTypeOrReferenceId](#sourcetypeorreferenceid) | mediumint(8) | signed | PRI | NO | 0 |  |  |
+| [SourceGroup](#sourcegroup) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [SourceEntry](#sourceentry) | mediumint(8) | signed | PRI | NO | 0 |  |  |
+| [SourceId](#sourceid) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ElseGroup](#elsegroup) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [ConditionTypeOrReference](#conditiontypeorreference) | mediumint(8) | signed | PRI | NO | 0 |  |  |
+| [ConditionTarget](#conditiontarget) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
+| [ConditionValue1](#conditionvalue1) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ConditionValue2](#conditionvalue2) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ConditionValue3](#conditionvalue3) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [NegativeCondition](#negativecondition) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ErrorType](#errortype) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [ErrorTextId](#errortextid) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [ScriptName](#scriptname) | char(64) | signed |  | NO | '' |  |  |
+| [Comment](#comment) | varchar(255) | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

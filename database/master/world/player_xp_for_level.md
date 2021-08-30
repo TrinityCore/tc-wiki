@@ -2,7 +2,7 @@
 title: player_xp_for_level
 description: 
 published: true
-date: 2021-08-30T09:24:17.504Z
+date: 2021-08-30T20:38:02.292Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Level](#Level) | tinyint(3) | unsigned | PRI | NO |  |  |  |
-| [Experience](#Experience) | float | unsigned |  | NO |  |  |  |
+| [Level](#level) | tinyint(3) | unsigned | PRI | NO |  |  |  |
+| [Experience](#experience) | float | unsigned |  | NO |  |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: spell_script_names
 description: 
 published: true
-date: 2021-08-30T09:24:17.529Z
+date: 2021-08-30T20:38:02.316Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,7 +15,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [spell_id](#spell_id) | int(11) | signed | PRI | NO |  |  |  |
-| [ScriptName](#ScriptName) | char(64) | signed | PRI | NO |  |  |  |
+| [ScriptName](#scriptname) | char(64) | signed | PRI | NO |  |  |  |
 &nbsp;
 ## Description of fields
 

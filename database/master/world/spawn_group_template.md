@@ -2,7 +2,7 @@
 title: spawn_group_template
 description: 
 published: true
-date: 2021-08-30T09:24:17.525Z
+date: 2021-08-30T20:38:02.312Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [groupId](#groupId) | int(10) | unsigned | PRI | NO |  |  |  |
-| [groupName](#groupName) | varchar(100) | signed |  | NO |  |  |  |
-| [groupFlags](#groupFlags) | int(10) | unsigned |  | NO | 0 |  |  |
+| [groupId](#groupid) | int(10) | unsigned | PRI | NO |  |  |  |
+| [groupName](#groupname) | varchar(100) | signed |  | NO |  |  |  |
+| [groupFlags](#groupflags) | int(10) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

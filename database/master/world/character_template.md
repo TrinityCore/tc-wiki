@@ -2,7 +2,7 @@
 title: character_template
 description: 
 published: true
-date: 2021-08-30T09:24:17.471Z
+date: 2021-08-30T20:38:02.257Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Id](#Id) | int(10) | unsigned | PRI | NO |  |  |  |
-| [Name](#Name) | varchar(70) | signed |  | NO |  |  |  |
-| [Description](#Description) | varchar(100) | signed |  | NO |  |  |  |
-| [Level](#Level) | tinyint(3) | unsigned |  | NO | 1 |  |  |
+| [Id](#id) | int(10) | unsigned | PRI | NO |  |  |  |
+| [Name](#name) | varchar(70) | signed |  | NO |  |  |  |
+| [Description](#description) | varchar(100) | signed |  | NO |  |  |  |
+| [Level](#level) | tinyint(3) | unsigned |  | NO | 1 |  |  |
 &nbsp;
 ## Description of fields
 

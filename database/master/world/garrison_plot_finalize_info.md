@@ -2,7 +2,7 @@
 title: garrison_plot_finalize_info
 description: 
 published: true
-date: 2021-08-30T09:24:17.492Z
+date: 2021-08-30T20:38:02.279Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,19 +14,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [garrPlotInstanceId](#garrPlotInstanceId) | int(10) | unsigned | PRI | NO |  |  |  |
-| [hordeGameObjectId](#hordeGameObjectId) | int(10) | unsigned |  | NO | 0 |  |  |
-| [hordeX](#hordeX) | float |  |  | NO | 0 |  |  |
-| [hordeY](#hordeY) | float |  |  | NO | 0 |  |  |
-| [hordeZ](#hordeZ) | float |  |  | NO | 0 |  |  |
-| [hordeO](#hordeO) | float |  |  | NO | 0 |  |  |
-| [hordeAnimKitId](#hordeAnimKitId) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [allianceGameObjectId](#allianceGameObjectId) | int(10) | unsigned |  | NO | 0 |  |  |
-| [allianceX](#allianceX) | float |  |  | NO | 0 |  |  |
-| [allianceY](#allianceY) | float |  |  | NO | 0 |  |  |
-| [allianceZ](#allianceZ) | float |  |  | NO | 0 |  |  |
-| [allianceO](#allianceO) | float |  |  | NO | 0 |  |  |
-| [allianceAnimKitId](#allianceAnimKitId) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [garrPlotInstanceId](#garrplotinstanceid) | int(10) | unsigned | PRI | NO |  |  |  |
+| [hordeGameObjectId](#hordegameobjectid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [hordeX](#hordex) | float |  |  | NO | 0 |  |  |
+| [hordeY](#hordey) | float |  |  | NO | 0 |  |  |
+| [hordeZ](#hordez) | float |  |  | NO | 0 |  |  |
+| [hordeO](#hordeo) | float |  |  | NO | 0 |  |  |
+| [hordeAnimKitId](#hordeanimkitid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [allianceGameObjectId](#alliancegameobjectid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [allianceX](#alliancex) | float |  |  | NO | 0 |  |  |
+| [allianceY](#alliancey) | float |  |  | NO | 0 |  |  |
+| [allianceZ](#alliancez) | float |  |  | NO | 0 |  |  |
+| [allianceO](#allianceo) | float |  |  | NO | 0 |  |  |
+| [allianceAnimKitId](#allianceanimkitid) | smallint(5) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

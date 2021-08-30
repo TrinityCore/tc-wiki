@@ -2,7 +2,7 @@
 title: creature_equip_template
 description: 
 published: true
-date: 2021-08-30T09:24:17.475Z
+date: 2021-08-30T20:38:02.261Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [CreatureID](#CreatureID) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
-| [ID](#ID) | tinyint(3) | unsigned | PRI | NO | 1 |  |  |
-| [ItemID1](#ItemID1) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [AppearanceModID1](#AppearanceModID1) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ItemVisual1](#ItemVisual1) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ItemID2](#ItemID2) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [AppearanceModID2](#AppearanceModID2) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ItemVisual2](#ItemVisual2) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ItemID3](#ItemID3) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [AppearanceModID3](#AppearanceModID3) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ItemVisual3](#ItemVisual3) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [CreatureID](#creatureid) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | tinyint(3) | unsigned | PRI | NO | 1 |  |  |
+| [ItemID1](#itemid1) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [AppearanceModID1](#appearancemodid1) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ItemVisual1](#itemvisual1) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ItemID2](#itemid2) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [AppearanceModID2](#appearancemodid2) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ItemVisual2](#itemvisual2) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ItemID3](#itemid3) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [AppearanceModID3](#appearancemodid3) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ItemVisual3](#itemvisual3) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

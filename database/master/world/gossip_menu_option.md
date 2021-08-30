@@ -2,7 +2,7 @@
 title: gossip_menu_option
 description: 
 published: true
-date: 2021-08-30T09:24:17.492Z
+date: 2021-08-30T20:38:02.280Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,14 +14,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [MenuId](#MenuId) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [OptionIndex](#OptionIndex) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [OptionIcon](#OptionIcon) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [OptionText](#OptionText) | text |  |  | YES | NULL |  |  |
-| [OptionBroadcastTextId](#OptionBroadcastTextId) | int(11) | unsigned |  | NO | 0 |  |  |
-| [OptionType](#OptionType) | int(11) | unsigned |  | NO | 0 |  |  |
-| [OptionNpcFlag](#OptionNpcFlag) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(10) | signed |  | NO | 0 |  |  |
+| [MenuId](#menuid) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [OptionIndex](#optionindex) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [OptionIcon](#optionicon) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [OptionText](#optiontext) | text |  |  | YES | NULL |  |  |
+| [OptionBroadcastTextId](#optionbroadcasttextid) | int(11) | unsigned |  | NO | 0 |  |  |
+| [OptionType](#optiontype) | int(11) | unsigned |  | NO | 0 |  |  |
+| [OptionNpcFlag](#optionnpcflag) | bigint(20) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(10) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: instance_encounters
 description: 
 published: true
-date: 2021-08-30T09:24:17.494Z
+date: 2021-08-30T20:38:02.282Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,9 +15,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entry](#entry) | int(10) | unsigned | PRI | NO |  |  | Unique entry from DungeonEncounter.dbc |
-| [creditType](#creditType) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [creditEntry](#creditEntry) | int(10) | unsigned |  | NO | 0 |  |  |
-| [lastEncounterDungeon](#lastEncounterDungeon) | smallint(5) | unsigned |  | NO | 0 |  | If not 0, LfgDungeon.dbc entry for the instance it is last encounter in |
+| [creditType](#credittype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [creditEntry](#creditentry) | int(10) | unsigned |  | NO | 0 |  |  |
+| [lastEncounterDungeon](#lastencounterdungeon) | smallint(5) | unsigned |  | NO | 0 |  | If not 0, LfgDungeon.dbc entry for the instance it is last encounter in |
 | [comment](#comment) | varchar(255) | signed |  | NO | '' |  |  |
 &nbsp;
 ## Description of fields

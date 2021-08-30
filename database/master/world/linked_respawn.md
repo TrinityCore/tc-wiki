@@ -2,7 +2,7 @@
 title: linked_respawn
 description: 
 published: true
-date: 2021-08-30T09:24:17.498Z
+date: 2021-08-30T20:38:02.285Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,8 +15,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
-| [linkedGuid](#linkedGuid) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [linkType](#linkType) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
+| [linkedGuid](#linkedguid) | bigint(20) | unsigned |  | NO | 0 |  |  |
+| [linkType](#linktype) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

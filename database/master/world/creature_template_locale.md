@@ -2,7 +2,7 @@
 title: creature_template_locale
 description: 
 published: true
-date: 2021-08-30T09:24:17.478Z
+date: 2021-08-30T20:38:02.265Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,11 +16,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entry](#entry) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) | signed | PRI | NO |  |  |  |
-| [Name](#Name) | text |  |  | YES | NULL |  |  |
-| [NameAlt](#NameAlt) | text |  |  | YES | NULL |  |  |
-| [Title](#Title) | text |  |  | YES | NULL |  |  |
-| [TitleAlt](#TitleAlt) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [NameAlt](#namealt) | text |  |  | YES | NULL |  |  |
+| [Title](#title) | text |  |  | YES | NULL |  |  |
+| [TitleAlt](#titlealt) | text |  |  | YES | NULL |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

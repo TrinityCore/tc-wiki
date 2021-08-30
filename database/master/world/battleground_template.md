@@ -2,7 +2,7 @@
 title: battleground_template
 description: 
 published: true
-date: 2021-08-30T09:24:17.470Z
+date: 2021-08-30T20:38:02.256Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#ID) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
-| [AllianceStartLoc](#AllianceStartLoc) | mediumint(8) | unsigned |  | NO |  |  |  |
-| [HordeStartLoc](#HordeStartLoc) | mediumint(8) | unsigned |  | NO |  |  |  |
-| [StartMaxDist](#StartMaxDist) | float |  |  | NO | 0 |  |  |
-| [Weight](#Weight) | tinyint(3) | unsigned |  | NO | 1 |  |  |
-| [ScriptName](#ScriptName) | char(64) | signed |  | NO | '' |  |  |
-| [Comment](#Comment) | char(32) | signed |  | NO |  |  |  |
+| [ID](#id) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [AllianceStartLoc](#alliancestartloc) | mediumint(8) | unsigned |  | NO |  |  |  |
+| [HordeStartLoc](#hordestartloc) | mediumint(8) | unsigned |  | NO |  |  |  |
+| [StartMaxDist](#startmaxdist) | float |  |  | NO | 0 |  |  |
+| [Weight](#weight) | tinyint(3) | unsigned |  | NO | 1 |  |  |
+| [ScriptName](#scriptname) | char(64) | signed |  | NO | '' |  |  |
+| [Comment](#comment) | char(32) | signed |  | NO |  |  |  |
 &nbsp;
 ## Description of fields
 

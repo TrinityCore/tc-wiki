@@ -2,7 +2,7 @@
 title: spell_areatrigger
 description: 
 published: true
-date: 2021-08-30T09:24:17.525Z
+date: 2021-08-30T20:38:02.313Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [SpellMiscId](#SpellMiscId) | int(10) | unsigned | PRI | NO |  |  |  |
-| [AreaTriggerId](#AreaTriggerId) | int(10) | unsigned |  | NO |  |  |  |
-| [MoveCurveId](#MoveCurveId) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ScaleCurveId](#ScaleCurveId) | int(10) | unsigned |  | NO | 0 |  |  |
-| [MorphCurveId](#MorphCurveId) | int(10) | unsigned |  | NO | 0 |  |  |
-| [FacingCurveId](#FacingCurveId) | int(10) | unsigned |  | NO | 0 |  |  |
-| [AnimId](#AnimId) | int(11) | signed |  | NO | 0 |  |  |
-| [AnimKitId](#AnimKitId) | int(11) | signed |  | NO | 0 |  |  |
-| [DecalPropertiesId](#DecalPropertiesId) | int(10) | unsigned |  | NO | 0 |  |  |
-| [TimeToTarget](#TimeToTarget) | int(10) | unsigned |  | NO | 0 |  |  |
-| [TimeToTargetScale](#TimeToTargetScale) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(10) | unsigned |  | NO | 0 |  |  |
+| [SpellMiscId](#spellmiscid) | int(10) | unsigned | PRI | NO |  |  |  |
+| [AreaTriggerId](#areatriggerid) | int(10) | unsigned |  | NO |  |  |  |
+| [MoveCurveId](#movecurveid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ScaleCurveId](#scalecurveid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [MorphCurveId](#morphcurveid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [FacingCurveId](#facingcurveid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [AnimId](#animid) | int(11) | signed |  | NO | 0 |  |  |
+| [AnimKitId](#animkitid) | int(11) | signed |  | NO | 0 |  |  |
+| [DecalPropertiesId](#decalpropertiesid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [TimeToTarget](#timetotarget) | int(10) | unsigned |  | NO | 0 |  |  |
+| [TimeToTargetScale](#timetotargetscale) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(10) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

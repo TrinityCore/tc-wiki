@@ -2,7 +2,7 @@
 title: terrain_worldmap
 description: 
 published: true
-date: 2021-08-30T09:24:17.531Z
+date: 2021-08-30T20:38:02.318Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [TerrainSwapMap](#TerrainSwapMap) | int(10) | unsigned | PRI | NO |  |  |  |
-| [UiMapPhaseId](#UiMapPhaseId) | int(10) | unsigned | PRI | NO |  |  |  |
-| [Comment](#Comment) | varchar(255) | signed |  | YES | NULL |  |  |
+| [TerrainSwapMap](#terrainswapmap) | int(10) | unsigned | PRI | NO |  |  |  |
+| [UiMapPhaseId](#uimapphaseid) | int(10) | unsigned | PRI | NO |  |  |  |
+| [Comment](#comment) | varchar(255) | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

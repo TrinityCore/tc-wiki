@@ -2,7 +2,7 @@
 title: scenario_poi_points
 description: 
 published: true
-date: 2021-08-30T09:24:17.519Z
+date: 2021-08-30T20:38:02.307Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [CriteriaTreeID](#CriteriaTreeID) | int(11) | signed | PRI | NO | 0 |  |  |
-| [Idx1](#Idx1) | int(11) | signed | PRI | NO | 0 |  |  |
-| [Idx2](#Idx2) | int(11) | signed | PRI | NO | 0 |  |  |
-| [X](#X) | int(11) | signed |  | NO | 0 |  |  |
-| [Y](#Y) | int(11) | signed |  | NO | 0 |  |  |
-| [Z](#Z) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [CriteriaTreeID](#criteriatreeid) | int(11) | signed | PRI | NO | 0 |  |  |
+| [Idx1](#idx1) | int(11) | signed | PRI | NO | 0 |  |  |
+| [Idx2](#idx2) | int(11) | signed | PRI | NO | 0 |  |  |
+| [X](#x) | int(11) | signed |  | NO | 0 |  |  |
+| [Y](#y) | int(11) | signed |  | NO | 0 |  |  |
+| [Z](#z) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

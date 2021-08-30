@@ -2,7 +2,7 @@
 title: outdoorpvp_template
 description: 
 published: true
-date: 2021-08-30T09:24:17.500Z
+date: 2021-08-30T20:38:02.288Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [TypeId](#TypeId) | tinyint(3) | unsigned | PRI | NO |  |  |  |
-| [ScriptName](#ScriptName) | char(64) | signed |  | NO | '' |  |  |
+| [TypeId](#typeid) | tinyint(3) | unsigned | PRI | NO |  |  |  |
+| [ScriptName](#scriptname) | char(64) | signed |  | NO | '' |  |  |
 | [comment](#comment) | text |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields

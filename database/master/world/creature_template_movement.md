@@ -2,7 +2,7 @@
 title: creature_template_movement
 description: 
 published: true
-date: 2021-08-30T09:24:17.479Z
+date: 2021-08-30T20:38:02.266Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [CreatureId](#CreatureId) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Ground](#Ground) | tinyint(3) | unsigned |  | NO | 1 |  |  |
-| [Swim](#Swim) | tinyint(3) | unsigned |  | NO | 1 |  |  |
-| [Flight](#Flight) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Rooted](#Rooted) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [CreatureId](#creatureid) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Ground](#ground) | tinyint(3) | unsigned |  | NO | 1 |  |  |
+| [Swim](#swim) | tinyint(3) | unsigned |  | NO | 1 |  |  |
+| [Flight](#flight) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Rooted](#rooted) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

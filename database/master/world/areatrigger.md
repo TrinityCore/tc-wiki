@@ -2,7 +2,7 @@
 title: areatrigger
 description: 
 published: true
-date: 2021-08-30T09:24:17.466Z
+date: 2021-08-30T20:38:02.252Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [SpawnId](#SpawnId) | bigint(20) | unsigned | PRI | NO |  |  |  |
-| [AreaTriggerId](#AreaTriggerId) | int(10) | unsigned |  | NO |  |  |  |
-| [IsServerSide](#IsServerSide) | tinyint(1) | unsigned |  | NO |  |  |  |
-| [MapId](#MapId) | int(10) | unsigned |  | NO |  |  |  |
-| [PosX](#PosX) | float |  |  | NO |  |  |  |
-| [PosY](#PosY) | float |  |  | NO |  |  |  |
-| [PosZ](#PosZ) | float |  |  | NO |  |  |  |
-| [Orientation](#Orientation) | float |  |  | NO |  |  |  |
-| [PhaseUseFlags](#PhaseUseFlags) | tinyint(3) | unsigned |  | YES | 0 |  |  |
-| [PhaseId](#PhaseId) | int(10) | unsigned |  | YES | 0 |  |  |
-| [PhaseGroup](#PhaseGroup) | int(10) | unsigned |  | YES | 0 |  |  |
-| [Comment](#Comment) | varchar(255) | signed |  | YES | NULL |  |  |
+| [SpawnId](#spawnid) | bigint(20) | unsigned | PRI | NO |  |  |  |
+| [AreaTriggerId](#areatriggerid) | int(10) | unsigned |  | NO |  |  |  |
+| [IsServerSide](#isserverside) | tinyint(1) | unsigned |  | NO |  |  |  |
+| [MapId](#mapid) | int(10) | unsigned |  | NO |  |  |  |
+| [PosX](#posx) | float |  |  | NO |  |  |  |
+| [PosY](#posy) | float |  |  | NO |  |  |  |
+| [PosZ](#posz) | float |  |  | NO |  |  |  |
+| [Orientation](#orientation) | float |  |  | NO |  |  |  |
+| [PhaseUseFlags](#phaseuseflags) | tinyint(3) | unsigned |  | YES | 0 |  |  |
+| [PhaseId](#phaseid) | int(10) | unsigned |  | YES | 0 |  |  |
+| [PhaseGroup](#phasegroup) | int(10) | unsigned |  | YES | 0 |  |  |
+| [Comment](#comment) | varchar(255) | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

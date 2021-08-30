@@ -2,7 +2,7 @@
 title: script_spline_chain_waypoints
 description: 
 published: true
-date: 2021-08-30T09:24:17.521Z
+date: 2021-08-30T20:38:02.308Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,9 +15,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entry](#entry) | int(10) | unsigned | PRI | NO |  |  |  |
-| [chainId](#chainId) | smallint(5) | unsigned | PRI | NO |  |  |  |
-| [splineId](#splineId) | tinyint(3) | unsigned | PRI | NO |  |  |  |
-| [wpId](#wpId) | tinyint(3) | unsigned | PRI | NO |  |  |  |
+| [chainId](#chainid) | smallint(5) | unsigned | PRI | NO |  |  |  |
+| [splineId](#splineid) | tinyint(3) | unsigned | PRI | NO |  |  |  |
+| [wpId](#wpid) | tinyint(3) | unsigned | PRI | NO |  |  |  |
 | [x](#x) | float |  |  | NO |  |  |  |
 | [y](#y) | float |  |  | NO |  |  |  |
 | [z](#z) | float |  |  | NO |  |  |  |

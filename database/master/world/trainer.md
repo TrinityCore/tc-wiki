@@ -2,7 +2,7 @@
 title: trainer
 description: 
 published: true
-date: 2021-08-30T09:24:17.531Z
+date: 2021-08-30T20:38:02.318Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Id](#Id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Type](#Type) | tinyint(2) | unsigned |  | NO | 2 |  |  |
-| [Greeting](#Greeting) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(11) | signed |  | NO | 0 |  |  |
+| [Id](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Type](#type) | tinyint(2) | unsigned |  | NO | 2 |  |  |
+| [Greeting](#greeting) | text |  |  | YES | NULL |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

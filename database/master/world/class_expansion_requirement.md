@@ -2,7 +2,7 @@
 title: class_expansion_requirement
 description: 
 published: true
-date: 2021-08-30T09:24:17.471Z
+date: 2021-08-30T20:38:02.258Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ClassID](#ClassID) | tinyint(3) | unsigned | PRI | NO |  |  |  |
-| [RaceID](#RaceID) | tinyint(3) | unsigned | PRI | NO |  |  |  |
-| [ActiveExpansionLevel](#ActiveExpansionLevel) | tinyint(3) | unsigned |  | YES | 0 |  |  |
-| [AccountExpansionLevel](#AccountExpansionLevel) | tinyint(3) | unsigned |  | YES | 0 |  |  |
+| [ClassID](#classid) | tinyint(3) | unsigned | PRI | NO |  |  |  |
+| [RaceID](#raceid) | tinyint(3) | unsigned | PRI | NO |  |  |  |
+| [ActiveExpansionLevel](#activeexpansionlevel) | tinyint(3) | unsigned |  | YES | 0 |  |  |
+| [AccountExpansionLevel](#accountexpansionlevel) | tinyint(3) | unsigned |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 

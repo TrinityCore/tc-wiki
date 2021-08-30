@@ -2,7 +2,7 @@
 title: phase_area
 description: 
 published: true
-date: 2021-08-30T09:24:17.501Z
+date: 2021-08-30T20:38:02.289Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [AreaId](#AreaId) | int(10) | unsigned | PRI | NO |  |  |  |
-| [PhaseId](#PhaseId) | int(10) | unsigned | PRI | NO |  |  |  |
-| [Comment](#Comment) | varchar(255) | signed |  | YES | NULL |  |  |
+| [AreaId](#areaid) | int(10) | unsigned | PRI | NO |  |  |  |
+| [PhaseId](#phaseid) | int(10) | unsigned | PRI | NO |  |  |  |
+| [Comment](#comment) | varchar(255) | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: spell_areatrigger_circular
 description: 
 published: true
-date: 2021-08-30T09:24:17.526Z
+date: 2021-08-30T20:38:02.313Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,15 +14,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [SpellMiscId](#SpellMiscId) | int(10) | unsigned | PRI | NO |  |  |  |
-| [StartDelay](#StartDelay) | int(10) | unsigned |  | NO | 0 |  |  |
-| [CircleRadius](#CircleRadius) | float |  |  | NO | 0 |  |  |
-| [BlendFromRadius](#BlendFromRadius) | float |  |  | NO | 0 |  |  |
-| [InitialAngle](#InitialAngle) | float |  |  | NO | 0 |  |  |
-| [ZOffset](#ZOffset) | float |  |  | NO | 0 |  |  |
-| [CounterClockwise](#CounterClockwise) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [CanLoop](#CanLoop) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#VerifiedBuild) | int(10) | unsigned |  | NO | 0 |  |  |
+| [SpellMiscId](#spellmiscid) | int(10) | unsigned | PRI | NO |  |  |  |
+| [StartDelay](#startdelay) | int(10) | unsigned |  | NO | 0 |  |  |
+| [CircleRadius](#circleradius) | float |  |  | NO | 0 |  |  |
+| [BlendFromRadius](#blendfromradius) | float |  |  | NO | 0 |  |  |
+| [InitialAngle](#initialangle) | float |  |  | NO | 0 |  |  |
+| [ZOffset](#zoffset) | float |  |  | NO | 0 |  |  |
+| [CounterClockwise](#counterclockwise) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [CanLoop](#canloop) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(10) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
