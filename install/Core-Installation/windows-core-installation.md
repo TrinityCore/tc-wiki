@@ -2,7 +2,7 @@
 title: Windows Core Installation
 description: 
 published: true
-date: 2021-08-31T09:44:03.156Z
+date: 2021-08-31T09:44:36.431Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-15T10:17:42.057Z
