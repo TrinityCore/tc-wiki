@@ -2,7 +2,7 @@
 title: Linux Requirements
 description: 
 published: true
-date: 2021-08-14T18:06:28.035Z
+date: 2021-09-02T18:04:57.641Z
 tags: requirements, installation, setup, linux
 editor: markdown
 dateCreated: 2021-08-14T00:09:23.038Z
@@ -50,6 +50,17 @@ apt-get install git clang cmake make gcc g++ libmariadbclient-dev libssl-dev lib
 update-alternatives --install /usr/bin/cc cc /usr/bin/clang 100
 update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
 ```
+
+Debian 11.x (you will need to use su to install the packages)
+<div class="next-codeblock-no-line-numbers"></div>
+
+```bash
+apt-get update
+apt-get install git clang cmake make gcc g++ libmariadb-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev libboost-all-dev mariadb-server p7zip default-libmysqlclient-dev
+update-alternatives --install /usr/bin/cc cc /usr/bin/clang 100
+update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
+```
+
 Ubuntu 19.10/20.04/20.10 (you will need to use sudo to install the packages).
 <div class="next-codeblock-no-line-numbers"></div>
 
