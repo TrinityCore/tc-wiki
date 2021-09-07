@@ -2,10 +2,10 @@
 title: account
 description: 
 published: true
-date: 2021-08-30T22:01:08.216Z
-tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, auth
+date: 2021-09-07T08:15:35.288Z
+tags: database, auth, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T21:57:34.489Z
 ---
 
 <a href="https://dev.trinitycore.info/en/database/335/auth/vw_log_history" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'vw_log_history'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/auth/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to auth</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/auth/account_access" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'account_access'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -42,11 +42,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### id
-*- no description -*
+The unique account ID.
 &nbsp;
 
 ### username
-*- no description -*
+The account name.
 &nbsp;
 
 ### salt
@@ -70,31 +70,32 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### email
-*- no description -*
+The e-mail address associated with this account.
 &nbsp;
 
 ### reg_mail
-*- no description -*
+The registration e-mail address associated with this account.
 &nbsp;
 
 ### joindate
-*- no description -*
+The date when the account was created.
 &nbsp;
 
 ### last_ip
-*- no description -*
+The last IP used by the person who logged in the account.
 &nbsp;
 
 ### last_attempt_ip
-*- no description -*
+The last IP used by the person who tried to log into the account.
 &nbsp;
 
 ### failed_logins
-*- no description -*
+The number of failed logins attempted on the account.
 &nbsp;
 
 ### locked
-*- no description -*
+Boolean 0 or 1 controlling if the account has been locked or not. This can be controlled with the ".account lock" GM command. 
+If locked (1), the user can only log in with their last_ip. If unlocked (0), a user can log in from any IP, and their last_ip will be updated if it is different. ".Ban account" does not lock it.
 &nbsp;
 
 ### lock_country
@@ -102,39 +103,54 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### last_login
-*- no description -*
+The date when the account was last logged into.
 &nbsp;
 
 ### online
-*- no description -*
+Boolean 0 or 1 controlling if the account is currently logged in and online.
 &nbsp;
 
 ### expansion
-*- no description -*
+Integer 0 - 2 controlling if the client logged in on the account has any expansions. (for example if client is TBC, but expansion is set to 0, it will not be able to enter outlands and etc.)
+
+|Value|Expansion|
+|:---:|:---: |
+|0|Vanilla|
+|1|The Burning Crusade (TBC)|
+|2|Wrath of the Lich King (WotLK)|
 &nbsp;
 
 ### mutetime
-*- no description -*
+The time, in Unix time, when the account will be unmuted. To see when mute will be expired you can use this query:
+
+<div class="next-codeblock-no-line-numbers"></div>
+
+```bash
+SELECT FROM_UNIXTIME(`mutetime`);
+```
 &nbsp;
 
 ### mutereason
-*- no description -*
+The reason for the mute.
 &nbsp;
 
 ### muteby
-*- no description -*
+The character name with the rights to the .mute command that give the mute.
 &nbsp;
 
 ### locale
-*- no description -*
+The locale used by the client logged into this account. If multiple locale data has been configured and added to the world servers, the world servers will return the proper locale strings to the client. See localization IDs
 &nbsp;
 
 ### os
-*- no description -*
+Stores information about client's OS. Used by Warden system.
+
+- Win
+- Mac
 &nbsp;
 
 ### recruiter
-*- no description -*
+The account ID of another account. Used for recuit-a-friend system. See [account.id](#id)
 &nbsp;
 
 <a href="https://dev.trinitycore.info/en/database/335/auth/vw_log_history" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'vw_log_history'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/auth/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to auth</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/auth/account_access" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'account_access'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
