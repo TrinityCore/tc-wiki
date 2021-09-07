@@ -2,7 +2,7 @@
 title: channels
 description: 
 published: true
-date: 2021-09-07T15:48:24.884Z
+date: 2021-09-07T15:48:57.851Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:59:01.893Z
