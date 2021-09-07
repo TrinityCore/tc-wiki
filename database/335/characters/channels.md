@@ -2,13 +2,17 @@
 title: channels
 description: 
 published: true
-date: 2021-08-30T22:00:42.119Z
-tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, characters
+date: 2021-09-07T15:48:24.884Z
+tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T21:59:01.893Z
 ---
 
 <a href="https://dev.trinitycore.info/en/database/335/characters/calendar_invites" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'calendar_invites'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/character_account_data" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_account_data'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+
+> Information and settings for ingame, player-based chat channels (not affecting the default system channels)
+{.is-info}
+
 
 ## Structure
 
@@ -25,31 +29,49 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### name
-*- no description -*
+Name of the channel.
 &nbsp;
 
 ### team
-*- no description -*
+team id -  Allow access to channel from specified player faction ID
+
+For multirace channels, two (or more) separate entries must exist with the EXACT same settings for all fields apart from this (it needs a different team id)
+
+Horde -> 67
+
+Alliance -> 469
 &nbsp;
 
 ### announce
-*- no description -*
+Channel announce (0/1)
+
+0 = Channel join/part actions will not be sent
+
+1 = Channel join/part actions will be sent
 &nbsp;
 
 ### ownership
-*- no description -*
+Channel ownership (0/1)
+
+0 = No one will ever be an owner.
+
+1 = Ownership is the first person in the channel.
 &nbsp;
 
 ### password
-*- no description -*
+Channel password
+
+Empty, or a standard string-based password (no spaces allowed)
 &nbsp;
 
 ### bannedList
-*- no description -*
+Channel banlist
+
+List of banned player names, separated by spaces
 &nbsp;
 
 ### lastUsed
-*- no description -*
+Used for automated cleaning of unused channels from database. Time is in unixtime.
 &nbsp;
 
 <a href="https://dev.trinitycore.info/en/database/335/characters/calendar_invites" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'calendar_invites'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/character_account_data" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_account_data'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
