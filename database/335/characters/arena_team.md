@@ -2,13 +2,17 @@
 title: arena_team
 description: 
 published: true
-date: 2021-08-30T22:00:42.115Z
-tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, characters
+date: 2021-09-07T13:33:16.591Z
+tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T21:58:37.950Z
 ---
 
 <a href="https://dev.trinitycore.info/en/database/335/characters/addons" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'addons'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/arena_team_member" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'arena_team_member'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+
+> This table holds the main ArenaTeam information. All created teams or all teams in the process of being created have a record in this table.
+{.is-info}
+
 
 ## Structure
 
@@ -33,63 +37,67 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### arenaTeamId
-*- no description -*
+The ID of the ArenaTeam. This number is unique to each team and is the main method to identify a team.
 &nbsp;
 
 ### name
-*- no description -*
+Name of the Arena team
 &nbsp;
 
 ### captainGuid
-*- no description -*
+The GUID of the character who created the ArenaTeam.
 &nbsp;
 
 ### type
-*- no description -*
+Defines the ArenaType:
+
+- 2 – 2vs2 Team
+- 3 – 3vs3 Team
+- 5 – 5vs5 Team
 &nbsp;
 
 ### rating
-*- no description -*
+Rating of arena team.
 &nbsp;
 
 ### seasonGames
-*- no description -*
+Number of games played this season.
 &nbsp;
 
 ### seasonWins
-*- no description -*
+Number of games won this season.
 &nbsp;
 
 ### weekGames
-*- no description -*
+Number of games played this week.
 &nbsp;
 
 ### weekWins
-*- no description -*
+Number of games won this week.
 &nbsp;
 
 ### rank
-*- no description -*
+Rank of teams in the competition by rating.
 &nbsp;
 
 ### backgroundColor
-*- no description -*
+Team-tabard BackgroundColor (same as guild-tabard)
 &nbsp;
 
 ### emblemStyle
-*- no description -*
+Team-tabard Emblem (same as guild-tabard)
 &nbsp;
 
 ### emblemColor
-*- no description -*
+Team-tabard EmblemColor (same as guild-tabard)
 &nbsp;
 
 ### borderStyle
-*- no description -*
+Team-tabard Bordertype (same as guild-tabard)
 &nbsp;
 
 ### borderColor
-*- no description -*
+Team-tabard BorderColor (same as guild-tabard)
 &nbsp;
 
 <a href="https://dev.trinitycore.info/en/database/335/characters/addons" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'addons'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/arena_team_member" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'arena_team_member'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
