@@ -2,7 +2,7 @@
 title: character_account_data
 description: 
 published: true
-date: 2021-09-07T15:51:58.997Z
+date: 2021-09-07T15:53:02.557Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:59:04.555Z
