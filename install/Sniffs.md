@@ -2,7 +2,7 @@
 title: Sniffs and Parsing
 description: Short Guide on efficient sniffing and parsing.
 published: true
-date: 2021-09-15T16:38:23.527Z
+date: 2021-09-15T16:39:11.699Z
 tags: sniffs, sniffer, parsing, parser
 editor: markdown
 dateCreated: 2021-09-15T15:44:24.667Z
@@ -52,7 +52,6 @@ Area information is logged that is within visible range. Stuff such as npcs, gam
 
 
 **Overall:**
-
 Anything that causes a packet send or received gets logged by the sniffer.
 
 
