@@ -2,7 +2,7 @@
 title: Sniffs and Parsing
 description: Short Guide on efficient sniffing and parsing.
 published: true
-date: 2021-09-15T16:39:11.699Z
+date: 2021-09-15T16:39:49.842Z
 tags: sniffs, sniffer, parsing, parser
 editor: markdown
 dateCreated: 2021-09-15T15:44:24.667Z
@@ -27,7 +27,7 @@ Ensure proper version of the sniffer is obtained and running before you start yo
 
 Ensure your wow cache folder is cleared before starting your wow client.
 
-Start the game and login
+Start the game and login.
 
 
 
