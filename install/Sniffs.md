@@ -2,7 +2,7 @@
 title: Sniffs and Parsing
 description: Short Guide on efficient sniffing and parsing.
 published: true
-date: 2021-09-15T16:32:20.965Z
+date: 2021-09-15T16:32:51.704Z
 tags: sniffs, sniffer, parsing, parser
 editor: markdown
 dateCreated: 2021-09-15T15:44:24.667Z
@@ -120,6 +120,7 @@ Anything that causes a packet send or received gets logged by the sniffer.
 **Display id:** Just be in visual range
 
 **Gameobject Flag:** Visual Range and must be interacted with.
+
 **Gameobject Gossip:** Must be interacted with, Each gossip option must be clicked on.
 
 **Type:** Just be in visual range if none interactive, if interactive, you will need to click it.
