@@ -2,7 +2,7 @@
 title: Sniffs and Parsing
 description: Short Guide on efficient sniffing and parsing.
 published: true
-date: 2021-09-15T16:04:45.861Z
+date: 2021-09-15T16:32:20.965Z
 tags: sniffs, sniffer, parsing, parser
 editor: markdown
 dateCreated: 2021-09-15T15:44:24.667Z
@@ -202,7 +202,9 @@ Anything that causes a packet send or received gets logged by the sniffer.
 
 
 
-***Phasing:***
+> ***Phasing:***
+{.is-info}
+
 
 **Quest Phase ids:** If special phasing, take and abandon quest and retake to ensure logging. If possible.
 
