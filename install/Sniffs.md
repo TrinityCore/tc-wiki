@@ -2,7 +2,7 @@
 title: Sniffs and Parsing
 description: Short Guide on efficient sniffing and parsing.
 published: true
-date: 2021-09-15T16:37:17.199Z
+date: 2021-09-15T16:38:23.527Z
 tags: sniffs, sniffer, parsing, parser
 editor: markdown
 dateCreated: 2021-09-15T15:44:24.667Z
@@ -48,7 +48,6 @@ Character names\ class\race variations is logged durning sniffing. Realm Informa
 
 
 **At Game play following realm login:**
-
 Area information is logged that is within visible range. Stuff such as npcs, gameobjects, attack rotations, spells, holiday stuff, phases, various stats, gossips, cutscene triggers, spells, auras, phases, and placements.
 
 
