@@ -2,7 +2,7 @@
 title: Sniffs and Parsing
 description: Short Guide on efficient sniffing and parsing.
 published: true
-date: 2021-09-15T16:00:39.325Z
+date: 2021-09-15T16:04:45.861Z
 tags: sniffs, sniffer, parsing, parser
 editor: markdown
 dateCreated: 2021-09-15T15:44:24.667Z
@@ -20,7 +20,7 @@ This guide is to assist in obtaining thorough sniffs with ymir.
 
 
 
-> ****Starting off***
+> ***Starting off***
 {.is-success}
 
 
@@ -32,7 +32,7 @@ Start the game and login
 
 
 
-> *What is sniffed while logging and playing
+>***What is sniffed while logging and playing***
 {.is-success}
 
 
@@ -78,7 +78,9 @@ Anything that causes a packet send or received gets logged by the sniffer.
 
 
 
-***NPCs:***
+> ***NPCs:***
+{.is-info}
+
 
 **Display id:** Just be in visual range
 
@@ -90,7 +92,7 @@ Anything that causes a packet send or received gets logged by the sniffer.
 
 **Equipment \ gear load out:** Just be in visual range
 
-**NPC flag: **Visual Range and must be interacted with.
+**NPC flag:** Visual Range and must be interacted with.
 
 **Gossips:** Must be interacted with, Each gossip option must be clicked on.
 
@@ -112,7 +114,9 @@ Anything that causes a packet send or received gets logged by the sniffer.
 
 
 
-***Gameobjects:***
+> ***Gameobjects:***
+{.is-info}
+
 **Display id:** Just be in visual range
 
 **Gameobject Flag:** Visual Range and must be interacted with.
@@ -132,7 +136,9 @@ Anything that causes a packet send or received gets logged by the sniffer.
 
 
 
-***Pets:***
+> ***Pets:***
+{.is-info}
+
 
 **Same as NPCs with a few exceptions:**
 
@@ -142,17 +148,21 @@ Anything that causes a packet send or received gets logged by the sniffer.
 
 
 
-***Mounts:***
-
-Same as NPCs with a few exceptions:
-
-Select stats: Mount must be used to have their stats logged
-
-Restrictions: Mount must be used to view restrictions that are allowed or denied or both
+> ***Mounts:***
+{.is-info}
 
 
+**Same as NPCs with a few exceptions:**
 
-***Items:***
+**Select stats:** Mount must be used to have their stats logged
+
+**Restrictions:** Mount must be used to view restrictions that are allowed or denied or both
+
+
+
+> ***Items:***
+{.is-info}
+
 
 **Same as Gameobjects with a few exceptions:**
 
@@ -166,7 +176,9 @@ Restrictions: Mount must be used to view restrictions that are allowed or denied
 
 
 
-***Spells and Auras:***
+> ***Spells and Auras:***
+{.is-info}
+
 
 **Player spells:** Must be both acquired and used
 
@@ -177,8 +189,10 @@ Restrictions: Mount must be used to view restrictions that are allowed or denied
 **Damaging effects:** Must be cast on self or target from the caster who is sniffing.
 
 
+> 
+> ***Quests:***
+{.is-info}
 
-***Quests:***
 
 **Flags:** Quest must be accepted. Accept and abandon and Accept to ensure phasing is captured if any.
 
@@ -198,19 +212,25 @@ Restrictions: Mount must be used to view restrictions that are allowed or denied
 
 
 
-***Transport\Map\Zone\Area:***
+> ***Transport\Map\Zone\Area:***
+{.is-info}
+
 
 **Ids:** just be present in the map\zone\id for the id to be logged.
 
 **Spell id:** Must be present before, during, and \ or after spell effect of the area is present. Which every occurrence it may be. (Bizmo Brawl Pub is a good example as you need the brawler invite consumed to be present in the area. Horde Brawler Arena as they have a vip blimp.)
 
 
-***Calendar\UI:***
+> ***Calendar\UI:***
+{.is-info}
+
 
 Anything dealing with these must be viewed and interacted with.
 
 
-***Transmogs:***
+> ***Transmogs:***
+{.is-info}
+
 
 Anything dealing with these must be obtained and viewed from the journal or transmongifer.
 
