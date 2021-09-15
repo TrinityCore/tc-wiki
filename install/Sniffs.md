@@ -2,7 +2,7 @@
 title: Sniffs and Parsing
 description: Short Guide on efficient sniffing and parsing.
 published: true
-date: 2021-09-15T16:32:51.704Z
+date: 2021-09-15T16:37:17.199Z
 tags: sniffs, sniffer, parsing, parser
 editor: markdown
 dateCreated: 2021-09-15T15:44:24.667Z
@@ -20,8 +20,7 @@ This guide is to assist in obtaining thorough sniffs with ymir.
 
 
 
-> ***Starting off***
-{.is-success}
+# ***Starting off***
 
 
 Ensure proper version of the sniffer is obtained and running before you start your wow client.
@@ -32,8 +31,8 @@ Start the game and login
 
 
 
->***What is sniffed while logging and playing***
-{.is-success}
+# ***What is sniffed while logging and playing***
+
 
 
 
@@ -72,8 +71,7 @@ Anything that causes a packet send or received gets logged by the sniffer.
 
 
 
-> *Obtaining Specifics being logged.
-{.is-success}
+# Obtaining Specifics being logged.
 
 
 
