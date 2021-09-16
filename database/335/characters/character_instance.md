@@ -2,7 +2,7 @@
 title: character_instance
 description: 
 published: true
-date: 2021-09-16T10:58:42.013Z
+date: 2021-09-16T11:00:10.428Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:59:44.864Z
