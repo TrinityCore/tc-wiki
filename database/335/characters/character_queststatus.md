@@ -2,13 +2,17 @@
 title: character_queststatus
 description: 
 published: true
-date: 2021-08-30T22:00:42.126Z
-tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, characters
+date: 2021-09-16T11:28:18.131Z
+tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T21:59:55.520Z
 ---
 
 <a href="https://dev.trinitycore.info/en/database/335/characters/character_pet_declinedname" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_pet_declinedname'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/character_queststatus_daily" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_queststatus_daily'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+
+> Holds information on the quest status of each character.
+{.is-info}
+
 
 ## Structure
 
@@ -34,19 +38,31 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### guid
-*- no description -*
+The GUID of the character.
+See [characters](/database/335/characters/characters)
 &nbsp;
 
 ### quest
-*- no description -*
+The quest ID. 
+See [quest_template](/database/335/world/quest_template)
 &nbsp;
 
 ### status
-*- no description -*
+The current quest status.
+
+Value | Status | Comment
+-- | -- | --
+0 | QUEST_STATUS_NONE | Quest isn't shown in quest list - default
+1 | QUEST_STATUS_COMPLETE | Quest has been completed
+2 | QUEST_STATUS_UNAVAILABLE | NOT USED
+3 | QUEST_STATUS_INCOMPLETE | Quest is active in quest log but incomplete
+4 | QUEST_STATUS_AVAILABLE | NOT USED
+5 | QUEST_STATUS_FAILED | Player failed to complete the quest
+6 | QUEST_STATUS_REWARDED | Not used in DB
 &nbsp;
 
 ### explored
-*- no description -*
+Boolean 1 or 0 representing if the character has explored what was needed to explore for the quest.
 &nbsp;
 
 ### timer
@@ -54,47 +70,58 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### mobcount1
-*- no description -*
+Current count of the number of kills or casts on the first creature or gameobject, if any.
+Taken from [quest_template](/database/335/world/quest_template) RequiredNpcOrGoCount1
 &nbsp;
 
 ### mobcount2
-*- no description -*
+Current count of the number of kills or casts on the first creature or gameobject, if any.
+Taken from [quest_template](/database/335/world/quest_template) RequiredNpcOrGoCount2
 &nbsp;
 
 ### mobcount3
-*- no description -*
+Current count of the number of kills or casts on the first creature or gameobject, if any.
+Taken from [quest_template](/database/335/world/quest_template) RequiredNpcOrGoCount3
 &nbsp;
 
 ### mobcount4
-*- no description -*
+Current count of the number of kills or casts on the first creature or gameobject, if any.
+Taken from [quest_template](/database/335/world/quest_template) RequiredNpcOrGoCount4
 &nbsp;
 
 ### itemcount1
-*- no description -*
+Current item count for the item in a delivery quest, if any.
+Taken from [quest_template](/database/335/world/quest_template) RequiredItemId1
 &nbsp;
 
 ### itemcount2
-*- no description -*
+Current item count for the item in a delivery quest, if any.
+Taken from [quest_template](/database/335/world/quest_template) RequiredItemId2
 &nbsp;
 
 ### itemcount3
-*- no description -*
+Current item count for the item in a delivery quest, if any.
+Taken from [quest_template](/database/335/world/quest_template) RequiredItemId3
 &nbsp;
 
 ### itemcount4
-*- no description -*
+Current item count for the item in a delivery quest, if any.
+Taken from [quest_template](/database/335/world/quest_template) RequiredItemId4
 &nbsp;
 
 ### itemcount5
-*- no description -*
+Current item count for the item in a delivery quest, if any.
+Taken from [quest_template](/database/335/world/quest_template) RequiredItemId5
 &nbsp;
 
 ### itemcount6
-*- no description -*
+Current item count for the item in a delivery quest, if any.
+Taken from [quest_template](/database/335/world/quest_template) RequiredItemId6
 &nbsp;
 
 ### playercount
-*- no description -*
+Current player slay count.
+Taken from [quest_template](/database/335/world/quest_template) RequiredPlayerKills
 &nbsp;
 
 <a href="https://dev.trinitycore.info/en/database/335/characters/character_pet_declinedname" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_pet_declinedname'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/character_queststatus_daily" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_queststatus_daily'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
