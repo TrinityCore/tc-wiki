@@ -2,13 +2,17 @@
 title: character_glyphs
 description: 
 published: true
-date: 2021-08-30T22:00:42.124Z
-tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, characters
+date: 2021-09-16T10:28:14.544Z
+tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T21:59:39.563Z
 ---
 
 <a href="https://dev.trinitycore.info/en/database/335/characters/character_gifts" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_gifts'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/character_homebind" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_homebind'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+
+> Contains all the individual glyph data for each character.
+{.is-info}
+
 
 ## Structure
 
@@ -26,35 +30,36 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### guid
-*- no description -*
+The GUID of the character.
 &nbsp;
 
 ### talentGroup
-*- no description -*
+0 is the first talent specialization
+1 is the second talent specialization.
 &nbsp;
 
 ### glyph1
-*- no description -*
+ID taken from GlyphProperties.dbc
 &nbsp;
 
 ### glyph2
-*- no description -*
+ID taken from GlyphProperties.dbc
 &nbsp;
 
 ### glyph3
-*- no description -*
+ID taken from GlyphProperties.dbc
 &nbsp;
 
 ### glyph4
-*- no description -*
+ID taken from GlyphProperties.dbc
 &nbsp;
 
 ### glyph5
-*- no description -*
+ID taken from GlyphProperties.dbc
 &nbsp;
 
 ### glyph6
-*- no description -*
+ID taken from GlyphProperties.dbc
 &nbsp;
 
 <a href="https://dev.trinitycore.info/en/database/335/characters/character_gifts" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_gifts'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/character_homebind" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_homebind'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
