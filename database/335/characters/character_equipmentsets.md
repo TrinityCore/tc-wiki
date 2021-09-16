@@ -2,13 +2,17 @@
 title: character_equipmentsets
 description: 
 published: true
-date: 2021-08-30T22:00:42.123Z
-tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, characters
+date: 2021-09-16T10:06:44.024Z
+tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T21:59:31.038Z
 ---
 
 <a href="https://dev.trinitycore.info/en/database/335/characters/character_declinedname" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_declinedname'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/character_fishingsteps" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_fishingsteps'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+
+> This table holds info about player's equipment manager settings.
+{.is-info}
+
 
 ## Structure
 
@@ -43,23 +47,23 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### guid
-*- no description -*
+The GUID of the character.
 &nbsp;
 
 ### setguid
-*- no description -*
+First free guid.
 &nbsp;
 
 ### setindex
-*- no description -*
+Set index, values from 0 to 9 are used.
 &nbsp;
 
 ### name
-*- no description -*
+Individual. Name is set by player.
 &nbsp;
 
 ### iconname
-*- no description -*
+Name taken from ItemDisplayInfo.dbc, column 6
 &nbsp;
 
 ### ignore_mask
@@ -67,79 +71,80 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### item0
-*- no description -*
+Values for item 0-18 are taken from item_instance guid.
+Head slot
 &nbsp;
 
 ### item1
-*- no description -*
+Neck slot
 &nbsp;
 
 ### item2
-*- no description -*
+Shoulder slot
 &nbsp;
 
 ### item3
-*- no description -*
+Shirt slot
 &nbsp;
 
 ### item4
-*- no description -*
+Chest slot
 &nbsp;
 
 ### item5
-*- no description -*
+Waist slot
 &nbsp;
 
 ### item6
-*- no description -*
+Legs slot
 &nbsp;
 
 ### item7
-*- no description -*
+Feet slot
 &nbsp;
 
 ### item8
-*- no description -*
+Wrist slot
 &nbsp;
 
 ### item9
-*- no description -*
+Hands slot
 &nbsp;
 
 ### item10
-*- no description -*
+Ring 1 slot
 &nbsp;
 
 ### item11
-*- no description -*
+Ring 2 slot
 &nbsp;
 
 ### item12
-*- no description -*
+Trinket 1 slot
 &nbsp;
 
 ### item13
-*- no description -*
+Trinket 2 slot
 &nbsp;
 
 ### item14
-*- no description -*
+Back slot
 &nbsp;
 
 ### item15
-*- no description -*
+Main Hand slot
 &nbsp;
 
 ### item16
-*- no description -*
+Off Hand slot
 &nbsp;
 
 ### item17
-*- no description -*
+Relic slot
 &nbsp;
 
 ### item18
-*- no description -*
+Tabard slot
 &nbsp;
 
 <a href="https://dev.trinitycore.info/en/database/335/characters/character_declinedname" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_declinedname'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/character_fishingsteps" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_fishingsteps'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
