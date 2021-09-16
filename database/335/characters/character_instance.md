@@ -2,13 +2,17 @@
 title: character_instance
 description: 
 published: true
-date: 2021-08-30T22:00:42.125Z
-tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, characters
+date: 2021-09-16T10:58:42.013Z
+tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T21:59:44.864Z
 ---
 
 <a href="https://dev.trinitycore.info/en/database/335/characters/character_homebind" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_homebind'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/character_inventory" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_inventory'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+
+> Contains the instance data for characters.
+{.is-info}
+
 
 ## Structure
 
@@ -22,19 +26,23 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### guid
-*- no description -*
+The GUID of the character.
 &nbsp;
 
 ### instance
-*- no description -*
+The Instance ID taken from [instance table](/database/335/characters/instance).
 &nbsp;
 
 ### permanent
-*- no description -*
+Boolean 0 or 1 controlling if the player has been bound to the instance. 
+A player is bound to the instance only when he (or his party/raid) kills a creature with the CREATURE_FLAG_EXTRA_INSTANCE_BIND flag set in the flags_extras field.
 &nbsp;
 
 ### extendState
-*- no description -*
+EXTEND_STATE_EXPIRED  =   0,
+EXTEND_STATE_NORMAL   =   1
+EXTEND_STATE_EXTENDED =   2
+EXTEND_STATE_KEEP     = 255  
 &nbsp;
 
 <a href="https://dev.trinitycore.info/en/database/335/characters/character_homebind" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_homebind'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/character_inventory" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_inventory'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
