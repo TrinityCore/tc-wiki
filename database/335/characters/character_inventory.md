@@ -2,7 +2,7 @@
 title: character_inventory
 description: 
 published: true
-date: 2021-09-16T11:07:51.984Z
+date: 2021-09-16T11:08:14.558Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:59:47.506Z
