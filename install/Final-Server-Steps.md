@@ -2,7 +2,7 @@
 title: Final Server Steps
 description: 
 published: true
-date: 2021-09-20T14:38:14.307Z
+date: 2021-09-20T14:40:03.935Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-20T14:36:59.826Z
@@ -80,4 +80,6 @@ Log in with account test and password test through wow.exe.
 
 ## Login to your account:
 
-Log in with email test@test and password test.through a Custom Client Launcher (Not provided).
+Log in through a Custom Client Launcher (Not provided).: 
+E-mail: **test@test** 
+Password: **test** 
