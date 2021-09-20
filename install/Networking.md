@@ -2,7 +2,7 @@
 title: Networking
 description: 
 published: true
-date: 2021-09-20T14:27:15.045Z
+date: 2021-09-20T14:28:26.832Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-20T14:27:15.045Z
@@ -15,16 +15,15 @@ This guide is intended for advanced setups or just to provide more details in se
 This guide is not meant to replace the How-to guides for your particular operating system. If you didn't read that guide go back and do that first.
 
 
-> Worldserver and Authserver configurations
-{.is-info}
+## Worldserver and Authserver configurations
+
 
 For almost all basic setup scenarios the default localhost (127.0.0.1) IP settings should be left alone. The default bindip (0.0.0.0) should be left alone as well.
 
 Setting the auth database realmlist for internet connections
 This is where you have to use your internet IP so clients from the internet can find your server. You have to have the ports 3724 (3.3.5a / 4.3.4 authserver) and 8085 (3.3.5a, 4.3.4 worldserver) and 1119, 8081, 8085, 8086 (master only) forwarded or open from your router / firewall, if you plan to have diferent version servers you will need to use a diferent worldserver ports for the other versions. 
 
-> Realmlist Table
-{.is-info}
+## Realmlist Table
 
 
 You need to make sure that your authserver / bnetserver (6.x and >) application directs incoming connections to your realm.
@@ -36,9 +35,7 @@ LAN IP (192.168.x.x) - If you are installing TrinityCore on a different computer
 127.0.0.1 - Also known as "localhost". Leave this setting alone here and in your configs if you've installed TrinityCore on the same computer you run WoW on, and only you are connecting to it.
 External IP – If you want other people to connect to your server, use your external IP. Visit http://www.whatismyip.com/ to find your external IP address.
 
-> Help
-{.is-info}
-
+##  Help
 
 If you still have any problem, check:
 
