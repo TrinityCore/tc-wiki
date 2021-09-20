@@ -2,7 +2,7 @@
 title: Final Server Steps
 description: 
 published: true
-date: 2021-09-20T14:40:03.935Z
+date: 2021-09-20T14:40:40.285Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-20T14:36:59.826Z
@@ -54,7 +54,9 @@ Type: account set gmlevel <user> 3 -1
 
 **Login to your account:**
 
-Log in with account test and password test through wow.exe.
+Log in through a Custom Client Launcher (Not provided).: 
+E-mail\Username: **test** 
+Password: **test** 
 
   
 ## Master
