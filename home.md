@@ -2,7 +2,7 @@
 title: Trinitycore Wiki
 description: 
 published: true
-date: 2021-09-20T14:23:35.178Z
+date: 2021-09-20T14:29:46.364Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T17:47:17.543Z
@@ -34,7 +34,7 @@ For further information on the TrinityCore project, please visit our project web
 3. [Server Setup](/install/Server-Setup)
 4. [Database Installation](/install/Database-Installation)
 5. [Networking](/install/Networking)
-6. Final Server Steps
+6. [Final Server Steps] (/install/Final-Server-Steps)
 7. Client Setup
 
 
