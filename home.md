@@ -2,7 +2,7 @@
 title: Trinitycore Wiki
 description: 
 published: true
-date: 2021-09-20T14:03:44.285Z
+date: 2021-09-20T14:07:14.612Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T17:47:17.543Z
@@ -12,15 +12,16 @@ dateCreated: 2021-08-13T17:47:17.543Z
 
 # Installation Guide
 
-#### Installation Guide ([Linux](/install/requirements/linux), Mac[MacOS](/install/requirements/macos) and [Windows](/install/requirements/windows))
+#### Installation Guide ([Linux](/install/requirements/linux), [MacOS](/install/requirements/macos) and [Windows](/install/requirements/windows))
 
-[Requirements](/install/requirements/home)
-[Core Installation](/install/Core-Installation/home)
-[Server Setup](/install/Server-Setup)
-[Database Installation](/install/Database-Installation)
-Networking
-Final Server Steps
-Client Setup
+**Requirements**
+1. ([Linux](/install/requirements/linux), [MacOS](/install/requirements/macos) and [Windows](/install/requirements/windows))
+2. [Core Installation](/install/Core-Installation/home)
+3. [Server Setup](/install/Server-Setup)
+4. [Database Installation](/install/Database-Installation)
+5. Networking
+6. Final Server Steps
+7. Client Setup
 
 
 # Description of the Trinity Database Structures
