@@ -2,7 +2,7 @@
 title: Trinitycore Wiki
 description: 
 published: true
-date: 2021-09-20T14:14:40.934Z
+date: 2021-09-20T14:15:52.394Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T17:47:17.543Z
@@ -12,7 +12,7 @@ dateCreated: 2021-08-13T17:47:17.543Z
 
 # Installation Guide
 
-#### Installation Guide ([Linux](/install/requirements/linux), [macOS](/install/requirements/macos) and [Windows](/install/requirements/windows))
+#### Installation Guide (Linux, macOS and Windows)
 
 1. Requirements 
 - [Linux](/install/requirements/linux) 
