@@ -2,7 +2,7 @@
 title: Client Setup
 description: 
 published: true
-date: 2021-09-20T14:47:04.052Z
+date: 2021-09-20T14:49:14.821Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-20T14:45:08.138Z
@@ -11,13 +11,14 @@ dateCreated: 2021-09-20T14:45:08.138Z
 # Client Setup
 ## 3.3.5a
 1. Open the realmlist.wtf file inside your World of Warcraft\Data folder. The IP in the realmlist.wtf file should be exactly the same as the IP address you entered in the realmlist table above.
-- Change the first line to: set realmlist <IP address used in realmlist table>
-- Example: set realmlist 127.0.0.1
+
+- Change the first line to: **set realmlist** IP address used in realmlist table
+- Example: **set realmlist 127.0.0.1**
 > (Optional) If you wish to use the WoW Launcher.exe to run your client then you must change your set patchlist to the same ip/dns name as your realmlist.
 
 ## Master
-1. Change Config.wtf: SET portal "<IP address used in realmlist table>"
-- The IP in the Config.wtf file should be exactly the same as the IP address you entered in the - realmlist table above. (Example: SET portal "127.0.0.1")
+1. Change Config.wtf: **SET portal** "IP address used in realmlist table"
+- The IP in the Config.wtf file should be exactly the same as the IP address you entered in the - realmlist table above. (Example: **SET portal "127.0.0.1"**)
 > Note: you will need a custom client launcher to connect to master branch server, i.e. https://arctium.io/wow
 
 > Supported Version
