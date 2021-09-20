@@ -2,7 +2,7 @@
 title: Client Setup
 description: 
 published: true
-date: 2021-09-20T14:45:08.138Z
+date: 2021-09-20T14:47:04.052Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-20T14:45:08.138Z
@@ -26,3 +26,11 @@ Check https://github.com/TrinityCore/TrinityCore to find the exact client versio
 
 > NOTE don't use localhost for address, if you need to connect to localhost use 127.0.0.1
 {.is-warning}
+
+  ##  Help
+
+If you still have any problem, check:
+
+- Updating or starting with TrinityCore issues, Trouble with your TrinityCore Install / Readme 1st / FAQs
+- [Ask help on the Forum.](https://community.trinitycore.org/)
+- If you still have problems, you can try to ask help on [IRC](https://trinitycore.atlassian.net/wiki/spaces/tc/pages/2130200/IRC), but remember it's not real time 24/7 support, most of people there lives on GMT and they can be sleeping or working.
