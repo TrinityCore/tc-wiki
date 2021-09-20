@@ -2,13 +2,11 @@
 title: Trinitycore Wiki
 description: 
 published: true
-date: 2021-09-20T14:19:35.483Z
+date: 2021-09-20T14:19:54.453Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T17:47:17.543Z
 ---
-
-**TrinityCore**
 
 # What is Trinitycore?
 TrinityCore is a MMORPG Framework based mostly in C++.
