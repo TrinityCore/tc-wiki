@@ -2,7 +2,7 @@
 title: Final Server Steps
 description: 
 published: true
-date: 2021-09-20T14:36:59.826Z
+date: 2021-09-20T14:38:14.307Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-20T14:36:59.826Z
@@ -12,7 +12,7 @@ dateCreated: 2021-09-20T14:36:59.826Z
 
 **After completing all the steps listed above you can now start your server.**
 
-### Running the Authserver\Bnetserver
+## Running the Authserver\Bnetserver
 - Run the authserver (bnetserver on master) to run your server.
 > Tip: The authserver (bnetserver on master) allows you to enter your username (email on master)/password to connect to the Realm Selection screen, and the worldserver allows you to connect to the realm itself. Once you are in-game, the authserver (bnetserver on master) can be safely closed if you wish no one else to connect to server.
 {.is-info}
@@ -24,7 +24,7 @@ dateCreated: 2021-09-20T14:36:59.826Z
 
 
 
-### Creating a Login Account
+## Creating a Login Account
 Next create your Login Account by typing directly into the worldserver window the GM Command account create (bnetaccount create on master). Syntax: (see examples below)
 If you wish to set the account as a GM then type into the worldserver window: account set gmlevel $account #level #realmid where $account is the account name to change, #level can be 0-3 and #realmid is the realm ID. Setting a #level of "3" is GM account level (higher numbers = more access), and the "-1" is the realm ID that stands for "all realms".
 
@@ -39,7 +39,7 @@ The Trinity realm should be selectable. Log in, create a character, and you're a
 > To create your account: very important, don't use @ on account names.
 {.is-danger}
 
-#### 3.3.5
+## 3.3.5
 
 **To create your account:**
 Type: account create <user> <pass>
@@ -57,7 +57,7 @@ Type: account set gmlevel <user> 3 -1
 Log in with account test and password test through wow.exe.
 
   
-#### Master
+## Master
 **To create your account:**
 
 - Type: bnetaccount create <user> <pass>
@@ -78,6 +78,6 @@ Log in with account test and password test through wow.exe.
 {.is-info}
 
 
-#### Login to your account:
+## Login to your account:
 
 Log in with email test@test and password test.through a Custom Client Launcher (Not provided).
