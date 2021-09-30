@@ -2,19 +2,15 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2021-09-28T16:24:53.722Z
+date: 2021-09-30T11:03:06.465Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
 ---
 
 ## Supported Windows Operating Systems
-> Windows 10 version 1703 or higher: Home, Professional, Education, and Enterprise (LTSC and S are not supported)
-> Windows Server 2019: Standard and Datacenter
-> Windows Server 2016: Standard and Datacenter
-> Windows 8.1 (with Update 2919355): Core, Professional, and Enterprise
-> Windows Server 2012 R2 (with Update 2919355): Essentials, Standard, Datacenter
-> Windows 7 SP1 (with latest Windows Updates): Home Premium, Professional, Enterprise, Ultimate
+
+> Windows 7 SP1 and their servers versions and up
 > Both x86 and x64 versions are supported but x64 is recommended due to ram consumption
 {.is-info}
 
@@ -22,7 +18,7 @@ dateCreated: 2021-08-14T03:18:48.201Z
 > Processor with SSE2 support
 > Boost ≥ 1.70 (latest stable recommended)
 > MySQL ≥ 5.7
-> OpenSSL ≥ 1.0.x
+> OpenSSL = 1.x.x
 > CMake ≥ 3.14 (latest stable recommended)
 > MS Visual Studio (Community) ≥ 16.4 (2019) (Desktop) (Not previews)
 {.is-info}
