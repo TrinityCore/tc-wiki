@@ -2,7 +2,7 @@
 title: Trinitycore Wiki
 description: 
 published: true
-date: 2021-09-20T15:00:28.974Z
+date: 2021-09-30T10:59:46.572Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T17:47:17.543Z
@@ -18,6 +18,8 @@ It is completely open source; community involvement is highly encouraged.
 If you wish to contribute ideas or code, please visit our site linked below or make pull requests to our [Github repository](https://github.com/TrinityCore/).
 
 For further information on the TrinityCore project, please visit our project website at TrinityCore.org.
+
+OpenSSL 3.x is UNSUPORTED
 
 # Installation Guide
 
