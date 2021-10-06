@@ -2,7 +2,7 @@
 title: creature_model_info
 description: 
 published: true
-date: 2021-10-06T09:09:07.833Z
+date: 2021-10-06T18:02:52.409Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:57.796Z
@@ -12,13 +12,13 @@ dateCreated: 2021-08-30T09:29:57.796Z
 
 ## Structure
 
-| Field | Type | Attributes | Key | Null | Default | Extra | Data found in (Sniff) | Comment |
+| Field | Type | Attributes | Key | Null | Default | Extra | Comment | Data found in (Sniff) |
 | --- | --- | --- | :---: | :---: | --- | --- | --- | --- |
-| [DisplayID](#displayid) | mediumint(8) | unsigned | PRI | NO | 0 |  | SMSG_UPDATE_OBJECT |  |
-| [BoundingRadius](#boundingradius) | float |  |  | NO | 0 |  | SMSG_UPDATE_OBJECT |  |
-| [CombatReach](#combatreach) | float |  |  | NO | 0 |  | SMSG_UPDATE_OBJECT |  |
-| [DisplayID_Other_Gender](#displayid_other_gender) | mediumint(8) | unsigned |  | NO | 0 |  | manual |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  | generated |  |
+| [DisplayID](#displayid) | mediumint(8) | unsigned | PRI | NO | 0 |  |  | SMSG_UPDATE_OBJECT |
+| [BoundingRadius](#boundingradius) | float |  |  | NO | 0 |  |  | SMSG_UPDATE_OBJECT |
+| [CombatReach](#combatreach) | float |  |  | NO | 0 |  |  | SMSG_UPDATE_OBJECT |
+| [DisplayID_Other_Gender](#displayid_other_gender) | mediumint(8) | unsigned |  | NO | 0 |  |  | manual |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  | generated |
 &nbsp;
 ## Description of fields
 
