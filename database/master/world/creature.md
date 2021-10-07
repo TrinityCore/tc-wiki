@@ -2,10 +2,10 @@
 title: creature
 description: 
 published: true
-date: 2021-08-30T20:38:02.260Z
+date: 2021-10-07T15:03:44.826Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T09:29:41.375Z
 ---
 
 <a href="https://dev.trinitycore.info/en/database/master/world/conversation_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'conversation_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/creature_addon" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'creature_addon'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -47,7 +47,21 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### guid
-*- no description -*
+A unique identifier given to each creature to distinguish one creature from another. Two creatures can NOT have same GUID.
+If a new creature will be spawned it should be within the GUID range of the current expansion when creature was added first.
+For example [Chromie](https://www.wowhead.com/npc=167032/chromie) is spawned within Orgrimmar and Stormwind, but was added in Shadowlands (9.x), so we would assign a GUID between 1050000 and 1249999. 
+The GUID ranges are defined as followed:
+|                    Expansion | GUID range start | GUID range end |
+| ---------------------------- | ---------------- | -------------- |
+| Vanilla (1.x)                |                1 |         249999 |
+| The Burning Crusade (2.x)    |                1 |         249999 |
+| Wrath of the Lich King (3.x) |                1 |         249999 |
+| Cataclysm (4.x)              |           250000 |         449999 |
+| Mists of Pandaria (5.x)      |           250000 |         449999 |
+| Warlords of Draenor (6.x)    |           450000 |         649999 |
+| Legion (7.x)                 |           650000 |         849999 |
+| Battle for Azeroth (8.x)     |           850000 |        1049999 |
+| Shadowlands (9.x)            |          1050000 |        1249999 |
 &nbsp;
 
 ### id
