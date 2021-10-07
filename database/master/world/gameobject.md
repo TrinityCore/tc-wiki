@@ -2,7 +2,7 @@
 title: gameobject
 description: 
 published: true
-date: 2021-10-07T15:09:20.782Z
+date: 2021-10-07T15:10:52.201Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:31:38.234Z
@@ -56,17 +56,6 @@ The GUID ranges are defined as followed:
 | Legion (7.x)                 |           400000 |         499999 |
 | Battle for Azeroth (8.x)     |           500000 |         599999 |
 | Shadowlands (9.x)            |           600000 |         699999 |
-
-[18:00] <Aokromes> 4.3.4 spawns 
-[18:00] <Aokromes> gameobject guids starts at guid 200000
-[18:00] <Aokromes> 6.x spawns
-[18:00] <Aokromes> gameobject guids starts at 300000
-[18:00] <Aokromes> 7.x spawns
-[18:00] <Aokromes> gameobject guids starts at 400000
-[18:00] <Aokromes> 8.x
-[18:00] <Aokromes> gameobject guids starts at 500000
-[18:00] <Aokromes> 9.x
-[18:00] <Aokromes> gameobject guids starts at 600000
 &nbsp;
 
 ### id
