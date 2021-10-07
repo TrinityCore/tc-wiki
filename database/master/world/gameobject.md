@@ -2,10 +2,10 @@
 title: gameobject
 description: 
 published: true
-date: 2021-08-30T20:38:02.276Z
+date: 2021-10-07T15:09:20.782Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T09:31:38.234Z
 ---
 
 <a href="https://dev.trinitycore.info/en/database/master/world/game_weather" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'game_weather'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/gameobject_addon" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'gameobject_addon'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -41,7 +41,32 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### guid
-*- no description -*
+
+The global unique identifier for the game object. This field must be unique among all game objects.
+If a new gameobject will be spawned it should be within the GUID range of the current expansion when creature was added initially on retail. For example a gameobject in Orgrimmar and Stormwind was added in Shadowlands (9.x) on retail, so it would get a GUID between 600000 and 699999 assigned.
+The GUID ranges are defined as followed:
+|                    Expansion | GUID range start | GUID range end |
+| ---------------------------- | ---------------- | -------------- |
+| Vanilla (1.x)                |                1 |         199999 |
+| The Burning Crusade (2.x)    |                1 |         199999 |
+| Wrath of the Lich King (3.x) |                1 |         199999 |
+| Cataclysm (4.x)              |           200000 |         299999 |
+| Mists of Pandaria (5.x)      |           200000 |         299999 |
+| Warlords of Draenor (6.x)    |           300000 |         399999 |
+| Legion (7.x)                 |           400000 |         499999 |
+| Battle for Azeroth (8.x)     |           500000 |         599999 |
+| Shadowlands (9.x)            |           600000 |         699999 |
+
+[18:00] <Aokromes> 4.3.4 spawns 
+[18:00] <Aokromes> gameobject guids starts at guid 200000
+[18:00] <Aokromes> 6.x spawns
+[18:00] <Aokromes> gameobject guids starts at 300000
+[18:00] <Aokromes> 7.x spawns
+[18:00] <Aokromes> gameobject guids starts at 400000
+[18:00] <Aokromes> 8.x
+[18:00] <Aokromes> gameobject guids starts at 500000
+[18:00] <Aokromes> 9.x
+[18:00] <Aokromes> gameobject guids starts at 600000
 &nbsp;
 
 ### id
