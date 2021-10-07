@@ -2,7 +2,7 @@
 title: creature
 description: 
 published: true
-date: 2021-10-07T15:03:44.826Z
+date: 2021-10-07T15:09:48.914Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:41.375Z
@@ -48,8 +48,8 @@ dateCreated: 2021-08-30T09:29:41.375Z
 
 ### guid
 A unique identifier given to each creature to distinguish one creature from another. Two creatures can NOT have same GUID.
-If a new creature will be spawned it should be within the GUID range of the current expansion when creature was added first.
-For example [Chromie](https://www.wowhead.com/npc=167032/chromie) is spawned within Orgrimmar and Stormwind, but was added in Shadowlands (9.x), so we would assign a GUID between 1050000 and 1249999. 
+If a new creature will be spawned it should be within the GUID range of the current expansion when creature was added first on retail.
+For example [Chromie](https://www.wowhead.com/npc=167032/chromie) is spawned in Orgrimmar and Stormwind, but was added in Shadowlands (9.x) on retail, so we would assign a GUID between 1050000 and 1249999. 
 The GUID ranges are defined as followed:
 |                    Expansion | GUID range start | GUID range end |
 | ---------------------------- | ---------------- | -------------- |
