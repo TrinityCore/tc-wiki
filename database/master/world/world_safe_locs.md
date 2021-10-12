@@ -2,7 +2,7 @@
 title: world_safe_locs
 description: 
 published: true
-date: 2021-10-12T14:02:27.754Z
+date: 2021-10-12T14:07:55.552Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:38:13.594Z
@@ -25,7 +25,12 @@ dateCreated: 2021-08-30T09:38:13.594Z
 ## Description of fields
 
 ### ID
-Unique identifier, as of today ID 7582 is last (leaked) entry since this used to be a shipped DB2 file. New ones should start at X.
+Unique identifier, as of today ID 7582 is last (leaked) entry since this used to be a shipped DB2 file. 
+New (custom) IDs should be used per expansion as followed:
+| Expansion                | ID range start | ID range end |
+| ------------------------ | -------------- | ------------ |
+| Battle for Azeroth (8.x) |          80000 |        89999 |
+| Shadowlands (9.x)        |          90000 |        99999 |
 &nbsp;
 
 ### MapID
