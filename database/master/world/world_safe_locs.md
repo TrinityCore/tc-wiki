@@ -2,10 +2,10 @@
 title: world_safe_locs
 description: 
 published: true
-date: 2021-08-30T20:38:02.323Z
+date: 2021-10-12T14:02:27.754Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T09:38:13.594Z
 ---
 
 <a href="https://dev.trinitycore.info/en/database/master/world/waypoints" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'waypoints'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/access_requirement" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'access_requirement'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -25,31 +25,31 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### ID
-*- no description -*
+Unique identifier, as of today ID 7582 is last (leaked) entry since this used to be a shipped DB2 file. New ones should start at X.
 &nbsp;
 
 ### MapID
-*- no description -*
+MapID of the location
 &nbsp;
 
 ### LocX
-*- no description -*
+X coordinate of the location
 &nbsp;
 
 ### LocY
-*- no description -*
+Y coordinate of the location
 &nbsp;
 
 ### LocZ
-*- no description -*
+Z coordinate of the location
 &nbsp;
 
 ### Facing
-*- no description -*
+Facing coordinate of the location
 &nbsp;
 
 ### Comment
-*- no description -*
+The usage of the location and where it is (as in zone/map name)
 &nbsp;
 
 <a href="https://dev.trinitycore.info/en/database/master/world/waypoints" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'waypoints'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/access_requirement" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'access_requirement'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
