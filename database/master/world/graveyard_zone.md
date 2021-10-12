@@ -2,7 +2,7 @@
 title: graveyard_zone
 description: 
 published: true
-date: 2021-10-12T14:15:49.413Z
+date: 2021-10-12T14:19:57.097Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:32:22.271Z
@@ -22,7 +22,7 @@ dateCreated: 2021-08-30T09:32:22.271Z
 ## Description of fields
 
 ### ID
-WorldSafeLocs ID, see world_safe_locs table
+WorldSafeLocs ID, see [world_safe_locs](https://dev.trinitycore.info/en/database/master/world/world_safe_locs) table
 &nbsp;
 
 ### GhostZone
