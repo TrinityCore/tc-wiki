@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2021-10-16T18:00:58.121Z
+date: 2021-10-16T18:03:09.281Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -60,7 +60,7 @@ vs_enterprise.exe /q /norestart /InstallSelectableItems NativeLanguageSupport_Gr
 
 - [MySQL Server Community Edition](https://dev.mysql.com/downloads/mysql/5.7.html) Version 5.7
   <span style="color:red">(not recommended, better use 8.0)</span>
-- [MySQL Server Community Edition](https://dev.mysql.com/downloads/mysql/5.7.html) Version 8.0
+- [MySQL Server Community Edition](https://dev.mysql.com/downloads/mysql/8.0.html) Version 8.0
   <span style="color:green">(highly recommended)</span>
 {.links-list}
 
