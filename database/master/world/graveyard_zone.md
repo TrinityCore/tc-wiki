@@ -2,7 +2,7 @@
 title: graveyard_zone
 description: 
 published: true
-date: 2021-10-12T14:19:57.097Z
+date: 2021-10-16T12:38:43.866Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:32:22.271Z
@@ -26,7 +26,7 @@ WorldSafeLocs ID, see [world_safe_locs](https://dev.trinitycore.info/en/database
 &nbsp;
 
 ### GhostZone
-ZoneId before teleportion to graveyard (before pressing release button), see AreaTable.db2 or use .gps command
+ZoneId before teleportation to graveyard (before pressing release button), see AreaTable.db2 or use .gps command ingame while within the zone.
 &nbsp;
 
 ### Faction
