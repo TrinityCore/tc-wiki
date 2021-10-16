@@ -2,7 +2,7 @@
 title: Hotfixes
 description: 
 published: true
-date: 2021-10-16T11:03:47.674Z
+date: 2021-10-16T11:04:20.596Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-29T20:42:31.704Z
@@ -13,7 +13,7 @@ dateCreated: 2021-08-29T20:42:31.704Z
 > 
 > Exception:
 > [hotfix_data](/database/master/hotfixes/hotfix_data)
-> [hotfix_optional_data](/database/master/hotfixes/achievement/hotfix_optional_data)
+> [hotfix_optional_data](/database/master/hotfixes/hotfix_optional_data)
 > [updates](/database/master/hotfixes/updates)
 > [updates_include](/database/master/hotfixes/updates_include)
 {.is-info}
