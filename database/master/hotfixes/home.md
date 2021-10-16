@@ -2,16 +2,17 @@
 title: Hotfixes
 description: 
 published: true
-date: 2021-10-16T11:04:20.596Z
+date: 2021-10-16T11:54:05.376Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-29T20:42:31.704Z
 ---
 
-> Each table represents its corresponding [DB2](https://wowdev.wiki/DB2)-File structure.
+> Each table schema represents its corresponding [DB2](https://wowdev.wiki/DB2)-File structure.
 > The tables **only** contain additional/corrected/removed data.
 > 
 > Exception:
+> [hotfix_blob](/database/master/hotfixes/hotfix_blob)
 > [hotfix_data](/database/master/hotfixes/hotfix_data)
 > [hotfix_optional_data](/database/master/hotfixes/hotfix_optional_data)
 > [updates](/database/master/hotfixes/updates)
