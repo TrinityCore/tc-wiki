@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2021-10-16T20:26:54.552Z
+date: 2021-10-16T20:31:00.421Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -141,12 +141,7 @@ These files are shipped with MySQL Server, search for them at program files dire
 	- Example: **Win32 OpenSSL v1.1.1L**
 &nbsp;
 
-> Note #1: If you get a "Missing Microsoft Visual C++ 2008 Redistributable" error message while installing OpenSSL,
-> download the [Microsoft Visual C++ 2008 Redistributable Package (x64)](http://www.microsoft.com/en-us/download/details.aspx?id=29){target=_blank}(1.7MB Installer) and install it.
-> If you need 32bit support, download and install the [Microsoft Visual C++ 2008 Redistributable Package (x86)](http://www.microsoft.com/en-us/download/details.aspx?id=15336){target=_blank}.
-{.is-info}
-
-> Note #2: While installing OpenSSL, choose **The OpenSSL binaries (/bin) directory** (NOT "The Windows system directory")
+> While installing OpenSSL, choose **The OpenSSL binaries (/bin) directory** (NOT "The Windows system directory")
 > when given the choice on where to copy the OpenSSL DLLs. These DLLs will need to be located easily for Core Installation.
 {.is-info}
 
