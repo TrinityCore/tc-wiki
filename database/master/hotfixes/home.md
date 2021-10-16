@@ -2,11 +2,21 @@
 title: Hotfixes
 description: 
 published: true
-date: 2021-08-30T20:24:00.616Z
+date: 2021-10-16T11:03:47.674Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-29T20:42:31.704Z
 ---
+
+> Each table represents its corresponding [DB2](https://wowdev.wiki/DB2)-File structure.
+> The tables **only** contain additional/corrected/removed data.
+> 
+> Exception:
+> [hotfix_data](/database/master/hotfixes/hotfix_data)
+> [hotfix_optional_data](/database/master/hotfixes/achievement/hotfix_optional_data)
+> [updates](/database/master/hotfixes/updates)
+> [updates_include](/database/master/hotfixes/updates_include)
+{.is-info}
 
 ## a
 - [achievement](/database/master/hotfixes/achievement)
