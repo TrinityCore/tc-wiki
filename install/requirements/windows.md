@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2021-10-16T20:24:20.544Z
+date: 2021-10-16T20:26:54.552Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -107,8 +107,8 @@ Try connecting to your MySQL instance that you installed above. Depending on the
 1. Download the prebuilt Windows Binary for Visual Studio 2019
 2. If you plan to use VS 2019 you will need minimum boost 1.70 
 3. 1.70.0 is the minimum version required for Visual Studio 2019, but Version 1.72.0 is recommended.
-	- 64bit: https://sourceforge.net/projects/boost/files/boost-binaries/1.72.0/boost_1_72_0-msvc-14.2-64.exe/download{target=_blank}
-	- 32bit: https://sourceforge.net/projects/boost/files/boost-binaries/1.72.0/boost_1_72_0-msvc-14.2-32.exe/download{target=_blank}
+	- 64bit: [https://sourceforge.net/projects/boost/files/boost-binaries/1.72.0/boost_1_72_0-msvc-14.2-64.exe/download](https://sourceforge.net/projects/boost/files/boost-binaries/1.72.0/boost_1_72_0-msvc-14.2-64.exe/download){target=_blank}
+	- 32bit: [https://sourceforge.net/projects/boost/files/boost-binaries/1.72.0/boost_1_72_0-msvc-14.2-32.exe/download](https://sourceforge.net/projects/boost/files/boost-binaries/1.72.0/boost_1_72_0-msvc-14.2-32.exe/download){target=_blank}
 4. Install the package to the default location (usually C:\local\boost_1_XX_0\ .)
 5. Add an environment variable to "System" variable named "BOOST_ROOT" and as value your Boost installation directory, e.g "C:/local/boost_1_72_0". Important is to use "**<span style="color:red">/</span>**", not "**<span style="color:red">\\</span>**"  when pointing to directory.
 (Make sure that it does **<span style="color:red">not</span>** have a trailing slash (end of path). If you still get problems, add the same variable in the "USER" variables section too, like shown in the image below.)
