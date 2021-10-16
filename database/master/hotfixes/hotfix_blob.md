@@ -2,7 +2,7 @@
 title: hotfix_blob
 description: 
 published: true
-date: 2021-10-16T12:15:41.923Z
+date: 2021-10-16T12:28:28.651Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:55:03.837Z
@@ -23,6 +23,8 @@ dateCreated: 2021-08-30T09:55:03.837Z
 ## Description of fields
 
 ### TableHash
+Every DB2 has an unique TableHash.
+
 The header part of each DB2 contains its TableHash.
 It can also be calculated: [(wowdev.wiki) SStrHash](https://wowdev.wiki/SStrHash)
 
