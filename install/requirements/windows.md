@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2021-09-30T11:03:06.465Z
+date: 2021-10-16T18:00:58.121Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -56,9 +56,14 @@ vs_enterprise.exe /q /norestart /InstallSelectableItems NativeLanguageSupport_Gr
 ```
 &nbsp;
 
-### 3. [MySQL Server Community Edition](https://dev.mysql.com/downloads/mysql/5.7.html)
+### 3. MySQL Server Community Edition
 
-(Use the most recent 5.7.xx version with mysql server configuration)
+- [MySQL Server Community Edition](https://dev.mysql.com/downloads/mysql/5.7.html) Version 5.7
+  <span style="color:red">(not recommended, better use 8.0)</span>
+- [MySQL Server Community Edition](https://dev.mysql.com/downloads/mysql/5.7.html) Version 8.0
+  <span style="color:green">(highly recommended)</span>
+{.links-list}
+
 1. Download the Windows MSI Installer. 
 2. Scroll down to the bottom and click on "No thanks, just take me to the downloads!"
 3. When the installation is almost done, make sure "Launch the MySQL Instance Configuration Wizard" is checked, then click "Finish".
