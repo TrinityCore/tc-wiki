@@ -2,10 +2,10 @@
 title: access_requirement
 description: 
 published: true
-date: 2021-08-30T20:38:02.250Z
+date: 2021-11-13T19:57:48.825Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-29T20:43:51.863Z
 ---
 
 <a href="https://dev.trinitycore.info/en/database/master/world/world_safe_locs" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'world_safe_locs'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/achievement_dbc" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'achievement_dbc'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -37,39 +37,39 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### level_min
-*- no description -*
+The minimum level that you must be in order to enter the instance.
 &nbsp;
 
 ### level_max
-*- no description -*
+The maximum level that you can be in order to enter the instance.
 &nbsp;
 
 ### item
-*- no description -*
+An item that you must have in your inventory to enter the instance. This item can not be in the bank.
 &nbsp;
 
 ### item2
-*- no description -*
+A second item that you must have in your inventory. This item can not be in the bank.
 &nbsp;
 
 ### quest_done_A
-*- no description -*
+A [quest](/database/master/world/quest_template#id) that you must have completed. This field is only for alliance.
 &nbsp;
 
 ### quest_done_H
-*- no description -*
+A [quest](/database/master/world/quest_template#id) that you must have completed. This field is only for horde.
 &nbsp;
 
 ### completed_achievement
-*- no description -*
+An achievement that must be completed by the player to enter an instance.
 &nbsp;
 
 ### quest_failed_text
-*- no description -*
+The text that is shown if you try and enter the instance without having completed the quest.
 &nbsp;
 
 ### comment
-*- no description -*
+This field is for any comment you want to make about the requirements. It is arbitrary text.
 &nbsp;
 
 <a href="https://dev.trinitycore.info/en/database/master/world/world_safe_locs" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'world_safe_locs'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/achievement_dbc" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'achievement_dbc'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
