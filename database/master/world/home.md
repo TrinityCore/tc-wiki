@@ -2,7 +2,7 @@
 title: World
 description: 
 published: true
-date: 2021-08-28T21:01:17.438Z
+date: 2021-11-14T21:33:29.666Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-28T21:01:17.438Z
@@ -271,3 +271,4 @@ dateCreated: 2021-08-28T21:01:17.438Z
 - [waypoints](/database/master/world/waypoints)
 - [world_safe_locs](/database/master/world/world_safe_locs)
 {.links-list}
+
