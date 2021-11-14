@@ -2,7 +2,7 @@
 title: access_requirement
 description: 
 published: true
-date: 2021-11-14T18:51:47.501Z
+date: 2021-11-14T18:52:08.863Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-29T20:43:51.863Z
@@ -45,11 +45,11 @@ The maximum level that you can be in order to enter the instance.
 &nbsp;
 
 ### item
-An [item](https://wow.tools/dbc/?dbc=itemsparse) that you must have in your inventory to enter the instance. This item can not be in the bank.
+An [item](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} that you must have in your inventory to enter the instance. This item can not be in the bank.
 &nbsp;
 
 ### item2
-A second [item](https://wow.tools/dbc/?dbc=itemsparse) that you must have in your inventory. This item can not be in the bank.
+A second [item](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} that you must have in your inventory. This item can not be in the bank.
 &nbsp;
 
 ### quest_done_A
