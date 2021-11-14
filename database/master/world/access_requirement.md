@@ -2,7 +2,7 @@
 title: access_requirement
 description: 
 published: true
-date: 2021-11-14T18:52:08.863Z
+date: 2021-11-14T18:56:26.443Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-29T20:43:51.863Z
@@ -61,7 +61,7 @@ A [quest](/database/master/world/quest_template#id) that you must have completed
 &nbsp;
 
 ### completed_achievement
-An achievement that must be completed by the player to enter an instance.
+An [achievement](https://wow.tools/dbc/?dbc=achievement){target=_blank} that must be completed by the player to enter an instance.
 &nbsp;
 
 ### quest_failed_text
