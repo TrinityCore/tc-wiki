@@ -2,7 +2,7 @@
 title: Hotfixes
 description: 
 published: true
-date: 2021-10-16T11:56:58.094Z
+date: 2021-11-14T19:54:28.575Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-29T20:42:31.704Z
@@ -79,6 +79,7 @@ dateCreated: 2021-08-29T20:42:31.704Z
 - [battlemaster_list](/database/master/hotfixes/battlemaster_list)
 - [battlemaster_list_locale](/database/master/hotfixes/battlemaster_list_locale)
 - [broadcast_text](/database/master/hotfixes/broadcast_text)
+- [broadcast_text_duration](/database/master/hotfixes/broadcast_text_duration)
 - [broadcast_text_locale](/database/master/hotfixes/broadcast_text_locale)
 {.links-list}
 ## c
@@ -124,6 +125,8 @@ dateCreated: 2021-08-29T20:42:31.704Z
 - [creature_type_locale](/database/master/hotfixes/creature_type_locale)
 - [criteria](/database/master/hotfixes/criteria)
 - [criteria_tree](/database/master/hotfixes/criteria_tree)
+- [currency_container](/database/master/hotfixes/currency_container)
+- [currency_container_locale](/database/master/hotfixes/currency_container_locale)
 - [criteria_tree_locale](/database/master/hotfixes/criteria_tree_locale)
 - [currency_types](/database/master/hotfixes/currency_types)
 - [currency_types_locale](/database/master/hotfixes/currency_types_locale)
@@ -169,6 +172,8 @@ dateCreated: 2021-08-29T20:42:31.704Z
 - [garr_follower](/database/master/hotfixes/garr_follower)
 - [garr_follower_locale](/database/master/hotfixes/garr_follower_locale)
 - [garr_follower_x_ability](/database/master/hotfixes/garr_follower_x_ability)
+- [garr_mission](/database/master/hotfixes/garr_mission)
+- [garr_mission_locale](/database/master/hotfixes/garr_mission_locale)
 - [garr_plot](/database/master/hotfixes/garr_plot)
 - [garr_plot_building](/database/master/hotfixes/garr_plot_building)
 - [garr_plot_instance](/database/master/hotfixes/garr_plot_instance)
@@ -242,8 +247,20 @@ dateCreated: 2021-08-29T20:42:31.704Z
 - [item_x_bonus_tree](/database/master/hotfixes/item_x_bonus_tree)
 - [item_x_item_effect](/database/master/hotfixes/item_x_item_effect)
 {.links-list}
+## j
+- [journal_encounter](/database/master/hotfixes/journal_encounter)
+- [journal_encounter_locale](/database/master/hotfixes/journal_encounter_locale)
+- [journal_encounter_section](/database/master/hotfixes/journal_encounter_section)
+- [journal_encounter_section_locale](/database/master/hotfixes/journal_encounter_section_locale)
+- [journal_instance](/database/master/hotfixes/journal_instance)
+- [journal_instance_locale](/database/master/hotfixes/journal_instance_locale)
+- [journal_tier](/database/master/hotfixes/journal_tier)
+- [journal_tier_locale](/database/master/hotfixes/journal_tier_locale)
+{.links-list}
 ## k
 - [keychain](/database/master/hotfixes/keychain)
+- [keystone_affix](/database/master/hotfixes/keystone_affix)
+- [keystone_affix_locale](/database/master/hotfixes/keystone_affix_locale)
 {.links-list}
 ## l
 - [language_words](/database/master/hotfixes/language_words)
@@ -259,11 +276,14 @@ dateCreated: 2021-08-29T20:42:31.704Z
 - [mail_template](/database/master/hotfixes/mail_template)
 - [mail_template_locale](/database/master/hotfixes/mail_template_locale)
 - [map](/database/master/hotfixes/map)
+- [map_challenge_mode](/database/master/hotfixes/map_challenge_mode)
+- [map_challenge_mode_locale](/database/master/hotfixes/map_challenge_mode_locale)
 - [map_difficulty](/database/master/hotfixes/map_difficulty)
 - [map_difficulty_locale](/database/master/hotfixes/map_difficulty_locale)
 - [map_difficulty_x_condition](/database/master/hotfixes/map_difficulty_x_condition)
 - [map_difficulty_x_condition_locale](/database/master/hotfixes/map_difficulty_x_condition_locale)
 - [map_locale](/database/master/hotfixes/map_locale)
+- [maw_power](/database/master/hotfixes/maw_power)
 - [modifier_tree](/database/master/hotfixes/modifier_tree)
 - [mount](/database/master/hotfixes/mount)
 - [mount_capability](/database/master/hotfixes/mount_capability)
@@ -332,6 +352,7 @@ dateCreated: 2021-08-29T20:42:31.704Z
 - [skill_line_ability](/database/master/hotfixes/skill_line_ability)
 - [skill_line_locale](/database/master/hotfixes/skill_line_locale)
 - [skill_race_class_info](/database/master/hotfixes/skill_race_class_info)
+- [souldbind_conduit_rank](/database/master/hotfixes/souldbind_conduit_rank)
 - [sound_kit](/database/master/hotfixes/sound_kit)
 - [spec_set_member](/database/master/hotfixes/spec_set_member)
 - [specialization_spells](/database/master/hotfixes/specialization_spells)
@@ -368,6 +389,7 @@ dateCreated: 2021-08-29T20:42:31.704Z
 - [spell_range](/database/master/hotfixes/spell_range)
 - [spell_range_locale](/database/master/hotfixes/spell_range_locale)
 - [spell_reagents](/database/master/hotfixes/spell_reagents)
+- [spell_reagents_currency](/database/master/hotfixes/spell_reagents_currency)
 - [spell_scaling](/database/master/hotfixes/spell_scaling)
 - [spell_shapeshift](/database/master/hotfixes/spell_shapeshift)
 - [spell_shapeshift_form](/database/master/hotfixes/spell_shapeshift_form)
@@ -406,6 +428,8 @@ dateCreated: 2021-08-29T20:42:31.704Z
 - [ui_map_link](/database/master/hotfixes/ui_map_link)
 - [ui_map_locale](/database/master/hotfixes/ui_map_locale)
 - [ui_map_x_map_art](/database/master/hotfixes/ui_map_x_map_art)
+- [ui_splash_screen](/database/master/hotfixes/ui_splash_screen)
+- [ui_splash_screen_locale](/database/master/hotfixes/ui_splash_screen_locale)
 - [unit_power_bar](/database/master/hotfixes/unit_power_bar)
 - [unit_power_bar_locale](/database/master/hotfixes/unit_power_bar_locale)
 - [updates](/database/master/hotfixes/updates)
