@@ -2,13 +2,13 @@
 title: Hotfixes
 description: 
 published: true
-date: 2021-11-14T19:54:28.575Z
+date: 2021-11-14T21:32:16.247Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-29T20:42:31.704Z
 ---
 
-> Each table schema represents its corresponding [DB2](https://wowdev.wiki/DB2)-File structure.
+> Each table schema represents its corresponding [DB2](https://wowdev.wiki/DB2)-File structure. (except the locale tables)
 > The tables **only** contain additional/corrected/removed data for their corresponding DB2-File.
 > 
 > Exception:
