@@ -2,7 +2,7 @@
 title: chr_classes
 description: 
 published: true
-date: 2021-08-30T19:58:43.024Z
+date: 2021-11-14T19:41:35.082Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -50,10 +50,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [AttackPowerPerAgility](#attackpowerperagility) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [AttackPowerPerStrength](#attackpowerperstrength) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [SpellClassSet](#spellclassset) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ChatColorR](#chatcolorr) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ChatColorG](#chatcolorg) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ChatColorB](#chatcolorb) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ClassColorR](#classcolorr) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ClassColorG](#classcolorg) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ClassColorB](#classcolorb) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -201,15 +201,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 *- no description -*
 &nbsp;
 
-### ChatColorR
+### ClassColorR
 *- no description -*
 &nbsp;
 
-### ChatColorG
+### ClassColorG
 *- no description -*
 &nbsp;
 
-### ChatColorB
+### ClassColorB
 *- no description -*
 &nbsp;
 

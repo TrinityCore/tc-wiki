@@ -2,7 +2,7 @@
 title: vehicle
 description: 
 published: true
-date: 2021-08-30T19:58:43.118Z
+date: 2021-11-14T19:41:35.182Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -42,7 +42,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [PowerDisplayID1](#powerdisplayid1) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [PowerDisplayID2](#powerdisplayid2) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [PowerDisplayID3](#powerdisplayid3) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

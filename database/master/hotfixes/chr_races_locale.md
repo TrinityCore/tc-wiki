@@ -2,7 +2,7 @@
 title: chr_races_locale
 description: 
 published: true
-date: 2021-08-30T19:58:43.029Z
+date: 2021-11-14T19:41:35.087Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -20,16 +20,16 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [NameFemale_lang](#namefemale_lang) | text |  |  | YES | NULL |  |  |
 | [NameLowercase_lang](#namelowercase_lang) | text |  |  | YES | NULL |  |  |
 | [NameFemaleLowercase_lang](#namefemalelowercase_lang) | text |  |  | YES | NULL |  |  |
-| [NameS_lang](#names_lang) | text |  |  | YES | NULL |  |  |
-| [NameFemaleS_lang](#namefemales_lang) | text |  |  | YES | NULL |  |  |
-| [NameLowercaseS_lang](#namelowercases_lang) | text |  |  | YES | NULL |  |  |
-| [NameFemaleLowercaseS_lang](#namefemalelowercases_lang) | text |  |  | YES | NULL |  |  |
-| [RaceFantasyDescription_lang](#racefantasydescription_lang) | text |  |  | YES | NULL |  |  |
-| [NameL_lang](#namel_lang) | text |  |  | YES | NULL |  |  |
-| [NameFemaleL_lang](#namefemalel_lang) | text |  |  | YES | NULL |  |  |
-| [NameLowercaseL_lang](#namelowercasel_lang) | text |  |  | YES | NULL |  |  |
-| [NameFemaleLowercaseL_lang](#namefemalelowercasel_lang) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [LoreName_lang](#lorename_lang) | text |  |  | YES | NULL |  |  |
+| [LoreNameFemale_lang](#lorenamefemale_lang) | text |  |  | YES | NULL |  |  |
+| [LoreNameLower_lang](#lorenamelower_lang) | text |  |  | YES | NULL |  |  |
+| [LoreNameLowerFemale_lang](#lorenamelowerfemale_lang) | text |  |  | YES | NULL |  |  |
+| [LoreDescription_lang](#loredescription_lang) | text |  |  | YES | NULL |  |  |
+| [ShortName_lang](#shortname_lang) | text |  |  | YES | NULL |  |  |
+| [ShortNameFemale_lang](#shortnamefemale_lang) | text |  |  | YES | NULL |  |  |
+| [ShortNameLower_lang](#shortnamelower_lang) | text |  |  | YES | NULL |  |  |
+| [ShortNameLowerFemale_lang](#shortnamelowerfemale_lang) | text |  |  | YES | NULL |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -57,39 +57,39 @@ dateCreated: 2021-08-30T06:00:00.000Z
 *- no description -*
 &nbsp;
 
-### NameS_lang
+### LoreName_lang
 *- no description -*
 &nbsp;
 
-### NameFemaleS_lang
+### LoreNameFemale_lang
 *- no description -*
 &nbsp;
 
-### NameLowercaseS_lang
+### LoreNameLower_lang
 *- no description -*
 &nbsp;
 
-### NameFemaleLowercaseS_lang
+### LoreNameLowerFemale_lang
 *- no description -*
 &nbsp;
 
-### RaceFantasyDescription_lang
+### LoreDescription_lang
 *- no description -*
 &nbsp;
 
-### NameL_lang
+### ShortName_lang
 *- no description -*
 &nbsp;
 
-### NameFemaleL_lang
+### ShortNameFemale_lang
 *- no description -*
 &nbsp;
 
-### NameLowercaseL_lang
+### ShortNameLower_lang
 *- no description -*
 &nbsp;
 
-### NameFemaleLowercaseL_lang
+### ShortNameLowerFemale_lang
 *- no description -*
 &nbsp;
 

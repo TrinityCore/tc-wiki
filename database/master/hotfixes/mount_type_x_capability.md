@@ -2,7 +2,7 @@
 title: mount_type_x_capability
 description: 
 published: true
-date: 2021-08-30T19:58:43.077Z
+date: 2021-11-14T19:41:35.139Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -18,7 +18,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [MountTypeID](#mounttypeid) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [MountCapabilityID](#mountcapabilityid) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [OrderIndex](#orderindex) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

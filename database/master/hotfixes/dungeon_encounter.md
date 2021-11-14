@@ -2,7 +2,7 @@
 title: dungeon_encounter
 description: 
 published: true
-date: 2021-08-30T19:58:43.039Z
+date: 2021-11-14T19:41:35.097Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -25,7 +25,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
 | [SpellIconFileID](#spelliconfileid) | int(11) | signed |  | NO | 0 |  |  |
 | [Faction](#faction) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

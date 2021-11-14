@@ -2,7 +2,7 @@
 title: spell_effect
 description: 
 published: true
-date: 2021-08-30T19:58:43.098Z
+date: 2021-11-14T19:41:35.161Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -18,7 +18,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [EffectAura](#effectaura) | smallint(6) | signed |  | NO | 0 |  |  |
 | [DifficultyID](#difficultyid) | int(11) | signed |  | NO | 0 |  |  |
 | [EffectIndex](#effectindex) | int(11) | signed |  | NO | 0 |  |  |
-| [Effect](#effect) | int(11) | signed |  | NO | 0 |  |  |
+| [Effect](#effect) | int(10) | unsigned |  | NO | 0 |  |  |
 | [EffectAmplitude](#effectamplitude) | float |  |  | NO | 0 |  |  |
 | [EffectAttributes](#effectattributes) | int(11) | signed |  | NO | 0 |  |  |
 | [EffectAuraPeriod](#effectauraperiod) | int(11) | signed |  | NO | 0 |  |  |
@@ -50,7 +50,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [ImplicitTarget1](#implicittarget1) | smallint(6) | signed |  | NO | 0 |  |  |
 | [ImplicitTarget2](#implicittarget2) | smallint(6) | signed |  | NO | 0 |  |  |
 | [SpellID](#spellid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: item
 description: 
 published: true
-date: 2021-08-30T19:58:43.056Z
+date: 2021-11-14T19:41:35.114Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -23,8 +23,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [SoundOverrideSubclassID](#soundoverridesubclassid) | tinyint(4) | signed |  | NO | 0 |  |  |
 | [IconFileDataID](#iconfiledataid) | int(11) | signed |  | NO | 0 |  |  |
 | [ItemGroupSoundsID](#itemgroupsoundsid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ContentTuningID](#contenttuningid) | int(11) | signed |  | NO | 0 |  |  |
 | [ModifiedCraftingReagentItemID](#modifiedcraftingreagentitemid) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -61,6 +62,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### ItemGroupSoundsID
+*- no description -*
+&nbsp;
+
+### ContentTuningID
 *- no description -*
 &nbsp;
 

@@ -2,7 +2,7 @@
 title: phase_x_phase_group
 description: 
 published: true
-date: 2021-08-30T19:58:43.080Z
+date: 2021-11-14T19:41:35.143Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -17,7 +17,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [PhaseID](#phaseid) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [PhaseGroupID](#phasegroupid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

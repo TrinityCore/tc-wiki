@@ -2,7 +2,7 @@
 title: spell_totems
 description: 
 published: true
-date: 2021-08-30T19:58:43.107Z
+date: 2021-11-14T19:41:35.171Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -20,7 +20,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [RequiredTotemCategoryID2](#requiredtotemcategoryid2) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [Totem1](#totem1) | int(11) | signed |  | NO | 0 |  |  |
 | [Totem2](#totem2) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: garr_follower_locale
 description: 
 published: true
-date: 2021-08-30T19:58:43.048Z
+date: 2021-11-14T19:41:35.106Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -19,7 +19,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [HordeSourceText_lang](#hordesourcetext_lang) | text |  |  | YES | NULL |  |  |
 | [AllianceSourceText_lang](#alliancesourcetext_lang) | text |  |  | YES | NULL |  |  |
 | [TitleName_lang](#titlename_lang) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

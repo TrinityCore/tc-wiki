@@ -2,7 +2,7 @@
 title: spell_shapeshift
 description: 
 published: true
-date: 2021-08-30T19:58:43.106Z
+date: 2021-11-14T19:41:35.170Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -21,7 +21,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [ShapeshiftExclude2](#shapeshiftexclude2) | int(11) | signed |  | NO | 0 |  |  |
 | [ShapeshiftMask1](#shapeshiftmask1) | int(11) | signed |  | NO | 0 |  |  |
 | [ShapeshiftMask2](#shapeshiftmask2) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

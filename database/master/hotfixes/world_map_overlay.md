@@ -2,7 +2,7 @@
 title: world_map_overlay
 description: 
 published: true
-date: 2021-08-30T19:58:43.120Z
+date: 2021-11-14T19:41:35.184Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -30,7 +30,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [AreaID2](#areaid2) | int(10) | unsigned |  | NO | 0 |  |  |
 | [AreaID3](#areaid3) | int(10) | unsigned |  | NO | 0 |  |  |
 | [AreaID4](#areaid4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

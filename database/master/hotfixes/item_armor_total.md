@@ -2,7 +2,7 @@
 title: item_armor_total
 description: 
 published: true
-date: 2021-08-30T19:58:43.057Z
+date: 2021-11-14T19:41:35.116Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -20,7 +20,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Leather](#leather) | float |  |  | NO | 0 |  |  |
 | [Mail](#mail) | float |  |  | NO | 0 |  |  |
 | [Plate](#plate) | float |  |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

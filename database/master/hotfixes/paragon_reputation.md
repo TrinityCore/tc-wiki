@@ -2,7 +2,7 @@
 title: paragon_reputation
 description: 
 published: true
-date: 2021-08-30T19:58:43.080Z
+date: 2021-11-14T19:41:35.142Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -18,7 +18,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [FactionID](#factionid) | int(11) | signed |  | NO | 0 |  |  |
 | [LevelThreshold](#levelthreshold) | int(11) | signed |  | NO | 0 |  |  |
 | [QuestID](#questid) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

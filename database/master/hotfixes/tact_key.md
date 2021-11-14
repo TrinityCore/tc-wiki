@@ -2,7 +2,7 @@
 title: tact_key
 description: 
 published: true
-date: 2021-08-30T19:58:43.109Z
+date: 2021-11-14T19:41:35.172Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -31,7 +31,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Key14](#key14) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [Key15](#key15) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [Key16](#key16) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: spell_target_restrictions
 description: 
 published: true
-date: 2021-08-30T19:58:43.107Z
+date: 2021-11-14T19:41:35.171Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Targets](#targets) | int(11) | signed |  | NO | 0 |  |  |
 | [Width](#width) | float |  |  | NO | 0 |  |  |
 | [SpellID](#spellid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

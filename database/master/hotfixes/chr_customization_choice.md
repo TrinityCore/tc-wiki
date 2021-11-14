@@ -2,7 +2,7 @@
 title: chr_customization_choice
 description: 
 published: true
-date: 2021-08-30T19:58:43.025Z
+date: 2021-11-14T19:41:35.083Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -21,9 +21,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [SortOrder](#sortorder) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [UiOrderIndex](#uiorderindex) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
+| [AddedInPatch](#addedinpatch) | int(11) | signed |  | NO | 0 |  |  |
 | [SwatchColor1](#swatchcolor1) | int(11) | signed |  | NO | 0 |  |  |
 | [SwatchColor2](#swatchcolor2) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -52,6 +53,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### Flags
+*- no description -*
+&nbsp;
+
+### AddedInPatch
 *- no description -*
 &nbsp;
 

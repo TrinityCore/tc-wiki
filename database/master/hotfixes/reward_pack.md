@@ -2,7 +2,7 @@
 title: reward_pack
 description: 
 published: true
-date: 2021-08-30T19:58:43.088Z
+date: 2021-11-14T19:41:35.151Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -21,7 +21,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [ArtifactXPMultiplier](#artifactxpmultiplier) | float |  |  | NO | 0 |  |  |
 | [ArtifactXPCategoryID](#artifactxpcategoryid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [TreasurePickerID](#treasurepickerid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

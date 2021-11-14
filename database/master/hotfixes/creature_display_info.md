@@ -2,7 +2,7 @@
 title: creature_display_info
 description: 
 published: true
-date: 2021-08-30T19:58:43.033Z
+date: 2021-11-14T19:41:35.091Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -41,7 +41,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [TextureVariationFileDataID1](#texturevariationfiledataid1) | int(11) | signed |  | NO | 0 |  |  |
 | [TextureVariationFileDataID2](#texturevariationfiledataid2) | int(11) | signed |  | NO | 0 |  |  |
 | [TextureVariationFileDataID3](#texturevariationfiledataid3) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

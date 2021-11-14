@@ -2,7 +2,7 @@
 title: chr_specialization_locale
 description: 
 published: true
-date: 2021-08-30T19:58:43.030Z
+date: 2021-11-14T19:41:35.088Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -19,7 +19,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Name_lang](#name_lang) | text |  |  | YES | NULL |  |  |
 | [FemaleName_lang](#femalename_lang) | text |  |  | YES | NULL |  |  |
 | [Description_lang](#description_lang) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

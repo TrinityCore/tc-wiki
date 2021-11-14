@@ -2,7 +2,7 @@
 title: achievement
 description: 
 published: true
-date: 2021-08-30T19:58:42.999Z
+date: 2021-11-14T19:41:35.057Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -31,7 +31,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [CriteriaTree](#criteriatree) | int(10) | unsigned |  | NO | 0 |  |  |
 | [SharesCriteria](#sharescriteria) | smallint(6) | signed |  | NO | 0 |  |  |
 | [CovenantID](#covenantid) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: quest_money_reward
 description: 
 published: true
-date: 2021-08-30T19:58:43.086Z
+date: 2021-11-14T19:41:35.149Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -25,7 +25,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Difficulty8](#difficulty8) | int(10) | unsigned |  | NO | 0 |  |  |
 | [Difficulty9](#difficulty9) | int(10) | unsigned |  | NO | 0 |  |  |
 | [Difficulty10](#difficulty10) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

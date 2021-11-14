@@ -2,7 +2,7 @@
 title: barber_shop_style_locale
 description: 
 published: true
-date: 2021-08-30T19:58:43.018Z
+date: 2021-11-14T19:41:35.076Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -18,7 +18,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [locale](#locale) | varchar(4) | signed | PRI | NO |  |  |  |
 | [DisplayName_lang](#displayname_lang) | text |  |  | YES | NULL |  |  |
 | [Description_lang](#description_lang) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

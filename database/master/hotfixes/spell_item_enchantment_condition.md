@@ -2,7 +2,7 @@
 title: spell_item_enchantment_condition
 description: 
 published: true
-date: 2021-08-30T19:58:43.100Z
+date: 2021-11-14T19:41:35.164Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -45,7 +45,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Logic3](#logic3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [Logic4](#logic4) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [Logic5](#logic5) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

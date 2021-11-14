@@ -2,7 +2,7 @@
 title: taxi_path_node
 description: 
 published: true
-date: 2021-08-30T19:58:43.110Z
+date: 2021-11-14T19:41:35.174Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -25,7 +25,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Delay](#delay) | int(10) | unsigned |  | NO | 0 |  |  |
 | [ArrivalEventID](#arrivaleventid) | int(11) | signed |  | NO | 0 |  |  |
 | [DepartureEventID](#departureeventid) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

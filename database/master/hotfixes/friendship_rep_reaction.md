@@ -2,7 +2,7 @@
 title: friendship_rep_reaction
 description: 
 published: true
-date: 2021-08-30T19:58:43.043Z
+date: 2021-11-14T19:41:35.100Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -18,7 +18,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Reaction](#reaction) | text |  |  | YES | NULL |  |  |
 | [FriendshipRepID](#friendshiprepid) | int(10) | unsigned |  | NO | 0 |  |  |
 | [ReactionThreshold](#reactionthreshold) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [OverrideColor](#overridecolor) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -35,6 +36,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### ReactionThreshold
+*- no description -*
+&nbsp;
+
+### OverrideColor
 *- no description -*
 &nbsp;
 

@@ -2,7 +2,7 @@
 title: spell_shapeshift_form
 description: 
 published: true
-date: 2021-08-30T19:58:43.106Z
+date: 2021-11-14T19:41:35.170Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -35,7 +35,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [PresetSpellID6](#presetspellid6) | int(10) | unsigned |  | NO | 0 |  |  |
 | [PresetSpellID7](#presetspellid7) | int(10) | unsigned |  | NO | 0 |  |  |
 | [PresetSpellID8](#presetspellid8) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

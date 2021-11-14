@@ -2,7 +2,7 @@
 title: holidays
 description: 
 published: true
-date: 2021-08-30T19:58:43.053Z
+date: 2021-11-14T19:41:35.112Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -71,7 +71,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [TextureFileDataID1](#texturefiledataid1) | int(11) | signed |  | NO | 0 |  |  |
 | [TextureFileDataID2](#texturefiledataid2) | int(11) | signed |  | NO | 0 |  |  |
 | [TextureFileDataID3](#texturefiledataid3) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

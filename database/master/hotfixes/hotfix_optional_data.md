@@ -2,10 +2,10 @@
 title: hotfix_optional_data
 description: 
 published: true
-date: 2021-10-16T12:35:38.276Z
+date: 2021-11-14T19:41:35.113Z
 tags: database, master, hotfixes
 editor: markdown
-dateCreated: 2021-08-30T09:55:09.196Z
+dateCreated: 2021-08-30T06:00:00.000Z
 ---
 
 <a href="https://dev.trinitycore.info/en/database/master/hotfixes/hotfix_data" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'hotfix_data'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/hotfixes/import_price_armor" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'import_price_armor'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -24,12 +24,7 @@ dateCreated: 2021-08-30T09:55:09.196Z
 ## Description of fields
 
 ### TableHash
-Every DB2 has an unique TableHash.
-
-The header part of each DB2 contains its TableHash.
-It can also be calculated: [(wowdev.wiki) SStrHash](https://wowdev.wiki/SStrHash)
-
-A (mostly) full list of all hashes can be found in TrinityCore's [WowPacketParser](https://github.com/TrinityCore/WowPacketParser/blob/master/WowPacketParser/Enums/DB2Hash.cs)
+*- no description -*
 &nbsp;
 
 ### RecordId
@@ -49,7 +44,16 @@ A (mostly) full list of all hashes can be found in TrinityCore's [WowPacketParse
 &nbsp;
 
 ### VerifiedBuild
-*- no description -*
+This field is used by the TrinityDB Team to determine whether a template has been verified from WDB files.
+
+If value is 0 then it has not been parsed yet.
+
+If value is above 0 then it has been parsed with WDB files from that specific client build.
+
+If value is -1 then it is just a place holder until proper data are found on WDBs.
+
+If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
+
 &nbsp;
 
 <a href="https://dev.trinitycore.info/en/database/master/hotfixes/hotfix_data" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'hotfix_data'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/hotfixes/import_price_armor" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'import_price_armor'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>

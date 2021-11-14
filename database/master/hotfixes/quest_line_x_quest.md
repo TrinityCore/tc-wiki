@@ -2,7 +2,7 @@
 title: quest_line_x_quest
 description: 
 published: true
-date: 2021-08-30T19:58:43.086Z
+date: 2021-11-14T19:41:35.149Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -18,7 +18,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [QuestLineID](#questlineid) | int(10) | unsigned |  | NO | 0 |  |  |
 | [QuestID](#questid) | int(10) | unsigned |  | NO | 0 |  |  |
 | [OrderIndex](#orderindex) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -35,6 +36,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### OrderIndex
+*- no description -*
+&nbsp;
+
+### Flags
 *- no description -*
 &nbsp;
 

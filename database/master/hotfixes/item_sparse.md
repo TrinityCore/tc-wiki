@@ -2,7 +2,7 @@
 title: item_sparse
 description: 
 published: true
-date: 2021-08-30T19:58:43.068Z
+date: 2021-11-14T19:41:35.126Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Display](#display) | text |  |  | YES | NULL |  |  |
 | [ExpansionID](#expansionid) | int(11) | signed |  | NO | 0 |  |  |
 | [DmgVariance](#dmgvariance) | float |  |  | NO | 0 |  |  |
-| [InstanceBound](#instancebound) | int(11) | signed |  | NO | 0 |  |  |
+| [LimitCategory](#limitcategory) | int(11) | signed |  | NO | 0 |  |  |
 | [DurationInInventory](#durationininventory) | int(10) | unsigned |  | NO | 0 |  |  |
 | [QualityModifier](#qualitymodifier) | float |  |  | NO | 0 |  |  |
 | [BagFamily](#bagfamily) | int(10) | unsigned |  | NO | 0 |  |  |
@@ -67,10 +67,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [ItemNameDescriptionID](#itemnamedescriptionid) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [RequiredTransmogHoliday](#requiredtransmogholiday) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [RequiredHoliday](#requiredholiday) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [LimitCategory](#limitcategory) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [GemProperties](#gemproperties) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [SocketMatchEnchantmentId](#socketmatchenchantmentid) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [TotemCategoryID](#totemcategoryid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [InstanceBound](#instancebound) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [ZoneBound1](#zonebound1) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [ZoneBound2](#zonebound2) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [ItemSet](#itemset) | smallint(5) | unsigned |  | NO | 0 |  |  |
@@ -110,9 +110,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [RequiredPVPMedal](#requiredpvpmedal) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [RequiredPVPRank](#requiredpvprank) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [RequiredLevel](#requiredlevel) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [InventoryType](#inventorytype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [OverallQualityID](#overallqualityid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [InventoryType](#inventorytype) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [OverallQualityID](#overallqualityid) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -152,7 +152,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 *- no description -*
 &nbsp;
 
-### InstanceBound
+### LimitCategory
 *- no description -*
 &nbsp;
 
@@ -328,10 +328,6 @@ dateCreated: 2021-08-30T06:00:00.000Z
 *- no description -*
 &nbsp;
 
-### LimitCategory
-*- no description -*
-&nbsp;
-
 ### GemProperties
 *- no description -*
 &nbsp;
@@ -341,6 +337,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### TotemCategoryID
+*- no description -*
+&nbsp;
+
+### InstanceBound
 *- no description -*
 &nbsp;
 

@@ -2,7 +2,7 @@
 title: cinematic_camera
 description: 
 published: true
-date: 2021-08-30T19:58:43.031Z
+date: 2021-11-14T19:41:35.088Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -21,7 +21,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [SoundID](#soundid) | int(10) | unsigned |  | NO | 0 |  |  |
 | [OriginFacing](#originfacing) | float |  |  | NO | 0 |  |  |
 | [FileDataID](#filedataid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [Unknown915](#unknown915) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -50,6 +51,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### FileDataID
+*- no description -*
+&nbsp;
+
+### Unknown915
 *- no description -*
 &nbsp;
 

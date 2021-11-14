@@ -2,7 +2,7 @@
 title: pvp_talent_slot_unlock
 description: 
 published: true
-date: 2021-08-30T19:58:43.084Z
+date: 2021-11-14T19:41:35.147Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -19,7 +19,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [LevelRequired](#levelrequired) | int(11) | signed |  | NO | 0 |  |  |
 | [DeathKnightLevelRequired](#deathknightlevelrequired) | int(11) | signed |  | NO | 0 |  |  |
 | [DemonHunterLevelRequired](#demonhunterlevelrequired) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

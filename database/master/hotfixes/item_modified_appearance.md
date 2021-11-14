@@ -2,7 +2,7 @@
 title: item_modified_appearance
 description: 
 published: true
-date: 2021-08-30T19:58:43.064Z
+date: 2021-11-14T19:41:35.123Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,11 +16,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [ItemID](#itemid) | int(11) | signed |  | NO | 0 |  |  |
-| [ItemAppearanceModifierID](#itemappearancemodifierid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ItemAppearanceID](#itemappearanceid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [OrderIndex](#orderindex) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [TransmogSourceTypeEnum](#transmogsourcetypeenum) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ItemAppearanceModifierID](#itemappearancemodifierid) | int(11) | signed |  | NO | 0 |  |  |
+| [ItemAppearanceID](#itemappearanceid) | int(11) | signed |  | NO | 0 |  |  |
+| [OrderIndex](#orderindex) | int(11) | signed |  | NO | 0 |  |  |
+| [TransmogSourceTypeEnum](#transmogsourcetypeenum) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

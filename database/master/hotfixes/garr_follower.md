@@ -2,7 +2,7 @@
 title: garr_follower
 description: 
 published: true
-date: 2021-08-30T19:58:43.047Z
+date: 2021-11-14T19:41:35.106Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -19,14 +19,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [AllianceSourceText](#alliancesourcetext) | text |  |  | YES | NULL |  |  |
 | [TitleName](#titlename) | text |  |  | YES | NULL |  |  |
 | [GarrTypeID](#garrtypeid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [GarrFollowerTypeID](#garrfollowertypeid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [GarrFollowerTypeID](#garrfollowertypeid) | tinyint(4) | signed |  | NO | 0 |  |  |
 | [HordeCreatureID](#hordecreatureid) | int(11) | signed |  | NO | 0 |  |  |
 | [AllianceCreatureID](#alliancecreatureid) | int(11) | signed |  | NO | 0 |  |  |
 | [HordeGarrFollRaceID](#hordegarrfollraceid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [AllianceGarrFollRaceID](#alliancegarrfollraceid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [HordeGarrClassSpecID](#hordegarrclassspecid) | int(11) | signed |  | NO | 0 |  |  |
 | [AllianceGarrClassSpecID](#alliancegarrclassspecid) | int(11) | signed |  | NO | 0 |  |  |
-| [Quality](#quality) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Quality](#quality) | tinyint(4) | signed |  | NO | 0 |  |  |
 | [FollowerLevel](#followerlevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [ItemLevelWeapon](#itemlevelweapon) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [ItemLevelArmor](#itemlevelarmor) | smallint(5) | unsigned |  | NO | 0 |  |  |
@@ -44,11 +44,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [HordeSlottingBroadcastTextID](#hordeslottingbroadcasttextid) | int(10) | unsigned |  | NO | 0 |  |  |
 | [AllySlottingBroadcastTextID](#allyslottingbroadcasttextid) | int(10) | unsigned |  | NO | 0 |  |  |
 | [ChrClassID](#chrclassid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
 | [Gender](#gender) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [AutoCombatantID](#autocombatantid) | int(11) | signed |  | NO | 0 |  |  |
 | [CovenantID](#covenantid) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: chr_races
 description: 
 published: true
-date: 2021-08-30T19:58:43.028Z
+date: 2021-11-14T19:41:35.086Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -21,15 +21,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [NameFemale](#namefemale) | text |  |  | YES | NULL |  |  |
 | [NameLowercase](#namelowercase) | text |  |  | YES | NULL |  |  |
 | [NameFemaleLowercase](#namefemalelowercase) | text |  |  | YES | NULL |  |  |
-| [NameS](#names) | text |  |  | YES | NULL |  |  |
-| [NameFemaleS](#namefemales) | text |  |  | YES | NULL |  |  |
-| [NameLowercaseS](#namelowercases) | text |  |  | YES | NULL |  |  |
-| [NameFemaleLowercaseS](#namefemalelowercases) | text |  |  | YES | NULL |  |  |
-| [RaceFantasyDescription](#racefantasydescription) | text |  |  | YES | NULL |  |  |
-| [NameL](#namel) | text |  |  | YES | NULL |  |  |
-| [NameFemaleL](#namefemalel) | text |  |  | YES | NULL |  |  |
-| [NameLowercaseL](#namelowercasel) | text |  |  | YES | NULL |  |  |
-| [NameFemaleLowercaseL](#namefemalelowercasel) | text |  |  | YES | NULL |  |  |
+| [LoreName](#lorename) | text |  |  | YES | NULL |  |  |
+| [LoreNameFemale](#lorenamefemale) | text |  |  | YES | NULL |  |  |
+| [LoreNameLower](#lorenamelower) | text |  |  | YES | NULL |  |  |
+| [LoreNameLowerFemale](#lorenamelowerfemale) | text |  |  | YES | NULL |  |  |
+| [LoreDescription](#loredescription) | text |  |  | YES | NULL |  |  |
+| [ShortName](#shortname) | text |  |  | YES | NULL |  |  |
+| [ShortNameFemale](#shortnamefemale) | text |  |  | YES | NULL |  |  |
+| [ShortNameLower](#shortnamelower) | text |  |  | YES | NULL |  |  |
+| [ShortNameLowerFemale](#shortnamelowerfemale) | text |  |  | YES | NULL |  |  |
 | [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
 | [FactionID](#factionid) | int(11) | signed |  | NO | 0 |  |  |
 | [CinematicSequenceID](#cinematicsequenceid) | int(11) | signed |  | NO | 0 |  |  |
@@ -76,7 +76,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [FemaleModelFallbackSex](#femalemodelfallbacksex) | tinyint(4) | signed |  | NO | 0 |  |  |
 | [MaleTextureFallbackSex](#maletexturefallbacksex) | tinyint(4) | signed |  | NO | 0 |  |  |
 | [FemaleTextureFallbackSex](#femaletexturefallbacksex) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -108,39 +108,39 @@ dateCreated: 2021-08-30T06:00:00.000Z
 *- no description -*
 &nbsp;
 
-### NameS
+### LoreName
 *- no description -*
 &nbsp;
 
-### NameFemaleS
+### LoreNameFemale
 *- no description -*
 &nbsp;
 
-### NameLowercaseS
+### LoreNameLower
 *- no description -*
 &nbsp;
 
-### NameFemaleLowercaseS
+### LoreNameLowerFemale
 *- no description -*
 &nbsp;
 
-### RaceFantasyDescription
+### LoreDescription
 *- no description -*
 &nbsp;
 
-### NameL
+### ShortName
 *- no description -*
 &nbsp;
 
-### NameFemaleL
+### ShortNameFemale
 *- no description -*
 &nbsp;
 
-### NameLowercaseL
+### ShortNameLower
 *- no description -*
 &nbsp;
 
-### NameFemaleLowercaseL
+### ShortNameLowerFemale
 *- no description -*
 &nbsp;
 

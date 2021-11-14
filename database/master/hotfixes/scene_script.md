@@ -2,7 +2,7 @@
 title: scene_script
 description: 
 published: true
-date: 2021-08-30T19:58:43.091Z
+date: 2021-11-14T19:41:35.154Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -17,7 +17,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [FirstSceneScriptID](#firstscenescriptid) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [NextSceneScriptID](#nextscenescriptid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [Unknown915](#unknown915) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -30,6 +31,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### NextSceneScriptID
+*- no description -*
+&nbsp;
+
+### Unknown915
 *- no description -*
 &nbsp;
 

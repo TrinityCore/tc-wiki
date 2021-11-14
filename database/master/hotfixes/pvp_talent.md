@@ -2,7 +2,7 @@
 title: pvp_talent
 description: 
 published: true
-date: 2021-08-30T19:58:43.083Z
+date: 2021-11-14T19:41:35.146Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [ActionBarSpellID](#actionbarspellid) | int(11) | signed |  | NO | 0 |  |  |
 | [PvpTalentCategoryID](#pvptalentcategoryid) | int(11) | signed |  | NO | 0 |  |  |
 | [LevelRequired](#levelrequired) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

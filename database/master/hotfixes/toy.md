@@ -2,7 +2,7 @@
 title: toy
 description: 
 published: true
-date: 2021-08-30T19:58:43.111Z
+date: 2021-11-14T19:41:35.175Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -19,7 +19,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [ItemID](#itemid) | int(11) | signed |  | NO | 0 |  |  |
 | [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [SourceTypeEnum](#sourcetypeenum) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

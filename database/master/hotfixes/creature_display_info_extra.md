@@ -2,7 +2,7 @@
 title: creature_display_info_extra
 description: 
 published: true
-date: 2021-08-30T19:58:43.034Z
+date: 2021-11-14T19:41:35.091Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -21,7 +21,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Flags](#flags) | tinyint(4) | signed |  | NO | 0 |  |  |
 | [BakeMaterialResourcesID](#bakematerialresourcesid) | int(11) | signed |  | NO | 0 |  |  |
 | [HDBakeMaterialResourcesID](#hdbakematerialresourcesid) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
