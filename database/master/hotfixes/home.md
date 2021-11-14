@@ -2,7 +2,7 @@
 title: Hotfixes
 description: 
 published: true
-date: 2021-11-14T19:53:52.408Z
+date: 2021-11-14T19:54:28.575Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-29T20:42:31.704Z
@@ -79,7 +79,7 @@ dateCreated: 2021-08-29T20:42:31.704Z
 - [battlemaster_list](/database/master/hotfixes/battlemaster_list)
 - [battlemaster_list_locale](/database/master/hotfixes/battlemaster_list_locale)
 - [broadcast_text](/database/master/hotfixes/broadcast_text)
-- [broadcast_duration](/database/master/hotfixes/broadcast_duration)
+- [broadcast_text_duration](/database/master/hotfixes/broadcast_text_duration)
 - [broadcast_text_locale](/database/master/hotfixes/broadcast_text_locale)
 {.links-list}
 ## c
