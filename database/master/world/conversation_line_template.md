@@ -2,7 +2,7 @@
 title: conversation_line_template
 description: 
 published: true
-date: 2021-08-30T20:38:02.259Z
+date: 2021-11-14T19:58:46.840Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,7 +15,6 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [Id](#id) | int(10) | unsigned | PRI | NO |  |  |  |
-| [StartTime](#starttime) | int(10) | unsigned |  | NO | 0 |  |  |
 | [UiCameraID](#uicameraid) | int(10) | unsigned |  | NO | 0 |  |  |
 | [ActorIdx](#actoridx) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
@@ -24,10 +23,6 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### Id
-*- no description -*
-&nbsp;
-
-### StartTime
 *- no description -*
 &nbsp;
 

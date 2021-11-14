@@ -2,7 +2,7 @@
 title: gameobject_template
 description: 
 published: true
-date: 2021-08-30T20:38:02.278Z
+date: 2021-11-14T19:58:46.855Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -56,6 +56,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Data31](#data31) | int(10) | signed |  | NO | 0 |  |  |
 | [Data32](#data32) | int(10) | signed |  | NO | 0 |  |  |
 | [Data33](#data33) | int(11) | signed |  | NO | 0 |  |  |
+| [Data34](#data34) | int(11) | signed |  | NO | 0 |  |  |
 | [ContentTuningId](#contenttuningid) | int(11) | signed |  | NO | 0 |  |  |
 | [AIName](#ainame) | char(64) | signed |  | NO | '' |  |  |
 | [ScriptName](#scriptname) | varchar(64) | signed |  | NO | '' |  |  |
@@ -228,6 +229,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### Data33
+*- no description -*
+&nbsp;
+
+### Data34
 *- no description -*
 &nbsp;
 

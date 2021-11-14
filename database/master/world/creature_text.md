@@ -2,7 +2,7 @@
 title: creature_text
 description: 
 published: true
-date: 2021-08-30T20:38:02.267Z
+date: 2021-11-14T19:58:46.846Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -24,6 +24,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Emote](#emote) | mediumint(8) | unsigned |  | NO | 0 |  |  |
 | [Duration](#duration) | mediumint(8) | unsigned |  | NO | 0 |  |  |
 | [Sound](#sound) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [SoundPlayType](#soundplaytype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [BroadcastTextId](#broadcasttextid) | mediumint(6) | signed |  | NO | 0 |  |  |
 | [TextRange](#textrange) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [comment](#comment) | varchar(255) | signed |  | YES | '' |  |  |
@@ -67,6 +68,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### Sound
+*- no description -*
+&nbsp;
+
+### SoundPlayType
 *- no description -*
 &nbsp;
 

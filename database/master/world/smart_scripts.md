@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2021-08-30T20:38:02.312Z
+date: 2021-11-14T19:58:46.887Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -39,6 +39,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [target_param1](#target_param1) | int(10) | unsigned |  | NO | 0 |  |  |
 | [target_param2](#target_param2) | int(10) | unsigned |  | NO | 0 |  |  |
 | [target_param3](#target_param3) | int(10) | unsigned |  | NO | 0 |  |  |
+| [target_param4](#target_param4) | int(10) | unsigned |  | NO | 0 |  |  |
 | [target_x](#target_x) | float |  |  | NO | 0 |  |  |
 | [target_y](#target_y) | float |  |  | NO | 0 |  |  |
 | [target_z](#target_z) | float |  |  | NO | 0 |  |  |
@@ -144,6 +145,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### target_param3
+*- no description -*
+&nbsp;
+
+### target_param4
 *- no description -*
 &nbsp;
 

@@ -2,7 +2,7 @@
 title: playercreateinfo
 description: 
 published: true
-date: 2021-08-30T20:38:02.295Z
+date: 2021-11-14T19:58:46.872Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -17,11 +17,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [race](#race) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
 | [class](#class) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
 | [map](#map) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [zone](#zone) | mediumint(8) | unsigned |  | NO | 0 |  |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |
 | [orientation](#orientation) | float |  |  | NO | 0 |  |  |
+| [npe_map](#npe_map) | int(10) | unsigned |  | YES | NULL |  |  |
+| [npe_position_x](#npe_position_x) | float |  |  | YES | NULL |  |  |
+| [npe_position_y](#npe_position_y) | float |  |  | YES | NULL |  |  |
+| [npe_position_z](#npe_position_z) | float |  |  | YES | NULL |  |  |
+| [npe_orientation](#npe_orientation) | float |  |  | YES | NULL |  |  |
+| [npe_transport_guid](#npe_transport_guid) | bigint(20) | unsigned |  | YES | NULL |  |  |
+| [intro_movie_id](#intro_movie_id) | int(10) | unsigned |  | YES | NULL |  |  |
+| [intro_scene_id](#intro_scene_id) | int(10) | unsigned |  | YES | NULL |  |  |
+| [npe_intro_scene_id](#npe_intro_scene_id) | int(10) | unsigned |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 
@@ -34,10 +42,6 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### map
-*- no description -*
-&nbsp;
-
-### zone
 *- no description -*
 &nbsp;
 
@@ -54,6 +58,42 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### orientation
+*- no description -*
+&nbsp;
+
+### npe_map
+*- no description -*
+&nbsp;
+
+### npe_position_x
+*- no description -*
+&nbsp;
+
+### npe_position_y
+*- no description -*
+&nbsp;
+
+### npe_position_z
+*- no description -*
+&nbsp;
+
+### npe_orientation
+*- no description -*
+&nbsp;
+
+### npe_transport_guid
+*- no description -*
+&nbsp;
+
+### intro_movie_id
+*- no description -*
+&nbsp;
+
+### intro_scene_id
+*- no description -*
+&nbsp;
+
+### npe_intro_scene_id
 *- no description -*
 &nbsp;
 

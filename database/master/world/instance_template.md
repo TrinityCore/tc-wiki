@@ -2,7 +2,7 @@
 title: instance_template
 description: 
 published: true
-date: 2021-08-30T20:38:02.283Z
+date: 2021-11-14T19:58:46.860Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -17,7 +17,6 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [map](#map) | smallint(5) | unsigned | PRI | NO |  |  |  |
 | [parent](#parent) | smallint(5) | unsigned |  | NO |  |  |  |
 | [script](#script) | varchar(128) | signed |  | NO | '' |  |  |
-| [allowMount](#allowmount) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -30,10 +29,6 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### script
-*- no description -*
-&nbsp;
-
-### allowMount
 *- no description -*
 &nbsp;
 

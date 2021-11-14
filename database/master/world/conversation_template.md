@@ -2,7 +2,7 @@
 title: conversation_template
 description: 
 published: true
-date: 2021-08-30T20:38:02.260Z
+date: 2021-11-14T19:58:46.840Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,7 +16,6 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [Id](#id) | int(10) | unsigned | PRI | NO |  |  |  |
 | [FirstLineId](#firstlineid) | int(10) | unsigned |  | NO |  |  |  |
-| [LastLineEndTime](#lastlineendtime) | int(10) | unsigned |  | NO |  |  |  |
 | [TextureKitId](#texturekitid) | int(10) | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) | signed |  | NO | '' |  |  |
 | [VerifiedBuild](#verifiedbuild) | int(10) | unsigned |  | NO | 0 |  |  |
@@ -28,10 +27,6 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### FirstLineId
-*- no description -*
-&nbsp;
-
-### LastLineEndTime
 *- no description -*
 &nbsp;
 
