@@ -2,7 +2,7 @@
 title: areatrigger_template
 description: This table contains the description of areatrigger.
 published: true
-date: 2021-11-15T18:40:42.284Z
+date: 2021-11-15T18:42:22.296Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:28:59.429Z
@@ -30,11 +30,17 @@ dateCreated: 2021-08-30T09:28:59.429Z
 ## Description of fields
 
 ### Id
-*- no description -*
+Unique identifier
 &nbsp;
 
 ### IsServerSide
-*- no description -*
+0 = False
+1 = True
+
+If `True` then the spawn is not sent to client via `SMGS_UPDATE_OBJECT` packet (e.g. instance entries/exists)
+
+Nevertheless there are still clientsided areatriggers for content before Legion addon.
+You can see them inside [AreaTrigger.db2](https://wow.tools/dbc/?dbc=areatrigger){target=_blank}
 &nbsp;
 
 ### Type
