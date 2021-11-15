@@ -2,7 +2,7 @@
 title: areatrigger_create_properties
 description: 
 published: true
-date: 2021-11-15T16:40:05.757Z
+date: 2021-11-15T16:40:41.548Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-11-14T20:12:34.174Z
@@ -96,7 +96,7 @@ Shape determines the general design of an areatrigger.
 
 ### ShapeData0-5
 The data changes depending on the Shape.
-| |SPHERE|BOX|UNK|POLYGON|POLYGON|
+| |SPHERE|BOX|UNK|POLYGON|CYLINDER|
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |ShapeData0| Radius | ExtentsX | | Height | Radius |
 |ShapeData1| RadiusTarget | ExtentsY | | HeightTarget | RadiusTarget |
