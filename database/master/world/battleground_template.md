@@ -2,10 +2,10 @@
 title: battleground_template
 description: 
 published: true
-date: 2021-08-30T20:38:02.256Z
+date: 2021-11-15T04:26:51.715Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T09:29:12.347Z
 ---
 
 <a href="https://dev.trinitycore.info/en/database/master/world/battle_pet_quality" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'battle_pet_quality'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/battlemaster_entry" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'battlemaster_entry'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -25,7 +25,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### ID
-*- no description -*
+The battleground ID.
+A list is available in [BattlemasterList.db2](https://wow.tools/dbc/?dbc=battlemasterlist){target=_blank} (ID field)
 &nbsp;
 
 ### AllianceStartLoc
@@ -41,15 +42,16 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### Weight
-*- no description -*
+Determines what battleground(s) will be more frequently chosen when using Random Battleground.
+For example: If you want AV to be less often chosen, give 2 and for all other give 3.
 &nbsp;
 
 ### ScriptName
-*- no description -*
+The scriptname used in the core to assign it to the specific battleground.
 &nbsp;
 
 ### Comment
-*- no description -*
+This field is for any comment you want to make about the requirements. It is arbitrary text.
 &nbsp;
 
 <a href="https://dev.trinitycore.info/en/database/master/world/battle_pet_quality" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'battle_pet_quality'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/battlemaster_entry" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'battlemaster_entry'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
