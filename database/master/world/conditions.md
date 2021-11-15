@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2021-11-15T19:33:18.063Z
+date: 2021-11-15T19:34:43.360Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -35,7 +35,7 @@ dateCreated: 2021-08-30T09:29:30.449Z
 ### SourceTypeOrReferenceId
 | SourceTypeOrReferenceId | ID | SourceGroup | SourceEntry | SourceId | ConditionTarget | Notes |
 | --- | :---: | --- | --- | --- | --- | --- |
-| CONDITION_SOURCE_TYPE_NONE | 0 | See REFERENCE TEMPLATES | (conditions#REFERENCE TEMPLATES) | Always 0 | (See below) |  |
+| CONDITION_SOURCE_TYPE_NONE | 0 | See REFERENCE TEMPLATES | (conditions#REFERENCE TEMPLATES) | Always 0 | (See below) | Only used in Reference Templates! See below. |
 
 | CONDITION_SOURCE_TYPE_CREATURE_LOOT_TEMPLATE | 1 | creature_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) | Always 0 | Always 0 |  |
 
@@ -61,7 +61,7 @@ dateCreated: 2021-08-30T09:29:30.449Z
 
 | CONDITION_SOURCE_TYPE_SPELL_LOOT_TEMPLATE | 12 | spell_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) | Always 0 | Always 0 |  |
 
-| CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET | 13 | Mask of effects to be affected by condition: 1 = EFFECT_0, 2 = EFFECT_1, 4 = EFFECT_2 | Spell Id from  Spell DBC file | Always 0 | 0 : Potential spell Target 1 : spell Caster |  |
+| CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET | 13 | Mask of effects to be affected by condition: 1 = EFFECT_0, 2 = EFFECT_1, 4 = EFFECT_2 | Spell Id from  Spell DBC file | Always 0 | 0 : Potential spell Target 1 : spell Caster | Don't use wowhead to get number of effects, data from wowhead sometimes doesn't match real effect number. |
 
 | CONDITION_SOURCE_TYPE_GOSSIP_MENU | 14 | gossip_menu.entry (gossip menu entry) | gossip_menu.text_id (points to npc_text.ID) | Always 0 | 0 = Player 1 = WorldObject |  |
 
@@ -69,15 +69,18 @@ dateCreated: 2021-08-30T09:29:30.449Z
 
 | CONDITION_SOURCE_TYPE_CREATURE_TEMPLATE_VEHICLE | 16 | Always 0 | creature entry (creature_template.entry) | Always 0 | 0 = Player riding vehicle 1 = Vehicle creature |  |
 
-| CONDITION_SOURCE_TYPE_SPELL | 17 | Always 0 | Spell ID from Spell.dbc | Always 0 | 0 = spell Caster 1 =  Explicit Target of the spell (only for spells which take the object selected by caster into account) |  |
+| CONDITION_SOURCE_TYPE_SPELL | 17 | Always 0 | Spell ID from Spell.dbc | Always 0 | 0 = spell Caster 1 =  Explicit Target of the spell (only for spells which take the object selected by caster into account) | This source type allows you to define caster/explicit target requirements for spell to be cast.
+Explicit target of the spell is the target which is selected by player during cast, not all spells take that target into account. non-explicit targets of the spell (the ones which are selected by spell like area or nearby targets for example) are not affected by this condition source type, if you want to affect those use CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET instead.
+If you are looking for old CONDITION_SOURCE_TYPE_ITEM_REQUIRED_TARGET, use this condition source type instead (ConditionTarget = 1 allows you to set requirements for a given spell, so to use this condition type you need spellid of the spell cast on item use).
+Remember that conditions with the same ElseGroup value will be used to make logical AND check, so to allow different targets for the same spell effect you have to set ElseGroup respectively. |
 
 | CONDITION_SOURCE_TYPE_SPELL_CLICK_EVENT | 18 | creature entry (npc_spellclick_spells.npc_entry) | Spell (npc_spellclick_spells.spell_id) | Always 0 | 0 = Clicker 1 =  Spellclick target (clickee) |  |
 
-| CONDITION_SOURCE_TYPE_QUEST_AVAILABLE | 19 | Always 0 | QuestID | Always 0 | 	Always 0 |  |
+| CONDITION_SOURCE_TYPE_QUEST_AVAILABLE | 19 | Always 0 | QuestID | Always 0 | 	Always 0 | Condition must be met for quest to be available to player. |
 
 | ~~UNUSED~~ | 20 |  |  |  |  |  |
 
-| CONDITION_SOURCE_TYPE_VEHICLE_SPELL | 21 | creature entry (creature_template.entry) | Spell ID from Spell.dbc | Always 0 | 0 = Player for whom spell bar is shown 1 =  Vehicle creature |  |
+| CONDITION_SOURCE_TYPE_VEHICLE_SPELL | 21 | creature entry (creature_template.entry) | Spell ID from Spell.dbc | Always 0 | 0 = Player for whom spell bar is shown 1 =  Vehicle creature | This will show or hide spells in vehicle spell bar. |
 
 | CONDITION_SOURCE_TYPE_SMART_EVENT | 22 | ID (smart_scripts.id) + 1 | 	EntryOrGuid (smart_scripts.entryorguid) | SourceType (smart_scripts.source_type) | 0 = Invoker 1 = Object |  |
 
@@ -89,7 +92,7 @@ dateCreated: 2021-08-30T09:29:30.449Z
 
 | CONDITION_SOURCE_TYPE_PHASE | 26 | PhaseID | Zone or Area ID (or 0 for any area) | Always 0 | (source code / new description here) |  |
 
-| CONDITION_SOURCE_TYPE_MAX | 27 |  |  |  |  |  |
+| CONDITION_SOURCE_TYPE_MAX | 27 |  |  |  |  | (Placeholder) |
 
 &nbsp;
 
