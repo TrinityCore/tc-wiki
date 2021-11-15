@@ -1,8 +1,8 @@
 ---
 title: areatrigger_scripts
-description: 
+description: Allows for an area trigger to be scripted with Trinity Script.
 published: true
-date: 2021-11-15T16:52:18.442Z
+date: 2021-11-15T18:25:21.074Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:28:51.767Z
