@@ -2,7 +2,7 @@
 title: World
 description: 
 published: true
-date: 2021-11-14T21:33:29.666Z
+date: 2021-11-15T04:17:01.853Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-28T21:01:17.438Z
@@ -20,7 +20,6 @@ dateCreated: 2021-08-28T21:01:17.438Z
 - [areatrigger_teleport](/database/master/world/areatrigger_teleport)
 - [areatrigger_template](/database/master/world/areatrigger_template)
 - [areatrigger_template_actions](/database/master/world/areatrigger_template_actions)
-- [areatrigger_template_polygon_vertices](/database/master/world/areatrigger_template_polygon_vertices)
 {.links-list}
 ## b
 - [battle_pet_breeds](/database/master/world/battle_pet_breeds)
@@ -226,9 +225,6 @@ dateCreated: 2021-08-28T21:01:17.438Z
 - [spawn_group](/database/master/world/spawn_group)
 - [spawn_group_template](/database/master/world/spawn_group_template)
 - [spell_area](/database/master/world/spell_area)
-- [spell_areatrigger](/database/master/world/spell_areatrigger)
-- [spell_areatrigger_circular](/database/master/world/spell_areatrigger_circular)
-- [spell_areatrigger_splines](/database/master/world/spell_areatrigger_splines)
 - [spell_custom_attr](/database/master/world/spell_custom_attr)
 - [spell_enchant_proc_data](/database/master/world/spell_enchant_proc_data)
 - [spell_group](/database/master/world/spell_group)
@@ -271,4 +267,3 @@ dateCreated: 2021-08-28T21:01:17.438Z
 - [waypoints](/database/master/world/waypoints)
 - [world_safe_locs](/database/master/world/world_safe_locs)
 {.links-list}
-
