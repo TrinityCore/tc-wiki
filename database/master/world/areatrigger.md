@@ -2,10 +2,10 @@
 title: areatrigger
 description: 
 published: true
-date: 2021-11-14T19:58:46.832Z
+date: 2021-11-15T14:31:51.149Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T09:28:46.460Z
 ---
 
 <a href="https://dev.trinitycore.info/en/database/master/world/achievement_reward_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'achievement_reward_locale'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/areatrigger_create_properties" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'areatrigger_create_properties'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -26,90 +26,109 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [PhaseId](#phaseid) | int(10) | unsigned |  | YES | 0 |  |  |
 | [PhaseGroup](#phasegroup) | int(10) | unsigned |  | YES | 0 |  |  |
 | [Shape](#shape) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ShapeData0](#shapedata0) | float |  |  | NO | 0 |  |  |
-| [ShapeData1](#shapedata1) | float |  |  | NO | 0 |  |  |
-| [ShapeData2](#shapedata2) | float |  |  | NO | 0 |  |  |
-| [ShapeData3](#shapedata3) | float |  |  | NO | 0 |  |  |
-| [ShapeData4](#shapedata4) | float |  |  | NO | 0 |  |  |
-| [ShapeData5](#shapedata5) | float |  |  | NO | 0 |  |  |
+| [ShapeData0](#shapedata0-5) | float |  |  | NO | 0 |  |  |
+| [ShapeData1](#shapedata0-5) | float |  |  | NO | 0 |  |  |
+| [ShapeData2](#shapedata0-5) | float |  |  | NO | 0 |  |  |
+| [ShapeData3](#shapedata0-5) | float |  |  | NO | 0 |  |  |
+| [ShapeData4](#shapedata0-5) | float |  |  | NO | 0 |  |  |
+| [ShapeData5](#shapedata0-5) | float |  |  | NO | 0 |  |  |
 | [Comment](#comment) | varchar(255) | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 
 ### SpawnId
-*- no description -*
+A unique identifier given to each areatrigger to distinguish one areatrigger from another. Two areatriggers can NOT have same SpawnId.
 &nbsp;
 
 ### AreaTriggerId
-*- no description -*
+The ID of the [areatrigger_template](/database/master/world/areatrigger_template) that is used when instantiating this areatrigger.
 &nbsp;
 
 ### IsServerSide
-*- no description -*
+0 = False
+1 = True
+
+If `True` then the spawn is not sent to client via `SMGS_UPDATE_OBJECT` packet (e.g. instance entries/exists)
+
+Nevertheless there are still clientsided areatriggers for content before Legion addon.
+You can see them inside [AreaTrigger.db2](https://wow.tools/dbc/?dbc=areatrigger){target=_blank}
 &nbsp;
 
 ### MapId
-*- no description -*
+The [ID](https://wow.tools/dbc/?dbc=map){target=_blank} of the map that the areatrigger is spawned on.
 &nbsp;
 
 ### PosX
-*- no description -*
+The X position of the areatrigger spawn point.
 &nbsp;
 
 ### PosY
 *- no description -*
-&nbsp;
+The Y position of the areatrigger spawn point.
 
 ### PosZ
-*- no description -*
+The Z position of the areatrigger spawn point.
 &nbsp;
 
 ### Orientation
-*- no description -*
+The orientation of the areatrigger spawn point. (North = 0.0; South = pi (3.14159))
 &nbsp;
 
 ### PhaseUseFlags
-*- no description -*
+Mask value. Part of the phasing system
+
+```bash
+PHASE_USE_FLAGS_NONE            = 0x0,
+PHASE_USE_FLAGS_ALWAYS_VISIBLE  = 0x1,
+PHASE_USE_FLAGS_INVERSE         = 0x2,
+```
 &nbsp;
 
 ### PhaseId
-*- no description -*
+If set the areatrigger is placed in the specific phase.
+
+Only players in the same phase are able to "see" the areatrigger (if PhaseUseFlags does not contain `PHASE_USE_FLAGS_ALWAYS_VISIBLE`)
+
+A full list of available phases can be taken from [Phase.db2](https://wow.tools/dbc/?dbc=phase){target=_blank}.
 &nbsp;
 
 ### PhaseGroup
-*- no description -*
+Works similar as PhaseId, but the areatrigger can be placed inside multiple Phases this way.
+
+The taken PhaseGroup might contains phases not needed, but are unused inside the phased area anyway.
+
+A full list of available PhaseGroups can be taken from [PhaseXPhaseGroup.db2](https://wow.tools/dbc/?dbc=phasexphasegroup){target=_blank}'s PhaseGroupID field.
 &nbsp;
 
 ### Shape
-*- no description -*
+Shape determines the general design of an areatrigger.
+
+|ID|Name|
+|:---:|:---: |
+|0|AREATRIGGER_TYPE_SPHERE|
+|1|AREATRIGGER_TYPE_BOX|
+|2|AREATRIGGER_TYPE_UNK|
+|3|AREATRIGGER_TYPE_POLYGON|
+|4|AREATRIGGER_TYPE_CYLINDER|
+|5|AREATRIGGER_TYPE_MAX|
 &nbsp;
 
-### ShapeData0
-*- no description -*
+### ShapeData0-5
+The data changes
+| |SPHERE|BOX|UNK|POLYGON|POLYGON|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|ShapeData0| Radius | ExtentsX | | Height | Radius |
+|ShapeData1| RadiusTarget | ExtentsY | | HeightTarget | RadiusTarget |
+|ShapeData2| - | ExtentsZ | | - | Height |
+|ShapeData3| - | ExtentsTargetX | | - | HeightTarget |
+|ShapeData4| - | ExtentsTargetY | | - | LocationZOffset |
+|ShapeData5| - | ExtentsTargetZ | | - | LocationZOffsetTarget |
 &nbsp;
 
-### ShapeData1
-*- no description -*
-&nbsp;
-
-### ShapeData2
-*- no description -*
-&nbsp;
-
-### ShapeData3
-*- no description -*
-&nbsp;
-
-### ShapeData4
-*- no description -*
-&nbsp;
-
-### ShapeData5
-*- no description -*
 &nbsp;
 
 ### Comment
-*- no description -*
+This field is for any comment you want to make about the requirements. It is arbitrary text.
 &nbsp;
 
 <a href="https://dev.trinitycore.info/en/database/master/world/achievement_reward_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'achievement_reward_locale'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/areatrigger_create_properties" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'areatrigger_create_properties'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
