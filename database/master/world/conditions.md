@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2021-11-15T19:40:31.591Z
+date: 2021-11-15T19:53:33.446Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -61,7 +61,8 @@ dateCreated: 2021-08-30T09:29:30.449Z
 
 | CONDITION_SOURCE_TYPE_SPELL_LOOT_TEMPLATE | 12 | spell_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) | Always 0 | Always 0 |  |
 
-| CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET | 13 | Mask of effects to be affected by condition: 1 = EFFECT_0, 2 = EFFECT_1, 4 = EFFECT_2 | Spell Id from  Spell DBC file | Always 0 | 0 : Potential spell Target 1 : spell Caster | Don't use wowhead to get number of effects, data from wowhead sometimes doesn't match real effect number. |
+| CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET | 13 | Mask of effects to be affected by condition: 1 = EFFECT_0, 2 = EFFECT_1, 4 = EFFECT_2 | Spell Id from  Spell DBC file | Always 0 | 0 : Potential spell Target | Don't use wowhead to get number of effects, data from wowhead sometimes doesn't match real effect number. \
+|  |  |  |  |  | 1 : spell Caster |  |
 
 | CONDITION_SOURCE_TYPE_GOSSIP_MENU | 14 | gossip_menu.entry (gossip menu entry) | gossip_menu.text_id (points to npc_text.ID) | Always 0 | 0 = Player 1 = WorldObject |  |
 
