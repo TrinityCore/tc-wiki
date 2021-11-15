@@ -1,11 +1,11 @@
 ---
 title: conditions
-description: 
+description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2021-08-30T20:38:02.259Z
+date: 2021-11-15T19:27:04.517Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T09:29:30.449Z
 ---
 
 <a href="https://dev.trinitycore.info/en/database/master/world/command" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'command'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/conversation_actors" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'conversation_actors'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -33,7 +33,64 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### SourceTypeOrReferenceId
-*- no description -*
+| SourceTypeOrReferenceId | ID | SourceGroup | SourceEntry | SourceId | ConditionTarget | Notes |
+| --- | :---: | --- | --- | --- | --- | --- |
+| CONDITION_SOURCE_TYPE_NONE | 0 | See REFERENCE TEMPLATES | (conditions#REFERENCE TEMPLATES) |  |  |  |
+
+| CONDITION_SOURCE_TYPE_CREATURE_LOOT_TEMPLATE | 1 | creature_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) |  |  |  |
+
+| CONDITION_SOURCE_TYPE_DISENCHANT_LOOT_TEMPLATE | 2 | disenchant_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) |  |  |  |
+
+| CONDITION_SOURCE_TYPE_FISHING_LOOT_TEMPLATE | 3 | fishing_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) |  |  |  |
+
+| CONDITION_SOURCE_TYPE_GAMEOBJECT_LOOT_TEMPLATE | 4 | gameobject_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) |  |  |  |
+
+| CONDITION_SOURCE_TYPE_ITEM_LOOT_TEMPLATE | 5 | item_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) |  |  |  |
+
+| CONDITION_SOURCE_TYPE_MAIL_LOOT_TEMPLATE | 6 | mail_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) |  |  |  |
+
+| CONDITION_SOURCE_TYPE_MILLING_LOOT_TEMPLATE | 7 | milling_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) |  |  |  |
+
+| CONDITION_SOURCE_TYPE_PICKPOCKETING_LOOT_TEMPLATE | 8 | pickpocketing_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) |  |  |  |
+
+| CONDITION_SOURCE_TYPE_PROSPECTING_LOOT_TEMPLATE | 9 | prospecting_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) |  |  |  |
+
+| CONDITION_SOURCE_TYPE_REFERENCE_LOOT_TEMPLATE | 10 | reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) |  |  |  |
+
+| CONDITION_SOURCE_TYPE_SKINNING_LOOT_TEMPLATE | 11 | skinning_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) |  |  |  |
+
+| CONDITION_SOURCE_TYPE_SPELL_LOOT_TEMPLATE | 12 | spell_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) |  |  |  |
+
+| CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET | 13 | Mask of effects to be affected by condition: 1 = EFFECT_0, 2 = EFFECT_1, 4 = EFFECT_2 | Spell Id from  Spell DBC file |  |  |  |
+
+| CONDITION_SOURCE_TYPE_GOSSIP_MENU | 14 | gossip_menu.entry (gossip menu entry) | gossip_menu.text_id (points to npc_text.ID) |  |  |  |
+
+| CONDITION_SOURCE_TYPE_GOSSIP_MENU_OPTION | 15 | gossip_menu_option.menu_id (menu entry) | gossip_menu_option.id |  |  |  |
+
+| CONDITION_SOURCE_TYPE_CREATURE_TEMPLATE_VEHICLE | 16 | Always 0 | creature entry (creature_template.entry) |  |  |  |
+
+| CONDITION_SOURCE_TYPE_SPELL | 17 | Always 0 | Spell ID from Spell.dbc |  |  |  |
+
+| CONDITION_SOURCE_TYPE_SPELL_CLICK_EVENT | 18 | creature entry (npc_spellclick_spells.npc_entry) | Spell (npc_spellclick_spells.spell_id) |  |  |  |
+
+| CONDITION_SOURCE_TYPE_QUEST_AVAILABLE | 19 | Always 0 | QuestID |  |  |  |
+
+| ~~UNUSED~~ | 20 |  |  |  |  |  |
+
+| CONDITION_SOURCE_TYPE_VEHICLE_SPELL | 21 | creature entry (creature_template.entry) | Spell ID from Spell.dbc |  |  |  |
+
+| CONDITION_SOURCE_TYPE_SMART_EVENT | 22 | ID (smart_scripts.id) + 1 | 	EntryOrGuid (smart_scripts.entryorguid) |  |  |  |
+
+| CONDITION_SOURCE_TYPE_NPC_VENDOR | 23 | vendor entry (npc_vendor.entry) | item entry (npc_vendor.item) |  |  |  |
+
+| CONDITION_SOURCE_TYPE_SPELL_PROC | 24 | Always 0 | Spell ID of aura which triggers the proc |  |  |  |
+
+| CONDITION_SOURCE_TYPE_TERRAIN_SWAP | 25 | Always 0 | terrainSwap - object in terrainswap |  |  |  |
+
+| CONDITION_SOURCE_TYPE_PHASE | 26 | PhaseID | Zone or Area ID (or 0 for any area) |  |  |  |
+
+| CONDITION_SOURCE_TYPE_MAX | 27 |  |  |  |  |  |
+
 &nbsp;
 
 ### SourceGroup
