@@ -2,10 +2,10 @@
 title: achievement_reward
 description: 
 published: true
-date: 2021-08-30T20:38:02.252Z
+date: 2021-11-15T00:06:07.927Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T09:28:41.306Z
 ---
 
 <a href="https://dev.trinitycore.info/en/database/master/world/achievement_dbc" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'achievement_dbc'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/achievement_reward_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'achievement_reward_locale'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -26,35 +26,35 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### ID
-*- no description -*
+ID from [Achievement.db2](https://wow.tools/dbc/?dbc=achievement){target=_blank}
 &nbsp;
 
 ### TitleA
-*- no description -*
+This is the ID of the title for Aliance from [CharTitles.db2](https://wow.tools/dbc/?dbc=chartitles){target=_blank} if the achievement rewards a title.
 &nbsp;
 
 ### TitleH
-*- no description -*
+This is the ID of the title for Horde from [CharTitles.db2](https://wow.tools/dbc/?dbc=chartitles){target=_blank} if the achievement rewards a title.
 &nbsp;
 
 ### ItemID
-*- no description -*
+This is the [item](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} that you get if the achievement rewards an item. You will get this item in the mail.
 &nbsp;
 
 ### Sender
-*- no description -*
+This is the sender of the mail that you receive.
 &nbsp;
 
 ### Subject
-*- no description -*
+This is the subject of the mail that you receive.
 &nbsp;
 
 ### Body
-*- no description -*
+This is the text of the body of that mail that you receive.
 &nbsp;
 
 ### MailTemplateID
-*- no description -*
+This is Id of MailTemplate from [MailTemplate.db2](https://wow.tools/dbc/?dbc=mailtemplate){target=_blank} of that mail that you receive. Subject and Text must be empty. They are read from db2 file.
 &nbsp;
 
 <a href="https://dev.trinitycore.info/en/database/master/world/achievement_dbc" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'achievement_dbc'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/achievement_reward_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'achievement_reward_locale'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
