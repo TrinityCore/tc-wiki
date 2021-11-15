@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2021-11-15T19:27:04.517Z
+date: 2021-11-15T19:33:18.063Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -35,59 +35,59 @@ dateCreated: 2021-08-30T09:29:30.449Z
 ### SourceTypeOrReferenceId
 | SourceTypeOrReferenceId | ID | SourceGroup | SourceEntry | SourceId | ConditionTarget | Notes |
 | --- | :---: | --- | --- | --- | --- | --- |
-| CONDITION_SOURCE_TYPE_NONE | 0 | See REFERENCE TEMPLATES | (conditions#REFERENCE TEMPLATES) |  |  |  |
+| CONDITION_SOURCE_TYPE_NONE | 0 | See REFERENCE TEMPLATES | (conditions#REFERENCE TEMPLATES) | Always 0 | (See below) |  |
 
-| CONDITION_SOURCE_TYPE_CREATURE_LOOT_TEMPLATE | 1 | creature_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) |  |  |  |
+| CONDITION_SOURCE_TYPE_CREATURE_LOOT_TEMPLATE | 1 | creature_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) | Always 0 | Always 0 |  |
 
-| CONDITION_SOURCE_TYPE_DISENCHANT_LOOT_TEMPLATE | 2 | disenchant_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) |  |  |  |
+| CONDITION_SOURCE_TYPE_DISENCHANT_LOOT_TEMPLATE | 2 | disenchant_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) | Always 0 | Always 0 |  |
 
-| CONDITION_SOURCE_TYPE_FISHING_LOOT_TEMPLATE | 3 | fishing_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) |  |  |  |
+| CONDITION_SOURCE_TYPE_FISHING_LOOT_TEMPLATE | 3 | fishing_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) | Always 0 |Always 0  |  |
 
-| CONDITION_SOURCE_TYPE_GAMEOBJECT_LOOT_TEMPLATE | 4 | gameobject_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) |  |  |  |
+| CONDITION_SOURCE_TYPE_GAMEOBJECT_LOOT_TEMPLATE | 4 | gameobject_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) | Always 0 | Always 0 |  |
 
-| CONDITION_SOURCE_TYPE_ITEM_LOOT_TEMPLATE | 5 | item_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) |  |  |  |
+| CONDITION_SOURCE_TYPE_ITEM_LOOT_TEMPLATE | 5 | item_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) | Always 0 | Always 0 |  |
 
-| CONDITION_SOURCE_TYPE_MAIL_LOOT_TEMPLATE | 6 | mail_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) |  |  |  |
+| CONDITION_SOURCE_TYPE_MAIL_LOOT_TEMPLATE | 6 | mail_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) | Always 0 | Always 0 |  |
 
-| CONDITION_SOURCE_TYPE_MILLING_LOOT_TEMPLATE | 7 | milling_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) |  |  |  |
+| CONDITION_SOURCE_TYPE_MILLING_LOOT_TEMPLATE | 7 | milling_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) | Always 0 | Always 0 |  |
 
-| CONDITION_SOURCE_TYPE_PICKPOCKETING_LOOT_TEMPLATE | 8 | pickpocketing_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) |  |  |  |
+| CONDITION_SOURCE_TYPE_PICKPOCKETING_LOOT_TEMPLATE | 8 | pickpocketing_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) | Always 0 | Always 0 |  |
 
-| CONDITION_SOURCE_TYPE_PROSPECTING_LOOT_TEMPLATE | 9 | prospecting_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) |  |  |  |
+| CONDITION_SOURCE_TYPE_PROSPECTING_LOOT_TEMPLATE | 9 | prospecting_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) | Always 0 | Always 0 |  |
 
-| CONDITION_SOURCE_TYPE_REFERENCE_LOOT_TEMPLATE | 10 | reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) |  |  |  |
+| CONDITION_SOURCE_TYPE_REFERENCE_LOOT_TEMPLATE | 10 | reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) | Always 0 | Always 0 |  |
 
-| CONDITION_SOURCE_TYPE_SKINNING_LOOT_TEMPLATE | 11 | skinning_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) |  |  |  |
+| CONDITION_SOURCE_TYPE_SKINNING_LOOT_TEMPLATE | 11 | skinning_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) | Always 0 | Always 0 |  |
 
-| CONDITION_SOURCE_TYPE_SPELL_LOOT_TEMPLATE | 12 | spell_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) |  |  |  |
+| CONDITION_SOURCE_TYPE_SPELL_LOOT_TEMPLATE | 12 | spell_loot_template.Entry or reference_loot_template.Entry | item id (_loot_template.Item or reference_loot_template.Item) | Always 0 | Always 0 |  |
 
-| CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET | 13 | Mask of effects to be affected by condition: 1 = EFFECT_0, 2 = EFFECT_1, 4 = EFFECT_2 | Spell Id from  Spell DBC file |  |  |  |
+| CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET | 13 | Mask of effects to be affected by condition: 1 = EFFECT_0, 2 = EFFECT_1, 4 = EFFECT_2 | Spell Id from  Spell DBC file | Always 0 | 0 : Potential spell Target 1 : spell Caster |  |
 
-| CONDITION_SOURCE_TYPE_GOSSIP_MENU | 14 | gossip_menu.entry (gossip menu entry) | gossip_menu.text_id (points to npc_text.ID) |  |  |  |
+| CONDITION_SOURCE_TYPE_GOSSIP_MENU | 14 | gossip_menu.entry (gossip menu entry) | gossip_menu.text_id (points to npc_text.ID) | Always 0 | 0 = Player 1 = WorldObject |  |
 
-| CONDITION_SOURCE_TYPE_GOSSIP_MENU_OPTION | 15 | gossip_menu_option.menu_id (menu entry) | gossip_menu_option.id |  |  |  |
+| CONDITION_SOURCE_TYPE_GOSSIP_MENU_OPTION | 15 | gossip_menu_option.menu_id (menu entry) | gossip_menu_option.id | Always 0 | 0 = Player 1 = WorldObject |  |
 
-| CONDITION_SOURCE_TYPE_CREATURE_TEMPLATE_VEHICLE | 16 | Always 0 | creature entry (creature_template.entry) |  |  |  |
+| CONDITION_SOURCE_TYPE_CREATURE_TEMPLATE_VEHICLE | 16 | Always 0 | creature entry (creature_template.entry) | Always 0 | 0 = Player riding vehicle 1 = Vehicle creature |  |
 
-| CONDITION_SOURCE_TYPE_SPELL | 17 | Always 0 | Spell ID from Spell.dbc |  |  |  |
+| CONDITION_SOURCE_TYPE_SPELL | 17 | Always 0 | Spell ID from Spell.dbc | Always 0 | 0 = spell Caster 1 =  Explicit Target of the spell (only for spells which take the object selected by caster into account) |  |
 
-| CONDITION_SOURCE_TYPE_SPELL_CLICK_EVENT | 18 | creature entry (npc_spellclick_spells.npc_entry) | Spell (npc_spellclick_spells.spell_id) |  |  |  |
+| CONDITION_SOURCE_TYPE_SPELL_CLICK_EVENT | 18 | creature entry (npc_spellclick_spells.npc_entry) | Spell (npc_spellclick_spells.spell_id) | Always 0 | 0 = Clicker 1 =  Spellclick target (clickee) |  |
 
-| CONDITION_SOURCE_TYPE_QUEST_AVAILABLE | 19 | Always 0 | QuestID |  |  |  |
+| CONDITION_SOURCE_TYPE_QUEST_AVAILABLE | 19 | Always 0 | QuestID | Always 0 | 	Always 0 |  |
 
 | ~~UNUSED~~ | 20 |  |  |  |  |  |
 
-| CONDITION_SOURCE_TYPE_VEHICLE_SPELL | 21 | creature entry (creature_template.entry) | Spell ID from Spell.dbc |  |  |  |
+| CONDITION_SOURCE_TYPE_VEHICLE_SPELL | 21 | creature entry (creature_template.entry) | Spell ID from Spell.dbc | Always 0 | 0 = Player for whom spell bar is shown 1 =  Vehicle creature |  |
 
-| CONDITION_SOURCE_TYPE_SMART_EVENT | 22 | ID (smart_scripts.id) + 1 | 	EntryOrGuid (smart_scripts.entryorguid) |  |  |  |
+| CONDITION_SOURCE_TYPE_SMART_EVENT | 22 | ID (smart_scripts.id) + 1 | 	EntryOrGuid (smart_scripts.entryorguid) | SourceType (smart_scripts.source_type) | 0 = Invoker 1 = Object |  |
 
-| CONDITION_SOURCE_TYPE_NPC_VENDOR | 23 | vendor entry (npc_vendor.entry) | item entry (npc_vendor.item) |  |  |  |
+| CONDITION_SOURCE_TYPE_NPC_VENDOR | 23 | vendor entry (npc_vendor.entry) | item entry (npc_vendor.item) | Always 0 | Always 0 |  |
 
-| CONDITION_SOURCE_TYPE_SPELL_PROC | 24 | Always 0 | Spell ID of aura which triggers the proc |  |  |  |
+| CONDITION_SOURCE_TYPE_SPELL_PROC | 24 | Always 0 | Spell ID of aura which triggers the proc | Always 0 | 0 = Actor 1 = ActionTarget |  |
 
-| CONDITION_SOURCE_TYPE_TERRAIN_SWAP | 25 | Always 0 | terrainSwap - object in terrainswap |  |  |  |
+| CONDITION_SOURCE_TYPE_TERRAIN_SWAP | 25 | Always 0 | terrainSwap - object in terrainswap | Always 0 | (source code / new description here) |  |
 
-| CONDITION_SOURCE_TYPE_PHASE | 26 | PhaseID | Zone or Area ID (or 0 for any area) |  |  |  |
+| CONDITION_SOURCE_TYPE_PHASE | 26 | PhaseID | Zone or Area ID (or 0 for any area) | Always 0 | (source code / new description here) |  |
 
 | CONDITION_SOURCE_TYPE_MAX | 27 |  |  |  |  |  |
 
