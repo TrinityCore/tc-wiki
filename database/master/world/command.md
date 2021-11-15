@@ -1,8 +1,8 @@
 ---
 title: command
-description: 
+description: Holds help and permission information for commands. This table does NOT create new commands. It only sets / overrides the permission and provides a help text.
 published: true
-date: 2021-11-15T04:31:15.203Z
+date: 2021-11-15T18:55:20.588Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:27.863Z
