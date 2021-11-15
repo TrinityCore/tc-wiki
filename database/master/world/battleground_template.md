@@ -1,8 +1,8 @@
 ---
 title: battleground_template
-description: 
+description: Contains information about the different battlegrounds, like how many players are needed to start, how many can be inside the same one, and the locations where each side starts.
 published: true
-date: 2021-11-15T18:51:19.872Z
+date: 2021-11-15T18:51:41.236Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:12.347Z
