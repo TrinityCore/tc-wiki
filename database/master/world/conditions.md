@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2021-11-15T19:37:30.584Z
+date: 2021-11-15T19:40:31.591Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -94,19 +94,25 @@ dateCreated: 2021-08-30T09:29:30.449Z
 &nbsp;
 
 ### SourceGroup
-*- no description -*
+See table above.
 &nbsp;
 
 ### SourceEntry
-*- no description -*
+See table above.
 &nbsp;
 
 ### SourceId
-*- no description -*
+See table above.
 &nbsp;
 
 ### ElseGroup
-*- no description -*
+Allows building grouped conditions - all entries belonging to the same condition (same SourceType, SourceGroup and SourceEntry) that share the same number in ElseGroup, define one group. The **entire condition** is met when **any of its groups** is met (logical OR). The **group** is met when **all of its entries are met** (logical AND).
+
+Example:
+
+Two conditions with the same SourceType, SourceGroup and SourceEntry but with a different Condition, the first one has ElseGroup = 1 and the second has ElseGroup = 2, this creates a Logical OR.
+
+Two conditions with the same SourceType, SourceGroup and SourceEntry but with a different Condition, both has ElseGroup = 1, this creates a Logical AND.
 &nbsp;
 
 ### ConditionTypeOrReference
@@ -118,19 +124,21 @@ dateCreated: 2021-08-30T09:29:30.449Z
 &nbsp;
 
 ### ConditionValue1
-*- no description -*
+See below.
 &nbsp;
 
 ### ConditionValue2
-*- no description -*
+See below.
 &nbsp;
 
 ### ConditionValue3
-*- no description -*
+See below.
 &nbsp;
 
 ### NegativeCondition
-*- no description -*
+If set to 1, the condition will be "inverted"
+
+Example: CONDITION_AURA with NegativeCondition will be true when the player does NOT have the aura.
 &nbsp;
 
 ### ErrorType
@@ -142,11 +150,11 @@ dateCreated: 2021-08-30T09:29:30.449Z
 &nbsp;
 
 ### ScriptName
-*- no description -*
+The ScriptName this condition uses, if any.
 &nbsp;
 
 ### Comment
-*- no description -*
+Explanation of this condition or reference
 &nbsp;
 
 <a href="https://dev.trinitycore.info/en/database/master/world/command" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'command'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/conversation_actors" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'conversation_actors'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
