@@ -2,7 +2,7 @@
 title: areatrigger_create_properties
 description: 
 published: true
-date: 2021-11-15T16:40:41.548Z
+date: 2021-11-15T18:06:13.523Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-11-14T20:12:34.174Z
@@ -37,8 +37,7 @@ dateCreated: 2021-11-14T20:12:34.174Z
 ## Description of fields
 
 ### Id
-A unique identifier.
-Areatriggers can have multiple creatre_properties.
+This ID is the MiscValue of spells with effect `SPELL_EFFECT_CREATE_AREATRIGGER`, `SPELL_EFFECT_183` or EffectAura `SPELL_AURA_AREA_TRIGGER`, which spawn areatrigger entities.
 &nbsp;
 
 ### AreaTriggerId
