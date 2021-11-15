@@ -2,7 +2,7 @@
 title: World
 description: 
 published: true
-date: 2021-11-15T04:17:01.853Z
+date: 2021-11-15T17:30:06.303Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-28T21:01:17.438Z
@@ -14,6 +14,10 @@ dateCreated: 2021-08-28T21:01:17.438Z
 - [achievement_reward](/database/master/world/achievement_reward)
 - [achievement_reward_locale](/database/master/world/achievement_reward_locale)
 - [areatrigger](/database/master/world/areatrigger)
+- [areatrigger_create_properties](/database/master/world/areatrigger_create_properties)
+- [areatrigger_create_properties_orbit](/database/master/world/areatrigger_create_properties_orbit)
+- [areatrigger_create_properties_polygon_vertex](/database/master/world/areatrigger_create_properties_polygon_vertex)
+- [areatrigger_create_properties_spline_point](/database/master/world/areatrigger_create_properties_spline_point)
 - [areatrigger_involvedrelation](/database/master/world/areatrigger_involvedrelation)
 - [areatrigger_scripts](/database/master/world/areatrigger_scripts)
 - [areatrigger_tavern](/database/master/world/areatrigger_tavern)
