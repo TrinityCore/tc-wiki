@@ -2,7 +2,7 @@
 title: areatrigger_scripts
 description: 
 published: true
-date: 2021-11-15T04:15:20.591Z
+date: 2021-11-15T16:47:14.857Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:28:51.767Z
@@ -20,7 +20,9 @@ dateCreated: 2021-08-30T09:28:51.767Z
 ## Description of fields
 
 ### entry
-This is the trigger identifier from [AreaTrigger.db2](https://wow.tools/dbc/?dbc=areatrigger){target=_blank} OR [areatrigger_template](/database/master/world/areatrigger_template)
+This is the trigger identifier from [AreaTrigger.db2](https://wow.tools/dbc/?dbc=areatrigger){target=_blank}.
+
+ScriptNames for new areatrigger system are applied inside [areatrigger_template.ScriptName](/database/master/world/areatrigger_template#ScriptName)
 &nbsp;
 
 ### ScriptName
