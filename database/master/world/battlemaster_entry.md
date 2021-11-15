@@ -1,8 +1,8 @@
 ---
 title: battlemaster_entry
-description: 
+description: Holds information on which NPC can start what battleground or arena.
 published: true
-date: 2021-11-15T04:29:05.066Z
+date: 2021-11-15T18:53:14.147Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:14.941Z
