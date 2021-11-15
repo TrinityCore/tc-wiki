@@ -2,7 +2,7 @@
 title: character_skills
 description: 
 published: true
-date: 2021-11-15T10:32:58.949Z
+date: 2021-11-15T10:33:36.209Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:00:14.157Z
@@ -30,7 +30,7 @@ The GUID of the character
 &nbsp;
 
 ### skill
-The skill a character owns. For a list, see [here](/https://wow.tools/dbc/?dbc=skillline&build=3.3.5.12340#page=1) 
+The skill a character owns. For a list, see [here](https://wow.tools/dbc/?dbc=skillline&build=3.3.5.12340#page=1) 
 &nbsp;
 
 ### value
