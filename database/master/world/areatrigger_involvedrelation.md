@@ -1,8 +1,8 @@
 ---
 title: areatrigger_involvedrelation
-description: 
+description: Enable a trigger to finish one condition of a quest (explore)
 published: true
-date: 2021-11-15T16:49:18.450Z
+date: 2021-11-15T18:24:57.945Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:28:49.105Z
@@ -17,7 +17,12 @@ dateCreated: 2021-08-30T09:28:49.105Z
 | [id](#id) | mediumint(8) | unsigned | PRI | NO | 0 |  | Identifier |
 | [quest](#quest) | mediumint(8) | unsigned |  | NO | 0 |  | Quest Identifier |
 &nbsp;
+
 ## Description of fields
+
+> If there is a record in the table for a quest, then the quest will not be completed until the player activates this areatriger. The quest is not necessarily finished after that, but that one condition of the quest is satisfied. If the only condition of the quest is to explore an area, then the quest will be complete.
+{.is-info}
+
 
 ### id
 This is the trigger ID from [AreaTrigger.db2](https://wow.tools/dbc/?dbc=areatrigger){target=_blank}
