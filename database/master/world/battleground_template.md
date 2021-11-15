@@ -2,7 +2,7 @@
 title: battleground_template
 description: 
 published: true
-date: 2021-11-15T04:26:51.715Z
+date: 2021-11-15T18:51:19.872Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:12.347Z
@@ -30,11 +30,13 @@ A list is available in [BattlemasterList.db2](https://wow.tools/dbc/?dbc=battlem
 &nbsp;
 
 ### AllianceStartLoc
-*- no description -*
+This is the ID from [world_safe_locs](/database/master/world/world_safe_locs).
+The Alliance players will start at the position listed inside [world_safe_locs](/database/master/world/world_safe_locs).
 &nbsp;
 
 ### HordeStartLoc
-*- no description -*
+This is the ID from [world_safe_locs](/database/master/world/world_safe_locs).
+The Horde players will start at the position listed inside [world_safe_locs](/database/master/world/world_safe_locs).
 &nbsp;
 
 ### StartMaxDist
