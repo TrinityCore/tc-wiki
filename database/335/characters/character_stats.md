@@ -2,13 +2,18 @@
 title: character_stats
 description: 
 published: true
-date: 2021-08-30T22:00:42.129Z
-tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, characters
+date: 2021-11-15T11:25:41.006Z
+tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T22:00:24.767Z
 ---
 
 <a href="https://dev.trinitycore.info/en/database/335/characters/character_spell_cooldown" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_spell_cooldown'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/character_talent" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_talent'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+
+> This table holds information on all the stats regarding the character. Used for external applications such as websites.
+> Needs a value >0 in config for PlayerSave.Stats.MinLevel
+{.is-info}
+
 
 ## Structure
 
@@ -49,127 +54,127 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### guid
-*- no description -*
+The GUID of the character
 &nbsp;
 
 ### maxhealth
-*- no description -*
+Maximum amount of health that the character has.
 &nbsp;
 
 ### maxpower1
-*- no description -*
+Maximum amount of mana that the character has.
 &nbsp;
 
 ### maxpower2
-*- no description -*
+Maximum amount of rage that the character has.
 &nbsp;
 
 ### maxpower3
-*- no description -*
+Maximum amount of focus that the character has.
 &nbsp;
 
 ### maxpower4
-*- no description -*
+Maximum amount of energy that the character has.
 &nbsp;
 
 ### maxpower5
-*- no description -*
+Maximum amount of happiness that the character has.
 &nbsp;
 
 ### maxpower6
-*- no description -*
+Maximum amount of rune that the character has.
 &nbsp;
 
 ### maxpower7
-*- no description -*
+Maximum amount of runic power that the character has.
 &nbsp;
 
 ### strength
-*- no description -*
+Character's current strength value.
 &nbsp;
 
 ### agility
-*- no description -*
+Character's current agility value.
 &nbsp;
 
 ### stamina
-*- no description -*
+Character's current stamina value.
 &nbsp;
 
 ### intellect
-*- no description -*
+Character's current intellect value.
 &nbsp;
 
 ### spirit
-*- no description -*
+Character's current spirit value.
 &nbsp;
 
 ### armor
-*- no description -*
+Character's current armor value.
 &nbsp;
 
 ### resHoly
-*- no description -*
+Character's current holy resistance value.
 &nbsp;
 
 ### resFire
-*- no description -*
+Character's current fire resistance value.
 &nbsp;
 
 ### resNature
-*- no description -*
+Character's current nature resistance value.
 &nbsp;
 
 ### resFrost
-*- no description -*
+Character's current frost resistance value.
 &nbsp;
 
 ### resShadow
-*- no description -*
+Character's current shadow resistance value.
 &nbsp;
 
 ### resArcane
-*- no description -*
+Character's current arcane resistance value.
 &nbsp;
 
 ### blockPct
-*- no description -*
+Character's current block chance.
 &nbsp;
 
 ### dodgePct
-*- no description -*
+Character's current dodge chance.
 &nbsp;
 
 ### parryPct
-*- no description -*
+Character's current parry chance.
 &nbsp;
 
 ### critPct
-*- no description -*
+Character's current crit chance.
 &nbsp;
 
 ### rangedCritPct
-*- no description -*
+Character's current ranged crit chance.
 &nbsp;
 
 ### spellCritPct
-*- no description -*
+Character's current spell crit chance.
 &nbsp;
 
 ### attackPower
-*- no description -*
+Character's current attackpower.
 &nbsp;
 
 ### rangedAttackPower
-*- no description -*
+Character's current ranged attackpower.
 &nbsp;
 
 ### spellPower
-*- no description -*
+Character's current spellpower.
 &nbsp;
 
 ### resilience
-*- no description -*
+Character's current resilience value.
 &nbsp;
 
 <a href="https://dev.trinitycore.info/en/database/335/characters/character_spell_cooldown" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_spell_cooldown'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/335/characters/character_talent" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_talent'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
