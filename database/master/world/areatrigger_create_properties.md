@@ -2,10 +2,10 @@
 title: areatrigger_create_properties
 description: 
 published: true
-date: 2021-11-14T19:58:46.833Z
+date: 2021-11-15T16:40:05.757Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-11-14T20:12:34.174Z
 ---
 
 <a href="https://dev.trinitycore.info/en/database/master/world/areatrigger" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'areatrigger'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://dev.trinitycore.info/en/database/master/world/areatrigger_create_properties_orbit" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'areatrigger_create_properties_orbit'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -26,22 +26,23 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [TimeToTarget](#timetotarget) | int(10) | unsigned |  | NO | 0 |  |  |
 | [TimeToTargetScale](#timetotargetscale) | int(10) | unsigned |  | NO | 0 |  |  |
 | [Shape](#shape) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ShapeData0](#shapedata0) | float |  |  | NO | 0 |  |  |
-| [ShapeData1](#shapedata1) | float |  |  | NO | 0 |  |  |
-| [ShapeData2](#shapedata2) | float |  |  | NO | 0 |  |  |
-| [ShapeData3](#shapedata3) | float |  |  | NO | 0 |  |  |
-| [ShapeData4](#shapedata4) | float |  |  | NO | 0 |  |  |
-| [ShapeData5](#shapedata5) | float |  |  | NO | 0 |  |  |
+| [ShapeData0](#shapedata0-5) | float |  |  | NO | 0 |  |  |
+| [ShapeData1](#shapedata0-5) | float |  |  | NO | 0 |  |  |
+| [ShapeData2](#shapedata0-5) | float |  |  | NO | 0 |  |  |
+| [ShapeData3](#shapedata0-5) | float |  |  | NO | 0 |  |  |
+| [ShapeData4](#shapedata0-5) | float |  |  | NO | 0 |  |  |
+| [ShapeData5](#shapedata0-5) | float |  |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int(10) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
 ### Id
-*- no description -*
+A unique identifier.
+Areatriggers can have multiple creatre_properties.
 &nbsp;
 
 ### AreaTriggerId
-*- no description -*
+The ID of the [areatrigger_template](/database/master/world/areatrigger_template) that is used when instantiating this areatrigger.
 &nbsp;
 
 ### MoveCurveId
@@ -81,31 +82,30 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### Shape
-*- no description -*
+Shape determines the general design of an areatrigger.
+
+|ID|Name|
+|:---:|:---: |
+|0|AREATRIGGER_TYPE_SPHERE|
+|1|AREATRIGGER_TYPE_BOX|
+|2|AREATRIGGER_TYPE_UNK|
+|3|AREATRIGGER_TYPE_POLYGON|
+|4|AREATRIGGER_TYPE_CYLINDER|
+|5|AREATRIGGER_TYPE_MAX|
 &nbsp;
 
-### ShapeData0
-*- no description -*
+### ShapeData0-5
+The data changes depending on the Shape.
+| |SPHERE|BOX|UNK|POLYGON|POLYGON|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|ShapeData0| Radius | ExtentsX | | Height | Radius |
+|ShapeData1| RadiusTarget | ExtentsY | | HeightTarget | RadiusTarget |
+|ShapeData2| - | ExtentsZ | | - | Height |
+|ShapeData3| - | ExtentsTargetX | | - | HeightTarget |
+|ShapeData4| - | ExtentsTargetY | | - | LocationZOffset |
+|ShapeData5| - | ExtentsTargetZ | | - | LocationZOffsetTarget |
 &nbsp;
 
-### ShapeData1
-*- no description -*
-&nbsp;
-
-### ShapeData2
-*- no description -*
-&nbsp;
-
-### ShapeData3
-*- no description -*
-&nbsp;
-
-### ShapeData4
-*- no description -*
-&nbsp;
-
-### ShapeData5
-*- no description -*
 &nbsp;
 
 ### VerifiedBuild
