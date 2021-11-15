@@ -2,7 +2,7 @@
 title: areatrigger_template
 description: This table contains the description of areatrigger.
 published: true
-date: 2021-11-15T18:28:26.578Z
+date: 2021-11-15T18:40:42.284Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:28:59.429Z
@@ -18,12 +18,12 @@ dateCreated: 2021-08-30T09:28:59.429Z
 | [IsServerSide](#isserverside) | tinyint(1) | unsigned | PRI | NO |  |  |  |
 | [Type](#type) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Data0](#data0) | float |  |  | NO | 0 |  |  |
-| [Data1](#data1) | float |  |  | NO | 0 |  |  |
-| [Data2](#data2) | float |  |  | NO | 0 |  |  |
-| [Data3](#data3) | float |  |  | NO | 0 |  |  |
-| [Data4](#data4) | float |  |  | NO | 0 |  |  |
-| [Data5](#data5) | float |  |  | NO | 0 |  |  |
+| [Data0](#data0-5) | float |  |  | NO | 0 |  |  |
+| [Data1](#data0-5) | float |  |  | NO | 0 |  |  |
+| [Data2](#data0-5) | float |  |  | NO | 0 |  |  |
+| [Data3](#data0-5) | float |  |  | NO | 0 |  |  |
+| [Data4](#data0-5) | float |  |  | NO | 0 |  |  |
+| [Data5](#data0-5) | float |  |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | char(64) | signed |  | NO | '' |  |  |
 | [VerifiedBuild](#verifiedbuild) | int(10) | unsigned |  | NO | 0 |  |  |
 &nbsp;
@@ -38,39 +38,46 @@ dateCreated: 2021-08-30T09:28:59.429Z
 &nbsp;
 
 ### Type
-*- no description -*
+|ID|Name|
+|:---:|---|
+|0|AREATRIGGER_TYPE_SPHERE|
+|1|AREATRIGGER_TYPE_BOX|
+|2|AREATRIGGER_TYPE_UNK|
+|3|AREATRIGGER_TYPE_POLYGON|
+|4|AREATRIGGER_TYPE_CYLINDER|
+|5|AREATRIGGER_TYPE_MAX|
 &nbsp;
 
 ### Flags
-*- no description -*
+|Flag|Name|
+|---|--- |
+|1|AREATRIGGER_FLAG_HAS_ABSOLUTE_ORIENTATION|
+|2|AREATRIGGER_FLAG_HAS_DYNAMIC_SHAPE|
+|4|AREATRIGGER_FLAG_HAS_ATTACHED|
+|8|AREATRIGGER_FLAG_HAS_FACE_MOVEMENT_DIR|
+|16|AREATRIGGER_FLAG_HAS_FOLLOWS_TERRAIN|
+|32|AREATRIGGER_FLAG_UNK1|
+|64|AREATRIGGER_FLAG_HAS_TARGET_ROLL_PITCH_YAW|
+|128|AREATRIGGER_FLAG_UNK2|
+|256|AREATRIGGER_FLAG_UNK3|
+|512|AREATRIGGER_FLAG_UNK4|
+|1024|AREATRIGGER_FLAG_HAS_CIRCULAR_MOVEMENT|
 &nbsp;
 
-### Data0
-*- no description -*
-&nbsp;
-
-### Data1
-*- no description -*
-&nbsp;
-
-### Data2
-*- no description -*
-&nbsp;
-
-### Data3
-*- no description -*
-&nbsp;
-
-### Data4
-*- no description -*
-&nbsp;
-
-### Data5
-*- no description -*
+### Data0-5
+The data changes depending on the Type.
+| |SPHERE|BOX|UNK|POLYGON|CYLINDER|
+|:---:|---|---|---|---|---|
+|Data0| Radius | ExtentsX | | Height | Radius |
+|Data1| RadiusTarget | ExtentsY | | HeightTarget | RadiusTarget |
+|Data2| - | ExtentsZ | | - | Height |
+|Data3| - | ExtentsTargetX | | - | HeightTarget |
+|Data4| - | ExtentsTargetY | | - | LocationZOffset |
+|Data5| - | ExtentsTargetZ | | - | LocationZOffsetTarget |
 &nbsp;
 
 ### ScriptName
-*- no description -*
+Name of the script this object uses if needed
 &nbsp;
 
 ### VerifiedBuild
