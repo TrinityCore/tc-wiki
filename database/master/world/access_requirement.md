@@ -1,8 +1,8 @@
 ---
 title: access_requirement
-description: 
+description: This table contains the access requirements to enter an instance.
 published: true
-date: 2021-11-14T18:56:26.443Z
+date: 2021-11-15T18:09:01.026Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-29T20:43:51.863Z
