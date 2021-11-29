@@ -2,7 +2,7 @@
 title: battle_pets
 description: 
 published: true
-date: 2021-08-30T05:46:27.079Z
+date: 2021-11-29T19:23:39.798Z
 tags: database, auth, master
 editor: markdown
 dateCreated: 2021-08-21T03:48:21.661Z
@@ -23,6 +23,9 @@ dateCreated: 2021-08-21T03:48:21.661Z
 [quality](#quality) | tinyint(3) | signed |  | NO | 0 |  |  |
 [flags](#flags) | smallint(5) | signed |  | NO | 0 |  |  |
 [name](#name) | varchar(12) | signed |  | NO |  |  |  |
+[nameTimestamp](#nameTimestamp) | bigint(20) | signed |  | NO | 0 |  |  |
+[owner](#owner) | bigint(20) | signed |  | YES |  |  |  |
+[ownerRealmId](#ownerRealmId) | int(11) | signed |  | YES |  |  |  |
 
 &nbsp;
 ## Description of fields
@@ -64,6 +67,18 @@ dateCreated: 2021-08-21T03:48:21.661Z
 &nbsp;
 
 ### name
+*- no description -*
+&nbsp;
+
+### nameTimestamp
+*- no description -*
+&nbsp;
+
+### owner
+*- no description -*
+&nbsp;
+
+### ownerRealmId
 *- no description -*
 &nbsp;
 
