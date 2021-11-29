@@ -2,7 +2,7 @@
 title: battle_pets
 description: 
 published: true
-date: 2021-11-29T19:25:24.625Z
+date: 2021-11-29T20:11:09.439Z
 tags: database, auth, master
 editor: markdown
 dateCreated: 2021-08-21T03:48:21.661Z
@@ -14,9 +14,10 @@ dateCreated: 2021-08-21T03:48:21.661Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 |---|---|---|:---:|:---:|---|---|---|
 [guid](#guid) | bigint(20) | signed | PRI | NO |  |  |  |
-[battlenetAccountId](#battlenetaccountdd) | int(10) | signed |  | NO |  |  |  |
+[battlenetAccountId](#battlenetaccountid) | int(10) | signed |  | NO |  |  |  |
 [species](#species) | int(10) | signed |  | NO |  |  |  |
 [breed](#breed) | smallint(5) | signed |  | NO |  |  |  |
+[displayId](#displayid) | int(11) | signed |  | NO | 0 |  |  |
 [level](#level) | smallint(5) | signed |  | NO | 1 |  |  |
 [exp](#exp) | smallint(5) | signed |  | NO | 0 |  |  |
 [health](#health) | int(10) | signed |  | NO | 1 |  |  |
@@ -31,7 +32,7 @@ dateCreated: 2021-08-21T03:48:21.661Z
 ## Description of fields
 
 ### guid   
-*- no description -*
+The battle pet global unique identifier.
 &nbsp;
     
 ### battlenetAccountId  
@@ -39,15 +40,19 @@ dateCreated: 2021-08-21T03:48:21.661Z
 &nbsp;
 
 ### species
-*- no description -*
+The battle pet species (column *ID* from *BattlePetSpecies.db2*).
 &nbsp;
 
 ### breed
+The battle pet breed (column *BattlePetBreedID* from *BattlePetBreedState.db2*).
+&nbsp;
+
+### displayId
 *- no description -*
 &nbsp;
 
 ### level
-*- no description -*
+Current battle pet level (1 - 25).
 &nbsp;
 
 ### exp
@@ -63,11 +68,23 @@ dateCreated: 2021-08-21T03:48:21.661Z
 &nbsp;
 
 ### flags
-*- no description -*
+List of BattlePetDbFlags.
+| Flag | Value   | Name              | Description                                   |
+| ----:|:-------:| ----------------- | --------------------------------------------- |
+| 0    | 0x000   | None              | None                                          |
+| 1    | 0x001   | Favorite          | Marked as favorite in battle pet journal      |
+| 2    | 0x002   | Converted         |                                               |
+| 4    | 0x004   | Revoked           | Locked in battle pet journal                  |
+| 8    | 0x008   | LockedForConvert  | Locked in battle pet journal                  |
+| 16   | 0x010   | Ability0Selection | Selected second spell of ability slot 0       |
+| 32   | 0x020   | Ability1Selection | Selected second spell of ability slot 1       |
+| 64   | 0x040   | Ability2Selection | Selected second spell of ability slot 2       |
+| 128  | 0x080   | FanfareNeeded     | Shown as a present in the  battle pet journal |
+| 256  | 0x100   | DisplayOverridden |                                               |
 &nbsp;
 
 ### name
-*- no description -*
+Current battle pet name. If empty, the battle pet will use the [name](../world/creature_template#name) of the creature associated with the [species](#species).
 &nbsp;
 
 ### nameTimestamp
