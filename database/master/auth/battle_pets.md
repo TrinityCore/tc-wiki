@@ -2,7 +2,7 @@
 title: battle_pets
 description: 
 published: true
-date: 2021-11-29T20:11:09.439Z
+date: 2021-11-29T20:12:12.098Z
 tags: database, auth, master
 editor: markdown
 dateCreated: 2021-08-21T03:48:21.661Z
@@ -79,7 +79,7 @@ List of BattlePetDbFlags.
 | 16   | 0x010   | Ability0Selection | Selected second spell of ability slot 0       |
 | 32   | 0x020   | Ability1Selection | Selected second spell of ability slot 1       |
 | 64   | 0x040   | Ability2Selection | Selected second spell of ability slot 2       |
-| 128  | 0x080   | FanfareNeeded     | Shown as a present in the  battle pet journal |
+| 128  | 0x080   | FanfareNeeded     | Shown as a present in battle pet journal      |
 | 256  | 0x100   | DisplayOverridden |                                               |
 &nbsp;
 
