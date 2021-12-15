@@ -2,10 +2,10 @@
 title: areatrigger
 description: 
 published: true
-date: 2021-11-15T16:40:49.445Z
+date: 2021-12-15T18:54:24.264Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T09:28:46.460Z
+dateCreated: 2021-08-30T06:00:00.000Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/achievement_reward_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'achievement_reward_locale'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/areatrigger_create_properties" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'areatrigger_create_properties'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -32,6 +32,7 @@ dateCreated: 2021-08-30T09:28:46.460Z
 | [ShapeData3](#shapedata0-5) | float |  |  | NO | 0 |  |  |
 | [ShapeData4](#shapedata0-5) | float |  |  | NO | 0 |  |  |
 | [ShapeData5](#shapedata0-5) | float |  |  | NO | 0 |  |  |
+| [ScriptName](#scriptname) | varchar(64) | signed |  | NO | '' |  |  |
 | [Comment](#comment) | varchar(255) | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
@@ -125,6 +126,8 @@ The data changes depending on the Shape.
 |ShapeData5| - | ExtentsTargetZ | | - | LocationZOffsetTarget |
 &nbsp;
 
+### ScriptName
+*- no description -*
 &nbsp;
 
 ### Comment

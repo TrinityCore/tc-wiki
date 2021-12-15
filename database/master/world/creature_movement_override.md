@@ -2,7 +2,7 @@
 title: creature_movement_override
 description: 
 published: true
-date: 2021-08-30T20:38:02.262Z
+date: 2021-12-15T18:54:24.273Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -19,6 +19,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Swim](#swim) | tinyint(3) | unsigned |  | NO | 1 |  |  |
 | [Flight](#flight) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [Rooted](#rooted) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Chase](#chase) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Random](#random) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -39,6 +41,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### Rooted
+*- no description -*
+&nbsp;
+
+### Chase
+*- no description -*
+&nbsp;
+
+### Random
 *- no description -*
 &nbsp;
 

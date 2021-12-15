@@ -2,7 +2,7 @@
 title: quest_template_addon
 description: 
 published: true
-date: 2021-08-30T20:38:02.304Z
+date: 2021-12-15T18:54:24.311Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [PrevQuestID](#prevquestid) | mediumint(8) | signed |  | NO | 0 |  |  |
 | [NextQuestID](#nextquestid) | mediumint(8) | unsigned |  | NO | 0 |  |  |
 | [ExclusiveGroup](#exclusivegroup) | mediumint(8) | signed |  | NO | 0 |  |  |
+| [BreadcrumbForQuestId](#breadcrumbforquestid) | int(11) | signed |  | NO | 0 |  |  |
 | [RewardMailTemplateID](#rewardmailtemplateid) | mediumint(8) | unsigned |  | NO | 0 |  |  |
 | [RewardMailDelay](#rewardmaildelay) | int(10) | unsigned |  | NO | 0 |  |  |
 | [RequiredSkillID](#requiredskillid) | smallint(5) | unsigned |  | NO | 0 |  |  |
@@ -60,6 +61,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### ExclusiveGroup
+*- no description -*
+&nbsp;
+
+### BreadcrumbForQuestId
 *- no description -*
 &nbsp;
 

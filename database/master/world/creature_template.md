@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2021-08-30T20:38:02.264Z
+date: 2021-12-15T18:54:24.275Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -55,20 +55,6 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [lootid](#lootid) | mediumint(8) | unsigned |  | NO | 0 |  |  |
 | [pickpocketloot](#pickpocketloot) | mediumint(8) | unsigned |  | NO | 0 |  |  |
 | [skinloot](#skinloot) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [resistance1](#resistance1) | smallint(6) | signed |  | NO | 0 |  |  |
-| [resistance2](#resistance2) | smallint(6) | signed |  | NO | 0 |  |  |
-| [resistance3](#resistance3) | smallint(6) | signed |  | NO | 0 |  |  |
-| [resistance4](#resistance4) | smallint(6) | signed |  | NO | 0 |  |  |
-| [resistance5](#resistance5) | smallint(6) | signed |  | NO | 0 |  |  |
-| [resistance6](#resistance6) | smallint(6) | signed |  | NO | 0 |  |  |
-| [spell1](#spell1) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [spell2](#spell2) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [spell3](#spell3) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [spell4](#spell4) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [spell5](#spell5) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [spell6](#spell6) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [spell7](#spell7) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [spell8](#spell8) | mediumint(8) | unsigned |  | NO | 0 |  |  |
 | [VehicleId](#vehicleid) | mediumint(8) | unsigned |  | NO | 0 |  |  |
 | [mingold](#mingold) | mediumint(8) | unsigned |  | NO | 0 |  |  |
 | [maxgold](#maxgold) | mediumint(8) | unsigned |  | NO | 0 |  |  |
@@ -257,62 +243,6 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### skinloot
-*- no description -*
-&nbsp;
-
-### resistance1
-*- no description -*
-&nbsp;
-
-### resistance2
-*- no description -*
-&nbsp;
-
-### resistance3
-*- no description -*
-&nbsp;
-
-### resistance4
-*- no description -*
-&nbsp;
-
-### resistance5
-*- no description -*
-&nbsp;
-
-### resistance6
-*- no description -*
-&nbsp;
-
-### spell1
-*- no description -*
-&nbsp;
-
-### spell2
-*- no description -*
-&nbsp;
-
-### spell3
-*- no description -*
-&nbsp;
-
-### spell4
-*- no description -*
-&nbsp;
-
-### spell5
-*- no description -*
-&nbsp;
-
-### spell6
-*- no description -*
-&nbsp;
-
-### spell7
-*- no description -*
-&nbsp;
-
-### spell8
 *- no description -*
 &nbsp;
 
