@@ -1,0 +1,207 @@
+<!--
+title: Windows Core Installation
+description: 
+published: true
+date: 2021-08-17T09:45:15.290Z
+tags: 
+editor: ckeditor
+dateCreated: 2021-08-15T10:17:42.057Z
+-->
+
+<h2>Getting started</h2>
+<p>Before you get scared by this long guide, we assure you the procedure is quite simple.<br>Most of the following steps are to be performed only the first time you install Trinity and only the Trinity updating procedures will need to be run from time to time.</p>
+<p>&nbsp;</p>
+<h2>Required Software</h2>
+<p>See&nbsp;<a href="https://trinitycore.atlassian.net/wiki/display/tc/Windows+Requirements">Windows Requirements</a></p>
+<h2>Pulling &amp; Compiling the Source</h2>
+<h3>Pulling the Source<br>&nbsp;</h3>
+<ol>
+  <li>Create a directory in which Core files will be pulled (for example:&nbsp;<strong>C:\Trinity</strong>).</li>
+  <li>Right-click on the directory and click on&nbsp;<strong>Git Extensions -&gt; Clone </strong>(on recent versions: <strong>GitExt Clone...</strong>)</li>
+  <li>Fill in the data as follow:</li>
+</ol>
+<figure class="table" style="width:1129px;">
+  <table style="background-color:rgb(255, 255, 255);">
+    <tbody>
+      <tr>
+        <th style="background-color:rgb(240, 240, 240);border-bottom:1px solid rgb(221, 221, 221);border-left:1px solid rgb(221, 221, 221);border-right:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:7px 10px;vertical-align:top;">
+          <p><strong>3.3.5 (WotLK Client)</strong></p>
+          <p><strong>This will clone 3.3.5a branch,</strong></p>
+          <p><strong>this is the&nbsp;RECOMMENDED&nbsp;branch for starters and people wanting playable content.</strong></p>
+          <figure class="image"><img src="/git_ext_335.png"></figure>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <p><strong>master (currently shadowlands client)</strong></p>
+          <p><strong>This will clone&nbsp;master branch,</strong></p>
+          <p><strong>note that this is &nbsp;</strong><mark class="pen-red"><strong>NOT&nbsp; </strong></mark><strong>the recommended branch for starters,&nbsp;</strong></p>
+          <p><strong>this branch doesn't ship most of content after 3.3.5a.</strong></p>
+          <figure class="image"><img src="/git_ext_master.png"></figure>
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>Click&nbsp;<strong>Clone</strong>. Within a few minutes all of the TrinityCore source files will be pulled into the directory&nbsp;<strong>C:\Trinity</strong>.</p>
+<p>Note: If you don't specify a branch, git will pull master by default!&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h3>Configuring and generating Visual C++ solutions with CMake<br>&nbsp;</h3>
+<p>Before you begin, create an empty directory called&nbsp;<strong>Build</strong>. In this example, we will use <strong>C:\Build</strong>.</p>
+<blockquote>
+  <p><strong>Uncommon compilers</strong></p>
+  <p><strong>Note</strong>: If CMake does not recognize your C/C++ compiler, choose <strong>Specific Native Compiler</strong>, and choose path to target&nbsp;<strong>vcvarsall.bat</strong>, e.g.&nbsp;C:\Program Files\Microsoft Visual Studio 14.0\VC\vcvarsall.bat</p>
+</blockquote>
+<blockquote>
+  <p><mark class="marker-yellow">Note: The following images serve as an example and partly show outdated software versions:</mark></p>
+</blockquote>
+<p>&nbsp;</p>
+<figure class="table" style="width:949.719px;">
+  <table style="background-color:rgb(255, 255, 255);">
+    <tbody>
+      <tr>
+        <td style="border-bottom:1px solid rgb(221, 221, 221);border-left:1px solid rgb(221, 221, 221);border-right:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:7px 10px;vertical-align:top;">
+          <figure class="image"><img src="https://trinitycore.atlassian.net/wiki/download/thumbnails/10977329/Step1.png?version=1&amp;modificationDate=1494114428581&amp;cacheVersion=1&amp;api=v2&amp;width=171&amp;height=250" srcset="https://trinitycore.atlassian.net/wiki/download/thumbnails/10977329/Step1.png?version=1&amp;modificationDate=1494114428581&amp;cacheVersion=1&amp;api=v2&amp;width=342&amp;height=500 2x, https://trinitycore.atlassian.net/wiki/download/thumbnails/10977329/Step1.png?version=1&amp;modificationDate=1494114428581&amp;cacheVersion=1&amp;api=v2&amp;width=171&amp;height=250 1x" sizes="100vw"></figure>
+          <p>Click&nbsp;<strong>Browse Source...</strong>&nbsp;-&gt; Select&nbsp;<br>the source directory (C:\Trinity)</p>
+        </td>
+        <td style="border-bottom:1px solid rgb(221, 221, 221);border-left:1px solid rgb(221, 221, 221);border-right:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:7px 10px;vertical-align:top;">
+          <figure class="image"><img src="https://trinitycore.atlassian.net/wiki/download/thumbnails/10977329/Step2.png?version=2&amp;modificationDate=1494114478005&amp;cacheVersion=1&amp;api=v2&amp;width=171&amp;height=250" srcset="https://trinitycore.atlassian.net/wiki/download/thumbnails/10977329/Step2.png?version=2&amp;modificationDate=1494114478005&amp;cacheVersion=1&amp;api=v2&amp;width=342&amp;height=500 2x, https://trinitycore.atlassian.net/wiki/download/thumbnails/10977329/Step2.png?version=2&amp;modificationDate=1494114478005&amp;cacheVersion=1&amp;api=v2&amp;width=171&amp;height=250 1x" sizes="100vw"></figure>
+          <p>2. Click&nbsp; <strong>Browse Build...</strong> &nbsp;-&gt; Select<br>the build directory (C:\Build)</p>
+        </td>
+        <td style="border-bottom:1px solid rgb(221, 221, 221);border-left:1px solid rgb(221, 221, 221);border-right:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:7px 10px !important 7px;vertical-align:top;">
+          <figure class="image"><img src="https://trinitycore.atlassian.net/wiki/download/thumbnails/10977329/Step3.png?version=2&amp;modificationDate=1494114552102&amp;cacheVersion=1&amp;api=v2&amp;width=171&amp;height=250" srcset="https://trinitycore.atlassian.net/wiki/download/thumbnails/10977329/Step3.png?version=2&amp;modificationDate=1494114552102&amp;cacheVersion=1&amp;api=v2&amp;width=342&amp;height=500 2x, https://trinitycore.atlassian.net/wiki/download/thumbnails/10977329/Step3.png?version=2&amp;modificationDate=1494114552102&amp;cacheVersion=1&amp;api=v2&amp;width=171&amp;height=250 1x" sizes="100vw"></figure>
+          <p>3. Click&nbsp;<strong>Configure</strong></p>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgb(221, 221, 221);border-left:1px solid rgb(221, 221, 221);border-right:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:7px 10px;vertical-align:top;">
+          <figure class="image"><img src="https://trinitycore.atlassian.net/wiki/download/thumbnails/10977329/Step4.png?version=2&amp;modificationDate=1494114601828&amp;cacheVersion=1&amp;api=v2&amp;width=347&amp;height=250" srcset="https://trinitycore.atlassian.net/wiki/download/thumbnails/10977329/Step4.png?version=2&amp;modificationDate=1494114601828&amp;cacheVersion=1&amp;api=v2&amp;width=502&amp;height=361 2x, https://trinitycore.atlassian.net/wiki/download/thumbnails/10977329/Step4.png?version=2&amp;modificationDate=1494114601828&amp;cacheVersion=1&amp;api=v2&amp;width=347&amp;height=250 1x" sizes="100vw"></figure>
+          <p>4. Make sure&nbsp;that <strong>Use default native compilers</strong><br>&nbsp;is checked (<i>should be checked by default</i>).</p>
+        </td>
+        <td style="border-bottom:1px solid rgb(221, 221, 221);border-left:1px solid rgb(221, 221, 221);border-right:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:7px 10px;vertical-align:top;">
+          <figure class="image"><img src="https://trinitycore.atlassian.net/wiki/download/thumbnails/10977329/Step5.png?version=2&amp;modificationDate=1494114627637&amp;cacheVersion=1&amp;api=v2&amp;width=347&amp;height=250" srcset="https://trinitycore.atlassian.net/wiki/download/thumbnails/10977329/Step5.png?version=2&amp;modificationDate=1494114627637&amp;cacheVersion=1&amp;api=v2&amp;width=502&amp;height=361 2x, https://trinitycore.atlassian.net/wiki/download/thumbnails/10977329/Step5.png?version=2&amp;modificationDate=1494114627637&amp;cacheVersion=1&amp;api=v2&amp;width=347&amp;height=250 1x" sizes="100vw"></figure>
+          <p>5. In the drop-down menu, choose the<br>version of the compiler you downloaded<br>in the&nbsp;<a href="https://trinitycore.atlassian.net/wiki/pages/resumedraft.action?draftId=10977329">Software Required</a>&nbsp;section. Be sure to choose<br><strong>Win64</strong> version if you work on 64-bits compilation</p>
+        </td>
+        <td style="border-bottom:1px solid rgb(221, 221, 221);border-left:1px solid rgb(221, 221, 221);border-right:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:7px 10px !important 7px;vertical-align:top;">
+          <figure class="image"><img src="https://trinitycore.atlassian.net/wiki/download/thumbnails/10977329/Step6.png?version=3&amp;modificationDate=1494116827416&amp;cacheVersion=1&amp;api=v2&amp;height=250"></figure>
+          <p>6. Click&nbsp;<strong>Finish</strong>.</p>
+        </td>
+      </tr>
+      <tr>
+        <td style="border-bottom:1px solid rgb(221, 221, 221);border-left:1px solid rgb(221, 221, 221);border-right:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:7px 10px;vertical-align:top;">
+          <figure class="image"><img src="https://trinitycore.atlassian.net/wiki/download/thumbnails/10977329/Step7.png?version=2&amp;modificationDate=1494114684996&amp;cacheVersion=1&amp;api=v2&amp;width=179&amp;height=250" srcset="https://trinitycore.atlassian.net/wiki/download/thumbnails/10977329/Step7.png?version=2&amp;modificationDate=1494114684996&amp;cacheVersion=1&amp;api=v2&amp;width=358&amp;height=500 2x, https://trinitycore.atlassian.net/wiki/download/thumbnails/10977329/Step7.png?version=2&amp;modificationDate=1494114684996&amp;cacheVersion=1&amp;api=v2&amp;width=179&amp;height=250 1x" sizes="100vw"></figure>
+          <p>7. Make sure <strong>Tools</strong> is checked already.<br>This will compile the map extractors<br>needed later in the setup.<br>(<i>in master branch, this will also</i><br><i>generate connection_patcher.exe</i>)</p>
+        </td>
+        <td style="border-bottom:1px solid rgb(221, 221, 221);border-left:1px solid rgb(221, 221, 221);border-right:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:7px 10px;vertical-align:top;">
+          <figure class="image"><img src="https://trinitycore.atlassian.net/wiki/download/thumbnails/10977329/Step8.png?version=2&amp;modificationDate=1494114756019&amp;cacheVersion=1&amp;api=v2&amp;width=179&amp;height=250" srcset="https://trinitycore.atlassian.net/wiki/download/thumbnails/10977329/Step8.png?version=2&amp;modificationDate=1494114756019&amp;cacheVersion=1&amp;api=v2&amp;width=358&amp;height=500 2x, https://trinitycore.atlassian.net/wiki/download/thumbnails/10977329/Step8.png?version=2&amp;modificationDate=1494114756019&amp;cacheVersion=1&amp;api=v2&amp;width=179&amp;height=250 1x" sizes="100vw"></figure>
+          <p>8. Click&nbsp;<strong>Configure</strong>&nbsp;again. As long as you have error(s) typed in red in the log window, you will have to check<br>your parameters and click again on it.</p>
+        </td>
+        <td style="border-bottom:1px solid rgb(221, 221, 221);border-left:1px solid rgb(221, 221, 221);border-right:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:7px 10px !important 7px;vertical-align:top;">
+          <figure class="image"><img src="https://trinitycore.atlassian.net/wiki/download/thumbnails/10977329/Step9.png?version=2&amp;modificationDate=1494114778929&amp;cacheVersion=1&amp;api=v2&amp;width=179&amp;height=250" srcset="https://trinitycore.atlassian.net/wiki/download/thumbnails/10977329/Step9.png?version=2&amp;modificationDate=1494114778929&amp;cacheVersion=1&amp;api=v2&amp;width=358&amp;height=500 2x, https://trinitycore.atlassian.net/wiki/download/thumbnails/10977329/Step9.png?version=2&amp;modificationDate=1494114778929&amp;cacheVersion=1&amp;api=v2&amp;width=179&amp;height=250 1x" sizes="100vw"></figure>
+          <p>9. Click&nbsp;<strong>Generate</strong>. This will install the<br>selected build files into your C:\Build folder.</p>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<blockquote>
+  <p><strong>Some errors fixes</strong></p>
+  <ul>
+    <li>If MySQL is not found by CMake it is required to set MYSQL_INCLUDE_DIR = C:/XX/MySQL/MySQL Server 5.XX<strong>/include</strong>&nbsp;and MYSQL_LIBRARY=&nbsp;C:/XX/MySQL/MySQL Server 5.XX/<strong>lib_XX/libmysql.lib</strong>.<br>XX depends if you are compiling in 32 or 64 bits mode and the mysql version you have selected.</li>
+    <li>If you get linker errors (e.g "error LNK2019: unresolved external symbol mysql_server_init"), make sure MYSQL_LIBRARY is set to the libmysql.lib that matches your compile mode (x64 vs 32 bits).<br>(If you do not see the MYSQL fields in CMake, tick the Advanced box).</li>
+    <li>If you get an error that <u>CMake could NOT find OpenSSL</u>:</li>
+  </ul>
+  <ol>
+    <li>Check the <strong>Advanced</strong> checkbox</li>
+    <li>Find the two OPENSSL entries in the list and point to the correct directories:<br>&nbsp; <u>OPENSSL_ROOT_DIR</u> is the installation path (by default, <strong>C:/OpenSSL-Win32</strong> or <strong>C:/OpenSSL-Win64</strong>)<br>&nbsp; <u>OPENSSL_INCLUDE_DIR</u> is the "include" folder in installation path (by default, <strong>C:/OpenSSL-Win32/include</strong> or <strong>C:/OpenSSL-Win64/include</strong>)</li>
+  </ol>
+</blockquote>
+<h3>Compiling the Source<br>&nbsp;</h3>
+<p>&nbsp;</p>
+<p>In Visual Studio, browse into your&nbsp;<strong>C:\Build</strong>&nbsp;folder and open&nbsp;<strong>TrinityCore.sln</strong>&nbsp;with Visual Studio Community.</p>
+<ul>
+  <li>if you are using CMake 3.8.0 or newer, you can use the button&nbsp;[<strong>Open Project</strong>] to open the solution directly with VS.</li>
+</ul>
+<p>On the menu at the top, click&nbsp;<strong>Build</strong>&nbsp;and select&nbsp;<strong>Configuration Manager</strong>.</p>
+<p>Set<strong>&nbsp;Active Solution Configuration</strong>&nbsp;to&nbsp;<strong>RelWithDebInfo</strong></p>
+<p>In the list menus below "Help", set<strong>&nbsp;Active Solution Platform</strong>&nbsp;to&nbsp;<strong>x64&nbsp;</strong>(if you set 32-bit compilation during the CMake configuration, select <strong>x86</strong>)</p>
+<p>and click Close (settings get saved instantly). On some versions of Visual Studio, this will be read and set&nbsp;automatically based on the CMake settings.</p>
+<p>Right-click&nbsp; <strong>ALL_BUILD</strong> &nbsp;in the Solution Explorer on the left sidebar and select&nbsp; <strong>Clean</strong></p>
+<p>(if your GUI does not show Solution Explorer, click the&nbsp;<strong>Build</strong>&nbsp;menu and select&nbsp; <strong>Clean</strong>&nbsp;<strong>Solution</strong>).</p>
+<p>Right-click&nbsp;<strong>ALL_BUILD</strong>&nbsp;and select&nbsp;<strong>Build </strong>(or go to the Build menu and click Build Solution (Ctrl+Shift+B)).</p>
+<p>&nbsp;</p>
+<ol>
+  <li>Compilation time differs from machine to machine, you can expect it to take anywhere between 5 and 30 minutes.</li>
+  <li>If you are asked to "Reload build files" during the compile, do so.</li>
+  <li>When the build is complete, you will find a message similar to the one below (the numbers may be different).</li>
+</ol>
+<p>&nbsp;</p>
+<blockquote>
+  <p><strong>========== Build: 22 succeeded, 0 failed, 0 up-to-date, 1 skipped ==========</strong></p>
+</blockquote>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<blockquote>
+  <p><strong>This info may be outdated</strong></p>
+  <p>Note: in MySQL 5.7 64bit there is a bug. Binary_log_types.h and Binary_log_funcs.h are missing.</p>
+  <p>you can download <a href="http://dev.mysql.com/downloads/file/?id=456917">http://dev.mysql.com/downloads/file/?id=456917</a> and open it with winrar (or google something for opening .tar Archive)</p>
+  <p>then go to mysql-5.7.7-rc\libbinlogevents\include&nbsp; there you'll find both files.&nbsp; copy them to C:\Program Files\MySQL\MySQL Server 5.7\include (default location, change to your directory if you have a different mysql install location</p>
+</blockquote>
+<p>&nbsp;</p>
+<p>You will find your freshly compiled binaries in the&nbsp;<strong>C:\Build\bin\RelWithDebInfo&nbsp;</strong>or <strong>C:\Build\bin\Debug</strong>&nbsp;folder. These are all used to run your server at the end of this instruction.</p>
+<p>You will need the following files in order for the core to function properly:</p>
+<p>&nbsp;</p>
+<figure class="table" style="width:initial;">
+  <table style="background-color:rgb(255, 255, 255);">
+    <tbody>
+      <tr>
+        <th style="background-color:rgb(240, 240, 240);border-bottom:1px solid rgb(221, 221, 221);border-left:1px solid rgb(221, 221, 221);border-right:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:7px 10px;vertical-align:top;">
+          <p><strong>3.3.5a</strong></p>
+          <p><strong>authserver.exe</strong><br><strong>authserver.pdb</strong><br><strong>authserver.conf.dist</strong><br><strong>worldserver.exe</strong><br><strong>worldserver.pdb</strong><br><strong>worldserver.conf.dist</strong><br><strong>libmysql.dll</strong><br><strong>libeay32.dll</strong><br><strong>ssleay32.dll</strong></p>
+        </th>
+        <th style="background-color:rgb(240, 240, 240);border-bottom:1px solid rgb(221, 221, 221);border-left:1px solid rgb(221, 221, 221);border-right:1px solid rgb(221, 221, 221);border-top:1px solid rgb(221, 221, 221);padding:7px 10px !important 7px;vertical-align:top;">
+          <p><strong>master (9.x)</strong></p>
+          <p><strong>bnetserver.exe</strong><br><strong>bnetserver.pdb</strong><br><strong>bnetserver.conf.dist</strong><br><strong>bnetserver.cert.perm</strong><br><strong>bnetserver.key.perm</strong><br><strong>worldserver.exe</strong><br><strong>worldserver.pdb</strong><br><strong>worldserver.conf.dist</strong><br><strong>libmysql.dll</strong><br><strong>libeay32.dll</strong><br><strong>ssleay32.dll</strong></p>
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p><br>There are three DLL files that need to be manually added to this folder, and you need to copy them over from the following installation/bin directories:</p>
+<p><strong>libmysql.dll</strong>&nbsp;→&nbsp; C:\Program Files\MySQL\MySQL Server 5.x\lib\</p>
+<p>OpenSSL <u>before</u> 1.1.0 version installed:</p>
+<p><strong>&nbsp; &nbsp; libeay32.dll</strong><br><strong>&nbsp; &nbsp; ssleay32.dll</strong>&nbsp; → C:\OpenSSL-Win64\ or C:\OpenSSL-Win32\ (<i>depends on if your core is 64-bit or 32-bit</i>)</p>
+<p>OpenSSL 1.1.0 and more recent installed, names have changed:</p>
+<p><strong>&nbsp; &nbsp; libssl-1_1.dll</strong><br><strong>&nbsp; &nbsp; libcrypto-1_1.dll&nbsp;</strong>→ C:\OpenSSL-Win32\bin<br><br><strong>&nbsp; &nbsp;libssl-1_1-x64.dll</strong><br><strong>&nbsp; &nbsp;libcrypto-1_1-x64.dll</strong> → C:\OpenSSL-Win64\bin</p>
+<blockquote>
+  <p><strong>About compilation log and report</strong></p>
+  <p>pdb files only exist if you compile on Debug or RelWithDebInfo&nbsp;modes, it's not mandatory but it's recommended to compile core on at least RelWithDebInfo&nbsp;mode to get proper crashlogs. If you compile on Release mode the pdb files aren't needed.</p>
+  <p>To report crash logs it's MANDATORY to compile on Debug or RelWithDebInfo&nbsp;mode.</p>
+</blockquote>
+<blockquote>
+  <p><mark class="marker-yellow">Please remember to rename the <strong>worldserver.conf.dist</strong> and<strong> authserver.conf.dist / bnetserver.conf.dist </strong>files to <strong>worldserver.conf </strong>and <strong>authserver.conf / bnetserver.conf </strong>respectively, unless you want to keep the configuration files of a previously compiled version of the core.</mark></p>
+</blockquote>
+<h3>Keeping the Source Up-to-Date<br>&nbsp;</h3>
+<p>TrinityCore Developers are always at work fixing and adding new features to the core. You can always check them&nbsp;<a href="https://github.com/TrinityCore/TrinityCore/">here</a>, or by viewing them from within Git Extensions.</p>
+<p>Open your TrinityCore repository in GitExtensions.&nbsp;</p>
+<ol>
+  <li>Click on the blue arrow</li>
+  <li>In the new window, click Pull.</li>
+</ol>
+<p>This will sync your local repo to the latest commits from the branch you have setup as default.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; 3. Now you will need to re-run CMake Configure &amp; Generate to update your solution (.SLN) files.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; 4. Compile downloaded source.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp; 5. Run worldserver, it will apply all new sql files (can see that in console).</p>
+<p>Profit!!</p>
+<blockquote>
+  <p><strong>Bugs and errors reporting</strong></p>
+  <p>Before reporting bugs please update your core, since we commit a lot of things monthly. Even one week core is old and your bug can be fixed on next or latest updated revision.<br>Also keep in mind that this guide is meant to satisfy a maximum of people in compiling TrinityCore under Windows environment in a general and easy way. You may encounter variations<br>depending on many parameters.</p>
+</blockquote>
+<h3>Help<br><br>&nbsp;</h3>
+<p>If you still have any problem, check:</p>
+<ul>
+  <li>Updating or starting with TrinityCore issues</li>
+  <li>Trouble with your TrinityCore Install / Readme 1st / FAQs</li>
+  <li>Or just start a new topic in the forums</li>
+</ul>
