@@ -1,8 +1,8 @@
 ---
-title: TrinityCore Wiki
+title: Requisitos
 description: 
 published: true
-date: 2021-12-15T05:21:32.613Z
+date: 2021-12-15T05:23:06.903Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-15T05:03:23.356Z
