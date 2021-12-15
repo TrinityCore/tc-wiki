@@ -2,14 +2,14 @@
 title: TrinityCore Wiki
 description: 
 published: true
-date: 2021-12-15T04:49:53.233Z
+date: 2021-12-15T04:53:53.182Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-15T00:32:04.208Z
 ---
 
 # ¿Qué es TrinityCore?
-TrinityCore es una plataforma de desarrollo MMORPG basada en C++.
+TrinityCore es una plataforma de desarrollo MMORPG basada principalmente en C++.
 
 Nació a partir de MaNGOS, la conocida Massive Network Game Object Server. Nuestra plataforma está basada en su código base que, a lo largo del tiempo, hemos optimizado, desarrollado y limpiado al mismo tiempo que hemos mejorado las mecánicas y la funcionalidad del videojuego.
 
