@@ -2,7 +2,7 @@
 title: TrinityCore MMo Project
 description: 
 published: true
-date: 2021-12-15T04:40:08.848Z
+date: 2021-12-15T04:42:01.901Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-15T00:32:04.208Z
@@ -43,13 +43,13 @@ Para obtener más información sobre el proyecto TrinityCore, puedes visitar nue
 
 
 # Descripción de las estructuras de la base de datos de Trinity
-#### Database de master
+#### Base de datos de master
 [Auth](/database/master/auth/home)
 [Characters](/database/master/characters/home)
 [Hotfixes](/database/master/hotfixes/home)
 [World](/database/master/world/home)
 
-#### Database de 3.3.5a
+#### Base de datos de 3.3.5a
 [Auth](/database/335/auth/home)
 [Characters](/database/335/characters/home)
 [World](/database/335/world/home)
