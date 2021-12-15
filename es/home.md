@@ -1,8 +1,8 @@
 ---
-title: TrinityCore MMo Project
+title: TrinityCore Wiki
 description: 
 published: true
-date: 2021-12-15T04:46:45.080Z
+date: 2021-12-15T04:49:53.233Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-15T00:32:04.208Z
