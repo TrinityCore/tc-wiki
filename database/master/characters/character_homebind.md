@@ -2,7 +2,7 @@
 title: character_homebind
 description: 
 published: true
-date: 2021-08-30T21:22:03.983Z
+date: 2021-12-15T18:52:01.684Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [posX](#posx) | float |  |  | NO | 0 |  |  |
 | [posY](#posy) | float |  |  | NO | 0 |  |  |
 | [posZ](#posz) | float |  |  | NO | 0 |  |  |
+| [orientation](#orientation) | float |  |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -44,6 +45,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### posZ
+*- no description -*
+&nbsp;
+
+### orientation
 *- no description -*
 &nbsp;
 
