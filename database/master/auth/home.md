@@ -2,7 +2,7 @@
 title: Auth
 description: 
 published: true
-date: 2021-08-28T19:04:56.333Z
+date: 2021-12-15T22:17:38.890Z
 tags: database, master
 editor: markdown
 dateCreated: 2021-08-28T03:14:52.632Z
@@ -17,6 +17,7 @@ dateCreated: 2021-08-28T03:14:52.632Z
 - [autobroadcast](/database/master/auth/autobroadcast)
 {.links-list}
 ## b
+- [battle_pet_declinedname](/database/master/auth/battle_pet_declinedname)
 - [battle_pet_slots](/database/master/auth/battle_pet_slots)
 - [battle_pets](/database/master/auth/battle_pets)
 - [battlenet_account_bans](/database/master/auth/battlenet_account_bans)
