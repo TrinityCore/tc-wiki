@@ -2,7 +2,7 @@
 title: TrinityCore MMo Project
 description: 
 published: true
-date: 2021-12-15T04:44:37.768Z
+date: 2021-12-15T04:46:45.080Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-15T00:32:04.208Z
@@ -11,9 +11,9 @@ dateCreated: 2021-12-15T00:32:04.208Z
 # ¿Qué es TrinityCore?
 TrinityCore es una plataforma de desarrollo MMORPG basada en C++.
 
-Nació a partir de MaNGOS, la conocida Massive Network Game Object Server. Nuestra plataforma está basada en su código base que, a lo largo del tiempo, hemos optimizado, mejorado y limpiado al mismo tiempo que se han mejorado las mecánicas y la funcionalidad del videojuego.
+Nació a partir de MaNGOS, la conocida Massive Network Game Object Server. Nuestra plataforma está basada en su código base que, a lo largo del tiempo, hemos optimizado, desarrollado y limpiado al mismo tiempo que hemos mejorado las mecánicas y la funcionalidad del videojuego.
 
-Se trata de un proyecto de código abierto, por lo que se fomenta en gran manera la participación de la comunidad.
+Se trata de un proyecto de código abierto, por lo que se fomenta en gran medida la participación de la comunidad.
 
 Si deseas contribuir, visita nuestro sitio web en el enlace que hay justo debajo o realiza solicitudes de cambios en nuestro [repositorio de GitHub](https://github.com/TrinityCore/).
 
