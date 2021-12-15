@@ -2,10 +2,10 @@
 title: battlenet_accounts
 description: This table holds information on all available battlenet accounts.
 published: true
-date: 2021-08-30T05:52:16.180Z
-tags: database, auth, master
+date: 2021-12-15T18:51:26.548Z
+tags: database, master, auth
 editor: markdown
-dateCreated: 2021-08-20T14:34:01.031Z
+dateCreated: 2021-08-30T06:00:00.000Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/auth/battlenet_account_toys" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'battlenet_account_toys'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/auth/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to auth</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/auth/battlenet_item_appearances" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'battlenet_item_appearances'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -13,23 +13,22 @@ dateCreated: 2021-08-20T14:34:01.031Z
 ## Structure
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
-|---|---|---|:---:|:---:|---|---|---|
-| [id](#id) | int(10) | unsigned | PRI | NO |  | AUTO_INCREMENT | Identifier |
+| --- | --- | --- | :---: | :---: | --- | --- | --- |
+| [id](#id) | int(10) | unsigned | PRI | NO |  | auto_increment | Identifier |
 | [email](#email) | varchar(320) | signed |  | NO |  |  |  |
 | [sha_pass_hash](#sha_pass_hash) | varchar(64) | signed |  | NO | '' |  |  |
 | [joindate](#joindate) | timestamp | signed |  | NO | CURRENT_TIMESTAMP |  |  |
-| [last_ip](#last_ip) | varchar(15) | signed |  | NO | '127.0.0.1' |  |  |
+| [last_ip](#last_ip) | varchar(15) | signed |  | NO | 127.0.0.1 |  |  |
 | [failed_logins](#failed_logins) | int(10) | unsigned |  | NO | 0 |  |  |
 | [locked](#locked) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [lock_country](#lock_country) | varchar(2) | signed |  | NO | '00' |  |  |
+| [lock_country](#lock_country) | varchar(2) | signed |  | NO | 00 |  |  |
 | [last_login](#last_login) | timestamp | signed |  | YES | NULL |  |  |
 | [online](#online) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [locale](#locale) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [os](#os) | varchar(4) | signed |  | NO | '' |  |  |
-| [LastCharacterUndelete](#LastCharacterUndelete) | int(10) | unsigned |  | NO | 0 |  |  |
-| [LoginTicket](#LoginTicket) | varchar(64) | signed |  | YES | NULL |  |  |
-| [LoginTicketExpiry](#LoginTicketExpiry) | int(10) | unsigned |  | YES | NULL |  |  |
-
+| [LastCharacterUndelete](#lastcharacterundelete) | int(10) | unsigned |  | NO | 0 |  |  |
+| [LoginTicket](#loginticket) | varchar(64) | signed |  | YES | NULL |  |  |
+| [LoginTicketExpiry](#loginticketexpiry) | int(10) | unsigned |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

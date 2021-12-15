@@ -2,10 +2,10 @@
 title: realmlist
 description: This table sets up information on all available realms. Each row controls a different realm.
 published: true
-date: 2021-08-30T06:09:13.065Z
-tags: database, auth, master
+date: 2021-12-15T18:51:26.551Z
+tags: database, master, auth
 editor: markdown
-dateCreated: 2021-08-26T03:06:24.878Z
+dateCreated: 2021-08-30T06:00:00.000Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/auth/realmcharacters" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'realmcharacters'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/auth/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to auth</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/auth/updates" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'updates'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -13,30 +13,29 @@ dateCreated: 2021-08-26T03:06:24.878Z
 ## Structure
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
-|---|---|---|:---:|:---:|---|---|---|
-[id](#id) | int(10) | unsigned | PRI | NO |  | AUTO_INCREMENT |  |
-[name](#name) | varchar(32) | signed |  | NO | '' |  |  |
-[address](#address) | varchar(255) | signed |  | NO | '127.0.0.1' |  |  |
-[localAddress](#localAddress) | varchar(255) | signed |  | NO | '127.0.0.1' |  |  |
-[localSubnetMask](#localSubnetMask) | varchar(255) | signed |  | NO | '255.255.255.0' |  |  |
-[port](#port) | smallint(5) | unsigned |  | NO | 8085 |  |  |
-[icon](#icon) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-[flag](#flag) | tinyint(3) | unsigned |  | NO | 2 |  |  |
-[timezone](#timezone) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-[allowedSecurityLevel](#allowedSecurityLevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-[population](#population) | float | unsigned |  | NO | 0 |  |  |
-[gamebuild](#gamebuild) | int(10) | unsigned |  | NO | 39804 |  |  |
-[Region](#Region) | tinyint(3) | unsigned |  | NO | 1 |  |  |
-[Battlegroup](#Battlegroup) | tinyint(3) | unsigned |  | NO | 1 |  |  |
-
+| --- | --- | --- | :---: | :---: | --- | --- | --- |
+| [id](#id) | int(10) | unsigned | PRI | NO |  | auto_increment |  |
+| [name](#name) | varchar(32) | signed | UNI | NO | '' |  |  |
+| [address](#address) | varchar(255) | signed |  | NO | 127.0.0.1 |  |  |
+| [localAddress](#localaddress) | varchar(255) | signed |  | NO | 127.0.0.1 |  |  |
+| [localSubnetMask](#localsubnetmask) | varchar(255) | signed |  | NO | 255.255.255.0 |  |  |
+| [port](#port) | smallint(5) | unsigned |  | NO | 8085 |  |  |
+| [icon](#icon) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [flag](#flag) | tinyint(3) | unsigned |  | NO | 2 |  |  |
+| [timezone](#timezone) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [allowedSecurityLevel](#allowedsecuritylevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [population](#population) | float | unsigned |  | NO | 0 |  |  |
+| [gamebuild](#gamebuild) | int(10) | unsigned |  | NO | 41359 |  |  |
+| [Region](#region) | tinyint(3) | unsigned |  | NO | 1 |  |  |
+| [Battlegroup](#battlegroup) | tinyint(3) | unsigned |  | NO | 1 |  |  |
 &nbsp;
 ## Description of fields
 
-### id   
+### id
 The realm ID. This number is unique for every realm and it MUST correlate with the RealmID configuration value in worldserver.conf.
 &nbsp;
-    
-### name  
+
+### name
 The name of the realm. This will appear in the realm selection list as well as in the character selection screen.
 &nbsp;
 
