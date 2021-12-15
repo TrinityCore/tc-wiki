@@ -2,7 +2,7 @@
 title: Trinitycore Wiki
 description: 
 published: true
-date: 2021-11-15T18:58:11.693Z
+date: 2021-12-15T21:42:10.408Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T17:47:17.543Z
@@ -19,7 +19,7 @@ If you wish to contribute ideas or code, please visit our site linked below or m
 
 For further information on the TrinityCore project, please visit our project website at TrinityCore.org.
 
-> **OpenSSL 3.x is UNSUPORTED**
+> **OpenSSL 3.x is UNSUPPORTED**
 {.is-danger}
 
 
