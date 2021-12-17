@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2021-11-15T20:09:14.990Z
+date: 2021-12-17T22:26:24.645Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -69,7 +69,7 @@ dateCreated: 2021-08-30T09:29:30.449Z
 
 | CONDITION_SOURCE_TYPE_CREATURE_TEMPLATE_VEHICLE | 16 | Always 0 | creature entry (creature_template.entry) | Always 0 | 0 = Player riding vehicle 1 = Vehicle creature |  |
 
-| CONDITION_SOURCE_TYPE_SPELL | 17 | Always 0 | Spell ID from Spell.dbc | Always 0 | 0 = spell Caster 1 =  Explicit Target of the spell (only for spells which take the object selected by caster into account) | This source type allows you to define caster/explicit target requirements for spell to be cast. Explicit target of the spell is the target which is selected by player during cast, not all spells take that target into account. non-explicit targets of the spell (the ones which are selected by spell like area or nearby targets for example) are not affected by this condition source type, if you want to affect those use CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET instead. If you are looking for old CONDITION_SOURCE_TYPE_ITEM_REQUIRED_TARGET, use this condition source type instead (ConditionTarget = 1 allows you to set requirements for a given spell, so to use this condition type you need spellid of the spell cast on item use). Remember that conditions with the same ElseGroup value will be used to make logical AND check, so to allow different targets for the same spell effect you have to set ElseGroup respectively. |
+| CONDITION_SOURCE_TYPE_SPELL | 17 | Always 0 | Spell ID from Spell.dbc | Always 0 | 0 = spell Caster<br />1 =  Explicit Target of the spell (only for spells which take the object selected by caster into account) | This source type allows you to define caster/explicit target requirements for spell to be cast.<br />Explicit target of the spell is the target which is selected by player during cast, not all spells take that target into account.<br />non-explicit targets of the spell (the ones which are selected by spell like area or nearby targets for example) are not affected by this condition source type,<br />if you want to affect those use CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET instead.<br />If you are looking for old CONDITION_SOURCE_TYPE_ITEM_REQUIRED_TARGET, use this condition source type instead (ConditionTarget = 1 allows you to set requirements for a given spell,<br />so to use this condition type you need spellid of the spell cast on item use).<br />Remember that conditions with the same ElseGroup value will be used to make logical AND check, so to allow different targets for the same spell effect you have to set ElseGroup respectively. |
 
 | CONDITION_SOURCE_TYPE_SPELL_CLICK_EVENT | 18 | creature entry (npc_spellclick_spells.npc_entry) | Spell (npc_spellclick_spells.spell_id) | Always 0 | 0 = Clicker 1 =  Spellclick target (clickee) |  |
 
