@@ -2,7 +2,7 @@
 title: updates
 description: 
 published: true
-date: 2021-09-07T11:42:24.998Z
+date: 2021-12-17T20:52:27.490Z
 tags: database, auth, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:58:16.838Z
@@ -20,7 +20,7 @@ dateCreated: 2021-08-30T21:58:16.838Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [name](#name) | varchar(200) | signed | PRI | NO |  |  | filename with extension of the update. |
 | [hash](#hash) | char(40) | signed |  | YES | '' |  | sha1 hash of the sql file. |
-| [state](#state) | enum(<br />'RELEASED',<br />'ARCHIVED') |  | NO | RELEASED |  | defines if an update is released or archived. |
+| [state](#state) | enum(<br />'RELEASED',<br />'ARCHIVED') |  | NO | RELEASED |  | defines if an update is released or archived. | |
 | [timestamp](#timestamp) | timestamp | signed |  | NO | CURRENT_TIMESTAMP |  | timestamp when the query was applied. |
 | [speed](#speed) | int(10) | unsigned |  | NO | 0 |  | time the query takes to apply in ms. |
 &nbsp;
