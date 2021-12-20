@@ -2,7 +2,7 @@
 title: Windows Server Setup
 description: Extracting Cameras, DBC, Maps, VMaps & MMaps
 published: true
-date: 2021-12-20T19:17:37.572Z
+date: 2021-12-20T20:33:29.682Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-20T19:17:37.572Z
@@ -10,8 +10,8 @@ dateCreated: 2021-12-20T19:17:37.572Z
 
 # Windows Server Setup
 
-> Compile tools in **release** mode. 
-> Debug or RelWithDebInfo are way slower for extraction and only suggested if you have specific crashes to report.
+> Compile tools in **RelWithDebInfo or Release** mode. 
+> Debug is way slower for extraction and only suggested if you have specific crashes to report.
 {.is-warning}
 
 This guide assumes you followed the suggested folder structure. 
