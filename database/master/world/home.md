@@ -2,7 +2,7 @@
 title: World
 description: 
 published: true
-date: 2021-11-15T17:30:06.303Z
+date: 2021-12-21T22:34:33.737Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-28T21:01:17.438Z
@@ -59,7 +59,9 @@ dateCreated: 2021-08-28T21:01:17.438Z
 - [creature_template_locale](/database/master/world/creature_template_locale)
 - [creature_template_model](/database/master/world/creature_template_model)
 - [creature_template_movement](/database/master/world/creature_template_movement)
+- [creature_template_resistance](/database/master/world/creature_template_resistance)
 - [creature_template_scaling](/database/master/world/creature_template_scaling)
+- [creature_template_spell](/database/master/world/creature_template_spell)
 - [creature_text](/database/master/world/creature_text)
 - [creature_text_locale](/database/master/world/creature_text_locale)
 - [creature_trainer](/database/master/world/creature_trainer)
@@ -124,6 +126,9 @@ dateCreated: 2021-08-28T21:01:17.438Z
 - [item_script_names](/database/master/world/item_script_names)
 - [item_template_addon](/database/master/world/item_template_addon)
 {.links-list}
+## j
+- [jump_charge_params](/database/master/world/jump_charge_params)
+{.links-list}
 ## l
 - [lfg_dungeon_rewards](/database/master/world/lfg_dungeon_rewards)
 - [lfg_dungeon_template](/database/master/world/lfg_dungeon_template)
@@ -149,10 +154,10 @@ dateCreated: 2021-08-28T21:01:17.438Z
 - [pet_levelstats](/database/master/world/pet_levelstats)
 - [pet_name_generation](/database/master/world/pet_name_generation)
 - [phase_area](/database/master/world/phase_area)
+- [phase_name](/database/master/world/phase_name)
 - [pickpocketing_loot_template](/database/master/world/pickpocketing_loot_template)
 - [player_classlevelstats](/database/master/world/player_classlevelstats)
 - [player_factionchange_achievement](/database/master/world/player_factionchange_achievement)
-- [player_factionchange_items](/database/master/world/player_factionchange_items)
 - [player_factionchange_quests](/database/master/world/player_factionchange_quests)
 - [player_factionchange_reputations](/database/master/world/player_factionchange_reputations)
 - [player_factionchange_spells](/database/master/world/player_factionchange_spells)
@@ -176,10 +181,7 @@ dateCreated: 2021-08-28T21:01:17.438Z
 - [playercreateinfo_spell_custom](/database/master/world/playercreateinfo_spell_custom)
 - [points_of_interest](/database/master/world/points_of_interest)
 - [points_of_interest_locale](/database/master/world/points_of_interest_locale)
-- [pool_creature](/database/master/world/pool_creature)
-- [pool_gameobject](/database/master/world/pool_gameobject)
-- [pool_pool](/database/master/world/pool_pool)
-- [pool_quest](/database/master/world/pool_quest)
+- [pool_members](/database/master/world/pool_members)
 - [pool_template](/database/master/world/pool_template)
 - [prospecting_loot_template](/database/master/world/prospecting_loot_template)
 {.links-list}
@@ -194,6 +196,8 @@ dateCreated: 2021-08-28T21:01:17.438Z
 - [quest_offer_reward_locale](/database/master/world/quest_offer_reward_locale)
 - [quest_poi](/database/master/world/quest_poi)
 - [quest_poi_points](/database/master/world/quest_poi_points)
+- [quest_pool_members](/database/master/world/quest_pool_members)
+- [quest_pool_template](/database/master/world/quest_pool_template)
 - [quest_request_items](/database/master/world/quest_request_items)
 - [quest_request_items_locale](/database/master/world/quest_request_items_locale)
 - [quest_reward_choice_items](/database/master/world/quest_reward_choice_items)
@@ -260,6 +264,7 @@ dateCreated: 2021-08-28T21:01:17.438Z
 {.links-list}
 ## v
 - [vehicle_accessory](/database/master/world/vehicle_accessory)
+- [vehicle_seat_addon](/database/master/world/vehicle_seat_addon)
 - [vehicle_template](/database/master/world/vehicle_template)
 - [vehicle_template_accessory](/database/master/world/vehicle_template_accessory)
 - [version](/database/master/world/version)
