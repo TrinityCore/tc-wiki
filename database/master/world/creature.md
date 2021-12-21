@@ -2,7 +2,7 @@
 title: creature
 description: 
 published: true
-date: 2021-11-14T19:58:46.840Z
+date: 2021-12-21T22:34:33.737Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -31,7 +31,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |
 | [orientation](#orientation) | float |  |  | NO | 0 |  |  |
 | [spawntimesecs](#spawntimesecs) | int(10) | unsigned |  | NO | 120 |  |  |
-| [spawndist](#spawndist) | float |  |  | NO | 0 |  |  |
+| [wander_distance](#wander_distance) | float |  |  | NO | 0 |  |  |
 | [currentwaypoint](#currentwaypoint) | mediumint(8) | unsigned |  | NO | 0 |  |  |
 | [curhealth](#curhealth) | int(10) | unsigned |  | NO | 1 |  |  |
 | [curmana](#curmana) | int(10) | unsigned |  | NO | 0 |  |  |
@@ -128,7 +128,7 @@ The GUID ranges are defined as followed:
 *- no description -*
 &nbsp;
 
-### spawndist
+### wander_distance
 *- no description -*
 &nbsp;
 

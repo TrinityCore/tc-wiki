@@ -2,7 +2,7 @@
 title: creature_addon
 description: 
 published: true
-date: 2021-08-30T20:38:02.260Z
+date: 2021-12-21T22:34:33.737Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -18,7 +18,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [path_id](#path_id) | int(10) | unsigned |  | NO | 0 |  |  |
 | [mount](#mount) | mediumint(8) | unsigned |  | NO | 0 |  |  |
 | [bytes1](#bytes1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [bytes2](#bytes2) | int(10) | unsigned |  | NO | 0 |  |  |
+| [bytes2](#bytes2) | int(10) | unsigned |  | NO | 1 |  |  |
 | [emote](#emote) | int(10) | unsigned |  | NO | 0 |  |  |
 | [aiAnimKit](#aianimkit) | smallint(6) | signed |  | NO | 0 |  |  |
 | [movementAnimKit](#movementanimkit) | smallint(6) | signed |  | NO | 0 |  |  |
