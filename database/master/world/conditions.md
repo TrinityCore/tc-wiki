@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2021-12-24T03:52:35.181Z
+date: 2021-12-24T03:54:49.518Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -116,6 +116,15 @@ Two conditions with the same SourceType, SourceGroup and SourceEntry but with a 
 &nbsp;
 
 ### ConditionTypeOrReference
+| ConditionTypeOrReference (name) | Value | ConditionValue1 | ConditionValue2 | ConditionValue3| Usage |
+| --- | :---: | --- | --- | --- | --- |
+| test | test | test | test | test | test |
+| test | test | test | test | test | test |
+| test | test | test | test | test | test |
+| test | test | test | test | test | test |
+
+what breaks
+
 | ConditionTypeOrReference (name) | Value | ConditionValue1 | ConditionValue2 | ConditionValue3| Usage |
 | --- | :---: | --- | --- | --- | --- |
 | CONDITION_NONE | 0 | (Never used) | (Never used) | (Never used) |  |
