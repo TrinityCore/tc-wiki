@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2021-12-24T03:25:48.531Z
+date: 2021-12-24T03:28:25.302Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -34,7 +34,7 @@ dateCreated: 2021-08-30T09:29:30.449Z
 
 ### SourceTypeOrReferenceId
 | SourceTypeOrReferenceId | ID | SourceGroup | SourceEntry | SourceId | ConditionTarget | Notes |
-| --- | :---: | --- | --- | --- | --- | --- |
+| --- | :---: | --- | --- | :---: | :---: | :--- |
 | CONDITION_SOURCE_TYPE_NONE | 0 | See REFERENCE TEMPLATES | (conditions#REFERENCE TEMPLATES) | Always 0 | (See below) | Only used in Reference Templates! See below. |
 
 | CONDITION_SOURCE_TYPE_CREATURE_LOOT_TEMPLATE | 1 | creature_loot_template.Entry or <br/> reference_loot_template.Entry | item id (_loot_template.Item or <br/> reference_loot_template.Item) | Always 0 | Always 0 |  |
