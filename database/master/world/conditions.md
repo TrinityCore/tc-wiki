@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2021-12-24T03:47:32.296Z
+date: 2021-12-24T03:52:35.181Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -120,10 +120,10 @@ Two conditions with the same SourceType, SourceGroup and SourceEntry but with a 
 | --- | :---: | --- | --- | --- | --- |
 | CONDITION_NONE | 0 | (Never used) | (Never used) | (Never used) |  |
 | CONDITION_AURA | 1 | Spell ID from Spell.dbc | Effect index (0-31) | Always 0 |  |
-| CONDITION_ITEM | 2 | placeholder | placeholder | placeholder |  |
-| CONDITION_ITEM_EQUIPPED | 3 | placeholder | placeholder | placeholder |  |
-| CONDITION_ZONEID | 4 | placeholder | placeholder | placeholder |  |
-| CONDITION_REPUTATION_RANK | 5 | placeholder | placeholder | placeholder |  |
+| CONDITION_ITEM | 2 | item entry (item_template.entry) | item count | 0 = not in bank<br/>1 = in bank |  |
+| CONDITION_ITEM_EQUIPPED | 3 | item entry (item_template.entry) | Always 0 | Always 0 |  |
+| CONDITION_ZONEID | 4 | Zone ID where this condition will be true. | Always 0 | Always 0 |  |
+| CONDITION_REPUTATION_RANK | 5 | Faction template ID from Faction.dbc | **rank:**<pre>  1 = Hated<br/>  2 = Hostile<br/>  4 = Unfriendly<br/>  8 = Neutral<br/> 16 = Friendly<br/> 32 = Honored<br/> 64 = Revered<br/>128 = Exalted<pre/><br/>Add the target ranks together for the condition to be true for all those ranks. | Always 0 |  |
 | CONDITION_TEAM | 6 | placeholder | placeholder | placeholder |  |
 | CONDITION_SKILL | 7 | placeholder | placeholder | placeholder |  |
 | CONDITION_QUESTREWARDED | 8 | placeholder | placeholder | placeholder |  |
