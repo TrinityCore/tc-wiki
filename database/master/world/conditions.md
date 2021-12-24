@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2021-12-24T03:45:27.707Z
+date: 2021-12-24T03:47:32.296Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -118,55 +118,55 @@ Two conditions with the same SourceType, SourceGroup and SourceEntry but with a 
 ### ConditionTypeOrReference
 | ConditionTypeOrReference (name) | Value | ConditionValue1 | ConditionValue2 | ConditionValue3| Usage |
 | --- | :---: | --- | --- | --- | --- |
-| CONDITION_NONE | 0 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_AURA | 1 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_ITEM | 2 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_ITEM_EQUIPPED | 3 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_ZONEID | 4 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_REPUTATION_RANK | 5 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_TEAM | 6 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_SKILL | 7 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_QUESTREWARDED | 8 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_QUESTTAKEN | 9 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_DRUNKENSTATE | 10 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_WORLD_STATE | 11 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_ACTIVE_EVENT | 12 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_INSTANCE_INFO | 13 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_QUEST_NONE | 14 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_CLASS | 15 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_RACE | 16 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_ACHIEVEMENT | 17 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_TITLE | 18 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_SPAWNMASK | 19 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_GENDER | 20 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_UNIT_STATE | 21 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_MAPID | 22 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_AREAID | 23 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_CREATURE_TYPE | 24 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_SPELL | 25 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_PHASEMASK | 26 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_LEVEL | 27 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_QUEST_COMPLETE | 28 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_NEAR_CREATURE | 29 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_NEAR_GAMEOBJECT | 30 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_OBJECT_ENTRY_GUID | 31 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_TYPE_MASK | 32 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_RELATION_TO | 33 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_REACTION_TO | 34 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_DISTANCE_TO | 35 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_ALIVE | 36 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_HP_VAL | 37 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_HP_PCT | 38 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_REALM_ACHIEVEMENT | 39 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_IN_WATER | 40 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_TERRAIN_SWAP | 41 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_STAND_STATE | 42 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_DAILY_QUEST_DONE | 43 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_CHARMED | 44 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_PET_TYPE | 45 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_TAXI | 46 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_QUESTSTATE | 47 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_QUEST_OBJECTIVE_COMPLETE | 48 | placeholder | placeholder | placeholder | placeholder |
+| CONDITION_NONE | 0 | (Never used) | (Never used) | (Never used) |  |
+| CONDITION_AURA | 1 | Spell ID from Spell.dbc | Effect index (0-31) | Always 0 |  |
+| CONDITION_ITEM | 2 | placeholder | placeholder | placeholder |  |
+| CONDITION_ITEM_EQUIPPED | 3 | placeholder | placeholder | placeholder |  |
+| CONDITION_ZONEID | 4 | placeholder | placeholder | placeholder |  |
+| CONDITION_REPUTATION_RANK | 5 | placeholder | placeholder | placeholder |  |
+| CONDITION_TEAM | 6 | placeholder | placeholder | placeholder |  |
+| CONDITION_SKILL | 7 | placeholder | placeholder | placeholder |  |
+| CONDITION_QUESTREWARDED | 8 | placeholder | placeholder | placeholder |  |
+| CONDITION_QUESTTAKEN | 9 | placeholder | placeholder | placeholder |  |
+| CONDITION_DRUNKENSTATE | 10 | placeholder | placeholder | placeholder |  |
+| CONDITION_WORLD_STATE | 11 | placeholder | placeholder | placeholder |  |
+| CONDITION_ACTIVE_EVENT | 12 | placeholder | placeholder | placeholder |  |
+| CONDITION_INSTANCE_INFO | 13 | placeholder | placeholder | placeholder |  |
+| CONDITION_QUEST_NONE | 14 | placeholder | placeholder | placeholder |  |
+| CONDITION_CLASS | 15 | placeholder | placeholder | placeholder |  |
+| CONDITION_RACE | 16 | placeholder | placeholder | placeholder |  |
+| CONDITION_ACHIEVEMENT | 17 | placeholder | placeholder | placeholder |  |
+| CONDITION_TITLE | 18 | placeholder | placeholder | placeholder |  |
+| CONDITION_SPAWNMASK | 19 | placeholder | placeholder | placeholder |  |
+| CONDITION_GENDER | 20 | placeholder | placeholder | placeholder |  |
+| CONDITION_UNIT_STATE | 21 | placeholder | placeholder | placeholder |  |
+| CONDITION_MAPID | 22 | placeholder | placeholder | placeholder |  |
+| CONDITION_AREAID | 23 | placeholder | placeholder | placeholder |  |
+| CONDITION_CREATURE_TYPE | 24 | placeholder | placeholder | placeholder |  |
+| CONDITION_SPELL | 25 | placeholder | placeholder | placeholder |  |
+| CONDITION_PHASEMASK | 26 | placeholder | placeholder | placeholder |  |
+| CONDITION_LEVEL | 27 | placeholder | placeholder | placeholder |  |
+| CONDITION_QUEST_COMPLETE | 28 | placeholder | placeholder | placeholder |  |
+| CONDITION_NEAR_CREATURE | 29 | placeholder | placeholder | placeholder |  |
+| CONDITION_NEAR_GAMEOBJECT | 30 | placeholder | placeholder | placeholder |  |
+| CONDITION_OBJECT_ENTRY_GUID | 31 | placeholder | placeholder | placeholder |  |
+| CONDITION_TYPE_MASK | 32 | placeholder | placeholder | placeholder |  |
+| CONDITION_RELATION_TO | 33 | placeholder | placeholder | placeholder |  |
+| CONDITION_REACTION_TO | 34 | placeholder | placeholder | placeholder |  |
+| CONDITION_DISTANCE_TO | 35 | placeholder | placeholder | placeholder |  |
+| CONDITION_ALIVE | 36 | placeholder | placeholder | placeholder |  |
+| CONDITION_HP_VAL | 37 | placeholder | placeholder | placeholder |  |
+| CONDITION_HP_PCT | 38 | placeholder | placeholder | placeholder |  |
+| CONDITION_REALM_ACHIEVEMENT | 39 | placeholder | placeholder | placeholder |  |
+| CONDITION_IN_WATER | 40 | placeholder | placeholder | placeholder |  |
+| CONDITION_TERRAIN_SWAP | 41 | placeholder | placeholder | placeholder |  |
+| CONDITION_STAND_STATE | 42 | placeholder | placeholder | placeholder |  |
+| CONDITION_DAILY_QUEST_DONE | 43 | placeholder | placeholder | placeholder |  |
+| CONDITION_CHARMED | 44 | placeholder | placeholder | placeholder |  |
+| CONDITION_PET_TYPE | 45 | placeholder | placeholder | placeholder |  |
+| CONDITION_TAXI | 46 | placeholder | placeholder | placeholder |  |
+| CONDITION_QUESTSTATE | 47 | placeholder | placeholder | placeholder |  |
+| CONDITION_QUEST_OBJECTIVE_COMPLETE | 48 | placeholder | placeholder | placeholder |  |
 | CONDITION_DIFFICULTY_ID | 49 | placeholder | placeholder | placeholder | placeholder |
 | placeholder | 50 | placeholder | placeholder | placeholder | placeholder |
 | CONDITION_OBJECT_ENTRY_GUID | 51 | placeholder | placeholder | placeholder | placeholder |
