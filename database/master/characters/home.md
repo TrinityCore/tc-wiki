@@ -80,12 +80,10 @@ dateCreated: 2021-08-28T20:36:56.913Z
 - [corpse](/database/master/characters/corpse)
 - [corpse_customizations](/database/master/characters/corpse_customizations)
 - [corpse_phases](/database/master/characters/corpse_phases)
-- [creature_respawn](/database/master/characters/creature_respawn)
 {.links-list}
 ## g
 - [game_event_condition_save](/database/master/characters/game_event_condition_save)
 - [game_event_save](/database/master/characters/game_event_save)
-- [gameobject_respawn](/database/master/characters/gameobject_respawn)
 - [gm_bug](/database/master/characters/gm_bug)
 - [gm_complaint](/database/master/characters/gm_complaint)
 - [gm_complaint_chatlog](/database/master/characters/gm_complaint_chatlog)
@@ -151,6 +149,7 @@ dateCreated: 2021-08-28T20:36:56.913Z
 {.links-list}
 ## r
 - [reserved_name](/database/master/characters/reserved_name)
+- [respawn](/database/master/characters/respawn)
 {.links-list}
 ## u
 - [updates](/database/master/characters/updates)
