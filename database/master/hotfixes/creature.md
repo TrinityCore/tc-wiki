@@ -2,7 +2,7 @@
 title: creature
 description: 
 published: true
-date: 2021-11-14T19:41:35.090Z
+date: 2022-01-03T11:26:23.152Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -27,11 +27,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [DisplayIDProbability2](#displayidprobability2) | float |  |  | NO | 0 |  |  |
 | [DisplayIDProbability3](#displayidprobability3) | float |  |  | NO | 0 |  |  |
 | [DisplayIDProbability4](#displayidprobability4) | float |  |  | NO | 0 |  |  |
-| [Name](#name) | text |  |  | NO |  |  |  |
-| [FemaleName](#femalename) | text |  |  | NO |  |  |  |
-| [SubName](#subname) | text |  |  | NO |  |  |  |
-| [FemaleSubName](#femalesubname) | text |  |  | NO |  |  |  |
-| [Type](#type) | mediumint(3) | unsigned |  | NO | 0 |  |  |
+| [Name](#name) | mediumtext |  |  | NO |  |  |  |
+| [FemaleName](#femalename) | mediumtext |  |  | NO |  |  |  |
+| [SubName](#subname) | mediumtext |  |  | NO |  |  |  |
+| [FemaleSubName](#femalesubname) | mediumtext |  |  | NO |  |  |  |
+| [Type](#type) | mediumint(8) | unsigned |  | NO | 0 |  |  |
 | [Family](#family) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [Classification](#classification) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [InhabitType](#inhabittype) | tinyint(3) | unsigned |  | NO | 0 |  |  |

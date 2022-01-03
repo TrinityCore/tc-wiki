@@ -2,7 +2,7 @@
 title: battle_pet_species
 description: 
 published: true
-date: 2021-11-14T19:41:35.077Z
+date: 2022-01-03T11:26:23.141Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -20,7 +20,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [CreatureID](#creatureid) | int(11) | signed |  | NO | 0 |  |  |
 | [SummonSpellID](#summonspellid) | int(11) | signed |  | NO | 0 |  |  |
 | [IconFileDataID](#iconfiledataid) | int(11) | signed |  | NO | 0 |  |  |
-| [PetTypeEnum](#pettypeenum) | tinyint(11) | signed |  | NO | 0 |  |  |
+| [PetTypeEnum](#pettypeenum) | tinyint(4) | signed |  | NO | 0 |  |  |
 | [Flags](#flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [SourceTypeEnum](#sourcetypeenum) | tinyint(4) | signed |  | NO | 0 |  |  |
 | [CardUIModelSceneID](#carduimodelsceneid) | int(11) | signed |  | NO | 0 |  |  |

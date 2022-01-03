@@ -2,7 +2,7 @@
 title: corruption_effects
 description: 
 published: true
-date: 2021-11-14T19:41:35.090Z
+date: 2022-01-03T11:26:23.152Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z

@@ -2,7 +2,7 @@
 title: guild_color_background
 description: 
 published: true
-date: 2021-11-14T19:41:35.110Z
+date: 2022-01-03T11:26:23.171Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z

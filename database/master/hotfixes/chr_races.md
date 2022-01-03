@@ -2,7 +2,7 @@
 title: chr_races
 description: 
 published: true
-date: 2021-11-14T19:41:35.086Z
+date: 2022-01-03T11:26:23.148Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -70,7 +70,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Unknown910_21](#unknown910_21) | float |  |  | NO | 0 |  |  |
 | [Unknown910_22](#unknown910_22) | float |  |  | NO | 0 |  |  |
 | [Unknown910_23](#unknown910_23) | float |  |  | NO | 0 |  |  |
-| [BaseLanguage](#baselanguage) | tinyint(11) | signed |  | NO | 0 |  |  |
+| [BaseLanguage](#baselanguage) | tinyint(4) | signed |  | NO | 0 |  |  |
 | [CreatureType](#creaturetype) | tinyint(4) | signed |  | NO | 0 |  |  |
 | [MaleModelFallbackSex](#malemodelfallbacksex) | tinyint(4) | signed |  | NO | 0 |  |  |
 | [FemaleModelFallbackSex](#femalemodelfallbacksex) | tinyint(4) | signed |  | NO | 0 |  |  |

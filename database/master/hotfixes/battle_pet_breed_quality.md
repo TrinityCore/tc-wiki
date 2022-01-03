@@ -2,7 +2,7 @@
 title: battle_pet_breed_quality
 description: 
 published: true
-date: 2021-11-14T19:41:35.076Z
+date: 2022-01-03T11:26:23.140Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [StateMultiplier](#statemultiplier) | float |  |  | NO | 0 |  |  |
-| [QualityEnum](#qualityenum) | tinyint(11) | signed |  | NO | 0 |  |  |
+| [QualityEnum](#qualityenum) | tinyint(4) | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

@@ -2,7 +2,7 @@
 title: criteria
 description: 
 published: true
-date: 2021-11-14T19:41:35.093Z
+date: 2022-01-03T11:26:23.155Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [Type](#type) | smallint(6) | signed |  | NO | 0 |  |  |
-| [Asset](#asset) | int(10) | signed |  | NO | 0 |  |  |
+| [Asset](#asset) | int(11) | signed |  | NO | 0 |  |  |
 | [ModifierTreeId](#modifiertreeid) | int(10) | unsigned |  | NO | 0 |  |  |
 | [StartEvent](#startevent) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [StartAsset](#startasset) | int(11) | signed |  | NO | 0 |  |  |
