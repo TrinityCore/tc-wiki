@@ -2,7 +2,7 @@
 title: characters
 description: 
 published: true
-date: 2021-12-15T18:52:01.691Z
+date: 2022-01-03T11:27:55.585Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -77,7 +77,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [power5](#power5) | int(10) | unsigned |  | NO | 0 |  |  |
 | [power6](#power6) | int(10) | unsigned |  | NO | 0 |  |  |
 | [power7](#power7) | int(10) | unsigned |  | NO | 0 |  |  |
-| [latency](#latency) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [latency](#latency) | int(10) | unsigned |  | NO | 0 |  |  |
 | [activeTalentGroup](#activetalentgroup) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [lootSpecId](#lootspecid) | int(10) | unsigned |  | NO | 0 |  |  |
 | [exploredZones](#exploredzones) | longtext |  |  | YES | NULL |  |  |

@@ -2,7 +2,7 @@
 title: character_equipmentsets
 description: 
 published: true
-date: 2021-08-30T21:22:03.980Z
+date: 2022-01-03T11:27:55.576Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -19,7 +19,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [setindex](#setindex) | tinyint(3) | unsigned | MUL | NO | 0 |  |  |
 | [name](#name) | varchar(31) | signed |  | NO |  |  |  |
 | [iconname](#iconname) | varchar(100) | signed |  | NO |  |  |  |
-| [ignore_mask](#ignore_mask) | int(11) | unsigned |  | NO | 0 |  |  |
+| [ignore_mask](#ignore_mask) | int(10) | unsigned |  | NO | 0 |  |  |
 | [AssignedSpecIndex](#assignedspecindex) | int(11) | signed |  | NO | -1 |  |  |
 | [item0](#item0) | bigint(20) | unsigned |  | NO | 0 |  |  |
 | [item1](#item1) | bigint(20) | unsigned |  | NO | 0 |  |  |

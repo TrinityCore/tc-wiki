@@ -2,7 +2,7 @@
 title: character_stats
 description: 
 published: true
-date: 2021-12-15T18:52:01.690Z
+date: 2022-01-03T11:27:55.584Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z

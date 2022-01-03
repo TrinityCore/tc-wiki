@@ -2,7 +2,7 @@
 title: channels
 description: 
 published: true
-date: 2021-08-30T21:22:03.975Z
+date: 2022-01-03T11:27:55.572Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -18,7 +18,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [team](#team) | int(10) | unsigned | PRI | NO |  |  |  |
 | [announce](#announce) | tinyint(3) | unsigned |  | NO | 1 |  |  |
 | [ownership](#ownership) | tinyint(3) | unsigned |  | NO | 1 |  |  |
-| [password](#password) | varchar(32) | signed |  | YES | NULL |  |  |
+| [password](#password) | varchar(128) | signed |  | YES | NULL |  |  |
 | [bannedList](#bannedlist) | text |  |  | YES | NULL |  |  |
 | [lastUsed](#lastused) | bigint(20) | unsigned |  | NO |  |  |  |
 &nbsp;

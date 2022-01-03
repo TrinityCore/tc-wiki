@@ -2,7 +2,7 @@
 title: blackmarket_auctions
 description: 
 published: true
-date: 2021-08-30T21:22:03.973Z
+date: 2022-01-03T11:27:55.571Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [marketId](#marketid) | int(10) | signed | PRI | NO | 0 |  |  |
+| [marketId](#marketid) | int(11) | signed | PRI | NO | 0 |  |  |
 | [currentBid](#currentbid) | bigint(20) | unsigned |  | NO | 0 |  |  |
 | [time](#time) | bigint(20) | signed |  | NO | 0 |  |  |
-| [numBids](#numbids) | int(10) | signed |  | NO | 0 |  |  |
+| [numBids](#numbids) | int(11) | signed |  | NO | 0 |  |  |
 | [bidder](#bidder) | bigint(20) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

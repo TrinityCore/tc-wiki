@@ -2,7 +2,7 @@
 title: item_instance_azerite_unlocked_essence
 description: 
 published: true
-date: 2021-08-30T21:22:04.003Z
+date: 2022-01-03T11:27:55.595Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z

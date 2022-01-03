@@ -2,7 +2,7 @@
 title: calendar_events
 description: 
 published: true
-date: 2021-08-30T21:22:03.974Z
+date: 2022-01-03T11:27:55.571Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -18,8 +18,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Owner](#owner) | bigint(20) | unsigned |  | NO | 0 |  |  |
 | [Title](#title) | varchar(255) | signed |  | NO | '' |  |  |
 | [Description](#description) | varchar(255) | signed |  | NO | '' |  |  |
-| [EventType](#eventtype) | tinyint(1) | unsigned |  | NO | 4 |  |  |
-| [TextureID](#textureid) | int(10) | signed |  | NO | -1 |  |  |
+| [EventType](#eventtype) | tinyint(3) | unsigned |  | NO | 4 |  |  |
+| [TextureID](#textureid) | int(11) | signed |  | NO | -1 |  |  |
 | [Date](#date) | bigint(20) | signed |  | NO | 0 |  |  |
 | [Flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
 | [LockDate](#lockdate) | bigint(20) | signed |  | NO | 0 |  |  |

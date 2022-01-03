@@ -2,7 +2,7 @@
 title: character_queststatus_rewarded
 description: 
 published: true
-date: 2021-08-30T21:22:03.986Z
+date: 2022-01-03T11:27:55.582Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
 | [quest](#quest) | int(10) | unsigned | PRI | NO | 0 |  | Quest Identifier |
-| [active](#active) | tinyint(10) | unsigned |  | NO | 1 |  |  |
+| [active](#active) | tinyint(3) | unsigned |  | NO | 1 |  |  |
 &nbsp;
 ## Description of fields
 

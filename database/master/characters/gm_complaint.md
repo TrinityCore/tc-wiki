@@ -2,7 +2,7 @@
 title: gm_complaint
 description: 
 published: true
-date: 2021-08-30T21:22:03.993Z
+date: 2022-01-03T11:27:55.587Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -25,7 +25,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [facing](#facing) | float |  |  | NO | 0 |  |  |
 | [targetCharacterGuid](#targetcharacterguid) | bigint(20) | unsigned |  | NO |  |  |  |
 | [complaintType](#complainttype) | smallint(5) | unsigned |  | NO |  |  |  |
-| [reportLineIndex](#reportlineindex) | int(10) | signed |  | NO |  |  |  |
+| [reportLineIndex](#reportlineindex) | int(11) | signed |  | NO |  |  |  |
 | [closedBy](#closedby) | bigint(20) | signed |  | NO | 0 |  |  |
 | [assignedTo](#assignedto) | bigint(20) | unsigned |  | NO | 0 |  | GUID of admin to whom ticket is assigned |
 | [comment](#comment) | text |  |  | NO |  |  |  |

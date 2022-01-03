@@ -2,7 +2,7 @@
 title: mail
 description: 
 published: true
-date: 2021-08-30T21:22:04.005Z
+date: 2022-01-03T11:27:55.597Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [id](#id) | int(10) | unsigned | PRI | NO | 0 |  | Identifier |
 | [messageType](#messagetype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [stationery](#stationery) | tinyint(3) | signed |  | NO | 41 |  |  |
+| [stationery](#stationery) | tinyint(4) | signed |  | NO | 41 |  |  |
 | [mailTemplateId](#mailtemplateid) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [sender](#sender) | bigint(20) | unsigned |  | NO | 0 |  | Character Global Unique Identifier |
 | [receiver](#receiver) | bigint(20) | unsigned | MUL | NO | 0 |  | Character Global Unique Identifier |

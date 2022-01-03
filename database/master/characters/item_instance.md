@@ -2,7 +2,7 @@
 title: item_instance
 description: 
 published: true
-date: 2021-08-30T21:22:04.001Z
+date: 2022-01-03T11:27:55.593Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,14 +15,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
-| [itemEntry](#itementry) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [itemEntry](#itementry) | int(10) | unsigned |  | NO | 0 |  |  |
 | [owner_guid](#owner_guid) | bigint(20) | unsigned | MUL | NO | 0 |  |  |
 | [creatorGuid](#creatorguid) | bigint(20) | unsigned |  | NO | 0 |  |  |
 | [giftCreatorGuid](#giftcreatorguid) | bigint(20) | unsigned |  | NO | 0 |  |  |
 | [count](#count) | int(10) | unsigned |  | NO | 1 |  |  |
-| [duration](#duration) | int(10) | signed |  | NO | 0 |  |  |
+| [duration](#duration) | int(11) | signed |  | NO | 0 |  |  |
 | [charges](#charges) | tinytext |  |  | YES | NULL |  |  |
-| [flags](#flags) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
 | [enchantments](#enchantments) | text |  |  | NO |  |  |  |
 | [randomBonusListId](#randombonuslistid) | int(10) | unsigned |  | NO | 0 |  |  |
 | [durability](#durability) | smallint(5) | unsigned |  | NO | 0 |  |  |

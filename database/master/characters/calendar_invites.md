@@ -2,7 +2,7 @@
 title: calendar_invites
 description: 
 published: true
-date: 2021-08-30T21:22:03.974Z
+date: 2022-01-03T11:27:55.572Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -18,9 +18,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [EventID](#eventid) | bigint(20) | unsigned |  | NO | 0 |  |  |
 | [Invitee](#invitee) | bigint(20) | unsigned |  | NO | 0 |  |  |
 | [Sender](#sender) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [Status](#status) | tinyint(1) | unsigned |  | NO | 0 |  |  |
+| [Status](#status) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [ResponseTime](#responsetime) | bigint(20) | signed |  | NO | 0 |  |  |
-| [ModerationRank](#moderationrank) | tinyint(1) | unsigned |  | NO | 0 |  |  |
+| [ModerationRank](#moderationrank) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [Note](#note) | varchar(255) | signed |  | NO | '' |  |  |
 &nbsp;
 ## Description of fields

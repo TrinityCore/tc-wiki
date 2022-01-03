@@ -2,7 +2,7 @@
 title: character_void_storage
 description: 
 published: true
-date: 2021-08-30T21:22:03.990Z
+date: 2022-01-03T11:27:55.585Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [itemId](#itemid) | bigint(20) | unsigned | PRI | NO |  |  |  |
 | [playerGuid](#playerguid) | bigint(20) | unsigned | MUL | NO |  |  |  |
-| [itemEntry](#itementry) | mediumint(8) | unsigned |  | NO |  |  |  |
+| [itemEntry](#itementry) | int(10) | unsigned |  | NO |  |  |  |
 | [slot](#slot) | tinyint(3) | unsigned |  | NO |  |  |  |
 | [creatorGuid](#creatorguid) | bigint(20) | unsigned |  | NO | 0 |  |  |
 | [randomBonusListId](#randombonuslistid) | int(10) | unsigned |  | NO | 0 |  |  |
