@@ -1,11 +1,11 @@
 ---
 title: account
-description: This table holds information on all available game accounts.
+description: 
 published: true
-date: 2021-09-07T10:45:07.139Z
-tags: database, auth, master, account
+date: 2022-01-03T11:29:07.202Z
+tags: database, master, auth
 editor: markdown
-dateCreated: 2021-08-19T10:37:27.827Z
+dateCreated: 2021-08-30T06:00:00.000Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/auth/vw_log_history" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'vw_log_history'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/auth/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to auth</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/auth/account_access" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'account_access'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -17,8 +17,8 @@ dateCreated: 2021-08-19T10:37:27.827Z
 ## Structure
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
-|---|---|---|:---:|:---:|---|---|---|
-| [id](#id) | int(10) | unsigned | PRI | NO |  | Auto increment | Identifier |
+| --- | --- | --- | :---: | :---: | --- | --- | --- |
+| [id](#id) | int(10) | unsigned | PRI | NO |  | auto_increment | Identifier |
 | [username](#username) | varchar(32) | signed | UNI | NO | '' |  |  |
 | [salt](#salt) | binary(32) | signed |  | YES | NULL |  |  |
 | [verifier](#verifier) | binary(32) | signed |  | YES | NULL |  |  |
@@ -27,15 +27,15 @@ dateCreated: 2021-08-19T10:37:27.827Z
 | [sha_pass_hash](#sha_pass_hash) | varchar(40) | signed |  | NO | '' |  |  |
 | [v](#v) | varchar(64) | signed |  | NO | dummy value, use \`verifier\` instead |  |  |
 | [s](#s) | varchar(64) | signed |  | NO | dummy value, use \`salt\` instead |  |  |
-| [token_key](#token_key) | varchar(100) | signed |  | NO | '' |  |  |
+| [totp_secret](#totp_secret) | varbinary(128) | signed |  | YES | NULL |  |  |
 | [email](#email) | varchar(255) | signed |  | NO | '' |  |  |
 | [reg_mail](#reg_mail) | varchar(255) | signed |  | NO | '' |  |  |
 | [joindate](#joindate) | timestamp | signed |  | NO | CURRENT_TIMESTAMP |  |  |
-| [last_ip](#last_ip) | varchar(15) | signed |  | NO | '127.0.0.1' |  |  |
-| [last_attempt_ip](#last_attempt_ip) | varchar(15) | signed |  | NO | '127.0.0.1' |  |  |
+| [last_ip](#last_ip) | varchar(15) | signed |  | NO | 127.0.0.1 |  |  |
+| [last_attempt_ip](#last_attempt_ip) | varchar(15) | signed |  | NO | 127.0.0.1 |  |  |
 | [failed_logins](#failed_logins) | int(10) | unsigned |  | NO | 0 |  |  |
 | [locked](#locked) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [lock_country](#lock_country) | varchar(2) | signed |  | NO | '00' |  |  |
+| [lock_country](#lock_country) | varchar(2) | signed |  | NO | 00 |  |  |
 | [last_login](#last_login) | timestamp | signed |  | YES | NULL |  |  |
 | [online](#online) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [expansion](#expansion) | tinyint(3) | unsigned |  | NO | 8 |  |  |
@@ -45,8 +45,8 @@ dateCreated: 2021-08-19T10:37:27.827Z
 | [locale](#locale) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [os](#os) | varchar(4) | signed |  | NO | '' |  |  |
 | [recruiter](#recruiter) | int(10) | unsigned |  | NO | 0 |  |  |
-| [battlenet_account](#battlenet_account) | int(10) | unsigned |  | YES | NULL |  |  |
-| [battlenet_index](#battlenet_index) | tinyint(3) | unsigned |  | YES |  NULL|  |  |
+| [battlenet_account](#battlenet_account) | int(10) | unsigned | MUL | YES | NULL |  |  |
+| [battlenet_index](#battlenet_index) | tinyint(3) | unsigned |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 
@@ -92,7 +92,7 @@ SELECT SHA1(CONCAT(UPPER(`username`), ':', UPPER(&lt;pass&gt;)));
 *- no description -*
 &nbsp;
 
-### token_key
+### totp_secret
 The authenticator key.
 
 Key can be generated through the Google Authenticator API, a 3rd-party TOTP generator, or manually specified (must be a Base32-compliant expression that is 16 characters).
@@ -200,3 +200,4 @@ The account ID of another account. Used for recuit-a-friend system. See [account
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/auth/vw_log_history" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'vw_log_history'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/auth/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to auth</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/auth/account_access" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'account_access'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+

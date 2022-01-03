@@ -2,27 +2,28 @@
 title: battle_pets
 description: 
 published: true
-date: 2021-12-15T18:51:26.546Z
+date: 2022-01-03T11:29:07.207Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/auth/battle_pet_slots" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'battle_pet_slots'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/auth/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to auth</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/auth/battlenet_account_bans" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'battlenet_account_bans'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+
 ## Structure
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | bigint(20) | signed | PRI | NO |  |  |  |
-| [battlenetAccountId](#battlenetaccountid) | int(10) | signed |  | NO |  |  |  |
-| [species](#species) | int(10) | signed |  | NO |  |  |  |
-| [breed](#breed) | smallint(5) | signed |  | NO |  |  |  |
+| [battlenetAccountId](#battlenetaccountid) | int(11) | signed |  | NO |  |  |  |
+| [species](#species) | int(11) | signed |  | NO |  |  |  |
+| [breed](#breed) | smallint(6) | signed |  | NO |  |  |  |
 | [displayId](#displayid) | int(11) | signed |  | NO | 0 |  |  |
-| [level](#level) | smallint(5) | signed |  | NO | 1 |  |  |
-| [exp](#exp) | smallint(5) | signed |  | NO | 0 |  |  |
-| [health](#health) | int(10) | signed |  | NO | 1 |  |  |
-| [quality](#quality) | tinyint(3) | signed |  | NO | 0 |  |  |
-| [flags](#flags) | smallint(5) | signed |  | NO | 0 |  |  |
+| [level](#level) | smallint(6) | signed |  | NO | 1 |  |  |
+| [exp](#exp) | smallint(6) | signed |  | NO | 0 |  |  |
+| [health](#health) | int(11) | signed |  | NO | 1 |  |  |
+| [quality](#quality) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [flags](#flags) | smallint(6) | signed |  | NO | 0 |  |  |
 | [name](#name) | varchar(12) | signed |  | NO |  |  |  |
 | [nameTimestamp](#nametimestamp) | bigint(20) | signed |  | NO | 0 |  |  |
 | [owner](#owner) | bigint(20) | signed |  | YES | NULL |  |  |
@@ -99,3 +100,4 @@ Current battle pet name. If empty, the battle pet will use the [name](../world/c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/auth/battle_pet_slots" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'battle_pet_slots'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/auth/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to auth</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/auth/battlenet_account_bans" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'battlenet_account_bans'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+
