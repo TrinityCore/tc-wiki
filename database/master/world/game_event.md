@@ -2,7 +2,7 @@
 title: game_event
 description: 
 published: true
-date: 2021-08-30T20:38:02.271Z
+date: 2022-01-03T11:24:59.092Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -19,7 +19,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [end_time](#end_time) | timestamp | signed |  | YES | NULL |  | Absolute end date, the event will never start after |
 | [occurence](#occurence) | bigint(20) | unsigned |  | NO | 5184000 |  | Delay in minutes between occurences of the event |
 | [length](#length) | bigint(20) | unsigned |  | NO | 2592000 |  | Length in minutes of the event |
-| [holiday](#holiday) | mediumint(8) | unsigned |  | NO | 0 |  | Client side holiday id |
+| [holiday](#holiday) | int(10) | unsigned |  | NO | 0 |  | Client side holiday id |
 | [holidayStage](#holidaystage) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [description](#description) | varchar(255) | signed |  | YES | NULL |  | Description of the event displayed in console |
 | [world_event](#world_event) | tinyint(3) | unsigned |  | NO | 0 |  | 0 if normal event, 1 if world event |

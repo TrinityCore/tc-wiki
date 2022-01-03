@@ -2,7 +2,7 @@
 title: quest_pool_template
 description: 
 published: true
-date: 2021-12-21T22:34:33.773Z
+date: 2022-01-03T11:24:59.118Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [poolId](#poolid) | mediumint(8) | unsigned | PRI | NO |  |  |  |
+| [poolId](#poolid) | int(10) | unsigned | PRI | NO |  |  |  |
 | [numActive](#numactive) | int(10) | unsigned |  | NO |  |  | Number of indices to have active at any time |
 | [description](#description) | varchar(255) | signed |  | YES | NULL |  |  |
 &nbsp;

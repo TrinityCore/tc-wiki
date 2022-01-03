@@ -2,7 +2,7 @@
 title: playerchoice_response_locale
 description: 
 published: true
-date: 2021-08-30T20:38:02.293Z
+date: 2022-01-03T11:24:59.112Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Answer](#answer) | varchar(511) | signed |  | NO | '' |  |  |
 | [Description](#description) | varchar(2047) | signed |  | NO | '' |  |  |
 | [Confirmation](#confirmation) | varchar(127) | signed |  | NO | '' |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(10) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

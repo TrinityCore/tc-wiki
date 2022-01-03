@@ -2,7 +2,7 @@
 title: vehicle_seat_addon
 description: 
 published: true
-date: 2021-12-21T22:34:33.790Z
+date: 2022-01-03T11:24:59.133Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [SeatEntry](#seatentry) | int(4) | unsigned | PRI | NO |  |  | VehicleSeatEntry.dbc identifier |
+| [SeatEntry](#seatentry) | int(10) | unsigned | PRI | NO |  |  | VehicleSeatEntry.dbc identifier |
 | [SeatOrientation](#seatorientation) | float |  |  | YES | 0 |  | Seat Orientation override value |
 | [ExitParamX](#exitparamx) | float |  |  | YES | 0 |  |  |
 | [ExitParamY](#exitparamy) | float |  |  | YES | 0 |  |  |

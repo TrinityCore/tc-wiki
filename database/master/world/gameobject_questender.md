@@ -2,7 +2,7 @@
 title: gameobject_questender
 description: 
 published: true
-date: 2021-08-30T20:38:02.277Z
+date: 2022-01-03T11:24:59.098Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
-| [quest](#quest) | mediumint(8) | unsigned | PRI | NO | 0 |  | Quest Identifier |
+| [id](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [quest](#quest) | int(10) | unsigned | PRI | NO | 0 |  | Quest Identifier |
 &nbsp;
 ## Description of fields
 

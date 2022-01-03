@@ -2,7 +2,7 @@
 title: game_event_prerequisite
 description: 
 published: true
-date: 2021-08-30T20:38:02.274Z
+date: 2022-01-03T11:24:59.096Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,7 +15,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [eventEntry](#evententry) | tinyint(3) | unsigned | PRI | NO |  |  | Entry of the game event |
-| [prerequisite_event](#prerequisite_event) | mediumint(8) | unsigned | PRI | NO |  |  |  |
+| [prerequisite_event](#prerequisite_event) | int(10) | unsigned | PRI | NO |  |  |  |
 &nbsp;
 ## Description of fields
 

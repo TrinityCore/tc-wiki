@@ -2,7 +2,7 @@
 title: spell_threat
 description: 
 published: true
-date: 2021-08-30T20:38:02.317Z
+date: 2022-01-03T11:24:59.130Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | mediumint(8) | unsigned | PRI | NO |  |  |  |
+| [entry](#entry) | int(10) | unsigned | PRI | NO |  |  |  |
 | [flatMod](#flatmod) | int(11) | signed |  | YES | NULL |  |  |
 | [pctMod](#pctmod) | float |  |  | NO | 1 |  | threat multiplier for damage/healing |
 | [apPctMod](#appctmod) | float |  |  | NO | 0 |  | additional threat bonus from attack power |

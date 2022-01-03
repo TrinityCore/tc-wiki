@@ -2,7 +2,7 @@
 title: game_event_model_equip
 description: 
 published: true
-date: 2021-08-30T20:38:02.273Z
+date: 2022-01-03T11:24:59.095Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [eventEntry](#evententry) | tinyint(4) | signed |  | NO |  |  | Entry of the game event. |
 | [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
-| [modelid](#modelid) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [modelid](#modelid) | int(10) | unsigned |  | NO | 0 |  |  |
 | [equipment_id](#equipment_id) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

@@ -2,7 +2,7 @@
 title: areatrigger_create_properties_orbit
 description: 
 published: true
-date: 2021-11-15T16:42:47.939Z
+date: 2022-01-03T11:24:59.078Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-11-14T20:12:37.294Z

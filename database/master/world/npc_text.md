@@ -2,7 +2,7 @@
 title: npc_text
 description: 
 published: true
-date: 2021-08-30T20:38:02.287Z
+date: 2022-01-03T11:24:59.107Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [Probability0](#probability0) | float |  |  | NO | 0 |  |  |
 | [Probability1](#probability1) | float |  |  | NO | 0 |  |  |
 | [Probability2](#probability2) | float |  |  | NO | 0 |  |  |
@@ -23,14 +23,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Probability5](#probability5) | float |  |  | NO | 0 |  |  |
 | [Probability6](#probability6) | float |  |  | NO | 0 |  |  |
 | [Probability7](#probability7) | float |  |  | NO | 0 |  |  |
-| [BroadcastTextID0](#broadcasttextid0) | mediumint(6) | unsigned |  | NO | 0 |  |  |
-| [BroadcastTextID1](#broadcasttextid1) | mediumint(6) | unsigned |  | NO | 0 |  |  |
-| [BroadcastTextID2](#broadcasttextid2) | mediumint(6) | unsigned |  | NO | 0 |  |  |
-| [BroadcastTextID3](#broadcasttextid3) | mediumint(6) | unsigned |  | NO | 0 |  |  |
-| [BroadcastTextID4](#broadcasttextid4) | mediumint(6) | unsigned |  | NO | 0 |  |  |
-| [BroadcastTextID5](#broadcasttextid5) | mediumint(6) | unsigned |  | NO | 0 |  |  |
-| [BroadcastTextID6](#broadcasttextid6) | mediumint(6) | unsigned |  | NO | 0 |  |  |
-| [BroadcastTextID7](#broadcasttextid7) | mediumint(6) | unsigned |  | NO | 0 |  |  |
+| [BroadcastTextID0](#broadcasttextid0) | int(10) | unsigned |  | NO | 0 |  |  |
+| [BroadcastTextID1](#broadcasttextid1) | int(10) | unsigned |  | NO | 0 |  |  |
+| [BroadcastTextID2](#broadcasttextid2) | int(10) | unsigned |  | NO | 0 |  |  |
+| [BroadcastTextID3](#broadcasttextid3) | int(10) | unsigned |  | NO | 0 |  |  |
+| [BroadcastTextID4](#broadcasttextid4) | int(10) | unsigned |  | NO | 0 |  |  |
+| [BroadcastTextID5](#broadcasttextid5) | int(10) | unsigned |  | NO | 0 |  |  |
+| [BroadcastTextID6](#broadcasttextid6) | int(10) | unsigned |  | NO | 0 |  |  |
+| [BroadcastTextID7](#broadcasttextid7) | int(10) | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

@@ -2,7 +2,7 @@
 title: quest_visual_effect
 description: 
 published: true
-date: 2021-08-30T20:38:02.305Z
+date: 2022-01-03T11:24:59.120Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [Index](#index) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
-| [VisualEffect](#visualeffect) | mediumint(8) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(10) | signed |  | NO | 0 |  |  |
+| [VisualEffect](#visualeffect) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

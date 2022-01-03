@@ -2,7 +2,7 @@
 title: serverside_spell_effect
 description: 
 published: true
-date: 2021-08-30T20:38:02.309Z
+date: 2022-01-03T11:24:59.124Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -18,7 +18,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [EffectIndex](#effectindex) | int(11) | signed | PRI | NO | 0 |  |  |
 | [DifficultyID](#difficultyid) | int(11) | signed | PRI | NO | 0 |  |  |
 | [Effect](#effect) | int(11) | signed |  | NO | 0 |  |  |
-| [EffectAura](#effectaura) | smallint(11) | signed |  | NO | 0 |  |  |
+| [EffectAura](#effectaura) | smallint(6) | signed |  | NO | 0 |  |  |
 | [EffectAmplitude](#effectamplitude) | float |  |  | NO | 0 |  |  |
 | [EffectAttributes](#effectattributes) | int(11) | signed |  | NO | 0 |  |  |
 | [EffectAuraPeriod](#effectauraperiod) | int(11) | signed |  | NO | 0 |  |  |
@@ -46,8 +46,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [EffectSpellClassMask2](#effectspellclassmask2) | int(11) | signed |  | NO | 0 |  |  |
 | [EffectSpellClassMask3](#effectspellclassmask3) | int(11) | signed |  | NO | 0 |  |  |
 | [EffectSpellClassMask4](#effectspellclassmask4) | int(11) | signed |  | NO | 0 |  |  |
-| [ImplicitTarget1](#implicittarget1) | smallint(11) | signed |  | NO | 0 |  |  |
-| [ImplicitTarget2](#implicittarget2) | smallint(11) | signed |  | NO | 0 |  |  |
+| [ImplicitTarget1](#implicittarget1) | smallint(6) | signed |  | NO | 0 |  |  |
+| [ImplicitTarget2](#implicittarget2) | smallint(6) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

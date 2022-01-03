@@ -2,7 +2,7 @@
 title: creature_addon
 description: 
 published: true
-date: 2021-12-21T22:34:33.737Z
+date: 2022-01-03T11:24:59.084Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
 | [path_id](#path_id) | int(10) | unsigned |  | NO | 0 |  |  |
-| [mount](#mount) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [mount](#mount) | int(10) | unsigned |  | NO | 0 |  |  |
 | [bytes1](#bytes1) | int(10) | unsigned |  | NO | 0 |  |  |
 | [bytes2](#bytes2) | int(10) | unsigned |  | NO | 1 |  |  |
 | [emote](#emote) | int(10) | unsigned |  | NO | 0 |  |  |
@@ -24,7 +24,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [movementAnimKit](#movementanimkit) | smallint(6) | signed |  | NO | 0 |  |  |
 | [meleeAnimKit](#meleeanimkit) | smallint(6) | signed |  | NO | 0 |  |  |
 | [visibilityDistanceType](#visibilitydistancetype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [auras](#auras) | text |  |  | YES | NULL |  |  |
+| [auras](#auras) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

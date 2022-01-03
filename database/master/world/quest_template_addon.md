@@ -2,7 +2,7 @@
 title: quest_template_addon
 description: 
 published: true
-date: 2021-12-15T18:54:24.311Z
+date: 2022-01-03T11:24:59.120Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,22 +14,22 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [MaxLevel](#maxlevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [AllowableClasses](#allowableclasses) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SourceSpellID](#sourcespellid) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [PrevQuestID](#prevquestid) | mediumint(8) | signed |  | NO | 0 |  |  |
-| [NextQuestID](#nextquestid) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [ExclusiveGroup](#exclusivegroup) | mediumint(8) | signed |  | NO | 0 |  |  |
+| [SourceSpellID](#sourcespellid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [PrevQuestID](#prevquestid) | int(11) | signed |  | NO | 0 |  |  |
+| [NextQuestID](#nextquestid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ExclusiveGroup](#exclusivegroup) | int(11) | signed |  | NO | 0 |  |  |
 | [BreadcrumbForQuestId](#breadcrumbforquestid) | int(11) | signed |  | NO | 0 |  |  |
-| [RewardMailTemplateID](#rewardmailtemplateid) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [RewardMailTemplateID](#rewardmailtemplateid) | int(10) | unsigned |  | NO | 0 |  |  |
 | [RewardMailDelay](#rewardmaildelay) | int(10) | unsigned |  | NO | 0 |  |  |
 | [RequiredSkillID](#requiredskillid) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [RequiredSkillPoints](#requiredskillpoints) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [RequiredMinRepFaction](#requiredminrepfaction) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [RequiredMaxRepFaction](#requiredmaxrepfaction) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [RequiredMinRepValue](#requiredminrepvalue) | mediumint(8) | signed |  | NO | 0 |  |  |
-| [RequiredMaxRepValue](#requiredmaxrepvalue) | mediumint(8) | signed |  | NO | 0 |  |  |
+| [RequiredMinRepValue](#requiredminrepvalue) | int(11) | signed |  | NO | 0 |  |  |
+| [RequiredMaxRepValue](#requiredmaxrepvalue) | int(11) | signed |  | NO | 0 |  |  |
 | [ProvidedItemCount](#provideditemcount) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [SpecialFlags](#specialflags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) | signed |  | NO | '' |  |  |

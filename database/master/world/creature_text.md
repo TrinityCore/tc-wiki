@@ -2,7 +2,7 @@
 title: creature_text
 description: 
 published: true
-date: 2021-12-15T18:54:24.277Z
+date: 2022-01-03T11:24:59.090Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [CreatureID](#creatureid) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [CreatureID](#creatureid) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [GroupID](#groupid) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
 | [ID](#id) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
-| [Text](#text) | longtext |  |  | YES | NULL |  |  |
+| [Text](#text) | mediumtext |  |  | NO |  |  |  |
 | [Type](#type) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Language](#language) | tinyint(3) | signed |  | NO | 0 |  |  |
-| [Probability](#probability) | float | unsigned |  | NO | 0 |  |  |
-| [Emote](#emote) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [Duration](#duration) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [Sound](#sound) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [Language](#language) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [Probability](#probability) | float |  |  | NO | 0 |  |  |
+| [Emote](#emote) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Duration](#duration) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Sound](#sound) | int(10) | unsigned |  | NO | 0 |  |  |
 | [SoundPlayType](#soundplaytype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [BroadcastTextId](#broadcasttextid) | mediumint(6) | signed |  | NO | 0 |  |  |
+| [BroadcastTextId](#broadcasttextid) | int(11) | signed |  | NO | 0 |  |  |
 | [TextRange](#textrange) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [comment](#comment) | varchar(255) | signed |  | YES | '' |  |  |
 &nbsp;

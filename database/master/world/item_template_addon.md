@@ -2,7 +2,7 @@
 title: item_template_addon
 description: 
 published: true
-date: 2021-12-15T18:54:24.293Z
+date: 2022-01-03T11:24:59.104Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -19,7 +19,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [FoodType](#foodtype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [MinMoneyLoot](#minmoneyloot) | int(10) | unsigned |  | NO | 0 |  |  |
 | [MaxMoneyLoot](#maxmoneyloot) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SpellPPMChance](#spellppmchance) | float | unsigned |  | NO | 0 |  |  |
+| [SpellPPMChance](#spellppmchance) | float |  |  | NO | 0 |  |  |
 | [RandomBonusListTemplateId](#randombonuslisttemplateid) | int(10) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

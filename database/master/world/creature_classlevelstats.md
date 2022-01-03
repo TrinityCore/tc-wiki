@@ -2,7 +2,7 @@
 title: creature_classlevelstats
 description: 
 published: true
-date: 2021-08-30T20:38:02.261Z
+date: 2022-01-03T11:24:59.085Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,10 +16,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [level](#level) | tinyint(4) | signed | PRI | NO |  |  |  |
 | [class](#class) | tinyint(4) | signed | PRI | NO |  |  |  |
-| [basemana](#basemana) | mediumint(8) | unsigned |  | NO | 1 |  |  |
+| [basemana](#basemana) | int(10) | unsigned |  | NO | 1 |  |  |
 | [attackpower](#attackpower) | smallint(6) | signed |  | NO | 0 |  |  |
 | [rangedattackpower](#rangedattackpower) | smallint(6) | signed |  | NO | 0 |  |  |
-| [comment](#comment) | text |  |  | YES | NULL |  |  |
+| [comment](#comment) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

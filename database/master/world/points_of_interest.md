@@ -2,10 +2,10 @@
 title: points_of_interest
 description: 
 published: true
-date: 2022-01-03T12:11:31.830Z
+date: 2022-01-03T11:24:59.114Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T09:34:33.819Z
+dateCreated: 2021-08-30T06:00:00.000Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/playercreateinfo_spell_custom" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'playercreateinfo_spell_custom'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/points_of_interest_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'points_of_interest_locale'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -14,14 +14,14 @@ dateCreated: 2021-08-30T09:34:33.819Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment | Source in sniff |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | mediumint(8) | unsigned | PRI | NO | 0 |  |  | SMSG_GOSSIP_POI |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  | SMSG_GOSSIP_POI |
 | [PositionX](#positionx) | float |  |  | NO | 0 |  |  | SMSG_GOSSIP_POI |
 | [PositionY](#positiony) | float |  |  | NO | 0 |  |  | SMSG_GOSSIP_POI |
 | [PositionZ](#positionz) | float |  |  | NO | 0 |  |  | SMSG_GOSSIP_POI |
-| [Icon](#icon) | mediumint(8) | unsigned |  | NO | 0 |  |  | SMSG_GOSSIP_POI |
-| [Flags](#flags) | mediumint(8) | unsigned |  | NO | 0 |  |  | SMSG_GOSSIP_POI |
-| [Importance](#importance) | mediumint(8) | unsigned |  | NO | 0 |  |  | SMSG_GOSSIP_POI |
-| [Name](#name) | text |  |  | YES | NULL |  |  | SMSG_GOSSIP_POI |
+| [Icon](#icon) | int(10) | unsigned |  | NO | 0 |  |  | SMSG_GOSSIP_POI |
+| [Flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  | SMSG_GOSSIP_POI |
+| [Importance](#importance) | int(10) | unsigned |  | NO | 0 |  |  | SMSG_GOSSIP_POI |
+| [Name](#name) | mediumtext |  |  | YES | NULL |  |  | SMSG_GOSSIP_POI |
 | [Unknown905](#unknown905) | int(11) | signed |  | NO | 0 |  |  | SMSG_GOSSIP_POI |
 | [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  | generated |
 &nbsp;

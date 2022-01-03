@@ -2,7 +2,7 @@
 title: npc_vendor
 description: 
 published: true
-date: 2021-08-30T20:38:02.287Z
+date: 2022-01-03T11:24:59.107Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,14 +14,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [entry](#entry) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [slot](#slot) | smallint(6) | signed | MUL | NO | 0 |  |  |
-| [item](#item) | mediumint(8) | signed | PRI | NO | 0 |  |  |
-| [maxcount](#maxcount) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [item](#item) | int(11) | signed | PRI | NO | 0 |  |  |
+| [maxcount](#maxcount) | int(10) | unsigned |  | NO | 0 |  |  |
 | [incrtime](#incrtime) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ExtendedCost](#extendedcost) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [ExtendedCost](#extendedcost) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [type](#type) | tinyint(3) | unsigned | PRI | NO | 1 |  |  |
-| [BonusListIDs](#bonuslistids) | text |  |  | YES | NULL |  |  |
+| [BonusListIDs](#bonuslistids) | mediumtext |  |  | YES | NULL |  |  |
 | [PlayerConditionID](#playerconditionid) | int(10) | unsigned |  | NO | 0 |  |  |
 | [IgnoreFiltering](#ignorefiltering) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |

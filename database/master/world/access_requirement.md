@@ -2,10 +2,10 @@
 title: access_requirement
 description: This table contains the access requirements to enter an instance.
 published: true
-date: 2021-11-15T18:09:01.026Z
+date: 2022-01-03T11:24:59.075Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-29T20:43:51.863Z
+dateCreated: 2021-08-30T06:00:00.000Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/world_safe_locs" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'world_safe_locs'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/achievement_dbc" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'achievement_dbc'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -14,17 +14,17 @@ dateCreated: 2021-08-29T20:43:51.863Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [mapId](#mapid) | mediumint(8) | unsigned | PRI | NO |  |  |  |
+| [mapId](#mapid) | int(10) | unsigned | PRI | NO |  |  |  |
 | [difficulty](#difficulty) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
 | [level_min](#level_min) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [level_max](#level_max) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [item](#item) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [item2](#item2) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [quest_done_A](#quest_done_a) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [quest_done_H](#quest_done_h) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [completed_achievement](#completed_achievement) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [quest_failed_text](#quest_failed_text) | text |  |  | YES | NULL |  |  |
-| [comment](#comment) | text |  |  | YES | NULL |  |  |
+| [item](#item) | int(10) | unsigned |  | NO | 0 |  |  |
+| [item2](#item2) | int(10) | unsigned |  | NO | 0 |  |  |
+| [quest_done_A](#quest_done_a) | int(10) | unsigned |  | NO | 0 |  |  |
+| [quest_done_H](#quest_done_h) | int(10) | unsigned |  | NO | 0 |  |  |
+| [completed_achievement](#completed_achievement) | int(10) | unsigned |  | NO | 0 |  |  |
+| [quest_failed_text](#quest_failed_text) | mediumtext |  |  | YES | NULL |  |  |
+| [comment](#comment) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

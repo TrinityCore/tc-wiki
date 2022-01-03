@@ -2,7 +2,7 @@
 title: quest_request_items
 description: 
 published: true
-date: 2021-12-21T22:34:33.773Z
+date: 2022-01-03T11:24:59.118Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [EmoteOnComplete](#emoteoncomplete) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [EmoteOnIncomplete](#emoteonincomplete) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [EmoteOnCompleteDelay](#emoteoncompletedelay) | int(10) | unsigned |  | NO | 0 |  |  |
 | [EmoteOnIncompleteDelay](#emoteonincompletedelay) | int(10) | unsigned |  | NO | 0 |  |  |
-| [CompletionText](#completiontext) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(10) | signed |  | NO | 0 |  |  |
+| [CompletionText](#completiontext) | mediumtext |  |  | YES | NULL |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: creature_formations
 description: 
 published: true
-date: 2021-08-30T20:38:02.261Z
+date: 2022-01-03T11:24:59.085Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,8 +16,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [leaderGUID](#leaderguid) | bigint(20) | unsigned |  | NO | 0 |  |  |
 | [memberGUID](#memberguid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
-| [dist](#dist) | float | unsigned |  | NO |  |  |  |
-| [angle](#angle) | float | unsigned |  | NO |  |  |  |
+| [dist](#dist) | float |  |  | NO |  |  |  |
+| [angle](#angle) | float |  |  | NO |  |  |  |
 | [groupAI](#groupai) | int(10) | unsigned |  | NO |  |  |  |
 | [point_1](#point_1) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [point_2](#point_2) | smallint(5) | unsigned |  | NO | 0 |  |  |

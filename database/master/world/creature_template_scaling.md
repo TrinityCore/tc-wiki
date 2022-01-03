@@ -2,7 +2,7 @@
 title: creature_template_scaling
 description: 
 published: true
-date: 2021-12-15T18:54:24.277Z
+date: 2022-01-03T11:24:59.089Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment | Source in sniff |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Entry](#entry) | mediumint(8) | unsigned | PRI | NO |  |  |  | SMSG_UPDATE_OBJECT |
+| [Entry](#entry) | int(10) | unsigned | PRI | NO |  |  |  | SMSG_UPDATE_OBJECT |
 | [DifficultyID](#difficultyid) | tinyint(3) | unsigned | PRI | NO | 0 |  |  | SMSG_WORLD_SERVER_INFO |
-| [LevelScalingDeltaMin](#levelscalingdeltamin) | smallint(5) | signed |  | NO | 0 |  |  | SMSG_UPDATE_OBJECT |
-| [LevelScalingDeltaMax](#levelscalingdeltamax) | smallint(5) | signed |  | NO | 0 |  |  | SMSG_UPDATE_OBJECT |
-| [ContentTuningID](#contenttuningid) | int(10) | signed |  | NO | 0 |  |  | SMSG_UPDATE_OBJECT |
+| [LevelScalingDeltaMin](#levelscalingdeltamin) | smallint(6) | signed |  | NO | 0 |  |  | SMSG_UPDATE_OBJECT |
+| [LevelScalingDeltaMax](#levelscalingdeltamax) | smallint(6) | signed |  | NO | 0 |  |  | SMSG_UPDATE_OBJECT |
+| [ContentTuningID](#contenttuningid) | int(11) | signed |  | NO | 0 |  |  | SMSG_UPDATE_OBJECT |
 | [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  | generated |
 &nbsp;
 ## Description of fields

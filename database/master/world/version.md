@@ -2,7 +2,7 @@
 title: version
 description: 
 published: true
-date: 2021-08-30T20:38:02.322Z
+date: 2022-01-03T11:24:59.134Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [core_version](#core_version) | varchar(255) | signed | PRI | NO | '' |  | Core revision dumped at startup. |
+| [core_version](#core_version) | varchar(250) | signed | PRI | NO | '' |  | Core revision dumped at startup. |
 | [core_revision](#core_revision) | varchar(120) | signed |  | YES | NULL |  |  |
 | [db_version](#db_version) | varchar(120) | signed |  | YES | NULL |  | Version of world DB. |
 | [cache_id](#cache_id) | int(11) | signed |  | YES | 0 |  |  |

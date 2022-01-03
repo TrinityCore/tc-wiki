@@ -2,7 +2,7 @@
 title: creature
 description: 
 published: true
-date: 2021-12-21T22:34:33.737Z
+date: 2022-01-03T11:24:59.084Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,24 +15,24 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
-| [id](#id) | mediumint(8) | unsigned | MUL | NO | 0 |  | Creature Identifier |
+| [id](#id) | int(10) | unsigned | MUL | NO | 0 |  | Creature Identifier |
 | [map](#map) | smallint(5) | unsigned | MUL | NO | 0 |  | Map Identifier |
 | [zoneId](#zoneid) | smallint(5) | unsigned |  | NO | 0 |  | Zone Identifier |
 | [areaId](#areaid) | smallint(5) | unsigned |  | NO | 0 |  | Area Identifier |
 | [spawnDifficulties](#spawndifficulties) | varchar(100) | signed |  | NO | 0 |  |  |
 | [phaseUseFlags](#phaseuseflags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [PhaseId](#phaseid) | int(10) | signed |  | YES | 0 |  |  |
-| [PhaseGroup](#phasegroup) | int(10) | signed |  | YES | 0 |  |  |
+| [PhaseId](#phaseid) | int(11) | signed |  | YES | 0 |  |  |
+| [PhaseGroup](#phasegroup) | int(11) | signed |  | YES | 0 |  |  |
 | [terrainSwapMap](#terrainswapmap) | int(11) | signed |  | NO | -1 |  |  |
-| [modelid](#modelid) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [equipment_id](#equipment_id) | tinyint(3) | signed |  | NO | 0 |  |  |
+| [modelid](#modelid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [equipment_id](#equipment_id) | tinyint(4) | signed |  | NO | 0 |  |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |
 | [orientation](#orientation) | float |  |  | NO | 0 |  |  |
 | [spawntimesecs](#spawntimesecs) | int(10) | unsigned |  | NO | 120 |  |  |
 | [wander_distance](#wander_distance) | float |  |  | NO | 0 |  |  |
-| [currentwaypoint](#currentwaypoint) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [currentwaypoint](#currentwaypoint) | int(10) | unsigned |  | NO | 0 |  |  |
 | [curhealth](#curhealth) | int(10) | unsigned |  | NO | 1 |  |  |
 | [curmana](#curmana) | int(10) | unsigned |  | NO | 0 |  |  |
 | [MovementType](#movementtype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
@@ -41,7 +41,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [unit_flags2](#unit_flags2) | int(10) | unsigned |  | NO | 0 |  |  |
 | [unit_flags3](#unit_flags3) | int(10) | unsigned |  | NO | 0 |  |  |
 | [dynamicflags](#dynamicflags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ScriptName](#scriptname) | char(64) | signed |  | YES | '' |  |  |
+| [ScriptName](#scriptname) | varchar(64) | signed |  | NO | '' |  |  |
 | [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

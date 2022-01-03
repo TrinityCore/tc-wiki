@@ -2,7 +2,7 @@
 title: playercreateinfo_item
 description: 
 published: true
-date: 2021-08-30T20:38:02.296Z
+date: 2022-01-03T11:24:59.114Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [race](#race) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
 | [class](#class) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
-| [itemid](#itemid) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [itemid](#itemid) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [amount](#amount) | tinyint(4) | signed |  | NO | 1 |  |  |
 &nbsp;
 ## Description of fields

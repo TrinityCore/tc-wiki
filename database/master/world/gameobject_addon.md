@@ -2,7 +2,7 @@
 title: gameobject_addon
 description: 
 published: true
-date: 2021-08-30T20:38:02.276Z
+date: 2022-01-03T11:24:59.097Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -21,7 +21,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [parent_rotation3](#parent_rotation3) | float |  |  | NO | 1 |  |  |
 | [invisibilityType](#invisibilitytype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [invisibilityValue](#invisibilityvalue) | int(10) | unsigned |  | NO | 0 |  |  |
-| [WorldEffectID](#worldeffectid) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [WorldEffectID](#worldeffectid) | int(10) | unsigned |  | NO | 0 |  |  |
 | [AIAnimKitID](#aianimkitid) | int(10) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

@@ -2,7 +2,7 @@
 title: playercreateinfo_spell_custom
 description: 
 published: true
-date: 2021-08-30T20:38:02.296Z
+date: 2022-01-03T11:24:59.114Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [racemask](#racemask) | bigint(20) | unsigned | PRI | NO |  |  |  |
 | [classmask](#classmask) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Spell](#spell) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [Spell](#spell) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [Note](#note) | varchar(255) | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields

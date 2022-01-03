@@ -2,7 +2,7 @@
 title: creature_model_info
 description: 
 published: true
-date: 2021-11-14T19:58:46.842Z
+date: 2022-01-03T11:24:59.086Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment | Source in sniff |
 | --- | --- | --- | :---: | :---: | --- | --- | --- | --- |
-| [DisplayID](#displayid) | mediumint(8) | unsigned | PRI | NO | 0 |  |  | SMSG_UPDATE_OBJECT |
+| [DisplayID](#displayid) | int(10) | unsigned | PRI | NO | 0 |  |  | SMSG_UPDATE_OBJECT |
 | [BoundingRadius](#boundingradius) | float |  |  | NO | 0 |  |  | SMSG_UPDATE_OBJECT |
 | [CombatReach](#combatreach) | float |  |  | NO | 0 |  |  | SMSG_UPDATE_OBJECT |
-| [DisplayID_Other_Gender](#displayid_other_gender) | mediumint(8) | unsigned |  | NO | 0 |  |  | manually |
+| [DisplayID_Other_Gender](#displayid_other_gender) | int(10)) | unsigned |  | NO | 0 |  |  | manually |
 | [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  | generated |
 &nbsp;
 ## Description of fields

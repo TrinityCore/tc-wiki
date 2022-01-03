@@ -2,7 +2,7 @@
 title: spell_area
 description: 
 published: true
-date: 2021-11-14T19:58:46.888Z
+date: 2022-01-03T11:24:59.126Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [spell](#spell) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
-| [area](#area) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
-| [quest_start](#quest_start) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
-| [quest_end](#quest_end) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [aura_spell](#aura_spell) | mediumint(8) | signed | PRI | NO | 0 |  |  |
+| [spell](#spell) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [area](#area) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [quest_start](#quest_start) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [quest_end](#quest_end) | int(10) | unsigned |  | NO | 0 |  |  |
+| [aura_spell](#aura_spell) | int(11) | signed | PRI | NO | 0 |  |  |
 | [racemask](#racemask) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
 | [gender](#gender) | tinyint(3) | unsigned | PRI | NO | 2 |  |  |
 | [flags](#flags) | tinyint(3) | unsigned |  | NO | 3 |  |  |

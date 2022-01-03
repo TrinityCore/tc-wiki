@@ -2,7 +2,7 @@
 title: spawn_group
 description: 
 published: true
-date: 2021-08-30T20:38:02.312Z
+date: 2022-01-03T11:24:59.126Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,7 +15,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [groupId](#groupid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [spawnType](#spawntype) | tinyint(10) | unsigned | PRI | NO |  |  |  |
+| [spawnType](#spawntype) | tinyint(3) | unsigned | PRI | NO |  |  |  |
 | [spawnId](#spawnid) | bigint(20) | unsigned | PRI | NO |  |  |  |
 &nbsp;
 ## Description of fields

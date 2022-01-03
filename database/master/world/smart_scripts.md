@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2021-11-14T19:58:46.887Z
+date: 2022-01-03T11:24:59.126Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -44,7 +44,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [target_y](#target_y) | float |  |  | NO | 0 |  |  |
 | [target_z](#target_z) | float |  |  | NO | 0 |  |  |
 | [target_o](#target_o) | float |  |  | NO | 0 |  |  |
-| [comment](#comment) | text |  |  | NO |  |  | Event Comment |
+| [comment](#comment) | mediumtext |  |  | NO |  |  | Event Comment |
 &nbsp;
 ## Description of fields
 

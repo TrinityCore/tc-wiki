@@ -2,7 +2,7 @@
 title: transports
 description: 
 published: true
-date: 2021-08-30T20:38:02.319Z
+date: 2022-01-03T11:24:59.132Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,12 +15,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
-| [entry](#entry) | mediumint(8) | unsigned | UNI | NO | 0 |  |  |
-| [name](#name) | text |  |  | YES | NULL |  |  |
+| [entry](#entry) | int(10) | unsigned | UNI | NO | 0 |  |  |
+| [name](#name) | mediumtext |  |  | YES | NULL |  |  |
 | [phaseUseFlags](#phaseuseflags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [phaseid](#phaseid) | int(10) | signed |  | NO | 0 |  |  |
-| [phasegroup](#phasegroup) | int(10) | signed |  | NO | 0 |  |  |
-| [ScriptName](#scriptname) | char(64) | signed |  | NO | '' |  |  |
+| [phaseid](#phaseid) | int(11) | signed |  | NO | 0 |  |  |
+| [phasegroup](#phasegroup) | int(11) | signed |  | NO | 0 |  |  |
+| [ScriptName](#scriptname) | varchar(64) | signed |  | NO | '' |  |  |
 &nbsp;
 ## Description of fields
 

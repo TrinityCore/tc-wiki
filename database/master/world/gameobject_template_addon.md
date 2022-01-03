@@ -2,7 +2,7 @@
 title: gameobject_template_addon
 description: 
 published: true
-date: 2021-08-30T20:38:02.278Z
+date: 2022-01-03T11:24:59.099Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [entry](#entry) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [faction](#faction) | smallint(5) | unsigned |  | NO | 0 |  |  |
 | [flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [mingold](#mingold) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [maxgold](#maxgold) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [WorldEffectID](#worldeffectid) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [mingold](#mingold) | int(10) | unsigned |  | NO | 0 |  |  |
+| [maxgold](#maxgold) | int(10) | unsigned |  | NO | 0 |  |  |
+| [WorldEffectID](#worldeffectid) | int(10) | unsigned |  | NO | 0 |  |  |
 | [AIAnimKitID](#aianimkitid) | int(10) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

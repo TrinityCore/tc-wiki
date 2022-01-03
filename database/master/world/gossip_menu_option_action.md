@@ -2,7 +2,7 @@
 title: gossip_menu_option_action
 description: 
 published: true
-date: 2021-08-30T20:38:02.280Z
+date: 2022-01-03T11:24:59.101Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,8 +16,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [MenuId](#menuid) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [OptionIndex](#optionindex) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ActionMenuId](#actionmenuid) | int(11) | unsigned |  | NO | 0 |  |  |
-| [ActionPoiId](#actionpoiid) | int(11) | unsigned |  | NO | 0 |  |  |
+| [ActionMenuId](#actionmenuid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ActionPoiId](#actionpoiid) | int(10) | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

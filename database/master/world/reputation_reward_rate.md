@@ -2,7 +2,7 @@
 title: reputation_reward_rate
 description: 
 published: true
-date: 2021-08-30T20:38:02.306Z
+date: 2022-01-03T11:24:59.121Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [faction](#faction) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [faction](#faction) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [quest_rate](#quest_rate) | float |  |  | NO | 1 |  |  |
 | [quest_daily_rate](#quest_daily_rate) | float |  |  | NO | 1 |  |  |
 | [quest_weekly_rate](#quest_weekly_rate) | float |  |  | NO | 1 |  |  |

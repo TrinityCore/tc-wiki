@@ -2,7 +2,7 @@
 title: battle_pet_quality
 description: 
 published: true
-date: 2021-08-30T20:38:02.256Z
+date: 2022-01-03T11:24:59.081Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z

@@ -2,7 +2,7 @@
 title: quest_poi
 description: 
 published: true
-date: 2021-08-30T20:38:02.302Z
+date: 2022-01-03T11:24:59.117Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -28,7 +28,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [PlayerConditionID](#playerconditionid) | int(11) | signed |  | NO | 0 |  |  |
 | [NavigationPlayerConditionID](#navigationplayerconditionid) | int(11) | signed |  | NO | 0 |  |  |
 | [SpawnTrackingID](#spawntrackingid) | int(11) | signed |  | NO | 0 |  |  |
-| [AlwaysAllowMergingBlobs](#alwaysallowmergingblobs) | tinyint(1) | unsigned |  | NO | 0 |  |  |
+| [AlwaysAllowMergingBlobs](#alwaysallowmergingblobs) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

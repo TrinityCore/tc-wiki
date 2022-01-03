@@ -2,7 +2,7 @@
 title: quest_template
 description: 
 published: true
-date: 2021-08-30T20:38:02.303Z
+date: 2022-01-03T11:24:59.119Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -90,23 +90,23 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [RewardFactionID1](#rewardfactionid1) | int(10) | unsigned |  | NO | 0 |  |  |
 | [RewardFactionValue1](#rewardfactionvalue1) | int(11) | signed |  | NO | 0 |  |  |
 | [RewardFactionOverride1](#rewardfactionoverride1) | int(11) | signed |  | NO | 0 |  |  |
-| [RewardFactionCapIn1](#rewardfactioncapin1) | int(10) | signed |  | NO | 0 |  |  |
+| [RewardFactionCapIn1](#rewardfactioncapin1) | int(11) | signed |  | NO | 0 |  |  |
 | [RewardFactionID2](#rewardfactionid2) | int(10) | unsigned |  | NO | 0 |  |  |
 | [RewardFactionValue2](#rewardfactionvalue2) | int(11) | signed |  | NO | 0 |  |  |
 | [RewardFactionOverride2](#rewardfactionoverride2) | int(11) | signed |  | NO | 0 |  |  |
-| [RewardFactionCapIn2](#rewardfactioncapin2) | int(10) | signed |  | NO | 0 |  |  |
+| [RewardFactionCapIn2](#rewardfactioncapin2) | int(11) | signed |  | NO | 0 |  |  |
 | [RewardFactionID3](#rewardfactionid3) | int(10) | unsigned |  | NO | 0 |  |  |
 | [RewardFactionValue3](#rewardfactionvalue3) | int(11) | signed |  | NO | 0 |  |  |
 | [RewardFactionOverride3](#rewardfactionoverride3) | int(11) | signed |  | NO | 0 |  |  |
-| [RewardFactionCapIn3](#rewardfactioncapin3) | int(10) | signed |  | NO | 0 |  |  |
+| [RewardFactionCapIn3](#rewardfactioncapin3) | int(11) | signed |  | NO | 0 |  |  |
 | [RewardFactionID4](#rewardfactionid4) | int(10) | unsigned |  | NO | 0 |  |  |
 | [RewardFactionValue4](#rewardfactionvalue4) | int(11) | signed |  | NO | 0 |  |  |
 | [RewardFactionOverride4](#rewardfactionoverride4) | int(11) | signed |  | NO | 0 |  |  |
-| [RewardFactionCapIn4](#rewardfactioncapin4) | int(10) | signed |  | NO | 0 |  |  |
+| [RewardFactionCapIn4](#rewardfactioncapin4) | int(11) | signed |  | NO | 0 |  |  |
 | [RewardFactionID5](#rewardfactionid5) | int(10) | unsigned |  | NO | 0 |  |  |
 | [RewardFactionValue5](#rewardfactionvalue5) | int(11) | signed |  | NO | 0 |  |  |
 | [RewardFactionOverride5](#rewardfactionoverride5) | int(11) | signed |  | NO | 0 |  |  |
-| [RewardFactionCapIn5](#rewardfactioncapin5) | int(10) | signed |  | NO | 0 |  |  |
+| [RewardFactionCapIn5](#rewardfactioncapin5) | int(11) | signed |  | NO | 0 |  |  |
 | [RewardFactionFlags](#rewardfactionflags) | int(10) | unsigned |  | NO | 0 |  |  |
 | [RewardCurrencyID1](#rewardcurrencyid1) | int(10) | unsigned |  | NO | 0 |  |  |
 | [RewardCurrencyQty1](#rewardcurrencyqty1) | int(10) | unsigned |  | NO | 0 |  |  |
@@ -125,15 +125,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Expansion](#expansion) | int(11) | signed |  | NO | 0 |  |  |
 | [ManagedWorldStateID](#managedworldstateid) | int(11) | signed |  | NO | 0 |  |  |
 | [QuestSessionBonus](#questsessionbonus) | int(11) | signed |  | NO | 0 |  |  |
-| [LogTitle](#logtitle) | text |  |  | YES | NULL |  |  |
-| [LogDescription](#logdescription) | text |  |  | YES | NULL |  |  |
-| [QuestDescription](#questdescription) | text |  |  | YES | NULL |  |  |
-| [AreaDescription](#areadescription) | text |  |  | YES | NULL |  |  |
-| [PortraitGiverText](#portraitgivertext) | text |  |  | YES | NULL |  |  |
-| [PortraitGiverName](#portraitgivername) | text |  |  | YES | NULL |  |  |
-| [PortraitTurnInText](#portraitturnintext) | text |  |  | YES | NULL |  |  |
-| [PortraitTurnInName](#portraitturninname) | text |  |  | YES | NULL |  |  |
-| [QuestCompletionLog](#questcompletionlog) | text |  |  | YES | NULL |  |  |
+| [LogTitle](#logtitle) | mediumtext |  |  | YES | NULL |  |  |
+| [LogDescription](#logdescription) | mediumtext |  |  | YES | NULL |  |  |
+| [QuestDescription](#questdescription) | mediumtext |  |  | YES | NULL |  |  |
+| [AreaDescription](#areadescription) | mediumtext |  |  | YES | NULL |  |  |
+| [PortraitGiverText](#portraitgivertext) | mediumtext |  |  | YES | NULL |  |  |
+| [PortraitGiverName](#portraitgivername) | mediumtext |  |  | YES | NULL |  |  |
+| [PortraitTurnInText](#portraitturnintext) | mediumtext |  |  | YES | NULL |  |  |
+| [PortraitTurnInName](#portraitturninname) | mediumtext |  |  | YES | NULL |  |  |
+| [QuestCompletionLog](#questcompletionlog) | mediumtext |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

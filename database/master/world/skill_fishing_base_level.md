@@ -2,7 +2,7 @@
 title: skill_fishing_base_level
 description: 
 published: true
-date: 2021-08-30T20:38:02.311Z
+date: 2022-01-03T11:24:59.125Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | mediumint(8) | unsigned | PRI | NO | 0 |  | Area identifier |
+| [entry](#entry) | int(10) | unsigned | PRI | NO | 0 |  | Area identifier |
 | [skill](#skill) | smallint(6) | signed |  | NO | 0 |  | Base skill level requirement |
 &nbsp;
 ## Description of fields

@@ -2,7 +2,7 @@
 title: gameobject_questitem
 description: 
 published: true
-date: 2021-08-30T20:38:02.277Z
+date: 2022-01-03T11:24:59.098Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -17,7 +17,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [GameObjectEntry](#gameobjectentry) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [Idx](#idx) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [ItemId](#itemid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(10) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

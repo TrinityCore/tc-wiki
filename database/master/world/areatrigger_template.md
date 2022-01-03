@@ -2,7 +2,7 @@
 title: areatrigger_template
 description: This table contains the description of areatrigger.
 published: true
-date: 2021-12-15T18:54:24.267Z
+date: 2022-01-03T11:24:59.080Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,7 +15,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [Id](#id) | int(10) | unsigned | PRI | NO |  |  |  |
-| [IsServerSide](#isserverside) | tinyint(1) | unsigned | PRI | NO |  |  |  |
+| [IsServerSide](#isserverside) | tinyint(3) | unsigned | PRI | NO |  |  |  |
 | [Type](#type) | tinyint(3) | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
 | [Data0](#data0-5) | float |  |  | NO | 0 |  |  |

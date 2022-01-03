@@ -2,7 +2,7 @@
 title: skill_perfect_item_template
 description: 
 published: true
-date: 2021-08-30T20:38:02.311Z
+date: 2022-01-03T11:24:59.125Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [spellId](#spellid) | mediumint(8) | unsigned | PRI | NO | 0 |  | SpellId of the item creation spell |
-| [requiredSpecialization](#requiredspecialization) | mediumint(8) | unsigned |  | NO | 0 |  | Specialization spell id |
+| [spellId](#spellid) | int(10) | unsigned | PRI | NO | 0 |  | SpellId of the item creation spell |
+| [requiredSpecialization](#requiredspecialization) | int(10) | unsigned |  | NO | 0 |  | Specialization spell id |
 | [perfectCreateChance](#perfectcreatechance) | float |  |  | NO | 0 |  | chance to create the perfect item instead |
-| [perfectItemType](#perfectitemtype) | mediumint(8) | unsigned |  | NO | 0 |  | perfect item type to create instead |
+| [perfectItemType](#perfectitemtype) | int(10) | unsigned |  | NO | 0 |  | perfect item type to create instead |
 &nbsp;
 ## Description of fields
 

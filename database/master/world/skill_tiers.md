@@ -2,7 +2,7 @@
 title: skill_tiers
 description: 
 published: true
-date: 2021-08-30T20:38:02.311Z
+date: 2022-01-03T11:24:59.125Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z

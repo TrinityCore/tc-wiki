@@ -2,7 +2,7 @@
 title: quest_template_locale
 description: 
 published: true
-date: 2021-08-30T20:38:02.305Z
+date: 2022-01-03T11:24:59.120Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,17 +14,17 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) | signed | PRI | NO |  |  |  |
-| [LogTitle](#logtitle) | text |  |  | YES | NULL |  |  |
-| [LogDescription](#logdescription) | text |  |  | YES | NULL |  |  |
-| [QuestDescription](#questdescription) | text |  |  | YES | NULL |  |  |
-| [AreaDescription](#areadescription) | text |  |  | YES | NULL |  |  |
-| [PortraitGiverText](#portraitgivertext) | text |  |  | YES | NULL |  |  |
-| [PortraitGiverName](#portraitgivername) | text |  |  | YES | NULL |  |  |
-| [PortraitTurnInText](#portraitturnintext) | text |  |  | YES | NULL |  |  |
-| [PortraitTurnInName](#portraitturninname) | text |  |  | YES | NULL |  |  |
-| [QuestCompletionLog](#questcompletionlog) | text |  |  | YES | NULL |  |  |
+| [LogTitle](#logtitle) | mediumtext |  |  | YES | NULL |  |  |
+| [LogDescription](#logdescription) | mediumtext |  |  | YES | NULL |  |  |
+| [QuestDescription](#questdescription) | mediumtext |  |  | YES | NULL |  |  |
+| [AreaDescription](#areadescription) | mediumtext |  |  | YES | NULL |  |  |
+| [PortraitGiverText](#portraitgivertext) | mediumtext |  |  | YES | NULL |  |  |
+| [PortraitGiverName](#portraitgivername) | mediumtext |  |  | YES | NULL |  |  |
+| [PortraitTurnInText](#portraitturnintext) | mediumtext |  |  | YES | NULL |  |  |
+| [PortraitTurnInName](#portraitturninname) | mediumtext |  |  | YES | NULL |  |  |
+| [QuestCompletionLog](#questcompletionlog) | mediumtext |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

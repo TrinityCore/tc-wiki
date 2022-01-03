@@ -2,7 +2,7 @@
 title: playerchoice
 description: 
 published: true
-date: 2021-08-30T20:38:02.292Z
+date: 2022-01-03T11:24:59.111Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -20,7 +20,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Question](#question) | varchar(255) | signed |  | YES | NULL |  |  |
 | [HideWarboardHeader](#hidewarboardheader) | tinyint(1) | signed |  | NO | 0 |  |  |
 | [KeepOpenAfterChoice](#keepopenafterchoice) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(10) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

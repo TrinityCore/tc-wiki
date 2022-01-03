@@ -2,7 +2,7 @@
 title: blackmarket_template
 description: 
 published: true
-date: 2021-08-30T20:38:02.257Z
+date: 2022-01-03T11:24:59.082Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,14 +14,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [marketId](#marketid) | int(10) | signed | PRI | NO | 0 |  |  |
-| [sellerNpc](#sellernpc) | mediumint(8) | signed |  | NO | 0 |  |  |
-| [itemEntry](#itementry) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [quantity](#quantity) | int(10) | signed |  | NO | 1 |  |  |
+| [marketId](#marketid) | int(11) | signed | PRI | NO | 0 |  |  |
+| [sellerNpc](#sellernpc) | int(11) | signed |  | NO | 0 |  |  |
+| [itemEntry](#itementry) | int(10) | unsigned |  | NO | 0 |  |  |
+| [quantity](#quantity) | int(11) | signed |  | NO | 1 |  |  |
 | [minBid](#minbid) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [duration](#duration) | int(10) | signed |  | NO | 0 |  |  |
+| [duration](#duration) | int(11) | signed |  | NO | 0 |  |  |
 | [chance](#chance) | float |  |  | NO | 0 |  |  |
-| [bonusListIDs](#bonuslistids) | text |  |  | YES | NULL |  |  |
+| [bonusListIDs](#bonuslistids) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

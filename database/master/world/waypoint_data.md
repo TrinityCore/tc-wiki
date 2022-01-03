@@ -2,7 +2,7 @@
 title: waypoint_data
 description: 
 published: true
-date: 2021-08-30T20:38:02.322Z
+date: 2022-01-03T11:24:59.134Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,7 +15,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [id](#id) | int(10) | unsigned | PRI | NO | 0 |  | Creature GUID |
-| [point](#point) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [point](#point) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |

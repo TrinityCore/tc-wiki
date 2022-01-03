@@ -2,7 +2,7 @@
 title: game_weather
 description: 
 published: true
-date: 2021-08-30T20:38:02.276Z
+date: 2022-01-03T11:24:59.097Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [zone](#zone) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [zone](#zone) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [spring_rain_chance](#spring_rain_chance) | tinyint(3) | unsigned |  | NO | 25 |  |  |
 | [spring_snow_chance](#spring_snow_chance) | tinyint(3) | unsigned |  | NO | 25 |  |  |
 | [spring_storm_chance](#spring_storm_chance) | tinyint(3) | unsigned |  | NO | 25 |  |  |
@@ -27,7 +27,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [winter_rain_chance](#winter_rain_chance) | tinyint(3) | unsigned |  | NO | 25 |  |  |
 | [winter_snow_chance](#winter_snow_chance) | tinyint(3) | unsigned |  | NO | 25 |  |  |
 | [winter_storm_chance](#winter_storm_chance) | tinyint(3) | unsigned |  | NO | 25 |  |  |
-| [ScriptName](#scriptname) | char(64) | signed |  | NO | '' |  |  |
+| [ScriptName](#scriptname) | varchar(64) | signed |  | NO | '' |  |  |
 &nbsp;
 ## Description of fields
 

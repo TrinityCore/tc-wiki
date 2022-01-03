@@ -2,7 +2,7 @@
 title: pet_levelstats
 description: 
 published: true
-date: 2021-08-30T20:38:02.288Z
+date: 2022-01-03T11:24:59.108Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [creature_entry](#creature_entry) | mediumint(8) | unsigned | PRI | NO |  |  |  |
+| [creature_entry](#creature_entry) | int(10) | unsigned | PRI | NO |  |  |  |
 | [level](#level) | tinyint(3) | unsigned | PRI | NO |  |  |  |
 | [hp](#hp) | smallint(5) | unsigned |  | NO |  |  |  |
 | [mana](#mana) | smallint(5) | unsigned |  | NO |  |  |  |

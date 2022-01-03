@@ -2,7 +2,7 @@
 title: trinity_string
 description: 
 published: true
-date: 2021-08-30T20:38:02.320Z
+date: 2022-01-03T11:24:59.132Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,16 +14,16 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
-| [content_default](#content_default) | text |  |  | NO |  |  |  |
-| [content_loc1](#content_loc1) | text |  |  | YES | NULL |  |  |
-| [content_loc2](#content_loc2) | text |  |  | YES | NULL |  |  |
-| [content_loc3](#content_loc3) | text |  |  | YES | NULL |  |  |
-| [content_loc4](#content_loc4) | text |  |  | YES | NULL |  |  |
-| [content_loc5](#content_loc5) | text |  |  | YES | NULL |  |  |
-| [content_loc6](#content_loc6) | text |  |  | YES | NULL |  |  |
-| [content_loc7](#content_loc7) | text |  |  | YES | NULL |  |  |
-| [content_loc8](#content_loc8) | text |  |  | YES | NULL |  |  |
+| [entry](#entry) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [content_default](#content_default) | mediumtext |  |  | NO |  |  |  |
+| [content_loc1](#content_loc1) | mediumtext |  |  | YES | NULL |  |  |
+| [content_loc2](#content_loc2) | mediumtext |  |  | YES | NULL |  |  |
+| [content_loc3](#content_loc3) | mediumtext |  |  | YES | NULL |  |  |
+| [content_loc4](#content_loc4) | mediumtext |  |  | YES | NULL |  |  |
+| [content_loc5](#content_loc5) | mediumtext |  |  | YES | NULL |  |  |
+| [content_loc6](#content_loc6) | mediumtext |  |  | YES | NULL |  |  |
+| [content_loc7](#content_loc7) | mediumtext |  |  | YES | NULL |  |  |
+| [content_loc8](#content_loc8) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

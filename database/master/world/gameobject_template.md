@@ -2,7 +2,7 @@
 title: gameobject_template
 description: 
 published: true
-date: 2021-11-14T19:58:46.855Z
+date: 2022-01-03T11:24:59.099Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,51 +14,51 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
+| [entry](#entry) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [type](#type) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [displayId](#displayid) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [displayId](#displayid) | int(10) | unsigned |  | NO | 0 |  |  |
 | [name](#name) | varchar(100) | signed | MUL | NO | '' |  |  |
 | [IconName](#iconname) | varchar(100) | signed |  | NO | '' |  |  |
 | [castBarCaption](#castbarcaption) | varchar(100) | signed |  | NO | '' |  |  |
 | [unk1](#unk1) | varchar(100) | signed |  | NO | '' |  |  |
 | [size](#size) | float |  |  | NO | 1 |  |  |
-| [Data0](#data0) | int(10) | signed |  | NO | 0 |  |  |
-| [Data1](#data1) | int(10) | signed |  | NO | 0 |  |  |
-| [Data2](#data2) | int(10) | signed |  | NO | 0 |  |  |
-| [Data3](#data3) | int(10) | signed |  | NO | 0 |  |  |
-| [Data4](#data4) | int(10) | signed |  | NO | 0 |  |  |
-| [Data5](#data5) | int(10) | signed |  | NO | 0 |  |  |
-| [Data6](#data6) | int(10) | signed |  | NO | 0 |  |  |
-| [Data7](#data7) | int(10) | signed |  | NO | 0 |  |  |
-| [Data8](#data8) | int(10) | signed |  | NO | 0 |  |  |
-| [Data9](#data9) | int(10) | signed |  | NO | 0 |  |  |
-| [Data10](#data10) | int(10) | signed |  | NO | 0 |  |  |
-| [Data11](#data11) | int(10) | signed |  | NO | 0 |  |  |
-| [Data12](#data12) | int(10) | signed |  | NO | 0 |  |  |
-| [Data13](#data13) | int(10) | signed |  | NO | 0 |  |  |
-| [Data14](#data14) | int(10) | signed |  | NO | 0 |  |  |
-| [Data15](#data15) | int(10) | signed |  | NO | 0 |  |  |
-| [Data16](#data16) | int(10) | signed |  | NO | 0 |  |  |
-| [Data17](#data17) | int(10) | signed |  | NO | 0 |  |  |
-| [Data18](#data18) | int(10) | signed |  | NO | 0 |  |  |
-| [Data19](#data19) | int(10) | signed |  | NO | 0 |  |  |
-| [Data20](#data20) | int(10) | signed |  | NO | 0 |  |  |
-| [Data21](#data21) | int(10) | signed |  | NO | 0 |  |  |
-| [Data22](#data22) | int(10) | signed |  | NO | 0 |  |  |
-| [Data23](#data23) | int(10) | signed |  | NO | 0 |  |  |
-| [Data24](#data24) | int(10) | signed |  | NO | 0 |  |  |
-| [Data25](#data25) | int(10) | signed |  | NO | 0 |  |  |
-| [Data26](#data26) | int(10) | signed |  | NO | 0 |  |  |
-| [Data27](#data27) | int(10) | signed |  | NO | 0 |  |  |
-| [Data28](#data28) | int(10) | signed |  | NO | 0 |  |  |
-| [Data29](#data29) | int(10) | signed |  | NO | 0 |  |  |
-| [Data30](#data30) | int(10) | signed |  | NO | 0 |  |  |
-| [Data31](#data31) | int(10) | signed |  | NO | 0 |  |  |
-| [Data32](#data32) | int(10) | signed |  | NO | 0 |  |  |
+| [Data0](#data0) | int(11) | signed |  | NO | 0 |  |  |
+| [Data1](#data1) | int(11) | signed |  | NO | 0 |  |  |
+| [Data2](#data2) | int(11) | signed |  | NO | 0 |  |  |
+| [Data3](#data3) | int(11) | signed |  | NO | 0 |  |  |
+| [Data4](#data4) | int(11) | signed |  | NO | 0 |  |  |
+| [Data5](#data5) | int(11) | signed |  | NO | 0 |  |  |
+| [Data6](#data6) | int(11) | signed |  | NO | 0 |  |  |
+| [Data7](#data7) | int(11) | signed |  | NO | 0 |  |  |
+| [Data8](#data8) | int(11) | signed |  | NO | 0 |  |  |
+| [Data9](#data9) | int(11) | signed |  | NO | 0 |  |  |
+| [Data10](#data10) | int(11) | signed |  | NO | 0 |  |  |
+| [Data11](#data11) | int(11) | signed |  | NO | 0 |  |  |
+| [Data12](#data12) | int(11) | signed |  | NO | 0 |  |  |
+| [Data13](#data13) | int(11) | signed |  | NO | 0 |  |  |
+| [Data14](#data14) | int(11) | signed |  | NO | 0 |  |  |
+| [Data15](#data15) | int(11) | signed |  | NO | 0 |  |  |
+| [Data16](#data16) | int(11) | signed |  | NO | 0 |  |  |
+| [Data17](#data17) | int(11) | signed |  | NO | 0 |  |  |
+| [Data18](#data18) | int(11) | signed |  | NO | 0 |  |  |
+| [Data19](#data19) | int(11) | signed |  | NO | 0 |  |  |
+| [Data20](#data20) | int(11) | signed |  | NO | 0 |  |  |
+| [Data21](#data21) | int(11) | signed |  | NO | 0 |  |  |
+| [Data22](#data22) | int(11) | signed |  | NO | 0 |  |  |
+| [Data23](#data23) | int(11) | signed |  | NO | 0 |  |  |
+| [Data24](#data24) | int(11) | signed |  | NO | 0 |  |  |
+| [Data25](#data25) | int(11) | signed |  | NO | 0 |  |  |
+| [Data26](#data26) | int(11) | signed |  | NO | 0 |  |  |
+| [Data27](#data27) | int(11) | signed |  | NO | 0 |  |  |
+| [Data28](#data28) | int(11) | signed |  | NO | 0 |  |  |
+| [Data29](#data29) | int(11) | signed |  | NO | 0 |  |  |
+| [Data30](#data30) | int(11) | signed |  | NO | 0 |  |  |
+| [Data31](#data31) | int(11) | signed |  | NO | 0 |  |  |
+| [Data32](#data32) | int(11) | signed |  | NO | 0 |  |  |
 | [Data33](#data33) | int(11) | signed |  | NO | 0 |  |  |
 | [Data34](#data34) | int(11) | signed |  | NO | 0 |  |  |
 | [ContentTuningId](#contenttuningid) | int(11) | signed |  | NO | 0 |  |  |
-| [AIName](#ainame) | char(64) | signed |  | NO | '' |  |  |
+| [AIName](#ainame) | varchar(64) | signed |  | NO | '' |  |  |
 | [ScriptName](#scriptname) | varchar(64) | signed |  | NO | '' |  |  |
 | [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;

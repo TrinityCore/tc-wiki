@@ -2,7 +2,7 @@
 title: gossip_menu_option
 description: 
 published: true
-date: 2021-08-30T20:38:02.280Z
+date: 2022-01-03T11:24:59.101Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -17,11 +17,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [MenuId](#menuid) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [OptionIndex](#optionindex) | int(10) | unsigned | PRI | NO | 0 |  |  |
 | [OptionIcon](#optionicon) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [OptionText](#optiontext) | text |  |  | YES | NULL |  |  |
-| [OptionBroadcastTextId](#optionbroadcasttextid) | int(11) | unsigned |  | NO | 0 |  |  |
-| [OptionType](#optiontype) | int(11) | unsigned |  | NO | 0 |  |  |
+| [OptionText](#optiontext) | mediumtext |  |  | YES | NULL |  |  |
+| [OptionBroadcastTextId](#optionbroadcasttextid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [OptionType](#optiontype) | int(10) | unsigned |  | NO | 0 |  |  |
 | [OptionNpcFlag](#optionnpcflag) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(10) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

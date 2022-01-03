@@ -2,7 +2,7 @@
 title: game_tele
 description: 
 published: true
-date: 2021-08-30T20:38:02.275Z
+date: 2022-01-03T11:24:59.096Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | mediumint(8) | unsigned | PRI | NO |  | auto_increment |  |
+| [id](#id) | int(10) | unsigned | PRI | NO |  |  |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |
