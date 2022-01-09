@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2022-01-09T04:08:34.763Z
+date: 2022-01-09T04:12:41.557Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -118,9 +118,9 @@ Two conditions with the same SourceType, SourceGroup and SourceEntry but with a 
 | CONDITION_CREATURE_TYPE | 24 | Creature type from creature_template.type<br/><br/>True if creature_template.type == ConditionValue1 | Always 0 | Always 0 |  |
 | CONDITION_SPELL | 25 | Spell ID from Spell.dbc | Always 0 | Always 0 |  |
 | CONDITION_PHASEMASK | 26 | phasemask value | Always 0 | Always 0 |  |
-| CONDITION_LEVEL | 27 | placeholder | placeholder | placeholder |  |
-| CONDITION_QUEST_COMPLETE | 28 | placeholder | placeholder | placeholder |  |
-| CONDITION_NEAR_CREATURE | 29 | placeholder | placeholder | placeholder |  |
+| CONDITION_LEVEL | 27 | Player level (1-80 in 3.3.5 \|\| 1-60 in 9.x) | **Optional:**<pre>  0 = Level must be equal<br/>  1 = Level must be higher<br/>  2 = Level must be lower<br/>  3 = Level must be higher or equal<br/>  4 = Level must be lower or equal.<pre/> | Always 0 |  |
+| CONDITION_QUEST_COMPLETE | 28 | Quest ID - see quest_template.id | Always 0 | Always 0 |  |
+| CONDITION_NEAR_CREATURE | 29 | 	Creature entry from creature_template.entry | Distance in yards | Alive=0<br/>Dead=1 |  |
 | CONDITION_NEAR_GAMEOBJECT | 30 | placeholder | placeholder | placeholder |  |
 | CONDITION_OBJECT_ENTRY_GUID | 31 | placeholder | placeholder | placeholder |  |
 | CONDITION_TYPE_MASK | 32 | placeholder | placeholder | placeholder |  |
