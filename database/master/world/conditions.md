@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2022-01-09T04:16:09.435Z
+date: 2022-01-09T04:36:12.832Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -125,8 +125,8 @@ Two conditions with the same SourceType, SourceGroup and SourceEntry but with a 
 | CONDITION_OBJECT_ENTRY_GUID | 31 | TypeID. Available object types:<br/>3 : TYPEID_UNIT<br/>4 : TYPEID_PLAYER<br/>5 : TYPEID_GAMEOBJECT<br/>7 : TYPEID_CORPSE (player corpse, after spirit release) | 0 = Any object of given TypeID<br/>if TypeID = TYPEID_UNIT => Creature entry from creature_template.entry<br/>if TypeID = TYPEID_GAMEOBJECT => Gameobject entry from gameobject_template.entry | 0 = Any object of given type<br/><br/>1 - 500k : creature / gameobject GUID |  |
 | CONDITION_TYPE_MASK | 32 | TypeMask - a bitmask of following object types:<br/>0x0008 - TYPEMASK_UNIT (8)<br/>0x0010 - TYPEMASK_PLAYER (16)<br/>0x0020 - TYPEMASK_GAMEOBJECT (32)<br/>0x0080 - TYPEMASK_CORPSE (player corpse after spirit release) (128) | Always 0 | Always 0 |  |
 | CONDITION_RELATION_TO | 33 | Target to which relation is checked.<br/>- one of the ConditionTargets available in current SourceType | RelationType - defines relation of current ConditionTarget to target specified in ConditionValue1.<br/>0 - RELATION_SELF<br/>1 - RELATION_IN_PARTY<br/>2 - RELATION_IN_RAID_OR_PARTY<br/>3 - RELATION_OWNED_BY (ConditionTarget is owned by ConditionValue1)<br/>4 - RELATION_PASSENGER_OF (ConditionTarget is passenger of ConditionValue1)<br/>5 - RELATION_CREATED_BY (ConditionTarget is summoned by ConditionValue1) | Always 0 |  |
-| CONDITION_REACTION_TO | 34 | placeholder | placeholder | placeholder |  |
-| CONDITION_DISTANCE_TO | 35 | placeholder | placeholder | placeholder |  |
+| CONDITION_REACTION_TO | 34 | Target to which reaction is checked.<br/>- one of the ConditionTargets available in current SourceType | rankMask: This bitmask defines the reaction(s) of the current ConditionTarget<br/>to the target specified in ConditionValue1 (which are allowed).<br/>Flags for the reactions are:<br/><pre>  1 = Hated<br/>  2 = Hostile<br/>  4 = Unfriendly<br/>  8 = Neutral<br/> 16 = Friendly<br/> 32 = Honored<br/> 64 = Revered<br/>128 = Exalted<pre/> | Always 0 |  |
+| CONDITION_DISTANCE_TO | 35 | Target to which distance is checked<br/>- one of ConditionTargets available in current SourceType | Distance.<br/>Defines distance between current ConditionTarget and target specified in ConditionValue1 | ComparisionType:<br/>0 = distance must be equal to ConditionValue2<br/>1 = distance must be higher than ConditionValue2<br/>2 = distance must be lower than ConditionValue2<br/>3 = distance must be equal to or higher than ConditionValue2<br/>4 = distance must be equal to or lower than ConditionValue2 |  |
 | CONDITION_ALIVE | 36 | placeholder | placeholder | placeholder |  |
 | CONDITION_HP_VAL | 37 | placeholder | placeholder | placeholder |  |
 | CONDITION_HP_PCT | 38 | placeholder | placeholder | placeholder |  |
