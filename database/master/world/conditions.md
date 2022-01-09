@@ -2,10 +2,10 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2022-01-03T11:24:59.083Z
+date: 2022-01-09T03:59:36.329Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T09:29:30.449Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/command" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'command'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/conversation_actors" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'conversation_actors'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -97,15 +97,15 @@ Two conditions with the same SourceType, SourceGroup and SourceEntry but with a 
 | CONDITION_ITEM_EQUIPPED | 3 | item entry (item_template.entry) | Always 0 | Always 0 |  |
 | CONDITION_ZONEID | 4 | Zone ID where this condition will be true. | Always 0 | Always 0 |  |
 | CONDITION_REPUTATION_RANK | 5 | Faction template ID from Faction.dbc | **rank:**<pre>  1 = Hated<br/>  2 = Hostile<br/>  4 = Unfriendly<br/>  8 = Neutral<br/> 16 = Friendly<br/> 32 = Honored<br/> 64 = Revered<br/>128 = Exalted<pre/><br/>Add the target ranks together for the condition to be true for all those ranks. | Always 0 |  |
-| CONDITION_TEAM | 6 | placeholder | placeholder | placeholder |  |
-| CONDITION_SKILL | 7 | placeholder | placeholder | placeholder |  |
-| CONDITION_QUESTREWARDED | 8 | placeholder | placeholder | placeholder |  |
-| CONDITION_QUESTTAKEN | 9 | placeholder | placeholder | placeholder |  |
-| CONDITION_DRUNKENSTATE | 10 | placeholder | placeholder | placeholder |  |
-| CONDITION_WORLD_STATE | 11 | placeholder | placeholder | placeholder |  |
-| CONDITION_ACTIVE_EVENT | 12 | placeholder | placeholder | placeholder |  |
-| CONDITION_INSTANCE_INFO | 13 | placeholder | placeholder | placeholder |  |
-| CONDITION_QUEST_NONE | 14 | placeholder | placeholder | placeholder |  |
+| CONDITION_TEAM | 6 | **TeamID:**<br/>Alliance = 469<br/>Horde = 67 | Always 0 | Always 0 |  |
+| CONDITION_SKILL | 7 | Required skill.<br/>See SkillLine.db2 . | Skill rank value (e.g. from 1 to 450 for the 3.3.5 branch) | Always 0 |  |
+| CONDITION_QUESTREWARDED | 8 | Quest ID - see quest_template.id | Always 0 | Always 0 |  |
+| CONDITION_QUESTTAKEN | 9 | Quest ID - see quest_template.id | Always 0 | Always 0 |  |
+| CONDITION_DRUNKENSTATE | 10 | <pre>Sober = 0<br/>Tipsy = 1<br/>Drunk = 2<br/>Smashed = 3<pre/> | Always 0 | Always 0 |  |
+| CONDITION_WORLD_STATE | 11 | World state index | 	World state value | Always 0 |  |
+| CONDITION_ACTIVE_EVENT | 12 | Event entry<br/>(game_event.eventEntry) | Always 0 | Always 0 |  |
+| CONDITION_INSTANCE_INFO | 13 | **entry** (see corresponding source script files for info) | **data** (see corresponding script source files for more info) | 0 = INSTANCE_INFO_DATA <br/>1 = INSTANCE_INFO_GUID_DATA <br/>2 = INSTANCE_INFO_BOSS_STATE <br/>3 = INSTANCE_INFO_DATA64 |  |
+| CONDITION_QUEST_NONE | 14 | Quest ID - see quest_template.id | Always 0 | Always 0 |  |
 | CONDITION_CLASS | 15 | placeholder | placeholder | placeholder |  |
 | CONDITION_RACE | 16 | placeholder | placeholder | placeholder |  |
 | CONDITION_ACHIEVEMENT | 17 | placeholder | placeholder | placeholder |  |
