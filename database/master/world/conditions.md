@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2022-01-09T03:59:36.329Z
+date: 2022-01-09T04:08:34.763Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -106,18 +106,18 @@ Two conditions with the same SourceType, SourceGroup and SourceEntry but with a 
 | CONDITION_ACTIVE_EVENT | 12 | Event entry<br/>(game_event.eventEntry) | Always 0 | Always 0 |  |
 | CONDITION_INSTANCE_INFO | 13 | **entry** (see corresponding source script files for info) | **data** (see corresponding script source files for more info) | 0 = INSTANCE_INFO_DATA <br/>1 = INSTANCE_INFO_GUID_DATA <br/>2 = INSTANCE_INFO_BOSS_STATE <br/>3 = INSTANCE_INFO_DATA64 |  |
 | CONDITION_QUEST_NONE | 14 | Quest ID - see quest_template.id | Always 0 | Always 0 |  |
-| CONDITION_CLASS | 15 | placeholder | placeholder | placeholder |  |
-| CONDITION_RACE | 16 | placeholder | placeholder | placeholder |  |
-| CONDITION_ACHIEVEMENT | 17 | placeholder | placeholder | placeholder |  |
-| CONDITION_TITLE | 18 | placeholder | placeholder | placeholder |  |
-| CONDITION_SPAWNMASK | 19 | placeholder | placeholder | placeholder |  |
-| CONDITION_GENDER | 20 | placeholder | placeholder | placeholder |  |
-| CONDITION_UNIT_STATE | 21 | placeholder | placeholder | placeholder |  |
-| CONDITION_MAPID | 22 | placeholder | placeholder | placeholder |  |
-| CONDITION_AREAID | 23 | placeholder | placeholder | placeholder |  |
-| CONDITION_CREATURE_TYPE | 24 | placeholder | placeholder | placeholder |  |
-| CONDITION_SPELL | 25 | placeholder | placeholder | placeholder |  |
-| CONDITION_PHASEMASK | 26 | placeholder | placeholder | placeholder |  |
+| CONDITION_CLASS | 15 | Class mask from ChrClasses.dbc<br/>Add flags together for all classes where condition is true. | Always 0 | Always 0 |  |
+| CONDITION_RACE | 16 | Player must be this race.<br/>See ChrRaces.dbc .<br/>Add flags together for all races where condition is true. | Always 0 | Always 0 |  |
+| CONDITION_ACHIEVEMENT | 17 | 	Achievement ID from Achievement.dbc | Always 0 | Always 0 |  |
+| CONDITION_TITLE | 18 | Title ID from CharTitles.dbc | Always 0 | Always 0 |  |
+| CONDITION_SPAWNMASK | 19 | spawnMask from<br/>Creature.spawnMask / Gameobject.spawnMask | Always 0 | Always 0 |  |
+| CONDITION_GENDER | 20 | 0 = Male<br/>1 = Female<br/>2 = None | Always 0 | Always 0 |  |
+| CONDITION_UNIT_STATE | 21 | UnitState (enum from Unit.h) | Always 0 | Always 0 |  |
+| CONDITION_MAPID | 22 | Map entry from Map.dbc<br/><br/>(0=Eastern Kingdoms, 1=Kalimdor, - and so on.) | Always 0 | Always 0 |  |
+| CONDITION_AREAID | 23 | Area ID from AreaTable.dbc | Always 0 | Always 0 |  |
+| CONDITION_CREATURE_TYPE | 24 | Creature type from creature_template.type<br/><br/>True if creature_template.type == ConditionValue1 | Always 0 | Always 0 |  |
+| CONDITION_SPELL | 25 | Spell ID from Spell.dbc | Always 0 | Always 0 |  |
+| CONDITION_PHASEMASK | 26 | phasemask value | Always 0 | Always 0 |  |
 | CONDITION_LEVEL | 27 | placeholder | placeholder | placeholder |  |
 | CONDITION_QUEST_COMPLETE | 28 | placeholder | placeholder | placeholder |  |
 | CONDITION_NEAR_CREATURE | 29 | placeholder | placeholder | placeholder |  |
