@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2022-01-09T04:12:41.557Z
+date: 2022-01-09T04:16:09.435Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -121,10 +121,10 @@ Two conditions with the same SourceType, SourceGroup and SourceEntry but with a 
 | CONDITION_LEVEL | 27 | Player level (1-80 in 3.3.5 \|\| 1-60 in 9.x) | **Optional:**<pre>  0 = Level must be equal<br/>  1 = Level must be higher<br/>  2 = Level must be lower<br/>  3 = Level must be higher or equal<br/>  4 = Level must be lower or equal.<pre/> | Always 0 |  |
 | CONDITION_QUEST_COMPLETE | 28 | Quest ID - see quest_template.id | Always 0 | Always 0 |  |
 | CONDITION_NEAR_CREATURE | 29 | 	Creature entry from creature_template.entry | Distance in yards | Alive=0<br/>Dead=1 |  |
-| CONDITION_NEAR_GAMEOBJECT | 30 | placeholder | placeholder | placeholder |  |
-| CONDITION_OBJECT_ENTRY_GUID | 31 | placeholder | placeholder | placeholder |  |
-| CONDITION_TYPE_MASK | 32 | placeholder | placeholder | placeholder |  |
-| CONDITION_RELATION_TO | 33 | placeholder | placeholder | placeholder |  |
+| CONDITION_NEAR_GAMEOBJECT | 30 | Gameobject entry from gameobject_template.entry | Distance in yards | Always 0 |  |
+| CONDITION_OBJECT_ENTRY_GUID | 31 | TypeID. Available object types:<br/>3 : TYPEID_UNIT<br/>4 : TYPEID_PLAYER<br/>5 : TYPEID_GAMEOBJECT<br/>7 : TYPEID_CORPSE (player corpse, after spirit release) | 0 = Any object of given TypeID<br/>if TypeID = TYPEID_UNIT => Creature entry from creature_template.entry<br/>if TypeID = TYPEID_GAMEOBJECT => Gameobject entry from gameobject_template.entry | 0 = Any object of given type<br/><br/>1 - 500k : creature / gameobject GUID |  |
+| CONDITION_TYPE_MASK | 32 | TypeMask - a bitmask of following object types:<br/>0x0008 - TYPEMASK_UNIT (8)<br/>0x0010 - TYPEMASK_PLAYER (16)<br/>0x0020 - TYPEMASK_GAMEOBJECT (32)<br/>0x0080 - TYPEMASK_CORPSE (player corpse after spirit release) (128) | Always 0 | Always 0 |  |
+| CONDITION_RELATION_TO | 33 | Target to which relation is checked.<br/>- one of the ConditionTargets available in current SourceType | RelationType - defines relation of current ConditionTarget to target specified in ConditionValue1.<br/>0 - RELATION_SELF<br/>1 - RELATION_IN_PARTY<br/>2 - RELATION_IN_RAID_OR_PARTY<br/>3 - RELATION_OWNED_BY (ConditionTarget is owned by ConditionValue1)<br/>4 - RELATION_PASSENGER_OF (ConditionTarget is passenger of ConditionValue1)<br/>5 - RELATION_CREATED_BY (ConditionTarget is summoned by ConditionValue1) | Always 0 |  |
 | CONDITION_REACTION_TO | 34 | placeholder | placeholder | placeholder |  |
 | CONDITION_DISTANCE_TO | 35 | placeholder | placeholder | placeholder |  |
 | CONDITION_ALIVE | 36 | placeholder | placeholder | placeholder |  |
