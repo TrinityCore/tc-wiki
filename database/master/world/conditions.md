@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2022-01-10T01:04:20.684Z
+date: 2022-01-10T01:13:39.301Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -147,19 +147,19 @@ Two conditions with the same SourceType, SourceGroup and SourceEntry but with a 
 &nbsp;
 
 ### ConditionTarget
-*- no description -*
+Allows selecting an object for which conditions will be checked. Available objects are dependant on SourceTypeOrReferenceId, for details see respective source type reference.
 &nbsp;
 
 ### ConditionValue1
-See below.
+See [ConditionTypeOrReference](#conditiontypeorreference).
 &nbsp;
 
 ### ConditionValue2
-See below.
+See [ConditionTypeOrReference](#conditiontypeorreference).
 &nbsp;
 
 ### ConditionValue3
-See below.
+See [ConditionTypeOrReference](#conditiontypeorreference).
 &nbsp;
 
 ### NegativeCondition
@@ -169,11 +169,17 @@ Example: CONDITION_AURA with NegativeCondition will be true when the player does
 &nbsp;
 
 ### ErrorType
-*- no description -*
+Id from [/src/server/game/Miscellaneous/SharedDefines.h#L1425](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Miscellaneous/SharedDefines.h#L1425). Will be displayed only for the below condition source type:
+
+CONDITION_SOURCE_TYPE_SPELL = 17
 &nbsp;
 
 ### ErrorTextId
-*- no description -*
+Id from [/src/server/game/Miscellaneous/SharedDefines.h#L1746](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Miscellaneous/SharedDefines.h#L1746). Will be displayed only for the below condition source type:
+
+CONDITION_SOURCE_TYPE_SPELL = 17
+
+(ErrorType must be SPELL_FAILED_CUSTOM_ERROR (209) otherwise 0)
 &nbsp;
 
 ### ScriptName
