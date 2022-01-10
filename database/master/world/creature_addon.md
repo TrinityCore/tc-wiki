@@ -2,7 +2,7 @@
 title: creature_addon
 description: 
 published: true
-date: 2022-01-10T03:25:05.302Z
+date: 2022-01-10T03:29:44.440Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:44.302Z
@@ -35,47 +35,90 @@ The creature_addon and creature_template_addon tables define different things th
 ## Description of fields
 
 ### guid
-*- no description -*
+For creature_addon, this field signifies a unique creature guid. It will affect just that creature whose GUID matches the one specified here.
+For creature_template_addon, this field signifies the creature_template.entry. It will affect all spawned creatures using that template entry.
 &nbsp;
 
 ### path_id
-*- no description -*
+If a creature has waypoint pathed movement, this field hold the [waypoint_data.id](/en/database/master/world/waypoint_data#id) for the path the creature is to follow.
 &nbsp;
 
 ### mount
-*- no description -*
+The model ID of the mount to be used to make the creature appear mounted. The value here overrides the value for the creature's unit field UNIT_FIELD_MOUNTDISPLAYID.
 &nbsp;
 
 ### bytes1
-*- no description -*
+The value here overrides the value for the creature's unit field UNIT_FIELD_BYTES_1.
+
+List of known values and what their visual effects on the creature
+
+- 1 = Sitting
+- 2 = Sit chair
+- 3 = Sleep
+- 4 = Sit low chair
+- 5 = Sit medium chair
+- 6 = Sit high chair
+- 7 = Shows health bar as empty (combine with the state dead emote to make a creature look dead)
+- 8 = Makes the mob kneel
+- 9 = Submerges the creature below the ground
+- 33554432 = Hover mode
+- 50331648 = Hover mode 2
 &nbsp;
 
 ### bytes2
-*- no description -*
+The value here overrides the value for the creature's unit field UNIT_FIELD_BYTES_2.
+
+NOTE: creatures always have melee weapon ready if any unless specified otherwise
+
+List of few known values and what their visual effects on the creature
+
+- 0 = STATE_UNARMED (not prepared weapon)
+- 1 = STATE_MELEE (prepared melee weapon)
+- 2 = STATE_RANGED (prepared ranged weapon)
 &nbsp;
 
 ### emote
-*- no description -*
+Emote ID that the creature should continually perform.
+
+List of often used emote IDs and what they do can be found here.
 &nbsp;
 
 ### aiAnimKit
-*- no description -*
+AnimKit ID from AnimKit.db2 that is applied on creature when spawned.
 &nbsp;
 
 ### movementAnimKit
-*- no description -*
+AnimKit ID from AnimKit.db2 that is applied on creature when spawned.
 &nbsp;
 
 ### meleeAnimKit
-*- no description -*
+AnimKit ID from AnimKit.db2 that is applied on creature when spawned.
 &nbsp;
 
 ### visibilityDistanceType
-*- no description -*
+This field controls the visibility distance for creatures:
+
+Normal = 0,  100.0f  // default visible distance, 100 yards on continents
+
+Tiny = 1,  25.0f
+
+Small = 2,  50.0f
+
+Large = 3, 200.0f
+
+Gigantic = 4, 400.0f
+
+Infinite = 5, SIZE_OF_GRIDS // max distance for visible objects
 &nbsp;
 
 ### auras
-*- no description -*
+This field controls any auras to be applied on the creature (both in effect and visually). To apply multiple auras, you can add more aura entries, separating each entry by a space. Remember that if a spell applies multiple auras.
+
+List of useful aura entries (examples):
+
+- '16380' - Makes the creature invisible.
+- '18950' - Makes the creature detect other invisible units (players or creatures).
+- '16380 18950' - Both auras above
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/creature" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'creature'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/creature_classlevelstats" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'creature_classlevelstats'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
