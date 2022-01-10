@@ -2,10 +2,10 @@
 title: creature
 description: 
 published: true
-date: 2022-01-03T11:24:59.084Z
+date: 2022-01-10T03:15:42.477Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T09:29:41.375Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/conversation_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'conversation_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/creature_addon" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'creature_addon'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -65,35 +65,86 @@ The GUID ranges are defined as followed:
 &nbsp;
 
 ### id
-*- no description -*
+The ID of the [creature_template](/en/database/master/world/creature_template) that is used when instantiating this creature.
 &nbsp;
 
 ### map
-*- no description -*
+The ID of the map that the creature is spawned on.
 &nbsp;
 
 ### zoneId
-*- no description -*
+The ID of the zone that the creature is spawned on.
 &nbsp;
 
 ### areaId
-*- no description -*
+The ID of the area that the creature is spawned on.
 &nbsp;
 
 ### spawnDifficulties
-*- no description -*
+Comma separated list of difficulties.
+
+| Name | Value
+| --- | :---: |
+| DIFFICULTY_NONE | 0 |
+| DIFFICULTY_NORMAL | 1 |
+| DIFFICULTY_HEROIC | 2 |
+| DIFFICULTY_10_N | 3 |
+| DIFFICULTY_25_N | 4 |
+| DIFFICULTY_10_HC | 5 |
+| DIFFICULTY_25_HC | 6 |
+| DIFFICULTY_LFR | 7 |
+| DIFFICULTY_MYTHIC_KEYSTONE | 8 |
+| DIFFICULTY_40 | 9 |
+| DIFFICULTY_3_MAN_SCENARIO_HC | 11 |
+| DIFFICULTY_3_MAN_SCENARIO_N | 12 |
+| DIFFICULTY_NORMAL_RAID | 14 |
+| DIFFICULTY_HEROIC_RAID | 15 |
+| DIFFICULTY_MYTHIC_RAID | 16 |
+| DIFFICULTY_LFR_NEW | 17 |
+| DIFFICULTY_EVENT_RAID | 18 |
+| DIFFICULTY_EVENT_DUNGEON | 19 |
+| DIFFICULTY_EVENT_SCENARIO | 20 |
+| DIFFICULTY_MYTHIC | 23 |
+| DIFFICULTY_TIMEWALKING | 24 |
+| DIFFICULTY_WORLD_PVP_SCENARIO | 25 |
+| DIFFICULTY_5_MAN_SCENARIO_N | 26 |
+| DIFFICULTY_20_MAN_SCENARIO_N | 27 |
+| DIFFICULTY_PVEVP_SCENARIO | 29 |
+| DIFFICULTY_EVENT_SCENARIO_6 | 30 |
+| DIFFICULTY_WORLD_PVP_SCENARIO_2 | 32 |
+| DIFFICULTY_TIMEWALKING_RAID | 33 |
+| DIFFICULTY_PVP | 34 |
+| DIFFICULTY_NORMAL_ISLAND | 38 |
+| DIFFICULTY_HEROIC_ISLAND | 39 |
+| DIFFICULTY_MYTHIC_ISLAND | 40 |
+| DIFFICULTY_PVP_ISLAND | 45 |
+| DIFFICULTY_NORMAL_WARFRONT | 147 |
+| DIFFICULTY_HEROIC_WARFRONT | 149 |
+| DIFFICULTY_LFR_15TH_ANNIVERSARY | 151 |
+| DIFFICULTY_VISIONS_OF_NZOTH | 152 |
+| DIFFICULTY_TEEMING_ISLAND | 153 |
 &nbsp;
 
 ### phaseUseFlags
-*- no description -*
+Mask
+
+| Name | Value |
+| --- | :---: |
+| PHASE_USE_FLAGS_NONE            | 0x0 |
+| PHASE_USE_FLAGS_ALWAYS_VISIBLE  | 0x1 |
+| PHASE_USE_FLAGS_INVERSE         | 0x2 |
 &nbsp;
 
 ### PhaseId
-*- no description -*
+Determines in which phase the creature is in.
+Available phases can be found in Phase.db2
 &nbsp;
 
 ### PhaseGroup
-*- no description -*
+Determines in which PhaseGroup the creature is in.
+A PhaseGroup sets a creature in multiple phases at once.
+PhaseGroups can contain more Phases than you actually need.
+Available PhaseGroups can be found in PhaseGroup.db2
 &nbsp;
 
 ### terrainSwapMap
@@ -101,75 +152,111 @@ The GUID ranges are defined as followed:
 &nbsp;
 
 ### modelid
-*- no description -*
-&nbsp;
+The model ID associated with the creature. Note that two creatures that use the same template can have different models. See [creature_model_info](/en/database/master/world/creature_model_info) for more information on model-specific characteristics.
+
+> This can be left at 0 and a random model from its assigned models in [creature_template](/en/database/master/world/creature_template) will be assigned by the core.
+{.is-info}
 
 ### equipment_id
-*- no description -*
+The ID as defined within [creature_equip_template](/en/database/master/world/creature_equip_template) corresponding to the entry. The value essential defines the equip:
+
+-  **-1**: A random equip from the set of equips in [creature_equip_template](/en/database/master/world/creature_equip_template) will be chosen.
+-   **0**: No equipment defined.
+- **1+**: The individual id within [creature_equip_template](/en/database/master/world/creature_equip_template).
 &nbsp;
 
 ### position_x
-*- no description -*
+The X position of the creatures spawn point.
 &nbsp;
 
 ### position_y
-*- no description -*
+The Y position of the creatures spawn point.
 &nbsp;
 
 ### position_z
-*- no description -*
+The Z position of the creatures spawn point.
 &nbsp;
 
 ### orientation
-*- no description -*
+The orientation of the creatures spawn point. (North = 0.0; South = pi (3.14159))
 &nbsp;
 
 ### spawntimesecs
-*- no description -*
+The respawn time, in seconds, of the creature.
 &nbsp;
 
 ### wander_distance
-*- no description -*
+The maximum distance that the creature may spawn from its spawn point.
+Also controls how far away the creature can walk from its spawn point if its [MovementType](#movementtype) = 1.
 &nbsp;
 
 ### currentwaypoint
-*- no description -*
+The current point of [waypoint_data](/en/database/master/world/waypoint_data) that the creature is on, if any.
 &nbsp;
 
 ### curhealth
-*- no description -*
+The health that the creature will spawn with.
 &nbsp;
 
 ### curmana
-*- no description -*
+The mana that the creature will spawn with.
 &nbsp;
 
 ### MovementType
-*- no description -*
-&nbsp;
+Same as [creature_template.MovementType](/en/database/master/world/creature_template#MovementType)
+
+| ID | Type |
+| :-: | --- |
+| 0 |Idle; stay in one place |
+| 1 |Random movement inside the spawndist radius |
+| 2 |Waypoint movement |
+
+> A creature.MovementType will override a [creature_template.MovementType](/en/database/master/world/creature_template#MovementType) record.
+{.is-info}
 
 ### npcflag
-*- no description -*
-&nbsp;
+Same as [creature_template.npcflag](/en/database/master/world/creature_template#npcflag)
+
+> A creature.npcflag record will override a [creature_template.npcflag](/en/database/master/world/creature_template#npcflag) record.
+{.is-info}
 
 ### unit_flags
-*- no description -*
+Same as [creature_template.unit_flags](/en/database/master/world/creature_template#unit_flags)
+
+> A creature.unit_flags record will override a creature_template.unit_flags record.
+{.is-info}
+
+A full list can be found [/src/server/game/Entities/Unit/UnitDefines.h#L118](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Entities/Unit/UnitDefines.h#L118){target=_blank}
 &nbsp;
 
 ### unit_flags2
-*- no description -*
+Same as [creature_template.unit_flags2](/en/database/master/world/creature_template#unit_flags2)
+
+> A creature.unit_flags2 record will override a creature_template.unit_flags2 record.
+{.is-info}
+
+A full list can be found [/src/server/game/Entities/Unit/UnitDefines.h#L156](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Entities/Unit/UnitDefines.h#L156){target=_blank}
+&nbsp;
 &nbsp;
 
 ### unit_flags3
-*- no description -*
+Same as [creature_template.unit_flags3](/en/database/master/world/creature_template#unit_flags)
+
+> A creature.unit_flags3 record will override a creature_template.unit_flags3 record.
+{.is-info}
+
+A full list can be found [/src/server/game/Entities/Unit/UnitDefines.h#L182](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Entities/Unit/UnitDefines.h#L182){target=_blank}
+&nbsp;
 &nbsp;
 
 ### dynamicflags
-*- no description -*
-&nbsp;
+Same as [creature_template.dynamicflags](/en/database/master/world/creature_template#dynamicflags)
+
+> A creature.dynamicflags record will override a creature_template.dynamicflags record.
+{.is-info}
 
 ### ScriptName
-*- no description -*
+The name of the script that this creature uses, if any. This ties a script from a scripting engine to this creature.
 &nbsp;
 
 ### VerifiedBuild
