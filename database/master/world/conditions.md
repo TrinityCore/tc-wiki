@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2022-01-09T04:36:12.832Z
+date: 2022-01-10T01:04:20.684Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -127,23 +127,23 @@ Two conditions with the same SourceType, SourceGroup and SourceEntry but with a 
 | CONDITION_RELATION_TO | 33 | Target to which relation is checked.<br/>- one of the ConditionTargets available in current SourceType | RelationType - defines relation of current ConditionTarget to target specified in ConditionValue1.<br/>0 - RELATION_SELF<br/>1 - RELATION_IN_PARTY<br/>2 - RELATION_IN_RAID_OR_PARTY<br/>3 - RELATION_OWNED_BY (ConditionTarget is owned by ConditionValue1)<br/>4 - RELATION_PASSENGER_OF (ConditionTarget is passenger of ConditionValue1)<br/>5 - RELATION_CREATED_BY (ConditionTarget is summoned by ConditionValue1) | Always 0 |  |
 | CONDITION_REACTION_TO | 34 | Target to which reaction is checked.<br/>- one of the ConditionTargets available in current SourceType | rankMask: This bitmask defines the reaction(s) of the current ConditionTarget<br/>to the target specified in ConditionValue1 (which are allowed).<br/>Flags for the reactions are:<br/><pre>  1 = Hated<br/>  2 = Hostile<br/>  4 = Unfriendly<br/>  8 = Neutral<br/> 16 = Friendly<br/> 32 = Honored<br/> 64 = Revered<br/>128 = Exalted<pre/> | Always 0 |  |
 | CONDITION_DISTANCE_TO | 35 | Target to which distance is checked<br/>- one of ConditionTargets available in current SourceType | Distance.<br/>Defines distance between current ConditionTarget and target specified in ConditionValue1 | ComparisionType:<br/>0 = distance must be equal to ConditionValue2<br/>1 = distance must be higher than ConditionValue2<br/>2 = distance must be lower than ConditionValue2<br/>3 = distance must be equal to or higher than ConditionValue2<br/>4 = distance must be equal to or lower than ConditionValue2 |  |
-| CONDITION_ALIVE | 36 | placeholder | placeholder | placeholder |  |
-| CONDITION_HP_VAL | 37 | placeholder | placeholder | placeholder |  |
-| CONDITION_HP_PCT | 38 | placeholder | placeholder | placeholder |  |
-| CONDITION_REALM_ACHIEVEMENT | 39 | placeholder | placeholder | placeholder |  |
-| CONDITION_IN_WATER | 40 | placeholder | placeholder | placeholder |  |
-| CONDITION_TERRAIN_SWAP | 41 | placeholder | placeholder | placeholder |  |
-| CONDITION_STAND_STATE | 42 | placeholder | placeholder | placeholder |  |
-| CONDITION_DAILY_QUEST_DONE | 43 | placeholder | placeholder | placeholder |  |
-| CONDITION_CHARMED | 44 | placeholder | placeholder | placeholder |  |
-| CONDITION_PET_TYPE | 45 | placeholder | placeholder | placeholder |  |
-| CONDITION_TAXI | 46 | placeholder | placeholder | placeholder |  |
-| CONDITION_QUESTSTATE | 47 | placeholder | placeholder | placeholder |  |
-| CONDITION_QUEST_OBJECTIVE_COMPLETE | 48 | placeholder | placeholder | placeholder |  |
-| CONDITION_DIFFICULTY_ID | 49 | placeholder | placeholder | placeholder | placeholder |
+| CONDITION_ALIVE | 36 | Always 0 - Use **NegativeCondition** and the following settings:<br/>NegativeCondition = 0 if target needs to be ALIVE.<br/>NegativeCondition = 1 if target needs to be DEAD.<br/><br/>NOTE: A creature corpse and a creature that_looks_dead<br/>are two different things. One is actually dead<br/>and the other is just using an emote to appear dead.  | Always 0 | Always 0 |  |
+| CONDITION_HP_VAL | 37 | HP value | ComparisionType:<br/><ul><li>0 = HP must be equal</li><li>1 = HP must be higher</li><li>2 = HP must be lesser</li><li>3 = HP must be equal or higher</li><li>4 = HP must be equal or lower</li></ul> | Always 0 |  |
+| CONDITION_HP_PCT | 38 | Percentage of max HP | ComparisionType:<br/><ul><li>0 = Percentage of max HP must be equal</li><li>1 = Percentage of max HP must be higher</li><li>2 = Percentage of max HP must be lower</li><li>3 = Percentage of max HP must be equal or higher</li><li>4 = Percentage of max HP must be equal or lower</li></ul> | Always 0 |  |
+| CONDITION_REALM_ACHIEVEMENT | 39 | Achievement ID<br/>from Achievement.dbc | Always 0 | Always 0 |  |
+| CONDITION_IN_WATER | 40 | Always 0 - Use **NegativeCondition** and the following settings:<br/>NegativeCondition = 0 If target needs to be **on land**<br/>NegativeCondition = 1 If target needs to be **in water** | Always 0 | Always 0 |  |
+| CONDITION_TERRAIN_SWAP | 41 | terrainSwap - true if object is in terrainswap [ **master only** ] | Always 0 | Always 0 |  |
+| CONDITION_STAND_STATE | 42 | stateType (exact or any): 0 = **Exact** state used in ConditionValue2<br/>1 = **Any** type of state in ConditionValue2 | Exact stand state, or generic state (stand / sit), depending on value 1<br/>0 = Standing 1 = Sitting | Always 0 |  |
+| CONDITION_DAILY_QUEST_DONE | 43 | Quest ID - see quest_template.id | Always 0 | Always 0 |  |
+| CONDITION_CHARMED | 44 | Always 0 | Always 0 | Always 0 |  |
+| CONDITION_PET_TYPE | 45 | mask | Always 0 | Always 0 |  |
+| CONDITION_TAXI | 46 | Always 0 | Always 0 | Always 0 |  |
+| CONDITION_QUESTSTATE | 47 | Quest ID - see quest_template.id | 	state_mask: true if player is in any of the provided quest states for the quest<br/>1 = not taken<br/>2 = completed<br/>8 = in progress<br/>32 = failed<br/>64 = rewarded | Always 0 |  |
+| CONDITION_QUEST_OBJECTIVE_COMPLETE | 48 | Quest Objective ID - see quest_objectives (6.x / 7.x/ 8.x only)<br/><br/>Quest ID (3.3.5 only) | Objective index (a value from 0 to 3) 3.3.5 only | Counter (3.3.5 only) |  |
+| CONDITION_DIFFICULTY_ID | 49 | Difficulty (0 None, 1 Normal, etc) | Always 0  | Always 0  | true if target's map has difficulty id |
 | placeholder | 50 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_OBJECT_ENTRY_GUID | 51 | placeholder | placeholder | placeholder | placeholder |
-| CONDITION_TYPE_MASK | 52 | placeholder | placeholder | placeholder | placeholder |
+| CONDITION_OBJECT_ENTRY_GUID | 51 | TypeID | entry | guid | true if object is type TypeID<br/>and the entry is 0<br/>or matches entry of the object<br/>or matches guid of the object |
+| CONDITION_TYPE_MASK | 52 | TypeMask | Always 0 | Always 0 | true if object is type object's<br/>TypeMask matches provided TypeMask |
 &nbsp;
 
 ### ConditionTarget
