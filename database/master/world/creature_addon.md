@@ -2,7 +2,7 @@
 title: creature_addon
 description: 
 published: true
-date: 2022-01-10T03:29:44.440Z
+date: 2022-01-10T03:33:42.193Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:44.302Z
@@ -80,7 +80,7 @@ List of few known values and what their visual effects on the creature
 ### emote
 Emote ID that the creature should continually perform.
 
-List of often used emote IDs and what they do can be found here.
+A full list of emotes can be found at [wow.tools](https://wow.tools/dbc/?dbc=emotes){target=blank}
 &nbsp;
 
 ### aiAnimKit
