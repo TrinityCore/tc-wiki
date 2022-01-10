@@ -2,7 +2,7 @@
 title: creature
 description: 
 published: true
-date: 2022-01-10T03:15:42.477Z
+date: 2022-01-10T03:16:33.565Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:41.375Z
@@ -203,7 +203,7 @@ The mana that the creature will spawn with.
 &nbsp;
 
 ### MovementType
-Same as [creature_template.MovementType](/en/database/master/world/creature_template#MovementType)
+Same as [creature_template.MovementType](/en/database/master/world/creature_template#movementtype)
 
 | ID | Type |
 | :-: | --- |
@@ -211,7 +211,7 @@ Same as [creature_template.MovementType](/en/database/master/world/creature_temp
 | 1 |Random movement inside the spawndist radius |
 | 2 |Waypoint movement |
 
-> A creature.MovementType will override a [creature_template.MovementType](/en/database/master/world/creature_template#MovementType) record.
+> A creature.MovementType will override a [creature_template.MovementType](/en/database/master/world/creature_template#movementtype) record.
 {.is-info}
 
 ### npcflag
