@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2022-01-10T01:13:39.301Z
+date: 2022-01-16T11:48:40.925Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -179,7 +179,7 @@ Id from [/src/server/game/Miscellaneous/SharedDefines.h#L1746](https://github.co
 
 CONDITION_SOURCE_TYPE_SPELL = 17
 
-(ErrorType must be SPELL_FAILED_CUSTOM_ERROR (209) otherwise 0)
+(ErrorType must be SPELL_FAILED_CUSTOM_ERROR (211) otherwise 0)
 &nbsp;
 
 ### ScriptName
