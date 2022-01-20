@@ -2,10 +2,10 @@
 title: creature_model_info
 description: 
 published: true
-date: 2022-01-03T11:24:59.086Z
+date: 2022-01-20T10:58:41.248Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T09:29:57.796Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/creature_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'creature_loot_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/creature_movement_override" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'creature_movement_override'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -23,19 +23,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### DisplayID
-*- no description -*
+DisplayID from [CreatureDisplayInfo.db2](https://wow.tools/dbc/?dbc=creaturedisplayinfo){target=_blank}
 &nbsp;
 
 ### BoundingRadius
-*- no description -*
+This field is unused. It's purpose is currently unknown. It may or may not be linked to path-finding.
 &nbsp;
 
 ### CombatReach
-*- no description -*
+This value is the unit's radius in term of game mechanics: The bigger this value is, the higher the unit's range is and also the further away it can get hit from.
 &nbsp;
 
 ### DisplayID_Other_Gender
-*- no description -*
+DisplayID for other gender from [CreatureDisplayInfo.db2](https://wow.tools/dbc/?dbc=creaturedisplayinfo){target=_blank}
 &nbsp;
 
 ### VerifiedBuild
