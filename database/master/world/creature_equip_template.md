@@ -2,10 +2,10 @@
 title: creature_equip_template
 description: 
 published: true
-date: 2022-01-03T11:24:59.085Z
+date: 2022-01-20T10:40:47.751Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T09:29:49.778Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/creature_classlevelstats" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'creature_classlevelstats'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/creature_formations" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'creature_formations'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -30,47 +30,50 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### CreatureID
-*- no description -*
+The direct corresponding id in creature table or entry in creature_template table.
 &nbsp;
 
 ### ID
-*- no description -*
+An additional identifier for each individual entry, enabling multiple equipment for one creature entry. Counter **must** start with 1 and grow accordingly.
 &nbsp;
 
 ### ItemID1
-*- no description -*
+This is the item number of the equipment used in the right hand from [ItemSparse.db2](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} or [Item.db2](https://wow.tools/dbc/?dbc=item){target=_blank}.
 &nbsp;
 
 ### AppearanceModID1
-*- no description -*
+ItemID + AppearanceModID together form a key to get DisplayID.
+Check: [ItemModifiedAppearance.db2](https://wow.tools/dbc/?dbc=itemmodifiedappearance){target=_blank}
 &nbsp;
 
 ### ItemVisual1
-*- no description -*
+ItemVisual is ID for [ItemVisuals.db2](https://wow.tools/dbc/?dbc=itemvisuals){target=_blank}, for e.g. enchant visuals.
 &nbsp;
 
 ### ItemID2
-*- no description -*
+This is the item number of the equipment used in the left hand from [ItemSparse.db2](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} or [Item.db2](https://wow.tools/dbc/?dbc=item){target=_blank}.
 &nbsp;
 
 ### AppearanceModID2
-*- no description -*
+ItemID + AppearanceModID together form a key to get DisplayID.
+Check: [ItemModifiedAppearance.db2](https://wow.tools/dbc/?dbc=itemmodifiedappearance){target=_blank}
 &nbsp;
 
 ### ItemVisual2
-*- no description -*
+ItemVisual is ID for [ItemVisuals.db2](https://wow.tools/dbc/?dbc=itemvisuals){target=_blank}, for e.g. enchant visuals.
 &nbsp;
 
 ### ItemID3
-*- no description -*
+This is the item number of the equipment used in the ranged slot from [ItemSparse.db2](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} or [Item.db2](https://wow.tools/dbc/?dbc=item){target=_blank}.
 &nbsp;
 
 ### AppearanceModID3
-*- no description -*
+ItemID + AppearanceModID together form a key to get DisplayID.
+Check: [ItemModifiedAppearance.db2](https://wow.tools/dbc/?dbc=itemmodifiedappearance){target=_blank}
 &nbsp;
 
 ### ItemVisual3
-*- no description -*
+ItemVisual is ID for [ItemVisuals.db2](https://wow.tools/dbc/?dbc=itemvisuals){target=_blank}, for e.g. enchant visuals.
 &nbsp;
 
 ### VerifiedBuild
