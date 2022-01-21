@@ -2,7 +2,7 @@
 title: Windows Server Setup
 description: Extracting Cameras, DBC, Maps, VMaps & MMaps
 published: true
-date: 2021-12-20T20:33:29.682Z
+date: 2022-01-21T08:30:12.140Z
 tags: 
 editor: markdown
 dateCreated: 2021-12-20T19:17:37.572Z
@@ -17,7 +17,7 @@ dateCreated: 2021-12-20T19:17:37.572Z
 This guide assumes you followed the suggested folder structure. 
 
 ## Step 1
-Browse into your (Drive):\Build\bin\Release* (or Debug* or RelWithDebInfo*) folder and copy these files into your root World of Warcraft folder
+Browse into your (Drive):\Build\bin\Release* (or Debug* or RelWithDebInfo*) folder and copy the files shown in the info box below into your root World of Warcraft folder
 
 - For 3.3.5, this is where Wow.exe and the Data folder are located
 - For master, this where 'World of Warcraft Launcher.exe' and the Data folder are located
