@@ -2,7 +2,7 @@
 title: Auth
 description: 
 published: true
-date: 2022-01-23T14:15:20.637Z
+date: 2022-01-23T14:53:49.264Z
 tags: auth, 3.3.5, 3.3.5a, 335, 335a, wotlk, base de datos
 editor: markdown
 dateCreated: 2022-01-23T14:15:20.637Z
