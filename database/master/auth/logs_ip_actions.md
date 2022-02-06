@@ -1,8 +1,8 @@
 ---
 title: logs_ip_actions
-description: Used to log ips of individual actions
+description: 
 published: true
-date: 2022-01-03T11:29:07.210Z
+date: 2022-02-06T18:26:50.184Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,15 +14,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int(10) | unsigned | PRI | NO |  | auto_increment | Unique Identifier |
-| [account_id](#account_id) | int(10) | unsigned |  | NO |  |  | Account ID |
-| [character_guid](#character_guid) | bigint(20) | unsigned |  | NO |  |  | Character Guid |
-| [realm_id](#realm_id) | int(10) | unsigned |  | NO | 0 |  | Realm ID |
-| [type](#type) | tinyint(3) | unsigned |  | NO |  |  |  |
+| [id](#id) | int | unsigned | PRI | NO |  | auto_increment | Unique Identifier |
+| [account_id](#account_id) | int | unsigned |  | NO |  |  | Account ID |
+| [character_guid](#character_guid) | bigint | unsigned |  | NO |  |  | Character Guid |
+| [realm_id](#realm_id) | int | unsigned |  | NO | 0 |  | Realm ID |
+| [type](#type) | tinyint | unsigned |  | NO |  |  |  |
 | [ip](#ip) | varchar(15) | signed |  | NO | 127.0.0.1 |  |  |
 | [systemnote](#systemnote) | text |  |  | YES | NULL |  | Notes inserted by system |
-| [unixtime](#unixtime) | int(10) | unsigned |  | NO |  |  | Unixtime |
-| [time](#time) | timestamp | signed |  | NO | CURRENT_TIMESTAMP |  | Timestamp |
+| [unixtime](#unixtime) | int | unsigned |  | NO |  |  | Unixtime |
+| [time](#time) | timestamp | signed |  | NO | CURRENT_TIMESTAMP | DEFAULT_GENERATED | Timestamp |
 | [comment](#comment) | text |  |  | YES | NULL |  | Allows users to add a comment |
 &nbsp;
 ## Description of fields

@@ -2,7 +2,7 @@
 title: autobroadcast
 description: This table contains the autobroadcast entries for your realms. Values like it's activity, position and Timer (*.On, *.Center, *.Timer) are defined within the worldserver.conf. They are chosen randomly, based on their weight.
 published: true
-date: 2022-01-03T11:29:07.206Z
+date: 2022-02-06T18:26:50.180Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [realmid](#realmid) | int(11) | signed | PRI | NO | -1 |  |  |
-| [id](#id) | tinyint(3) | unsigned | PRI | NO |  | auto_increment |  |
-| [weight](#weight) | tinyint(3) | unsigned |  | YES | 1 |  |  |
+| [realmid](#realmid) | int | signed | PRI | NO | -1 |  |  |
+| [id](#id) | tinyint | unsigned | PRI | NO |  | auto_increment |  |
+| [weight](#weight) | tinyint | unsigned |  | YES | 1 |  |  |
 | [text](#text) | longtext |  |  | NO |  |  |  |
 &nbsp;
 ## Description of fields

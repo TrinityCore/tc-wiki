@@ -2,7 +2,7 @@
 title: vw_log_history
 description: 
 published: true
-date: 2022-01-03T11:29:07.213Z
+date: 2022-02-06T18:26:50.187Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,10 +16,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [First Logged](#first logged) | datetime |  |  | YES | NULL |  |  |
 | [Last Logged](#last logged) | datetime |  |  | YES | NULL |  |  |
-| [Occurrences](#occurrences) | bigint(21) | signed |  | NO | 0 |  |  |
+| [Occurrences](#occurrences) | bigint | signed |  | NO | 0 |  |  |
 | [Realm](#realm) | varchar(32) | signed |  | YES | '' |  |  |
 | [type](#type) | varchar(250) | signed |  | NO |  |  |  |
-| [level](#level) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [level](#level) | tinyint | unsigned |  | NO | 0 |  |  |
 | [string](#string) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields

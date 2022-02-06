@@ -2,7 +2,7 @@
 title: logs
 description: This table stores all logs from authserver if database logging in config is enabled.
 published: true
-date: 2022-01-03T11:29:07.210Z
+date: 2022-02-06T18:26:50.184Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [time](#time) | int(10) | unsigned |  | NO |  |  |  |
-| [realm](#realm) | int(10) | unsigned |  | NO |  |  |  |
+| [time](#time) | int | unsigned |  | NO |  |  |  |
+| [realm](#realm) | int | unsigned |  | NO |  |  |  |
 | [type](#type) | varchar(250) | signed |  | NO |  |  |  |
-| [level](#level) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [level](#level) | tinyint | unsigned |  | NO | 0 |  |  |
 | [string](#string) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields

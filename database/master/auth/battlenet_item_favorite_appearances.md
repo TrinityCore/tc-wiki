@@ -2,7 +2,7 @@
 title: battlenet_item_favorite_appearances
 description: 
 published: true
-date: 2022-01-03T11:29:07.209Z
+date: 2022-02-06T18:26:50.183Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [battlenetAccountId](#battlenetaccountid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [itemModifiedAppearanceId](#itemmodifiedappearanceid) | int(10) | unsigned | PRI | NO |  |  |  |
+| [battlenetAccountId](#battlenetaccountid) | int | unsigned | PRI | NO |  |  |  |
+| [itemModifiedAppearanceId](#itemmodifiedappearanceid) | int | unsigned | PRI | NO |  |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: account_access
 description: This table holds security access level for any realm in realmlist table.
 published: true
-date: 2022-01-03T11:29:07.203Z
+date: 2022-02-06T18:26:50.179Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -18,9 +18,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [AccountID](#accountid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [SecurityLevel](#securitylevel) | tinyint(3) | unsigned |  | NO |  |  |  |
-| [RealmID](#realmid) | int(11) | signed | PRI | NO | -1 |  |  |
+| [AccountID](#accountid) | int | unsigned | PRI | NO |  |  |  |
+| [SecurityLevel](#securitylevel) | tinyint | unsigned |  | NO |  |  |  |
+| [RealmID](#realmid) | int | signed | PRI | NO | -1 |  |  |
 | [Comment](#comment) | varchar(255) | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields

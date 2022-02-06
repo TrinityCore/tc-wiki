@@ -2,7 +2,7 @@
 title: realmlist
 description: This table sets up information on all available realms. Each row controls a different realm.
 published: true
-date: 2022-01-03T11:29:07.212Z
+date: 2022-02-06T18:26:50.186Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,20 +14,20 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int(10) | unsigned | PRI | NO |  | auto_increment |  |
+| [id](#id) | int | unsigned | PRI | NO |  | auto_increment |  |
 | [name](#name) | varchar(32) | signed | UNI | NO | '' |  |  |
 | [address](#address) | varchar(255) | signed |  | NO | 127.0.0.1 |  |  |
 | [localAddress](#localaddress) | varchar(255) | signed |  | NO | 127.0.0.1 |  |  |
 | [localSubnetMask](#localsubnetmask) | varchar(255) | signed |  | NO | 255.255.255.0 |  |  |
-| [port](#port) | smallint(5) | unsigned |  | NO | 8085 |  |  |
-| [icon](#icon) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [flag](#flag) | tinyint(3) | unsigned |  | NO | 2 |  |  |
-| [timezone](#timezone) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [allowedSecurityLevel](#allowedsecuritylevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [port](#port) | smallint | unsigned |  | NO | 8085 |  |  |
+| [icon](#icon) | tinyint | unsigned |  | NO | 0 |  |  |
+| [flag](#flag) | tinyint | unsigned |  | NO | 2 |  |  |
+| [timezone](#timezone) | tinyint | unsigned |  | NO | 0 |  |  |
+| [allowedSecurityLevel](#allowedsecuritylevel) | tinyint | unsigned |  | NO | 0 |  |  |
 | [population](#population) | float | unsigned |  | NO | 0 |  |  |
-| [gamebuild](#gamebuild) | int(10) | unsigned |  | NO | 41488 |  |  |
-| [Region](#region) | tinyint(3) | unsigned |  | NO | 1 |  |  |
-| [Battlegroup](#battlegroup) | tinyint(3) | unsigned |  | NO | 1 |  |  |
+| [gamebuild](#gamebuild) | int | unsigned |  | NO | 42010 |  |  |
+| [Region](#region) | tinyint | unsigned |  | NO | 1 |  |  |
+| [Battlegroup](#battlegroup) | tinyint | unsigned |  | NO | 1 |  |  |
 &nbsp;
 ## Description of fields
 

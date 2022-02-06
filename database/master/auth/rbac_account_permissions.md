@@ -2,7 +2,7 @@
 title: rbac_account_permissions
 description: 
 published: true
-date: 2022-01-03T11:29:07.210Z
+date: 2022-02-06T18:26:50.184Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [accountId](#accountid) | int(10) | unsigned | PRI | NO |  |  | Account id |
-| [permissionId](#permissionid) | int(10) | unsigned | PRI | NO |  |  | Permission id |
+| [accountId](#accountid) | int | unsigned | PRI | NO |  |  | Account id |
+| [permissionId](#permissionid) | int | unsigned | PRI | NO |  |  | Permission id |
 | [granted](#granted) | tinyint(1) | signed |  | NO | 1 |  | Granted = 1, Denied = 0 |
-| [realmId](#realmid) | int(11) | signed | PRI | NO | -1 |  | Realm Id, -1 means all |
+| [realmId](#realmid) | int | signed | PRI | NO | -1 |  | Realm Id, -1 means all |
 &nbsp;
 ## Description of fields
 

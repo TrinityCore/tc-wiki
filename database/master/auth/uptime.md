@@ -2,7 +2,7 @@
 title: uptime
 description: This table holds the server's uptime. Trinity will automatically update the latest entry's value until it crashes and a new record is added.
 published: true
-date: 2022-01-03T11:29:07.213Z
+date: 2022-02-06T18:26:50.187Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [realmid](#realmid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [starttime](#starttime) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [uptime](#uptime) | int(10) | unsigned |  | NO | 0 |  |  |
-| [maxplayers](#maxplayers) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [realmid](#realmid) | int | unsigned | PRI | NO |  |  |  |
+| [starttime](#starttime) | int | unsigned | PRI | NO | 0 |  |  |
+| [uptime](#uptime) | int | unsigned |  | NO | 0 |  |  |
+| [maxplayers](#maxplayers) | smallint | unsigned |  | NO | 0 |  |  |
 | [revision](#revision) | varchar(255) | signed |  | NO | Trinitycore |  |  |
 &nbsp;
 ## Description of fields

@@ -2,7 +2,7 @@
 title: account_last_played_character
 description: 
 published: true
-date: 2022-01-03T11:29:07.204Z
+date: 2022-02-06T18:26:50.180Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [accountId](#accountid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [region](#region) | tinyint(3) | unsigned | PRI | NO |  |  |  |
-| [battlegroup](#battlegroup) | tinyint(3) | unsigned | PRI | NO |  |  |  |
-| [realmId](#realmid) | int(10) | unsigned |  | YES | NULL |  |  |
+| [accountId](#accountid) | int | unsigned | PRI | NO |  |  |  |
+| [region](#region) | tinyint | unsigned | PRI | NO |  |  |  |
+| [battlegroup](#battlegroup) | tinyint | unsigned | PRI | NO |  |  |  |
+| [realmId](#realmid) | int | unsigned |  | YES | NULL |  |  |
 | [characterName](#charactername) | varchar(12) | signed |  | YES | NULL |  |  |
-| [characterGUID](#characterguid) | bigint(20) | unsigned |  | YES | NULL |  |  |
-| [lastPlayedTime](#lastplayedtime) | int(10) | unsigned |  | YES | NULL |  |  |
+| [characterGUID](#characterguid) | bigint | unsigned |  | YES | NULL |  |  |
+| [lastPlayedTime](#lastplayedtime) | int | unsigned |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

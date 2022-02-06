@@ -2,7 +2,7 @@
 title: build_info
 description: 
 published: true
-date: 2022-01-03T11:29:07.209Z
+date: 2022-02-06T18:26:50.183Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [build](#build) | int(11) | signed | PRI | NO |  |  |  |
-| [majorVersion](#majorversion) | int(11) | signed |  | YES | NULL |  |  |
-| [minorVersion](#minorversion) | int(11) | signed |  | YES | NULL |  |  |
-| [bugfixVersion](#bugfixversion) | int(11) | signed |  | YES | NULL |  |  |
+| [build](#build) | int | signed | PRI | NO |  |  |  |
+| [majorVersion](#majorversion) | int | signed |  | YES | NULL |  |  |
+| [minorVersion](#minorversion) | int | signed |  | YES | NULL |  |  |
+| [bugfixVersion](#bugfixversion) | int | signed |  | YES | NULL |  |  |
 | [hotfixVersion](#hotfixversion) | char(3) | signed |  | YES | NULL |  |  |
 | [winAuthSeed](#winauthseed) | varchar(32) | signed |  | YES | NULL |  |  |
 | [win64AuthSeed](#win64authseed) | varchar(32) | signed |  | YES | NULL |  |  |

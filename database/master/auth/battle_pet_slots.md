@@ -2,7 +2,7 @@
 title: battle_pet_slots
 description: 
 published: true
-date: 2022-01-03T11:29:07.206Z
+date: 2022-02-06T18:26:50.181Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | tinyint(4) | signed | PRI | NO |  |  |  |
-| [battlenetAccountId](#battlenetaccountid) | int(11) | signed | PRI | NO |  |  |  |
-| [battlePetGuid](#battlepetguid) | bigint(20) | signed |  | NO |  |  |  |
-| [locked](#locked) | tinyint(4) | signed |  | NO | 1 |  |  |
+| [id](#id) | tinyint | signed | PRI | NO |  |  |  |
+| [battlenetAccountId](#battlenetaccountid) | int | signed | PRI | NO |  |  |  |
+| [battlePetGuid](#battlepetguid) | bigint | signed |  | NO |  |  |  |
+| [locked](#locked) | tinyint | signed |  | NO | 1 |  |  |
 &nbsp;
 ## Description of fields
 

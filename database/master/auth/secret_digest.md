@@ -2,7 +2,7 @@
 title: secret_digest
 description: 
 published: true
-date: 2022-01-03T11:29:07.212Z
+date: 2022-02-06T18:26:50.186Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int(10) | unsigned | PRI | NO |  |  |  |
+| [id](#id) | int | unsigned | PRI | NO |  |  |  |
 | [digest](#digest) | varchar(100) | signed |  | NO |  |  |  |
 &nbsp;
 ## Description of fields

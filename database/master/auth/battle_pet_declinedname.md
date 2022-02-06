@@ -2,7 +2,7 @@
 title: battle_pet_declinedname
 description: 
 published: true
-date: 2022-01-03T11:29:07.206Z
+date: 2022-02-06T18:26:50.181Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | bigint(20) | signed | PRI | NO |  |  |  |
+| [guid](#guid) | bigint | signed | PRI | NO |  |  |  |
 | [genitive](#genitive) | varchar(12) | signed |  | NO | '' |  |  |
 | [dative](#dative) | varchar(12) | signed |  | NO | '' |  |  |
 | [accusative](#accusative) | varchar(12) | signed |  | NO | '' |  |  |

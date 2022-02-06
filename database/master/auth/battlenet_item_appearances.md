@@ -2,7 +2,7 @@
 title: battlenet_item_appearances
 description: 
 published: true
-date: 2022-01-03T11:29:07.208Z
+date: 2022-02-06T18:26:50.183Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [battlenetAccountId](#battlenetaccountid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [blobIndex](#blobindex) | smallint(5) | unsigned | PRI | NO |  |  |  |
-| [appearanceMask](#appearancemask) | int(10) | unsigned |  | NO | 0 |  |  |
+| [battlenetAccountId](#battlenetaccountid) | int | unsigned | PRI | NO |  |  |  |
+| [blobIndex](#blobindex) | smallint | unsigned | PRI | NO |  |  |  |
+| [appearanceMask](#appearancemask) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

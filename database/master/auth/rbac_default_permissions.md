@@ -1,8 +1,8 @@
 ---
 title: rbac_default_permissions
-description: Default permission to assign to different account security levels
+description: 
 published: true
-date: 2022-01-03T11:29:07.211Z
+date: 2022-02-06T18:26:50.185Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [secId](#secid) | int(10) | unsigned | PRI | NO |  |  | Security Level id |
-| [permissionId](#permissionid) | int(10) | unsigned | PRI | NO |  |  | permission id |
-| [realmId](#realmid) | int(11) | signed | PRI | NO | -1 |  | Realm Id, -1 means all |
+| [secId](#secid) | int | unsigned | PRI | NO |  |  | Security Level id |
+| [permissionId](#permissionid) | int | unsigned | PRI | NO |  |  | permission id |
+| [realmId](#realmid) | int | signed | PRI | NO | -1 |  | Realm Id, -1 means all |
 &nbsp;
 ## Description of fields
 

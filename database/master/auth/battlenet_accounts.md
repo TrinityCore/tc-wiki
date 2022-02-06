@@ -2,7 +2,7 @@
 title: battlenet_accounts
 description: This table holds information on all available battlenet accounts.
 published: true
-date: 2022-01-03T11:29:07.208Z
+date: 2022-02-06T18:26:50.183Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,21 +14,21 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int(10) | unsigned | PRI | NO |  | auto_increment | Identifier |
+| [id](#id) | int | unsigned | PRI | NO |  | auto_increment | Identifier |
 | [email](#email) | varchar(320) | signed |  | NO |  |  |  |
 | [sha_pass_hash](#sha_pass_hash) | varchar(64) | signed |  | NO | '' |  |  |
-| [joindate](#joindate) | timestamp | signed |  | NO | CURRENT_TIMESTAMP |  |  |
+| [joindate](#joindate) | timestamp | signed |  | NO | CURRENT_TIMESTAMP | DEFAULT_GENERATED |  |
 | [last_ip](#last_ip) | varchar(15) | signed |  | NO | 127.0.0.1 |  |  |
-| [failed_logins](#failed_logins) | int(10) | unsigned |  | NO | 0 |  |  |
-| [locked](#locked) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [failed_logins](#failed_logins) | int | unsigned |  | NO | 0 |  |  |
+| [locked](#locked) | tinyint | unsigned |  | NO | 0 |  |  |
 | [lock_country](#lock_country) | varchar(2) | signed |  | NO | 00 |  |  |
 | [last_login](#last_login) | timestamp | signed |  | YES | NULL |  |  |
-| [online](#online) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [locale](#locale) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [online](#online) | tinyint | unsigned |  | NO | 0 |  |  |
+| [locale](#locale) | tinyint | unsigned |  | NO | 0 |  |  |
 | [os](#os) | varchar(4) | signed |  | NO | '' |  |  |
-| [LastCharacterUndelete](#lastcharacterundelete) | int(10) | unsigned |  | NO | 0 |  |  |
+| [LastCharacterUndelete](#lastcharacterundelete) | int | unsigned |  | NO | 0 |  |  |
 | [LoginTicket](#loginticket) | varchar(64) | signed |  | YES | NULL |  |  |
-| [LoginTicketExpiry](#loginticketexpiry) | int(10) | unsigned |  | YES | NULL |  |  |
+| [LoginTicketExpiry](#loginticketexpiry) | int | unsigned |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

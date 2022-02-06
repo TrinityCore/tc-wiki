@@ -2,7 +2,7 @@
 title: battlenet_account_toys
 description: 
 published: true
-date: 2022-01-03T11:29:07.208Z
+date: 2022-02-06T18:26:50.182Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [accountId](#accountid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [itemId](#itemid) | int(11) | signed | PRI | NO | 0 |  |  |
+| [accountId](#accountid) | int | unsigned | PRI | NO |  |  |  |
+| [itemId](#itemid) | int | signed | PRI | NO | 0 |  |  |
 | [isFavourite](#isfavourite) | tinyint(1) | signed |  | YES | 0 |  |  |
 | [hasFanfare](#hasfanfare) | tinyint(1) | signed |  | YES | 0 |  |  |
 &nbsp;

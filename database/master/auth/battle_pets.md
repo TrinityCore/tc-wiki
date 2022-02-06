@@ -2,7 +2,7 @@
 title: battle_pets
 description: 
 published: true
-date: 2022-01-03T11:29:07.207Z
+date: 2022-02-06T18:26:50.181Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,20 +14,20 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | bigint(20) | signed | PRI | NO |  |  |  |
-| [battlenetAccountId](#battlenetaccountid) | int(11) | signed |  | NO |  |  |  |
-| [species](#species) | int(11) | signed |  | NO |  |  |  |
-| [breed](#breed) | smallint(6) | signed |  | NO |  |  |  |
-| [displayId](#displayid) | int(11) | signed |  | NO | 0 |  |  |
-| [level](#level) | smallint(6) | signed |  | NO | 1 |  |  |
-| [exp](#exp) | smallint(6) | signed |  | NO | 0 |  |  |
-| [health](#health) | int(11) | signed |  | NO | 1 |  |  |
-| [quality](#quality) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [flags](#flags) | smallint(6) | signed |  | NO | 0 |  |  |
+| [guid](#guid) | bigint | signed | PRI | NO |  |  |  |
+| [battlenetAccountId](#battlenetaccountid) | int | signed |  | NO |  |  |  |
+| [species](#species) | int | signed |  | NO |  |  |  |
+| [breed](#breed) | smallint | signed |  | NO |  |  |  |
+| [displayId](#displayid) | int | signed |  | NO | 0 |  |  |
+| [level](#level) | smallint | signed |  | NO | 1 |  |  |
+| [exp](#exp) | smallint | signed |  | NO | 0 |  |  |
+| [health](#health) | int | signed |  | NO | 1 |  |  |
+| [quality](#quality) | tinyint | signed |  | NO | 0 |  |  |
+| [flags](#flags) | smallint | signed |  | NO | 0 |  |  |
 | [name](#name) | varchar(12) | signed |  | NO |  |  |  |
-| [nameTimestamp](#nametimestamp) | bigint(20) | signed |  | NO | 0 |  |  |
-| [owner](#owner) | bigint(20) | signed |  | YES | NULL |  |  |
-| [ownerRealmId](#ownerrealmid) | int(11) | signed |  | YES | NULL |  |  |
+| [nameTimestamp](#nametimestamp) | bigint | signed |  | NO | 0 |  |  |
+| [owner](#owner) | bigint | signed |  | YES | NULL |  |  |
+| [ownerRealmId](#ownerrealmid) | int | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

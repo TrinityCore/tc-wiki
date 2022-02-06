@@ -2,7 +2,7 @@
 title: account
 description: 
 published: true
-date: 2022-01-03T11:29:07.202Z
+date: 2022-02-06T18:26:50.178Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -18,35 +18,32 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int(10) | unsigned | PRI | NO |  | auto_increment | Identifier |
+| [id](#id) | int | unsigned | PRI | NO |  | auto_increment | Identifier |
 | [username](#username) | varchar(32) | signed | UNI | NO | '' |  |  |
-| [salt](#salt) | binary(32) | signed |  | YES | NULL |  |  |
-| [verifier](#verifier) | binary(32) | signed |  | YES | NULL |  |  |
+| [salt](#salt) | binary(32) | signed |  | NO |  |  |  |
+| [verifier](#verifier) | binary(32) | signed |  | NO |  |  |  |
 | [session_key_auth](#session_key_auth) | binary(40) | signed |  | YES | NULL |  |  |
 | [session_key_bnet](#session_key_bnet) | varbinary(64) | signed |  | YES | NULL |  |  |
-| [sha_pass_hash](#sha_pass_hash) | varchar(40) | signed |  | NO | '' |  |  |
-| [v](#v) | varchar(64) | signed |  | NO | dummy value, use \`verifier\` instead |  |  |
-| [s](#s) | varchar(64) | signed |  | NO | dummy value, use \`salt\` instead |  |  |
 | [totp_secret](#totp_secret) | varbinary(128) | signed |  | YES | NULL |  |  |
 | [email](#email) | varchar(255) | signed |  | NO | '' |  |  |
 | [reg_mail](#reg_mail) | varchar(255) | signed |  | NO | '' |  |  |
-| [joindate](#joindate) | timestamp | signed |  | NO | CURRENT_TIMESTAMP |  |  |
+| [joindate](#joindate) | timestamp | signed |  | NO | CURRENT_TIMESTAMP | DEFAULT_GENERATED |  |
 | [last_ip](#last_ip) | varchar(15) | signed |  | NO | 127.0.0.1 |  |  |
 | [last_attempt_ip](#last_attempt_ip) | varchar(15) | signed |  | NO | 127.0.0.1 |  |  |
-| [failed_logins](#failed_logins) | int(10) | unsigned |  | NO | 0 |  |  |
-| [locked](#locked) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [failed_logins](#failed_logins) | int | unsigned |  | NO | 0 |  |  |
+| [locked](#locked) | tinyint | unsigned |  | NO | 0 |  |  |
 | [lock_country](#lock_country) | varchar(2) | signed |  | NO | 00 |  |  |
 | [last_login](#last_login) | timestamp | signed |  | YES | NULL |  |  |
-| [online](#online) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [expansion](#expansion) | tinyint(3) | unsigned |  | NO | 8 |  |  |
-| [mutetime](#mutetime) | bigint(20) | signed |  | NO | 0 |  |  |
+| [online](#online) | tinyint | unsigned |  | NO | 0 |  |  |
+| [expansion](#expansion) | tinyint | unsigned |  | NO | 8 |  |  |
+| [mutetime](#mutetime) | bigint | signed |  | NO | 0 |  |  |
 | [mutereason](#mutereason) | varchar(255) | signed |  | NO | '' |  |  |
 | [muteby](#muteby) | varchar(50) | signed |  | NO | '' |  |  |
-| [locale](#locale) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [locale](#locale) | tinyint | unsigned |  | NO | 0 |  |  |
 | [os](#os) | varchar(4) | signed |  | NO | '' |  |  |
-| [recruiter](#recruiter) | int(10) | unsigned |  | NO | 0 |  |  |
-| [battlenet_account](#battlenet_account) | int(10) | unsigned | MUL | YES | NULL |  |  |
-| [battlenet_index](#battlenet_index) | tinyint(3) | unsigned |  | YES | NULL |  |  |
+| [recruiter](#recruiter) | int | unsigned |  | NO | 0 |  |  |
+| [battlenet_account](#battlenet_account) | int | unsigned | MUL | YES | NULL |  |  |
+| [battlenet_index](#battlenet_index) | tinyint | unsigned |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: account_muted
 description: 
 published: true
-date: 2022-01-03T11:29:07.206Z
+date: 2022-02-06T18:26:50.180Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | int(10) | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
-| [mutedate](#mutedate) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [mutetime](#mutetime) | int(10) | unsigned |  | NO | 0 |  |  |
+| [guid](#guid) | int | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
+| [mutedate](#mutedate) | int | unsigned | PRI | NO | 0 |  |  |
+| [mutetime](#mutetime) | int | unsigned |  | NO | 0 |  |  |
 | [mutedby](#mutedby) | varchar(50) | signed |  | NO |  |  |  |
 | [mutereason](#mutereason) | varchar(255) | signed |  | NO |  |  |  |
 &nbsp;

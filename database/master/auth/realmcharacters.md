@@ -2,7 +2,7 @@
 title: realmcharacters
 description: This table holds information on the number of characters each account has for each realm. The data in this table is maintained by the core.
 published: true
-date: 2022-01-03T11:29:07.211Z
+date: 2022-02-06T18:26:50.185Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [realmid](#realmid) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [acctid](#acctid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [numchars](#numchars) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [realmid](#realmid) | int | unsigned | PRI | NO | 0 |  |  |
+| [acctid](#acctid) | int | unsigned | PRI | NO |  |  |  |
+| [numchars](#numchars) | tinyint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

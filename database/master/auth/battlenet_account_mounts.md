@@ -2,7 +2,7 @@
 title: battlenet_account_mounts
 description: 
 published: true
-date: 2022-01-03T11:29:07.208Z
+date: 2022-02-06T18:26:50.182Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [battlenetAccountId](#battlenetaccountid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [mountSpellId](#mountspellid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [battlenetAccountId](#battlenetaccountid) | int | unsigned | PRI | NO |  |  |  |
+| [mountSpellId](#mountspellid) | int | unsigned | PRI | NO |  |  |  |
+| [flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

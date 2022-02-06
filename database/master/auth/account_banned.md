@@ -2,7 +2,7 @@
 title: account_banned
 description: This table lists all of the accounts that have been banned along with the date when (or if) the ban will expire.
 published: true
-date: 2022-01-03T11:29:07.203Z
+date: 2022-02-06T18:26:50.180Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -18,12 +18,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int(10) | unsigned | PRI | NO | 0 |  | Account id |
-| [bandate](#bandate) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [unbandate](#unbandate) | int(10) | unsigned |  | NO | 0 |  |  |
+| [id](#id) | int | unsigned | PRI | NO | 0 |  | Account id |
+| [bandate](#bandate) | int | unsigned | PRI | NO | 0 |  |  |
+| [unbandate](#unbandate) | int | unsigned |  | NO | 0 |  |  |
 | [bannedby](#bannedby) | varchar(50) | signed |  | NO |  |  |  |
 | [banreason](#banreason) | varchar(255) | signed |  | NO |  |  |  |
-| [active](#active) | tinyint(3) | unsigned |  | NO | 1 |  |  |
+| [active](#active) | tinyint | unsigned |  | NO | 1 |  |  |
 &nbsp;
 ## Description of fields
 

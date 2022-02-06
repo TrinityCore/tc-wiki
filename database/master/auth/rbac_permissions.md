@@ -1,8 +1,8 @@
 ---
 title: rbac_permissions
-description: Permission List
+description: 
 published: true
-date: 2022-01-03T11:29:07.211Z
+date: 2022-02-06T18:26:50.185Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int(10) | unsigned | PRI | NO | 0 |  | Permission id |
+| [id](#id) | int | unsigned | PRI | NO | 0 |  | Permission id |
 | [name](#name) | varchar(100) | signed |  | NO |  |  | Permission name |
 &nbsp;
 ## Description of fields

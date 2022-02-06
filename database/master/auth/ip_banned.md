@@ -2,7 +2,7 @@
 title: ip_banned
 description: This table contains all of the banned IPs and the date when (or if) the ban will expire.
 published: true
-date: 2022-01-03T11:29:07.209Z
+date: 2022-02-06T18:26:50.184Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,8 +15,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ip](#ip) | varchar(15) | signed | PRI | NO | 127.0.0.1 |  |  |
-| [bandate](#bandate) | int(10) | unsigned | PRI | NO |  |  |  |
-| [unbandate](#unbandate) | int(10) | unsigned |  | NO |  |  |  |
+| [bandate](#bandate) | int | unsigned | PRI | NO |  |  |  |
+| [unbandate](#unbandate) | int | unsigned |  | NO |  |  |  |
 | [bannedby](#bannedby) | varchar(50) | signed |  | NO | [Console] |  |  |
 | [banreason](#banreason) | varchar(255) | signed |  | NO | no reason |  |  |
 &nbsp;
