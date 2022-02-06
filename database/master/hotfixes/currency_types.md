@@ -2,7 +2,7 @@
 title: currency_types
 description: 
 published: true
-date: 2022-01-03T11:26:23.156Z
+date: 2022-02-06T18:26:40.920Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,24 +14,24 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [Name](#name) | text |  |  | YES | NULL |  |  |
 | [Description](#description) | text |  |  | YES | NULL |  |  |
-| [CategoryID](#categoryid) | int(11) | signed |  | NO | 0 |  |  |
-| [InventoryIconFileID](#inventoryiconfileid) | int(11) | signed |  | NO | 0 |  |  |
-| [SpellWeight](#spellweight) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SpellCategory](#spellcategory) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MaxQty](#maxqty) | int(10) | unsigned |  | NO | 0 |  |  |
-| [MaxEarnablePerWeek](#maxearnableperweek) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Quality](#quality) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [FactionID](#factionid) | int(11) | signed |  | NO | 0 |  |  |
-| [ItemGroupSoundsID](#itemgroupsoundsid) | int(11) | signed |  | NO | 0 |  |  |
-| [XpQuestDifficulty](#xpquestdifficulty) | int(11) | signed |  | NO | 0 |  |  |
-| [AwardConditionID](#awardconditionid) | int(11) | signed |  | NO | 0 |  |  |
-| [MaxQtyWorldStateID](#maxqtyworldstateid) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags1](#flags1) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags2](#flags2) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [CategoryID](#categoryid) | int | signed |  | NO | 0 |  |  |
+| [InventoryIconFileID](#inventoryiconfileid) | int | signed |  | NO | 0 |  |  |
+| [SpellWeight](#spellweight) | int | unsigned |  | NO | 0 |  |  |
+| [SpellCategory](#spellcategory) | tinyint | unsigned |  | NO | 0 |  |  |
+| [MaxQty](#maxqty) | int | unsigned |  | NO | 0 |  |  |
+| [MaxEarnablePerWeek](#maxearnableperweek) | int | unsigned |  | NO | 0 |  |  |
+| [Quality](#quality) | tinyint | signed |  | NO | 0 |  |  |
+| [FactionID](#factionid) | int | signed |  | NO | 0 |  |  |
+| [ItemGroupSoundsID](#itemgroupsoundsid) | int | signed |  | NO | 0 |  |  |
+| [XpQuestDifficulty](#xpquestdifficulty) | int | signed |  | NO | 0 |  |  |
+| [AwardConditionID](#awardconditionid) | int | signed |  | NO | 0 |  |  |
+| [MaxQtyWorldStateID](#maxqtyworldstateid) | int | signed |  | NO | 0 |  |  |
+| [Flags1](#flags1) | int | signed |  | NO | 0 |  |  |
+| [Flags2](#flags2) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

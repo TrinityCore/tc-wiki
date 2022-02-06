@@ -2,7 +2,7 @@
 title: spell_aura_restrictions
 description: 
 published: true
-date: 2022-01-03T11:26:23.209Z
+date: 2022-02-06T18:26:40.977Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [DifficultyID](#difficultyid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [CasterAuraState](#casteraurastate) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [TargetAuraState](#targetaurastate) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ExcludeCasterAuraState](#excludecasteraurastate) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ExcludeTargetAuraState](#excludetargetaurastate) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [CasterAuraSpell](#casterauraspell) | int(11) | signed |  | NO | 0 |  |  |
-| [TargetAuraSpell](#targetauraspell) | int(11) | signed |  | NO | 0 |  |  |
-| [ExcludeCasterAuraSpell](#excludecasterauraspell) | int(11) | signed |  | NO | 0 |  |  |
-| [ExcludeTargetAuraSpell](#excludetargetauraspell) | int(11) | signed |  | NO | 0 |  |  |
-| [SpellID](#spellid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [DifficultyID](#difficultyid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [CasterAuraState](#casteraurastate) | tinyint | unsigned |  | NO | 0 |  |  |
+| [TargetAuraState](#targetaurastate) | tinyint | unsigned |  | NO | 0 |  |  |
+| [ExcludeCasterAuraState](#excludecasteraurastate) | tinyint | unsigned |  | NO | 0 |  |  |
+| [ExcludeTargetAuraState](#excludetargetaurastate) | tinyint | unsigned |  | NO | 0 |  |  |
+| [CasterAuraSpell](#casterauraspell) | int | signed |  | NO | 0 |  |  |
+| [TargetAuraSpell](#targetauraspell) | int | signed |  | NO | 0 |  |  |
+| [ExcludeCasterAuraSpell](#excludecasterauraspell) | int | signed |  | NO | 0 |  |  |
+| [ExcludeTargetAuraSpell](#excludetargetauraspell) | int | signed |  | NO | 0 |  |  |
+| [SpellID](#spellid) | int | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

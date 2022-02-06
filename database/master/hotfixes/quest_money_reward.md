@@ -2,7 +2,7 @@
 title: quest_money_reward
 description: 
 published: true
-date: 2022-01-03T11:26:23.202Z
+date: 2022-02-06T18:26:40.968Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Difficulty1](#difficulty1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Difficulty2](#difficulty2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Difficulty3](#difficulty3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Difficulty4](#difficulty4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Difficulty5](#difficulty5) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Difficulty6](#difficulty6) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Difficulty7](#difficulty7) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Difficulty8](#difficulty8) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Difficulty9](#difficulty9) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Difficulty10](#difficulty10) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [Difficulty1](#difficulty1) | int | unsigned |  | NO | 0 |  |  |
+| [Difficulty2](#difficulty2) | int | unsigned |  | NO | 0 |  |  |
+| [Difficulty3](#difficulty3) | int | unsigned |  | NO | 0 |  |  |
+| [Difficulty4](#difficulty4) | int | unsigned |  | NO | 0 |  |  |
+| [Difficulty5](#difficulty5) | int | unsigned |  | NO | 0 |  |  |
+| [Difficulty6](#difficulty6) | int | unsigned |  | NO | 0 |  |  |
+| [Difficulty7](#difficulty7) | int | unsigned |  | NO | 0 |  |  |
+| [Difficulty8](#difficulty8) | int | unsigned |  | NO | 0 |  |  |
+| [Difficulty9](#difficulty9) | int | unsigned |  | NO | 0 |  |  |
+| [Difficulty10](#difficulty10) | int | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

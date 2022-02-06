@@ -2,7 +2,7 @@
 title: spell_visual_missile
 description: 
 published: true
-date: 2022-01-03T11:26:23.220Z
+date: 2022-02-06T18:26:40.989Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -20,23 +20,23 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [ImpactOffset1](#impactoffset1) | float |  |  | NO | 0 |  |  |
 | [ImpactOffset2](#impactoffset2) | float |  |  | NO | 0 |  |  |
 | [ImpactOffset3](#impactoffset3) | float |  |  | NO | 0 |  |  |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [SpellVisualEffectNameID](#spellvisualeffectnameid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [SoundEntriesID](#soundentriesid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Attachment](#attachment) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [DestinationAttachment](#destinationattachment) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [CastPositionerID](#castpositionerid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ImpactPositionerID](#impactpositionerid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [FollowGroundHeight](#followgroundheight) | int(11) | signed |  | NO | 0 |  |  |
-| [FollowGroundDropSpeed](#followgrounddropspeed) | int(10) | unsigned |  | NO | 0 |  |  |
-| [FollowGroundApproach](#followgroundapproach) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SpellMissileMotionID](#spellmissilemotionid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [AnimKitID](#animkitid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ClutterLevel](#clutterlevel) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [DecayTimeAfterImpact](#decaytimeafterimpact) | int(11) | signed |  | NO | 0 |  |  |
-| [SpellVisualMissileSetID](#spellvisualmissilesetid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [SpellVisualEffectNameID](#spellvisualeffectnameid) | smallint | unsigned |  | NO | 0 |  |  |
+| [SoundEntriesID](#soundentriesid) | int | unsigned |  | NO | 0 |  |  |
+| [Attachment](#attachment) | tinyint | signed |  | NO | 0 |  |  |
+| [DestinationAttachment](#destinationattachment) | tinyint | signed |  | NO | 0 |  |  |
+| [CastPositionerID](#castpositionerid) | smallint | unsigned |  | NO | 0 |  |  |
+| [ImpactPositionerID](#impactpositionerid) | smallint | unsigned |  | NO | 0 |  |  |
+| [FollowGroundHeight](#followgroundheight) | int | signed |  | NO | 0 |  |  |
+| [FollowGroundDropSpeed](#followgrounddropspeed) | int | unsigned |  | NO | 0 |  |  |
+| [FollowGroundApproach](#followgroundapproach) | smallint | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
+| [SpellMissileMotionID](#spellmissilemotionid) | smallint | unsigned |  | NO | 0 |  |  |
+| [AnimKitID](#animkitid) | int | unsigned |  | NO | 0 |  |  |
+| [ClutterLevel](#clutterlevel) | tinyint | signed |  | NO | 0 |  |  |
+| [DecayTimeAfterImpact](#decaytimeafterimpact) | int | signed |  | NO | 0 |  |  |
+| [SpellVisualMissileSetID](#spellvisualmissilesetid) | int | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

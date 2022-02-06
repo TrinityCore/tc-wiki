@@ -2,7 +2,7 @@
 title: spell_visual_effect_name
 description: 
 published: true
-date: 2022-01-03T11:26:23.220Z
+date: 2022-02-06T18:26:40.989Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,23 +14,23 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ModelFileDataID](#modelfiledataid) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ModelFileDataID](#modelfiledataid) | int | signed |  | NO | 0 |  |  |
 | [BaseMissileSpeed](#basemissilespeed) | float |  |  | NO | 0 |  |  |
 | [Scale](#scale) | float |  |  | NO | 0 |  |  |
 | [MinAllowedScale](#minallowedscale) | float |  |  | NO | 0 |  |  |
 | [MaxAllowedScale](#maxallowedscale) | float |  |  | NO | 0 |  |  |
 | [Alpha](#alpha) | float |  |  | NO | 0 |  |  |
-| [Flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [TextureFileDataID](#texturefiledataid) | int(11) | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
+| [TextureFileDataID](#texturefiledataid) | int | signed |  | NO | 0 |  |  |
 | [EffectRadius](#effectradius) | float |  |  | NO | 0 |  |  |
-| [Type](#type) | int(10) | unsigned |  | NO | 0 |  |  |
-| [GenericID](#genericid) | int(11) | signed |  | NO | 0 |  |  |
-| [RibbonQualityID](#ribbonqualityid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [DissolveEffectID](#dissolveeffectid) | int(11) | signed |  | NO | 0 |  |  |
-| [ModelPosition](#modelposition) | int(11) | signed |  | NO | 0 |  |  |
-| [Unknown901](#unknown901) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [Type](#type) | int | unsigned |  | NO | 0 |  |  |
+| [GenericID](#genericid) | int | signed |  | NO | 0 |  |  |
+| [RibbonQualityID](#ribbonqualityid) | int | unsigned |  | NO | 0 |  |  |
+| [DissolveEffectID](#dissolveeffectid) | int | signed |  | NO | 0 |  |  |
+| [ModelPosition](#modelposition) | int | signed |  | NO | 0 |  |  |
+| [Unknown901](#unknown901) | tinyint | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

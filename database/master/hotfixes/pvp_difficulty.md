@@ -2,7 +2,7 @@
 title: pvp_difficulty
 description: 
 published: true
-date: 2022-01-03T11:26:23.198Z
+date: 2022-02-06T18:26:40.965Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [RangeIndex](#rangeindex) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MinLevel](#minlevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MaxLevel](#maxlevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MapID](#mapid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [RangeIndex](#rangeindex) | tinyint | unsigned |  | NO | 0 |  |  |
+| [MinLevel](#minlevel) | tinyint | unsigned |  | NO | 0 |  |  |
+| [MaxLevel](#maxlevel) | tinyint | unsigned |  | NO | 0 |  |  |
+| [MapID](#mapid) | int | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

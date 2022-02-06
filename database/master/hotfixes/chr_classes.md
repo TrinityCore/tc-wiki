@@ -2,7 +2,7 @@
 title: chr_classes
 description: 
 published: true
-date: 2022-01-03T11:26:23.145Z
+date: 2022-02-06T18:26:40.909Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -24,36 +24,36 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [DisabledString](#disabledstring) | text |  |  | YES | NULL |  |  |
 | [HyphenatedNameMale](#hyphenatednamemale) | text |  |  | YES | NULL |  |  |
 | [HyphenatedNameFemale](#hyphenatednamefemale) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [CreateScreenFileDataID](#createscreenfiledataid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SelectScreenFileDataID](#selectscreenfiledataid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [IconFileDataID](#iconfiledataid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [LowResScreenFileDataID](#lowresscreenfiledataid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SpellTextureBlobFileDataID](#spelltextureblobfiledataid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RolesMask](#rolesmask) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ArmorTypeMask](#armortypemask) | int(10) | unsigned |  | NO | 0 |  |  |
-| [CharStartKitUnknown901](#charstartkitunknown901) | int(11) | signed |  | NO | 0 |  |  |
-| [MaleCharacterCreationVisualFallback](#malecharactercreationvisualfallback) | int(11) | signed |  | NO | 0 |  |  |
-| [MaleCharacterCreationIdleVisualFallback](#malecharactercreationidlevisualfallback) | int(11) | signed |  | NO | 0 |  |  |
-| [FemaleCharacterCreationVisualFallback](#femalecharactercreationvisualfallback) | int(11) | signed |  | NO | 0 |  |  |
-| [FemaleCharacterCreationIdleVisualFallback](#femalecharactercreationidlevisualfallback) | int(11) | signed |  | NO | 0 |  |  |
-| [CharacterCreationIdleGroundVisualFallback](#charactercreationidlegroundvisualfallback) | int(11) | signed |  | NO | 0 |  |  |
-| [CharacterCreationGroundVisualFallback](#charactercreationgroundvisualfallback) | int(11) | signed |  | NO | 0 |  |  |
-| [AlteredFormCharacterCreationIdleVisualFallback](#alteredformcharactercreationidlevisualfallback) | int(11) | signed |  | NO | 0 |  |  |
-| [CharacterCreationAnimLoopWaitTimeMsFallback](#charactercreationanimloopwaittimemsfallback) | int(11) | signed |  | NO | 0 |  |  |
-| [CinematicSequenceID](#cinematicsequenceid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [DefaultSpec](#defaultspec) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [PrimaryStatPriority](#primarystatpriority) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [DisplayPower](#displaypower) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [RangedAttackPowerPerAgility](#rangedattackpowerperagility) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [AttackPowerPerAgility](#attackpowerperagility) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [AttackPowerPerStrength](#attackpowerperstrength) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SpellClassSet](#spellclassset) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ClassColorR](#classcolorr) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ClassColorG](#classcolorg) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ClassColorB](#classcolorb) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [CreateScreenFileDataID](#createscreenfiledataid) | int | unsigned |  | NO | 0 |  |  |
+| [SelectScreenFileDataID](#selectscreenfiledataid) | int | unsigned |  | NO | 0 |  |  |
+| [IconFileDataID](#iconfiledataid) | int | unsigned |  | NO | 0 |  |  |
+| [LowResScreenFileDataID](#lowresscreenfiledataid) | int | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
+| [SpellTextureBlobFileDataID](#spelltextureblobfiledataid) | int | unsigned |  | NO | 0 |  |  |
+| [RolesMask](#rolesmask) | int | unsigned |  | NO | 0 |  |  |
+| [ArmorTypeMask](#armortypemask) | int | unsigned |  | NO | 0 |  |  |
+| [CharStartKitUnknown901](#charstartkitunknown901) | int | signed |  | NO | 0 |  |  |
+| [MaleCharacterCreationVisualFallback](#malecharactercreationvisualfallback) | int | signed |  | NO | 0 |  |  |
+| [MaleCharacterCreationIdleVisualFallback](#malecharactercreationidlevisualfallback) | int | signed |  | NO | 0 |  |  |
+| [FemaleCharacterCreationVisualFallback](#femalecharactercreationvisualfallback) | int | signed |  | NO | 0 |  |  |
+| [FemaleCharacterCreationIdleVisualFallback](#femalecharactercreationidlevisualfallback) | int | signed |  | NO | 0 |  |  |
+| [CharacterCreationIdleGroundVisualFallback](#charactercreationidlegroundvisualfallback) | int | signed |  | NO | 0 |  |  |
+| [CharacterCreationGroundVisualFallback](#charactercreationgroundvisualfallback) | int | signed |  | NO | 0 |  |  |
+| [AlteredFormCharacterCreationIdleVisualFallback](#alteredformcharactercreationidlevisualfallback) | int | signed |  | NO | 0 |  |  |
+| [CharacterCreationAnimLoopWaitTimeMsFallback](#charactercreationanimloopwaittimemsfallback) | int | signed |  | NO | 0 |  |  |
+| [CinematicSequenceID](#cinematicsequenceid) | smallint | unsigned |  | NO | 0 |  |  |
+| [DefaultSpec](#defaultspec) | smallint | unsigned |  | NO | 0 |  |  |
+| [PrimaryStatPriority](#primarystatpriority) | tinyint | unsigned |  | NO | 0 |  |  |
+| [DisplayPower](#displaypower) | tinyint | unsigned |  | NO | 0 |  |  |
+| [RangedAttackPowerPerAgility](#rangedattackpowerperagility) | tinyint | unsigned |  | NO | 0 |  |  |
+| [AttackPowerPerAgility](#attackpowerperagility) | tinyint | unsigned |  | NO | 0 |  |  |
+| [AttackPowerPerStrength](#attackpowerperstrength) | tinyint | unsigned |  | NO | 0 |  |  |
+| [SpellClassSet](#spellclassset) | tinyint | unsigned |  | NO | 0 |  |  |
+| [ClassColorR](#classcolorr) | tinyint | unsigned |  | NO | 0 |  |  |
+| [ClassColorG](#classcolorg) | tinyint | unsigned |  | NO | 0 |  |  |
+| [ClassColorB](#classcolorb) | tinyint | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

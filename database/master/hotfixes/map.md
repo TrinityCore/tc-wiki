@@ -2,7 +2,7 @@
 title: map
 description: 
 published: true
-date: 2022-01-03T11:26:23.191Z
+date: 2022-02-06T18:26:40.957Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [Directory](#directory) | text |  |  | YES | NULL |  |  |
 | [MapName](#mapname) | text |  |  | YES | NULL |  |  |
 | [MapDescription0](#mapdescription0) | text |  |  | YES | NULL |  |  |
@@ -23,24 +23,24 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [PvpLongDescription](#pvplongdescription) | text |  |  | YES | NULL |  |  |
 | [CorpseX](#corpsex) | float |  |  | NO | 0 |  |  |
 | [CorpseY](#corpsey) | float |  |  | NO | 0 |  |  |
-| [MapType](#maptype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [InstanceType](#instancetype) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [ExpansionID](#expansionid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [AreaTableID](#areatableid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [LoadingScreenID](#loadingscreenid) | smallint(6) | signed |  | NO | 0 |  |  |
-| [TimeOfDayOverride](#timeofdayoverride) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ParentMapID](#parentmapid) | smallint(6) | signed |  | NO | 0 |  |  |
-| [CosmeticParentMapID](#cosmeticparentmapid) | smallint(6) | signed |  | NO | 0 |  |  |
-| [TimeOffset](#timeoffset) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [MapType](#maptype) | tinyint | unsigned |  | NO | 0 |  |  |
+| [InstanceType](#instancetype) | tinyint | signed |  | NO | 0 |  |  |
+| [ExpansionID](#expansionid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [AreaTableID](#areatableid) | smallint | unsigned |  | NO | 0 |  |  |
+| [LoadingScreenID](#loadingscreenid) | smallint | signed |  | NO | 0 |  |  |
+| [TimeOfDayOverride](#timeofdayoverride) | smallint | signed |  | NO | 0 |  |  |
+| [ParentMapID](#parentmapid) | smallint | signed |  | NO | 0 |  |  |
+| [CosmeticParentMapID](#cosmeticparentmapid) | smallint | signed |  | NO | 0 |  |  |
+| [TimeOffset](#timeoffset) | tinyint | unsigned |  | NO | 0 |  |  |
 | [MinimapIconScale](#minimapiconscale) | float |  |  | NO | 0 |  |  |
-| [CorpseMapID](#corpsemapid) | smallint(6) | signed |  | NO | 0 |  |  |
-| [MaxPlayers](#maxplayers) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [WindSettingsID](#windsettingsid) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ZmpFileDataID](#zmpfiledataid) | int(11) | signed |  | NO | 0 |  |  |
-| [WdtFileDataID](#wdtfiledataid) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags1](#flags1) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags2](#flags2) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [CorpseMapID](#corpsemapid) | smallint | signed |  | NO | 0 |  |  |
+| [MaxPlayers](#maxplayers) | tinyint | unsigned |  | NO | 0 |  |  |
+| [WindSettingsID](#windsettingsid) | smallint | signed |  | NO | 0 |  |  |
+| [ZmpFileDataID](#zmpfiledataid) | int | signed |  | NO | 0 |  |  |
+| [WdtFileDataID](#wdtfiledataid) | int | signed |  | NO | 0 |  |  |
+| [Flags1](#flags1) | int | signed |  | NO | 0 |  |  |
+| [Flags2](#flags2) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

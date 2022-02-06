@@ -2,7 +2,7 @@
 title: area_trigger
 description: 
 published: true
-date: 2022-01-03T11:26:23.130Z
+date: 2022-02-06T18:26:40.893Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -17,21 +17,21 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [PosX](#posx) | float |  |  | NO | 0 |  |  |
 | [PosY](#posy) | float |  |  | NO | 0 |  |  |
 | [PosZ](#posz) | float |  |  | NO | 0 |  |  |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ContinentID](#continentid) | smallint(6) | signed |  | NO | 0 |  |  |
-| [PhaseUseFlags](#phaseuseflags) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [PhaseID](#phaseid) | smallint(6) | signed |  | NO | 0 |  |  |
-| [PhaseGroupID](#phasegroupid) | smallint(6) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ContinentID](#continentid) | smallint | signed |  | NO | 0 |  |  |
+| [PhaseUseFlags](#phaseuseflags) | tinyint | signed |  | NO | 0 |  |  |
+| [PhaseID](#phaseid) | smallint | signed |  | NO | 0 |  |  |
+| [PhaseGroupID](#phasegroupid) | smallint | signed |  | NO | 0 |  |  |
 | [Radius](#radius) | float |  |  | NO | 0 |  |  |
 | [BoxLength](#boxlength) | float |  |  | NO | 0 |  |  |
 | [BoxWidth](#boxwidth) | float |  |  | NO | 0 |  |  |
 | [BoxHeight](#boxheight) | float |  |  | NO | 0 |  |  |
 | [BoxYaw](#boxyaw) | float |  |  | NO | 0 |  |  |
-| [ShapeType](#shapetype) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [ShapeID](#shapeid) | smallint(6) | signed |  | NO | 0 |  |  |
-| [AreaTriggerActionSetID](#areatriggeractionsetid) | smallint(6) | signed |  | NO | 0 |  |  |
-| [Flags](#flags) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ShapeType](#shapetype) | tinyint | signed |  | NO | 0 |  |  |
+| [ShapeID](#shapeid) | smallint | signed |  | NO | 0 |  |  |
+| [AreaTriggerActionSetID](#areatriggeractionsetid) | smallint | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

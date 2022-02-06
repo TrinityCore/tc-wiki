@@ -2,7 +2,7 @@
 title: pvp_tier
 description: 
 published: true
-date: 2022-01-03T11:26:23.200Z
+date: 2022-02-06T18:26:40.967Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,15 +15,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [Name](#name) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [MinRating](#minrating) | smallint(6) | signed |  | NO | 0 |  |  |
-| [MaxRating](#maxrating) | smallint(6) | signed |  | NO | 0 |  |  |
-| [PrevTier](#prevtier) | int(11) | signed |  | NO | 0 |  |  |
-| [NextTier](#nexttier) | int(11) | signed |  | NO | 0 |  |  |
-| [BracketID](#bracketid) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Rank](#rank) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [RankIconFileDataID](#rankiconfiledataid) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [MinRating](#minrating) | smallint | signed |  | NO | 0 |  |  |
+| [MaxRating](#maxrating) | smallint | signed |  | NO | 0 |  |  |
+| [PrevTier](#prevtier) | int | signed |  | NO | 0 |  |  |
+| [NextTier](#nexttier) | int | signed |  | NO | 0 |  |  |
+| [BracketID](#bracketid) | tinyint | signed |  | NO | 0 |  |  |
+| [Rank](#rank) | tinyint | signed |  | NO | 0 |  |  |
+| [RankIconFileDataID](#rankiconfiledataid) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

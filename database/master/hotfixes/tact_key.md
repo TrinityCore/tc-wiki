@@ -2,7 +2,7 @@
 title: tact_key
 description: 
 published: true
-date: 2022-01-03T11:26:23.221Z
+date: 2022-02-06T18:26:40.990Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,24 +14,24 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Key1](#key1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key2](#key2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key3](#key3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key4](#key4) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key5](#key5) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key6](#key6) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key7](#key7) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key8](#key8) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key9](#key9) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key10](#key10) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key11](#key11) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key12](#key12) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key13](#key13) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key14](#key14) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key15](#key15) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Key16](#key16) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [Key1](#key1) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Key2](#key2) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Key3](#key3) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Key4](#key4) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Key5](#key5) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Key6](#key6) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Key7](#key7) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Key8](#key8) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Key9](#key9) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Key10](#key10) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Key11](#key11) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Key12](#key12) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Key13](#key13) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Key14](#key14) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Key15](#key15) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Key16](#key16) | tinyint | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

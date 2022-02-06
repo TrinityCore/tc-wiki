@@ -2,7 +2,7 @@
 title: power_display
 description: 
 published: true
-date: 2022-01-03T11:26:23.197Z
+date: 2022-02-06T18:26:40.964Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [GlobalStringBaseTag](#globalstringbasetag) | text |  |  | YES | NULL |  |  |
-| [ActualType](#actualtype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Red](#red) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Green](#green) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Blue](#blue) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ActualType](#actualtype) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Red](#red) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Green](#green) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Blue](#blue) | tinyint | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

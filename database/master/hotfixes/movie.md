@@ -2,7 +2,7 @@
 title: movie
 description: 
 published: true
-date: 2022-01-03T11:26:23.194Z
+date: 2022-02-06T18:26:40.961Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Volume](#volume) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [KeyID](#keyid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [AudioFileDataID](#audiofiledataid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SubtitleFileDataID](#subtitlefiledataid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [Volume](#volume) | tinyint | unsigned |  | NO | 0 |  |  |
+| [KeyID](#keyid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [AudioFileDataID](#audiofiledataid) | int | unsigned |  | NO | 0 |  |  |
+| [SubtitleFileDataID](#subtitlefiledataid) | int | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

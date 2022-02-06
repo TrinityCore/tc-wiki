@@ -2,7 +2,7 @@
 title: journal_encounter_section
 description: 
 published: true
-date: 2022-01-03T11:26:23.186Z
+date: 2022-02-06T18:26:40.951Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,23 +14,23 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [Title](#title) | text |  |  | YES | NULL |  |  |
 | [BodyText](#bodytext) | text |  |  | YES | NULL |  |  |
-| [JournalEncounterID](#journalencounterid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [OrderIndex](#orderindex) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ParentSectionID](#parentsectionid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [FirstChildSectionID](#firstchildsectionid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [NextSiblingSectionID](#nextsiblingsectionid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Type](#type) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [IconCreatureDisplayInfoID](#iconcreaturedisplayinfoid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [UiModelSceneID](#uimodelsceneid) | int(11) | signed |  | NO | 0 |  |  |
-| [SpellID](#spellid) | int(11) | signed |  | NO | 0 |  |  |
-| [IconFileDataID](#iconfiledataid) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags](#flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [IconFlags](#iconflags) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [DifficultyMask](#difficultymask) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [JournalEncounterID](#journalencounterid) | smallint | unsigned |  | NO | 0 |  |  |
+| [OrderIndex](#orderindex) | tinyint | unsigned |  | NO | 0 |  |  |
+| [ParentSectionID](#parentsectionid) | smallint | unsigned |  | NO | 0 |  |  |
+| [FirstChildSectionID](#firstchildsectionid) | smallint | unsigned |  | NO | 0 |  |  |
+| [NextSiblingSectionID](#nextsiblingsectionid) | smallint | unsigned |  | NO | 0 |  |  |
+| [Type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
+| [IconCreatureDisplayInfoID](#iconcreaturedisplayinfoid) | int | unsigned |  | NO | 0 |  |  |
+| [UiModelSceneID](#uimodelsceneid) | int | signed |  | NO | 0 |  |  |
+| [SpellID](#spellid) | int | signed |  | NO | 0 |  |  |
+| [IconFileDataID](#iconfiledataid) | int | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | smallint | unsigned |  | NO | 0 |  |  |
+| [IconFlags](#iconflags) | smallint | unsigned |  | NO | 0 |  |  |
+| [DifficultyMask](#difficultymask) | tinyint | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

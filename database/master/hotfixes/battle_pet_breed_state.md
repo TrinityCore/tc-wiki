@@ -2,7 +2,7 @@
 title: battle_pet_breed_state
 description: 
 published: true
-date: 2022-01-03T11:26:23.141Z
+date: 2022-02-06T18:26:40.904Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [BattlePetStateID](#battlepetstateid) | int(11) | signed |  | NO | 0 |  |  |
-| [Value](#value) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [BattlePetBreedID](#battlepetbreedid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [BattlePetStateID](#battlepetstateid) | int | signed |  | NO | 0 |  |  |
+| [Value](#value) | smallint | unsigned |  | NO | 0 |  |  |
+| [BattlePetBreedID](#battlepetbreedid) | int | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

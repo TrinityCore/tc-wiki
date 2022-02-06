@@ -2,7 +2,7 @@
 title: spell_shapeshift
 description: 
 published: true
-date: 2022-01-03T11:26:23.218Z
+date: 2022-02-06T18:26:40.987Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,14 +14,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [SpellID](#spellid) | int(11) | signed |  | NO | 0 |  |  |
-| [StanceBarOrder](#stancebarorder) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [ShapeshiftExclude1](#shapeshiftexclude1) | int(11) | signed |  | NO | 0 |  |  |
-| [ShapeshiftExclude2](#shapeshiftexclude2) | int(11) | signed |  | NO | 0 |  |  |
-| [ShapeshiftMask1](#shapeshiftmask1) | int(11) | signed |  | NO | 0 |  |  |
-| [ShapeshiftMask2](#shapeshiftmask2) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [SpellID](#spellid) | int | signed |  | NO | 0 |  |  |
+| [StanceBarOrder](#stancebarorder) | tinyint | signed |  | NO | 0 |  |  |
+| [ShapeshiftExclude1](#shapeshiftexclude1) | int | signed |  | NO | 0 |  |  |
+| [ShapeshiftExclude2](#shapeshiftexclude2) | int | signed |  | NO | 0 |  |  |
+| [ShapeshiftMask1](#shapeshiftmask1) | int | signed |  | NO | 0 |  |  |
+| [ShapeshiftMask2](#shapeshiftmask2) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

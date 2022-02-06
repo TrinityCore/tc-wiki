@@ -2,7 +2,7 @@
 title: cinematic_sequences
 description: 
 published: true
-date: 2022-01-03T11:26:23.151Z
+date: 2022-02-06T18:26:40.915Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,17 +14,17 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [SoundID](#soundid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Camera1](#camera1) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Camera2](#camera2) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Camera3](#camera3) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Camera4](#camera4) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Camera5](#camera5) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Camera6](#camera6) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Camera7](#camera7) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Camera8](#camera8) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [SoundID](#soundid) | int | unsigned |  | NO | 0 |  |  |
+| [Camera1](#camera1) | smallint | unsigned |  | NO | 0 |  |  |
+| [Camera2](#camera2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Camera3](#camera3) | smallint | unsigned |  | NO | 0 |  |  |
+| [Camera4](#camera4) | smallint | unsigned |  | NO | 0 |  |  |
+| [Camera5](#camera5) | smallint | unsigned |  | NO | 0 |  |  |
+| [Camera6](#camera6) | smallint | unsigned |  | NO | 0 |  |  |
+| [Camera7](#camera7) | smallint | unsigned |  | NO | 0 |  |  |
+| [Camera8](#camera8) | smallint | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: garr_site_level
 description: 
 published: true
-date: 2022-01-03T11:26:23.169Z
+date: 2022-02-06T18:26:40.933Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [TownHallUiPosX](#townhalluiposx) | float |  |  | NO | 0 |  |  |
 | [TownHallUiPosY](#townhalluiposy) | float |  |  | NO | 0 |  |  |
-| [GarrSiteID](#garrsiteid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [GarrLevel](#garrlevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MapID](#mapid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [UpgradeMovieID](#upgrademovieid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [UiTextureKitID](#uitexturekitid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [MaxBuildingLevel](#maxbuildinglevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [UpgradeCost](#upgradecost) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [UpgradeGoldCost](#upgradegoldcost) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [GarrSiteID](#garrsiteid) | int | unsigned |  | NO | 0 |  |  |
+| [GarrLevel](#garrlevel) | tinyint | unsigned |  | NO | 0 |  |  |
+| [MapID](#mapid) | smallint | unsigned |  | NO | 0 |  |  |
+| [UpgradeMovieID](#upgrademovieid) | smallint | unsigned |  | NO | 0 |  |  |
+| [UiTextureKitID](#uitexturekitid) | smallint | unsigned |  | NO | 0 |  |  |
+| [MaxBuildingLevel](#maxbuildinglevel) | tinyint | unsigned |  | NO | 0 |  |  |
+| [UpgradeCost](#upgradecost) | smallint | unsigned |  | NO | 0 |  |  |
+| [UpgradeGoldCost](#upgradegoldcost) | smallint | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

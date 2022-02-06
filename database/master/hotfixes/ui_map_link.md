@@ -2,7 +2,7 @@
 title: ui_map_link
 description: 
 published: true
-date: 2022-01-03T11:26:23.226Z
+date: 2022-02-06T18:26:40.996Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -18,14 +18,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [UiMinY](#uiminy) | float |  |  | NO | 0 |  |  |
 | [UiMaxX](#uimaxx) | float |  |  | NO | 0 |  |  |
 | [UiMaxY](#uimaxy) | float |  |  | NO | 0 |  |  |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ParentUiMapID](#parentuimapid) | int(11) | signed |  | NO | 0 |  |  |
-| [OrderIndex](#orderindex) | int(11) | signed |  | NO | 0 |  |  |
-| [ChildUiMapID](#childuimapid) | int(11) | signed |  | NO | 0 |  |  |
-| [OverrideHighlightFileDataID](#overridehighlightfiledataid) | int(11) | signed |  | NO | 0 |  |  |
-| [OverrideHighlightAtlasID](#overridehighlightatlasid) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ParentUiMapID](#parentuimapid) | int | signed |  | NO | 0 |  |  |
+| [OrderIndex](#orderindex) | int | signed |  | NO | 0 |  |  |
+| [ChildUiMapID](#childuimapid) | int | signed |  | NO | 0 |  |  |
+| [OverrideHighlightFileDataID](#overridehighlightfiledataid) | int | signed |  | NO | 0 |  |  |
+| [OverrideHighlightAtlasID](#overridehighlightatlasid) | int | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

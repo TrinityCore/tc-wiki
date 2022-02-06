@@ -2,7 +2,7 @@
 title: reward_pack
 description: 
 published: true
-date: 2022-01-03T11:26:23.203Z
+date: 2022-02-06T18:26:40.971Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,14 +14,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [CharTitleID](#chartitleid) | int(11) | signed |  | NO | 0 |  |  |
-| [Money](#money) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ArtifactXPDifficulty](#artifactxpdifficulty) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [CharTitleID](#chartitleid) | int | signed |  | NO | 0 |  |  |
+| [Money](#money) | int | unsigned |  | NO | 0 |  |  |
+| [ArtifactXPDifficulty](#artifactxpdifficulty) | tinyint | signed |  | NO | 0 |  |  |
 | [ArtifactXPMultiplier](#artifactxpmultiplier) | float |  |  | NO | 0 |  |  |
-| [ArtifactXPCategoryID](#artifactxpcategoryid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [TreasurePickerID](#treasurepickerid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ArtifactXPCategoryID](#artifactxpcategoryid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [TreasurePickerID](#treasurepickerid) | int | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

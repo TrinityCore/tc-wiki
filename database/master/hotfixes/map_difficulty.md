@@ -2,7 +2,7 @@
 title: map_difficulty
 description: 
 published: true
-date: 2022-01-03T11:26:23.191Z
+date: 2022-02-06T18:26:40.958Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [Message](#message) | text |  |  | YES | NULL |  |  |
-| [DifficultyID](#difficultyid) | int(11) | signed |  | NO | 0 |  |  |
-| [LockID](#lockid) | int(11) | signed |  | NO | 0 |  |  |
-| [ResetInterval](#resetinterval) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [MaxPlayers](#maxplayers) | int(11) | signed |  | NO | 0 |  |  |
-| [ItemContext](#itemcontext) | int(11) | signed |  | NO | 0 |  |  |
-| [ItemContextPickerID](#itemcontextpickerid) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
-| [ContentTuningID](#contenttuningid) | int(11) | signed |  | NO | 0 |  |  |
-| [MapID](#mapid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [DifficultyID](#difficultyid) | int | signed |  | NO | 0 |  |  |
+| [LockID](#lockid) | int | signed |  | NO | 0 |  |  |
+| [ResetInterval](#resetinterval) | tinyint | signed |  | NO | 0 |  |  |
+| [MaxPlayers](#maxplayers) | int | signed |  | NO | 0 |  |  |
+| [ItemContext](#itemcontext) | int | signed |  | NO | 0 |  |  |
+| [ItemContextPickerID](#itemcontextpickerid) | int | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
+| [ContentTuningID](#contenttuningid) | int | signed |  | NO | 0 |  |  |
+| [MapID](#mapid) | int | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: faction
 description: 
 published: true
-date: 2022-01-03T11:26:23.160Z
+date: 2022-02-06T18:26:40.925Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,40 +14,40 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ReputationRaceMask1](#reputationracemask1) | bigint(20) | signed |  | NO | 0 |  |  |
-| [ReputationRaceMask2](#reputationracemask2) | bigint(20) | signed |  | NO | 0 |  |  |
-| [ReputationRaceMask3](#reputationracemask3) | bigint(20) | signed |  | NO | 0 |  |  |
-| [ReputationRaceMask4](#reputationracemask4) | bigint(20) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ReputationRaceMask1](#reputationracemask1) | bigint | signed |  | NO | 0 |  |  |
+| [ReputationRaceMask2](#reputationracemask2) | bigint | signed |  | NO | 0 |  |  |
+| [ReputationRaceMask3](#reputationracemask3) | bigint | signed |  | NO | 0 |  |  |
+| [ReputationRaceMask4](#reputationracemask4) | bigint | signed |  | NO | 0 |  |  |
 | [Name](#name) | text |  |  | YES | NULL |  |  |
 | [Description](#description) | text |  |  | YES | NULL |  |  |
-| [ReputationIndex](#reputationindex) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ParentFactionID](#parentfactionid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Expansion](#expansion) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [FriendshipRepID](#friendshiprepid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ParagonFactionID](#paragonfactionid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ReputationClassMask1](#reputationclassmask1) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ReputationClassMask2](#reputationclassmask2) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ReputationClassMask3](#reputationclassmask3) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ReputationClassMask4](#reputationclassmask4) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ReputationFlags1](#reputationflags1) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ReputationFlags2](#reputationflags2) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ReputationFlags3](#reputationflags3) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ReputationFlags4](#reputationflags4) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ReputationBase1](#reputationbase1) | int(11) | signed |  | NO | 0 |  |  |
-| [ReputationBase2](#reputationbase2) | int(11) | signed |  | NO | 0 |  |  |
-| [ReputationBase3](#reputationbase3) | int(11) | signed |  | NO | 0 |  |  |
-| [ReputationBase4](#reputationbase4) | int(11) | signed |  | NO | 0 |  |  |
-| [ReputationMax1](#reputationmax1) | int(11) | signed |  | NO | 0 |  |  |
-| [ReputationMax2](#reputationmax2) | int(11) | signed |  | NO | 0 |  |  |
-| [ReputationMax3](#reputationmax3) | int(11) | signed |  | NO | 0 |  |  |
-| [ReputationMax4](#reputationmax4) | int(11) | signed |  | NO | 0 |  |  |
+| [ReputationIndex](#reputationindex) | smallint | signed |  | NO | 0 |  |  |
+| [ParentFactionID](#parentfactionid) | smallint | unsigned |  | NO | 0 |  |  |
+| [Expansion](#expansion) | tinyint | unsigned |  | NO | 0 |  |  |
+| [FriendshipRepID](#friendshiprepid) | int | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
+| [ParagonFactionID](#paragonfactionid) | smallint | unsigned |  | NO | 0 |  |  |
+| [ReputationClassMask1](#reputationclassmask1) | smallint | signed |  | NO | 0 |  |  |
+| [ReputationClassMask2](#reputationclassmask2) | smallint | signed |  | NO | 0 |  |  |
+| [ReputationClassMask3](#reputationclassmask3) | smallint | signed |  | NO | 0 |  |  |
+| [ReputationClassMask4](#reputationclassmask4) | smallint | signed |  | NO | 0 |  |  |
+| [ReputationFlags1](#reputationflags1) | smallint | unsigned |  | NO | 0 |  |  |
+| [ReputationFlags2](#reputationflags2) | smallint | unsigned |  | NO | 0 |  |  |
+| [ReputationFlags3](#reputationflags3) | smallint | unsigned |  | NO | 0 |  |  |
+| [ReputationFlags4](#reputationflags4) | smallint | unsigned |  | NO | 0 |  |  |
+| [ReputationBase1](#reputationbase1) | int | signed |  | NO | 0 |  |  |
+| [ReputationBase2](#reputationbase2) | int | signed |  | NO | 0 |  |  |
+| [ReputationBase3](#reputationbase3) | int | signed |  | NO | 0 |  |  |
+| [ReputationBase4](#reputationbase4) | int | signed |  | NO | 0 |  |  |
+| [ReputationMax1](#reputationmax1) | int | signed |  | NO | 0 |  |  |
+| [ReputationMax2](#reputationmax2) | int | signed |  | NO | 0 |  |  |
+| [ReputationMax3](#reputationmax3) | int | signed |  | NO | 0 |  |  |
+| [ReputationMax4](#reputationmax4) | int | signed |  | NO | 0 |  |  |
 | [ParentFactionMod1](#parentfactionmod1) | float |  |  | NO | 0 |  |  |
 | [ParentFactionMod2](#parentfactionmod2) | float |  |  | NO | 0 |  |  |
-| [ParentFactionCap1](#parentfactioncap1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ParentFactionCap2](#parentfactioncap2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ParentFactionCap1](#parentfactioncap1) | tinyint | unsigned |  | NO | 0 |  |  |
+| [ParentFactionCap2](#parentfactioncap2) | tinyint | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

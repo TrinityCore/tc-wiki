@@ -2,7 +2,7 @@
 title: skill_line
 description: 
 published: true
-date: 2022-01-03T11:26:23.207Z
+date: 2022-02-06T18:26:40.975Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -19,15 +19,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Description](#description) | text |  |  | YES | NULL |  |  |
 | [HordeDisplayName](#hordedisplayname) | text |  |  | YES | NULL |  |  |
 | [OverrideSourceInfoDisplayName](#overridesourceinfodisplayname) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [CategoryID](#categoryid) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [SpellIconFileID](#spelliconfileid) | int(11) | signed |  | NO | 0 |  |  |
-| [CanLink](#canlink) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [ParentSkillLineID](#parentskilllineid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ParentTierIndex](#parenttierindex) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags](#flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [SpellBookSpellID](#spellbookspellid) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [CategoryID](#categoryid) | tinyint | signed |  | NO | 0 |  |  |
+| [SpellIconFileID](#spelliconfileid) | int | signed |  | NO | 0 |  |  |
+| [CanLink](#canlink) | tinyint | signed |  | NO | 0 |  |  |
+| [ParentSkillLineID](#parentskilllineid) | int | unsigned |  | NO | 0 |  |  |
+| [ParentTierIndex](#parenttierindex) | int | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | smallint | unsigned |  | NO | 0 |  |  |
+| [SpellBookSpellID](#spellbookspellid) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

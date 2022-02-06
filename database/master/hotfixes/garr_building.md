@@ -2,7 +2,7 @@
 title: garr_building
 description: 
 published: true
-date: 2022-01-03T11:26:23.165Z
+date: 2022-02-06T18:26:40.929Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,32 +14,32 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [HordeName](#hordename) | text |  |  | YES | NULL |  |  |
 | [AllianceName](#alliancename) | text |  |  | YES | NULL |  |  |
 | [Description](#description) | text |  |  | YES | NULL |  |  |
 | [Tooltip](#tooltip) | text |  |  | YES | NULL |  |  |
-| [GarrTypeID](#garrtypeid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [BuildingType](#buildingtype) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [HordeGameObjectID](#hordegameobjectid) | int(11) | signed |  | NO | 0 |  |  |
-| [AllianceGameObjectID](#alliancegameobjectid) | int(11) | signed |  | NO | 0 |  |  |
-| [GarrSiteID](#garrsiteid) | int(11) | signed |  | NO | 0 |  |  |
-| [UpgradeLevel](#upgradelevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [BuildSeconds](#buildseconds) | int(11) | signed |  | NO | 0 |  |  |
-| [CurrencyTypeID](#currencytypeid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [CurrencyQty](#currencyqty) | int(11) | signed |  | NO | 0 |  |  |
-| [HordeUiTextureKitID](#hordeuitexturekitid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [AllianceUiTextureKitID](#allianceuitexturekitid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [IconFileDataID](#iconfiledataid) | int(11) | signed |  | NO | 0 |  |  |
-| [AllianceSceneScriptPackageID](#alliancescenescriptpackageid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [HordeSceneScriptPackageID](#hordescenescriptpackageid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [MaxAssignments](#maxassignments) | int(11) | signed |  | NO | 0 |  |  |
-| [ShipmentCapacity](#shipmentcapacity) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [GarrAbilityID](#garrabilityid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [BonusGarrAbilityID](#bonusgarrabilityid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [GoldCost](#goldcost) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [GarrTypeID](#garrtypeid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [BuildingType](#buildingtype) | tinyint | signed |  | NO | 0 |  |  |
+| [HordeGameObjectID](#hordegameobjectid) | int | signed |  | NO | 0 |  |  |
+| [AllianceGameObjectID](#alliancegameobjectid) | int | signed |  | NO | 0 |  |  |
+| [GarrSiteID](#garrsiteid) | int | signed |  | NO | 0 |  |  |
+| [UpgradeLevel](#upgradelevel) | tinyint | unsigned |  | NO | 0 |  |  |
+| [BuildSeconds](#buildseconds) | int | signed |  | NO | 0 |  |  |
+| [CurrencyTypeID](#currencytypeid) | smallint | unsigned |  | NO | 0 |  |  |
+| [CurrencyQty](#currencyqty) | int | signed |  | NO | 0 |  |  |
+| [HordeUiTextureKitID](#hordeuitexturekitid) | smallint | unsigned |  | NO | 0 |  |  |
+| [AllianceUiTextureKitID](#allianceuitexturekitid) | smallint | unsigned |  | NO | 0 |  |  |
+| [IconFileDataID](#iconfiledataid) | int | signed |  | NO | 0 |  |  |
+| [AllianceSceneScriptPackageID](#alliancescenescriptpackageid) | smallint | unsigned |  | NO | 0 |  |  |
+| [HordeSceneScriptPackageID](#hordescenescriptpackageid) | smallint | unsigned |  | NO | 0 |  |  |
+| [MaxAssignments](#maxassignments) | int | signed |  | NO | 0 |  |  |
+| [ShipmentCapacity](#shipmentcapacity) | tinyint | unsigned |  | NO | 0 |  |  |
+| [GarrAbilityID](#garrabilityid) | smallint | unsigned |  | NO | 0 |  |  |
+| [BonusGarrAbilityID](#bonusgarrabilityid) | smallint | unsigned |  | NO | 0 |  |  |
+| [GoldCost](#goldcost) | smallint | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

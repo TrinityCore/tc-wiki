@@ -2,7 +2,7 @@
 title: chr_model
 description: 
 published: true
-date: 2022-01-03T11:26:23.148Z
+date: 2022-02-06T18:26:40.912Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -20,22 +20,22 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [CustomizeOffset1](#customizeoffset1) | float |  |  | NO | 0 |  |  |
 | [CustomizeOffset2](#customizeoffset2) | float |  |  | NO | 0 |  |  |
 | [CustomizeOffset3](#customizeoffset3) | float |  |  | NO | 0 |  |  |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Sex](#sex) | int(11) | signed |  | NO | 0 |  |  |
-| [DisplayID](#displayid) | int(11) | signed |  | NO | 0 |  |  |
-| [CharComponentTextureLayoutID](#charcomponenttexturelayoutid) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
-| [SkeletonFileDataID](#skeletonfiledataid) | int(11) | signed |  | NO | 0 |  |  |
-| [ModelFallbackChrModelID](#modelfallbackchrmodelid) | int(11) | signed |  | NO | 0 |  |  |
-| [TextureFallbackChrModelID](#texturefallbackchrmodelid) | int(11) | signed |  | NO | 0 |  |  |
-| [HelmVisFallbackChrModelID](#helmvisfallbackchrmodelid) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [Sex](#sex) | int | signed |  | NO | 0 |  |  |
+| [DisplayID](#displayid) | int | signed |  | NO | 0 |  |  |
+| [CharComponentTextureLayoutID](#charcomponenttexturelayoutid) | int | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
+| [SkeletonFileDataID](#skeletonfiledataid) | int | signed |  | NO | 0 |  |  |
+| [ModelFallbackChrModelID](#modelfallbackchrmodelid) | int | signed |  | NO | 0 |  |  |
+| [TextureFallbackChrModelID](#texturefallbackchrmodelid) | int | signed |  | NO | 0 |  |  |
+| [HelmVisFallbackChrModelID](#helmvisfallbackchrmodelid) | int | signed |  | NO | 0 |  |  |
 | [CustomizeScale](#customizescale) | float |  |  | NO | 0 |  |  |
 | [CustomizeFacing](#customizefacing) | float |  |  | NO | 0 |  |  |
 | [CameraDistanceOffset](#cameradistanceoffset) | float |  |  | NO | 0 |  |  |
 | [BarberShopCameraOffsetScale](#barbershopcameraoffsetscale) | float |  |  | NO | 0 |  |  |
 | [BarberShopCameraHeightOffsetScale](#barbershopcameraheightoffsetscale) | float |  |  | NO | 0 |  |  |
 | [BarberShopCameraRotationOffset](#barbershopcamerarotationoffset) | float |  |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

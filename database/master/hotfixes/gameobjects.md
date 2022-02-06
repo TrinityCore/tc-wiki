@@ -2,7 +2,7 @@
 title: gameobjects
 description: 
 published: true
-date: 2022-01-03T11:26:23.163Z
+date: 2022-02-06T18:26:40.927Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -22,23 +22,23 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Rot2](#rot2) | float |  |  | NO | 0 |  |  |
 | [Rot3](#rot3) | float |  |  | NO | 0 |  |  |
 | [Rot4](#rot4) | float |  |  | NO | 0 |  |  |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [OwnerID](#ownerid) | int(11) | signed |  | NO | 0 |  |  |
-| [DisplayID](#displayid) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [OwnerID](#ownerid) | int | signed |  | NO | 0 |  |  |
+| [DisplayID](#displayid) | int | signed |  | NO | 0 |  |  |
 | [Scale](#scale) | float |  |  | NO | 0 |  |  |
-| [TypeID](#typeid) | int(11) | signed |  | NO | 0 |  |  |
-| [PhaseUseFlags](#phaseuseflags) | int(11) | signed |  | NO | 0 |  |  |
-| [PhaseID](#phaseid) | int(11) | signed |  | NO | 0 |  |  |
-| [PhaseGroupID](#phasegroupid) | int(11) | signed |  | NO | 0 |  |  |
-| [PropValue1](#propvalue1) | int(11) | signed |  | NO | 0 |  |  |
-| [PropValue2](#propvalue2) | int(11) | signed |  | NO | 0 |  |  |
-| [PropValue3](#propvalue3) | int(11) | signed |  | NO | 0 |  |  |
-| [PropValue4](#propvalue4) | int(11) | signed |  | NO | 0 |  |  |
-| [PropValue5](#propvalue5) | int(11) | signed |  | NO | 0 |  |  |
-| [PropValue6](#propvalue6) | int(11) | signed |  | NO | 0 |  |  |
-| [PropValue7](#propvalue7) | int(11) | signed |  | NO | 0 |  |  |
-| [PropValue8](#propvalue8) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [TypeID](#typeid) | int | signed |  | NO | 0 |  |  |
+| [PhaseUseFlags](#phaseuseflags) | int | signed |  | NO | 0 |  |  |
+| [PhaseID](#phaseid) | int | signed |  | NO | 0 |  |  |
+| [PhaseGroupID](#phasegroupid) | int | signed |  | NO | 0 |  |  |
+| [PropValue1](#propvalue1) | int | signed |  | NO | 0 |  |  |
+| [PropValue2](#propvalue2) | int | signed |  | NO | 0 |  |  |
+| [PropValue3](#propvalue3) | int | signed |  | NO | 0 |  |  |
+| [PropValue4](#propvalue4) | int | signed |  | NO | 0 |  |  |
+| [PropValue5](#propvalue5) | int | signed |  | NO | 0 |  |  |
+| [PropValue6](#propvalue6) | int | signed |  | NO | 0 |  |  |
+| [PropValue7](#propvalue7) | int | signed |  | NO | 0 |  |  |
+| [PropValue8](#propvalue8) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

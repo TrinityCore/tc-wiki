@@ -2,7 +2,7 @@
 title: hotfix_blob
 description: 
 published: true
-date: 2022-01-03T11:26:23.172Z
+date: 2022-02-06T18:26:40.936Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [TableHash](#tablehash) | int(10) | unsigned | PRI | NO |  |  |  |
-| [RecordId](#recordid) | int(11) | signed | PRI | NO |  |  |  |
+| [TableHash](#tablehash) | int | unsigned | PRI | NO |  |  |  |
+| [RecordId](#recordid) | int | signed | PRI | NO |  |  |  |
 | [locale](#locale) | varchar(4) | signed | PRI | NO |  |  |  |
 | [Blob](#blob) | blob |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

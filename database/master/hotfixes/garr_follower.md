@@ -2,7 +2,7 @@
 title: garr_follower
 description: 
 published: true
-date: 2022-01-03T11:26:23.166Z
+date: 2022-02-06T18:26:40.930Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,41 +14,41 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [HordeSourceText](#hordesourcetext) | text |  |  | YES | NULL |  |  |
 | [AllianceSourceText](#alliancesourcetext) | text |  |  | YES | NULL |  |  |
 | [TitleName](#titlename) | text |  |  | YES | NULL |  |  |
-| [GarrTypeID](#garrtypeid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [GarrFollowerTypeID](#garrfollowertypeid) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [HordeCreatureID](#hordecreatureid) | int(11) | signed |  | NO | 0 |  |  |
-| [AllianceCreatureID](#alliancecreatureid) | int(11) | signed |  | NO | 0 |  |  |
-| [HordeGarrFollRaceID](#hordegarrfollraceid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [AllianceGarrFollRaceID](#alliancegarrfollraceid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [HordeGarrClassSpecID](#hordegarrclassspecid) | int(11) | signed |  | NO | 0 |  |  |
-| [AllianceGarrClassSpecID](#alliancegarrclassspecid) | int(11) | signed |  | NO | 0 |  |  |
-| [Quality](#quality) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [FollowerLevel](#followerlevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ItemLevelWeapon](#itemlevelweapon) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ItemLevelArmor](#itemlevelarmor) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [HordeSourceTypeEnum](#hordesourcetypeenum) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [AllianceSourceTypeEnum](#alliancesourcetypeenum) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [HordeIconFileDataID](#hordeiconfiledataid) | int(11) | signed |  | NO | 0 |  |  |
-| [AllianceIconFileDataID](#allianceiconfiledataid) | int(11) | signed |  | NO | 0 |  |  |
-| [HordeGarrFollItemSetID](#hordegarrfollitemsetid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [AllianceGarrFollItemSetID](#alliancegarrfollitemsetid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [HordeUITextureKitID](#hordeuitexturekitid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [AllianceUITextureKitID](#allianceuitexturekitid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Vitality](#vitality) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [HordeFlavorGarrStringID](#hordeflavorgarrstringid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [AllianceFlavorGarrStringID](#allianceflavorgarrstringid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [HordeSlottingBroadcastTextID](#hordeslottingbroadcasttextid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [AllySlottingBroadcastTextID](#allyslottingbroadcasttextid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ChrClassID](#chrclassid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
-| [Gender](#gender) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [AutoCombatantID](#autocombatantid) | int(11) | signed |  | NO | 0 |  |  |
-| [CovenantID](#covenantid) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [GarrTypeID](#garrtypeid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [GarrFollowerTypeID](#garrfollowertypeid) | tinyint | signed |  | NO | 0 |  |  |
+| [HordeCreatureID](#hordecreatureid) | int | signed |  | NO | 0 |  |  |
+| [AllianceCreatureID](#alliancecreatureid) | int | signed |  | NO | 0 |  |  |
+| [HordeGarrFollRaceID](#hordegarrfollraceid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [AllianceGarrFollRaceID](#alliancegarrfollraceid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [HordeGarrClassSpecID](#hordegarrclassspecid) | int | signed |  | NO | 0 |  |  |
+| [AllianceGarrClassSpecID](#alliancegarrclassspecid) | int | signed |  | NO | 0 |  |  |
+| [Quality](#quality) | tinyint | signed |  | NO | 0 |  |  |
+| [FollowerLevel](#followerlevel) | tinyint | unsigned |  | NO | 0 |  |  |
+| [ItemLevelWeapon](#itemlevelweapon) | smallint | unsigned |  | NO | 0 |  |  |
+| [ItemLevelArmor](#itemlevelarmor) | smallint | unsigned |  | NO | 0 |  |  |
+| [HordeSourceTypeEnum](#hordesourcetypeenum) | tinyint | signed |  | NO | 0 |  |  |
+| [AllianceSourceTypeEnum](#alliancesourcetypeenum) | tinyint | signed |  | NO | 0 |  |  |
+| [HordeIconFileDataID](#hordeiconfiledataid) | int | signed |  | NO | 0 |  |  |
+| [AllianceIconFileDataID](#allianceiconfiledataid) | int | signed |  | NO | 0 |  |  |
+| [HordeGarrFollItemSetID](#hordegarrfollitemsetid) | smallint | unsigned |  | NO | 0 |  |  |
+| [AllianceGarrFollItemSetID](#alliancegarrfollitemsetid) | smallint | unsigned |  | NO | 0 |  |  |
+| [HordeUITextureKitID](#hordeuitexturekitid) | smallint | unsigned |  | NO | 0 |  |  |
+| [AllianceUITextureKitID](#allianceuitexturekitid) | smallint | unsigned |  | NO | 0 |  |  |
+| [Vitality](#vitality) | tinyint | unsigned |  | NO | 0 |  |  |
+| [HordeFlavorGarrStringID](#hordeflavorgarrstringid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [AllianceFlavorGarrStringID](#allianceflavorgarrstringid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [HordeSlottingBroadcastTextID](#hordeslottingbroadcasttextid) | int | unsigned |  | NO | 0 |  |  |
+| [AllySlottingBroadcastTextID](#allyslottingbroadcasttextid) | int | unsigned |  | NO | 0 |  |  |
+| [ChrClassID](#chrclassid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
+| [Gender](#gender) | tinyint | unsigned |  | NO | 0 |  |  |
+| [AutoCombatantID](#autocombatantid) | int | signed |  | NO | 0 |  |  |
+| [CovenantID](#covenantid) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

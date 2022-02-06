@@ -2,7 +2,7 @@
 title: liquid_type
 description: 
 published: true
-date: 2022-01-03T11:26:23.189Z
+date: 2022-02-06T18:26:40.956Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [Name](#name) | text |  |  | YES | NULL |  |  |
 | [Texture1](#texture1) | text |  |  | YES | NULL |  |  |
 | [Texture2](#texture2) | text |  |  | YES | NULL |  |  |
@@ -22,28 +22,28 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Texture4](#texture4) | text |  |  | YES | NULL |  |  |
 | [Texture5](#texture5) | text |  |  | YES | NULL |  |  |
 | [Texture6](#texture6) | text |  |  | YES | NULL |  |  |
-| [Flags](#flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [SoundBank](#soundbank) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SoundID](#soundid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SpellID](#spellid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | smallint | unsigned |  | NO | 0 |  |  |
+| [SoundBank](#soundbank) | tinyint | unsigned |  | NO | 0 |  |  |
+| [SoundID](#soundid) | int | unsigned |  | NO | 0 |  |  |
+| [SpellID](#spellid) | int | unsigned |  | NO | 0 |  |  |
 | [MaxDarkenDepth](#maxdarkendepth) | float |  |  | NO | 0 |  |  |
 | [FogDarkenIntensity](#fogdarkenintensity) | float |  |  | NO | 0 |  |  |
 | [AmbDarkenIntensity](#ambdarkenintensity) | float |  |  | NO | 0 |  |  |
 | [DirDarkenIntensity](#dirdarkenintensity) | float |  |  | NO | 0 |  |  |
-| [LightID](#lightid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [LightID](#lightid) | smallint | unsigned |  | NO | 0 |  |  |
 | [ParticleScale](#particlescale) | float |  |  | NO | 0 |  |  |
-| [ParticleMovement](#particlemovement) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ParticleTexSlots](#particletexslots) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MaterialID](#materialid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MinimapStaticCol](#minimapstaticcol) | int(11) | signed |  | NO | 0 |  |  |
-| [FrameCountTexture1](#framecounttexture1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [FrameCountTexture2](#framecounttexture2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [FrameCountTexture3](#framecounttexture3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [FrameCountTexture4](#framecounttexture4) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [FrameCountTexture5](#framecounttexture5) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [FrameCountTexture6](#framecounttexture6) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Color1](#color1) | int(11) | signed |  | NO | 0 |  |  |
-| [Color2](#color2) | int(11) | signed |  | NO | 0 |  |  |
+| [ParticleMovement](#particlemovement) | tinyint | unsigned |  | NO | 0 |  |  |
+| [ParticleTexSlots](#particletexslots) | tinyint | unsigned |  | NO | 0 |  |  |
+| [MaterialID](#materialid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [MinimapStaticCol](#minimapstaticcol) | int | signed |  | NO | 0 |  |  |
+| [FrameCountTexture1](#framecounttexture1) | tinyint | unsigned |  | NO | 0 |  |  |
+| [FrameCountTexture2](#framecounttexture2) | tinyint | unsigned |  | NO | 0 |  |  |
+| [FrameCountTexture3](#framecounttexture3) | tinyint | unsigned |  | NO | 0 |  |  |
+| [FrameCountTexture4](#framecounttexture4) | tinyint | unsigned |  | NO | 0 |  |  |
+| [FrameCountTexture5](#framecounttexture5) | tinyint | unsigned |  | NO | 0 |  |  |
+| [FrameCountTexture6](#framecounttexture6) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Color1](#color1) | int | signed |  | NO | 0 |  |  |
+| [Color2](#color2) | int | signed |  | NO | 0 |  |  |
 | [Float1](#float1) | float |  |  | NO | 0 |  |  |
 | [Float2](#float2) | float |  |  | NO | 0 |  |  |
 | [Float3](#float3) | float |  |  | NO | 0 |  |  |
@@ -62,15 +62,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Float16](#float16) | float |  |  | NO | 0 |  |  |
 | [Float17](#float17) | float |  |  | NO | 0 |  |  |
 | [Float18](#float18) | float |  |  | NO | 0 |  |  |
-| [Int1](#int1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Int2](#int2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Int3](#int3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Int4](#int4) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Int1](#int1) | int | unsigned |  | NO | 0 |  |  |
+| [Int2](#int2) | int | unsigned |  | NO | 0 |  |  |
+| [Int3](#int3) | int | unsigned |  | NO | 0 |  |  |
+| [Int4](#int4) | int | unsigned |  | NO | 0 |  |  |
 | [Coefficient1](#coefficient1) | float |  |  | NO | 0 |  |  |
 | [Coefficient2](#coefficient2) | float |  |  | NO | 0 |  |  |
 | [Coefficient3](#coefficient3) | float |  |  | NO | 0 |  |  |
 | [Coefficient4](#coefficient4) | float |  |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

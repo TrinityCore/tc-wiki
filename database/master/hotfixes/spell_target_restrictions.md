@@ -2,7 +2,7 @@
 title: spell_target_restrictions
 description: 
 published: true
-date: 2022-01-03T11:26:23.219Z
+date: 2022-02-06T18:26:40.988Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,16 +14,16 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [DifficultyID](#difficultyid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [DifficultyID](#difficultyid) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ConeDegrees](#conedegrees) | float |  |  | NO | 0 |  |  |
-| [MaxTargets](#maxtargets) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MaxTargetLevel](#maxtargetlevel) | int(10) | unsigned |  | NO | 0 |  |  |
-| [TargetCreatureType](#targetcreaturetype) | smallint(6) | signed |  | NO | 0 |  |  |
-| [Targets](#targets) | int(11) | signed |  | NO | 0 |  |  |
+| [MaxTargets](#maxtargets) | tinyint | unsigned |  | NO | 0 |  |  |
+| [MaxTargetLevel](#maxtargetlevel) | int | unsigned |  | NO | 0 |  |  |
+| [TargetCreatureType](#targetcreaturetype) | smallint | signed |  | NO | 0 |  |  |
+| [Targets](#targets) | int | signed |  | NO | 0 |  |  |
 | [Width](#width) | float |  |  | NO | 0 |  |  |
-| [SpellID](#spellid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [SpellID](#spellid) | int | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

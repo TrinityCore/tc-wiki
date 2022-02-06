@@ -2,7 +2,7 @@
 title: adventure_journal
 description: 
 published: true
-date: 2022-01-03T11:26:23.126Z
+date: 2022-02-06T18:26:40.889Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,32 +14,32 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [Name](#name) | text |  |  | YES | NULL |  |  |
 | [Description](#description) | text |  |  | YES | NULL |  |  |
 | [ButtonText](#buttontext) | text |  |  | YES | NULL |  |  |
 | [RewardDescription](#rewarddescription) | text |  |  | YES | NULL |  |  |
 | [ContinueDescription](#continuedescription) | text |  |  | YES | NULL |  |  |
-| [Type](#type) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [PlayerConditionID](#playerconditionid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ButtonActionType](#buttonactiontype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [TextureFileDataID](#texturefiledataid) | int(11) | signed |  | NO | 0 |  |  |
-| [LfgDungeonID](#lfgdungeonid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [QuestID](#questid) | int(11) | signed |  | NO | 0 |  |  |
-| [BattleMasterListID](#battlemasterlistid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [PriorityMin](#prioritymin) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [PriorityMax](#prioritymax) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ItemID](#itemid) | int(11) | signed |  | NO | 0 |  |  |
-| [ItemQuantity](#itemquantity) | int(10) | unsigned |  | NO | 0 |  |  |
-| [CurrencyType](#currencytype) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [CurrencyQuantity](#currencyquantity) | int(10) | unsigned |  | NO | 0 |  |  |
-| [UiMapID](#uimapid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [BonusPlayerConditionID1](#bonusplayerconditionid1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [BonusPlayerConditionID2](#bonusplayerconditionid2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [BonusValue1](#bonusvalue1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [BonusValue2](#bonusvalue2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [Type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
+| [PlayerConditionID](#playerconditionid) | int | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
+| [ButtonActionType](#buttonactiontype) | tinyint | unsigned |  | NO | 0 |  |  |
+| [TextureFileDataID](#texturefiledataid) | int | signed |  | NO | 0 |  |  |
+| [LfgDungeonID](#lfgdungeonid) | smallint | unsigned |  | NO | 0 |  |  |
+| [QuestID](#questid) | int | signed |  | NO | 0 |  |  |
+| [BattleMasterListID](#battlemasterlistid) | smallint | unsigned |  | NO | 0 |  |  |
+| [PriorityMin](#prioritymin) | tinyint | unsigned |  | NO | 0 |  |  |
+| [PriorityMax](#prioritymax) | tinyint | unsigned |  | NO | 0 |  |  |
+| [ItemID](#itemid) | int | signed |  | NO | 0 |  |  |
+| [ItemQuantity](#itemquantity) | int | unsigned |  | NO | 0 |  |  |
+| [CurrencyType](#currencytype) | smallint | unsigned |  | NO | 0 |  |  |
+| [CurrencyQuantity](#currencyquantity) | int | unsigned |  | NO | 0 |  |  |
+| [UiMapID](#uimapid) | smallint | unsigned |  | NO | 0 |  |  |
+| [BonusPlayerConditionID1](#bonusplayerconditionid1) | int | unsigned |  | NO | 0 |  |  |
+| [BonusPlayerConditionID2](#bonusplayerconditionid2) | int | unsigned |  | NO | 0 |  |  |
+| [BonusValue1](#bonusvalue1) | tinyint | unsigned |  | NO | 0 |  |  |
+| [BonusValue2](#bonusvalue2) | tinyint | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

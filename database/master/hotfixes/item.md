@@ -2,7 +2,7 @@
 title: item
 description: 
 published: true
-date: 2022-01-03T11:26:23.174Z
+date: 2022-02-06T18:26:40.938Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ClassID](#classid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SubclassID](#subclassid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Material](#material) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [InventoryType](#inventorytype) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [SheatheType](#sheathetype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SoundOverrideSubclassID](#soundoverridesubclassid) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [IconFileDataID](#iconfiledataid) | int(11) | signed |  | NO | 0 |  |  |
-| [ItemGroupSoundsID](#itemgroupsoundsid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ContentTuningID](#contenttuningid) | int(11) | signed |  | NO | 0 |  |  |
-| [ModifiedCraftingReagentItemID](#modifiedcraftingreagentitemid) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ClassID](#classid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [SubclassID](#subclassid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Material](#material) | tinyint | unsigned |  | NO | 0 |  |  |
+| [InventoryType](#inventorytype) | tinyint | signed |  | NO | 0 |  |  |
+| [SheatheType](#sheathetype) | tinyint | unsigned |  | NO | 0 |  |  |
+| [SoundOverrideSubclassID](#soundoverridesubclassid) | tinyint | signed |  | NO | 0 |  |  |
+| [IconFileDataID](#iconfiledataid) | int | signed |  | NO | 0 |  |  |
+| [ItemGroupSoundsID](#itemgroupsoundsid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [ContentTuningID](#contenttuningid) | int | signed |  | NO | 0 |  |  |
+| [ModifiedCraftingReagentItemID](#modifiedcraftingreagentitemid) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

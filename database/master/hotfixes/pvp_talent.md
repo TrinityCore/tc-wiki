@@ -2,7 +2,7 @@
 title: pvp_talent
 description: 
 published: true
-date: 2022-01-03T11:26:23.199Z
+date: 2022-02-06T18:26:40.966Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,15 +15,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [Description](#description) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [SpecID](#specid) | int(11) | signed |  | NO | 0 |  |  |
-| [SpellID](#spellid) | int(11) | signed |  | NO | 0 |  |  |
-| [OverridesSpellID](#overridesspellid) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
-| [ActionBarSpellID](#actionbarspellid) | int(11) | signed |  | NO | 0 |  |  |
-| [PvpTalentCategoryID](#pvptalentcategoryid) | int(11) | signed |  | NO | 0 |  |  |
-| [LevelRequired](#levelrequired) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [SpecID](#specid) | int | signed |  | NO | 0 |  |  |
+| [SpellID](#spellid) | int | signed |  | NO | 0 |  |  |
+| [OverridesSpellID](#overridesspellid) | int | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
+| [ActionBarSpellID](#actionbarspellid) | int | signed |  | NO | 0 |  |  |
+| [PvpTalentCategoryID](#pvptalentcategoryid) | int | signed |  | NO | 0 |  |  |
+| [LevelRequired](#levelrequired) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

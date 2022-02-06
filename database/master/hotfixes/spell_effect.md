@@ -2,7 +2,7 @@
 title: spell_effect
 description: 
 published: true
-date: 2022-01-03T11:26:23.212Z
+date: 2022-02-06T18:26:40.980Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,23 +14,23 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [EffectAura](#effectaura) | smallint(6) | signed |  | NO | 0 |  |  |
-| [DifficultyID](#difficultyid) | int(11) | signed |  | NO | 0 |  |  |
-| [EffectIndex](#effectindex) | int(11) | signed |  | NO | 0 |  |  |
-| [Effect](#effect) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [EffectAura](#effectaura) | smallint | signed |  | NO | 0 |  |  |
+| [DifficultyID](#difficultyid) | int | signed |  | NO | 0 |  |  |
+| [EffectIndex](#effectindex) | int | signed |  | NO | 0 |  |  |
+| [Effect](#effect) | int | unsigned |  | NO | 0 |  |  |
 | [EffectAmplitude](#effectamplitude) | float |  |  | NO | 0 |  |  |
-| [EffectAttributes](#effectattributes) | int(11) | signed |  | NO | 0 |  |  |
-| [EffectAuraPeriod](#effectauraperiod) | int(11) | signed |  | NO | 0 |  |  |
+| [EffectAttributes](#effectattributes) | int | signed |  | NO | 0 |  |  |
+| [EffectAuraPeriod](#effectauraperiod) | int | signed |  | NO | 0 |  |  |
 | [EffectBonusCoefficient](#effectbonuscoefficient) | float |  |  | NO | 0 |  |  |
 | [EffectChainAmplitude](#effectchainamplitude) | float |  |  | NO | 0 |  |  |
-| [EffectChainTargets](#effectchaintargets) | int(11) | signed |  | NO | 0 |  |  |
-| [EffectItemType](#effectitemtype) | int(11) | signed |  | NO | 0 |  |  |
-| [EffectMechanic](#effectmechanic) | int(11) | signed |  | NO | 0 |  |  |
+| [EffectChainTargets](#effectchaintargets) | int | signed |  | NO | 0 |  |  |
+| [EffectItemType](#effectitemtype) | int | signed |  | NO | 0 |  |  |
+| [EffectMechanic](#effectmechanic) | int | signed |  | NO | 0 |  |  |
 | [EffectPointsPerResource](#effectpointsperresource) | float |  |  | NO | 0 |  |  |
 | [EffectPosFacing](#effectposfacing) | float |  |  | NO | 0 |  |  |
 | [EffectRealPointsPerLevel](#effectrealpointsperlevel) | float |  |  | NO | 0 |  |  |
-| [EffectTriggerSpell](#effecttriggerspell) | int(11) | signed |  | NO | 0 |  |  |
+| [EffectTriggerSpell](#effecttriggerspell) | int | signed |  | NO | 0 |  |  |
 | [BonusCoefficientFromAP](#bonuscoefficientfromap) | float |  |  | NO | 0 |  |  |
 | [PvpMultiplier](#pvpmultiplier) | float |  |  | NO | 0 |  |  |
 | [Coefficient](#coefficient) | float |  |  | NO | 0 |  |  |
@@ -38,19 +38,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [ResourceCoefficient](#resourcecoefficient) | float |  |  | NO | 0 |  |  |
 | [GroupSizeBasePointsCoefficient](#groupsizebasepointscoefficient) | float |  |  | NO | 0 |  |  |
 | [EffectBasePoints](#effectbasepoints) | float |  |  | NO | 0 |  |  |
-| [ScalingClass](#scalingclass) | int(11) | signed |  | NO | 0 |  |  |
-| [EffectMiscValue1](#effectmiscvalue1) | int(11) | signed |  | NO | 0 |  |  |
-| [EffectMiscValue2](#effectmiscvalue2) | int(11) | signed |  | NO | 0 |  |  |
-| [EffectRadiusIndex1](#effectradiusindex1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [EffectRadiusIndex2](#effectradiusindex2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [EffectSpellClassMask1](#effectspellclassmask1) | int(11) | signed |  | NO | 0 |  |  |
-| [EffectSpellClassMask2](#effectspellclassmask2) | int(11) | signed |  | NO | 0 |  |  |
-| [EffectSpellClassMask3](#effectspellclassmask3) | int(11) | signed |  | NO | 0 |  |  |
-| [EffectSpellClassMask4](#effectspellclassmask4) | int(11) | signed |  | NO | 0 |  |  |
-| [ImplicitTarget1](#implicittarget1) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ImplicitTarget2](#implicittarget2) | smallint(6) | signed |  | NO | 0 |  |  |
-| [SpellID](#spellid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ScalingClass](#scalingclass) | int | signed |  | NO | 0 |  |  |
+| [EffectMiscValue1](#effectmiscvalue1) | int | signed |  | NO | 0 |  |  |
+| [EffectMiscValue2](#effectmiscvalue2) | int | signed |  | NO | 0 |  |  |
+| [EffectRadiusIndex1](#effectradiusindex1) | int | unsigned |  | NO | 0 |  |  |
+| [EffectRadiusIndex2](#effectradiusindex2) | int | unsigned |  | NO | 0 |  |  |
+| [EffectSpellClassMask1](#effectspellclassmask1) | int | signed |  | NO | 0 |  |  |
+| [EffectSpellClassMask2](#effectspellclassmask2) | int | signed |  | NO | 0 |  |  |
+| [EffectSpellClassMask3](#effectspellclassmask3) | int | signed |  | NO | 0 |  |  |
+| [EffectSpellClassMask4](#effectspellclassmask4) | int | signed |  | NO | 0 |  |  |
+| [ImplicitTarget1](#implicittarget1) | smallint | signed |  | NO | 0 |  |  |
+| [ImplicitTarget2](#implicittarget2) | smallint | signed |  | NO | 0 |  |  |
+| [SpellID](#spellid) | int | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: journal_encounter
 description: 
 published: true
-date: 2022-01-03T11:26:23.185Z
+date: 2022-02-06T18:26:40.951Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -18,16 +18,16 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Description](#description) | text |  |  | YES | NULL |  |  |
 | [MapX](#mapx) | float |  |  | NO | 0 |  |  |
 | [MapY](#mapy) | float |  |  | NO | 0 |  |  |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [JournalInstanceID](#journalinstanceid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [DungeonEncounterID](#dungeonencounterid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [OrderIndex](#orderindex) | int(10) | unsigned |  | NO | 0 |  |  |
-| [FirstSectionID](#firstsectionid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [UiMapID](#uimapid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [MapDisplayConditionID](#mapdisplayconditionid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [DifficultyMask](#difficultymask) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [JournalInstanceID](#journalinstanceid) | smallint | unsigned |  | NO | 0 |  |  |
+| [DungeonEncounterID](#dungeonencounterid) | smallint | unsigned |  | NO | 0 |  |  |
+| [OrderIndex](#orderindex) | int | unsigned |  | NO | 0 |  |  |
+| [FirstSectionID](#firstsectionid) | smallint | unsigned |  | NO | 0 |  |  |
+| [UiMapID](#uimapid) | smallint | unsigned |  | NO | 0 |  |  |
+| [MapDisplayConditionID](#mapdisplayconditionid) | int | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
+| [DifficultyMask](#difficultymask) | tinyint | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

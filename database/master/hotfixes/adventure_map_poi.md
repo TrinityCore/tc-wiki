@@ -2,7 +2,7 @@
 title: adventure_map_poi
 description: 
 published: true
-date: 2022-01-03T11:26:23.127Z
+date: 2022-02-06T18:26:40.890Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,21 +14,21 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [Title](#title) | text |  |  | YES | NULL |  |  |
 | [Description](#description) | text |  |  | YES | NULL |  |  |
 | [WorldPositionX](#worldpositionx) | float |  |  | NO | 0 |  |  |
 | [WorldPositionY](#worldpositiony) | float |  |  | NO | 0 |  |  |
-| [Type](#type) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [PlayerConditionID](#playerconditionid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [QuestID](#questid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [LfgDungeonID](#lfgdungeonid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardItemID](#rewarditemid) | int(11) | signed |  | NO | 0 |  |  |
-| [UiTextureAtlasMemberID](#uitextureatlasmemberid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [UiTextureKitID](#uitexturekitid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [MapID](#mapid) | int(11) | signed |  | NO | 0 |  |  |
-| [AreaTableID](#areatableid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [Type](#type) | tinyint | signed |  | NO | 0 |  |  |
+| [PlayerConditionID](#playerconditionid) | int | unsigned |  | NO | 0 |  |  |
+| [QuestID](#questid) | int | unsigned |  | NO | 0 |  |  |
+| [LfgDungeonID](#lfgdungeonid) | int | unsigned |  | NO | 0 |  |  |
+| [RewardItemID](#rewarditemid) | int | signed |  | NO | 0 |  |  |
+| [UiTextureAtlasMemberID](#uitextureatlasmemberid) | int | unsigned |  | NO | 0 |  |  |
+| [UiTextureKitID](#uitexturekitid) | int | unsigned |  | NO | 0 |  |  |
+| [MapID](#mapid) | int | signed |  | NO | 0 |  |  |
+| [AreaTableID](#areatableid) | int | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

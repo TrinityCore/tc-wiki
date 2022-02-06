@@ -2,7 +2,7 @@
 title: spell_item_enchantment
 description: 
 published: true
-date: 2022-01-03T11:26:23.213Z
+date: 2022-02-06T18:26:40.981Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,38 +14,38 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [Name](#name) | text |  |  | YES | NULL |  |  |
 | [HordeName](#hordename) | text |  |  | YES | NULL |  |  |
-| [EffectArg1](#effectarg1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [EffectArg2](#effectarg2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [EffectArg3](#effectarg3) | int(10) | unsigned |  | NO | 0 |  |  |
+| [EffectArg1](#effectarg1) | int | unsigned |  | NO | 0 |  |  |
+| [EffectArg2](#effectarg2) | int | unsigned |  | NO | 0 |  |  |
+| [EffectArg3](#effectarg3) | int | unsigned |  | NO | 0 |  |  |
 | [EffectScalingPoints1](#effectscalingpoints1) | float |  |  | NO | 0 |  |  |
 | [EffectScalingPoints2](#effectscalingpoints2) | float |  |  | NO | 0 |  |  |
 | [EffectScalingPoints3](#effectscalingpoints3) | float |  |  | NO | 0 |  |  |
-| [IconFileDataID](#iconfiledataid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [MinItemLevel](#minitemlevel) | int(11) | signed |  | NO | 0 |  |  |
-| [MaxItemLevel](#maxitemlevel) | int(11) | signed |  | NO | 0 |  |  |
-| [TransmogUseConditionID](#transmoguseconditionid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [TransmogCost](#transmogcost) | int(10) | unsigned |  | NO | 0 |  |  |
-| [EffectPointsMin1](#effectpointsmin1) | smallint(6) | signed |  | NO | 0 |  |  |
-| [EffectPointsMin2](#effectpointsmin2) | smallint(6) | signed |  | NO | 0 |  |  |
-| [EffectPointsMin3](#effectpointsmin3) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ItemVisual](#itemvisual) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [RequiredSkillID](#requiredskillid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [RequiredSkillRank](#requiredskillrank) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ItemLevel](#itemlevel) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Charges](#charges) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Effect1](#effect1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Effect2](#effect2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Effect3](#effect3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ScalingClass](#scalingclass) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [ScalingClassRestricted](#scalingclassrestricted) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [ConditionID](#conditionid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MinLevel](#minlevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MaxLevel](#maxlevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [IconFileDataID](#iconfiledataid) | int | unsigned |  | NO | 0 |  |  |
+| [MinItemLevel](#minitemlevel) | int | signed |  | NO | 0 |  |  |
+| [MaxItemLevel](#maxitemlevel) | int | signed |  | NO | 0 |  |  |
+| [TransmogUseConditionID](#transmoguseconditionid) | int | unsigned |  | NO | 0 |  |  |
+| [TransmogCost](#transmogcost) | int | unsigned |  | NO | 0 |  |  |
+| [EffectPointsMin1](#effectpointsmin1) | smallint | signed |  | NO | 0 |  |  |
+| [EffectPointsMin2](#effectpointsmin2) | smallint | signed |  | NO | 0 |  |  |
+| [EffectPointsMin3](#effectpointsmin3) | smallint | signed |  | NO | 0 |  |  |
+| [ItemVisual](#itemvisual) | smallint | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | smallint | unsigned |  | NO | 0 |  |  |
+| [RequiredSkillID](#requiredskillid) | smallint | unsigned |  | NO | 0 |  |  |
+| [RequiredSkillRank](#requiredskillrank) | smallint | unsigned |  | NO | 0 |  |  |
+| [ItemLevel](#itemlevel) | smallint | unsigned |  | NO | 0 |  |  |
+| [Charges](#charges) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Effect1](#effect1) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Effect2](#effect2) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Effect3](#effect3) | tinyint | unsigned |  | NO | 0 |  |  |
+| [ScalingClass](#scalingclass) | tinyint | signed |  | NO | 0 |  |  |
+| [ScalingClassRestricted](#scalingclassrestricted) | tinyint | signed |  | NO | 0 |  |  |
+| [ConditionID](#conditionid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [MinLevel](#minlevel) | tinyint | unsigned |  | NO | 0 |  |  |
+| [MaxLevel](#maxlevel) | tinyint | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

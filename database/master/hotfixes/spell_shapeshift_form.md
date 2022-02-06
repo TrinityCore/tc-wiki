@@ -2,7 +2,7 @@
 title: spell_shapeshift_form
 description: 
 published: true
-date: 2022-01-03T11:26:23.218Z
+date: 2022-02-06T18:26:40.987Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,28 +14,28 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [Name](#name) | text |  |  | YES | NULL |  |  |
-| [CreatureType](#creaturetype) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
-| [AttackIconFileID](#attackiconfileid) | int(11) | signed |  | NO | 0 |  |  |
-| [BonusActionBar](#bonusactionbar) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [CombatRoundTime](#combatroundtime) | smallint(6) | signed |  | NO | 0 |  |  |
+| [CreatureType](#creaturetype) | tinyint | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
+| [AttackIconFileID](#attackiconfileid) | int | signed |  | NO | 0 |  |  |
+| [BonusActionBar](#bonusactionbar) | tinyint | signed |  | NO | 0 |  |  |
+| [CombatRoundTime](#combatroundtime) | smallint | signed |  | NO | 0 |  |  |
 | [DamageVariance](#damagevariance) | float |  |  | NO | 0 |  |  |
-| [MountTypeID](#mounttypeid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [CreatureDisplayID1](#creaturedisplayid1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [CreatureDisplayID2](#creaturedisplayid2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [CreatureDisplayID3](#creaturedisplayid3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [CreatureDisplayID4](#creaturedisplayid4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [PresetSpellID1](#presetspellid1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [PresetSpellID2](#presetspellid2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [PresetSpellID3](#presetspellid3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [PresetSpellID4](#presetspellid4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [PresetSpellID5](#presetspellid5) | int(10) | unsigned |  | NO | 0 |  |  |
-| [PresetSpellID6](#presetspellid6) | int(10) | unsigned |  | NO | 0 |  |  |
-| [PresetSpellID7](#presetspellid7) | int(10) | unsigned |  | NO | 0 |  |  |
-| [PresetSpellID8](#presetspellid8) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [MountTypeID](#mounttypeid) | smallint | unsigned |  | NO | 0 |  |  |
+| [CreatureDisplayID1](#creaturedisplayid1) | int | unsigned |  | NO | 0 |  |  |
+| [CreatureDisplayID2](#creaturedisplayid2) | int | unsigned |  | NO | 0 |  |  |
+| [CreatureDisplayID3](#creaturedisplayid3) | int | unsigned |  | NO | 0 |  |  |
+| [CreatureDisplayID4](#creaturedisplayid4) | int | unsigned |  | NO | 0 |  |  |
+| [PresetSpellID1](#presetspellid1) | int | unsigned |  | NO | 0 |  |  |
+| [PresetSpellID2](#presetspellid2) | int | unsigned |  | NO | 0 |  |  |
+| [PresetSpellID3](#presetspellid3) | int | unsigned |  | NO | 0 |  |  |
+| [PresetSpellID4](#presetspellid4) | int | unsigned |  | NO | 0 |  |  |
+| [PresetSpellID5](#presetspellid5) | int | unsigned |  | NO | 0 |  |  |
+| [PresetSpellID6](#presetspellid6) | int | unsigned |  | NO | 0 |  |  |
+| [PresetSpellID7](#presetspellid7) | int | unsigned |  | NO | 0 |  |  |
+| [PresetSpellID8](#presetspellid8) | int | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

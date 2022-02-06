@@ -2,7 +2,7 @@
 title: chr_customization_element
 description: 
 published: true
-date: 2022-01-03T11:26:23.146Z
+date: 2022-02-06T18:26:40.911Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,17 +14,17 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ChrCustomizationChoiceID](#chrcustomizationchoiceid) | int(11) | signed |  | NO | 0 |  |  |
-| [RelatedChrCustomizationChoiceID](#relatedchrcustomizationchoiceid) | int(11) | signed |  | NO | 0 |  |  |
-| [ChrCustomizationGeosetID](#chrcustomizationgeosetid) | int(11) | signed |  | NO | 0 |  |  |
-| [ChrCustomizationSkinnedModelID](#chrcustomizationskinnedmodelid) | int(11) | signed |  | NO | 0 |  |  |
-| [ChrCustomizationMaterialID](#chrcustomizationmaterialid) | int(11) | signed |  | NO | 0 |  |  |
-| [ChrCustomizationBoneSetID](#chrcustomizationbonesetid) | int(11) | signed |  | NO | 0 |  |  |
-| [ChrCustomizationCondModelID](#chrcustomizationcondmodelid) | int(11) | signed |  | NO | 0 |  |  |
-| [ChrCustomizationDisplayInfoID](#chrcustomizationdisplayinfoid) | int(11) | signed |  | NO | 0 |  |  |
-| [ChrCustItemGeoModifyID](#chrcustitemgeomodifyid) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ChrCustomizationChoiceID](#chrcustomizationchoiceid) | int | signed |  | NO | 0 |  |  |
+| [RelatedChrCustomizationChoiceID](#relatedchrcustomizationchoiceid) | int | signed |  | NO | 0 |  |  |
+| [ChrCustomizationGeosetID](#chrcustomizationgeosetid) | int | signed |  | NO | 0 |  |  |
+| [ChrCustomizationSkinnedModelID](#chrcustomizationskinnedmodelid) | int | signed |  | NO | 0 |  |  |
+| [ChrCustomizationMaterialID](#chrcustomizationmaterialid) | int | signed |  | NO | 0 |  |  |
+| [ChrCustomizationBoneSetID](#chrcustomizationbonesetid) | int | signed |  | NO | 0 |  |  |
+| [ChrCustomizationCondModelID](#chrcustomizationcondmodelid) | int | signed |  | NO | 0 |  |  |
+| [ChrCustomizationDisplayInfoID](#chrcustomizationdisplayinfoid) | int | signed |  | NO | 0 |  |  |
+| [ChrCustItemGeoModifyID](#chrcustitemgeomodifyid) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

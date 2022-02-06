@@ -2,7 +2,7 @@
 title: item_appearance
 description: 
 published: true
-date: 2022-01-03T11:26:23.174Z
+date: 2022-02-06T18:26:40.938Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [DisplayType](#displaytype) | int(11) | signed |  | NO | 0 |  |  |
-| [ItemDisplayInfoID](#itemdisplayinfoid) | int(11) | signed |  | NO | 0 |  |  |
-| [DefaultIconFileDataID](#defaulticonfiledataid) | int(11) | signed |  | NO | 0 |  |  |
-| [UiOrder](#uiorder) | int(11) | signed |  | NO | 0 |  |  |
-| [PlayerConditionID](#playerconditionid) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [DisplayType](#displaytype) | int | signed |  | NO | 0 |  |  |
+| [ItemDisplayInfoID](#itemdisplayinfoid) | int | signed |  | NO | 0 |  |  |
+| [DefaultIconFileDataID](#defaulticonfiledataid) | int | signed |  | NO | 0 |  |  |
+| [UiOrder](#uiorder) | int | signed |  | NO | 0 |  |  |
+| [PlayerConditionID](#playerconditionid) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

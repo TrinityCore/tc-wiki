@@ -2,7 +2,7 @@
 title: item_sparse
 description: 
 published: true
-date: 2022-01-03T11:26:23.184Z
+date: 2022-02-06T18:26:40.949Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,19 +14,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [AllowableRace](#allowablerace) | bigint(20) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [AllowableRace](#allowablerace) | bigint | signed |  | NO | 0 |  |  |
 | [Description](#description) | text |  |  | YES | NULL |  |  |
 | [Display3](#display3) | text |  |  | YES | NULL |  |  |
 | [Display2](#display2) | text |  |  | YES | NULL |  |  |
 | [Display1](#display1) | text |  |  | YES | NULL |  |  |
 | [Display](#display) | text |  |  | YES | NULL |  |  |
-| [ExpansionID](#expansionid) | int(11) | signed |  | NO | 0 |  |  |
+| [ExpansionID](#expansionid) | int | signed |  | NO | 0 |  |  |
 | [DmgVariance](#dmgvariance) | float |  |  | NO | 0 |  |  |
-| [LimitCategory](#limitcategory) | int(11) | signed |  | NO | 0 |  |  |
-| [DurationInInventory](#durationininventory) | int(10) | unsigned |  | NO | 0 |  |  |
+| [LimitCategory](#limitcategory) | int | signed |  | NO | 0 |  |  |
+| [DurationInInventory](#durationininventory) | int | unsigned |  | NO | 0 |  |  |
 | [QualityModifier](#qualitymodifier) | float |  |  | NO | 0 |  |  |
-| [BagFamily](#bagfamily) | int(10) | unsigned |  | NO | 0 |  |  |
+| [BagFamily](#bagfamily) | int | unsigned |  | NO | 0 |  |  |
 | [ItemRange](#itemrange) | float |  |  | NO | 0 |  |  |
 | [StatPercentageOfSocket1](#statpercentageofsocket1) | float |  |  | NO | 0 |  |  |
 | [StatPercentageOfSocket2](#statpercentageofsocket2) | float |  |  | NO | 0 |  |  |
@@ -38,81 +38,81 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [StatPercentageOfSocket8](#statpercentageofsocket8) | float |  |  | NO | 0 |  |  |
 | [StatPercentageOfSocket9](#statpercentageofsocket9) | float |  |  | NO | 0 |  |  |
 | [StatPercentageOfSocket10](#statpercentageofsocket10) | float |  |  | NO | 0 |  |  |
-| [StatPercentEditor1](#statpercenteditor1) | int(11) | signed |  | NO | 0 |  |  |
-| [StatPercentEditor2](#statpercenteditor2) | int(11) | signed |  | NO | 0 |  |  |
-| [StatPercentEditor3](#statpercenteditor3) | int(11) | signed |  | NO | 0 |  |  |
-| [StatPercentEditor4](#statpercenteditor4) | int(11) | signed |  | NO | 0 |  |  |
-| [StatPercentEditor5](#statpercenteditor5) | int(11) | signed |  | NO | 0 |  |  |
-| [StatPercentEditor6](#statpercenteditor6) | int(11) | signed |  | NO | 0 |  |  |
-| [StatPercentEditor7](#statpercenteditor7) | int(11) | signed |  | NO | 0 |  |  |
-| [StatPercentEditor8](#statpercenteditor8) | int(11) | signed |  | NO | 0 |  |  |
-| [StatPercentEditor9](#statpercenteditor9) | int(11) | signed |  | NO | 0 |  |  |
-| [StatPercentEditor10](#statpercenteditor10) | int(11) | signed |  | NO | 0 |  |  |
-| [Stackable](#stackable) | int(11) | signed |  | NO | 0 |  |  |
-| [MaxCount](#maxcount) | int(11) | signed |  | NO | 0 |  |  |
-| [RequiredAbility](#requiredability) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SellPrice](#sellprice) | int(10) | unsigned |  | NO | 0 |  |  |
-| [BuyPrice](#buyprice) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VendorStackCount](#vendorstackcount) | int(10) | unsigned |  | NO | 0 |  |  |
+| [StatPercentEditor1](#statpercenteditor1) | int | signed |  | NO | 0 |  |  |
+| [StatPercentEditor2](#statpercenteditor2) | int | signed |  | NO | 0 |  |  |
+| [StatPercentEditor3](#statpercenteditor3) | int | signed |  | NO | 0 |  |  |
+| [StatPercentEditor4](#statpercenteditor4) | int | signed |  | NO | 0 |  |  |
+| [StatPercentEditor5](#statpercenteditor5) | int | signed |  | NO | 0 |  |  |
+| [StatPercentEditor6](#statpercenteditor6) | int | signed |  | NO | 0 |  |  |
+| [StatPercentEditor7](#statpercenteditor7) | int | signed |  | NO | 0 |  |  |
+| [StatPercentEditor8](#statpercenteditor8) | int | signed |  | NO | 0 |  |  |
+| [StatPercentEditor9](#statpercenteditor9) | int | signed |  | NO | 0 |  |  |
+| [StatPercentEditor10](#statpercenteditor10) | int | signed |  | NO | 0 |  |  |
+| [Stackable](#stackable) | int | signed |  | NO | 0 |  |  |
+| [MaxCount](#maxcount) | int | signed |  | NO | 0 |  |  |
+| [RequiredAbility](#requiredability) | int | unsigned |  | NO | 0 |  |  |
+| [SellPrice](#sellprice) | int | unsigned |  | NO | 0 |  |  |
+| [BuyPrice](#buyprice) | int | unsigned |  | NO | 0 |  |  |
+| [VendorStackCount](#vendorstackcount) | int | unsigned |  | NO | 0 |  |  |
 | [PriceVariance](#pricevariance) | float |  |  | NO | 0 |  |  |
 | [PriceRandomValue](#pricerandomvalue) | float |  |  | NO | 0 |  |  |
-| [Flags1](#flags1) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags2](#flags2) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags3](#flags3) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags4](#flags4) | int(11) | signed |  | NO | 0 |  |  |
-| [FactionRelated](#factionrelated) | int(11) | signed |  | NO | 0 |  |  |
-| [ModifiedCraftingReagentItemID](#modifiedcraftingreagentitemid) | int(11) | signed |  | NO | 0 |  |  |
-| [ContentTuningID](#contenttuningid) | int(11) | signed |  | NO | 0 |  |  |
-| [PlayerLevelToItemLevelCurveID](#playerleveltoitemlevelcurveid) | int(11) | signed |  | NO | 0 |  |  |
-| [ItemNameDescriptionID](#itemnamedescriptionid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [RequiredTransmogHoliday](#requiredtransmogholiday) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [RequiredHoliday](#requiredholiday) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [GemProperties](#gemproperties) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [SocketMatchEnchantmentId](#socketmatchenchantmentid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [TotemCategoryID](#totemcategoryid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [InstanceBound](#instancebound) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ZoneBound1](#zonebound1) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ZoneBound2](#zonebound2) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ItemSet](#itemset) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [LockID](#lockid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [StartQuestID](#startquestid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [PageID](#pageid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ItemDelay](#itemdelay) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [MinFactionID](#minfactionid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [RequiredSkillRank](#requiredskillrank) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [RequiredSkill](#requiredskill) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ItemLevel](#itemlevel) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [AllowableClass](#allowableclass) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ArtifactID](#artifactid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SpellWeight](#spellweight) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SpellWeightCategory](#spellweightcategory) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SocketType1](#sockettype1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SocketType2](#sockettype2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SocketType3](#sockettype3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SheatheType](#sheathetype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Material](#material) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [PageMaterialID](#pagematerialid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [LanguageID](#languageid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Bonding](#bonding) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [DamageDamageType](#damagedamagetype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [StatModifierBonusStat1](#statmodifierbonusstat1) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [StatModifierBonusStat2](#statmodifierbonusstat2) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [StatModifierBonusStat3](#statmodifierbonusstat3) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [StatModifierBonusStat4](#statmodifierbonusstat4) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [StatModifierBonusStat5](#statmodifierbonusstat5) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [StatModifierBonusStat6](#statmodifierbonusstat6) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [StatModifierBonusStat7](#statmodifierbonusstat7) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [StatModifierBonusStat8](#statmodifierbonusstat8) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [StatModifierBonusStat9](#statmodifierbonusstat9) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [StatModifierBonusStat10](#statmodifierbonusstat10) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [ContainerSlots](#containerslots) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MinReputation](#minreputation) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [RequiredPVPMedal](#requiredpvpmedal) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [RequiredPVPRank](#requiredpvprank) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [RequiredLevel](#requiredlevel) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [InventoryType](#inventorytype) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [OverallQualityID](#overallqualityid) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [Flags1](#flags1) | int | signed |  | NO | 0 |  |  |
+| [Flags2](#flags2) | int | signed |  | NO | 0 |  |  |
+| [Flags3](#flags3) | int | signed |  | NO | 0 |  |  |
+| [Flags4](#flags4) | int | signed |  | NO | 0 |  |  |
+| [FactionRelated](#factionrelated) | int | signed |  | NO | 0 |  |  |
+| [ModifiedCraftingReagentItemID](#modifiedcraftingreagentitemid) | int | signed |  | NO | 0 |  |  |
+| [ContentTuningID](#contenttuningid) | int | signed |  | NO | 0 |  |  |
+| [PlayerLevelToItemLevelCurveID](#playerleveltoitemlevelcurveid) | int | signed |  | NO | 0 |  |  |
+| [ItemNameDescriptionID](#itemnamedescriptionid) | smallint | unsigned |  | NO | 0 |  |  |
+| [RequiredTransmogHoliday](#requiredtransmogholiday) | smallint | unsigned |  | NO | 0 |  |  |
+| [RequiredHoliday](#requiredholiday) | smallint | unsigned |  | NO | 0 |  |  |
+| [GemProperties](#gemproperties) | smallint | unsigned |  | NO | 0 |  |  |
+| [SocketMatchEnchantmentId](#socketmatchenchantmentid) | smallint | unsigned |  | NO | 0 |  |  |
+| [TotemCategoryID](#totemcategoryid) | smallint | unsigned |  | NO | 0 |  |  |
+| [InstanceBound](#instancebound) | smallint | unsigned |  | NO | 0 |  |  |
+| [ZoneBound1](#zonebound1) | smallint | unsigned |  | NO | 0 |  |  |
+| [ZoneBound2](#zonebound2) | smallint | unsigned |  | NO | 0 |  |  |
+| [ItemSet](#itemset) | smallint | unsigned |  | NO | 0 |  |  |
+| [LockID](#lockid) | smallint | unsigned |  | NO | 0 |  |  |
+| [StartQuestID](#startquestid) | smallint | unsigned |  | NO | 0 |  |  |
+| [PageID](#pageid) | smallint | unsigned |  | NO | 0 |  |  |
+| [ItemDelay](#itemdelay) | smallint | unsigned |  | NO | 0 |  |  |
+| [MinFactionID](#minfactionid) | smallint | unsigned |  | NO | 0 |  |  |
+| [RequiredSkillRank](#requiredskillrank) | smallint | unsigned |  | NO | 0 |  |  |
+| [RequiredSkill](#requiredskill) | smallint | unsigned |  | NO | 0 |  |  |
+| [ItemLevel](#itemlevel) | smallint | unsigned |  | NO | 0 |  |  |
+| [AllowableClass](#allowableclass) | smallint | signed |  | NO | 0 |  |  |
+| [ArtifactID](#artifactid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [SpellWeight](#spellweight) | tinyint | unsigned |  | NO | 0 |  |  |
+| [SpellWeightCategory](#spellweightcategory) | tinyint | unsigned |  | NO | 0 |  |  |
+| [SocketType1](#sockettype1) | tinyint | unsigned |  | NO | 0 |  |  |
+| [SocketType2](#sockettype2) | tinyint | unsigned |  | NO | 0 |  |  |
+| [SocketType3](#sockettype3) | tinyint | unsigned |  | NO | 0 |  |  |
+| [SheatheType](#sheathetype) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Material](#material) | tinyint | unsigned |  | NO | 0 |  |  |
+| [PageMaterialID](#pagematerialid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [LanguageID](#languageid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Bonding](#bonding) | tinyint | unsigned |  | NO | 0 |  |  |
+| [DamageDamageType](#damagedamagetype) | tinyint | unsigned |  | NO | 0 |  |  |
+| [StatModifierBonusStat1](#statmodifierbonusstat1) | tinyint | signed |  | NO | 0 |  |  |
+| [StatModifierBonusStat2](#statmodifierbonusstat2) | tinyint | signed |  | NO | 0 |  |  |
+| [StatModifierBonusStat3](#statmodifierbonusstat3) | tinyint | signed |  | NO | 0 |  |  |
+| [StatModifierBonusStat4](#statmodifierbonusstat4) | tinyint | signed |  | NO | 0 |  |  |
+| [StatModifierBonusStat5](#statmodifierbonusstat5) | tinyint | signed |  | NO | 0 |  |  |
+| [StatModifierBonusStat6](#statmodifierbonusstat6) | tinyint | signed |  | NO | 0 |  |  |
+| [StatModifierBonusStat7](#statmodifierbonusstat7) | tinyint | signed |  | NO | 0 |  |  |
+| [StatModifierBonusStat8](#statmodifierbonusstat8) | tinyint | signed |  | NO | 0 |  |  |
+| [StatModifierBonusStat9](#statmodifierbonusstat9) | tinyint | signed |  | NO | 0 |  |  |
+| [StatModifierBonusStat10](#statmodifierbonusstat10) | tinyint | signed |  | NO | 0 |  |  |
+| [ContainerSlots](#containerslots) | tinyint | unsigned |  | NO | 0 |  |  |
+| [MinReputation](#minreputation) | tinyint | unsigned |  | NO | 0 |  |  |
+| [RequiredPVPMedal](#requiredpvpmedal) | tinyint | unsigned |  | NO | 0 |  |  |
+| [RequiredPVPRank](#requiredpvprank) | tinyint | unsigned |  | NO | 0 |  |  |
+| [RequiredLevel](#requiredlevel) | tinyint | signed |  | NO | 0 |  |  |
+| [InventoryType](#inventorytype) | tinyint | signed |  | NO | 0 |  |  |
+| [OverallQualityID](#overallqualityid) | tinyint | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: override_spell_data
 description: 
 published: true
-date: 2022-01-03T11:26:23.196Z
+date: 2022-02-06T18:26:40.962Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,20 +14,20 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Spells1](#spells1) | int(11) | signed |  | NO | 0 |  |  |
-| [Spells2](#spells2) | int(11) | signed |  | NO | 0 |  |  |
-| [Spells3](#spells3) | int(11) | signed |  | NO | 0 |  |  |
-| [Spells4](#spells4) | int(11) | signed |  | NO | 0 |  |  |
-| [Spells5](#spells5) | int(11) | signed |  | NO | 0 |  |  |
-| [Spells6](#spells6) | int(11) | signed |  | NO | 0 |  |  |
-| [Spells7](#spells7) | int(11) | signed |  | NO | 0 |  |  |
-| [Spells8](#spells8) | int(11) | signed |  | NO | 0 |  |  |
-| [Spells9](#spells9) | int(11) | signed |  | NO | 0 |  |  |
-| [Spells10](#spells10) | int(11) | signed |  | NO | 0 |  |  |
-| [PlayerActionBarFileDataID](#playeractionbarfiledataid) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [Spells1](#spells1) | int | signed |  | NO | 0 |  |  |
+| [Spells2](#spells2) | int | signed |  | NO | 0 |  |  |
+| [Spells3](#spells3) | int | signed |  | NO | 0 |  |  |
+| [Spells4](#spells4) | int | signed |  | NO | 0 |  |  |
+| [Spells5](#spells5) | int | signed |  | NO | 0 |  |  |
+| [Spells6](#spells6) | int | signed |  | NO | 0 |  |  |
+| [Spells7](#spells7) | int | signed |  | NO | 0 |  |  |
+| [Spells8](#spells8) | int | signed |  | NO | 0 |  |  |
+| [Spells9](#spells9) | int | signed |  | NO | 0 |  |  |
+| [Spells10](#spells10) | int | signed |  | NO | 0 |  |  |
+| [PlayerActionBarFileDataID](#playeractionbarfiledataid) | int | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

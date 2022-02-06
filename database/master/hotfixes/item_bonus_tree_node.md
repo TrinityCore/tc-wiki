@@ -2,7 +2,7 @@
 title: item_bonus_tree_node
 description: 
 published: true
-date: 2022-01-03T11:26:23.176Z
+date: 2022-02-06T18:26:40.941Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,15 +14,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ItemContext](#itemcontext) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ChildItemBonusTreeID](#childitembonustreeid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ChildItemBonusListID](#childitembonuslistid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ChildItemLevelSelectorID](#childitemlevelselectorid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ItemBonusListGroupID](#itembonuslistgroupid) | int(11) | signed |  | NO | 0 |  |  |
-| [ParentItemBonusTreeNodeID](#parentitembonustreenodeid) | int(11) | signed |  | NO | 0 |  |  |
-| [ParentItemBonusTreeID](#parentitembonustreeid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ItemContext](#itemcontext) | tinyint | unsigned |  | NO | 0 |  |  |
+| [ChildItemBonusTreeID](#childitembonustreeid) | smallint | unsigned |  | NO | 0 |  |  |
+| [ChildItemBonusListID](#childitembonuslistid) | smallint | unsigned |  | NO | 0 |  |  |
+| [ChildItemLevelSelectorID](#childitemlevelselectorid) | smallint | unsigned |  | NO | 0 |  |  |
+| [ItemBonusListGroupID](#itembonuslistgroupid) | int | signed |  | NO | 0 |  |  |
+| [ParentItemBonusTreeNodeID](#parentitembonustreenodeid) | int | signed |  | NO | 0 |  |  |
+| [ParentItemBonusTreeID](#parentitembonustreeid) | int | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

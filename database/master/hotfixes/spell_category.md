@@ -2,7 +2,7 @@
 title: spell_category
 description: 
 published: true
-date: 2022-01-03T11:26:23.210Z
+date: 2022-02-06T18:26:40.979Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,14 +14,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [Name](#name) | text |  |  | YES | NULL |  |  |
-| [Flags](#flags) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [UsesPerWeek](#usesperweek) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MaxCharges](#maxcharges) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [ChargeRecoveryTime](#chargerecoverytime) | int(11) | signed |  | NO | 0 |  |  |
-| [TypeMask](#typemask) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [Flags](#flags) | tinyint | signed |  | NO | 0 |  |  |
+| [UsesPerWeek](#usesperweek) | tinyint | unsigned |  | NO | 0 |  |  |
+| [MaxCharges](#maxcharges) | tinyint | signed |  | NO | 0 |  |  |
+| [ChargeRecoveryTime](#chargerecoverytime) | int | signed |  | NO | 0 |  |  |
+| [TypeMask](#typemask) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

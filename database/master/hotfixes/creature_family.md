@@ -2,7 +2,7 @@
 title: creature_family
 description: 
 published: true
-date: 2022-01-03T11:26:23.153Z
+date: 2022-02-06T18:26:40.918Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [Name](#name) | text |  |  | YES | NULL |  |  |
 | [MinScale](#minscale) | float |  |  | NO | 0 |  |  |
-| [MinScaleLevel](#minscalelevel) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [MinScaleLevel](#minscalelevel) | tinyint | signed |  | NO | 0 |  |  |
 | [MaxScale](#maxscale) | float |  |  | NO | 0 |  |  |
-| [MaxScaleLevel](#maxscalelevel) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [PetFoodMask](#petfoodmask) | smallint(6) | signed |  | NO | 0 |  |  |
-| [PetTalentType](#pettalenttype) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [IconFileID](#iconfileid) | int(11) | signed |  | NO | 0 |  |  |
-| [SkillLine1](#skillline1) | smallint(6) | signed |  | NO | 0 |  |  |
-| [SkillLine2](#skillline2) | smallint(6) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [MaxScaleLevel](#maxscalelevel) | tinyint | signed |  | NO | 0 |  |  |
+| [PetFoodMask](#petfoodmask) | smallint | signed |  | NO | 0 |  |  |
+| [PetTalentType](#pettalenttype) | tinyint | signed |  | NO | 0 |  |  |
+| [IconFileID](#iconfileid) | int | signed |  | NO | 0 |  |  |
+| [SkillLine1](#skillline1) | smallint | signed |  | NO | 0 |  |  |
+| [SkillLine2](#skillline2) | smallint | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

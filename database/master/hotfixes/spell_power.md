@@ -2,7 +2,7 @@
 title: spell_power
 description: 
 published: true
-date: 2022-01-03T11:26:23.215Z
+date: 2022-02-06T18:26:40.984Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,21 +14,21 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [OrderIndex](#orderindex) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ManaCost](#manacost) | int(11) | signed |  | NO | 0 |  |  |
-| [ManaCostPerLevel](#manacostperlevel) | int(11) | signed |  | NO | 0 |  |  |
-| [ManaPerSecond](#manapersecond) | int(11) | signed |  | NO | 0 |  |  |
-| [PowerDisplayID](#powerdisplayid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [AltPowerBarID](#altpowerbarid) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [OrderIndex](#orderindex) | tinyint | unsigned |  | NO | 0 |  |  |
+| [ManaCost](#manacost) | int | signed |  | NO | 0 |  |  |
+| [ManaCostPerLevel](#manacostperlevel) | int | signed |  | NO | 0 |  |  |
+| [ManaPerSecond](#manapersecond) | int | signed |  | NO | 0 |  |  |
+| [PowerDisplayID](#powerdisplayid) | int | unsigned |  | NO | 0 |  |  |
+| [AltPowerBarID](#altpowerbarid) | int | signed |  | NO | 0 |  |  |
 | [PowerCostPct](#powercostpct) | float |  |  | NO | 0 |  |  |
 | [PowerCostMaxPct](#powercostmaxpct) | float |  |  | NO | 0 |  |  |
 | [PowerPctPerSecond](#powerpctpersecond) | float |  |  | NO | 0 |  |  |
-| [PowerType](#powertype) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [RequiredAuraSpellID](#requiredauraspellid) | int(11) | signed |  | NO | 0 |  |  |
-| [OptionalCost](#optionalcost) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SpellID](#spellid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [PowerType](#powertype) | tinyint | signed |  | NO | 0 |  |  |
+| [RequiredAuraSpellID](#requiredauraspellid) | int | signed |  | NO | 0 |  |  |
+| [OptionalCost](#optionalcost) | int | unsigned |  | NO | 0 |  |  |
+| [SpellID](#spellid) | int | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

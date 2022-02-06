@@ -2,7 +2,7 @@
 title: item_level_selector_quality
 description: 
 published: true
-date: 2022-01-03T11:26:23.180Z
+date: 2022-02-06T18:26:40.944Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [QualityItemBonusListID](#qualityitembonuslistid) | int(11) | signed |  | NO | 0 |  |  |
-| [Quality](#quality) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [ParentILSQualitySetID](#parentilsqualitysetid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [QualityItemBonusListID](#qualityitembonuslistid) | int | signed |  | NO | 0 |  |  |
+| [Quality](#quality) | tinyint | signed |  | NO | 0 |  |  |
+| [ParentILSQualitySetID](#parentilsqualitysetid) | int | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

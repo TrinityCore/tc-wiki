@@ -2,7 +2,7 @@
 title: vehicle_seat
 description: 
 published: true
-date: 2022-01-03T11:26:23.229Z
+date: 2022-02-06T18:26:40.999Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,17 +14,17 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [AttachmentOffsetX](#attachmentoffsetx) | float |  |  | NO | 0 |  |  |
 | [AttachmentOffsetY](#attachmentoffsety) | float |  |  | NO | 0 |  |  |
 | [AttachmentOffsetZ](#attachmentoffsetz) | float |  |  | NO | 0 |  |  |
 | [CameraOffsetX](#cameraoffsetx) | float |  |  | NO | 0 |  |  |
 | [CameraOffsetY](#cameraoffsety) | float |  |  | NO | 0 |  |  |
 | [CameraOffsetZ](#cameraoffsetz) | float |  |  | NO | 0 |  |  |
-| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
-| [FlagsB](#flagsb) | int(11) | signed |  | NO | 0 |  |  |
-| [FlagsC](#flagsc) | int(11) | signed |  | NO | 0 |  |  |
-| [AttachmentID](#attachmentid) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
+| [FlagsB](#flagsb) | int | signed |  | NO | 0 |  |  |
+| [FlagsC](#flagsc) | int | signed |  | NO | 0 |  |  |
+| [AttachmentID](#attachmentid) | tinyint | signed |  | NO | 0 |  |  |
 | [EnterPreDelay](#enterpredelay) | float |  |  | NO | 0 |  |  |
 | [EnterSpeed](#enterspeed) | float |  |  | NO | 0 |  |  |
 | [EnterGravity](#entergravity) | float |  |  | NO | 0 |  |  |
@@ -32,12 +32,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [EnterMaxDuration](#entermaxduration) | float |  |  | NO | 0 |  |  |
 | [EnterMinArcHeight](#enterminarcheight) | float |  |  | NO | 0 |  |  |
 | [EnterMaxArcHeight](#entermaxarcheight) | float |  |  | NO | 0 |  |  |
-| [EnterAnimStart](#enteranimstart) | int(11) | signed |  | NO | 0 |  |  |
-| [EnterAnimLoop](#enteranimloop) | int(11) | signed |  | NO | 0 |  |  |
-| [RideAnimStart](#rideanimstart) | int(11) | signed |  | NO | 0 |  |  |
-| [RideAnimLoop](#rideanimloop) | int(11) | signed |  | NO | 0 |  |  |
-| [RideUpperAnimStart](#rideupperanimstart) | int(11) | signed |  | NO | 0 |  |  |
-| [RideUpperAnimLoop](#rideupperanimloop) | int(11) | signed |  | NO | 0 |  |  |
+| [EnterAnimStart](#enteranimstart) | int | signed |  | NO | 0 |  |  |
+| [EnterAnimLoop](#enteranimloop) | int | signed |  | NO | 0 |  |  |
+| [RideAnimStart](#rideanimstart) | int | signed |  | NO | 0 |  |  |
+| [RideAnimLoop](#rideanimloop) | int | signed |  | NO | 0 |  |  |
+| [RideUpperAnimStart](#rideupperanimstart) | int | signed |  | NO | 0 |  |  |
+| [RideUpperAnimLoop](#rideupperanimloop) | int | signed |  | NO | 0 |  |  |
 | [ExitPreDelay](#exitpredelay) | float |  |  | NO | 0 |  |  |
 | [ExitSpeed](#exitspeed) | float |  |  | NO | 0 |  |  |
 | [ExitGravity](#exitgravity) | float |  |  | NO | 0 |  |  |
@@ -45,25 +45,25 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [ExitMaxDuration](#exitmaxduration) | float |  |  | NO | 0 |  |  |
 | [ExitMinArcHeight](#exitminarcheight) | float |  |  | NO | 0 |  |  |
 | [ExitMaxArcHeight](#exitmaxarcheight) | float |  |  | NO | 0 |  |  |
-| [ExitAnimStart](#exitanimstart) | int(11) | signed |  | NO | 0 |  |  |
-| [ExitAnimLoop](#exitanimloop) | int(11) | signed |  | NO | 0 |  |  |
-| [ExitAnimEnd](#exitanimend) | int(11) | signed |  | NO | 0 |  |  |
-| [VehicleEnterAnim](#vehicleenteranim) | smallint(6) | signed |  | NO | 0 |  |  |
-| [VehicleEnterAnimBone](#vehicleenteranimbone) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [VehicleExitAnim](#vehicleexitanim) | smallint(6) | signed |  | NO | 0 |  |  |
-| [VehicleExitAnimBone](#vehicleexitanimbone) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [VehicleRideAnimLoop](#vehiclerideanimloop) | smallint(6) | signed |  | NO | 0 |  |  |
-| [VehicleRideAnimLoopBone](#vehiclerideanimloopbone) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [PassengerAttachmentID](#passengerattachmentid) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [ExitAnimStart](#exitanimstart) | int | signed |  | NO | 0 |  |  |
+| [ExitAnimLoop](#exitanimloop) | int | signed |  | NO | 0 |  |  |
+| [ExitAnimEnd](#exitanimend) | int | signed |  | NO | 0 |  |  |
+| [VehicleEnterAnim](#vehicleenteranim) | smallint | signed |  | NO | 0 |  |  |
+| [VehicleEnterAnimBone](#vehicleenteranimbone) | tinyint | signed |  | NO | 0 |  |  |
+| [VehicleExitAnim](#vehicleexitanim) | smallint | signed |  | NO | 0 |  |  |
+| [VehicleExitAnimBone](#vehicleexitanimbone) | tinyint | signed |  | NO | 0 |  |  |
+| [VehicleRideAnimLoop](#vehiclerideanimloop) | smallint | signed |  | NO | 0 |  |  |
+| [VehicleRideAnimLoopBone](#vehiclerideanimloopbone) | tinyint | signed |  | NO | 0 |  |  |
+| [PassengerAttachmentID](#passengerattachmentid) | tinyint | signed |  | NO | 0 |  |  |
 | [PassengerYaw](#passengeryaw) | float |  |  | NO | 0 |  |  |
 | [PassengerPitch](#passengerpitch) | float |  |  | NO | 0 |  |  |
 | [PassengerRoll](#passengerroll) | float |  |  | NO | 0 |  |  |
 | [VehicleEnterAnimDelay](#vehicleenteranimdelay) | float |  |  | NO | 0 |  |  |
 | [VehicleExitAnimDelay](#vehicleexitanimdelay) | float |  |  | NO | 0 |  |  |
-| [VehicleAbilityDisplay](#vehicleabilitydisplay) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [EnterUISoundID](#enteruisoundid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ExitUISoundID](#exituisoundid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [UiSkinFileDataID](#uiskinfiledataid) | int(11) | signed |  | NO | 0 |  |  |
+| [VehicleAbilityDisplay](#vehicleabilitydisplay) | tinyint | signed |  | NO | 0 |  |  |
+| [EnterUISoundID](#enteruisoundid) | int | unsigned |  | NO | 0 |  |  |
+| [ExitUISoundID](#exituisoundid) | int | unsigned |  | NO | 0 |  |  |
+| [UiSkinFileDataID](#uiskinfiledataid) | int | signed |  | NO | 0 |  |  |
 | [CameraEnteringDelay](#cameraenteringdelay) | float |  |  | NO | 0 |  |  |
 | [CameraEnteringDuration](#cameraenteringduration) | float |  |  | NO | 0 |  |  |
 | [CameraExitingDelay](#cameraexitingdelay) | float |  |  | NO | 0 |  |  |
@@ -73,14 +73,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [CameraEnteringZoom](#cameraenteringzoom) | float |  |  | NO | 0 |  |  |
 | [CameraSeatZoomMin](#cameraseatzoommin) | float |  |  | NO | 0 |  |  |
 | [CameraSeatZoomMax](#cameraseatzoommax) | float |  |  | NO | 0 |  |  |
-| [EnterAnimKitID](#enteranimkitid) | smallint(6) | signed |  | NO | 0 |  |  |
-| [RideAnimKitID](#rideanimkitid) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ExitAnimKitID](#exitanimkitid) | smallint(6) | signed |  | NO | 0 |  |  |
-| [VehicleEnterAnimKitID](#vehicleenteranimkitid) | smallint(6) | signed |  | NO | 0 |  |  |
-| [VehicleRideAnimKitID](#vehiclerideanimkitid) | smallint(6) | signed |  | NO | 0 |  |  |
-| [VehicleExitAnimKitID](#vehicleexitanimkitid) | smallint(6) | signed |  | NO | 0 |  |  |
-| [CameraModeID](#cameramodeid) | smallint(6) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [EnterAnimKitID](#enteranimkitid) | smallint | signed |  | NO | 0 |  |  |
+| [RideAnimKitID](#rideanimkitid) | smallint | signed |  | NO | 0 |  |  |
+| [ExitAnimKitID](#exitanimkitid) | smallint | signed |  | NO | 0 |  |  |
+| [VehicleEnterAnimKitID](#vehicleenteranimkitid) | smallint | signed |  | NO | 0 |  |  |
+| [VehicleRideAnimKitID](#vehiclerideanimkitid) | smallint | signed |  | NO | 0 |  |  |
+| [VehicleExitAnimKitID](#vehicleexitanimkitid) | smallint | signed |  | NO | 0 |  |  |
+| [CameraModeID](#cameramodeid) | smallint | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

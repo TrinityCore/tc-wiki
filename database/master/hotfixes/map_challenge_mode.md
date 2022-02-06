@@ -2,7 +2,7 @@
 title: map_challenge_mode
 description: 
 published: true
-date: 2022-01-03T11:26:23.191Z
+date: 2022-02-06T18:26:40.957Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,15 +15,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [Name](#name) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [MapID](#mapid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ExpansionLevel](#expansionlevel) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RequiredWorldStateID](#requiredworldstateid) | int(11) | signed |  | NO | 0 |  |  |
-| [CriteriaCount1](#criteriacount1) | smallint(6) | signed |  | NO | 0 |  |  |
-| [CriteriaCount2](#criteriacount2) | smallint(6) | signed |  | NO | 0 |  |  |
-| [CriteriaCount3](#criteriacount3) | smallint(6) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [MapID](#mapid) | smallint | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
+| [ExpansionLevel](#expansionlevel) | int | unsigned |  | NO | 0 |  |  |
+| [RequiredWorldStateID](#requiredworldstateid) | int | signed |  | NO | 0 |  |  |
+| [CriteriaCount1](#criteriacount1) | smallint | signed |  | NO | 0 |  |  |
+| [CriteriaCount2](#criteriacount2) | smallint | signed |  | NO | 0 |  |  |
+| [CriteriaCount3](#criteriacount3) | smallint | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

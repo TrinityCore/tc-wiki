@@ -2,7 +2,7 @@
 title: sound_kit
 description: 
 published: true
-date: 2022-01-03T11:26:23.208Z
+date: 2022-02-06T18:26:40.976Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,23 +14,23 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [SoundType](#soundtype) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [SoundType](#soundtype) | int | signed |  | NO | 0 |  |  |
 | [VolumeFloat](#volumefloat) | float |  |  | NO | 0 |  |  |
-| [Flags](#flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | smallint | unsigned |  | NO | 0 |  |  |
 | [MinDistance](#mindistance) | float |  |  | NO | 0 |  |  |
 | [DistanceCutoff](#distancecutoff) | float |  |  | NO | 0 |  |  |
-| [EAXDef](#eaxdef) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SoundKitAdvancedID](#soundkitadvancedid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [EAXDef](#eaxdef) | tinyint | unsigned |  | NO | 0 |  |  |
+| [SoundKitAdvancedID](#soundkitadvancedid) | int | unsigned |  | NO | 0 |  |  |
 | [VolumeVariationPlus](#volumevariationplus) | float |  |  | NO | 0 |  |  |
 | [VolumeVariationMinus](#volumevariationminus) | float |  |  | NO | 0 |  |  |
 | [PitchVariationPlus](#pitchvariationplus) | float |  |  | NO | 0 |  |  |
 | [PitchVariationMinus](#pitchvariationminus) | float |  |  | NO | 0 |  |  |
-| [DialogType](#dialogtype) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [DialogType](#dialogtype) | tinyint | signed |  | NO | 0 |  |  |
 | [PitchAdjust](#pitchadjust) | float |  |  | NO | 0 |  |  |
-| [BusOverwriteID](#busoverwriteid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [MaxInstances](#maxinstances) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [BusOverwriteID](#busoverwriteid) | smallint | unsigned |  | NO | 0 |  |  |
+| [MaxInstances](#maxinstances) | tinyint | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

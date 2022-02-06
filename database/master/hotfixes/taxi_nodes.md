@@ -2,7 +2,7 @@
 title: taxi_nodes
 description: 
 published: true
-date: 2022-01-03T11:26:23.221Z
+date: 2022-02-06T18:26:40.991Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -22,19 +22,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [MapOffsetY](#mapoffsety) | float |  |  | NO | 0 |  |  |
 | [FlightMapOffsetX](#flightmapoffsetx) | float |  |  | NO | 0 |  |  |
 | [FlightMapOffsetY](#flightmapoffsety) | float |  |  | NO | 0 |  |  |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ContinentID](#continentid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ConditionID](#conditionid) | int(11) | signed |  | NO | 0 |  |  |
-| [CharacterBitNumber](#characterbitnumber) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [UiTextureKitID](#uitexturekitid) | int(11) | signed |  | NO | 0 |  |  |
-| [MinimapAtlasMemberID](#minimapatlasmemberid) | int(11) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ContinentID](#continentid) | smallint | unsigned |  | NO | 0 |  |  |
+| [ConditionID](#conditionid) | int | signed |  | NO | 0 |  |  |
+| [CharacterBitNumber](#characterbitnumber) | smallint | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
+| [UiTextureKitID](#uitexturekitid) | int | signed |  | NO | 0 |  |  |
+| [MinimapAtlasMemberID](#minimapatlasmemberid) | int | signed |  | NO | 0 |  |  |
 | [Facing](#facing) | float |  |  | NO | 0 |  |  |
-| [SpecialIconConditionID](#specialiconconditionid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VisibilityConditionID](#visibilityconditionid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [MountCreatureID1](#mountcreatureid1) | int(11) | signed |  | NO | 0 |  |  |
-| [MountCreatureID2](#mountcreatureid2) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [SpecialIconConditionID](#specialiconconditionid) | int | unsigned |  | NO | 0 |  |  |
+| [VisibilityConditionID](#visibilityconditionid) | int | unsigned |  | NO | 0 |  |  |
+| [MountCreatureID1](#mountcreatureid1) | int | signed |  | NO | 0 |  |  |
+| [MountCreatureID2](#mountcreatureid2) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

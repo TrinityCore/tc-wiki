@@ -2,7 +2,7 @@
 title: battle_pet_species
 description: 
 published: true
-date: 2022-01-03T11:26:23.141Z
+date: 2022-02-06T18:26:40.904Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,17 +16,17 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [Description](#description) | text |  |  | YES | NULL |  |  |
 | [SourceText](#sourcetext) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [CreatureID](#creatureid) | int(11) | signed |  | NO | 0 |  |  |
-| [SummonSpellID](#summonspellid) | int(11) | signed |  | NO | 0 |  |  |
-| [IconFileDataID](#iconfiledataid) | int(11) | signed |  | NO | 0 |  |  |
-| [PetTypeEnum](#pettypeenum) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Flags](#flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [SourceTypeEnum](#sourcetypeenum) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [CardUIModelSceneID](#carduimodelsceneid) | int(11) | signed |  | NO | 0 |  |  |
-| [LoadoutUIModelSceneID](#loadoutuimodelsceneid) | int(11) | signed |  | NO | 0 |  |  |
-| [CovenantID](#covenantid) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [CreatureID](#creatureid) | int | signed |  | NO | 0 |  |  |
+| [SummonSpellID](#summonspellid) | int | signed |  | NO | 0 |  |  |
+| [IconFileDataID](#iconfiledataid) | int | signed |  | NO | 0 |  |  |
+| [PetTypeEnum](#pettypeenum) | tinyint | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | smallint | unsigned |  | NO | 0 |  |  |
+| [SourceTypeEnum](#sourcetypeenum) | tinyint | signed |  | NO | 0 |  |  |
+| [CardUIModelSceneID](#carduimodelsceneid) | int | signed |  | NO | 0 |  |  |
+| [LoadoutUIModelSceneID](#loadoutuimodelsceneid) | int | signed |  | NO | 0 |  |  |
+| [CovenantID](#covenantid) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

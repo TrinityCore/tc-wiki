@@ -2,7 +2,7 @@
 title: broadcast_text
 description: 
 published: true
-date: 2022-01-03T11:26:23.142Z
+date: 2022-02-06T18:26:40.906Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,21 +16,21 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [Text](#text) | text |  |  | YES | NULL |  |  |
 | [Text1](#text1) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [LanguageID](#languageid) | int(11) | signed |  | NO | 0 |  |  |
-| [ConditionID](#conditionid) | int(11) | signed |  | NO | 0 |  |  |
-| [EmotesID](#emotesid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ChatBubbleDurationMs](#chatbubbledurationms) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SoundKitID1](#soundkitid1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SoundKitID2](#soundkitid2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [EmoteID1](#emoteid1) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [EmoteID2](#emoteid2) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [EmoteID3](#emoteid3) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay1](#emotedelay1) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay2](#emotedelay2) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay3](#emotedelay3) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [LanguageID](#languageid) | int | signed |  | NO | 0 |  |  |
+| [ConditionID](#conditionid) | int | signed |  | NO | 0 |  |  |
+| [EmotesID](#emotesid) | smallint | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
+| [ChatBubbleDurationMs](#chatbubbledurationms) | int | unsigned |  | NO | 0 |  |  |
+| [SoundKitID1](#soundkitid1) | int | unsigned |  | NO | 0 |  |  |
+| [SoundKitID2](#soundkitid2) | int | unsigned |  | NO | 0 |  |  |
+| [EmoteID1](#emoteid1) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteID2](#emoteid2) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteID3](#emoteid3) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay1](#emotedelay1) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay2](#emotedelay2) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay3](#emotedelay3) | smallint | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

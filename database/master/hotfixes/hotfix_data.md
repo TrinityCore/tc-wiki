@@ -2,7 +2,7 @@
 title: hotfix_data
 description: 
 published: true
-date: 2022-01-03T11:26:23.173Z
+date: 2022-02-06T18:26:40.937Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Id](#id) | int(11) | signed | PRI | NO |  |  |  |
-| [UniqueId](#uniqueid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [TableHash](#tablehash) | int(10) | unsigned | PRI | NO |  |  |  |
-| [RecordId](#recordid) | int(11) | signed | PRI | NO |  |  |  |
-| [Status](#status) | tinyint(3) | unsigned |  | NO | 3 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [Id](#id) | int | signed | PRI | NO |  |  |  |
+| [UniqueId](#uniqueid) | int | unsigned |  | NO | 0 |  |  |
+| [TableHash](#tablehash) | int | unsigned | PRI | NO |  |  |  |
+| [RecordId](#recordid) | int | signed | PRI | NO |  |  |  |
+| [Status](#status) | tinyint | unsigned |  | NO | 3 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

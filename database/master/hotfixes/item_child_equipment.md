@@ -2,7 +2,7 @@
 title: item_child_equipment
 description: 
 published: true
-date: 2022-01-03T11:26:23.177Z
+date: 2022-02-06T18:26:40.941Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ParentItemID](#parentitemid) | int(11) | signed |  | NO | 0 |  |  |
-| [ChildItemID](#childitemid) | int(11) | signed |  | NO | 0 |  |  |
-| [ChildItemEquipSlot](#childitemequipslot) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ParentItemID](#parentitemid) | int | signed |  | NO | 0 |  |  |
+| [ChildItemID](#childitemid) | int | signed |  | NO | 0 |  |  |
+| [ChildItemEquipSlot](#childitemequipslot) | tinyint | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

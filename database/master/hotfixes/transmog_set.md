@@ -2,7 +2,7 @@
 title: transmog_set
 description: 
 published: true
-date: 2022-01-03T11:26:23.224Z
+date: 2022-02-06T18:26:40.994Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,19 +15,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [Name](#name) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ClassMask](#classmask) | int(11) | signed |  | NO | 0 |  |  |
-| [TrackingQuestID](#trackingquestid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
-| [TransmogSetGroupID](#transmogsetgroupid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemNameDescriptionID](#itemnamedescriptionid) | int(11) | signed |  | NO | 0 |  |  |
-| [ParentTransmogSetID](#parenttransmogsetid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Unknown810](#unknown810) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ExpansionID](#expansionid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [PatchID](#patchid) | int(11) | signed |  | NO | 0 |  |  |
-| [UiOrder](#uiorder) | smallint(6) | signed |  | NO | 0 |  |  |
-| [PlayerConditionID](#playerconditionid) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ClassMask](#classmask) | int | signed |  | NO | 0 |  |  |
+| [TrackingQuestID](#trackingquestid) | int | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
+| [TransmogSetGroupID](#transmogsetgroupid) | int | unsigned |  | NO | 0 |  |  |
+| [ItemNameDescriptionID](#itemnamedescriptionid) | int | signed |  | NO | 0 |  |  |
+| [ParentTransmogSetID](#parenttransmogsetid) | smallint | unsigned |  | NO | 0 |  |  |
+| [Unknown810](#unknown810) | tinyint | unsigned |  | NO | 0 |  |  |
+| [ExpansionID](#expansionid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [PatchID](#patchid) | int | signed |  | NO | 0 |  |  |
+| [UiOrder](#uiorder) | smallint | signed |  | NO | 0 |  |  |
+| [PlayerConditionID](#playerconditionid) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: updates
 description: 
 published: true
-date: 2022-01-03T11:26:23.228Z
+date: 2022-02-06T18:26:40.998Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -17,8 +17,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [name](#name) | varchar(200) | signed | PRI | NO |  |  | filename with extension of the update. |
 | [hash](#hash) | char(40) | signed |  | YES | '' |  | sha1 hash of the sql file. |
 | [state](#state) | enum(<br />'RELEASED',<br />'ARCHIVED') |  | NO | RELEASED |  | defines if an update is released or archived. |
-| [timestamp](#timestamp) | timestamp | signed |  | NO | CURRENT_TIMESTAMP |  | timestamp when the query was applied. |
-| [speed](#speed) | int(10) | unsigned |  | NO | 0 |  | time the query takes to apply in ms. |
+| [timestamp](#timestamp) | timestamp | signed |  | NO | CURRENT_TIMESTAMP | DEFAULT_GENERATED | timestamp when the query was applied. |
+| [speed](#speed) | int | unsigned |  | NO | 0 |  | time the query takes to apply in ms. |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: holidays
 description: 
 published: true
-date: 2022-01-03T11:26:23.172Z
+date: 2022-02-06T18:26:40.936Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,64 +14,64 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Region](#region) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Looping](#looping) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [HolidayNameID](#holidaynameid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [HolidayDescriptionID](#holidaydescriptionid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Priority](#priority) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [CalendarFilterType](#calendarfiltertype) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Duration1](#duration1) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Duration2](#duration2) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Duration3](#duration3) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Duration4](#duration4) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Duration5](#duration5) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Duration6](#duration6) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Duration7](#duration7) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Duration8](#duration8) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Duration9](#duration9) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Duration10](#duration10) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Date1](#date1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Date2](#date2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Date3](#date3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Date4](#date4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Date5](#date5) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Date6](#date6) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Date7](#date7) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Date8](#date8) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Date9](#date9) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Date10](#date10) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Date11](#date11) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Date12](#date12) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Date13](#date13) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Date14](#date14) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Date15](#date15) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Date16](#date16) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Date17](#date17) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Date18](#date18) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Date19](#date19) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Date20](#date20) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Date21](#date21) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Date22](#date22) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Date23](#date23) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Date24](#date24) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Date25](#date25) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Date26](#date26) | int(10) | unsigned |  | NO | 0 |  |  |
-| [CalendarFlags1](#calendarflags1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [CalendarFlags2](#calendarflags2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [CalendarFlags3](#calendarflags3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [CalendarFlags4](#calendarflags4) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [CalendarFlags5](#calendarflags5) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [CalendarFlags6](#calendarflags6) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [CalendarFlags7](#calendarflags7) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [CalendarFlags8](#calendarflags8) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [CalendarFlags9](#calendarflags9) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [CalendarFlags10](#calendarflags10) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [TextureFileDataID1](#texturefiledataid1) | int(11) | signed |  | NO | 0 |  |  |
-| [TextureFileDataID2](#texturefiledataid2) | int(11) | signed |  | NO | 0 |  |  |
-| [TextureFileDataID3](#texturefiledataid3) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [Region](#region) | smallint | unsigned |  | NO | 0 |  |  |
+| [Looping](#looping) | tinyint | unsigned |  | NO | 0 |  |  |
+| [HolidayNameID](#holidaynameid) | int | unsigned |  | NO | 0 |  |  |
+| [HolidayDescriptionID](#holidaydescriptionid) | int | unsigned |  | NO | 0 |  |  |
+| [Priority](#priority) | tinyint | unsigned |  | NO | 0 |  |  |
+| [CalendarFilterType](#calendarfiltertype) | tinyint | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Duration1](#duration1) | smallint | unsigned |  | NO | 0 |  |  |
+| [Duration2](#duration2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Duration3](#duration3) | smallint | unsigned |  | NO | 0 |  |  |
+| [Duration4](#duration4) | smallint | unsigned |  | NO | 0 |  |  |
+| [Duration5](#duration5) | smallint | unsigned |  | NO | 0 |  |  |
+| [Duration6](#duration6) | smallint | unsigned |  | NO | 0 |  |  |
+| [Duration7](#duration7) | smallint | unsigned |  | NO | 0 |  |  |
+| [Duration8](#duration8) | smallint | unsigned |  | NO | 0 |  |  |
+| [Duration9](#duration9) | smallint | unsigned |  | NO | 0 |  |  |
+| [Duration10](#duration10) | smallint | unsigned |  | NO | 0 |  |  |
+| [Date1](#date1) | int | unsigned |  | NO | 0 |  |  |
+| [Date2](#date2) | int | unsigned |  | NO | 0 |  |  |
+| [Date3](#date3) | int | unsigned |  | NO | 0 |  |  |
+| [Date4](#date4) | int | unsigned |  | NO | 0 |  |  |
+| [Date5](#date5) | int | unsigned |  | NO | 0 |  |  |
+| [Date6](#date6) | int | unsigned |  | NO | 0 |  |  |
+| [Date7](#date7) | int | unsigned |  | NO | 0 |  |  |
+| [Date8](#date8) | int | unsigned |  | NO | 0 |  |  |
+| [Date9](#date9) | int | unsigned |  | NO | 0 |  |  |
+| [Date10](#date10) | int | unsigned |  | NO | 0 |  |  |
+| [Date11](#date11) | int | unsigned |  | NO | 0 |  |  |
+| [Date12](#date12) | int | unsigned |  | NO | 0 |  |  |
+| [Date13](#date13) | int | unsigned |  | NO | 0 |  |  |
+| [Date14](#date14) | int | unsigned |  | NO | 0 |  |  |
+| [Date15](#date15) | int | unsigned |  | NO | 0 |  |  |
+| [Date16](#date16) | int | unsigned |  | NO | 0 |  |  |
+| [Date17](#date17) | int | unsigned |  | NO | 0 |  |  |
+| [Date18](#date18) | int | unsigned |  | NO | 0 |  |  |
+| [Date19](#date19) | int | unsigned |  | NO | 0 |  |  |
+| [Date20](#date20) | int | unsigned |  | NO | 0 |  |  |
+| [Date21](#date21) | int | unsigned |  | NO | 0 |  |  |
+| [Date22](#date22) | int | unsigned |  | NO | 0 |  |  |
+| [Date23](#date23) | int | unsigned |  | NO | 0 |  |  |
+| [Date24](#date24) | int | unsigned |  | NO | 0 |  |  |
+| [Date25](#date25) | int | unsigned |  | NO | 0 |  |  |
+| [Date26](#date26) | int | unsigned |  | NO | 0 |  |  |
+| [CalendarFlags1](#calendarflags1) | tinyint | unsigned |  | NO | 0 |  |  |
+| [CalendarFlags2](#calendarflags2) | tinyint | unsigned |  | NO | 0 |  |  |
+| [CalendarFlags3](#calendarflags3) | tinyint | unsigned |  | NO | 0 |  |  |
+| [CalendarFlags4](#calendarflags4) | tinyint | unsigned |  | NO | 0 |  |  |
+| [CalendarFlags5](#calendarflags5) | tinyint | unsigned |  | NO | 0 |  |  |
+| [CalendarFlags6](#calendarflags6) | tinyint | unsigned |  | NO | 0 |  |  |
+| [CalendarFlags7](#calendarflags7) | tinyint | unsigned |  | NO | 0 |  |  |
+| [CalendarFlags8](#calendarflags8) | tinyint | unsigned |  | NO | 0 |  |  |
+| [CalendarFlags9](#calendarflags9) | tinyint | unsigned |  | NO | 0 |  |  |
+| [CalendarFlags10](#calendarflags10) | tinyint | unsigned |  | NO | 0 |  |  |
+| [TextureFileDataID1](#texturefiledataid1) | int | signed |  | NO | 0 |  |  |
+| [TextureFileDataID2](#texturefiledataid2) | int | signed |  | NO | 0 |  |  |
+| [TextureFileDataID3](#texturefiledataid3) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

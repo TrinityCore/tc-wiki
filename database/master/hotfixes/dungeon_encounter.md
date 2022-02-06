@@ -2,7 +2,7 @@
 title: dungeon_encounter
 description: 
 published: true
-date: 2022-01-03T11:26:23.158Z
+date: 2022-02-06T18:26:40.922Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,17 +15,17 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [Name](#name) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [MapID](#mapid) | smallint(6) | signed |  | NO | 0 |  |  |
-| [DifficultyID](#difficultyid) | int(11) | signed |  | NO | 0 |  |  |
-| [OrderIndex](#orderindex) | int(11) | signed |  | NO | 0 |  |  |
-| [CompleteWorldStateID](#completeworldstateid) | int(11) | signed |  | NO | 0 |  |  |
-| [Bit](#bit) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [CreatureDisplayID](#creaturedisplayid) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
-| [SpellIconFileID](#spelliconfileid) | int(11) | signed |  | NO | 0 |  |  |
-| [Faction](#faction) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [MapID](#mapid) | smallint | signed |  | NO | 0 |  |  |
+| [DifficultyID](#difficultyid) | int | signed |  | NO | 0 |  |  |
+| [OrderIndex](#orderindex) | int | signed |  | NO | 0 |  |  |
+| [CompleteWorldStateID](#completeworldstateid) | int | signed |  | NO | 0 |  |  |
+| [Bit](#bit) | tinyint | signed |  | NO | 0 |  |  |
+| [CreatureDisplayID](#creaturedisplayid) | int | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
+| [SpellIconFileID](#spelliconfileid) | int | signed |  | NO | 0 |  |  |
+| [Faction](#faction) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

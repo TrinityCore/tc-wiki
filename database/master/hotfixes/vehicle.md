@@ -2,7 +2,7 @@
 title: vehicle
 description: 
 published: true
-date: 2022-01-03T11:26:23.228Z
+date: 2022-02-06T18:26:40.999Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
-| [FlagsB](#flagsb) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
+| [FlagsB](#flagsb) | tinyint | unsigned |  | NO | 0 |  |  |
 | [TurnSpeed](#turnspeed) | float |  |  | NO | 0 |  |  |
 | [PitchSpeed](#pitchspeed) | float |  |  | NO | 0 |  |  |
 | [PitchMin](#pitchmin) | float |  |  | NO | 0 |  |  |
@@ -28,21 +28,21 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [FacingLimitRight](#facinglimitright) | float |  |  | NO | 0 |  |  |
 | [FacingLimitLeft](#facinglimitleft) | float |  |  | NO | 0 |  |  |
 | [CameraYawOffset](#camerayawoffset) | float |  |  | NO | 0 |  |  |
-| [VehicleUIIndicatorID](#vehicleuiindicatorid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [MissileTargetingID](#missiletargetingid) | int(11) | signed |  | NO | 0 |  |  |
-| [VehiclePOITypeID](#vehiclepoitypeid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [SeatID1](#seatid1) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [SeatID2](#seatid2) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [SeatID3](#seatid3) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [SeatID4](#seatid4) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [SeatID5](#seatid5) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [SeatID6](#seatid6) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [SeatID7](#seatid7) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [SeatID8](#seatid8) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [PowerDisplayID1](#powerdisplayid1) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [PowerDisplayID2](#powerdisplayid2) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [PowerDisplayID3](#powerdisplayid3) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [VehicleUIIndicatorID](#vehicleuiindicatorid) | smallint | unsigned |  | NO | 0 |  |  |
+| [MissileTargetingID](#missiletargetingid) | int | signed |  | NO | 0 |  |  |
+| [VehiclePOITypeID](#vehiclepoitypeid) | smallint | unsigned |  | NO | 0 |  |  |
+| [SeatID1](#seatid1) | smallint | unsigned |  | NO | 0 |  |  |
+| [SeatID2](#seatid2) | smallint | unsigned |  | NO | 0 |  |  |
+| [SeatID3](#seatid3) | smallint | unsigned |  | NO | 0 |  |  |
+| [SeatID4](#seatid4) | smallint | unsigned |  | NO | 0 |  |  |
+| [SeatID5](#seatid5) | smallint | unsigned |  | NO | 0 |  |  |
+| [SeatID6](#seatid6) | smallint | unsigned |  | NO | 0 |  |  |
+| [SeatID7](#seatid7) | smallint | unsigned |  | NO | 0 |  |  |
+| [SeatID8](#seatid8) | smallint | unsigned |  | NO | 0 |  |  |
+| [PowerDisplayID1](#powerdisplayid1) | smallint | unsigned |  | NO | 0 |  |  |
+| [PowerDisplayID2](#powerdisplayid2) | smallint | unsigned |  | NO | 0 |  |  |
+| [PowerDisplayID3](#powerdisplayid3) | smallint | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

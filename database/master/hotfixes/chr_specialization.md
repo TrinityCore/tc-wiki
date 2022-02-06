@@ -2,7 +2,7 @@
 title: chr_specialization
 description: 
 published: true
-date: 2022-01-03T11:26:23.150Z
+date: 2022-02-06T18:26:40.914Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -17,18 +17,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Name](#name) | text |  |  | YES | NULL |  |  |
 | [FemaleName](#femalename) | text |  |  | YES | NULL |  |  |
 | [Description](#description) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ClassID](#classid) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [OrderIndex](#orderindex) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [PetTalentType](#pettalenttype) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Role](#role) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SpellIconFileID](#spelliconfileid) | int(11) | signed |  | NO | 0 |  |  |
-| [PrimaryStatPriority](#primarystatpriority) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [AnimReplacements](#animreplacements) | int(11) | signed |  | NO | 0 |  |  |
-| [MasterySpellID1](#masteryspellid1) | int(11) | signed |  | NO | 0 |  |  |
-| [MasterySpellID2](#masteryspellid2) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ClassID](#classid) | tinyint | signed |  | NO | 0 |  |  |
+| [OrderIndex](#orderindex) | tinyint | signed |  | NO | 0 |  |  |
+| [PetTalentType](#pettalenttype) | tinyint | signed |  | NO | 0 |  |  |
+| [Role](#role) | tinyint | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
+| [SpellIconFileID](#spelliconfileid) | int | signed |  | NO | 0 |  |  |
+| [PrimaryStatPriority](#primarystatpriority) | tinyint | signed |  | NO | 0 |  |  |
+| [AnimReplacements](#animreplacements) | int | signed |  | NO | 0 |  |  |
+| [MasterySpellID1](#masteryspellid1) | int | signed |  | NO | 0 |  |  |
+| [MasterySpellID2](#masteryspellid2) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

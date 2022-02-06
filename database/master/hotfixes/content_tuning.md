@@ -2,7 +2,7 @@
 title: content_tuning
 description: 
 published: true
-date: 2022-01-03T11:26:23.151Z
+date: 2022-02-06T18:26:40.915Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,19 +14,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
-| [ExpansionID](#expansionid) | int(11) | signed |  | NO | 0 |  |  |
-| [MinLevel](#minlevel) | int(11) | signed |  | NO | 0 |  |  |
-| [MaxLevel](#maxlevel) | int(11) | signed |  | NO | 0 |  |  |
-| [MinLevelType](#minleveltype) | int(11) | signed |  | NO | 0 |  |  |
-| [MaxLevelType](#maxleveltype) | int(11) | signed |  | NO | 0 |  |  |
-| [TargetLevelDelta](#targetleveldelta) | int(11) | signed |  | NO | 0 |  |  |
-| [TargetLevelMaxDelta](#targetlevelmaxdelta) | int(11) | signed |  | NO | 0 |  |  |
-| [TargetLevelMin](#targetlevelmin) | int(11) | signed |  | NO | 0 |  |  |
-| [TargetLevelMax](#targetlevelmax) | int(11) | signed |  | NO | 0 |  |  |
-| [MinItemLevel](#minitemlevel) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
+| [ExpansionID](#expansionid) | int | signed |  | NO | 0 |  |  |
+| [MinLevel](#minlevel) | int | signed |  | NO | 0 |  |  |
+| [MaxLevel](#maxlevel) | int | signed |  | NO | 0 |  |  |
+| [MinLevelType](#minleveltype) | int | signed |  | NO | 0 |  |  |
+| [MaxLevelType](#maxleveltype) | int | signed |  | NO | 0 |  |  |
+| [TargetLevelDelta](#targetleveldelta) | int | signed |  | NO | 0 |  |  |
+| [TargetLevelMaxDelta](#targetlevelmaxdelta) | int | signed |  | NO | 0 |  |  |
+| [TargetLevelMin](#targetlevelmin) | int | signed |  | NO | 0 |  |  |
+| [TargetLevelMax](#targetlevelmax) | int | signed |  | NO | 0 |  |  |
+| [MinItemLevel](#minitemlevel) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

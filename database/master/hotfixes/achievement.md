@@ -2,7 +2,7 @@
 title: achievement
 description: 
 published: true
-date: 2022-01-03T11:26:23.124Z
+date: 2022-02-06T18:26:40.886Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -17,21 +17,21 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Description](#description) | text |  |  | YES | NULL |  |  |
 | [Title](#title) | text |  |  | YES | NULL |  |  |
 | [Reward](#reward) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [InstanceID](#instanceid) | smallint(6) | signed |  | NO | 0 |  |  |
-| [Faction](#faction) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Supercedes](#supercedes) | smallint(6) | signed |  | NO | 0 |  |  |
-| [Category](#category) | smallint(6) | signed |  | NO | 0 |  |  |
-| [MinimumCriteria](#minimumcriteria) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Points](#points) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
-| [UiOrder](#uiorder) | smallint(6) | signed |  | NO | 0 |  |  |
-| [IconFileID](#iconfileid) | int(11) | signed |  | NO | 0 |  |  |
-| [RewardItemID](#rewarditemid) | int(11) | signed |  | NO | 0 |  |  |
-| [CriteriaTree](#criteriatree) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SharesCriteria](#sharescriteria) | smallint(6) | signed |  | NO | 0 |  |  |
-| [CovenantID](#covenantid) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [InstanceID](#instanceid) | smallint | signed |  | NO | 0 |  |  |
+| [Faction](#faction) | tinyint | signed |  | NO | 0 |  |  |
+| [Supercedes](#supercedes) | smallint | signed |  | NO | 0 |  |  |
+| [Category](#category) | smallint | signed |  | NO | 0 |  |  |
+| [MinimumCriteria](#minimumcriteria) | tinyint | signed |  | NO | 0 |  |  |
+| [Points](#points) | tinyint | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
+| [UiOrder](#uiorder) | smallint | signed |  | NO | 0 |  |  |
+| [IconFileID](#iconfileid) | int | signed |  | NO | 0 |  |  |
+| [RewardItemID](#rewarditemid) | int | signed |  | NO | 0 |  |  |
+| [CriteriaTree](#criteriatree) | int | unsigned |  | NO | 0 |  |  |
+| [SharesCriteria](#sharescriteria) | smallint | signed |  | NO | 0 |  |  |
+| [CovenantID](#covenantid) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

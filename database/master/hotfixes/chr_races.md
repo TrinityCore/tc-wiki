@@ -2,7 +2,7 @@
 title: chr_races
 description: 
 published: true
-date: 2022-01-03T11:26:23.148Z
+date: 2022-02-06T18:26:40.913Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [ClientPrefix](#clientprefix) | text |  |  | YES | NULL |  |  |
 | [ClientFileString](#clientfilestring) | text |  |  | YES | NULL |  |  |
 | [Name](#name) | text |  |  | YES | NULL |  |  |
@@ -30,36 +30,36 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [ShortNameFemale](#shortnamefemale) | text |  |  | YES | NULL |  |  |
 | [ShortNameLower](#shortnamelower) | text |  |  | YES | NULL |  |  |
 | [ShortNameLowerFemale](#shortnamelowerfemale) | text |  |  | YES | NULL |  |  |
-| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
-| [FactionID](#factionid) | int(11) | signed |  | NO | 0 |  |  |
-| [CinematicSequenceID](#cinematicsequenceid) | int(11) | signed |  | NO | 0 |  |  |
-| [ResSicknessSpellID](#ressicknessspellid) | int(11) | signed |  | NO | 0 |  |  |
-| [SplashSoundID](#splashsoundid) | int(11) | signed |  | NO | 0 |  |  |
-| [Alliance](#alliance) | int(11) | signed |  | NO | 0 |  |  |
-| [RaceRelated](#racerelated) | int(11) | signed |  | NO | 0 |  |  |
-| [UnalteredVisualRaceID](#unalteredvisualraceid) | int(11) | signed |  | NO | 0 |  |  |
-| [DefaultClassID](#defaultclassid) | int(11) | signed |  | NO | 0 |  |  |
-| [CreateScreenFileDataID](#createscreenfiledataid) | int(11) | signed |  | NO | 0 |  |  |
-| [SelectScreenFileDataID](#selectscreenfiledataid) | int(11) | signed |  | NO | 0 |  |  |
-| [NeutralRaceID](#neutralraceid) | int(11) | signed |  | NO | 0 |  |  |
-| [LowResScreenFileDataID](#lowresscreenfiledataid) | int(11) | signed |  | NO | 0 |  |  |
-| [AlteredFormStartVisualKitID1](#alteredformstartvisualkitid1) | int(11) | signed |  | NO | 0 |  |  |
-| [AlteredFormStartVisualKitID2](#alteredformstartvisualkitid2) | int(11) | signed |  | NO | 0 |  |  |
-| [AlteredFormStartVisualKitID3](#alteredformstartvisualkitid3) | int(11) | signed |  | NO | 0 |  |  |
-| [AlteredFormFinishVisualKitID1](#alteredformfinishvisualkitid1) | int(11) | signed |  | NO | 0 |  |  |
-| [AlteredFormFinishVisualKitID2](#alteredformfinishvisualkitid2) | int(11) | signed |  | NO | 0 |  |  |
-| [AlteredFormFinishVisualKitID3](#alteredformfinishvisualkitid3) | int(11) | signed |  | NO | 0 |  |  |
-| [HeritageArmorAchievementID](#heritagearmorachievementid) | int(11) | signed |  | NO | 0 |  |  |
-| [StartingLevel](#startinglevel) | int(11) | signed |  | NO | 0 |  |  |
-| [UiDisplayOrder](#uidisplayorder) | int(11) | signed |  | NO | 0 |  |  |
-| [MaleModelFallbackRaceID](#malemodelfallbackraceid) | int(11) | signed |  | NO | 0 |  |  |
-| [FemaleModelFallbackRaceID](#femalemodelfallbackraceid) | int(11) | signed |  | NO | 0 |  |  |
-| [MaleTextureFallbackRaceID](#maletexturefallbackraceid) | int(11) | signed |  | NO | 0 |  |  |
-| [FemaleTextureFallbackRaceID](#femaletexturefallbackraceid) | int(11) | signed |  | NO | 0 |  |  |
-| [PlayableRaceBit](#playableracebit) | int(11) | signed |  | NO | 0 |  |  |
-| [HelmetAnimScalingRaceID](#helmetanimscalingraceid) | int(11) | signed |  | NO | 0 |  |  |
-| [TransmogrifyDisabledSlotMask](#transmogrifydisabledslotmask) | int(11) | signed |  | NO | 0 |  |  |
-| [UnalteredVisualCustomizationRaceID](#unalteredvisualcustomizationraceid) | int(11) | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
+| [FactionID](#factionid) | int | signed |  | NO | 0 |  |  |
+| [CinematicSequenceID](#cinematicsequenceid) | int | signed |  | NO | 0 |  |  |
+| [ResSicknessSpellID](#ressicknessspellid) | int | signed |  | NO | 0 |  |  |
+| [SplashSoundID](#splashsoundid) | int | signed |  | NO | 0 |  |  |
+| [Alliance](#alliance) | int | signed |  | NO | 0 |  |  |
+| [RaceRelated](#racerelated) | int | signed |  | NO | 0 |  |  |
+| [UnalteredVisualRaceID](#unalteredvisualraceid) | int | signed |  | NO | 0 |  |  |
+| [DefaultClassID](#defaultclassid) | int | signed |  | NO | 0 |  |  |
+| [CreateScreenFileDataID](#createscreenfiledataid) | int | signed |  | NO | 0 |  |  |
+| [SelectScreenFileDataID](#selectscreenfiledataid) | int | signed |  | NO | 0 |  |  |
+| [NeutralRaceID](#neutralraceid) | int | signed |  | NO | 0 |  |  |
+| [LowResScreenFileDataID](#lowresscreenfiledataid) | int | signed |  | NO | 0 |  |  |
+| [AlteredFormStartVisualKitID1](#alteredformstartvisualkitid1) | int | signed |  | NO | 0 |  |  |
+| [AlteredFormStartVisualKitID2](#alteredformstartvisualkitid2) | int | signed |  | NO | 0 |  |  |
+| [AlteredFormStartVisualKitID3](#alteredformstartvisualkitid3) | int | signed |  | NO | 0 |  |  |
+| [AlteredFormFinishVisualKitID1](#alteredformfinishvisualkitid1) | int | signed |  | NO | 0 |  |  |
+| [AlteredFormFinishVisualKitID2](#alteredformfinishvisualkitid2) | int | signed |  | NO | 0 |  |  |
+| [AlteredFormFinishVisualKitID3](#alteredformfinishvisualkitid3) | int | signed |  | NO | 0 |  |  |
+| [HeritageArmorAchievementID](#heritagearmorachievementid) | int | signed |  | NO | 0 |  |  |
+| [StartingLevel](#startinglevel) | int | signed |  | NO | 0 |  |  |
+| [UiDisplayOrder](#uidisplayorder) | int | signed |  | NO | 0 |  |  |
+| [MaleModelFallbackRaceID](#malemodelfallbackraceid) | int | signed |  | NO | 0 |  |  |
+| [FemaleModelFallbackRaceID](#femalemodelfallbackraceid) | int | signed |  | NO | 0 |  |  |
+| [MaleTextureFallbackRaceID](#maletexturefallbackraceid) | int | signed |  | NO | 0 |  |  |
+| [FemaleTextureFallbackRaceID](#femaletexturefallbackraceid) | int | signed |  | NO | 0 |  |  |
+| [PlayableRaceBit](#playableracebit) | int | signed |  | NO | 0 |  |  |
+| [HelmetAnimScalingRaceID](#helmetanimscalingraceid) | int | signed |  | NO | 0 |  |  |
+| [TransmogrifyDisabledSlotMask](#transmogrifydisabledslotmask) | int | signed |  | NO | 0 |  |  |
+| [UnalteredVisualCustomizationRaceID](#unalteredvisualcustomizationraceid) | int | signed |  | NO | 0 |  |  |
 | [AlteredFormCustomizeOffsetFallback1](#alteredformcustomizeoffsetfallback1) | float |  |  | NO | 0 |  |  |
 | [AlteredFormCustomizeOffsetFallback2](#alteredformcustomizeoffsetfallback2) | float |  |  | NO | 0 |  |  |
 | [AlteredFormCustomizeOffsetFallback3](#alteredformcustomizeoffsetfallback3) | float |  |  | NO | 0 |  |  |
@@ -70,13 +70,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Unknown910_21](#unknown910_21) | float |  |  | NO | 0 |  |  |
 | [Unknown910_22](#unknown910_22) | float |  |  | NO | 0 |  |  |
 | [Unknown910_23](#unknown910_23) | float |  |  | NO | 0 |  |  |
-| [BaseLanguage](#baselanguage) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [CreatureType](#creaturetype) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [MaleModelFallbackSex](#malemodelfallbacksex) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [FemaleModelFallbackSex](#femalemodelfallbacksex) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [MaleTextureFallbackSex](#maletexturefallbacksex) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [FemaleTextureFallbackSex](#femaletexturefallbacksex) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [BaseLanguage](#baselanguage) | tinyint | signed |  | NO | 0 |  |  |
+| [CreatureType](#creaturetype) | tinyint | signed |  | NO | 0 |  |  |
+| [MaleModelFallbackSex](#malemodelfallbacksex) | tinyint | signed |  | NO | 0 |  |  |
+| [FemaleModelFallbackSex](#femalemodelfallbacksex) | tinyint | signed |  | NO | 0 |  |  |
+| [MaleTextureFallbackSex](#maletexturefallbacksex) | tinyint | signed |  | NO | 0 |  |  |
+| [FemaleTextureFallbackSex](#femaletexturefallbacksex) | tinyint | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

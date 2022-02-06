@@ -2,7 +2,7 @@
 title: item_armor_quality
 description: 
 published: true
-date: 2022-01-03T11:26:23.175Z
+date: 2022-02-06T18:26:40.939Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [Qualitymod1](#qualitymod1) | float |  |  | NO | 0 |  |  |
 | [Qualitymod2](#qualitymod2) | float |  |  | NO | 0 |  |  |
 | [Qualitymod3](#qualitymod3) | float |  |  | NO | 0 |  |  |
@@ -22,7 +22,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Qualitymod5](#qualitymod5) | float |  |  | NO | 0 |  |  |
 | [Qualitymod6](#qualitymod6) | float |  |  | NO | 0 |  |  |
 | [Qualitymod7](#qualitymod7) | float |  |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

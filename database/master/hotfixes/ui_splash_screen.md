@@ -2,7 +2,7 @@
 title: ui_splash_screen
 description: 
 published: true
-date: 2022-01-03T11:26:23.227Z
+date: 2022-02-06T18:26:40.997Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [Header](#header) | text |  |  | YES | NULL |  |  |
 | [TopLeftFeatureTitle](#topleftfeaturetitle) | text |  |  | YES | NULL |  |  |
 | [TopLeftFeatureDesc](#topleftfeaturedesc) | text |  |  | YES | NULL |  |  |
@@ -22,15 +22,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [BottomLeftFeatureDesc](#bottomleftfeaturedesc) | text |  |  | YES | NULL |  |  |
 | [RightFeatureTitle](#rightfeaturetitle) | text |  |  | YES | NULL |  |  |
 | [RightFeatureDesc](#rightfeaturedesc) | text |  |  | YES | NULL |  |  |
-| [AllianceQuestID](#alliancequestid) | int(11) | signed |  | NO | 0 |  |  |
-| [HordeQuestID](#hordequestid) | int(11) | signed |  | NO | 0 |  |  |
-| [ScreenType](#screentype) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [TextureKitID](#texturekitid) | int(11) | signed |  | NO | 0 |  |  |
-| [SoundKitID](#soundkitid) | int(11) | signed |  | NO | 0 |  |  |
-| [PlayerConditionID](#playerconditionid) | int(11) | signed |  | NO | 0 |  |  |
-| [CharLevelConditionID](#charlevelconditionid) | int(11) | signed |  | NO | 0 |  |  |
-| [RequiredTimeEventPassed](#requiredtimeeventpassed) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [AllianceQuestID](#alliancequestid) | int | signed |  | NO | 0 |  |  |
+| [HordeQuestID](#hordequestid) | int | signed |  | NO | 0 |  |  |
+| [ScreenType](#screentype) | tinyint | signed |  | NO | 0 |  |  |
+| [TextureKitID](#texturekitid) | int | signed |  | NO | 0 |  |  |
+| [SoundKitID](#soundkitid) | int | signed |  | NO | 0 |  |  |
+| [PlayerConditionID](#playerconditionid) | int | signed |  | NO | 0 |  |  |
+| [CharLevelConditionID](#charlevelconditionid) | int | signed |  | NO | 0 |  |  |
+| [RequiredTimeEventPassed](#requiredtimeeventpassed) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

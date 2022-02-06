@@ -2,7 +2,7 @@
 title: garr_mission
 description: 
 published: true
-date: 2022-01-03T11:26:23.167Z
+date: 2022-02-06T18:26:40.931Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [Name](#name) | text |  |  | YES | NULL |  |  |
 | [Location](#location) | text |  |  | YES | NULL |  |  |
 | [Description](#description) | text |  |  | YES | NULL |  |  |
@@ -22,33 +22,33 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [MapPosY](#mapposy) | float |  |  | NO | 0 |  |  |
 | [WorldPosX](#worldposx) | float |  |  | NO | 0 |  |  |
 | [WorldPosY](#worldposy) | float |  |  | NO | 0 |  |  |
-| [GarrTypeID](#garrtypeid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [GarrMissionTypeID](#garrmissiontypeid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [GarrFollowerTypeID](#garrfollowertypeid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MaxFollowers](#maxfollowers) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MissionCost](#missioncost) | int(10) | unsigned |  | NO | 0 |  |  |
-| [MissionCostCurrencyTypesID](#missioncostcurrencytypesid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [OfferedGarrMissionTextureID](#offeredgarrmissiontextureid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [UiTextureKitID](#uitexturekitid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [EnvGarrMechanicID](#envgarrmechanicid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [EnvGarrMechanicTypeID](#envgarrmechanictypeid) | int(11) | signed |  | NO | 0 |  |  |
-| [PlayerConditionID](#playerconditionid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [GarrMissionSetID](#garrmissionsetid) | int(11) | signed |  | NO | 0 |  |  |
-| [TargetLevel](#targetlevel) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [TargetItemLevel](#targetitemlevel) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [MissionDuration](#missionduration) | int(11) | signed |  | NO | 0 |  |  |
-| [TravelDuration](#travelduration) | int(11) | signed |  | NO | 0 |  |  |
-| [OfferDuration](#offerduration) | int(10) | unsigned |  | NO | 0 |  |  |
-| [BaseCompletionChance](#basecompletionchance) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [BaseFollowerXP](#basefollowerxp) | int(10) | unsigned |  | NO | 0 |  |  |
-| [OvermaxRewardPackID](#overmaxrewardpackid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [FollowerDeathChance](#followerdeathchance) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [AreaID](#areaid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
+| [GarrTypeID](#garrtypeid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [GarrMissionTypeID](#garrmissiontypeid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [GarrFollowerTypeID](#garrfollowertypeid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [MaxFollowers](#maxfollowers) | tinyint | unsigned |  | NO | 0 |  |  |
+| [MissionCost](#missioncost) | int | unsigned |  | NO | 0 |  |  |
+| [MissionCostCurrencyTypesID](#missioncostcurrencytypesid) | smallint | unsigned |  | NO | 0 |  |  |
+| [OfferedGarrMissionTextureID](#offeredgarrmissiontextureid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [UiTextureKitID](#uitexturekitid) | smallint | unsigned |  | NO | 0 |  |  |
+| [EnvGarrMechanicID](#envgarrmechanicid) | int | unsigned |  | NO | 0 |  |  |
+| [EnvGarrMechanicTypeID](#envgarrmechanictypeid) | int | signed |  | NO | 0 |  |  |
+| [PlayerConditionID](#playerconditionid) | int | unsigned |  | NO | 0 |  |  |
+| [GarrMissionSetID](#garrmissionsetid) | int | signed |  | NO | 0 |  |  |
+| [TargetLevel](#targetlevel) | tinyint | signed |  | NO | 0 |  |  |
+| [TargetItemLevel](#targetitemlevel) | smallint | unsigned |  | NO | 0 |  |  |
+| [MissionDuration](#missionduration) | int | signed |  | NO | 0 |  |  |
+| [TravelDuration](#travelduration) | int | signed |  | NO | 0 |  |  |
+| [OfferDuration](#offerduration) | int | unsigned |  | NO | 0 |  |  |
+| [BaseCompletionChance](#basecompletionchance) | tinyint | unsigned |  | NO | 0 |  |  |
+| [BaseFollowerXP](#basefollowerxp) | int | unsigned |  | NO | 0 |  |  |
+| [OvermaxRewardPackID](#overmaxrewardpackid) | int | unsigned |  | NO | 0 |  |  |
+| [FollowerDeathChance](#followerdeathchance) | tinyint | unsigned |  | NO | 0 |  |  |
+| [AreaID](#areaid) | int | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
 | [AutoMissionScalar](#automissionscalar) | float |  |  | NO | 0 |  |  |
-| [AutoMissionScalarCurveID](#automissionscalarcurveid) | int(11) | signed |  | NO | 0 |  |  |
-| [AutoCombatantEnvCasterID](#autocombatantenvcasterid) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [AutoMissionScalarCurveID](#automissionscalarcurveid) | int | signed |  | NO | 0 |  |  |
+| [AutoCombatantEnvCasterID](#autocombatantenvcasterid) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

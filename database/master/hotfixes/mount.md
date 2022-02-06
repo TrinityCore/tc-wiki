@@ -2,7 +2,7 @@
 title: mount
 description: 
 published: true
-date: 2022-01-03T11:26:23.193Z
+date: 2022-02-06T18:26:40.959Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -17,17 +17,17 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Name](#name) | text |  |  | YES | NULL |  |  |
 | [SourceText](#sourcetext) | text |  |  | YES | NULL |  |  |
 | [Description](#description) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [MountTypeID](#mounttypeid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [SourceTypeEnum](#sourcetypeenum) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [SourceSpellID](#sourcespellid) | int(11) | signed |  | NO | 0 |  |  |
-| [PlayerConditionID](#playerconditionid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [MountTypeID](#mounttypeid) | smallint | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | smallint | unsigned |  | NO | 0 |  |  |
+| [SourceTypeEnum](#sourcetypeenum) | tinyint | signed |  | NO | 0 |  |  |
+| [SourceSpellID](#sourcespellid) | int | signed |  | NO | 0 |  |  |
+| [PlayerConditionID](#playerconditionid) | int | unsigned |  | NO | 0 |  |  |
 | [MountFlyRideHeight](#mountflyrideheight) | float |  |  | NO | 0 |  |  |
-| [UiModelSceneID](#uimodelsceneid) | int(11) | signed |  | NO | 0 |  |  |
-| [MountSpecialRiderAnimKitID](#mountspecialrideranimkitid) | int(11) | signed |  | NO | 0 |  |  |
-| [MountSpecialSpellVisualKitID](#mountspecialspellvisualkitid) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [UiModelSceneID](#uimodelsceneid) | int | signed |  | NO | 0 |  |  |
+| [MountSpecialRiderAnimKitID](#mountspecialrideranimkitid) | int | signed |  | NO | 0 |  |  |
+| [MountSpecialSpellVisualKitID](#mountspecialspellvisualkitid) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: item_armor_total
 description: 
 published: true
-date: 2022-01-03T11:26:23.175Z
+date: 2022-02-06T18:26:40.939Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ItemLevel](#itemlevel) | smallint(6) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ItemLevel](#itemlevel) | smallint | signed |  | NO | 0 |  |  |
 | [Cloth](#cloth) | float |  |  | NO | 0 |  |  |
 | [Leather](#leather) | float |  |  | NO | 0 |  |  |
 | [Mail](#mail) | float |  |  | NO | 0 |  |  |
 | [Plate](#plate) | float |  |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

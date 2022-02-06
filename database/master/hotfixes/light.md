@@ -2,7 +2,7 @@
 title: light
 description: 
 published: true
-date: 2022-01-03T11:26:23.189Z
+date: 2022-02-06T18:26:40.955Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,22 +14,22 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [GameCoordsX](#gamecoordsx) | float |  |  | NO | 0 |  |  |
 | [GameCoordsY](#gamecoordsy) | float |  |  | NO | 0 |  |  |
 | [GameCoordsZ](#gamecoordsz) | float |  |  | NO | 0 |  |  |
 | [GameFalloffStart](#gamefalloffstart) | float |  |  | NO | 0 |  |  |
 | [GameFalloffEnd](#gamefalloffend) | float |  |  | NO | 0 |  |  |
-| [ContinentID](#continentid) | smallint(6) | signed |  | NO | 0 |  |  |
-| [LightParamsID1](#lightparamsid1) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [LightParamsID2](#lightparamsid2) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [LightParamsID3](#lightparamsid3) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [LightParamsID4](#lightparamsid4) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [LightParamsID5](#lightparamsid5) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [LightParamsID6](#lightparamsid6) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [LightParamsID7](#lightparamsid7) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [LightParamsID8](#lightparamsid8) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ContinentID](#continentid) | smallint | signed |  | NO | 0 |  |  |
+| [LightParamsID1](#lightparamsid1) | smallint | unsigned |  | NO | 0 |  |  |
+| [LightParamsID2](#lightparamsid2) | smallint | unsigned |  | NO | 0 |  |  |
+| [LightParamsID3](#lightparamsid3) | smallint | unsigned |  | NO | 0 |  |  |
+| [LightParamsID4](#lightparamsid4) | smallint | unsigned |  | NO | 0 |  |  |
+| [LightParamsID5](#lightparamsid5) | smallint | unsigned |  | NO | 0 |  |  |
+| [LightParamsID6](#lightparamsid6) | smallint | unsigned |  | NO | 0 |  |  |
+| [LightParamsID7](#lightparamsid7) | smallint | unsigned |  | NO | 0 |  |  |
+| [LightParamsID8](#lightparamsid8) | smallint | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: artifact_power
 description: 
 published: true
-date: 2022-01-03T11:26:23.133Z
+date: 2022-02-06T18:26:40.896Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,13 +16,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [DisplayPosX](#displayposx) | float |  |  | NO | 0 |  |  |
 | [DisplayPosY](#displayposy) | float |  |  | NO | 0 |  |  |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ArtifactID](#artifactid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MaxPurchasableRank](#maxpurchasablerank) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Label](#label) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Tier](#tier) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ArtifactID](#artifactid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [MaxPurchasableRank](#maxpurchasablerank) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Label](#label) | int | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Tier](#tier) | tinyint | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

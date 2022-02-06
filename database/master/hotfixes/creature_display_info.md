@@ -2,7 +2,7 @@
 title: creature_display_info
 description: 
 published: true
-date: 2022-01-03T11:26:23.153Z
+date: 2022-02-06T18:26:40.917Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,34 +14,34 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [ModelID](#modelid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [SoundID](#soundid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [SizeClass](#sizeclass) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ModelID](#modelid) | smallint | unsigned |  | NO | 0 |  |  |
+| [SoundID](#soundid) | smallint | unsigned |  | NO | 0 |  |  |
+| [SizeClass](#sizeclass) | tinyint | signed |  | NO | 0 |  |  |
 | [CreatureModelScale](#creaturemodelscale) | float |  |  | NO | 0 |  |  |
-| [CreatureModelAlpha](#creaturemodelalpha) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [BloodID](#bloodid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ExtendedDisplayInfoID](#extendeddisplayinfoid) | int(11) | signed |  | NO | 0 |  |  |
-| [NPCSoundID](#npcsoundid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ParticleColorID](#particlecolorid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [PortraitCreatureDisplayInfoID](#portraitcreaturedisplayinfoid) | int(11) | signed |  | NO | 0 |  |  |
-| [PortraitTextureFileDataID](#portraittexturefiledataid) | int(11) | signed |  | NO | 0 |  |  |
-| [ObjectEffectPackageID](#objecteffectpackageid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [AnimReplacementSetID](#animreplacementsetid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [StateSpellVisualKitID](#statespellvisualkitid) | int(11) | signed |  | NO | 0 |  |  |
+| [CreatureModelAlpha](#creaturemodelalpha) | tinyint | unsigned |  | NO | 0 |  |  |
+| [BloodID](#bloodid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [ExtendedDisplayInfoID](#extendeddisplayinfoid) | int | signed |  | NO | 0 |  |  |
+| [NPCSoundID](#npcsoundid) | smallint | unsigned |  | NO | 0 |  |  |
+| [ParticleColorID](#particlecolorid) | smallint | unsigned |  | NO | 0 |  |  |
+| [PortraitCreatureDisplayInfoID](#portraitcreaturedisplayinfoid) | int | signed |  | NO | 0 |  |  |
+| [PortraitTextureFileDataID](#portraittexturefiledataid) | int | signed |  | NO | 0 |  |  |
+| [ObjectEffectPackageID](#objecteffectpackageid) | smallint | unsigned |  | NO | 0 |  |  |
+| [AnimReplacementSetID](#animreplacementsetid) | smallint | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
+| [StateSpellVisualKitID](#statespellvisualkitid) | int | signed |  | NO | 0 |  |  |
 | [PlayerOverrideScale](#playeroverridescale) | float |  |  | NO | 0 |  |  |
 | [PetInstanceScale](#petinstancescale) | float |  |  | NO | 0 |  |  |
-| [UnarmedWeaponType](#unarmedweapontype) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [MountPoofSpellVisualKitID](#mountpoofspellvisualkitid) | int(11) | signed |  | NO | 0 |  |  |
-| [DissolveEffectID](#dissolveeffectid) | int(11) | signed |  | NO | 0 |  |  |
-| [Gender](#gender) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [DissolveOutEffectID](#dissolveouteffectid) | int(11) | signed |  | NO | 0 |  |  |
-| [CreatureModelMinLod](#creaturemodelminlod) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [TextureVariationFileDataID1](#texturevariationfiledataid1) | int(11) | signed |  | NO | 0 |  |  |
-| [TextureVariationFileDataID2](#texturevariationfiledataid2) | int(11) | signed |  | NO | 0 |  |  |
-| [TextureVariationFileDataID3](#texturevariationfiledataid3) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [UnarmedWeaponType](#unarmedweapontype) | tinyint | signed |  | NO | 0 |  |  |
+| [MountPoofSpellVisualKitID](#mountpoofspellvisualkitid) | int | signed |  | NO | 0 |  |  |
+| [DissolveEffectID](#dissolveeffectid) | int | signed |  | NO | 0 |  |  |
+| [Gender](#gender) | tinyint | signed |  | NO | 0 |  |  |
+| [DissolveOutEffectID](#dissolveouteffectid) | int | signed |  | NO | 0 |  |  |
+| [CreatureModelMinLod](#creaturemodelminlod) | tinyint | signed |  | NO | 0 |  |  |
+| [TextureVariationFileDataID1](#texturevariationfiledataid1) | int | signed |  | NO | 0 |  |  |
+| [TextureVariationFileDataID2](#texturevariationfiledataid2) | int | signed |  | NO | 0 |  |  |
+| [TextureVariationFileDataID3](#texturevariationfiledataid3) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

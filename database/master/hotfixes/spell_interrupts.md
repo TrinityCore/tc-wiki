@@ -2,7 +2,7 @@
 title: spell_interrupts
 description: 
 published: true
-date: 2022-01-03T11:26:23.213Z
+date: 2022-02-06T18:26:40.981Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,15 +14,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [DifficultyID](#difficultyid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [InterruptFlags](#interruptflags) | smallint(6) | signed |  | NO | 0 |  |  |
-| [AuraInterruptFlags1](#aurainterruptflags1) | int(11) | signed |  | NO | 0 |  |  |
-| [AuraInterruptFlags2](#aurainterruptflags2) | int(11) | signed |  | NO | 0 |  |  |
-| [ChannelInterruptFlags1](#channelinterruptflags1) | int(11) | signed |  | NO | 0 |  |  |
-| [ChannelInterruptFlags2](#channelinterruptflags2) | int(11) | signed |  | NO | 0 |  |  |
-| [SpellID](#spellid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [DifficultyID](#difficultyid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [InterruptFlags](#interruptflags) | smallint | signed |  | NO | 0 |  |  |
+| [AuraInterruptFlags1](#aurainterruptflags1) | int | signed |  | NO | 0 |  |  |
+| [AuraInterruptFlags2](#aurainterruptflags2) | int | signed |  | NO | 0 |  |  |
+| [ChannelInterruptFlags1](#channelinterruptflags1) | int | signed |  | NO | 0 |  |  |
+| [ChannelInterruptFlags2](#channelinterruptflags2) | int | signed |  | NO | 0 |  |  |
+| [SpellID](#spellid) | int | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

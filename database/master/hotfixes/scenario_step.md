@@ -2,7 +2,7 @@
 title: scenario_step
 description: 
 published: true
-date: 2022-01-03T11:26:23.205Z
+date: 2022-02-06T18:26:40.973Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,19 +14,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [Description](#description) | text |  |  | YES | NULL |  |  |
 | [Title](#title) | text |  |  | YES | NULL |  |  |
-| [ScenarioID](#scenarioid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Criteriatreeid](#criteriatreeid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardQuestID](#rewardquestid) | int(11) | signed |  | NO | 0 |  |  |
-| [RelatedStep](#relatedstep) | int(11) | signed |  | NO | 0 |  |  |
-| [Supersedes](#supersedes) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [OrderIndex](#orderindex) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VisibilityPlayerConditionID](#visibilityplayerconditionid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [WidgetSetID](#widgetsetid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ScenarioID](#scenarioid) | smallint | unsigned |  | NO | 0 |  |  |
+| [Criteriatreeid](#criteriatreeid) | int | unsigned |  | NO | 0 |  |  |
+| [RewardQuestID](#rewardquestid) | int | signed |  | NO | 0 |  |  |
+| [RelatedStep](#relatedstep) | int | signed |  | NO | 0 |  |  |
+| [Supersedes](#supersedes) | smallint | unsigned |  | NO | 0 |  |  |
+| [OrderIndex](#orderindex) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
+| [VisibilityPlayerConditionID](#visibilityplayerconditionid) | int | unsigned |  | NO | 0 |  |  |
+| [WidgetSetID](#widgetsetid) | smallint | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

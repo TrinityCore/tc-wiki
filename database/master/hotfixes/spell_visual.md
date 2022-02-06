@@ -2,7 +2,7 @@
 title: spell_visual
 description: 
 published: true
-date: 2022-01-03T11:26:23.219Z
+date: 2022-02-06T18:26:40.988Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,28 +14,28 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [MissileCastOffset1](#missilecastoffset1) | float |  |  | NO | 0 |  |  |
 | [MissileCastOffset2](#missilecastoffset2) | float |  |  | NO | 0 |  |  |
 | [MissileCastOffset3](#missilecastoffset3) | float |  |  | NO | 0 |  |  |
 | [MissileImpactOffset1](#missileimpactoffset1) | float |  |  | NO | 0 |  |  |
 | [MissileImpactOffset2](#missileimpactoffset2) | float |  |  | NO | 0 |  |  |
 | [MissileImpactOffset3](#missileimpactoffset3) | float |  |  | NO | 0 |  |  |
-| [AnimEventSoundID](#animeventsoundid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
-| [MissileAttachment](#missileattachment) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [MissileDestinationAttachment](#missiledestinationattachment) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [MissileCastPositionerID](#missilecastpositionerid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [MissileImpactPositionerID](#missileimpactpositionerid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [MissileTargetingKit](#missiletargetingkit) | int(11) | signed |  | NO | 0 |  |  |
-| [HostileSpellVisualID](#hostilespellvisualid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [CasterSpellVisualID](#casterspellvisualid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SpellVisualMissileSetID](#spellvisualmissilesetid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [DamageNumberDelay](#damagenumberdelay) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [LowViolenceSpellVisualID](#lowviolencespellvisualid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RaidSpellVisualMissileSetID](#raidspellvisualmissilesetid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ReducedUnexpectedCameraMovementSpellVisualID](#reducedunexpectedcameramovementspellvisualid) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [AnimEventSoundID](#animeventsoundid) | int | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
+| [MissileAttachment](#missileattachment) | tinyint | signed |  | NO | 0 |  |  |
+| [MissileDestinationAttachment](#missiledestinationattachment) | tinyint | signed |  | NO | 0 |  |  |
+| [MissileCastPositionerID](#missilecastpositionerid) | int | unsigned |  | NO | 0 |  |  |
+| [MissileImpactPositionerID](#missileimpactpositionerid) | int | unsigned |  | NO | 0 |  |  |
+| [MissileTargetingKit](#missiletargetingkit) | int | signed |  | NO | 0 |  |  |
+| [HostileSpellVisualID](#hostilespellvisualid) | int | unsigned |  | NO | 0 |  |  |
+| [CasterSpellVisualID](#casterspellvisualid) | int | unsigned |  | NO | 0 |  |  |
+| [SpellVisualMissileSetID](#spellvisualmissilesetid) | smallint | unsigned |  | NO | 0 |  |  |
+| [DamageNumberDelay](#damagenumberdelay) | smallint | unsigned |  | NO | 0 |  |  |
+| [LowViolenceSpellVisualID](#lowviolencespellvisualid) | int | unsigned |  | NO | 0 |  |  |
+| [RaidSpellVisualMissileSetID](#raidspellvisualmissilesetid) | int | unsigned |  | NO | 0 |  |  |
+| [ReducedUnexpectedCameraMovementSpellVisualID](#reducedunexpectedcameramovementspellvisualid) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: creature_display_info_extra
 description: 
 published: true
-date: 2022-01-03T11:26:23.153Z
+date: 2022-02-06T18:26:40.918Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,14 +14,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [DisplayRaceID](#displayraceid) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [DisplaySexID](#displaysexid) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [DisplayClassID](#displayclassid) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Flags](#flags) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [BakeMaterialResourcesID](#bakematerialresourcesid) | int(11) | signed |  | NO | 0 |  |  |
-| [HDBakeMaterialResourcesID](#hdbakematerialresourcesid) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [DisplayRaceID](#displayraceid) | tinyint | signed |  | NO | 0 |  |  |
+| [DisplaySexID](#displaysexid) | tinyint | signed |  | NO | 0 |  |  |
+| [DisplayClassID](#displayclassid) | tinyint | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint | signed |  | NO | 0 |  |  |
+| [BakeMaterialResourcesID](#bakematerialresourcesid) | int | signed |  | NO | 0 |  |  |
+| [HDBakeMaterialResourcesID](#hdbakematerialresourcesid) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

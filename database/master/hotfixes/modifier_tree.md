@@ -2,7 +2,7 @@
 title: modifier_tree
 description: 
 published: true
-date: 2022-01-03T11:26:23.193Z
+date: 2022-02-06T18:26:40.959Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,15 +14,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Parent](#parent) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Operator](#operator) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Amount](#amount) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [Type](#type) | int(11) | signed |  | NO | 0 |  |  |
-| [Asset](#asset) | int(11) | signed |  | NO | 0 |  |  |
-| [SecondaryAsset](#secondaryasset) | int(11) | signed |  | NO | 0 |  |  |
-| [TertiaryAsset](#tertiaryasset) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [Parent](#parent) | int | unsigned |  | NO | 0 |  |  |
+| [Operator](#operator) | tinyint | signed |  | NO | 0 |  |  |
+| [Amount](#amount) | tinyint | signed |  | NO | 0 |  |  |
+| [Type](#type) | int | signed |  | NO | 0 |  |  |
+| [Asset](#asset) | int | signed |  | NO | 0 |  |  |
+| [SecondaryAsset](#secondaryasset) | int | signed |  | NO | 0 |  |  |
+| [TertiaryAsset](#tertiaryasset) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

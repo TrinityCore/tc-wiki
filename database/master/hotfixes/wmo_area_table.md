@@ -2,7 +2,7 @@
 title: wmo_area_table
 description: 
 published: true
-date: 2022-01-03T11:26:23.229Z
+date: 2022-02-06T18:26:41.000Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,21 +15,21 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [AreaName](#areaname) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [WmoID](#wmoid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [NameSetID](#namesetid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [WmoGroupID](#wmogroupid) | int(11) | signed |  | NO | 0 |  |  |
-| [SoundProviderPref](#soundproviderpref) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SoundProviderPrefUnderwater](#soundproviderprefunderwater) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [AmbienceID](#ambienceid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [UwAmbience](#uwambience) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [ZoneMusic](#zonemusic) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [UwZoneMusic](#uwzonemusic) | int(10) | unsigned |  | NO | 0 |  |  |
-| [IntroSound](#introsound) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [UwIntroSound](#uwintrosound) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [AreaTableID](#areatableid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [WmoID](#wmoid) | smallint | unsigned |  | NO | 0 |  |  |
+| [NameSetID](#namesetid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [WmoGroupID](#wmogroupid) | int | signed |  | NO | 0 |  |  |
+| [SoundProviderPref](#soundproviderpref) | tinyint | unsigned |  | NO | 0 |  |  |
+| [SoundProviderPrefUnderwater](#soundproviderprefunderwater) | tinyint | unsigned |  | NO | 0 |  |  |
+| [AmbienceID](#ambienceid) | smallint | unsigned |  | NO | 0 |  |  |
+| [UwAmbience](#uwambience) | smallint | unsigned |  | NO | 0 |  |  |
+| [ZoneMusic](#zonemusic) | smallint | unsigned |  | NO | 0 |  |  |
+| [UwZoneMusic](#uwzonemusic) | int | unsigned |  | NO | 0 |  |  |
+| [IntroSound](#introsound) | smallint | unsigned |  | NO | 0 |  |  |
+| [UwIntroSound](#uwintrosound) | smallint | unsigned |  | NO | 0 |  |  |
+| [AreaTableID](#areatableid) | smallint | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

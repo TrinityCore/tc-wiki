@@ -2,7 +2,7 @@
 title: artifact_power_rank
 description: 
 published: true
-date: 2022-01-03T11:26:23.134Z
+date: 2022-02-06T18:26:40.897Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [RankIndex](#rankindex) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SpellID](#spellid) | int(11) | signed |  | NO | 0 |  |  |
-| [ItemBonusListID](#itembonuslistid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [RankIndex](#rankindex) | tinyint | unsigned |  | NO | 0 |  |  |
+| [SpellID](#spellid) | int | signed |  | NO | 0 |  |  |
+| [ItemBonusListID](#itembonuslistid) | smallint | unsigned |  | NO | 0 |  |  |
 | [AuraPointsOverride](#aurapointsoverride) | float |  |  | NO | 0 |  |  |
-| [ArtifactPowerID](#artifactpowerid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [ArtifactPowerID](#artifactpowerid) | int | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

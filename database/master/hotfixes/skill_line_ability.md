@@ -2,7 +2,7 @@
 title: skill_line_ability
 description: 
 published: true
-date: 2022-01-03T11:26:23.207Z
+date: 2022-02-06T18:26:40.975Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,22 +14,22 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [RaceMask](#racemask) | bigint(20) | signed |  | NO | 0 |  |  |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [SkillLine](#skillline) | smallint(6) | signed |  | NO | 0 |  |  |
-| [Spell](#spell) | int(11) | signed |  | NO | 0 |  |  |
-| [MinSkillLineRank](#minskilllinerank) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ClassMask](#classmask) | int(11) | signed |  | NO | 0 |  |  |
-| [SupercedesSpell](#supercedesspell) | int(11) | signed |  | NO | 0 |  |  |
-| [AcquireMethod](#acquiremethod) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [TrivialSkillLineRankHigh](#trivialskilllinerankhigh) | smallint(6) | signed |  | NO | 0 |  |  |
-| [TrivialSkillLineRankLow](#trivialskilllineranklow) | smallint(6) | signed |  | NO | 0 |  |  |
-| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
-| [NumSkillUps](#numskillups) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [UniqueBit](#uniquebit) | smallint(6) | signed |  | NO | 0 |  |  |
-| [TradeSkillCategoryID](#tradeskillcategoryid) | smallint(6) | signed |  | NO | 0 |  |  |
-| [SkillupSkillLineID](#skillupskilllineid) | smallint(6) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [RaceMask](#racemask) | bigint | signed |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [SkillLine](#skillline) | smallint | signed |  | NO | 0 |  |  |
+| [Spell](#spell) | int | signed |  | NO | 0 |  |  |
+| [MinSkillLineRank](#minskilllinerank) | smallint | signed |  | NO | 0 |  |  |
+| [ClassMask](#classmask) | int | signed |  | NO | 0 |  |  |
+| [SupercedesSpell](#supercedesspell) | int | signed |  | NO | 0 |  |  |
+| [AcquireMethod](#acquiremethod) | tinyint | signed |  | NO | 0 |  |  |
+| [TrivialSkillLineRankHigh](#trivialskilllinerankhigh) | smallint | signed |  | NO | 0 |  |  |
+| [TrivialSkillLineRankLow](#trivialskilllineranklow) | smallint | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
+| [NumSkillUps](#numskillups) | tinyint | signed |  | NO | 0 |  |  |
+| [UniqueBit](#uniquebit) | smallint | signed |  | NO | 0 |  |  |
+| [TradeSkillCategoryID](#tradeskillcategoryid) | smallint | signed |  | NO | 0 |  |  |
+| [SkillupSkillLineID](#skillupskilllineid) | smallint | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

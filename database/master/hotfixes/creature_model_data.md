@@ -2,7 +2,7 @@
 title: creature_model_data
 description: 
 published: true
-date: 2022-01-03T11:26:23.154Z
+date: 2022-02-06T18:26:40.918Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,29 +14,29 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [GeoBox1](#geobox1) | float |  |  | NO | 0 |  |  |
 | [GeoBox2](#geobox2) | float |  |  | NO | 0 |  |  |
 | [GeoBox3](#geobox3) | float |  |  | NO | 0 |  |  |
 | [GeoBox4](#geobox4) | float |  |  | NO | 0 |  |  |
 | [GeoBox5](#geobox5) | float |  |  | NO | 0 |  |  |
 | [GeoBox6](#geobox6) | float |  |  | NO | 0 |  |  |
-| [Flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [FileDataID](#filedataid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [BloodID](#bloodid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [FootprintTextureID](#footprinttextureid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
+| [FileDataID](#filedataid) | int | unsigned |  | NO | 0 |  |  |
+| [BloodID](#bloodid) | int | unsigned |  | NO | 0 |  |  |
+| [FootprintTextureID](#footprinttextureid) | int | unsigned |  | NO | 0 |  |  |
 | [FootprintTextureLength](#footprinttexturelength) | float |  |  | NO | 0 |  |  |
 | [FootprintTextureWidth](#footprinttexturewidth) | float |  |  | NO | 0 |  |  |
 | [FootprintParticleScale](#footprintparticlescale) | float |  |  | NO | 0 |  |  |
-| [FoleyMaterialID](#foleymaterialid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [FootstepCameraEffectID](#footstepcameraeffectid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [DeathThudCameraEffectID](#deaththudcameraeffectid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SoundID](#soundid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SizeClass](#sizeclass) | int(10) | unsigned |  | NO | 0 |  |  |
+| [FoleyMaterialID](#foleymaterialid) | int | unsigned |  | NO | 0 |  |  |
+| [FootstepCameraEffectID](#footstepcameraeffectid) | int | unsigned |  | NO | 0 |  |  |
+| [DeathThudCameraEffectID](#deaththudcameraeffectid) | int | unsigned |  | NO | 0 |  |  |
+| [SoundID](#soundid) | int | unsigned |  | NO | 0 |  |  |
+| [SizeClass](#sizeclass) | int | unsigned |  | NO | 0 |  |  |
 | [CollisionWidth](#collisionwidth) | float |  |  | NO | 0 |  |  |
 | [CollisionHeight](#collisionheight) | float |  |  | NO | 0 |  |  |
 | [WorldEffectScale](#worldeffectscale) | float |  |  | NO | 0 |  |  |
-| [CreatureGeosetDataID](#creaturegeosetdataid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [CreatureGeosetDataID](#creaturegeosetdataid) | int | unsigned |  | NO | 0 |  |  |
 | [HoverHeight](#hoverheight) | float |  |  | NO | 0 |  |  |
 | [AttachedEffectScale](#attachedeffectscale) | float |  |  | NO | 0 |  |  |
 | [ModelScale](#modelscale) | float |  |  | NO | 0 |  |  |
@@ -48,11 +48,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [OverrideNameScale](#overridenamescale) | float |  |  | NO | 0 |  |  |
 | [OverrideSelectionRadius](#overrideselectionradius) | float |  |  | NO | 0 |  |  |
 | [TamedPetBaseScale](#tamedpetbasescale) | float |  |  | NO | 0 |  |  |
-| [Unknown820_1](#unknown820_1) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [Unknown820_1](#unknown820_1) | tinyint | signed |  | NO | 0 |  |  |
 | [Unknown820_2](#unknown820_2) | float |  |  | NO | 0 |  |  |
 | [Unknown820_31](#unknown820_31) | float |  |  | NO | 0 |  |  |
 | [Unknown820_32](#unknown820_32) | float |  |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed | PRI | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
