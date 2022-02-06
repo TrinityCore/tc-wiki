@@ -2,7 +2,7 @@
 title: item_loot_items
 description: 
 published: true
-date: 2022-01-03T11:27:55.596Z
+date: 2022-02-06T18:26:45.284Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,17 +14,17 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [container_id](#container_id) | bigint(20) | unsigned | PRI | NO | 0 |  | guid of container (item_instance.guid) |
-| [item_id](#item_id) | int(10) | unsigned | PRI | NO | 0 |  | loot item entry (item_instance.itemEntry) |
-| [item_count](#item_count) | int(11) | signed |  | NO | 0 |  | stack size |
+| [container_id](#container_id) | bigint | unsigned | PRI | NO | 0 |  | guid of container (item_instance.guid) |
+| [item_id](#item_id) | int | unsigned | PRI | NO | 0 |  | loot item entry (item_instance.itemEntry) |
+| [item_count](#item_count) | int | signed |  | NO | 0 |  | stack size |
 | [follow_rules](#follow_rules) | tinyint(1) | signed |  | NO | 0 |  | follow loot rules |
 | [ffa](#ffa) | tinyint(1) | signed |  | NO | 0 |  | free-for-all |
 | [blocked](#blocked) | tinyint(1) | signed |  | NO | 0 |  |  |
 | [counted](#counted) | tinyint(1) | signed |  | NO | 0 |  |  |
 | [under_threshold](#under_threshold) | tinyint(1) | signed |  | NO | 0 |  |  |
 | [needs_quest](#needs_quest) | tinyint(1) | signed |  | NO | 0 |  | quest drop |
-| [rnd_bonus](#rnd_bonus) | int(10) | unsigned |  | NO | 0 |  | random bonus list added when originally rolled |
-| [context](#context) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [rnd_bonus](#rnd_bonus) | int | unsigned |  | NO | 0 |  | random bonus list added when originally rolled |
+| [context](#context) | tinyint | unsigned |  | NO | 0 |  |  |
 | [bonus_list_ids](#bonus_list_ids) | text |  |  | YES | NULL |  | Space separated list of bonus list ids |
 &nbsp;
 ## Description of fields

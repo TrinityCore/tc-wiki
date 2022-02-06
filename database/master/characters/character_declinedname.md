@@ -2,7 +2,7 @@
 title: character_declinedname
 description: 
 published: true
-date: 2022-01-03T11:27:55.576Z
+date: 2022-02-06T18:26:45.264Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
+| [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
 | [genitive](#genitive) | varchar(15) | signed |  | NO | '' |  |  |
 | [dative](#dative) | varchar(15) | signed |  | NO | '' |  |  |
 | [accusative](#accusative) | varchar(15) | signed |  | NO | '' |  |  |

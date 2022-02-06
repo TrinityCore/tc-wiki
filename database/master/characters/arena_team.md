@@ -2,7 +2,7 @@
 title: arena_team
 description: 
 published: true
-date: 2022-01-03T11:27:55.567Z
+date: 2022-02-06T18:26:45.258Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,21 +14,21 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [arenaTeamId](#arenateamid) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [arenaTeamId](#arenateamid) | int | unsigned | PRI | NO | 0 |  |  |
 | [name](#name) | varchar(24) | signed |  | NO |  |  |  |
-| [captainGuid](#captainguid) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [type](#type) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [rating](#rating) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [seasonGames](#seasongames) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [seasonWins](#seasonwins) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [weekGames](#weekgames) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [weekWins](#weekwins) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [rank](#rank) | int(10) | unsigned |  | NO | 0 |  |  |
-| [backgroundColor](#backgroundcolor) | int(10) | unsigned |  | NO | 0 |  |  |
-| [emblemStyle](#emblemstyle) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [emblemColor](#emblemcolor) | int(10) | unsigned |  | NO | 0 |  |  |
-| [borderStyle](#borderstyle) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [borderColor](#bordercolor) | int(10) | unsigned |  | NO | 0 |  |  |
+| [captainGuid](#captainguid) | bigint | unsigned |  | NO | 0 |  |  |
+| [type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
+| [rating](#rating) | smallint | unsigned |  | NO | 0 |  |  |
+| [seasonGames](#seasongames) | smallint | unsigned |  | NO | 0 |  |  |
+| [seasonWins](#seasonwins) | smallint | unsigned |  | NO | 0 |  |  |
+| [weekGames](#weekgames) | smallint | unsigned |  | NO | 0 |  |  |
+| [weekWins](#weekwins) | smallint | unsigned |  | NO | 0 |  |  |
+| [rank](#rank) | int | unsigned |  | NO | 0 |  |  |
+| [backgroundColor](#backgroundcolor) | int | unsigned |  | NO | 0 |  |  |
+| [emblemStyle](#emblemstyle) | tinyint | unsigned |  | NO | 0 |  |  |
+| [emblemColor](#emblemcolor) | int | unsigned |  | NO | 0 |  |  |
+| [borderStyle](#borderstyle) | tinyint | unsigned |  | NO | 0 |  |  |
+| [borderColor](#bordercolor) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

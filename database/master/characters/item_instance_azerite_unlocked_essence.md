@@ -2,7 +2,7 @@
 title: item_instance_azerite_unlocked_essence
 description: 
 published: true
-date: 2022-01-03T11:27:55.595Z
+date: 2022-02-06T18:26:45.283Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [itemGuid](#itemguid) | bigint(20) | unsigned | PRI | NO |  |  |  |
-| [azeriteEssenceId](#azeriteessenceid) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [rank](#rank) | int(10) | unsigned |  | NO | 0 |  |  |
+| [itemGuid](#itemguid) | bigint | unsigned | PRI | NO |  |  |  |
+| [azeriteEssenceId](#azeriteessenceid) | int | unsigned | PRI | NO | 0 |  |  |
+| [rank](#rank) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

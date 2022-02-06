@@ -2,7 +2,7 @@
 title: respawn
 description: 
 published: true
-date: 2022-01-03T11:27:55.601Z
+date: 2022-02-06T18:26:45.289Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [type](#type) | smallint(5) | unsigned | PRI | NO |  |  |  |
-| [spawnId](#spawnid) | bigint(20) | unsigned | PRI | NO |  |  |  |
-| [respawnTime](#respawntime) | bigint(20) | signed |  | NO |  |  |  |
-| [mapId](#mapid) | smallint(5) | unsigned |  | NO |  |  |  |
-| [instanceId](#instanceid) | int(10) | unsigned | PRI | NO |  |  |  |
+| [type](#type) | smallint | unsigned | PRI | NO |  |  |  |
+| [spawnId](#spawnid) | bigint | unsigned | PRI | NO |  |  |  |
+| [respawnTime](#respawntime) | bigint | signed |  | NO |  |  |  |
+| [mapId](#mapid) | smallint | unsigned |  | NO |  |  |  |
+| [instanceId](#instanceid) | int | unsigned | PRI | NO |  |  |  |
 &nbsp;
 ## Description of fields
 

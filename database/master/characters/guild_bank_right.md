@@ -2,7 +2,7 @@
 title: guild_bank_right
 description: 
 published: true
-date: 2022-01-03T11:27:55.590Z
+date: 2022-02-06T18:26:45.279Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guildid](#guildid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
-| [TabId](#tabid) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
-| [rid](#rid) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
-| [gbright](#gbright) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [SlotPerDay](#slotperday) | int(11) | signed |  | NO | 0 |  |  |
+| [guildid](#guildid) | bigint | unsigned | PRI | NO | 0 |  |  |
+| [TabId](#tabid) | tinyint | unsigned | PRI | NO | 0 |  |  |
+| [rid](#rid) | tinyint | unsigned | PRI | NO | 0 |  |  |
+| [gbright](#gbright) | tinyint | signed |  | NO | 0 |  |  |
+| [SlotPerDay](#slotperday) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

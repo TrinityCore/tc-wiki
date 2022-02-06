@@ -2,7 +2,7 @@
 title: item_instance_modifiers
 description: 
 published: true
-date: 2022-01-03T11:27:55.596Z
+date: 2022-02-06T18:26:45.284Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [itemGuid](#itemguid) | bigint(20) | unsigned | PRI | NO |  |  |  |
-| [fixedScalingLevel](#fixedscalinglevel) | int(10) | unsigned |  | YES | 0 |  |  |
-| [artifactKnowledgeLevel](#artifactknowledgelevel) | int(10) | unsigned |  | YES | 0 |  |  |
+| [itemGuid](#itemguid) | bigint | unsigned | PRI | NO |  |  |  |
+| [fixedScalingLevel](#fixedscalinglevel) | int | unsigned |  | YES | 0 |  |  |
+| [artifactKnowledgeLevel](#artifactknowledgelevel) | int | unsigned |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 

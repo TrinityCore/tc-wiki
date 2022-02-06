@@ -2,7 +2,7 @@
 title: character_homebind
 description: 
 published: true
-date: 2022-01-03T11:27:55.579Z
+date: 2022-02-06T18:26:45.267Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
-| [mapId](#mapid) | smallint(5) | unsigned |  | NO | 0 |  | Map Identifier |
-| [zoneId](#zoneid) | smallint(5) | unsigned |  | NO | 0 |  | Zone Identifier |
+| [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
+| [mapId](#mapid) | smallint | unsigned |  | NO | 0 |  | Map Identifier |
+| [zoneId](#zoneid) | smallint | unsigned |  | NO | 0 |  | Zone Identifier |
 | [posX](#posx) | float |  |  | NO | 0 |  |  |
 | [posY](#posy) | float |  |  | NO | 0 |  |  |
 | [posZ](#posz) | float |  |  | NO | 0 |  |  |

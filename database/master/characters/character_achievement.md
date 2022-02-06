@@ -2,7 +2,7 @@
 title: character_achievement
 description: 
 published: true
-date: 2022-01-03T11:27:55.573Z
+date: 2022-02-06T18:26:45.261Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | bigint(20) | unsigned | PRI | NO |  |  |  |
-| [achievement](#achievement) | int(10) | unsigned | PRI | NO |  |  |  |
-| [date](#date) | bigint(20) | signed |  | NO | 0 |  |  |
+| [guid](#guid) | bigint | unsigned | PRI | NO |  |  |  |
+| [achievement](#achievement) | int | unsigned | PRI | NO |  |  |  |
+| [date](#date) | bigint | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

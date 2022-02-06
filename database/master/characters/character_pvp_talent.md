@@ -2,7 +2,7 @@
 title: character_pvp_talent
 description: 
 published: true
-date: 2022-01-03T11:27:55.580Z
+date: 2022-02-06T18:26:45.268Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | bigint(20) | unsigned | PRI | NO |  |  |  |
-| [talentId0](#talentid0) | int(10) | unsigned |  | NO |  |  |  |
-| [talentId1](#talentid1) | int(10) | unsigned |  | NO |  |  |  |
-| [talentId2](#talentid2) | int(10) | unsigned |  | NO |  |  |  |
-| [talentId3](#talentid3) | int(10) | unsigned |  | NO |  |  |  |
-| [talentGroup](#talentgroup) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
+| [guid](#guid) | bigint | unsigned | PRI | NO |  |  |  |
+| [talentId0](#talentid0) | int | unsigned |  | NO |  |  |  |
+| [talentId1](#talentid1) | int | unsigned |  | NO |  |  |  |
+| [talentId2](#talentid2) | int | unsigned |  | NO |  |  |  |
+| [talentId3](#talentid3) | int | unsigned |  | NO |  |  |  |
+| [talentGroup](#talentgroup) | tinyint | unsigned | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

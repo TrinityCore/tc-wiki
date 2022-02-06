@@ -2,7 +2,7 @@
 title: character_pet
 description: 
 published: true
-date: 2022-01-03T11:27:55.579Z
+date: 2022-02-06T18:26:45.268Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,23 +14,23 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [entry](#entry) | int(10) | unsigned |  | NO | 0 |  |  |
-| [owner](#owner) | bigint(20) | unsigned | MUL | NO | 0 |  |  |
-| [modelid](#modelid) | int(10) | unsigned |  | YES | 0 |  |  |
-| [CreatedBySpell](#createdbyspell) | int(10) | unsigned |  | NO | 0 |  |  |
-| [PetType](#pettype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [level](#level) | smallint(5) | unsigned |  | NO | 1 |  |  |
-| [exp](#exp) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Reactstate](#reactstate) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [id](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [entry](#entry) | int | unsigned |  | NO | 0 |  |  |
+| [owner](#owner) | bigint | unsigned | MUL | NO | 0 |  |  |
+| [modelid](#modelid) | int | unsigned |  | YES | 0 |  |  |
+| [CreatedBySpell](#createdbyspell) | int | unsigned |  | NO | 0 |  |  |
+| [PetType](#pettype) | tinyint | unsigned |  | NO | 0 |  |  |
+| [level](#level) | smallint | unsigned |  | NO | 1 |  |  |
+| [exp](#exp) | int | unsigned |  | NO | 0 |  |  |
+| [Reactstate](#reactstate) | tinyint | unsigned |  | NO | 0 |  |  |
 | [name](#name) | varchar(21) | signed |  | NO | Pet |  |  |
-| [renamed](#renamed) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [slot](#slot) | tinyint(3) | unsigned | MUL | NO | 0 |  |  |
-| [curhealth](#curhealth) | int(10) | unsigned |  | NO | 1 |  |  |
-| [curmana](#curmana) | int(10) | unsigned |  | NO | 0 |  |  |
-| [savetime](#savetime) | int(10) | unsigned |  | NO | 0 |  |  |
+| [renamed](#renamed) | tinyint | unsigned |  | NO | 0 |  |  |
+| [slot](#slot) | smallint | signed | MUL | NO | -1 |  |  |
+| [curhealth](#curhealth) | int | unsigned |  | NO | 1 |  |  |
+| [curmana](#curmana) | int | unsigned |  | NO | 0 |  |  |
+| [savetime](#savetime) | int | unsigned |  | NO | 0 |  |  |
 | [abdata](#abdata) | text |  |  | YES | NULL |  |  |
-| [specialization](#specialization) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [specialization](#specialization) | smallint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

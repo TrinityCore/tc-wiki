@@ -2,7 +2,7 @@
 title: character_stats
 description: 
 published: true
-date: 2022-01-03T11:27:55.584Z
+date: 2022-02-06T18:26:45.273Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,36 +14,36 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  | Global Unique Identifier, Low part |
-| [maxhealth](#maxhealth) | int(10) | unsigned |  | NO | 0 |  |  |
-| [maxpower1](#maxpower1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [maxpower2](#maxpower2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [maxpower3](#maxpower3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [maxpower4](#maxpower4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [maxpower5](#maxpower5) | int(10) | unsigned |  | NO | 0 |  |  |
-| [maxpower6](#maxpower6) | int(10) | unsigned |  | NO | 0 |  |  |
-| [maxpower7](#maxpower7) | int(10) | unsigned |  | NO | 0 |  |  |
-| [strength](#strength) | int(10) | unsigned |  | NO | 0 |  |  |
-| [agility](#agility) | int(10) | unsigned |  | NO | 0 |  |  |
-| [stamina](#stamina) | int(10) | unsigned |  | NO | 0 |  |  |
-| [intellect](#intellect) | int(10) | unsigned |  | NO | 0 |  |  |
-| [armor](#armor) | int(10) | unsigned |  | NO | 0 |  |  |
-| [resHoly](#resholy) | int(10) | unsigned |  | NO | 0 |  |  |
-| [resFire](#resfire) | int(10) | unsigned |  | NO | 0 |  |  |
-| [resNature](#resnature) | int(10) | unsigned |  | NO | 0 |  |  |
-| [resFrost](#resfrost) | int(10) | unsigned |  | NO | 0 |  |  |
-| [resShadow](#resshadow) | int(10) | unsigned |  | NO | 0 |  |  |
-| [resArcane](#resarcane) | int(10) | unsigned |  | NO | 0 |  |  |
+| [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  | Global Unique Identifier, Low part |
+| [maxhealth](#maxhealth) | int | unsigned |  | NO | 0 |  |  |
+| [maxpower1](#maxpower1) | int | unsigned |  | NO | 0 |  |  |
+| [maxpower2](#maxpower2) | int | unsigned |  | NO | 0 |  |  |
+| [maxpower3](#maxpower3) | int | unsigned |  | NO | 0 |  |  |
+| [maxpower4](#maxpower4) | int | unsigned |  | NO | 0 |  |  |
+| [maxpower5](#maxpower5) | int | unsigned |  | NO | 0 |  |  |
+| [maxpower6](#maxpower6) | int | unsigned |  | NO | 0 |  |  |
+| [maxpower7](#maxpower7) | int | unsigned |  | NO | 0 |  |  |
+| [strength](#strength) | int | unsigned |  | NO | 0 |  |  |
+| [agility](#agility) | int | unsigned |  | NO | 0 |  |  |
+| [stamina](#stamina) | int | unsigned |  | NO | 0 |  |  |
+| [intellect](#intellect) | int | unsigned |  | NO | 0 |  |  |
+| [armor](#armor) | int | unsigned |  | NO | 0 |  |  |
+| [resHoly](#resholy) | int | unsigned |  | NO | 0 |  |  |
+| [resFire](#resfire) | int | unsigned |  | NO | 0 |  |  |
+| [resNature](#resnature) | int | unsigned |  | NO | 0 |  |  |
+| [resFrost](#resfrost) | int | unsigned |  | NO | 0 |  |  |
+| [resShadow](#resshadow) | int | unsigned |  | NO | 0 |  |  |
+| [resArcane](#resarcane) | int | unsigned |  | NO | 0 |  |  |
 | [blockPct](#blockpct) | float | unsigned |  | NO | 0 |  |  |
 | [dodgePct](#dodgepct) | float | unsigned |  | NO | 0 |  |  |
 | [parryPct](#parrypct) | float | unsigned |  | NO | 0 |  |  |
 | [critPct](#critpct) | float | unsigned |  | NO | 0 |  |  |
 | [rangedCritPct](#rangedcritpct) | float | unsigned |  | NO | 0 |  |  |
 | [spellCritPct](#spellcritpct) | float | unsigned |  | NO | 0 |  |  |
-| [attackPower](#attackpower) | int(10) | unsigned |  | NO | 0 |  |  |
-| [rangedAttackPower](#rangedattackpower) | int(10) | unsigned |  | NO | 0 |  |  |
-| [spellPower](#spellpower) | int(10) | unsigned |  | NO | 0 |  |  |
-| [resilience](#resilience) | int(10) | unsigned |  | NO | 0 |  |  |
+| [attackPower](#attackpower) | int | unsigned |  | NO | 0 |  |  |
+| [rangedAttackPower](#rangedattackpower) | int | unsigned |  | NO | 0 |  |  |
+| [spellPower](#spellpower) | int | unsigned |  | NO | 0 |  |  |
+| [resilience](#resilience) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

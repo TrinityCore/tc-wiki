@@ -2,7 +2,7 @@
 title: corpse_phases
 description: 
 published: true
-date: 2022-01-03T11:27:55.586Z
+date: 2022-02-06T18:26:45.275Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [OwnerGuid](#ownerguid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
-| [PhaseId](#phaseid) | int(10) | unsigned | PRI | NO |  |  |  |
+| [OwnerGuid](#ownerguid) | bigint | unsigned | PRI | NO | 0 |  |  |
+| [PhaseId](#phaseid) | int | unsigned | PRI | NO |  |  |  |
 &nbsp;
 ## Description of fields
 

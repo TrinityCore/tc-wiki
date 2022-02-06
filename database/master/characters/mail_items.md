@@ -2,7 +2,7 @@
 title: mail_items
 description: 
 published: true
-date: 2022-01-03T11:27:55.598Z
+date: 2022-02-06T18:26:45.286Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [mail_id](#mail_id) | int(10) | unsigned | MUL | NO | 0 |  |  |
-| [item_guid](#item_guid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
-| [receiver](#receiver) | bigint(20) | unsigned | MUL | NO | 0 |  | Character Global Unique Identifier |
+| [mail_id](#mail_id) | int | unsigned | MUL | NO | 0 |  |  |
+| [item_guid](#item_guid) | bigint | unsigned | PRI | NO | 0 |  |  |
+| [receiver](#receiver) | bigint | unsigned | MUL | NO | 0 |  | Character Global Unique Identifier |
 &nbsp;
 ## Description of fields
 

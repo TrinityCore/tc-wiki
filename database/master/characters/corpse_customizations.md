@@ -2,7 +2,7 @@
 title: corpse_customizations
 description: 
 published: true
-date: 2022-01-03T11:27:55.586Z
+date: 2022-02-06T18:26:45.275Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ownerGuid](#ownerguid) | bigint(20) | unsigned | PRI | NO |  |  |  |
-| [chrCustomizationOptionID](#chrcustomizationoptionid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [chrCustomizationChoiceID](#chrcustomizationchoiceid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ownerGuid](#ownerguid) | bigint | unsigned | PRI | NO |  |  |  |
+| [chrCustomizationOptionID](#chrcustomizationoptionid) | int | unsigned | PRI | NO |  |  |  |
+| [chrCustomizationChoiceID](#chrcustomizationchoiceid) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

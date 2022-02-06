@@ -2,7 +2,7 @@
 title: character_battleground_data
 description: 
 published: true
-date: 2022-01-03T11:27:55.575Z
+date: 2022-02-06T18:26:45.263Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,17 +14,17 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
-| [instanceId](#instanceid) | int(10) | unsigned |  | NO |  |  | Instance Identifier |
-| [team](#team) | smallint(5) | unsigned |  | NO |  |  |  |
+| [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
+| [instanceId](#instanceid) | int | unsigned |  | NO |  |  | Instance Identifier |
+| [team](#team) | smallint | unsigned |  | NO |  |  |  |
 | [joinX](#joinx) | float |  |  | NO | 0 |  |  |
 | [joinY](#joiny) | float |  |  | NO | 0 |  |  |
 | [joinZ](#joinz) | float |  |  | NO | 0 |  |  |
 | [joinO](#joino) | float |  |  | NO | 0 |  |  |
-| [joinMapId](#joinmapid) | smallint(5) | unsigned |  | NO | 0 |  | Map Identifier |
-| [taxiStart](#taxistart) | int(10) | unsigned |  | NO | 0 |  |  |
-| [taxiEnd](#taxiend) | int(10) | unsigned |  | NO | 0 |  |  |
-| [mountSpell](#mountspell) | int(10) | unsigned |  | NO | 0 |  |  |
+| [joinMapId](#joinmapid) | smallint | unsigned |  | NO | 0 |  | Map Identifier |
+| [taxiStart](#taxistart) | int | unsigned |  | NO | 0 |  |  |
+| [taxiEnd](#taxiend) | int | unsigned |  | NO | 0 |  |  |
+| [mountSpell](#mountspell) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: auctionhouse
 description: 
 published: true
-date: 2022-01-03T11:27:55.570Z
+date: 2022-02-06T18:26:45.259Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,16 +14,16 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [auctionHouseId](#auctionhouseid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [owner](#owner) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [bidder](#bidder) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [minBid](#minbid) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [buyoutOrUnitPrice](#buyoutorunitprice) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [deposit](#deposit) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [bidAmount](#bidamount) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [startTime](#starttime) | bigint(20) | signed |  | NO | 0 |  |  |
-| [endTime](#endtime) | bigint(20) | signed |  | NO | 0 |  |  |
+| [id](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [auctionHouseId](#auctionhouseid) | int | unsigned |  | NO | 0 |  |  |
+| [owner](#owner) | bigint | unsigned |  | NO | 0 |  |  |
+| [bidder](#bidder) | bigint | unsigned |  | NO | 0 |  |  |
+| [minBid](#minbid) | bigint | unsigned |  | NO | 0 |  |  |
+| [buyoutOrUnitPrice](#buyoutorunitprice) | bigint | unsigned |  | NO | 0 |  |  |
+| [deposit](#deposit) | bigint | unsigned |  | NO | 0 |  |  |
+| [bidAmount](#bidamount) | bigint | unsigned |  | NO | 0 |  |  |
+| [startTime](#starttime) | bigint | signed |  | NO | 0 |  |  |
+| [endTime](#endtime) | bigint | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: item_instance
 description: 
 published: true
-date: 2022-01-03T11:27:55.593Z
+date: 2022-02-06T18:26:45.281Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,27 +14,27 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
-| [itemEntry](#itementry) | int(10) | unsigned |  | NO | 0 |  |  |
-| [owner_guid](#owner_guid) | bigint(20) | unsigned | MUL | NO | 0 |  |  |
-| [creatorGuid](#creatorguid) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [giftCreatorGuid](#giftcreatorguid) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [count](#count) | int(10) | unsigned |  | NO | 1 |  |  |
-| [duration](#duration) | int(11) | signed |  | NO | 0 |  |  |
+| [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  |  |
+| [itemEntry](#itementry) | int | unsigned |  | NO | 0 |  |  |
+| [owner_guid](#owner_guid) | bigint | unsigned | MUL | NO | 0 |  |  |
+| [creatorGuid](#creatorguid) | bigint | unsigned |  | NO | 0 |  |  |
+| [giftCreatorGuid](#giftcreatorguid) | bigint | unsigned |  | NO | 0 |  |  |
+| [count](#count) | int | unsigned |  | NO | 1 |  |  |
+| [duration](#duration) | int | signed |  | NO | 0 |  |  |
 | [charges](#charges) | tinytext |  |  | YES | NULL |  |  |
-| [flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
+| [flags](#flags) | int | unsigned |  | NO | 0 |  |  |
 | [enchantments](#enchantments) | text |  |  | NO |  |  |  |
-| [randomBonusListId](#randombonuslistid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [durability](#durability) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [playedTime](#playedtime) | int(10) | unsigned |  | NO | 0 |  |  |
+| [randomBonusListId](#randombonuslistid) | int | unsigned |  | NO | 0 |  |  |
+| [durability](#durability) | smallint | unsigned |  | NO | 0 |  |  |
+| [playedTime](#playedtime) | int | unsigned |  | NO | 0 |  |  |
 | [text](#text) | text |  |  | YES | NULL |  |  |
-| [transmogrification](#transmogrification) | int(10) | unsigned |  | NO | 0 |  |  |
-| [enchantIllusion](#enchantillusion) | int(10) | unsigned |  | NO | 0 |  |  |
-| [battlePetSpeciesId](#battlepetspeciesid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [battlePetBreedData](#battlepetbreeddata) | int(10) | unsigned |  | NO | 0 |  |  |
-| [battlePetLevel](#battlepetlevel) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [battlePetDisplayId](#battlepetdisplayid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [context](#context) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [transmogrification](#transmogrification) | int | unsigned |  | NO | 0 |  |  |
+| [enchantIllusion](#enchantillusion) | int | unsigned |  | NO | 0 |  |  |
+| [battlePetSpeciesId](#battlepetspeciesid) | int | unsigned |  | NO | 0 |  |  |
+| [battlePetBreedData](#battlepetbreeddata) | int | unsigned |  | NO | 0 |  |  |
+| [battlePetLevel](#battlepetlevel) | smallint | unsigned |  | NO | 0 |  |  |
+| [battlePetDisplayId](#battlepetdisplayid) | int | unsigned |  | NO | 0 |  |  |
+| [context](#context) | tinyint | unsigned |  | NO | 0 |  |  |
 | [bonusListIDs](#bonuslistids) | text |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields

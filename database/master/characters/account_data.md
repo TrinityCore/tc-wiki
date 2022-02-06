@@ -2,7 +2,7 @@
 title: account_data
 description: 
 published: true
-date: 2022-01-03T11:27:55.566Z
+date: 2022-02-06T18:26:45.254Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [accountId](#accountid) | int(10) | unsigned | PRI | NO | 0 |  | Account Identifier |
-| [type](#type) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
-| [time](#time) | bigint(20) | signed |  | NO | 0 |  |  |
+| [accountId](#accountid) | int | unsigned | PRI | NO | 0 |  | Account Identifier |
+| [type](#type) | tinyint | unsigned | PRI | NO | 0 |  |  |
+| [time](#time) | bigint | signed |  | NO | 0 |  |  |
 | [data](#data) | blob |  |  | NO |  |  |  |
 &nbsp;
 ## Description of fields

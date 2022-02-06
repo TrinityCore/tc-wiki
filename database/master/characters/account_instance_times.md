@@ -2,7 +2,7 @@
 title: account_instance_times
 description: 
 published: true
-date: 2022-01-03T11:27:55.567Z
+date: 2022-02-06T18:26:45.255Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [accountId](#accountid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [instanceId](#instanceid) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [releaseTime](#releasetime) | bigint(20) | unsigned |  | NO | 0 |  |  |
+| [accountId](#accountid) | int | unsigned | PRI | NO |  |  |  |
+| [instanceId](#instanceid) | int | unsigned | PRI | NO | 0 |  |  |
+| [releaseTime](#releasetime) | bigint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

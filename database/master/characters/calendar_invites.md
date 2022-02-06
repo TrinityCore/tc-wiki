@@ -2,7 +2,7 @@
 title: calendar_invites
 description: 
 published: true
-date: 2022-01-03T11:27:55.572Z
+date: 2022-02-06T18:26:45.260Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [InviteID](#inviteid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
-| [EventID](#eventid) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [Invitee](#invitee) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [Sender](#sender) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [Status](#status) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [ResponseTime](#responsetime) | bigint(20) | signed |  | NO | 0 |  |  |
-| [ModerationRank](#moderationrank) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [InviteID](#inviteid) | bigint | unsigned | PRI | NO | 0 |  |  |
+| [EventID](#eventid) | bigint | unsigned |  | NO | 0 |  |  |
+| [Invitee](#invitee) | bigint | unsigned |  | NO | 0 |  |  |
+| [Sender](#sender) | bigint | unsigned |  | NO | 0 |  |  |
+| [Status](#status) | tinyint | unsigned |  | NO | 0 |  |  |
+| [ResponseTime](#responsetime) | bigint | signed |  | NO | 0 |  |  |
+| [ModerationRank](#moderationrank) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Note](#note) | varchar(255) | signed |  | NO | '' |  |  |
 &nbsp;
 ## Description of fields

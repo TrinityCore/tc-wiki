@@ -2,7 +2,7 @@
 title: character_currency
 description: 
 published: true
-date: 2022-01-03T11:27:55.576Z
+date: 2022-02-06T18:26:45.264Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [CharacterGuid](#characterguid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
-| [Currency](#currency) | smallint(5) | unsigned | PRI | NO |  |  |  |
-| [Quantity](#quantity) | int(10) | unsigned |  | NO |  |  |  |
-| [WeeklyQuantity](#weeklyquantity) | int(10) | unsigned |  | NO |  |  |  |
-| [TrackedQuantity](#trackedquantity) | int(10) | unsigned |  | NO |  |  |  |
-| [Flags](#flags) | tinyint(3) | unsigned |  | NO |  |  |  |
+| [CharacterGuid](#characterguid) | bigint | unsigned | PRI | NO | 0 |  |  |
+| [Currency](#currency) | smallint | unsigned | PRI | NO |  |  |  |
+| [Quantity](#quantity) | int | unsigned |  | NO |  |  |  |
+| [WeeklyQuantity](#weeklyquantity) | int | unsigned |  | NO |  |  |  |
+| [TrackedQuantity](#trackedquantity) | int | unsigned |  | NO |  |  |  |
+| [Flags](#flags) | tinyint | unsigned |  | NO |  |  |  |
 &nbsp;
 ## Description of fields
 

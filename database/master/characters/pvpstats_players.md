@@ -2,7 +2,7 @@
 title: pvpstats_players
 description: 
 published: true
-date: 2022-01-03T11:27:55.600Z
+date: 2022-02-06T18:26:45.288Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,20 +14,20 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [battleground_id](#battleground_id) | bigint(20) | unsigned | PRI | NO |  |  |  |
-| [character_guid](#character_guid) | bigint(20) | unsigned | PRI | NO |  |  |  |
+| [battleground_id](#battleground_id) | bigint | unsigned | PRI | NO |  |  |  |
+| [character_guid](#character_guid) | bigint | unsigned | PRI | NO |  |  |  |
 | [winner](#winner) | bit(1) |  |  | NO |  |  |  |
-| [score_killing_blows](#score_killing_blows) | int(10) | unsigned |  | NO |  |  |  |
-| [score_deaths](#score_deaths) | int(10) | unsigned |  | NO |  |  |  |
-| [score_honorable_kills](#score_honorable_kills) | int(10) | unsigned |  | NO |  |  |  |
-| [score_bonus_honor](#score_bonus_honor) | int(10) | unsigned |  | NO |  |  |  |
-| [score_damage_done](#score_damage_done) | int(10) | unsigned |  | NO |  |  |  |
-| [score_healing_done](#score_healing_done) | int(10) | unsigned |  | NO |  |  |  |
-| [attr_1](#attr_1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [attr_2](#attr_2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [attr_3](#attr_3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [attr_4](#attr_4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [attr_5](#attr_5) | int(10) | unsigned |  | NO | 0 |  |  |
+| [score_killing_blows](#score_killing_blows) | int | unsigned |  | NO |  |  |  |
+| [score_deaths](#score_deaths) | int | unsigned |  | NO |  |  |  |
+| [score_honorable_kills](#score_honorable_kills) | int | unsigned |  | NO |  |  |  |
+| [score_bonus_honor](#score_bonus_honor) | int | unsigned |  | NO |  |  |  |
+| [score_damage_done](#score_damage_done) | int | unsigned |  | NO |  |  |  |
+| [score_healing_done](#score_healing_done) | int | unsigned |  | NO |  |  |  |
+| [attr_1](#attr_1) | int | unsigned |  | NO | 0 |  |  |
+| [attr_2](#attr_2) | int | unsigned |  | NO | 0 |  |  |
+| [attr_3](#attr_3) | int | unsigned |  | NO | 0 |  |  |
+| [attr_4](#attr_4) | int | unsigned |  | NO | 0 |  |  |
+| [attr_5](#attr_5) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

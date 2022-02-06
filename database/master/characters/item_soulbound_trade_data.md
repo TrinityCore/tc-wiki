@@ -2,7 +2,7 @@
 title: item_soulbound_trade_data
 description: 
 published: true
-date: 2022-01-03T11:27:55.597Z
+date: 2022-02-06T18:26:45.285Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [itemGuid](#itemguid) | bigint(20) | unsigned | PRI | NO |  |  | Item GUID |
+| [itemGuid](#itemguid) | bigint | unsigned | PRI | NO |  |  | Item GUID |
 | [allowedPlayers](#allowedplayers) | text |  |  | NO |  |  | Space separated GUID list of players who can receive this item in trade |
 &nbsp;
 ## Description of fields

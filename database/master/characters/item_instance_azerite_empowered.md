@@ -2,7 +2,7 @@
 title: item_instance_azerite_empowered
 description: 
 published: true
-date: 2022-01-03T11:27:55.594Z
+date: 2022-02-06T18:26:45.282Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [itemGuid](#itemguid) | bigint(20) | unsigned | PRI | NO |  |  |  |
-| [azeritePowerId1](#azeritepowerid1) | int(11) | signed |  | NO |  |  |  |
-| [azeritePowerId2](#azeritepowerid2) | int(11) | signed |  | NO |  |  |  |
-| [azeritePowerId3](#azeritepowerid3) | int(11) | signed |  | NO |  |  |  |
-| [azeritePowerId4](#azeritepowerid4) | int(11) | signed |  | NO |  |  |  |
-| [azeritePowerId5](#azeritepowerid5) | int(11) | signed |  | NO |  |  |  |
+| [itemGuid](#itemguid) | bigint | unsigned | PRI | NO |  |  |  |
+| [azeritePowerId1](#azeritepowerid1) | int | signed |  | NO |  |  |  |
+| [azeritePowerId2](#azeritepowerid2) | int | signed |  | NO |  |  |  |
+| [azeritePowerId3](#azeritepowerid3) | int | signed |  | NO |  |  |  |
+| [azeritePowerId4](#azeritepowerid4) | int | signed |  | NO |  |  |  |
+| [azeritePowerId5](#azeritepowerid5) | int | signed |  | NO |  |  |  |
 &nbsp;
 ## Description of fields
 

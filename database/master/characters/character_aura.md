@@ -2,7 +2,7 @@
 title: character_aura
 description: 
 published: true
-date: 2022-01-03T11:27:55.574Z
+date: 2022-02-06T18:26:45.262Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,19 +14,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
+| [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
 | [casterGuid](#casterguid) | binary(16) | signed | PRI | NO |  |  | Full Global Unique Identifier |
 | [itemGuid](#itemguid) | binary(16) | signed | PRI | NO |  |  |  |
-| [spell](#spell) | int(10) | unsigned | PRI | NO |  |  |  |
-| [effectMask](#effectmask) | int(10) | unsigned | PRI | NO |  |  |  |
-| [recalculateMask](#recalculatemask) | int(10) | unsigned |  | NO | 0 |  |  |
-| [difficulty](#difficulty) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [stackCount](#stackcount) | tinyint(3) | unsigned |  | NO | 1 |  |  |
-| [maxDuration](#maxduration) | int(11) | signed |  | NO | 0 |  |  |
-| [remainTime](#remaintime) | int(11) | signed |  | NO | 0 |  |  |
-| [remainCharges](#remaincharges) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [castItemId](#castitemid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [castItemLevel](#castitemlevel) | int(11) | signed |  | NO | -1 |  |  |
+| [spell](#spell) | int | unsigned | PRI | NO |  |  |  |
+| [effectMask](#effectmask) | int | unsigned | PRI | NO |  |  |  |
+| [recalculateMask](#recalculatemask) | int | unsigned |  | NO | 0 |  |  |
+| [difficulty](#difficulty) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stackCount](#stackcount) | tinyint | unsigned |  | NO | 1 |  |  |
+| [maxDuration](#maxduration) | int | signed |  | NO | 0 |  |  |
+| [remainTime](#remaintime) | int | signed |  | NO | 0 |  |  |
+| [remainCharges](#remaincharges) | tinyint | unsigned |  | NO | 0 |  |  |
+| [castItemId](#castitemid) | int | unsigned |  | NO | 0 |  |  |
+| [castItemLevel](#castitemlevel) | int | signed |  | NO | -1 |  |  |
 &nbsp;
 ## Description of fields
 

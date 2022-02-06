@@ -2,7 +2,7 @@
 title: character_inventory
 description: 
 published: true
-date: 2022-01-03T11:27:55.579Z
+date: 2022-02-06T18:26:45.267Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | bigint(20) | unsigned | MUL | NO | 0 |  | Global Unique Identifier |
-| [bag](#bag) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [slot](#slot) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [item](#item) | bigint(20) | unsigned | PRI | NO | 0 |  | Item Global Unique Identifier |
+| [guid](#guid) | bigint | unsigned | MUL | NO | 0 |  | Global Unique Identifier |
+| [bag](#bag) | bigint | unsigned |  | NO | 0 |  |  |
+| [slot](#slot) | tinyint | unsigned |  | NO | 0 |  |  |
+| [item](#item) | bigint | unsigned | PRI | NO | 0 |  | Item Global Unique Identifier |
 &nbsp;
 ## Description of fields
 

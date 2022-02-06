@@ -2,7 +2,7 @@
 title: character_banned
 description: 
 published: true
-date: 2022-01-03T11:27:55.575Z
+date: 2022-02-06T18:26:45.263Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
-| [bandate](#bandate) | bigint(20) | signed | PRI | NO | 0 |  |  |
-| [unbandate](#unbandate) | bigint(20) | signed |  | NO | 0 |  |  |
+| [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
+| [bandate](#bandate) | bigint | signed | PRI | NO | 0 |  |  |
+| [unbandate](#unbandate) | bigint | signed |  | NO | 0 |  |  |
 | [bannedby](#bannedby) | varchar(50) | signed |  | NO |  |  |  |
 | [banreason](#banreason) | varchar(255) | signed |  | NO |  |  |  |
-| [active](#active) | tinyint(3) | unsigned |  | NO | 1 |  |  |
+| [active](#active) | tinyint | unsigned |  | NO | 1 |  |  |
 &nbsp;
 ## Description of fields
 

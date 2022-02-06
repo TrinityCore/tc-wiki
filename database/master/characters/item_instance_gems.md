@@ -2,7 +2,7 @@
 title: item_instance_gems
 description: 
 published: true
-date: 2022-01-03T11:27:55.595Z
+date: 2022-02-06T18:26:45.283Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,19 +14,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [itemGuid](#itemguid) | bigint(20) | unsigned | PRI | NO |  |  |  |
-| [gemItemId1](#gemitemid1) | int(10) | unsigned |  | NO | 0 |  |  |
+| [itemGuid](#itemguid) | bigint | unsigned | PRI | NO |  |  |  |
+| [gemItemId1](#gemitemid1) | int | unsigned |  | NO | 0 |  |  |
 | [gemBonuses1](#gembonuses1) | text |  |  | YES | NULL |  |  |
-| [gemContext1](#gemcontext1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [gemScalingLevel1](#gemscalinglevel1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [gemItemId2](#gemitemid2) | int(10) | unsigned |  | NO | 0 |  |  |
+| [gemContext1](#gemcontext1) | tinyint | unsigned |  | NO | 0 |  |  |
+| [gemScalingLevel1](#gemscalinglevel1) | int | unsigned |  | NO | 0 |  |  |
+| [gemItemId2](#gemitemid2) | int | unsigned |  | NO | 0 |  |  |
 | [gemBonuses2](#gembonuses2) | text |  |  | YES | NULL |  |  |
-| [gemContext2](#gemcontext2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [gemScalingLevel2](#gemscalinglevel2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [gemItemId3](#gemitemid3) | int(10) | unsigned |  | NO | 0 |  |  |
+| [gemContext2](#gemcontext2) | tinyint | unsigned |  | NO | 0 |  |  |
+| [gemScalingLevel2](#gemscalinglevel2) | int | unsigned |  | NO | 0 |  |  |
+| [gemItemId3](#gemitemid3) | int | unsigned |  | NO | 0 |  |  |
 | [gemBonuses3](#gembonuses3) | text |  |  | YES | NULL |  |  |
-| [gemContext3](#gemcontext3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [gemScalingLevel3](#gemscalinglevel3) | int(10) | unsigned |  | NO | 0 |  |  |
+| [gemContext3](#gemcontext3) | tinyint | unsigned |  | NO | 0 |  |  |
+| [gemScalingLevel3](#gemscalinglevel3) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: character_equipmentsets
 description: 
 published: true
-date: 2022-01-03T11:27:55.576Z
+date: 2022-02-06T18:26:45.265Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,32 +14,32 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | bigint(20) | unsigned | MUL | NO | 0 |  |  |
-| [setguid](#setguid) | bigint(20) | unsigned | PRI | NO |  | auto_increment |  |
-| [setindex](#setindex) | tinyint(3) | unsigned | MUL | NO | 0 |  |  |
+| [guid](#guid) | bigint | unsigned | MUL | NO | 0 |  |  |
+| [setguid](#setguid) | bigint | unsigned | PRI | NO |  | auto_increment |  |
+| [setindex](#setindex) | tinyint | unsigned | MUL | NO | 0 |  |  |
 | [name](#name) | varchar(31) | signed |  | NO |  |  |  |
 | [iconname](#iconname) | varchar(100) | signed |  | NO |  |  |  |
-| [ignore_mask](#ignore_mask) | int(10) | unsigned |  | NO | 0 |  |  |
-| [AssignedSpecIndex](#assignedspecindex) | int(11) | signed |  | NO | -1 |  |  |
-| [item0](#item0) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [item1](#item1) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [item2](#item2) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [item3](#item3) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [item4](#item4) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [item5](#item5) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [item6](#item6) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [item7](#item7) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [item8](#item8) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [item9](#item9) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [item10](#item10) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [item11](#item11) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [item12](#item12) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [item13](#item13) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [item14](#item14) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [item15](#item15) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [item16](#item16) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [item17](#item17) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [item18](#item18) | bigint(20) | unsigned |  | NO | 0 |  |  |
+| [ignore_mask](#ignore_mask) | int | unsigned |  | NO | 0 |  |  |
+| [AssignedSpecIndex](#assignedspecindex) | int | signed |  | NO | -1 |  |  |
+| [item0](#item0) | bigint | unsigned |  | NO | 0 |  |  |
+| [item1](#item1) | bigint | unsigned |  | NO | 0 |  |  |
+| [item2](#item2) | bigint | unsigned |  | NO | 0 |  |  |
+| [item3](#item3) | bigint | unsigned |  | NO | 0 |  |  |
+| [item4](#item4) | bigint | unsigned |  | NO | 0 |  |  |
+| [item5](#item5) | bigint | unsigned |  | NO | 0 |  |  |
+| [item6](#item6) | bigint | unsigned |  | NO | 0 |  |  |
+| [item7](#item7) | bigint | unsigned |  | NO | 0 |  |  |
+| [item8](#item8) | bigint | unsigned |  | NO | 0 |  |  |
+| [item9](#item9) | bigint | unsigned |  | NO | 0 |  |  |
+| [item10](#item10) | bigint | unsigned |  | NO | 0 |  |  |
+| [item11](#item11) | bigint | unsigned |  | NO | 0 |  |  |
+| [item12](#item12) | bigint | unsigned |  | NO | 0 |  |  |
+| [item13](#item13) | bigint | unsigned |  | NO | 0 |  |  |
+| [item14](#item14) | bigint | unsigned |  | NO | 0 |  |  |
+| [item15](#item15) | bigint | unsigned |  | NO | 0 |  |  |
+| [item16](#item16) | bigint | unsigned |  | NO | 0 |  |  |
+| [item17](#item17) | bigint | unsigned |  | NO | 0 |  |  |
+| [item18](#item18) | bigint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

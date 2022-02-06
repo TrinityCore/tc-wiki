@@ -2,7 +2,7 @@
 title: character_cuf_profiles
 description: 
 published: true
-date: 2022-01-03T11:27:55.575Z
+date: 2022-02-06T18:26:45.264Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,20 +14,20 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  | Character Guid |
-| [id](#id) | tinyint(3) | unsigned | PRI | NO |  |  | Profile Id (0-4) |
+| [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  | Character Guid |
+| [id](#id) | tinyint | unsigned | PRI | NO |  |  | Profile Id (0-4) |
 | [name](#name) | varchar(12) | signed |  | NO |  |  | Profile Name |
-| [frameHeight](#frameheight) | smallint(5) | unsigned |  | NO | 0 |  | Profile Frame Height |
-| [frameWidth](#framewidth) | smallint(5) | unsigned |  | NO | 0 |  | Profile Frame Width |
-| [sortBy](#sortby) | tinyint(3) | unsigned |  | NO | 0 |  | Frame Sort By |
-| [healthText](#healthtext) | tinyint(3) | unsigned |  | NO | 0 |  | Frame Health Text |
-| [boolOptions](#booloptions) | int(10) | unsigned |  | NO | 0 |  | Many Configurable Bool Options |
-| [topPoint](#toppoint) | tinyint(3) | unsigned |  | NO | 0 |  | Frame top alignment |
-| [bottomPoint](#bottompoint) | tinyint(3) | unsigned |  | NO | 0 |  | Frame bottom alignment |
-| [leftPoint](#leftpoint) | tinyint(3) | unsigned |  | NO | 0 |  | Frame left alignment |
-| [topOffset](#topoffset) | smallint(5) | unsigned |  | NO | 0 |  | Frame position offset from top |
-| [bottomOffset](#bottomoffset) | smallint(5) | unsigned |  | NO | 0 |  | Frame position offset from bottom |
-| [leftOffset](#leftoffset) | smallint(5) | unsigned |  | NO | 0 |  | Frame position offset from left |
+| [frameHeight](#frameheight) | smallint | unsigned |  | NO | 0 |  | Profile Frame Height |
+| [frameWidth](#framewidth) | smallint | unsigned |  | NO | 0 |  | Profile Frame Width |
+| [sortBy](#sortby) | tinyint | unsigned |  | NO | 0 |  | Frame Sort By |
+| [healthText](#healthtext) | tinyint | unsigned |  | NO | 0 |  | Frame Health Text |
+| [boolOptions](#booloptions) | int | unsigned |  | NO | 0 |  | Many Configurable Bool Options |
+| [topPoint](#toppoint) | tinyint | unsigned |  | NO | 0 |  | Frame top alignment |
+| [bottomPoint](#bottompoint) | tinyint | unsigned |  | NO | 0 |  | Frame bottom alignment |
+| [leftPoint](#leftpoint) | tinyint | unsigned |  | NO | 0 |  | Frame left alignment |
+| [topOffset](#topoffset) | smallint | unsigned |  | NO | 0 |  | Frame position offset from top |
+| [bottomOffset](#bottomoffset) | smallint | unsigned |  | NO | 0 |  | Frame position offset from bottom |
+| [leftOffset](#leftoffset) | smallint | unsigned |  | NO | 0 |  | Frame position offset from left |
 &nbsp;
 ## Description of fields
 

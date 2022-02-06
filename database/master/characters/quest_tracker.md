@@ -2,7 +2,7 @@
 title: quest_tracker
 description: 
 published: true
-date: 2022-01-03T11:27:55.600Z
+date: 2022-02-06T18:26:45.289Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [character_guid](#character_guid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
+| [id](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [character_guid](#character_guid) | bigint | unsigned | PRI | NO | 0 |  |  |
 | [quest_accept_time](#quest_accept_time) | datetime |  |  | NO |  |  |  |
 | [quest_complete_time](#quest_complete_time) | datetime |  |  | YES | NULL |  |  |
 | [quest_abandon_time](#quest_abandon_time) | datetime |  |  | YES | NULL |  |  |

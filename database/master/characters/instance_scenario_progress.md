@@ -2,7 +2,7 @@
 title: instance_scenario_progress
 description: 
 published: true
-date: 2022-01-03T11:27:55.593Z
+date: 2022-02-06T18:26:45.281Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int(10) | unsigned | PRI | NO |  |  |  |
-| [criteria](#criteria) | int(10) | unsigned | PRI | NO |  |  |  |
-| [counter](#counter) | bigint(20) | unsigned |  | NO |  |  |  |
-| [date](#date) | bigint(20) | signed |  | NO | 0 |  |  |
+| [id](#id) | int | unsigned | PRI | NO |  |  |  |
+| [criteria](#criteria) | int | unsigned | PRI | NO |  |  |  |
+| [counter](#counter) | bigint | unsigned |  | NO |  |  |  |
+| [date](#date) | bigint | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

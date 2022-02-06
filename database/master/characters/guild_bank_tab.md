@@ -2,7 +2,7 @@
 title: guild_bank_tab
 description: 
 published: true
-date: 2022-01-03T11:27:55.590Z
+date: 2022-02-06T18:26:45.279Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guildid](#guildid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
-| [TabId](#tabid) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
+| [guildid](#guildid) | bigint | unsigned | PRI | NO | 0 |  |  |
+| [TabId](#tabid) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [TabName](#tabname) | varchar(16) | signed |  | NO | '' |  |  |
 | [TabIcon](#tabicon) | varchar(100) | signed |  | NO | '' |  |  |
 | [TabText](#tabtext) | varchar(500) | signed |  | YES | NULL |  |  |

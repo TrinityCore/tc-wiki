@@ -2,7 +2,7 @@
 title: instance_reset
 description: 
 published: true
-date: 2022-01-03T11:27:55.592Z
+date: 2022-02-06T18:26:45.281Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [mapid](#mapid) | smallint(5) | unsigned | PRI | NO | 0 |  |  |
-| [difficulty](#difficulty) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
-| [resettime](#resettime) | bigint(20) | signed |  | NO | 0 |  |  |
+| [mapid](#mapid) | smallint | unsigned | PRI | NO | 0 |  |  |
+| [difficulty](#difficulty) | tinyint | unsigned | PRI | NO | 0 |  |  |
+| [resettime](#resettime) | bigint | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

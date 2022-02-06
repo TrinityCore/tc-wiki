@@ -2,7 +2,7 @@
 title: characters
 description: 
 published: true
-date: 2022-01-03T11:27:55.585Z
+date: 2022-02-06T18:26:45.274Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,84 +14,84 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
-| [account](#account) | int(10) | unsigned | MUL | NO | 0 |  | Account Identifier |
+| [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
+| [account](#account) | int | unsigned | MUL | NO | 0 |  | Account Identifier |
 | [name](#name) | varchar(12) | signed | MUL | NO |  |  |  |
-| [slot](#slot) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [race](#race) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [class](#class) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [gender](#gender) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [level](#level) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [xp](#xp) | int(10) | unsigned |  | NO | 0 |  |  |
-| [money](#money) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [inventorySlots](#inventoryslots) | tinyint(3) | unsigned |  | NO | 16 |  |  |
-| [bankSlots](#bankslots) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [restState](#reststate) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [playerFlags](#playerflags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [playerFlagsEx](#playerflagsex) | int(10) | unsigned |  | NO | 0 |  |  |
+| [slot](#slot) | tinyint | unsigned |  | NO | 0 |  |  |
+| [race](#race) | tinyint | unsigned |  | NO | 0 |  |  |
+| [class](#class) | tinyint | unsigned |  | NO | 0 |  |  |
+| [gender](#gender) | tinyint | unsigned |  | NO | 0 |  |  |
+| [level](#level) | tinyint | unsigned |  | NO | 0 |  |  |
+| [xp](#xp) | int | unsigned |  | NO | 0 |  |  |
+| [money](#money) | bigint | unsigned |  | NO | 0 |  |  |
+| [inventorySlots](#inventoryslots) | tinyint | unsigned |  | NO | 16 |  |  |
+| [bankSlots](#bankslots) | tinyint | unsigned |  | NO | 0 |  |  |
+| [restState](#reststate) | tinyint | unsigned |  | NO | 0 |  |  |
+| [playerFlags](#playerflags) | int | unsigned |  | NO | 0 |  |  |
+| [playerFlagsEx](#playerflagsex) | int | unsigned |  | NO | 0 |  |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |
-| [map](#map) | smallint(5) | unsigned |  | NO | 0 |  | Map Identifier |
-| [instance_id](#instance_id) | int(10) | unsigned |  | NO | 0 |  |  |
-| [dungeonDifficulty](#dungeondifficulty) | tinyint(3) | unsigned |  | NO | 1 |  |  |
-| [raidDifficulty](#raiddifficulty) | tinyint(3) | unsigned |  | NO | 14 |  |  |
-| [legacyRaidDifficulty](#legacyraiddifficulty) | tinyint(3) | unsigned |  | NO | 3 |  |  |
+| [map](#map) | smallint | unsigned |  | NO | 0 |  | Map Identifier |
+| [instance_id](#instance_id) | int | unsigned |  | NO | 0 |  |  |
+| [dungeonDifficulty](#dungeondifficulty) | tinyint | unsigned |  | NO | 1 |  |  |
+| [raidDifficulty](#raiddifficulty) | tinyint | unsigned |  | NO | 14 |  |  |
+| [legacyRaidDifficulty](#legacyraiddifficulty) | tinyint | unsigned |  | NO | 3 |  |  |
 | [orientation](#orientation) | float |  |  | NO | 0 |  |  |
 | [taximask](#taximask) | text |  |  | NO |  |  |  |
-| [online](#online) | tinyint(3) | unsigned | MUL | NO | 0 |  |  |
-| [createTime](#createtime) | bigint(20) | signed |  | NO | 0 |  |  |
-| [createMode](#createmode) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [cinematic](#cinematic) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [totaltime](#totaltime) | int(10) | unsigned |  | NO | 0 |  |  |
-| [leveltime](#leveltime) | int(10) | unsigned |  | NO | 0 |  |  |
-| [logout_time](#logout_time) | bigint(20) | signed |  | NO | 0 |  |  |
-| [is_logout_resting](#is_logout_resting) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [online](#online) | tinyint | unsigned | MUL | NO | 0 |  |  |
+| [createTime](#createtime) | bigint | signed |  | NO | 0 |  |  |
+| [createMode](#createmode) | tinyint | signed |  | NO | 0 |  |  |
+| [cinematic](#cinematic) | tinyint | unsigned |  | NO | 0 |  |  |
+| [totaltime](#totaltime) | int | unsigned |  | NO | 0 |  |  |
+| [leveltime](#leveltime) | int | unsigned |  | NO | 0 |  |  |
+| [logout_time](#logout_time) | bigint | signed |  | NO | 0 |  |  |
+| [is_logout_resting](#is_logout_resting) | tinyint | unsigned |  | NO | 0 |  |  |
 | [rest_bonus](#rest_bonus) | float |  |  | NO | 0 |  |  |
-| [resettalents_cost](#resettalents_cost) | int(10) | unsigned |  | NO | 0 |  |  |
-| [resettalents_time](#resettalents_time) | bigint(20) | signed |  | NO | 0 |  |  |
-| [numRespecs](#numrespecs) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [primarySpecialization](#primaryspecialization) | int(10) | unsigned |  | NO | 0 |  |  |
+| [resettalents_cost](#resettalents_cost) | int | unsigned |  | NO | 0 |  |  |
+| [resettalents_time](#resettalents_time) | bigint | signed |  | NO | 0 |  |  |
+| [numRespecs](#numrespecs) | tinyint | unsigned |  | NO | 0 |  |  |
+| [primarySpecialization](#primaryspecialization) | int | unsigned |  | NO | 0 |  |  |
 | [trans_x](#trans_x) | float |  |  | NO | 0 |  |  |
 | [trans_y](#trans_y) | float |  |  | NO | 0 |  |  |
 | [trans_z](#trans_z) | float |  |  | NO | 0 |  |  |
 | [trans_o](#trans_o) | float |  |  | NO | 0 |  |  |
-| [transguid](#transguid) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [extra_flags](#extra_flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [stable_slots](#stable_slots) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [at_login](#at_login) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [zone](#zone) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [death_expire_time](#death_expire_time) | bigint(20) | signed |  | NO | 0 |  |  |
+| [transguid](#transguid) | bigint | unsigned |  | NO | 0 |  |  |
+| [extra_flags](#extra_flags) | smallint | unsigned |  | NO | 0 |  |  |
+| [summonedPetNumber](#summonedpetnumber) | int | unsigned |  | NO | 0 |  |  |
+| [at_login](#at_login) | smallint | unsigned |  | NO | 0 |  |  |
+| [zone](#zone) | smallint | unsigned |  | NO | 0 |  |  |
+| [death_expire_time](#death_expire_time) | bigint | signed |  | NO | 0 |  |  |
 | [taxi_path](#taxi_path) | text |  |  | YES | NULL |  |  |
-| [totalKills](#totalkills) | int(10) | unsigned |  | NO | 0 |  |  |
-| [todayKills](#todaykills) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [yesterdayKills](#yesterdaykills) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [chosenTitle](#chosentitle) | int(10) | unsigned |  | NO | 0 |  |  |
-| [watchedFaction](#watchedfaction) | int(10) | unsigned |  | NO | 0 |  |  |
-| [drunk](#drunk) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [health](#health) | int(10) | unsigned |  | NO | 0 |  |  |
-| [power1](#power1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [power2](#power2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [power3](#power3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [power4](#power4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [power5](#power5) | int(10) | unsigned |  | NO | 0 |  |  |
-| [power6](#power6) | int(10) | unsigned |  | NO | 0 |  |  |
-| [power7](#power7) | int(10) | unsigned |  | NO | 0 |  |  |
-| [latency](#latency) | int(10) | unsigned |  | NO | 0 |  |  |
-| [activeTalentGroup](#activetalentgroup) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [lootSpecId](#lootspecid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [totalKills](#totalkills) | int | unsigned |  | NO | 0 |  |  |
+| [todayKills](#todaykills) | smallint | unsigned |  | NO | 0 |  |  |
+| [yesterdayKills](#yesterdaykills) | smallint | unsigned |  | NO | 0 |  |  |
+| [chosenTitle](#chosentitle) | int | unsigned |  | NO | 0 |  |  |
+| [watchedFaction](#watchedfaction) | int | unsigned |  | NO | 0 |  |  |
+| [drunk](#drunk) | tinyint | unsigned |  | NO | 0 |  |  |
+| [health](#health) | int | unsigned |  | NO | 0 |  |  |
+| [power1](#power1) | int | unsigned |  | NO | 0 |  |  |
+| [power2](#power2) | int | unsigned |  | NO | 0 |  |  |
+| [power3](#power3) | int | unsigned |  | NO | 0 |  |  |
+| [power4](#power4) | int | unsigned |  | NO | 0 |  |  |
+| [power5](#power5) | int | unsigned |  | NO | 0 |  |  |
+| [power6](#power6) | int | unsigned |  | NO | 0 |  |  |
+| [power7](#power7) | int | unsigned |  | NO | 0 |  |  |
+| [latency](#latency) | int | unsigned |  | NO | 0 |  |  |
+| [activeTalentGroup](#activetalentgroup) | tinyint | unsigned |  | NO | 0 |  |  |
+| [lootSpecId](#lootspecid) | int | unsigned |  | NO | 0 |  |  |
 | [exploredZones](#exploredzones) | longtext |  |  | YES | NULL |  |  |
 | [equipmentCache](#equipmentcache) | longtext |  |  | YES | NULL |  |  |
 | [knownTitles](#knowntitles) | longtext |  |  | YES | NULL |  |  |
-| [actionBars](#actionbars) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [deleteInfos_Account](#deleteinfos_account) | int(10) | unsigned |  | YES | NULL |  |  |
+| [actionBars](#actionbars) | tinyint | unsigned |  | NO | 0 |  |  |
+| [deleteInfos_Account](#deleteinfos_account) | int | unsigned |  | YES | NULL |  |  |
 | [deleteInfos_Name](#deleteinfos_name) | varchar(12) | signed |  | YES | NULL |  |  |
-| [deleteDate](#deletedate) | bigint(20) | signed |  | YES | NULL |  |  |
-| [honor](#honor) | int(10) | unsigned |  | NO | 0 |  |  |
-| [honorLevel](#honorlevel) | int(10) | unsigned |  | NO | 1 |  |  |
-| [honorRestState](#honorreststate) | tinyint(3) | unsigned |  | NO | 2 |  |  |
+| [deleteDate](#deletedate) | bigint | signed |  | YES | NULL |  |  |
+| [honor](#honor) | int | unsigned |  | NO | 0 |  |  |
+| [honorLevel](#honorlevel) | int | unsigned |  | NO | 1 |  |  |
+| [honorRestState](#honorreststate) | tinyint | unsigned |  | NO | 2 |  |  |
 | [honorRestBonus](#honorrestbonus) | float |  |  | NO | 0 |  |  |
-| [lastLoginBuild](#lastloginbuild) | int(10) | unsigned |  | NO | 0 |  |  |
+| [lastLoginBuild](#lastloginbuild) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -271,7 +271,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 *- no description -*
 &nbsp;
 
-### stable_slots
+### summonedPetNumber
 *- no description -*
 &nbsp;
 

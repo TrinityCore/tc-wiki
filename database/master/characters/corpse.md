@@ -2,7 +2,7 @@
 title: corpse
 description: 
 published: true
-date: 2022-01-03T11:27:55.586Z
+date: 2022-02-06T18:26:45.274Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,22 +14,22 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  | Character Global Unique Identifier |
+| [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  | Character Global Unique Identifier |
 | [posX](#posx) | float |  |  | NO | 0 |  |  |
 | [posY](#posy) | float |  |  | NO | 0 |  |  |
 | [posZ](#posz) | float |  |  | NO | 0 |  |  |
 | [orientation](#orientation) | float |  |  | NO | 0 |  |  |
-| [mapId](#mapid) | smallint(5) | unsigned |  | NO | 0 |  | Map Identifier |
-| [displayId](#displayid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [mapId](#mapid) | smallint | unsigned |  | NO | 0 |  | Map Identifier |
+| [displayId](#displayid) | int | unsigned |  | NO | 0 |  |  |
 | [itemCache](#itemcache) | text |  |  | NO |  |  |  |
-| [race](#race) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [class](#class) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [gender](#gender) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [dynFlags](#dynflags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [time](#time) | int(10) | unsigned | MUL | NO | 0 |  |  |
-| [corpseType](#corpsetype) | tinyint(3) | unsigned | MUL | NO | 0 |  |  |
-| [instanceId](#instanceid) | int(10) | unsigned | MUL | NO | 0 |  | Instance Identifier |
+| [race](#race) | tinyint | unsigned |  | NO | 0 |  |  |
+| [class](#class) | tinyint | unsigned |  | NO | 0 |  |  |
+| [gender](#gender) | tinyint | unsigned |  | NO | 0 |  |  |
+| [flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
+| [dynFlags](#dynflags) | tinyint | unsigned |  | NO | 0 |  |  |
+| [time](#time) | int | unsigned | MUL | NO | 0 |  |  |
+| [corpseType](#corpsetype) | tinyint | unsigned | MUL | NO | 0 |  |  |
+| [instanceId](#instanceid) | int | unsigned | MUL | NO | 0 |  | Instance Identifier |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: account_tutorial
 description: 
 published: true
-date: 2022-01-03T11:27:55.567Z
+date: 2022-02-06T18:26:45.257Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,15 +14,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [accountId](#accountid) | int(10) | unsigned | PRI | NO | 0 |  | Account Identifier |
-| [tut0](#tut0) | int(10) | unsigned |  | NO | 0 |  |  |
-| [tut1](#tut1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [tut2](#tut2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [tut3](#tut3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [tut4](#tut4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [tut5](#tut5) | int(10) | unsigned |  | NO | 0 |  |  |
-| [tut6](#tut6) | int(10) | unsigned |  | NO | 0 |  |  |
-| [tut7](#tut7) | int(10) | unsigned |  | NO | 0 |  |  |
+| [accountId](#accountid) | int | unsigned | PRI | NO | 0 |  | Account Identifier |
+| [tut0](#tut0) | int | unsigned |  | NO | 0 |  |  |
+| [tut1](#tut1) | int | unsigned |  | NO | 0 |  |  |
+| [tut2](#tut2) | int | unsigned |  | NO | 0 |  |  |
+| [tut3](#tut3) | int | unsigned |  | NO | 0 |  |  |
+| [tut4](#tut4) | int | unsigned |  | NO | 0 |  |  |
+| [tut5](#tut5) | int | unsigned |  | NO | 0 |  |  |
+| [tut6](#tut6) | int | unsigned |  | NO | 0 |  |  |
+| [tut7](#tut7) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

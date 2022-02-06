@@ -2,7 +2,7 @@
 title: gm_complaint_chatlog
 description: 
 published: true
-date: 2022-01-03T11:27:55.587Z
+date: 2022-02-06T18:26:45.276Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [complaintId](#complaintid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [lineId](#lineid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [timestamp](#timestamp) | bigint(20) | signed |  | NO |  |  |  |
+| [complaintId](#complaintid) | int | unsigned | PRI | NO |  |  |  |
+| [lineId](#lineid) | int | unsigned | PRI | NO |  |  |  |
+| [timestamp](#timestamp) | bigint | signed |  | NO |  |  |  |
 | [text](#text) | text |  |  | NO |  |  |  |
 &nbsp;
 ## Description of fields

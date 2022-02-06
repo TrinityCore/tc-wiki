@@ -2,7 +2,7 @@
 title: calendar_events
 description: 
 published: true
-date: 2022-01-03T11:27:55.571Z
+date: 2022-02-06T18:26:45.260Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,15 +14,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [EventID](#eventid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
-| [Owner](#owner) | bigint(20) | unsigned |  | NO | 0 |  |  |
+| [EventID](#eventid) | bigint | unsigned | PRI | NO | 0 |  |  |
+| [Owner](#owner) | bigint | unsigned |  | NO | 0 |  |  |
 | [Title](#title) | varchar(255) | signed |  | NO | '' |  |  |
 | [Description](#description) | varchar(255) | signed |  | NO | '' |  |  |
-| [EventType](#eventtype) | tinyint(3) | unsigned |  | NO | 4 |  |  |
-| [TextureID](#textureid) | int(11) | signed |  | NO | -1 |  |  |
-| [Date](#date) | bigint(20) | signed |  | NO | 0 |  |  |
-| [Flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [LockDate](#lockdate) | bigint(20) | signed |  | NO | 0 |  |  |
+| [EventType](#eventtype) | tinyint | unsigned |  | NO | 4 |  |  |
+| [TextureID](#textureid) | int | signed |  | NO | -1 |  |  |
+| [Date](#date) | bigint | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
+| [LockDate](#lockdate) | bigint | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

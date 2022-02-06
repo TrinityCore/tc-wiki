@@ -2,7 +2,7 @@
 title: character_aura_stored_location
 description: 
 published: true
-date: 2022-01-03T11:27:55.574Z
+date: 2022-02-06T18:26:45.263Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Guid](#guid) | bigint(20) | unsigned | PRI | NO |  |  | Global Unique Identifier of Player |
-| [Spell](#spell) | int(10) | unsigned | PRI | NO |  |  | Spell Identifier |
-| [MapId](#mapid) | int(10) | unsigned |  | NO |  |  | Map Id |
+| [Guid](#guid) | bigint | unsigned | PRI | NO |  |  | Global Unique Identifier of Player |
+| [Spell](#spell) | int | unsigned | PRI | NO |  |  | Spell Identifier |
+| [MapId](#mapid) | int | unsigned |  | NO |  |  | Map Id |
 | [PositionX](#positionx) | float |  |  | NO |  |  | position x |
 | [PositionY](#positiony) | float |  |  | NO |  |  | position y |
 | [PositionZ](#positionz) | float |  |  | NO |  |  | position z |

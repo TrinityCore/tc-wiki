@@ -2,7 +2,7 @@
 title: character_instance
 description: 
 published: true
-date: 2022-01-03T11:27:55.579Z
+date: 2022-02-06T18:26:45.267Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
-| [instance](#instance) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [permanent](#permanent) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [extendState](#extendstate) | tinyint(3) | unsigned |  | NO | 1 |  |  |
+| [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  |  |
+| [instance](#instance) | int | unsigned | PRI | NO | 0 |  |  |
+| [permanent](#permanent) | tinyint | unsigned |  | NO | 0 |  |  |
+| [extendState](#extendstate) | tinyint | unsigned |  | NO | 1 |  |  |
 &nbsp;
 ## Description of fields
 

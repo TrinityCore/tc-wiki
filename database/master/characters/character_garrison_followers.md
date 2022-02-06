@@ -2,7 +2,7 @@
 title: character_garrison_followers
 description: 
 published: true
-date: 2022-01-03T11:27:55.578Z
+date: 2022-02-06T18:26:45.266Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,17 +14,17 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [dbId](#dbid) | bigint(20) | unsigned | PRI | NO |  |  |  |
-| [guid](#guid) | bigint(20) | unsigned | MUL | NO |  |  |  |
-| [followerId](#followerid) | int(10) | unsigned |  | NO |  |  |  |
-| [quality](#quality) | int(10) | unsigned |  | NO | 2 |  |  |
-| [level](#level) | int(10) | unsigned |  | NO | 90 |  |  |
-| [itemLevelWeapon](#itemlevelweapon) | int(10) | unsigned |  | NO | 600 |  |  |
-| [itemLevelArmor](#itemlevelarmor) | int(10) | unsigned |  | NO | 600 |  |  |
-| [xp](#xp) | int(10) | unsigned |  | NO | 0 |  |  |
-| [currentBuilding](#currentbuilding) | int(10) | unsigned |  | NO | 0 |  |  |
-| [currentMission](#currentmission) | int(10) | unsigned |  | NO | 0 |  |  |
-| [status](#status) | int(10) | unsigned |  | NO | 0 |  |  |
+| [dbId](#dbid) | bigint | unsigned | PRI | NO |  |  |  |
+| [guid](#guid) | bigint | unsigned | MUL | NO |  |  |  |
+| [followerId](#followerid) | int | unsigned |  | NO |  |  |  |
+| [quality](#quality) | int | unsigned |  | NO | 2 |  |  |
+| [level](#level) | int | unsigned |  | NO | 90 |  |  |
+| [itemLevelWeapon](#itemlevelweapon) | int | unsigned |  | NO | 600 |  |  |
+| [itemLevelArmor](#itemlevelarmor) | int | unsigned |  | NO | 600 |  |  |
+| [xp](#xp) | int | unsigned |  | NO | 0 |  |  |
+| [currentBuilding](#currentbuilding) | int | unsigned |  | NO | 0 |  |  |
+| [currentMission](#currentmission) | int | unsigned |  | NO | 0 |  |  |
+| [status](#status) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

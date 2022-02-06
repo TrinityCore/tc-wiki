@@ -2,7 +2,7 @@
 title: pvpstats_battlegrounds
 description: 
 published: true
-date: 2022-01-03T11:27:55.600Z
+date: 2022-02-06T18:26:45.288Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | bigint(20) | unsigned | PRI | NO |  | auto_increment |  |
-| [winner_faction](#winner_faction) | tinyint(4) | signed |  | NO |  |  |  |
-| [bracket_id](#bracket_id) | tinyint(3) | unsigned |  | NO |  |  |  |
-| [type](#type) | tinyint(3) | unsigned |  | NO |  |  |  |
+| [id](#id) | bigint | unsigned | PRI | NO |  | auto_increment |  |
+| [winner_faction](#winner_faction) | tinyint | signed |  | NO |  |  |  |
+| [bracket_id](#bracket_id) | tinyint | unsigned |  | NO |  |  |  |
+| [type](#type) | tinyint | unsigned |  | NO |  |  |  |
 | [date](#date) | datetime |  |  | NO |  |  |  |
 &nbsp;
 ## Description of fields

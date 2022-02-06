@@ -2,7 +2,7 @@
 title: auction_bidders
 description: 
 published: true
-date: 2022-01-03T11:27:55.570Z
+date: 2022-02-06T18:26:45.258Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [auctionId](#auctionid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [playerGuid](#playerguid) | bigint(20) | unsigned | PRI | NO |  |  |  |
+| [auctionId](#auctionid) | int | unsigned | PRI | NO |  |  |  |
+| [playerGuid](#playerguid) | bigint | unsigned | PRI | NO |  |  |  |
 &nbsp;
 ## Description of fields
 

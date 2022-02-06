@@ -2,7 +2,7 @@
 title: character_void_storage
 description: 
 published: true
-date: 2022-01-03T11:27:55.585Z
+date: 2022-02-06T18:26:45.274Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,15 +14,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [itemId](#itemid) | bigint(20) | unsigned | PRI | NO |  |  |  |
-| [playerGuid](#playerguid) | bigint(20) | unsigned | MUL | NO |  |  |  |
-| [itemEntry](#itementry) | int(10) | unsigned |  | NO |  |  |  |
-| [slot](#slot) | tinyint(3) | unsigned |  | NO |  |  |  |
-| [creatorGuid](#creatorguid) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [randomBonusListId](#randombonuslistid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [fixedScalingLevel](#fixedscalinglevel) | int(10) | unsigned |  | YES | 0 |  |  |
-| [artifactKnowledgeLevel](#artifactknowledgelevel) | int(10) | unsigned |  | YES | 0 |  |  |
-| [context](#context) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [itemId](#itemid) | bigint | unsigned | PRI | NO |  |  |  |
+| [playerGuid](#playerguid) | bigint | unsigned | MUL | NO |  |  |  |
+| [itemEntry](#itementry) | int | unsigned |  | NO |  |  |  |
+| [slot](#slot) | tinyint | unsigned |  | NO |  |  |  |
+| [creatorGuid](#creatorguid) | bigint | unsigned |  | NO | 0 |  |  |
+| [randomBonusListId](#randombonuslistid) | int | unsigned |  | NO | 0 |  |  |
+| [fixedScalingLevel](#fixedscalinglevel) | int | unsigned |  | YES | 0 |  |  |
+| [artifactKnowledgeLevel](#artifactknowledgelevel) | int | unsigned |  | YES | 0 |  |  |
+| [context](#context) | tinyint | unsigned |  | NO | 0 |  |  |
 | [bonusListIDs](#bonuslistids) | text |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields

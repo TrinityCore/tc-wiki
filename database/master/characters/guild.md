@@ -2,7 +2,7 @@
 title: guild
 description: 
 published: true
-date: 2022-01-03T11:27:55.589Z
+date: 2022-02-06T18:26:45.277Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guildid](#guildid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
+| [guildid](#guildid) | bigint | unsigned | PRI | NO | 0 |  |  |
 | [name](#name) | varchar(24) | signed |  | NO | '' |  |  |
-| [leaderguid](#leaderguid) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [EmblemStyle](#emblemstyle) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [EmblemColor](#emblemcolor) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [BorderStyle](#borderstyle) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [BorderColor](#bordercolor) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [BackgroundColor](#backgroundcolor) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [leaderguid](#leaderguid) | bigint | unsigned |  | NO | 0 |  |  |
+| [EmblemStyle](#emblemstyle) | tinyint | unsigned |  | NO | 0 |  |  |
+| [EmblemColor](#emblemcolor) | tinyint | unsigned |  | NO | 0 |  |  |
+| [BorderStyle](#borderstyle) | tinyint | unsigned |  | NO | 0 |  |  |
+| [BorderColor](#bordercolor) | tinyint | unsigned |  | NO | 0 |  |  |
+| [BackgroundColor](#backgroundcolor) | tinyint | unsigned |  | NO | 0 |  |  |
 | [info](#info) | varchar(500) | signed |  | NO | '' |  |  |
 | [motd](#motd) | varchar(256) | signed |  | NO | '' |  |  |
-| [createdate](#createdate) | int(10) | unsigned |  | NO | 0 |  |  |
-| [BankMoney](#bankmoney) | bigint(20) | unsigned |  | NO | 0 |  |  |
+| [createdate](#createdate) | int | unsigned |  | NO | 0 |  |  |
+| [BankMoney](#bankmoney) | bigint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: channels
 description: 
 published: true
-date: 2022-01-03T11:27:55.572Z
+date: 2022-02-06T18:26:45.260Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,12 +15,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [name](#name) | varchar(128) | signed | PRI | NO |  |  |  |
-| [team](#team) | int(10) | unsigned | PRI | NO |  |  |  |
-| [announce](#announce) | tinyint(3) | unsigned |  | NO | 1 |  |  |
-| [ownership](#ownership) | tinyint(3) | unsigned |  | NO | 1 |  |  |
+| [team](#team) | int | unsigned | PRI | NO |  |  |  |
+| [announce](#announce) | tinyint | unsigned |  | NO | 1 |  |  |
+| [ownership](#ownership) | tinyint | unsigned |  | NO | 1 |  |  |
 | [password](#password) | varchar(128) | signed |  | YES | NULL |  |  |
 | [bannedList](#bannedlist) | text |  |  | YES | NULL |  |  |
-| [lastUsed](#lastused) | bigint(20) | unsigned |  | NO |  |  |  |
+| [lastUsed](#lastused) | bigint | unsigned |  | NO |  |  |  |
 &nbsp;
 ## Description of fields
 

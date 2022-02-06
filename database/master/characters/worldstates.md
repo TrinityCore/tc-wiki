@@ -2,7 +2,7 @@
 title: worldstates
 description: 
 published: true
-date: 2022-01-03T11:27:55.602Z
+date: 2022-02-06T18:26:45.290Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [value](#value) | int(10) | unsigned |  | NO | 0 |  |  |
+| [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
+| [value](#value) | int | unsigned |  | NO | 0 |  |  |
 | [comment](#comment) | tinytext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields

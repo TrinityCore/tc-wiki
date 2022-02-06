@@ -2,7 +2,7 @@
 title: character_favorite_auctions
 description: 
 published: true
-date: 2022-01-03T11:27:55.577Z
+date: 2022-02-06T18:26:45.265Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | bigint(20) | unsigned | PRI | NO |  |  |  |
-| [order](#order) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [itemId](#itemid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [itemLevel](#itemlevel) | int(10) | unsigned |  | NO | 0 |  |  |
-| [battlePetSpeciesId](#battlepetspeciesid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [suffixItemNameDescriptionId](#suffixitemnamedescriptionid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [guid](#guid) | bigint | unsigned | PRI | NO |  |  |  |
+| [order](#order) | int | unsigned | PRI | NO | 0 |  |  |
+| [itemId](#itemid) | int | unsigned |  | NO | 0 |  |  |
+| [itemLevel](#itemlevel) | int | unsigned |  | NO | 0 |  |  |
+| [battlePetSpeciesId](#battlepetspeciesid) | int | unsigned |  | NO | 0 |  |  |
+| [suffixItemNameDescriptionId](#suffixitemnamedescriptionid) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

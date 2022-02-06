@@ -2,7 +2,7 @@
 title: character_transmog_outfits
 description: 
 published: true
-date: 2022-01-03T11:27:55.585Z
+date: 2022-02-06T18:26:45.273Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,33 +14,33 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | bigint(20) | signed | MUL | NO | 0 |  |  |
-| [setguid](#setguid) | bigint(20) | signed | PRI | NO |  | auto_increment |  |
-| [setindex](#setindex) | tinyint(3) | unsigned | MUL | NO | 0 |  |  |
+| [guid](#guid) | bigint | signed | MUL | NO | 0 |  |  |
+| [setguid](#setguid) | bigint | signed | PRI | NO |  | auto_increment |  |
+| [setindex](#setindex) | tinyint | unsigned | MUL | NO | 0 |  |  |
 | [name](#name) | varchar(128) | signed |  | NO |  |  |  |
 | [iconname](#iconname) | varchar(256) | signed |  | NO |  |  |  |
-| [ignore_mask](#ignore_mask) | int(11) | signed |  | NO | 0 |  |  |
-| [appearance0](#appearance0) | int(11) | signed |  | NO | 0 |  |  |
-| [appearance1](#appearance1) | int(11) | signed |  | NO | 0 |  |  |
-| [appearance2](#appearance2) | int(11) | signed |  | NO | 0 |  |  |
-| [appearance3](#appearance3) | int(11) | signed |  | NO | 0 |  |  |
-| [appearance4](#appearance4) | int(11) | signed |  | NO | 0 |  |  |
-| [appearance5](#appearance5) | int(11) | signed |  | NO | 0 |  |  |
-| [appearance6](#appearance6) | int(11) | signed |  | NO | 0 |  |  |
-| [appearance7](#appearance7) | int(11) | signed |  | NO | 0 |  |  |
-| [appearance8](#appearance8) | int(11) | signed |  | NO | 0 |  |  |
-| [appearance9](#appearance9) | int(11) | signed |  | NO | 0 |  |  |
-| [appearance10](#appearance10) | int(11) | signed |  | NO | 0 |  |  |
-| [appearance11](#appearance11) | int(11) | signed |  | NO | 0 |  |  |
-| [appearance12](#appearance12) | int(11) | signed |  | NO | 0 |  |  |
-| [appearance13](#appearance13) | int(11) | signed |  | NO | 0 |  |  |
-| [appearance14](#appearance14) | int(11) | signed |  | NO | 0 |  |  |
-| [appearance15](#appearance15) | int(11) | signed |  | NO | 0 |  |  |
-| [appearance16](#appearance16) | int(11) | signed |  | NO | 0 |  |  |
-| [appearance17](#appearance17) | int(11) | signed |  | NO | 0 |  |  |
-| [appearance18](#appearance18) | int(11) | signed |  | NO | 0 |  |  |
-| [mainHandEnchant](#mainhandenchant) | int(11) | signed |  | NO | 0 |  |  |
-| [offHandEnchant](#offhandenchant) | int(11) | signed |  | NO | 0 |  |  |
+| [ignore_mask](#ignore_mask) | int | signed |  | NO | 0 |  |  |
+| [appearance0](#appearance0) | int | signed |  | NO | 0 |  |  |
+| [appearance1](#appearance1) | int | signed |  | NO | 0 |  |  |
+| [appearance2](#appearance2) | int | signed |  | NO | 0 |  |  |
+| [appearance3](#appearance3) | int | signed |  | NO | 0 |  |  |
+| [appearance4](#appearance4) | int | signed |  | NO | 0 |  |  |
+| [appearance5](#appearance5) | int | signed |  | NO | 0 |  |  |
+| [appearance6](#appearance6) | int | signed |  | NO | 0 |  |  |
+| [appearance7](#appearance7) | int | signed |  | NO | 0 |  |  |
+| [appearance8](#appearance8) | int | signed |  | NO | 0 |  |  |
+| [appearance9](#appearance9) | int | signed |  | NO | 0 |  |  |
+| [appearance10](#appearance10) | int | signed |  | NO | 0 |  |  |
+| [appearance11](#appearance11) | int | signed |  | NO | 0 |  |  |
+| [appearance12](#appearance12) | int | signed |  | NO | 0 |  |  |
+| [appearance13](#appearance13) | int | signed |  | NO | 0 |  |  |
+| [appearance14](#appearance14) | int | signed |  | NO | 0 |  |  |
+| [appearance15](#appearance15) | int | signed |  | NO | 0 |  |  |
+| [appearance16](#appearance16) | int | signed |  | NO | 0 |  |  |
+| [appearance17](#appearance17) | int | signed |  | NO | 0 |  |  |
+| [appearance18](#appearance18) | int | signed |  | NO | 0 |  |  |
+| [mainHandEnchant](#mainhandenchant) | int | signed |  | NO | 0 |  |  |
+| [offHandEnchant](#offhandenchant) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

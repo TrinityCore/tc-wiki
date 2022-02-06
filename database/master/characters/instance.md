@@ -2,7 +2,7 @@
 title: instance
 description: 
 published: true
-date: 2022-01-03T11:27:55.592Z
+date: 2022-02-06T18:26:45.280Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [map](#map) | smallint(5) | unsigned | MUL | NO | 0 |  |  |
-| [resettime](#resettime) | bigint(20) | signed | MUL | NO | 0 |  |  |
-| [difficulty](#difficulty) | tinyint(3) | unsigned | MUL | NO | 0 |  |  |
-| [completedEncounters](#completedencounters) | int(10) | unsigned |  | NO | 0 |  |  |
+| [id](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [map](#map) | smallint | unsigned | MUL | NO | 0 |  |  |
+| [resettime](#resettime) | bigint | signed | MUL | NO | 0 |  |  |
+| [difficulty](#difficulty) | tinyint | unsigned | MUL | NO | 0 |  |  |
+| [completedEncounters](#completedencounters) | int | unsigned |  | NO | 0 |  |  |
 | [data](#data) | tinytext |  |  | NO |  |  |  |
-| [entranceId](#entranceid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [entranceId](#entranceid) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

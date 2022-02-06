@@ -2,7 +2,7 @@
 title: guild_member_withdraw
 description: 
 published: true
-date: 2022-01-03T11:27:55.591Z
+date: 2022-02-06T18:26:45.280Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,16 +14,16 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | bigint(20) | unsigned | PRI | NO |  |  |  |
-| [tab0](#tab0) | int(10) | unsigned |  | NO | 0 |  |  |
-| [tab1](#tab1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [tab2](#tab2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [tab3](#tab3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [tab4](#tab4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [tab5](#tab5) | int(10) | unsigned |  | NO | 0 |  |  |
-| [tab6](#tab6) | int(10) | unsigned |  | NO | 0 |  |  |
-| [tab7](#tab7) | int(10) | unsigned |  | NO | 0 |  |  |
-| [money](#money) | bigint(20) | unsigned |  | NO | 0 |  |  |
+| [guid](#guid) | bigint | unsigned | PRI | NO |  |  |  |
+| [tab0](#tab0) | int | unsigned |  | NO | 0 |  |  |
+| [tab1](#tab1) | int | unsigned |  | NO | 0 |  |  |
+| [tab2](#tab2) | int | unsigned |  | NO | 0 |  |  |
+| [tab3](#tab3) | int | unsigned |  | NO | 0 |  |  |
+| [tab4](#tab4) | int | unsigned |  | NO | 0 |  |  |
+| [tab5](#tab5) | int | unsigned |  | NO | 0 |  |  |
+| [tab6](#tab6) | int | unsigned |  | NO | 0 |  |  |
+| [tab7](#tab7) | int | unsigned |  | NO | 0 |  |  |
+| [money](#money) | bigint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

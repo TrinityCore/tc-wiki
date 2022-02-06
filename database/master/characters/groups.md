@@ -2,7 +2,7 @@
 title: groups
 description: 
 published: true
-date: 2022-01-03T11:27:55.589Z
+date: 2022-02-06T18:26:45.277Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [leaderGuid](#leaderguid) | bigint(20) | unsigned | MUL | NO |  |  |  |
-| [lootMethod](#lootmethod) | tinyint(3) | unsigned |  | NO |  |  |  |
-| [looterGuid](#looterguid) | bigint(20) | unsigned |  | NO |  |  |  |
-| [lootThreshold](#lootthreshold) | tinyint(3) | unsigned |  | NO |  |  |  |
+| [guid](#guid) | int | unsigned | PRI | NO |  |  |  |
+| [leaderGuid](#leaderguid) | bigint | unsigned | MUL | NO |  |  |  |
+| [lootMethod](#lootmethod) | tinyint | unsigned |  | NO |  |  |  |
+| [looterGuid](#looterguid) | bigint | unsigned |  | NO |  |  |  |
+| [lootThreshold](#lootthreshold) | tinyint | unsigned |  | NO |  |  |  |
 | [icon1](#icon1) | binary(16) | signed |  | NO |  |  |  |
 | [icon2](#icon2) | binary(16) | signed |  | NO |  |  |  |
 | [icon3](#icon3) | binary(16) | signed |  | NO |  |  |  |
@@ -27,11 +27,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [icon6](#icon6) | binary(16) | signed |  | NO |  |  |  |
 | [icon7](#icon7) | binary(16) | signed |  | NO |  |  |  |
 | [icon8](#icon8) | binary(16) | signed |  | NO |  |  |  |
-| [groupType](#grouptype) | tinyint(3) | unsigned |  | NO |  |  |  |
-| [difficulty](#difficulty) | tinyint(3) | unsigned |  | NO | 1 |  |  |
-| [raidDifficulty](#raiddifficulty) | tinyint(3) | unsigned |  | NO | 14 |  |  |
-| [legacyRaidDifficulty](#legacyraiddifficulty) | tinyint(3) | unsigned |  | NO | 3 |  |  |
-| [masterLooterGuid](#masterlooterguid) | bigint(20) | unsigned |  | NO |  |  |  |
+| [groupType](#grouptype) | tinyint | unsigned |  | NO |  |  |  |
+| [difficulty](#difficulty) | tinyint | unsigned |  | NO | 1 |  |  |
+| [raidDifficulty](#raiddifficulty) | tinyint | unsigned |  | NO | 14 |  |  |
+| [legacyRaidDifficulty](#legacyraiddifficulty) | tinyint | unsigned |  | NO | 3 |  |  |
+| [masterLooterGuid](#masterlooterguid) | bigint | unsigned |  | NO |  |  |  |
 &nbsp;
 ## Description of fields
 

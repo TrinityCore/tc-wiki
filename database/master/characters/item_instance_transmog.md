@@ -2,7 +2,7 @@
 title: item_instance_transmog
 description: 
 published: true
-date: 2022-01-03T11:27:55.596Z
+date: 2022-02-06T18:26:45.284Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,25 +14,25 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [itemGuid](#itemguid) | bigint(20) | unsigned | PRI | NO |  |  |  |
-| [itemModifiedAppearanceAllSpecs](#itemmodifiedappearanceallspecs) | int(11) | signed |  | NO | 0 |  |  |
-| [itemModifiedAppearanceSpec1](#itemmodifiedappearancespec1) | int(11) | signed |  | NO | 0 |  |  |
-| [itemModifiedAppearanceSpec2](#itemmodifiedappearancespec2) | int(11) | signed |  | NO | 0 |  |  |
-| [itemModifiedAppearanceSpec3](#itemmodifiedappearancespec3) | int(11) | signed |  | NO | 0 |  |  |
-| [itemModifiedAppearanceSpec4](#itemmodifiedappearancespec4) | int(11) | signed |  | NO | 0 |  |  |
-| [itemModifiedAppearanceSpec5](#itemmodifiedappearancespec5) | int(11) | signed |  | NO | 0 |  |  |
-| [spellItemEnchantmentAllSpecs](#spellitemenchantmentallspecs) | int(11) | signed |  | NO | 0 |  |  |
-| [spellItemEnchantmentSpec1](#spellitemenchantmentspec1) | int(11) | signed |  | NO | 0 |  |  |
-| [spellItemEnchantmentSpec2](#spellitemenchantmentspec2) | int(11) | signed |  | NO | 0 |  |  |
-| [spellItemEnchantmentSpec3](#spellitemenchantmentspec3) | int(11) | signed |  | NO | 0 |  |  |
-| [spellItemEnchantmentSpec4](#spellitemenchantmentspec4) | int(11) | signed |  | NO | 0 |  |  |
-| [spellItemEnchantmentSpec5](#spellitemenchantmentspec5) | int(11) | signed |  | NO | 0 |  |  |
-| [secondaryItemModifiedAppearanceAllSpecs](#secondaryitemmodifiedappearanceallspecs) | int(11) | signed |  | NO | 0 |  |  |
-| [secondaryItemModifiedAppearanceSpec1](#secondaryitemmodifiedappearancespec1) | int(11) | signed |  | NO | 0 |  |  |
-| [secondaryItemModifiedAppearanceSpec2](#secondaryitemmodifiedappearancespec2) | int(11) | signed |  | NO | 0 |  |  |
-| [secondaryItemModifiedAppearanceSpec3](#secondaryitemmodifiedappearancespec3) | int(11) | signed |  | NO | 0 |  |  |
-| [secondaryItemModifiedAppearanceSpec4](#secondaryitemmodifiedappearancespec4) | int(11) | signed |  | NO | 0 |  |  |
-| [secondaryItemModifiedAppearanceSpec5](#secondaryitemmodifiedappearancespec5) | int(11) | signed |  | NO | 0 |  |  |
+| [itemGuid](#itemguid) | bigint | unsigned | PRI | NO |  |  |  |
+| [itemModifiedAppearanceAllSpecs](#itemmodifiedappearanceallspecs) | int | signed |  | NO | 0 |  |  |
+| [itemModifiedAppearanceSpec1](#itemmodifiedappearancespec1) | int | signed |  | NO | 0 |  |  |
+| [itemModifiedAppearanceSpec2](#itemmodifiedappearancespec2) | int | signed |  | NO | 0 |  |  |
+| [itemModifiedAppearanceSpec3](#itemmodifiedappearancespec3) | int | signed |  | NO | 0 |  |  |
+| [itemModifiedAppearanceSpec4](#itemmodifiedappearancespec4) | int | signed |  | NO | 0 |  |  |
+| [itemModifiedAppearanceSpec5](#itemmodifiedappearancespec5) | int | signed |  | NO | 0 |  |  |
+| [spellItemEnchantmentAllSpecs](#spellitemenchantmentallspecs) | int | signed |  | NO | 0 |  |  |
+| [spellItemEnchantmentSpec1](#spellitemenchantmentspec1) | int | signed |  | NO | 0 |  |  |
+| [spellItemEnchantmentSpec2](#spellitemenchantmentspec2) | int | signed |  | NO | 0 |  |  |
+| [spellItemEnchantmentSpec3](#spellitemenchantmentspec3) | int | signed |  | NO | 0 |  |  |
+| [spellItemEnchantmentSpec4](#spellitemenchantmentspec4) | int | signed |  | NO | 0 |  |  |
+| [spellItemEnchantmentSpec5](#spellitemenchantmentspec5) | int | signed |  | NO | 0 |  |  |
+| [secondaryItemModifiedAppearanceAllSpecs](#secondaryitemmodifiedappearanceallspecs) | int | signed |  | NO | 0 |  |  |
+| [secondaryItemModifiedAppearanceSpec1](#secondaryitemmodifiedappearancespec1) | int | signed |  | NO | 0 |  |  |
+| [secondaryItemModifiedAppearanceSpec2](#secondaryitemmodifiedappearancespec2) | int | signed |  | NO | 0 |  |  |
+| [secondaryItemModifiedAppearanceSpec3](#secondaryitemmodifiedappearancespec3) | int | signed |  | NO | 0 |  |  |
+| [secondaryItemModifiedAppearanceSpec4](#secondaryitemmodifiedappearancespec4) | int | signed |  | NO | 0 |  |  |
+| [secondaryItemModifiedAppearanceSpec5](#secondaryitemmodifiedappearancespec5) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

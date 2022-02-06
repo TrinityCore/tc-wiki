@@ -2,7 +2,7 @@
 title: group_instance
 description: 
 published: true
-date: 2022-01-03T11:27:55.588Z
+date: 2022-02-06T18:26:45.277Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [instance](#instance) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [permanent](#permanent) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [guid](#guid) | int | unsigned | PRI | NO | 0 |  |  |
+| [instance](#instance) | int | unsigned | PRI | NO | 0 |  |  |
+| [permanent](#permanent) | tinyint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: gm_bug
 description: 
 published: true
-date: 2022-01-03T11:27:55.587Z
+date: 2022-02-06T18:26:45.276Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,17 +14,17 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int(10) | unsigned | PRI | NO |  |  |  |
-| [playerGuid](#playerguid) | bigint(20) | unsigned |  | NO |  |  |  |
+| [id](#id) | int | unsigned | PRI | NO |  |  |  |
+| [playerGuid](#playerguid) | bigint | unsigned |  | NO |  |  |  |
 | [note](#note) | text |  |  | NO |  |  |  |
-| [createTime](#createtime) | bigint(20) | signed |  | NO | 0 |  |  |
-| [mapId](#mapid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [createTime](#createtime) | bigint | signed |  | NO | 0 |  |  |
+| [mapId](#mapid) | smallint | unsigned |  | NO | 0 |  |  |
 | [posX](#posx) | float |  |  | NO | 0 |  |  |
 | [posY](#posy) | float |  |  | NO | 0 |  |  |
 | [posZ](#posz) | float |  |  | NO | 0 |  |  |
 | [facing](#facing) | float |  |  | NO | 0 |  |  |
-| [closedBy](#closedby) | bigint(20) | signed |  | NO | 0 |  |  |
-| [assignedTo](#assignedto) | bigint(20) | unsigned |  | NO | 0 |  | GUID of admin to whom ticket is assigned |
+| [closedBy](#closedby) | bigint | signed |  | NO | 0 |  |  |
+| [assignedTo](#assignedto) | bigint | unsigned |  | NO | 0 |  | GUID of admin to whom ticket is assigned |
 | [comment](#comment) | text |  |  | NO |  |  |  |
 &nbsp;
 ## Description of fields
