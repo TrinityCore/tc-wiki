@@ -1,24 +1,24 @@
 ---
-title: smart_scripts
+title: vw_smart_scripts_with_labels
 description: 
 published: true
-date: 2022-02-06T18:26:20.447Z
+date: 2022-02-06T18:26:20.457Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
 ---
 
-<a href="https://trinitycore.info/en/database/master/world/skinning_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'skinning_loot_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/spawn_group" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'spawn_group'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+<a href="https://trinitycore.info/en/database/master/world/vw_disables_with_labels" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'vw_disables_with_labels'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/warden_checks" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'warden_checks'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
 ## Structure
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entryorguid](#entryorguid) | bigint | signed | PRI | NO | 0 |  |  |
-| [source_type](#source_type) | tinyint | unsigned | PRI | NO | 0 |  |  |
-| [id](#id) | smallint | unsigned | PRI | NO | 0 |  |  |
-| [link](#link) | smallint | unsigned | PRI | NO | 0 |  |  |
-| [event_type](#event_type) | tinyint | unsigned |  | NO | 0 |  |  |
+| [entryorguid](#entryorguid) | bigint | signed |  | NO | 0 |  |  |
+| [source_type](#source_type) | tinyint | unsigned |  | NO | 0 |  |  |
+| [id](#id) | smallint | unsigned |  | NO | 0 |  |  |
+| [link](#link) | smallint | unsigned |  | NO | 0 |  |  |
+| [event_type](#event_type) | varchar(35) | signed |  | NO | '' |  |  |
 | [event_phase_mask](#event_phase_mask) | smallint | unsigned |  | NO | 0 |  |  |
 | [event_chance](#event_chance) | tinyint | unsigned |  | NO | 100 |  |  |
 | [event_flags](#event_flags) | smallint | unsigned |  | NO | 0 |  |  |
@@ -27,15 +27,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [event_param3](#event_param3) | int | unsigned |  | NO | 0 |  |  |
 | [event_param4](#event_param4) | int | unsigned |  | NO | 0 |  |  |
 | [event_param5](#event_param5) | int | unsigned |  | NO | 0 |  |  |
-| [event_param_string](#event_param_string) | varchar(255) | signed |  | NO | '' |  |  |
-| [action_type](#action_type) | tinyint | unsigned |  | NO | 0 |  |  |
+| [action_type](#action_type) | varchar(47) | signed |  | NO | '' |  |  |
 | [action_param1](#action_param1) | int | unsigned |  | NO | 0 |  |  |
 | [action_param2](#action_param2) | int | unsigned |  | NO | 0 |  |  |
 | [action_param3](#action_param3) | int | unsigned |  | NO | 0 |  |  |
 | [action_param4](#action_param4) | int | unsigned |  | NO | 0 |  |  |
 | [action_param5](#action_param5) | int | unsigned |  | NO | 0 |  |  |
 | [action_param6](#action_param6) | int | unsigned |  | NO | 0 |  |  |
-| [target_type](#target_type) | tinyint | unsigned |  | NO | 0 |  |  |
+| [target_type](#target_type) | varchar(41) | signed |  | NO | '' |  |  |
 | [target_param1](#target_param1) | int | unsigned |  | NO | 0 |  |  |
 | [target_param2](#target_param2) | int | unsigned |  | NO | 0 |  |  |
 | [target_param3](#target_param3) | int | unsigned |  | NO | 0 |  |  |
@@ -97,10 +96,6 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### event_param5
-*- no description -*
-&nbsp;
-
-### event_param_string
 *- no description -*
 &nbsp;
 
@@ -172,5 +167,5 @@ dateCreated: 2021-08-30T06:00:00.000Z
 *- no description -*
 &nbsp;
 
-<a href="https://trinitycore.info/en/database/master/world/skinning_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'skinning_loot_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/spawn_group" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'spawn_group'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+<a href="https://trinitycore.info/en/database/master/world/vw_disables_with_labels" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'vw_disables_with_labels'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/warden_checks" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'warden_checks'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 

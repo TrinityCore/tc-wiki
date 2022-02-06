@@ -2,7 +2,7 @@
 title: creature_template_scaling
 description: 
 published: true
-date: 2022-01-03T11:24:59.089Z
+date: 2022-02-06T18:26:20.410Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -13,13 +13,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Structure
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment | Source in sniff |
-| --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Entry](#entry) | int(10) | unsigned | PRI | NO |  |  |  | SMSG_UPDATE_OBJECT |
-| [DifficultyID](#difficultyid) | tinyint(3) | unsigned | PRI | NO | 0 |  |  | SMSG_WORLD_SERVER_INFO |
-| [LevelScalingDeltaMin](#levelscalingdeltamin) | smallint(6) | signed |  | NO | 0 |  |  | SMSG_UPDATE_OBJECT |
-| [LevelScalingDeltaMax](#levelscalingdeltamax) | smallint(6) | signed |  | NO | 0 |  |  | SMSG_UPDATE_OBJECT |
-| [ContentTuningID](#contenttuningid) | int(11) | signed |  | NO | 0 |  |  | SMSG_UPDATE_OBJECT |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  | generated |
+| --- | --- | --- | :---: | :---: | --- | --- | --- | --- |
+| [Entry](#entry) | int | unsigned | PRI | NO |  |  |  | SMSG_UPDATE_OBJECT |
+| [DifficultyID](#difficultyid) | tinyint | unsigned | PRI | NO | 0 |  |  | SMSG_WORLD_SERVER_INFO |
+| [LevelScalingDeltaMin](#levelscalingdeltamin) | smallint | signed |  | NO | 0 |  |  | SMSG_UPDATE_OBJECT |
+| [LevelScalingDeltaMax](#levelscalingdeltamax) | smallint | signed |  | NO | 0 |  |  | SMSG_UPDATE_OBJECT |
+| [ContentTuningID](#contenttuningid) | int | signed |  | NO | 0 |  |  | SMSG_UPDATE_OBJECT |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  | generated |
 &nbsp;
 ## Description of fields
 

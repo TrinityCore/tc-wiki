@@ -2,7 +2,7 @@
 title: achievement_reward
 description: This table describes the reward that you will receive when you obtain a given achievement.
 published: true
-date: 2022-01-03T11:24:59.076Z
+date: 2022-02-06T18:26:20.395Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,14 +14,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [TitleA](#titlea) | int(10) | unsigned |  | NO | 0 |  |  |
-| [TitleH](#titleh) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemID](#itemid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Sender](#sender) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [TitleA](#titlea) | int | unsigned |  | NO | 0 |  |  |
+| [TitleH](#titleh) | int | unsigned |  | NO | 0 |  |  |
+| [ItemID](#itemid) | int | unsigned |  | NO | 0 |  |  |
+| [Sender](#sender) | int | unsigned |  | NO | 0 |  |  |
 | [Subject](#subject) | varchar(255) | signed |  | YES | NULL |  |  |
 | [Body](#body) | mediumtext |  |  | YES | NULL |  |  |
-| [MailTemplateID](#mailtemplateid) | int(10) | unsigned |  | YES | 0 |  |  |
+| [MailTemplateID](#mailtemplateid) | int | unsigned |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 

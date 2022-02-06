@@ -2,7 +2,7 @@
 title: game_event_quest_condition
 description: 
 published: true
-date: 2022-01-03T11:24:59.096Z
+date: 2022-02-06T18:26:20.416Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [eventEntry](#evententry) | tinyint(3) | unsigned |  | NO |  |  | Entry of the game event. |
-| [quest](#quest) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [condition_id](#condition_id) | int(10) | unsigned |  | NO | 0 |  |  |
+| [eventEntry](#evententry) | tinyint | unsigned |  | NO |  |  | Entry of the game event. |
+| [quest](#quest) | int | unsigned | PRI | NO | 0 |  |  |
+| [condition_id](#condition_id) | int | unsigned |  | NO | 0 |  |  |
 | [num](#num) | float |  |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields

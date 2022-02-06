@@ -2,7 +2,7 @@
 title: areatrigger_scripts
 description: Allows for an area trigger to be scripted with Trinity Script.
 published: true
-date: 2022-01-03T11:24:59.079Z
+date: 2022-02-06T18:26:20.399Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -17,7 +17,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | int(11) | signed | PRI | NO |  |  |  |
+| [entry](#entry) | int | signed | PRI | NO |  |  |  |
 | [ScriptName](#scriptname) | varchar(64) | signed |  | NO |  |  |  |
 &nbsp;
 ## Description of fields

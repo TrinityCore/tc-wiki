@@ -2,7 +2,7 @@
 title: playerchoice_response_reward_item
 description: 
 published: true
-date: 2022-01-03T11:24:59.113Z
+date: 2022-02-06T18:26:20.434Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ChoiceId](#choiceid) | int(11) | signed | PRI | NO |  |  |  |
-| [ResponseId](#responseid) | int(11) | signed | PRI | NO |  |  |  |
-| [Index](#index) | int(10) | unsigned |  | NO |  |  |  |
-| [ItemId](#itemid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ChoiceId](#choiceid) | int | signed | PRI | NO |  |  |  |
+| [ResponseId](#responseid) | int | signed | PRI | NO |  |  |  |
+| [Index](#index) | int | unsigned |  | NO |  |  |  |
+| [ItemId](#itemid) | int | unsigned |  | NO | 0 |  |  |
 | [BonusListIDs](#bonuslistids) | mediumtext |  |  | YES | NULL |  |  |
-| [Quantity](#quantity) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [Quantity](#quantity) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

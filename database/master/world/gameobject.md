@@ -2,7 +2,7 @@
 title: gameobject
 description: 
 published: true
-date: 2022-01-03T11:24:59.097Z
+date: 2022-02-06T18:26:20.417Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,16 +14,16 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
-| [id](#id) | int(10) | unsigned |  | NO | 0 |  | Gameobject Identifier |
-| [map](#map) | smallint(5) | unsigned |  | NO | 0 |  | Map Identifier |
-| [zoneId](#zoneid) | smallint(5) | unsigned |  | NO | 0 |  | Zone Identifier |
-| [areaId](#areaid) | smallint(5) | unsigned |  | NO | 0 |  | Area Identifier |
+| [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  |  |
+| [id](#id) | int | unsigned |  | NO | 0 |  | Gameobject Identifier |
+| [map](#map) | smallint | unsigned |  | NO | 0 |  | Map Identifier |
+| [zoneId](#zoneid) | smallint | unsigned |  | NO | 0 |  | Zone Identifier |
+| [areaId](#areaid) | smallint | unsigned |  | NO | 0 |  | Area Identifier |
 | [spawnDifficulties](#spawndifficulties) | varchar(100) | signed |  | NO | 0 |  |  |
-| [phaseUseFlags](#phaseuseflags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [PhaseId](#phaseid) | int(11) | signed |  | YES | 0 |  |  |
-| [PhaseGroup](#phasegroup) | int(11) | signed |  | YES | 0 |  |  |
-| [terrainSwapMap](#terrainswapmap) | int(11) | signed |  | NO | -1 |  |  |
+| [phaseUseFlags](#phaseuseflags) | tinyint | unsigned |  | NO | 0 |  |  |
+| [PhaseId](#phaseid) | int | signed |  | YES | 0 |  |  |
+| [PhaseGroup](#phasegroup) | int | signed |  | YES | 0 |  |  |
+| [terrainSwapMap](#terrainswapmap) | int | signed |  | NO | -1 |  |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |
@@ -32,11 +32,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [rotation1](#rotation1) | float |  |  | NO | 0 |  |  |
 | [rotation2](#rotation2) | float |  |  | NO | 0 |  |  |
 | [rotation3](#rotation3) | float |  |  | NO | 0 |  |  |
-| [spawntimesecs](#spawntimesecs) | int(11) | signed |  | NO | 0 |  |  |
-| [animprogress](#animprogress) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [state](#state) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [spawntimesecs](#spawntimesecs) | int | signed |  | NO | 0 |  |  |
+| [animprogress](#animprogress) | tinyint | unsigned |  | NO | 0 |  |  |
+| [state](#state) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) | signed |  | NO | '' |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

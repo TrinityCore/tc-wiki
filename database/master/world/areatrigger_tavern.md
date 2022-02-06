@@ -2,7 +2,7 @@
 title: areatrigger_tavern
 description: Enable a trigger when player enters a city or tavern. This causes the player to enter a resting state.
 published: true
-date: 2022-01-03T11:24:59.079Z
+date: 2022-02-06T18:26:20.400Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int(10) | unsigned | PRI | NO | 0 |  | Identifier |
+| [id](#id) | int | unsigned | PRI | NO | 0 |  | Identifier |
 | [name](#name) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields

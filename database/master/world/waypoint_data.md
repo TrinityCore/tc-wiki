@@ -2,7 +2,7 @@
 title: waypoint_data
 description: 
 published: true
-date: 2022-01-03T11:24:59.134Z
+date: 2022-02-06T18:26:20.457Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,17 +14,17 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int(10) | unsigned | PRI | NO | 0 |  | Creature GUID |
-| [point](#point) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [id](#id) | int | unsigned | PRI | NO | 0 |  | Creature GUID |
+| [point](#point) | int | unsigned | PRI | NO | 0 |  |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |
 | [orientation](#orientation) | float |  |  | NO | 0 |  |  |
-| [delay](#delay) | int(10) | unsigned |  | NO | 0 |  |  |
-| [move_type](#move_type) | int(11) | signed |  | NO | 0 |  |  |
-| [action](#action) | int(11) | signed |  | NO | 0 |  |  |
-| [action_chance](#action_chance) | smallint(6) | signed |  | NO | 100 |  |  |
-| [wpguid](#wpguid) | bigint(20) | unsigned |  | NO | 0 |  |  |
+| [delay](#delay) | int | unsigned |  | NO | 0 |  |  |
+| [move_type](#move_type) | int | signed |  | NO | 0 |  |  |
+| [action](#action) | int | signed |  | NO | 0 |  |  |
+| [action_chance](#action_chance) | smallint | signed |  | NO | 100 |  |  |
+| [wpguid](#wpguid) | bigint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

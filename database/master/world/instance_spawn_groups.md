@@ -2,7 +2,7 @@
 title: instance_spawn_groups
 description: 
 published: true
-date: 2022-01-03T11:24:59.103Z
+date: 2022-02-06T18:26:20.424Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [instanceMapId](#instancemapid) | smallint(5) | unsigned | PRI | NO |  |  |  |
-| [bossStateId](#bossstateid) | tinyint(3) | unsigned | PRI | NO |  |  |  |
-| [bossStates](#bossstates) | tinyint(3) | unsigned | PRI | NO |  |  |  |
-| [spawnGroupId](#spawngroupid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [flags](#flags) | tinyint(3) | unsigned |  | NO |  |  |  |
+| [instanceMapId](#instancemapid) | smallint | unsigned | PRI | NO |  |  |  |
+| [bossStateId](#bossstateid) | tinyint | unsigned | PRI | NO |  |  |  |
+| [bossStates](#bossstates) | tinyint | unsigned | PRI | NO |  |  |  |
+| [spawnGroupId](#spawngroupid) | int | unsigned | PRI | NO |  |  |  |
+| [flags](#flags) | tinyint | unsigned |  | NO |  |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: npc_spellclick_spells
 description: 
 published: true
-date: 2022-01-03T11:24:59.107Z
+date: 2022-02-06T18:26:20.427Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [npc_entry](#npc_entry) | int(10) | unsigned | PRI | NO |  |  | reference to creature_template |
-| [spell_id](#spell_id) | int(10) | unsigned | PRI | NO |  |  | spell which should be casted  |
-| [cast_flags](#cast_flags) | tinyint(3) | unsigned |  | NO |  |  | first bit defines caster: 1=player, 0=creature; second bit defines target, same mapping as caster bit |
-| [user_type](#user_type) | smallint(5) | unsigned |  | NO | 0 |  | relation with summoner: 0-no 1-friendly 2-raid 3-party player can click |
+| [npc_entry](#npc_entry) | int | unsigned | PRI | NO |  |  | reference to creature_template |
+| [spell_id](#spell_id) | int | unsigned | PRI | NO |  |  | spell which should be casted  |
+| [cast_flags](#cast_flags) | tinyint | unsigned |  | NO |  |  | first bit defines caster: 1=player, 0=creature; second bit defines target, same mapping as caster bit |
+| [user_type](#user_type) | smallint | unsigned |  | NO | 0 |  | relation with summoner: 0-no 1-friendly 2-raid 3-party player can click |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: creature_trainer
 description: 
 published: true
-date: 2022-01-03T11:24:59.090Z
+date: 2022-02-06T18:26:20.411Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,26 +14,26 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [CreatureId](#creatureid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [TrainerId](#trainerid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [MenuId](#menuid) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [OptionIndex](#optionindex) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [CreatureID](#creatureid) | int | unsigned | PRI | NO | 0 |  |  |
+| [TrainerID](#trainerid) | int | unsigned |  | NO | 0 |  |  |
+| [MenuID](#menuid) | int | unsigned | PRI | NO | 0 |  |  |
+| [OptionID](#optionid) | int | unsigned | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
-### CreatureId
+### CreatureID
 *- no description -*
 &nbsp;
 
-### TrainerId
+### TrainerID
 *- no description -*
 &nbsp;
 
-### MenuId
+### MenuID
 *- no description -*
 &nbsp;
 
-### OptionIndex
+### OptionID
 *- no description -*
 &nbsp;
 

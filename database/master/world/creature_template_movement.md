@@ -2,7 +2,7 @@
 title: creature_template_movement
 description: 
 published: true
-date: 2022-01-03T11:24:59.089Z
+date: 2022-02-06T18:26:20.409Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [CreatureId](#creatureid) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Ground](#ground) | tinyint(3) | unsigned |  | NO | 1 |  |  |
-| [Swim](#swim) | tinyint(3) | unsigned |  | NO | 1 |  |  |
-| [Flight](#flight) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Rooted](#rooted) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Chase](#chase) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Random](#random) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [CreatureId](#creatureid) | int | unsigned | PRI | NO | 0 |  |  |
+| [Ground](#ground) | tinyint | unsigned |  | NO | 1 |  |  |
+| [Swim](#swim) | tinyint | unsigned |  | NO | 1 |  |  |
+| [Flight](#flight) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Rooted](#rooted) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Chase](#chase) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Random](#random) | tinyint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

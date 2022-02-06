@@ -2,7 +2,7 @@
 title: garrison_follower_class_spec_abilities
 description: 
 published: true
-date: 2022-01-03T11:24:59.100Z
+date: 2022-02-06T18:26:20.420Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [classSpecId](#classspecid) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [abilityId](#abilityid) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [classSpecId](#classspecid) | int | unsigned | PRI | NO | 0 |  |  |
+| [abilityId](#abilityid) | int | unsigned | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

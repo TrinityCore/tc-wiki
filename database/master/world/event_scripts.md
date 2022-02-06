@@ -2,7 +2,7 @@
 title: event_scripts
 description: 
 published: true
-date: 2022-01-03T11:24:59.091Z
+date: 2022-02-06T18:26:20.412Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,16 +14,17 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int(10) | unsigned |  | NO | 0 |  |  |
-| [delay](#delay) | int(10) | unsigned |  | NO | 0 |  |  |
-| [command](#command) | int(10) | unsigned |  | NO | 0 |  |  |
-| [datalong](#datalong) | int(10) | unsigned |  | NO | 0 |  |  |
-| [datalong2](#datalong2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [dataint](#dataint) | int(11) | signed |  | NO | 0 |  |  |
+| [id](#id) | int | unsigned |  | NO | 0 |  |  |
+| [delay](#delay) | int | unsigned |  | NO | 0 |  |  |
+| [command](#command) | int | unsigned |  | NO | 0 |  |  |
+| [datalong](#datalong) | int | unsigned |  | NO | 0 |  |  |
+| [datalong2](#datalong2) | int | unsigned |  | NO | 0 |  |  |
+| [dataint](#dataint) | int | signed |  | NO | 0 |  |  |
 | [x](#x) | float |  |  | NO | 0 |  |  |
 | [y](#y) | float |  |  | NO | 0 |  |  |
 | [z](#z) | float |  |  | NO | 0 |  |  |
 | [o](#o) | float |  |  | NO | 0 |  |  |
+| [Comment](#comment) | varchar(255) | signed |  | NO | '' |  |  |
 &nbsp;
 ## Description of fields
 
@@ -64,6 +65,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### o
+*- no description -*
+&nbsp;
+
+### Comment
 *- no description -*
 &nbsp;
 

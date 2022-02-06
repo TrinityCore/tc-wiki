@@ -2,7 +2,7 @@
 title: exploration_basexp
 description: 
 published: true
-date: 2022-01-03T11:24:59.092Z
+date: 2022-02-06T18:26:20.412Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [level](#level) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
-| [basexp](#basexp) | int(11) | signed |  | NO | 0 |  |  |
+| [level](#level) | tinyint | unsigned | PRI | NO | 0 |  |  |
+| [basexp](#basexp) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

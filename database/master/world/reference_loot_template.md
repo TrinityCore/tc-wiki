@@ -2,7 +2,7 @@
 title: reference_loot_template
 description: 
 published: true
-date: 2022-01-03T11:24:59.121Z
+date: 2022-02-06T18:26:20.442Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,15 +14,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Entry](#entry) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Item](#item) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Reference](#reference) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
+| [Item](#item) | int | unsigned | PRI | NO | 0 |  |  |
+| [Reference](#reference) | int | unsigned |  | NO | 0 |  |  |
 | [Chance](#chance) | float |  |  | NO | 100 |  |  |
 | [QuestRequired](#questrequired) | tinyint(1) | signed |  | NO | 0 |  |  |
-| [LootMode](#lootmode) | smallint(5) | unsigned |  | NO | 1 |  |  |
-| [GroupId](#groupid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MinCount](#mincount) | tinyint(3) | unsigned |  | NO | 1 |  |  |
-| [MaxCount](#maxcount) | tinyint(3) | unsigned |  | NO | 1 |  |  |
+| [LootMode](#lootmode) | smallint | unsigned |  | NO | 1 |  |  |
+| [GroupId](#groupid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [MinCount](#mincount) | tinyint | unsigned |  | NO | 1 |  |  |
+| [MaxCount](#maxcount) | tinyint | unsigned |  | NO | 1 |  |  |
 | [Comment](#comment) | varchar(255) | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields

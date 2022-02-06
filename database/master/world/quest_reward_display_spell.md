@@ -2,7 +2,7 @@
 title: quest_reward_display_spell
 description: 
 published: true
-date: 2022-01-03T11:24:59.119Z
+date: 2022-02-06T18:26:20.440Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [QuestID](#questid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [Idx](#idx) | int(10) | unsigned | PRI | NO |  |  |  |
-| [SpellID](#spellid) | int(10) | unsigned |  | YES | 0 |  |  |
-| [PlayerConditionID](#playerconditionid) | int(10) | unsigned |  | YES | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [QuestID](#questid) | int | unsigned | PRI | NO |  |  |  |
+| [Idx](#idx) | int | unsigned | PRI | NO |  |  |  |
+| [SpellID](#spellid) | int | unsigned |  | YES | 0 |  |  |
+| [PlayerConditionID](#playerconditionid) | int | unsigned |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

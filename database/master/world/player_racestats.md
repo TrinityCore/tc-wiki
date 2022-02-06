@@ -2,7 +2,7 @@
 title: player_racestats
 description: 
 published: true
-date: 2022-01-03T11:24:59.110Z
+date: 2022-02-06T18:26:20.431Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [race](#race) | tinyint(3) | unsigned | PRI | NO |  |  |  |
-| [str](#str) | smallint(6) | signed |  | NO |  |  | strength |
-| [agi](#agi) | smallint(6) | signed |  | NO |  |  | agility |
-| [sta](#sta) | smallint(6) | signed |  | NO |  |  | stamina |
-| [inte](#inte) | smallint(6) | signed |  | NO |  |  | intellect |
+| [race](#race) | tinyint | unsigned | PRI | NO |  |  |  |
+| [str](#str) | smallint | signed |  | NO |  |  | strength |
+| [agi](#agi) | smallint | signed |  | NO |  |  | agility |
+| [sta](#sta) | smallint | signed |  | NO |  |  | stamina |
+| [inte](#inte) | smallint | signed |  | NO |  |  | intellect |
 &nbsp;
 ## Description of fields
 

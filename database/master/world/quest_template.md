@@ -2,10 +2,10 @@
 title: quest_template
 description: 
 published: true
-date: 2022-01-20T08:50:34.141Z
+date: 2022-02-06T18:26:20.441Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T09:35:31.131Z
+dateCreated: 2021-08-30T06:00:00.000Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/quest_reward_display_spell" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'quest_reward_display_spell'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/quest_template_addon" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'quest_template_addon'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -14,116 +14,116 @@ dateCreated: 2021-08-30T09:35:31.131Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [QuestType](#questtype) | tinyint(3) | unsigned |  | NO | 2 |  |  |
-| [QuestPackageID](#questpackageid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ContentTuningID](#contenttuningid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [QuestSortID](#questsortid) | smallint(6) | signed |  | NO | 0 |  |  |
-| [QuestInfoID](#questinfoid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [SuggestedGroupNum](#suggestedgroupnum) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [RewardNextQuest](#rewardnextquest) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardXPDifficulty](#rewardxpdifficulty) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [QuestType](#questtype) | tinyint | unsigned |  | NO | 2 |  |  |
+| [QuestPackageID](#questpackageid) | int | unsigned |  | NO | 0 |  |  |
+| [ContentTuningID](#contenttuningid) | int | unsigned |  | NO | 0 |  |  |
+| [QuestSortID](#questsortid) | smallint | signed |  | NO | 0 |  |  |
+| [QuestInfoID](#questinfoid) | smallint | unsigned |  | NO | 0 |  |  |
+| [SuggestedGroupNum](#suggestedgroupnum) | tinyint | unsigned |  | NO | 0 |  |  |
+| [RewardNextQuest](#rewardnextquest) | int | unsigned |  | NO | 0 |  |  |
+| [RewardXPDifficulty](#rewardxpdifficulty) | int | unsigned |  | NO | 0 |  |  |
 | [RewardXPMultiplier](#rewardxpmultiplier) | float |  |  | NO | 1 |  |  |
-| [RewardMoneyDifficulty](#rewardmoneydifficulty) | int(10) | unsigned |  | NO | 0 |  |  |
+| [RewardMoneyDifficulty](#rewardmoneydifficulty) | int | unsigned |  | NO | 0 |  |  |
 | [RewardMoneyMultiplier](#rewardmoneymultiplier) | float |  |  | NO | 1 |  |  |
-| [RewardBonusMoney](#rewardbonusmoney) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardDisplaySpell1](#rewarddisplayspell1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardDisplaySpell2](#rewarddisplayspell2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardDisplaySpell3](#rewarddisplayspell3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardSpell](#rewardspell) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardHonor](#rewardhonor) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardKillHonor](#rewardkillhonor) | int(10) | unsigned |  | NO | 0 |  |  |
-| [StartItem](#startitem) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardArtifactXPDifficulty](#rewardartifactxpdifficulty) | int(10) | unsigned |  | NO | 0 |  |  |
+| [RewardBonusMoney](#rewardbonusmoney) | int | unsigned |  | NO | 0 |  |  |
+| [RewardDisplaySpell1](#rewarddisplayspell1) | int | unsigned |  | NO | 0 |  |  |
+| [RewardDisplaySpell2](#rewarddisplayspell2) | int | unsigned |  | NO | 0 |  |  |
+| [RewardDisplaySpell3](#rewarddisplayspell3) | int | unsigned |  | NO | 0 |  |  |
+| [RewardSpell](#rewardspell) | int | unsigned |  | NO | 0 |  |  |
+| [RewardHonor](#rewardhonor) | int | unsigned |  | NO | 0 |  |  |
+| [RewardKillHonor](#rewardkillhonor) | int | unsigned |  | NO | 0 |  |  |
+| [StartItem](#startitem) | int | unsigned |  | NO | 0 |  |  |
+| [RewardArtifactXPDifficulty](#rewardartifactxpdifficulty) | int | unsigned |  | NO | 0 |  |  |
 | [RewardArtifactXPMultiplier](#rewardartifactxpmultiplier) | float |  |  | NO | 1 |  |  |
-| [RewardArtifactCategoryID](#rewardartifactcategoryid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [FlagsEx](#flagsex) | int(10) | unsigned |  | NO | 0 |  |  |
-| [FlagsEx2](#flagsex2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardItem1](#rewarditem1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardAmount1](#rewardamount1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardItem2](#rewarditem2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardAmount2](#rewardamount2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardItem3](#rewarditem3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardAmount3](#rewardamount3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardItem4](#rewarditem4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardAmount4](#rewardamount4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemDrop1](#itemdrop1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemDropQuantity1](#itemdropquantity1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemDrop2](#itemdrop2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemDropQuantity2](#itemdropquantity2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemDrop3](#itemdrop3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemDropQuantity3](#itemdropquantity3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemDrop4](#itemdrop4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemDropQuantity4](#itemdropquantity4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemID1](#rewardchoiceitemid1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemQuantity1](#rewardchoiceitemquantity1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemDisplayID1](#rewardchoiceitemdisplayid1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemID2](#rewardchoiceitemid2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemQuantity2](#rewardchoiceitemquantity2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemDisplayID2](#rewardchoiceitemdisplayid2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemID3](#rewardchoiceitemid3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemQuantity3](#rewardchoiceitemquantity3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemDisplayID3](#rewardchoiceitemdisplayid3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemID4](#rewardchoiceitemid4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemQuantity4](#rewardchoiceitemquantity4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemDisplayID4](#rewardchoiceitemdisplayid4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemID5](#rewardchoiceitemid5) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemQuantity5](#rewardchoiceitemquantity5) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemDisplayID5](#rewardchoiceitemdisplayid5) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemID6](#rewardchoiceitemid6) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemQuantity6](#rewardchoiceitemquantity6) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemDisplayID6](#rewardchoiceitemdisplayid6) | int(10) | unsigned |  | NO | 0 |  |  |
-| [POIContinent](#poicontinent) | int(10) | unsigned |  | NO | 0 |  |  |
+| [RewardArtifactCategoryID](#rewardartifactcategoryid) | int | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
+| [FlagsEx](#flagsex) | int | unsigned |  | NO | 0 |  |  |
+| [FlagsEx2](#flagsex2) | int | unsigned |  | NO | 0 |  |  |
+| [RewardItem1](#rewarditem1) | int | unsigned |  | NO | 0 |  |  |
+| [RewardAmount1](#rewardamount1) | int | unsigned |  | NO | 0 |  |  |
+| [RewardItem2](#rewarditem2) | int | unsigned |  | NO | 0 |  |  |
+| [RewardAmount2](#rewardamount2) | int | unsigned |  | NO | 0 |  |  |
+| [RewardItem3](#rewarditem3) | int | unsigned |  | NO | 0 |  |  |
+| [RewardAmount3](#rewardamount3) | int | unsigned |  | NO | 0 |  |  |
+| [RewardItem4](#rewarditem4) | int | unsigned |  | NO | 0 |  |  |
+| [RewardAmount4](#rewardamount4) | int | unsigned |  | NO | 0 |  |  |
+| [ItemDrop1](#itemdrop1) | int | unsigned |  | NO | 0 |  |  |
+| [ItemDropQuantity1](#itemdropquantity1) | int | unsigned |  | NO | 0 |  |  |
+| [ItemDrop2](#itemdrop2) | int | unsigned |  | NO | 0 |  |  |
+| [ItemDropQuantity2](#itemdropquantity2) | int | unsigned |  | NO | 0 |  |  |
+| [ItemDrop3](#itemdrop3) | int | unsigned |  | NO | 0 |  |  |
+| [ItemDropQuantity3](#itemdropquantity3) | int | unsigned |  | NO | 0 |  |  |
+| [ItemDrop4](#itemdrop4) | int | unsigned |  | NO | 0 |  |  |
+| [ItemDropQuantity4](#itemdropquantity4) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemID1](#rewardchoiceitemid1) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemQuantity1](#rewardchoiceitemquantity1) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemDisplayID1](#rewardchoiceitemdisplayid1) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemID2](#rewardchoiceitemid2) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemQuantity2](#rewardchoiceitemquantity2) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemDisplayID2](#rewardchoiceitemdisplayid2) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemID3](#rewardchoiceitemid3) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemQuantity3](#rewardchoiceitemquantity3) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemDisplayID3](#rewardchoiceitemdisplayid3) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemID4](#rewardchoiceitemid4) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemQuantity4](#rewardchoiceitemquantity4) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemDisplayID4](#rewardchoiceitemdisplayid4) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemID5](#rewardchoiceitemid5) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemQuantity5](#rewardchoiceitemquantity5) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemDisplayID5](#rewardchoiceitemdisplayid5) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemID6](#rewardchoiceitemid6) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemQuantity6](#rewardchoiceitemquantity6) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemDisplayID6](#rewardchoiceitemdisplayid6) | int | unsigned |  | NO | 0 |  |  |
+| [POIContinent](#poicontinent) | int | unsigned |  | NO | 0 |  |  |
 | [POIx](#poix) | float |  |  | NO | 0 |  |  |
 | [POIy](#poiy) | float |  |  | NO | 0 |  |  |
-| [POIPriority](#poipriority) | int(11) | signed |  | NO | 0 |  |  |
-| [RewardTitle](#rewardtitle) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardArenaPoints](#rewardarenapoints) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardSkillLineID](#rewardskilllineid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardNumSkillUps](#rewardnumskillups) | int(10) | unsigned |  | NO | 0 |  |  |
-| [PortraitGiver](#portraitgiver) | int(10) | unsigned |  | NO | 0 |  |  |
-| [PortraitGiverMount](#portraitgivermount) | int(11) | signed |  | NO | 0 |  |  |
-| [PortraitGiverModelSceneID](#portraitgivermodelsceneid) | int(11) | signed |  | NO | 0 |  |  |
-| [PortraitTurnIn](#portraitturnin) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardFactionID1](#rewardfactionid1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardFactionValue1](#rewardfactionvalue1) | int(11) | signed |  | NO | 0 |  |  |
-| [RewardFactionOverride1](#rewardfactionoverride1) | int(11) | signed |  | NO | 0 |  |  |
-| [RewardFactionCapIn1](#rewardfactioncapin1) | int(11) | signed |  | NO | 0 |  |  |
-| [RewardFactionID2](#rewardfactionid2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardFactionValue2](#rewardfactionvalue2) | int(11) | signed |  | NO | 0 |  |  |
-| [RewardFactionOverride2](#rewardfactionoverride2) | int(11) | signed |  | NO | 0 |  |  |
-| [RewardFactionCapIn2](#rewardfactioncapin2) | int(11) | signed |  | NO | 0 |  |  |
-| [RewardFactionID3](#rewardfactionid3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardFactionValue3](#rewardfactionvalue3) | int(11) | signed |  | NO | 0 |  |  |
-| [RewardFactionOverride3](#rewardfactionoverride3) | int(11) | signed |  | NO | 0 |  |  |
-| [RewardFactionCapIn3](#rewardfactioncapin3) | int(11) | signed |  | NO | 0 |  |  |
-| [RewardFactionID4](#rewardfactionid4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardFactionValue4](#rewardfactionvalue4) | int(11) | signed |  | NO | 0 |  |  |
-| [RewardFactionOverride4](#rewardfactionoverride4) | int(11) | signed |  | NO | 0 |  |  |
-| [RewardFactionCapIn4](#rewardfactioncapin4) | int(11) | signed |  | NO | 0 |  |  |
-| [RewardFactionID5](#rewardfactionid5) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardFactionValue5](#rewardfactionvalue5) | int(11) | signed |  | NO | 0 |  |  |
-| [RewardFactionOverride5](#rewardfactionoverride5) | int(11) | signed |  | NO | 0 |  |  |
-| [RewardFactionCapIn5](#rewardfactioncapin5) | int(11) | signed |  | NO | 0 |  |  |
-| [RewardFactionFlags](#rewardfactionflags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardCurrencyID1](#rewardcurrencyid1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardCurrencyQty1](#rewardcurrencyqty1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardCurrencyID2](#rewardcurrencyid2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardCurrencyQty2](#rewardcurrencyqty2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardCurrencyID3](#rewardcurrencyid3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardCurrencyQty3](#rewardcurrencyqty3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardCurrencyID4](#rewardcurrencyid4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [RewardCurrencyQty4](#rewardcurrencyqty4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [AcceptedSoundKitID](#acceptedsoundkitid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [CompleteSoundKitID](#completesoundkitid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [AreaGroupID](#areagroupid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [TimeAllowed](#timeallowed) | int(10) | unsigned |  | NO | 0 |  |  |
-| [AllowableRaces](#allowableraces) | bigint(20) | unsigned |  | YES | 0 |  |  |
-| [TreasurePickerID](#treasurepickerid) | int(11) | signed |  | NO | 0 |  |  |
-| [Expansion](#expansion) | int(11) | signed |  | NO | 0 |  |  |
-| [ManagedWorldStateID](#managedworldstateid) | int(11) | signed |  | NO | 0 |  |  |
-| [QuestSessionBonus](#questsessionbonus) | int(11) | signed |  | NO | 0 |  |  |
+| [POIPriority](#poipriority) | int | signed |  | NO | 0 |  |  |
+| [RewardTitle](#rewardtitle) | int | unsigned |  | NO | 0 |  |  |
+| [RewardArenaPoints](#rewardarenapoints) | int | unsigned |  | NO | 0 |  |  |
+| [RewardSkillLineID](#rewardskilllineid) | int | unsigned |  | NO | 0 |  |  |
+| [RewardNumSkillUps](#rewardnumskillups) | int | unsigned |  | NO | 0 |  |  |
+| [PortraitGiver](#portraitgiver) | int | unsigned |  | NO | 0 |  |  |
+| [PortraitGiverMount](#portraitgivermount) | int | signed |  | NO | 0 |  |  |
+| [PortraitGiverModelSceneID](#portraitgivermodelsceneid) | int | signed |  | NO | 0 |  |  |
+| [PortraitTurnIn](#portraitturnin) | int | unsigned |  | NO | 0 |  |  |
+| [RewardFactionID1](#rewardfactionid1) | int | unsigned |  | NO | 0 |  |  |
+| [RewardFactionValue1](#rewardfactionvalue1) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionOverride1](#rewardfactionoverride1) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionCapIn1](#rewardfactioncapin1) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionID2](#rewardfactionid2) | int | unsigned |  | NO | 0 |  |  |
+| [RewardFactionValue2](#rewardfactionvalue2) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionOverride2](#rewardfactionoverride2) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionCapIn2](#rewardfactioncapin2) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionID3](#rewardfactionid3) | int | unsigned |  | NO | 0 |  |  |
+| [RewardFactionValue3](#rewardfactionvalue3) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionOverride3](#rewardfactionoverride3) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionCapIn3](#rewardfactioncapin3) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionID4](#rewardfactionid4) | int | unsigned |  | NO | 0 |  |  |
+| [RewardFactionValue4](#rewardfactionvalue4) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionOverride4](#rewardfactionoverride4) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionCapIn4](#rewardfactioncapin4) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionID5](#rewardfactionid5) | int | unsigned |  | NO | 0 |  |  |
+| [RewardFactionValue5](#rewardfactionvalue5) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionOverride5](#rewardfactionoverride5) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionCapIn5](#rewardfactioncapin5) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionFlags](#rewardfactionflags) | int | unsigned |  | NO | 0 |  |  |
+| [RewardCurrencyID1](#rewardcurrencyid1) | int | unsigned |  | NO | 0 |  |  |
+| [RewardCurrencyQty1](#rewardcurrencyqty1) | int | unsigned |  | NO | 0 |  |  |
+| [RewardCurrencyID2](#rewardcurrencyid2) | int | unsigned |  | NO | 0 |  |  |
+| [RewardCurrencyQty2](#rewardcurrencyqty2) | int | unsigned |  | NO | 0 |  |  |
+| [RewardCurrencyID3](#rewardcurrencyid3) | int | unsigned |  | NO | 0 |  |  |
+| [RewardCurrencyQty3](#rewardcurrencyqty3) | int | unsigned |  | NO | 0 |  |  |
+| [RewardCurrencyID4](#rewardcurrencyid4) | int | unsigned |  | NO | 0 |  |  |
+| [RewardCurrencyQty4](#rewardcurrencyqty4) | int | unsigned |  | NO | 0 |  |  |
+| [AcceptedSoundKitID](#acceptedsoundkitid) | int | unsigned |  | NO | 0 |  |  |
+| [CompleteSoundKitID](#completesoundkitid) | int | unsigned |  | NO | 0 |  |  |
+| [AreaGroupID](#areagroupid) | int | unsigned |  | NO | 0 |  |  |
+| [TimeAllowed](#timeallowed) | int | unsigned |  | NO | 0 |  |  |
+| [AllowableRaces](#allowableraces) | bigint | unsigned |  | YES | 0 |  |  |
+| [TreasurePickerID](#treasurepickerid) | int | signed |  | NO | 0 |  |  |
+| [Expansion](#expansion) | int | signed |  | NO | 0 |  |  |
+| [ManagedWorldStateID](#managedworldstateid) | int | signed |  | NO | 0 |  |  |
+| [QuestSessionBonus](#questsessionbonus) | int | signed |  | NO | 0 |  |  |
 | [LogTitle](#logtitle) | mediumtext |  |  | YES | NULL |  |  |
 | [LogDescription](#logdescription) | mediumtext |  |  | YES | NULL |  |  |
 | [QuestDescription](#questdescription) | mediumtext |  |  | YES | NULL |  |  |
@@ -133,7 +133,7 @@ dateCreated: 2021-08-30T09:35:31.131Z
 | [PortraitTurnInText](#portraitturnintext) | mediumtext |  |  | YES | NULL |  |  |
 | [PortraitTurnInName](#portraitturninname) | mediumtext |  |  | YES | NULL |  |  |
 | [QuestCompletionLog](#questcompletionlog) | mediumtext |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

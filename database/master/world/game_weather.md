@@ -2,7 +2,7 @@
 title: game_weather
 description: 
 published: true
-date: 2022-01-03T11:24:59.097Z
+date: 2022-02-06T18:26:20.417Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,19 +14,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [zone](#zone) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [spring_rain_chance](#spring_rain_chance) | tinyint(3) | unsigned |  | NO | 25 |  |  |
-| [spring_snow_chance](#spring_snow_chance) | tinyint(3) | unsigned |  | NO | 25 |  |  |
-| [spring_storm_chance](#spring_storm_chance) | tinyint(3) | unsigned |  | NO | 25 |  |  |
-| [summer_rain_chance](#summer_rain_chance) | tinyint(3) | unsigned |  | NO | 25 |  |  |
-| [summer_snow_chance](#summer_snow_chance) | tinyint(3) | unsigned |  | NO | 25 |  |  |
-| [summer_storm_chance](#summer_storm_chance) | tinyint(3) | unsigned |  | NO | 25 |  |  |
-| [fall_rain_chance](#fall_rain_chance) | tinyint(3) | unsigned |  | NO | 25 |  |  |
-| [fall_snow_chance](#fall_snow_chance) | tinyint(3) | unsigned |  | NO | 25 |  |  |
-| [fall_storm_chance](#fall_storm_chance) | tinyint(3) | unsigned |  | NO | 25 |  |  |
-| [winter_rain_chance](#winter_rain_chance) | tinyint(3) | unsigned |  | NO | 25 |  |  |
-| [winter_snow_chance](#winter_snow_chance) | tinyint(3) | unsigned |  | NO | 25 |  |  |
-| [winter_storm_chance](#winter_storm_chance) | tinyint(3) | unsigned |  | NO | 25 |  |  |
+| [zone](#zone) | int | unsigned | PRI | NO | 0 |  |  |
+| [spring_rain_chance](#spring_rain_chance) | tinyint | unsigned |  | NO | 25 |  |  |
+| [spring_snow_chance](#spring_snow_chance) | tinyint | unsigned |  | NO | 25 |  |  |
+| [spring_storm_chance](#spring_storm_chance) | tinyint | unsigned |  | NO | 25 |  |  |
+| [summer_rain_chance](#summer_rain_chance) | tinyint | unsigned |  | NO | 25 |  |  |
+| [summer_snow_chance](#summer_snow_chance) | tinyint | unsigned |  | NO | 25 |  |  |
+| [summer_storm_chance](#summer_storm_chance) | tinyint | unsigned |  | NO | 25 |  |  |
+| [fall_rain_chance](#fall_rain_chance) | tinyint | unsigned |  | NO | 25 |  |  |
+| [fall_snow_chance](#fall_snow_chance) | tinyint | unsigned |  | NO | 25 |  |  |
+| [fall_storm_chance](#fall_storm_chance) | tinyint | unsigned |  | NO | 25 |  |  |
+| [winter_rain_chance](#winter_rain_chance) | tinyint | unsigned |  | NO | 25 |  |  |
+| [winter_snow_chance](#winter_snow_chance) | tinyint | unsigned |  | NO | 25 |  |  |
+| [winter_storm_chance](#winter_storm_chance) | tinyint | unsigned |  | NO | 25 |  |  |
 | [ScriptName](#scriptname) | varchar(64) | signed |  | NO | '' |  |  |
 &nbsp;
 ## Description of fields

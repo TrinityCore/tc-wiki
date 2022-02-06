@@ -2,7 +2,7 @@
 title: spell_pet_auras
 description: 
 published: true
-date: 2022-01-03T11:24:59.128Z
+date: 2022-02-06T18:26:20.450Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [spell](#spell) | int(10) | unsigned | PRI | NO |  |  | dummy spell id |
-| [effectId](#effectid) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
-| [pet](#pet) | int(10) | unsigned | PRI | NO | 0 |  | pet id; 0 = all |
-| [aura](#aura) | int(10) | unsigned |  | NO |  |  | pet aura id |
+| [spell](#spell) | int | unsigned | PRI | NO |  |  | dummy spell id |
+| [effectId](#effectid) | tinyint | unsigned | PRI | NO | 0 |  |  |
+| [pet](#pet) | int | unsigned | PRI | NO | 0 |  | pet id; 0 = all |
+| [aura](#aura) | int | unsigned |  | NO |  |  | pet aura id |
 &nbsp;
 ## Description of fields
 

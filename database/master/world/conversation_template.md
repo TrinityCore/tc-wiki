@@ -2,7 +2,7 @@
 title: conversation_template
 description: 
 published: true
-date: 2022-01-03T11:24:59.084Z
+date: 2022-02-06T18:26:20.405Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Id](#id) | int(10) | unsigned | PRI | NO |  |  |  |
-| [FirstLineId](#firstlineid) | int(10) | unsigned |  | NO |  |  |  |
-| [TextureKitId](#texturekitid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [Id](#id) | int | unsigned | PRI | NO |  |  |  |
+| [FirstLineId](#firstlineid) | int | unsigned |  | NO |  |  |  |
+| [TextureKitId](#texturekitid) | int | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) | signed |  | NO | '' |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: spell_linked_spell
 description: 
 published: true
-date: 2022-01-03T11:24:59.128Z
+date: 2022-02-06T18:26:20.450Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [spell_trigger](#spell_trigger) | int(11) | signed | PRI | NO |  |  |  |
-| [spell_effect](#spell_effect) | int(11) | signed | PRI | NO | 0 |  |  |
-| [type](#type) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
+| [spell_trigger](#spell_trigger) | int | signed | PRI | NO |  |  |  |
+| [spell_effect](#spell_effect) | int | signed | PRI | NO | 0 |  |  |
+| [type](#type) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [comment](#comment) | mediumtext |  |  | NO |  |  |  |
 &nbsp;
 ## Description of fields

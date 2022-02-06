@@ -2,7 +2,7 @@
 title: points_of_interest
 description: 
 published: true
-date: 2022-01-03T11:24:59.114Z
+date: 2022-02-06T18:26:20.436Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -13,17 +13,17 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Structure
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment | Source in sniff |
-| --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  | SMSG_GOSSIP_POI |
+| --- | --- | --- | :---: | :---: | --- | --- | --- | --- |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  | SMSG_GOSSIP_POI |
 | [PositionX](#positionx) | float |  |  | NO | 0 |  |  | SMSG_GOSSIP_POI |
 | [PositionY](#positiony) | float |  |  | NO | 0 |  |  | SMSG_GOSSIP_POI |
 | [PositionZ](#positionz) | float |  |  | NO | 0 |  |  | SMSG_GOSSIP_POI |
-| [Icon](#icon) | int(10) | unsigned |  | NO | 0 |  |  | SMSG_GOSSIP_POI |
-| [Flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  | SMSG_GOSSIP_POI |
-| [Importance](#importance) | int(10) | unsigned |  | NO | 0 |  |  | SMSG_GOSSIP_POI |
+| [Icon](#icon) | int | unsigned |  | NO | 0 |  |  | SMSG_GOSSIP_POI |
+| [Flags](#flags) | int | unsigned |  | NO | 0 |  |  | SMSG_GOSSIP_POI |
+| [Importance](#importance) | int | unsigned |  | NO | 0 |  |  | SMSG_GOSSIP_POI |
 | [Name](#name) | mediumtext |  |  | YES | NULL |  |  | SMSG_GOSSIP_POI |
-| [Unknown905](#unknown905) | int(11) | signed |  | NO | 0 |  |  | SMSG_GOSSIP_POI |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  | generated |
+| [Unknown905](#unknown905) | int | signed |  | NO | 0 |  |  | SMSG_GOSSIP_POI |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  | generated |
 &nbsp;
 ## Description of fields
 

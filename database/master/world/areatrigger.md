@@ -2,7 +2,7 @@
 title: areatrigger
 description: 
 published: true
-date: 2022-01-03T11:24:59.077Z
+date: 2022-02-06T18:26:20.397Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [SpawnId](#spawnid) | bigint(20) | unsigned | PRI | NO |  |  |  |
-| [AreaTriggerId](#areatriggerid) | int(10) | unsigned |  | NO |  |  |  |
-| [IsServerSide](#isserverside) | tinyint(3) | unsigned |  | NO |  |  |  |
-| [MapId](#mapid) | int(10) | unsigned |  | NO |  |  |  |
+| [SpawnId](#spawnid) | bigint | unsigned | PRI | NO |  |  |  |
+| [AreaTriggerId](#areatriggerid) | int | unsigned |  | NO |  |  |  |
+| [IsServerSide](#isserverside) | tinyint | unsigned |  | NO |  |  |  |
+| [MapId](#mapid) | int | unsigned |  | NO |  |  |  |
 | [PosX](#posx) | float |  |  | NO |  |  |  |
 | [PosY](#posy) | float |  |  | NO |  |  |  |
 | [PosZ](#posz) | float |  |  | NO |  |  |  |
 | [Orientation](#orientation) | float |  |  | NO |  |  |  |
-| [PhaseUseFlags](#phaseuseflags) | tinyint(3) | unsigned |  | YES | 0 |  |  |
-| [PhaseId](#phaseid) | int(10) | unsigned |  | YES | 0 |  |  |
-| [PhaseGroup](#phasegroup) | int(10) | unsigned |  | YES | 0 |  |  |
-| [Shape](#shape) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [PhaseUseFlags](#phaseuseflags) | tinyint | unsigned |  | YES | 0 |  |  |
+| [PhaseId](#phaseid) | int | unsigned |  | YES | 0 |  |  |
+| [PhaseGroup](#phasegroup) | int | unsigned |  | YES | 0 |  |  |
+| [Shape](#shape) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ShapeData0](#shapedata0-5) | float |  |  | NO | 0 |  |  |
 | [ShapeData1](#shapedata0-5) | float |  |  | NO | 0 |  |  |
 | [ShapeData2](#shapedata0-5) | float |  |  | NO | 0 |  |  |

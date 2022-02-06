@@ -2,7 +2,7 @@
 title: playercreateinfo
 description: 
 published: true
-date: 2022-01-03T11:24:59.113Z
+date: 2022-02-06T18:26:20.434Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,22 +14,22 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [race](#race) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
-| [class](#class) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
-| [map](#map) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [race](#race) | tinyint | unsigned | PRI | NO | 0 |  |  |
+| [class](#class) | tinyint | unsigned | PRI | NO | 0 |  |  |
+| [map](#map) | smallint | unsigned |  | NO | 0 |  |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |
 | [orientation](#orientation) | float |  |  | NO | 0 |  |  |
-| [npe_map](#npe_map) | int(10) | unsigned |  | YES | NULL |  |  |
+| [npe_map](#npe_map) | int | unsigned |  | YES | NULL |  |  |
 | [npe_position_x](#npe_position_x) | float |  |  | YES | NULL |  |  |
 | [npe_position_y](#npe_position_y) | float |  |  | YES | NULL |  |  |
 | [npe_position_z](#npe_position_z) | float |  |  | YES | NULL |  |  |
 | [npe_orientation](#npe_orientation) | float |  |  | YES | NULL |  |  |
-| [npe_transport_guid](#npe_transport_guid) | bigint(20) | unsigned |  | YES | NULL |  |  |
-| [intro_movie_id](#intro_movie_id) | int(10) | unsigned |  | YES | NULL |  |  |
-| [intro_scene_id](#intro_scene_id) | int(10) | unsigned |  | YES | NULL |  |  |
-| [npe_intro_scene_id](#npe_intro_scene_id) | int(10) | unsigned |  | YES | NULL |  |  |
+| [npe_transport_guid](#npe_transport_guid) | bigint | unsigned |  | YES | NULL |  |  |
+| [intro_movie_id](#intro_movie_id) | int | unsigned |  | YES | NULL |  |  |
+| [intro_scene_id](#intro_scene_id) | int | unsigned |  | YES | NULL |  |  |
+| [npe_intro_scene_id](#npe_intro_scene_id) | int | unsigned |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

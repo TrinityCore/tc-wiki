@@ -2,7 +2,7 @@
 title: lfg_dungeon_rewards
 description: 
 published: true
-date: 2022-01-03T11:24:59.105Z
+date: 2022-02-06T18:26:20.425Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [dungeonId](#dungeonid) | int(10) | unsigned | PRI | NO | 0 |  | Dungeon entry from dbc |
-| [maxLevel](#maxlevel) | tinyint(3) | unsigned | PRI | NO | 0 |  | Max level at which this reward is rewarded |
-| [firstQuestId](#firstquestid) | int(10) | unsigned |  | NO | 0 |  | Quest id with rewards for first dungeon this day |
-| [otherQuestId](#otherquestid) | int(10) | unsigned |  | NO | 0 |  | Quest id with rewards for Nth dungeon this day |
+| [dungeonId](#dungeonid) | int | unsigned | PRI | NO | 0 |  | Dungeon entry from dbc |
+| [maxLevel](#maxlevel) | tinyint | unsigned | PRI | NO | 0 |  | Max level at which this reward is rewarded |
+| [firstQuestId](#firstquestid) | int | unsigned |  | NO | 0 |  | Quest id with rewards for first dungeon this day |
+| [otherQuestId](#otherquestid) | int | unsigned |  | NO | 0 |  | Quest id with rewards for Nth dungeon this day |
 &nbsp;
 ## Description of fields
 

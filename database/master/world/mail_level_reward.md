@@ -2,7 +2,7 @@
 title: mail_level_reward
 description: 
 published: true
-date: 2022-01-03T11:24:59.106Z
+date: 2022-02-06T18:26:20.426Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [level](#level) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
-| [raceMask](#racemask) | bigint(20) | unsigned | PRI | NO |  |  |  |
-| [mailTemplateId](#mailtemplateid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [senderEntry](#senderentry) | int(10) | unsigned |  | NO | 0 |  |  |
+| [level](#level) | tinyint | unsigned | PRI | NO | 0 |  |  |
+| [raceMask](#racemask) | bigint | unsigned | PRI | NO |  |  |  |
+| [mailTemplateId](#mailtemplateid) | int | unsigned |  | NO | 0 |  |  |
+| [senderEntry](#senderentry) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

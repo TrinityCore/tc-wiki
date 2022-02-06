@@ -2,7 +2,7 @@
 title: areatrigger_create_properties
 description: 
 published: true
-date: 2022-01-03T11:24:59.077Z
+date: 2022-02-06T18:26:20.398Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Id](#id) | int(10) | unsigned | PRI | NO |  |  |  |
-| [AreaTriggerId](#areatriggerid) | int(10) | unsigned |  | NO |  |  |  |
-| [MoveCurveId](#movecurveid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ScaleCurveId](#scalecurveid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [MorphCurveId](#morphcurveid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [FacingCurveId](#facingcurveid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [AnimId](#animid) | int(11) | signed |  | NO | -1 |  |  |
-| [AnimKitId](#animkitid) | int(11) | signed |  | NO | 0 |  |  |
-| [DecalPropertiesId](#decalpropertiesid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [TimeToTarget](#timetotarget) | int(10) | unsigned |  | NO | 0 |  |  |
-| [TimeToTargetScale](#timetotargetscale) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Shape](#shape) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [Id](#id) | int | unsigned | PRI | NO |  |  |  |
+| [AreaTriggerId](#areatriggerid) | int | unsigned |  | NO |  |  |  |
+| [MoveCurveId](#movecurveid) | int | unsigned |  | NO | 0 |  |  |
+| [ScaleCurveId](#scalecurveid) | int | unsigned |  | NO | 0 |  |  |
+| [MorphCurveId](#morphcurveid) | int | unsigned |  | NO | 0 |  |  |
+| [FacingCurveId](#facingcurveid) | int | unsigned |  | NO | 0 |  |  |
+| [AnimId](#animid) | int | signed |  | NO | -1 |  |  |
+| [AnimKitId](#animkitid) | int | signed |  | NO | 0 |  |  |
+| [DecalPropertiesId](#decalpropertiesid) | int | unsigned |  | NO | 0 |  |  |
+| [TimeToTarget](#timetotarget) | int | unsigned |  | NO | 0 |  |  |
+| [TimeToTargetScale](#timetotargetscale) | int | unsigned |  | NO | 0 |  |  |
+| [Shape](#shape) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ShapeData0](#shapedata0-5) | float |  |  | NO | 0 |  |  |
 | [ShapeData1](#shapedata0-5) | float |  |  | NO | 0 |  |  |
 | [ShapeData2](#shapedata0-5) | float |  |  | NO | 0 |  |  |
@@ -33,7 +33,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [ShapeData4](#shapedata0-5) | float |  |  | NO | 0 |  |  |
 | [ShapeData5](#shapedata0-5) | float |  |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) | signed |  | NO | '' |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(10) | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -107,6 +107,7 @@ The data changes depending on the Shape.
 &nbsp;
 
 ### ScriptName
+*- no description -*
 &nbsp;
 
 ### VerifiedBuild

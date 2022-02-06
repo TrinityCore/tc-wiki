@@ -2,7 +2,7 @@
 title: terrain_swap_defaults
 description: 
 published: true
-date: 2022-01-03T11:24:59.130Z
+date: 2022-02-06T18:26:20.452Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [MapId](#mapid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [TerrainSwapMap](#terrainswapmap) | int(10) | unsigned | PRI | NO |  |  |  |
+| [MapId](#mapid) | int | unsigned | PRI | NO |  |  |  |
+| [TerrainSwapMap](#terrainswapmap) | int | unsigned | PRI | NO |  |  |  |
 | [Comment](#comment) | varchar(255) | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields

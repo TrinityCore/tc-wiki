@@ -2,7 +2,7 @@
 title: game_event_npc_vendor
 description: 
 published: true
-date: 2022-01-03T11:24:59.095Z
+date: 2022-02-06T18:26:20.415Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,17 +14,17 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [eventEntry](#evententry) | tinyint(4) | signed |  | NO |  |  | Entry of the game event. |
-| [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
-| [slot](#slot) | smallint(6) | signed | MUL | NO | 0 |  |  |
-| [item](#item) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [maxcount](#maxcount) | int(10) | unsigned |  | NO | 0 |  |  |
-| [incrtime](#incrtime) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ExtendedCost](#extendedcost) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [type](#type) | tinyint(3) | unsigned | PRI | NO | 1 |  |  |
+| [eventEntry](#evententry) | tinyint | signed |  | NO |  |  | Entry of the game event. |
+| [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  |  |
+| [slot](#slot) | smallint | signed | MUL | NO | 0 |  |  |
+| [item](#item) | int | unsigned | PRI | NO | 0 |  |  |
+| [maxcount](#maxcount) | int | unsigned |  | NO | 0 |  |  |
+| [incrtime](#incrtime) | int | unsigned |  | NO | 0 |  |  |
+| [ExtendedCost](#extendedcost) | int | unsigned | PRI | NO | 0 |  |  |
+| [type](#type) | tinyint | unsigned | PRI | NO | 1 |  |  |
 | [BonusListIDs](#bonuslistids) | mediumtext |  |  | YES | NULL |  |  |
-| [PlayerConditionID](#playerconditionid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [IgnoreFiltering](#ignorefiltering) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [PlayerConditionID](#playerconditionid) | int | unsigned |  | NO | 0 |  |  |
+| [IgnoreFiltering](#ignorefiltering) | tinyint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

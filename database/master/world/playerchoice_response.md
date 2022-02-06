@@ -2,7 +2,7 @@
 title: playerchoice_response
 description: 
 published: true
-date: 2022-01-03T11:24:59.111Z
+date: 2022-02-06T18:26:20.432Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,25 +14,25 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ChoiceId](#choiceid) | int(11) | signed | PRI | NO |  |  |  |
-| [ResponseId](#responseid) | int(11) | signed | PRI | NO |  |  |  |
-| [ResponseIdentifier](#responseidentifier) | smallint(5) | unsigned |  | NO |  |  |  |
-| [Index](#index) | int(10) | unsigned |  | NO |  |  |  |
-| [ChoiceArtFileId](#choiceartfileid) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags](#flags) | int(11) | signed |  | NO | 0 |  |  |
-| [WidgetSetID](#widgetsetid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [UiTextureAtlasElementID](#uitextureatlaselementid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SoundKitID](#soundkitid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [GroupID](#groupid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [UiTextureKitID](#uitexturekitid) | int(11) | signed |  | NO | 0 |  |  |
+| [ChoiceId](#choiceid) | int | signed | PRI | NO |  |  |  |
+| [ResponseId](#responseid) | int | signed | PRI | NO |  |  |  |
+| [ResponseIdentifier](#responseidentifier) | smallint | unsigned |  | NO |  |  |  |
+| [Index](#index) | int | unsigned |  | NO |  |  |  |
+| [ChoiceArtFileId](#choiceartfileid) | int | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
+| [WidgetSetID](#widgetsetid) | int | unsigned |  | NO | 0 |  |  |
+| [UiTextureAtlasElementID](#uitextureatlaselementid) | int | unsigned |  | NO | 0 |  |  |
+| [SoundKitID](#soundkitid) | int | unsigned |  | NO | 0 |  |  |
+| [GroupID](#groupid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [UiTextureKitID](#uitexturekitid) | int | signed |  | NO | 0 |  |  |
 | [Header](#header) | varchar(511) | signed |  | NO |  |  |  |
 | [SubHeader](#subheader) | varchar(100) | signed |  | NO | '' |  |  |
 | [ButtonTooltip](#buttontooltip) | varchar(400) | signed |  | NO | '' |  |  |
 | [Answer](#answer) | varchar(511) | signed |  | NO |  |  |  |
 | [Description](#description) | varchar(2047) | signed |  | NO |  |  |  |
 | [Confirmation](#confirmation) | varchar(127) | signed |  | NO |  |  |  |
-| [RewardQuestID](#rewardquestid) | int(10) | unsigned |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [RewardQuestID](#rewardquestid) | int | unsigned |  | YES | NULL |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

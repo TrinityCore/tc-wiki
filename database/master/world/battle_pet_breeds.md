@@ -2,7 +2,7 @@
 title: battle_pet_breeds
 description: 
 published: true
-date: 2022-01-03T11:24:59.081Z
+date: 2022-02-06T18:26:20.401Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [speciesId](#speciesid) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [breedId](#breedid) | smallint(5) | unsigned | PRI | NO | 0 |  |  |
+| [speciesId](#speciesid) | int | unsigned | PRI | NO | 0 |  |  |
+| [breedId](#breedid) | smallint | unsigned | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

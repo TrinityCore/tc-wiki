@@ -2,7 +2,7 @@
 title: game_event
 description: 
 published: true
-date: 2022-01-03T11:24:59.092Z
+date: 2022-02-06T18:26:20.412Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,16 +14,16 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [eventEntry](#evententry) | tinyint(3) | unsigned | PRI | NO |  |  | Entry of the game event |
+| [eventEntry](#evententry) | tinyint | unsigned | PRI | NO |  |  | Entry of the game event |
 | [start_time](#start_time) | timestamp | signed |  | YES | NULL |  | Absolute start date, the event will never start before |
 | [end_time](#end_time) | timestamp | signed |  | YES | NULL |  | Absolute end date, the event will never start after |
-| [occurence](#occurence) | bigint(20) | unsigned |  | NO | 5184000 |  | Delay in minutes between occurences of the event |
-| [length](#length) | bigint(20) | unsigned |  | NO | 2592000 |  | Length in minutes of the event |
-| [holiday](#holiday) | int(10) | unsigned |  | NO | 0 |  | Client side holiday id |
-| [holidayStage](#holidaystage) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [occurence](#occurence) | bigint | unsigned |  | NO | 5184000 |  | Delay in minutes between occurences of the event |
+| [length](#length) | bigint | unsigned |  | NO | 2592000 |  | Length in minutes of the event |
+| [holiday](#holiday) | int | unsigned |  | NO | 0 |  | Client side holiday id |
+| [holidayStage](#holidaystage) | tinyint | unsigned |  | NO | 0 |  |  |
 | [description](#description) | varchar(255) | signed |  | YES | NULL |  | Description of the event displayed in console |
-| [world_event](#world_event) | tinyint(3) | unsigned |  | NO | 0 |  | 0 if normal event, 1 if world event |
-| [announce](#announce) | tinyint(3) | unsigned |  | YES | 2 |  | 0 dont announce, 1 announce, 2 value from config |
+| [world_event](#world_event) | tinyint | unsigned |  | NO | 0 |  | 0 if normal event, 1 if world event |
+| [announce](#announce) | tinyint | unsigned |  | YES | 2 |  | 0 dont announce, 1 announce, 2 value from config |
 &nbsp;
 ## Description of fields
 

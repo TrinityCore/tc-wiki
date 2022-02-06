@@ -2,7 +2,7 @@
 title: spell_totem_model
 description: 
 published: true
-date: 2022-01-03T11:24:59.130Z
+date: 2022-02-06T18:26:20.452Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [SpellID](#spellid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [RaceID](#raceid) | tinyint(3) | unsigned | PRI | NO |  |  |  |
-| [DisplayID](#displayid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [SpellID](#spellid) | int | unsigned | PRI | NO |  |  |  |
+| [RaceID](#raceid) | tinyint | unsigned | PRI | NO |  |  |  |
+| [DisplayID](#displayid) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

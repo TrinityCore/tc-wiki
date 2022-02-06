@@ -2,7 +2,7 @@
 title: game_tele
 description: 
 published: true
-date: 2022-01-03T11:24:59.096Z
+date: 2022-02-06T18:26:20.417Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int(10) | unsigned | PRI | NO |  |  |  |
+| [id](#id) | int | unsigned | PRI | NO |  |  |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |
 | [orientation](#orientation) | float |  |  | NO | 0 |  |  |
-| [map](#map) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [map](#map) | smallint | unsigned |  | NO | 0 |  |  |
 | [name](#name) | varchar(100) | signed |  | NO | '' |  |  |
 &nbsp;
 ## Description of fields

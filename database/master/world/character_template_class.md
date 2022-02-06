@@ -2,7 +2,7 @@
 title: character_template_class
 description: 
 published: true
-date: 2021-08-30T20:38:02.258Z
+date: 2022-02-06T18:26:20.403Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [TemplateId](#templateid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [FactionGroup](#factiongroup) | tinyint(3) | unsigned | PRI | NO |  |  | 3 - Alliance, 5 - Horde |
-| [Class](#class) | tinyint(3) | unsigned | PRI | NO |  |  |  |
+| [TemplateId](#templateid) | int | unsigned | PRI | NO |  |  |  |
+| [FactionGroup](#factiongroup) | tinyint | unsigned | PRI | NO |  |  | 3 - Alliance, 5 - Horde |
+| [Class](#class) | tinyint | unsigned | PRI | NO |  |  |  |
 &nbsp;
 ## Description of fields
 

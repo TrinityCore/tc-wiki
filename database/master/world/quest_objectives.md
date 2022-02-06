@@ -2,7 +2,7 @@
 title: quest_objectives
 description: 
 published: true
-date: 2022-01-03T11:24:59.116Z
+date: 2022-02-06T18:26:20.438Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [QuestID](#questid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Type](#type) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Order](#order) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [StorageIndex](#storageindex) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [ObjectID](#objectid) | int(11) | signed |  | NO | 0 |  |  |
-| [Amount](#amount) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Flags2](#flags2) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [QuestID](#questid) | int | unsigned |  | NO | 0 |  |  |
+| [Type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Order](#order) | tinyint | unsigned |  | NO | 0 |  |  |
+| [StorageIndex](#storageindex) | tinyint | signed |  | NO | 0 |  |  |
+| [ObjectID](#objectid) | int | signed |  | NO | 0 |  |  |
+| [Amount](#amount) | int | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
+| [Flags2](#flags2) | int | unsigned |  | NO | 0 |  |  |
 | [ProgressBarWeight](#progressbarweight) | float |  |  | NO | 0 |  |  |
 | [Description](#description) | mediumtext |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: mount_definitions
 description: 
 published: true
-date: 2022-01-03T11:24:59.106Z
+date: 2022-02-06T18:26:20.427Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [spellId](#spellid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [otherFactionSpellId](#otherfactionspellid) | int(10) | unsigned |  | NO |  |  |  |
+| [spellId](#spellid) | int | unsigned | PRI | NO |  |  |  |
+| [otherFactionSpellId](#otherfactionspellid) | int | unsigned |  | NO |  |  |  |
 &nbsp;
 ## Description of fields
 

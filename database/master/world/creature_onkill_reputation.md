@@ -2,7 +2,7 @@
 title: creature_onkill_reputation
 description: 
 published: true
-date: 2022-01-03T11:24:59.086Z
+date: 2022-02-06T18:26:20.407Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,16 +14,16 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [creature_id](#creature_id) | int(10) | unsigned | PRI | NO | 0 |  | Creature Identifier |
-| [RewOnKillRepFaction1](#rewonkillrepfaction1) | smallint(6) | signed |  | NO | 0 |  |  |
-| [RewOnKillRepFaction2](#rewonkillrepfaction2) | smallint(6) | signed |  | NO | 0 |  |  |
-| [MaxStanding1](#maxstanding1) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [IsTeamAward1](#isteamaward1) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [RewOnKillRepValue1](#rewonkillrepvalue1) | int(11) | signed |  | NO | 0 |  |  |
-| [MaxStanding2](#maxstanding2) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [IsTeamAward2](#isteamaward2) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [RewOnKillRepValue2](#rewonkillrepvalue2) | int(11) | signed |  | NO | 0 |  |  |
-| [TeamDependent](#teamdependent) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [creature_id](#creature_id) | int | unsigned | PRI | NO | 0 |  | Creature Identifier |
+| [RewOnKillRepFaction1](#rewonkillrepfaction1) | smallint | signed |  | NO | 0 |  |  |
+| [RewOnKillRepFaction2](#rewonkillrepfaction2) | smallint | signed |  | NO | 0 |  |  |
+| [MaxStanding1](#maxstanding1) | tinyint | signed |  | NO | 0 |  |  |
+| [IsTeamAward1](#isteamaward1) | tinyint | signed |  | NO | 0 |  |  |
+| [RewOnKillRepValue1](#rewonkillrepvalue1) | int | signed |  | NO | 0 |  |  |
+| [MaxStanding2](#maxstanding2) | tinyint | signed |  | NO | 0 |  |  |
+| [IsTeamAward2](#isteamaward2) | tinyint | signed |  | NO | 0 |  |  |
+| [RewOnKillRepValue2](#rewonkillrepvalue2) | int | signed |  | NO | 0 |  |  |
+| [TeamDependent](#teamdependent) | tinyint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

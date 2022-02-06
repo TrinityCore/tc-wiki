@@ -2,7 +2,7 @@
 title: areatrigger_template_actions
 description: This table contains the description of areatrigger actions.
 published: true
-date: 2022-01-03T11:24:59.080Z
+date: 2022-02-06T18:26:20.400Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [AreaTriggerId](#areatriggerid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [IsServerSide](#isserverside) | tinyint(3) | unsigned | PRI | NO |  |  |  |
-| [ActionType](#actiontype) | int(10) | unsigned |  | NO |  |  |  |
-| [ActionParam](#actionparam) | int(10) | unsigned |  | NO |  |  |  |
-| [TargetType](#targettype) | int(10) | unsigned |  | NO | 0 |  |  |
+| [AreaTriggerId](#areatriggerid) | int | unsigned | PRI | NO |  |  |  |
+| [IsServerSide](#isserverside) | tinyint | unsigned | PRI | NO |  |  |  |
+| [ActionType](#actiontype) | int | unsigned |  | NO |  |  |  |
+| [ActionParam](#actionparam) | int | unsigned |  | NO |  |  |  |
+| [TargetType](#targettype) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

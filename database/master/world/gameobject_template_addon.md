@@ -2,7 +2,7 @@
 title: gameobject_template_addon
 description: 
 published: true
-date: 2022-01-03T11:24:59.099Z
+date: 2022-02-06T18:26:20.419Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [faction](#faction) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [mingold](#mingold) | int(10) | unsigned |  | NO | 0 |  |  |
-| [maxgold](#maxgold) | int(10) | unsigned |  | NO | 0 |  |  |
-| [WorldEffectID](#worldeffectid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [AIAnimKitID](#aianimkitid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
+| [faction](#faction) | smallint | unsigned |  | NO | 0 |  |  |
+| [flags](#flags) | int | unsigned |  | NO | 0 |  |  |
+| [mingold](#mingold) | int | unsigned |  | NO | 0 |  |  |
+| [maxgold](#maxgold) | int | unsigned |  | NO | 0 |  |  |
+| [artkit0](#artkit0) | int | signed |  | NO | 0 |  |  |
+| [artkit1](#artkit1) | int | signed |  | NO | 0 |  |  |
+| [artkit2](#artkit2) | int | signed |  | NO | 0 |  |  |
+| [artkit3](#artkit3) | int | signed |  | NO | 0 |  |  |
+| [artkit4](#artkit4) | int | signed |  | NO | 0 |  |  |
+| [WorldEffectID](#worldeffectid) | int | unsigned |  | NO | 0 |  |  |
+| [AIAnimKitID](#aianimkitid) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -41,6 +46,26 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### maxgold
+*- no description -*
+&nbsp;
+
+### artkit0
+*- no description -*
+&nbsp;
+
+### artkit1
+*- no description -*
+&nbsp;
+
+### artkit2
+*- no description -*
+&nbsp;
+
+### artkit3
+*- no description -*
+&nbsp;
+
+### artkit4
 *- no description -*
 &nbsp;
 

@@ -2,7 +2,7 @@
 title: garrison_plot_finalize_info
 description: 
 published: true
-date: 2022-01-03T11:24:59.100Z
+date: 2022-02-06T18:26:20.420Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,19 +14,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [garrPlotInstanceId](#garrplotinstanceid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [hordeGameObjectId](#hordegameobjectid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [garrPlotInstanceId](#garrplotinstanceid) | int | unsigned | PRI | NO |  |  |  |
+| [hordeGameObjectId](#hordegameobjectid) | int | unsigned |  | NO | 0 |  |  |
 | [hordeX](#hordex) | float |  |  | NO | 0 |  |  |
 | [hordeY](#hordey) | float |  |  | NO | 0 |  |  |
 | [hordeZ](#hordez) | float |  |  | NO | 0 |  |  |
 | [hordeO](#hordeo) | float |  |  | NO | 0 |  |  |
-| [hordeAnimKitId](#hordeanimkitid) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [allianceGameObjectId](#alliancegameobjectid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [hordeAnimKitId](#hordeanimkitid) | smallint | unsigned |  | NO | 0 |  |  |
+| [allianceGameObjectId](#alliancegameobjectid) | int | unsigned |  | NO | 0 |  |  |
 | [allianceX](#alliancex) | float |  |  | NO | 0 |  |  |
 | [allianceY](#alliancey) | float |  |  | NO | 0 |  |  |
 | [allianceZ](#alliancez) | float |  |  | NO | 0 |  |  |
 | [allianceO](#allianceo) | float |  |  | NO | 0 |  |  |
-| [allianceAnimKitId](#allianceanimkitid) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [allianceAnimKitId](#allianceanimkitid) | smallint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

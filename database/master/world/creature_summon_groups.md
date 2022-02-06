@@ -2,7 +2,7 @@
 title: creature_summon_groups
 description: 
 published: true
-date: 2022-01-03T11:24:59.087Z
+date: 2022-02-06T18:26:20.408Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,16 +14,17 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [summonerId](#summonerid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [summonerType](#summonertype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [groupId](#groupid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [entry](#entry) | int(10) | unsigned |  | NO | 0 |  |  |
+| [summonerId](#summonerid) | int | unsigned |  | NO | 0 |  |  |
+| [summonerType](#summonertype) | tinyint | unsigned |  | NO | 0 |  |  |
+| [groupId](#groupid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [entry](#entry) | int | unsigned |  | NO | 0 |  |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |
 | [orientation](#orientation) | float |  |  | NO | 0 |  |  |
-| [summonType](#summontype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [summonTime](#summontime) | int(10) | unsigned |  | NO | 0 |  |  |
+| [summonType](#summontype) | tinyint | unsigned |  | NO | 0 |  |  |
+| [summonTime](#summontime) | int | unsigned |  | NO | 0 |  |  |
+| [Comment](#comment) | varchar(255) | signed |  | NO | '' |  |  |
 &nbsp;
 ## Description of fields
 
@@ -64,6 +65,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### summonTime
+*- no description -*
+&nbsp;
+
+### Comment
 *- no description -*
 &nbsp;
 

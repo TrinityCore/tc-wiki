@@ -2,7 +2,7 @@
 title: instance_template
 description: 
 published: true
-date: 2022-01-03T11:24:59.103Z
+date: 2022-02-06T18:26:20.424Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [map](#map) | smallint(5) | unsigned | PRI | NO |  |  |  |
-| [parent](#parent) | smallint(5) | unsigned |  | NO |  |  |  |
+| [map](#map) | smallint | unsigned | PRI | NO |  |  |  |
+| [parent](#parent) | smallint | unsigned |  | NO |  |  |  |
 | [script](#script) | varchar(128) | signed |  | NO | '' |  |  |
 &nbsp;
 ## Description of fields

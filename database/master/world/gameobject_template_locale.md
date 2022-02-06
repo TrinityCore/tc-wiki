@@ -2,7 +2,7 @@
 title: gameobject_template_locale
 description: 
 published: true
-date: 2022-01-03T11:24:59.099Z
+date: 2022-02-06T18:26:20.420Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) | signed | PRI | NO |  |  |  |
 | [name](#name) | mediumtext |  |  | YES | NULL |  |  |
 | [castBarCaption](#castbarcaption) | mediumtext |  |  | YES | NULL |  |  |
 | [unk1](#unk1) | mediumtext |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

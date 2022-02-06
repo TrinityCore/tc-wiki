@@ -2,7 +2,7 @@
 title: battlemaster_entry
 description: Holds information on which NPC can start what battleground or arena.
 published: true
-date: 2022-01-03T11:24:59.081Z
+date: 2022-02-06T18:26:20.402Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | int(10) | unsigned | PRI | NO | 0 |  | Entry of a creature |
-| [bg_template](#bg_template) | int(10) | unsigned |  | NO | 0 |  | Battleground template id |
+| [entry](#entry) | int | unsigned | PRI | NO | 0 |  | Entry of a creature |
+| [bg_template](#bg_template) | int | unsigned |  | NO | 0 |  | Battleground template id |
 &nbsp;
 ## Description of fields
 

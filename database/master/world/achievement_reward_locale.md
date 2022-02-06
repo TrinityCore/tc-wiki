@@ -2,7 +2,7 @@
 title: achievement_reward_locale
 description: 
 published: true
-date: 2022-01-03T11:24:59.077Z
+date: 2022-02-06T18:26:20.397Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -17,7 +17,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [Locale](#locale) | varchar(4) | signed | PRI | NO |  |  |  |
 | [Subject](#subject) | mediumtext |  |  | YES | NULL |  |  |
 | [Body](#body) | mediumtext |  |  | YES | NULL |  |  |

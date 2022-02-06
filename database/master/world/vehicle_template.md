@@ -2,7 +2,7 @@
 title: vehicle_template
 description: 
 published: true
-date: 2022-01-03T11:24:59.133Z
+date: 2022-02-06T18:26:20.455Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [creatureId](#creatureid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [despawnDelayMs](#despawndelayms) | int(11) | signed |  | NO | 0 |  |  |
+| [creatureId](#creatureid) | int | unsigned | PRI | NO |  |  |  |
+| [despawnDelayMs](#despawndelayms) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: criteria_data
 description: 
 published: true
-date: 2022-01-03T11:24:59.091Z
+date: 2022-02-06T18:26:20.411Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [criteria_id](#criteria_id) | int(11) | signed | PRI | NO |  |  |  |
-| [type](#type) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
-| [value1](#value1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [value2](#value2) | int(10) | unsigned |  | NO | 0 |  |  |
+| [criteria_id](#criteria_id) | int | signed | PRI | NO |  |  |  |
+| [type](#type) | tinyint | unsigned | PRI | NO | 0 |  |  |
+| [value1](#value1) | int | unsigned |  | NO | 0 |  |  |
+| [value2](#value2) | int | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) | signed |  | NO | '' |  |  |
 &nbsp;
 ## Description of fields

@@ -2,7 +2,7 @@
 title: spell_enchant_proc_data
 description: 
 published: true
-date: 2022-01-03T11:24:59.127Z
+date: 2022-02-06T18:26:20.449Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [EnchantID](#enchantid) | int(10) | unsigned | PRI | NO |  |  |  |
+| [EnchantID](#enchantid) | int | unsigned | PRI | NO |  |  |  |
 | [Chance](#chance) | float |  |  | NO | 0 |  |  |
 | [ProcsPerMinute](#procsperminute) | float |  |  | NO | 0 |  |  |
-| [HitMask](#hitmask) | int(10) | unsigned |  | NO | 0 |  |  |
-| [AttributesMask](#attributesmask) | int(10) | unsigned |  | NO | 0 |  |  |
+| [HitMask](#hitmask) | int | unsigned |  | NO | 0 |  |  |
+| [AttributesMask](#attributesmask) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

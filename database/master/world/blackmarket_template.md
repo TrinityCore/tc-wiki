@@ -2,7 +2,7 @@
 title: blackmarket_template
 description: 
 published: true
-date: 2022-01-03T11:24:59.082Z
+date: 2022-02-06T18:26:20.402Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [marketId](#marketid) | int(11) | signed | PRI | NO | 0 |  |  |
-| [sellerNpc](#sellernpc) | int(11) | signed |  | NO | 0 |  |  |
-| [itemEntry](#itementry) | int(10) | unsigned |  | NO | 0 |  |  |
-| [quantity](#quantity) | int(11) | signed |  | NO | 1 |  |  |
-| [minBid](#minbid) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [duration](#duration) | int(11) | signed |  | NO | 0 |  |  |
+| [marketId](#marketid) | int | signed | PRI | NO | 0 |  |  |
+| [sellerNpc](#sellernpc) | int | signed |  | NO | 0 |  |  |
+| [itemEntry](#itementry) | int | unsigned |  | NO | 0 |  |  |
+| [quantity](#quantity) | int | signed |  | NO | 1 |  |  |
+| [minBid](#minbid) | bigint | unsigned |  | NO | 0 |  |  |
+| [duration](#duration) | int | signed |  | NO | 0 |  |  |
 | [chance](#chance) | float |  |  | NO | 0 |  |  |
 | [bonusListIDs](#bonuslistids) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;

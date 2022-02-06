@@ -2,7 +2,7 @@
 title: waypoints
 description: 
 published: true
-date: 2022-01-03T11:24:59.135Z
+date: 2022-02-06T18:26:20.458Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [pointid](#pointid) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
+| [pointid](#pointid) | int | unsigned | PRI | NO | 0 |  |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |

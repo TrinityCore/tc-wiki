@@ -2,7 +2,7 @@
 title: phase_name
 description: 
 published: true
-date: 2022-01-03T11:24:59.109Z
+date: 2022-02-06T18:26:20.429Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO |  |  |  |
+| [ID](#id) | int | unsigned | PRI | NO |  |  |  |
 | [Name](#name) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields

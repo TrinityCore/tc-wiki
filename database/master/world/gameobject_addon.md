@@ -2,7 +2,7 @@
 title: gameobject_addon
 description: 
 published: true
-date: 2022-01-03T11:24:59.097Z
+date: 2022-02-06T18:26:20.418Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,15 +14,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
+| [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  |  |
 | [parent_rotation0](#parent_rotation0) | float |  |  | NO | 0 |  |  |
 | [parent_rotation1](#parent_rotation1) | float |  |  | NO | 0 |  |  |
 | [parent_rotation2](#parent_rotation2) | float |  |  | NO | 0 |  |  |
 | [parent_rotation3](#parent_rotation3) | float |  |  | NO | 1 |  |  |
-| [invisibilityType](#invisibilitytype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [invisibilityValue](#invisibilityvalue) | int(10) | unsigned |  | NO | 0 |  |  |
-| [WorldEffectID](#worldeffectid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [AIAnimKitID](#aianimkitid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [invisibilityType](#invisibilitytype) | tinyint | unsigned |  | NO | 0 |  |  |
+| [invisibilityValue](#invisibilityvalue) | int | unsigned |  | NO | 0 |  |  |
+| [WorldEffectID](#worldeffectid) | int | unsigned |  | NO | 0 |  |  |
+| [AIAnimKitID](#aianimkitid) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

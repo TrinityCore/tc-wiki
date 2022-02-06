@@ -2,7 +2,7 @@
 title: trainer_locale
 description: 
 published: true
-date: 2022-01-03T11:24:59.131Z
+date: 2022-02-06T18:26:20.453Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Id](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [Id](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) | signed | PRI | NO |  |  |  |
 | [Greeting_lang](#greeting_lang) | mediumtext |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

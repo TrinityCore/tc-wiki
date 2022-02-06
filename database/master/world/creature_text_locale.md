@@ -2,7 +2,7 @@
 title: creature_text_locale
 description: 
 published: true
-date: 2022-01-03T11:24:59.090Z
+date: 2022-02-06T18:26:20.411Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [CreatureID](#creatureid) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [GroupID](#groupid) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
-| [ID](#id) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
-| [Locale](#locale) | varchar(4) | signed |  | NO |  |  |  |
+| [CreatureID](#creatureid) | int | unsigned | PRI | NO | 0 |  |  |
+| [GroupID](#groupid) | tinyint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | tinyint | unsigned | PRI | NO | 0 |  |  |
+| [Locale](#locale) | varchar(4) | signed | PRI | NO |  |  |  |
 | [Text](#text) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields

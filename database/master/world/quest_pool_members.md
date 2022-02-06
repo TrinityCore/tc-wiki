@@ -2,7 +2,7 @@
 title: quest_pool_members
 description: 
 published: true
-date: 2022-01-03T11:24:59.118Z
+date: 2022-02-06T18:26:20.439Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [questId](#questid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [poolId](#poolid) | int(10) | unsigned |  | NO |  |  |  |
-| [poolIndex](#poolindex) | tinyint(3) | unsigned |  | NO |  |  | Multiple quests with the same index will always spawn together! |
+| [questId](#questid) | int | unsigned | PRI | NO |  |  |  |
+| [poolId](#poolid) | int | unsigned |  | NO |  |  |  |
+| [poolIndex](#poolindex) | tinyint | unsigned |  | NO |  |  | Multiple quests with the same index will always spawn together! |
 | [description](#description) | varchar(255) | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields

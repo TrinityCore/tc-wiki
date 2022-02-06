@@ -2,7 +2,7 @@
 title: areatrigger_teleport
 description: Contains all the teleport triggers definition. This table is used to complete .db2 file information.
 published: true
-date: 2022-01-03T11:24:59.080Z
+date: 2022-02-06T18:26:20.400Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [PortLocID](#portlocid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [PortLocID](#portlocid) | int | unsigned |  | NO | 0 |  |  |
 | [Name](#name) | mediumtext |  | MUL | YES | NULL |  |  |
 &nbsp;
 ## Description of fields

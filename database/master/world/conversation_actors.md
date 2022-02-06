@@ -2,7 +2,7 @@
 title: conversation_actors
 description: 
 published: true
-date: 2022-01-03T11:24:59.083Z
+date: 2022-02-06T18:26:20.404Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ConversationId](#conversationid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [ConversationActorId](#conversationactorid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ConversationActorGuid](#conversationactorguid) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [Idx](#idx) | smallint(5) | unsigned | PRI | NO | 0 |  |  |
-| [CreatureId](#creatureid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [CreatureDisplayInfoId](#creaturedisplayinfoid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ConversationId](#conversationid) | int | unsigned | PRI | NO |  |  |  |
+| [ConversationActorId](#conversationactorid) | int | unsigned |  | NO | 0 |  |  |
+| [ConversationActorGuid](#conversationactorguid) | bigint | unsigned |  | NO | 0 |  |  |
+| [Idx](#idx) | smallint | unsigned | PRI | NO | 0 |  |  |
+| [CreatureId](#creatureid) | int | unsigned |  | NO | 0 |  |  |
+| [CreatureDisplayInfoId](#creaturedisplayinfoid) | int | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: jump_charge_params
 description: 
 published: true
-date: 2022-01-03T11:24:59.105Z
+date: 2022-02-06T18:26:20.425Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int(11) | signed | PRI | NO |  |  |  |
+| [id](#id) | int | signed | PRI | NO |  |  |  |
 | [speed](#speed) | float |  |  | NO | 42 |  |  |
 | [treatSpeedAsMoveTimeSeconds](#treatspeedasmovetimeseconds) | tinyint(1) | signed |  | NO | 0 |  |  |
 | [jumpGravity](#jumpgravity) | float |  |  | NO | 19.2911 |  |  |
-| [spellVisualId](#spellvisualid) | int(11) | signed |  | YES | NULL |  |  |
-| [progressCurveId](#progresscurveid) | int(11) | signed |  | YES | NULL |  |  |
-| [parabolicCurveId](#paraboliccurveid) | int(11) | signed |  | YES | NULL |  |  |
+| [spellVisualId](#spellvisualid) | int | signed |  | YES | NULL |  |  |
+| [progressCurveId](#progresscurveid) | int | signed |  | YES | NULL |  |  |
+| [parabolicCurveId](#paraboliccurveid) | int | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

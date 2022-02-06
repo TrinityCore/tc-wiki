@@ -2,7 +2,7 @@
 title: playerchoice_locale
 description: 
 published: true
-date: 2022-01-03T11:24:59.111Z
+date: 2022-02-06T18:26:20.432Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ChoiceId](#choiceid) | int(11) | signed | PRI | NO |  |  |  |
+| [ChoiceId](#choiceid) | int | signed | PRI | NO |  |  |  |
 | [locale](#locale) | varchar(4) | signed | PRI | NO |  |  |  |
 | [Question](#question) | varchar(255) | signed |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

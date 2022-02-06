@@ -2,7 +2,7 @@
 title: reputation_spillover_template
 description: 
 published: true
-date: 2022-01-03T11:24:59.121Z
+date: 2022-02-06T18:26:20.443Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,22 +14,22 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [faction](#faction) | smallint(5) | unsigned | PRI | NO | 0 |  | faction entry |
-| [faction1](#faction1) | smallint(5) | unsigned |  | NO | 0 |  | faction to give spillover for |
+| [faction](#faction) | smallint | unsigned | PRI | NO | 0 |  | faction entry |
+| [faction1](#faction1) | smallint | unsigned |  | NO | 0 |  | faction to give spillover for |
 | [rate_1](#rate_1) | float |  |  | NO | 0 |  | the given rep points * rate |
-| [rank_1](#rank_1) | tinyint(3) | unsigned |  | NO | 0 |  | max rank,above this will not give any spillover |
-| [faction2](#faction2) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [rank_1](#rank_1) | tinyint | unsigned |  | NO | 0 |  | max rank,above this will not give any spillover |
+| [faction2](#faction2) | smallint | unsigned |  | NO | 0 |  |  |
 | [rate_2](#rate_2) | float |  |  | NO | 0 |  |  |
-| [rank_2](#rank_2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [faction3](#faction3) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [rank_2](#rank_2) | tinyint | unsigned |  | NO | 0 |  |  |
+| [faction3](#faction3) | smallint | unsigned |  | NO | 0 |  |  |
 | [rate_3](#rate_3) | float |  |  | NO | 0 |  |  |
-| [rank_3](#rank_3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [faction4](#faction4) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [rank_3](#rank_3) | tinyint | unsigned |  | NO | 0 |  |  |
+| [faction4](#faction4) | smallint | unsigned |  | NO | 0 |  |  |
 | [rate_4](#rate_4) | float |  |  | NO | 0 |  |  |
-| [rank_4](#rank_4) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [faction5](#faction5) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [rank_4](#rank_4) | tinyint | unsigned |  | NO | 0 |  |  |
+| [faction5](#faction5) | smallint | unsigned |  | NO | 0 |  |  |
 | [rate_5](#rate_5) | float |  |  | NO | 0 |  |  |
-| [rank_5](#rank_5) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [rank_5](#rank_5) | tinyint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

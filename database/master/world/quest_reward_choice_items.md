@@ -2,7 +2,7 @@
 title: quest_reward_choice_items
 description: 
 published: true
-date: 2022-01-03T11:24:59.119Z
+date: 2022-02-06T18:26:20.440Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,14 +14,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [QuestID](#questid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [Type1](#type1) | tinyint(3) | unsigned |  | YES | 0 |  |  |
-| [Type2](#type2) | tinyint(3) | unsigned |  | YES | 0 |  |  |
-| [Type3](#type3) | tinyint(3) | unsigned |  | YES | 0 |  |  |
-| [Type4](#type4) | tinyint(3) | unsigned |  | YES | 0 |  |  |
-| [Type5](#type5) | tinyint(3) | unsigned |  | YES | 0 |  |  |
-| [Type6](#type6) | tinyint(3) | unsigned |  | YES | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [QuestID](#questid) | int | unsigned | PRI | NO |  |  |  |
+| [Type1](#type1) | tinyint | unsigned |  | YES | 0 |  |  |
+| [Type2](#type2) | tinyint | unsigned |  | YES | 0 |  |  |
+| [Type3](#type3) | tinyint | unsigned |  | YES | 0 |  |  |
+| [Type4](#type4) | tinyint | unsigned |  | YES | 0 |  |  |
+| [Type5](#type5) | tinyint | unsigned |  | YES | 0 |  |  |
+| [Type6](#type6) | tinyint | unsigned |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

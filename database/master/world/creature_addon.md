@@ -2,10 +2,10 @@
 title: creature_addon
 description: 
 published: true
-date: 2022-01-10T03:33:42.193Z
+date: 2022-02-06T18:26:20.405Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T09:29:44.302Z
+dateCreated: 2021-08-30T06:00:00.000Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/creature" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'creature'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/creature_classlevelstats" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'creature_classlevelstats'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -20,16 +20,16 @@ The creature_addon and creature_template_addon tables define different things th
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
-| [path_id](#path_id) | int(10) | unsigned |  | NO | 0 |  |  |
-| [mount](#mount) | int(10) | unsigned |  | NO | 0 |  |  |
-| [bytes1](#bytes1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [bytes2](#bytes2) | int(10) | unsigned |  | NO | 1 |  |  |
-| [emote](#emote) | int(10) | unsigned |  | NO | 0 |  |  |
-| [aiAnimKit](#aianimkit) | smallint(6) | signed |  | NO | 0 |  |  |
-| [movementAnimKit](#movementanimkit) | smallint(6) | signed |  | NO | 0 |  |  |
-| [meleeAnimKit](#meleeanimkit) | smallint(6) | signed |  | NO | 0 |  |  |
-| [visibilityDistanceType](#visibilitydistancetype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  |  |
+| [path_id](#path_id) | int | unsigned |  | NO | 0 |  |  |
+| [mount](#mount) | int | unsigned |  | NO | 0 |  |  |
+| [bytes1](#bytes1) | int | unsigned |  | NO | 0 |  |  |
+| [bytes2](#bytes2) | int | unsigned |  | NO | 1 |  |  |
+| [emote](#emote) | int | unsigned |  | NO | 0 |  |  |
+| [aiAnimKit](#aianimkit) | smallint | signed |  | NO | 0 |  |  |
+| [movementAnimKit](#movementanimkit) | smallint | signed |  | NO | 0 |  |  |
+| [meleeAnimKit](#meleeanimkit) | smallint | signed |  | NO | 0 |  |  |
+| [visibilityDistanceType](#visibilitydistancetype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [auras](#auras) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields

@@ -2,7 +2,7 @@
 title: waypoint_scripts
 description: 
 published: true
-date: 2022-01-03T11:24:59.134Z
+date: 2022-02-06T18:26:20.457Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,17 +14,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int(10) | unsigned |  | NO | 0 |  |  |
-| [delay](#delay) | int(10) | unsigned |  | NO | 0 |  |  |
-| [command](#command) | int(10) | unsigned |  | NO | 0 |  |  |
-| [datalong](#datalong) | int(10) | unsigned |  | NO | 0 |  |  |
-| [datalong2](#datalong2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [dataint](#dataint) | int(10) | unsigned |  | NO | 0 |  |  |
+| [id](#id) | int | unsigned |  | NO | 0 |  |  |
+| [delay](#delay) | int | unsigned |  | NO | 0 |  |  |
+| [command](#command) | int | unsigned |  | NO | 0 |  |  |
+| [datalong](#datalong) | int | unsigned |  | NO | 0 |  |  |
+| [datalong2](#datalong2) | int | unsigned |  | NO | 0 |  |  |
+| [dataint](#dataint) | int | unsigned |  | NO | 0 |  |  |
 | [x](#x) | float |  |  | NO | 0 |  |  |
 | [y](#y) | float |  |  | NO | 0 |  |  |
 | [z](#z) | float |  |  | NO | 0 |  |  |
 | [o](#o) | float |  |  | NO | 0 |  |  |
-| [guid](#guid) | int(11) | signed | PRI | NO | 0 |  |  |
+| [guid](#guid) | int | signed | PRI | NO | 0 |  |  |
+| [Comment](#comment) | varchar(255) | signed |  | NO | '' |  |  |
 &nbsp;
 ## Description of fields
 
@@ -69,6 +70,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### guid
+*- no description -*
+&nbsp;
+
+### Comment
 *- no description -*
 &nbsp;
 

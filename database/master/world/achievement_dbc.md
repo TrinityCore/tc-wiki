@@ -2,7 +2,7 @@
 title: achievement_dbc
 description: 
 published: true
-date: 2022-01-03T11:24:59.076Z
+date: 2022-02-06T18:26:20.394Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -19,13 +19,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO |  |  |  |
-| [requiredFaction](#requiredfaction) | int(11) | signed |  | NO | -1 |  |  |
-| [mapID](#mapid) | int(11) | signed |  | NO | -1 |  |  |
-| [points](#points) | int(10) | unsigned |  | NO | 0 |  |  |
-| [flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [count](#count) | int(10) | unsigned |  | NO | 0 |  |  |
-| [refAchievement](#refachievement) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO |  |  |  |
+| [requiredFaction](#requiredfaction) | int | signed |  | NO | -1 |  |  |
+| [mapID](#mapid) | int | signed |  | NO | -1 |  |  |
+| [points](#points) | int | unsigned |  | NO | 0 |  |  |
+| [flags](#flags) | int | unsigned |  | NO | 0 |  |  |
+| [count](#count) | int | unsigned |  | NO | 0 |  |  |
+| [refAchievement](#refachievement) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

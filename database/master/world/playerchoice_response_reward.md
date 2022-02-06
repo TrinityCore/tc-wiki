@@ -2,7 +2,7 @@
 title: playerchoice_response_reward
 description: 
 published: true
-date: 2022-01-03T11:24:59.112Z
+date: 2022-02-06T18:26:20.433Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,17 +14,17 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ChoiceId](#choiceid) | int(11) | signed | PRI | NO |  |  |  |
-| [ResponseId](#responseid) | int(11) | signed | PRI | NO |  |  |  |
-| [TitleId](#titleid) | int(11) | signed |  | NO | 0 |  |  |
-| [PackageId](#packageid) | int(11) | signed |  | NO | 0 |  |  |
-| [SkillLineId](#skilllineid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [SkillPointCount](#skillpointcount) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ArenaPointCount](#arenapointcount) | int(10) | unsigned |  | NO | 0 |  |  |
-| [HonorPointCount](#honorpointcount) | int(10) | unsigned |  | NO | 0 |  |  |
-| [Money](#money) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [Xp](#xp) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ChoiceId](#choiceid) | int | signed | PRI | NO |  |  |  |
+| [ResponseId](#responseid) | int | signed | PRI | NO |  |  |  |
+| [TitleId](#titleid) | int | signed |  | NO | 0 |  |  |
+| [PackageId](#packageid) | int | signed |  | NO | 0 |  |  |
+| [SkillLineId](#skilllineid) | int | unsigned |  | NO | 0 |  |  |
+| [SkillPointCount](#skillpointcount) | int | unsigned |  | NO | 0 |  |  |
+| [ArenaPointCount](#arenapointcount) | int | unsigned |  | NO | 0 |  |  |
+| [HonorPointCount](#honorpointcount) | int | unsigned |  | NO | 0 |  |  |
+| [Money](#money) | bigint | unsigned |  | NO | 0 |  |  |
+| [Xp](#xp) | int | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

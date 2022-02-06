@@ -2,7 +2,7 @@
 title: vehicle_accessory
 description: 
 published: true
-date: 2022-01-03T11:24:59.133Z
+date: 2022-02-06T18:26:20.455Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
-| [accessory_entry](#accessory_entry) | int(10) | unsigned |  | NO | 0 |  |  |
-| [seat_id](#seat_id) | tinyint(4) | signed | PRI | NO | 0 |  |  |
-| [minion](#minion) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  |  |
+| [accessory_entry](#accessory_entry) | int | unsigned |  | NO | 0 |  |  |
+| [seat_id](#seat_id) | tinyint | signed | PRI | NO | 0 |  |  |
+| [minion](#minion) | tinyint | unsigned |  | NO | 0 |  |  |
 | [description](#description) | mediumtext |  |  | NO |  |  |  |
-| [summontype](#summontype) | tinyint(3) | unsigned |  | NO | 6 |  | see enum TempSummonType |
-| [summontimer](#summontimer) | int(10) | unsigned |  | NO | 30000 |  | timer, only relevant for certain summontypes |
+| [summontype](#summontype) | tinyint | unsigned |  | NO | 6 |  | see enum TempSummonType |
+| [summontimer](#summontimer) | int | unsigned |  | NO | 30000 |  | timer, only relevant for certain summontypes |
 &nbsp;
 ## Description of fields
 

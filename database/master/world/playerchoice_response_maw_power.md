@@ -2,7 +2,7 @@
 title: playerchoice_response_maw_power
 description: 
 published: true
-date: 2022-01-03T11:24:59.112Z
+date: 2022-02-06T18:26:20.433Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,14 +14,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ChoiceId](#choiceid) | int(11) | signed | PRI | NO |  |  |  |
-| [ResponseId](#responseid) | int(11) | signed | PRI | NO |  |  |  |
-| [TypeArtFileID](#typeartfileid) | int(11) | signed |  | YES | 0 |  |  |
-| [Rarity](#rarity) | int(11) | signed |  | YES | 0 |  |  |
-| [RarityColor](#raritycolor) | int(10) | unsigned |  | YES | 0 |  |  |
-| [SpellID](#spellid) | int(11) | signed |  | YES | 0 |  |  |
-| [MaxStacks](#maxstacks) | int(11) | signed |  | YES | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [ChoiceId](#choiceid) | int | signed | PRI | NO |  |  |  |
+| [ResponseId](#responseid) | int | signed | PRI | NO |  |  |  |
+| [TypeArtFileID](#typeartfileid) | int | signed |  | YES | 0 |  |  |
+| [Rarity](#rarity) | int | signed |  | YES | 0 |  |  |
+| [RarityColor](#raritycolor) | int | unsigned |  | YES | 0 |  |  |
+| [SpellID](#spellid) | int | signed |  | YES | 0 |  |  |
+| [MaxStacks](#maxstacks) | int | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: game_event_gameobject
 description: 
 published: true
-date: 2022-01-03T11:24:59.094Z
+date: 2022-02-06T18:26:20.414Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [eventEntry](#evententry) | tinyint(4) | signed | PRI | NO |  |  | Entry of the game event. Put negative entry to remove during event. |
-| [guid](#guid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
+| [eventEntry](#evententry) | tinyint | signed | PRI | NO |  |  | Entry of the game event. Put negative entry to remove during event. |
+| [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

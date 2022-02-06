@@ -2,7 +2,7 @@
 title: game_event_condition
 description: 
 published: true
-date: 2022-01-03T11:24:59.093Z
+date: 2022-02-06T18:26:20.413Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [eventEntry](#evententry) | tinyint(3) | unsigned | PRI | NO |  |  | Entry of the game event |
-| [condition_id](#condition_id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [eventEntry](#evententry) | tinyint | unsigned | PRI | NO |  |  | Entry of the game event |
+| [condition_id](#condition_id) | int | unsigned | PRI | NO | 0 |  |  |
 | [req_num](#req_num) | float |  |  | YES | 0 |  |  |
-| [max_world_state_field](#max_world_state_field) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [done_world_state_field](#done_world_state_field) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [max_world_state_field](#max_world_state_field) | smallint | unsigned |  | NO | 0 |  |  |
+| [done_world_state_field](#done_world_state_field) | smallint | unsigned |  | NO | 0 |  |  |
 | [description](#description) | varchar(25) | signed |  | NO | '' |  |  |
 &nbsp;
 ## Description of fields

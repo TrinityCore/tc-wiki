@@ -2,7 +2,7 @@
 title: race_unlock_requirement
 description: 
 published: true
-date: 2022-01-03T11:24:59.120Z
+date: 2022-02-06T18:26:20.442Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [raceID](#raceid) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
-| [expansion](#expansion) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [achievementId](#achievementid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [raceID](#raceid) | tinyint | unsigned | PRI | NO | 0 |  |  |
+| [expansion](#expansion) | tinyint | unsigned |  | NO | 0 |  |  |
+| [achievementId](#achievementid) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

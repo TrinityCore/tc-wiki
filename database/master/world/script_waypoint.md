@@ -2,7 +2,7 @@
 title: script_waypoint
 description: 
 published: true
-date: 2022-01-03T11:24:59.123Z
+date: 2022-02-06T18:26:20.445Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | int(10) | unsigned | PRI | NO | 0 |  | creature_template entry |
-| [pointid](#pointid) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [entry](#entry) | int | unsigned | PRI | NO | 0 |  | creature_template entry |
+| [pointid](#pointid) | int | unsigned | PRI | NO | 0 |  |  |
 | [location_x](#location_x) | float |  |  | NO | 0 |  |  |
 | [location_y](#location_y) | float |  |  | NO | 0 |  |  |
 | [location_z](#location_z) | float |  |  | NO | 0 |  |  |
-| [waittime](#waittime) | int(10) | unsigned |  | NO | 0 |  | waittime in millisecs |
+| [waittime](#waittime) | int | unsigned |  | NO | 0 |  | waittime in millisecs |
 | [point_comment](#point_comment) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields

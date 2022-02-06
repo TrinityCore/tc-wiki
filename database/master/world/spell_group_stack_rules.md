@@ -2,7 +2,7 @@
 title: spell_group_stack_rules
 description: 
 published: true
-date: 2022-01-03T11:24:59.127Z
+date: 2022-02-06T18:26:20.449Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [group_id](#group_id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [stack_rule](#stack_rule) | tinyint(4) | signed |  | NO | 0 |  |  |
+| [group_id](#group_id) | int | unsigned | PRI | NO | 0 |  |  |
+| [stack_rule](#stack_rule) | tinyint | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

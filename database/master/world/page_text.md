@@ -2,7 +2,7 @@
 title: page_text
 description: 
 published: true
-date: 2022-01-03T11:24:59.107Z
+date: 2022-02-06T18:26:20.428Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [Text](#text) | mediumtext |  |  | NO |  |  |  |
-| [NextPageID](#nextpageid) | int(10) | unsigned |  | NO | 0 |  |  |
-| [PlayerConditionID](#playerconditionid) | int(11) | signed |  | NO | 0 |  |  |
-| [Flags](#flags) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [NextPageID](#nextpageid) | int | unsigned |  | NO | 0 |  |  |
+| [PlayerConditionID](#playerconditionid) | int | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

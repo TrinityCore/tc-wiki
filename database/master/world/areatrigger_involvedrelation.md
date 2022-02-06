@@ -2,7 +2,7 @@
 title: areatrigger_involvedrelation
 description: Enable a trigger to finish one condition of a quest (explore)
 published: true
-date: 2022-01-03T11:24:59.079Z
+date: 2022-02-06T18:26:20.399Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int(10) | unsigned | PRI | NO | 0 |  | Identifier |
-| [quest](#quest) | int(10) | unsigned |  | NO | 0 |  | Quest Identifier |
+| [id](#id) | int | unsigned | PRI | NO | 0 |  | Identifier |
+| [quest](#quest) | int | unsigned |  | NO | 0 |  | Quest Identifier |
 &nbsp;
 ## Description of fields
 

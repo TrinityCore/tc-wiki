@@ -2,7 +2,7 @@
 title: access_requirement
 description: This table contains the access requirements to enter an instance.
 published: true
-date: 2022-01-03T11:24:59.075Z
+date: 2022-02-06T18:26:20.393Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,15 +14,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [mapId](#mapid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [difficulty](#difficulty) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
-| [level_min](#level_min) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [level_max](#level_max) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [item](#item) | int(10) | unsigned |  | NO | 0 |  |  |
-| [item2](#item2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [quest_done_A](#quest_done_a) | int(10) | unsigned |  | NO | 0 |  |  |
-| [quest_done_H](#quest_done_h) | int(10) | unsigned |  | NO | 0 |  |  |
-| [completed_achievement](#completed_achievement) | int(10) | unsigned |  | NO | 0 |  |  |
+| [mapId](#mapid) | int | unsigned | PRI | NO |  |  |  |
+| [difficulty](#difficulty) | tinyint | unsigned | PRI | NO | 0 |  |  |
+| [level_min](#level_min) | tinyint | unsigned |  | NO | 0 |  |  |
+| [level_max](#level_max) | tinyint | unsigned |  | NO | 0 |  |  |
+| [item](#item) | int | unsigned |  | NO | 0 |  |  |
+| [item2](#item2) | int | unsigned |  | NO | 0 |  |  |
+| [quest_done_A](#quest_done_a) | int | unsigned |  | NO | 0 |  |  |
+| [quest_done_H](#quest_done_h) | int | unsigned |  | NO | 0 |  |  |
+| [completed_achievement](#completed_achievement) | int | unsigned |  | NO | 0 |  |  |
 | [quest_failed_text](#quest_failed_text) | mediumtext |  |  | YES | NULL |  |  |
 | [comment](#comment) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;

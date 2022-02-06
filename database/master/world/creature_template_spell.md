@@ -2,7 +2,7 @@
 title: creature_template_spell
 description: 
 published: true
-date: 2022-01-03T11:24:59.089Z
+date: 2022-02-06T18:26:20.410Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [CreatureID](#creatureid) | int(10) | unsigned | PRI | NO |  |  |  |
-| [Index](#index) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
-| [Spell](#spell) | int(10) | unsigned |  | NO |  |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [CreatureID](#creatureid) | int | unsigned | PRI | NO |  |  |  |
+| [Index](#index) | tinyint | unsigned | PRI | NO | 0 |  |  |
+| [Spell](#spell) | int | unsigned |  | NO |  |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

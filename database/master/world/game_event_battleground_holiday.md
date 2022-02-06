@@ -2,7 +2,7 @@
 title: game_event_battleground_holiday
 description: 
 published: true
-date: 2022-01-03T11:24:59.093Z
+date: 2022-02-06T18:26:20.413Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,16 +14,16 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [eventEntry](#evententry) | tinyint(3) | unsigned | PRI | NO |  |  | Entry of the game event |
-| [bgflag](#bgflag) | int(10) | unsigned |  | NO | 0 |  |  |
+| [EventEntry](#evententry) | tinyint | unsigned | PRI | NO |  |  | game_event EventEntry identifier |
+| [BattlegroundID](#battlegroundid) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
-### eventEntry
+### EventEntry
 *- no description -*
 &nbsp;
 
-### bgflag
+### BattlegroundID
 *- no description -*
 &nbsp;
 

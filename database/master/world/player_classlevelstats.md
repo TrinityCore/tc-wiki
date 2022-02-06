@@ -2,7 +2,7 @@
 title: player_classlevelstats
 description: 
 published: true
-date: 2022-01-03T11:24:59.109Z
+date: 2022-02-06T18:26:20.430Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [class](#class) | tinyint(3) | unsigned | PRI | NO |  |  |  |
-| [level](#level) | tinyint(3) | unsigned | PRI | NO |  |  |  |
-| [str](#str) | smallint(5) | unsigned |  | NO |  |  | strength |
-| [agi](#agi) | smallint(5) | unsigned |  | NO |  |  | agility |
-| [sta](#sta) | smallint(5) | unsigned |  | NO |  |  | stamina |
-| [inte](#inte) | smallint(5) | unsigned |  | NO |  |  | intellect |
+| [class](#class) | tinyint | unsigned | PRI | NO |  |  |  |
+| [level](#level) | tinyint | unsigned | PRI | NO |  |  |  |
+| [str](#str) | smallint | unsigned |  | NO |  |  | strength |
+| [agi](#agi) | smallint | unsigned |  | NO |  |  | agility |
+| [sta](#sta) | smallint | unsigned |  | NO |  |  | stamina |
+| [inte](#inte) | smallint | unsigned |  | NO |  |  | intellect |
 &nbsp;
 ## Description of fields
 

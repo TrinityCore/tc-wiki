@@ -2,7 +2,7 @@
 title: game_event_seasonal_questrelation
 description: 
 published: true
-date: 2022-01-03T11:24:59.096Z
+date: 2022-02-06T18:26:20.416Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [questId](#questid) | int(10) | unsigned | PRI | NO |  |  | Quest Identifier |
-| [eventEntry](#evententry) | int(10) | unsigned | PRI | NO | 0 |  | Entry of the game event |
+| [questId](#questid) | int | unsigned | PRI | NO |  |  | Quest Identifier |
+| [eventEntry](#evententry) | int | unsigned | PRI | NO | 0 |  | Entry of the game event |
 &nbsp;
 ## Description of fields
 

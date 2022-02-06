@@ -2,7 +2,7 @@
 title: command
 description: Holds help and permission information for commands. This table does NOT create new commands. It only sets / overrides the permission and provides a help text.
 published: true
-date: 2022-01-03T11:24:59.083Z
+date: 2022-02-06T18:26:20.404Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,7 +15,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [name](#name) | varchar(50) | signed | PRI | NO | '' |  |  |
-| [permission](#permission) | smallint(5) | unsigned |  | NO | 0 |  |  |
+| [permission](#permission) | smallint | unsigned |  | NO | 0 |  |  |
 | [help](#help) | mediumtext |  |  | NO |  |  |  |
 &nbsp;
 ## Description of fields

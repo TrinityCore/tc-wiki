@@ -2,7 +2,7 @@
 title: quest_poi_points
 description: 
 published: true
-date: 2022-01-03T11:24:59.118Z
+date: 2022-02-06T18:26:20.439Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [QuestID](#questid) | int(11) | signed | PRI | NO | 0 |  |  |
-| [Idx1](#idx1) | int(11) | signed | PRI | NO | 0 |  |  |
-| [Idx2](#idx2) | int(11) | signed | PRI | NO | 0 |  |  |
-| [X](#x) | int(11) | signed |  | NO | 0 |  |  |
-| [Y](#y) | int(11) | signed |  | NO | 0 |  |  |
-| [Z](#z) | int(11) | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [QuestID](#questid) | int | signed | PRI | NO | 0 |  |  |
+| [Idx1](#idx1) | int | signed | PRI | NO | 0 |  |  |
+| [Idx2](#idx2) | int | signed | PRI | NO | 0 |  |  |
+| [X](#x) | int | signed |  | NO | 0 |  |  |
+| [Y](#y) | int | signed |  | NO | 0 |  |  |
+| [Z](#z) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

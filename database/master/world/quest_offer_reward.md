@@ -2,7 +2,7 @@
 title: quest_offer_reward
 description: 
 published: true
-date: 2022-01-03T11:24:59.117Z
+date: 2022-02-06T18:26:20.438Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,17 +14,17 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int(10) | unsigned | PRI | NO | 0 |  |  |
-| [Emote1](#emote1) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Emote2](#emote2) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Emote3](#emote3) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [Emote4](#emote4) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay1](#emotedelay1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay2](#emotedelay2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay3](#emotedelay3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay4](#emotedelay4) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [Emote1](#emote1) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote2](#emote2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote3](#emote3) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote4](#emote4) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay1](#emotedelay1) | int | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay2](#emotedelay2) | int | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay3](#emotedelay3) | int | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay4](#emotedelay4) | int | unsigned |  | NO | 0 |  |  |
 | [RewardText](#rewardtext) | mediumtext |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

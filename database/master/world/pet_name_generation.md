@@ -2,7 +2,7 @@
 title: pet_name_generation
 description: 
 published: true
-date: 2022-01-03T11:24:59.108Z
+date: 2022-02-06T18:26:20.429Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int(10) | unsigned | PRI | NO |  |  |  |
+| [id](#id) | int | unsigned | PRI | NO |  |  |  |
 | [word](#word) | text |  |  | NO |  |  |  |
-| [entry](#entry) | int(10) | unsigned |  | NO | 0 |  |  |
-| [half](#half) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [entry](#entry) | int | unsigned |  | NO | 0 |  |  |
+| [half](#half) | tinyint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
