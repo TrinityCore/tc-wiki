@@ -2,10 +2,10 @@
 title: battle_pets
 description: 
 published: true
-date: 2022-02-06T18:26:50.181Z
-tags: database, master, auth
+date: 2022-02-07T23:20:38.904Z
+tags: database, auth, master
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-21T03:48:21.661Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/auth/battle_pet_slots" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'battle_pet_slots'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/auth/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to auth</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/auth/battlenet_account_bans" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'battlenet_account_bans'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -40,11 +40,11 @@ The battle pet global unique identifier.
 &nbsp;
 
 ### species
-The battle pet species (column *ID* from *BattlePetSpecies.db2*).
+ID from [BattlePetSpecies.db2](https://wow.tools/dbc/?dbc=battlepetspecies){target=_blank}.
 &nbsp;
 
 ### breed
-The battle pet breed (column *BattlePetBreedID* from *BattlePetBreedState.db2*).
+BattlePetBreedID from [BattlePetBreedState.db2](https://wow.tools/dbc/?dbc=battlepetbreedstate){target=_blank}.
 &nbsp;
 
 ### displayId
@@ -76,9 +76,9 @@ List of BattlePetDbFlags.
 | 2    | 0x002   | Converted         |                                               |
 | 4    | 0x004   | Revoked           | Locked in battle pet journal                  |
 | 8    | 0x008   | LockedForConvert  | Locked in battle pet journal                  |
-| 16   | 0x010   | Ability0Selection | Selected second spell of ability slot 0       |
-| 32   | 0x020   | Ability1Selection | Selected second spell of ability slot 1       |
-| 64   | 0x040   | Ability2Selection | Selected second spell of ability slot 2       |
+| 16   | 0x010   | Ability0Selection | Selected second ability of ability slot 0     |
+| 32   | 0x020   | Ability1Selection | Selected second ability of ability slot 1     |
+| 64   | 0x040   | Ability2Selection | Selected second ability of ability slot 2     |
 | 128  | 0x080   | FanfareNeeded     | Shown as a present in battle pet journal      |
 | 256  | 0x100   | DisplayOverridden |                                               |
 &nbsp;
