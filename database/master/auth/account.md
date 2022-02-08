@@ -2,10 +2,10 @@
 title: account
 description: 
 published: true
-date: 2022-02-06T18:26:50.178Z
-tags: database, master, auth
+date: 2022-02-08T09:43:26.185Z
+tags: database, auth, master
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-19T10:37:27.827Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/auth/vw_log_history" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'vw_log_history'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/auth/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to auth</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/auth/account_access" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'account_access'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -68,24 +68,6 @@ The account user name.
 &nbsp;
 
 ### session_key_bnet
-*- no description -*
-&nbsp;
-
-### sha_pass_hash
-This field contains the encrypted password. The encryption is SHA1 and is in the following format: username:password. The SQL to create the password (or to compare with the current hash) is:
-
-<div class="next-codeblock-no-line-numbers"></div>
-
-```bash
-SELECT SHA1(CONCAT(UPPER(`username`), ':', UPPER(&lt;pass&gt;)));
-```
-&nbsp;
-
-### v
-*- no description -*
-&nbsp;
-
-### s
 *- no description -*
 &nbsp;
 
