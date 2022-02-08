@@ -2,10 +2,10 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2022-02-06T18:26:20.404Z
+date: 2022-02-08T18:28:13.640Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T09:29:30.449Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/command" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'command'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/conversation_actors" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'conversation_actors'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -169,13 +169,13 @@ Example: CONDITION_AURA with NegativeCondition will be true when the player does
 &nbsp;
 
 ### ErrorType
-Id from [/src/server/game/Miscellaneous/SharedDefines.h#L1425](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Miscellaneous/SharedDefines.h#L1425). Will be displayed only for the below condition source type:
+Id from [/src/server/game/Miscellaneous/SharedDefines.h#L1429](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Miscellaneous/SharedDefines.h#L1429). Will be displayed only for the below condition source type:
 
 CONDITION_SOURCE_TYPE_SPELL = 17
 &nbsp;
 
 ### ErrorTextId
-Id from [/src/server/game/Miscellaneous/SharedDefines.h#L1746](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Miscellaneous/SharedDefines.h#L1746). Will be displayed only for the below condition source type:
+Id from [/src/server/game/Miscellaneous/SharedDefines.h#L1750](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Miscellaneous/SharedDefines.h#L1750). Will be displayed only for the below condition source type:
 
 CONDITION_SOURCE_TYPE_SPELL = 17
 
