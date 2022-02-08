@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2022-02-08T18:28:13.640Z
+date: 2022-02-08T19:28:22.125Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -62,7 +62,13 @@ dateCreated: 2021-08-30T09:29:30.449Z
 | CONDITION_SOURCE_TYPE_SPELL_PROC | 24 | Always 0 | Spell ID of aura which triggers the proc | Always 0 | 0 = Actor<br/>1 = ActionTarget |  |
 | CONDITION_SOURCE_TYPE_TERRAIN_SWAP | 25 | Always 0 | terrainSwap - object in terrainswap | Always 0 | (source code / new description here) |  |
 | CONDITION_SOURCE_TYPE_PHASE | 26 | PhaseID | Zone or Area ID (or 0 for any area) | Always 0 | (source code / new description here) |  |
-| CONDITION_SOURCE_TYPE_MAX | 27 |  |  |  |  | (Placeholder) |
+| CONDITION_SOURCE_TYPE_GRAVEYARD | 27 | Always 0 | [world_safe_locs.ID](/en/database/master/world/world_safe_locs#id) | Always 0 | (source code / new description here) |  |
+| CONDITION_SOURCE_TYPE_AREATRIGGER | 28 | [areatrigger_template.Id](/en/database/master/world/areatrigger_template#id) | 0 = **Non**-ServersideAreatrigger<br/>1 = ServersideAreatrigger  | Always 0 | (source code / new description here) |  |
+| CONDITION_SOURCE_TYPE_CONVERSATION_LINE | 29 | Always 0 | ConversationLineID | Always 0 | (source code / new description here) |  |
+| CONDITION_SOURCE_TYPE_AREATRIGGER_CLIENT_TRIGGERED | 30 | Always 0 | Areatrigger ID [AreaTrigger.db2](https://wow.tools/dbc/?dbc=areatrigger){target=_blank} | Always 0 | (source code / new description here) |  |
+| CONDITION_SOURCE_TYPE_TRAINER_SPELL | 31 | TrainerID | SpellID | Always 0 | (source code / new description here) |  |
+| CONDITION_SOURCE_TYPE_OBJECT_ID_VISIBILITY | 32 | CreatureID / GameObjectID | ObjectType:<br/>5 = Unit<br/>8 = GameObject | Always 0 | (source code / new description here) |  |
+| CONDITION_SOURCE_TYPE_MAX | 33 |  |  |  |  | (Placeholder) |
 
 &nbsp;
 
