@@ -2,13 +2,13 @@
 title: macOS Requirements
 description: 
 published: true
-date: 2022-02-12T20:11:13.441Z
+date: 2022-02-12T20:11:29.220Z
 tags: requirements, installation, setup, macos, mac
 editor: markdown
 dateCreated: 2021-08-14T00:39:12.068Z
 ---
 
-> **MacOS has not been updated for a long time.**
+> **MacOS documentation has not been updated for a long time.**
 > **It is very possible, that this documentation won't help you at all.**
 > **If you are a beginner in MacOS or programming in MacOS we recommend you to switch to Windows or Linux**
 {.is-danger}
