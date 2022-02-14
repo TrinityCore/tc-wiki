@@ -2,7 +2,7 @@
 title: Linux Requirements
 description: 
 published: true
-date: 2022-02-14T12:33:44.698Z
+date: 2022-02-14T12:36:36.662Z
 tags: requirements, installation, setup, linux
 editor: markdown
 dateCreated: 2021-08-14T00:09:23.038Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-14T00:09:23.038Z
 >MySQL ≥ 5.7.0
 >OpenSSL = 1.x.x
 >CMake ≥ 3.13.4
->Clang  ≥ 5 (heavy recommended, especially on master branch) or GCC ≥ 7.1.0
+>Clang  ≥ 7 (heavy recommended, especially on master branch) or GCC ≥ 8.3.0
 >zlib ≥ 1.2.7
 {.is-info}
 
