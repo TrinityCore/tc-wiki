@@ -2,7 +2,7 @@
 title: creature
 description: 
 published: true
-date: 2022-02-16T08:10:11.225Z
+date: 2022-02-16T08:28:13.570Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:41.375Z
@@ -65,7 +65,7 @@ The GUID ranges are defined as followed:
 &nbsp;
 
 ### id
-The ID of the [creature_template](/en/database/master/world/creature_template) that is used when spawning this creature.
+This links to [creature_template.entry](/en/database/master/world/creature_template#entry)
 &nbsp;
 
 ### map
