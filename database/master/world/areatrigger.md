@@ -2,10 +2,10 @@
 title: areatrigger
 description: 
 published: true
-date: 2022-02-16T23:54:24.069Z
+date: 2022-03-16T04:21:13.933Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T09:28:46.460Z
+dateCreated: 2021-08-30T06:00:00.000Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/achievement_scripts" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'achievement_scripts'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/areatrigger_create_properties" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'areatrigger_create_properties'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -26,12 +26,14 @@ dateCreated: 2021-08-30T09:28:46.460Z
 | [PhaseId](#phaseid) | int | unsigned |  | YES | 0 |  |  |
 | [PhaseGroup](#phasegroup) | int | unsigned |  | YES | 0 |  |  |
 | [Shape](#shape) | tinyint | unsigned |  | NO | 0 |  |  |
-| [ShapeData0](#shapedata0-5) | float |  |  | NO | 0 |  |  |
-| [ShapeData1](#shapedata0-5) | float |  |  | NO | 0 |  |  |
-| [ShapeData2](#shapedata0-5) | float |  |  | NO | 0 |  |  |
-| [ShapeData3](#shapedata0-5) | float |  |  | NO | 0 |  |  |
-| [ShapeData4](#shapedata0-5) | float |  |  | NO | 0 |  |  |
-| [ShapeData5](#shapedata0-5) | float |  |  | NO | 0 |  |  |
+| [ShapeData0](#shapedata0-7) | float |  |  | NO | 0 |  |  |
+| [ShapeData1](#shapedata0-7) | float |  |  | NO | 0 |  |  |
+| [ShapeData2](#shapedata0-7) | float |  |  | NO | 0 |  |  |
+| [ShapeData3](#shapedata0-7) | float |  |  | NO | 0 |  |  |
+| [ShapeData4](#shapedata0-7) | float |  |  | NO | 0 |  |  |
+| [ShapeData5](#shapedata0-7) | float |  |  | NO | 0 |  |  |
+| [ShapeData6](#shapedata0-7) | float |  |  | NO | 0 |  |  |
+| [ShapeData7](#shapedata0-7) | float |  |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) | signed |  | NO | '' |  |  |
 | [Comment](#comment) | varchar(255) | signed |  | YES | NULL |  |  |
 &nbsp;
@@ -114,7 +116,7 @@ Shape determines the general design of an areatrigger.
 |5|AREATRIGGER_TYPE_MAX|
 &nbsp;
 
-### ShapeData0-5
+### ShapeData0-7
 The data changes depending on the Shape.
 | |SPHERE|BOX|UNK|POLYGON|CYLINDER|
 |:---:|:---:|:---:|:---:|:---:|:---:|

@@ -2,7 +2,7 @@
 title: playerchoice
 description: 
 published: true
-date: 2022-02-06T18:26:20.432Z
+date: 2022-03-16T04:21:15.294Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -17,6 +17,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [ChoiceId](#choiceid) | int | signed | PRI | NO |  |  |  |
 | [UiTextureKitId](#uitexturekitid) | int | signed |  | NO | 0 |  |  |
 | [SoundKitId](#soundkitid) | int | unsigned |  | NO | 0 |  |  |
+| [CloseSoundKitId](#closesoundkitid) | int | unsigned |  | NO | 0 |  |  |
+| [Duration](#duration) | bigint | signed |  | NO | 0 |  |  |
+| [PendingChoiceText](#pendingchoicetext) | varchar(255) | signed |  | NO | '' |  |  |
 | [Question](#question) | varchar(255) | signed |  | YES | NULL |  |  |
 | [HideWarboardHeader](#hidewarboardheader) | tinyint(1) | signed |  | NO | 0 |  |  |
 | [KeepOpenAfterChoice](#keepopenafterchoice) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -33,6 +36,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### SoundKitId
+*- no description -*
+&nbsp;
+
+### CloseSoundKitId
+*- no description -*
+&nbsp;
+
+### Duration
+*- no description -*
+&nbsp;
+
+### PendingChoiceText
 *- no description -*
 &nbsp;
 

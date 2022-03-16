@@ -2,7 +2,7 @@
 title: spell_proc
 description: 
 published: true
-date: 2022-02-06T18:26:20.450Z
+date: 2022-03-16T04:21:16.103Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [SpellFamilyMask2](#spellfamilymask2) | int | unsigned |  | NO | 0 |  |  |
 | [SpellFamilyMask3](#spellfamilymask3) | int | unsigned |  | NO | 0 |  |  |
 | [ProcFlags](#procflags) | int | unsigned |  | NO | 0 |  |  |
+| [ProcFlags2](#procflags2) | int | unsigned |  | NO | 0 |  |  |
 | [SpellTypeMask](#spelltypemask) | int | unsigned |  | NO | 0 |  |  |
 | [SpellPhaseMask](#spellphasemask) | int | unsigned |  | NO | 0 |  |  |
 | [HitMask](#hitmask) | int | unsigned |  | NO | 0 |  |  |
@@ -63,6 +64,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### ProcFlags
+*- no description -*
+&nbsp;
+
+### ProcFlags2
 *- no description -*
 &nbsp;
 

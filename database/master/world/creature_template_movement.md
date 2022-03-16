@@ -2,7 +2,7 @@
 title: creature_template_movement
 description: 
 published: true
-date: 2022-02-06T18:26:20.409Z
+date: 2022-03-16T04:21:14.387Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,12 +15,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [CreatureId](#creatureid) | int | unsigned | PRI | NO | 0 |  |  |
-| [Ground](#ground) | tinyint | unsigned |  | NO | 1 |  |  |
-| [Swim](#swim) | tinyint | unsigned |  | NO | 1 |  |  |
-| [Flight](#flight) | tinyint | unsigned |  | NO | 0 |  |  |
-| [Rooted](#rooted) | tinyint | unsigned |  | NO | 0 |  |  |
-| [Chase](#chase) | tinyint | unsigned |  | NO | 0 |  |  |
-| [Random](#random) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Ground](#ground) | tinyint | unsigned |  | YES | NULL |  |  |
+| [Swim](#swim) | tinyint | unsigned |  | YES | NULL |  |  |
+| [Flight](#flight) | tinyint | unsigned |  | YES | NULL |  |  |
+| [Rooted](#rooted) | tinyint | unsigned |  | YES | NULL |  |  |
+| [Chase](#chase) | tinyint | unsigned |  | YES | NULL |  |  |
+| [Random](#random) | tinyint | unsigned |  | YES | NULL |  |  |
+| [InteractionPauseTimer](#interactionpausetimer) | int | unsigned |  | YES | NULL |  | Time (in milliseconds) during which creature will not move after interaction with player |
 &nbsp;
 ## Description of fields
 
@@ -49,6 +50,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### Random
+*- no description -*
+&nbsp;
+
+### InteractionPauseTimer
 *- no description -*
 &nbsp;
 

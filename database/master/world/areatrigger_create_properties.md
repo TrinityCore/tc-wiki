@@ -2,7 +2,7 @@
 title: areatrigger_create_properties
 description: 
 published: true
-date: 2022-02-06T18:26:20.398Z
+date: 2022-03-16T04:21:13.944Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -26,12 +26,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [TimeToTarget](#timetotarget) | int | unsigned |  | NO | 0 |  |  |
 | [TimeToTargetScale](#timetotargetscale) | int | unsigned |  | NO | 0 |  |  |
 | [Shape](#shape) | tinyint | unsigned |  | NO | 0 |  |  |
-| [ShapeData0](#shapedata0-5) | float |  |  | NO | 0 |  |  |
-| [ShapeData1](#shapedata0-5) | float |  |  | NO | 0 |  |  |
-| [ShapeData2](#shapedata0-5) | float |  |  | NO | 0 |  |  |
-| [ShapeData3](#shapedata0-5) | float |  |  | NO | 0 |  |  |
-| [ShapeData4](#shapedata0-5) | float |  |  | NO | 0 |  |  |
-| [ShapeData5](#shapedata0-5) | float |  |  | NO | 0 |  |  |
+| [ShapeData0](#shapedata0-7) | float |  |  | NO | 0 |  |  |
+| [ShapeData1](#shapedata0-7) | float |  |  | NO | 0 |  |  |
+| [ShapeData2](#shapedata0-7) | float |  |  | NO | 0 |  |  |
+| [ShapeData3](#shapedata0-7) | float |  |  | NO | 0 |  |  |
+| [ShapeData4](#shapedata0-7) | float |  |  | NO | 0 |  |  |
+| [ShapeData5](#shapedata0-7) | float |  |  | NO | 0 |  |  |
+| [ShapeData6](#shapedata0-7) | float |  |  | NO | 0 |  |  |
+| [ShapeData7](#shapedata0-7) | float |  |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) | signed |  | NO | '' |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
@@ -94,7 +96,7 @@ Shape determines the general design of an areatrigger.
 |5|AREATRIGGER_TYPE_MAX|
 &nbsp;
 
-### ShapeData0-5
+### ShapeData0-7
 The data changes depending on the Shape.
 | |SPHERE|BOX|UNK|POLYGON|CYLINDER|
 |:---:|:---:|:---:|:---:|:---:|:---:|

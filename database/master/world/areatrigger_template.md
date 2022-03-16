@@ -2,7 +2,7 @@
 title: areatrigger_template
 description: This table contains the description of areatrigger.
 published: true
-date: 2022-02-06T18:26:20.400Z
+date: 2022-03-16T04:21:14.031Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -18,12 +18,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [IsServerSide](#isserverside) | tinyint | unsigned | PRI | NO |  |  |  |
 | [Type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
-| [Data0](#data0-5) | float |  |  | NO | 0 |  |  |
-| [Data1](#data0-5) | float |  |  | NO | 0 |  |  |
-| [Data2](#data0-5) | float |  |  | NO | 0 |  |  |
-| [Data3](#data0-5) | float |  |  | NO | 0 |  |  |
-| [Data4](#data0-5) | float |  |  | NO | 0 |  |  |
-| [Data5](#data0-5) | float |  |  | NO | 0 |  |  |
+| [Data0](#data0-7) | float |  |  | NO | 0 |  |  |
+| [Data1](#data0-7) | float |  |  | NO | 0 |  |  |
+| [Data2](#data0-7) | float |  |  | NO | 0 |  |  |
+| [Data3](#data0-7) | float |  |  | NO | 0 |  |  |
+| [Data4](#data0-7) | float |  |  | NO | 0 |  |  |
+| [Data5](#data0-7) | float |  |  | NO | 0 |  |  |
+| [Data6](#data0-7) | float |  |  | NO | 0 |  |  |
+| [Data7](#data0-7) | float |  |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -81,7 +83,7 @@ The data changes depending on the Type.
 |Data5| - | ExtentsTargetZ | | - | LocationZOffsetTarget |
 &nbsp;
 
-### Data5
+### Data0-7
 Name of the script this object uses if needed
 &nbsp;
 

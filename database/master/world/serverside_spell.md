@@ -2,7 +2,7 @@
 title: serverside_spell
 description: 
 published: true
-date: 2022-02-06T18:26:20.445Z
+date: 2022-03-16T04:21:15.870Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -59,6 +59,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [ChannelInterruptFlags1](#channelinterruptflags1) | int | unsigned |  | NO | 0 |  |  |
 | [ChannelInterruptFlags2](#channelinterruptflags2) | int | unsigned |  | NO | 0 |  |  |
 | [ProcFlags](#procflags) | int | unsigned |  | NO | 0 |  |  |
+| [ProcFlags2](#procflags2) | int | unsigned |  | NO | 0 |  |  |
 | [ProcChance](#procchance) | int | unsigned |  | NO | 0 |  |  |
 | [ProcCharges](#proccharges) | int | unsigned |  | NO | 0 |  |  |
 | [ProcCooldown](#proccooldown) | int | unsigned |  | NO | 0 |  |  |
@@ -270,6 +271,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### ProcFlags
+*- no description -*
+&nbsp;
+
+### ProcFlags2
 *- no description -*
 &nbsp;
 
