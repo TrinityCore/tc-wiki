@@ -2,7 +2,7 @@
 title: item_loot_items
 description: 
 published: true
-date: 2022-02-06T18:26:45.284Z
+date: 2022-03-16T03:59:01.122Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [container_id](#container_id) | bigint | unsigned | PRI | NO | 0 |  | guid of container (item_instance.guid) |
 | [item_id](#item_id) | int | unsigned | PRI | NO | 0 |  | loot item entry (item_instance.itemEntry) |
 | [item_count](#item_count) | int | signed |  | NO | 0 |  | stack size |
+| [item_index](#item_index) | int | unsigned |  | NO | 0 |  |  |
 | [follow_rules](#follow_rules) | tinyint(1) | signed |  | NO | 0 |  | follow loot rules |
 | [ffa](#ffa) | tinyint(1) | signed |  | NO | 0 |  | free-for-all |
 | [blocked](#blocked) | tinyint(1) | signed |  | NO | 0 |  |  |
@@ -38,6 +39,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### item_count
+*- no description -*
+&nbsp;
+
+### item_index
 *- no description -*
 &nbsp;
 

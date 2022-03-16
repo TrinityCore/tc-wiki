@@ -2,7 +2,7 @@
 title: auctionhouse
 description: 
 published: true
-date: 2022-02-06T18:26:45.259Z
+date: 2022-03-16T03:58:59.919Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -24,6 +24,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [bidAmount](#bidamount) | bigint | unsigned |  | NO | 0 |  |  |
 | [startTime](#starttime) | bigint | signed |  | NO | 0 |  |  |
 | [endTime](#endtime) | bigint | signed |  | NO | 0 |  |  |
+| [serverFlags](#serverflags) | tinyint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -64,6 +65,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### endTime
+*- no description -*
+&nbsp;
+
+### serverFlags
 *- no description -*
 &nbsp;
 
