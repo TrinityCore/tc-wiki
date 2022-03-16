@@ -2,7 +2,7 @@
 title: Auth
 description: 
 published: true
-date: 2021-12-15T22:17:38.890Z
+date: 2022-03-16T03:50:47.368Z
 tags: database, master
 editor: markdown
 dateCreated: 2021-08-28T03:14:52.632Z
@@ -48,4 +48,8 @@ dateCreated: 2021-08-28T03:14:52.632Z
 - [updates](/database/master/auth/updates)
 - [updates_include](/database/master/auth/updates_include)
 - [uptime](/database/master/auth/uptime)
+{.links-list}
+## v
+- [vw_log_history](/database/master/auth/vw_log_history)
+- [vw_rbac](/database/master/auth/vw_rbac)
 {.links-list}
