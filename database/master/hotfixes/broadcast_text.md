@@ -2,7 +2,7 @@
 title: broadcast_text
 description: 
 published: true
-date: 2022-02-06T18:26:40.906Z
+date: 2022-03-16T04:03:56.768Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [EmotesID](#emotesid) | smallint | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ChatBubbleDurationMs](#chatbubbledurationms) | int | unsigned |  | NO | 0 |  |  |
+| [VoiceOverPriorityID](#voiceoverpriorityid) | int | signed |  | NO | 0 |  |  |
 | [SoundKitID1](#soundkitid1) | int | unsigned |  | NO | 0 |  |  |
 | [SoundKitID2](#soundkitid2) | int | unsigned |  | NO | 0 |  |  |
 | [EmoteID1](#emoteid1) | smallint | unsigned |  | NO | 0 |  |  |
@@ -63,6 +64,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### ChatBubbleDurationMs
+*- no description -*
+&nbsp;
+
+### VoiceOverPriorityID
 *- no description -*
 &nbsp;
 

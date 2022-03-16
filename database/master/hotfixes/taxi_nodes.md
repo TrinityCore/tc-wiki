@@ -2,7 +2,7 @@
 title: taxi_nodes
 description: 
 published: true
-date: 2022-02-06T18:26:40.991Z
+date: 2022-03-16T04:04:00.079Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -26,7 +26,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [ContinentID](#continentid) | smallint | unsigned |  | NO | 0 |  |  |
 | [ConditionID](#conditionid) | int | signed |  | NO | 0 |  |  |
 | [CharacterBitNumber](#characterbitnumber) | smallint | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | smallint | unsigned |  | NO | 0 |  |  |
 | [UiTextureKitID](#uitexturekitid) | int | signed |  | NO | 0 |  |  |
 | [MinimapAtlasMemberID](#minimapatlasmemberid) | int | signed |  | NO | 0 |  |  |
 | [Facing](#facing) | float |  |  | NO | 0 |  |  |

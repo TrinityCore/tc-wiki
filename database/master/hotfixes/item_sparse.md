@@ -2,7 +2,7 @@
 title: item_sparse
 description: 
 published: true
-date: 2022-02-06T18:26:40.949Z
+date: 2022-03-16T04:03:58.354Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -75,7 +75,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [ZoneBound2](#zonebound2) | smallint | unsigned |  | NO | 0 |  |  |
 | [ItemSet](#itemset) | smallint | unsigned |  | NO | 0 |  |  |
 | [LockID](#lockid) | smallint | unsigned |  | NO | 0 |  |  |
-| [StartQuestID](#startquestid) | smallint | unsigned |  | NO | 0 |  |  |
+| [StartQuestID](#startquestid) | int | signed |  | NO | 0 |  |  |
 | [PageID](#pageid) | smallint | unsigned |  | NO | 0 |  |  |
 | [ItemDelay](#itemdelay) | smallint | unsigned |  | NO | 0 |  |  |
 | [MinFactionID](#minfactionid) | smallint | unsigned |  | NO | 0 |  |  |
@@ -92,7 +92,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [SheatheType](#sheathetype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Material](#material) | tinyint | unsigned |  | NO | 0 |  |  |
 | [PageMaterialID](#pagematerialid) | tinyint | unsigned |  | NO | 0 |  |  |
-| [LanguageID](#languageid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [LanguageID](#languageid) | int | signed |  | NO | 0 |  |  |
 | [Bonding](#bonding) | tinyint | unsigned |  | NO | 0 |  |  |
 | [DamageDamageType](#damagedamagetype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [StatModifierBonusStat1](#statmodifierbonusstat1) | tinyint | signed |  | NO | 0 |  |  |

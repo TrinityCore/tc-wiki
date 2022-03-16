@@ -2,7 +2,7 @@
 title: languages
 description: 
 published: true
-date: 2022-02-06T18:26:40.954Z
+date: 2022-03-16T04:03:58.546Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,6 +16,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [Name](#name) | text |  |  | YES | NULL |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
+| [UiTextureKitID](#uitexturekitid) | int | signed |  | NO | 0 |  |  |
+| [UiTextureKitElementCount](#uitexturekitelementcount) | int | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -25,6 +28,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### Name
+*- no description -*
+&nbsp;
+
+### Flags
+*- no description -*
+&nbsp;
+
+### UiTextureKitID
+*- no description -*
+&nbsp;
+
+### UiTextureKitElementCount
 *- no description -*
 &nbsp;
 
