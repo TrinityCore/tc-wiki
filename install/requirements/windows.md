@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2022-04-08T13:13:25.756Z
+date: 2022-04-08T13:18:32.112Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -132,10 +132,10 @@ These files are shipped with MySQL Server, search for them at program files dire
 > Download the 64bit version. Or you can get both if you plan to compile both 32 and 64bit, they can coexist side by side.
 {.is-info}
 
-1. Find the 64bit version by finding the latest 1.0.x or 1.1.x **Win64 OpenSSL** that is **NOT** the "light" version.
+1. Find the 64bit version by finding the latest 1.0.x or 1.1.x **Win64 OpenSSL** that is **NOT** the "light" or 3.x version.
 	- Example: **Win64 OpenSSL v1.1.1L**
 &nbsp;
-2. Find the 32bit version by finding the latest 1.0.x or 1.1.x **Win32 OpenSSL** that is **NOT** the "light" version.
+2. Find the 32bit version by finding the latest 1.0.x or 1.1.x **Win32 OpenSSL** that is **NOT** the "light" or 3.x version.
 	- Example: **Win32 OpenSSL v1.1.1L**
 &nbsp;
 
