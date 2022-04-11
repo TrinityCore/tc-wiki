@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2022-04-08T13:18:32.112Z
+date: 2022-04-11T13:24:49.882Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -19,7 +19,7 @@ dateCreated: 2021-08-14T03:18:48.201Z
 > Boost ≥ 1.73 (latest stable recommended)
 > MySQL ≥ 5.7
 > OpenSSL = 1.x.x
-> CMake ≥ 3.14 (latest stable recommended)
+> CMake ≥ 3.18.4 (latest stable recommended)
 > MS Visual Studio (Community) ≥ 16.11.11 (2019) (Desktop) (Not previews)
 {.is-info}
 
