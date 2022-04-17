@@ -2,10 +2,10 @@
 title: World
 description: 
 published: true
-date: 2021-08-30T22:12:46.204Z
+date: 2022-04-17T21:02:04.267Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
-dateCreated: 2021-08-30T22:12:46.204Z
+dateCreated: 2021-08-30T06:00:00.000Z
 ---
 
 ## a
@@ -37,6 +37,7 @@ dateCreated: 2021-08-30T22:12:46.204Z
 - [creature_formations](/database/335/world/creature_formations)
 - [creature_loot_template](/database/335/world/creature_loot_template)
 - [creature_model_info](/database/335/world/creature_model_info)
+- [creature_movement_info](/database/335/world/creature_movement_info)
 - [creature_movement_override](/database/335/world/creature_movement_override)
 - [creature_onkill_reputation](/database/335/world/creature_onkill_reputation)
 - [creature_questender](/database/335/world/creature_questender)

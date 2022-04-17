@@ -2,7 +2,7 @@
 title: spell_loot_template
 description: 
 published: true
-date: 2021-08-30T22:01:28.065Z
+date: 2022-04-17T21:02:03.621Z
 tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,16 +14,16 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Entry](#entry) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
-| [Item](#item) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
-| [Reference](#reference) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [Entry](#entry) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [Item](#item) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [Reference](#reference) | mediumint | unsigned |  | NO | 0 |  |  |
 | [Chance](#chance) | float |  |  | NO | 100 |  |  |
 | [QuestRequired](#questrequired) | tinyint(1) | signed |  | NO | 0 |  |  |
-| [LootMode](#lootmode) | smallint(5) | unsigned |  | NO | 1 |  |  |
-| [GroupId](#groupid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [MinCount](#mincount) | tinyint(3) | unsigned |  | NO | 1 |  |  |
-| [MaxCount](#maxcount) | tinyint(3) | unsigned |  | NO | 1 |  |  |
-| [Comment](#comment) | varchar(255) | signed |  | YES | NULL |  |  |
+| [LootMode](#lootmode) | smallint | unsigned |  | NO | 1 |  |  |
+| [GroupId](#groupid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [MinCount](#mincount) | tinyint | unsigned |  | NO | 1 |  |  |
+| [MaxCount](#maxcount) | tinyint | unsigned |  | NO | 1 |  |  |
+| [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 
@@ -68,4 +68,3 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/world/spell_linked_spell" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'spell_linked_spell'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/spell_pet_auras" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'spell_pet_auras'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

@@ -2,7 +2,7 @@
 title: item_template
 description: 
 published: true
-date: 2021-08-30T22:01:28.040Z
+date: 2022-04-17T21:02:01.237Z
 tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,145 +14,145 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
-| [class](#class) | tinyint(3) | unsigned | MUL | NO | 0 |  |  |
-| [subclass](#subclass) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [SoundOverrideSubclass](#soundoverridesubclass) | tinyint(3) | signed |  | NO | -1 |  |  |
-| [name](#name) | varchar(255) | signed | MUL | NO | '' |  |  |
-| [displayid](#displayid) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [Quality](#quality) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [FlagsExtra](#flagsextra) | int(10) | unsigned |  | NO | 0 |  |  |
-| [BuyCount](#buycount) | tinyint(3) | unsigned |  | NO | 1 |  |  |
-| [BuyPrice](#buyprice) | bigint(20) | signed |  | NO | 0 |  |  |
-| [SellPrice](#sellprice) | int(10) | unsigned |  | NO | 0 |  |  |
-| [InventoryType](#inventorytype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [AllowableClass](#allowableclass) | int(11) | signed |  | NO | -1 |  |  |
-| [AllowableRace](#allowablerace) | int(11) | signed |  | NO | -1 |  |  |
-| [ItemLevel](#itemlevel) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [RequiredLevel](#requiredlevel) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [RequiredSkill](#requiredskill) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [RequiredSkillRank](#requiredskillrank) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [requiredspell](#requiredspell) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [requiredhonorrank](#requiredhonorrank) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [RequiredCityRank](#requiredcityrank) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [RequiredReputationFaction](#requiredreputationfaction) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [RequiredReputationRank](#requiredreputationrank) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [maxcount](#maxcount) | int(11) | signed |  | NO | 0 |  |  |
-| [stackable](#stackable) | int(11) | signed |  | YES | 1 |  |  |
-| [ContainerSlots](#containerslots) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [StatsCount](#statscount) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [stat_type1](#stat_type1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [stat_value1](#stat_value1) | smallint(6) | signed |  | NO | 0 |  |  |
-| [stat_type2](#stat_type2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [stat_value2](#stat_value2) | smallint(6) | signed |  | NO | 0 |  |  |
-| [stat_type3](#stat_type3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [stat_value3](#stat_value3) | smallint(6) | signed |  | NO | 0 |  |  |
-| [stat_type4](#stat_type4) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [stat_value4](#stat_value4) | smallint(6) | signed |  | NO | 0 |  |  |
-| [stat_type5](#stat_type5) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [stat_value5](#stat_value5) | smallint(6) | signed |  | NO | 0 |  |  |
-| [stat_type6](#stat_type6) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [stat_value6](#stat_value6) | smallint(6) | signed |  | NO | 0 |  |  |
-| [stat_type7](#stat_type7) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [stat_value7](#stat_value7) | smallint(6) | signed |  | NO | 0 |  |  |
-| [stat_type8](#stat_type8) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [stat_value8](#stat_value8) | smallint(6) | signed |  | NO | 0 |  |  |
-| [stat_type9](#stat_type9) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [stat_value9](#stat_value9) | smallint(6) | signed |  | NO | 0 |  |  |
-| [stat_type10](#stat_type10) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [stat_value10](#stat_value10) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ScalingStatDistribution](#scalingstatdistribution) | smallint(6) | signed |  | NO | 0 |  |  |
-| [ScalingStatValue](#scalingstatvalue) | int(10) | unsigned |  | NO | 0 |  |  |
+| [entry](#entry) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [class](#class) | tinyint | unsigned | MUL | NO | 0 |  |  |
+| [subclass](#subclass) | tinyint | unsigned |  | NO | 0 |  |  |
+| [SoundOverrideSubclass](#soundoverridesubclass) | tinyint | signed |  | NO | -1 |  |  |
+| [name](#name) | varchar(255) |  | MUL | NO | '' |  |  |
+| [displayid](#displayid) | mediumint | unsigned |  | NO | 0 |  |  |
+| [Quality](#quality) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
+| [FlagsExtra](#flagsextra) | int | unsigned |  | NO | 0 |  |  |
+| [BuyCount](#buycount) | tinyint | unsigned |  | NO | 1 |  |  |
+| [BuyPrice](#buyprice) | bigint | signed |  | NO | 0 |  |  |
+| [SellPrice](#sellprice) | int | unsigned |  | NO | 0 |  |  |
+| [InventoryType](#inventorytype) | tinyint | unsigned |  | NO | 0 |  |  |
+| [AllowableClass](#allowableclass) | int | signed |  | NO | -1 |  |  |
+| [AllowableRace](#allowablerace) | int | signed |  | NO | -1 |  |  |
+| [ItemLevel](#itemlevel) | smallint | unsigned |  | NO | 0 |  |  |
+| [RequiredLevel](#requiredlevel) | tinyint | unsigned |  | NO | 0 |  |  |
+| [RequiredSkill](#requiredskill) | smallint | unsigned |  | NO | 0 |  |  |
+| [RequiredSkillRank](#requiredskillrank) | smallint | unsigned |  | NO | 0 |  |  |
+| [requiredspell](#requiredspell) | mediumint | unsigned |  | NO | 0 |  |  |
+| [requiredhonorrank](#requiredhonorrank) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RequiredCityRank](#requiredcityrank) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RequiredReputationFaction](#requiredreputationfaction) | smallint | unsigned |  | NO | 0 |  |  |
+| [RequiredReputationRank](#requiredreputationrank) | smallint | unsigned |  | NO | 0 |  |  |
+| [maxcount](#maxcount) | int | signed |  | NO | 0 |  |  |
+| [stackable](#stackable) | int | signed |  | YES | 1 |  |  |
+| [ContainerSlots](#containerslots) | tinyint | unsigned |  | NO | 0 |  |  |
+| [StatsCount](#statscount) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_type1](#stat_type1) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value1](#stat_value1) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type2](#stat_type2) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value2](#stat_value2) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type3](#stat_type3) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value3](#stat_value3) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type4](#stat_type4) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value4](#stat_value4) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type5](#stat_type5) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value5](#stat_value5) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type6](#stat_type6) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value6](#stat_value6) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type7](#stat_type7) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value7](#stat_value7) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type8](#stat_type8) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value8](#stat_value8) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type9](#stat_type9) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value9](#stat_value9) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type10](#stat_type10) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value10](#stat_value10) | smallint | signed |  | NO | 0 |  |  |
+| [ScalingStatDistribution](#scalingstatdistribution) | smallint | signed |  | NO | 0 |  |  |
+| [ScalingStatValue](#scalingstatvalue) | int | unsigned |  | NO | 0 |  |  |
 | [dmg_min1](#dmg_min1) | float |  |  | NO | 0 |  |  |
 | [dmg_max1](#dmg_max1) | float |  |  | NO | 0 |  |  |
-| [dmg_type1](#dmg_type1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [dmg_type1](#dmg_type1) | tinyint | unsigned |  | NO | 0 |  |  |
 | [dmg_min2](#dmg_min2) | float |  |  | NO | 0 |  |  |
 | [dmg_max2](#dmg_max2) | float |  |  | NO | 0 |  |  |
-| [dmg_type2](#dmg_type2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [armor](#armor) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [holy_res](#holy_res) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [fire_res](#fire_res) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [nature_res](#nature_res) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [frost_res](#frost_res) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [shadow_res](#shadow_res) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [arcane_res](#arcane_res) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [delay](#delay) | smallint(5) | unsigned |  | NO | 1000 |  |  |
-| [ammo_type](#ammo_type) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [dmg_type2](#dmg_type2) | tinyint | unsigned |  | NO | 0 |  |  |
+| [armor](#armor) | smallint | unsigned |  | NO | 0 |  |  |
+| [holy_res](#holy_res) | tinyint | unsigned |  | NO | 0 |  |  |
+| [fire_res](#fire_res) | tinyint | unsigned |  | NO | 0 |  |  |
+| [nature_res](#nature_res) | tinyint | unsigned |  | NO | 0 |  |  |
+| [frost_res](#frost_res) | tinyint | unsigned |  | NO | 0 |  |  |
+| [shadow_res](#shadow_res) | tinyint | unsigned |  | NO | 0 |  |  |
+| [arcane_res](#arcane_res) | tinyint | unsigned |  | NO | 0 |  |  |
+| [delay](#delay) | smallint | unsigned |  | NO | 1000 |  |  |
+| [ammo_type](#ammo_type) | tinyint | unsigned |  | NO | 0 |  |  |
 | [RangedModRange](#rangedmodrange) | float |  |  | NO | 0 |  |  |
-| [spellid_1](#spellid_1) | mediumint(8) | signed |  | NO | 0 |  |  |
-| [spelltrigger_1](#spelltrigger_1) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [spellcharges_1](#spellcharges_1) | smallint(6) | signed |  | NO | 0 |  |  |
+| [spellid_1](#spellid_1) | mediumint | signed |  | NO | 0 |  |  |
+| [spelltrigger_1](#spelltrigger_1) | tinyint | unsigned |  | NO | 0 |  |  |
+| [spellcharges_1](#spellcharges_1) | smallint | signed |  | NO | 0 |  |  |
 | [spellppmRate_1](#spellppmrate_1) | float |  |  | NO | 0 |  |  |
-| [spellcooldown_1](#spellcooldown_1) | int(11) | signed |  | NO | -1 |  |  |
-| [spellcategory_1](#spellcategory_1) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [spellcategorycooldown_1](#spellcategorycooldown_1) | int(11) | signed |  | NO | -1 |  |  |
-| [spellid_2](#spellid_2) | mediumint(8) | signed |  | NO | 0 |  |  |
-| [spelltrigger_2](#spelltrigger_2) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [spellcharges_2](#spellcharges_2) | smallint(6) | signed |  | NO | 0 |  |  |
+| [spellcooldown_1](#spellcooldown_1) | int | signed |  | NO | -1 |  |  |
+| [spellcategory_1](#spellcategory_1) | smallint | unsigned |  | NO | 0 |  |  |
+| [spellcategorycooldown_1](#spellcategorycooldown_1) | int | signed |  | NO | -1 |  |  |
+| [spellid_2](#spellid_2) | mediumint | signed |  | NO | 0 |  |  |
+| [spelltrigger_2](#spelltrigger_2) | tinyint | unsigned |  | NO | 0 |  |  |
+| [spellcharges_2](#spellcharges_2) | smallint | signed |  | NO | 0 |  |  |
 | [spellppmRate_2](#spellppmrate_2) | float |  |  | NO | 0 |  |  |
-| [spellcooldown_2](#spellcooldown_2) | int(11) | signed |  | NO | -1 |  |  |
-| [spellcategory_2](#spellcategory_2) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [spellcategorycooldown_2](#spellcategorycooldown_2) | int(11) | signed |  | NO | -1 |  |  |
-| [spellid_3](#spellid_3) | mediumint(8) | signed |  | NO | 0 |  |  |
-| [spelltrigger_3](#spelltrigger_3) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [spellcharges_3](#spellcharges_3) | smallint(6) | signed |  | NO | 0 |  |  |
+| [spellcooldown_2](#spellcooldown_2) | int | signed |  | NO | -1 |  |  |
+| [spellcategory_2](#spellcategory_2) | smallint | unsigned |  | NO | 0 |  |  |
+| [spellcategorycooldown_2](#spellcategorycooldown_2) | int | signed |  | NO | -1 |  |  |
+| [spellid_3](#spellid_3) | mediumint | signed |  | NO | 0 |  |  |
+| [spelltrigger_3](#spelltrigger_3) | tinyint | unsigned |  | NO | 0 |  |  |
+| [spellcharges_3](#spellcharges_3) | smallint | signed |  | NO | 0 |  |  |
 | [spellppmRate_3](#spellppmrate_3) | float |  |  | NO | 0 |  |  |
-| [spellcooldown_3](#spellcooldown_3) | int(11) | signed |  | NO | -1 |  |  |
-| [spellcategory_3](#spellcategory_3) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [spellcategorycooldown_3](#spellcategorycooldown_3) | int(11) | signed |  | NO | -1 |  |  |
-| [spellid_4](#spellid_4) | mediumint(8) | signed |  | NO | 0 |  |  |
-| [spelltrigger_4](#spelltrigger_4) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [spellcharges_4](#spellcharges_4) | smallint(6) | signed |  | NO | 0 |  |  |
+| [spellcooldown_3](#spellcooldown_3) | int | signed |  | NO | -1 |  |  |
+| [spellcategory_3](#spellcategory_3) | smallint | unsigned |  | NO | 0 |  |  |
+| [spellcategorycooldown_3](#spellcategorycooldown_3) | int | signed |  | NO | -1 |  |  |
+| [spellid_4](#spellid_4) | mediumint | signed |  | NO | 0 |  |  |
+| [spelltrigger_4](#spelltrigger_4) | tinyint | unsigned |  | NO | 0 |  |  |
+| [spellcharges_4](#spellcharges_4) | smallint | signed |  | NO | 0 |  |  |
 | [spellppmRate_4](#spellppmrate_4) | float |  |  | NO | 0 |  |  |
-| [spellcooldown_4](#spellcooldown_4) | int(11) | signed |  | NO | -1 |  |  |
-| [spellcategory_4](#spellcategory_4) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [spellcategorycooldown_4](#spellcategorycooldown_4) | int(11) | signed |  | NO | -1 |  |  |
-| [spellid_5](#spellid_5) | mediumint(8) | signed |  | NO | 0 |  |  |
-| [spelltrigger_5](#spelltrigger_5) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [spellcharges_5](#spellcharges_5) | smallint(6) | signed |  | NO | 0 |  |  |
+| [spellcooldown_4](#spellcooldown_4) | int | signed |  | NO | -1 |  |  |
+| [spellcategory_4](#spellcategory_4) | smallint | unsigned |  | NO | 0 |  |  |
+| [spellcategorycooldown_4](#spellcategorycooldown_4) | int | signed |  | NO | -1 |  |  |
+| [spellid_5](#spellid_5) | mediumint | signed |  | NO | 0 |  |  |
+| [spelltrigger_5](#spelltrigger_5) | tinyint | unsigned |  | NO | 0 |  |  |
+| [spellcharges_5](#spellcharges_5) | smallint | signed |  | NO | 0 |  |  |
 | [spellppmRate_5](#spellppmrate_5) | float |  |  | NO | 0 |  |  |
-| [spellcooldown_5](#spellcooldown_5) | int(11) | signed |  | NO | -1 |  |  |
-| [spellcategory_5](#spellcategory_5) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [spellcategorycooldown_5](#spellcategorycooldown_5) | int(11) | signed |  | NO | -1 |  |  |
-| [bonding](#bonding) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [description](#description) | varchar(255) | signed |  | NO | '' |  |  |
-| [PageText](#pagetext) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [LanguageID](#languageid) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [PageMaterial](#pagematerial) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [startquest](#startquest) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [lockid](#lockid) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [Material](#material) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [sheath](#sheath) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [RandomProperty](#randomproperty) | mediumint(8) | signed |  | NO | 0 |  |  |
-| [RandomSuffix](#randomsuffix) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [block](#block) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [itemset](#itemset) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [MaxDurability](#maxdurability) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [area](#area) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [Map](#map) | smallint(6) | signed |  | NO | 0 |  |  |
-| [BagFamily](#bagfamily) | mediumint(8) | signed |  | NO | 0 |  |  |
-| [TotemCategory](#totemcategory) | mediumint(8) | signed |  | NO | 0 |  |  |
-| [socketColor_1](#socketcolor_1) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [socketContent_1](#socketcontent_1) | mediumint(8) | signed |  | NO | 0 |  |  |
-| [socketColor_2](#socketcolor_2) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [socketContent_2](#socketcontent_2) | mediumint(8) | signed |  | NO | 0 |  |  |
-| [socketColor_3](#socketcolor_3) | tinyint(4) | signed |  | NO | 0 |  |  |
-| [socketContent_3](#socketcontent_3) | mediumint(8) | signed |  | NO | 0 |  |  |
-| [socketBonus](#socketbonus) | mediumint(8) | signed |  | NO | 0 |  |  |
-| [GemProperties](#gemproperties) | mediumint(8) | signed |  | NO | 0 |  |  |
-| [RequiredDisenchantSkill](#requireddisenchantskill) | smallint(6) | signed |  | NO | -1 |  |  |
+| [spellcooldown_5](#spellcooldown_5) | int | signed |  | NO | -1 |  |  |
+| [spellcategory_5](#spellcategory_5) | smallint | unsigned |  | NO | 0 |  |  |
+| [spellcategorycooldown_5](#spellcategorycooldown_5) | int | signed |  | NO | -1 |  |  |
+| [bonding](#bonding) | tinyint | unsigned |  | NO | 0 |  |  |
+| [description](#description) | varchar(255) |  |  | NO | '' |  |  |
+| [PageText](#pagetext) | mediumint | unsigned |  | NO | 0 |  |  |
+| [LanguageID](#languageid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [PageMaterial](#pagematerial) | tinyint | unsigned |  | NO | 0 |  |  |
+| [startquest](#startquest) | mediumint | unsigned |  | NO | 0 |  |  |
+| [lockid](#lockid) | mediumint | unsigned |  | NO | 0 |  |  |
+| [Material](#material) | tinyint | signed |  | NO | 0 |  |  |
+| [sheath](#sheath) | tinyint | unsigned |  | NO | 0 |  |  |
+| [RandomProperty](#randomproperty) | mediumint | signed |  | NO | 0 |  |  |
+| [RandomSuffix](#randomsuffix) | mediumint | unsigned |  | NO | 0 |  |  |
+| [block](#block) | mediumint | unsigned |  | NO | 0 |  |  |
+| [itemset](#itemset) | mediumint | unsigned |  | NO | 0 |  |  |
+| [MaxDurability](#maxdurability) | smallint | unsigned |  | NO | 0 |  |  |
+| [area](#area) | mediumint | unsigned |  | NO | 0 |  |  |
+| [Map](#map) | smallint | signed |  | NO | 0 |  |  |
+| [BagFamily](#bagfamily) | mediumint | signed |  | NO | 0 |  |  |
+| [TotemCategory](#totemcategory) | mediumint | signed |  | NO | 0 |  |  |
+| [socketColor_1](#socketcolor_1) | tinyint | signed |  | NO | 0 |  |  |
+| [socketContent_1](#socketcontent_1) | mediumint | signed |  | NO | 0 |  |  |
+| [socketColor_2](#socketcolor_2) | tinyint | signed |  | NO | 0 |  |  |
+| [socketContent_2](#socketcontent_2) | mediumint | signed |  | NO | 0 |  |  |
+| [socketColor_3](#socketcolor_3) | tinyint | signed |  | NO | 0 |  |  |
+| [socketContent_3](#socketcontent_3) | mediumint | signed |  | NO | 0 |  |  |
+| [socketBonus](#socketbonus) | mediumint | signed |  | NO | 0 |  |  |
+| [GemProperties](#gemproperties) | mediumint | signed |  | NO | 0 |  |  |
+| [RequiredDisenchantSkill](#requireddisenchantskill) | smallint | signed |  | NO | -1 |  |  |
 | [ArmorDamageModifier](#armordamagemodifier) | float |  |  | NO | 0 |  |  |
-| [duration](#duration) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ItemLimitCategory](#itemlimitcategory) | smallint(6) | signed |  | NO | 0 |  |  |
-| [HolidayId](#holidayid) | int(11) | unsigned |  | NO | 0 |  |  |
-| [ScriptName](#scriptname) | varchar(64) | signed |  | NO | '' |  |  |
-| [DisenchantID](#disenchantid) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [FoodType](#foodtype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [minMoneyLoot](#minmoneyloot) | int(10) | unsigned |  | NO | 0 |  |  |
-| [maxMoneyLoot](#maxmoneyloot) | int(10) | unsigned |  | NO | 0 |  |  |
-| [flagsCustom](#flagscustom) | int(10) | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | smallint(5) | signed |  | YES | 0 |  |  |
+| [duration](#duration) | int | unsigned |  | NO | 0 |  |  |
+| [ItemLimitCategory](#itemlimitcategory) | smallint | signed |  | NO | 0 |  |  |
+| [HolidayId](#holidayid) | int | unsigned |  | NO | 0 |  |  |
+| [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
+| [DisenchantID](#disenchantid) | mediumint | unsigned |  | NO | 0 |  |  |
+| [FoodType](#foodtype) | tinyint | unsigned |  | NO | 0 |  |  |
+| [minMoneyLoot](#minmoneyloot) | int | unsigned |  | NO | 0 |  |  |
+| [maxMoneyLoot](#maxmoneyloot) | int | unsigned |  | NO | 0 |  |  |
+| [flagsCustom](#flagscustom) | int | unsigned |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | smallint | signed |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -713,4 +713,3 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/world/item_set_names_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'item_set_names_locale'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/item_template_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'item_template_locale'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

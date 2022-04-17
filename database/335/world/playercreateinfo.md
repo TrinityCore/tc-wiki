@@ -2,7 +2,7 @@
 title: playercreateinfo
 description: 
 published: true
-date: 2021-08-30T22:01:28.049Z
+date: 2022-04-17T21:02:02.010Z
 tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [race](#race) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
-| [class](#class) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
-| [map](#map) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [zone](#zone) | mediumint(8) | unsigned |  | NO | 0 |  |  |
+| [race](#race) | tinyint | unsigned | PRI | NO | 0 |  |  |
+| [class](#class) | tinyint | unsigned | PRI | NO | 0 |  |  |
+| [map](#map) | smallint | unsigned |  | NO | 0 |  |  |
+| [zone](#zone) | mediumint | unsigned |  | NO | 0 |  |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |
@@ -58,4 +58,3 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/world/player_xp_for_level" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'player_xp_for_level'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/playercreateinfo_action" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'playercreateinfo_action'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

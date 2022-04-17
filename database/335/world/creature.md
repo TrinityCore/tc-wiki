@@ -2,7 +2,7 @@
 title: creature
 description: 
 published: true
-date: 2021-08-30T22:01:28.017Z
+date: 2022-04-17T21:01:59.119Z
 tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,30 +14,30 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | int(10) | unsigned | PRI | NO |  | auto_increment | Global Unique Identifier |
-| [id](#id) | mediumint(8) | unsigned | MUL | NO | 0 |  | Creature Identifier |
-| [map](#map) | smallint(5) | unsigned | MUL | NO | 0 |  | Map Identifier |
-| [zoneId](#zoneid) | smallint(5) | unsigned |  | NO | 0 |  | Zone Identifier |
-| [areaId](#areaid) | smallint(5) | unsigned |  | NO | 0 |  | Area Identifier |
-| [spawnMask](#spawnmask) | tinyint(3) | unsigned |  | NO | 1 |  |  |
-| [phaseMask](#phasemask) | int(10) | unsigned |  | NO | 1 |  |  |
-| [modelid](#modelid) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [equipment_id](#equipment_id) | tinyint(3) | signed |  | NO | 0 |  |  |
+| [guid](#guid) | int | unsigned | PRI | NO |  | auto_increment | Global Unique Identifier |
+| [id](#id) | mediumint | unsigned | MUL | NO | 0 |  | Creature Identifier |
+| [map](#map) | smallint | unsigned | MUL | NO | 0 |  | Map Identifier |
+| [zoneId](#zoneid) | smallint | unsigned |  | NO | 0 |  | Zone Identifier |
+| [areaId](#areaid) | smallint | unsigned |  | NO | 0 |  | Area Identifier |
+| [spawnMask](#spawnmask) | tinyint | unsigned |  | NO | 1 |  |  |
+| [phaseMask](#phasemask) | int | unsigned |  | NO | 1 |  |  |
+| [modelid](#modelid) | mediumint | unsigned |  | NO | 0 |  |  |
+| [equipment_id](#equipment_id) | tinyint | signed |  | NO | 0 |  |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |
 | [orientation](#orientation) | float |  |  | NO | 0 |  |  |
-| [spawntimesecs](#spawntimesecs) | int(10) | unsigned |  | NO | 120 |  |  |
+| [spawntimesecs](#spawntimesecs) | int | unsigned |  | NO | 120 |  |  |
 | [wander_distance](#wander_distance) | float |  |  | NO | 0 |  |  |
-| [currentwaypoint](#currentwaypoint) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [curhealth](#curhealth) | int(10) | unsigned |  | NO | 1 |  |  |
-| [curmana](#curmana) | int(10) | unsigned |  | NO | 0 |  |  |
-| [MovementType](#movementtype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [npcflag](#npcflag) | int(10) | unsigned |  | NO | 0 |  |  |
-| [unit_flags](#unit_flags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [dynamicflags](#dynamicflags) | int(10) | unsigned |  | NO | 0 |  |  |
-| [ScriptName](#scriptname) | char(64) | signed |  | YES | '' |  |  |
-| [VerifiedBuild](#verifiedbuild) | int(11) | signed |  | YES | 0 |  |  |
+| [currentwaypoint](#currentwaypoint) | mediumint | unsigned |  | NO | 0 |  |  |
+| [curhealth](#curhealth) | int | unsigned |  | NO | 1 |  |  |
+| [curmana](#curmana) | int | unsigned |  | NO | 0 |  |  |
+| [MovementType](#movementtype) | tinyint | unsigned |  | NO | 0 |  |  |
+| [npcflag](#npcflag) | int | unsigned |  | NO | 0 |  |  |
+| [unit_flags](#unit_flags) | int | unsigned |  | NO | 0 |  |  |
+| [dynamicflags](#dynamicflags) | int | unsigned |  | NO | 0 |  |  |
+| [ScriptName](#scriptname) | char(64) |  |  | YES | '' |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -138,4 +138,3 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/world/conditions" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'conditions'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/creature_addon" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'creature_addon'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

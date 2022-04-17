@@ -2,7 +2,7 @@
 title: creature_template_addon
 description: 
 published: true
-date: 2021-08-30T22:01:28.023Z
+date: 2022-04-17T21:01:59.690Z
 tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,13 +14,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
-| [path_id](#path_id) | int(10) | unsigned |  | NO | 0 |  |  |
-| [mount](#mount) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [bytes1](#bytes1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [bytes2](#bytes2) | int(10) | unsigned |  | NO | 1 |  |  |
-| [emote](#emote) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [visibilityDistanceType](#visibilitydistancetype) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [entry](#entry) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [path_id](#path_id) | int | unsigned |  | NO | 0 |  |  |
+| [mount](#mount) | mediumint | unsigned |  | NO | 0 |  |  |
+| [MountCreatureID](#mountcreatureid) | int | unsigned |  | NO | 0 |  |  |
+| [bytes1](#bytes1) | int | unsigned |  | NO | 0 |  |  |
+| [bytes2](#bytes2) | int | unsigned |  | NO | 1 |  |  |
+| [emote](#emote) | mediumint | unsigned |  | NO | 0 |  |  |
+| [visibilityDistanceType](#visibilitydistancetype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [auras](#auras) | text |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
@@ -34,6 +35,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### mount
+*- no description -*
+&nbsp;
+
+### MountCreatureID
 *- no description -*
 &nbsp;
 
@@ -58,4 +63,3 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/world/creature_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'creature_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/creature_template_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'creature_template_locale'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

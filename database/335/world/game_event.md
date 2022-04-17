@@ -2,7 +2,7 @@
 title: game_event
 description: 
 published: true
-date: 2021-08-30T22:01:28.027Z
+date: 2022-04-17T21:01:59.986Z
 tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,16 +14,16 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [eventEntry](#evententry) | tinyint(3) | unsigned | PRI | NO |  |  | Entry of the game event |
-| [start_time](#start_time) | timestamp | signed |  | YES | NULL |  | Absolute start date, the event will never start before |
-| [end_time](#end_time) | timestamp | signed |  | YES | NULL |  | Absolute end date, the event will never start after |
-| [occurence](#occurence) | bigint(20) | unsigned |  | NO | 5184000 |  | Delay in minutes between occurences of the event |
-| [length](#length) | bigint(20) | unsigned |  | NO | 2592000 |  | Length in minutes of the event |
-| [holiday](#holiday) | mediumint(8) | unsigned |  | NO | 0 |  | Client side holiday id |
-| [holidayStage](#holidaystage) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [description](#description) | varchar(255) | signed |  | YES | NULL |  | Description of the event displayed in console |
-| [world_event](#world_event) | tinyint(3) | unsigned |  | NO | 0 |  | 0 if normal event, 1 if world event |
-| [announce](#announce) | tinyint(3) | unsigned |  | YES | 2 |  | 0 dont announce, 1 announce, 2 value from config |
+| [eventEntry](#evententry) | tinyint | unsigned | PRI | NO |  |  | Entry of the game event |
+| [start_time](#start_time) | timestamp |  |  | YES | NULL |  | Absolute start date, the event will never start before |
+| [end_time](#end_time) | timestamp |  |  | YES | NULL |  | Absolute end date, the event will never start after |
+| [occurence](#occurence) | bigint | unsigned |  | NO | 5184000 |  | Delay in minutes between occurences of the event |
+| [length](#length) | bigint | unsigned |  | NO | 2592000 |  | Length in minutes of the event |
+| [holiday](#holiday) | mediumint | unsigned |  | NO | 0 |  | Client side holiday id |
+| [holidayStage](#holidaystage) | tinyint | unsigned |  | NO | 0 |  |  |
+| [description](#description) | varchar(255) |  |  | YES | NULL |  | Description of the event displayed in console |
+| [world_event](#world_event) | tinyint | unsigned |  | NO | 0 |  | 0 if normal event, 1 if world event |
+| [announce](#announce) | tinyint | unsigned |  | YES | 2 |  | 0 dont announce, 1 announce, 2 value from config |
 &nbsp;
 ## Description of fields
 
@@ -68,4 +68,3 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/world/fishing_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'fishing_loot_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/game_event_arena_seasons" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'game_event_arena_seasons'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
