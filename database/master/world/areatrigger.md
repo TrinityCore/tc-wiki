@@ -2,7 +2,7 @@
 title: areatrigger
 description: 
 published: true
-date: 2022-03-16T04:21:13.933Z
+date: 2022-04-17T18:35:05.128Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -34,8 +34,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [ShapeData5](#shapedata0-7) | float |  |  | NO | 0 |  |  |
 | [ShapeData6](#shapedata0-7) | float |  |  | NO | 0 |  |  |
 | [ShapeData7](#shapedata0-7) | float |  |  | NO | 0 |  |  |
-| [ScriptName](#scriptname) | varchar(64) | signed |  | NO | '' |  |  |
-| [Comment](#comment) | varchar(255) | signed |  | YES | NULL |  |  |
+| [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
+| [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 
@@ -137,4 +137,3 @@ This field is for any comment you want to make about the requirements. It is arb
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/achievement_scripts" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'achievement_scripts'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/areatrigger_create_properties" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'areatrigger_create_properties'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

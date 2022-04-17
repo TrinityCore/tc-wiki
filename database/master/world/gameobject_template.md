@@ -2,7 +2,7 @@
 title: gameobject_template
 description: 
 published: true
-date: 2022-02-06T18:26:20.419Z
+date: 2022-04-17T18:35:12.126Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -17,10 +17,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
 | [type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
 | [displayId](#displayid) | int | unsigned |  | NO | 0 |  |  |
-| [name](#name) | varchar(100) | signed | MUL | NO | '' |  |  |
-| [IconName](#iconname) | varchar(100) | signed |  | NO | '' |  |  |
-| [castBarCaption](#castbarcaption) | varchar(100) | signed |  | NO | '' |  |  |
-| [unk1](#unk1) | varchar(100) | signed |  | NO | '' |  |  |
+| [name](#name) | varchar(100) |  | MUL | NO | '' |  |  |
+| [IconName](#iconname) | varchar(100) |  |  | NO | '' |  |  |
+| [castBarCaption](#castbarcaption) | varchar(100) |  |  | NO | '' |  |  |
+| [unk1](#unk1) | varchar(100) |  |  | NO | '' |  |  |
 | [size](#size) | float |  |  | NO | 1 |  |  |
 | [Data0](#data0) | int | signed |  | NO | 0 |  |  |
 | [Data1](#data1) | int | signed |  | NO | 0 |  |  |
@@ -58,8 +58,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Data33](#data33) | int | signed |  | NO | 0 |  |  |
 | [Data34](#data34) | int | signed |  | NO | 0 |  |  |
 | [ContentTuningId](#contenttuningid) | int | signed |  | NO | 0 |  |  |
-| [AIName](#ainame) | varchar(64) | signed |  | NO | '' |  |  |
-| [ScriptName](#scriptname) | varchar(64) | signed |  | NO | '' |  |  |
+| [AIName](#ainame) | varchar(64) |  |  | NO | '' |  |  |
+| [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -262,4 +262,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/gameobject_queststarter" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'gameobject_queststarter'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/gameobject_template_addon" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'gameobject_template_addon'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

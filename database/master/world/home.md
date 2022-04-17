@@ -2,10 +2,10 @@
 title: World
 description: 
 published: true
-date: 2022-02-16T23:54:57.275Z
+date: 2022-04-17T19:02:30.163Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-28T21:01:17.438Z
+dateCreated: 2021-08-30T06:00:00.000Z
 ---
 
 ## a
@@ -29,6 +29,7 @@ dateCreated: 2021-08-28T21:01:17.438Z
 ## b
 - [battle_pet_breeds](/database/master/world/battle_pet_breeds)
 - [battle_pet_quality](/database/master/world/battle_pet_quality)
+- [battlefield_template](/database/master/world/battlefield_template)
 - [battleground_template](/database/master/world/battleground_template)
 - [battlemaster_entry](/database/master/world/battlemaster_entry)
 - [blackmarket_template](/database/master/world/blackmarket_template)
@@ -49,6 +50,7 @@ dateCreated: 2021-08-28T21:01:17.438Z
 - [creature_formations](/database/master/world/creature_formations)
 - [creature_loot_template](/database/master/world/creature_loot_template)
 - [creature_model_info](/database/master/world/creature_model_info)
+- [creature_movement_info](/database/master/world/creature_movement_info)
 - [creature_movement_override](/database/master/world/creature_movement_override)
 - [creature_onkill_reputation](/database/master/world/creature_onkill_reputation)
 - [creature_questender](/database/master/world/creature_questender)
@@ -111,8 +113,6 @@ dateCreated: 2021-08-28T21:01:17.438Z
 - [garrison_plot_finalize_info](/database/master/world/garrison_plot_finalize_info)
 - [gossip_menu](/database/master/world/gossip_menu)
 - [gossip_menu_option](/database/master/world/gossip_menu_option)
-- [gossip_menu_option_action](/database/master/world/gossip_menu_option_action)
-- [gossip_menu_option_box](/database/master/world/gossip_menu_option_box)
 - [gossip_menu_option_locale](/database/master/world/gossip_menu_option_locale)
 - [graveyard_zone](/database/master/world/graveyard_zone)
 - [guild_rewards](/database/master/world/guild_rewards)
@@ -269,6 +269,9 @@ dateCreated: 2021-08-28T21:01:17.438Z
 - [vehicle_template](/database/master/world/vehicle_template)
 - [vehicle_template_accessory](/database/master/world/vehicle_template_accessory)
 - [version](/database/master/world/version)
+- [vw_conditions_with_labels](/database/master/world/vw_conditions_with_labels)
+- [vw_disables_with_labels](/database/master/world/vw_disables_with_labels)
+- [vw_smart_scripts_with_labels](/database/master/world/vw_smart_scripts_with_labels)
 {.links-list}
 ## w
 - [warden_checks](/database/master/world/warden_checks)
@@ -277,4 +280,3 @@ dateCreated: 2021-08-28T21:01:17.438Z
 - [waypoints](/database/master/world/waypoints)
 - [world_safe_locs](/database/master/world/world_safe_locs)
 {.links-list}
-
