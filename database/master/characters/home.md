@@ -2,10 +2,10 @@
 title: Characters
 description: 
 published: true
-date: 2021-08-30T08:20:26.248Z
+date: 2022-04-17T20:23:09.347Z
 tags: database, master, characters
 editor: markdown
-dateCreated: 2021-08-28T20:36:56.913Z
+dateCreated: 2021-08-30T06:00:00.000Z
 ---
 
 ## a
@@ -99,8 +99,6 @@ dateCreated: 2021-08-28T20:36:56.913Z
 - [guild_bank_right](/database/master/characters/guild_bank_right)
 - [guild_bank_tab](/database/master/characters/guild_bank_tab)
 - [guild_eventlog](/database/master/characters/guild_eventlog)
-- [guild_finder_applicant](/database/master/characters/guild_finder_applicant)
-- [guild_finder_guild_settings](/database/master/characters/guild_finder_guild_settings)
 - [guild_member](/database/master/characters/guild_member)
 - [guild_member_withdraw](/database/master/characters/guild_member_withdraw)
 - [guild_newslog](/database/master/characters/guild_newslog)

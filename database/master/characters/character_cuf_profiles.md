@@ -2,7 +2,7 @@
 title: character_cuf_profiles
 description: 
 published: true
-date: 2022-02-06T18:26:45.264Z
+date: 2022-04-17T20:23:08.779Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  | Character Guid |
 | [id](#id) | tinyint | unsigned | PRI | NO |  |  | Profile Id (0-4) |
-| [name](#name) | varchar(12) | signed |  | NO |  |  | Profile Name |
+| [name](#name) | varchar(12) |  |  | NO |  |  | Profile Name |
 | [frameHeight](#frameheight) | smallint | unsigned |  | NO | 0 |  | Profile Frame Height |
 | [frameWidth](#framewidth) | smallint | unsigned |  | NO | 0 |  | Profile Frame Width |
 | [sortBy](#sortby) | tinyint | unsigned |  | NO | 0 |  | Frame Sort By |
@@ -88,4 +88,3 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/characters/character_battleground_random" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_battleground_random'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/characters/character_currency" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_currency'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

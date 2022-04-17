@@ -2,7 +2,7 @@
 title: groups
 description: 
 published: true
-date: 2022-02-06T18:26:45.277Z
+date: 2022-04-17T20:23:09.196Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -19,14 +19,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [lootMethod](#lootmethod) | tinyint | unsigned |  | NO |  |  |  |
 | [looterGuid](#looterguid) | bigint | unsigned |  | NO |  |  |  |
 | [lootThreshold](#lootthreshold) | tinyint | unsigned |  | NO |  |  |  |
-| [icon1](#icon1) | binary(16) | signed |  | NO |  |  |  |
-| [icon2](#icon2) | binary(16) | signed |  | NO |  |  |  |
-| [icon3](#icon3) | binary(16) | signed |  | NO |  |  |  |
-| [icon4](#icon4) | binary(16) | signed |  | NO |  |  |  |
-| [icon5](#icon5) | binary(16) | signed |  | NO |  |  |  |
-| [icon6](#icon6) | binary(16) | signed |  | NO |  |  |  |
-| [icon7](#icon7) | binary(16) | signed |  | NO |  |  |  |
-| [icon8](#icon8) | binary(16) | signed |  | NO |  |  |  |
+| [icon1](#icon1) | binary(16) |  |  | NO |  |  |  |
+| [icon2](#icon2) | binary(16) |  |  | NO |  |  |  |
+| [icon3](#icon3) | binary(16) |  |  | NO |  |  |  |
+| [icon4](#icon4) | binary(16) |  |  | NO |  |  |  |
+| [icon5](#icon5) | binary(16) |  |  | NO |  |  |  |
+| [icon6](#icon6) | binary(16) |  |  | NO |  |  |  |
+| [icon7](#icon7) | binary(16) |  |  | NO |  |  |  |
+| [icon8](#icon8) | binary(16) |  |  | NO |  |  |  |
 | [groupType](#grouptype) | tinyint | unsigned |  | NO |  |  |  |
 | [difficulty](#difficulty) | tinyint | unsigned |  | NO | 1 |  |  |
 | [raidDifficulty](#raiddifficulty) | tinyint | unsigned |  | NO | 14 |  |  |
@@ -108,4 +108,3 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/characters/group_member" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'group_member'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/characters/guild" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'guild'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

@@ -2,7 +2,7 @@
 title: character_stats
 description: 
 published: true
-date: 2022-02-06T18:26:45.273Z
+date: 2022-04-17T20:23:08.908Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -34,12 +34,12 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [resFrost](#resfrost) | int | unsigned |  | NO | 0 |  |  |
 | [resShadow](#resshadow) | int | unsigned |  | NO | 0 |  |  |
 | [resArcane](#resarcane) | int | unsigned |  | NO | 0 |  |  |
-| [blockPct](#blockpct) | float | unsigned |  | NO | 0 |  |  |
-| [dodgePct](#dodgepct) | float | unsigned |  | NO | 0 |  |  |
-| [parryPct](#parrypct) | float | unsigned |  | NO | 0 |  |  |
-| [critPct](#critpct) | float | unsigned |  | NO | 0 |  |  |
-| [rangedCritPct](#rangedcritpct) | float | unsigned |  | NO | 0 |  |  |
-| [spellCritPct](#spellcritpct) | float | unsigned |  | NO | 0 |  |  |
+| [blockPct](#blockpct) | float |  |  | NO | 0 |  |  |
+| [dodgePct](#dodgepct) | float |  |  | NO | 0 |  |  |
+| [parryPct](#parrypct) | float |  |  | NO | 0 |  |  |
+| [critPct](#critpct) | float |  |  | NO | 0 |  |  |
+| [rangedCritPct](#rangedcritpct) | float |  |  | NO | 0 |  |  |
+| [spellCritPct](#spellcritpct) | float |  |  | NO | 0 |  |  |
 | [attackPower](#attackpower) | int | unsigned |  | NO | 0 |  |  |
 | [rangedAttackPower](#rangedattackpower) | int | unsigned |  | NO | 0 |  |  |
 | [spellPower](#spellpower) | int | unsigned |  | NO | 0 |  |  |
@@ -168,4 +168,3 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/characters/character_spell_cooldown" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_spell_cooldown'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/characters/character_talent" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_talent'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

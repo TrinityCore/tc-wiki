@@ -2,7 +2,7 @@
 title: characters
 description: 
 published: true
-date: 2022-02-06T18:26:45.274Z
+date: 2022-04-17T20:23:09.153Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
 | [account](#account) | int | unsigned | MUL | NO | 0 |  | Account Identifier |
-| [name](#name) | varchar(12) | signed | MUL | NO |  |  |  |
+| [name](#name) | varchar(12) |  | MUL | NO |  |  |  |
 | [slot](#slot) | tinyint | unsigned |  | NO | 0 |  |  |
 | [race](#race) | tinyint | unsigned |  | NO | 0 |  |  |
 | [class](#class) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -85,7 +85,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [knownTitles](#knowntitles) | longtext |  |  | YES | NULL |  |  |
 | [actionBars](#actionbars) | tinyint | unsigned |  | NO | 0 |  |  |
 | [deleteInfos_Account](#deleteinfos_account) | int | unsigned |  | YES | NULL |  |  |
-| [deleteInfos_Name](#deleteinfos_name) | varchar(12) | signed |  | YES | NULL |  |  |
+| [deleteInfos_Name](#deleteinfos_name) | varchar(12) |  |  | YES | NULL |  |  |
 | [deleteDate](#deletedate) | bigint | signed |  | YES | NULL |  |  |
 | [honor](#honor) | int | unsigned |  | NO | 0 |  |  |
 | [honorLevel](#honorlevel) | int | unsigned |  | NO | 1 |  |  |
@@ -408,4 +408,3 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/characters/character_void_storage" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_void_storage'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/characters/corpse" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'corpse'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

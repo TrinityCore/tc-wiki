@@ -2,7 +2,7 @@
 title: character_equipmentsets
 description: 
 published: true
-date: 2022-02-06T18:26:45.265Z
+date: 2022-04-17T20:23:08.824Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -17,8 +17,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [guid](#guid) | bigint | unsigned | MUL | NO | 0 |  |  |
 | [setguid](#setguid) | bigint | unsigned | PRI | NO |  | auto_increment |  |
 | [setindex](#setindex) | tinyint | unsigned | MUL | NO | 0 |  |  |
-| [name](#name) | varchar(31) | signed |  | NO |  |  |  |
-| [iconname](#iconname) | varchar(100) | signed |  | NO |  |  |  |
+| [name](#name) | varchar(31) |  |  | NO |  |  |  |
+| [iconname](#iconname) | varchar(100) |  |  | NO |  |  |  |
 | [ignore_mask](#ignore_mask) | int | unsigned |  | NO | 0 |  |  |
 | [AssignedSpecIndex](#assignedspecindex) | int | signed |  | NO | -1 |  |  |
 | [item0](#item0) | bigint | unsigned |  | NO | 0 |  |  |
@@ -148,4 +148,3 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/characters/character_declinedname" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_declinedname'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/characters/character_favorite_auctions" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_favorite_auctions'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

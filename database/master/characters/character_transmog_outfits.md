@@ -2,7 +2,7 @@
 title: character_transmog_outfits
 description: 
 published: true
-date: 2022-02-06T18:26:45.273Z
+date: 2022-04-17T20:23:08.930Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -17,8 +17,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [guid](#guid) | bigint | signed | MUL | NO | 0 |  |  |
 | [setguid](#setguid) | bigint | signed | PRI | NO |  | auto_increment |  |
 | [setindex](#setindex) | tinyint | unsigned | MUL | NO | 0 |  |  |
-| [name](#name) | varchar(128) | signed |  | NO |  |  |  |
-| [iconname](#iconname) | varchar(256) | signed |  | NO |  |  |  |
+| [name](#name) | varchar(128) |  |  | NO |  |  |  |
+| [iconname](#iconname) | varchar(256) |  |  | NO |  |  |  |
 | [ignore_mask](#ignore_mask) | int | signed |  | NO | 0 |  |  |
 | [appearance0](#appearance0) | int | signed |  | NO | 0 |  |  |
 | [appearance1](#appearance1) | int | signed |  | NO | 0 |  |  |
@@ -153,4 +153,3 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/characters/character_talent" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_talent'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/characters/character_void_storage" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_void_storage'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

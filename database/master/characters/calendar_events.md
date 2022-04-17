@@ -2,7 +2,7 @@
 title: calendar_events
 description: 
 published: true
-date: 2022-02-06T18:26:45.260Z
+date: 2022-04-17T20:23:08.694Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,8 +16,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [EventID](#eventid) | bigint | unsigned | PRI | NO | 0 |  |  |
 | [Owner](#owner) | bigint | unsigned |  | NO | 0 |  |  |
-| [Title](#title) | varchar(255) | signed |  | NO | '' |  |  |
-| [Description](#description) | varchar(255) | signed |  | NO | '' |  |  |
+| [Title](#title) | varchar(255) |  |  | NO | '' |  |  |
+| [Description](#description) | varchar(255) |  |  | NO | '' |  |  |
 | [EventType](#eventtype) | tinyint | unsigned |  | NO | 4 |  |  |
 | [TextureID](#textureid) | int | signed |  | NO | -1 |  |  |
 | [Date](#date) | bigint | signed |  | NO | 0 |  |  |
@@ -63,4 +63,3 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/characters/bugreport" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'bugreport'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/characters/calendar_invites" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'calendar_invites'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
