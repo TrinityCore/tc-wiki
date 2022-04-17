@@ -2,7 +2,7 @@
 title: logs
 description: This table stores all logs from authserver if database logging in config is enabled.
 published: true
-date: 2022-02-06T18:26:50.184Z
+date: 2022-04-17T20:19:41.037Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [time](#time) | int | unsigned |  | NO |  |  |  |
 | [realm](#realm) | int | unsigned |  | NO |  |  |  |
-| [type](#type) | varchar(250) | signed |  | NO |  |  |  |
+| [type](#type) | varchar(250) |  |  | NO |  |  |  |
 | [level](#level) | tinyint | unsigned |  | NO | 0 |  |  |
 | [string](#string) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
@@ -64,4 +64,3 @@ The actual string that has been logged.
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/auth/ip_banned" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'ip_banned'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/auth/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to auth</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/auth/logs_ip_actions" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'logs_ip_actions'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

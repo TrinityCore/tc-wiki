@@ -2,7 +2,7 @@
 title: battle_pets
 description: 
 published: true
-date: 2022-02-07T23:21:18.671Z
+date: 2022-04-17T20:19:40.992Z
 tags: database, auth, master
 editor: markdown
 dateCreated: 2021-08-21T03:48:21.661Z
@@ -24,7 +24,7 @@ dateCreated: 2021-08-21T03:48:21.661Z
 | [health](#health) | int | signed |  | NO | 1 |  |  |
 | [quality](#quality) | tinyint | signed |  | NO | 0 |  |  |
 | [flags](#flags) | smallint | signed |  | NO | 0 |  |  |
-| [name](#name) | varchar(12) | signed |  | NO |  |  |  |
+| [name](#name) | varchar(12) |  |  | NO |  |  |  |
 | [nameTimestamp](#nametimestamp) | bigint | signed |  | NO | 0 |  |  |
 | [owner](#owner) | bigint | signed |  | YES | NULL |  |  |
 | [ownerRealmId](#ownerrealmid) | int | signed |  | YES | NULL |  |  |
@@ -100,4 +100,3 @@ Current battle pet name. If empty, the battle pet will use the [name](../world/c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/auth/battle_pet_slots" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'battle_pet_slots'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/auth/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to auth</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/auth/battlenet_account_bans" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'battlenet_account_bans'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

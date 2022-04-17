@@ -2,7 +2,7 @@
 title: realmlist
 description: This table sets up information on all available realms. Each row controls a different realm.
 published: true
-date: 2022-03-16T03:50:47.704Z
+date: 2022-04-17T20:19:41.063Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,17 +15,17 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [id](#id) | int | unsigned | PRI | NO |  | auto_increment |  |
-| [name](#name) | varchar(32) | signed | UNI | NO | '' |  |  |
-| [address](#address) | varchar(255) | signed |  | NO | 127.0.0.1 |  |  |
-| [localAddress](#localaddress) | varchar(255) | signed |  | NO | 127.0.0.1 |  |  |
-| [localSubnetMask](#localsubnetmask) | varchar(255) | signed |  | NO | 255.255.255.0 |  |  |
+| [name](#name) | varchar(32) |  | UNI | NO | '' |  |  |
+| [address](#address) | varchar(255) |  |  | NO | 127.0.0.1 |  |  |
+| [localAddress](#localaddress) | varchar(255) |  |  | NO | 127.0.0.1 |  |  |
+| [localSubnetMask](#localsubnetmask) | varchar(255) |  |  | NO | 255.255.255.0 |  |  |
 | [port](#port) | smallint | unsigned |  | NO | 8085 |  |  |
 | [icon](#icon) | tinyint | unsigned |  | NO | 0 |  |  |
 | [flag](#flag) | tinyint | unsigned |  | NO | 2 |  |  |
 | [timezone](#timezone) | tinyint | unsigned |  | NO | 0 |  |  |
 | [allowedSecurityLevel](#allowedsecuritylevel) | tinyint | unsigned |  | NO | 0 |  |  |
-| [population](#population) | float | unsigned |  | NO | 0 |  |  |
-| [gamebuild](#gamebuild) | int | unsigned |  | NO | 42698 |  |  |
+| [population](#population) | float |  |  | NO | 0 |  |  |
+| [gamebuild](#gamebuild) | int | unsigned |  | NO | 43114 |  |  |
 | [Region](#region) | tinyint | unsigned |  | NO | 1 |  |  |
 | [Battlegroup](#battlegroup) | tinyint | unsigned |  | NO | 1 |  |  |
 &nbsp;
@@ -175,4 +175,3 @@ Accepted Client version for the realm.
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/auth/realmcharacters" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'realmcharacters'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/auth/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to auth</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/auth/secret_digest" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'secret_digest'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

@@ -2,7 +2,7 @@
 title: battlenet_accounts
 description: This table holds information on all available battlenet accounts.
 published: true
-date: 2022-02-06T18:26:50.183Z
+date: 2022-04-17T20:19:41.014Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,19 +15,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [id](#id) | int | unsigned | PRI | NO |  | auto_increment | Identifier |
-| [email](#email) | varchar(320) | signed |  | NO |  |  |  |
-| [sha_pass_hash](#sha_pass_hash) | varchar(64) | signed |  | NO | '' |  |  |
-| [joindate](#joindate) | timestamp | signed |  | NO | CURRENT_TIMESTAMP | DEFAULT_GENERATED |  |
-| [last_ip](#last_ip) | varchar(15) | signed |  | NO | 127.0.0.1 |  |  |
+| [email](#email) | varchar(320) |  |  | NO |  |  |  |
+| [sha_pass_hash](#sha_pass_hash) | varchar(64) |  |  | NO | '' |  |  |
+| [joindate](#joindate) | timestamp |  |  | NO | CURRENT_TIMESTAMP | DEFAULT_GENERATED |  |
+| [last_ip](#last_ip) | varchar(15) |  |  | NO | 127.0.0.1 |  |  |
 | [failed_logins](#failed_logins) | int | unsigned |  | NO | 0 |  |  |
 | [locked](#locked) | tinyint | unsigned |  | NO | 0 |  |  |
-| [lock_country](#lock_country) | varchar(2) | signed |  | NO | 00 |  |  |
-| [last_login](#last_login) | timestamp | signed |  | YES | NULL |  |  |
+| [lock_country](#lock_country) | varchar(2) |  |  | NO | 00 |  |  |
+| [last_login](#last_login) | timestamp |  |  | YES | NULL |  |  |
 | [online](#online) | tinyint | unsigned |  | NO | 0 |  |  |
 | [locale](#locale) | tinyint | unsigned |  | NO | 0 |  |  |
-| [os](#os) | varchar(4) | signed |  | NO | '' |  |  |
+| [os](#os) | varchar(4) |  |  | NO | '' |  |  |
 | [LastCharacterUndelete](#lastcharacterundelete) | int | unsigned |  | NO | 0 |  |  |
-| [LoginTicket](#loginticket) | varchar(64) | signed |  | YES | NULL |  |  |
+| [LoginTicket](#loginticket) | varchar(64) |  |  | YES | NULL |  |  |
 | [LoginTicketExpiry](#loginticketexpiry) | int | unsigned |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
@@ -105,4 +105,3 @@ Stores information about client's OS. Used by Warden system.
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/auth/battlenet_account_toys" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'battlenet_account_toys'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/auth/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to auth</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/auth/battlenet_item_appearances" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'battlenet_item_appearances'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
