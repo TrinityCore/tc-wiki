@@ -2,7 +2,7 @@
 title: characters
 description: 
 published: true
-date: 2021-08-30T22:00:42.130Z
+date: 2022-04-17T20:59:23.598Z
 tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,82 +14,82 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | int(10) | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
-| [account](#account) | int(10) | unsigned | MUL | NO | 0 |  | Account Identifier |
-| [name](#name) | varchar(12) | signed | MUL | NO |  |  |  |
-| [race](#race) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [class](#class) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [gender](#gender) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [level](#level) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [xp](#xp) | int(10) | unsigned |  | NO | 0 |  |  |
-| [money](#money) | int(10) | unsigned |  | NO | 0 |  |  |
-| [skin](#skin) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [face](#face) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [hairStyle](#hairstyle) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [hairColor](#haircolor) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [facialStyle](#facialstyle) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [bankSlots](#bankslots) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [restState](#reststate) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [playerFlags](#playerflags) | int(10) | unsigned |  | NO | 0 |  |  |
+| [guid](#guid) | int | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
+| [account](#account) | int | unsigned | MUL | NO | 0 |  | Account Identifier |
+| [name](#name) | varchar(12) |  | MUL | NO |  |  |  |
+| [race](#race) | tinyint | unsigned |  | NO | 0 |  |  |
+| [class](#class) | tinyint | unsigned |  | NO | 0 |  |  |
+| [gender](#gender) | tinyint | unsigned |  | NO | 0 |  |  |
+| [level](#level) | tinyint | unsigned |  | NO | 0 |  |  |
+| [xp](#xp) | int | unsigned |  | NO | 0 |  |  |
+| [money](#money) | int | unsigned |  | NO | 0 |  |  |
+| [skin](#skin) | tinyint | unsigned |  | NO | 0 |  |  |
+| [face](#face) | tinyint | unsigned |  | NO | 0 |  |  |
+| [hairStyle](#hairstyle) | tinyint | unsigned |  | NO | 0 |  |  |
+| [hairColor](#haircolor) | tinyint | unsigned |  | NO | 0 |  |  |
+| [facialStyle](#facialstyle) | tinyint | unsigned |  | NO | 0 |  |  |
+| [bankSlots](#bankslots) | tinyint | unsigned |  | NO | 0 |  |  |
+| [restState](#reststate) | tinyint | unsigned |  | NO | 0 |  |  |
+| [playerFlags](#playerflags) | int | unsigned |  | NO | 0 |  |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |
-| [map](#map) | smallint(5) | unsigned |  | NO | 0 |  | Map Identifier |
-| [instance_id](#instance_id) | int(10) | unsigned |  | NO | 0 |  |  |
-| [instance_mode_mask](#instance_mode_mask) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [map](#map) | smallint | unsigned |  | NO | 0 |  | Map Identifier |
+| [instance_id](#instance_id) | int | unsigned |  | NO | 0 |  |  |
+| [instance_mode_mask](#instance_mode_mask) | tinyint | unsigned |  | NO | 0 |  |  |
 | [orientation](#orientation) | float |  |  | NO | 0 |  |  |
 | [taximask](#taximask) | text |  |  | NO |  |  |  |
-| [online](#online) | tinyint(3) | unsigned | MUL | NO | 0 |  |  |
-| [cinematic](#cinematic) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [totaltime](#totaltime) | int(10) | unsigned |  | NO | 0 |  |  |
-| [leveltime](#leveltime) | int(10) | unsigned |  | NO | 0 |  |  |
-| [logout_time](#logout_time) | int(10) | unsigned |  | NO | 0 |  |  |
-| [is_logout_resting](#is_logout_resting) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [online](#online) | tinyint | unsigned | MUL | NO | 0 |  |  |
+| [cinematic](#cinematic) | tinyint | unsigned |  | NO | 0 |  |  |
+| [totaltime](#totaltime) | int | unsigned |  | NO | 0 |  |  |
+| [leveltime](#leveltime) | int | unsigned |  | NO | 0 |  |  |
+| [logout_time](#logout_time) | int | unsigned |  | NO | 0 |  |  |
+| [is_logout_resting](#is_logout_resting) | tinyint | unsigned |  | NO | 0 |  |  |
 | [rest_bonus](#rest_bonus) | float |  |  | NO | 0 |  |  |
-| [resettalents_cost](#resettalents_cost) | int(10) | unsigned |  | NO | 0 |  |  |
-| [resettalents_time](#resettalents_time) | int(10) | unsigned |  | NO | 0 |  |  |
+| [resettalents_cost](#resettalents_cost) | int | unsigned |  | NO | 0 |  |  |
+| [resettalents_time](#resettalents_time) | int | unsigned |  | NO | 0 |  |  |
 | [trans_x](#trans_x) | float |  |  | NO | 0 |  |  |
 | [trans_y](#trans_y) | float |  |  | NO | 0 |  |  |
 | [trans_z](#trans_z) | float |  |  | NO | 0 |  |  |
 | [trans_o](#trans_o) | float |  |  | NO | 0 |  |  |
-| [transguid](#transguid) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [extra_flags](#extra_flags) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [stable_slots](#stable_slots) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [at_login](#at_login) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [zone](#zone) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [death_expire_time](#death_expire_time) | int(10) | unsigned |  | NO | 0 |  |  |
+| [transguid](#transguid) | mediumint | unsigned |  | NO | 0 |  |  |
+| [extra_flags](#extra_flags) | smallint | unsigned |  | NO | 0 |  |  |
+| [stable_slots](#stable_slots) | tinyint | unsigned |  | NO | 0 |  |  |
+| [at_login](#at_login) | smallint | unsigned |  | NO | 0 |  |  |
+| [zone](#zone) | smallint | unsigned |  | NO | 0 |  |  |
+| [death_expire_time](#death_expire_time) | int | unsigned |  | NO | 0 |  |  |
 | [taxi_path](#taxi_path) | text |  |  | YES | NULL |  |  |
-| [arenaPoints](#arenapoints) | int(10) | unsigned |  | NO | 0 |  |  |
-| [totalHonorPoints](#totalhonorpoints) | int(10) | unsigned |  | NO | 0 |  |  |
-| [todayHonorPoints](#todayhonorpoints) | int(10) | unsigned |  | NO | 0 |  |  |
-| [yesterdayHonorPoints](#yesterdayhonorpoints) | int(10) | unsigned |  | NO | 0 |  |  |
-| [totalKills](#totalkills) | int(10) | unsigned |  | NO | 0 |  |  |
-| [todayKills](#todaykills) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [yesterdayKills](#yesterdaykills) | smallint(5) | unsigned |  | NO | 0 |  |  |
-| [chosenTitle](#chosentitle) | int(10) | unsigned |  | NO | 0 |  |  |
-| [knownCurrencies](#knowncurrencies) | bigint(20) | unsigned |  | NO | 0 |  |  |
-| [watchedFaction](#watchedfaction) | int(10) | unsigned |  | NO | 0 |  |  |
-| [drunk](#drunk) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [health](#health) | int(10) | unsigned |  | NO | 0 |  |  |
-| [power1](#power1) | int(10) | unsigned |  | NO | 0 |  |  |
-| [power2](#power2) | int(10) | unsigned |  | NO | 0 |  |  |
-| [power3](#power3) | int(10) | unsigned |  | NO | 0 |  |  |
-| [power4](#power4) | int(10) | unsigned |  | NO | 0 |  |  |
-| [power5](#power5) | int(10) | unsigned |  | NO | 0 |  |  |
-| [power6](#power6) | int(10) | unsigned |  | NO | 0 |  |  |
-| [power7](#power7) | int(10) | unsigned |  | NO | 0 |  |  |
-| [latency](#latency) | mediumint(8) | unsigned |  | NO | 0 |  |  |
-| [talentGroupsCount](#talentgroupscount) | tinyint(3) | unsigned |  | NO | 1 |  |  |
-| [activeTalentGroup](#activetalentgroup) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [arenaPoints](#arenapoints) | int | unsigned |  | NO | 0 |  |  |
+| [totalHonorPoints](#totalhonorpoints) | int | unsigned |  | NO | 0 |  |  |
+| [todayHonorPoints](#todayhonorpoints) | int | unsigned |  | NO | 0 |  |  |
+| [yesterdayHonorPoints](#yesterdayhonorpoints) | int | unsigned |  | NO | 0 |  |  |
+| [totalKills](#totalkills) | int | unsigned |  | NO | 0 |  |  |
+| [todayKills](#todaykills) | smallint | unsigned |  | NO | 0 |  |  |
+| [yesterdayKills](#yesterdaykills) | smallint | unsigned |  | NO | 0 |  |  |
+| [chosenTitle](#chosentitle) | int | unsigned |  | NO | 0 |  |  |
+| [knownCurrencies](#knowncurrencies) | bigint | unsigned |  | NO | 0 |  |  |
+| [watchedFaction](#watchedfaction) | int | unsigned |  | NO | 0 |  |  |
+| [drunk](#drunk) | tinyint | unsigned |  | NO | 0 |  |  |
+| [health](#health) | int | unsigned |  | NO | 0 |  |  |
+| [power1](#power1) | int | unsigned |  | NO | 0 |  |  |
+| [power2](#power2) | int | unsigned |  | NO | 0 |  |  |
+| [power3](#power3) | int | unsigned |  | NO | 0 |  |  |
+| [power4](#power4) | int | unsigned |  | NO | 0 |  |  |
+| [power5](#power5) | int | unsigned |  | NO | 0 |  |  |
+| [power6](#power6) | int | unsigned |  | NO | 0 |  |  |
+| [power7](#power7) | int | unsigned |  | NO | 0 |  |  |
+| [latency](#latency) | mediumint | unsigned |  | NO | 0 |  |  |
+| [talentGroupsCount](#talentgroupscount) | tinyint | unsigned |  | NO | 1 |  |  |
+| [activeTalentGroup](#activetalentgroup) | tinyint | unsigned |  | NO | 0 |  |  |
 | [exploredZones](#exploredzones) | longtext |  |  | YES | NULL |  |  |
 | [equipmentCache](#equipmentcache) | longtext |  |  | YES | NULL |  |  |
-| [ammoId](#ammoid) | int(10) | unsigned |  | NO | 0 |  |  |
+| [ammoId](#ammoid) | int | unsigned |  | NO | 0 |  |  |
 | [knownTitles](#knowntitles) | longtext |  |  | YES | NULL |  |  |
-| [actionBars](#actionbars) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [grantableLevels](#grantablelevels) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [deleteInfos_Account](#deleteinfos_account) | int(10) | unsigned |  | YES | NULL |  |  |
-| [deleteInfos_Name](#deleteinfos_name) | varchar(12) | signed |  | YES | NULL |  |  |
-| [deleteDate](#deletedate) | int(10) | unsigned |  | YES | NULL |  |  |
+| [actionBars](#actionbars) | tinyint | unsigned |  | NO | 0 |  |  |
+| [grantableLevels](#grantablelevels) | tinyint | unsigned |  | NO | 0 |  |  |
+| [deleteInfos_Account](#deleteinfos_account) | int | unsigned |  | YES | NULL |  |  |
+| [deleteInfos_Name](#deleteinfos_name) | varchar(12) |  |  | YES | NULL |  |  |
+| [deleteDate](#deletedate) | int | unsigned |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 
@@ -398,4 +398,3 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/characters/character_talent" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_talent'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/corpse" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'corpse'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

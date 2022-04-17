@@ -2,7 +2,7 @@
 title: character_aura
 description: 
 published: true
-date: 2021-09-16T09:50:27.803Z
+date: 2022-04-17T20:59:22.672Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:59:17.652Z
@@ -18,24 +18,24 @@ dateCreated: 2021-08-30T21:59:17.652Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | int(10) | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
-| [casterGuid](#casterguid) | bigint(20) | unsigned | PRI | NO | 0 |  | Full Global Unique Identifier |
-| [itemGuid](#itemguid) | bigint(20) | unsigned | PRI | NO | 0 |  |  |
-| [spell](#spell) | mediumint(8) | unsigned | PRI | NO | 0 |  |  |
-| [effectMask](#effectmask) | tinyint(3) | unsigned | PRI | NO | 0 |  |  |
-| [recalculateMask](#recalculatemask) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [stackCount](#stackcount) | tinyint(3) | unsigned |  | NO | 1 |  |  |
-| [amount0](#amount0) | int(11) | signed |  | NO | 0 |  |  |
-| [amount1](#amount1) | int(11) | signed |  | NO | 0 |  |  |
-| [amount2](#amount2) | int(11) | signed |  | NO | 0 |  |  |
-| [base_amount0](#base_amount0) | int(11) | signed |  | NO | 0 |  |  |
-| [base_amount1](#base_amount1) | int(11) | signed |  | NO | 0 |  |  |
-| [base_amount2](#base_amount2) | int(11) | signed |  | NO | 0 |  |  |
-| [maxDuration](#maxduration) | int(11) | signed |  | NO | 0 |  |  |
-| [remainTime](#remaintime) | int(11) | signed |  | NO | 0 |  |  |
-| [remainCharges](#remaincharges) | tinyint(3) | unsigned |  | NO | 0 |  |  |
+| [guid](#guid) | int | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
+| [casterGuid](#casterguid) | bigint | unsigned | PRI | NO | 0 |  | Full Global Unique Identifier |
+| [itemGuid](#itemguid) | bigint | unsigned | PRI | NO | 0 |  |  |
+| [spell](#spell) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [effectMask](#effectmask) | tinyint | unsigned | PRI | NO | 0 |  |  |
+| [recalculateMask](#recalculatemask) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stackCount](#stackcount) | tinyint | unsigned |  | NO | 1 |  |  |
+| [amount0](#amount0) | int | signed |  | NO | 0 |  |  |
+| [amount1](#amount1) | int | signed |  | NO | 0 |  |  |
+| [amount2](#amount2) | int | signed |  | NO | 0 |  |  |
+| [base_amount0](#base_amount0) | int | signed |  | NO | 0 |  |  |
+| [base_amount1](#base_amount1) | int | signed |  | NO | 0 |  |  |
+| [base_amount2](#base_amount2) | int | signed |  | NO | 0 |  |  |
+| [maxDuration](#maxduration) | int | signed |  | NO | 0 |  |  |
+| [remainTime](#remaintime) | int | signed |  | NO | 0 |  |  |
+| [remainCharges](#remaincharges) | tinyint | unsigned |  | NO | 0 |  |  |
 | [critChance](#critchance) | float |  |  | NO | 0 |  |  |
-| [applyResilience](#applyresilience) | tinyint(3) | signed |  | NO | 0 |  |  |
+| [applyResilience](#applyresilience) | tinyint | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -113,4 +113,3 @@ The number of charges remaining on the aura.
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/characters/character_arena_stats" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_arena_stats'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/character_banned" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_banned'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
