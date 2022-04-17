@@ -2,42 +2,42 @@
 title: account
 description: 
 published: true
-date: 2021-09-07T08:15:35.288Z
+date: 2022-04-17T20:49:50.493Z
 tags: database, auth, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:57:34.489Z
 ---
 
-<a href="https://trinitycore.info/en/database/335/auth/vw_log_history" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'vw_log_history'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/auth/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to auth</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/auth/account_access" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'account_access'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+<a href="https://trinitycore.info/en/database/335/auth/vw_rbac" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'vw_rbac'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/auth/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to auth</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/auth/account_access" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'account_access'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
 ## Structure
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int(10) | unsigned | PRI | NO |  | auto_increment | Identifier |
-| [username](#username) | varchar(32) | signed | UNI | NO | '' |  |  |
-| [salt](#salt) | binary(32) | signed |  | NO |  |  |  |
-| [verifier](#verifier) | binary(32) | signed |  | NO |  |  |  |
-| [session_key_auth](#session_key_auth) | binary(40) | signed |  | YES | NULL |  |  |
-| [session_key_bnet](#session_key_bnet) | varbinary(64) | signed |  | YES | NULL |  |  |
-| [totp_secret](#totp_secret) | varbinary(128) | signed |  | YES | NULL |  |  |
-| [email](#email) | varchar(255) | signed |  | NO | '' |  |  |
-| [reg_mail](#reg_mail) | varchar(255) | signed |  | NO | '' |  |  |
-| [joindate](#joindate) | timestamp | signed |  | NO | CURRENT_TIMESTAMP |  |  |
-| [last_ip](#last_ip) | varchar(15) | signed |  | NO | 127.0.0.1 |  |  |
-| [last_attempt_ip](#last_attempt_ip) | varchar(15) | signed |  | NO | 127.0.0.1 |  |  |
-| [failed_logins](#failed_logins) | int(10) | unsigned |  | NO | 0 |  |  |
-| [locked](#locked) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [lock_country](#lock_country) | varchar(2) | signed |  | NO | 00 |  |  |
-| [last_login](#last_login) | timestamp | signed |  | YES | NULL |  |  |
-| [online](#online) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [expansion](#expansion) | tinyint(3) | unsigned |  | NO | 2 |  |  |
-| [mutetime](#mutetime) | bigint(20) | signed |  | NO | 0 |  |  |
-| [mutereason](#mutereason) | varchar(255) | signed |  | NO | '' |  |  |
-| [muteby](#muteby) | varchar(50) | signed |  | NO | '' |  |  |
-| [locale](#locale) | tinyint(3) | unsigned |  | NO | 0 |  |  |
-| [os](#os) | varchar(3) | signed |  | NO | '' |  |  |
-| [recruiter](#recruiter) | int(10) | unsigned |  | NO | 0 |  |  |
+| [id](#id) | int | unsigned | PRI | NO |  | auto_increment | Identifier |
+| [username](#username) | varchar(32) |  | UNI | NO | '' |  |  |
+| [salt](#salt) | binary(32) |  |  | NO |  |  |  |
+| [verifier](#verifier) | binary(32) |  |  | NO |  |  |  |
+| [session_key_auth](#session_key_auth) | binary(40) |  |  | YES | NULL |  |  |
+| [session_key_bnet](#session_key_bnet) | varbinary(64) |  |  | YES | NULL |  |  |
+| [totp_secret](#totp_secret) | varbinary(128) |  |  | YES | NULL |  |  |
+| [email](#email) | varchar(255) |  |  | NO | '' |  |  |
+| [reg_mail](#reg_mail) | varchar(255) |  |  | NO | '' |  |  |
+| [joindate](#joindate) | timestamp |  |  | NO | CURRENT_TIMESTAMP | DEFAULT_GENERATED |  |
+| [last_ip](#last_ip) | varchar(15) |  |  | NO | 127.0.0.1 |  |  |
+| [last_attempt_ip](#last_attempt_ip) | varchar(15) |  |  | NO | 127.0.0.1 |  |  |
+| [failed_logins](#failed_logins) | int | unsigned |  | NO | 0 |  |  |
+| [locked](#locked) | tinyint | unsigned |  | NO | 0 |  |  |
+| [lock_country](#lock_country) | varchar(2) |  |  | NO | 00 |  |  |
+| [last_login](#last_login) | timestamp |  |  | YES | NULL |  |  |
+| [online](#online) | tinyint | unsigned |  | NO | 0 |  |  |
+| [expansion](#expansion) | tinyint | unsigned |  | NO | 2 |  |  |
+| [mutetime](#mutetime) | bigint | signed |  | NO | 0 |  |  |
+| [mutereason](#mutereason) | varchar(255) |  |  | NO | '' |  |  |
+| [muteby](#muteby) | varchar(50) |  |  | NO | '' |  |  |
+| [locale](#locale) | tinyint | unsigned |  | NO | 0 |  |  |
+| [os](#os) | varchar(3) |  |  | NO | '' |  |  |
+| [recruiter](#recruiter) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -153,5 +153,4 @@ Stores information about client's OS. Used by Warden system.
 The account ID of another account. Used for recuit-a-friend system. See [account.id](#id)
 &nbsp;
 
-<a href="https://trinitycore.info/en/database/335/auth/vw_log_history" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'vw_log_history'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/auth/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to auth</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/auth/account_access" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'account_access'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
+<a href="https://trinitycore.info/en/database/335/auth/vw_rbac" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'vw_rbac'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/auth/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to auth</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/auth/account_access" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'account_access'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>

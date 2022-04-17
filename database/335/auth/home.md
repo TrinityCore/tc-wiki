@@ -2,10 +2,10 @@
 title: Auth
 description: 
 published: true
-date: 2021-08-30T22:04:22.270Z
+date: 2022-04-17T20:49:50.640Z
 tags: database, auth, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
-dateCreated: 2021-08-30T22:04:22.270Z
+dateCreated: 2021-08-30T06:00:00.000Z
 ---
 
 ## a
@@ -43,4 +43,5 @@ dateCreated: 2021-08-30T22:04:22.270Z
 {.links-list}
 ## v
 - [vw_log_history](/database/335/auth/vw_log_history)
+- [vw_rbac](/database/335/auth/vw_rbac)
 {.links-list}
