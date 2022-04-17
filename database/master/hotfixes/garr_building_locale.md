@@ -2,7 +2,7 @@
 title: garr_building_locale
 description: 
 published: true
-date: 2022-02-06T18:26:40.929Z
+date: 2022-04-17T20:26:07.474Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,7 +15,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
-| [locale](#locale) | varchar(4) | signed | PRI | NO |  |  |  |
+| [locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
 | [HordeName_lang](#hordename_lang) | text |  |  | YES | NULL |  |  |
 | [AllianceName_lang](#alliancename_lang) | text |  |  | YES | NULL |  |  |
 | [Description_lang](#description_lang) | text |  |  | YES | NULL |  |  |
@@ -62,4 +62,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/garr_building" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'garr_building'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/garr_building_plot_inst" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'garr_building_plot_inst'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

@@ -2,10 +2,10 @@
 title: Hotfixes
 description: 
 published: true
-date: 2021-11-14T21:32:16.247Z
+date: 2022-04-17T20:26:08.235Z
 tags: database, master, hotfixes
 editor: markdown
-dateCreated: 2021-08-29T20:42:31.704Z
+dateCreated: 2021-08-30T06:00:00.000Z
 ---
 
 > Each table schema represents its corresponding [DB2](https://wowdev.wiki/DB2)-File structure. (except the locale tables)
@@ -125,9 +125,9 @@ dateCreated: 2021-08-29T20:42:31.704Z
 - [creature_type_locale](/database/master/hotfixes/creature_type_locale)
 - [criteria](/database/master/hotfixes/criteria)
 - [criteria_tree](/database/master/hotfixes/criteria_tree)
+- [criteria_tree_locale](/database/master/hotfixes/criteria_tree_locale)
 - [currency_container](/database/master/hotfixes/currency_container)
 - [currency_container_locale](/database/master/hotfixes/currency_container_locale)
-- [criteria_tree_locale](/database/master/hotfixes/criteria_tree_locale)
 - [currency_types](/database/master/hotfixes/currency_types)
 - [currency_types_locale](/database/master/hotfixes/currency_types_locale)
 - [curve](/database/master/hotfixes/curve)
@@ -159,6 +159,7 @@ dateCreated: 2021-08-29T20:42:31.704Z
 - [friendship_reputation_locale](/database/master/hotfixes/friendship_reputation_locale)
 {.links-list}
 ## g
+- [gameobject_art_kit](/database/master/hotfixes/gameobject_art_kit)
 - [gameobject_display_info](/database/master/hotfixes/gameobject_display_info)
 - [gameobjects](/database/master/hotfixes/gameobjects)
 - [gameobjects_locale](/database/master/hotfixes/gameobjects_locale)
@@ -352,7 +353,7 @@ dateCreated: 2021-08-29T20:42:31.704Z
 - [skill_line_ability](/database/master/hotfixes/skill_line_ability)
 - [skill_line_locale](/database/master/hotfixes/skill_line_locale)
 - [skill_race_class_info](/database/master/hotfixes/skill_race_class_info)
-- [souldbind_conduit_rank](/database/master/hotfixes/souldbind_conduit_rank)
+- [soulbind_conduit_rank](/database/master/hotfixes/soulbind_conduit_rank)
 - [sound_kit](/database/master/hotfixes/sound_kit)
 - [spec_set_member](/database/master/hotfixes/spec_set_member)
 - [specialization_spells](/database/master/hotfixes/specialization_spells)
@@ -396,7 +397,10 @@ dateCreated: 2021-08-29T20:42:31.704Z
 - [spell_shapeshift_form_locale](/database/master/hotfixes/spell_shapeshift_form_locale)
 - [spell_target_restrictions](/database/master/hotfixes/spell_target_restrictions)
 - [spell_totems](/database/master/hotfixes/spell_totems)
+- [spell_visual](/database/master/hotfixes/spell_visual)
+- [spell_visual_effect_name](/database/master/hotfixes/spell_visual_effect_name)
 - [spell_visual_kit](/database/master/hotfixes/spell_visual_kit)
+- [spell_visual_missile](/database/master/hotfixes/spell_visual_missile)
 - [spell_x_spell_visual](/database/master/hotfixes/spell_x_spell_visual)
 - [summon_properties](/database/master/hotfixes/summon_properties)
 {.links-list}
@@ -430,6 +434,7 @@ dateCreated: 2021-08-29T20:42:31.704Z
 - [ui_map_x_map_art](/database/master/hotfixes/ui_map_x_map_art)
 - [ui_splash_screen](/database/master/hotfixes/ui_splash_screen)
 - [ui_splash_screen_locale](/database/master/hotfixes/ui_splash_screen_locale)
+- [unit_condition](/database/master/hotfixes/unit_condition)
 - [unit_power_bar](/database/master/hotfixes/unit_power_bar)
 - [unit_power_bar_locale](/database/master/hotfixes/unit_power_bar_locale)
 - [updates](/database/master/hotfixes/updates)
