@@ -2,7 +2,7 @@
 title: *_loot_template
 description: 
 published: true
-date: 2022-04-19T09:52:37.230Z
+date: 2022-04-19T10:03:42.474Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2022-04-19T09:52:37.230Z
@@ -37,14 +37,14 @@ The 12 tables have different relations with other DB tables.
 | Loot table | Field | Relation | Related table | Field | Comment |
 | --- | --- | --- | --- | --- | --- |
 | fishing_loot_template | no relation | entry is linked with ID of the fishing zone or area |  |  |  |
-| creature_loot_template | entry | 	many <- many | [creature_template](/de/database/master/world/creature_template){target=_blank} |  |  |
-| gameobject_loot_template | entry | many <- many | [gameobject_template](/de/database/master/world/gameobject_template){target=_blank} |  |  |
-| item_loot_template | entry | many <- many | [ItemSparse.db2 (wow.tools)](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} |  |  |
+| creature_loot_template | entry | 	many <- many | [creature_template](/de/database/master/world/creature_template){target=_blank} | [lootid](https://trinitycore.info/de/database/master/world/creature_template#lootid){target=_blank} |  |
+| gameobject_loot_template | entry | many <- many | [gameobject_template](/de/database/master/world/gameobject_template){target=_blank} | [Data1](/de/database/master/world/gameobject_template#data1){target=_blank} |  |
+| item_loot_template | entry | many <- many | [ItemSparse.db2 (wow.tools)](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} | ID |  |
 | disenchant_loot_template | entry | many <- many | [ItemSparse.db2 (wow.tools)](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} |  |  |
-| prospecting_loot_template | entry | many <- many | [ItemSparse.db2 (wow.tools)](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} |  |  |
-| milling_loot_template | entry | many <- many | [ItemSparse.db2 (wow.tools)](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} |  |  |
-| pickpocketing_loot_template | entry | many <- many | [creature_template](/de/database/master/world/creature_template){target=_blank} |  |  |
-| skinning_loot_template | entry | many <- many | [creature_template](/de/database/master/world/creature_template){target=_blank} |  |  |
+| prospecting_loot_template | entry | many <- many | [ItemSparse.db2 (wow.tools)](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} | ID |  |
+| milling_loot_template | entry | many <- many | [ItemSparse.db2 (wow.tools)](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} | ID |  |
+| pickpocketing_loot_template | entry | many <- many | [creature_template](/de/database/master/world/creature_template){target=_blank} | [pickpocketloot](https://trinitycore.info/de/database/master/world/creature_template#pickpocketloot){target=_blank} |  |
+| skinning_loot_template | entry | many <- many | [creature_template](/de/database/master/world/creature_template){target=_blank} | [skinloot](https://trinitycore.info/de/database/master/world/creature_template#skinloot){target=_blank}  |  |
 | quest_mail_loot_template | entry |  | [quest_template](/de/database/master/world/quest_template){target=_blank} |  |  |
 | reference_loot_template | entry | many <- many | *_loot_template |  |  |
 | spell_loot_template | entry | many <- many | [Spell.db2 (wow.tools)](https://wow.tools/dbc/?dbc=spell){target=_blank} or [SpellName.db2 (wow.tools)](https://wow.tools/dbc/?dbc=spellname){target=_blank} |  |  |
