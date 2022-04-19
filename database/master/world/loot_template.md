@@ -2,7 +2,7 @@
 title: *_loot_template
 description: 
 published: true
-date: 2022-04-19T10:04:49.757Z
+date: 2022-04-19T10:07:34.242Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2022-04-19T10:04:49.757Z
@@ -15,7 +15,7 @@ Well, according to vocabulary the meaning of the word "loot" is good for corpse 
 
 This table format is used for 12 different tables to generate different loot items for different things. The 12 tables are creature_loot_template, disenchant_loot_template, fishing_loot_template, gameobject_loot_template, item_loot_template, pickpocketing_loot_template, prospecting_loot_template, skinning_loot_template, quest_mail_loot_template, reference_loot_template, milling_loot_template, spell_loot_template. The general description here is valid for all 12 because the loot system is the same for all eleven.
 
-Loot templates define only items in the loot. See comments about money drop in corpse, pickpocketing and luggage loot in [creature_template](/de/database/master/world/creature_template){target=_blank}.
+Loot templates define only items in the loot. See comments about money drop in corpse, pickpocketing and luggage loot in [creature_template](/en/database/master/world/creature_template){target=_blank}.
 &nbsp;
 ## Structure
 
@@ -37,15 +37,15 @@ The 12 tables have different relations with other DB tables.
 | Loot table | Field | Relation | Related table | Field | Comment |
 | --- | --- | --- | --- | --- | --- |
 | fishing_loot_template | no relation | entry is linked with ID of the fishing zone or area |  |  |  |
-| creature_loot_template | entry | 	many <- many | [creature_template](/de/database/master/world/creature_template){target=_blank} | [lootid](https://trinitycore.info/de/database/master/world/creature_template#lootid){target=_blank} |  |
-| gameobject_loot_template | entry | many <- many | [gameobject_template](/de/database/master/world/gameobject_template){target=_blank} | [Data1](/de/database/master/world/gameobject_template#data1){target=_blank} |  |
+| creature_loot_template | entry | 	many <- many | [creature_template](/en/database/master/world/creature_template){target=_blank} | [lootid](https://trinitycore.info/en/database/master/world/creature_template#lootid){target=_blank} |  |
+| gameobject_loot_template | entry | many <- many | [gameobject_template](/en/database/master/world/gameobject_template){target=_blank} | [Data1](/en/database/master/world/gameobject_template#data1){target=_blank} |  |
 | item_loot_template | entry | many <- many | [ItemSparse.db2 (wow.tools)](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} | ID |  |
 | disenchant_loot_template | entry | many <- many | [ItemSparse.db2 (wow.tools)](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} |  |  |
 | prospecting_loot_template | entry | many <- many | [ItemSparse.db2 (wow.tools)](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} | ID |  |
 | milling_loot_template | entry | many <- many | [ItemSparse.db2 (wow.tools)](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} | ID |  |
-| pickpocketing_loot_template | entry | many <- many | [creature_template](/de/database/master/world/creature_template){target=_blank} | [pickpocketloot](https://trinitycore.info/de/database/master/world/creature_template#pickpocketloot){target=_blank} |  |
-| skinning_loot_template | entry | many <- many | [creature_template](/de/database/master/world/creature_template){target=_blank} | [skinloot](https://trinitycore.info/de/database/master/world/creature_template#skinloot){target=_blank}  |  |
-| quest_mail_loot_template | entry |  | [quest_template](/de/database/master/world/quest_template){target=_blank} |  |  |
+| pickpocketing_loot_template | entry | many <- many | [creature_template](/en/database/master/world/creature_template){target=_blank} | [pickpocketloot](https://trinitycore.info/en/database/master/world/creature_template#pickpocketloot){target=_blank} |  |
+| skinning_loot_template | entry | many <- many | [creature_template](/en/database/master/world/creature_template){target=_blank} | [skinloot](https://trinitycore.info/en/database/master/world/creature_template#skinloot){target=_blank}  |  |
+| quest_mail_loot_template | entry |  | [quest_template](/en/database/master/world/quest_template){target=_blank} |  |  |
 | reference_loot_template | entry | many <- many | *_loot_template |  |  |
 | spell_loot_template | entry | many <- many | [Spell.db2 (wow.tools)](https://wow.tools/dbc/?dbc=spell){target=_blank} or [SpellName.db2 (wow.tools)](https://wow.tools/dbc/?dbc=spellname){target=_blank} |  |  |
 &nbsp;
