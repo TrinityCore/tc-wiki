@@ -2,7 +2,7 @@
 title: *_loot_template
 description: 
 published: true
-date: 2022-04-19T10:21:24.515Z
+date: 2022-04-19T10:23:11.986Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2022-04-19T10:04:49.757Z
@@ -38,7 +38,7 @@ The 12 tables have different relations with other DB tables.
 | --- | --- | --- | --- | --- | --- |
 | fishing_loot_template | no relation | entry is linked with ID of the fishing zone or area |  |  |  |
 | creature_loot_template | entry | 	many <- many | [creature_template](/en/database/master/world/creature_template){target=_blank} | [lootid](/en/database/master/world/creature_template#lootid){target=_blank} |  |
-| gameobject_loot_template | entry | many <- many | [gameobject_template](/en/database/master/world/gameobject_template){target=_blank} | [Data1](/en/database/master/world/gameobject_template#data1){target=_blank} |  |
+| gameobject_loot_template | entry | many <- many | [gameobject_template](/en/database/master/world/gameobject_template){target=_blank} | [Data1](/en/database/master/world/gameobject_template#data1){target=_blank} | Only gameobject type 3 (GAMEOBJECT_TYPE_CHEST) or<br/>25 (GAMEOBJECT_TYPE_FISHINGHOLE) use data1 as loot ID,<br/>for other types data1 is used in other ways |
 | item_loot_template | entry | many <- many | [ItemSparse.db2 (wow.tools)](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} | ID |  |
 | disenchant_loot_template | entry | many <- many | [ItemSparse.db2 (wow.tools)](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} |  |  |
 | prospecting_loot_template | entry | many <- many | [ItemSparse.db2 (wow.tools)](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} | ID |  |
