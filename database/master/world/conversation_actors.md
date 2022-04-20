@@ -2,7 +2,7 @@
 title: conversation_actors
 description: 
 published: true
-date: 2022-04-17T18:35:06.684Z
+date: 2022-04-20T10:30:31.249Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -20,6 +20,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Idx](#idx) | smallint | unsigned | PRI | NO | 0 |  |  |
 | [CreatureId](#creatureid) | int | unsigned |  | NO | 0 |  |  |
 | [CreatureDisplayInfoId](#creaturedisplayinfoid) | int | unsigned |  | NO | 0 |  |  |
+| [NoActorObject](#noactorobject) | tinyint | unsigned |  | YES | 0 |  |  |
+| [ActivePlayerObject](#activeplayerobject) | tinyint | unsigned |  | YES | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -45,6 +47,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### CreatureDisplayInfoId
+*- no description -*
+&nbsp;
+
+### NoActorObject
+*- no description -*
+&nbsp;
+
+### ActivePlayerObject
 *- no description -*
 &nbsp;
 
