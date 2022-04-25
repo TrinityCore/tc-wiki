@@ -2,7 +2,7 @@
 title: Linux Requirements
 description: 
 published: true
-date: 2022-04-11T13:23:59.467Z
+date: 2022-04-25T23:05:50.628Z
 tags: requirements, installation, setup, linux
 editor: markdown
 dateCreated: 2021-08-14T00:09:23.038Z
@@ -41,7 +41,7 @@ dateCreated: 2021-08-14T00:09:23.038Z
 
 **Recommendation:** Use apt-get with stable source list instead of install packages. We recommend the latest stable version of your distribution. We usually update requirements to the lastest stable Debian version. Avoid mixing stable with experimental packages as it may break your linux OS.
 
-Debian 10.x (you will need to use su to install the packages)
+Debian 11.x (you will need to use su to install the packages)
 <div class="next-codeblock-no-line-numbers"></div>
 
 ```bash
@@ -61,7 +61,7 @@ update-alternatives --install /usr/bin/cc cc /usr/bin/clang 100
 update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
 ```
 
-Ubuntu 19.10/20.04/20.10 (you will need to use sudo to install the packages).
+Ubuntu 20.10 (you will need to use sudo to install the packages).
 <div class="next-codeblock-no-line-numbers"></div>
 
 ```bash
@@ -73,14 +73,14 @@ update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
 
 > Anything under this is not tested by TrinityCore developers.
 > 
-> **Not supported:** Debian 9 or lower. Ubuntu 19.04 or lower.
+> **Not supported:** Debian 10 or lower. Ubuntu 20.04 or lower.
 > 
 > AVOID CentOS.
 > 
 > If you have an old Ubuntu version, follow https://help.ubuntu.com/community/Upgrades steps to upgrade it.
 {.is-info}
 
-### Fedora based distributions
+### Fedora based distributions (outdated)
 Tested on Fedora Server 27/28 (Fedora Workstation 27/28 should also work).
 <div class="next-codeblock-no-line-numbers"></div>
 
@@ -92,7 +92,7 @@ update-alternatives --install /usr/bin/cc cc /usr/bin/clang 100
 update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
 ```
 
-### Red Hat based distributions
+### Red Hat based distributions outdated
 
 > NOT SUPPORTED!
 {.is-danger}
@@ -136,7 +136,7 @@ yum install mariadb-server p7zip
 {.is-info}
 
 
-### Arch Linux based distributions
+### Arch Linux based distributions outdated
 
 > NOT SUPPORTED!
 > FOLLOW AT YOUR OWN RISK!
