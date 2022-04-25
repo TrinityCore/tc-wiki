@@ -2,7 +2,7 @@
 title: Linux Requirements
 description: 
 published: true
-date: 2022-04-25T23:05:50.628Z
+date: 2022-04-25T23:06:56.240Z
 tags: requirements, installation, setup, linux
 editor: markdown
 dateCreated: 2021-08-14T00:09:23.038Z
@@ -40,16 +40,6 @@ dateCreated: 2021-08-14T00:09:23.038Z
 ***(heavy recommended debian stable, it's the distribution we use to set minimum requirements)***
 
 **Recommendation:** Use apt-get with stable source list instead of install packages. We recommend the latest stable version of your distribution. We usually update requirements to the lastest stable Debian version. Avoid mixing stable with experimental packages as it may break your linux OS.
-
-Debian 11.x (you will need to use su to install the packages)
-<div class="next-codeblock-no-line-numbers"></div>
-
-```bash
-apt-get update
-apt-get install git clang cmake make gcc g++ libmariadbclient-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev libboost-all-dev mariadb-server p7zip default-libmysqlclient-dev
-update-alternatives --install /usr/bin/cc cc /usr/bin/clang 100
-update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
-```
 
 Debian 11.x (you will need to use su to install the packages)
 <div class="next-codeblock-no-line-numbers"></div>
