@@ -2,7 +2,7 @@
 title: Linux Core Installation
 description: 
 published: true
-date: 2022-04-28T19:37:34.961Z
+date: 2022-04-28T19:51:47.500Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-14T21:37:11.567Z
@@ -49,7 +49,7 @@ Sample usernames found in various parts of this guide: **wow , trinity** ( - sel
 <div class="next-codeblock-no-line-numbers"></div>
 
 ```bash
-su username
+su - username
 ```
 
 Note : Change your current user to "username" so everything will run and compile with the user you just have created.
