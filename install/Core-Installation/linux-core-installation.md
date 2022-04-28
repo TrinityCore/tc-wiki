@@ -2,7 +2,7 @@
 title: Linux Core Installation
 description: 
 published: true
-date: 2021-08-18T20:17:54.897Z
+date: 2022-04-28T19:31:21.913Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-14T21:37:11.567Z
@@ -73,7 +73,7 @@ See [Requirements](/install/requirements/)
 
 ```bash
 cd ~/
-git clone -b 3.3.5 git://github.com/TrinityCore/TrinityCore.git 
+git clone -b 3.3.5 https://github.com/TrinityCore/TrinityCore.git
 ```
 
 This will clone 3.3.5a branch, this is the  **RECOMMENDED**  branch for starters.
@@ -83,7 +83,7 @@ master (check [Trinitycore Github](https://github.com/TrinityCore/TrinityCore) f
 
 ```bash
 cd ~/
-git clone -b master git://github.com/TrinityCore/TrinityCore.git
+git clone -b master https://github.com/TrinityCore/TrinityCore.git
 ```
 
 This will clone **master** branch, note that this is **NOT** the recommended branch for starters.
