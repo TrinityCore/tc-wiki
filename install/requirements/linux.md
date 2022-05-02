@@ -2,7 +2,7 @@
 title: Linux Requirements
 description: 
 published: true
-date: 2022-05-02T15:39:44.294Z
+date: 2022-05-02T20:10:05.096Z
 tags: requirements, installation, setup, linux
 editor: markdown
 dateCreated: 2021-08-14T00:09:23.038Z
@@ -51,7 +51,7 @@ update-alternatives --install /usr/bin/cc cc /usr/bin/clang 100
 update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
 ```
 
-Ubuntu 20.10 (you will need to use sudo to install the packages). WARNING ubuntu 22.04 ships unsuported openssl 3.0 don't update to it
+Ubuntu 20.10 (you will need to use sudo to install the packages). WARNING ubuntu 22.04 ships unsupported openssl 3.0 don't update to it
 <div class="next-codeblock-no-line-numbers"></div>
 
 ```bash
