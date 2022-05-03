@@ -2,7 +2,7 @@
 title: Trinitycore Wiki
 description: 
 published: true
-date: 2022-05-03T13:58:58.612Z
+date: 2022-05-03T14:08:16.890Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T17:47:17.543Z
@@ -42,8 +42,7 @@ For further information on the TrinityCore project, please visit our project web
 5. [Networking](/install/Networking)
 6. [Final Server Steps](/install/Final-Server-Steps)
 7. [Client Setup](/install/Client-Setup)
-8. How-to
-9. [ASAN](/how-to/asan)
+
 # Description of the Trinity Database Structures
 #### Master database
 - [Auth](/database/master/auth/home)
@@ -55,3 +54,6 @@ For further information on the TrinityCore project, please visit our project web
 - [Auth](/database/335/auth/home)
 - [Characters](/database/335/characters/home)
 - [World](/database/335/world/home)
+
+# How-to
+1. [ASAN](/how-to/asan)
