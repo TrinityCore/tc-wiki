@@ -2,13 +2,13 @@
 title: ASan
 description: how to use asan with trinitycore
 published: true
-date: 2022-05-03T14:02:38.848Z
+date: 2022-05-03T14:03:20.709Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-03T14:01:45.304Z
 ---
 
-# How to use ASAN to debug trinitycore
+# How to use ASan to debug trinitycore
 compile trinitycore with -DASAN=1 -DCMAKE_BUILD_TYPE=RelWithDebInfo
 
 Ensure that a directory called worldasan exists in the bin directory, where worldserver is: 
