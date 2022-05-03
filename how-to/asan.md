@@ -1,8 +1,8 @@
 ---
-title: ASAN
+title: ASan
 description: how to use asan with trinitycore
 published: true
-date: 2022-05-03T14:01:45.304Z
+date: 2022-05-03T14:02:38.848Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-03T14:01:45.304Z
