@@ -2,7 +2,7 @@
 title: conversation_line_template
 description: Holds additional information for conversation lines, e.g. which actor is used.
 published: true
-date: 2022-05-12T12:38:40.955Z
+date: 2022-05-12T12:39:40.692Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:35.885Z
@@ -28,7 +28,7 @@ Reference: [ConversationLine.db2](https://wow.tools/dbc/?dbc=conversationline){t
 &nbsp;
 
 ### UiCameraID
-*- no description -*
+Reference: [UiCamera.db2](https://wow.tools/dbc/?dbc=uicamera){target=_blank}
 &nbsp;
 
 ### ActorIdx
