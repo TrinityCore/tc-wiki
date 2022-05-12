@@ -2,7 +2,7 @@
 title: conversation_line_template
 description: Holds additional information for conversation lines, e.g. which actor is used.
 published: true
-date: 2022-05-12T12:37:21.627Z
+date: 2022-05-12T12:38:40.955Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:35.885Z
@@ -32,7 +32,7 @@ Reference: [ConversationLine.db2](https://wow.tools/dbc/?dbc=conversationline){t
 &nbsp;
 
 ### ActorIdx
-Links the line to an actor by [conversation_actors.Idx](/en/database/master/world/conversation_actors#idx).
+Links the line to an actor by [conversation_actors.Idx](/en/database/master/world/conversation_actors#idx){target=_blank}.
 &nbsp;
 
 ### Flags
