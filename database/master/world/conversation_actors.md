@@ -2,10 +2,10 @@
 title: conversation_actors
 description: 
 published: true
-date: 2022-04-20T10:30:31.249Z
+date: 2022-05-12T12:10:43.588Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T09:29:33.163Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/conditions" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'conditions'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/conversation_line_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'conversation_line_template'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -27,31 +27,37 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### ConversationId
-*- no description -*
+Unique ID for a conversation.
 &nbsp;
 
 ### ConversationActorId
-*- no description -*
+Unique ID for an actor of a conversation.
 &nbsp;
 
 ### ConversationActorGuid
-*- no description -*
+WorldObject GUID which participates in a conversation (e.g. NPCs).
 &nbsp;
 
 ### Idx
-*- no description -*
+Index which sorts the actors in their correct order.
 &nbsp;
 
 ### CreatureId
-*- no description -*
+Actors can also be Non-WorldObjects.
+To display the proper creature inside the conversation frame.
+Reference [creature_template.entry](/en/database/master/world/creature_template#entry){target=_blank}
 &nbsp;
 
 ### CreatureDisplayInfoId
-*- no description -*
+DisplayID from [CreatureDisplayInfo.db2](https://wow.tools/dbc/?dbc=creaturedisplayinfo){target=_blank}
+Decides the visual appearance from the actor.
 &nbsp;
 
 ### NoActorObject
-*- no description -*
+| Value | Description |
+| --- | --- |
+| 0 | If WorldObject ([ConversationActorGuid](#conversationactorguid)) is missing conversation is interrupted |
+| 1 | If WorldObject ([ConversationActorGuid](#conversationactorguid)) is missing conversation is continuing |
 &nbsp;
 
 ### ActivePlayerObject
