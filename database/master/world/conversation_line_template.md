@@ -1,11 +1,11 @@
 ---
 title: conversation_line_template
-description: 
+description: Holds additional information for conversation lines, e.g. which actor is used.
 published: true
-date: 2022-02-06T18:26:20.404Z
+date: 2022-05-12T12:37:21.627Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T09:29:35.885Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/conversation_actors" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'conversation_actors'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/conversation_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'conversation_template'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -23,7 +23,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### Id
-*- no description -*
+Unique ID for a line in a conversation.
+Reference: [ConversationLine.db2](https://wow.tools/dbc/?dbc=conversationline){target=_blank}
 &nbsp;
 
 ### UiCameraID
@@ -31,7 +32,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### ActorIdx
-*- no description -*
+Links the line to an actor by [conversation_actors.Idx](/en/database/master/world/conversation_actors#idx).
 &nbsp;
 
 ### Flags
