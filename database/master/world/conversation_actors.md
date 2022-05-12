@@ -2,7 +2,7 @@
 title: conversation_actors
 description: 
 published: true
-date: 2022-05-12T12:10:43.588Z
+date: 2022-05-12T12:12:47.257Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:33.163Z
@@ -61,7 +61,10 @@ Decides the visual appearance from the actor.
 &nbsp;
 
 ### ActivePlayerObject
-*- no description -*
+| Value | Description |
+| --- | --- |
+| 0 | Creature or WorldObject is actor for conversation |
+| 1 | ActivePlayer is actor for conversation |
 &nbsp;
 
 ### VerifiedBuild
