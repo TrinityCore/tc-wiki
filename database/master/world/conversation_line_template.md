@@ -2,7 +2,7 @@
 title: conversation_line_template
 description: Holds additional information for conversation lines, e.g. which actor is used.
 published: true
-date: 2022-05-12T12:39:40.692Z
+date: 2022-05-12T16:13:37.997Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:35.885Z
@@ -36,7 +36,9 @@ Links the line to an actor by [conversation_actors.Idx](/en/database/master/worl
 &nbsp;
 
 ### Flags
-*- no description -*
+| Value | Name |Description |
+| :---: | --- | --- |
+| 0x1 | CONVERSATION_LINE_FLAG_NOTIFY_STARTED  | Client will send CMSG_CONVERSATION_LINE_STARTED when it runs this line |
 &nbsp;
 
 ### VerifiedBuild
