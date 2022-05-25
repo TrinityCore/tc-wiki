@@ -2,10 +2,10 @@
 title: lfg_dungeon_template
 description: 
 published: true
-date: 2022-04-17T18:35:12.642Z
+date: 2022-05-25T14:09:32.833Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T09:32:50.477Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/lfg_dungeon_rewards" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'lfg_dungeon_rewards'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/linked_respawn" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'linked_respawn'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -34,19 +34,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### position_x
-*- no description -*
+X coordinate for the entrance position
 &nbsp;
 
 ### position_y
-*- no description -*
+Y coordinate for the entrance position
 &nbsp;
 
 ### position_z
-*- no description -*
+Z coordinate for the entrance position
 &nbsp;
 
 ### orientation
-*- no description -*
+Orientation the player will get when appearing at this location
 &nbsp;
 
 ### requiredItemLevel
