@@ -2,7 +2,7 @@
 title: creature_summon_data
 description: 
 published: true
-date: 2022-07-03T15:50:59.544Z
+date: 2022-07-03T15:54:41.233Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-03T15:50:59.544Z
@@ -12,12 +12,12 @@ dateCreated: 2022-07-03T15:50:59.544Z
 
 ## Structure
 
-| CreatureID | CreatureIDVisibleToSummoner | GroundMountDisplayID | FlyingMountDisplayID | Key | Null | Default
-| --- | --- | --- | :---: | :---: | --- |
-| [CreatureID](#summonerid) | int | unsigned |  | YES | 0 | NOT NULL
-| [CreatureIDVisibleToSummoner](#creatureidvisibletosummoner) | int | unsigned |  | NO | 0 | NULL
-| [GroundMountDisplayID](#groundmountdisplayid) | int | unsigned |  | NO | 0 | NULL
-| [FlyingMountDisplayID](#flightmountdisplayid) | int | unsigned |  | NO | 0 | NULL
+| Field | Type | Attributes | Key | Null | Default | Extra | Comment |
+| --- | --- | --- | :---: | :---: | --- | --- | --- |
+| [CreatureID](#creatureid) | int | unsigned | PRI | NO |  |  |  |
+| [CreatureIDVisibleToSummoner](#creatureidvisibletosummoner) | int | unsigned |  | YES |  |  |  |
+| [GroundMountDisplayID](#groundmountdisplayid) | int | unsigned |  | YES |  |  |  |
+| [FlyingMountDisplayID](#flightmountdisplayid) | int | unsigned |  | YES |  |  |  |
 &nbsp;
 ## Description of fields
 
