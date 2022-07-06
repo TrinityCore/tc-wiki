@@ -2,7 +2,7 @@
 title: creature_summoned_data
 description: 
 published: true
-date: 2022-07-06T11:19:21.445Z
+date: 2022-07-06T11:19:31.568Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-03T15:50:59.544Z
@@ -18,7 +18,7 @@ dateCreated: 2022-07-03T15:50:59.544Z
 | [CreatureIDVisibleToSummoner](#CreatureIDVisibleToSummoner) | int | unsigned |  | YES |  |  |  |
 | [GroundMountDisplayID](#GroundMountDisplayID) | int | unsigned |  | YES |  |  |  |
 | [FlyingMountDisplayID](#FlyingMountDisplayID) | int | unsigned |  | YES |  |  |  |
-| [StealthSpellID](#StealthSpellID) | int | unsigned |  | YES |  |  |  |
+| [StealthSpellID](#StealthSpellID) | int | unsigned |  | YES |  |  | NYI |
 &nbsp;
 ## Description of fields
 
