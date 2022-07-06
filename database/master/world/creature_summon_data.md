@@ -2,7 +2,7 @@
 title: creature_summoned_data
 description: 
 published: true
-date: 2022-07-06T11:12:26.166Z
+date: 2022-07-06T11:16:38.983Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-03T15:50:59.544Z
@@ -14,10 +14,10 @@ dateCreated: 2022-07-03T15:50:59.544Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [CreatureID](#creatureid) | int | unsigned | PRI | NO |  |  |  |
-| [CreatureIDVisibleToSummoner](#creatureidvisibletosummoner) | int | unsigned |  | YES |  |  |  |
-| [GroundMountDisplayID](#groundmountdisplayid) | int | unsigned |  | YES |  |  |  |
-| [FlyingMountDisplayID](#flightmountdisplayid) | int | unsigned |  | YES |  |  |  |
+| [CreatureID](#CreatureID) | int | unsigned | PRI | NO |  |  |  |
+| [CreatureIDVisibleToSummoner](#CreatureIDVisibleToSummoner) | int | unsigned |  | YES |  |  |  |
+| [GroundMountDisplayID](#GroundMountDisplayID) | int | unsigned |  | YES |  |  |  |
+| [FlyingMountDisplayID](#FlyingMountDisplayID) | int | unsigned |  | YES |  |  |  |
 &nbsp;
 ## Description of fields
 
