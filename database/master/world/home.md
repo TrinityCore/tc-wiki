@@ -2,10 +2,10 @@
 title: World
 description: 
 published: true
-date: 2022-07-06T11:12:59.709Z
+date: 2022-07-07T11:02:38.118Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-28T21:01:17.438Z
+dateCreated: 2021-08-30T06:00:00.000Z
 ---
 
 ## a
@@ -56,8 +56,8 @@ dateCreated: 2021-08-28T21:01:17.438Z
 - [creature_questender](/database/master/world/creature_questender)
 - [creature_questitem](/database/master/world/creature_questitem)
 - [creature_queststarter](/database/master/world/creature_queststarter)
-- [creature_summoned_data](/database/master/world/creature_summon_data)
 - [creature_summon_groups](/database/master/world/creature_summon_groups)
+- [creature_summoned_data](/database/master/world/creature_summoned_data)
 - [creature_template](/database/master/world/creature_template)
 - [creature_template_addon](/database/master/world/creature_template_addon)
 - [creature_template_locale](/database/master/world/creature_template_locale)
@@ -280,4 +280,5 @@ dateCreated: 2021-08-28T21:01:17.438Z
 - [waypoint_scripts](/database/master/world/waypoint_scripts)
 - [waypoints](/database/master/world/waypoints)
 - [world_safe_locs](/database/master/world/world_safe_locs)
+- [world_state](/database/master/world/world_state)
 {.links-list}

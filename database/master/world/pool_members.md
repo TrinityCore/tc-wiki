@@ -2,7 +2,7 @@
 title: pool_members
 description: 
 published: true
-date: 2022-04-17T18:35:13.900Z
+date: 2022-07-07T11:02:37.988Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,7 +15,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [type](#type) | smallint | unsigned | PRI | NO |  |  |  |
-| [spawnId](#spawnid) | int | unsigned | PRI | NO |  |  |  |
+| [spawnId](#spawnid) | bigint | unsigned | PRI | NO |  |  |  |
 | [poolSpawnId](#poolspawnid) | int | unsigned |  | NO |  |  |  |
 | [chance](#chance) | float |  |  | NO |  |  |  |
 | [description](#description) | varchar(255) |  |  | YES | NULL |  |  |
