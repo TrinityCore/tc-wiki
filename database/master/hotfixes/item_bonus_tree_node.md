@@ -2,7 +2,7 @@
 title: item_bonus_tree_node
 description: 
 published: true
-date: 2022-02-06T18:26:40.941Z
+date: 2022-07-07T11:07:36.932Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -19,8 +19,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [ChildItemBonusTreeID](#childitembonustreeid) | smallint | unsigned |  | NO | 0 |  |  |
 | [ChildItemBonusListID](#childitembonuslistid) | smallint | unsigned |  | NO | 0 |  |  |
 | [ChildItemLevelSelectorID](#childitemlevelselectorid) | smallint | unsigned |  | NO | 0 |  |  |
-| [ItemBonusListGroupID](#itembonuslistgroupid) | int | signed |  | NO | 0 |  |  |
-| [ParentItemBonusTreeNodeID](#parentitembonustreenodeid) | int | signed |  | NO | 0 |  |  |
+| [ChildItemBonusListGroupID](#childitembonuslistgroupid) | int | signed |  | NO | 0 |  |  |
+| [IblGroupPointsModSetID](#iblgrouppointsmodsetid) | int | signed |  | NO | 0 |  |  |
 | [ParentItemBonusTreeID](#parentitembonustreeid) | int | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
@@ -46,11 +46,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 *- no description -*
 &nbsp;
 
-### ItemBonusListGroupID
+### ChildItemBonusListGroupID
 *- no description -*
 &nbsp;
 
-### ParentItemBonusTreeNodeID
+### IblGroupPointsModSetID
 *- no description -*
 &nbsp;
 
@@ -72,4 +72,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/item_bonus_list_level_delta" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'item_bonus_list_level_delta'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/item_child_equipment" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'item_child_equipment'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

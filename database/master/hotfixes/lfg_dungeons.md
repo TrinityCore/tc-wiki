@@ -2,7 +2,7 @@
 title: lfg_dungeons
 description: 
 published: true
-date: 2022-02-06T18:26:40.954Z
+date: 2022-07-07T11:07:37.444Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -18,7 +18,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Name](#name) | text |  |  | YES | NULL |  |  |
 | [Description](#description) | text |  |  | YES | NULL |  |  |
 | [TypeID](#typeid) | tinyint | unsigned |  | NO | 0 |  |  |
-| [Subtype](#subtype) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Subtype](#subtype) | tinyint | signed |  | NO | 0 |  |  |
 | [Faction](#faction) | tinyint | signed |  | NO | 0 |  |  |
 | [IconTextureFileID](#icontexturefileid) | int | signed |  | NO | 0 |  |  |
 | [RewardsBgTextureFileID](#rewardsbgtexturefileid) | int | signed |  | NO | 0 |  |  |
@@ -187,4 +187,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/languages_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'languages_locale'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/lfg_dungeons_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'lfg_dungeons_locale'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

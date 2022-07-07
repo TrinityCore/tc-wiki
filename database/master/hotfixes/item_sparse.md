@@ -2,7 +2,7 @@
 title: item_sparse
 description: 
 published: true
-date: 2022-03-16T04:03:58.354Z
+date: 2022-07-07T11:07:37.312Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -27,6 +27,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [DurationInInventory](#durationininventory) | int | unsigned |  | NO | 0 |  |  |
 | [QualityModifier](#qualitymodifier) | float |  |  | NO | 0 |  |  |
 | [BagFamily](#bagfamily) | int | unsigned |  | NO | 0 |  |  |
+| [StartQuestID](#startquestid) | int | signed |  | NO | 0 |  |  |
+| [LanguageID](#languageid) | int | signed |  | NO | 0 |  |  |
 | [ItemRange](#itemrange) | float |  |  | NO | 0 |  |  |
 | [StatPercentageOfSocket1](#statpercentageofsocket1) | float |  |  | NO | 0 |  |  |
 | [StatPercentageOfSocket2](#statpercentageofsocket2) | float |  |  | NO | 0 |  |  |
@@ -75,7 +77,6 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [ZoneBound2](#zonebound2) | smallint | unsigned |  | NO | 0 |  |  |
 | [ItemSet](#itemset) | smallint | unsigned |  | NO | 0 |  |  |
 | [LockID](#lockid) | smallint | unsigned |  | NO | 0 |  |  |
-| [StartQuestID](#startquestid) | int | signed |  | NO | 0 |  |  |
 | [PageID](#pageid) | smallint | unsigned |  | NO | 0 |  |  |
 | [ItemDelay](#itemdelay) | smallint | unsigned |  | NO | 0 |  |  |
 | [MinFactionID](#minfactionid) | smallint | unsigned |  | NO | 0 |  |  |
@@ -92,7 +93,6 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [SheatheType](#sheathetype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Material](#material) | tinyint | unsigned |  | NO | 0 |  |  |
 | [PageMaterialID](#pagematerialid) | tinyint | unsigned |  | NO | 0 |  |  |
-| [LanguageID](#languageid) | int | signed |  | NO | 0 |  |  |
 | [Bonding](#bonding) | tinyint | unsigned |  | NO | 0 |  |  |
 | [DamageDamageType](#damagedamagetype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [StatModifierBonusStat1](#statmodifierbonusstat1) | tinyint | signed |  | NO | 0 |  |  |
@@ -165,6 +165,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### BagFamily
+*- no description -*
+&nbsp;
+
+### StartQuestID
+*- no description -*
+&nbsp;
+
+### LanguageID
 *- no description -*
 &nbsp;
 
@@ -360,10 +368,6 @@ dateCreated: 2021-08-30T06:00:00.000Z
 *- no description -*
 &nbsp;
 
-### StartQuestID
-*- no description -*
-&nbsp;
-
 ### PageID
 *- no description -*
 &nbsp;
@@ -425,10 +429,6 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### PageMaterialID
-*- no description -*
-&nbsp;
-
-### LanguageID
 *- no description -*
 &nbsp;
 
@@ -522,4 +522,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/item_set_spell" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'item_set_spell'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/item_sparse_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'item_sparse_locale'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

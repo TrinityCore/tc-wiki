@@ -2,7 +2,7 @@
 title: curve_point
 description: 
 published: true
-date: 2022-02-06T18:26:40.921Z
+date: 2022-07-07T11:07:36.651Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -17,8 +17,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [PosX](#posx) | float |  |  | NO | 0 |  |  |
 | [PosY](#posy) | float |  |  | NO | 0 |  |  |
-| [PosPreSquishX](#pospresquishx) | float |  |  | NO | 0 |  |  |
-| [PosPreSquishY](#pospresquishy) | float |  |  | NO | 0 |  |  |
+| [PreSLSquishPosX](#preslsquishposx) | float |  |  | NO | 0 |  |  |
+| [PreSLSquishPosY](#preslsquishposy) | float |  |  | NO | 0 |  |  |
 | [CurveID](#curveid) | smallint | unsigned |  | NO | 0 |  |  |
 | [OrderIndex](#orderindex) | tinyint | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
@@ -37,11 +37,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 *- no description -*
 &nbsp;
 
-### PosPreSquishX
+### PreSLSquishPosX
 *- no description -*
 &nbsp;
 
-### PosPreSquishY
+### PreSLSquishPosY
 *- no description -*
 &nbsp;
 
@@ -67,4 +67,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/curve" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'curve'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/destructible_model_data" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'destructible_model_data'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
