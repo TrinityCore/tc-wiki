@@ -2,7 +2,7 @@
 title: Auth
 description: 
 published: true
-date: 2022-04-17T20:19:41.111Z
+date: 2022-07-07T11:12:02.869Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -24,6 +24,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 - [battlenet_account_heirlooms](/database/master/auth/battlenet_account_heirlooms)
 - [battlenet_account_mounts](/database/master/auth/battlenet_account_mounts)
 - [battlenet_account_toys](/database/master/auth/battlenet_account_toys)
+- [battlenet_account_transmog_illusions](/database/master/auth/battlenet_account_transmog_illusions)
 - [battlenet_accounts](/database/master/auth/battlenet_accounts)
 - [battlenet_item_appearances](/database/master/auth/battlenet_item_appearances)
 - [battlenet_item_favorite_appearances](/database/master/auth/battlenet_item_favorite_appearances)
