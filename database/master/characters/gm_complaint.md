@@ -2,7 +2,7 @@
 title: gm_complaint
 description: 
 published: true
-date: 2022-02-06T18:26:45.276Z
+date: 2022-07-07T11:11:05.597Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -24,7 +24,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [posZ](#posz) | float |  |  | NO | 0 |  |  |
 | [facing](#facing) | float |  |  | NO | 0 |  |  |
 | [targetCharacterGuid](#targetcharacterguid) | bigint | unsigned |  | NO |  |  |  |
-| [complaintType](#complainttype) | smallint | unsigned |  | NO |  |  |  |
+| [reportType](#reporttype) | int | signed |  | NO | 0 |  |  |
+| [reportMajorCategory](#reportmajorcategory) | int | signed |  | NO | 0 |  |  |
+| [reportMinorCategoryFlags](#reportminorcategoryflags) | int | signed |  | NO | 0 |  |  |
 | [reportLineIndex](#reportlineindex) | int | signed |  | NO |  |  |  |
 | [closedBy](#closedby) | bigint | signed |  | NO | 0 |  |  |
 | [assignedTo](#assignedto) | bigint | unsigned |  | NO | 0 |  | GUID of admin to whom ticket is assigned |
@@ -72,7 +74,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 *- no description -*
 &nbsp;
 
-### complaintType
+### reportType
+*- no description -*
+&nbsp;
+
+### reportMajorCategory
+*- no description -*
+&nbsp;
+
+### reportMinorCategoryFlags
 *- no description -*
 &nbsp;
 
@@ -93,4 +103,3 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/characters/gm_bug" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'gm_bug'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/characters/gm_complaint_chatlog" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'gm_complaint_chatlog'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
