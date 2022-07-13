@@ -2,7 +2,7 @@
 title: Trinitycore Wiki
 description: 
 published: true
-date: 2022-05-03T14:08:16.890Z
+date: 2022-07-13T07:34:54.625Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T17:47:17.543Z
@@ -19,9 +19,7 @@ If you wish to contribute ideas or code, please visit our site linked below or m
 
 For further information on the TrinityCore project, please visit our project website at TrinityCore.org.
 
-> **OpenSSL 3.x is UNSUPPORTED**
 > **Boost 1.79 is UNSUPPORTED**
-> **WARNING ubuntu 22.04 ships unsuported openssl 3.0 don't update to it**
 {.is-danger}
 
 
