@@ -2,7 +2,7 @@
 title: Windows Core Installation
 description: 
 published: true
-date: 2022-03-12T15:46:21.298Z
+date: 2022-07-13T07:36:39.154Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-15T10:17:42.057Z
@@ -15,7 +15,7 @@ Most of the following steps are to be performed only the first time you install 
 
 ## Required Software
 
-See [Windows Requirements](https://trinitycore.atlassian.net/wiki/display/tc/Windows+Requirements)
+See [Windows Requirements](https://trinitycore.info/en/install/requirements/windows)
 
 ## Pulling & Compiling the Source
 
