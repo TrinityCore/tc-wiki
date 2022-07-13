@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2022-04-11T13:24:49.882Z
+date: 2022-07-13T07:08:50.489Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -41,7 +41,7 @@ Git Extensions adds some visual extras and an improved UI for Git.
 > The installer for VS 2019 (any edition) no longer installs the C++ compiler by default.
 {.is-warning}
 
-To enable it, select **Custom** in the type of installation and pick **Common Tools for Visual C++ 2019** in **Programming Languages** -> Visual C++
+To enable it, select **Custom** in the type of installation and pick **Desktop development with C++** as workload
 &nbsp;
 ![visualstudio.jpg](/visualstudio.jpg)
 &nbsp;
