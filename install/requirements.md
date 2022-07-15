@@ -2,7 +2,7 @@
 title: Requirements
 description: 
 published: true
-date: 2022-07-15T19:11:22.145Z
+date: 2022-07-15T20:16:05.072Z
 tags: requirements, installation, setup
 editor: markdown
 dateCreated: 2021-08-13T23:52:06.467Z
@@ -31,4 +31,4 @@ If you still have any problem, check:
 
 - Updating or starting with TrinityCore issues, Trouble with your TrinityCore Install / Readme 1st / FAQs
 - Ask help on the Forum
-- If you still have problems, you can try to ask help on IRC, but remember it's not real time 24/7 support, most of people there lives on GMT and they can be sleeping or working.
+- If you still have problems, you can try to ask help on IRC or [Discord](https://discord.trinitycore.org/){target=_blank}, but remember it's not real time 24/7 support, most of people there lives on GMT and they can be sleeping or working.
