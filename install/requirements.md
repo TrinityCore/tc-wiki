@@ -2,7 +2,7 @@
 title: Requirements
 description: 
 published: true
-date: 2021-08-20T03:53:50.517Z
+date: 2022-07-15T19:11:22.145Z
 tags: requirements, installation, setup
 editor: markdown
 dateCreated: 2021-08-13T23:52:06.467Z
@@ -19,6 +19,10 @@ dateCreated: 2021-08-13T23:52:06.467Z
 - [Linux Requirements](/install/requirements/linux)
 - [macOS Requirements](/install/requirements/macos)
 - [Windows Requirements](/install/requirements/windows)
+{.links-list}
+
+## Optional
+- [Optional Software](/install/requirements/optional)
 {.links-list}
 
 ## Help
