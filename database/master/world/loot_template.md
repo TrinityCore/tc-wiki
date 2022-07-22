@@ -1,8 +1,8 @@
 ---
-title: \*\_loot_template
+title: *_loot_template
 description: 
 published: true
-date: 2022-04-19T10:23:11.986Z
+date: 2022-07-22T18:48:50.395Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2022-04-19T10:04:49.757Z
