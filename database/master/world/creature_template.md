@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2022-07-24T08:11:11.771Z
+date: 2022-07-24T09:43:34.385Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:15.744Z
@@ -142,10 +142,16 @@ Used to tell the player what kind of NPC this creature is.
 | LootAll | Shows a Multiple Brown Bag icon (Same as holding Shift before looting a creature). |
 | Quest | Unused or Unknown. (See EntryID 32870 The Real Ronakada). |
 | PVP | Unused or Unknown.(See EntryID 29387 Arena Master: Dalaran Arena). |
+
+> This is not required to make the creature/npc function unless you are using scripts or gossip options.
+>
+> Names are case sensitive. If in doubt use an example above.
+{.is-info}
+
 &nbsp;
 
 ### gossip_menu_id
-*- no description -*
+The gossip ID of this creature. This field is obtained from sniff (update fields). If you can not sniff this value, and need to make one up, it must be > 50000. This field is the link to [gossip_menu.MenuId](/en/database/master/world/gossip_menu#menuid).
 &nbsp;
 
 ### minlevel
