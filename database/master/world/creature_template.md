@@ -2,10 +2,10 @@
 title: creature_template
 description: 
 published: true
-date: 2022-07-07T11:02:37.857Z
+date: 2022-07-24T08:11:11.771Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T09:30:15.744Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/creature_summoned_data" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'creature_summoned_data'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/creature_template_addon" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'creature_template_addon'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -15,9 +15,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
-| [difficulty_entry_1](#difficulty_entry_1) | int | unsigned |  | NO | 0 |  |  |
-| [difficulty_entry_2](#difficulty_entry_2) | int | unsigned |  | NO | 0 |  |  |
-| [difficulty_entry_3](#difficulty_entry_3) | int | unsigned |  | NO | 0 |  |  |
+| [difficulty_entry_1](#difficulty_entry_1-3) | int | unsigned |  | NO | 0 |  |  |
+| [difficulty_entry_2](#difficulty_entry_1-3) | int | unsigned |  | NO | 0 |  |  |
+| [difficulty_entry_3](#difficulty_entry_1-3) | int | unsigned |  | NO | 0 |  |  |
 | [KillCredit1](#killcredit1) | int | unsigned |  | NO | 0 |  |  |
 | [KillCredit2](#killcredit2) | int | unsigned |  | NO | 0 |  |  |
 | [name](#name) | mediumtext |  |  | YES | NULL |  |  |
@@ -83,39 +83,39 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### entry
-*- no description -*
+Creature's unique id.
 &nbsp;
 
-### difficulty_entry_1
-*- no description -*
-&nbsp;
+### difficulty_entry_1-3
+This field connects the stats from another entry to this template when in 25man normal, 10man heroic or 25man heroic mode instance.
 
-### difficulty_entry_2
-*- no description -*
-&nbsp;
+**For Dungeons:** 
+difficulty_entry_1 = 5 (Heroic)
 
-### difficulty_entry_3
-*- no description -*
+**For Raids:**
+difficulty_entry_1 = 25 (Normal)
+difficulty_entry_2 = 10 (Heroic)
+difficulty_entry_3 = 25 (Heroic)
 &nbsp;
 
 ### KillCredit1
-*- no description -*
+If this is a kill credit template -- one that is a dummy template that is used when more than one creature can count as a kill in a quest, then this is a link to the first entry of the creature that could be killed to give quest credit.
 &nbsp;
 
 ### KillCredit2
-*- no description -*
+If this is a kill credit template -- one that is a dummy template that is used when more than one creature can count as a kill in a quest, then this is a link to the second entry of the creature that could be killed to give quest credit. If more than two creatures can be killed and count toward a single objective, an smart or C++ script will be required.
 &nbsp;
 
 ### name
-*- no description -*
+Base name of the creature.
 &nbsp;
 
 ### femaleName
-*- no description -*
+Female version of base name of the creature.
 &nbsp;
 
 ### subname
-*- no description -*
+The subname of the creature that appears in <> below the creature's name.
 &nbsp;
 
 ### TitleAlt
@@ -123,7 +123,25 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### IconName
-*- no description -*
+Used to tell the player what kind of NPC this creature is.
+
+| Name | Desciption |
+| ---- | ---------- |
+| Directions | Used for Guards and Teleporter NPC's. |
+| Gunner | Indicator of a Turret NPC/Player Controlled. |
+| vehichleCursor | Indicator that this is a PCV (Player Controlled Vehicle) |
+| Driver | Shows a Steering Wheel icon when mouse over. |
+| Attack | Shows a Sword icon indicating you can attack this target. |
+| Buy | Shows a Brown Bag icon usually if the NPC only sells things. |
+| Speak | Shows a Chat Bubble icon if this NPC has Quest/Gossip options. |
+| Pickup | Shows a Hand Grasping icon of if this NPC can be picked up for quest/items. |
+| Interact | Shows Cog icon commonly used for quest/transport. |
+| Trainer | Shows a Book icon, identifying this NPC as a "Trainer". |
+| Taxi | Shows a Boot w/Wings icon identifying this NPC as a "Taxi". |
+| Repair | Shows a Anvil icon identifying this npc as a Repair NPC. |
+| LootAll | Shows a Multiple Brown Bag icon (Same as holding Shift before looting a creature). |
+| Quest | Unused or Unknown. (See EntryID 32870 The Real Ronakada). |
+| PVP | Unused or Unknown.(See EntryID 29387 Arena Master: Dalaran Arena). |
 &nbsp;
 
 ### gossip_menu_id
