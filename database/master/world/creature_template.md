@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2022-07-24T10:33:52.354Z
+date: 2022-07-24T10:43:05.398Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:15.744Z
@@ -226,19 +226,20 @@ The same with hexadecimal numbers: 0x1 + 0x2 + 0x80 + 0x1000 = 0x1083
 &nbsp;
 
 ### speed_walk
-*- no description -*
+Controls how fast the creature can walk. For vehicles: increases fly speed.
 &nbsp;
 
 ### speed_run
-*- no description -*
+Controls how fast the creature can run. For vehicles: increases ground movement speed.
 &nbsp;
 
 ### scale
-*- no description -*
+If non-zero, this field defines the size of how the model of the creature appears ingame. If zero, it will use default model size taken from the DB2.
 &nbsp;
 
 ### rank
-*- no description -*
+The rank of the creature:
+
 &nbsp;
 
 ### dmgschool
