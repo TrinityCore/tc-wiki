@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2022-07-24T10:31:44.258Z
+date: 2022-07-24T10:32:27.879Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:15.744Z
@@ -218,6 +218,11 @@ A bitmask that represents what NPC flags the creature has. Each bit controls a d
 | 1073741824 | 0x4000 0000 | Wild Battle Pet | Creature is battle pet and collectable |
 | 2147483648 | 0x8000 0000 | Blackmarket |  |
 
+So if you want an NPC that is a quest giver, a vendor, and can repair you just add the specific flags together: 
+```bash
+`npcflag`=`npcflag`|1|2|128|4096 
+```
+The same with hexadecimal numbers: 0x1 + 0x2 + 0x80 + 0x1000 = 0x1083
 &nbsp;
 
 ### speed_walk
