@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2022-07-24T10:43:05.398Z
+date: 2022-07-24T13:35:10.456Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:15.744Z
@@ -240,18 +240,45 @@ If non-zero, this field defines the size of how the model of the creature appear
 ### rank
 The rank of the creature:
 
-&nbsp;
+| Rank | Name | Default Respawn Time</br>([creature.spawntimesecs](/en/database/master/world/creature#spawntimesecs)) | Corpse Decay Time</br>([Corpse.Decay](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/worldserver/worldserver.conf.dist#L1745)) | Total Default Respawn</br>([creature.spawntimesecs](/en/database/master/world/creature#spawntimesecs) + [Corpse.Decay](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/worldserver/worldserver.conf.dist#L1745)) |
+|---|---|:---:|:---:|:---:|
+| 0 | Normal | 5 min | 60 sec | 6 min |
+| 1 | Elite | 5 min | 5 min | 10 min |
+| 2 | Rare Elite | 5 min | 5 min | 10 min |
+| 3 | Boss | 5 min | 1 hour | 1 hour, 5 min |
+| 4 | Rare | 5 min | 5 min | 10 min |
+
+> An NPC's rank is mostly visual (which also requires your Cache to be cleared to see changes). Changing this value will not change its health, damage, or loot. However, it will change the respawn time of the creature.
+{.is-info}
+
+
+> Respawn times can be modified in two other places: [creature.spawntimesecs](/en/database/master/world/creature#spawntimesecs) (only for that single GUID of the creature) and in the worldserver.conf file under the "[Corpse.Decay](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/worldserver/worldserver.conf.dist#L1745)" settings (for ALL creatures of the same rank). The default \`spawntimesecs\` for all spawned creatures is 300 seconds (5 minutes). For example, using the ".npc add" command to spawn a "Normal" NPC will give it a default respawn time of 6 minutes (spawntimesecs + Corpse.Decay time). Also, the creature must decay first before it can respawn. For this reason, the Corpse Decay Time of the creature is also it's minimum respawn time, since setting the creature's [creature.spawntimesecs](/en/database/master/world/creature#spawntimesecs) = 0 will remove the Default Respawn Time. In the example above, setting our Normal NPC's spawntimesecs = 0 will mean the creature's respawn time decreases from 6 minutes to 60 seconds.
+{.is-info}
+
+
+> If you want the creature to show a skull or "??" in the portrait (often with Bosses), set the type_flags to 4.
+{.is-info}
+
 
 ### dmgschool
-*- no description -*
+Creature's melee damage school.
+| ID | Name |
+|---|---|
+| 0 | SPELL_SCHOOL_NORMAL |
+| 1 | SPELL_SCHOOL_HOLY |
+| 2 | SPELL_SCHOOL_FIRE |
+| 3 | SPELL_SCHOOL_NATURE |
+| 4 | SPELL_SCHOOL_FROST |
+| 5 | SPELL_SCHOOL_SHADOW |
+| 6 | SPELL_SCHOOL_ARCANE |
 &nbsp;
 
 ### BaseAttackTime
-*- no description -*
+This is the base time that determines how long a creature must wait between melee attacks. This time is in milliseconds.
 &nbsp;
 
 ### RangeAttackTime
-*- no description -*
+This is the base time that determines how long a creature must wait between ranged attacks. This time is in milliseconds.
 &nbsp;
 
 ### BaseVariance
@@ -263,11 +290,18 @@ The rank of the creature:
 &nbsp;
 
 ### unit_class
-*- no description -*
+This is the creature's class, and it dictates levels of health and mana. Also note that health and mana will change according to exp, health_mod, and mana_mod. Not setting this value will report a minor warning in the DB_Errors.log.
+
+| Value | Name | Power Shown |
+|---|---|---|
+| 1 | CLASS_WARRIOR | Health only (equal to Rogue) |
+| 2 | CLASS_PALADIN | Health & Mana (more health than Mage but less mana) |
+| 4 | CLASS_ROGUE | Health only (equal to Warrior) |
+| 8 | CLASS_MAGE | Health & Mana (less health than Paladin but more mana) |
 &nbsp;
 
 ### unit_flags
-*- no description -*
+Allows the manual application of unit flags to creatures. Again this is a bitmask field and to apply more than one flag, just add the different numbers.
 &nbsp;
 
 ### unit_flags2
