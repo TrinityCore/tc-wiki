@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2022-07-24T10:32:27.879Z
+date: 2022-07-24T10:33:35.870Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:15.744Z
@@ -184,7 +184,7 @@ A bitmask that represents what NPC flags the creature has. Each bit controls a d
 
 | Flag                    ||        |         |
 | Decimal    | Hexadecimal | Name   | Comment |
-|:----------:|-------------|--------|---------|
+|-----------:|-------------|--------|---------|
 | 1          | 0x0000 0001 | Gossip | If creature has more gossip options, add this flag to bring up a menu. |
 | 2          | 0x0000 0002 | Quest Giver | Any creature giving or taking quests needs to have this flag. |
 | 4          | 0x0000 0004 | Unknown | Flag is unknown |
