@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2022-07-24T09:43:34.385Z
+date: 2022-07-24T10:31:44.258Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:15.744Z
@@ -148,18 +148,16 @@ Used to tell the player what kind of NPC this creature is.
 > Names are case sensitive. If in doubt use an example above.
 {.is-info}
 
-&nbsp;
-
 ### gossip_menu_id
 The gossip ID of this creature. This field is obtained from sniff (update fields). If you can not sniff this value, and need to make one up, it must be > 50000. This field is the link to [gossip_menu.MenuId](/en/database/master/world/gossip_menu#menuid).
 &nbsp;
 
 ### minlevel
-*- no description -*
+The minimum level of the creature if the creature has a level range.
 &nbsp;
 
 ### maxlevel
-*- no description -*
+The maximum level of the creature if the creature has a level range. When added to world, a level in chosen in the specified level range.
 &nbsp;
 
 ### HealthScalingExpansion
@@ -175,11 +173,51 @@ The gossip ID of this creature. This field is obtained from sniff (update fields
 &nbsp;
 
 ### faction
-*- no description -*
-&nbsp;
+The faction of the creature. See [FactionTmplate.db2](https://wow.tools/dbc/?dbc=factiontemplate){target=_blank}.
+Just because more than one faction has the same name, the inter-faction relationships can be different.
+
+> This field also controls the creature family assistance mechanic. Only creatures with the same faction will assist each other.
+{.is-info}
 
 ### npcflag
-*- no description -*
+A bitmask that represents what NPC flags the creature has. Each bit controls a different flag and to combine flags, you can add each flag that you want, in effect activating the respective bits.
+
+| Flag                    ||        |         |
+| Decimal    | Hexadecimal | Name   | Comment |
+|:----------:|-------------|--------|---------|
+| 1          | 0x0000 0001 | Gossip | If creature has more gossip options, add this flag to bring up a menu. |
+| 2          | 0x0000 0002 | Quest Giver | Any creature giving or taking quests needs to have this flag. |
+| 4          | 0x0000 0004 | Unknown | Flag is unknown |
+| 8          | 0x0000 0008 | Unknown | Flag is unknown |
+| 16         | 0x0000 0010 | Trainer | Allows the creature to have a trainer list to teach spells |
+| 32         | 0x0000 0020 | Class Trainer |  |
+| 64         | 0x0000 0040 | Profession Trainer |  |
+| 128        | 0x0000 0080 | Vendor | Any creature selling items needs to have this flag. |
+| 256        | 0x0000 0100 | Vendor Ammo |  |
+| 512        | 0x0000 0200 | Vendor Food |  |
+| 1024       | 0x0000 0400 | Vendor Poison |  |
+| 2048       | 0x0000 0800 | Vendor Reagent |  |
+| 4096       | 0x0000 1000 | Repairer | 	Creatures with this flag can repair items. |
+| 8192       | 0x0000 2000 | Flight Master | Any creature serving as flight master has this. |
+| 16384      | 0x0000 4000 | Spirit Healer | Makes the creature invisible to alive characters and has the resurrect function. |
+| 32768      | 0x0000 8000 | Spirit Guide |  |
+| 65536      | 0x0001 0000 | Innkeeper | Creatures with this flag can set hearthstone locations. |
+| 131072     | 0x0002 0000 | Banker | Creatures with this flag can show the bank |
+| 262144     | 0x0004 0000 | Petitioner |  |
+| 524288     | 0x0008 0000 | Tabard Designer | Allows the designing of guild tabards. |
+| 1048576    | 0x0010 0000 | Battlemaster | Creatures with this flag port players to battlegrounds. |
+| 2097152    | 0x0020 0000 | Auctioneer | Allows creature to display auction list. |
+| 4194304    | 0x0040 0000 | Stable Master | Has the option to stable pets for hunters. |
+| 8388608    | 0x0080 0000 | Guild Banker |  |
+| 16777216   | 0x0100 0000 | Spellclick | Needs data on npc_spellclick_spells table |
+| 33554432   | 0x0200 0000 | Player Vehicle |  |
+| 67108864   | 0x0400 0000 | Mailbox | NPC will act like a mailbox (opens mailbox with right-click) |
+| 134217728  | 0x0800 0000 | Artifact Power Respec | NPC will act like a mailbox (opens mailbox with right-click) |
+| 268435456  | 0x1000 0000 | Transmogrifier | Creatures with this flag can show transmogrification UI |
+| 536870912  | 0x2000 0000 | Vaultkeeper | Creatures with this flag can show void storage |
+| 1073741824 | 0x4000 0000 | Wild Battle Pet | Creature is battle pet and collectable |
+| 2147483648 | 0x8000 0000 | Blackmarket |  |
+
 &nbsp;
 
 ### speed_walk
