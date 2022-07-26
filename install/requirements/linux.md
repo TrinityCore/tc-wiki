@@ -2,7 +2,7 @@
 title: Linux Requirements
 description: 
 published: true
-date: 2022-05-02T20:10:05.096Z
+date: 2022-07-26T09:49:52.431Z
 tags: requirements, installation, setup, linux
 editor: markdown
 dateCreated: 2021-08-14T00:09:23.038Z
@@ -12,7 +12,7 @@ dateCreated: 2021-08-14T00:09:23.038Z
 >Processor with SSE2 support 
 >Boost ≥ 1.71
 >MySQL ≥ 5.7.0
->OpenSSL = 1.x.x
+>OpenSSL ≥ 1.x.x
 >CMake ≥ 3.18.4
 >Clang  ≥ 7 (heavy recommended, especially on master branch) or GCC ≥ 8.3.0
 >zlib ≥ 1.2.7
@@ -51,7 +51,7 @@ update-alternatives --install /usr/bin/cc cc /usr/bin/clang 100
 update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
 ```
 
-Ubuntu 20.10 (you will need to use sudo to install the packages). WARNING ubuntu 22.04 ships unsupported openssl 3.0 don't update to it
+Ubuntu 22.04 (you will need to use sudo to install the packages)
 <div class="next-codeblock-no-line-numbers"></div>
 
 ```bash
