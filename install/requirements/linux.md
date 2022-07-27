@@ -2,7 +2,7 @@
 title: Linux Requirements
 description: 
 published: true
-date: 2022-07-26T09:49:52.431Z
+date: 2022-07-27T15:48:28.362Z
 tags: requirements, installation, setup, linux
 editor: markdown
 dateCreated: 2021-08-14T00:09:23.038Z
@@ -56,7 +56,7 @@ Ubuntu 22.04 (you will need to use sudo to install the packages)
 
 ```bash
 apt-get update
-apt-get install git clang cmake make gcc g++ libmariadbclient-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev libboost-all-dev mariadb-server p7zip libmariadb-client-lgpl-dev-compat
+apt-get install git clang cmake make gcc g++ libmysqlclient-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev libboost-all-dev mysql-server p7zip
 update-alternatives --install /usr/bin/cc cc /usr/bin/clang 100
 update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
 ```
