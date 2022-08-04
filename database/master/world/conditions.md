@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2022-05-09T21:02:55.361Z
+date: 2022-08-04T15:34:35.282Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -147,10 +147,12 @@ Two conditions with the same SourceType, SourceGroup and SourceEntry but with a 
 | CONDITION_QUESTSTATE | 47 | Quest ID - see quest_template.id | 	state_mask: true if player is in any of the provided quest states for the quest<br/>1 = not taken<br/>2 = completed<br/>8 = in progress<br/>32 = failed<br/>64 = rewarded | Always 0 |  |
 | CONDITION_QUEST_OBJECTIVE_COMPLETE | 48 | Quest Objective ID - see quest_objectives (6.x / 7.x/ 8.x only)<br/><br/>Quest ID (3.3.5 only) | Objective index (a value from 0 to 3) 3.3.5 only | Counter (3.3.5 only) |  |
 | CONDITION_DIFFICULTY_ID | 49 | Difficulty (0 None, 1 Normal, etc) | Always 0  | Always 0  | true if target's map has difficulty id |
-| placeholder | 50 | placeholder | placeholder | placeholder | placeholder |
+| CONDITION_GAMEMASTER | 50 | canBeGM | Always 0 | Always 0 | true if player is gamemaster<br/>(or can be gamemaster) |
 | CONDITION_OBJECT_ENTRY_GUID | 51 | TypeID | entry | guid | true if object is type TypeID<br/>and the entry is 0<br/>or matches entry of the object<br/>or matches guid of the object |
 | CONDITION_TYPE_MASK | 52 | TypeMask | Always 0 | Always 0 | true if object is type object's<br/>TypeMask matches provided TypeMask |
 | CONDITION_SCENARIO_STEP | 54 | ScenarioStepId (Only >= 5.0.3)| Always 0 | Always 0 | true if object is at scenario <br> with current step equal to ScenarioStepID |
+| CONDITION_SCENE_IN_PROGRESS | 55 | SceneScriptPackageId | Always 0 | Always 0 | true if player is playing a scene <br> with ScriptPackageId equal to given value |
+| CONDITION_PLAYER_CONDITION | 56 | PlayerConditionId | Always 0 | Always 0 | true if player satisfies PlayerCondition |
 &nbsp;
 
 ### ConditionTarget
