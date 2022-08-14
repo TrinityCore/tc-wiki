@@ -2,10 +2,10 @@
 title: World
 description: 
 published: true
-date: 2022-07-07T11:02:38.118Z
+date: 2022-08-14T19:05:35.615Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-28T21:01:17.438Z
 ---
 
 ## a
@@ -113,6 +113,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 - [garrison_follower_class_spec_abilities](/database/master/world/garrison_follower_class_spec_abilities)
 - [garrison_plot_finalize_info](/database/master/world/garrison_plot_finalize_info)
 - [gossip_menu](/database/master/world/gossip_menu)
+- [gossip_menu_addon](/database/master/world/gossip_menu_addon)
 - [gossip_menu_option](/database/master/world/gossip_menu_option)
 - [gossip_menu_option_locale](/database/master/world/gossip_menu_option_locale)
 - [graveyard_zone](/database/master/world/graveyard_zone)
