@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2022-07-13T07:08:50.489Z
+date: 2022-08-18T14:32:28.154Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -45,7 +45,7 @@ To enable it, select **Custom** in the type of installation and pick **Desktop d
 &nbsp;
 ![visualstudio.jpg](/visualstudio.jpg)
 &nbsp;
-If you are running a Windows 10 Creator/Anniversary Edition, you additional have to install Windows 10 SDK via **Indiviual components**
+If you are running a Windows 10 Creator/Anniversary Edition, you additional have to install one Windows 10 SDK via **Indiviual components** out of the ones available
 &nbsp;
 ![visualstudio_anniversary.png](/visualstudio_anniversary.png)
 &nbsp;
