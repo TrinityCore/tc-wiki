@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2022-08-18T14:32:28.154Z
+date: 2022-08-19T18:33:47.860Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -104,9 +104,14 @@ Try connecting to your MySQL instance that you installed above. Depending on the
 &nbsp;
 
 ### 7. [Boost](http://www.boost.org/){target=_blank}
-1. Download the prebuilt Windows Binary for Visual Studio 2019
+1. Download the prebuilt Windows Binary for Visual Studio 2019 (or higher)
+Here the links for minimum version:
 	- 64bit: [https://sourceforge.net/projects/boost/files/boost-binaries/1.73.0/boost_1_73_0-msvc-14.2-64.exe/download](https://sourceforge.net/projects/boost/files/boost-binaries/1.73.0/boost_1_73_0-msvc-14.2-64.exe/download){target=_blank}
 	- 32bit: [https://sourceforge.net/projects/boost/files/boost-binaries/1.73.0/boost_1_73_0-msvc-14.2-32.exe/download](https://sourceforge.net/projects/boost/files/boost-binaries/1.73.0/boost_1_73_0-msvc-14.2-32.exe/download){target=_blank}
+>   **If you  prefer a higher Boost version check here:** [https://sourceforge.net/projects/boost/files/boost-binaries/](https://sourceforge.net/projects/boost/files/boost-binaries/){target=_blank}
+>   Not all version are currently supported by TrinityCore (minimum is 1.73) or CMake (e.g. CMake 3.24.1 will throw CMake errors with boost 1.80)
+{.is-info}
+
 4. Install the package to the default location (usually C:\local\boost_1_XX_0\ .)
 5. Add an environment variable to "System" variable named "BOOST_ROOT" and as value your Boost installation directory, e.g "C:/local/boost_1_72_0". Important is to use "**<span style="color:red">/</span>**", not "**<span style="color:red">\\</span>**"  when pointing to directory.
 (Make sure that it does **<span style="color:red">not</span>** have a trailing slash (end of path). If you still get problems, add the same variable in the "USER" variables section too, like shown in the image below.)
