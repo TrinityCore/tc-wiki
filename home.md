@@ -2,7 +2,7 @@
 title: Trinitycore Wiki
 description: 
 published: true
-date: 2022-07-13T07:34:54.625Z
+date: 2022-08-19T18:35:51.439Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T17:47:17.543Z
@@ -19,8 +19,10 @@ If you wish to contribute ideas or code, please visit our site linked below or m
 
 For further information on the TrinityCore project, please visit our project website at TrinityCore.org.
 
-> **Boost 1.79 is UNSUPPORTED**
-{.is-danger}
+> **Boost 1.80 will throw warnings on CMake, but the core will compile without errors**
+> *(Newer Boost versions require newer CMake versions)*
+{.is-warning}
+
 
 
 # Installation Guide
