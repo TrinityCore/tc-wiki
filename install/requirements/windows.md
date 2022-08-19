@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2022-08-19T18:33:47.860Z
+date: 2022-08-19T18:45:29.573Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -110,6 +110,10 @@ Here the links for minimum version:
 	- 32bit: [https://sourceforge.net/projects/boost/files/boost-binaries/1.73.0/boost_1_73_0-msvc-14.2-32.exe/download](https://sourceforge.net/projects/boost/files/boost-binaries/1.73.0/boost_1_73_0-msvc-14.2-32.exe/download){target=_blank}
 >   **If you  prefer a higher Boost version check here:** [https://sourceforge.net/projects/boost/files/boost-binaries/](https://sourceforge.net/projects/boost/files/boost-binaries/){target=_blank}
 >   Not all version are currently supported by TrinityCore (minimum is 1.73) or CMake (e.g. CMake 3.24.1 will throw CMake errors with boost 1.80)
+> To find the correct version we will explain onm example: boost_1_80_0-msvc-14.3-64.exe:
+> 1_80_0 =Version 1.80
+> msvc-14.3 = Toolset v143 for Visual Studio 2022 (https://docs.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-170)
+> 64 = 64bit
 {.is-info}
 
 4. Install the package to the default location (usually C:\local\boost_1_XX_0\ .)
