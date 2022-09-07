@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2022-08-04T15:34:35.282Z
+date: 2022-09-07T07:37:25.892Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -178,13 +178,13 @@ Example: CONDITION_AURA with NegativeCondition will be true when the player does
 &nbsp;
 
 ### ErrorType
-Id from [/src/server/game/Miscellaneous/SharedDefines.h#L1429](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Miscellaneous/SharedDefines.h#L1429). Will be displayed only for the below condition source type:
+Id from [/src/server/game/Miscellaneous/SharedDefines.h#L1442](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Miscellaneous/SharedDefines.h#L1442). Will be displayed only for the below condition source type:
 
 CONDITION_SOURCE_TYPE_SPELL = 17
 &nbsp;
 
 ### ErrorTextId
-Id from [/src/server/game/Miscellaneous/SharedDefines.h#L1750](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Miscellaneous/SharedDefines.h#L1750). Will be displayed only for the below condition source type:
+Id from [/src/server/game/Miscellaneous/SharedDefines.h#L1766](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Miscellaneous/SharedDefines.h#L1766). Will be displayed only for the below condition source type:
 
 CONDITION_SOURCE_TYPE_SPELL = 17
 
