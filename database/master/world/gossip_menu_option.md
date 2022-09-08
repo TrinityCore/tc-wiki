@@ -2,7 +2,7 @@
 title: gossip_menu_option
 description: 
 published: true
-date: 2022-08-14T19:15:13.416Z
+date: 2022-09-08T14:35:25.477Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:32:12.004Z
@@ -16,10 +16,9 @@ dateCreated: 2021-08-30T09:32:12.004Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- | --- |
 | [MenuID](#menuid) | int | unsigned | PRI | NO | 0 |  |  | SMSG_GOSSIP_MESSAGE |
 | [OptionID](#optionid) | int | unsigned | PRI | NO | 0 |  |  | SMSG_GOSSIP_MESSAGE |
-| [OptionIcon](#optionicon) | tinyint | unsigned |  | NO | 0 |  |  | SMSG_GOSSIP_MESSAGE |
+| [OptionNpc](#optionnpc) | tinyint | unsigned |  | NO | 0 |  |  | SMSG_GOSSIP_MESSAGE |
 | [OptionText](#optiontext) | mediumtext |  |  | YES | NULL |  |  | SMSG_GOSSIP_MESSAGE |
 | [OptionBroadcastTextID](#optionbroadcasttextid) | int | unsigned |  | NO | 0 |  |  | fetched from hotfixes db (via wpp) |
-| [OptionType](#optiontype) | int | unsigned |  | NO | 0 |  |  | manually, wpp tries to autodetect (requires SMSG_UPDATE_OBJECT) |
 | [OptionNpcFlag](#optionnpcflag) | bigint | unsigned |  | NO | 0 |  |  | manually, wpp tries to autodetect (requires SMSG_UPDATE_OBJECT) |
 | [Language](#language) | int | unsigned |  | NO | 0 |  |  |  |
 | [ActionMenuID](#actionmenuid) | int | unsigned |  | NO | 0 |  |  | CMSG_GOSSIP_SELECT_OPTION |
@@ -40,7 +39,7 @@ dateCreated: 2021-08-30T09:32:12.004Z
 *- no description -*
 &nbsp;
 
-### OptionIcon
+### OptionNpc
 *- no description -*
 &nbsp;
 
@@ -49,10 +48,6 @@ dateCreated: 2021-08-30T09:32:12.004Z
 &nbsp;
 
 ### OptionBroadcastTextID
-*- no description -*
-&nbsp;
-
-### OptionType
 *- no description -*
 &nbsp;
 
