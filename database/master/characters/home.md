@@ -2,7 +2,7 @@
 title: Characters
 description: 
 published: true
-date: 2022-04-17T20:23:09.347Z
+date: 2022-09-11T09:22:25.932Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -155,5 +155,6 @@ dateCreated: 2021-08-30T06:00:00.000Z
 {.links-list}
 ## w
 - [warden_action](/database/master/characters/warden_action)
-- [worldstates](/database/master/characters/worldstates)
+- [world_state_value](/database/master/characters/world_state_value)
+- [world_variable](/database/master/characters/world_variable)
 {.links-list}
