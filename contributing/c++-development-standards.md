@@ -2,7 +2,7 @@
 title: C++ Development Standards
 description: 
 published: true
-date: 2022-09-27T18:10:35.810Z
+date: 2022-09-27T18:11:30.679Z
 tags: standard, code, c++, cpp
 editor: markdown
 dateCreated: 2022-09-27T18:04:36.070Z
@@ -56,13 +56,11 @@ if (something == MY_CONSTANT)
 Do not file source code containing white space in end of line. Generally a no-no.
 Do not fill parenthesis with whitespace. Place space in front, not after.
 
-> Wrong :
-> ```c
-> if( attack )
-> if ( attack )
-> ```
-> f
-{.is-danger}
+Wrong :
+```c
+if( attack )
+if ( attack )
+```
 
 Correct :
 
