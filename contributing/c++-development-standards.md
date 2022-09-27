@@ -2,7 +2,7 @@
 title: C++ Development Standards
 description: 
 published: true
-date: 2022-09-27T18:04:36.071Z
+date: 2022-09-27T18:10:35.810Z
 tags: standard, code, c++, cpp
 editor: markdown
 dateCreated: 2022-09-27T18:04:36.070Z
@@ -56,12 +56,13 @@ if (something == MY_CONSTANT)
 Do not file source code containing white space in end of line. Generally a no-no.
 Do not fill parenthesis with whitespace. Place space in front, not after.
 
-Wrong :
-
-```c
-if( attack )
-if ( attack )
-```
+> Wrong :
+> ```c
+> if( attack )
+> if ( attack )
+> ```
+> f
+{.is-danger}
 
 Correct :
 
@@ -285,6 +286,8 @@ static float const otherVar = 1.0f;
 # File naming & hierarchy
 > TODO
 {.is-danger}
+
+:construction:
 
 # Further reading
 - [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html){target=_blank}
