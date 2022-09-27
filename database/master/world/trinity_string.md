@@ -2,7 +2,7 @@
 title: trinity_string
 description: 
 published: true
-date: 2022-09-27T11:21:36.956Z
+date: 2022-09-27T11:22:29.842Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:37:45.157Z
@@ -28,7 +28,7 @@ dateCreated: 2021-08-30T09:37:45.157Z
 ## Description of fields
 
 ### entry
-Entry of the string
+The ID that the core uses to identify a string. These IDs are contained and used internally and need to correspond to what the core expects.
 &nbsp;
 
 ### content_default
