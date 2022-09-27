@@ -2,7 +2,7 @@
 title: C++ Development Standards
 description: 
 published: true
-date: 2022-09-27T18:17:00.394Z
+date: 2022-09-27T18:18:39.274Z
 tags: standard, code, c++, cpp
 editor: markdown
 dateCreated: 2022-09-27T18:04:36.070Z
@@ -155,20 +155,22 @@ enum Spells
 ## Standard constant name prefixes
 Constant names have standardized prefixes :
 
-SPELL_ : Spell id
-NPC_ : Creature_template.entry
-ITEM_ : Item_template.entry
-GO_ : Gameobject_template.entry
-QUEST_ : Quest_template.entry
-SAY_ : Script_texts.entry (yell/normal say)
-EMOTE_ : Same as above, just different prefix to clearly see its emote
-EQUIP_ : Typically a item id(id from dbc, not _template)
-MODEL_ : A creature model
-H_XX : Heroic mode prefix (goes before the other prefix) XX is max man amount from mode. (OBSOLETE AS OF PATCH 3.2 WITH SpellDifficulty.dbc)
-RAID_XX : Raid mode prefix (goes before the other prefix) XX is max man amount from mode. (OBSOLETE AS OF PATCH 3.2 WITH SpellDifficulty.dbc)
-EVENT_ : Event/Encounter identifier for instances
-DATA_ : Identifiers in instance used for GUIDs/data not being event/encounter
-ACHIEV_ : Achievement id
+| Prefix | Usage |
+| --- | --- |
+|SPELL_ | Spell id
+|NPC_ | Creature_template.entry
+|ITEM_ | Item_template.entry
+|GO_ | Gameobject_template.entry
+|QUEST_ | Quest_template.entry
+|SAY_ | Script_texts.entry (yell/normal say)
+|EMOTE_ | Same as above, just different prefix to clearly see its emote
+|EQUIP_ | Typically a item id(id from dbc, not _template)
+|MODEL_ | A creature model
+|H_XX | Heroic mode prefix (goes before the other prefix) XX is max man amount from mode. (OBSOLETE AS OF PATCH 3.2 WITH SpellDifficulty.dbc)
+|RAID_XX | Raid mode prefix (goes before the other prefix) XX is max man amount from mode. (OBSOLETE AS OF PATCH 3.2 WITH SpellDifficulty.dbc)
+|EVENT_ | Event/Encounter identifier for instances
+|DATA_ | Identifiers in instance used for GUIDs/data not being event/encounter
+|ACHIEV_ | Achievement id
 
 <span style="color:green">Correct</span> :
 ```
