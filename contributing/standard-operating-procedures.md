@@ -2,13 +2,12 @@
 title: Standard Operating Procedures
 description: 
 published: true
-date: 2022-09-27T00:20:47.447Z
+date: 2022-09-27T18:04:50.458Z
 tags: contributing, standard, code, syntax, headers, pull request, sql
 editor: markdown
 dateCreated: 2022-09-27T00:20:47.447Z
 ---
 
-# Topic
 - [C++ Development Standards](/contributing/c++-development-standards)
 - [Creating a Pull Request](/contributing/creating-a-pull-request)
 - [File Headers](/contributing/file-headers)
