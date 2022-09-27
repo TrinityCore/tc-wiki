@@ -2,7 +2,7 @@
 title: C++ Development Standards
 description: 
 published: true
-date: 2022-09-27T18:11:30.679Z
+date: 2022-09-27T18:17:00.394Z
 tags: standard, code, c++, cpp
 editor: markdown
 dateCreated: 2022-09-27T18:04:36.070Z
@@ -56,14 +56,13 @@ if (something == MY_CONSTANT)
 Do not file source code containing white space in end of line. Generally a no-no.
 Do not fill parenthesis with whitespace. Place space in front, not after.
 
-Wrong :
+<span style="color:red">Wrong</span> :
 ```c
 if( attack )
 if ( attack )
 ```
 
-Correct :
-
+<span style="color:green">Correct</span> :
 ```c
 if (attack)
 ```
@@ -124,15 +123,14 @@ while (i > 0);
 
 ## Magic numbers vs. Constants
 Constants makes code easier to read and does also provide a degree of fail safe.
-Wrong :
 
+<span style="color:red">Wrong</span> :
 ```c
 if (player->GetQuestStatus(10090) == 1)
     me->RemoveFlag(58, 2);
 ```
 
-Correct :
-
+<span style="color:green">Correct</span> :
 ```c
 if (player->GetQuestStatus(QUEST_BEAT_UP) == QUEST_STATUS_INCOMPLETE)
     me->RemoveFlag(UNIT_FIELD_FLAGS, UNIT_FLAG_NON_ATTACKABLE);
@@ -143,8 +141,8 @@ Constants are either set as #define, or most preferred in a enum. If it does not
 ## Enumeration vs. define
 It is strongly advised to avoid using #defines for constants, use either a const variable or an enum, if multiple variables can be grouped together
 Enums must have a name. Separate constant on different enums depending on their type.
-Correct :
 
+<span style="color:green">Correct</span> :
 ```c
 enum Spells
 {
@@ -156,8 +154,6 @@ enum Spells
 
 ## Standard constant name prefixes
 Constant names have standardized prefixes :
-
-Quote
 
 SPELL_ : Spell id
 NPC_ : Creature_template.entry
@@ -174,13 +170,14 @@ EVENT_ : Event/Encounter identifier for instances
 DATA_ : Identifiers in instance used for GUIDs/data not being event/encounter
 ACHIEV_ : Achievement id
 
-Correct :
-
+<span style="color:green">Correct</span> :
+```
 SPELL_ENRAGE
 H_XX_SPELL_ENRAGE
 EVENT_ILLIDAN
 DATA_ILLIDAN
 ACHIEV_OH_NOVOS
+```
 
 ## Naming of variables and functions
 No matter what, DO NOT USE HUNGARIAN NOTATION IN VARIABLE NAMES
@@ -243,14 +240,12 @@ Item* item;
 Player* player;
 Unit* unit;
 ```
-Keep in mind we never use multiple declarations with pointers
-
+<span style="color:red">Keep in mind we never use multiple declarations with pointers</span>
 ```c
 Something* obj1, *obj2;
 ```
 
-The proper way to do this is
-
+<span style="color:green">The proper way to do this is</span>
 ```c
 Something* obj1;
 Something* obj2;
