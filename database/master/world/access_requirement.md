@@ -2,10 +2,10 @@
 title: access_requirement
 description: This table contains the access requirements to enter an instance.
 published: true
-date: 2022-07-07T11:02:37.695Z
+date: 2022-09-27T11:43:46.821Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-29T20:43:51.863Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/world_state" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'world_state'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/achievement_dbc" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'achievement_dbc'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -29,11 +29,13 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### mapId
-*- no description -*
+MapID of the map which should have access requirements
+References to: [Map.db2](https://wow.tools/dbc/?dbc=Map){target=_blank}
 &nbsp;
 
 ### difficulty
-*- no description -*
+Difficulty id of the access requirement
+References to: [Difficulty.db2](https://wow.tools/dbc/?dbc=Difficulty){target=_blank}
 &nbsp;
 
 ### level_min
