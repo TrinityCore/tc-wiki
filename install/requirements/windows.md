@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2022-09-27T18:28:26.790Z
+date: 2022-10-04T12:54:37.945Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -106,8 +106,15 @@ Try connecting to your MySQL instance that you installed above. Depending on the
 ### 7. [Boost](http://www.boost.org/){target=_blank}
 
 > Depending on your boost version, you require newer CMake version.
-> For example: boost 1.80 requires CMake 3.24.2 (with 3.24.1 it will throw warnings)
-{.is-warning}
+> For example: boost 1.80 requires CMake 3.24.2 (with 3.24.1 it will throw warnings).{.is-warning}
+
+>Boost uses a naming convention.
+Example:
+boost_1_73_0-msvc-14.2-64.exe
+Boost would be version 1.73
+msvc 14.2 would be the toolkit for VS 2022
+64 would be for the 64 bit version
+
 
 1. Download the prebuilt Windows Binary for Visual Studio 2019 (or higher)
 Here the links for minimum version:
