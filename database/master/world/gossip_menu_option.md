@@ -2,7 +2,7 @@
 title: gossip_menu_option
 description: 
 published: true
-date: 2022-09-08T14:35:25.477Z
+date: 2022-10-10T11:58:53.499Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:32:12.004Z
@@ -19,7 +19,6 @@ dateCreated: 2021-08-30T09:32:12.004Z
 | [OptionNpc](#optionnpc) | tinyint | unsigned |  | NO | 0 |  |  | SMSG_GOSSIP_MESSAGE |
 | [OptionText](#optiontext) | mediumtext |  |  | YES | NULL |  |  | SMSG_GOSSIP_MESSAGE |
 | [OptionBroadcastTextID](#optionbroadcasttextid) | int | unsigned |  | NO | 0 |  |  | fetched from hotfixes db (via wpp) |
-| [OptionNpcFlag](#optionnpcflag) | bigint | unsigned |  | NO | 0 |  |  | manually, wpp tries to autodetect (requires SMSG_UPDATE_OBJECT) |
 | [Language](#language) | int | unsigned |  | NO | 0 |  |  |  |
 | [ActionMenuID](#actionmenuid) | int | unsigned |  | NO | 0 |  |  | CMSG_GOSSIP_SELECT_OPTION |
 | [ActionPoiID](#actionpoiid) | int | unsigned |  | NO | 0 |  |  | SMSG_GOSSIP_POI |
@@ -48,10 +47,6 @@ dateCreated: 2021-08-30T09:32:12.004Z
 &nbsp;
 
 ### OptionBroadcastTextID
-*- no description -*
-&nbsp;
-
-### OptionNpcFlag
 *- no description -*
 &nbsp;
 
