@@ -2,13 +2,17 @@
 title: creature_questitem
 description: 
 published: true
-date: 2022-02-06T18:26:20.407Z
+date: 2022-10-18T16:40:07.189Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T09:30:07.948Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/creature_questender" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'creature_questender'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/creature_queststarter" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'creature_queststarter'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+
+> This table has only cosmetic usage.
+> It's used for ingame tooltip only. It does not affect which items are dropped!
+{.is-info}
 
 ## Structure
 
@@ -22,15 +26,15 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### CreatureEntry
-*- no description -*
+The ID of the creature. See [creature_template.entry](/en/database/master/world/creature_template#entry).
 &nbsp;
 
 ### Idx
-*- no description -*
+Index in which order items are displayed.
 &nbsp;
 
 ### ItemId
-*- no description -*
+The ID of the [Item](https://wow.tools/dbc/?dbc=itemsparse){target=_blank}.
 &nbsp;
 
 ### VerifiedBuild
