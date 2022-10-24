@@ -2,7 +2,7 @@
 title: dyld: Library not loaded: libmysqlclient.XX.dylib
 description: 
 published: true
-date: 2022-10-24T09:29:55.086Z
+date: 2022-10-24T09:38:31.040Z
 tags: troubleshooting, libmysqlclient.xx.dylib
 editor: markdown
 dateCreated: 2022-10-24T09:29:55.086Z
@@ -10,6 +10,13 @@ dateCreated: 2022-10-24T09:29:55.086Z
 
 # Problem
 Under macOS if you try to run the core and get the following error:
+
+```bash
+apt-get update
+apt-get install git clang cmake make gcc g++ libmariadb-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev libboost-all-dev mariadb-server p7zip default-libmysqlclient-dev
+update-alternatives --install /usr/bin/cc cc /usr/bin/clang 100
+update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
+```
 
 ```bash
 dyld: Library not loaded: libmysqlclient.18.dylib
