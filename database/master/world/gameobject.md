@@ -2,7 +2,7 @@
 title: gameobject
 description: 
 published: true
-date: 2022-10-29T22:35:15.790Z
+date: 2022-10-29T22:35:26.622Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:31:38.234Z
@@ -56,7 +56,7 @@ The GUID ranges are defined as followed:
 | Legion (7.x)                 |           400000 |         499999 |
 | Battle for Azeroth (8.x)     |           500000 |         599999 |
 | Shadowlands (9.x)            |           600000 |         699999 |
-| Dragonflight (10.x)          |           700000 |         899999 |
+| Dragonflight (10.x)          |           700000 |         799999 |
 &nbsp;
 
 ### id
