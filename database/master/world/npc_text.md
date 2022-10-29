@@ -2,7 +2,7 @@
 title: npc_text
 description: 
 published: true
-date: 2022-07-11T09:18:42.038Z
+date: 2022-10-29T22:36:40.277Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-30T09:33:08.406Z
@@ -54,6 +54,7 @@ The ID ranges are defined as followed:
 | Legion (7.x)                 |           560000 |         569999 |
 | Battle for Azeroth (8.x)     |           570000 |         579999 |
 | Shadowlands (9.x)            |           580000 |         589999 |
+| Dragonflight (10.x)          |           590000 |         599999 |
 &nbsp;
 
 ### Probability0
