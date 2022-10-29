@@ -2,7 +2,7 @@
 title: creature
 description: 
 published: true
-date: 2022-04-17T18:35:07.226Z
+date: 2022-10-29T22:34:31.163Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:41.375Z
@@ -62,6 +62,7 @@ The GUID ranges are defined as followed:
 | Legion (7.x)                 |           650000 |         849999 |
 | Battle for Azeroth (8.x)     |           850000 |        1049999 |
 | Shadowlands (9.x)            |          1050000 |        1249999 |
+| Dragonflight (10.x)          |          1250000 |        1449999 |
 &nbsp;
 
 ### id
