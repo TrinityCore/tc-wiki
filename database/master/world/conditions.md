@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2022-09-07T07:37:25.892Z
+date: 2022-11-14T03:32:01.711Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -33,9 +33,11 @@ dateCreated: 2021-08-30T09:29:30.449Z
 ## Description of fields
 
 ### SourceTypeOrReferenceId
+- if a negative value, id of a reference (referenced directly in the [ConditionTypeOrReference](#conditiontypeorreference) of another condition).
+- If a positive value, source type of the condition to be applied:
 | SourceTypeOrReferenceId | ID | SourceGroup | SourceEntry | SourceId | ConditionTarget | Notes |
 | --- | :---: | --- | --- | :---: | :---: | :--- |
-| CONDITION_SOURCE_TYPE_NONE | 0 | See REFERENCE TEMPLATES | (conditions#REFERENCE TEMPLATES) | Always 0 | (See below) | Only used in Reference Templates! See below. |
+| CONDITION_SOURCE_TYPE_NONE | 0 | (Never used) | (Never used) | (Never used) | (Never used) | |
 | CONDITION_SOURCE_TYPE_CREATURE_LOOT_TEMPLATE | 1 | creature_loot_template.Entry or <br/> reference_loot_template.Entry | item id (_loot_template.Item or <br/> reference_loot_template.Item) | Always 0 | Always 0 |  |
 | CONDITION_SOURCE_TYPE_DISENCHANT_LOOT_TEMPLATE | 2 | disenchant_loot_template.Entry or <br/> reference_loot_template.Entry | item id (_loot_template.Item or <br/> reference_loot_template.Item) | Always 0 | Always 0 |  |
 | CONDITION_SOURCE_TYPE_FISHING_LOOT_TEMPLATE | 3 | fishing_loot_template.Entry or <br/> reference_loot_template.Entry | item id (_loot_template.Item or <br/> reference_loot_template.Item) | Always 0 |Always 0  |  |
@@ -95,6 +97,8 @@ Two conditions with the same SourceType, SourceGroup and SourceEntry but with a 
 &nbsp;
 
 ### ConditionTypeOrReference
+- if a negative value, id of a reference (references directly the [SourceTypeOrReferenceId](#sourcetypeorreferenceid) of another condition).
+- If a positive value, condition type to be applied:
 | ConditionTypeOrReference (name) | Value | ConditionValue1 | ConditionValue2 | ConditionValue3| Usage |
 | --- | :---: | --- | --- | --- | --- |
 | CONDITION_NONE | 0 | (Never used) | (Never used) | (Never used) |  |
