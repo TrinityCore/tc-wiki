@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2022-05-09T21:08:29.495Z
+date: 2022-11-20T23:22:15.357Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -22,47 +22,80 @@ dateCreated: 2021-08-30T09:36:32.378Z
 | [event_phase_mask](#event_phase_mask) | smallint | unsigned |  | NO | 0 |  |  |
 | [event_chance](#event_chance) | tinyint | unsigned |  | NO | 100 |  |  |
 | [event_flags](#event_flags) | smallint | unsigned |  | NO | 0 |  |  |
-| [event_param1](#event_param1) | int | unsigned |  | NO | 0 |  |  |
-| [event_param2](#event_param2) | int | unsigned |  | NO | 0 |  |  |
-| [event_param3](#event_param3) | int | unsigned |  | NO | 0 |  |  |
-| [event_param4](#event_param4) | int | unsigned |  | NO | 0 |  |  |
-| [event_param5](#event_param5) | int | unsigned |  | NO | 0 |  |  |
-| [event_param_string](#event_param_string) | varchar(255) |  |  | NO | '' |  |  |
+| [event_param1](#event_type) | int | unsigned |  | NO | 0 |  |  |
+| [event_param2](#event_type) | int | unsigned |  | NO | 0 |  |  |
+| [event_param3](#event_type) | int | unsigned |  | NO | 0 |  |  |
+| [event_param4](#event_type) | int | unsigned |  | NO | 0 |  |  |
+| [event_param5](#event_type) | int | unsigned |  | NO | 0 |  |  |
+| [event_param_string](##event_type) | varchar(255) |  |  | NO | '' |  |  |
 | [action_type](#action_type) | tinyint | unsigned |  | NO | 0 |  |  |
-| [action_param1](#action_param1) | int | unsigned |  | NO | 0 |  |  |
-| [action_param2](#action_param2) | int | unsigned |  | NO | 0 |  |  |
-| [action_param3](#action_param3) | int | unsigned |  | NO | 0 |  |  |
-| [action_param4](#action_param4) | int | unsigned |  | NO | 0 |  |  |
-| [action_param5](#action_param5) | int | unsigned |  | NO | 0 |  |  |
-| [action_param6](#action_param6) | int | unsigned |  | NO | 0 |  |  |
+| [action_param1](#action_type) | int | unsigned |  | NO | 0 |  |  |
+| [action_param2](#action_type) | int | unsigned |  | NO | 0 |  |  |
+| [action_param3](#action_type) | int | unsigned |  | NO | 0 |  |  |
+| [action_param4](#action_type) | int | unsigned |  | NO | 0 |  |  |
+| [action_param5](#action_type) | int | unsigned |  | NO | 0 |  |  |
+| [action_param6](#action_type) | int | unsigned |  | NO | 0 |  |  |
 | [target_type](#target_type) | tinyint | unsigned |  | NO | 0 |  |  |
-| [target_param1](#target_param1) | int | unsigned |  | NO | 0 |  |  |
-| [target_param2](#target_param2) | int | unsigned |  | NO | 0 |  |  |
-| [target_param3](#target_param3) | int | unsigned |  | NO | 0 |  |  |
-| [target_param4](#target_param4) | int | unsigned |  | NO | 0 |  |  |
-| [target_x](#target_x) | float |  |  | NO | 0 |  |  |
-| [target_y](#target_y) | float |  |  | NO | 0 |  |  |
-| [target_z](#target_z) | float |  |  | NO | 0 |  |  |
-| [target_o](#target_o) | float |  |  | NO | 0 |  |  |
+| [target_param1](#target_type) | int | unsigned |  | NO | 0 |  |  |
+| [target_param2](#target_type) | int | unsigned |  | NO | 0 |  |  |
+| [target_param3](#target_type) | int | unsigned |  | NO | 0 |  |  |
+| [target_param4](#target_type) | int | unsigned |  | NO | 0 |  |  |
+| [target_x](#target_type) | float |  |  | NO | 0 |  |  |
+| [target_y](#target_type) | float |  |  | NO | 0 |  |  |
+| [target_z](#target_type) | float |  |  | NO | 0 |  |  |
+| [target_o](#target_type) | float |  |  | NO | 0 |  |  |
 | [comment](#comment) | mediumtext |  |  | NO |  |  | Event Comment |
 &nbsp;
 ## Description of fields
 
 ### entryorguid
-* EntryOrGuid > 0: entry of the creature / game object / etc.
-* EntryOrGuid < 0: guid of the creature / game object / etc.
-* Depends on source_type.
+* Value depends on [source_type](#source_type).
+* For [source_type](#source_type) **SMART_SCRIPT_TYPE_CREATURE** / **SMART_SCRIPT_TYPE_GAMEOBJECT**:
+  * entryorguid > 0: [creature_template.entry](/en/database/master/world/creature_template#entry) / [gameobject_template.entry](/en/database/master/world/gameobject_template#entry).
+  * entryorguid < 0: [creature.guid](/en/database/master/world/creature#guid) / [gameobject.guid](/en/database/master/world/gameobject#guid).
 &nbsp;
 
 ### source_type
-*- no description -*
-&nbsp;
+Object type (creature, gameobject, quest, etc.).
+| Name | Value | Source | 
+| :---  | --- | :--- |
+| SMART_SCRIPT_TYPE_CREATURE | 0 | [creature_template.entry](/en/database/master/world/creature_template#entry) or [creature.guid](/en/database/master/world/creature#guid) |
+| SMART_SCRIPT_TYPE_GAMEOBJECT | 1 | [gameobject_template.entry](/en/database/master/world/gameobject_template#entry) or [gameobject.guid](/en/database/master/world/gameobject#guid) |
+| SMART_SCRIPT_TYPE_AREATRIGGER | 2 | Areatrigger.db2 (ID) |
+| :x: SMART_SCRIPT_TYPE_EVENT | 3 | |
+| :x: SMART_SCRIPT_TYPE_GOSSIP | 4 | |
+| SMART_SCRIPT_TYPE_QUEST | 5 | [quest_template.ID](/en/database/master/world/quest_template#id) |
+| :x: SMART_SCRIPT_TYPE_SPELL | 6 | |
+| :x: SMART_SCRIPT_TYPE_TRANSPORT | 7 | |
+| :x: SMART_SCRIPT_TYPE_INSTANCE | 8 | |
+| SMART_SCRIPT_TYPE_TIMED_ACTIONLIST | 9 | [smart_scripts.entryorguid](#entryorguid) |
+| SMART_SCRIPT_TYPE_SCENE | 10 | [scene_template.id](/en/database/master/world/scene_template#id) |
+| SMART_SCRIPT_TYPE_AREATRIGGER_ENTITY | 11 | [areatrigger_template.Id](/en/database/master/world/areatrigger_template#id) (IsServerSide = 0) |
+| SMART_SCRIPT_TYPE_AREATRIGGER_ENTITY_SERVERSIDE | 12 | [areatrigger_template.Id](/en/database/master/world/areatrigger_template#id) (IsServerSide = 1) |
+
+>Please note :x:means that the source_type is not (yet) implemented.
+{.is-info}
 
 ### id
-*- no description -*
+Incremental id bound to each [entryorguid](#entryorguid) & [source_type](#source_type) (0, 1, 2, ...).
 &nbsp;
 
 ### link
+Simple event linking.
+* Example: If id = 0 and link = 1, id = 1 will only be able to occur if id = 0 was triggered.
+
+> The linked [id](#id) must use [event_type](#event_type) **SMART_EVENT_LINK (61)**.
+{.is-info}
+
+### event_phase_mask
+*- no description -*
+&nbsp;
+
+### event_chance
+This is the probability of the event to occur as a percentage from 0-100. So, if you want the event to occur roughly half of the time, then set this to 50.
+&nbsp;
+
+### event_flags
 *- no description -*
 &nbsp;
 
@@ -70,103 +103,11 @@ dateCreated: 2021-08-30T09:36:32.378Z
 *- no description -*
 &nbsp;
 
-### event_phase_mask
-*- no description -*
-&nbsp;
-
-### event_chance
-*- no description -*
-&nbsp;
-
-### event_flags
-*- no description -*
-&nbsp;
-
-### event_param1
-*- no description -*
-&nbsp;
-
-### event_param2
-*- no description -*
-&nbsp;
-
-### event_param3
-*- no description -*
-&nbsp;
-
-### event_param4
-*- no description -*
-&nbsp;
-
-### event_param5
-*- no description -*
-&nbsp;
-
-### event_param_string
-*- no description -*
-&nbsp;
-
 ### action_type
 *- no description -*
 &nbsp;
 
-### action_param1
-*- no description -*
-&nbsp;
-
-### action_param2
-*- no description -*
-&nbsp;
-
-### action_param3
-*- no description -*
-&nbsp;
-
-### action_param4
-*- no description -*
-&nbsp;
-
-### action_param5
-*- no description -*
-&nbsp;
-
-### action_param6
-*- no description -*
-&nbsp;
-
 ### target_type
-*- no description -*
-&nbsp;
-
-### target_param1
-*- no description -*
-&nbsp;
-
-### target_param2
-*- no description -*
-&nbsp;
-
-### target_param3
-*- no description -*
-&nbsp;
-
-### target_param4
-*- no description -*
-&nbsp;
-
-### target_x
-*- no description -*
-&nbsp;
-
-### target_y
-*- no description -*
-&nbsp;
-
-### target_z
-*- no description -*
-&nbsp;
-
-### target_o
 *- no description -*
 &nbsp;
 
