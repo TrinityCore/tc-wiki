@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2022-11-21T21:42:27.440Z
+date: 2022-11-21T22:05:16.696Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -137,7 +137,20 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 | SMART_EVENT_FLAG_WHILE_CHARMED | 512 | 0x200 | Event occurs even if AI owner is charmed |
 
 ### event_type
-
+| Name | Value | Param1 | Param2 | Param3 | Param4 | Param5 | ParamString| Comment |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+SMART_EVENT_UPDATE_IC | 0 | InitialMin | InitialMax | RepeatMin | RepeatMax | | | In combat |
+SMART_EVENT_UPDATE_OOC | 1 | InitialMin | InitialMax | RepeatMin | RepeatMax | | | Out of combat 
+SMART_EVENT_HEALTH_PCT | 2 | HPMin% | HPMax% | RepeatMin | RepeatMax | | | Health percentage |
+SMART_EVENT_MANA_PCT | 3 | ManaMin% | ManaMax% | RepeatMin | RepeatMax | | | Mana percentage|
+SMART_EVENT_AGGRO | 4 | | | | | | | On creature aggro |
+SMART_EVENT_KILL | 5 | CooldownMin | CooldownMax | Player only (0/1) | Creature entry (if param3 is 0) | | | On creature kill |
+SMART_EVENT_DEATH | 6 | | | | | | | On creature death |
+SMART_EVENT_EVADE | 7 | | | | | | | On creature evade attack |
+SMART_EVENT_SPELLHIT | 8 | SpellID | School | CooldownMin | CooldownMax | | | On creature/gameobject spell hit |
+SMART_EVENT_RANGE | 9 | MinDist | MaxDist | RepeatMin | RepeatMax | | | On target in range |
+SMART_EVENT_OOC_LOS | 10 | HostilityMode | MaxRange | CooldownMin | CooldownMax | Player only (0/1) | | On target in distance (Out of combat) |
+:construction:
 &nbsp;
 
 ### action_type
