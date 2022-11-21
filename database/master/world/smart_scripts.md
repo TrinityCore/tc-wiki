@@ -2,13 +2,16 @@
 title: smart_scripts
 description: 
 published: true
-date: 2022-11-20T23:22:15.357Z
+date: 2022-11-21T17:45:11.562Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/skinning_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'skinning_loot_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/spawn_group" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'spawn_group'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+
+> Manual editing smart_scripts table can be tedious and difficult, for easier writing scripts you can use additional TrinityCore tools like [WoW Database Editor](https://github.com/TrinityCore/WoWDatabaseEditor/).
+{.is-info}
 
 ## Structure
 
@@ -58,7 +61,7 @@ dateCreated: 2021-08-30T09:36:32.378Z
 ### source_type
 Object type (creature, gameobject, quest, etc.).
 | Name | Value | Source | 
-| :---  | --- | :--- |
+| :---  | ---: | :--- |
 | SMART_SCRIPT_TYPE_CREATURE | 0 | [creature_template.entry](/en/database/master/world/creature_template#entry) or [creature.guid](/en/database/master/world/creature#guid) |
 | SMART_SCRIPT_TYPE_GAMEOBJECT | 1 | [gameobject_template.entry](/en/database/master/world/gameobject_template#entry) or [gameobject.guid](/en/database/master/world/gameobject#guid) |
 | SMART_SCRIPT_TYPE_AREATRIGGER | 2 | Areatrigger.db2 (ID) |
@@ -74,7 +77,7 @@ Object type (creature, gameobject, quest, etc.).
 | SMART_SCRIPT_TYPE_AREATRIGGER_ENTITY_SERVERSIDE | 12 | [areatrigger_template.Id](/en/database/master/world/areatrigger_template#id) (IsServerSide = 1) |
 
 >Please note :x:means that the source_type is not (yet) implemented.
-{.is-info}
+{.is-danger}
 
 ### id
 Incremental id bound to each [entryorguid](#entryorguid) & [source_type](#source_type) (0, 1, 2, ...).
@@ -96,8 +99,18 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 &nbsp;
 
 ### event_flags
-*- no description -*
-&nbsp;
+| Name | Flag | Hex | Comment |
+| :--- | ---: | :--- | :--- |
+| SMART_EVENT_FLAG_NOT_REPEATABLE | 1 | 0x01 | Event can not repeat |
+| SMART_EVENT_FLAG_DIFFICULTY_0 | 2 | 0x02 | Event only occurs in instance difficulty 0 |
+| SMART_EVENT_FLAG_DIFFICULTY_1 | 4 | 0x04 | Event only occurs in instance difficulty 1 |
+| SMART_EVENT_FLAG_DIFFICULTY_2 | 8 | 0x08 | Event only occurs in instance difficulty 2 |
+| SMART_EVENT_FLAG_DIFFICULTY_3 | 16 | 0x10 | Event only occurs in instance difficulty 3 |
+| SMART_EVENT_FLAG_RESERVED_5 | 32 | 0x20 | |
+| SMART_EVENT_FLAG_RESERVED_6 | 64 | 0x40 | |
+| SMART_EVENT_FLAG_DEBUG_ONLY | 128 | 0x80 | Event only occurs in debug build |
+| SMART_EVENT_FLAG_DONT_RESET | 256 | 0x100 | Event will not reset in SmartScript::OnReset() |
+| SMART_EVENT_FLAG_WHILE_CHARMED | 512 | 0x200 | Event occurs even if AI owner is charmed |
 
 ### event_type
 *- no description -*
