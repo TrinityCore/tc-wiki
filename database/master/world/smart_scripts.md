@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2022-11-21T20:43:48.185Z
+date: 2022-11-21T21:42:27.440Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -85,14 +85,38 @@ Incremental id bound to each [entryorguid](#entryorguid) & [source_type](#source
 
 ### link
 Simple event linking.
-* Example: If id = 0 and link = 1, id = 1 will only be able to occur if id = 0 was triggered.
-
 > The linked [id](#id) must use [event_type](#event_type) **SMART_EVENT_LINK (61)**.
 {.is-info}
 
+> **Example**: If id = 0 and link = 1, id = 1 will only be able to occur if id = 0 was triggered.
+
 ### event_phase_mask
-*- no description -*
-&nbsp;
+Event can only occur if the source is in this event phase. The default event phase is **SMART_EVENT_PHASE_ALWAYS (0)**.
+
+| Name | Flag | Hex | Comment |
+| :--- | ---: | :--- | :--- |
+| SMART_EVENT_PHASE_ALWAYS | 0 | 0x000 | Means all phases (1 ... 12) |
+| SMART_EVENT_PHASE_1 | 1 | 0x001 | Phase 1 only. |
+| SMART_EVENT_PHASE_2 | 2 | 0x002 | Phase 2 only. |
+| SMART_EVENT_PHASE_3 | 4 | 0x004 | Phase 3 only. |
+| SMART_EVENT_PHASE_4 | 8 | 0x008 | Phase 4 only. |
+| SMART_EVENT_PHASE_5 | 16 | 0x010 | Phase 5 only. |
+| SMART_EVENT_PHASE_6 | 32 | 0x020 | Phase 6 only. |
+| SMART_EVENT_PHASE_7 | 64 | 0x040 | Phase 7 only. |
+| SMART_EVENT_PHASE_8 | 128 | 0x080 | Phase 8 only. |
+| SMART_EVENT_PHASE_9 | 256 | 0x100 | Phase 9 only. |
+| SMART_EVENT_PHASE_10 | 512 | 0x200 | Phase 10 only. |
+| SMART_EVENT_PHASE_11 | 1024 | 0x400 | Phase 11 only. |
+| SMART_EVENT_PHASE_12 | 2048 | 0x800 | Phase 12 only. |
+> **Example**: If we want an event to be able to occur only in event phases 1 and 4, event_phase_mask: **1 + 8 = 9**.
+
+> **Example**: Event phase change:
+>* If the script is in phase 0 and we want it to go to event phase 1, we have two choices:
+>   * **SMART_ACTION_INC_PHASE** by 1 or **SMART_ACTION_SET_PHASE** 1
+>* If the script is in phase 0 and we want to skip to phase 2:
+>   * **SMART_ACTION_INC_PHASE** by 2 or **SMART_ACTION_SET_PHASE** 2
+>* If the script is in phase 1 andwe  want to skip to phase 2:
+>   * **SMART_ACTION_INC_PHASE** by 1 or **SMART_ACTION_SET_PHASE** 2
 
 ### event_chance
 This is the probability of the event to occur as a percentage from 0-100. So, if you want the event to occur roughly half of the time, then set this to 50.
@@ -111,9 +135,9 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 | SMART_EVENT_FLAG_DEBUG_ONLY | 128 | 0x80 | Event only occurs in debug build |
 | SMART_EVENT_FLAG_DONT_RESET | 256 | 0x100 | Event will not reset in SmartScript::OnReset() |
 | SMART_EVENT_FLAG_WHILE_CHARMED | 512 | 0x200 | Event occurs even if AI owner is charmed |
-&nbsp;
+
 ### event_type
-*- no description -*
+
 &nbsp;
 
 ### action_type
