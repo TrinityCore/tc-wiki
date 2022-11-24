@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2022-11-21T22:16:15.305Z
+date: 2022-11-24T18:54:38.559Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -152,6 +152,17 @@ SMART_EVENT_EVADE | 7 | | | | | | | On creature evade attack |
 SMART_EVENT_SPELLHIT | 8 | SpellID | School | CooldownMin | CooldownMax | | | On creature/gameobject spell hit |
 SMART_EVENT_RANGE | 9 | MinDist | MaxDist | RepeatMin | RepeatMax | | | On target in range |
 SMART_EVENT_OOC_LOS | 10 | HostilityMode | MaxRange | CooldownMin | CooldownMax | Player only (0/1) | | On target in distance (Out of combat) |
+| SMART_EVENT_RESPAWN | 11 | Type (None=0, Map=1, Area=2) | MapId | ZoneId | | | | On Creature/Gameobject Respawn |
+| :warning: SMART_EVENT_TARGET_HEALTH_PCT | 12 | | | | | | | UNUSED, DO NOT REUSE |
+| SMART_EVENT_VICTIM_CASTING | 13 | RepeatMin | RepeatMax | SpellID (0 any) | | | | On target casting spell |
+| :warning: SMART_EVENT_FRIENDLY_HEALTH | 14 | | | | | | | UNUSED, DO NOT REUSE |
+| SMART_EVENT_FRIENDLY_IS_CC | 15 | Radius | RepeatMin | RepeatMax | | | | On friendly in cc |
+| SMART_EVENT_FRIENDLY_MISSING_BUFF | 16 | SpellID | Radius | RepeatMin | RepeatMax | | | On friendly lost buff |
+| SMART_EVENT_SUMMONED_UNIT | 17 | Creature entry (0 all) | CooldownMin | CooldownMax | | | | On summoned unit |
+| :warning: SMART_EVENT_TARGET_MANA_PCT | 18 | | | | | | | UNUSED, DO NOT REUSE |
+| SMART_EVENT_ACCEPTED_QUEST | 19 | QuestID (0 any) | RepeatMin | RepeatMax | | | | On target accepted quest |
+| SMART_EVENT_REWARD_QUEST | 20 | QuestID (0 any) | RepeatMin | RepeatMax | | | | On target rewarded quest |
+| SMART_EVENT_REACHED_HOME | 21 | | | | | | | On creature reached home |
 </span>
 
 :construction:
