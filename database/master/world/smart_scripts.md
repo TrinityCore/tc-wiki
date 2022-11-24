@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2022-11-24T18:54:38.559Z
+date: 2022-11-24T19:14:52.513Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -60,6 +60,9 @@ dateCreated: 2021-08-30T09:36:32.378Z
 
 ### source_type
 Object type (creature, gameobject, quest, etc.).
+
+<span style="white-space: nowrap; font-size: small">
+  
 | Name | Value | Source | 
 | :---  | ---: | :--- |
 | SMART_SCRIPT_TYPE_CREATURE | 0 | [creature_template.entry](/en/database/master/world/creature_template#entry) or [creature.guid](/en/database/master/world/creature#guid) |
@@ -75,6 +78,7 @@ Object type (creature, gameobject, quest, etc.).
 | SMART_SCRIPT_TYPE_SCENE | 10 | [scene_template.id](/en/database/master/world/scene_template#id) |
 | SMART_SCRIPT_TYPE_AREATRIGGER_ENTITY | 11 | [areatrigger_template.Id](/en/database/master/world/areatrigger_template#id) (IsServerSide = 0) |
 | SMART_SCRIPT_TYPE_AREATRIGGER_ENTITY_SERVERSIDE | 12 | [areatrigger_template.Id](/en/database/master/world/areatrigger_template#id) (IsServerSide = 1) |
+</span>
 
 >Please note :x:means that the source_type is not (yet) implemented.
 {.is-danger}
@@ -93,6 +97,8 @@ Simple event linking.
 ### event_phase_mask
 Event can only occur if the source is in this event phase. The default event phase is **SMART_EVENT_PHASE_ALWAYS (0)**.
 
+<span style="white-space: nowrap; font-size: small">
+
 | Name | Flag | Hex | Comment |
 | :--- | ---: | :--- | :--- |
 | SMART_EVENT_PHASE_ALWAYS | 0 | 0x000 | Means all phases (1 ... 12) |
@@ -108,6 +114,8 @@ Event can only occur if the source is in this event phase. The default event pha
 | SMART_EVENT_PHASE_10 | 512 | 0x200 | Phase 10 only. |
 | SMART_EVENT_PHASE_11 | 1024 | 0x400 | Phase 11 only. |
 | SMART_EVENT_PHASE_12 | 2048 | 0x800 | Phase 12 only. |
+</span>
+
 > **Example**: If we want an event to be able to occur only in event phases 1 and 4, event_phase_mask: **1 + 8 = 9**.
 
 > **Example**: Event phase change:
@@ -123,6 +131,8 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 &nbsp;
 
 ### event_flags
+<span style="white-space: nowrap; font-size: small">
+  
 | Name | Flag | Hex | Comment |
 | :--- | ---: | :--- | :--- |
 | SMART_EVENT_FLAG_NOT_REPEATABLE | 1 | 0x01 | Event can not repeat |
@@ -135,6 +145,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 | SMART_EVENT_FLAG_DEBUG_ONLY | 128 | 0x80 | Event only occurs in debug build |
 | SMART_EVENT_FLAG_DONT_RESET | 256 | 0x100 | Event will not reset in SmartScript::OnReset() |
 | SMART_EVENT_FLAG_WHILE_CHARMED | 512 | 0x200 | Event occurs even if AI owner is charmed |
+</span>
 
 ### event_type
 <span style="white-space: nowrap; font-size: small">
@@ -151,18 +162,27 @@ SMART_EVENT_DEATH | 6 | | | | | | | On creature death |
 SMART_EVENT_EVADE | 7 | | | | | | | On creature evade attack |
 SMART_EVENT_SPELLHIT | 8 | SpellID | School | CooldownMin | CooldownMax | | | On creature/gameobject spell hit |
 SMART_EVENT_RANGE | 9 | MinDist | MaxDist | RepeatMin | RepeatMax | | | On target in range |
-SMART_EVENT_OOC_LOS | 10 | HostilityMode | MaxRange | CooldownMin | CooldownMax | Player only (0/1) | | On target in distance (Out of combat) |
-| SMART_EVENT_RESPAWN | 11 | Type (None=0, Map=1, Area=2) | MapId | ZoneId | | | | On Creature/Gameobject Respawn |
+SMART_EVENT_OOC_LOS | 10 | HostilityMode (Hostile = 0, NotHostile = 1, Any = 2) | MaxRange | CooldownMin | CooldownMax | Player only (0/1) | | On target in range (Out of combat) |
+| SMART_EVENT_RESPAWN | 11 | Type (None = 0, Map = 1, Area = 2) | MapId | ZoneId | | | | On spawn/respawn |
 | :warning: SMART_EVENT_TARGET_HEALTH_PCT | 12 | | | | | | | UNUSED, DO NOT REUSE |
 | SMART_EVENT_VICTIM_CASTING | 13 | RepeatMin | RepeatMax | SpellID (0 any) | | | | On target casting spell |
 | :warning: SMART_EVENT_FRIENDLY_HEALTH | 14 | | | | | | | UNUSED, DO NOT REUSE |
 | SMART_EVENT_FRIENDLY_IS_CC | 15 | Radius | RepeatMin | RepeatMax | | | | On friendly in cc |
 | SMART_EVENT_FRIENDLY_MISSING_BUFF | 16 | SpellID | Radius | RepeatMin | RepeatMax | | | On friendly lost buff |
-| SMART_EVENT_SUMMONED_UNIT | 17 | Creature entry (0 all) | CooldownMin | CooldownMax | | | | On summoned unit |
+| SMART_EVENT_SUMMONED_UNIT | 17 | Creature entry (0 any) | CooldownMin | CooldownMax | | | | On summoned unit |
 | :warning: SMART_EVENT_TARGET_MANA_PCT | 18 | | | | | | | UNUSED, DO NOT REUSE |
 | SMART_EVENT_ACCEPTED_QUEST | 19 | QuestID (0 any) | RepeatMin | RepeatMax | | | | On target accepted quest |
 | SMART_EVENT_REWARD_QUEST | 20 | QuestID (0 any) | RepeatMin | RepeatMax | | | | On target rewarded quest |
 | SMART_EVENT_REACHED_HOME | 21 | | | | | | | On creature reached home |
+| SMART_EVENT_RECEIVE_EMOTE | 22 | EmoteID | CooldownMin | CooldownMax | | | | On emote received |
+| SMART_EVENT_HAS_AURA | 23 | SpellID | Stacks | RepeatMin | RepeatMax | | | On creature has aura |
+| SMART_EVENT_TARGET_BUFFED | 24 | SpellID | Stacks | RepeatMin | RepeatMax | | | On target buffed with spell |
+| SMART_EVENT_RESET | 25 | | | | | | | After combat or on spawn/respawn |
+| SMART_EVENT_IC_LOS | 26 | HostilityMode (Hostile = 0, NotHostile = 1, Any = 2) | MaxRange | CooldownMin | CooldownMax | Player only (0/1) | | On target in range (In combat) |
+| SMART_EVENT_PASSENGER_BOARDED | 27 | CooldownMin | CooldownMax | | | | | On passenger boarded |
+| SMART_EVENT_PASSENGER_REMOVED | 28 | CooldownMin | CooldownMax | | | | | On passenger removed |
+| SMART_EVENT_CHARMED | 29 | 0 (On apply) / 1 (On remove) | | | | | |  On creature charmed |
+| :warning: SMART_EVENT_CHARMED_TARGET | 30 | | | | | | | UNUSED, DO NOT REUSE |
 </span>
 
 :construction:
