@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2022-11-24T19:14:52.513Z
+date: 2022-11-25T21:54:17.172Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -160,7 +160,7 @@ SMART_EVENT_AGGRO | 4 | | | | | | | On creature aggro |
 SMART_EVENT_KILL | 5 | CooldownMin | CooldownMax | Player only (0/1) | Creature entry (if param3 is 0) | | | On creature kill |
 SMART_EVENT_DEATH | 6 | | | | | | | On creature death |
 SMART_EVENT_EVADE | 7 | | | | | | | On creature evade attack |
-SMART_EVENT_SPELLHIT | 8 | SpellID | School | CooldownMin | CooldownMax | | | On creature/gameobject spell hit |
+SMART_EVENT_SPELLHIT | 8 | SpellID | School | CooldownMin | CooldownMax | | | On spell hit |
 SMART_EVENT_RANGE | 9 | MinDist | MaxDist | RepeatMin | RepeatMax | | | On target in range |
 SMART_EVENT_OOC_LOS | 10 | HostilityMode (Hostile = 0, NotHostile = 1, Any = 2) | MaxRange | CooldownMin | CooldownMax | Player only (0/1) | | On target in range (Out of combat) |
 | SMART_EVENT_RESPAWN | 11 | Type (None = 0, Map = 1, Area = 2) | MapId | ZoneId | | | | On spawn/respawn |
@@ -183,6 +183,27 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode (Hostile = 0, NotHostile = 1, Any = 2) 
 | SMART_EVENT_PASSENGER_REMOVED | 28 | CooldownMin | CooldownMax | | | | | On passenger removed |
 | SMART_EVENT_CHARMED | 29 | 0 (On apply) / 1 (On remove) | | | | | |  On creature charmed |
 | :warning: SMART_EVENT_CHARMED_TARGET | 30 | | | | | | | UNUSED, DO NOT REUSE |
+| SMART_EVENT_SPELLHIT_TARGET | 31 | SpellID | School | RepeatMin | RepeatMax | | | On target spell hit |
+| SMART_EVENT_DAMAGED | 32 | MinDmg | MaxDmg | RepeatMin | RepeatMax | | | On damaged |
+| SMART_EVENT_DAMAGED_TARGET | 33 | MinDmg | MaxDmg | RepeatMin | RepeatMax | | | On target damaged |
+| SMART_EVENT_MOVEMENTINFORM | 34 | MovementType (0 any) | PointID | | | | | On movement inform |
+| SMART_EVENT_SUMMON_DESPAWNED | 35 | Creature entry | CooldownMin | CooldownMax | | | | On summoned unit despawned |
+| SMART_EVENT_CORPSE_REMOVED | 36 | | | | | | | On creature corpse removed |
+| SMART_EVENT_AI_INIT | 37 | | | | | | | On AI init |
+| SMART_EVENT_DATA_SET | 38 | Field | Value | CooldownMin | CooldownMax | | | On data set |
+| :warning: SMART_EVENT_WAYPOINT_START | 39 | | | | | | | UNUSED, DO NOT REUSE |
+| SMART_EVENT_WAYPOINT_REACHED | 40 | PointID (0 any) | PathID (0 any) | | | | | On creature waypoint ID reached |
+| :x: SMART_EVENT_TRANSPORT_ADDPLAYER | 41 | | | | | | | Not yet implemented |
+| :x: SMART_EVENT_TRANSPORT_ADDCREATURE | 42 | Entry (0 any) | | | | | | Not yet implemented |
+| :x: SMART_EVENT_TRANSPORT_REMOVE_PLAYER | 43 | | | | | | | Not yet implemented |
+| :x: SMART_EVENT_TRANSPORT_RELOCATE | 44 | PointID | | | | | | Not yet implemented |
+| :x: SMART_EVENT_INSTANCE_PLAYER_ENTER | 45 | Team (0 any) | CooldownMin | CooldownMax | | | | Not yet implemented |
+| SMART_EVENT_AREATRIGGER_ONTRIGGER | 46 | TriggerId (0 any) | | | | | | On areatrigger triggered |
+| SMART_EVENT_QUEST_ACCEPTED | 47 | | | | | | | On target quest accepted |
+| SMART_EVENT_QUEST_OBJ_COMPLETION | 48 | Quest objective ID | | | | | | On target quest objective completed |
+| SMART_EVENT_QUEST_COMPLETION | 49 | | | | | | | On target quest completed |
+| SMART_EVENT_QUEST_REWARDED | 50 | | | | | | | On target quest rewarded |
+| SMART_EVENT_QUEST_FAIL | 51 | | | | | | | On target quest failed |
 </span>
 
 :construction:
