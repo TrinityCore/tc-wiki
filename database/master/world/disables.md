@@ -2,7 +2,7 @@
 title: disables
 description: 
 published: true
-date: 2022-12-01T08:19:09.188Z
+date: 2022-12-01T08:22:53.102Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:41.993Z
@@ -63,7 +63,6 @@ Entry of Spell/Quest/Map/BG/Achievement/Map.
 | 128	| Spell disabled for game objects |
 | 256	| Spell disabled in arena |
 | 512	| Spell disabled in battlegrounds |
-&nbsp;
 
 #### DISABLE_TYPE_MAP
 > Specifies what type of map is disabled (5man/10man/heroic/etc).
@@ -75,7 +74,6 @@ Entry of Spell/Quest/Map/BG/Achievement/Map.
 | 2 | DUNGEON_STATUSFLAG_HEROIC OR RAID_STATUSFLAG_25MAN_NORMAL |
 | 4 | RAID_STATUSFLAG_10MAN_HEROIC |
 | 8 | RAID_STATUSFLAG_25MAN_HEROIC |
-&nbsp;
 
 #### DISABLE_TYPE_VMAP
 > Specifies on which map should be vMap disabled
@@ -87,7 +85,13 @@ Entry of Spell/Quest/Map/BG/Achievement/Map.
 | 2 | VMAP_DISABLE_HEIGHT |
 | 4 | VMAP_DISABLE_LOS |
 | 8 | VMAP_LIQUIDSTATUS |
-&nbsp;
+
+#### DISABLE_TYPE_*
+> Not **DISABLE_TYPE_SPELL**, **DISABLE_TYPE_MAP**, **DISABLE_TYPE_VMAP**
+{.is-warning}
+
+> No flags needed just add the entry to the table with \`flags\`=0.
+{.is-info}
 
 ### params_0
 MapId if **DISABLE_TYPE_SPELL** used, 0 for all maps.
