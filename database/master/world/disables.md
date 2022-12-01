@@ -2,7 +2,7 @@
 title: disables
 description: 
 published: true
-date: 2022-12-01T08:17:50.749Z
+date: 2022-12-01T08:19:09.188Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:41.993Z
@@ -47,7 +47,9 @@ Entry of Spell/Quest/Map/BG/Achievement/Map.
 
 ### Linux {.tabset}
 #### DISABLE_TYPE_SPELL
-If sourceType = DISABLE_TYPE_SPELL: Specifies who the spell is disabled for.
+> Specifies who the spell is disabled for.
+{.is-info}
+
 | Value | Type |
 | --- | --- |
 | 0 | Spell enabled |
@@ -64,7 +66,9 @@ If sourceType = DISABLE_TYPE_SPELL: Specifies who the spell is disabled for.
 &nbsp;
 
 #### DISABLE_TYPE_MAP
-If sourceType = DISABLE_TYPE_SPELL: Specifies who the spell is disabled for.
+> Specifies what type of map is disabled (5man/10man/heroic/etc).
+{.is-info}
+
 | Value | Type |
 | --- | --- |
 | 1 | DUNGEON_STATUSFLAG_NORMAL OR RAID_STATUSFLAG_10MAN_NORMAL |
@@ -74,7 +78,9 @@ If sourceType = DISABLE_TYPE_SPELL: Specifies who the spell is disabled for.
 &nbsp;
 
 #### DISABLE_TYPE_VMAP
-If sourceType = DISABLE_TYPE_SPELL: Specifies who the spell is disabled for.
+> Specifies on which map should be vMap disabled
+{.is-info}
+
 | Value | Type |
 | --- | --- |
 | 1 | VMAP_DISABLE_AREAFLAG |
