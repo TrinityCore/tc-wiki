@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2022-12-02T20:08:54.027Z
+date: 2022-12-02T20:10:12.523Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -157,7 +157,7 @@ SMART_EVENT_UPDATE_OOC | 1 | InitialMin | InitialMax | RepeatMin | RepeatMax | |
 SMART_EVENT_HEALTH_PCT | 2 | MinHpPct | MaxHpPct | RepeatMin | RepeatMax | | | Health percentage |
 SMART_EVENT_MANA_PCT | 3 | MinManaPct | MaxManaPct | RepeatMin | RepeatMax | | | Mana percentage|
 SMART_EVENT_AGGRO | 4 | | | | | | | On creature aggro |
-SMART_EVENT_KILL | 5 | CooldownMin | CooldownMax | Player only (0/1) | [creature_template.entry](/en/database/master/world/creature_template#entry) (if Param3 is 0) | | | On creature kill |
+SMART_EVENT_KILL | 5 | CooldownMin | CooldownMax | Player only (0/1) | [creature_template.entry](/en/database/master/world/creature_template#entry)<br/>*(If Param3 is 0)* | | | On creature kill |
 SMART_EVENT_DEATH | 6 | | | | | | | On creature death |
 SMART_EVENT_EVADE | 7 | | | | | | | On creature evade attack |
 SMART_EVENT_SPELLHIT | 8 | SpellID | School | CooldownMin | CooldownMax | | | On spell hit |
