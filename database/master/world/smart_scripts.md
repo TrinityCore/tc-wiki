@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2022-12-02T20:10:12.523Z
+date: 2022-12-02T20:14:51.826Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -190,7 +190,7 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_EVENT_SUMMON_DESPAWNED | 35 | [creature_template.entry](/en/database/master/world/creature_template#entry) | CooldownMin | CooldownMax | | | | On summoned unit despawned |
 | SMART_EVENT_CORPSE_REMOVED | 36 | | | | | | | On creature corpse removed |
 | SMART_EVENT_AI_INIT | 37 | | | | | | | On AI init |
-| SMART_EVENT_DATA_SET | 38 | Field | Value | CooldownMin | CooldownMax | | | On data set (see SMART_ACTION_SET_DATA) |
+| SMART_EVENT_DATA_SET | 38 | Field | Value | CooldownMin | CooldownMax | | | On data set<br/>*(See SMART_ACTION_SET_DATA)* |
 | :warning: SMART_EVENT_WAYPOINT_START | 39 | | | | | | | UNUSED, DO NOT REUSE |
 | SMART_EVENT_WAYPOINT_REACHED | 40 | PointID (0 any) | PathID (0 any) | | | | | On creature waypoint ID reached |
 | :x: SMART_EVENT_TRANSPORT_ADDPLAYER | 41 | | | | | | | Not yet implemented |
@@ -211,7 +211,7 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_EVENT_WAYPOINT_RESUMED | 56 | PointID (0 any) | PathID (0 any) | | | | | On creature waypoint ID resumed |
 | SMART_EVENT_WAYPOINT_STOPPED | 57 | PointID (0 any) | PathID (0 any) | | | | | On creature waypoint ID stopped |
 | SMART_EVENT_WAYPOINT_ENDED | 58 | PointID (0 any) | PathID (0 any) | | | | | On creature waypoint ID ended |
-| SMART_EVENT_TIMED_EVENT_TRIGGERED | 59 | Id | | | | | | On timed event triggered (see SMART_ACTION_TRIGGER_TIMED_EVENT) |
+| SMART_EVENT_TIMED_EVENT_TRIGGERED | 59 | Id | | | | | | On timed event triggered<br/>*(See SMART_ACTION_TRIGGER_TIMED_EVENT)* |
 | SMART_EVENT_UPDATE | 60 | InitialMin | InitialMax | RepeatMin | RepeatMax | | | On event update |
 | SMART_EVENT_LINK | 61 | | | | | | | Used to link together multiple events ([smart_scripts.link](#link)) |
 | SMART_EVENT_GOSSIP_SELECT | 62 | [gossip_menu_option.MenuID](/en/database/master/world/gossip_menu_option#menuid) | [gossip_menu_option.OptionID](/en/database/master/world/gossip_menu_option#optionid) | | | | | On gossip option selected |
@@ -224,12 +224,12 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_EVENT_GAME_EVENT_END | 69 | [game_event.eventEntry](/en/database/master/world/game_event#evententry) | | | | | | On game_event ended |
 | SMART_EVENT_GO_LOOT_STATE_CHANGED | 70 | State:<ul><li>0 &rarr; Not Ready</li><li>1 &rarr; Ready</li><li>2 &rarr; Activacted</li><li>3 &rarr; Just deactivated</li></ul> | | | | | | On go state changed |
 | SMART_EVENT_GO_EVENT_INFORM | 71 | EventId | | | | | | On go event inform |
-| SMART_EVENT_ACTION_DONE | 72 | ActionId | | | | | | On action done (see SMART_ACTION_DO_ACTION) |
+| SMART_EVENT_ACTION_DONE | 72 | ActionId | | | | | | On action done<br/>*(See SMART_ACTION_DO_ACTION)* |
 | SMART_EVENT_ON_SPELLCLICK | 73 | | | | | | | On spellclick |
 | SMART_EVENT_FRIENDLY_HEALTH_PCT | 74 | MinHpPct | MaxHpPct | RepeatMin | RepeatMax | | | On friendly health percentage |
-| SMART_EVENT_DISTANCE_CREATURE | 75 | [creature.guid](/en/database/master/world/creature#guid) | [creature_template.entry](/en/database/master/world/creature_template#entry) | Distance | Repeat interval (ms) | | | On creature guid or any instance of creature entry is within distance |
-| SMART_EVENT_DISTANCE_GAMEOBJECT | 76 | [gameobject.guid](/en/database/master/world/gameobject#guid) | [gameobject_template.entry](/en/database/master/world/gameobject_template#entry) | Distance | Repeat interval (ms) | | | On gameobject guid or any instance of gameobject entry is within distance |
-| SMART_EVENT_COUNTER_SET | 77 | CounterID | Value | CooldownMin | CooldownMax | | | On CounterID value equal to a specified value (see SMART_ACTION_SET_COUNTER) |
+| SMART_EVENT_DISTANCE_CREATURE | 75 | [creature.guid](/en/database/master/world/creature#guid) | [creature_template.entry](/en/database/master/world/creature_template#entry) | Distance | Repeat interval (ms) | | | On creature guid/entry is within distance |
+| SMART_EVENT_DISTANCE_GAMEOBJECT | 76 | [gameobject.guid](/en/database/master/world/gameobject#guid) | [gameobject_template.entry](/en/database/master/world/gameobject_template#entry) | Distance | Repeat interval (ms) | | | On gameobject guid/entry is within distance |
+| SMART_EVENT_COUNTER_SET | 77 | CounterID | Value | CooldownMin | CooldownMax | | | On CounterID value equal to a specified value<br/>*(See SMART_ACTION_SET_COUNTER)* |
 | SMART_EVENT_SCENE_START | 78 | | | | | | | On scene start |
 | SMART_EVENT_SCENE_TRIGGER | 79 | | | | | | TriggerName | On scene trigger |
 | SMART_EVENT_SCENE_CANCEL | 80 | | | | | | | On scene cancel |
