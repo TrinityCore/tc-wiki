@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2022-12-02T20:17:13.984Z
+date: 2022-12-02T20:30:31.322Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -163,7 +163,7 @@ SMART_EVENT_EVADE | 7 | | | | | | | On creature evade attack |
 SMART_EVENT_SPELLHIT | 8 | SpellID | School | CooldownMin | CooldownMax | | | On spell hit |
 SMART_EVENT_RANGE | 9 | MinDist | MaxDist | RepeatMin | RepeatMax | | | On target in range |
 SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rarr; NotHostile</li><li>2 &rarr; Any</li></ul> | MaxRange | CooldownMin | CooldownMax | Player only (0/1) | | On target in range (Out of combat) |
-| SMART_EVENT_RESPAWN | 11 | Type (None = 0, Map = 1, Area = 2) | MapId | ZoneId | | | | On spawn/respawn |
+| SMART_EVENT_RESPAWN | 11 | Type:<ul><li>0 &rarr; None</li><li>1 &rarr; Map</li><li>2 &rarr; Area</li></ul> | MapId | ZoneId | | | | On spawn/respawn |
 | :warning: SMART_EVENT_TARGET_HEALTH_PCT | 12 | | | | | | | UNUSED, DO NOT REUSE |
 | SMART_EVENT_VICTIM_CASTING | 13 | RepeatMin | RepeatMax | SpellID (0 any) | | | | On target casting spell |
 | :warning: SMART_EVENT_FRIENDLY_HEALTH | 14 | | | | | | | UNUSED, DO NOT REUSE |
