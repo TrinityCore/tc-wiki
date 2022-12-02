@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2022-11-25T21:57:32.709Z
+date: 2022-12-02T20:08:54.027Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -154,43 +154,43 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 SMART_EVENT_UPDATE_IC | 0 | InitialMin | InitialMax | RepeatMin | RepeatMax | | | In combat |
 SMART_EVENT_UPDATE_OOC | 1 | InitialMin | InitialMax | RepeatMin | RepeatMax | | | Out of combat 
-SMART_EVENT_HEALTH_PCT | 2 | HPMin% | HPMax% | RepeatMin | RepeatMax | | | Health percentage |
-SMART_EVENT_MANA_PCT | 3 | ManaMin% | ManaMax% | RepeatMin | RepeatMax | | | Mana percentage|
+SMART_EVENT_HEALTH_PCT | 2 | MinHpPct | MaxHpPct | RepeatMin | RepeatMax | | | Health percentage |
+SMART_EVENT_MANA_PCT | 3 | MinManaPct | MaxManaPct | RepeatMin | RepeatMax | | | Mana percentage|
 SMART_EVENT_AGGRO | 4 | | | | | | | On creature aggro |
-SMART_EVENT_KILL | 5 | CooldownMin | CooldownMax | Player only (0/1) | Creature entry (if Param3 is 0) | | | On creature kill |
+SMART_EVENT_KILL | 5 | CooldownMin | CooldownMax | Player only (0/1) | [creature_template.entry](/en/database/master/world/creature_template#entry) (if Param3 is 0) | | | On creature kill |
 SMART_EVENT_DEATH | 6 | | | | | | | On creature death |
 SMART_EVENT_EVADE | 7 | | | | | | | On creature evade attack |
 SMART_EVENT_SPELLHIT | 8 | SpellID | School | CooldownMin | CooldownMax | | | On spell hit |
 SMART_EVENT_RANGE | 9 | MinDist | MaxDist | RepeatMin | RepeatMax | | | On target in range |
-SMART_EVENT_OOC_LOS | 10 | HostilityMode (Hostile = 0, NotHostile = 1, Any = 2) | MaxRange | CooldownMin | CooldownMax | Player only (0/1) | | On target in range (Out of combat) |
+SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rarr; NotHostile</li><li>2 &rarr; Any</li></ul> | MaxRange | CooldownMin | CooldownMax | Player only (0/1) | | On target in range (Out of combat) |
 | SMART_EVENT_RESPAWN | 11 | Type (None = 0, Map = 1, Area = 2) | MapId | ZoneId | | | | On spawn/respawn |
 | :warning: SMART_EVENT_TARGET_HEALTH_PCT | 12 | | | | | | | UNUSED, DO NOT REUSE |
 | SMART_EVENT_VICTIM_CASTING | 13 | RepeatMin | RepeatMax | SpellID (0 any) | | | | On target casting spell |
 | :warning: SMART_EVENT_FRIENDLY_HEALTH | 14 | | | | | | | UNUSED, DO NOT REUSE |
 | SMART_EVENT_FRIENDLY_IS_CC | 15 | Radius | RepeatMin | RepeatMax | | | | On friendly in cc |
 | SMART_EVENT_FRIENDLY_MISSING_BUFF | 16 | SpellID | Radius | RepeatMin | RepeatMax | | | On friendly lost buff |
-| SMART_EVENT_SUMMONED_UNIT | 17 | Creature entry (0 any) | CooldownMin | CooldownMax | | | | On summoned unit |
+| SMART_EVENT_SUMMONED_UNIT | 17 | [creature_template.entry](/en/database/master/world/creature_template#entry) (0 any) | CooldownMin | CooldownMax | | | | On summoned unit |
 | :warning: SMART_EVENT_TARGET_MANA_PCT | 18 | | | | | | | UNUSED, DO NOT REUSE |
 | SMART_EVENT_ACCEPTED_QUEST | 19 | QuestID (0 any) | RepeatMin | RepeatMax | | | | On target accepted quest |
 | SMART_EVENT_REWARD_QUEST | 20 | QuestID (0 any) | RepeatMin | RepeatMax | | | | On target rewarded quest |
 | SMART_EVENT_REACHED_HOME | 21 | | | | | | | On creature reached home |
-| SMART_EVENT_RECEIVE_EMOTE | 22 | EmoteID | CooldownMin | CooldownMax | | | | On emote received |
+| SMART_EVENT_RECEIVE_EMOTE | 22 | EmoteID (Emotes.db2) | CooldownMin | CooldownMax | | | | On emote received |
 | SMART_EVENT_HAS_AURA | 23 | SpellID | Stacks | RepeatMin | RepeatMax | | | On creature has aura |
 | SMART_EVENT_TARGET_BUFFED | 24 | SpellID | Stacks | RepeatMin | RepeatMax | | | On target buffed with spell |
 | SMART_EVENT_RESET | 25 | | | | | | | After combat or on spawn/respawn |
-| SMART_EVENT_IC_LOS | 26 | HostilityMode (Hostile = 0, NotHostile = 1, Any = 2) | MaxRange | CooldownMin | CooldownMax | Player only (0/1) | | On target in range (In combat) |
+| SMART_EVENT_IC_LOS | 26 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rarr; NotHostile</li><li>2 &rarr; Any</li></ul> | MaxRange | CooldownMin | CooldownMax | Player only (0/1) | | On target in range (In combat) |
 | SMART_EVENT_PASSENGER_BOARDED | 27 | CooldownMin | CooldownMax | | | | | On passenger boarded |
 | SMART_EVENT_PASSENGER_REMOVED | 28 | CooldownMin | CooldownMax | | | | | On passenger removed |
-| SMART_EVENT_CHARMED | 29 | 0 (On apply) / 1 (On remove) | | | | | |  On creature charmed |
+| SMART_EVENT_CHARMED | 29 | Event:<ul><li>0 &rarr; On apply</li><li>1 &rarr; On remove</li></ul> | | | | | |  On creature charmed |
 | :warning: SMART_EVENT_CHARMED_TARGET | 30 | | | | | | | UNUSED, DO NOT REUSE |
 | SMART_EVENT_SPELLHIT_TARGET | 31 | SpellID | School | RepeatMin | RepeatMax | | | On target spell hit |
 | SMART_EVENT_DAMAGED | 32 | MinDmg | MaxDmg | RepeatMin | RepeatMax | | | On damaged |
 | SMART_EVENT_DAMAGED_TARGET | 33 | MinDmg | MaxDmg | RepeatMin | RepeatMax | | | On target damaged |
-| SMART_EVENT_MOVEMENTINFORM | 34 | MovementType (0 any) | PointID | | | | | On movement inform |
-| SMART_EVENT_SUMMON_DESPAWNED | 35 | Creature entry | CooldownMin | CooldownMax | | | | On summoned unit despawned |
+| SMART_EVENT_MOVEMENTINFORM | 34 | [MovementType](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Movement/MovementDefines.h#L28):<ul><li>0 &rarr; Any</li><li>1 &rarr; Random</li><li>2 &rarr; Waypoint ([waypoint_data.point](/en/database/master/world/waypoint_data#point))</li><li>8 &rarr; Point</li><li>16 &rarr; Effect (Jump)</li></ul> | PointID | | | | | On movement inform |
+| SMART_EVENT_SUMMON_DESPAWNED | 35 | [creature_template.entry](/en/database/master/world/creature_template#entry) | CooldownMin | CooldownMax | | | | On summoned unit despawned |
 | SMART_EVENT_CORPSE_REMOVED | 36 | | | | | | | On creature corpse removed |
 | SMART_EVENT_AI_INIT | 37 | | | | | | | On AI init |
-| SMART_EVENT_DATA_SET | 38 | Field | Value | CooldownMin | CooldownMax | | | On data set |
+| SMART_EVENT_DATA_SET | 38 | Field | Value | CooldownMin | CooldownMax | | | On data set (see SMART_ACTION_SET_DATA) |
 | :warning: SMART_EVENT_WAYPOINT_START | 39 | | | | | | | UNUSED, DO NOT REUSE |
 | SMART_EVENT_WAYPOINT_REACHED | 40 | PointID (0 any) | PathID (0 any) | | | | | On creature waypoint ID reached |
 | :x: SMART_EVENT_TRANSPORT_ADDPLAYER | 41 | | | | | | | Not yet implemented |
@@ -200,14 +200,46 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode (Hostile = 0, NotHostile = 1, Any = 2) 
 | :x: SMART_EVENT_INSTANCE_PLAYER_ENTER | 45 | Team (0 any) | CooldownMin | CooldownMax | | | | Not yet implemented |
 | SMART_EVENT_AREATRIGGER_ONTRIGGER | 46 | TriggerId (0 any) | | | | | | On areatrigger triggered |
 | SMART_EVENT_QUEST_ACCEPTED | 47 | | | | | | | On target quest accepted |
-| SMART_EVENT_QUEST_OBJ_COMPLETION | 48 | Quest objective ID | | | | | | On target quest objective completed |
+| SMART_EVENT_QUEST_OBJ_COMPLETION | 48 | [quest_objectives.ID](/en/database/master/world/quest_objectives#id) | | | | | | On target quest objective completed |
 | SMART_EVENT_QUEST_COMPLETION | 49 | | | | | | | On target quest completed |
 | SMART_EVENT_QUEST_REWARDED | 50 | | | | | | | On target quest rewarded |
 | SMART_EVENT_QUEST_FAIL | 51 | | | | | | | On target quest failed |
+| SMART_EVENT_TEXT_OVER | 52 | [creature_text.GroupID](/en/database/master/world/creature_text#groupid) | [creature_text.CreatureID](/en/database/master/world/creature_text#creatureid) (0 any) | | | | | On text over event triggered after SMART_ACTION_TALK |
+| SMART_EVENT_RECEIVE_HEAL | 53 | MinHeal | MaxHeal | CooldownMin | CooldownMax | | | On creature received healing |
+| SMART_EVENT_JUST_SUMMONED | 54 | | | | | | | On summon |
+| SMART_EVENT_WAYPOINT_PAUSED | 55 | PointID (0 any) | PathID (0 any) | | | | | On creature waypoint ID paused |
+| SMART_EVENT_WAYPOINT_RESUMED | 56 | PointID (0 any) | PathID (0 any) | | | | | On creature waypoint ID resumed |
+| SMART_EVENT_WAYPOINT_STOPPED | 57 | PointID (0 any) | PathID (0 any) | | | | | On creature waypoint ID stopped |
+| SMART_EVENT_WAYPOINT_ENDED | 58 | PointID (0 any) | PathID (0 any) | | | | | On creature waypoint ID ended |
+| SMART_EVENT_TIMED_EVENT_TRIGGERED | 59 | Id | | | | | | On timed event triggered (see SMART_ACTION_TRIGGER_TIMED_EVENT) |
+| SMART_EVENT_UPDATE | 60 | InitialMin | InitialMax | RepeatMin | RepeatMax | | | On event update |
+| SMART_EVENT_LINK | 61 | | | | | | | Used to link together multiple events ([smart_scripts.link](#link)) |
+| SMART_EVENT_GOSSIP_SELECT | 62 | [gossip_menu_option.MenuID](/en/database/master/world/gossip_menu_option#menuid) | [gossip_menu_option.OptionID](/en/database/master/world/gossip_menu_option#optionid) | | | | | On gossip option selected |
+| SMART_EVENT_JUST_CREATED | 63 | | | | | | | On spawn/summon |
+| SMART_EVENT_GOSSIP_HELLO | 64 | NoReportUse (for GOs):<ul><li>0 &rarr; On gossip hello and on report use<br/>*(Action could be executed twice)*</li><li>1 &rarr; On gossip hello</li><li>2 &rarr; On report use</li></ul> | | | | | | On gossip hello |
+| SMART_EVENT_FOLLOW_COMPLETED | 65 | | | | | | | On follow completed |
+| :warning: SMART_EVENT_EVENT_PHASE_CHANGE | 66 | | | | | | | UNUSED, DO NOT REUSE |
+| :warning: SMART_EVENT_IS_BEHIND_TARGET | 67 | | | | | | | UNUSED, DO NOT REUSE |
+| SMART_EVENT_GAME_EVENT_START | 68 | [game_event.eventEntry](/en/database/master/world/game_event#evententry) | | | | | | On game_event started |
+| SMART_EVENT_GAME_EVENT_END | 69 | [game_event.eventEntry](/en/database/master/world/game_event#evententry) | | | | | | On game_event ended |
+| SMART_EVENT_GO_LOOT_STATE_CHANGED | 70 | State:<ul><li>0 &rarr; Not Ready</li><li>1 &rarr; Ready</li><li>2 &rarr; Activacted</li><li>3 &rarr; Just deactivated</li></ul> | | | | | | On go state changed |
+| SMART_EVENT_GO_EVENT_INFORM | 71 | EventId | | | | | | On go event inform |
+| SMART_EVENT_ACTION_DONE | 72 | ActionId | | | | | | On action done (see SMART_ACTION_DO_ACTION) |
+| SMART_EVENT_ON_SPELLCLICK | 73 | | | | | | | On spellclick |
+| SMART_EVENT_FRIENDLY_HEALTH_PCT | 74 | MinHpPct | MaxHpPct | RepeatMin | RepeatMax | | | On friendly health percentage |
+| SMART_EVENT_DISTANCE_CREATURE | 75 | [creature.guid](/en/database/master/world/creature#guid) | [creature_template.entry](/en/database/master/world/creature_template#entry) | Distance | Repeat interval (ms) | | | On creature guid or any instance of creature entry is within distance |
+| SMART_EVENT_DISTANCE_GAMEOBJECT | 76 | [gameobject.guid](/en/database/master/world/gameobject#guid) | [gameobject_template.entry](/en/database/master/world/gameobject_template#entry) | Distance | Repeat interval (ms) | | | On gameobject guid or any instance of gameobject entry is within distance |
+| SMART_EVENT_COUNTER_SET | 77 | CounterID | Value | CooldownMin | CooldownMax | | | On CounterID value equal to a specified value (see SMART_ACTION_SET_COUNTER) |
+| SMART_EVENT_SCENE_START | 78 | | | | | | | On scene start |
+| SMART_EVENT_SCENE_TRIGGER | 79 | | | | | | TriggerName | On scene trigger |
+| SMART_EVENT_SCENE_CANCEL | 80 | | | | | | | On scene cancel |
+| SMART_EVENT_SCENE_COMPLETE | 81 | | | | | | | On scene complete |
+| SMART_EVENT_SUMMONED_UNIT_DIES | 82 | | | | | | | On summoned unit dies |
+| SMART_EVENT_ON_SPELL_CAST | 83 | SpellID | CooldownMin | CooldownMax | | | | On spell cast |
+| SMART_EVENT_ON_SPELL_FAILED | 84 | SpellID | CooldownMin | CooldownMax | | | | On spell failed |
+| SMART_EVENT_ON_SPELL_START | 85 | SpellID | CooldownMin | CooldownMax | | | | On spell start |
+| SMART_EVENT_ON_DESPAWN | 86 | | | | | | | On despawn |
 </span>
-
-:construction:
-&nbsp;
 
 ### action_type
 *- no description -*
