@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2022-12-02T20:30:31.322Z
+date: 2022-12-03T20:09:44.927Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -148,8 +148,6 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 </span>
 
 ### event_type
-<span style="white-space: nowrap; font-size: small">
-
 | Name | Value | Param1 | Param2 | Param3 | Param4 | Param5 | ParamString| Comment |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 SMART_EVENT_UPDATE_IC | 0 | InitialMin | InitialMax | RepeatMin | RepeatMax | | | In combat |
@@ -239,7 +237,12 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_EVENT_ON_SPELL_FAILED | 84 | SpellID | CooldownMin | CooldownMax | | | | On spell failed |
 | SMART_EVENT_ON_SPELL_START | 85 | SpellID | CooldownMin | CooldownMax | | | | On spell start |
 | SMART_EVENT_ON_DESPAWN | 86 | | | | | | | On despawn |
-</span>
+
+> Please note :warning:means that the event_type is deprecated and should not be used.
+{.is-warning}
+
+> Please note :x:means that the event_type is not (yet) implemented.
+{.is-danger}
 
 ### action_type
 *- no description -*
