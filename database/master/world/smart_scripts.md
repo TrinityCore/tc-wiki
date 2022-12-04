@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2022-12-03T20:09:44.927Z
+date: 2022-12-04T01:01:02.086Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -61,8 +61,6 @@ dateCreated: 2021-08-30T09:36:32.378Z
 ### source_type
 Object type (creature, gameobject, quest, etc.).
 
-<span style="white-space: nowrap; font-size: small">
-  
 | Name | Value | Source | 
 | :---  | ---: | :--- |
 | SMART_SCRIPT_TYPE_CREATURE | 0 | [creature_template.entry](/en/database/master/world/creature_template#entry) or [creature.guid](/en/database/master/world/creature#guid) |
@@ -78,7 +76,6 @@ Object type (creature, gameobject, quest, etc.).
 | SMART_SCRIPT_TYPE_SCENE | 10 | [scene_template.id](/en/database/master/world/scene_template#id) |
 | SMART_SCRIPT_TYPE_AREATRIGGER_ENTITY | 11 | [areatrigger_template.Id](/en/database/master/world/areatrigger_template#id) (IsServerSide = 0) |
 | SMART_SCRIPT_TYPE_AREATRIGGER_ENTITY_SERVERSIDE | 12 | [areatrigger_template.Id](/en/database/master/world/areatrigger_template#id) (IsServerSide = 1) |
-</span>
 
 >Please note :x:means that the source_type is not (yet) implemented.
 {.is-danger}
@@ -97,8 +94,6 @@ Simple event linking.
 ### event_phase_mask
 Event can only occur if the source is in this event phase. The default event phase is **SMART_EVENT_PHASE_ALWAYS (0)**.
 
-<span style="white-space: nowrap; font-size: small">
-
 | Name | Flag | Hex | Comment |
 | :--- | ---: | :--- | :--- |
 | SMART_EVENT_PHASE_ALWAYS | 0 | 0x000 | Means all phases (1 ... 12) |
@@ -114,7 +109,6 @@ Event can only occur if the source is in this event phase. The default event pha
 | SMART_EVENT_PHASE_10 | 512 | 0x200 | Phase 10 only. |
 | SMART_EVENT_PHASE_11 | 1024 | 0x400 | Phase 11 only. |
 | SMART_EVENT_PHASE_12 | 2048 | 0x800 | Phase 12 only. |
-</span>
 
 > **Example**: If we want an event to be able to occur only in event phases 1 and 4, event_phase_mask: **1 + 8 = 9**.
 
@@ -131,8 +125,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 &nbsp;
 
 ### event_flags
-<span style="white-space: nowrap; font-size: small">
-  
+ 
 | Name | Flag | Hex | Comment |
 | :--- | ---: | :--- | :--- |
 | SMART_EVENT_FLAG_NOT_REPEATABLE | 1 | 0x01 | Event can not repeat |
@@ -145,7 +138,6 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 | SMART_EVENT_FLAG_DEBUG_ONLY | 128 | 0x80 | Event only occurs in debug build |
 | SMART_EVENT_FLAG_DONT_RESET | 256 | 0x100 | Event will not reset in SmartScript::OnReset() |
 | SMART_EVENT_FLAG_WHILE_CHARMED | 512 | 0x200 | Event occurs even if AI owner is charmed |
-</span>
 
 ### event_type
 | Name | Value | Param1 | Param2 | Param3 | Param4 | Param5 | ParamString| Comment |
