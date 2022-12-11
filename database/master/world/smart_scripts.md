@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2022-12-04T15:34:18.990Z
+date: 2022-12-11T14:47:06.380Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -216,7 +216,7 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_EVENT_GO_EVENT_INFORM | 71 | EventId | | | | | | On go event inform |
 | SMART_EVENT_ACTION_DONE | 72 | ActionId | | | | | | On action done<br/>*(See SMART_ACTION_DO_ACTION)* |
 | SMART_EVENT_ON_SPELLCLICK | 73 | | | | | | | On spellclick |
-| SMART_EVENT_FRIENDLY_HEALTH_PCT | 74 | MinHpPct | MaxHpPct | RepeatMin | RepeatMax | | | On friendly health percentage |
+| SMART_EVENT_FRIENDLY_HEALTH_PCT | 74 | MinHpPct | MaxHpPct | RepeatMin | RepeatMax | Radius | | On friendly health percentage |
 | SMART_EVENT_DISTANCE_CREATURE | 75 | [creature.guid](/en/database/master/world/creature#guid) | [creature_template.entry](/en/database/master/world/creature_template#entry) | Distance | Repeat interval (ms) | | | On creature guid/entry is within distance |
 | SMART_EVENT_DISTANCE_GAMEOBJECT | 76 | [gameobject.guid](/en/database/master/world/gameobject#guid) | [gameobject_template.entry](/en/database/master/world/gameobject_template#entry) | Distance | Repeat interval (ms) | | | On gameobject guid/entry is within distance |
 | SMART_EVENT_COUNTER_SET | 77 | CounterID | Value | CooldownMin | CooldownMax | | | On CounterID value equal to a specified value<br/>*(See SMART_ACTION_SET_COUNTER)* |
