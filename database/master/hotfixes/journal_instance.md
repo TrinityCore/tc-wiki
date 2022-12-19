@@ -2,7 +2,7 @@
 title: journal_instance
 description: 
 published: true
-date: 2022-07-07T11:07:37.385Z
+date: 2022-12-19T18:12:42.579Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -22,7 +22,6 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [ButtonFileDataID](#buttonfiledataid) | int | signed |  | NO | 0 |  |  |
 | [ButtonSmallFileDataID](#buttonsmallfiledataid) | int | signed |  | NO | 0 |  |  |
 | [LoreFileDataID](#lorefiledataid) | int | signed |  | NO | 0 |  |  |
-| [OrderIndex](#orderindex) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | int | signed |  | NO | 0 |  |  |
 | [AreaID](#areaid) | smallint | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
@@ -58,10 +57,6 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### LoreFileDataID
-*- no description -*
-&nbsp;
-
-### OrderIndex
 *- no description -*
 &nbsp;
 

@@ -2,7 +2,7 @@
 title: faction
 description: 
 published: true
-date: 2022-02-06T18:26:40.925Z
+date: 2022-12-19T18:12:41.765Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -25,8 +25,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [ParentFactionID](#parentfactionid) | smallint | unsigned |  | NO | 0 |  |  |
 | [Expansion](#expansion) | tinyint | unsigned |  | NO | 0 |  |  |
 | [FriendshipRepID](#friendshiprepid) | int | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
 | [ParagonFactionID](#paragonfactionid) | smallint | unsigned |  | NO | 0 |  |  |
+| [RenownFactionID](#renownfactionid) | int | signed |  | NO | 0 |  |  |
+| [RenownCurrencyID](#renowncurrencyid) | int | signed |  | NO | 0 |  |  |
 | [ReputationClassMask1](#reputationclassmask1) | smallint | signed |  | NO | 0 |  |  |
 | [ReputationClassMask2](#reputationclassmask2) | smallint | signed |  | NO | 0 |  |  |
 | [ReputationClassMask3](#reputationclassmask3) | smallint | signed |  | NO | 0 |  |  |
@@ -100,6 +102,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### ParagonFactionID
+*- no description -*
+&nbsp;
+
+### RenownFactionID
+*- no description -*
+&nbsp;
+
+### RenownCurrencyID
 *- no description -*
 &nbsp;
 
@@ -197,4 +207,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/expected_stat_mod" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'expected_stat_mod'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/faction_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'faction_locale'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

@@ -2,7 +2,7 @@
 title: chr_races
 description: 
 published: true
-date: 2022-02-06T18:26:40.913Z
+date: 2022-12-19T18:12:41.253Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -70,6 +70,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Unknown910_21](#unknown910_21) | float |  |  | NO | 0 |  |  |
 | [Unknown910_22](#unknown910_22) | float |  |  | NO | 0 |  |  |
 | [Unknown910_23](#unknown910_23) | float |  |  | NO | 0 |  |  |
+| [Unknown1000](#unknown1000) | int | signed |  | NO | 0 |  |  |
 | [BaseLanguage](#baselanguage) | tinyint | signed |  | NO | 0 |  |  |
 | [CreatureType](#creaturetype) | tinyint | signed |  | NO | 0 |  |  |
 | [MaleModelFallbackSex](#malemodelfallbacksex) | tinyint | signed |  | NO | 0 |  |  |
@@ -304,6 +305,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 *- no description -*
 &nbsp;
 
+### Unknown1000
+*- no description -*
+&nbsp;
+
 ### BaseLanguage
 *- no description -*
 &nbsp;
@@ -342,4 +347,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/chr_race_x_chr_model" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'chr_race_x_chr_model'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/chr_races_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'chr_races_locale'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

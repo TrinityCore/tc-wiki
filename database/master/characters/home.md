@@ -2,7 +2,7 @@
 title: Characters
 description: 
 published: true
-date: 2022-09-11T09:22:25.932Z
+date: 2022-12-19T18:06:28.952Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -52,7 +52,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 - [character_gifts](/database/master/characters/character_gifts)
 - [character_glyphs](/database/master/characters/character_glyphs)
 - [character_homebind](/database/master/characters/character_homebind)
-- [character_instance](/database/master/characters/character_instance)
+- [character_instance_lock](/database/master/characters/character_instance_lock)
 - [character_inventory](/database/master/characters/character_inventory)
 - [character_pet](/database/master/characters/character_pet)
 - [character_pet_declinedname](/database/master/characters/character_pet_declinedname)
@@ -72,8 +72,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 - [character_spell](/database/master/characters/character_spell)
 - [character_spell_charges](/database/master/characters/character_spell_charges)
 - [character_spell_cooldown](/database/master/characters/character_spell_cooldown)
+- [character_spell_favorite](/database/master/characters/character_spell_favorite)
 - [character_stats](/database/master/characters/character_stats)
 - [character_talent](/database/master/characters/character_talent)
+- [character_trait_config](/database/master/characters/character_trait_config)
+- [character_trait_entry](/database/master/characters/character_trait_entry)
 - [character_transmog_outfits](/database/master/characters/character_transmog_outfits)
 - [character_void_storage](/database/master/characters/character_void_storage)
 - [characters](/database/master/characters/characters)
@@ -88,7 +91,6 @@ dateCreated: 2021-08-30T06:00:00.000Z
 - [gm_complaint](/database/master/characters/gm_complaint)
 - [gm_complaint_chatlog](/database/master/characters/gm_complaint_chatlog)
 - [gm_suggestion](/database/master/characters/gm_suggestion)
-- [group_instance](/database/master/characters/group_instance)
 - [group_member](/database/master/characters/group_member)
 - [groups](/database/master/characters/groups)
 - [guild](/database/master/characters/guild)
@@ -106,8 +108,6 @@ dateCreated: 2021-08-30T06:00:00.000Z
 {.links-list}
 ## i
 - [instance](/database/master/characters/instance)
-- [instance_reset](/database/master/characters/instance_reset)
-- [instance_scenario_progress](/database/master/characters/instance_scenario_progress)
 - [item_instance](/database/master/characters/item_instance)
 - [item_instance_artifact](/database/master/characters/item_instance_artifact)
 - [item_instance_artifact_powers](/database/master/characters/item_instance_artifact_powers)

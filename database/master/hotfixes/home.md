@@ -2,22 +2,11 @@
 title: Hotfixes
 description: 
 published: true
-date: 2022-04-17T20:26:08.235Z
+date: 2022-12-19T18:12:44.728Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
 ---
-
-> Each table schema represents its corresponding [DB2](https://wowdev.wiki/DB2)-File structure. (except the locale tables)
-> The tables **only** contain additional/corrected/removed data for their corresponding DB2-File.
-> 
-> Exception:
-> [hotfix_blob](/database/master/hotfixes/hotfix_blob)
-> [hotfix_data](/database/master/hotfixes/hotfix_data)
-> [hotfix_optional_data](/database/master/hotfixes/hotfix_optional_data)
-> [updates](/database/master/hotfixes/updates)
-> [updates_include](/database/master/hotfixes/updates_include)
-{.is-info}
 
 ## a
 - [achievement](/database/master/hotfixes/achievement)
@@ -102,6 +91,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 - [chr_customization_option_locale](/database/master/hotfixes/chr_customization_option_locale)
 - [chr_customization_req](/database/master/hotfixes/chr_customization_req)
 - [chr_customization_req_choice](/database/master/hotfixes/chr_customization_req_choice)
+- [chr_customization_req_locale](/database/master/hotfixes/chr_customization_req_locale)
 - [chr_model](/database/master/hotfixes/chr_model)
 - [chr_race_x_chr_model](/database/master/hotfixes/chr_race_x_chr_model)
 - [chr_races](/database/master/hotfixes/chr_races)
@@ -180,11 +170,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 - [garr_plot_instance](/database/master/hotfixes/garr_plot_instance)
 - [garr_site_level](/database/master/hotfixes/garr_site_level)
 - [garr_site_level_plot_inst](/database/master/hotfixes/garr_site_level_plot_inst)
+- [garr_talent_tree](/database/master/hotfixes/garr_talent_tree)
+- [garr_talent_tree_locale](/database/master/hotfixes/garr_talent_tree_locale)
 - [gem_properties](/database/master/hotfixes/gem_properties)
 - [global_curve](/database/master/hotfixes/global_curve)
 - [glyph_bindable_spell](/database/master/hotfixes/glyph_bindable_spell)
 - [glyph_properties](/database/master/hotfixes/glyph_properties)
 - [glyph_required_spec](/database/master/hotfixes/glyph_required_spec)
+- [gossip_npc_option](/database/master/hotfixes/gossip_npc_option)
 - [guild_color_background](/database/master/hotfixes/guild_color_background)
 - [guild_color_border](/database/master/hotfixes/guild_color_border)
 - [guild_color_emblem](/database/master/hotfixes/guild_color_emblem)
@@ -351,7 +344,9 @@ dateCreated: 2021-08-30T06:00:00.000Z
 - [scene_script_text](/database/master/hotfixes/scene_script_text)
 - [skill_line](/database/master/hotfixes/skill_line)
 - [skill_line_ability](/database/master/hotfixes/skill_line_ability)
+- [skill_line_ability_locale](/database/master/hotfixes/skill_line_ability_locale)
 - [skill_line_locale](/database/master/hotfixes/skill_line_locale)
+- [skill_line_x_trait_tree](/database/master/hotfixes/skill_line_x_trait_tree)
 - [skill_race_class_info](/database/master/hotfixes/skill_race_class_info)
 - [soulbind_conduit_rank](/database/master/hotfixes/soulbind_conduit_rank)
 - [sound_kit](/database/master/hotfixes/sound_kit)
@@ -416,6 +411,31 @@ dateCreated: 2021-08-30T06:00:00.000Z
 - [totem_category_locale](/database/master/hotfixes/totem_category_locale)
 - [toy](/database/master/hotfixes/toy)
 - [toy_locale](/database/master/hotfixes/toy_locale)
+- [trait_cond](/database/master/hotfixes/trait_cond)
+- [trait_cost](/database/master/hotfixes/trait_cost)
+- [trait_currency](/database/master/hotfixes/trait_currency)
+- [trait_currency_source](/database/master/hotfixes/trait_currency_source)
+- [trait_currency_source_locale](/database/master/hotfixes/trait_currency_source_locale)
+- [trait_definition](/database/master/hotfixes/trait_definition)
+- [trait_definition_effect_points](/database/master/hotfixes/trait_definition_effect_points)
+- [trait_definition_locale](/database/master/hotfixes/trait_definition_locale)
+- [trait_edge](/database/master/hotfixes/trait_edge)
+- [trait_node](/database/master/hotfixes/trait_node)
+- [trait_node_entry](/database/master/hotfixes/trait_node_entry)
+- [trait_node_entry_x_trait_cond](/database/master/hotfixes/trait_node_entry_x_trait_cond)
+- [trait_node_entry_x_trait_cost](/database/master/hotfixes/trait_node_entry_x_trait_cost)
+- [trait_node_group](/database/master/hotfixes/trait_node_group)
+- [trait_node_group_x_trait_cond](/database/master/hotfixes/trait_node_group_x_trait_cond)
+- [trait_node_group_x_trait_cost](/database/master/hotfixes/trait_node_group_x_trait_cost)
+- [trait_node_group_x_trait_node](/database/master/hotfixes/trait_node_group_x_trait_node)
+- [trait_node_x_trait_cond](/database/master/hotfixes/trait_node_x_trait_cond)
+- [trait_node_x_trait_cost](/database/master/hotfixes/trait_node_x_trait_cost)
+- [trait_node_x_trait_node_entry](/database/master/hotfixes/trait_node_x_trait_node_entry)
+- [trait_tree](/database/master/hotfixes/trait_tree)
+- [trait_tree_loadout](/database/master/hotfixes/trait_tree_loadout)
+- [trait_tree_loadout_entry](/database/master/hotfixes/trait_tree_loadout_entry)
+- [trait_tree_x_trait_cost](/database/master/hotfixes/trait_tree_x_trait_cost)
+- [trait_tree_x_trait_currency](/database/master/hotfixes/trait_tree_x_trait_currency)
 - [transmog_holiday](/database/master/hotfixes/transmog_holiday)
 - [transmog_illusion](/database/master/hotfixes/transmog_illusion)
 - [transmog_set](/database/master/hotfixes/transmog_set)

@@ -2,7 +2,7 @@
 title: map
 description: 
 published: true
-date: 2022-07-07T11:07:37.631Z
+date: 2022-12-19T18:12:42.764Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -38,6 +38,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [WindSettingsID](#windsettingsid) | smallint | signed |  | NO | 0 |  |  |
 | [ZmpFileDataID](#zmpfiledataid) | int | signed |  | NO | 0 |  |  |
 | [WdtFileDataID](#wdtfiledataid) | int | signed |  | NO | 0 |  |  |
+| [NavigationMaxDistance](#navigationmaxdistance) | int | signed |  | NO | 0 |  |  |
 | [Flags1](#flags1) | int | signed |  | NO | 0 |  |  |
 | [Flags2](#flags2) | int | signed |  | NO | 0 |  |  |
 | [Flags3](#flags3) | int | signed |  | NO | 0 |  |  |
@@ -138,6 +139,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### WdtFileDataID
+*- no description -*
+&nbsp;
+
+### NavigationMaxDistance
 *- no description -*
 &nbsp;
 

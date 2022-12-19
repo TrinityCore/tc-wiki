@@ -2,7 +2,7 @@
 title: World
 description: 
 published: true
-date: 2022-09-11T09:24:02.593Z
+date: 2022-12-19T18:29:08.737Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -189,6 +189,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 - [prospecting_loot_template](/database/master/world/prospecting_loot_template)
 {.links-list}
 ## q
+- [quest_completion_log_conditional](/database/master/world/quest_completion_log_conditional)
+- [quest_description_conditional](/database/master/world/quest_description_conditional)
 - [quest_details](/database/master/world/quest_details)
 - [quest_greeting](/database/master/world/quest_greeting)
 - [quest_greeting_locale](/database/master/world/quest_greeting_locale)
@@ -196,12 +198,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 - [quest_objectives](/database/master/world/quest_objectives)
 - [quest_objectives_locale](/database/master/world/quest_objectives_locale)
 - [quest_offer_reward](/database/master/world/quest_offer_reward)
+- [quest_offer_reward_conditional](/database/master/world/quest_offer_reward_conditional)
 - [quest_offer_reward_locale](/database/master/world/quest_offer_reward_locale)
 - [quest_poi](/database/master/world/quest_poi)
 - [quest_poi_points](/database/master/world/quest_poi_points)
 - [quest_pool_members](/database/master/world/quest_pool_members)
 - [quest_pool_template](/database/master/world/quest_pool_template)
 - [quest_request_items](/database/master/world/quest_request_items)
+- [quest_request_items_conditional](/database/master/world/quest_request_items_conditional)
 - [quest_request_items_locale](/database/master/world/quest_request_items_locale)
 - [quest_reward_choice_items](/database/master/world/quest_reward_choice_items)
 - [quest_reward_display_spell](/database/master/world/quest_reward_display_spell)

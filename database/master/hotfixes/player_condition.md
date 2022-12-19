@@ -2,7 +2,7 @@
 title: player_condition
 description: 
 published: true
-date: 2022-02-06T18:26:40.963Z
+date: 2022-12-19T18:12:43.328Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -71,6 +71,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [MaxPVPRank](#maxpvprank) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ContentTuningID](#contenttuningid) | int | signed |  | NO | 0 |  |  |
 | [CovenantID](#covenantid) | int | signed |  | NO | 0 |  |  |
+| [TraitNodeEntryLogic](#traitnodeentrylogic) | int | unsigned |  | NO | 0 |  |  |
 | [SkillID1](#skillid1) | smallint | unsigned |  | NO | 0 |  |  |
 | [SkillID2](#skillid2) | smallint | unsigned |  | NO | 0 |  |  |
 | [SkillID3](#skillid3) | smallint | unsigned |  | NO | 0 |  |  |
@@ -161,6 +162,18 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [QuestKillMonster6](#questkillmonster6) | int | unsigned |  | NO | 0 |  |  |
 | [MovementFlags1](#movementflags1) | int | signed |  | NO | 0 |  |  |
 | [MovementFlags2](#movementflags2) | int | signed |  | NO | 0 |  |  |
+| [TraitNodeEntryID1](#traitnodeentryid1) | int | signed |  | NO | 0 |  |  |
+| [TraitNodeEntryID2](#traitnodeentryid2) | int | signed |  | NO | 0 |  |  |
+| [TraitNodeEntryID3](#traitnodeentryid3) | int | signed |  | NO | 0 |  |  |
+| [TraitNodeEntryID4](#traitnodeentryid4) | int | signed |  | NO | 0 |  |  |
+| [TraitNodeEntryMinRank1](#traitnodeentryminrank1) | smallint | unsigned |  | NO | 0 |  |  |
+| [TraitNodeEntryMinRank2](#traitnodeentryminrank2) | smallint | unsigned |  | NO | 0 |  |  |
+| [TraitNodeEntryMinRank3](#traitnodeentryminrank3) | smallint | unsigned |  | NO | 0 |  |  |
+| [TraitNodeEntryMinRank4](#traitnodeentryminrank4) | smallint | unsigned |  | NO | 0 |  |  |
+| [TraitNodeEntryMaxRank1](#traitnodeentrymaxrank1) | smallint | unsigned |  | NO | 0 |  |  |
+| [TraitNodeEntryMaxRank2](#traitnodeentrymaxrank2) | smallint | unsigned |  | NO | 0 |  |  |
+| [TraitNodeEntryMaxRank3](#traitnodeentrymaxrank3) | smallint | unsigned |  | NO | 0 |  |  |
+| [TraitNodeEntryMaxRank4](#traitnodeentrymaxrank4) | smallint | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -390,6 +403,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### CovenantID
+*- no description -*
+&nbsp;
+
+### TraitNodeEntryLogic
 *- no description -*
 &nbsp;
 
@@ -753,6 +770,54 @@ dateCreated: 2021-08-30T06:00:00.000Z
 *- no description -*
 &nbsp;
 
+### TraitNodeEntryID1
+*- no description -*
+&nbsp;
+
+### TraitNodeEntryID2
+*- no description -*
+&nbsp;
+
+### TraitNodeEntryID3
+*- no description -*
+&nbsp;
+
+### TraitNodeEntryID4
+*- no description -*
+&nbsp;
+
+### TraitNodeEntryMinRank1
+*- no description -*
+&nbsp;
+
+### TraitNodeEntryMinRank2
+*- no description -*
+&nbsp;
+
+### TraitNodeEntryMinRank3
+*- no description -*
+&nbsp;
+
+### TraitNodeEntryMinRank4
+*- no description -*
+&nbsp;
+
+### TraitNodeEntryMaxRank1
+*- no description -*
+&nbsp;
+
+### TraitNodeEntryMaxRank2
+*- no description -*
+&nbsp;
+
+### TraitNodeEntryMaxRank3
+*- no description -*
+&nbsp;
+
+### TraitNodeEntryMaxRank4
+*- no description -*
+&nbsp;
+
 ### VerifiedBuild
 This field is used by the TrinityDB Team to determine whether a template has been verified from WDB files.
 
@@ -767,4 +832,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/phase_x_phase_group" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'phase_x_phase_group'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/player_condition_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'player_condition_locale'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

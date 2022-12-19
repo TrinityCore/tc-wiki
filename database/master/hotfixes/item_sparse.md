@@ -2,7 +2,7 @@
 title: item_sparse
 description: 
 published: true
-date: 2022-07-07T11:07:37.312Z
+date: 2022-12-19T18:12:42.478Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -52,6 +52,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [StatPercentEditor10](#statpercenteditor10) | int | signed |  | NO | 0 |  |  |
 | [Stackable](#stackable) | int | signed |  | NO | 0 |  |  |
 | [MaxCount](#maxcount) | int | signed |  | NO | 0 |  |  |
+| [MinReputation](#minreputation) | int | signed |  | NO | 0 |  |  |
 | [RequiredAbility](#requiredability) | int | unsigned |  | NO | 0 |  |  |
 | [SellPrice](#sellprice) | int | unsigned |  | NO | 0 |  |  |
 | [BuyPrice](#buyprice) | int | unsigned |  | NO | 0 |  |  |
@@ -106,7 +107,6 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [StatModifierBonusStat9](#statmodifierbonusstat9) | tinyint | signed |  | NO | 0 |  |  |
 | [StatModifierBonusStat10](#statmodifierbonusstat10) | tinyint | signed |  | NO | 0 |  |  |
 | [ContainerSlots](#containerslots) | tinyint | unsigned |  | NO | 0 |  |  |
-| [MinReputation](#minreputation) | tinyint | unsigned |  | NO | 0 |  |  |
 | [RequiredPVPMedal](#requiredpvpmedal) | tinyint | unsigned |  | NO | 0 |  |  |
 | [RequiredPVPRank](#requiredpvprank) | tinyint | unsigned |  | NO | 0 |  |  |
 | [RequiredLevel](#requiredlevel) | tinyint | signed |  | NO | 0 |  |  |
@@ -265,6 +265,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### MaxCount
+*- no description -*
+&nbsp;
+
+### MinReputation
 *- no description -*
 &nbsp;
 
@@ -481,10 +485,6 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### ContainerSlots
-*- no description -*
-&nbsp;
-
-### MinReputation
 *- no description -*
 &nbsp;
 

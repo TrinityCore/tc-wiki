@@ -2,7 +2,7 @@
 title: account
 description: 
 published: true
-date: 2022-04-17T20:19:40.955Z
+date: 2022-12-19T18:04:50.433Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -35,7 +35,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [lock_country](#lock_country) | varchar(2) |  |  | NO | 00 |  |  |
 | [last_login](#last_login) | timestamp |  |  | YES | NULL |  |  |
 | [online](#online) | tinyint | unsigned |  | NO | 0 |  |  |
-| [expansion](#expansion) | tinyint | unsigned |  | NO | 8 |  |  |
+| [expansion](#expansion) | tinyint | unsigned |  | NO | 9 |  |  |
 | [mutetime](#mutetime) | bigint | signed |  | NO | 0 |  |  |
 | [mutereason](#mutereason) | varchar(255) |  |  | NO | '' |  |  |
 | [muteby](#muteby) | varchar(50) |  |  | NO | '' |  |  |

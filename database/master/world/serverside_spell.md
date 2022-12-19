@@ -2,7 +2,7 @@
 title: serverside_spell
 description: 
 published: true
-date: 2022-04-17T18:35:15.207Z
+date: 2022-12-19T18:29:08.605Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -48,6 +48,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [TargetAuraSpell](#targetauraspell) | int | unsigned |  | NO | 0 |  |  |
 | [ExcludeCasterAuraSpell](#excludecasterauraspell) | int | unsigned |  | NO | 0 |  |  |
 | [ExcludeTargetAuraSpell](#excludetargetauraspell) | int | unsigned |  | NO | 0 |  |  |
+| [CasterAuraType](#casterauratype) | int | signed |  | NO | 0 |  |  |
+| [TargetAuraType](#targetauratype) | int | signed |  | NO | 0 |  |  |
+| [ExcludeCasterAuraType](#excludecasterauratype) | int | signed |  | NO | 0 |  |  |
+| [ExcludeTargetAuraType](#excludetargetauratype) | int | signed |  | NO | 0 |  |  |
 | [CastingTimeIndex](#castingtimeindex) | int | unsigned |  | NO | 1 |  |  |
 | [RecoveryTime](#recoverytime) | int | unsigned |  | NO | 0 |  |  |
 | [CategoryRecoveryTime](#categoryrecoverytime) | int | unsigned |  | NO | 0 |  |  |
@@ -227,6 +231,22 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### ExcludeTargetAuraSpell
+*- no description -*
+&nbsp;
+
+### CasterAuraType
+*- no description -*
+&nbsp;
+
+### TargetAuraType
+*- no description -*
+&nbsp;
+
+### ExcludeCasterAuraType
+*- no description -*
+&nbsp;
+
+### ExcludeTargetAuraType
 *- no description -*
 &nbsp;
 

@@ -2,7 +2,7 @@
 title: curve_point
 description: 
 published: true
-date: 2022-07-07T11:07:36.651Z
+date: 2022-12-19T18:12:41.529Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,20 +14,16 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [PosX](#posx) | float |  |  | NO | 0 |  |  |
 | [PosY](#posy) | float |  |  | NO | 0 |  |  |
 | [PreSLSquishPosX](#preslsquishposx) | float |  |  | NO | 0 |  |  |
 | [PreSLSquishPosY](#preslsquishposy) | float |  |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [CurveID](#curveid) | smallint | unsigned |  | NO | 0 |  |  |
 | [OrderIndex](#orderindex) | tinyint | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
-
-### ID
-*- no description -*
-&nbsp;
 
 ### PosX
 *- no description -*
@@ -42,6 +38,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### PreSLSquishPosY
+*- no description -*
+&nbsp;
+
+### ID
 *- no description -*
 &nbsp;
 

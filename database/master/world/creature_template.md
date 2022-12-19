@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2022-08-04T16:33:08.385Z
+date: 2022-12-19T18:29:08.251Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:15.744Z
@@ -74,7 +74,7 @@ dateCreated: 2021-08-30T09:30:15.744Z
 | [WidgetSetID](#widgetsetid) | int | signed |  | NO | 0 |  |  |
 | [WidgetSetUnitConditionID](#widgetsetunitconditionid) | int | signed |  | NO | 0 |  |  |
 | [RegenHealth](#regenhealth) | tinyint | unsigned |  | NO | 1 |  |  |
-| [mechanic_immune_mask](#mechanic_immune_mask) | int | unsigned |  | NO | 0 |  |  |
+| [mechanic_immune_mask](#mechanic_immune_mask) | bigint | unsigned |  | NO | 0 |  |  |
 | [spell_school_immune_mask](#spell_school_immune_mask) | int | unsigned |  | NO | 0 |  |  |
 | [flags_extra](#flags_extra) | int | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |

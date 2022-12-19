@@ -2,7 +2,7 @@
 title: spell_aura_restrictions
 description: 
 published: true
-date: 2022-02-06T18:26:40.977Z
+date: 2022-12-19T18:12:43.965Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,15 +15,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
-| [DifficultyID](#difficultyid) | tinyint | unsigned |  | NO | 0 |  |  |
-| [CasterAuraState](#casteraurastate) | tinyint | unsigned |  | NO | 0 |  |  |
-| [TargetAuraState](#targetaurastate) | tinyint | unsigned |  | NO | 0 |  |  |
-| [ExcludeCasterAuraState](#excludecasteraurastate) | tinyint | unsigned |  | NO | 0 |  |  |
-| [ExcludeTargetAuraState](#excludetargetaurastate) | tinyint | unsigned |  | NO | 0 |  |  |
+| [DifficultyID](#difficultyid) | int | signed |  | NO | 0 |  |  |
+| [CasterAuraState](#casteraurastate) | int | signed |  | NO | 0 |  |  |
+| [TargetAuraState](#targetaurastate) | int | signed |  | NO | 0 |  |  |
+| [ExcludeCasterAuraState](#excludecasteraurastate) | int | signed |  | NO | 0 |  |  |
+| [ExcludeTargetAuraState](#excludetargetaurastate) | int | signed |  | NO | 0 |  |  |
 | [CasterAuraSpell](#casterauraspell) | int | signed |  | NO | 0 |  |  |
 | [TargetAuraSpell](#targetauraspell) | int | signed |  | NO | 0 |  |  |
 | [ExcludeCasterAuraSpell](#excludecasterauraspell) | int | signed |  | NO | 0 |  |  |
 | [ExcludeTargetAuraSpell](#excludetargetauraspell) | int | signed |  | NO | 0 |  |  |
+| [CasterAuraType](#casterauratype) | int | signed |  | NO | 0 |  |  |
+| [TargetAuraType](#targetauratype) | int | signed |  | NO | 0 |  |  |
+| [ExcludeCasterAuraType](#excludecasterauratype) | int | signed |  | NO | 0 |  |  |
+| [ExcludeTargetAuraType](#excludetargetauratype) | int | signed |  | NO | 0 |  |  |
 | [SpellID](#spellid) | int | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
@@ -69,6 +73,22 @@ dateCreated: 2021-08-30T06:00:00.000Z
 *- no description -*
 &nbsp;
 
+### CasterAuraType
+*- no description -*
+&nbsp;
+
+### TargetAuraType
+*- no description -*
+&nbsp;
+
+### ExcludeCasterAuraType
+*- no description -*
+&nbsp;
+
+### ExcludeTargetAuraType
+*- no description -*
+&nbsp;
+
 ### SpellID
 *- no description -*
 &nbsp;
@@ -87,4 +107,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/spell_aura_options" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'spell_aura_options'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/spell_cast_times" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'spell_cast_times'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
