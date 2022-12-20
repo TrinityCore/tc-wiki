@@ -2,10 +2,10 @@
 title: world_safe_locs
 description: 
 published: true
-date: 2022-07-07T11:02:38.114Z
+date: 2022-12-20T15:14:04.657Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T09:38:13.594Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/waypoints" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'waypoints'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/world_state" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'world_state'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -50,7 +50,10 @@ Z coordinate of the location
 &nbsp;
 
 ### Facing
-Facing coordinate of the location
+Facing coordinate of the location **<u>in degrees</u>**
+
+Note:
+Radians to degrees: `Radians / (2 * PI() / 360)` (you can use this snippet in SQL)
 &nbsp;
 
 ### Comment
