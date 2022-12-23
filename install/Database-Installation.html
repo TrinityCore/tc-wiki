@@ -1,0 +1,95 @@
+<!--
+title: Database Installation
+description: 
+published: true
+date: 2022-12-23T03:26:05.522Z
+tags: 
+editor: ckeditor
+dateCreated: 2021-08-17T14:18:44.363Z
+-->
+
+<h1>Database Installation</h1>
+<p>&nbsp;</p>
+<h2>Downloading the Database</h2>
+<p>&nbsp;</p>
+<p>Download the latest full database compilation from&nbsp;<a href="https://github.com/TrinityCore/TrinityCore/releases">TrinityCore Downloads</a>.</p>
+<p>Search for the most recent version for the branch you are looking for. The naming follows a simple pattern - TDB (Short for TrinityCore Database), gameversion in numbers, year and month of creation attached with a release number for the month.</p>
+<p>Example: TDB 335.21081 - This Database is for 3.3.5 branch (Wrath of the Lich King) from August 2021, release 1.</p>
+<ul>
+  <li>For 3.3.5 branch, look for the most recent TDB 335. Database. 3.3.5 follows are monthly cycle of full Database releases.</li>
+  <li>For master branch, look for the most recent NON 335 download. Master does not follow a regular schedule, therefore the versioning on the Database download might not match current supported game version. Its still the correct download.</li>
+</ul>
+<p>After you found your desired version, click on Assets to expand the list of attached files and download the .7z file at the top of that list. In our example above, that would be “TDB_full_world_335.21081_2021_08_15.7z”</p>
+<p>&nbsp;</p>
+<h2>Creating the TrinityCore Databases in MySQL</h2>
+<p>&nbsp;</p>
+<p>To create the MySQL databases needed by Trinity, you need to execute one of the following MySQL queries with your mysql client:</p>
+<ul>
+  <li>For 3.3.x:<ul>
+      <li><a href="https://github.com/TrinityCore/TrinityCore/blob/3.3.5/sql/create/create_mysql.sql">https://github.com/TrinityCore/TrinityCore/blob/3.3.5/sql/create/create_mysql.sql</a></li>
+    </ul>
+  </li>
+  <li>For master:<ul>
+      <li><a href="https://github.com/TrinityCore/TrinityCore/blob/master/sql/create/create_mysql.sql">https://github.com/TrinityCore/TrinityCore/blob/master/sql/create/create_mysql.sql</a></li>
+    </ul>
+  </li>
+</ul>
+<p>You can perform this with a MySQL client or with the MySQL command-line interface (CLI).</p>
+<p>You would need to use one MySQL root account with your MySQL client or with MySQL CLI before starting core to run one of those files (use MySQL root only to import one of those files, never run core as root or administrator).</p>
+<p>TIP: edit those 2 files and change default password to something else for increased security (remember to edit conf files to use new password).</p>
+<p>&nbsp;</p>
+<p>By default Trinity needs three databases to run at 3.3.5 branch and four for master with the following names -&nbsp;<code>auth</code>,&nbsp;<code>characters</code>, <code>world </code>and <code>hotfixes </code>(the last one master only).&nbsp;</p>
+<p>If you already have those databases on use you will need to edit create_mysql.sql file and your server config files to avoid data loss or errors on setup of database to use different&nbsp;database names:</p>
+<ul>
+  <li><strong>auth</strong> - holds account data - usernames, passwords, GM access, realm information, etc.</li>
+  <li><strong>characters</strong> - holds character data - created characters, inventory, bank items, auction house, tickets, etc.</li>
+  <li><strong>world</strong> - holds game-experience content such as NPCs, quests, objects, etc</li>
+  <li><strong>hotfixes </strong>(master only) - holds fixes not already added to the core or other official databases.</li>
+</ul>
+<p>&nbsp;</p>
+<h2>Populating the MySQL Trinity databases</h2>
+<p>&nbsp;</p>
+<p>From the&nbsp;<strong>unpacked 7z folder </strong>copy&nbsp;the&nbsp;SQL files&nbsp;that start with&nbsp;<strong>"TDB_world_"</strong>&nbsp;and<strong> "TDB_hotfixes_"</strong> (hotfixes named file is master branch only) to the directory where your&nbsp;<strong>worldserver binary (worldserver on linux or mac, worldserver.exe on windows)&nbsp;</strong>is. <mark class="pen-red"><strong>(DON'T RENAME THOSE FILES OR AUTOMATIC SETUP WILL FAIL)</strong></mark></p>
+<blockquote>
+  <p><mark class="pen-red"><strong>NOTICE: you don't need to import any databases by hand, only the file creating users. If you have plans to import databases manually you need to disable autoupdater on config files. Be aware that this is NOT recommended for new users.</strong></mark></p>
+</blockquote>
+<p>If you have plans to change default mysql usernames and passwords make sure you have set valid database login information and the table names you want to use in the same config files (authserver (3.3.5a only)/bnetserver (master branch only)/worldserver.conf) under "CONNECTIONS AND DIRECTORIES".</p>
+<ul>
+  <li>Notice that the databases are not created yet. The names you set in the config will be used for the created databases.<br>&nbsp;</li>
+</ul>
+<p>Start <strong>worldserver</strong>&nbsp;and press enter when it asks if you want to create databases. Do not start your Authserver/Bnetserver yet unless this step is done.</p>
+<p>&nbsp;</p>
+<blockquote>
+  <ul>
+    <li>If you get errors you may want to check your mysql login credentials in worldserver.conf&nbsp;and read the error message as it may tell you what to do.</li>
+    <li>If you get errors finding the TDB_world_ file, make sure to cd into the /bin/ folder first.</li>
+    <li>If you have hand created usernames, be sure they have create/alter/delete permissions.</li>
+    <li>You may also have deleted or moved the source folder that was used to compile the server.<br>In that case you should&nbsp;set the setting called "SourceDirectory"&nbsp;in worldserver.conf&nbsp;under "CONNECTIONS AND DIRECTORIES" to point to the source folder you moved or downloaded.</li>
+  </ul>
+</blockquote>
+<p>After the server has created the databases it will look for dbc files, maps, mmaps and vmaps, if not found it will exit.</p>
+<blockquote>
+  <p>You will need to restart your server authserver/bnetserver if you made any changes to your reamlist table while they are running.</p>
+</blockquote>
+<p>&nbsp;</p>
+<h2>Keeping the DB up to date</h2>
+<p>&nbsp;</p>
+<p>Both core and DB fixes will be committed to the&nbsp;TrinityCore repository, you can browse them <a href="https://github.com/TrinityCore/TrinityCore/commits/3.3.5">here for 3.3.5&nbsp;</a> or <a href="https://github.com/TrinityCore/TrinityCore/commits/master">here for master</a>. You may also view them in Git Extensions by following the "Fetch" instructions in&nbsp;Keeping the Source Up-to-Date under Windows&nbsp;/&nbsp;Linux Core Installation (### TODO Links needed).&nbsp;</p>
+<p>Pending fixes and/or open issues can be found on our&nbsp;<a href="https://github.com/TrinityCore/TrinityCore/issues">tracker</a>&nbsp;with data from the developers and contributors.</p>
+<p>Thanks to the automatic DB updater the single step you have to do, is to fetch a new revision (Keeping the Source Up-to-Date under Windows&nbsp;/&nbsp;Linux Core Installation) and the appropriate updates will be automatically applied at server startup.</p>
+<p><i><strong>Note:</strong>&nbsp;You can run the following query on the World database to see your current DB and core revision:</i></p>
+<pre><code class="language-plaintext">SELECT * FROM `version`;</code></pre>
+<p>This assumes that you have completed the previous steps of the installation guide.</p>
+<p><i><strong>Note:</strong>&nbsp;If you have made any custom changes to your database, you may wish to backup (export) all three of them (world, characters, and auth) before performing the next few steps.</i></p>
+<blockquote>
+  <p><mark class="marker-green"><strong>Pro Tip</strong></mark></p>
+  <p><i>If your world database is ever corrupted (ex. creatures or objects are accidentally deleted), it is easy to revert it back to its original state by dropping your world database.</i></p>
+</blockquote>
+<h2>Help</h2>
+<p>&nbsp;</p>
+<p>If you still have any problem, check:</p>
+<ul>
+  <li>Updating or starting with TrinityCore issues, Trouble with your TrinityCore Install / Readme 1st / FAQs</li>
+  <li><a href="https://community.trinitycore.org/">Ask help on the Forum</a></li>
+  <li>If you still have problems, you can try to ask help on <a href="https://trinitycore.atlassian.net/wiki/spaces/tc/pages/2130200/IRC">IRC</a>, but remember it's not real time 24/7 support, most of people there lives on GMT and they can be sleeping or working.</li>
+</ul>
