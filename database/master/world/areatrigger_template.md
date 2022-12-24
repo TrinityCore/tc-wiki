@@ -2,10 +2,10 @@
 title: areatrigger_template
 description: This table contains the description of areatrigger.
 published: true
-date: 2022-04-17T18:35:05.614Z
+date: 2022-12-24T04:48:14.532Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T09:28:59.429Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/areatrigger_teleport" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'areatrigger_teleport'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/areatrigger_template_actions" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'areatrigger_template_actions'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -52,7 +52,8 @@ You can see them inside [AreaTrigger.db2](https://wow.tools/dbc/?dbc=areatrigger
 |2|AREATRIGGER_TYPE_UNK|
 |3|AREATRIGGER_TYPE_POLYGON|
 |4|AREATRIGGER_TYPE_CYLINDER|
-|5|AREATRIGGER_TYPE_MAX|
+|5|AREATRIGGER_TYPE_DISK|
+|6|AREATRIGGER_TYPE_BOUNDED_PLANE|
 &nbsp;
 
 ### Flags
@@ -65,26 +66,25 @@ You can see them inside [AreaTrigger.db2](https://wow.tools/dbc/?dbc=areatrigger
 |16|AREATRIGGER_FLAG_HAS_FOLLOWS_TERRAIN|
 |32|AREATRIGGER_FLAG_UNK1|
 |64|AREATRIGGER_FLAG_HAS_TARGET_ROLL_PITCH_YAW|
-|128|AREATRIGGER_FLAG_UNK2|
+|128|AREATRIGGER_FLAG_HAS_ANIM_ID (DEPRECATED)|
 |256|AREATRIGGER_FLAG_UNK3|
-|512|AREATRIGGER_FLAG_UNK4|
-|1024|AREATRIGGER_FLAG_HAS_CIRCULAR_MOVEMENT|
-&nbsp;
-
-### Data0-5
-The data changes depending on the Type.
-| |SPHERE|BOX|UNK|POLYGON|CYLINDER|
-|:---:|---|---|---|---|---|
-|Data0| Radius | ExtentsX | | Height | Radius |
-|Data1| RadiusTarget | ExtentsY | | HeightTarget | RadiusTarget |
-|Data2| - | ExtentsZ | | - | Height |
-|Data3| - | ExtentsTargetX | | - | HeightTarget |
-|Data4| - | ExtentsTargetY | | - | LocationZOffset |
-|Data5| - | ExtentsTargetZ | | - | LocationZOffsetTarget |
+|512|AREATRIGGER_FLAG_HAS_ANIM_KIT_ID (DEPRECATED)|
+|1024|AREATRIGGER_FLAG_HAS_CIRCULAR_MOVEMENT (DEPRECATED)|
+|2048|AREATRIGGER_FLAG_UNK5
 &nbsp;
 
 ### Data0-7
-Name of the script this object uses if needed
+The data changes depending on the Type.
+| |SPHERE|BOX|UNK|POLYGON|CYLINDER|DISK|BOUNDED PLANE
+|:---:|---|---|---|---|---|---|---|
+|Data0| Radius | ExtentsX | - | Height | Radius | InnerRadius | ExtentsX
+|Data1| RadiusTarget | ExtentsY | - | HeightTarget | RadiusTarget | InnerRadiusTarget | ExtentsY
+|Data2| - | ExtentsZ | - | - | Height | OuterRadius | ExtentsTargetX
+|Data3| - | ExtentsTargetX | - | - | HeightTarget | OuterRadiusTarget | ExtentsTargetY
+|Data4| - | ExtentsTargetY | - | - | LocationZOffset | Height | - 
+|Data5| - | ExtentsTargetZ | - | - | LocationZOffsetTarget | HeightTarget | -
+|Data6| - | - | - | - | -| LocationZOffset | -
+|Data7| - | - | - | - | - | LocationZOffsetTarget | -
 &nbsp;
 
 ### VerifiedBuild
