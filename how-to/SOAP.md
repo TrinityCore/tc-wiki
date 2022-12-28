@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-28T22:58:22.113Z
+date: 2022-12-28T23:04:14.081Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -58,15 +58,16 @@ The primary difference between REST and SOAP is that SOAP relies exclusively on 
 
 There are a few HTTP clients out there to rapidly set up access:
 
-- Postman - https://www.postman.com/ (web-based)
+- Postman - https://www.postman.com/ (web and desktop clients)
 - Insomnia - https://insomnia.rest/
 - Nightingale - https://nightingale.rest/
 
-All of them offer various niceties, but ultimately work similarly. Credits to Jackpoz for providing steps specific to Postman. 
+All of them offer various niceties, but ultimately work much the same. Credits to Jackpoz for providing steps specific to Postman. We'll be using the desktop client so we don't have to worry about connecting remotely.
 
-1. Navigate to postman.com and create an account. It's free for up to 3 users in a workspace. If you're already logged into a Google account, you can easily sign-up via SSO.
-2. Under `My Workspace`, find the `Import` button. You'll use the Raw text option.
-3. Copy and paste the following JSON into the textbox. Be sure to update the credentials under `item.request.auth.basic` to the GM user mentioned before.
+- https://www.postman.com/downloads/ (available for Windows, Mac, Linux)
+
+1. Under **My Workspace**, find the **Import** button. You'll use the Raw text option.
+2. Copy and paste the following JSON into the textbox. Be sure to update the credentials under `item.request.auth.basic` to the GM user mentioned before.
 
 ```json
 {
@@ -106,8 +107,8 @@ All of them offer various niceties, but ultimately work similarly. Credits to Ja
   ]
 }
 ```
-  
-  
+
+4. You should see `TC SOAP` as a collection to be imported. Click **Import**.
   
   
   
