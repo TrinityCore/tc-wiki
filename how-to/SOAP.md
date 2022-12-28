@@ -2,14 +2,14 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-28T23:39:47.287Z
+date: 2022-12-28T23:39:58.213Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
 ---
 
 # How to interact with TC using SOAP 
-SOAP stands for Simple Object Access Protocol, and is an older form of standards-based web services acess protocol similar to REST. You can leverage SOAP to send commands to a TrinityCore server, as long as the necessary configurations are in place.
+SOAP stands for Simple Object Access Protocol, and is an older form of standards-based web services access protocol similar to REST. You can leverage SOAP to send commands to a TrinityCore server, as long as the necessary configurations are in place.
 
 **Note**: At the time of writing, TC 335a only supports HTTP, so take care not to send secrets (passwords, etc) in this manner. Assume that anything passed is in clear-text and could be read by anyone. 
 
