@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-28T22:56:23.830Z
+date: 2022-12-28T22:58:22.113Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -66,4 +66,48 @@ All of them offer various niceties, but ultimately work similarly. Credits to Ja
 
 1. Navigate to postman.com and create an account. It's free for up to 3 users in a workspace. If you're already logged into a Google account, you can easily sign-up via SSO.
 2. Under `My Workspace`, find the `Import` button. You'll use the Raw text option.
-3. 
+3. Copy and paste the following JSON into the textbox. Be sure to update the credentials under `item.request.auth.basic` to the GM user mentioned before.
+
+```json
+{
+  "info": {
+    "_postman_id": "d046fd28-e3d1-4604-a184-ce0908927991",
+    "name": "TC SOAP",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "server info",
+      "id": "cc5f57e1-a097-4b8f-aaea-c96ae84c1793",
+      "request": {
+        "auth": {
+          "type": "basic",
+          "basic": {
+            "username": "CHANGEME",
+            "password": "CHANGEME",
+            "showPassword": false
+          }
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ns1=\"urn:TC\" xmlns:xsd=\"http://www.w3.org/1999/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:SOAP-ENC=\"http://schemas.xmlsoap.org/soap/encoding/\" SOAP-ENV:encodingStyle=\"http://schemas.xmlsoap.org/soap/encoding/\">\r\n    <SOAP-ENV:Body>\r\n        <ns1:executeCommand>\r\n            <command>server info</command>\r\n        </ns1:executeCommand>\r\n    </SOAP-ENV:Body>\r\n</SOAP-ENV:Envelope>",
+          "options": {
+            "raw": {
+              "language": "xml"
+            }
+          }
+        },
+        "url": "http://127.0.0.1:7878"
+      },
+      "response": []
+    }
+  ]
+}
+```
+  
+  
+  
+  
+  
