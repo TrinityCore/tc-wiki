@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-28T23:20:39.685Z
+date: 2022-12-28T23:20:58.938Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -54,7 +54,7 @@ It may be helpful to understand the differences between REST and SOAP. The follo
 
 The primary difference between REST and SOAP is that SOAP relies exclusively on XML to provide responses and accept payloads. PHP offers a few ways to make this process easier, but depending on your usage, you may need to get familiar with XML. A few approaches have been provided below.
 
-### HTTP clients for prototyping
+## HTTP clients for prototyping
 
 There are a few HTTP clients out there to rapidly set up access:
 
@@ -117,7 +117,7 @@ Clicking the **Send** button will submit the request, and provide an XML respons
 On the right-hand side of the Postman interface, a `</>` symbol will open up code snippets, which can convert the request into the language of your choice. 
 
 
-### Using PHP
+## Using PHP
 
 A number of resources are available if you're working in PHP.
   
