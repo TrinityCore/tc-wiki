@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-28T23:21:05.490Z
+date: 2022-12-28T23:32:37.148Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -119,7 +119,26 @@ On the right-hand side of the Postman interface, a `</>` symbol will open up cod
 
 ## Using PHP
 
-A number of resources are available if you're working in PHP.
-  
-  
+If you're working in PHP. For this, you will need to ensure that the php-soap extension is installed.
+
+- SoapClient - https://www.php.net/manual/en/class.soapclient.php
+
+```php
+try {
+    $client = new SoapClient(null, [
+        "location" => 'https://127.0.0.1:7878',
+        "uri" => "urn:TC",
+        "style" => SOAP_RPC,
+        "login" => 'CHANGEME',
+        "password" => 'CHANGEME'
+    ]);
+    $result = $client->executeCommand(new SoapParam($command, "server info"));
+} catch (Exception $e) {
+    return $e->getMessage();
+}
+
+
+```
+
+
   
