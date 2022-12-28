@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-28T22:54:22.362Z
+date: 2022-12-28T22:56:23.830Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -13,7 +13,7 @@ SOAP stands for Simple Object Access Protocol, and is an older form of standards
 
 Note: at the time of writing, TC 335a only supports HTTP, so take care not to send secrets (passwords, etc) in this manner. Assume that anything passed is in clear-text and could be read by anyone. 
 
-If you plan to connect via SOAP remotely, you should absolutely take steps to ensure secure connections. One potential way is through a [reverse SSL proxy](https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-with-ssl-as-a-reverse-proxy-for-jenkins), which is outside the scope of this guide.
+If you plan to connect via SOAP remotely, you should absolutely take steps to ensure secure connections. One potential way is through a [reverse SSL proxy](https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-with-ssl-as-a-reverse-proxy-for-jenkins) (a guide for Jenkins, but could be adapted to work for TC), which is outside the scope of this guide.
 
 
 # Configuration
@@ -65,4 +65,5 @@ There are a few HTTP clients out there to rapidly set up access:
 All of them offer various niceties, but ultimately work similarly. Credits to Jackpoz for providing steps specific to Postman. 
 
 1. Navigate to postman.com and create an account. It's free for up to 3 users in a workspace. If you're already logged into a Google account, you can easily sign-up via SSO.
-2. Under `My Workspace`, find the `Import` button.
+2. Under `My Workspace`, find the `Import` button. You'll use the Raw text option.
+3. 
