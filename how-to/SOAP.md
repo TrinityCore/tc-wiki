@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-28T23:04:14.081Z
+date: 2022-12-28T23:20:39.685Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -11,7 +11,7 @@ dateCreated: 2022-12-28T22:20:35.183Z
 # How to interact with TC using SOAP 
 SOAP stands for Simple Object Access Protocol, and is an older form of standards-based web services acess protocol similar to REST. You can leverage SOAP to send commands to a TrinityCore server, as long as the necessary configurations are in place.
 
-Note: at the time of writing, TC 335a only supports HTTP, so take care not to send secrets (passwords, etc) in this manner. Assume that anything passed is in clear-text and could be read by anyone. 
+**Note**: At the time of writing, TC 335a only supports HTTP, so take care not to send secrets (passwords, etc) in this manner. Assume that anything passed is in clear-text and could be read by anyone. 
 
 If you plan to connect via SOAP remotely, you should absolutely take steps to ensure secure connections. One potential way is through a [reverse SSL proxy](https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-with-ssl-as-a-reverse-proxy-for-jenkins) (a guide for Jenkins, but could be adapted to work for TC), which is outside the scope of this guide.
 
@@ -22,7 +22,7 @@ If you plan to connect via SOAP remotely, you should absolutely take steps to en
 
 Ensure the settings in your configuration file are set appropriately. 
 
-```conf
+```ini
 #
 #    SOAP.Enable
 #        Description: Enable soap service.
@@ -46,7 +46,7 @@ SOAP.IP = "127.0.0.1"
 SOAP.Port = 7878
 ```
 
-You will also need a user account with permission to use GM commands, taking into consideration your specific RBAC access configurations.
+You will also need a user account with permission to use GM commands, taking into consideration your specific RBAC access configurations. It's probably a good idea to create a limited access account specifically for this purpose, rather than an account used by a person.
 
 # Sending commands to the server
 
@@ -108,7 +108,18 @@ All of them offer various niceties, but ultimately work much the same. Credits t
 }
 ```
 
-4. You should see `TC SOAP` as a collection to be imported. Click **Import**.
+3. You should see `TC SOAP` as a collection to be imported. Click **Import**.
+4. This will populate a new collection with the correct HTTP method (POST), as well as details under the **Authorization** and **Body** tabs. 
+5. Under the Body tab, note the XML payload, and the `server info` command pre-populated for you.
+
+Clicking the **Send** button will submit the request, and provide an XML response.
+
+On the right-hand side of the Postman interface, a `</>` symbol will open up code snippets, which can convert the request into the language of your choice. 
+
+
+### Using PHP
+
+A number of resources are available if you're working in PHP.
   
   
   
