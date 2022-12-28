@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-28T23:20:58.938Z
+date: 2022-12-28T23:21:05.490Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -56,7 +56,7 @@ The primary difference between REST and SOAP is that SOAP relies exclusively on 
 
 ## HTTP clients for prototyping
 
-There are a few HTTP clients out there to rapidly set up access:
+There are a few clients out there to rapidly set up access:
 
 - Postman - https://www.postman.com/ (web and desktop clients)
 - Insomnia - https://insomnia.rest/
