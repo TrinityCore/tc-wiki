@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-28T22:53:51.241Z
+date: 2022-12-28T22:54:22.362Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -65,4 +65,4 @@ There are a few HTTP clients out there to rapidly set up access:
 All of them offer various niceties, but ultimately work similarly. Credits to Jackpoz for providing steps specific to Postman. 
 
 1. Navigate to postman.com and create an account. It's free for up to 3 users in a workspace. If you're already logged into a Google account, you can easily sign-up via SSO.
-2. 
+2. Under `My Workspace`, find the `Import` button.
