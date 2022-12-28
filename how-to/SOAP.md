@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-28T23:43:32.948Z
+date: 2022-12-28T23:43:43.693Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -133,8 +133,8 @@ try {
         "location" => 'http://127.0.0.1:7877',
         "uri" => "urn:TC",
         "style" => SOAP_RPC,
-        "login" => '',
-        "password" => ''
+        "login" => 'CHANGEME',
+        "password" => 'CHANGEME'
     ]);
     $result = $client->executeCommand(new SoapParam($command, "command"));
 } catch (\Exception $e) {
