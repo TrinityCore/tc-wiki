@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-29T01:32:24.772Z
+date: 2022-12-29T01:53:49.997Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -116,8 +116,6 @@ Clicking the **Send** button will submit the request, and provide an XML respons
 
 On the right-hand side of the Postman interface, a `</>` symbol will open up code snippets, which can convert the request into the language of your choice. 
 
-Note `SOAP-ENC`
-
 
 ## Using PHP 
 
@@ -206,4 +204,7 @@ curl_setopt_array($curl, [
 $response = curl_exec($curl);
 curl_close($curl);
 echo $response;
+```
+
+
   
