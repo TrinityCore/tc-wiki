@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-29T02:19:28.708Z
+date: 2022-12-29T03:34:42.877Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -42,9 +42,11 @@ SOAP.Port = 7878
 
 You will also need a user account with permission to use GM commands, taking into consideration your specific RBAC access configurations. It's probably a good idea to create a limited access account specifically for this purpose, rather than an account used by a person.
 
-**Note**: At the time of writing, TC 335a only supports HTTP, so take care not to send secrets (passwords, etc) in this manner. Assume that anything passed is in clear-text and could be read by anyone. 
+> **Note**: At the time of writing, TC 335a only supports HTTP, so take care not to send secrets (passwords, etc) in this manner. Assume that anything passed is in clear-text and could be read by anyone. 
+> 
+> If you plan to connect via SOAP remotely, you should absolutely take steps to ensure secure connections. One potential way is through a [reverse SSL proxy](https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-with-ssl-as-a-reverse-proxy-for-jenkins) (a guide for Jenkins, but could be adapted to work for TC), which is outside the scope of this guide.
+{.is-warning}
 
-If you plan to connect via SOAP remotely, you should absolutely take steps to ensure secure connections. One potential way is through a [reverse SSL proxy](https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-with-ssl-as-a-reverse-proxy-for-jenkins) (a guide for Jenkins, but could be adapted to work for TC), which is outside the scope of this guide.
 
 
 
