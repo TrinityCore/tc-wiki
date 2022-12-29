@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-29T02:17:39.277Z
+date: 2022-12-29T02:19:28.708Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -46,10 +46,9 @@ You will also need a user account with permission to use GM commands, taking int
 
 If you plan to connect via SOAP remotely, you should absolutely take steps to ensure secure connections. One potential way is through a [reverse SSL proxy](https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-with-ssl-as-a-reverse-proxy-for-jenkins) (a guide for Jenkins, but could be adapted to work for TC), which is outside the scope of this guide.
 
-## Sending commands to the server
 
 
-### HTTP clients for prototyping
+## HTTP clients for prototyping
 
 There are a few clients out there to rapidly set up a connection and test out console commands:
 
@@ -112,7 +111,7 @@ Clicking the **Send** button will submit the request, and provide an XML respons
 On the right-hand side of the Postman interface, a `</>` symbol will open up code snippets, which can convert the request into the language of your choice. 
 
 
-### Using PHP 
+## Using PHP 
 
 To interact with TrinityCore using PHP, you will need to ensure that the php-soap extension is installed. Also ensure you are using a version of PHP that is [still actively being supported](https://www.php.net/supported-versions.php). Code examples were tested on PHP7.4 up to PHP 8.1.
 
