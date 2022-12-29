@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-29T01:59:57.928Z
+date: 2022-12-29T02:08:39.750Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -123,29 +123,27 @@ In all of these examples, the `urn:TC` URI is a **required parameter** because w
 - SoapClient - https://www.php.net/manual/en/class.soapclient.php
 
 ```php
-
 $command  = 'server info';
 
-try {
-    $opts = [
-        'http' => [
-            'header' => "Authorization: Basic " . base64_encode("USERNAME:PASSWORD")
-        ]];
+$opts = [
+    'http' => [
+        'header' => "Authorization: Basic " . base64_encode("USERNAME:PASSWORD")
+    ]];
 
-    $client = new SoapClient($wsdl = null, [
-        'stream_context' => stream_context_create($opts), 
-        'location' => 'http://127.0.0.1:7878',
-        'uri" => 'urn:TC",
-    ]);
-    
-    $result = $client->executeCommand(new SoapParam($command, "command"));
+$client = new SoapClient($wsdl = null, [
+    'stream_context' => stream_context_create($opts),
+    'location' => 'http://127.0.0.1:7878',
+    'uri' => 'urn:TC',
+]);
+
+try {
+    $result = $client->executeCommand(new SoapParam($command, 'command'));
 } catch (\Exception $e) {
     die($e->getMessage());
 }
 
-if ($result) {
-    echo $result;
-}
+echo $result;
+
 
 
 ```
@@ -153,13 +151,22 @@ if ($result) {
 Note that we are passing a HTTP basic authorization header with base64 encoded username and password (separated by a colon). Alternatively, you could omit the `stream_context` parameter, and instead include a (login) username and password in your SoapClient configuration.
 
 ```php
+$command  = 'server info';
 
-    $client = new SoapClient(null, [
-        'location' => 'http://127.0.0.1:7878',
-        'uri' => 'urn:TC',
-        'login' => 'USERNAME',
-        'password' => 'PASSWORD',
-    ]);
+$client = new SoapClient($wsdl = null, [
+    'location' => 'http://127.0.0.1:7878',
+    'uri' => 'urn:TC',
+    'login' => 'USERNAME',
+    'password' => 'PASSWORD',
+]);
+
+try {
+    $result = $client->executeCommand(new SoapParam($command, 'command'));
+} catch (Exception $e) {
+    die($e->getMessage());
+}
+
+echo $result;
 ```
 
 Either approach is fine - but don't be fooled! Base 64 encoding does not make it more secure.
