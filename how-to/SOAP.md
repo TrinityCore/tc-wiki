@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-29T01:04:39.603Z
+date: 2022-12-29T01:28:15.544Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -58,13 +58,13 @@ The primary difference between REST and SOAP is that SOAP relies exclusively on 
 
 There are a few clients out there to rapidly set up access:
 
-- Postman - https://www.postman.com/ (web and desktop clients)
+- Postman - https://www.postman.com/ (web, desktop agent/client)
 - Insomnia - https://insomnia.rest/
 - Nightingale - https://nightingale.rest/
 
-All of them offer various niceties, but ultimately work much the same. Credits to Jackpoz for providing steps specific to Postman. We'll be using the desktop client so we don't have to worry about connecting remotely.
+All of them offer various niceties, but ultimately work much the same. Credits to Jackpoz for providing steps specific to Postman - https://www.postman.com/.
 
-- https://www.postman.com/downloads/ (available for Windows, Mac, Linux)
+Postman comes in two flavors: the [web interface](https://web.postman.co/) (and an [agent you can install](https://www.postman.com/downloads/postman-agent/) to do localhost requests) and the fully client-side [desktop application](https://www.postman.com/downloads/). The instructions are the same in both cases.
 
 1. Under **My Workspace**, find the **Import** button. You'll use the Raw text option.
 2. Copy and paste the following JSON into the textbox. Be sure to update the credentials under `item.request.auth.basic` to the GM user mentioned before.
@@ -137,9 +137,8 @@ try {
             'header' => "Authorization: Basic " . base64_encode("USERNAME:PASSWORD")
         ]];
 
-    $client = new SoapClient(null, [
+    $client = new SoapClient($wsdl = null, [
         'stream_context' => stream_context_create($opts), 
-        'exceptions' => true,
         'location' => 'http://127.0.0.1:7878',
         'uri" => 'urn:TC",
     ]);
@@ -171,4 +170,40 @@ Note that we are passing a HTTP basic authorization header with base64 encoded u
 Either approach is fine - but don't be fooled! Base 64 encoding does not make it more secure.
 
 Remember that the SOAP client can only recognize failures to connect, or misconfigurations. **It will not know if you've provided an invalid command**. So it's up to you to parse the results and decide if the intended result was a success or not. Output will be just as if you performed the command on the console.
+
+Lastly, if you'd rather not rely on the SOAP extension or client, you can form the XML payload and parse the resulting XML response yourself.
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<SOAP-ENV:Envelope 
+	xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" 
+	xmlns:ns1="urn:TC">
+    <SOAP-ENV:Body>
+        <ns1:executeCommand>
+            <command>server info</command>
+        </ns1:executeCommand>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+```
+
+
+```php
+
+$curl = curl_init();
+
+curl_setopt_array($curl, [
+		// $payload is the XML provided above
+		CURLOPT_POSTFIELDS => $payload,
+    CURLOPT_URL => 'http://127.0.0.1:7878',
+    CURLOPT_TIMEOUT => 0,
+    CURLOPT_CUSTOMREQUEST => 'POST',
+    CURLOPT_HTTPHEADER => [
+        "Authorization: Basic " . base64_encode("{$user}:{$pass}"),
+        'Content-Type: application/xml',
+    ],
+]);
+
+$response = curl_exec($curl);
+curl_close($curl);
+echo $response;
   
