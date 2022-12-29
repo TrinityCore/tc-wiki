@@ -2,7 +2,7 @@
 title: ASan
 description: how to use asan with trinitycore
 published: true
-date: 2022-12-29T13:24:03.582Z
+date: 2022-12-29T13:24:17.812Z
 tags: 
 editor: markdown
 dateCreated: 2022-05-03T14:01:45.304Z
@@ -12,9 +12,6 @@ dateCreated: 2022-05-03T14:01:45.304Z
 AddressSanitizer (or ASan) is an open source programming tool that detects memory corruption bugs such as buffer overflows or accesses to a dangling pointer (use-after-free). AddressSanitizer is based on compiler instrumentation and directly mapped shadow memory. 
 
 - https://github.com/google/sanitizers/wiki/AddressSanitizer
-
-
-
 
 YouTube channel [Binary Adventures](https://www.youtube.com/@BinaryAdventure) has a series of videos about Address Sanitizer. The first video shows how it works, this is where he starts to explain how a buffer overflow is detected 
 - [AddressSanitizer - Understanding the output](https://youtu.be/wfk0K4tFHk4?t=582)
@@ -39,6 +36,3 @@ LSAN_OPTIONS=verbosity=1:log_threads=1 ./worldserver
 ```
 
 Test the result using `.debug asan memoryleak` and `.debug asan outofbounds` commands.
-
-
-
