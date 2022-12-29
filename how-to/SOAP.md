@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-29T03:43:45.047Z
+date: 2022-12-29T14:08:46.936Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -68,14 +68,12 @@ Postman comes in two flavors: the [web interface](https://web.postman.co/) (and 
 ```json
 {
   "info": {
-    "_postman_id": "d046fd28-e3d1-4604-a184-ce0908927991",
     "name": "TC SOAP",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
   },
   "item": [
     {
       "name": "server info",
-      "id": "cc5f57e1-a097-4b8f-aaea-c96ae84c1793",
       "request": {
         "auth": {
           "type": "basic",
@@ -89,7 +87,7 @@ Postman comes in two flavors: the [web interface](https://web.postman.co/) (and 
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ns1=\"urn:TC\">\r\n    <SOAP-ENV:Body>\r\n        <ns1:executeCommand>\r\n            <command>server info</command>\r\n        </ns1:executeCommand>\r\n    </SOAP-ENV:Body>\r\n</SOAP-ENV:Envelope>",
+          "raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<SOAP-ENV:Envelope xmlns:SOAP-ENV=\"http://schemas.xmlsoap.org/soap/envelope/\" xmlns:ns1=\"urn:TC\">\r\n<SOAP-ENV:Body>\r\n<ns1:executeCommand>\r\n<command>server info</command>\r\n</ns1:executeCommand>\r\n</SOAP-ENV:Body>\r\n</SOAP-ENV:Envelope>",
           "options": {
             "raw": {
               "language": "xml"
