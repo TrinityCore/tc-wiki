@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-29T02:08:39.750Z
+date: 2022-12-29T02:09:06.361Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -169,7 +169,7 @@ try {
 echo $result;
 ```
 
-Either approach is fine - but don't be fooled! Base 64 encoding does not make it more secure.
+Either approach is fine - but don't be fooled! Base 64 encoding does not inherently make it more secure.
 
 Remember that the SOAP client can only recognize failures to connect, or misconfigurations. **It will not know if you've provided an invalid command**. So it's up to you to parse the results and decide if the intended result was a success or not. Output will be just as if you performed the command on the console.
 
