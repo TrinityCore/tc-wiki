@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-29T03:34:42.877Z
+date: 2022-12-29T03:43:45.047Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -44,7 +44,7 @@ You will also need a user account with permission to use GM commands, taking int
 
 > **Note**: At the time of writing, TC 335a only supports HTTP, so take care not to send secrets (passwords, etc) in this manner. Assume that anything passed is in clear-text and could be read by anyone. 
 > 
-> If you plan to connect via SOAP remotely, you should absolutely take steps to ensure secure connections. One potential way is through a [reverse SSL proxy](https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-with-ssl-as-a-reverse-proxy-for-jenkins) (a guide for Jenkins, but could be adapted to work for TC), which is outside the scope of this guide.
+> If you plan to connect via SOAP remotely, you should **absolutely** take steps to ensure secure connections. One potential way is through a reverse SSL proxy via [apache](https://www.cherryservers.com/blog/how-to-install-and-configure-apache-reverse-proxy-server-with-ssl-encryption) or [nginx](https://blog.ssdnodes.com/blog/how-to-use-nginx-as-a-reverse-proxy-with-ssl-tutorial/). However, this is outside the scope of this guide, and will not be covered.
 {.is-warning}
 
 
