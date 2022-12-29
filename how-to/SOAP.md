@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-29T02:10:09.408Z
+date: 2022-12-29T02:12:03.822Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -16,7 +16,7 @@ SOAP stands for Simple Object Access Protocol, and is an older form of standards
 If you plan to connect via SOAP remotely, you should absolutely take steps to ensure secure connections. One potential way is through a [reverse SSL proxy](https://www.digitalocean.com/community/tutorials/how-to-configure-nginx-with-ssl-as-a-reverse-proxy-for-jenkins) (a guide for Jenkins, but could be adapted to work for TC), which is outside the scope of this guide.
 
 
-# Configuration
+## Configuration
 
 ### worldserver.conf
 
@@ -42,13 +42,13 @@ SOAP.Port = 7878
 
 You will also need a user account with permission to use GM commands, taking into consideration your specific RBAC access configurations. It's probably a good idea to create a limited access account specifically for this purpose, rather than an account used by a person.
 
-# Sending commands to the server
+## Sending commands to the server
 
 It may be helpful to understand the differences between REST and SOAP. The following article does a decent job of breaking this comparison down - https://smartbear.com/blog/soap-vs-rest-whats-the-difference/. 
 
 The primary difference between REST and SOAP is that SOAP relies exclusively on XML to provide responses and accept payloads. PHP offers a few ways to make this process easier, but depending on your usage, you may need to get familiar with XML. A few approaches have been provided below.
 
-## HTTP clients for prototyping
+### HTTP clients for prototyping
 
 There are a few clients out there to rapidly set up a connection and test out console commands:
 
@@ -111,7 +111,7 @@ Clicking the **Send** button will submit the request, and provide an XML respons
 On the right-hand side of the Postman interface, a `</>` symbol will open up code snippets, which can convert the request into the language of your choice. 
 
 
-## Using PHP 
+### Using PHP 
 
 To interact with TrinityCore using PHP, you will need to ensure that the php-soap extension is installed. Also ensure you are using a version of PHP that is [still actively being supported](https://www.php.net/supported-versions.php). Code examples were tested on PHP7.4 up to PHP 8.1.
 
