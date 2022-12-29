@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-29T00:59:48.886Z
+date: 2022-12-29T01:04:39.603Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -134,7 +134,6 @@ $command  = 'server info';
 try {
     $opts = [
         'http' => [
-            'method' => 'POST',
             'header' => "Authorization: Basic " . base64_encode("USERNAME:PASSWORD")
         ]];
 
@@ -144,6 +143,7 @@ try {
         'location' => 'http://127.0.0.1:7878',
         'uri" => 'urn:TC",
     ]);
+    
     $result = $client->executeCommand(new SoapParam($command, "command"));
 } catch (\Exception $e) {
     die($e->getMessage());
@@ -156,7 +156,7 @@ if ($result) {
 
 ```
 
-Note that we are passing a HTTP basic authorization header with base64 encoded username and password (separated by a colon). Alternatively, you could omit the `stream_context` parameter, and instead include a (login) username and password.
+Note that we are passing a HTTP basic authorization header with base64 encoded username and password (separated by a colon). Alternatively, you could omit the `stream_context` parameter, and instead include a (login) username and password in your SoapClient configuration.
 
 ```php
 
@@ -169,4 +169,6 @@ Note that we are passing a HTTP basic authorization header with base64 encoded u
 ```
 
 Either approach is fine - but don't be fooled! Base 64 encoding does not make it more secure.
+
+Remember that the SOAP client can only recognize failures to connect, or misconfigurations. **It will not know if you've provided an invalid command**. So it's up to you to parse the results and decide if the intended result was a success or not. Output will be just as if you performed the command on the console.
   
