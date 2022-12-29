@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-29T02:16:11.347Z
+date: 2022-12-29T02:17:39.277Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -10,6 +10,10 @@ dateCreated: 2022-12-28T22:20:35.183Z
 
 # How to interact with TC using SOAP 
 SOAP stands for Simple Object Access Protocol, and is an older form of standards-based web services access protocol similar to REST. You can leverage SOAP to send commands to a TrinityCore server, as long as the necessary configurations are in place.
+
+A good way to understand SOAP is to compare it to its contemporary &mdash; REST. The following article does a decent job of explaining this - https://smartbear.com/blog/soap-vs-rest-whats-the-difference/. 
+
+The primary difference between the two is that SOAP relies exclusively on XML to provide responses and accept payloads. PHP offers a few ways to make this process easier, but depending on your usage, you may need to get familiar with XML. A few approaches have been provided below.
 
 
 ## Configuration
@@ -44,9 +48,6 @@ If you plan to connect via SOAP remotely, you should absolutely take steps to en
 
 ## Sending commands to the server
 
-It may be helpful to understand the differences between REST and SOAP. The following article does a decent job of breaking this comparison down - https://smartbear.com/blog/soap-vs-rest-whats-the-difference/. 
-
-The primary difference between the two is that SOAP relies exclusively on XML to provide responses and accept payloads. PHP offers a few ways to make this process easier, but depending on your usage, you may need to get familiar with XML. A few approaches have been provided below.
 
 ### HTTP clients for prototyping
 
