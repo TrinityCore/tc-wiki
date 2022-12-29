@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-29T00:29:36.784Z
+date: 2022-12-29T00:48:15.395Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -128,15 +128,23 @@ If you're working in PHP. For this, you will need to ensure that the php-soap ex
 ```php
 <?php
 
-$command = 'server info';
+$command  = 'server info';
+$username = 'CHANGEME';
+$password = 'CHANGEME';
 
 try {
+    $opts = [
+        'http' => [
+            'method' => 'POST',
+            'header' => "Authorization: Basic " . base64_encode("{$user}:{$pw}")
+        ]];
+
     $client = new SoapClient(null, [
-        'style'    => SOAP_RPC,
-        'location' => 'http://127.0.0.1:7878',
-        'uri'      => 'urn:TC',
-        'login'    => 'CHANGEME',
-        'password' => 'CHANGEME',
+        'stream_context' => stream_context_create($opts), 
+        'exceptions' => true,
+        "location" => 'http://127.0.0.1:7878',
+        "uri" => "urn:TC",
+        "style" => SOAP_RPC,
     ]);
     $result = $client->executeCommand(new SoapParam($command, "command"));
 } catch (\Exception $e) {
@@ -144,8 +152,9 @@ try {
 }
 
 if ($result) {
-	echo $result;
+    echo $result;
 }
+
 
 ```
 
