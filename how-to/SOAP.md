@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-29T01:58:47.887Z
+date: 2022-12-29T01:59:11.573Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -187,7 +187,6 @@ Lastly, if you'd rather not rely on the SOAP extension or client, you can form t
 $curl = curl_init();
 
 curl_setopt_array($curl, [
-		
 		CURLOPT_POSTFIELDS => $payload, // $payload is the XML provided above
     CURLOPT_URL => 'http://127.0.0.1:7878',
     CURLOPT_TIMEOUT => 0,
