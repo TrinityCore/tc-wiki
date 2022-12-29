@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-28T23:43:43.693Z
+date: 2022-12-29T00:29:36.784Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -116,6 +116,8 @@ Clicking the **Send** button will submit the request, and provide an XML respons
 
 On the right-hand side of the Postman interface, a `</>` symbol will open up code snippets, which can convert the request into the language of your choice. 
 
+Note `SOAP-ENC`
+
 
 ## Using PHP
 
@@ -130,11 +132,11 @@ $command = 'server info';
 
 try {
     $client = new SoapClient(null, [
-        "location" => 'http://127.0.0.1:7877',
-        "uri" => "urn:TC",
-        "style" => SOAP_RPC,
-        "login" => 'CHANGEME',
-        "password" => 'CHANGEME'
+        'style'    => SOAP_RPC,
+        'location' => 'http://127.0.0.1:7878',
+        'uri'      => 'urn:TC',
+        'login'    => 'CHANGEME',
+        'password' => 'CHANGEME',
     ]);
     $result = $client->executeCommand(new SoapParam($command, "command"));
 } catch (\Exception $e) {
@@ -145,9 +147,8 @@ if ($result) {
 	echo $result;
 }
 
-
-
 ```
 
+In this example, we are using `SOAP_RPC` to indicate the format of the payload.
 
   
