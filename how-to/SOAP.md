@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-29T01:53:49.997Z
+date: 2022-12-29T01:54:59.860Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -23,7 +23,6 @@ If you plan to connect via SOAP remotely, you should absolutely take steps to en
 Ensure the settings in your configuration file are set appropriately. 
 
 ```ini
-#
 #    SOAP.Enable
 #        Description: Enable soap service.
 #        Default:     0 - (Disabled)
@@ -31,14 +30,12 @@ Ensure the settings in your configuration file are set appropriately.
 
 SOAP.Enabled = 1
 
-#
 #    SOAP.IP
 #        Description: Bind SOAP service to IP/hostname.
 #        Default:     "127.0.0.1" - (Bind to localhost)
 
 SOAP.IP = "127.0.0.1"
 
-#
 #    SOAP.Port
 #        Description: TCP port to reach the SOAP service.
 #        Default:     7878
