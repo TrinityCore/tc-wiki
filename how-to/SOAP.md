@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-29T00:48:29.976Z
+date: 2022-12-29T00:59:48.886Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -119,32 +119,30 @@ On the right-hand side of the Postman interface, a `</>` symbol will open up cod
 Note `SOAP-ENC`
 
 
-## Using PHP
+## Using PHP 
 
-If you're working in PHP. For this, you will need to ensure that the php-soap extension is installed.
+To interact with TrinityCore using PHP, you will need to ensure that the php-soap extension is installed. Also ensure you are using a version of PHP that is [still actively being supported](https://www.php.net/supported-versions.php). Code examples were tested on PHP7.4 up to PHP 8.1.
+
+In all of these examples, the `urn:TC` URI is a **required parameter** because we are not providing a WSDL document.
 
 - SoapClient - https://www.php.net/manual/en/class.soapclient.php
 
 ```php
-<?php
 
 $command  = 'server info';
-
-$username = 'CHANGEME';
-$password = 'CHANGEME';
 
 try {
     $opts = [
         'http' => [
             'method' => 'POST',
-            'header' => "Authorization: Basic " . base64_encode("{$user}:{$pw}")
+            'header' => "Authorization: Basic " . base64_encode("USERNAME:PASSWORD")
         ]];
 
     $client = new SoapClient(null, [
         'stream_context' => stream_context_create($opts), 
         'exceptions' => true,
-        "location" => 'http://127.0.0.1:7878',
-        "uri" => "urn:TC",
+        'location' => 'http://127.0.0.1:7878',
+        'uri" => 'urn:TC",
     ]);
     $result = $client->executeCommand(new SoapParam($command, "command"));
 } catch (\Exception $e) {
@@ -158,6 +156,17 @@ if ($result) {
 
 ```
 
-In this example, we are using `SOAP_RPC` to indicate the format of the payload.
+Note that we are passing a HTTP basic authorization header with base64 encoded username and password (separated by a colon). Alternatively, you could omit the `stream_context` parameter, and instead include a (login) username and password.
 
+```php
+
+    $client = new SoapClient(null, [
+        'location' => 'http://127.0.0.1:7878',
+        'uri' => 'urn:TC',
+        'login' => 'USERNAME',
+        'password' => 'PASSWORD',
+    ]);
+```
+
+Either approach is fine - but don't be fooled! Base 64 encoding does not make it more secure.
   
