@@ -2,7 +2,7 @@
 title: Trinitycore Wiki
 description: 
 published: true
-date: 2022-09-27T18:24:54.717Z
+date: 2022-12-29T02:48:13.545Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T17:47:17.543Z
@@ -51,3 +51,4 @@ For further information on the TrinityCore project, please visit our project web
 
 # How-to
 1. [ASAN](/how-to/asan)
+2. [Send console commands via SOAP](/how-to/SOAP)
