@@ -2,10 +2,10 @@
 title: creature_template_movement
 description: 
 published: true
-date: 2022-03-16T04:21:14.387Z
+date: 2022-12-30T22:01:10.884Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T09:30:26.571Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/creature_template_model" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'creature_template_model'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/creature_template_resistance" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'creature_template_resistance'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -21,40 +21,63 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [Rooted](#rooted) | tinyint | unsigned |  | YES | NULL |  |  |
 | [Chase](#chase) | tinyint | unsigned |  | YES | NULL |  |  |
 | [Random](#random) | tinyint | unsigned |  | YES | NULL |  |  |
-| [InteractionPauseTimer](#interactionpausetimer) | int | unsigned |  | YES | NULL |  | Time (in milliseconds) during which creature will not move after interaction with player |
+| [InteractionPauseTimer](#interactionpausetimer) | int | unsigned |  | YES | NULL |  | Time (in milliseconds) during which the creature will not move after interaction with player |
 &nbsp;
 ## Description of fields
 
 ### CreatureId
-*- no description -*
+NPC entry
 &nbsp;
 
 ### Ground
-*- no description -*
+| Value | Description |
+| --- | --- |
+| 0 | None |
+| 1 | Run |
+| 2 | Hover |
 &nbsp;
 
 ### Swim
-*- no description -*
+| Value | Description |
+| --- | --- |
+| 0 | None |
+| 1 | CanSwim |
 &nbsp;
 
 ### Flight
-*- no description -*
+| Value | Description |
+| --- | --- |
+| 0 | None |
+| 1 | DisableGravity |
+| 2 | CanFly |
 &nbsp;
 
 ### Rooted
-*- no description -*
+| Value | Description |
+| --- | --- |
+| 0 | None |
+| 1 | Rooted |
 &nbsp;
 
 ### Chase
-*- no description -*
+| Value | Description |
+| --- | --- |
+| 0 | Run |
+| 1 | CanWalk |
+| 2 | AlwaysWalk |
 &nbsp;
 
 ### Random
-*- no description -*
+| Value | Description |
+| --- | --- |
+| 0 | Walk |
+| 1 | CanRun |
+| 2 | AlwaysRun |
+
 &nbsp;
 
 ### InteractionPauseTimer
-*- no description -*
+Time (in milliseconds) during which the creature will not move after interaction with player.
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/creature_template_model" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'creature_template_model'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/creature_template_resistance" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'creature_template_resistance'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
