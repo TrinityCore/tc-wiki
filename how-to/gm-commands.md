@@ -2,37 +2,11 @@
 title: GM Commands
 description: Console commands 
 published: true
-date: 2023-01-03T23:04:45.226Z
+date: 2023-01-03T23:05:41.842Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-03T23:04:45.226Z
 ---
-
-# GM Commands
-GM commands can be entered mainly in 2 ways: 
-
-- Typing it directly into the world console window. In the world console window the leading dot (.) is not mandantory, but you can use it. 
-- Using the gm command ingame in the chat console of the wow client. There, all commands must start with a leading dot. Ex: `.gm on`
-
-Note: Some commands are working only by selecting a player or a creature. These commands can not be used in the world console.
-
-
----
-
-<!-- don't mess up my beautiful formatting! -->
-
-## 6.x                        
-
-| Command                       | Security | Description                                                                                                             |
-| ----------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------: |
-| bnetaccount create            |          | $1600                                                                                                                   |
-| bnetaccount gameaccountcreate |          | Syntax: .bnetaccount gameaccountcreate $account  <br />Create additional game account for specified battle.net account. |
-| bnetaccount link              |          | Syntax: .bnetaccount link $email $login<br />Links battle.net account ($email) to an existing game account ($login).    |
-| bnetaccount set               |          |                                                                                                                         |
-| bnetaccount unlink            |          |                                                                                                                         |
-
-
-## 3.x
 
 # GM Commands
 GM commands can be entered mainly in 2 ways: 
