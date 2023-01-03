@@ -2,7 +2,7 @@
 title: GM Commands
 description: Console commands 
 published: true
-date: 2023-01-03T23:05:41.842Z
+date: 2023-01-03T23:09:44.671Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-03T23:04:45.226Z
@@ -22,13 +22,15 @@ Note: Some commands are working only by selecting a player or a creature. These 
 
 ## 6.x                        
 
+
+{: style="text-align: left" }
 | Command                       | Security | Description                                                                                                             |
 | ----------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------: |
-| bnetaccount create            |          | $1600                                                                                                                   |
-| bnetaccount gameaccountcreate |          | Syntax: .bnetaccount gameaccountcreate $account  <br />Create additional game account for specified battle.net account. |
-| bnetaccount link              |          | Syntax: .bnetaccount link $email $login<br />Links battle.net account ($email) to an existing game account ($login).    |
-| bnetaccount set               |          |                                                                                                                         |
 | bnetaccount unlink            |          |                                                                                                                         |
+| bnetaccount set               |          |                                                                                                                         |
+| bnetaccount link              |          | `.bnetaccount link $email $login` <br /> Links battle.net account ($email) to an existing game account ($login).    |
+| bnetaccount gameaccountcreate |          | `.bnetaccount gameaccountcreate $account`  <br />Create additional game account for specified battle.net account. |
+| bnetaccount create            |          |                                                                                                                         |
 
 
 ## 3.x
