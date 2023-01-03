@@ -2,10 +2,10 @@
 title: vehicle_accessory
 description: 
 published: true
-date: 2022-02-06T18:26:20.455Z
+date: 2023-01-03T02:01:05.046Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T09:37:52.875Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/updates_include" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'updates_include'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/vehicle_seat_addon" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'vehicle_seat_addon'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -21,35 +21,49 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [description](#description) | mediumtext |  |  | NO |  |  |  |
 | [summontype](#summontype) | tinyint | unsigned |  | NO | 6 |  | see enum TempSummonType |
 | [summontimer](#summontimer) | int | unsigned |  | NO | 30000 |  | timer, only relevant for certain summontypes |
+
+Any record in this table works for specific creature guids. These override [vehicle_accessory_template](https://trinitycore.info/en/database/master/world/vehicle_template_accessory)'s records, which works for any spawned creature of the given entry.
 &nbsp;
 ## Description of fields
 
 ### guid
-*- no description -*
+The guid from creature of the creature to be used as a vehicle.
 &nbsp;
 
 ### accessory_entry
-*- no description -*
+The entry from creature_template of the creature to be used as a passenger of the vehicle.
 &nbsp;
 
 ### seat_id
-*- no description -*
+The vehicle seat in which the passenger is spawned. Each VehicleID has a given amount of seats which you can consult on [Vehicle.dbc](https://wow.tools/dbc/?dbc=vehicle&build=9.2.7.45745#page=1){target=_blank} under Seat[Index]. You can consult each VehicleSeat's ID parameters on [VehicleSeat.dbc](https://wow.tools/dbc/?dbc=vehicleseat&build=10.0.5.47215#page=1){target=_blank}.
 &nbsp;
 
 ### minion
-*- no description -*
+This field determines whether the passenger will die when the vehicle does. If set to:
+
+- **0**: the passenger will not die.
+- **1**: the passenger will die.
 &nbsp;
 
 ### description
-*- no description -*
+A comment you can add to the given record for context. This provides information about the record since plain numbers are very vague, so it is encouraged to be added. As a recommendation you can use the syntax (Name of the vehicle - Name of the passenger): Catapult - Warrior troll.
 &nbsp;
 
 ### summontype
-*- no description -*
+| Flag | Name | Comments |
+| --- | --- | --- | 
+| 1 | TEMPSUMMON_TIMED_OR_DEAD_DESPAWN | Despawns after a specified time OR when the creature disappears. 
+| 2 | TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN | Despawns after a specified time OR when the creature disappears. 
+| 3 | TEMPSUMMON_TIMED_DESPAWN | Despawns after a specified time. 
+| 4 | TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT | Despawns after a specified time after the creature is out of combat. 
+| 5 | TEMPSUMMON_CORPSE_DESPAWN | Despawns instantly after death. 
+| 6 | TEMPSUMMON_CORPSE_TIMED_DESPAWN | Despawns after a specified time after death. 
+| 7 | TEMPSUMMON_DEAD_DESPAWN | Despawns when the creature disappears.
+| 8 | TEMPSUMMON_MANUAL_DESPAWN	 | Despawns when UnSummon() is called. 
 &nbsp;
 
 ### summontimer
-*- no description -*
+The timer linked to the summontype field.
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/updates_include" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'updates_include'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/vehicle_seat_addon" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'vehicle_seat_addon'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
