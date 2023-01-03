@@ -2,7 +2,7 @@
 title: GM Commands
 description: Console commands 
 published: true
-date: 2023-01-03T23:37:24.995Z
+date: 2023-01-03T23:39:15.904Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-03T23:04:45.226Z
@@ -23,7 +23,7 @@ Note: Some commands are working only by selecting a player or a creature. These 
 
 
 | Command                       | Security | Description                                                                                                             |
-| ----------------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------  |
+|:----------------------------- | -------- |:----------------------------------------------------------------------------------------------------------------------  |
 | bnetaccount unlink            |          |                                                                                                                         |
 | bnetaccount set               |          |                                                                                                                         |
 | bnetaccount link              |          | .bnetaccount link $email $login <br /> Links battle.net account to an existing game account.    |
@@ -34,8 +34,8 @@ Note: Some commands are working only by selecting a player or a creature. These 
 ## 3.x Commands
 
 
-| **Command**                             | **Security** | **Description**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|-----------------------------------------|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Command**                             | **Security** | **Description**  |
+|:-----------------------------------------|--------------|:---|
 | **account create**                      | 4            | .account create $account $password <br />Create account and set password to it.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | **account delete**                      | 4            | .account delete $account <br />Delete account with all characters.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | **account onlinelist**                  | 4            | .account onlinelist <br />Show list of online accounts.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
