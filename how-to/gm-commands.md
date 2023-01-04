@@ -2,7 +2,7 @@
 title: GM Commands
 description: Console commands 
 published: true
-date: 2023-01-04T00:07:46.635Z
+date: 2023-01-04T03:26:47.768Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-03T23:04:45.226Z
@@ -24,11 +24,11 @@ Note: Some commands are working only by selecting a player or a creature. These 
 
 | Command                       | Security | Description                                                                                                             |
 |:----------------------------- | -------- |:----------------------------------------------------------------------------------------------------------------------  |
-| bnetaccount unlink            |          |                                                                                                                         |
-| bnetaccount set               |          |                                                                                                                         |
-| bnetaccount link              |          | .bnetaccount link $email $login <br /> Links battle.net account to an existing game account.    |
-| bnetaccount gameaccountcreate |          | .bnetaccount gameaccountcreate $account<br />Create additional game account for specified battle.net account. |
-| bnetaccount create            |          |                                                                                                                         |
+| **bnetaccount unlink**            |          |                                                                                                                         |
+| **bnetaccount set**               |          |                                                                                                                         |
+| **bnetaccount link**              |          | .bnetaccount link $email $login <br /> Links battle.net account to an existing game account.    |
+| **bnetaccount gameaccountcreate** |          | .bnetaccount gameaccountcreate $account<br />Create additional game account for specified battle.net account. |
+| **bnetaccount create**            |          |                                                                                                                         |
 
 &nbsp;
 ## 3.x Commands
