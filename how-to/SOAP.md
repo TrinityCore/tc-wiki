@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2022-12-29T20:16:16.836Z
+date: 2023-01-04T17:24:29.904Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z
@@ -169,7 +169,7 @@ Either approach is fine - but don't be fooled! Base 64 encoding does not inheren
 
 Remember that the SOAP client can only recognize failures to connect, or misconfigurations. **It will not know if you've provided an invalid command**. So it's up to you to parse the results and decide if the intended result was a success or not. Output will be just as if you performed the command on the console.
 
-Lastly, if you'd rather not rely on the SOAP extension or client, you can form the XML payload and parse the resulting XML response yourself.
+Lastly, if you'd rather not rely on the SOAP extension or client, you can form the XML payload and parse the resulting XML response yourself. You'll still need the [cURL extension](https://www.php.net/manual/en/book.curl.php), but this is usually available if not enabled by default.
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
