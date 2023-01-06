@@ -2,7 +2,7 @@
 title: Linux Requirements
 description: 
 published: true
-date: 2023-01-06T20:25:56.116Z
+date: 2023-01-06T20:26:05.366Z
 tags: requirements, installation, setup, linux
 editor: markdown
 dateCreated: 2021-08-14T00:09:23.038Z
@@ -21,7 +21,7 @@ dateCreated: 2021-08-14T00:09:23.038Z
 
 >**Note:**
 >While compiling you may get an error like: 
-`c++: internal compiler error: Killed (program cc1plus)"` 
+`c++: internal compiler error: Killed (program cc1plus)` 
 >
 >Reasons for this might be:
 >- Low ram/swap amount: increase ram/swap to a minimum of 2GB of ram and 2GB of swap or decrease the amount of make -j to 1 (more concurrent compile threads = more memory usage). (you can get this using VPS servers)
