@@ -2,7 +2,7 @@
 title: Linux Requirements
 description: 
 published: true
-date: 2023-01-01T20:48:18.951Z
+date: 2023-01-06T20:25:56.116Z
 tags: requirements, installation, setup, linux
 editor: markdown
 dateCreated: 2021-08-14T00:09:23.038Z
@@ -20,18 +20,20 @@ dateCreated: 2021-08-14T00:09:23.038Z
 
 
 >**Note:**
->While compiling you may get one error like: "c++: internal compiler error: Killed (program cc1plus)" the reasons of this can be:
+>While compiling you may get an error like: 
+`c++: internal compiler error: Killed (program cc1plus)"` 
 >
->Low ram/swap amount: increase ram/swap to a minimum of 2GB of ram and 2GB of swap or decrease the amount of make -j to 1 (more concurrent compile threads = more memory usage). (you can get this using VPS servers)
->SELinux/grsecurity/Hardened kernel: Kernels that use ASLR as a security measure tend to mess up GCC's precompiled header implementation. Try using an unhardened kernel (without ASLR), or compiling using clang, or gcc without pch. (you can get this issue when using OVH hosting).
+>Reasons for this might be:
+>- Low ram/swap amount: increase ram/swap to a minimum of 2GB of ram and 2GB of swap or decrease the amount of make -j to 1 (more concurrent compile threads = more memory usage). (you can get this using VPS servers)
+>- SELinux/grsecurity/Hardened kernel: Kernels that use ASLR as a security measure tend to mess up GCC's precompiled header implementation. Try using an unhardened kernel (without ASLR), or compiling using clang, or gcc without pch. (you can get this issue when using OVH hosting).
 >
 >
 >
->Your server may be abruptly killed by an angry administrator or system staff or system restrictions for overuse of system resources and you willl see something like:
+>Your server may be abruptly killed by an angry administrator, system staff, or system restrictions for overuse of system resources. You may see something like:
 >
->collect2: fatal error: ld terminated with signal 9 [Killed] compilation terminated.
+>`collect2: fatal error: ld terminated with signal 9 [Killed] compilation terminated.`
 >
->you will need to use less jobs (make -j1) or increase swap.
+>You will need to use less jobs (make -j1) or increase swap.
 {.is-warning}
 
 ## OS
