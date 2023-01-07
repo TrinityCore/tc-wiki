@@ -2,7 +2,7 @@
 title: Role-based Access Control
 description: TrinityCore implementation of RBAC
 published: true
-date: 2023-01-07T23:46:49.395Z
+date: 2023-01-07T23:47:10.487Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-07T23:46:49.395Z
@@ -73,4 +73,4 @@ Deny definitions are explicitly set in `rbac_account_permissions` with `granted 
 
 &nbsp;
 ## RBAC Table Schema
-Comin soon
+Coming soon
