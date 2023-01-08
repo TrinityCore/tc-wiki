@@ -2,10 +2,10 @@
 title: Auth
 description: 
 published: true
-date: 2022-09-11T09:21:22.261Z
-tags: database, master, auth
+date: 2023-01-08T00:15:42.155Z
+tags: database, auth, master
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-28T03:14:52.632Z
 ---
 
 ## a
@@ -38,10 +38,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 - [logs_ip_actions](/database/master/auth/logs_ip_actions)
 {.links-list}
 ## r
-- [rbac_account_permissions](/database/master/auth/rbac_account_permissions)
-- [rbac_default_permissions](/database/master/auth/rbac_default_permissions)
-- [rbac_linked_permissions](/database/master/auth/rbac_linked_permissions)
-- [rbac_permissions](/database/master/auth/rbac_permissions)
+- [rbac_account_permissions](https://trinitycore.info/en/how-to/RBAC)
+- [rbac_default_permissions](https://trinitycore.info/en/how-to/RBAC)
+- [rbac_linked_permissions](https://trinitycore.info/en/how-to/RBAC)
+- [rbac_permissions](https://trinitycore.info/en/how-to/RBAC)
 - [realmcharacters](/database/master/auth/realmcharacters)
 - [realmlist](/database/master/auth/realmlist)
 {.links-list}
