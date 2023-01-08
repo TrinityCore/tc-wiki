@@ -2,7 +2,7 @@
 title: Trinitycore Wiki
 description: 
 published: true
-date: 2023-01-04T03:12:42.668Z
+date: 2023-01-08T02:08:50.570Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T17:47:17.543Z
@@ -53,3 +53,4 @@ For further information on the TrinityCore project, please visit our project web
 1. [Use ASan to debug trinitycore](/how-to/asan)
 2. [Send console commands via SOAP](/how-to/SOAP)
 3. [GM Commands](/how-to/gm-commands)
+4. [Role-based Access Controls (RBAC)](/how-to/RBAC)
