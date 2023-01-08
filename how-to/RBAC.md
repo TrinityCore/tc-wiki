@@ -2,7 +2,7 @@
 title: Role-based Access Control
 description: TrinityCore implementation of RBAC
 published: true
-date: 2023-01-08T23:39:50.341Z
+date: 2023-01-08T23:45:36.439Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-07T23:46:49.395Z
@@ -47,7 +47,7 @@ Deny definitions are explicitly set in `rbac_account_permissions` with `granted 
 
   
 &nbsp;
-### Default Permissions
+### Default Roles
   
   | Security Level |Role| Permission Id | Inherits (rbac_linked_permissions) |
 |:---:|:---:|:---:|---|
@@ -55,6 +55,16 @@ Deny definitions are explicitly set in `rbac_account_permissions` with `granted 
 | 2 |GM | 193 |Moderator security level - 197, Gamemaster commands |
 | 1 |Mod | 194 |Player security level - 198, Moderator commands |
 | 0 |Player | 195 |Player commands |
+
+&nbsp;
+| Permission Id | Name | Permissions |
+|:---:|:---:|:---:|
+|196 |Administrator commands| 377
+|197 |Gamemaster commands | 95
+|198 |Moderator commands | 91
+|199 |Player commands | 14
+
+
   
 &nbsp;
 
