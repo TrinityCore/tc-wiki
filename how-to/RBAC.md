@@ -2,7 +2,7 @@
 title: Role-based Access Control
 description: TrinityCore implementation of RBAC
 published: true
-date: 2023-01-08T02:10:51.536Z
+date: 2023-01-08T13:33:53.031Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-07T23:46:49.395Z
@@ -31,6 +31,8 @@ Deny definitions are explicitly set in `rbac_account_permissions` with `granted 
 |    5    |      2      |   -1    |
 +---------+-------------+---------+
 
+# 595 is granted through security level 2
+# so let's explicitly deny it from that account
 
 # rbac_account_permissions
 +---------+------------+-------+---------+
@@ -39,6 +41,10 @@ Deny definitions are explicitly set in `rbac_account_permissions` with `granted 
 |    5    |     595    |   0   |    -1   |
 +---------+------------+-------+---------+
 ```
+
+> If you need further flexibility, or find that you are denying lots of commands, it's probably time to consider creating a custom role. Note that custom roles and permissions should be created in the `1xxx` range to avoid conflicting with TrinityCore native roles and permissions.
+{.is-info}
+
   
 &nbsp;
 ### Default Permissions
