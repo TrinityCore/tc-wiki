@@ -2,7 +2,7 @@
 title: Role-based Access Control
 description: TrinityCore implementation of RBAC
 published: true
-date: 2023-01-08T00:12:31.871Z
+date: 2023-01-08T02:10:51.536Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-07T23:46:49.395Z
@@ -75,7 +75,7 @@ Deny definitions are explicitly set in `rbac_account_permissions` with `granted 
 ## RBAC Table Schema
 | **Table** | **Table Description** | **Field Name** | **Field Type** | **Field Description** |
 |---|---|---|---|---|
-| rbac_account_permissions | Account-Permission relation | accountId<br /> permissionId<br /> granted<br /> realmId | int<br /> int<br /> int<br /> signed int | Account id<br /> Permission id<br /> Granted = 1, Denied = 0<br /> All = -1, else realmId |
-| rbac_permissions | Permission List | id<br /> name | int<br /> text | Permission id<br /> Permission name |
-| rbac_default_permissions | Default permissions to assign to a specific security level (account_access) | secId <br /> permissionId | int<br /> int | Security level [0-3] <br /> Permission id  |
-| rbac_linked_permissions | Assigns permissions to roles (see rbac_permissions for permissions with name "role") Can also be used to link permissions to permissions (creating new roles) | id <br /> linkedId | int <br /> int | Permission id <br /> Permission id |
+|`auth.rbac_account_permissions`| Account-Permission relation | accountId<br /> permissionId<br /> granted<br /> realmId | int<br /> int<br /> int<br /> signed int | Account id<br /> Permission id<br /> Granted = 1, Denied = 0<br /> All = -1, else realmId |
+| `auth.rbac_permissions` | Permission List | id<br /> name | int<br /> text | Permission id<br /> Permission name |
+| `auth.rbac_default_permissions` | Default permissions to assign to a specific security level (account_access) | secId <br /> permissionId | int<br /> int | Security level [0-3] <br /> Permission id  |
+| `auth.rbac_linked_permissions` | Assigns permissions to roles (see rbac_permissions for permissions with name "role") Can also be used to link permissions to permissions (creating new roles) | id <br /> linkedId | int <br /> int | Permission id <br /> Permission id |
