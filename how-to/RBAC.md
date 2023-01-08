@@ -2,7 +2,7 @@
 title: Role-based Access Control
 description: TrinityCore implementation of RBAC
 published: true
-date: 2023-01-08T00:11:33.296Z
+date: 2023-01-08T00:12:31.871Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-07T23:46:49.395Z
