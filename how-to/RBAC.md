@@ -2,7 +2,7 @@
 title: Role-based Access Control
 description: TrinityCore implementation of RBAC
 published: true
-date: 2023-01-08T23:45:36.439Z
+date: 2023-01-08T23:47:19.385Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-07T23:46:49.395Z
@@ -18,29 +18,7 @@ GM security levels grant access to commands based on the defaults provided on th
 - **Role**: A permission with a many-to-many relationship to another permission
 	- Defined in `auth.rbac_linked_permissions`
   
-Deny definitions are explicitly set in `rbac_account_permissions` with `granted = 0`, and override linked permissions. See the example below.
-
-
-```shell
-# revoke account 5 access to `npc move` - 595 command
-
-# account_access
-+---------+-------------+---------+
-|AccountID|SecurityLevel| RealmID |
-+---------+-------------+---------+
-|    5    |      2      |   -1    |
-+---------+-------------+---------+
-
-# 595 is granted through security level 2
-# so let's explicitly deny it from that account
-
-# rbac_account_permissions
-+---------+------------+-------+---------+
-|accountId|permissionId|granted| realmId |
-+---------+------------+-------+---------+
-|    5    |     595    |   0   |    -1   |
-+---------+------------+-------+---------+
-```
+Deny definitions are explicitly set in `rbac_account_permissions` with `granted = 0`, and override linked permissions. 
 
 > If you need further flexibility, or find that you are denying lots of commands, it's probably time to consider creating a custom role. Note that custom roles and permissions should be created in the `1xxx` range to avoid conflicting with TrinityCore native roles and permissions.
 {.is-info}
