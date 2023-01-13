@@ -2,7 +2,7 @@
 title: creature_addon
 description: 
 published: true
-date: 2023-01-13T01:16:53.176Z
+date: 2023-01-13T01:25:02.069Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:44.302Z
@@ -39,8 +39,7 @@ The creature_addon and creature_template_addon tables define different things th
 ## Description of fields
 
 ### guid
-For creature_addon, this field signifies a unique creature guid. It will affect just that creature whose GUID matches the one specified here.
-For creature_template_addon, this field signifies the creature_template.entry. It will affect all spawned creatures using that template entry.
+This field signifies a unique creature guid. It will affect just that creature whose GUID matches the one specified here.
 &nbsp;
 
 ### path_id
