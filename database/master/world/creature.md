@@ -2,7 +2,7 @@
 title: creature
 description: 
 published: true
-date: 2023-01-15T22:24:41.896Z
+date: 2023-01-15T22:31:46.626Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:41.375Z
@@ -49,19 +49,15 @@ dateCreated: 2021-08-30T09:29:41.375Z
 ### guid
 A unique identifier given to each creature to distinguish one creature from another. Two creatures can NOT have same GUID.
 If a new creature will be spawned it should be within the GUID range of the current expansion when creature was added first on retail.
+
 For example [Chromie](https://www.wowhead.com/npc=167032/chromie) is spawned in Orgrimmar and Stormwind, but was added in Shadowlands (9.x) on retail (expansion 8), so we would assign a GUID between 8000000 and 8999999. 
+
 The GUID ranges are defined as followed:
 |                    Expansion | GUID range start | GUID range end |
 | ---------------------------- | ---------------- | -------------- |
 | Vanilla (1.x)                |                1 |         249999 |
 | The Burning Crusade (2.x)    |                1 |         249999 |
 | Wrath of the Lich King (3.x) |                1 |         249999 |
-| :warning: Legacy Cataclysm (4.x)              |           250000 |         449999 |
-| :warning: Legacy Mists of Pandaria (5.x)      |           250000 |         449999 |
-| :warning: Legacy Warlords of Draenor (6.x)    |           450000 |         649999 |
-| :warning: Legacy Legion (7.x)                 |           650000 |         849999 |
-| :warning: Legacy Battle for Azeroth (8.x)     |           850000 |        1049999 |
-| :warning: Legacy Shadowlands (9.x)            |          1050000 |        1249999 |
 | Cataclysm (4.x)              |          3000000 |        3999999 |
 | Mists of Pandaria (5.x)      |          4000000 |        4999999 |
 | Warlords of Draenor (6.x)    |          5000000 |        5999999 |
@@ -69,6 +65,12 @@ The GUID ranges are defined as followed:
 | Battle for Azeroth (8.x)     |          7000000 |        7999999 |
 | Shadowlands (9.x)            |          8000000 |        8999999 |
 | Dragonflight (10.x)          |          9000000 |        9999999 |
+| :warning: Legacy Cataclysm (4.x)              |           250000 |         449999 |
+| :warning: Legacy Mists of Pandaria (5.x)      |           250000 |         449999 |
+| :warning: Legacy Warlords of Draenor (6.x)    |           450000 |         649999 |
+| :warning: Legacy Legion (7.x)                 |           650000 |         849999 |
+| :warning: Legacy Battle for Azeroth (8.x)     |           850000 |        1049999 |
+| :warning: Legacy Shadowlands (9.x)            |          1050000 |        1249999 |
 > Because the limit of several old ranges was reached, new ranges have been defined with the nomenclature **{ExpID}000000 - {ExpID}999999**. The old ranges should not be used.
 {.is-warning}
 
