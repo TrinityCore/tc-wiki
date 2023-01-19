@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2022-12-30T17:07:14.600Z
+date: 2023-01-19T03:18:34.726Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -62,24 +62,27 @@ dateCreated: 2021-08-30T09:36:32.378Z
 ### source_type
 Object type (creature, gameobject, quest, etc.).
 
-| Name | Value | Source | Script name |
-| :---  | ---: | :--- | :--- |
-| SMART_SCRIPT_TYPE_CREATURE | 0 | [creature_template.entry](/en/database/master/world/creature_template#entry) or [creature.guid](/en/database/master/world/creature#guid) | SmartAI ([creature_template.AIName](/en/database/master/world/creature_template#ainame)) |
-| SMART_SCRIPT_TYPE_GAMEOBJECT | 1 | [gameobject_template.entry](/en/database/master/world/gameobject_template#entry) or [gameobject.guid](/en/database/master/world/gameobject#guid) | SmartGameObjectAI ([gameobject_template.AIName](/en/database/master/world/gameobject_template#ainame)) |
-| SMART_SCRIPT_TYPE_AREATRIGGER | 2 | Areatrigger.db2 (ID) | SmartTrigger ([areatrigger_scripts.ScriptName](/en/database/master/world/areatrigger_scripts#scriptname)) |
-| :x: SMART_SCRIPT_TYPE_EVENT | 3 | | |
-| :x: SMART_SCRIPT_TYPE_GOSSIP | 4 | | |
-| SMART_SCRIPT_TYPE_QUEST | 5 | [quest_template.ID](/en/database/master/world/quest_template#id) | SmartQuest ([quest_template_addon.ScriptName](/en/database/master/world/quest_template_addon#scriptname)) |
-| :x: SMART_SCRIPT_TYPE_SPELL | 6 | | |
-| :x: SMART_SCRIPT_TYPE_TRANSPORT | 7 | | |
-| :x: SMART_SCRIPT_TYPE_INSTANCE | 8 | | |
-| SMART_SCRIPT_TYPE_TIMED_ACTIONLIST | 9 | [smart_scripts.entryorguid](#entryorguid) | |
-| SMART_SCRIPT_TYPE_SCENE | 10 | [scene_template.id](/en/database/master/world/scene_template#id) | SmartScene ([scene_template.ScriptName](/en/database/master/world/scene_template#scriptname)) |
-| SMART_SCRIPT_TYPE_AREATRIGGER_ENTITY | 11 | [areatrigger_template.Id](/en/database/master/world/areatrigger_template#id) (IsServerSide = 0) | SmartAreaTriggerAI ([areatrigger.ScriptName](/en/database/master/world/areatrigger#scriptname)) |
-| SMART_SCRIPT_TYPE_AREATRIGGER_ENTITY_SERVERSIDE | 12 | [areatrigger_template.Id](/en/database/master/world/areatrigger_template#id) (IsServerSide = 1) | SmartAreaTriggerAI ([areatrigger.ScriptName](/en/database/master/world/areatrigger#scriptname)) |
+| Name | Value | Source | Script name | Base Object | Trigger Object
+| :---  | ---: | :--- | :--- | :--- |
+| SMART_SCRIPT_TYPE_CREATURE | 0 | [creature_template.entry](/en/database/master/world/creature_template#entry) or [creature.guid](/en/database/master/world/creature#guid) | SmartAI ([creature_template.AIName](/en/database/master/world/creature_template#ainame)) | Creature | - |
+| SMART_SCRIPT_TYPE_GAMEOBJECT | 1 | [gameobject_template.entry](/en/database/master/world/gameobject_template#entry) or [gameobject.guid](/en/database/master/world/gameobject#guid) | SmartGameObjectAI ([gameobject_template.AIName](/en/database/master/world/gameobject_template#ainame)) | GameObject | - |
+| SMART_SCRIPT_TYPE_AREATRIGGER | 2 | Areatrigger.db2 (ID) | SmartTrigger ([areatrigger_scripts.ScriptName](/en/database/master/world/areatrigger_scripts#scriptname)) | - | Player |
+| :x: SMART_SCRIPT_TYPE_EVENT | 3 | | | | |
+| :x: SMART_SCRIPT_TYPE_GOSSIP | 4 | | | | |
+| SMART_SCRIPT_TYPE_QUEST | 5 | [quest_template.ID](/en/database/master/world/quest_template#id) | SmartQuest ([quest_template_addon.ScriptName](/en/database/master/world/quest_template_addon#scriptname)) | - | - |
+| :x: SMART_SCRIPT_TYPE_SPELL | 6 | | | | |
+| :x: SMART_SCRIPT_TYPE_TRANSPORT | 7 | | | | |
+| :x: SMART_SCRIPT_TYPE_INSTANCE | 8 | | | | |
+| SMART_SCRIPT_TYPE_TIMED_ACTIONLIST | 9 | [smart_scripts.entryorguid](#entryorguid) | | Creature, GameObject or AreaTrigger | - |
+| SMART_SCRIPT_TYPE_SCENE | 10 | [scene_template.id](/en/database/master/world/scene_template#id) | SmartScene ([scene_template.ScriptName](/en/database/master/world/scene_template#scriptname)) | - | - |
+| SMART_SCRIPT_TYPE_AREATRIGGER_ENTITY | 11 | [areatrigger_template.Id](/en/database/master/world/areatrigger_template#id) (IsServerSide = 0) | SmartAreaTriggerAI ([areatrigger.ScriptName](/en/database/master/world/areatrigger#scriptname)) | AreaTrigger | - |
+| SMART_SCRIPT_TYPE_AREATRIGGER_ENTITY_SERVERSIDE | 12 | [areatrigger_template.Id](/en/database/master/world/areatrigger_template#id) (IsServerSide = 1) | SmartAreaTriggerAI ([areatrigger.ScriptName](/en/database/master/world/areatrigger#scriptname)) | AreaTrigger | - |
 
 >Please note :x:means that the source_type is not (yet) implemented.
 {.is-danger}
+
+>**Trigger Object** is used as **Base Object** for target selection or as summoner in summon actions. 
+{.is-info}
 
 ### id
 Incremental id bound to each [entryorguid](#entryorguid) & [source_type](#source_type) (0, 1, 2, ...).
