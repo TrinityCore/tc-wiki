@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2023-01-19T03:22:17.541Z
+date: 2023-01-19T03:24:58.471Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -81,7 +81,7 @@ Object type (creature, gameobject, quest, etc.).
 >Please note :x:means that the source_type is not (yet) implemented.
 {.is-danger}
 
->**Trigger Object** is used as **Base Object** for target selection or as summoner in summon actions. 
+>**Trigger Object** is used as **Base Object** for target selection and for summoner selection (in summon actions). 
 >For source types without Base Object or Trigger Object, there will be an **Invoker** (usually a player) selectable by SMART_TARGET_ACTION_INVOKER.
 {.is-info}
 
