@@ -2,7 +2,7 @@
 title: Windows Core Installation
 description: 
 published: true
-date: 2022-07-13T07:36:39.154Z
+date: 2023-01-25T22:35:33.116Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-15T10:17:42.057Z
@@ -103,7 +103,7 @@ You will find your freshly compiled binaries in the **C:\\Build\\bin\\RelWithDe
 
 You will need the following files in order for the core to function properly:
 
-| **3.3.5a**<br><br>**authserver.exe**  <br>**authserver.pdb**  <br>**authserver.conf.dist**  <br>**worldserver.exe**  <br>**worldserver.pdb**  <br>**worldserver.conf.dist**  <br>**libmysql.dll**  <br>**libeay32.dll**  <br>**ssleay32.dll** | **master (9.x)**<br><br>**bnetserver.exe**  <br>**bnetserver.pdb**  <br>**bnetserver.conf.dist**  <br>**bnetserver.cert.perm**  <br>**bnetserver.key.perm**  <br>**worldserver.exe**  <br>**worldserver.pdb**  <br>**worldserver.conf.dist**  <br>**libmysql.dll**  <br>**libeay32.dll**  <br>**ssleay32.dll** |
+| **3.3.5a**<br><br>**authserver.exe**  <br>**authserver.pdb**  <br>**authserver.conf.dist**  <br>**worldserver.exe**  <br>**worldserver.pdb**  <br>**worldserver.conf.dist**  <br>**libmysql.dll**  <br>**libeay32.dll**  <br>**ssleay32.dll** | **master (10.x)**<br><br>**bnetserver.exe**  <br>**bnetserver.pdb**  <br>**bnetserver.conf.dist**  <br>**bnetserver.cert.perm**  <br>**bnetserver.key.perm**  <br>**worldserver.exe**  <br>**worldserver.pdb**  <br>**worldserver.conf.dist**  <br>**libmysql.dll**  <br>**libeay32.dll**  <br>**ssleay32.dll**  <br>**openssl_ed25519.dll** |
 | --- | --- |
 
   
