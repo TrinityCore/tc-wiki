@@ -2,10 +2,10 @@
 title: spell_area
 description: 
 published: true
-date: 2022-02-06T18:26:20.448Z
+date: 2023-02-08T22:20:16.262Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T09:36:40.299Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/spawn_group_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'spawn_group_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/spell_custom_attr" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'spell_custom_attr'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -28,35 +28,81 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### spell
-*- no description -*
+The spell ID of the spell to be casted on the player. See [SpellName.db2](https://wow.tools/dbc/?dbc=SpellName){target=_blank}).
 &nbsp;
 
 ### area
-*- no description -*
+The area ID. Type ".gps" in-game and find the "Area:" number to use for this cell. Also see [AreaTable.db2](https://wow.tools/dbc/?dbc=AreaTable){target=_blank}.
 &nbsp;
 
 ### quest_start
-*- no description -*
+The entry of the quest which the player must have in the state defined by quest_start_status. See [quest_template.ID](/en/database/master/world/quest_template#ID).
 &nbsp;
 
 ### quest_end
-*- no description -*
+The entry of the quest which the player must not have in the state defined by quest_end_status. See [quest_template.ID](/en/database/master/world/quest_template#ID). Setting both quest_start and quest_end to the same value is useless.
 &nbsp;
 
 ### aura_spell
-*- no description -*
+If set, this value (plus or minus aura spell ID from [SpellName.db2](https://wow.tools/dbc/?dbc=SpellName){target=_blank}) imposes additional condition.
+
+The value has the following effect:
+```
+    < 0  (negative values) If the player has aura -aura_spell then the spell will not be activated.
+      0  this column is ignored.
+    > 0  (positive values) If the player has no aura aura_spell then the spell will not be activated.
+```
 &nbsp;
 
 ### racemask
-*- no description -*
+Calculate using table below. (ordered by Race ID)
+| Race | Mask |
+| ---------- | --- |
+| RACE_HUMAN | 0x1 |
+| RACE_ORC | 0x2 |
+| RACE_DWARF | 0x4 |
+| RACE_NIGHTELF | 0x8 |
+| RACE_UNDEAD_PLAYER | 0x10 |
+| RACE_TAUREN | 0x20 |
+| RACE_GNOME | 0x40 |
+| RACE_TROLL | 0x80 |
+| RACE_GOBLIN | 0x100 |
+| RACE_BLOODELF | 0x200 |
+| RACE_DRAENEI | 0x400 |
+| RACE_WORGEN | 0x200000 |
+| RACE_PANDAREN_NEUTRAL | 0x800000 |
+| RACE_PANDAREN_ALLIANCE | 0x1000000 |
+| RACE_PANDAREN_HORDE | 0x2000000 |
+| RACE_NIGHTBORNE | 0x4000000 |
+| RACE_HIGHMOUNTAIN_TAUREN | 0x8000000 |
+| RACE_VOID_ELF | 0x10000000 |
+| RACE_LIGHTFORGED_DRAENEI | 0x20000000 |
+| RACE_ZANDALARI_TROLL | 0x40000000 |
+| RACE_KUL_TIRAN | 0x80000000 |
+| RACE_DARK_IRON_DWARF | 0x800 |
+| RACE_VULPERA | 0x1000 |
+| RACE_MAGHAR_ORC | 0x2000 |
+| RACE_MECHAGNOME | 0x4000 |
+| RACE_DRACTHYR_ALLIANCE | 0x10000 |
+| RACE_DRACTHYR_HORDE | 0x8000 |
+
+
+| Precalculated | Mask |
+| -------- | ---- |
+| RACEMASK_ALLIANCE | 0xB1214C4D |
+| RACEMASK_HORDE | 0x4E00B3B2 |
+| RACEMASK_ALL_PLAYABLE | 0xFFA1FFFF |
 &nbsp;
 
 ### gender
-*- no description -*
+The gender type this entry applies to. 0 = Male, 1 = Female, 2 = Any.
 &nbsp;
 
 ### flags
-*- no description -*
+| Flag | Flag (hex) | Name | Comment |
+| --- | --- | --- | --- |
+| 1 | 0x01 | SPELL_AREA_FLAG_AUTOCAST | If the spell should be automatically applied when the character enters the area. Also prevents the user from removing it. |
+| 2 | 0x02 | SPELL_AREA_FLAG_AUTOREMOVE | If the spell should be automatically removed when the character is inside the area (only works with quest updates) |
 &nbsp;
 
 ### quest_start_status
