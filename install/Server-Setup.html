@@ -1,0 +1,152 @@
+<!--
+title: Server Setup
+description: 
+published: true
+date: 2023-02-08T22:47:08.969Z
+tags: 
+editor: ckeditor
+dateCreated: 2021-08-17T11:24:05.638Z
+-->
+
+<blockquote>
+  <p><mark class="pen-red"><strong>Public Servers</strong></mark></p>
+  <p><mark class="pen-red">The TrinityCore Team and Owners DO NOT in any case sponsor nor support illegal public servers. If you use these projects to run an illegal public server and not for testing and learning it is your own personal choice.</mark></p>
+</blockquote>
+<h1>Server Setup</h1>
+<h2>Extractors</h2>
+<blockquote>
+  <p><strong>Note</strong></p>
+  <p>This part is just a general summary of the overall extraction process - please read more detailed steps for the OS you are working with:</p>
+  <p><strong>Linux Server Setup</strong></p>
+  <p><strong>macOS Server Setup</strong></p>
+  <p><a href="/en/install/Server-Setup/Windows-Server-Setup"><strong>Windows Server Setup</strong></a></p>
+</blockquote>
+<p>&nbsp;</p>
+<p>TrinityCore needs to extract certain files from the World of Warcraft&nbsp;client. You will need to match the client version with the server branch you want to use:&nbsp;</p>
+<ul>
+  <li>3.3.5 branch needs Wrath of the Lich King 3.3.5a client</li>
+  <li>master branch needs the version pointed <a href="https://github.com/TrinityCore/TrinityCore">near the top of github repository</a>.</li>
+</ul>
+<p><mark class="marker-yellow">TrinityCore does not provide any Client Version for download. It is up to the user to get them themselves for master e.g. via Battle.Net</mark>.</p>
+<p>However - Arctium is providing pre-generated data:<br>- 3.3.5: <i>to be added soon</i><br>- master: <a href="https://tc.arctium.io/master/">https://tc.arctium.io/master/</a></p>
+<p>&nbsp;</p>
+<p>By default you will compile the core with tools and you will get the following executable files (.exe on windows platform):&nbsp;</p>
+<ul>
+  <li><strong>mapextractor</strong></li>
+  <li><strong>vmap4extractor</strong></li>
+  <li><strong>vmap4assembler</strong></li>
+  <li><strong>mmaps_generator</strong></li>
+</ul>
+<p><mark class="pen-red"><strong>RECOMMENDATION</strong></mark>: compile tools in <strong>release mode</strong> to save time, debug mode extraction is much longer and it's only needed if you have a crash to report.</p>
+<p>Copy these files after compiling to your World of Warcraft root folder:</p>
+<ul>
+  <li>For 3.3.5, this is where Wow.exe and the Data folder are</li>
+  <li>For master, this where 'World of Warcraft Launcher.exe' and the Data folder are</li>
+</ul>
+<p><strong>TIP</strong>: Browse into your <strong>[Source Location]\TrinityCore\contrib</strong> folder and copy "<strong>extractor.bat</strong>"(for Windows)\"<strong>extractor.sh</strong>"(for Linux) into your root World of Warcraft folder (with the previous files). Run it instead of the executables and choose “4.Extract all” option.</p>
+<p>&nbsp;</p>
+<p>Some of them are optional, but highly recommended:</p>
+<figure class="table">
+  <table>
+    <tbody>
+      <tr>
+        <td>Directory</td>
+        <td>Branch</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>dbc</td>
+        <td>3.3.5 &amp; master</td>
+        <td>Mandatory</td>
+      </tr>
+      <tr>
+        <td>maps</td>
+        <td>3.3.5 &amp; master</td>
+        <td>Mandatory</td>
+      </tr>
+      <tr>
+        <td>vmaps</td>
+        <td>3.3.5 &amp; master</td>
+        <td>Mandatory</td>
+      </tr>
+      <tr>
+        <td>mmaps</td>
+        <td>3.3.5 &amp; master</td>
+        <td>HIGHLY Recommended</td>
+      </tr>
+      <tr>
+        <td>cameras</td>
+        <td>3.3.5 &amp; master</td>
+        <td>Recommended</td>
+      </tr>
+      <tr>
+        <td>gt</td>
+        <td>master</td>
+        <td>Mandatory</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+<p>After extracting all necessary files simply copy all the newly created directories to the directory with worldserver binary. Alternatively you can specify directory where you want to keep them changing DataDir value in worldserver.conf file.</p>
+<p>If you use extractors from other projects, branches or a very outdated TrinityCore Version, it is almost certain that your Server will not recognize the extracted data or even work!</p>
+<p>&nbsp;</p>
+<p>When this is complete you may receive the following message which can be safely ignored.</p>
+<blockquote>
+  <p>Processing Map 724</p>
+  <p>[################################################################]</p>
+  <p>Extracting GameObject models...Extracting World\Wmo\Band\Final_Stage.wmo</p>
+  <p>No such file.</p>
+  <p>Couldn't open RootWmo!!!</p>
+  <p>Done!</p>
+  <p>&nbsp;</p>
+  <p>&nbsp; Extract V4.00 2012_02. Work complete. No errors.</p>
+</blockquote>
+<p>&nbsp;</p>
+<blockquote>
+  <p>On master branch you will see a lot of&nbsp;</p>
+  <p>Can't open WDT for map &lt;a number&gt; - &lt;a name&gt; (FileNameID &lt;number&gt;): FILE NOT FOUND</p>
+  <p>you can ignore this safely.</p>
+</blockquote>
+<p>&nbsp;</p>
+<h2><br>Config Files</h2>
+<p>&nbsp;</p>
+<p>Rename your config files by removing the .dist to get the following:</p>
+<p><strong>worldserver.conf / authserver.conf </strong>for 3.3.5</p>
+<p><strong>worldserver.conf /&nbsp;bnetserver.conf </strong>for master<strong>&nbsp;</strong><br>&nbsp;</p>
+<p>You should check and potentially change the SQL login information.</p>
+<p>Open the files and scroll down \ locate the following:</p>
+<blockquote>
+  <p>LoginDatabaseInfo = "127.0.0.1;3306;trinity;trinity;auth" <strong>worldserver.conf &amp; authserver.conf / bnetserver.conf (for master)</strong> &nbsp; &nbsp;</p>
+  <p>WorldDatabaseInfo = "127.0.0.1;3306;trinity;trinity;world" <strong>worldserver.conf</strong> &nbsp; &nbsp;</p>
+  <p>CharacterDatabaseInfo = "127.0.0.1;3306;trinity;trinity;characters" <strong>worldserver.conf</strong></p>
+</blockquote>
+<p>It follows this structure:</p>
+<blockquote>
+  <p>Variablename = "MySQLIP;Port;Username;Password;database" &nbsp;</p>
+</blockquote>
+<p>&nbsp;</p>
+<p>The following settings must be verified:</p>
+<ul>
+  <li>The hostname (127.0.0.1) can stay the same if Trinity is being installed on the same computer that you run WoW on.<br>Otherwise, follow the instruction in&nbsp;Realmlist Table&nbsp;if this is not the case. #TODO: Link needed</li>
+  <li>The port (3306) is the standard configured value. If you changed the default port on your mysql settings, you must change it accordingly.</li>
+  <li>The username and password can be variable.&nbsp;You can choose to either:<ul>
+      <li>use default trinity / trinity username and password pair.</li>
+      <li>create an unique login within a User Manager within your preferred database management tool&nbsp;(commonly identified by an icon that looks like a person or people) and give it necessary permissions (SELECT, INSERT, UPDATE, DELETE permissions are sufficient, and is much safer).</li>
+    </ul>
+  </li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>RECOMMENDATION:</strong> Read over the config files to get a feeling for what can be set or changed in your server. Most settings are explained with details and examples.</p>
+<blockquote>
+  <p><strong>Pro Tip</strong></p>
+  <p>&nbsp;<i>For most worldserver.conf setting changes, you can simply type&nbsp;<strong>.reload config</strong>&nbsp;in-game to see changes instantly without restarting the server.</i></p>
+</blockquote>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2>Help</h2>
+<p>If you still have any problem, check:</p>
+<ul>
+  <li>Updating or starting with TrinityCore issues, Trouble with your TrinityCore Install / Readme 1st / FAQs</li>
+  <li><a href="https://community.trinitycore.org/">Ask help on the Forum</a></li>
+  <li>If you still have problems, you can try to ask help on IRC, but remember it's not real time 24/7 support, most of people there lives on GMT and they can be sleeping or working.</li>
+</ul>
