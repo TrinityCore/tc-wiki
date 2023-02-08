@@ -2,7 +2,7 @@
 title: world_safe_locs
 description: 
 published: true
-date: 2022-12-20T15:14:04.657Z
+date: 2023-02-08T22:10:07.791Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:38:13.594Z
@@ -31,6 +31,7 @@ New (custom) IDs should be used per expansion as followed:
 | ------------------------ | -------------- | ------------ |
 | Battle for Azeroth (8.x) |          80000 |        89999 |
 | Shadowlands (9.x)        |          90000 |        99999 |
+| Dragonflight (10.x)      |         100000 |       109999 | 
 &nbsp;
 
 ### MapID
