@@ -2,7 +2,7 @@
 title: gameobject
 description: 
 published: true
-date: 2023-01-15T22:31:00.810Z
+date: 2023-02-17T22:41:33.036Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:31:38.234Z
@@ -52,7 +52,7 @@ The GUID ranges are defined as followed:
 | ---------------------------- | ---------------- | -------------- |
 | Vanilla (1.x)                |                1 |         249999 |
 | The Burning Crusade (2.x)    |                1 |         249999 |
-| Wrath of the Lich King (3.x) |                1 |         249999 |
+| Wrath of the Lich King (3.x) |          2000000 |        2999999 |
 | Cataclysm (4.x)              |          3000000 |        3999999 |
 | Mists of Pandaria (5.x)      |          4000000 |        4999999 |
 | Warlords of Draenor (6.x)    |          5000000 |        5999999 |
@@ -60,6 +60,7 @@ The GUID ranges are defined as followed:
 | Battle for Azeroth (8.x)     |          7000000 |        7999999 |
 | Shadowlands (9.x)            |          8000000 |        8999999 |
 | Dragonflight (10.x)          |          9000000 |        9999999 |
+| :warning: Wrath of the Lich King (3.x)        |                1 |         249999 |
 | :warning: Legacy Cataclysm (4.x)              |           200000 |         299999 |
 | :warning: Legacy Mists of Pandaria (5.x)      |           200000 |         299999 |
 | :warning: Legacy Warlords of Draenor (6.x)    |           300000 |         399999 |
