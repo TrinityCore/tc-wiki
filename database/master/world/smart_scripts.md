@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2023-01-31T18:43:14.671Z
+date: 2023-03-01T23:23:27.591Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -177,7 +177,7 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_EVENT_SPELLHIT_TARGET | 31 | SpellID | School | RepeatMin | RepeatMax | | | On target spell hit |
 | SMART_EVENT_DAMAGED | 32 | MinDmg | MaxDmg | RepeatMin | RepeatMax | | | On damaged |
 | SMART_EVENT_DAMAGED_TARGET | 33 | MinDmg | MaxDmg | RepeatMin | RepeatMax | | | On target damaged |
-| SMART_EVENT_MOVEMENTINFORM | 34 | [MovementType](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Movement/MovementDefines.h#L28):<ul><li>0 &rarr; Any</li><li>1 &rarr; Random</li><li>2 &rarr; Waypoint ([waypoint_data.point](/en/database/master/world/waypoint_data#point))</li><li>8 &rarr; Point</li><li>16 &rarr; Effect (Jump)</li></ul> | PointID | | | | | On movement inform |
+| SMART_EVENT_MOVEMENTINFORM | 34 | [MovementType](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Movement/MovementDefines.h#L28):<ul><li>0 &rarr; Any</li><li>1 &rarr; Random</li><li>2 &rarr; Waypoint ([waypoint_data.point](/en/database/master/world/waypoint_data#point))</li><li>8 &rarr; Point</li><li>16 &rarr; Effect (Jump)</li></ul> | PointID (0xFFFFFFFF any) | | | | | On movement inform |
 | SMART_EVENT_SUMMON_DESPAWNED | 35 | [creature_template.entry](/en/database/master/world/creature_template#entry) | CooldownMin | CooldownMax | | | | On summoned unit despawned |
 | SMART_EVENT_CORPSE_REMOVED | 36 | | | | | | | On creature corpse removed |
 | SMART_EVENT_AI_INIT | 37 | | | | | | | On AI init |
