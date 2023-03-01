@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2023-01-01T20:49:09.993Z
+date: 2023-03-01T21:44:46.597Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -165,4 +165,4 @@ These files are shipped with MySQL Server, search for them at program files dire
 2. [TortoiseGit](http://code.google.com/p/tortoisegit/){target=_blank}
 	- This instruction supports Git Extensions only, but TortoiseGit is another viable option if you're comfortable with the process.
   
-<a href="https://dev.trinitycore.info/en/install/Core-Installation/windows-core-installation" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Continue to 'Core Installation'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+<a href="https://trinitycore.info/en/install/Core-Installation/windows-core-installation" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Continue to 'Core Installation'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
