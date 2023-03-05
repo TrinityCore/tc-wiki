@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2022-11-14T03:32:01.711Z
+date: 2023-03-05T11:42:59.333Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -154,6 +154,7 @@ Two conditions with the same SourceType, SourceGroup and SourceEntry but with a 
 | CONDITION_GAMEMASTER | 50 | canBeGM | Always 0 | Always 0 | true if player is gamemaster<br/>(or can be gamemaster) |
 | CONDITION_OBJECT_ENTRY_GUID | 51 | TypeID | entry | guid | true if object is type TypeID<br/>and the entry is 0<br/>or matches entry of the object<br/>or matches guid of the object |
 | CONDITION_TYPE_MASK | 52 | TypeMask | Always 0 | Always 0 | true if object is type object's<br/>TypeMask matches provided TypeMask |
+| CONDITION_BATTLE_PET_COUNT | 53 | SpecieId | count | ComparisonType | true if player has count of battle pet species
 | CONDITION_SCENARIO_STEP | 54 | ScenarioStepId (Only >= 5.0.3)| Always 0 | Always 0 | true if object is at scenario <br> with current step equal to ScenarioStepID |
 | CONDITION_SCENE_IN_PROGRESS | 55 | SceneScriptPackageId | Always 0 | Always 0 | true if player is playing a scene <br> with ScriptPackageId equal to given value |
 | CONDITION_PLAYER_CONDITION | 56 | PlayerConditionId | Always 0 | Always 0 | true if player satisfies PlayerCondition |
