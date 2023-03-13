@@ -2,7 +2,7 @@
 title: creature_default_trainer
 description: 
 published: true
-date: 2023-03-12T22:07:26.850Z
+date: 2023-03-13T08:42:40.512Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:21.129Z
@@ -36,6 +36,7 @@ Creature's melee damage school.
 | 7 | Trainer Hunter |
 | 9 | Trainer Rogue |
 | 11 | Trainer Priest |
+| 13 | Trainer Death Knight |
 | 14 | Trainer Shaman |
 | 16 | Trainer Mage |
 | 31 | Trainer Warlock |
