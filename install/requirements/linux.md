@@ -2,7 +2,7 @@
 title: Linux Requirements
 description: 
 published: true
-date: 2023-03-15T08:39:48.763Z
+date: 2023-03-15T08:44:23.133Z
 tags: requirements, installation, setup, linux
 editor: markdown
 dateCreated: 2021-08-14T00:09:23.038Z
@@ -48,8 +48,8 @@ Debian 11.x (you will need to use su to install the packages)
 
 ```bash
 # For latest mysql-apt repository, check url from https://dev.mysql.com/downloads/repo/apt/
-wget /tmp/https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb
-DEBIAN_FRONTEND=noninteractive dpkg -i /tmp/mysql-apt-config_0.8.24-1_all.deb
+wget https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb -O /tmp/mysql-apt-config_all.deb
+DEBIAN_FRONTEND=noninteractive dpkg -i /tmp/mysql-apt-config_all.deb
 apt-get update
 apt-get install git clang cmake make gcc g++ libmysqlclient-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev libboost-all-dev mysql-server p7zip
 update-alternatives --install /usr/bin/cc cc /usr/bin/clang 100
