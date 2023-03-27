@@ -2,7 +2,7 @@
 title: creature_text
 description: 
 published: true
-date: 2023-03-04T14:45:13.558Z
+date: 2023-03-27T14:39:57.205Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:31.760Z
@@ -66,11 +66,18 @@ The text the creature will say.
 &nbsp;
 
 ### Type
-*- no description -*
+| Value |         Name | Picture example |
+| ----- | ------------ | --------------- |
+|    12 |          Say | ![creature_text_type_say.png](/creature_text_type_say.png) |
+|    14 |         Yell | ![creature_text_type_yell.png](/creature_text_type_yell.png) |
+|    16 |        Emote | ![creature_text_type_emote.png](/creature_text_type_emote.png) |
+|    41 |    BossEmote | ![creature_text_type_boss_emote.png](/creature_text_type_boss_emote.png) |
+|    15 |      Whisper | ![creature_text_type_whisper.png](/creature_text_type_whisper.png) |
+|    42 |  BossWhisper | ![creature_text_type_boss_whisper.png](/creature_text_type_boss_whisper.png) |
 &nbsp;
 
 ### Language
-*- no description -*
+ID from [Languages.db2](https://wow.tools/dbc/?dbc=Languages){target=_blank}
 &nbsp;
 
 ### Probability
@@ -91,7 +98,11 @@ The sound entry this creature will play at the same time the text is executed.
 &nbsp;
 
 ### SoundPlayType
-*- no description -*
+Assigns which packet should be used to send the sound
+|        Type | Value |
+| ----------- | ----- |
+|      Normal |     0 |
+| ObjectSound |     1 |
 &nbsp;
 
 ### BroadcastTextId
