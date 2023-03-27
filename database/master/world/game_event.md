@@ -2,10 +2,10 @@
 title: game_event
 description: 
 published: true
-date: 2022-04-17T18:35:11.062Z
+date: 2023-03-27T15:08:44.882Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T09:30:54.869Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/fishing_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'fishing_loot_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/game_event_arena_seasons" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'game_event_arena_seasons'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -28,27 +28,28 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### eventEntry
-*- no description -*
+Entry of the event. Keep it as low as possible and prevent making holes in the list.
 &nbsp;
 
 ### start_time
-*- no description -*
+Absolute start date of the event. The event will start occurring only if the local time at the server is after the one set here.
 &nbsp;
 
 ### end_time
-*- no description -*
+Absolute end date of the event. The event will stop occurring if the local time at the server is after the one set here.
 &nbsp;
 
 ### occurence
-*- no description -*
+Number of minutes between 2 occurrences of the event. (2880 = 2 days, 1440 = 1 day, etc).
 &nbsp;
 
 ### length
-*- no description -*
+Number of minutes the event will last after the start of the occurrence. (2880 = 2 days, 1440 = 1 day, etc)
+This value must be lower than occurrence one or the event will never stop.
 &nbsp;
 
 ### holiday
-*- no description -*
+HolidayID from [Holidays.db2](https://wow.tools/dbc/?dbc=holidays){target=_blank}
 &nbsp;
 
 ### holidayStage
@@ -56,15 +57,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### description
-*- no description -*
+String containing the name of the event displayed in console each time it starts or stops.
 &nbsp;
 
 ### world_event
-*- no description -*
+This is a boolean field that determines if this game event is a world event or not. 0 = normal event, 1 = world event. If you want conditions for the event, you need to choose world event. For the world event to work, you need to at a minimum, populate [`game_event_condition`](/database/master/world/game_event_condition) and [`game_event_quest_condition`](/database/master/world/game_event_quest_condition).
 &nbsp;
 
 ### announce
-*- no description -*
+| Value |                                       Description |
+| ----- | ------------------------------------------------- |
+|     0 |                                    Don't announce |
+|     1 |                                          Announce |
+|     2 | Use value of `Event.Announce` in worldserver.conf |
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/fishing_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'fishing_loot_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/game_event_arena_seasons" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'game_event_arena_seasons'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
