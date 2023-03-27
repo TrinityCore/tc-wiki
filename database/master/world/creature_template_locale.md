@@ -2,10 +2,10 @@
 title: creature_template_locale
 description: 
 published: true
-date: 2022-04-17T18:35:10.422Z
+date: 2023-03-27T14:21:41.406Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T09:30:21.440Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/creature_template_addon" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'creature_template_addon'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/creature_template_model" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'creature_template_model'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -25,27 +25,38 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### entry
-*- no description -*
+This entry must be the same as [creature_template.entry](/database/master/world/creature_template#entry) and then the row will be used to provide localization support for this creature record.
 &nbsp;
 
 ### locale
-*- no description -*
+|Value|Locale|
+|:---:|:---: |
+|deDE|German|
+|esES|Spanish|
+|esMX|Spanish (Latin American)|
+|frFR|French|
+|itIT|Italian|
+|koKR|Korean|
+|ptBR|Portuguese|
+|ruRU|Russian|
+|zhCN|Chinese (China)|
+|zhTW|Chinese (Taiwan/Traditional)|
 &nbsp;
 
 ### Name
-*- no description -*
+Translated content for [creature_template.name](/database/master/world/creature_template#name) field
 &nbsp;
 
 ### NameAlt
-*- no description -*
+Translated content for [creature_template.femaleName](/database/master/world/creature_template#femaleName) field
 &nbsp;
 
 ### Title
-*- no description -*
+Translated content for [creature_template.subname](/database/master/world/creature_template#subname) field
 &nbsp;
 
 ### TitleAlt
-*- no description -*
+Translated content for [creature_template.TitleAlt](/database/master/world/creature_template#TitleAlt) field
 &nbsp;
 
 ### VerifiedBuild
