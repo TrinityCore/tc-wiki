@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2022-12-19T18:29:08.251Z
+date: 2023-03-30T23:09:44.204Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:15.744Z
@@ -26,8 +26,6 @@ dateCreated: 2021-08-30T09:30:15.744Z
 | [TitleAlt](#titlealt) | mediumtext |  |  | YES | NULL |  |  |
 | [IconName](#iconname) | varchar(64) |  |  | YES | NULL |  |  |
 | [gossip_menu_id](#gossip_menu_id) | int | unsigned |  | NO | 0 |  |  |
-| [minlevel](#minlevel) | smallint | signed |  | NO | 1 |  |  |
-| [maxlevel](#maxlevel) | smallint | signed |  | NO | 1 |  |  |
 | [HealthScalingExpansion](#healthscalingexpansion) | int | signed |  | NO | 0 |  |  |
 | [RequiredExpansion](#requiredexpansion) | int | signed |  | NO | 0 |  |  |
 | [VignetteID](#vignetteid) | int | signed |  | NO | 0 |  |  |
@@ -150,14 +148,6 @@ Used to tell the player what kind of NPC this creature is.
 
 ### gossip_menu_id
 The gossip ID of this creature. This field is obtained from sniff (update fields). If you can not sniff this value, and need to make one up, it must be > 50000. This field is the link to [gossip_menu.MenuId](/en/database/master/world/gossip_menu#menuid).
-&nbsp;
-
-### minlevel
-The minimum level of the creature if the creature has a level range.
-&nbsp;
-
-### maxlevel
-The maximum level of the creature if the creature has a level range. When added to world, a level in chosen in the specified level range.
 &nbsp;
 
 ### HealthScalingExpansion
