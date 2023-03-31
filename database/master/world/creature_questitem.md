@@ -2,7 +2,7 @@
 title: creature_questitem
 description: 
 published: true
-date: 2022-10-18T16:40:07.189Z
+date: 2022-11-21T21:04:10.293Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:07.948Z

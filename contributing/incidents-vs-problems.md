@@ -2,7 +2,7 @@
 title: Incidents vs. Problems
 description: 
 published: true
-date: 2022-09-28T00:14:26.831Z
+date: 2022-11-21T22:47:21.066Z
 tags: code
 editor: markdown
 dateCreated: 2022-09-28T00:14:26.831Z

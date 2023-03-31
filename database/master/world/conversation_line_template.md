@@ -2,7 +2,7 @@
 title: conversation_line_template
 description: Holds additional information for conversation lines, e.g. which actor is used.
 published: true
-date: 2022-05-12T16:13:37.997Z
+date: 2022-11-21T21:03:46.252Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:35.885Z

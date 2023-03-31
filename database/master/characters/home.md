@@ -2,10 +2,10 @@
 title: Characters
 description: 
 published: true
-date: 2022-12-19T18:06:28.952Z
+date: 2022-12-19T18:37:22.976Z
 tags: database, master, characters
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-28T20:36:56.913Z
 ---
 
 ## a

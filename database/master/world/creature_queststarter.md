@@ -2,7 +2,7 @@
 title: creature_queststarter
 description: 
 published: true
-date: 2022-07-24T07:47:00.615Z
+date: 2022-11-21T21:04:12.265Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:10.521Z

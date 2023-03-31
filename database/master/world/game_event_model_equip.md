@@ -2,7 +2,7 @@
 title: game_event_model_equip
 description: 
 published: true
-date: 2023-03-31T15:27:25.305Z
+date: 2023-03-31T15:27:26.893Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:31:15.199Z

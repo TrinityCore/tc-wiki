@@ -2,7 +2,7 @@
 title: game_event_battleground_holiday
 description: 
 published: true
-date: 2023-03-27T15:20:32.916Z
+date: 2023-03-27T15:20:34.469Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:59.960Z

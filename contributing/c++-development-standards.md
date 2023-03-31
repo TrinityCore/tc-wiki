@@ -2,7 +2,7 @@
 title: C++ Development Standards
 description: 
 published: true
-date: 2022-09-27T18:18:39.274Z
+date: 2022-11-21T22:47:15.242Z
 tags: standard, code, c++, cpp
 editor: markdown
 dateCreated: 2022-09-27T18:04:36.070Z

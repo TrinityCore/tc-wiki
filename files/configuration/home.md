@@ -2,7 +2,7 @@
 title: Configuration
 description: 
 published: true
-date: 2022-04-12T17:46:56.444Z
+date: 2022-11-21T22:46:39.093Z
 tags: files, configuration
 editor: markdown
 dateCreated: 2022-04-12T17:46:56.444Z

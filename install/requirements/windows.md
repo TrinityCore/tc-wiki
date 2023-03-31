@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2023-03-04T16:09:52.673Z
+date: 2023-03-04T16:09:54.366Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z

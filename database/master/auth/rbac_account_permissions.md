@@ -2,7 +2,7 @@
 title: rbac_account_permissions
 description: 
 published: false
-date: 2023-01-08T00:14:50.056Z
+date: 2023-01-08T00:14:51.680Z
 tags: database, auth, master
 editor: markdown
 dateCreated: 2021-08-26T02:17:09.750Z

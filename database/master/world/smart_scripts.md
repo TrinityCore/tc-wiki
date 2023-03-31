@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2023-03-01T23:23:27.591Z
+date: 2023-03-01T23:23:29.783Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z

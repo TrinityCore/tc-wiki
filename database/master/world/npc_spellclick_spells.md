@@ -2,7 +2,7 @@
 title: npc_spellclick_spells
 description: 
 published: true
-date: 2022-09-11T17:39:14.633Z
+date: 2022-11-21T21:06:24.256Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:33:05.858Z

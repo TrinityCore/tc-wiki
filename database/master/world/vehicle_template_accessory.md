@@ -2,7 +2,7 @@
 title: vehicle_template_accessory
 description: 
 published: true
-date: 2023-01-03T01:53:50.684Z
+date: 2023-01-03T01:53:52.332Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:37:57.960Z

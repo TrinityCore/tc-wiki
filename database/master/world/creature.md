@@ -2,7 +2,7 @@
 title: creature
 description: 
 published: true
-date: 2023-02-17T22:41:34.212Z
+date: 2023-02-17T22:41:36.255Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:41.375Z

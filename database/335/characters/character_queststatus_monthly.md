@@ -2,7 +2,7 @@
 title: character_queststatus_monthly
 description: 
 published: true
-date: 2022-04-17T20:59:23.105Z
+date: 2022-11-21T21:23:57.178Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:00:00.934Z

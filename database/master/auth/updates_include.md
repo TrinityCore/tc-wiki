@@ -2,7 +2,7 @@
 title: updates_include
 description: List of directories where we want to include sql updates.
 published: true
-date: 2022-04-17T20:19:41.090Z
+date: 2022-11-21T20:58:50.218Z
 tags: database, auth, master
 editor: markdown
 dateCreated: 2021-08-26T03:12:59.858Z

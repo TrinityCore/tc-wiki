@@ -2,7 +2,7 @@
 title: game_event_npcflag
 description: 
 published: true
-date: 2023-03-31T15:31:29.463Z
+date: 2023-03-31T15:31:31.034Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:31:20.317Z

@@ -2,7 +2,7 @@
 title: conversation_template
 description: 
 published: true
-date: 2022-05-12T12:42:46.849Z
+date: 2022-11-21T21:03:48.247Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:38.658Z

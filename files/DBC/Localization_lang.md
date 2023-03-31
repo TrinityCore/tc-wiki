@@ -2,7 +2,7 @@
 title: Localization lang
 description: 
 published: false
-date: 2023-03-04T19:10:53.009Z
+date: 2023-03-04T19:10:54.519Z
 tags: 
 editor: markdown
 dateCreated: 2023-03-04T06:22:32.729Z

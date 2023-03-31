@@ -2,7 +2,7 @@
 title: world_safe_locs
 description: 
 published: true
-date: 2023-02-08T22:10:07.791Z
+date: 2023-02-08T22:10:10.162Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:38:13.594Z

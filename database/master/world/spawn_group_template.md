@@ -2,7 +2,7 @@
 title: spawn_group_template
 description: 
 published: true
-date: 2022-08-04T02:10:44.452Z
+date: 2022-11-21T21:08:59.219Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:37.700Z

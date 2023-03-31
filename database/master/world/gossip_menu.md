@@ -2,7 +2,7 @@
 title: gossip_menu
 description: 
 published: true
-date: 2022-08-14T19:16:23.084Z
+date: 2022-11-21T21:05:44.276Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:32:09.447Z

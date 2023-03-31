@@ -2,7 +2,7 @@
 title: creature_onkill_reputation
 description: 
 published: true
-date: 2022-07-24T07:03:02.576Z
+date: 2022-11-21T21:04:06.350Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:02.872Z

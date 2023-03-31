@@ -2,8 +2,8 @@
 title: spell_group_stack_rules
 description: 
 published: true
-date: 2023-01-01T03:04:52.614Z
-tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
+date: 2023-01-01T03:04:54.226Z
+tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
 editor: markdown
 dateCreated: 2021-08-30T22:09:35.133Z
 ---

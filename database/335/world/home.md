@@ -2,10 +2,10 @@
 title: World
 description: 
 published: true
-date: 2022-04-17T21:02:04.267Z
+date: 2022-11-21T21:32:12.438Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T22:12:46.204Z
 ---
 
 ## a

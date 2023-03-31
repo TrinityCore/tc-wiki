@@ -2,7 +2,7 @@
 title: The Issuetracker and You
 description: 
 published: true
-date: 2022-09-28T00:36:20.472Z
+date: 2022-11-21T22:47:23.162Z
 tags: issue, report, bug
 editor: markdown
 dateCreated: 2022-09-28T00:36:20.472Z

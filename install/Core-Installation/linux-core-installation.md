@@ -2,7 +2,7 @@
 title: Linux Core Installation
 description: 
 published: true
-date: 2022-04-28T19:51:47.500Z
+date: 2022-11-21T20:57:49.405Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-14T21:37:11.567Z

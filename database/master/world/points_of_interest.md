@@ -2,7 +2,7 @@
 title: points_of_interest
 description: 
 published: true
-date: 2022-10-25T20:17:56.388Z
+date: 2022-11-21T21:07:30.349Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:34:33.819Z

@@ -2,7 +2,7 @@
 title: Standard Operating Procedures
 description: 
 published: true
-date: 2022-09-28T00:37:41.644Z
+date: 2022-11-21T22:47:11.153Z
 tags: contributing, standard, code, syntax, headers, pull request, sql
 editor: markdown
 dateCreated: 2022-09-27T00:20:47.447Z

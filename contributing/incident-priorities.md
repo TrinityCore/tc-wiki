@@ -2,7 +2,7 @@
 title: Incident Priorities
 description: 
 published: true
-date: 2022-09-28T00:11:40.102Z
+date: 2022-11-21T22:47:19.105Z
 tags: code, incident, itil
 editor: markdown
 dateCreated: 2022-09-28T00:11:40.102Z

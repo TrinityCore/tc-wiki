@@ -2,7 +2,7 @@
 title: areatrigger
 description: 
 published: true
-date: 2022-12-25T18:31:50.958Z
+date: 2022-12-25T18:31:53.036Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:28:46.460Z

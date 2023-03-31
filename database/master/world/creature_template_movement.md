@@ -2,7 +2,7 @@
 title: creature_template_movement
 description: 
 published: true
-date: 2022-12-30T22:01:10.884Z
+date: 2022-12-30T22:01:12.733Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:26.571Z

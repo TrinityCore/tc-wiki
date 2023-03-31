@@ -2,8 +2,8 @@
 title: spell_group
 description: 
 published: true
-date: 2023-01-01T03:04:47.778Z
-tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
+date: 2023-01-01T03:04:49.764Z
+tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
 editor: markdown
 dateCreated: 2021-08-30T22:09:32.484Z
 ---

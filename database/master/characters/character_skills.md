@@ -2,7 +2,7 @@
 title: character_skills
 description: 
 published: true
-date: 2023-02-14T19:10:31.891Z
+date: 2023-02-14T19:10:34.171Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T07:34:02.674Z

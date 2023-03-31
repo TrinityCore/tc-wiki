@@ -2,8 +2,8 @@
 title: Auth
 description: 
 published: true
-date: 2023-01-08T00:15:42.155Z
-tags: database, auth, master
+date: 2023-01-08T00:15:43.773Z
+tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-28T03:14:52.632Z
 ---

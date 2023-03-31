@@ -2,8 +2,8 @@
 title: creature_default_trainer
 description: 
 published: true
-date: 2023-03-13T08:42:40.512Z
-tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
+date: 2023-03-13T08:42:42.141Z
+tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
 editor: markdown
 dateCreated: 2021-08-30T22:03:21.129Z
 ---

@@ -2,7 +2,7 @@
 title: File Headers
 description: 
 published: true
-date: 2022-09-28T00:06:28.430Z
+date: 2022-11-21T22:47:17.205Z
 tags: header, copyright
 editor: markdown
 dateCreated: 2022-09-28T00:06:28.430Z

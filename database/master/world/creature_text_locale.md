@@ -2,7 +2,7 @@
 title: creature_text_locale
 description: 
 published: true
-date: 2023-03-27T14:45:31.168Z
+date: 2023-03-27T14:45:32.754Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:34.430Z

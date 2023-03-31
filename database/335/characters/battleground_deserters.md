@@ -2,7 +2,7 @@
 title: battleground_deserters
 description: 
 published: true
-date: 2022-04-17T20:59:22.436Z
+date: 2022-11-21T21:23:05.237Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:58:51.310Z

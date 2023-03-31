@@ -2,7 +2,7 @@
 title: Client Setup
 description: 
 published: true
-date: 2021-09-20T14:49:14.821Z
+date: 2022-11-21T21:32:20.209Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-20T14:45:08.138Z

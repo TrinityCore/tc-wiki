@@ -2,7 +2,7 @@
 title: SOAP with TrinityCore
 description: How to interact with TC using SOAP 
 published: true
-date: 2023-01-04T17:24:29.904Z
+date: 2023-01-04T17:24:31.583Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-28T22:20:35.183Z

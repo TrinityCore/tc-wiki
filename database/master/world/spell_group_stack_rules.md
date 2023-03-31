@@ -2,7 +2,7 @@
 title: spell_group_stack_rules
 description: 
 published: true
-date: 2023-01-01T03:05:01.634Z
+date: 2023-01-01T03:05:03.193Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:58.554Z

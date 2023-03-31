@@ -2,7 +2,7 @@
 title: lfg_dungeon_template
 description: 
 published: true
-date: 2022-05-25T14:15:00.842Z
+date: 2022-11-21T21:06:12.259Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:32:50.477Z

@@ -2,7 +2,7 @@
 title: character_banned
 description: 
 published: true
-date: 2022-04-17T20:59:22.696Z
+date: 2022-11-21T21:23:27.296Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:59:20.380Z

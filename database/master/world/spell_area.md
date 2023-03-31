@@ -2,7 +2,7 @@
 title: spell_area
 description: 
 published: true
-date: 2023-02-08T22:20:16.262Z
+date: 2023-02-08T22:20:18.095Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:40.299Z

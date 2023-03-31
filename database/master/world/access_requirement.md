@@ -2,7 +2,7 @@
 title: access_requirement
 description: This table contains the access requirements to enter an instance.
 published: true
-date: 2022-09-27T11:43:46.821Z
+date: 2022-11-21T20:59:06.348Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-29T20:43:51.863Z

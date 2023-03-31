@@ -2,7 +2,7 @@
 title: npc_text
 description: 
 published: true
-date: 2022-10-29T22:36:40.277Z
+date: 2022-11-21T21:06:26.396Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-30T09:33:08.406Z

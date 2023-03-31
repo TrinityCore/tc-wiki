@@ -2,7 +2,7 @@
 title: achievement_reward
 description: This table describes the reward that you will receive when you obtain a given achievement.
 published: true
-date: 2022-04-17T18:35:04.762Z
+date: 2022-11-21T21:03:05.263Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:28:41.306Z

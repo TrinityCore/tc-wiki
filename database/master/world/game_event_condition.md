@@ -2,7 +2,7 @@
 title: game_event_condition
 description: 
 published: true
-date: 2023-03-27T15:33:28.139Z
+date: 2023-03-27T15:33:29.737Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:31:02.498Z

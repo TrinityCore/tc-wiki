@@ -2,7 +2,7 @@
 title: Trinitycore Wiki
 description: 
 published: true
-date: 2023-01-08T02:08:50.570Z
+date: 2023-01-08T02:08:52.222Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T17:47:17.543Z

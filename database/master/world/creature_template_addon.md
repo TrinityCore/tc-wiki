@@ -2,7 +2,7 @@
 title: creature_template_addon
 description: 
 published: true
-date: 2023-01-13T01:24:33.750Z
+date: 2023-01-13T01:24:35.571Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:18.868Z

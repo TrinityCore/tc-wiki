@@ -2,7 +2,7 @@
 title: creature_summoned_data
 description: 
 published: true
-date: 2022-12-19T18:29:08.022Z
+date: 2022-12-19T18:40:38.300Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-03T15:50:59.544Z

@@ -2,7 +2,7 @@
 title: trinity_string
 description: 
 published: true
-date: 2022-09-27T11:22:29.842Z
+date: 2022-11-21T21:09:45.257Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:37:45.157Z

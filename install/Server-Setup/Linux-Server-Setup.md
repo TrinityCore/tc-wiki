@@ -2,7 +2,7 @@
 title: Linux Server Setup
 description: 
 published: true
-date: 2022-09-27T12:07:29.147Z
+date: 2022-11-21T22:47:13.280Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-27T12:07:29.147Z
