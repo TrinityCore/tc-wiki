@@ -2,10 +2,10 @@
 title: game_event_quest_condition
 description: 
 published: true
-date: 2022-02-06T18:26:20.416Z
+date: 2023-03-31T16:10:15.320Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-30T09:31:27.894Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/game_event_prerequisite" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'game_event_prerequisite'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/game_event_seasonal_questrelation" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'game_event_seasonal_questrelation'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -22,19 +22,19 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### eventEntry
-*- no description -*
+This field signifies the [`game_event.eventEntry`](/database/master/world/game_event#eventEntry)
 &nbsp;
 
 ### quest
-*- no description -*
+The [`quest_template.entry`](/database/master/world/quest_template#entry) that will trigger this condition.
 &nbsp;
 
 ### condition_id
-*- no description -*
+The [`game_event_condition.condition_id`](/database/master/world/game_event_condition#condition_id) that will be triggered on quest complete.
 &nbsp;
 
 ### num
-*- no description -*
+The number of "units" (for lack of a better word) that will be added to the condition to fulfill the required number needed for the condition.
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/game_event_prerequisite" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'game_event_prerequisite'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/game_event_seasonal_questrelation" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'game_event_seasonal_questrelation'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
