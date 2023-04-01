@@ -2,7 +2,7 @@
 title: game_weather
 description: 
 published: true
-date: 2022-11-21T21:05:18.307Z
+date: 2023-04-01T23:12:18.383Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:31:35.583Z
@@ -32,55 +32,55 @@ dateCreated: 2021-08-30T09:31:35.583Z
 ## Description of fields
 
 ### zone
-*- no description -*
+This field contains the zone id from the [AreaTable.ID](https://wow.tools/dbc/?dbc=areatable){target=blank} that you wish to change the weather for.
 &nbsp;
 
 ### spring_rain_chance
-*- no description -*
+Percent chance for rain in the Spring
 &nbsp;
 
 ### spring_snow_chance
-*- no description -*
+Percentage chance for snow to occur in the Spring
 &nbsp;
 
 ### spring_storm_chance
-*- no description -*
+Percent chance for a sand storm to occur in the Spring
 &nbsp;
 
 ### summer_rain_chance
-*- no description -*
+Percent chance for rain to occur in the Summer
 &nbsp;
 
 ### summer_snow_chance
-*- no description -*
+Percent chance for snow to occur in the Summer
 &nbsp;
 
 ### summer_storm_chance
-*- no description -*
+Percent chance for a sand storm to occur in the Summer
 &nbsp;
 
 ### fall_rain_chance
-*- no description -*
+Percent chance for rain to occur in the Fall
 &nbsp;
 
 ### fall_snow_chance
-*- no description -*
+Percent chance for snow to occur in the Fall
 &nbsp;
 
 ### fall_storm_chance
-*- no description -*
+Percent chance for a sand storm to occur in the Fall
 &nbsp;
 
 ### winter_rain_chance
-*- no description -*
+Percentage chance for rain to occur in the Winter
 &nbsp;
 
 ### winter_snow_chance
-*- no description -*
+Percentage chance for snow to occur in the Winter
 &nbsp;
 
 ### winter_storm_chance
-*- no description -*
+Percentage chance for a sand storm to occur in the Winter
 &nbsp;
 
 ### ScriptName
