@@ -2,7 +2,7 @@
 title: game_tele
 description: 
 published: true
-date: 2022-11-21T21:05:16.263Z
+date: 2023-04-01T23:08:19.107Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:31:32.965Z
@@ -25,31 +25,31 @@ dateCreated: 2021-08-30T09:31:32.965Z
 ## Description of fields
 
 ### id
-*- no description -*
+The ID of the teleport location. This number is unique to every location added.
 &nbsp;
 
 ### position_x
-*- no description -*
+The x-axis coordinate of the teleport location. This can be attained by using the `.gps` command.
 &nbsp;
 
 ### position_y
-*- no description -*
+The y-axis coordinate of the teleport location. This can be attained by using the `.gps` command.
 &nbsp;
 
 ### position_z
-*- no description -*
+The z-axis coordinate of the teleport location. This can be attained by using the `.gps` command.
 &nbsp;
 
 ### orientation
-*- no description -*
+The direction that the player will face after arriving at the teleport location. This can be attained by using the `.gps` command.
 &nbsp;
 
 ### map
-*- no description -*
+The map ID of the location. See the [Map.ID](https://wow.tools/dbc/?dbc=map){target=blank} for the IDs of all of the zones. This can also be attained by using the `.gps` command.
 &nbsp;
 
 ### name
-*- no description -*
+A descriptive name for the teleport location. The name cannot have any spaces in it. It is also not recommended to use special characters such as periods, commas, slashes, etc...
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/game_event_seasonal_questrelation" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'game_event_seasonal_questrelation'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/game_weather" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'game_weather'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
