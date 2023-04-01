@@ -2,7 +2,7 @@
 title: gossip_menu_option
 description: 
 published: true
-date: 2022-12-19T18:40:42.243Z
+date: 2023-04-01T23:40:11.744Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:32:12.004Z
@@ -36,7 +36,7 @@ dateCreated: 2021-08-30T09:32:12.004Z
 ## Description of fields
 
 ### MenuID
-*- no description -*
+Gossip entry from [`gossip_menu.MenuID`](/database/master/world/gossip_menu#MenuID) this option is associated with.
 &nbsp;
 
 ### GossipOptionID
@@ -44,7 +44,8 @@ dateCreated: 2021-08-30T09:32:12.004Z
 &nbsp;
 
 ### OptionID
-*- no description -*
+The id associated with this gossip_menu_option. Must be unique for a given menu starting from 0 (zero).
+Value increments by 1 if there are multiple options in the same gossip_menu.
 &nbsp;
 
 ### OptionNpc
@@ -52,11 +53,12 @@ dateCreated: 2021-08-30T09:32:12.004Z
 &nbsp;
 
 ### OptionText
-*- no description -*
+This is the text that you want to be displayed in the player selectable option. Examples would be: "Please train me.", "I would like to browse your goods.", "Learn Dual Spec".
+If field `OptionBroadcastTextID` contains a valid [`broadcast_text.ID`](/database/master/world/broadcast_text#ID), it links to broadcast_text so the content from broadcast_text is displayed directly.
 &nbsp;
 
 ### OptionBroadcastTextID
-*- no description -*
+The ID of the `OptionText` text in [`broadcast_text.ID`](/database/master/world/broadcast_text#ID). Responsible for locales.
 &nbsp;
 
 ### Language
@@ -88,11 +90,11 @@ dateCreated: 2021-08-30T09:32:12.004Z
 &nbsp;
 
 ### BoxText
-*- no description -*
+Text displayed in a box after selecting the gossip option.
 &nbsp;
 
 ### BoxBroadcastTextID
-*- no description -*
+The ID of the `BoxText` text in [`broadcast_text.ID`](/database/master/world/broadcast_text#ID). Responsible for locales.
 &nbsp;
 
 ### SpellID
