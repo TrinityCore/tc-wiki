@@ -2,7 +2,7 @@
 title: waypoint_data
 description: 
 published: true
-date: 2022-11-21T21:10:01.272Z
+date: 2023-04-02T00:32:55.380Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:38:05.732Z
@@ -29,47 +29,59 @@ dateCreated: 2021-08-30T09:38:05.732Z
 ## Description of fields
 
 ### id
-*- no description -*
+Unique ID for each path.
+
+The TDB standard way of assigning an ID is to multiply GUID of the creature by 10.
+
+So for a creature with a GUID of 1234 the path ID would be 12340. Any waypoints submitted to TDB should follow this standard.
+
+However, this is only a suggestion when creating your own waypoints. This ID can be anything you want as long as [`creature_addon.path_id`](/database/master/world/creature_addon#path_id) is set to the ID you pick here for the creature you are creating a waypoint for.
 &nbsp;
 
 ### point
-*- no description -*
+Unique point ID for each point in a path. Starts at 1 and increases with each path.
 &nbsp;
 
 ### position_x
-*- no description -*
+The X coordinate of the destination waypoint.
 &nbsp;
 
 ### position_y
-*- no description -*
+The Y coordinate of the destination waypoint.
 &nbsp;
 
 ### position_z
-*- no description -*
+The Z coordinate of the destination waypoint.
 &nbsp;
 
 ### orientation
-*- no description -*
+The orientation when waypoint is reached. 
 &nbsp;
 
 ### delay
-*- no description -*
+Time to wait (in ms) before running to next point.
 &nbsp;
 
 ### move_type
-*- no description -*
+| Name | Value |
+| ---- | ----- |
+| Walk | 0 |
+| Run | 1 |
+| Fly | 2 |
 &nbsp;
 
 ### action
-*- no description -*
+ID of the action to be performed. See [`waypoint_scripts.id`](/database/master/world/waypoint_scripts#id).
 &nbsp;
 
 ### action_chance
-*- no description -*
+Percentage of action happening (0-100%).
 &nbsp;
 
 ### wpguid
-*- no description -*
+This field is used by the core and is **NOT to be set by hand**.
+
+This field holds the GUID of the waypoint visual when you enable the visual mode for waypoints.
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/warden_checks" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'warden_checks'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/waypoint_scripts" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'waypoint_scripts'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
