@@ -2,7 +2,7 @@
 title: gameobject_template_locale
 description: 
 published: true
-date: 2022-11-21T21:05:38.249Z
+date: 2023-04-02T00:14:04.393Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:32:01.684Z
@@ -24,19 +24,30 @@ dateCreated: 2021-08-30T09:32:01.684Z
 ## Description of fields
 
 ### entry
-*- no description -*
+Entry of the gameobject, see [`gameobject_template.entry`](/database/master/world/gameobject_template#entry)
 &nbsp;
 
 ### locale
-*- no description -*
+|Value|Locale|
+|:---:|:---: |
+|deDE|German|
+|esES|Spanish|
+|esMX|Spanish (Latin American)|
+|frFR|French|
+|itIT|Italian|
+|koKR|Korean|
+|ptBR|Portuguese|
+|ruRU|Russian|
+|zhCN|Chinese (China)|
+|zhTW|Chinese (Taiwan/Traditional)|
 &nbsp;
 
 ### name
-*- no description -*
+Name for the related `locale`
 &nbsp;
 
 ### castBarCaption
-*- no description -*
+CastBarCaption for the related `locale`
 &nbsp;
 
 ### unk1
