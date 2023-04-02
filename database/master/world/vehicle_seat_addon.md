@@ -2,7 +2,7 @@
 title: vehicle_seat_addon
 description: 
 published: true
-date: 2023-01-03T01:05:51.893Z
+date: 2023-04-02T00:38:33.263Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-12-21T22:44:15.487Z
@@ -25,7 +25,7 @@ dateCreated: 2021-12-21T22:44:15.487Z
 ## Description of fields
 
 ### SeatEntry
-The ID from VehicleSeatEntry.dbc.
+The ID from [VehicleSeatEntry.db2](https://wow.tools/dbc/?dbc=VehicleSeatEntry){target=blank}.
 &nbsp;
 
 ### SeatOrientation
