@@ -2,7 +2,7 @@
 title: trainer_spell
 description: 
 published: true
-date: 2022-11-21T21:09:41.280Z
+date: 2023-04-02T01:47:37.276Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:37:39.919Z
@@ -28,39 +28,39 @@ dateCreated: 2021-08-30T09:37:39.919Z
 ## Description of fields
 
 ### TrainerId
-*- no description -*
+ID referencing [`trainer.Id`](/database/master/world/trainer#Id)
 &nbsp;
 
 ### SpellId
-*- no description -*
+The ID of spell being taught from [Spell.db2](https://wow.tools/dbc/?dbc=Spell){target=blank}
 &nbsp;
 
 ### MoneyCost
-*- no description -*
+The cost in copper for the spell being taught.
 &nbsp;
 
 ### ReqSkillLine
-*- no description -*
+The ID of the skill from [SkillLine.db2](https://wow.tools/dbc/?dbc=SkillLine){target=blank}
 &nbsp;
 
 ### ReqSkillRank
-*- no description -*
+The minimum level of the rank required to be taught the spell.
 &nbsp;
 
 ### ReqAbility1
-*- no description -*
+Required ability 1, referencing spell from [Spell.db2](https://wow.tools/dbc/?dbc=Spell){target=blank}
 &nbsp;
 
 ### ReqAbility2
-*- no description -*
+Required ability 2, referencing spell from [Spell.db2](https://wow.tools/dbc/?dbc=Spell){target=blank}
 &nbsp;
 
 ### ReqAbility3
-*- no description -*
+Required ability 3, referencing spell from [Spell.db2](https://wow.tools/dbc/?dbc=Spell){target=blank}
 &nbsp;
 
 ### ReqLevel
-*- no description -*
+The required level before you can be taught the spell.
 &nbsp;
 
 ### VerifiedBuild
