@@ -2,7 +2,7 @@
 title: transports
 description: 
 published: true
-date: 2022-11-21T21:09:43.266Z
+date: 2023-04-02T00:43:53.600Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:37:42.553Z
@@ -25,15 +25,15 @@ dateCreated: 2021-08-30T09:37:42.553Z
 ## Description of fields
 
 ### guid
-*- no description -*
+Unique identifier for transport. When adding a new one, simply use the max(guid)+1. 
 &nbsp;
 
 ### entry
-*- no description -*
+This is entry to be used for this transport from [`gameobject_template.entry`](/database/master/world/gameobject_template#entry) It must be a type 15 (MOTransport) game object.
 &nbsp;
 
 ### name
-*- no description -*
+This is an arbitrary name that is only used to describe this transport entry.
 &nbsp;
 
 ### phaseUseFlags
