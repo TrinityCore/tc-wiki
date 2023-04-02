@@ -2,7 +2,7 @@
 title: vehicle_accessory
 description: 
 published: true
-date: 2023-01-03T02:01:06.673Z
+date: 2023-04-02T00:39:58.993Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:37:52.875Z
@@ -35,7 +35,7 @@ The entry from creature_template of the creature to be used as a passenger of th
 &nbsp;
 
 ### seat_id
-The vehicle seat in which the passenger is spawned. Each VehicleID has a given amount of seats which you can consult on [Vehicle.dbc](https://wow.tools/dbc/?dbc=vehicle&build=9.2.7.45745#page=1){target=_blank} under Seat[Index]. You can consult each VehicleSeat's ID parameters on [VehicleSeat.dbc](https://wow.tools/dbc/?dbc=vehicleseat&build=10.0.5.47215#page=1){target=_blank}.
+The vehicle seat in which the passenger is spawned. Each VehicleID has a given amount of seats which you can consult on [Vehicle.db2](https://wow.tools/dbc/?dbc=vehicle){target=_blank} under Seat[Index]. You can consult each VehicleSeat's ID parameters on [VehicleSeat.db2](https://wow.tools/dbc/?dbc=vehicleseat){target=_blank}.
 &nbsp;
 
 ### minion
