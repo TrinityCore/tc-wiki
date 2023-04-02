@@ -2,7 +2,7 @@
 title: trainer
 description: 
 published: true
-date: 2023-04-02T01:38:37.638Z
+date: 2023-04-02T01:41:24.379Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:37:34.783Z
@@ -22,7 +22,7 @@ dateCreated: 2021-08-30T09:37:34.783Z
 ## Description of fields
 
 ### Id
-For trainer, this field signifies a unique trainer ID. It is to this ID that all spells are tied to in `trainer_spell` table.
+For trainer, this field signifies a unique trainer ID. It is to this ID that all spells are tied to in [`trainer_spell`](/database/master/world/trainer_spell) table.
 &nbsp;
 
 ### Type
