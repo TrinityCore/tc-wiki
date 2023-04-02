@@ -2,7 +2,7 @@
 title: trainer
 description: 
 published: true
-date: 2022-11-21T21:09:37.234Z
+date: 2023-04-02T01:38:37.638Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:37:34.783Z
@@ -22,15 +22,20 @@ dateCreated: 2021-08-30T09:37:34.783Z
 ## Description of fields
 
 ### Id
-*- no description -*
+For trainer, this field signifies a unique trainer ID. It is to this ID that all spells are tied to in `trainer_spell` table.
 &nbsp;
 
 ### Type
-*- no description -*
+| Name | Value |
+| ---- | ----- |
+| None | 0 |
+| Talent | 1 |
+| Tradeskill | 2 |
+| Pet | 3 |
 &nbsp;
 
 ### Greeting
-*- no description -*
+This is the text shown, once a trainer window has been opened. **This is not the gossip text**.
 &nbsp;
 
 ### VerifiedBuild
