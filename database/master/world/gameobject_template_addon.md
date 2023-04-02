@@ -2,7 +2,7 @@
 title: gameobject_template_addon
 description: 
 published: true
-date: 2022-11-21T21:05:36.310Z
+date: 2023-04-02T00:09:28.383Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:31:59.104Z
@@ -30,23 +30,33 @@ dateCreated: 2021-08-30T09:31:59.104Z
 ## Description of fields
 
 ### entry
-*- no description -*
+Entry of the gameobject, see [`gameobject_template.entry`](/database/master/world/gameobject_template#entry)
 &nbsp;
 
 ### faction
-*- no description -*
+Faction of the gameobject, referencing [Faction.db2](https://wow.tools/dbc/?dbc=Faction){target=blank}
 &nbsp;
 
 ### flags
-*- no description -*
+| Flag | Name | Description |
+| ---- | ---- | ----------- |
+| 0x00000001 | GO_FLAG_IN_USE | Gameobject in use - Disables interaction while being animated |
+| 0x00000002 | GO_FLAG_LOCKED | Makes the Gameobject Locked. Requires a key, spell, or event to be opened. "Locked" appears in tooltip |
+| 0x00000004 | GO_FLAG_INTERACT_COND | Untargetable, cannot interact |
+| 0x00000008 | GO_FLAG_TRANSPORT | Gameobject can transport (boat, elevator, car) |
+| 0x00000010 | GO_FLAG_NOT_SELECTABLE | Not selectable (Not even in GM-mode) |
+| 0x00000020 | GO_FLAG_NODESPAWN | Never despawns. Typical for gameobjects with on/off state (doors for example) |
+| 0x00000040 | GO_FLAG_TRIGGERED | typically, summoned objects. Triggered by spell or other events |
+| 0x00000200 | GO_FLAG_DAMAGED | Gameobject has been siege damaged |
+| 0x00000400 | GO_FLAG_DESTROYED | Gameobject has been destroyed |
 &nbsp;
 
 ### mingold
-*- no description -*
+Minimum money, in copper, that the gameobject can drop when accessed / used.
 &nbsp;
 
 ### maxgold
-*- no description -*
+Maximum money, in copper, that the gameobject can drop when accessed / used.
 &nbsp;
 
 ### artkit0
