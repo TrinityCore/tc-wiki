@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2023-03-30T23:09:46.761Z
+date: 2023-04-05T22:04:56.217Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:15.744Z
@@ -25,7 +25,6 @@ dateCreated: 2021-08-30T09:30:15.744Z
 | [subname](#subname) | mediumtext |  |  | YES | NULL |  |  |
 | [TitleAlt](#titlealt) | mediumtext |  |  | YES | NULL |  |  |
 | [IconName](#iconname) | varchar(64) |  |  | YES | NULL |  |  |
-| [gossip_menu_id](#gossip_menu_id) | int | unsigned |  | NO | 0 |  |  |
 | [HealthScalingExpansion](#healthscalingexpansion) | int | signed |  | NO | 0 |  |  |
 | [RequiredExpansion](#requiredexpansion) | int | signed |  | NO | 0 |  |  |
 | [VignetteID](#vignetteid) | int | signed |  | NO | 0 |  |  |
@@ -145,10 +144,6 @@ Used to tell the player what kind of NPC this creature is.
 >
 > Names are case sensitive. If in doubt use an example above.
 {.is-info}
-
-### gossip_menu_id
-The gossip ID of this creature. This field is obtained from sniff (update fields). If you can not sniff this value, and need to make one up, it must be > 50000. This field is the link to [gossip_menu.MenuId](/en/database/master/world/gossip_menu#menuid).
-&nbsp;
 
 ### HealthScalingExpansion
 *- no description -*
