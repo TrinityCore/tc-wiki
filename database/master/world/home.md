@@ -2,7 +2,7 @@
 title: World
 description: 
 published: true
-date: 2023-04-05T23:12:08.780Z
+date: 2023-04-07T23:36:48.104Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-28T21:01:17.438Z
@@ -285,7 +285,6 @@ dateCreated: 2021-08-28T21:01:17.438Z
 - [warden_checks](/database/master/world/warden_checks)
 - [waypoint_data](/database/master/world/waypoint_data)
 - [waypoint_scripts](/database/master/world/waypoint_scripts)
-- [waypoints](/database/master/world/waypoints)
 - [world_safe_locs](/database/master/world/world_safe_locs)
 - [world_state](/database/master/world/world_state)
 {.links-list}
