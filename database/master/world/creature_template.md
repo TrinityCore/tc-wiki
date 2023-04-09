@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2023-04-05T22:04:56.217Z
+date: 2023-04-09T16:37:09.989Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:15.744Z
@@ -57,7 +57,6 @@ dateCreated: 2021-08-30T09:30:15.744Z
 | [maxgold](#maxgold) | int | unsigned |  | NO | 0 |  |  |
 | [AIName](#ainame) | varchar(64) |  |  | NO | '' |  |  |
 | [MovementType](#movementtype) | tinyint | unsigned |  | NO | 0 |  |  |
-| [HoverHeight](#hoverheight) | float |  |  | NO | 1 |  |  |
 | [HealthModifier](#healthmodifier) | float |  |  | NO | 1 |  |  |
 | [HealthModifierExtra](#healthmodifierextra) | float |  |  | NO | 1 |  |  |
 | [ManaModifier](#manamodifier) | float |  |  | NO | 1 |  |  |
@@ -350,10 +349,6 @@ Allows the manual application of unit flags to creatures. Again this is a bitmas
 &nbsp;
 
 ### MovementType
-*- no description -*
-&nbsp;
-
-### HoverHeight
 *- no description -*
 &nbsp;
 
