@@ -2,7 +2,7 @@
 title: World
 description: 
 published: true
-date: 2023-04-07T23:36:48.104Z
+date: 2023-04-10T02:06:31.513Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-28T21:01:17.438Z
@@ -229,7 +229,6 @@ dateCreated: 2021-08-28T21:01:17.438Z
 - [scene_template](/database/master/world/scene_template)
 - [script_spline_chain_meta](/database/master/world/script_spline_chain_meta)
 - [script_spline_chain_waypoints](/database/master/world/script_spline_chain_waypoints)
-- [script_waypoint](/database/master/world/script_waypoint)
 - [serverside_spell](/database/master/world/serverside_spell)
 - [serverside_spell_effect](/database/master/world/serverside_spell_effect)
 - [skill_discovery_template](/database/master/world/skill_discovery_template)
