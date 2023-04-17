@@ -2,7 +2,7 @@
 title: Core Installation
 description: Core Installation
 published: true
-date: 2023-04-13T21:33:10.848Z
+date: 2023-04-17T16:53:26.910Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-14T20:41:23.744Z
@@ -35,4 +35,4 @@ If you still have any problem, check:
 
 - Updating or starting with TrinityCore issues, trouble with your TrinityCore Install / Readme 1st / FAQs
 - Ask for help on the forum
-- Ask for help on [Discord](https://discord.com/invite/WuSM4qvF?utm_source=Discord%20Widget&utm_medium=Connect)/IRC, but remember it's not real time 24/7 support, most of people there lives on GMT and they can be sleeping or working.
+- Ask for help on [Discord](https://discord.gg/CUXh7zzMNH)/IRC, but remember it's not real time 24/7 support, most of people there lives on GMT and they can be sleeping or working.
