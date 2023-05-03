@@ -2,7 +2,7 @@
 title: Trinitycore Wiki
 description: 
 published: true
-date: 2023-01-08T02:08:52.222Z
+date: 2023-05-03T06:53:23.662Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T17:47:17.543Z
@@ -54,3 +54,5 @@ For further information on the TrinityCore project, please visit our project web
 2. [Send console commands via SOAP](/how-to/SOAP)
 3. [GM Commands](/how-to/gm-commands)
 4. [Role-based Access Controls (RBAC)](/how-to/RBAC)
+
+5. [Aowow Trinitycore wowhead like](https://aowow.trinitycore.info/)
