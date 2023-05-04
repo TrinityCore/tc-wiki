@@ -2,7 +2,7 @@
 title: npc_text
 description: 
 published: true
-date: 2022-11-21T21:06:26.396Z
+date: 2023-05-04T04:11:10.359Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-30T09:33:08.406Z
@@ -57,68 +57,13 @@ The ID ranges are defined as followed:
 | Dragonflight (10.x)          |           590000 |         599999 |
 &nbsp;
 
-### Probability0
-*- no description -*
+### Probability0 - Probability7
+The percent-chance (probability) that the NPC will say related `BroadcastTextID<index>`. 
+1 will always show this text, while 0.5 will show this text 50% of the time and then choose another text in the current row. The total of all probabilities in the current row should equal 1.
 &nbsp;
 
-### Probability1
-*- no description -*
-&nbsp;
-
-### Probability2
-*- no description -*
-&nbsp;
-
-### Probability3
-*- no description -*
-&nbsp;
-
-### Probability4
-*- no description -*
-&nbsp;
-
-### Probability5
-*- no description -*
-&nbsp;
-
-### Probability6
-*- no description -*
-&nbsp;
-
-### Probability7
-*- no description -*
-&nbsp;
-
-### BroadcastTextID0
-*- no description -*
-&nbsp;
-
-### BroadcastTextID1
-*- no description -*
-&nbsp;
-
-### BroadcastTextID2
-*- no description -*
-&nbsp;
-
-### BroadcastTextID3
-*- no description -*
-&nbsp;
-
-### BroadcastTextID4
-*- no description -*
-&nbsp;
-
-### BroadcastTextID5
-*- no description -*
-&nbsp;
-
-### BroadcastTextID6
-*- no description -*
-&nbsp;
-
-### BroadcastTextID7
-*- no description -*
+### BroadcastTextID0 - BroadcastTextID7
+References to [`broadcast_text.ID`](/database/master/hotfixes/broadcast_text#ID)
 &nbsp;
 
 ### VerifiedBuild
