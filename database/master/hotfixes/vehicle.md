@@ -2,7 +2,7 @@
 title: vehicle
 description: 
 published: true
-date: 2022-11-21T21:21:53.407Z
+date: 2023-05-11T09:04:24.417Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T10:03:53.783Z
@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T10:03:53.783Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [Flags](#flags) | int | signed |  | NO | 0 |  |  |
-| [FlagsB](#flagsb) | tinyint | unsigned |  | NO | 0 |  |  |
+| [FlagsB](#flagsb) | int | signed |  | NO | 0 |  |  |
 | [TurnSpeed](#turnspeed) | float |  |  | NO | 0 |  |  |
 | [PitchSpeed](#pitchspeed) | float |  |  | NO | 0 |  |  |
 | [PitchMin](#pitchmin) | float |  |  | NO | 0 |  |  |
@@ -172,4 +172,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/updates_include" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'updates_include'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/vehicle_seat" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'vehicle_seat'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

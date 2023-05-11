@@ -2,7 +2,7 @@
 title: garr_follower
 description: 
 published: true
-date: 2022-11-21T21:14:37.459Z
+date: 2023-05-11T09:04:22.601Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:54:10.829Z
@@ -18,7 +18,7 @@ dateCreated: 2021-08-30T09:54:10.829Z
 | [HordeSourceText](#hordesourcetext) | text |  |  | YES | NULL |  |  |
 | [AllianceSourceText](#alliancesourcetext) | text |  |  | YES | NULL |  |  |
 | [TitleName](#titlename) | text |  |  | YES | NULL |  |  |
-| [GarrTypeID](#garrtypeid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [GarrTypeID](#garrtypeid) | tinyint | signed |  | NO | 0 |  |  |
 | [GarrFollowerTypeID](#garrfollowertypeid) | tinyint | signed |  | NO | 0 |  |  |
 | [HordeCreatureID](#hordecreatureid) | int | signed |  | NO | 0 |  |  |
 | [AllianceCreatureID](#alliancecreatureid) | int | signed |  | NO | 0 |  |  |
@@ -202,4 +202,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/garr_class_spec_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'garr_class_spec_locale'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/garr_follower_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'garr_follower_locale'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

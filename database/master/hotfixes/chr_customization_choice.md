@@ -2,7 +2,7 @@
 title: chr_customization_choice
 description: 
 published: true
-date: 2022-12-19T18:37:38.108Z
+date: 2023-05-11T09:04:21.972Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:51:18.184Z
@@ -23,6 +23,7 @@ dateCreated: 2021-08-30T09:51:18.184Z
 | [UiOrderIndex](#uiorderindex) | smallint | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | int | signed |  | NO | 0 |  |  |
 | [AddedInPatch](#addedinpatch) | int | signed |  | NO | 0 |  |  |
+| [SoundKitID](#soundkitid) | int | signed |  | NO | 0 |  |  |
 | [SwatchColor1](#swatchcolor1) | int | signed |  | NO | 0 |  |  |
 | [SwatchColor2](#swatchcolor2) | int | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
@@ -62,6 +63,10 @@ dateCreated: 2021-08-30T09:51:18.184Z
 &nbsp;
 
 ### AddedInPatch
+*- no description -*
+&nbsp;
+
+### SoundKitID
 *- no description -*
 &nbsp;
 

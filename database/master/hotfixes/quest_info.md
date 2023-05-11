@@ -2,7 +2,7 @@
 title: quest_info
 description: 
 published: true
-date: 2022-12-19T18:38:42.616Z
+date: 2023-05-11T09:04:23.470Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:59:28.988Z
@@ -18,7 +18,7 @@ dateCreated: 2021-08-30T09:59:28.988Z
 | [InfoName](#infoname) | text |  |  | YES | NULL |  |  |
 | [Type](#type) | tinyint | signed |  | NO | 0 |  |  |
 | [Modifiers](#modifiers) | int | signed |  | NO | 0 |  |  |
-| [Profession](#profession) | int | signed |  | NO | 0 |  |  |
+| [Profession](#profession) | smallint | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

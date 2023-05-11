@@ -2,10 +2,10 @@
 title: Hotfixes
 description: 
 published: true
-date: 2022-12-19T18:40:33.355Z
+date: 2023-05-11T09:04:24.459Z
 tags: database, master, hotfixes
 editor: markdown
-dateCreated: 2021-08-29T20:42:31.704Z
+dateCreated: 2021-08-30T06:00:00.000Z
 ---
 
 ## a
@@ -60,6 +60,8 @@ dateCreated: 2021-08-29T20:42:31.704Z
 - [banned_addons](/database/master/hotfixes/banned_addons)
 - [barber_shop_style](/database/master/hotfixes/barber_shop_style)
 - [barber_shop_style_locale](/database/master/hotfixes/barber_shop_style_locale)
+- [battle_pet_ability](/database/master/hotfixes/battle_pet_ability)
+- [battle_pet_ability_locale](/database/master/hotfixes/battle_pet_ability_locale)
 - [battle_pet_breed_quality](/database/master/hotfixes/battle_pet_breed_quality)
 - [battle_pet_breed_state](/database/master/hotfixes/battle_pet_breed_state)
 - [battle_pet_species](/database/master/hotfixes/battle_pet_species)
@@ -371,6 +373,7 @@ dateCreated: 2021-08-29T20:42:31.704Z
 - [spell_item_enchantment](/database/master/hotfixes/spell_item_enchantment)
 - [spell_item_enchantment_condition](/database/master/hotfixes/spell_item_enchantment_condition)
 - [spell_item_enchantment_locale](/database/master/hotfixes/spell_item_enchantment_locale)
+- [spell_keybound_override](/database/master/hotfixes/spell_keybound_override)
 - [spell_label](/database/master/hotfixes/spell_label)
 - [spell_learn_spell](/database/master/hotfixes/spell_learn_spell)
 - [spell_levels](/database/master/hotfixes/spell_levels)

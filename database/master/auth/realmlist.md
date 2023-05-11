@@ -2,7 +2,7 @@
 title: realmlist
 description: This table sets up information on all available realms. Each row controls a different realm.
 published: true
-date: 2022-12-19T18:36:50.116Z
+date: 2023-05-11T08:46:28.406Z
 tags: database, auth, master
 editor: markdown
 dateCreated: 2021-08-26T03:06:24.878Z
@@ -25,7 +25,7 @@ dateCreated: 2021-08-26T03:06:24.878Z
 | [timezone](#timezone) | tinyint | unsigned |  | NO | 0 |  |  |
 | [allowedSecurityLevel](#allowedsecuritylevel) | tinyint | unsigned |  | NO | 0 |  |  |
 | [population](#population) | float |  |  | NO | 0 |  |  |
-| [gamebuild](#gamebuild) | int | unsigned |  | NO | 47187 |  |  |
+| [gamebuild](#gamebuild) | int | unsigned |  | NO | 49343 |  |  |
 | [Region](#region) | tinyint | unsigned |  | NO | 1 |  |  |
 | [Battlegroup](#battlegroup) | tinyint | unsigned |  | NO | 1 |  |  |
 &nbsp;

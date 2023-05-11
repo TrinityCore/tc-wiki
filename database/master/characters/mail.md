@@ -2,7 +2,7 @@
 title: mail
 description: 
 published: true
-date: 2022-11-21T21:02:29.327Z
+date: 2023-05-11T08:55:47.347Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T08:15:12.328Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T08:15:12.328Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO | 0 |  | Identifier |
+| [id](#id) | bigint | unsigned | PRI | NO | 0 |  | Identifier |
 | [messageType](#messagetype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [stationery](#stationery) | tinyint | signed |  | NO | 41 |  |  |
 | [mailTemplateId](#mailtemplateid) | smallint | unsigned |  | NO | 0 |  |  |
@@ -88,4 +88,3 @@ dateCreated: 2021-08-30T08:15:12.328Z
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/characters/lfg_data" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'lfg_data'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/characters/mail_items" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'mail_items'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

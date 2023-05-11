@@ -2,7 +2,7 @@
 title: item_bonus_tree_node
 description: 
 published: true
-date: 2022-11-21T21:15:49.291Z
+date: 2023-05-11T09:04:22.903Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:55:45.979Z
@@ -21,6 +21,8 @@ dateCreated: 2021-08-30T09:55:45.979Z
 | [ChildItemLevelSelectorID](#childitemlevelselectorid) | smallint | unsigned |  | NO | 0 |  |  |
 | [ChildItemBonusListGroupID](#childitembonuslistgroupid) | int | signed |  | NO | 0 |  |  |
 | [IblGroupPointsModSetID](#iblgrouppointsmodsetid) | int | signed |  | NO | 0 |  |  |
+| [Unknown1010_1](#unknown1010_1) | int | signed |  | NO | 0 |  |  |
+| [Unknown1010_2](#unknown1010_2) | int | signed |  | NO | 0 |  |  |
 | [ParentItemBonusTreeID](#parentitembonustreeid) | int | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
@@ -51,6 +53,14 @@ dateCreated: 2021-08-30T09:55:45.979Z
 &nbsp;
 
 ### IblGroupPointsModSetID
+*- no description -*
+&nbsp;
+
+### Unknown1010_1
+*- no description -*
+&nbsp;
+
+### Unknown1010_2
 *- no description -*
 &nbsp;
 

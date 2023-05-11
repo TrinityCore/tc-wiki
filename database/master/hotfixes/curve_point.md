@@ -2,7 +2,7 @@
 title: curve_point
 description: 
 published: true
-date: 2022-12-19T18:37:58.710Z
+date: 2023-05-11T09:04:22.374Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:52:51.404Z
@@ -19,7 +19,7 @@ dateCreated: 2021-08-30T09:52:51.404Z
 | [PreSLSquishPosX](#preslsquishposx) | float |  |  | NO | 0 |  |  |
 | [PreSLSquishPosY](#preslsquishposy) | float |  |  | NO | 0 |  |  |
 | [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
-| [CurveID](#curveid) | smallint | unsigned |  | NO | 0 |  |  |
+| [CurveID](#curveid) | int | signed |  | NO | 0 |  |  |
 | [OrderIndex](#orderindex) | tinyint | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;

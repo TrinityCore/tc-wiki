@@ -2,7 +2,7 @@
 title: chr_customization_element
 description: 
 published: true
-date: 2022-12-19T18:37:39.798Z
+date: 2023-05-11T09:04:22.058Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:51:25.991Z
@@ -25,6 +25,7 @@ dateCreated: 2021-08-30T09:51:25.991Z
 | [ChrCustomizationDisplayInfoID](#chrcustomizationdisplayinfoid) | int | signed |  | NO | 0 |  |  |
 | [ChrCustItemGeoModifyID](#chrcustitemgeomodifyid) | int | signed |  | NO | 0 |  |  |
 | [ChrCustomizationVoiceID](#chrcustomizationvoiceid) | int | signed |  | NO | 0 |  |  |
+| [AnimKitID](#animkitid) | int | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -70,6 +71,10 @@ dateCreated: 2021-08-30T09:51:25.991Z
 &nbsp;
 
 ### ChrCustomizationVoiceID
+*- no description -*
+&nbsp;
+
+### AnimKitID
 *- no description -*
 &nbsp;
 

@@ -2,7 +2,7 @@
 title: garr_mission
 description: 
 published: true
-date: 2022-11-21T21:32:28.494Z
+date: 2023-05-11T09:04:22.643Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-11-14T19:53:52.569Z
@@ -22,7 +22,7 @@ dateCreated: 2021-11-14T19:53:52.569Z
 | [MapPosY](#mapposy) | float |  |  | NO | 0 |  |  |
 | [WorldPosX](#worldposx) | float |  |  | NO | 0 |  |  |
 | [WorldPosY](#worldposy) | float |  |  | NO | 0 |  |  |
-| [GarrTypeID](#garrtypeid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [GarrTypeID](#garrtypeid) | tinyint | signed |  | NO | 0 |  |  |
 | [GarrMissionTypeID](#garrmissiontypeid) | tinyint | unsigned |  | NO | 0 |  |  |
 | [GarrFollowerTypeID](#garrfollowertypeid) | tinyint | unsigned |  | NO | 0 |  |  |
 | [MaxFollowers](#maxfollowers) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -202,4 +202,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/garr_follower_x_ability" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'garr_follower_x_ability'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/garr_mission_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'garr_mission_locale'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

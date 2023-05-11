@@ -2,7 +2,7 @@
 title: character_stats
 description: 
 published: true
-date: 2022-12-19T18:37:06.480Z
+date: 2023-05-11T08:55:46.508Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T07:35:37.929Z
@@ -23,6 +23,9 @@ dateCreated: 2021-08-30T07:35:37.929Z
 | [maxpower5](#maxpower5) | int | unsigned |  | NO | 0 |  |  |
 | [maxpower6](#maxpower6) | int | unsigned |  | NO | 0 |  |  |
 | [maxpower7](#maxpower7) | int | unsigned |  | NO | 0 |  |  |
+| [maxpower8](#maxpower8) | int | unsigned |  | NO | 0 |  |  |
+| [maxpower9](#maxpower9) | int | unsigned |  | NO | 0 |  |  |
+| [maxpower10](#maxpower10) | int | unsigned |  | NO | 0 |  |  |
 | [strength](#strength) | int | unsigned |  | NO | 0 |  |  |
 | [agility](#agility) | int | unsigned |  | NO | 0 |  |  |
 | [stamina](#stamina) | int | unsigned |  | NO | 0 |  |  |
@@ -80,6 +83,18 @@ dateCreated: 2021-08-30T07:35:37.929Z
 &nbsp;
 
 ### maxpower7
+*- no description -*
+&nbsp;
+
+### maxpower8
+*- no description -*
+&nbsp;
+
+### maxpower9
+*- no description -*
+&nbsp;
+
+### maxpower10
 *- no description -*
 &nbsp;
 

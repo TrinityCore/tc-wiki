@@ -2,7 +2,7 @@
 title: languages
 description: 
 published: true
-date: 2022-11-21T21:17:02.286Z
+date: 2023-05-11T09:04:23.175Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:57:24.897Z
@@ -14,20 +14,21 @@ dateCreated: 2021-08-30T09:57:24.897Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [Name](#name) | text |  |  | YES | NULL |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [Flags](#flags) | int | signed |  | NO | 0 |  |  |
 | [UiTextureKitID](#uitexturekitid) | int | signed |  | NO | 0 |  |  |
 | [UiTextureKitElementCount](#uitexturekitelementcount) | int | signed |  | NO | 0 |  |  |
+| [LearningCurveID](#learningcurveid) | int | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### Name
 *- no description -*
 &nbsp;
 
-### Name
+### ID
 *- no description -*
 &nbsp;
 
@@ -40,6 +41,10 @@ dateCreated: 2021-08-30T09:57:24.897Z
 &nbsp;
 
 ### UiTextureKitElementCount
+*- no description -*
+&nbsp;
+
+### LearningCurveID
 *- no description -*
 &nbsp;
 
@@ -57,4 +62,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/language_words" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'language_words'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/languages_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'languages_locale'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

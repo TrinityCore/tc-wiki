@@ -2,7 +2,7 @@
 title: characters
 description: 
 published: true
-date: 2022-11-21T21:01:10.704Z
+date: 2023-05-11T08:55:47.143Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T07:37:31.310Z
@@ -77,6 +77,9 @@ dateCreated: 2021-08-30T07:37:31.310Z
 | [power5](#power5) | int | unsigned |  | NO | 0 |  |  |
 | [power6](#power6) | int | unsigned |  | NO | 0 |  |  |
 | [power7](#power7) | int | unsigned |  | NO | 0 |  |  |
+| [power8](#power8) | int | unsigned |  | NO | 0 |  |  |
+| [power9](#power9) | int | unsigned |  | NO | 0 |  |  |
+| [power10](#power10) | int | unsigned |  | NO | 0 |  |  |
 | [latency](#latency) | int | unsigned |  | NO | 0 |  |  |
 | [activeTalentGroup](#activetalentgroup) | tinyint | unsigned |  | NO | 0 |  |  |
 | [lootSpecId](#lootspecid) | int | unsigned |  | NO | 0 |  |  |
@@ -344,6 +347,18 @@ dateCreated: 2021-08-30T07:37:31.310Z
 &nbsp;
 
 ### power7
+*- no description -*
+&nbsp;
+
+### power8
+*- no description -*
+&nbsp;
+
+### power9
+*- no description -*
+&nbsp;
+
+### power10
 *- no description -*
 &nbsp;
 
