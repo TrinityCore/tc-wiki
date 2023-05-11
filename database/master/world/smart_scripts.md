@@ -30,7 +30,7 @@ dateCreated: 2021-08-30T09:36:32.378Z
 | [event_param3](#event_type) | int | unsigned |  | NO | 0 |  |  |
 | [event_param4](#event_type) | int | unsigned |  | NO | 0 |  |  |
 | [event_param5](#event_type) | int | unsigned |  | NO | 0 |  |  |
-| [event_param_string](##event_type) | varchar(255) |  |  | NO | '' |  |  |
+| [event_param_string](#event_type) | varchar(255) |  |  | NO | '' |  |  |
 | [action_type](#action_type) | tinyint | unsigned |  | NO | 0 |  |  |
 | [action_param1](#action_type) | int | unsigned |  | NO | 0 |  |  |
 | [action_param2](#action_type) | int | unsigned |  | NO | 0 |  |  |

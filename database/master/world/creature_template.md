@@ -74,6 +74,7 @@ dateCreated: 2021-08-30T09:30:15.744Z
 | [spell_school_immune_mask](#spell_school_immune_mask) | int | unsigned |  | NO | 0 |  |  |
 | [flags_extra](#flags_extra) | int | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
+| [StringId](#stringid) | varchar(64) |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -442,6 +443,10 @@ Extra flags which aren't sniffable
 &nbsp;
 
 ### ScriptName
+*- no description -*
+&nbsp;
+
+### StringId
 *- no description -*
 &nbsp;
 

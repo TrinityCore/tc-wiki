@@ -2,7 +2,7 @@
 title: creature_template_movement
 description: 
 published: true
-date: 2022-12-30T22:01:12.733Z
+date: 2023-05-11T09:25:21.470Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:26.571Z
@@ -21,7 +21,7 @@ dateCreated: 2021-08-30T09:30:26.571Z
 | [Rooted](#rooted) | tinyint | unsigned |  | YES | NULL |  |  |
 | [Chase](#chase) | tinyint | unsigned |  | YES | NULL |  |  |
 | [Random](#random) | tinyint | unsigned |  | YES | NULL |  |  |
-| [InteractionPauseTimer](#interactionpausetimer) | int | unsigned |  | YES | NULL |  | Time (in milliseconds) during which the creature will not move after interaction with player |
+| [InteractionPauseTimer](#interactionpausetimer) | int | unsigned |  | YES | NULL |  | Time (in milliseconds) during which creature will not move after interaction with player |
 &nbsp;
 ## Description of fields
 
@@ -81,4 +81,3 @@ Time (in milliseconds) during which the creature will not move after interaction
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/creature_template_model" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'creature_template_model'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/creature_template_resistance" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'creature_template_resistance'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

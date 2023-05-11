@@ -2,7 +2,7 @@
 title: creature_template_gossip
 description: 
 published: true
-date: 2023-04-05T22:12:35.196Z
+date: 2023-05-11T09:25:21.447Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2023-04-05T22:12:35.196Z
@@ -15,7 +15,7 @@ dateCreated: 2023-04-05T22:12:35.196Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [CreatureID](#creatureid) | int | unsigned | PRI | NO |  |  |  |
-| [MenuID](#menuid) | int | unsigned |  | NO |  |  |  |
+| [MenuID](#menuid) | int | unsigned | PRI | NO |  |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

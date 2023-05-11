@@ -2,7 +2,7 @@
 title: creature
 description: 
 published: true
-date: 2023-02-17T22:41:36.255Z
+date: 2023-05-11T09:25:20.559Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:41.375Z
@@ -42,6 +42,7 @@ dateCreated: 2021-08-30T09:29:41.375Z
 | [unit_flags3](#unit_flags3) | int | unsigned |  | NO | 0 |  |  |
 | [dynamicflags](#dynamicflags) | int | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
+| [StringId](#stringid) | varchar(64) |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -268,6 +269,10 @@ Same as [creature_template.dynamicflags](/en/database/master/world/creature_temp
 
 ### ScriptName
 The name of the script that this creature uses, if any. This ties a script from a scripting engine to this creature.
+&nbsp;
+
+### StringId
+*- no description -*
 &nbsp;
 
 ### VerifiedBuild
