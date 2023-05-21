@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2023-03-01T23:23:29.783Z
+date: 2023-05-21T17:17:45.090Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -154,7 +154,7 @@ SMART_EVENT_EVADE | 7 | | | | | | | On creature evade attack |
 SMART_EVENT_SPELLHIT | 8 | SpellID | School | CooldownMin | CooldownMax | | | On spell hit |
 SMART_EVENT_RANGE | 9 | MinDist | MaxDist | RepeatMin | RepeatMax | | | On target in range |
 SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rarr; NotHostile</li><li>2 &rarr; Any</li></ul> | MaxRange | CooldownMin | CooldownMax | Player only (0/1) | | On target in range (Out of combat) |
-| SMART_EVENT_RESPAWN | 11 | Type:<ul><li>0 &rarr; None</li><li>1 &rarr; Map</li><li>2 &rarr; Area</li></ul> | MapId | ZoneId | | | | On spawn/respawn |
+| SMART_EVENT_RESPAWN | 11 | Type:<ul><li>0 &rarr; None</li><li>1 &rarr; Map</li><li>2 &rarr; Area</li></ul> | MapId | ZoneId | | | | On spawn/respawn/summon |
 | :warning: SMART_EVENT_TARGET_HEALTH_PCT | 12 | | | | | | | UNUSED, DO NOT REUSE |
 | SMART_EVENT_VICTIM_CASTING | 13 | RepeatMin | RepeatMax | SpellID (0 any) | | | | On target casting spell |
 | :warning: SMART_EVENT_FRIENDLY_HEALTH | 14 | | | | | | | UNUSED, DO NOT REUSE |
@@ -206,7 +206,7 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_EVENT_UPDATE | 60 | InitialMin | InitialMax | RepeatMin | RepeatMax | | | On event update |
 | SMART_EVENT_LINK | 61 | | | | | | | Used to link together multiple events ([smart_scripts.link](#link)) |
 | SMART_EVENT_GOSSIP_SELECT | 62 | [gossip_menu_option.MenuID](/en/database/master/world/gossip_menu_option#menuid) | [gossip_menu_option.OptionID](/en/database/master/world/gossip_menu_option#optionid) | | | | | On gossip option selected |
-| SMART_EVENT_JUST_CREATED | 63 | | | | | | | On spawn/summon |
+| SMART_EVENT_JUST_CREATED | 63 | | | | | | | On spawn/respawn/summon |
 | SMART_EVENT_GOSSIP_HELLO | 64 | NoReportUse (for GOs):<ul><li>0 &rarr; On gossip hello and on report use<br/>*(Action could be executed twice)*</li><li>1 &rarr; On gossip hello</li><li>2 &rarr; On report use</li></ul> | | | | | | On gossip hello |
 | SMART_EVENT_FOLLOW_COMPLETED | 65 | | | | | | | On follow completed |
 | :warning: SMART_EVENT_EVENT_PHASE_CHANGE | 66 | | | | | | | UNUSED, DO NOT REUSE |
