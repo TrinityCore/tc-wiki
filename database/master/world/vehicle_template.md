@@ -2,7 +2,7 @@
 title: vehicle_template
 description: 
 published: true
-date: 2023-05-28T18:52:45.781Z
+date: 2023-05-28T18:55:10.779Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:37:55.445Z
@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T09:37:55.445Z
 | [creatureId](#creatureid) | int | unsigned | PRI | NO |  |  |  |
 | [despawnDelayMs](#despawndelayms) | int | signed |  | NO | 0 |  |  |
 &nbsp;
+This table is for vehicles that should not directly despawn when the player leaves the vehicle, but it should still perform actions. (Moving away from the player or similar).
 ## Description of fields
 
 ### creatureId
