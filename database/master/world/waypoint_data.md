@@ -2,7 +2,7 @@
 title: waypoint_data
 description: 
 published: true
-date: 2023-04-02T00:32:55.380Z
+date: 2023-05-28T14:03:17.853Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:38:05.732Z
@@ -39,7 +39,7 @@ However, this is only a suggestion when creating your own waypoints. This ID can
 &nbsp;
 
 ### point
-Unique point ID for each point in a path. Starts at 1 and increases with each path.
+Unique point ID for each point in a path. Starts at 0 and increases with each path.
 &nbsp;
 
 ### position_x
