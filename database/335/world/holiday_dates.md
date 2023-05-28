@@ -2,7 +2,7 @@
 title: holiday_dates
 description: 
 published: true
-date: 2023-05-28T23:36:34.260Z
+date: 2023-05-28T23:53:21.403Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:05:50.321Z
@@ -22,15 +22,15 @@ dateCreated: 2021-08-30T22:05:50.321Z
 ## Description of fields
 
 ### id
-Holiday id from Holidays.dbc
+Holiday ID from Holidays.dbc
 &nbsp;
 
 ### date_id
-Unique id.
+Unique ID.
 &nbsp;
 
 ### date_value
-Start date in blizztime. Use https://github.com/The-Cataclysm-Preservation-Project/Packet-BlizzTime-tool to get the correct value.
+Start date in BlizzTime. Use https://github.com/The-Cataclysm-Preservation-Project/Packet-BlizzTime-tool to get the correct value.
 &nbsp;
 
 ### holiday_duration
