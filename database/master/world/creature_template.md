@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2023-04-09T16:37:09.989Z
+date: 2023-05-29T22:29:57.785Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:15.744Z
@@ -15,9 +15,6 @@ dateCreated: 2021-08-30T09:30:15.744Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
-| [difficulty_entry_1](#difficulty_entry_1-3) | int | unsigned |  | NO | 0 |  |  |
-| [difficulty_entry_2](#difficulty_entry_1-3) | int | unsigned |  | NO | 0 |  |  |
-| [difficulty_entry_3](#difficulty_entry_1-3) | int | unsigned |  | NO | 0 |  |  |
 | [KillCredit1](#killcredit1) | int | unsigned |  | NO | 0 |  |  |
 | [KillCredit2](#killcredit2) | int | unsigned |  | NO | 0 |  |  |
 | [name](#name) | mediumtext |  |  | YES | NULL |  |  |
@@ -25,7 +22,6 @@ dateCreated: 2021-08-30T09:30:15.744Z
 | [subname](#subname) | mediumtext |  |  | YES | NULL |  |  |
 | [TitleAlt](#titlealt) | mediumtext |  |  | YES | NULL |  |  |
 | [IconName](#iconname) | varchar(64) |  |  | YES | NULL |  |  |
-| [HealthScalingExpansion](#healthscalingexpansion) | int | signed |  | NO | 0 |  |  |
 | [RequiredExpansion](#requiredexpansion) | int | signed |  | NO | 0 |  |  |
 | [VignetteID](#vignetteid) | int | signed |  | NO | 0 |  |  |
 | [faction](#faction) | smallint | unsigned |  | NO | 0 |  |  |
@@ -47,26 +43,12 @@ dateCreated: 2021-08-30T09:30:15.744Z
 | [family](#family) | int | signed |  | NO | 0 |  |  |
 | [trainer_class](#trainer_class) | tinyint | unsigned |  | NO | 0 |  |  |
 | [type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
-| [type_flags](#type_flags) | int | unsigned |  | NO | 0 |  |  |
-| [type_flags2](#type_flags2) | int | unsigned |  | NO | 0 |  |  |
-| [lootid](#lootid) | int | unsigned |  | NO | 0 |  |  |
-| [pickpocketloot](#pickpocketloot) | int | unsigned |  | NO | 0 |  |  |
-| [skinloot](#skinloot) | int | unsigned |  | NO | 0 |  |  |
 | [VehicleId](#vehicleid) | int | unsigned |  | NO | 0 |  |  |
-| [mingold](#mingold) | int | unsigned |  | NO | 0 |  |  |
-| [maxgold](#maxgold) | int | unsigned |  | NO | 0 |  |  |
 | [AIName](#ainame) | varchar(64) |  |  | NO | '' |  |  |
 | [MovementType](#movementtype) | tinyint | unsigned |  | NO | 0 |  |  |
-| [HealthModifier](#healthmodifier) | float |  |  | NO | 1 |  |  |
-| [HealthModifierExtra](#healthmodifierextra) | float |  |  | NO | 1 |  |  |
-| [ManaModifier](#manamodifier) | float |  |  | NO | 1 |  |  |
-| [ManaModifierExtra](#manamodifierextra) | float |  |  | NO | 1 |  |  |
-| [ArmorModifier](#armormodifier) | float |  |  | NO | 1 |  |  |
-| [DamageModifier](#damagemodifier) | float |  |  | NO | 1 |  |  |
 | [ExperienceModifier](#experiencemodifier) | float |  |  | NO | 1 |  |  |
 | [RacialLeader](#racialleader) | tinyint | unsigned |  | NO | 0 |  |  |
 | [movementId](#movementid) | int | unsigned |  | NO | 0 |  |  |
-| [CreatureDifficultyID](#creaturedifficultyid) | int | signed |  | NO | 0 |  |  |
 | [WidgetSetID](#widgetsetid) | int | signed |  | NO | 0 |  |  |
 | [WidgetSetUnitConditionID](#widgetsetunitconditionid) | int | signed |  | NO | 0 |  |  |
 | [RegenHealth](#regenhealth) | tinyint | unsigned |  | NO | 1 |  |  |
@@ -81,18 +63,6 @@ dateCreated: 2021-08-30T09:30:15.744Z
 
 ### entry
 Creature's unique id.
-&nbsp;
-
-### difficulty_entry_1-3
-This field connects the stats from another entry to this template when in 25man normal, 10man heroic or 25man heroic mode instance.
-
-**For Dungeons:** 
-difficulty_entry_1 = 5 (Heroic)
-
-**For Raids:**
-difficulty_entry_1 = 25 (Normal)
-difficulty_entry_2 = 10 (Heroic)
-difficulty_entry_3 = 25 (Heroic)
 &nbsp;
 
 ### KillCredit1
@@ -144,10 +114,6 @@ Used to tell the player what kind of NPC this creature is.
 >
 > Names are case sensitive. If in doubt use an example above.
 {.is-info}
-
-### HealthScalingExpansion
-*- no description -*
-&nbsp;
 
 ### RequiredExpansion
 *- no description -*
@@ -313,35 +279,7 @@ Allows the manual application of unit flags to creatures. Again this is a bitmas
 *- no description -*
 &nbsp;
 
-### type_flags
-*- no description -*
-&nbsp;
-
-### type_flags2
-*- no description -*
-&nbsp;
-
-### lootid
-*- no description -*
-&nbsp;
-
-### pickpocketloot
-*- no description -*
-&nbsp;
-
-### skinloot
-*- no description -*
-&nbsp;
-
 ### VehicleId
-*- no description -*
-&nbsp;
-
-### mingold
-*- no description -*
-&nbsp;
-
-### maxgold
 *- no description -*
 &nbsp;
 
@@ -350,30 +288,6 @@ Allows the manual application of unit flags to creatures. Again this is a bitmas
 &nbsp;
 
 ### MovementType
-*- no description -*
-&nbsp;
-
-### HealthModifier
-*- no description -*
-&nbsp;
-
-### HealthModifierExtra
-*- no description -*
-&nbsp;
-
-### ManaModifier
-*- no description -*
-&nbsp;
-
-### ManaModifierExtra
-*- no description -*
-&nbsp;
-
-### ArmorModifier
-*- no description -*
-&nbsp;
-
-### DamageModifier
 *- no description -*
 &nbsp;
 
@@ -386,10 +300,6 @@ Allows the manual application of unit flags to creatures. Again this is a bitmas
 &nbsp;
 
 ### movementId
-*- no description -*
-&nbsp;
-
-### CreatureDifficultyID
 *- no description -*
 &nbsp;
 
