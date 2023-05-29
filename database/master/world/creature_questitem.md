@@ -2,7 +2,7 @@
 title: creature_questitem
 description: 
 published: true
-date: 2022-11-21T21:04:10.293Z
+date: 2023-05-29T21:29:40.742Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:07.948Z
@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T09:30:07.948Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [CreatureEntry](#creatureentry) | int | unsigned | PRI | NO | 0 |  |  |
+| [DifficultyID](#difficultyid) | tinyint | unsigned | PRI | NO | 0 |  | |
 | [Idx](#idx) | int | unsigned | PRI | NO | 0 |  |  |
 | [ItemId](#itemid) | int | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
@@ -27,6 +28,10 @@ dateCreated: 2021-08-30T09:30:07.948Z
 
 ### CreatureEntry
 The ID of the creature. See [creature_template.entry](/en/database/master/world/creature_template#entry).
+&nbsp;
+
+### DifficultyID
+The ID of the [Difficulty](https://wow.tools/dbc/?dbc=difficulty){target=_blank}.
 &nbsp;
 
 ### Idx
