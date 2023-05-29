@@ -2,7 +2,7 @@
 title: World
 description: 
 published: true
-date: 2023-04-10T02:06:31.513Z
+date: 2023-05-29T22:34:05.569Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-28T21:01:17.438Z
@@ -60,12 +60,12 @@ dateCreated: 2021-08-28T21:01:17.438Z
 - [creature_summoned_data](/database/master/world/creature_summoned_data)
 - [creature_template](/database/master/world/creature_template)
 - [creature_template_addon](/database/master/world/creature_template_addon)
+- [creature_template_difficulty](/database/master/world/creature_template_difficulty)
 - [creature_template_gossip](/database/master/world/creature_template_gossip)
 - [creature_template_locale](/database/master/world/creature_template_locale)
 - [creature_template_model](/database/master/world/creature_template_model)
 - [creature_template_movement](/database/master/world/creature_template_movement)
 - [creature_template_resistance](/database/master/world/creature_template_resistance)
-- [creature_template_scaling](/database/master/world/creature_template_scaling)
 - [creature_template_sparring](/database/master/world/creature_template_sparring)
 - [creature_template_spell](/database/master/world/creature_template_spell)
 - [creature_text](/database/master/world/creature_text)
