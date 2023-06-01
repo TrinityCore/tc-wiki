@@ -2,7 +2,7 @@
 title: graveyard_zone
 description: 
 published: true
-date: 2022-11-21T21:05:50.246Z
+date: 2023-06-01T15:25:00.501Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:32:22.271Z
@@ -16,7 +16,6 @@ dateCreated: 2021-08-30T09:32:22.271Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [GhostZone](#ghostzone) | int | unsigned | PRI | NO | 0 |  |  |
-| [Faction](#faction) | smallint | unsigned |  | NO | 0 |  |  |
 | [Comment](#comment) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
@@ -27,14 +26,6 @@ WorldSafeLocs ID, see [world_safe_locs](https://trinitycore.info/en/database/mas
 
 ### GhostZone
 ZoneId before teleportation to graveyard (before pressing release button), see AreaTable.db2 or use .gps command ingame while within the zone.
-&nbsp;
-
-### Faction
-Graveyard's team
-
-0 - Any team accepted
-469 - Alliance team only
-67 - Horde team only
 &nbsp;
 
 ### Comment
