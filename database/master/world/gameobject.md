@@ -2,7 +2,7 @@
 title: gameobject
 description: 
 published: true
-date: 2023-02-17T22:41:35.372Z
+date: 2023-06-02T23:23:09.793Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:31:38.234Z
@@ -71,35 +71,84 @@ The GUID ranges are defined as followed:
 {.is-warning}
 
 ### id
-*- no description -*
+This links to [gameobject_template_entry](/en/database/master/world/gameobject_template#entry)
 &nbsp;
 
 ### map
-*- no description -*
+The ID of the map that the gameobject is spawned on.
 &nbsp;
 
 ### zoneId
-*- no description -*
+The ID of the zone that the gameobject is spawned on.
 &nbsp;
 
 ### areaId
-*- no description -*
+The ID of the area that the gameobject is spawned on.
 &nbsp;
 
 ### spawnDifficulties
-*- no description -*
+Comma separated list of difficulties.
+
+| Name | Value
+| --- | :---: |
+| DIFFICULTY_NONE | 0 |
+| DIFFICULTY_NORMAL | 1 |
+| DIFFICULTY_HEROIC | 2 |
+| DIFFICULTY_10_N | 3 |
+| DIFFICULTY_25_N | 4 |
+| DIFFICULTY_10_HC | 5 |
+| DIFFICULTY_25_HC | 6 |
+| DIFFICULTY_LFR | 7 |
+| DIFFICULTY_MYTHIC_KEYSTONE | 8 |
+| DIFFICULTY_40 | 9 |
+| DIFFICULTY_3_MAN_SCENARIO_HC | 11 |
+| DIFFICULTY_3_MAN_SCENARIO_N | 12 |
+| DIFFICULTY_NORMAL_RAID | 14 |
+| DIFFICULTY_HEROIC_RAID | 15 |
+| DIFFICULTY_MYTHIC_RAID | 16 |
+| DIFFICULTY_LFR_NEW | 17 |
+| DIFFICULTY_EVENT_RAID | 18 |
+| DIFFICULTY_EVENT_DUNGEON | 19 |
+| DIFFICULTY_EVENT_SCENARIO | 20 |
+| DIFFICULTY_MYTHIC | 23 |
+| DIFFICULTY_TIMEWALKING | 24 |
+| DIFFICULTY_WORLD_PVP_SCENARIO | 25 |
+| DIFFICULTY_5_MAN_SCENARIO_N | 26 |
+| DIFFICULTY_20_MAN_SCENARIO_N | 27 |
+| DIFFICULTY_PVEVP_SCENARIO | 29 |
+| DIFFICULTY_EVENT_SCENARIO_6 | 30 |
+| DIFFICULTY_WORLD_PVP_SCENARIO_2 | 32 |
+| DIFFICULTY_TIMEWALKING_RAID | 33 |
+| DIFFICULTY_PVP | 34 |
+| DIFFICULTY_NORMAL_ISLAND | 38 |
+| DIFFICULTY_HEROIC_ISLAND | 39 |
+| DIFFICULTY_MYTHIC_ISLAND | 40 |
+| DIFFICULTY_PVP_ISLAND | 45 |
+| DIFFICULTY_NORMAL_WARFRONT | 147 |
+| DIFFICULTY_HEROIC_WARFRONT | 149 |
+| DIFFICULTY_LFR_15TH_ANNIVERSARY | 151 |
+| DIFFICULTY_VISIONS_OF_NZOTH | 152 |
+| DIFFICULTY_TEEMING_ISLAND | 153 |
 &nbsp;
 
 ### phaseUseFlags
-*- no description -*
+| Name | Value |
+| --- | :---: |
+| PHASE_USE_FLAGS_NONE            | 0x0 |
+| PHASE_USE_FLAGS_ALWAYS_VISIBLE  | 0x1 |
+| PHASE_USE_FLAGS_INVERSE         | 0x2 |
 &nbsp;
 
 ### PhaseId
-*- no description -*
+Determines in which phase the gameobject is in.
+Available phases can be found in Phase.db2
 &nbsp;
 
 ### PhaseGroup
-*- no description -*
+Determines in which PhaseGroup the gameobject is in.
+A PhaseGroup sets a gameobject in multiple phases at once.
+PhaseGroups can contain more Phases than you actually need.
+Available PhaseGroups can be found in PhaseGroup.db2
 &nbsp;
 
 ### terrainSwapMap
@@ -107,19 +156,19 @@ The GUID ranges are defined as followed:
 &nbsp;
 
 ### position_x
-*- no description -*
+The X position of the gameobject spawn point.
 &nbsp;
 
 ### position_y
-*- no description -*
+The Y position of the gameobject spawn point.
 &nbsp;
 
 ### position_z
-*- no description -*
+The Z position of the gameobject spawn point.
 &nbsp;
 
 ### orientation
-*- no description -*
+The orientation of the gameobject spawn point. (North = 0.0; South = pi (3.14159))
 &nbsp;
 
 ### rotation0
@@ -139,7 +188,7 @@ The GUID ranges are defined as followed:
 &nbsp;
 
 ### spawntimesecs
-*- no description -*
+The respawn time, in seconds, of the gameobject.
 &nbsp;
 
 ### animprogress
@@ -147,11 +196,15 @@ The GUID ranges are defined as followed:
 &nbsp;
 
 ### state
-*- no description -*
+For chests and doors.
+| State | Value |
+| --- | :---: |
+| open | 0 |
+| closed | 1 |
 &nbsp;
 
 ### ScriptName
-*- no description -*
+The name of the script that this gameobject uses, if any. This ties a script from a scripting engine to this creature.
 &nbsp;
 
 ### VerifiedBuild
