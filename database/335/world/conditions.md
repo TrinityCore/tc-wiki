@@ -2,7 +2,7 @@
 title: conditions
 description: 
 published: true
-date: 2023-06-04T00:01:22.866Z
+date: 2023-06-04T00:05:53.180Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:10.475Z
@@ -27,8 +27,8 @@ dateCreated: 2021-08-30T22:03:10.475Z
 | [NegativeCondition](#negativecondition) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ErrorType](#errortype) | int | unsigned |  | NO | 0 |  |  |
 | [ErrorTextId](#errortextid) | int | unsigned |  | NO | 0 |  |  |
-| [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
-| [Comment](#comment) | char(255) |  |  | YES | NULL |  |  |
+| [ScriptName](#scriptname) | char(64) |  |  | NO | '' |  |  |
+| [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 
