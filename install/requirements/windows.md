@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2023-05-01T10:48:17.156Z
+date: 2023-06-05T15:01:46.858Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -161,7 +161,7 @@ These files are shipped with MySQL Server, search for them at program files dire
 
 1. If you use different PCs to compile/run Trinity, install one of the following packages on your Server-PC to avoid missing dependencies (depending on your Visual Studio Version and your Server-PC Operating System)
 	- [Microsoft Visual C++ 2017 Redistributable Package](https://go.microsoft.com/fwlink/?LinkId=746572){target=_blank}
-	- **<span style="color:red">NOTE: Whatever you do you CAN'T run TrinityCore on Windows XP or Windows 2003 or vista.</span>**
+	- **<span style="color:red">NOTE: Whatever you do you CAN'T run TrinityCore on Windows XP or Windows Server 2003 or Windows Vista.</span>**
 2. [TortoiseGit](http://code.google.com/p/tortoisegit/){target=_blank}
 	- This instruction supports Git Extensions only, but TortoiseGit is another viable option if you're comfortable with the process.
   
