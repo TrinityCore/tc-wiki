@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2023-06-05T15:01:46.858Z
+date: 2023-06-05T15:19:48.841Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -88,7 +88,7 @@ Choose one of these
 - [SQLYog Community Edition](https://github.com/webyog/sqlyog-community/wiki/Downloads){target=_blank}
 - [HeidiSQL](http://www.heidisql.com/download.php){target=_blank} *(Best for beginners)*
 - [MySQL Workbench](http://dev.mysql.com/downloads/workbench/){target=_blank} (*already installed if you chose to install full MySQL package)*
-- [DBeaver](https://dbeaver.io/){target=_blank} *(Multiplattform Database Management Tool)*
+- [DBeaver](https://dbeaver.io/){target=_blank} *(Multi-platform Database Management Tool)*
 {.links-list}
 
 &nbsp;
