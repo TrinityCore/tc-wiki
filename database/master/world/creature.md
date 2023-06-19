@@ -2,7 +2,7 @@
 title: creature
 description: 
 published: true
-date: 2023-05-11T09:25:20.559Z
+date: 2023-06-19T16:16:51.046Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:41.375Z
@@ -40,7 +40,6 @@ dateCreated: 2021-08-30T09:29:41.375Z
 | [unit_flags](#unit_flags) | int | unsigned |  | NO | 0 |  |  |
 | [unit_flags2](#unit_flags2) | int | unsigned |  | NO | 0 |  |  |
 | [unit_flags3](#unit_flags3) | int | unsigned |  | NO | 0 |  |  |
-| [dynamicflags](#dynamicflags) | int | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
 | [StringId](#stringid) | varchar(64) |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
@@ -249,7 +248,6 @@ Same as [creature_template.unit_flags2](/en/database/master/world/creature_templ
 
 A full list can be found [/src/server/game/Entities/Unit/UnitDefines.h#L156](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Entities/Unit/UnitDefines.h#L156){target=_blank}
 &nbsp;
-&nbsp;
 
 ### unit_flags3
 Same as [creature_template.unit_flags3](/en/database/master/world/creature_template#unit_flags)
@@ -259,13 +257,6 @@ Same as [creature_template.unit_flags3](/en/database/master/world/creature_templ
 
 A full list can be found [/src/server/game/Entities/Unit/UnitDefines.h#L182](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Entities/Unit/UnitDefines.h#L182){target=_blank}
 &nbsp;
-&nbsp;
-
-### dynamicflags
-Same as [creature_template.dynamicflags](/en/database/master/world/creature_template#dynamicflags)
-
-> A creature.dynamicflags record will override a creature_template.dynamicflags record.
-{.is-info}
 
 ### ScriptName
 The name of the script that this creature uses, if any. This ties a script from a scripting engine to this creature.
