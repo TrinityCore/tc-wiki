@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2023-05-29T22:29:57.785Z
+date: 2023-06-19T16:17:32.390Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:15.744Z
@@ -39,7 +39,6 @@ dateCreated: 2021-08-30T09:30:15.744Z
 | [unit_flags](#unit_flags) | int | unsigned |  | NO | 0 |  |  |
 | [unit_flags2](#unit_flags2) | int | unsigned |  | NO | 0 |  |  |
 | [unit_flags3](#unit_flags3) | int | unsigned |  | NO | 0 |  |  |
-| [dynamicflags](#dynamicflags) | int | unsigned |  | NO | 0 |  |  |
 | [family](#family) | int | signed |  | NO | 0 |  |  |
 | [trainer_class](#trainer_class) | tinyint | unsigned |  | NO | 0 |  |  |
 | [type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -260,10 +259,6 @@ Allows the manual application of unit flags to creatures. Again this is a bitmas
 &nbsp;
 
 ### unit_flags3
-*- no description -*
-&nbsp;
-
-### dynamicflags
 *- no description -*
 &nbsp;
 
