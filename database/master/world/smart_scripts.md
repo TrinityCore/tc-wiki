@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2023-05-21T17:17:45.090Z
+date: 2023-06-24T21:28:10.134Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -183,7 +183,7 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_EVENT_AI_INIT | 37 | | | | | | | On AI init |
 | SMART_EVENT_DATA_SET | 38 | Field | Value | CooldownMin | CooldownMax | | | On data set<br/>*(See SMART_ACTION_SET_DATA)* |
 | :warning: SMART_EVENT_WAYPOINT_START | 39 | | | | | | | UNUSED, DO NOT REUSE |
-| SMART_EVENT_WAYPOINT_REACHED | 40 | PointID (0 any) | PathID (0 any) | | | | | On creature waypoint ID reached |
+| SMART_EVENT_WAYPOINT_REACHED | 40 | PointID (0xFFFFFFFF any) | PathID (0 any) | | | | | On creature waypoint ID reached |
 | :x: SMART_EVENT_TRANSPORT_ADDPLAYER | 41 | | | | | | | Not yet implemented |
 | :x: SMART_EVENT_TRANSPORT_ADDCREATURE | 42 | Entry (0 any) | | | | | | Not yet implemented |
 | :x: SMART_EVENT_TRANSPORT_REMOVE_PLAYER | 43 | | | | | | | Not yet implemented |
@@ -198,10 +198,10 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_EVENT_TEXT_OVER | 52 | [creature_text.GroupID](/en/database/master/world/creature_text#groupid) | [creature_text.CreatureID](/en/database/master/world/creature_text#creatureid) (0 any) | | | | | On text over event triggered after SMART_ACTION_TALK |
 | SMART_EVENT_RECEIVE_HEAL | 53 | MinHeal | MaxHeal | CooldownMin | CooldownMax | | | On creature received healing |
 | SMART_EVENT_JUST_SUMMONED | 54 | | | | | | | On summon |
-| SMART_EVENT_WAYPOINT_PAUSED | 55 | PointID (0 any) | PathID (0 any) | | | | | On creature waypoint ID paused |
-| SMART_EVENT_WAYPOINT_RESUMED | 56 | PointID (0 any) | PathID (0 any) | | | | | On creature waypoint ID resumed |
-| SMART_EVENT_WAYPOINT_STOPPED | 57 | PointID (0 any) | PathID (0 any) | | | | | On creature waypoint ID stopped |
-| SMART_EVENT_WAYPOINT_ENDED | 58 | PointID (0 any) | PathID (0 any) | | | | | On creature waypoint ID ended |
+| SMART_EVENT_WAYPOINT_PAUSED | 55 | PointID (0xFFFFFFFF any) | PathID (0 any) | | | | | On creature waypoint ID paused |
+| SMART_EVENT_WAYPOINT_RESUMED | 56 | PointID (0xFFFFFFFF any) | PathID (0 any) | | | | | On creature waypoint ID resumed |
+| SMART_EVENT_WAYPOINT_STOPPED | 57 | PointID (0xFFFFFFFF any) | PathID (0 any) | | | | | On creature waypoint ID stopped |
+| SMART_EVENT_WAYPOINT_ENDED | 58 | PointID (0xFFFFFFFF any) | PathID (0 any) | | | | | On creature waypoint ID ended |
 | SMART_EVENT_TIMED_EVENT_TRIGGERED | 59 | Id | | | | | | On timed event triggered<br/>*(See SMART_ACTION_TRIGGER_TIMED_EVENT)* |
 | SMART_EVENT_UPDATE | 60 | InitialMin | InitialMax | RepeatMin | RepeatMax | | | On event update |
 | SMART_EVENT_LINK | 61 | | | | | | | Used to link together multiple events ([smart_scripts.link](#link)) |
