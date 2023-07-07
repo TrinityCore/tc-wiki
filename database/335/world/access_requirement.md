@@ -2,7 +2,7 @@
 title: access_requirement
 description: 
 published: true
-date: 2023-07-07T18:22:41.569Z
+date: 2023-07-07T19:43:31.367Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:02:30.676Z
@@ -55,19 +55,19 @@ The at least required item level for a instance.
 &nbsp;
 
 ### item
-An [item](item_template#entry) that you must have in your inventory to enter the instance. This item can not be in the bank.
+An [item](../world/item_template#entry) that you must have in your inventory to enter the instance. This item can not be in the bank.
 &nbsp;
 
 ### item2
-A second [item](item_template#entry) that you must have in your inventory. This item can not be in the bank.
+A second [item](../world/item_template#entry) that you must have in your inventory. This item can not be in the bank.
 &nbsp;
 
 ### quest_done_A
-A [quest](quest_template#id) that you must have completed. This field is only for alliance.
+A [quest](../world/quest_template#id) that you must have completed. This field is only for alliance.
 &nbsp;
 
 ### quest_done_H
-A [quest](quest_template#id) that you must have completed. This field is only for horde.
+A [quest](../world/quest_template#id) that you must have completed. This field is only for horde.
 &nbsp;
 
 ### completed_achievement
