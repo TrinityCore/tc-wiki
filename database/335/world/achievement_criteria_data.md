@@ -2,7 +2,7 @@
 title: achievement_criteria_data
 description: 
 published: true
-date: 2023-07-07T19:39:09.269Z
+date: 2023-07-07T19:42:44.613Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:02:33.368Z
@@ -64,7 +64,7 @@ Depending on this value, it will determine how [value1](#value1) and [value2](#v
 | Type | Value1 | Value 2 | Comment |
 |------|--------|---------|---------|
 | TYPE_NONE | 0 | 0 |  |
-| TYPE_T_CREATURE | creature entry from [creature_template](creature_template#entry) | 0 |  |
+| TYPE_T_CREATURE | creature entry from [creature_template](../world/creature_template#entry) | 0 |  |
 | TYPE_T_PLAYER_CLASS_RACE | class ID from ChrClasses.dbc | race ID from ChrRaces.dbc |   |
 | TYPE_T_PLAYER_LESS_HEALTH | The percentage of health that the target must reach | 0 |  |
 | TYPE_T_PLAYER_DEAD | own_team | 0 | not corpse (not released body), own_team == false if enemy team expected |
@@ -79,23 +79,23 @@ Depending on this value, it will determine how [value1](#value1) and [value2](#v
 | TYPE_MAP_PLAYER_COUNT | count | 0 | "with less than %u people in the zone" |
 | TYPE_T_TEAM | The target must be on this team: Alliance = 469, Horde = 67 | 0 |  |
 | TYPE_S_DRUNK | How drunk the player must be:<br>&nbsp;&nbsp;&nbsp;&nbsp;DRUNKEN_SOBER = 0<br>&nbsp;&nbsp;&nbsp;&nbsp;DRUNKEN_TIPSY = 1<br>&nbsp;&nbsp;&nbsp;&nbsp;DRUNKEN_DRUNK = 2<br>&nbsp;&nbsp;&nbsp;&nbsp;DRUNKEN_SMASHED = 3 | 0 | (enum DrunkenState) of player |
-| TYPE_HOLIDAY | Holiday ID from Holiday.dbc and [game_event](game_event). Must be an active holiday | 0 | event in holiday time |
+| TYPE_HOLIDAY | Holiday ID from Holiday.dbc and [game_event](../world/game_event). Must be an active holiday | 0 | event in holiday time |
 | TYPE_BG_LOSS_TEAM_SCORE | min. score | max. score | player's team win bg and opposition team have team score in range |
 | TYPE_INSTANCE_SCRIPT | 0 | 0 | make instance script call for check current criteria requirements fit |
-| TYPE_S_EQUIPPED_ITEM | [Item level](item_template#itemlevel) | [Item quality](item_template#quality) | for equipped item in slot to check item level and quality |
+| TYPE_S_EQUIPPED_ITEM | [Item level](../world/item_template#itemlevel) | [Item quality](../world/item_template#quality) | for equipped item in slot to check item level and quality |
 | TYPE_MAP_ID | Player must be on mapId (see Map.dbc) | 0 |  |
 | TYPE_S_PLAYER_CLASS_RACE | class ID from ChrClasses.dbc | race ID from ChrRaces.dbc |
 | TYPE_NTH_BIRTHDAY | N | 0 | login on day of N-th Birthday |
 | TYPE_S_KNOWN_TITLE | Title ID from CharTitles.dbc | 0 | known (pvp) title |
 | TYPE_GAME_EVENT | - | - | 7.x only |
-| TYPE_S_ITEM_QUALITY | [Item quality](item_template#quality) | 0 |  |
+| TYPE_S_ITEM_QUALITY | [Item quality](../world/item_template#quality) | 0 |  |
 
 {.dense}
 
 &nbsp;
 ### ScriptName
 The ScriptName for when scripting it in the core.
-This might also be 'SmartTrigger'. It will than use [SmartAI](smart_scripts).
+This might also be 'SmartTrigger'. It will than use [SmartAI](../world/smart_scripts).
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/world/access_requirement" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'access_requirement'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/achievement_dbc" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'achievement_dbc'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
