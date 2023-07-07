@@ -2,8 +2,8 @@
 title: access_requirement
 description: 
 published: true
-date: 2022-11-21T21:25:50.277Z
-tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
+date: 2023-07-07T18:22:41.569Z
+tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:02:30.676Z
 ---
@@ -30,51 +30,56 @@ dateCreated: 2021-08-30T22:02:30.676Z
 ## Description of fields
 
 ### mapId
-*- no description -*
+The map ID of the instance. See Map.dbc
 &nbsp;
 
 ### difficulty
-*- no description -*
+5 man dungeons - 0 for normal, 1 for heroic, 2 for epic (not used yet)
+10 man dungeons - 0 for normal, 2 for heroic
+25 man dungeons - 1 for normal, 3 for heroic
 &nbsp;
 
 ### level_min
-*- no description -*
+The minimum level that you must be in order to enter the instance.
 &nbsp;
 
 ### level_max
-*- no description -*
+The maximum level that you can be in order to enter the instance.
 &nbsp;
 
 ### item_level
-*- no description -*
+The at least required item level for a instance.
+ * All WotLK Heroics require at least an average item level of 180.
+ * Trial of the Champion, Pit of Saron, and the Forge of Souls require an average item level of 200.
+ * Halls of Reflection requires an average item level of 219.
 &nbsp;
 
 ### item
-*- no description -*
+An [item](item_template#entry) that you must have in your inventory to enter the instance. This item can not be in the bank.
 &nbsp;
 
 ### item2
-*- no description -*
+A second [item](item_template#entry) that you must have in your inventory. This item can not be in the bank.
 &nbsp;
 
 ### quest_done_A
-*- no description -*
+A [quest](quest_template#id) that you must have completed. This field is only for alliance.
 &nbsp;
 
 ### quest_done_H
-*- no description -*
+A [quest](quest_template#id) that you must have completed. This field is only for horde.
 &nbsp;
 
 ### completed_achievement
-*- no description -*
+An achievement that must be completed by the player to enter an instance. See Achievement.dbc
 &nbsp;
 
 ### quest_failed_text
-*- no description -*
+The text that is shown if you try and enter the instance without having completed the quest.
 &nbsp;
 
 ### comment
-*- no description -*
+This field is for any comment you want to make about the requirements. It is arbitrary text.
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/world/waypoints" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'waypoints'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/achievement_criteria_data" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'achievement_criteria_data'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
