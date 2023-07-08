@@ -2,7 +2,7 @@
 title: World
 description: 
 published: true
-date: 2022-11-21T21:32:12.438Z
+date: 2023-07-08T15:55:07.630Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:12:46.204Z
@@ -115,6 +115,7 @@ dateCreated: 2021-08-30T22:12:46.204Z
 - [lfg_dungeon_rewards](/database/335/world/lfg_dungeon_rewards)
 - [lfg_dungeon_template](/database/335/world/lfg_dungeon_template)
 - [linked_respawn](/database/335/world/linked_respawn)
+- [\*_loot_template](/database/335/world/loot_template)
 {.links-list}
 ## m
 - [mail_level_reward](/database/335/world/mail_level_reward)
