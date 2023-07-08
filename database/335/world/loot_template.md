@@ -2,7 +2,7 @@
 title: *_loot_template
 description: 
 published: false
-date: 2023-07-08T00:17:47.784Z
+date: 2023-07-08T00:51:46.186Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-08T00:17:47.784Z
@@ -16,7 +16,7 @@ dateCreated: 2023-07-08T00:17:47.784Z
 
 Well, according to vocabulary the meaning of the word "loot" is good for corpse loot and may be for some gameobjects like chests but quite unfit for fishing "loot". Nevermind. We will use term "loot" here as "a set of items generated on an event for a player" and "loot definition" as "a set of rules for loot generation". And forget about vocabulary for a while.
 
-This table format is used for 11 different tables to generate different loot items for different things. The 11 tables are:
+This table format is used for 12 different tables to generate different loot items for different things. The 12 tables are:
 * [creature_loot_template](../world/creature_loot_template)
 * [disenchant_loot_template](../world/disenchant_loot_template)
 * [fishing_loot_template](../world/fishing_loot_template)
@@ -28,8 +28,9 @@ This table format is used for 11 different tables to generate different loot ite
 * [quest_mail_loot_template](../world/quest_mail_loot_template)
 * [reference_loot_template](../world/reference_loot_template)
 * [milling_loot_template](../world/milling_loot_template)
+* [spell_loot_template](../world/spell_loot_template)
 
-The general description here is valid for all 11 because the loot system is the same across all tables.
+The general description here is valid for all 12 because the loot system is the same across all tables.
 
 Loot templates define only items in the loot. See comments about money drop in corpse, pickpocketing and luggage loot in creature_template and item_template.
 &nbsp;
@@ -52,7 +53,7 @@ Loot templates define only items in the loot. See comments about money drop in c
 
 ## Relations
 
-The 11 tables have different relations with other DB tables.
+The 12 tables have different relations with other DB tables.
 
 | table | field | relation | related table | related field | comment |
 |-------|-------|----------|---------------|---------------|---------|
@@ -66,6 +67,7 @@ The 11 tables have different relations with other DB tables.
 | pickpocketing_loot_template | [entry](#entry) | many <- many | [creature_template](../world/creature_template) | [pickpocketloot](../world/creature_template#pickpocketloot) | | 
 | skinning_loot_template | [entry](#entry) | many <- many | [creature_template](../world/creature_template) | [skinloot](../world/creature_template#skinloot) | Can also store minable/herbable items gathered from creatures | 
 | quest_mail_loot_template | [entry](#entry) |  | [quest_template](../world/quest_template) | [RewMailTemplateId](../world/quest_template#RewMailTemplateId) | | 
+| spell_loot_template | [entry](#entry) |  |   |   | | 
 | reference_loot_template | [entry](#entry) | many <- many | \*_loot_template | [Reference](#Reference) | | 
 
 ## Description of fields
