@@ -2,7 +2,7 @@
 title: *_loot_template
 description: 
 published: true
-date: 2023-07-08T15:53:19.322Z
+date: 2023-07-08T16:28:59.839Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-08T00:17:47.784Z
@@ -301,5 +301,47 @@ There is no use for references here as the reference is done with the relation f
 When a skin is pulled for a quest it becoms the second skin from the mob. This is blizzlike and fortunately easy to implement. Just add necessary quest drop definition(s).
 &nbsp;
 
+## Reference Template Numbering
+Agreements for Reference Templates are as followed:
+
+| Range | Used for |
+|-------|----------|
+| 00000-00999 | Skinning Reference Templates |
+| 01000-09999 | KEEP FREE: TDB-DEV-References |
+| 10000-10999 | Item Reference Templates |
+| 11000-11799 | Fishing Reference Templates |
+| 11800-11999 | Milling Reference Templates |
+| 12000-12899 | Raid: Gameobject Reference Templates |
+| 12900-12999 | Mining Reference Templates |
+| 13000-13999 | Prospecting Reference Templates |
+| 14000-29000 | World Reference Templates |
+| 34000-34999 | Raid: Creature Reference Templates |
+| 35000-35999 | Dungeon Reference Templates |
+{.dense}
+
+&nbsp;
+
+## Examples
+Gameobject dropping a single non-quest item
+
+```sql
+-- Add a single non-quest item to an object
+DELETE `gameobject_loot_template` WHERE `Entry`=1419;
+INSERT INTO `gameobject_loot_template`
+   (`Entry`,`Item`,`Chance`,`LootMode`,`GroupId`,`MinCount`,`MaxCount`)
+VALUES
+   (1419,2453,100,0,0,1,3);  -- 100% chance to drop a 1 to 3 Bruiseweed
+```
+Creature having in the pocket single quest item
+```sql
+-- creature_template: entry=6846, name='Defias Dockmaster', pickpocketloot=6846
+-- Note: link with pickpocketing_loot_template is on `pickpocketloot` field (which is equal to `entry` field in this case)
+DELETE `pickpocketing_loot_template` WHERE `Entry`=6846;
+INSERT INTO `pickpocketing_loot_template`
+   (`Entry`,`Item`,`Chance`,`LootMode`,`GroupId`,`MinCount`,`MaxCount`)
+VALUES
+   (6846,7675,100,0,0,1,1);
+```
+&nbsp;
 
 <a href="https://trinitycore.info/en/database/335/world/creature_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'creature_loot_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/gameobject_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'gameobject_loot_template'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
