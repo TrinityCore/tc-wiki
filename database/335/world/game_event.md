@@ -2,13 +2,15 @@
 title: game_event
 description: 
 published: true
-date: 2022-11-21T21:27:18.297Z
-tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
+date: 2023-07-09T17:31:14.034Z
+tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:04:25.689Z
 ---
 
 <a href="https://trinitycore.info/en/database/335/world/fishing_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'fishing_loot_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/game_event_arena_seasons" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'game_event_arena_seasons'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+
+This table holds definitions for all game events that are activated or deactivated automatically by the Game Event System in the core.
 
 ## Structure
 
@@ -28,43 +30,53 @@ dateCreated: 2021-08-30T22:04:25.689Z
 ## Description of fields
 
 ### eventEntry
-*- no description -*
+Entry of the event. Keep it as low as possible and prevent making holes in the list. Higher the max id is, the more memory will be used to store the event data.
 &nbsp;
 
 ### start_time
-*- no description -*
+Absolute start date of the event. The event will start occurring only if the local time at the server is after the one set here.
 &nbsp;
 
 ### end_time
-*- no description -*
+Absolute end date of the event. The event will stop occurring if the local time at the server is after the one set here.
 &nbsp;
 
 ### occurence
-*- no description -*
+Number of minutes between 2 occurrences of the event. (2880 = 2 days, 1440 = 1 day, etc). 
+> Note: Setting this to 0 will crash the server.
+{.is-warning}
+
 &nbsp;
 
 ### length
-*- no description -*
+Number of minutes the event will last after the start of the occurrence. (2880 = 2 days, 1440 = 1 day, etc)
+This value must be lower than occurrence one or the event will never stop.
 &nbsp;
 
 ### holiday
-*- no description -*
+Holiday if from Holidays.dbc. This is sent to the client to update the calender.
 &nbsp;
 
 ### holidayStage
-*- no description -*
+Index of the main event stage. (see durations in Holidays.dbc)
+
+(e.g.: Darkmoon Faire has a preparation stage where it sets up.)
+
+min.: 1 - max.: MAX_HOLIDAY_DURATIONS (10)
 &nbsp;
 
 ### description
-*- no description -*
+String containing the name of the event displayed in console each time it starts or stops.
 &nbsp;
 
 ### world_event
-*- no description -*
+This is a boolean field that determines if this game event is a world event or not. 0 = normal event, 1 = world event. If you want conditions for the event, you ***need*** to choose world event. For the world event to work, you need to at a minimum, populate [game_event_condition](../world/game_event_condition) and [game_event_quest_condition](../world/game_event_quest_condition).
 &nbsp;
 
 ### announce
-*- no description -*
+* 0: don't announce
+* 1: announce **description** to world
+* 2: use `Event.Announce` setting from config
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/world/fishing_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'fishing_loot_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/game_event_arena_seasons" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'game_event_arena_seasons'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
