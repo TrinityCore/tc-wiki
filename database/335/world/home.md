@@ -2,7 +2,7 @@
 title: World
 description: 
 published: true
-date: 2023-07-08T15:55:07.630Z
+date: 2023-07-09T17:02:05.650Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:12:46.204Z
@@ -185,6 +185,7 @@ dateCreated: 2021-08-30T22:12:46.204Z
 - [script_spline_chain_meta](/database/335/world/script_spline_chain_meta)
 - [script_spline_chain_waypoints](/database/335/world/script_spline_chain_waypoints)
 - [script_waypoint](/database/335/world/script_waypoint)
+- [*_scripts](/database/335/world/scripts)
 - [skill_discovery_template](/database/335/world/skill_discovery_template)
 - [skill_extra_item_template](/database/335/world/skill_extra_item_template)
 - [skill_fishing_base_level](/database/335/world/skill_fishing_base_level)
