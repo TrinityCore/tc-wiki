@@ -2,7 +2,7 @@
 title: World
 description: 
 published: true
-date: 2023-05-29T22:34:05.569Z
+date: 2023-07-09T10:59:22.589Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-28T21:01:17.438Z
@@ -78,6 +78,7 @@ dateCreated: 2021-08-28T21:01:17.438Z
 - [disenchant_loot_template](/database/master/world/disenchant_loot_template)
 {.links-list}
 ## e
+- [event_script_names](/database/master/world/event_script_names)
 - [event_scripts](/database/master/world/event_scripts)
 - [exploration_basexp](/database/master/world/exploration_basexp)
 {.links-list}
