@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2023-06-24T21:28:10.134Z
+date: 2023-07-09T11:04:54.923Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -67,7 +67,7 @@ Object type (creature, gameobject, quest, etc.).
 | SMART_SCRIPT_TYPE_CREATURE | 0 | [creature_template.entry](/en/database/master/world/creature_template#entry) or [creature.guid](/en/database/master/world/creature#guid) | SmartAI ([creature_template.AIName](/en/database/master/world/creature_template#ainame)) | Creature |
 | SMART_SCRIPT_TYPE_GAMEOBJECT | 1 | [gameobject_template.entry](/en/database/master/world/gameobject_template#entry) or [gameobject.guid](/en/database/master/world/gameobject#guid) | SmartGameObjectAI ([gameobject_template.AIName](/en/database/master/world/gameobject_template#ainame)) | GameObject |
 | SMART_SCRIPT_TYPE_AREATRIGGER | 2 | Areatrigger.db2 (ID) | SmartTrigger ([areatrigger_scripts.ScriptName](/en/database/master/world/areatrigger_scripts#scriptname)) | Player |
-| :x: SMART_SCRIPT_TYPE_EVENT | 3 | | | |
+| SMART_SCRIPT_TYPE_EVENT | 3 | [event_script_names.Id](/en/database/master/world/event_script_names#id) | SmartEventTrigger ([event_script_names.ScriptName](/en/database/master/world/event_script_names#scriptname)) | Player, Creature or GameObject |
 | :x: SMART_SCRIPT_TYPE_GOSSIP | 4 | | | |
 | SMART_SCRIPT_TYPE_QUEST | 5 | [quest_template.ID](/en/database/master/world/quest_template#id) | SmartQuest ([quest_template_addon.ScriptName](/en/database/master/world/quest_template_addon#scriptname)) | Player |
 | :x: SMART_SCRIPT_TYPE_SPELL | 6 | | | |
@@ -230,6 +230,7 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_EVENT_ON_SPELL_FAILED | 84 | SpellID | CooldownMin | CooldownMax | | | | On spell failed |
 | SMART_EVENT_ON_SPELL_START | 85 | SpellID | CooldownMin | CooldownMax | | | | On spell start |
 | SMART_EVENT_ON_DESPAWN | 86 | | | | | | | On despawn |
+| SMART_EVENT_SEND_EVENT_TRIGGER | 87 | | | | | | | On GameEvent triggered |
 
 > Please note :warning:means that the event_type is deprecated and should not be used.
 {.is-warning}
