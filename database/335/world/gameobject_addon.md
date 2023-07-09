@@ -2,13 +2,15 @@
 title: gameobject_addon
 description: 
 published: true
-date: 2022-11-21T21:27:54.236Z
-tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
+date: 2023-07-09T21:10:09.763Z
+tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:05:14.318Z
 ---
 
 <a href="https://trinitycore.info/en/database/335/world/gameobject" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'gameobject'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/gameobject_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'gameobject_loot_template'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+
+This table provides additional parameters to each gameobject on a per spawn basis.
 
 ## Structure
 
@@ -25,31 +27,42 @@ dateCreated: 2021-08-30T22:05:14.318Z
 ## Description of fields
 
 ### guid
-*- no description -*
+refers to [gameobject.guid](../world/gameobject#guid)
 &nbsp;
 
 ### parent_rotation0
-*- no description -*
+parentRotation.x
+-1 <= x <= 1
 &nbsp;
 
 ### parent_rotation1
-*- no description -*
+parentRotation.y
+-1 <= y <= 1
 &nbsp;
 
 ### parent_rotation2
-*- no description -*
+parentRotation.z
+-1 <= z <= 1
 &nbsp;
 
 ### parent_rotation3
-*- no description -*
+parentRotation.w
+-1 <= w <= 1
 &nbsp;
 
 ### invisibilityType
-*- no description -*
+from [`enum InvisibilityType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h)
+| ID | Name |
+|----|------|
+| 0 | INVISIBILITY_GENERAL |
+| 3 | INVISIBILITY_TRAP |
+| 6 | INVISIBILITY_DRUNK |
+{.dense}
+
 &nbsp;
 
 ### invisibilityValue
-*- no description -*
+The larger the value the harder it is to detect this gameobject.
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/world/gameobject" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'gameobject'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/gameobject_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'gameobject_loot_template'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
