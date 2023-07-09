@@ -2,13 +2,15 @@
 title: game_event_model_equip
 description: 
 published: true
-date: 2022-11-21T21:27:34.217Z
-tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
+date: 2023-07-09T18:08:52.963Z
+tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:04:47.232Z
 ---
 
 <a href="https://trinitycore.info/en/database/335/world/game_event_gameobject_quest" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'game_event_gameobject_quest'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/game_event_npc_vendor" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'game_event_npc_vendor'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+
+Contains all creature instances that need to change display id and/or equipment during defined game events.
 
 ## Structure
 
@@ -22,19 +24,21 @@ dateCreated: 2021-08-30T22:04:47.232Z
 ## Description of fields
 
 ### eventEntry
-*- no description -*
+refers to [game_event.eventEntry](../world/game_event/#evententry)
 &nbsp;
 
 ### guid
-*- no description -*
+The [creature.guid](../world/creature#guid) to be modified.
 &nbsp;
 
 ### modelid
-*- no description -*
+New [DisplayID](../world/creature_model_info#displayid) to be used while the event is active.
+Use 0 if only the **equipment_id** is to be changed during event.
 &nbsp;
 
 ### equipment_id
-*- no description -*
+New [equipmentID](../world/creature_equip_template#id) to be used during the event.
+Use 0 if only the **modelid** is to be changed during event.
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/world/game_event_gameobject_quest" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'game_event_gameobject_quest'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/game_event_npc_vendor" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'game_event_npc_vendor'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
