@@ -2,13 +2,15 @@
 title: npc_text
 description: 
 published: true
-date: 2022-11-21T21:28:53.709Z
-tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
+date: 2023-07-11T18:19:56.033Z
+tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:06:36.830Z
 ---
 
 <a href="https://trinitycore.info/en/database/335/world/npc_spellclick_spells" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'npc_spellclick_spells'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/npc_text_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'npc_text_locale'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+
+This table contains the texts that are used for gossip. More research needs to be done on this table.
 
 ## Structure
 
@@ -108,363 +110,61 @@ dateCreated: 2021-08-30T22:06:36.830Z
 ## Description of fields
 
 ### ID
-*- no description -*
+This is the ID of the text entry.
 &nbsp;
 
-### text0_0
-*- no description -*
+### text\[0-7]_0
+This is the text that is displayed if the NPC is male.
 &nbsp;
 
-### text0_1
-*- no description -*
+### text\[0-7]_1
+This is the text that is displayed if the NPC is female.
 &nbsp;
 
-### BroadcastTextID0
-*- no description -*
+### BroadcastTextID\[0-7]
+The [broadcast_text.ID](../world/broadcast_text#id) of this definition. It will entirely override this entry. 
 &nbsp;
 
-### lang0
-*- no description -*
-&nbsp;
-
-### Probability0
-*- no description -*
-&nbsp;
-
-### EmoteDelay0_0
-*- no description -*
-&nbsp;
-
-### Emote0_0
-*- no description -*
-&nbsp;
-
-### EmoteDelay0_1
-*- no description -*
-&nbsp;
-
-### Emote0_1
-*- no description -*
-&nbsp;
-
-### EmoteDelay0_2
-*- no description -*
-&nbsp;
-
-### Emote0_2
-*- no description -*
-&nbsp;
-
-### text1_0
-*- no description -*
-&nbsp;
-
-### text1_1
-*- no description -*
-&nbsp;
-
-### BroadcastTextID1
-*- no description -*
-&nbsp;
-
-### lang1
-*- no description -*
-&nbsp;
-
-### Probability1
-*- no description -*
-&nbsp;
-
-### EmoteDelay1_0
-*- no description -*
-&nbsp;
-
-### Emote1_0
-*- no description -*
-&nbsp;
-
-### EmoteDelay1_1
-*- no description -*
-&nbsp;
-
-### Emote1_1
-*- no description -*
-&nbsp;
-
-### EmoteDelay1_2
-*- no description -*
-&nbsp;
-
-### Emote1_2
-*- no description -*
-&nbsp;
-
-### text2_0
-*- no description -*
-&nbsp;
-
-### text2_1
-*- no description -*
-&nbsp;
-
-### BroadcastTextID2
-*- no description -*
-&nbsp;
-
-### lang2
-*- no description -*
-&nbsp;
-
-### Probability2
-*- no description -*
-&nbsp;
-
-### EmoteDelay2_0
-*- no description -*
-&nbsp;
-
-### Emote2_0
-*- no description -*
-&nbsp;
-
-### EmoteDelay2_1
-*- no description -*
-&nbsp;
-
-### Emote2_1
-*- no description -*
-&nbsp;
-
-### EmoteDelay2_2
-*- no description -*
-&nbsp;
-
-### Emote2_2
-*- no description -*
-&nbsp;
-
-### text3_0
-*- no description -*
-&nbsp;
-
-### text3_1
-*- no description -*
-&nbsp;
-
-### BroadcastTextID3
-*- no description -*
-&nbsp;
-
-### lang3
-*- no description -*
-&nbsp;
-
-### Probability3
-*- no description -*
-&nbsp;
-
-### EmoteDelay3_0
-*- no description -*
-&nbsp;
-
-### Emote3_0
-*- no description -*
-&nbsp;
-
-### EmoteDelay3_1
-*- no description -*
-&nbsp;
-
-### Emote3_1
-*- no description -*
-&nbsp;
-
-### EmoteDelay3_2
-*- no description -*
-&nbsp;
-
-### Emote3_2
-*- no description -*
-&nbsp;
-
-### text4_0
-*- no description -*
-&nbsp;
-
-### text4_1
-*- no description -*
-&nbsp;
-
-### BroadcastTextID4
-*- no description -*
-&nbsp;
-
-### lang4
-*- no description -*
-&nbsp;
-
-### Probability4
-*- no description -*
-&nbsp;
-
-### EmoteDelay4_0
-*- no description -*
-&nbsp;
-
-### Emote4_0
-*- no description -*
-&nbsp;
-
-### EmoteDelay4_1
-*- no description -*
-&nbsp;
-
-### Emote4_1
-*- no description -*
-&nbsp;
-
-### EmoteDelay4_2
-*- no description -*
-&nbsp;
-
-### Emote4_2
-*- no description -*
-&nbsp;
-
-### text5_0
-*- no description -*
-&nbsp;
-
-### text5_1
-*- no description -*
-&nbsp;
-
-### BroadcastTextID5
-*- no description -*
-&nbsp;
-
-### lang5
-*- no description -*
-&nbsp;
-
-### Probability5
-*- no description -*
-&nbsp;
-
-### EmoteDelay5_0
-*- no description -*
-&nbsp;
-
-### Emote5_0
-*- no description -*
-&nbsp;
-
-### EmoteDelay5_1
-*- no description -*
-&nbsp;
-
-### Emote5_1
-*- no description -*
-&nbsp;
-
-### EmoteDelay5_2
-*- no description -*
-&nbsp;
-
-### Emote5_2
-*- no description -*
-&nbsp;
-
-### text6_0
-*- no description -*
-&nbsp;
-
-### text6_1
-*- no description -*
-&nbsp;
-
-### BroadcastTextID6
-*- no description -*
-&nbsp;
-
-### lang6
-*- no description -*
-&nbsp;
-
-### Probability6
-*- no description -*
-&nbsp;
-
-### EmoteDelay6_0
-*- no description -*
-&nbsp;
-
-### Emote6_0
-*- no description -*
-&nbsp;
-
-### EmoteDelay6_1
-*- no description -*
-&nbsp;
-
-### Emote6_1
-*- no description -*
-&nbsp;
-
-### EmoteDelay6_2
-*- no description -*
-&nbsp;
-
-### Emote6_2
-*- no description -*
-&nbsp;
-
-### text7_0
-*- no description -*
-&nbsp;
-
-### text7_1
-*- no description -*
-&nbsp;
-
-### BroadcastTextID7
-*- no description -*
-&nbsp;
-
-### lang7
-*- no description -*
-&nbsp;
-
-### Probability7
-*- no description -*
-&nbsp;
-
-### EmoteDelay7_0
-*- no description -*
-&nbsp;
-
-### Emote7_0
-*- no description -*
-&nbsp;
+### lang\[0-7]
+The language of the text in game, as described in Languages.dbc 
+| ID | Language | | ID | Language |
+|----|----------|-|----|----------|
+| 1 | Orcish | | 12 | Kalimag |
+| 2 | Darnassian | |  13 | Gnomish |
+| 3 | Taurahe | |  14 | Troll |
+| 6 | Dwarvish | |  33 | Gutterspeak |
+| 7 | Common | |  35 | Draenei |
+| 8 | Demonic | |  36 | Zombie |
+| 9 | Titan | |  37 | Gnomish Binary |
+| 10 | Thalassian | |  38 | Goblin Binary |
+|11 | Draconic | |   |  |
+{.dense}
 
-### EmoteDelay7_1
-*- no description -*
 &nbsp;
 
-### Emote7_1
-*- no description -*
+### Probability\[0-7]
+The percent-chance (probability) that the NPC will say either **text\*_0** or **text\*_1** depending on the NPCs gender.
+1 will always show this text, while 0.5 will show this text 50% of the time and then choose another text in the current row. The total of all probabilities in the current row should equal 1.
 &nbsp;
 
-### EmoteDelay7_2
-*- no description -*
+### EmoteDelay\[0-7]_(0-2)
+The delay in milliseconds after which the next emote can be played.
 &nbsp;
 
-### Emote7_2
-*- no description -*
+### Emote\[0-7]_(0-2)
+The ID of the emote from Emotes.dbc that the NPC should do when displaying the text. The emotes are played after each other in order (0 - 2).
 &nbsp;
 
 ### VerifiedBuild
-*- no description -*
+This field is used by the TrinityDB Team to determine whether a template has been verified from WDB files.
+
+If value is 0 then it has not been parsed yet.
+
+If value is above 0 then it has been parsed with WDB files from that specific [client build](/en/database/335/auth/realmlist#gamebuild).
+
+If value is -1 then it is just a place holder until proper data are found on WDBs.
+
+If value is -[Client Build](/en/database/335/auth/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/world/npc_spellclick_spells" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'npc_spellclick_spells'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/npc_text_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'npc_text_locale'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
