@@ -2,7 +2,7 @@
 title: item_template
 description: 
 published: true
-date: 2023-07-11T17:13:14.037Z
+date: 2023-07-11T17:13:34.269Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:06:11.793Z
@@ -353,7 +353,7 @@ The price required to pay to buy this item from a vendor, in copper.
 The price that the vendor will pay you for the item when you sell it and if it is possible to be sold, in copper. Put in 0 if the item cannot be sold to a vendor.
 &nbsp;
 
-### InventoryType [`enum`]()
+### InventoryType
 In what slot the item can be equipped. (see [`enum InventoryType`](https://github.com/TrinityCore/TrinityCore/tree/3.3.5/src/server/game/Entities/Item/ItemTemplate.h))
 | ID | Name |   | ID | Name |
 |----|------|---|----|------|
