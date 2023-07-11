@@ -2,7 +2,7 @@
 title: broadcast_text
 description: 
 published: true
-date: 2023-07-07T21:16:58.671Z
+date: 2023-07-11T18:03:18.853Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:02.490Z
@@ -42,7 +42,20 @@ Self description.
 &nbsp;
 
 ### LanguageID
-The language in what the text will be broadcasted. (see Languages.dbc)
+The language in which the text will be broadcasted. (see Languages.dbc)
+| ID | Language | | ID | Language |
+|----|----------|-|----|----------|
+| 1 | Orcish | | 12 | Kalimag |
+| 2 | Darnassian | |  13 | Gnomish |
+| 3 | Taurahe | |  14 | Troll |
+| 6 | Dwarvish | |  33 | Gutterspeak |
+| 7 | Common | |  35 | Draenei |
+| 8 | Demonic | |  36 | Zombie |
+| 9 | Titan | |  37 | Gnomish Binary |
+| 10 | Thalassian | |  38 | Goblin Binary |
+|11 | Draconic | |   |  |
+{.dense}
+
 &nbsp;
 
 ### Text
