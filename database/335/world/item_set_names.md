@@ -2,7 +2,7 @@
 title: item_set_names
 description: 
 published: true
-date: 2023-07-11T00:27:03.765Z
+date: 2023-07-11T13:50:21.959Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:06:06.438Z
@@ -50,6 +50,8 @@ from [`enum InventoryType`](https://github.com/TrinityCore/TrinityCore/tree/3.3.
 | 12 | INVTYPE_TRINKET | | 26 | INVTYPE_RANGEDRIGHT | 
 | 13 | INVTYPE_WEAPON | | 27 | INVTYPE_QUIVER | 
 | 14 | INVTYPE_SHIELD | | 28 | INVTYPE_RELIC | 
+{.dense}
+
 &nbsp;
 
 ### VerifiedBuild
