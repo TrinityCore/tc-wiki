@@ -2,7 +2,7 @@
 title: quest_pool_template
 description: 
 published: true
-date: 2023-07-12T15:36:42.890Z
+date: 2023-07-12T15:46:20.940Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:22.651Z
@@ -28,7 +28,6 @@ The pool ID. This is an arbitrary number that is only used to link quests in thi
 
 ### numActive
 This is the maximum number of quests in this pool that should be available at a time.
-0 is no limit.
 &nbsp;
 
 ### description
