@@ -2,13 +2,15 @@
 title: reputation_reward_rate
 description: 
 published: true
-date: 2022-11-21T21:30:29.242Z
-tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
+date: 2023-07-13T21:27:38.633Z
+tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:42.575Z
 ---
 
 <a href="https://trinitycore.info/en/database/335/world/reference_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'reference_loot_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/reputation_spillover_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'reputation_spillover_template'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+
+Holds reputation multipliers for specific factions.
 
 ## Structure
 
@@ -26,35 +28,35 @@ dateCreated: 2021-08-30T22:08:42.575Z
 ## Description of fields
 
 ### faction
-*- no description -*
+The id of the faction from Faction.dbc these rates apply to.
 &nbsp;
 
 ### quest_rate
-*- no description -*
+The rate for reputation gain from regular quests.
 &nbsp;
 
 ### quest_daily_rate
-*- no description -*
+The rate for reputation gain from daily repeatable quests.
 &nbsp;
 
 ### quest_weekly_rate
-*- no description -*
+The rate for reputation gain from weekly repeatable quests.
 &nbsp;
 
 ### quest_monthly_rate
-*- no description -*
+The rate for reputation gain from monthly repeatable quests.
 &nbsp;
 
 ### quest_repeatable_rate
-*- no description -*
+The rate for reputation gain from genreral repeatable quests.
 &nbsp;
 
 ### creature_rate
-*- no description -*
+The rate for reputation gain from creature kills.
 &nbsp;
 
 ### spell_rate
-*- no description -*
+The rate for reputation gain from spells. (like [Commendation Badges](https://aowow.trinitycore.info/?search=Commendation+Badge))
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/world/reference_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'reference_loot_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/reputation_spillover_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'reputation_spillover_template'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
