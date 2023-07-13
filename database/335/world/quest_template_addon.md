@@ -2,7 +2,7 @@
 title: quest_template_addon
 description: 
 published: true
-date: 2023-07-13T20:28:20.261Z
+date: 2023-07-13T20:33:10.586Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:34.142Z
@@ -137,11 +137,11 @@ excerpt from [`enum QuestSpecialFlags`](https://github.com/TrinityCore/TrinityCo
 | Value | Flag | Name | Description |
 |-------|------|------|-------------|
 | 1 | 0x01 | QUEST_SPECIAL_FLAGS_REPEATABLE |  |
-| 2 | 0x02 | QUEST_SPECIAL_FLAGS_EXPLORATION_OR_EVENT | if required area explore, spell SPELL_EFFECT_QUEST_COMPLETE casting, table SPELL_EFFECT_QUEST_COMPLETE casting, table \*_script command SCRIPT_COMMAND_QUEST_EXPLORED use, set from script |
-| 4 | 0x04 | QUEST_SPECIAL_FLAGS_AUTO_ACCEPT | if the quest is to be auto-accepted. |
+| 2 | 0x02 | QUEST_SPECIAL_FLAGS_EXPLORATION_OR_EVENT | if required area explore, spell SPELL_EFFECT_QUEST_COMPLETE casting, an entry in [areatrigger_involvedrelation](../world/areatrigger_involvedrelation) or [\*_script](../world/scripts) command SCRIPT_COMMAND_QUEST_EXPLORED use |
+| 4 | 0x04 | QUEST_SPECIAL_FLAGS_AUTO_ACCEPT | if the quest is to be auto-accepted. As of patch 3.3.5a only quests in the starter area need this flag. |
 | 8 | 0x08 | QUEST_SPECIAL_FLAGS_DF_QUEST | if the quest is used by Dungeon Finder. |
 | 16 | 0x10 | QUEST_SPECIAL_FLAGS_MONTHLY | if the quest is reset at the begining of the month |
-| 32 | 0x20 | QUEST_SPECIAL_FLAGS_CAST | if the quest requires RequiredOrNpcGo killcredit but NOT kill (a spell cast) |
+| 32 | 0x20 | QUEST_SPECIAL_FLAGS_CAST | if the quest requires RequiredOrNpcGo killcredit but NOT kill (a spell cast). This action usually involves "killing" an invisible "bunny" NPC. |
 {.dense}
 
 &nbsp;
