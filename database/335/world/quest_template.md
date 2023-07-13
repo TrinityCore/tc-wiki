@@ -2,7 +2,7 @@
 title: quest_template
 description: 
 published: true
-date: 2023-07-12T19:04:31.736Z
+date: 2023-07-13T21:06:53.203Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:30.767Z
@@ -455,5 +455,192 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -[Client Build](/en/database/335/auth/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
+
+## Examples
+Always use [PrevQuestID](../world/quest_template_addon#prevquestid) before using [NextQuestID](../world/quest_template_addon#nextquestid). NextQuestID is considered optional and to be used only when PrevQuestID is not sufficient.
+&nbsp;
+
+### Basic quest
+Single, stand-alone quest with no prerequisites
+```
+questA
+```
+```sql
+ID = questA        PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0
+```
+&nbsp;
+
+
+### Chain of quests
+Player get quests in a strict chain that must be completed in a specific order.
+```
+.   questA
+      |
+    questB
+      |
+    questC
+      |
+    questD
+```
+```sql
+ID = questA   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questB
+ID = questB   PrevQuestID = questA   NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questC
+ID = questC   PrevQuestID = questB   NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questD
+ID = questD   PrevQuestID = questC   NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0
+```
+&nbsp;
+
+### Chain of quests with multiple start quests
+Player should only be allowed to complete one of three possible.
+```
+.   questA     questB    questC
+      \           |         /
+        ------ questD -----
+                  |
+               questE
+```
+```sql
+ID = questA   PrevQuestID = 0        NextQuestID = questD   ExclusiveGroup = questA   RewardNextQuest = questD    
+ID = questB   PrevQuestID = 0        NextQuestID = questD   ExclusiveGroup = questA   RewardNextQuest = questD
+ID = questC   PrevQuestID = 0        NextQuestID = questD   ExclusiveGroup = questA   RewardNextQuest = questD
+ID = questD   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questE
+ID = questE   PrevQuestID = questD   NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0
+```
+&nbsp;
+
+### Chain of quests with multiple start quests
+Player must complete all three initial quests before D becomes available.
+```
+.   questA     questB    questC
+      \           |         /
+        ------ questD -----
+                  |
+               questE
+```
+```sql
+ID = questA   PrevQuestID = 0        NextQuestID = questD   ExclusiveGroup = -questA  RewardNextQuest = questD
+ID = questB   PrevQuestID = 0        NextQuestID = questD   ExclusiveGroup = -questA  RewardNextQuest = questD
+ID = questC   PrevQuestID = 0        NextQuestID = questD   ExclusiveGroup = -questA  RewardNextQuest = questD
+ID = questD   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questE
+ID = questE   PrevQuestID = questD   NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0
+```
+&nbsp;
+
+### Quests with split and a child quest
+Completing A unlocks B and C that can be done at the same time. They both need to be completed before D becomes available. X is needed to obtain item for C and this quest should only be available if C is active.
+```
+.               questA
+              /        \
+          questB     questC  -  questX
+              \        /
+                questD
+```
+```sql
+ID = questA   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0
+ID = questB   PrevQuestID = questA   NextQuestID = questD   ExclusiveGroup = -questB  RewardNextQuest = 0
+ID = questC   PrevQuestID = questA   NextQuestID = questD   ExclusiveGroup = -questB  RewardNextQuest = 0
+ID = questX   PrevQuestID = -questC  NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0
+ID = questD   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0
+```
+&nbsp;
+
+### Multiple quest chains, leading to one final quest
+Player may complete (not required to) X, but has to complete all three quest chains before final quest becomes available.
+```
+.                questX 
+                   |
+     questA      questC      questE 
+       |           |            |
+     questB      questD      questF 
+       \           |           /
+         ------- questG ------
+```
+```sql
+ID = questX   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questC    
+ID = questA   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questB    
+ID = questB   PrevQuestID = questA   NextQuestID = questG   ExclusiveGroup = -questB  RewardNextQuest = 0         
+ID = questC   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questD    
+ID = questD   PrevQuestID = questC   NextQuestID = questG   ExclusiveGroup = -questB  RewardNextQuest = 0         
+ID = questE   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questF    
+ID = questF   PrevQuestID = questE   NextQuestID = questG   ExclusiveGroup = -questB  RewardNextQuest = 0    
+
+ID = questG   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0         
+```
+&nbsp;
+
+### Complicated
+Player must first complete A, then B to unlock the chain from C to E. Three other quests (F, G, H) in a group will also be unlocked, those can be done at the same time. The three grouped quests must all be completed before I becomes available. Completion of E and I is required to obtain the final quest.
+```
+.                questA 
+                   |
+                 questB 
+              /          \
+           questC       questF 
+             |          questG 
+           questD       questH 
+             |            |
+           questE       questI 
+             \           /
+                 questJ 
+
+```
+```sql
+ID = questA   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questB
+ID = questB   PrevQuestID = questA   NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0     
+
+ID = questC   PrevQuestID = questB   NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questD
+ID = questD   PrevQuestID = questC   NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questE
+ID = questE   PrevQuestID = questD   NextQuestID = questJ   ExclusiveGroup = -questE  RewardNextQuest = 0     
+
+ID = questF   PrevQuestID = questB   NextQuestID = questI   ExclusiveGroup = -questF  RewardNextQuest = 0     
+ID = questG   PrevQuestID = questB   NextQuestID = questI   ExclusiveGroup = -questF  RewardNextQuest = 0     
+ID = questH   PrevQuestID = questB   NextQuestID = questI   ExclusiveGroup = -questF  RewardNextQuest = 0     
+
+ID = questI   PrevQuestID = 0        NextQuestID = questJ   ExclusiveGroup = -questE  RewardNextQuest = 0     
+
+ID = questJ   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0     
+```
+&nbsp;
+
+### Impossible - many quests may unlock many
+Player can choose between two alternative chains (Chain A or B, but not both chains). A2 or B2 should unlock C, D and E when complete. When all three complete, F should be unlocked. If player get A3 or B3 after complete F, depends on if chain A or B was chosen.
+```
+.                questA1             questB1 
+                    |                   |
+                 questA2             questB2 
+                    \                  /
+                     ----  questC  ----
+                           questD 
+                           questE 
+                             |
+                           questF 
+                         /        \
+                     questA3     questB3 
+```
+```sql
+ID = questA1  PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questA2
+ID = questA2  PrevQuestID = questA1  NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0      
+
+ID = questB1  PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questB2
+ID = questB2  PrevQuestID = questB1  NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0      
+
+ID = questC   PrevQuestID = 0        NextQuestID = questF   ExclusiveGroup = -questC  RewardNextQuest = 0      
+ID = questD   PrevQuestID = 0        NextQuestID = questF   ExclusiveGroup = -questC  RewardNextQuest = 0      
+ID = questE   PrevQuestID = 0        NextQuestID = questF   ExclusiveGroup = -questC  RewardNextQuest = 0      
+
+ID = questF   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0      
+
+ID = questA3  PrevQuestID = questF   NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0      
+ID = questB3  PrevQuestID = questF   NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0      
+```
+> Note: If player can choose between chain A or B may be determined by faction status (aldor or scryer), using [RequiredMinRepFaction](../world/quest_template_addon#requiredminrepfaction) = 1. Player should not be able to be neutral+1 with both at the same time. This may be the common threshold to obtain aldor or scryer quests (this is unsure). If that is the case, only the unlock of C, D and E after complete A2 or B2 is the impossible part.
+{.is-info}
+
+> Note: With the [conditions](../world/conditions) now every quest chain is possible.
+{.is-info}
+
+
+
+
 
 <a href="https://trinitycore.info/en/database/335/world/quest_request_items_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'quest_request_items_locale'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/quest_template_addon" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'quest_template_addon'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
