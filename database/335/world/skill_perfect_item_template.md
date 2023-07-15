@@ -2,13 +2,15 @@
 title: skill_perfect_item_template
 description: 
 published: true
-date: 2022-11-21T21:30:45.212Z
-tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
+date: 2023-07-15T10:46:36.542Z
+tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:04.266Z
 ---
 
 <a href="https://trinitycore.info/en/database/335/world/skill_fishing_base_level" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'skill_fishing_base_level'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/skinning_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'skinning_loot_template'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+
+This table holds information about when using certain profession spells will create a different version of the item. (Jewelcrafting - Gem Perfection)
 
 ## Structure
 
@@ -22,19 +24,19 @@ dateCreated: 2021-08-30T22:09:04.266Z
 ## Description of fields
 
 ### spellId
-*- no description -*
+The spell id from Spell.dbc that creates the item.
 &nbsp;
 
 ### requiredSpecialization
-*- no description -*
+The character must have the spell id from Spell.dbc specified here learned to have a chance at triggering the effect.
 &nbsp;
 
 ### perfectCreateChance
-*- no description -*
+The chance that the player will create an alternative item.
 &nbsp;
 
 ### perfectItemType
-*- no description -*
+The [item entry](../world/item_template#entry) replacing the original crafted item.
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/world/skill_fishing_base_level" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'skill_fishing_base_level'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/skinning_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'skinning_loot_template'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
