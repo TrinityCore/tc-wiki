@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2023-07-08T21:28:01.397Z
+date: 2023-07-15T09:33:35.488Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:50.335Z
@@ -445,7 +445,6 @@ This field can control whether a mob is minable or herbable or lootable by engin
 | 2147483648 | 0x80000000 | CREATURE_TYPE_FLAG_QUEST_BOSS |  |
 {.dense}
 
-
 &nbsp;
 
 ### lootid
@@ -486,9 +485,8 @@ This field is overridden by ScriptName field if both are set.
 | ReactorAI | Creature attacks only if aggroed by attack, spell etc. |
 | GuardAI |  |
 | PetAI | Creature is a pet. |
-| TotemAI | Creature casts spell from field spell1, otherwise like NullAI. |
-| EventAI | Creature uses event based AI. |
-| SmartAI | Creature uses new smart AI. |
+| TotemAI | Creature casts [Spell](../world/creature_template_spell#spell) from **Index** 1 , otherwise like NullAI. |
+| SmartAI | Creature uses [Smart AI](../world/smart_scripts). |
 {.dense}
 
 &nbsp;
