@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2023-07-18T00:08:48.203Z
+date: 2023-07-18T14:50:47.110Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:09.695Z
@@ -53,9 +53,9 @@ dateCreated: 2021-08-30T22:09:09.695Z
 
 
 ### entryorguid
+* **source_type** = 9: invoking **entryorguid** * 100 (+i, if multiple timed action lists are set)
 * **entryorguid** > 0: entry of the creature / game object / etc.
 * **entryorguid** < 0: guid of the creature / game object / etc.
-* **source_type** = 9: invoking **entryorguid** * 100 (+i, if multiple time action lists are set)
     
 &nbsp;
 
@@ -341,55 +341,56 @@ Sets if the event should not repeat or should only happen in a given instance/du
 | 99 | SMART_ACTION_GO_SET_LOOT_STATE | [state](#lootstate) |  |  |  |  |  | Set state of target gameobject. |
 | 100 | SMART_ACTION_SEND_TARGET_TO_TARGET | varId |  |  |  |  |  | Send targets previously stored with SMART_ACTION_STORE_TARGET, to another npc/go.<br>The other npc/go can then access them as if it was its own stored list. |
 | 101 | SMART_ACTION_SET_HOME_POS |  |  |  |  |  |  | Set target creatures home pos. to:<br>SMART_TARGET_SELF (1) - creatures current World pos.<br>SMART_TARGET_POSITION (8) - World pos. from **target_type**<br> NOT SMART_TARGET_NONE (!0) - targets current World pos. |
-| 102 | SMART_ACTION_SET_HEALTH_REGEN |  |  |  |  |  |  | 0/1 |
-| 103 | SMART_ACTION_SET_ROOT |  |  |  |  |  |  | off/on |
-| 104 | SMART_ACTION_SET_GO_FLAG |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 105 | SMART_ACTION_ADD_GO_FLAG |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 106 | SMART_ACTION_REMOVE_GO_FLAG |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 107 | SMART_ACTION_SUMMON_CREATURE_GROUP |  |  |  |  |  |  | Group, attackInvoker |
-| 108 | SMART_ACTION_SET_POWER |  |  |  |  |  |  | PowerType, newPower |
-| 109 | SMART_ACTION_ADD_POWER |  |  |  |  |  |  | PowerType, newPower |
-| 110 | SMART_ACTION_REMOVE_POWER |  |  |  |  |  |  | PowerType, newPower |
-| 111 | SMART_ACTION_GAME_EVENT_STOP |  |  |  |  |  |  | GameEventId |
-| 112 | SMART_ACTION_GAME_EVENT_START |  |  |  |  |  |  | GameEventId |
-| 113 | SMART_ACTION_START_CLOSEST_WAYPOINT |  |  |  |  |  |  | wp1, wp2, wp3, wp4, wp5, wp6, wp7 |
-| 114 | SMART_ACTION_MOVE_OFFSET |  |  |  |  |  |  | 115 | SMART_ACTION_RANDOM_SOUND                              soundId1, soundId2, soundId3, soundId4, soundId5, onlySelf |
-| 116 | SMART_ACTION_SET_CORPSE_DELAY |  |  |  |  |  |  | timer |
-| 117 | SMART_ACTION_DISABLE_EVADE |  |  |  |  |  |  | 0/1 (1 = disabled, 0 = enabled) |
-| 118 | SMART_ACTION_GO_SET_GO_STATE |  |  |  |  |  |  | state |
-| 119 | SMART_ACTION_SET_CAN_FLY |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 120 | SMART_ACTION_REMOVE_AURAS_BY_TYPE |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 121 | SMART_ACTION_SET_SIGHT_DIST |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 122 | SMART_ACTION_FLEE |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 123 | SMART_ACTION_ADD_THREAT |  |  |  |  |  |  | +threat, -threat |
-| 124 | SMART_ACTION_LOAD_EQUIPMENT |  |  |  |  |  |  | id |
-| 125 | SMART_ACTION_TRIGGER_RANDOM_TIMED_EVENT |  |  |  |  |  |  | id min range, id max range |
-| 126 | SMART_ACTION_REMOVE_ALL_GAMEOBJECTS |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 127 | SMART_ACTION_PAUSE_MOVEMENT |  |  |  |  |  |  | MovementSlot (default = 0, active = 1, controlled = 2), PauseTime (ms), Force |
-| 128 | SMART_ACTION_PLAY_ANIMKIT |  |  |  |  |  |  | don't use on 3.3.5a |
-| 129 | SMART_ACTION_SCENE_PLAY |  |  |  |  |  |  | don't use on 3.3.5a |
-| 130 | SMART_ACTION_SCENE_CANCEL |  |  |  |  |  |  | don't use on 3.3.5a |
-| 131 | SMART_ACTION_SPAWN_SPAWNGROUP |  |  |  |  |  |  | Group ID, min secs, max secs, spawnflags |
-| 132 | SMART_ACTION_DESPAWN_SPAWNGROUP |  |  |  |  |  |  | Group ID, min secs, max secs, spawnflags |
-| 133 | SMART_ACTION_RESPAWN_BY_SPAWNID |  |  |  |  |  |  | spawnType, spawnId |
-| 134 | SMART_ACTION_INVOKER_CAST |  |  |  |  |  |  | spellID, castFlags |
-| 135 | SMART_ACTION_PLAY_CINEMATIC |  |  |  |  |  |  | entry, cinematic |
-| 136 | SMART_ACTION_SET_MOVEMENT_SPEED |  |  |  |  |  |  | movementType, speedInteger, speedFraction |
-| 137 | SMART_ACTION_PLAY_SPELL_VISUAL_KIT |  |  |  |  |  |  | spellVisualKitId (RESERVED, PENDING CHERRYPICK) |
-| 138 | SMART_ACTION_OVERRIDE_LIGHT |  |  |  |  |  |  | zoneId, overrideLightID, transitionMilliseconds |
-| 139 | SMART_ACTION_OVERRIDE_WEATHER |  |  |  |  |  |  | zoneId, weatherId, intensity |
-| 140 | SMART_ACTION_SET_AI_ANIM_KIT |  |  |  |  |  |  | DEPRECATED, DO REUSE (it was never used in any branch, treat as free action id) |
-| 141 | SMART_ACTION_SET_HOVER |  |  |  |  |  |  | 0/1 |
-| 142 | SMART_ACTION_SET_HEALTH_PCT |  |  |  |  |  |  | percent |
-| 143 | SMART_ACTION_CREATE_CONVERSATION |  |  |  |  |  |  | don't use on 3.3.5a |
-| 144 | SMART_ACTION_SET_IMMUNE_PC |  |  |  |  |  |  | 0/1 |
-| 145 | SMART_ACTION_SET_IMMUNE_NPC |  |  |  |  |  |  | 0/1 |
-| 146 | SMART_ACTION_SET_UNINTERACTIBLE |  |  |  |  |  |  | 0/1 |
-| 147 | SMART_ACTION_ACTIVATE_GAMEOBJECT |  |  |  |  |  |  | GameObjectActions |
-| 148 | SMART_ACTION_ADD_TO_STORED_TARGET_LIST |  |  |  |  |  |  | varID |
-| 149 | SMART_ACTION_BECOME_PERSONAL_CLONE_FOR_PLAYER |  |  |  |  |  |  | don't use on 3.3.5a |
-| 150 | SMART_ACTION_TRIGGER_GAME_EVENT |  |  |  |  |  |  | eventId, useSaiTargetAsGameEventSource (RESERVED, PENDING CHERRYPICK) |
-| 151 | SMART_ACTION_DO_ACTION |  |  |  |  |  |  | actionId (RESERVED, PENDING CHERRYPICK) |
+| 102 | SMART_ACTION_SET_HEALTH_REGEN | enable? (0/1) |  |  |  |  |  | Enable/Disable health regeneration for target creature. |
+| 103 | SMART_ACTION_SET_ROOT | enable? (0/1) |  |  |  |  |  | Root/Unroot target creature. |
+| 104 | :x: SMART_ACTION_SET_GO_FLAG |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
+| 105 | :x: SMART_ACTION_ADD_GO_FLAG |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
+| 106 | :x: SMART_ACTION_REMOVE_GO_FLAG |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
+| 107 | SMART_ACTION_SUMMON_CREATURE_GROUP | [groupID](../world/creature_summon_groups#groupid) | attackInvoker? (0/1) |  |  |  |  | target not used |
+| 108 | SMART_ACTION_SET_POWER | [PowerType](#powertype) | new power |  |  |  |  |  |
+| 109 | SMART_ACTION_ADD_POWER | [PowerType](#powertype) | power to add |  |  |  |  |  |
+| 110 | SMART_ACTION_REMOVE_POWER | [PowerType](#powertype) | power to remove |  |  |  |  |  |
+| 111 | SMART_ACTION_GAME_EVENT_STOP | [eventEntry](../world/game_event#evententry) |  |  |  |  |  |  |
+| 112 | SMART_ACTION_GAME_EVENT_START | [eventEntry](../world/game_event#evententry) |  |  |  |  |  |  |
+| 113 | SMART_ACTION_START_CLOSEST_WAYPOINT | [entry1](../world/waypoints#entry) | [entry2](../world/waypoints#entry) | [entry3](../world/waypoints#entry) | [entry4](../world/waypoints#entry) | [entry5](../world/waypoints#entry) | [entry6](../world/waypoints#entry) | Make target creature follow waypoint path closest to its location. |
+| 114 | SMART_ACTION_MOVE_OFFSET |  |  |  |  |  | Use SMART_TARGET_SELF (1) _and also_ set target World pos. to use as offset. |
+| 115 | SMART_ACTION_RANDOM_SOUND | SoundId1 | SoundId2 | SoundId3 | SoundId4 | onlySelf? (0/1) | distantSound? (0/1) | Play random sound from list. |
+| 116 | SMART_ACTION_SET_CORPSE_DELAY | time | includeDecayRatio? (0/1) |  |  |  |  | Set corpse despawn for target creature. |
+| 117 | SMART_ACTION_DISABLE_EVADE | disabled? (0/1) |  |  |  |  |  | Disable/Enable evade mode for target creature. |
+| 118 | SMART_ACTION_GO_SET_GO_STATE | [state](#gostate) |  |  |  |  |  | Set state for target gameobject. |
+| 119 | :x: SMART_ACTION_SET_CAN_FLY |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
+| 120 | :x: SMART_ACTION_REMOVE_AURAS_BY_TYPE |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
+| 121 | :x: SMART_ACTION_SET_SIGHT_DIST |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
+| 122 | :x: SMART_ACTION_FLEE |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
+| 123 | SMART_ACTION_ADD_THREAT | flat incr. | flat decr. |  |  |  |  | Change target threat. |
+| 124 | SMART_ACTION_LOAD_EQUIPMENT | [equipment ID](../world/creature_equip_template#id) | forceUnequip? (0/1) |  |  |  |  | Load equipment on target creature. |
+| 125 | SMART_ACTION_TRIGGER_RANDOM_TIMED_EVENT | min. id | max. id |  |  |  |  |  |
+| 126 | :x: SMART_ACTION_REMOVE_ALL_GAMEOBJECTS |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
+| 127 | SMART_ACTION_PAUSE_MOVEMENT | [MovementSlot](#movementslot) | pause in ms | force? (0/1) |  |  |  |  |
+| 128 | :x: SMART_ACTION_PLAY_ANIMKIT |  |  |  |  |  |  | don't use on 3.3.5a |
+| 129 | :x: SMART_ACTION_SCENE_PLAY |  |  |  |  |  |  | don't use on 3.3.5a |
+| 130 | :x: SMART_ACTION_SCENE_CANCEL |  |  |  |  |  |  | don't use on 3.3.5a |
+| 131 | SMART_ACTION_SPAWN_SPAWNGROUP | [groupId](../world/spawn_group_template#groupid) | minDelay in sec | maxDelay in sec | [spawnFlags](#smartspawnflags) |  |  |  |
+| 132 | SMART_ACTION_DESPAWN_SPAWNGROUP | [groupId](../world/spawn_group_template#groupid) | minDelay in sec | maxDelay in sec | [spawnFlags](#smartspawnflags) |  |  |  |
+| 133 | SMART_ACTION_RESPAWN_BY_SPAWNID | type:<br>0 - [creature](../world/creature)<br>1 - [gameobject](../world/gameobject) | guid |  |  |  |  | Self or target determines the map to repsawn on. |
+| 134 | SMART_ACTION_INVOKER_CAST | SpellID | [CastFlags](#smartcastflags) | [TriggeredFlags](#triggercastflags) | maxTargets (0: all) |  |  | If avaliable, last invoker will cast spellId with castFlags on targets. |
+| 135 | SMART_ACTION_PLAY_CINEMATIC | CinematicSequenceID |  |  |  |  |  | Play cinematic for target player. |
+| 136 | SMART_ACTION_SET_MOVEMENT_SPEED | [MovementType](#movementtype) | speedInteger | speedInteger |  |  |  | Set movement speed of target creature. |
+| 137 | :x: SMART_ACTION_PLAY_SPELL_VISUAL_KIT | SpellVisualKitId |  |  |  |  |  | RESERVED, PENDING CHERRYPICK |
+| 138 | SMART_ACTION_OVERRIDE_LIGHT | AreaTableId | area LightId | new LightId | fadeIn time in ms |  |  | Override skybox visual in area. |
+| 139 | SMART_ACTION_OVERRIDE_WEATHER | AreaTableId | WeatherId | intensity (0: low - 1: full) |  |  |  | Override weather in area. |
+| 140 | :x: SMART_ACTION_SET_AI_ANIM_KIT |  |  |  |  |  |  | DEPRECATED, DO REUSE  |
+| 141 | SMART_ACTION_SET_HOVER | enable? (01/) |  |  |  |  |  | Enable/Disable target unit hover. |
+| 142 | SMART_ACTION_SET_HEALTH_PCT | percent |  |  |  |  |  | Set target units current health percentage. |
+| 143 | :x: SMART_ACTION_CREATE_CONVERSATION |  |  |  |  |  |  | don't use on 3.3.5a |
+| 144 | SMART_ACTION_SET_IMMUNE_PC | enable? (0/1) |  |  |  |  |  | Enable/Disable target unit immunity to players. |
+| 145 | SMART_ACTION_SET_IMMUNE_NPC | enable? (0/1) |  |  |  |  |  |  |
+| 146 | SMART_ACTION_SET_UNINTERACTIBLE | enable? (0/1) |  |  |  |  |  | Make/Reset target unit uninteractible. |
+| 147 | SMART_ACTION_ACTIVATE_GAMEOBJECT | [action](#goactions) |  |  |  |  |  |  |
+| 148 | SMART_ACTION_ADD_TO_STORED_TARGET_LIST | varID |  |  |  |  |  |  |
+| 149 | :x: SMART_ACTION_BECOME_PERSONAL_CLONE_FOR_PLAYER |  |  |  |  |  |  | don't use on 3.3.5a |
+| 150 | :x: SMART_ACTION_TRIGGER_GAME_EVENT | eventId | useSaiTargetAsGameEventSource |  |  |  |  | RESERVED, PENDING CHERRYPICK |
+| 151 | :x: SMART_ACTION_DO_ACTION | actionId |  |  |  |  |  | RESERVED, PENDING CHERRYPICK |
 {.dense}
 
 &nbsp;
@@ -498,6 +499,16 @@ Commenting on SAI uses a template which is the following:
 
 &nbsp;
 
+### MovementSlot
+[`enum MovementSlot`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Movement/MovementDefines.h#L63-L68)
+| ID | Name | Comment |
+|----|------|---------|
+| 0 | MOTION_SLOT_DEFAULT | idle, follow, etc. |
+| 1 | MOTION_SLOT_ACTIVE | point movement |
+{.dense}
+
+&nbsp;
+
 ### LootState
 [`enum LootState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/GameObject/GameObject.h#L74-L79)
 | ID | Name | Comment |
@@ -510,13 +521,66 @@ Commenting on SAI uses a template which is the following:
 
 &nbsp;
 
+### GOState
+[`enum GOState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h.h#L1655-L1660)
+| ID | Name | Comment |
+|----|------|---------|
+| 0 | GO_STATE_ACTIVE | show in world as used and not reset (closed door open) |
+| 1 | GO_STATE_READY | show in world as ready (closed door close) |
+| 2 | GO_STATE_DESTROYED | show the object in-game as already used and not yet reset (e.g. door opened by a cannon blast) |
+{.dense}
+
+&nbsp;
+
+### GOActions
+[`enum GameObjectActions`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/GameObject/GameObjectData.h#L687-L715)
+| ID | Name | Comment |
+|----|------|---------|
+| 1 | AnimateCustom0 | Animate Custom0 |
+| 2 | AnimateCustom1 | Animate Custom1 |
+| 3 | AnimateCustom2 | Animate Custom2 |
+| 4 | AnimateCustom3 | Animate Custom3 |
+| 5 | Disturb | Disturb - Triggers trap |
+| 6 | Unlock | Unlock - Resets GO_FLAG_LOCKED |
+| 7 | Lock | Lock - Sets GO_FLAG_LOCKED |
+| 8 | Open | Open - Sets GO_STATE_ACTIVE |
+| 9 | OpenAndUnlock | Open + Unlock - Sets GO_STATE_ACTIVE and resets GO_FLAG_LOCKED |
+| 10 | Close | Close - Sets GO_STATE_READY |
+| 11 | ToggleOpen | Toggle Open |
+| 12 | Destroy | Destroy - Sets GO_STATE_DESTROYED |
+| 13 | Rebuild | Rebuild - Resets from GO_STATE_DESTROYED |
+| 14 | Creation | Creation |
+| 15 | Despawn | Despawn |
+| 16 | MakeInert | Make Inert - Disables interactions |
+| 17 | MakeActive | Make Active - Enables interactions |
+| 18 | CloseAndLock | Close + Lock - Sets GO_STATE_READY and sets GO_FLAG_LOCKED |
+| 19 | UseArtKit0 | Use ArtKit0 - 46904: 121 |
+| 20 | UseArtKit1 | Use ArtKit1 - 36639: 81, 46903: 122 |
+| 21 | UseArtKit2 | Use ArtKit2 |
+| 22 | UseArtKit3 | Use ArtKit3 |
+| 23 | SetTapList | Set Tap List |
+{.dense}
+
+&nbsp;
+
 ### ReactState
-[`enum ReactStates`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Unit/UnitDefines.h#-L411)
+[`enum ReactStates`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Unit/UnitDefines.h#L406-L411)
 | ID | Name | Comment |
 |----|------|---------|
 | 0 | REACT_PASSIVE | Does not defend or attack at all. Does nothing. |
 | 1 | REACT_DEFENSIVE | Only attacks back when attacked. |
 | 2 | REACT_AGGRESSIVE | Will attack if on threat list and in threat radius. (default) |
+{.dense}
+
+&nbsp;
+
+### SmartSpawnFlags
+[`enum SMARTAI_SPAWN_FLAGS`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/AI/SmartScripts/SmartScriptMgr.h#L1196-L1202)
+| Value | Flag | Name |
+|-------|------|------|
+| 1 | 0x01 | SMARTAI_SPAWN_FLAG_IGNORE_RESPAWN |
+| 2 | 0x02 | SMARTAI_SPAWN_FLAG_FORCE_SPAWN |
+| 4 | 0x04 | SMARTAI_SPAWN_FLAG_NOSAVE_RESPAWN |
 {.dense}
 
 &nbsp;
