@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2023-07-16T21:33:39.557Z
+date: 2023-07-18T00:08:48.203Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:09.695Z
@@ -55,6 +55,7 @@ dateCreated: 2021-08-30T22:09:09.695Z
 ### entryorguid
 * **entryorguid** > 0: entry of the creature / game object / etc.
 * **entryorguid** < 0: guid of the creature / game object / etc.
+* **source_type** = 9: invoking **entryorguid** * 100 (+i, if multiple time action lists are set)
     
 &nbsp;
 
@@ -249,7 +250,7 @@ Sets if the event should not repeat or should only happen in a given instance/du
 | 8 | SMART_ACTION_SET_REACT_STATE | [state](#reactstate) |  |  |  |  |  |  |
 | 9 | SMART_ACTION_ACTIVATE_GOBJECT |  |  |  |  |  |  | Set gameobject active. |
 | 10 | SMART_ACTION_RANDOM_EMOTE | EmoteId1 | EmoteId2 | EmoteId3 | EmoteId4 | EmoteId5 | EmoteId6 | Play random emote. |
-| 11 | SMART_ACTION_CAST | SpellId | [CastFlags](#smartcastflags) | [TriggeredFlags](#triggercastflags) |  |  |  | Cast spell at taget. |
+| 11 | SMART_ACTION_CAST | SpellID | [CastFlags](#smartcastflags) | [TriggeredFlags](#triggercastflags) |  |  |  | Cast spell at taget. |
 | 12 | SMART_ACTION_SUMMON_CREATURE | [creature entry](../world/creature_template#entry) | [SummonType](#summontype) | duration in ms | attackInvoker? (0/1) | SmartActionSummonCreatureFlags:<br>0x1 - PersonalSpawn<br>0x2 - PreferUnit |  | Summon NPC |
 | 13 | SMART_ACTION_THREAT_SINGLE_PCT | Threat% incr. | Threat% decr. |  |  |  |  | Change threat percentage for single target |
 | 14 | SMART_ACTION_THREAT_ALL_PCT | Threat% incr. | Threat% decr. |  |  |  |  | Change threat percentage for all targets |
@@ -266,7 +267,7 @@ Sets if the event should not repeat or should only happen in a given instance/du
 | 25 | SMART_ACTION_FLEE_FOR_ASSIST | withEmote? (0/1) |  |  |  |  |  | Emote: '%s attempts to run away in fear'  |
 | 26 | SMART_ACTION_CALL_GROUPEVENTHAPPENS | [Quest ID](../world/quest_template#id) |  |  |  |  |  | Like #15 but for whole party. |
 | 27 | SMART_ACTION_COMBAT_STOP |  |  |  |  |  |  |  |
-| 28 | SMART_ACTION_REMOVEAURASFROMSPELL | SpellId (0: any) | charges (0: all) | onlyOwned? (0/1) |  |  |  |  |
+| 28 | SMART_ACTION_REMOVEAURASFROMSPELL | SpellID (0: any) | charges (0: all) | onlyOwned? (0/1) |  |  |  |  |
 | 29 | SMART_ACTION_FOLLOW | distance (0: default) | angle (0: default) | [end creature entry](../world/creature_template#entry) | credit | creditType:<br>0 - moster kill<br>1 - event |  | Following ends when reaching end creature.<br>Credit is rewarded upon StopFollow. |
 | 30 | SMART_ACTION_RANDOM_PHASE | Phase1 | Phase2 | Phase3 | Phase4 | Phase5 | Phase6 | see **event_phase_mask** |
 | 31 | SMART_ACTION_RANDOM_PHASE_RANGE | PhaseMin | PhaseMax |  |  |  |  | see **event_phase_mask** |
@@ -291,55 +292,55 @@ Sets if the event should not repeat or should only happen in a given instance/du
 | 50 | SMART_ACTION_SUMMON_GO | [gameobject entry](../world/gameobject_template#entry) | despawnTime in sec | [SummonType](#gosummontype) |  |  |  | Spawns Gameobject, use target_type to set spawn position. |
 | 51 | SMART_ACTION_KILL_UNIT |  |  |  |  |  |  | Forces non-player target to suicide. |
 | 52 | SMART_ACTION_ACTIVATE_TAXI | TaxiPathId |  |  |  |  |  | Sends target player to flight path. You have to be close to Flight Master, which gives Taxi ID you need.  |
-| 53 | SMART_ACTION_WP_START |  |  |  |  |  |  | run/walk, pathID, canRepeat, quest, despawntime |
-| 54 | SMART_ACTION_WP_PAUSE |  |  |  |  |  |  | time |
-| 55 | SMART_ACTION_WP_STOP |  |  |  |  |  |  | despawnTime, quest, fail? |
-| 56 | SMART_ACTION_ADD_ITEM |  |  |  |  |  |  | itemID, count |
-| 57 | SMART_ACTION_REMOVE_ITEM |  |  |  |  |  |  | itemID, count |
-| 58 | SMART_ACTION_INSTALL_AI_TEMPLATE |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 59 | SMART_ACTION_SET_RUN |  |  |  |  |  |  | 0/1 |
-| 60 | SMART_ACTION_SET_DISABLE_GRAVITY |  |  |  |  |  |  | 0/1 |
-| 61 | SMART_ACTION_SET_SWIM |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 62 | SMART_ACTION_TELEPORT |  |  |  |  |  |  | mapID, |
-| 63 | SMART_ACTION_SET_COUNTER |  |  |  |  |  |  | id, value, reset (0/1) |
-| 64 | SMART_ACTION_STORE_TARGET_LIST |  |  |  |  |  |  | varID, |
-| 65 | SMART_ACTION_WP_RESUME |  |  |  |  |  |  | none |
-| 66 | SMART_ACTION_SET_ORIENTATION |  |  |  |  |  | |
-| 67 | SMART_ACTION_CREATE_TIMED_EVENT |  |  |  |  |  |  | id, InitialMin, InitialMax, RepeatMin(only if it repeats), RepeatMax(only if it repeats), chance |
-| 68 | SMART_ACTION_PLAYMOVIE |  |  |  |  |  |  | entry |
-| 69 | SMART_ACTION_MOVE_TO_POS |  |  |  |  |  |  | PointId, transport, disablePathfinding, ContactDistance |
-| 70 | SMART_ACTION_ENABLE_TEMP_GOBJ |  |  |  |  |  |  | despawnTimer (sec) |
-| 71 | SMART_ACTION_EQUIP |  |  |  |  |  |  | entry, slotmask slot1, slot2, slot3   , only slots with mask set will be sent to client, bits are 1, 2, 4, leaving mask 0 is defaulted to mask 7 (send all), slots1-3 are only used if no entry is set |
-| 72 | SMART_ACTION_CLOSE_GOSSIP |  |  |  |  |  |  | none |
-| 73 | SMART_ACTION_TRIGGER_TIMED_EVENT |  |  |  |  |  |  | id(>1) |
-| 74 | SMART_ACTION_REMOVE_TIMED_EVENT |  |  |  |  |  |  | id(>1) |
-| 75 | SMART_ACTION_ADD_AURA |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 76 | SMART_ACTION_OVERRIDE_SCRIPT_BASE_OBJECT |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 77 | SMART_ACTION_RESET_SCRIPT_BASE_OBJECT |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 78 | SMART_ACTION_CALL_SCRIPT_RESET |  |  |  |  |  |  | none |
-| 79 | SMART_ACTION_SET_RANGED_MOVEMENT |  |  |  |  |  |  | Distance, angle |
-| 80 | SMART_ACTION_CALL_TIMED_ACTIONLIST |  |  |  |  |  |  | ID (overwrites already running actionlist), stop after combat?(0/1), timer update type(0-OOC, 1-IC, 2-ALWAYS) |
-| 81 | SMART_ACTION_SET_NPC_FLAG |  |  |  |  |  |  | Flags |
-| 82 | SMART_ACTION_ADD_NPC_FLAG |  |  |  |  |  |  | Flags |
-| 83 | SMART_ACTION_REMOVE_NPC_FLAG |  |  |  |  |  |  | Flags |
-| 84 | SMART_ACTION_SIMPLE_TALK |  |  |  |  |  |  | groupID, can be used to make players say groupID, Text_over event is not triggered, whisper can not be used (Target units will say the text) |
-| 85 | SMART_ACTION_SELF_CAST |  |  |  |  |  |  | spellID, castFlags |
-| 86 | SMART_ACTION_CROSS_CAST |  |  |  |  |  |  | spellID, castFlags, CasterTargetType, CasterTarget param1, CasterTarget param2, CasterTarget param3, ( + the origonal target fields as Destination target),   CasterTargets will cast spellID on all Targets  |(use with caution if targeting multiple * multiple units)
-| 87 | SMART_ACTION_CALL_RANDOM_TIMED_ACTIONLIST |  |  |  |  |  |  | script9 ids 1-9 |
-| 88 | SMART_ACTION_CALL_RANDOM_RANGE_TIMED_ACTIONLIST |  |  |  |  |  |  | script9 id min, max |
-| 89 | SMART_ACTION_RANDOM_MOVE |  |  |  |  |  |  | maxDist |
-| 90 | SMART_ACTION_SET_UNIT_FIELD_BYTES_1 |  |  |  |  |  |  | bytes, target |
-| 91 | SMART_ACTION_REMOVE_UNIT_FIELD_BYTES_1 |  |  |  |  |  |  | bytes, target |
-| 92 | SMART_ACTION_INTERRUPT_SPELL |  |  |  |  |  |  |  |
-| 93 | SMART_ACTION_SEND_GO_CUSTOM_ANIM |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 94 | SMART_ACTION_SET_DYNAMIC_FLAG |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 95 | SMART_ACTION_ADD_DYNAMIC_FLAG |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 96 | SMART_ACTION_REMOVE_DYNAMIC_FLAG |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 97 | SMART_ACTION_JUMP_TO_POS |  |  |  |  |  |  | speedXY, speedZ, targetX, targetY, targetZ |
-| 98 | SMART_ACTION_SEND_GOSSIP_MENU |  |  |  |  |  |  | menuId, optionId |
-| 99 | SMART_ACTION_GO_SET_LOOT_STATE |  |  |  |  |  |  | state |
-| 100 | SMART_ACTION_SEND_TARGET_TO_TARGET |  |  |  |  |  |  | id |
-| 101 | SMART_ACTION_SET_HOME_POS |  |  |  |  |  |  | none |
+| 53 | SMART_ACTION_WP_START | run? (0/1) | [Waypoint entry](../world/waypoints#entry) | canRepeat? (0/1) | [Quest ID](../world/quest_template#id) | despawntime |  | Creature starts Waypoint Movement. Use waypoints table to create movement. |
+| 54 | SMART_ACTION_WP_PAUSE | time in ms |  |  |  |  |  | Creature pauses its Waypoint Movement for given time. |
+| 55 | SMART_ACTION_WP_STOP | despawnTime | [Quest ID](../world/quest_template#id) | failQuest? (0/1) |  |  |  | Creature stops its Waypoint Movement. |
+| 56 | SMART_ACTION_ADD_ITEM | [item entry](../world/item_template#entry) | count |  |  |  |  | Adds item(s) to player. |
+| 57 | SMART_ACTION_REMOVE_ITEM | [item entry](../world/item_template#entry) | count |  |  |  |  | Removes item(s) from player. |
+| 58 | :x: SMART_ACTION_INSTALL_AI_TEMPLATE |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
+| 59 | SMART_ACTION_SET_RUN | enable? (0/1) |  |  |  |  |  |  |
+| 60 | SMART_ACTION_SET_DISABLE_GRAVITY | disable? (0/1) |  |  |  |  |  | Only works for creatures with inhabit air. |
+| 61 | :x: SMART_ACTION_SET_SWIM |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
+| 62 | SMART_ACTION_TELEPORT | Map ID |  |  |  |  |  | Use World Pos. from **target_type** to set destination |
+| 63 | SMART_ACTION_SET_COUNTER | counterID | value | reset? (0/1) |  |  |  |  |
+| 64 | SMART_ACTION_STORE_TARGET_LIST | varID |  |  |  |  |  |  |
+| 65 | SMART_ACTION_WP_RESUME |  |  |  |  |  |  | Creature continues in its Waypoint Movement. |
+| 66 | SMART_ACTION_SET_ORIENTATION | orientation:<br>1 - HomePos. orientation<br>8 - **target_o** value<br>!0 - facing target |  |  |  |  |  | depends on targets:<br>1 - SMART_TARGET_SELF<br> 8 - SMART_TARGET_POSITION<br> !0 - !SMART_TARGET_NONE |
+| 67 | SMART_ACTION_CREATE_TIMED_EVENT | id | InitialMin | InitialMax | RepeatMin (0: no repeat) | RepeatMax (0: no repeat) | chance (0: 100%) |  |
+| 68 | SMART_ACTION_PLAYMOVIE | MovieID |  |  |  |  |  | requires target player |
+| 69 | SMART_ACTION_MOVE_TO_POS | PointID | onTransport? (0/1) | noPathfinding? (0/1) | ContactDistance |  |  | PointID is called by SMART_EVENT_MOVEMENTINFORM.<br>Position is set with **target_type** |
+| 70 | SMART_ACTION_ENABLE_TEMP_GOBJ | respawn time in sec |  |  |  |  |  | GO selected by **target_type** |
+| 71 | SMART_ACTION_EQUIP | [equipment ID](../world/creature_equip_template#id) | slotmask (0: 0x7) | [right(1) item entry](../world/item_template#entry) | [left(2) item entry](../world/item_template#entry) | [ranged(3) item entry](../world/item_template#entry) |  | Set equipment on target creature.<br>Slots1-3 item entries are only used if no equipment ID is set. |
+| 72 | SMART_ACTION_CLOSE_GOSSIP |  |  |  |  |  |  | Closes gossip window. |
+| 73 | SMART_ACTION_TRIGGER_TIMED_EVENT | id |  |  |  |  |  |  |
+| 74 | SMART_ACTION_REMOVE_TIMED_EVENT | id |  |  |  |  |  |  |
+| 75 | :x: SMART_ACTION_ADD_AURA |  |  |  |  |  |  | UNUSED, DO NOT REUSE - Adds aura to player(s).  |
+| 76 | :x: SMART_ACTION_OVERRIDE_SCRIPT_BASE_OBJECT |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
+| 77 | :x: SMART_ACTION_RESET_SCRIPT_BASE_OBJECT |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
+| 78 | SMART_ACTION_CALL_SCRIPT_RESET |  |  |  |  |  |  |  |
+| 79 | SMART_ACTION_SET_RANGED_MOVEMENT | attackDistance | arrackAngle |  |  |  |  | Sets movement to follow at a specific range to the target. |
+| 80 | SMART_ACTION_CALL_TIMED_ACTIONLIST | **entryorguid** | updateType:<br>0 - out of combat<br>1 - in combat<br>2 - always | allowOverride? (0/1) |  |  |  | Start TimedActionList on SAI enabled target. |
+| 81 | SMART_ACTION_SET_NPC_FLAG | [npcflag](../world/creature_template#npcflag) |  |  |  |  |  | Replace npcflags on creature taget |
+| 82 | SMART_ACTION_ADD_NPC_FLAG | [npcflag](../world/creature_template#npcflag) |  |  |  |  |  | Add npcflags to creature taget |
+| 83 | SMART_ACTION_REMOVE_NPC_FLAG | [npcflag](../world/creature_template#npcflag) |  |  |  |  |  | Remove npcflags from creature taget |
+| 84 | SMART_ACTION_SIMPLE_TALK | [groupID](../world/creature_text#groupid) |  |  |  |  |  | Target units will say the text.<br>TEXT_OVER event is not triggered. |
+| 85 | SMART_ACTION_SELF_CAST | SpellID | [CastFlags](#smartcastflags) | [TriggeredFlags](#triggercastflags) | maxTargets (0: all) |  |  | The targets will cast the spell on it themself |
+| 86 | SMART_ACTION_CROSS_CAST | SpellID | [CastFlags](#smartcastflags) | caster_**target_type** | caster_**target_param1** | caster_**target_param2** | caster_**target_param3** | CasterTarget will cast SpellID on all (regular) targets.<br>Use with caution if targeting multiple * multiple units.
+| 87 | SMART_ACTION_CALL_RANDOM_TIMED_ACTIONLIST | **entryorguid**1 | **entryorguid**2 | **entryorguid**3 | **entryorguid**4 | **entryorguid**5 | **entryorguid**6 | Start random (id > 0) TimedActionList on SAI enabled target. |
+| 88 | SMART_ACTION_CALL_RANDOM_RANGE_TIMED_ACTIONLIST | min. **entryorguid** | max. **entryorguid** |  |  |  |  | Start random (min <= id <= max) TimedActionList on SAI enabled target. |
+| 89 | SMART_ACTION_RANDOM_MOVE | maxDist (0: idleMove) |  |  |  |  |  | Creature target or self moves maxDist in random direction. |
+| 90 | SMART_ACTION_SET_UNIT_FIELD_BYTES_1 | bytes | target:<br>0 - [StandState](../world/creature_template_addon#standstate)<br>2 - [VisFlags](../world/creature_template_addon#visflags)<br>3 - [AnimTier](../world/creature_template_addon#animtier)  |  |  |  |  | Set units BYTES_1 at target offset. |
+| 91 | SMART_ACTION_REMOVE_UNIT_FIELD_BYTES_1 | bytes | target:<br>0 - [StandState](../world/creature_template_addon#standstate)<br>2 - [VisFlags](../world/creature_template_addon#visflags)<br>3 - [AnimTier](../world/creature_template_addon#animtier)  |  |  |  |  | Reset units BYTES_1 at target offset. |
+| 92 | SMART_ACTION_INTERRUPT_SPELL | withDelayed? (0/1) | SpellID | withInstant? (0/1) |  |  |  | Interrupt the current spell being cast by target.<br>Without SpellId, the core will find the current spell depending on withDelay and withInstant. |
+| 93 | :x: SMART_ACTION_SEND_GO_CUSTOM_ANIM |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
+| 94 | :x: SMART_ACTION_SET_DYNAMIC_FLAG |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
+| 95 | :x: SMART_ACTION_ADD_DYNAMIC_FLAG |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
+| 96 | :x: SMART_ACTION_REMOVE_DYNAMIC_FLAG |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
+| 97 | SMART_ACTION_JUMP_TO_POS | speedXY | speedZ |  |  |  |  | Creature jumps to target, speed* describes the arc |
+| 98 | SMART_ACTION_SEND_GOSSIP_MENU | [MenuID](../world/gossip_menu#menuid) | [TextID](../world/gossip_menu#textid) |  |  |  |  | Can be used together with SMART_EVENT_GOSSIP_HELLO to set custom gossip. |
+| 99 | SMART_ACTION_GO_SET_LOOT_STATE | [state](#lootstate) |  |  |  |  |  | Set state of target gameobject. |
+| 100 | SMART_ACTION_SEND_TARGET_TO_TARGET | varId |  |  |  |  |  | Send targets previously stored with SMART_ACTION_STORE_TARGET, to another npc/go.<br>The other npc/go can then access them as if it was its own stored list. |
+| 101 | SMART_ACTION_SET_HOME_POS |  |  |  |  |  |  | Set target creatures home pos. to:<br>SMART_TARGET_SELF (1) - creatures current World pos.<br>SMART_TARGET_POSITION (8) - World pos. from **target_type**<br> NOT SMART_TARGET_NONE (!0) - targets current World pos. |
 | 102 | SMART_ACTION_SET_HEALTH_REGEN |  |  |  |  |  |  | 0/1 |
 | 103 | SMART_ACTION_SET_ROOT |  |  |  |  |  |  | off/on |
 | 104 | SMART_ACTION_SET_GO_FLAG |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
