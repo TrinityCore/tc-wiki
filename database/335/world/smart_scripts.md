@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2023-07-18T14:50:47.110Z
+date: 2023-07-18T14:51:59.828Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:09.695Z
@@ -353,7 +353,7 @@ Sets if the event should not repeat or should only happen in a given instance/du
 | 111 | SMART_ACTION_GAME_EVENT_STOP | [eventEntry](../world/game_event#evententry) |  |  |  |  |  |  |
 | 112 | SMART_ACTION_GAME_EVENT_START | [eventEntry](../world/game_event#evententry) |  |  |  |  |  |  |
 | 113 | SMART_ACTION_START_CLOSEST_WAYPOINT | [entry1](../world/waypoints#entry) | [entry2](../world/waypoints#entry) | [entry3](../world/waypoints#entry) | [entry4](../world/waypoints#entry) | [entry5](../world/waypoints#entry) | [entry6](../world/waypoints#entry) | Make target creature follow waypoint path closest to its location. |
-| 114 | SMART_ACTION_MOVE_OFFSET |  |  |  |  |  | Use SMART_TARGET_SELF (1) _and also_ set target World pos. to use as offset. |
+| 114 | SMART_ACTION_MOVE_OFFSET |  |  |  |  |  |  | Use SMART_TARGET_SELF (1) _and also_ set target World pos. to use as offset. |
 | 115 | SMART_ACTION_RANDOM_SOUND | SoundId1 | SoundId2 | SoundId3 | SoundId4 | onlySelf? (0/1) | distantSound? (0/1) | Play random sound from list. |
 | 116 | SMART_ACTION_SET_CORPSE_DELAY | time | includeDecayRatio? (0/1) |  |  |  |  | Set corpse despawn for target creature. |
 | 117 | SMART_ACTION_DISABLE_EVADE | disabled? (0/1) |  |  |  |  |  | Disable/Enable evade mode for target creature. |
