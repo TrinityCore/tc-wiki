@@ -2,13 +2,15 @@
 title: spell_enchant_proc_data
 description: 
 published: true
-date: 2022-11-21T21:31:04.247Z
-tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
+date: 2023-07-20T23:17:05.810Z
+tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:29.811Z
 ---
 
 <a href="https://trinitycore.info/en/database/335/world/spell_dbc" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'spell_dbc'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/spell_group" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'spell_group'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+
+This table holds information how and when an enchantment proc can occur.
 
 ## Structure
 
@@ -23,23 +25,51 @@ dateCreated: 2021-08-30T22:09:29.811Z
 ## Description of fields
 
 ### EnchantID
-*- no description -*
+Id from SpellItemEnchantment.dbc
 &nbsp;
 
 ### Chance
-*- no description -*
+Absolute chance per hit or spell cast. (Used when **ProcsPerMinute** is 0)
 &nbsp;
 
 ### ProcsPerMinute
-*- no description -*
+Chance relative to [delay of equipped weapon](../world/item_template#delay) .
+`chance = (ProcsPerMinute * delay) / 600`
 &nbsp;
 
 ### HitMask
-*- no description -*
+| Value | Flag | Name | Comment |
+|-------|------|------|---------|
+| 0 | 0x0000 | PROC_HIT_NONE | no value - 0x0003 for TAKEN proc type, 0x0403 for DONE |
+| 1 | 0x0001 | PROC_HIT_NORMAL | non-critical hits |
+| 2 | 0x0002 | PROC_HIT_CRITICAL |  |
+| 4 | 0x0004 | PROC_HIT_MISS |  |
+| 8 | 0x0008 | PROC_HIT_FULL_RESIST |  |
+| 16 | 0x0010 | PROC_HIT_DODGE |  |
+| 32 | 0x0020 | PROC_HIT_PARRY |  |
+| 64 | 0x0040 | PROC_HIT_BLOCK | partial or full block |
+| 128 | 0x0080 | PROC_HIT_EVADE |  |
+| 256 | 0x0100 | PROC_HIT_IMMUNE |  |
+| 512 | 0x0200 | PROC_HIT_DEFLECT |  |
+| 1024 | 0x0400 | PROC_HIT_ABSORB | partial or full absorb |
+| 2048 | 0x0800 | PROC_HIT_REFLECT |  |
+| 4096 | 0x1000 | PROC_HIT_INTERRUPT |  |
+| 8192 | 0x2000 | PROC_HIT_FULL_BLOCK |  |
+{.dense}
+
 &nbsp;
 
 ### AttributesMask
-*- no description -*
+| Value | Flag | Name | Comment |
+|-------|------|------|---------|
+| 1 | 0x001 | PROC_ATTR_REQ_EXP_OR_HONOR | requires proc target to give exp or honor for aura proc |
+| 2 | 0x002 | PROC_ATTR_TRIGGERED_CAN_PROC | aura can proc even with triggered spells |
+| 4 | 0x004 | PROC_ATTR_REQ_MANA_COST | requires triggering spell to have a mana cost for aura proc |
+| 8 | 0x008 | PROC_ATTR_REQ_SPELLMOD | requires triggering spell to be affected by proccing aura to drop charges |
+| 128 | 0x080 | PROC_ATTR_REDUCE_PROC_60 | aura should have a reduced chance to proc if level of proc Actor > 60 |
+| 256 | 0x100 | PROC_ATTR_CANT_PROC_FROM_ITEM_CAST | do not allow aura proc if proc is caused by a spell casted by item |
+{.dense}
+
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/world/spell_dbc" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'spell_dbc'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/spell_group" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'spell_group'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
