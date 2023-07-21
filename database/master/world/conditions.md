@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2023-03-05T11:43:01.291Z
+date: 2023-07-21T15:57:32.624Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -158,6 +158,7 @@ Two conditions with the same SourceType, SourceGroup and SourceEntry but with a 
 | CONDITION_SCENARIO_STEP | 54 | ScenarioStepId (Only >= 5.0.3)| Always 0 | Always 0 | true if object is at scenario <br> with current step equal to ScenarioStepID |
 | CONDITION_SCENE_IN_PROGRESS | 55 | SceneScriptPackageId | Always 0 | Always 0 | true if player is playing a scene <br> with ScriptPackageId equal to given value |
 | CONDITION_PLAYER_CONDITION | 56 | PlayerConditionId | Always 0 | Always 0 | true if player satisfies PlayerCondition |
+| CONDITION_PRIVATE_OBJECT | 57 | Always 0 | Always 0 | Always 0 | true if entity is private object |
 &nbsp;
 
 ### ConditionTarget
