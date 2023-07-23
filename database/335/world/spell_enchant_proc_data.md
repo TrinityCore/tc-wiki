@@ -2,7 +2,7 @@
 title: spell_enchant_proc_data
 description: 
 published: true
-date: 2023-07-20T23:17:05.810Z
+date: 2023-07-23T01:00:08.740Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:29.811Z
@@ -26,6 +26,7 @@ This table holds information how and when an enchantment proc can occur.
 
 ### EnchantID
 Id from SpellItemEnchantment.dbc
+Any of the types (0 – 2) must be of ITEM_ENCHANTMENT_TYPE_COMBAT_SPELL (1)
 &nbsp;
 
 ### Chance
@@ -38,9 +39,10 @@ Chance relative to [delay of equipped weapon](../world/item_template#delay) .
 &nbsp;
 
 ### HitMask
+Used to add special conditions to spells, some spells might trigger only on critical strikes, for example.
 | Value | Flag | Name | Comment |
 |-------|------|------|---------|
-| 0 | 0x0000 | PROC_HIT_NONE | no value - 0x0003 for TAKEN proc type, 0x0403 for DONE |
+| 0 | 0x0000 | PROC_HIT_NONE | procs on:<br>PROC_HIT_NORMAL \| PROC_HIT_CRITICAL for TAKEN proc type<br>PROC_HIT_NORMAL \| PROC_HIT_CRITICAL \| PROC_HIT_ABSORB for DONE |
 | 1 | 0x0001 | PROC_HIT_NORMAL | non-critical hits |
 | 2 | 0x0002 | PROC_HIT_CRITICAL |  |
 | 4 | 0x0004 | PROC_HIT_MISS |  |
@@ -60,14 +62,15 @@ Chance relative to [delay of equipped weapon](../world/item_template#delay) .
 &nbsp;
 
 ### AttributesMask
+Adds special behaviour to the proc, spell might trigger proc only if these conditions are fullfilled
 | Value | Flag | Name | Comment |
 |-------|------|------|---------|
-| 1 | 0x001 | PROC_ATTR_REQ_EXP_OR_HONOR | requires proc target to give exp or honor for aura proc |
-| 2 | 0x002 | PROC_ATTR_TRIGGERED_CAN_PROC | aura can proc even with triggered spells |
-| 4 | 0x004 | PROC_ATTR_REQ_MANA_COST | requires triggering spell to have a mana cost for aura proc |
-| 8 | 0x008 | PROC_ATTR_REQ_SPELLMOD | requires triggering spell to be affected by proccing aura to drop charges |
-| 128 | 0x080 | PROC_ATTR_REDUCE_PROC_60 | aura should have a reduced chance to proc if level of proc Actor > 60 |
-| 256 | 0x100 | PROC_ATTR_CANT_PROC_FROM_ITEM_CAST | do not allow aura proc if proc is caused by a spell casted by item |
+| 1 | 0x0001 | PROC_ATTR_REQ_EXP_OR_HONOR | requires proc target to give exp or honor for aura proc |
+| 2 | 0x0002 | PROC_ATTR_TRIGGERED_CAN_PROC | aura can proc even with triggered spells |
+| 4 | 0x0004 | PROC_ATTR_REQ_MANA_COST | requires triggering spell to have a mana cost for aura proc |
+| 8 | 0x0008 | PROC_ATTR_REQ_SPELLMOD | requires triggering spell to be affected by proccing aura to drop charges |
+| 128 | 0x0080 | PROC_ATTR_REDUCE_PROC_60 | aura should have a reduced chance to proc if level of proc Actor > 60 |
+| 256 | 0x0100 | PROC_ATTR_CANT_PROC_FROM_ITEM_CAST | do not allow aura proc if proc is caused by a spell casted by item |
 {.dense}
 
 &nbsp;
