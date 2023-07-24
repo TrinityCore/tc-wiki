@@ -2,7 +2,7 @@
 title: arena_team
 description: 
 published: true
-date: 2022-11-21T21:22:55.318Z
+date: 2023-07-24T20:24:05.583Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:58:37.950Z
@@ -45,15 +45,15 @@ Name of the Arena team
 &nbsp;
 
 ### captainGuid
-The GUID of the character who created the ArenaTeam.
+The [character guid](../characters/characters#guid) of the ArenaTeam's creator.
 &nbsp;
 
 ### type
 Defines the ArenaType:
 
-- 2 – 2vs2 Team
-- 3 – 3vs3 Team
-- 5 – 5vs5 Team
+- 2: 2vs2 Team
+- 3: 3vs3 Team
+- 5: 5vs5 Team
 &nbsp;
 
 ### rating
