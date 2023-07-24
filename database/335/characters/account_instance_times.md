@@ -2,7 +2,7 @@
 title: account_instance_times
 description: 
 published: true
-date: 2022-11-21T21:22:49.230Z
+date: 2023-07-24T20:12:03.413Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:58:29.996Z
@@ -25,11 +25,11 @@ dateCreated: 2021-08-30T21:58:29.996Z
 ## Description of fields
 
 ### accountId
-The unique account ID.
+The unique [account id](../auth/account#id).
 &nbsp;
 
 ### instanceId
-This is the instance.id which characters of this account has been past 5 hours.
+This is the [instance id](../characters/instance#id) which characters of this account has been past 5 hours.
 &nbsp;
 
 ### releaseTime
