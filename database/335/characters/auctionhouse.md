@@ -2,7 +2,7 @@
 title: auctionhouse
 description: 
 published: true
-date: 2022-11-21T21:23:01.266Z
+date: 2023-07-24T20:38:05.629Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:58:45.939Z
@@ -41,17 +41,17 @@ Unique identifier for every auction.
 ### houseid
 The Auctionhouse where this auction was created. Referes to AuctionHouse.dbc. Options are :
 
-- 2 - Alliance Auction House
-- 6 - Horde Auction House
-- 7 - Blackwater Auction House
+- 2: Alliance Auction House
+- 6: Horde Auction House
+- 7: Blackwater Auction House
 &nbsp;
 
 ### itemguid
-The item GUID of the item that is up for auction.
+The [item guid](../characters/item_instance#guid) of the item that is up for auction.
 &nbsp;
 
 ### itemowner
-The characters GUID of the owner of the item up for auction.
+The [character guid](../characters/characters#guid) of the owner of the item up for auction.
 &nbsp;
 
 ### buyoutprice
@@ -63,7 +63,7 @@ The time when the auction will end, measured in Unix time (number of seconds fro
 &nbsp;
 
 ### buyguid
-The characters GUID of the highest bidder. 
+The [character guid](../characters/characters#guid) of the highest bidder. 
 &nbsp;
 
 ### lastbid
@@ -79,7 +79,12 @@ The amount of money in copper spent on the deposit.
 &nbsp;
 
 ### Flags
-*- no description -*
+| Value | Flag | Name | Comment |
+|-------|------|------|---------|
+| 0 | 0x0 | AUCTION_ENTRY_FLAG_NONE |  |
+| 1 | 0x1 | AUCTION_ENTRY_FLAG_GM_LOG_BUYER | write transaction to gm log file for buyer (optimization flag - avoids querying database for offline player permissions) |
+{.dense}
+
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/characters/auctionbidders" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'auctionbidders'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/banned_addons" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'banned_addons'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
