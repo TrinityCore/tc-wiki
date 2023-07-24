@@ -2,7 +2,7 @@
 title: account_data
 description: 
 published: true
-date: 2022-11-21T21:22:47.229Z
+date: 2023-07-24T20:10:21.939Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:58:27.362Z
@@ -26,13 +26,13 @@ dateCreated: 2021-08-30T21:58:27.362Z
 ## Description of fields
 
 ### accountId
-The unique account ID.
+The unique [account id](../auth/account#id).
 &nbsp;
 
 ### type
-- 0 = Global-account config cache
-- 2 = Global-account bindings cache
-- 4 = Global-account macros cache
+- 0: Global-account config cache
+- 2: Global-account bindings cache
+- 4: Global-account macros cache
 &nbsp;
 
 ### time
