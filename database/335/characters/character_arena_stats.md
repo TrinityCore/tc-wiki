@@ -2,7 +2,7 @@
 title: character_arena_stats
 description: 
 published: true
-date: 2022-11-21T21:23:23.240Z
+date: 2023-07-25T18:55:46.802Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:59:15.038Z
@@ -25,14 +25,14 @@ dateCreated: 2021-08-30T21:59:15.038Z
 ## Description of fields
 
 ### guid
-The GUID of the character.
+The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### slot
 Arena slot index:
-- 0 - 2v2
-- 1 - 3v3
-- 2 - 5v5
+- 0: 2v2
+- 1: 3v3
+- 2: 5v5
 &nbsp;
 
 ### matchMakerRating
