@@ -2,7 +2,7 @@
 title: channels
 description: 
 published: true
-date: 2022-11-21T21:23:13.300Z
+date: 2023-07-25T01:07:16.136Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:59:01.893Z
@@ -33,29 +33,24 @@ Name of the channel.
 &nbsp;
 
 ### team
-team id -  Allow access to channel from specified player faction ID
+Allow access to channel from specified player faction. Id from Faction.dbc, but only the two are in use:
+* 67: Horde
+* 469: Alliance
 
-For multirace channels, two (or more) separate entries must exist with the EXACT same settings for all fields apart from this (it needs a different team id)
+If config setting `AllowTwoSide.Interaction.Channel` is enabled, the Alliance channel is used for both and **team** is ignored.
 
-Horde -> 67
-
-Alliance -> 469
 &nbsp;
 
 ### announce
-Channel announce (0/1)
-
-0 = Channel join/part actions will not be sent
-
-1 = Channel join/part actions will be sent
+Toggle if join/leave actions are announced to the channel.
+* 0: do not announce
+* 1: send announce
 &nbsp;
 
 ### ownership
-Channel ownership (0/1)
-
-0 = No one will ever be an owner.
-
-1 = Ownership is the first person in the channel.
+Toggle if the channel can be owned.
+* 0: can not be owned.
+* 1: owned by the first player to join.
 &nbsp;
 
 ### password
