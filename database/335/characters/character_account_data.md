@@ -2,7 +2,7 @@
 title: character_account_data
 description: 
 published: true
-date: 2022-11-21T21:23:15.273Z
+date: 2023-07-25T18:12:57.357Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:59:04.555Z
@@ -26,15 +26,20 @@ dateCreated: 2021-08-30T21:59:04.555Z
 ## Description of fields
 
 ### guid
-The GUID of the character
+[character guid](../characters/characters#guid) the data belongs to.
 &nbsp;
 
 ### type
-- 1 = Config cache per character
-- 3 = Bindings cache per character
-- 5 = Macros cache per character
-- 6 = Layout cache per character
-- 7 = Chat cache per character
+AccountDataType of this entry.
+| ID | Name | Comment |
+|----|------|---------|
+| 1 | PER_CHARACTER_CONFIG_CACHE | Config cache per character |
+| 3 | PER_CHARACTER_BINDINGS_CACHE | Bindings cache per character |
+| 5 | PER_CHARACTER_MACROS_CACHE | Macros cache per character |
+| 6 | PER_CHARACTER_LAYOUT_CACHE | Layout cache per character |
+| 7 | PER_CHARACTER_CHAT_CACHE | Chat cache per character |
+{.dense}
+
 &nbsp;
 
 ### time
