@@ -2,7 +2,7 @@
 title: character_battleground_data
 description: 
 published: true
-date: 2022-11-21T21:23:29.287Z
+date: 2023-07-25T19:36:28.356Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:59:23.068Z
@@ -33,7 +33,7 @@ dateCreated: 2021-08-30T21:59:23.068Z
 ## Description of fields
 
 ### guid
-The GUID of the character.
+The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### instanceId
@@ -41,11 +41,10 @@ This is the battleground instanceId. It's shared with [instance.id](/database/33
 &nbsp;
 
 ### team
-teamId:
-
-- 469 - Alliance
-- 67 - Horde
-- 0 - GM
+TeamId from Faction.dbc
+- 469: Alliance
+- 67: Horde
+- 0: GM
 &nbsp;
 
 ### joinX
@@ -61,24 +60,23 @@ Character's last Z position before joining a battleground.
 &nbsp;
 
 ### joinO
-Character's last orientation bbefore joining a battleground.
+Character's last orientation before joining a battleground.
 &nbsp;
 
 ### joinMapId
-Character's last mapId before joining a battleground.
+Character's last MapId from Map.dbc before joining a battleground.
 &nbsp;
 
 ### taxiStart
-Character's last taxi node before joining a battleground.
+Character's last NodeID from TaxiNodes.dbc before joining a battleground.
 &nbsp;
 
 ### taxiEnd
-Character's heading taxi node before joining a battleground.
+Character's heading NodeID from TaxiNodes.dbc before joining a battleground.
 &nbsp;
 
 ### mountSpell
-The mount spell ID.
-See Spell.dbc column 1
+Character's mount SpellID from Spell.dbc before joining a battleground. 
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/characters/character_banned" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_banned'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/character_battleground_random" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_battleground_random'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
