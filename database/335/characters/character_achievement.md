@@ -2,7 +2,7 @@
 title: character_achievement
 description: 
 published: true
-date: 2022-11-21T21:23:17.243Z
+date: 2023-07-25T18:18:51.310Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:59:07.193Z
@@ -25,7 +25,7 @@ dateCreated: 2021-08-30T21:59:07.193Z
 ## Description of fields
 
 ### guid
-The GUID of the character.
+The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### achievement
