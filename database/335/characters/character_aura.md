@@ -2,7 +2,7 @@
 title: character_aura
 description: 
 published: true
-date: 2022-11-21T21:23:25.364Z
+date: 2023-07-25T19:19:46.251Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:59:17.652Z
@@ -40,20 +40,19 @@ dateCreated: 2021-08-30T21:59:17.652Z
 ## Description of fields
 
 ### guid
-The GUID of the target affected by the aura.
+The [character guid](../characters/characters#guid) of the target affected by the aura.
 &nbsp;
 
 ### casterGuid
-The GUID of the player who casted the aura. 
+The [character guid](../characters/characters#guid) player who casted the aura. 
 &nbsp;
 
 ### itemGuid
-The GUID of the item which casted the aura. 
+The [item guid](../characters/item_instance#guid) of the item which casted the aura. 
 &nbsp;
 
 ### spell
-The spell from which the aura was applied. 
-See Spell.dbc column 1
+The SpellID from Spell.dbc which applied the aura. 
 &nbsp;
 
 ### effectMask
@@ -61,35 +60,26 @@ The effect index of the spell from which the aura came from. A spell has up to t
 &nbsp;
 
 ### recalculateMask
-*- no description -*
+Bitmask of effect indizes that can be recalculated.
+| Value | Name |
+|-------|------|
+| 1 | EFFECT_1 |
+| 2 | EFFECT_2 |
+| 4 | EFFECT_3 |
+{.dense}
+
 &nbsp;
 
 ### stackCount
 Determines how many stacks of the spell the character has.
 &nbsp;
 
-### amount0
-*- no description -*
+### amount\[0-2]
+The base_amount + modifier value associated with the aura.
 &nbsp;
 
-### amount1
-*- no description -*
-&nbsp;
-
-### amount2
-*- no description -*
-&nbsp;
-
-### base_amount0
-*- no description -*
-&nbsp;
-
-### base_amount1
-*- no description -*
-&nbsp;
-
-### base_amount2
-*- no description -*
+### base_amount\[0-2]
+The base_amount value associated with the aura.
 &nbsp;
 
 ### maxDuration
@@ -105,11 +95,13 @@ The number of charges remaining on the aura.
 &nbsp;
 
 ### critChance
-*- no description -*
+Crit chance of the caster at the moment of aura application.
 &nbsp;
 
 ### applyResilience
-*- no description -*
+Boolean if this aura is subject to resilience
+* 0: full amount
+* 1: reduced by resilience
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/characters/character_arena_stats" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_arena_stats'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/character_banned" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_banned'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
