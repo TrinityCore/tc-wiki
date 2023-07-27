@@ -2,7 +2,7 @@
 title: character_homebind
 description: 
 published: true
-date: 2022-11-21T21:23:43.249Z
+date: 2023-07-27T18:25:25.065Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:59:42.236Z
@@ -28,7 +28,7 @@ dateCreated: 2021-08-30T21:59:42.236Z
 ## Description of fields
 
 ### guid
-The GUID of the character.
+The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### mapId
