@@ -2,7 +2,7 @@
 title: character_instance
 description: 
 published: true
-date: 2023-07-27T18:33:57.987Z
+date: 2023-07-27T19:23:35.101Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:59:44.864Z
@@ -42,9 +42,9 @@ A player is bound to the instance only when he (or his party/raid) kills a creat
 ### extendState
 | ID | Name | Comment |
 |----|------|---------|
-| 0 | EXTEND_STATE_EXPIRED |  |
-| 1 | EXTEND_STATE_NORMAL |  |
-| 2 | EXTEND_STATE_EXTENDED | lockout period extended by player |
+| 0 | EXTEND_STATE_EXPIRED | doesn't affect anything unless manually re-extended by player |
+| 1 | EXTEND_STATE_NORMAL | standard state |
+| 2 | EXTEND_STATE_EXTENDED | lockout period extended by player. Won't be promoted to EXPIRED at next reset period, will instead be promoted to NORMAL. |
 | 255 | EXTEND_STATE_KEEP | special state: keep current save type |
 {.dense}
 
