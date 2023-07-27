@@ -2,7 +2,7 @@
 title: character_equipmentsets
 description: 
 published: true
-date: 2022-11-21T21:23:35.423Z
+date: 2023-07-27T17:33:03.006Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:59:31.038Z
@@ -47,7 +47,7 @@ dateCreated: 2021-08-30T21:59:31.038Z
 ## Description of fields
 
 ### guid
-The GUID of the character.
+The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### setguid
@@ -67,84 +67,36 @@ Name taken from ItemDisplayInfo.dbc, column 6
 &nbsp;
 
 ### ignore_mask
-*- no description -*
+Bitmask of EQUIPMENT_SLOT_* IDs not used by the equipment set.
 &nbsp;
 
-### item0
-Values for item 0-18 are taken from item_instance guid.
-Head slot
-&nbsp;
+### item\[0-18]
+An [item guid](../characters/item_instance#guid) to equip or 0 for an empty slot.
 
-### item1
-Neck slot
-&nbsp;
+The fields index is an equipment slot id:
+| slot ID | ignore_mask flag |Name | Comment |
+|---------|------------------|-----|---------|
+| 0 | 0x00000001 | EQUIPMENT_SLOT_HEAD |  |
+| 1 | 0x00000002 | EQUIPMENT_SLOT_NECK |  |
+| 2 | 0x00000004 | EQUIPMENT_SLOT_SHOULDERS |  |
+| 3 | 0x00000008 | EQUIPMENT_SLOT_BODY | shirt |
+| 4 | 0x00000010 | EQUIPMENT_SLOT_CHEST |  |
+| 5 | 0x00000020 | EQUIPMENT_SLOT_WAIST |  |
+| 6 | 0x00000040 | EQUIPMENT_SLOT_LEGS |  |
+| 7 | 0x00000080 | EQUIPMENT_SLOT_FEET |  |
+| 8 | 0x00000100 | EQUIPMENT_SLOT_WRISTS |  |
+| 9 | 0x00000200 | EQUIPMENT_SLOT_HANDS |  |
+| 10 | 0x00000400 | EQUIPMENT_SLOT_FINGER1 |  |
+| 11 | 0x00000800 | EQUIPMENT_SLOT_FINGER2 |  |
+| 12 | 0x00001000 | EQUIPMENT_SLOT_TRINKET1 |  |
+| 13 | 0x00002000 | EQUIPMENT_SLOT_TRINKET2 |  |
+| 14 | 0x00004000 | EQUIPMENT_SLOT_BACK |  |
+| 15 | 0x00008000 | EQUIPMENT_SLOT_MAINHAND |  |
+| 16 | 0x00010000 | EQUIPMENT_SLOT_OFFHAND |  |
+| 17 | 0x00020000 | EQUIPMENT_SLOT_RANGED | ranged or relic |
+| 18 | 0x00040000 | EQUIPMENT_SLOT_TABARD |  |
+{.dense}
 
-### item2
-Shoulder slot
-&nbsp;
-
-### item3
-Shirt slot
-&nbsp;
-
-### item4
-Chest slot
-&nbsp;
-
-### item5
-Waist slot
-&nbsp;
-
-### item6
-Legs slot
-&nbsp;
-
-### item7
-Feet slot
-&nbsp;
-
-### item8
-Wrist slot
-&nbsp;
-
-### item9
-Hands slot
-&nbsp;
-
-### item10
-Ring 1 slot
-&nbsp;
-
-### item11
-Ring 2 slot
-&nbsp;
-
-### item12
-Trinket 1 slot
-&nbsp;
-
-### item13
-Trinket 2 slot
-&nbsp;
-
-### item14
-Back slot
-&nbsp;
-
-### item15
-Main Hand slot
-&nbsp;
-
-### item16
-Off Hand slot
-&nbsp;
-
-### item17
-Relic slot
-&nbsp;
-
-### item18
-Tabard slot
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/characters/character_declinedname" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_declinedname'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/character_fishingsteps" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_fishingsteps'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
