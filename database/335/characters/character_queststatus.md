@@ -2,7 +2,7 @@
 title: character_queststatus
 description: 
 published: true
-date: 2022-11-21T21:23:53.327Z
+date: 2023-07-27T22:03:22.688Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:59:55.520Z
@@ -38,13 +38,11 @@ dateCreated: 2021-08-30T21:59:55.520Z
 ## Description of fields
 
 ### guid
-The GUID of the character.
-See [characters](/database/335/characters/characters)
+The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### quest
-The quest ID. 
-See [quest_template](/database/335/world/quest_template)
+The [quest ID](../world/quest_template#id).
 &nbsp;
 
 ### status
@@ -59,6 +57,8 @@ Value | Status | Comment
 4 | QUEST_STATUS_AVAILABLE | NOT USED
 5 | QUEST_STATUS_FAILED | Player failed to complete the quest
 6 | QUEST_STATUS_REWARDED | Not used in DB
+{.dense}
+
 &nbsp;
 
 ### explored
@@ -66,62 +66,21 @@ Boolean 1 or 0 representing if the character has explored what was needed to exp
 &nbsp;
 
 ### timer
-*- no description -*
+Unix Time when [TimeAllowed](../world/quest_template#timeallowed) will run out.
 &nbsp;
 
-### mobcount1
-Current count of the number of kills or casts on the first creature or gameobject, if any.
-Taken from [quest_template](/database/335/world/quest_template) RequiredNpcOrGoCount1
+### mobcount\[1-4\]
+Current count of the number of kills or casts on the specified creature or gameobject, if any.
+Matches [RequiredNpcOrGoCount\[1-4\]](../world/quest_template#requirednpcorgocount1-4)
 &nbsp;
 
-### mobcount2
-Current count of the number of kills or casts on the first creature or gameobject, if any.
-Taken from [quest_template](/database/335/world/quest_template) RequiredNpcOrGoCount2
-&nbsp;
-
-### mobcount3
-Current count of the number of kills or casts on the first creature or gameobject, if any.
-Taken from [quest_template](/database/335/world/quest_template) RequiredNpcOrGoCount3
-&nbsp;
-
-### mobcount4
-Current count of the number of kills or casts on the first creature or gameobject, if any.
-Taken from [quest_template](/database/335/world/quest_template) RequiredNpcOrGoCount4
-&nbsp;
-
-### itemcount1
+### itemcount\[1-6\]
 Current item count for the item in a delivery quest, if any.
-Taken from [quest_template](/database/335/world/quest_template) RequiredItemId1
-&nbsp;
-
-### itemcount2
-Current item count for the item in a delivery quest, if any.
-Taken from [quest_template](/database/335/world/quest_template) RequiredItemId2
-&nbsp;
-
-### itemcount3
-Current item count for the item in a delivery quest, if any.
-Taken from [quest_template](/database/335/world/quest_template) RequiredItemId3
-&nbsp;
-
-### itemcount4
-Current item count for the item in a delivery quest, if any.
-Taken from [quest_template](/database/335/world/quest_template) RequiredItemId4
-&nbsp;
-
-### itemcount5
-Current item count for the item in a delivery quest, if any.
-Taken from [quest_template](/database/335/world/quest_template) RequiredItemId5
-&nbsp;
-
-### itemcount6
-Current item count for the item in a delivery quest, if any.
-Taken from [quest_template](/database/335/world/quest_template) RequiredItemId6
+Matches [RequiredItemCount\[1-6\]](../world/quest_template#requireditemcount1-6)
 &nbsp;
 
 ### playercount
-Current player slay count.
-Taken from [quest_template](/database/335/world/quest_template) RequiredPlayerKills
+Current player slay count out of [RequiredPlayerKills](../world/quest_template#requiredplayerkills).
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/characters/character_pet_declinedname" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_pet_declinedname'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/character_queststatus_daily" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_queststatus_daily'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
