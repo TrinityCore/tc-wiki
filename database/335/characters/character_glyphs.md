@@ -2,7 +2,7 @@
 title: character_glyphs
 description: 
 published: true
-date: 2022-11-21T21:23:41.222Z
+date: 2023-07-27T18:21:31.423Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:59:39.563Z
@@ -30,35 +30,15 @@ dateCreated: 2021-08-30T21:59:39.563Z
 ## Description of fields
 
 ### guid
-The GUID of the character.
+The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### talentGroup
-0 is the first talent specialization
-1 is the second talent specialization.
+* 0: first talent specialization
+* 1: second talent specialization.
 &nbsp;
 
-### glyph1
-ID taken from GlyphProperties.dbc
-&nbsp;
-
-### glyph2
-ID taken from GlyphProperties.dbc
-&nbsp;
-
-### glyph3
-ID taken from GlyphProperties.dbc
-&nbsp;
-
-### glyph4
-ID taken from GlyphProperties.dbc
-&nbsp;
-
-### glyph5
-ID taken from GlyphProperties.dbc
-&nbsp;
-
-### glyph6
+### glyph\[1-6]
 ID taken from GlyphProperties.dbc
 &nbsp;
 
