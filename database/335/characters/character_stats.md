@@ -2,7 +2,7 @@
 title: character_stats
 description: 
 published: true
-date: 2022-11-21T21:24:15.388Z
+date: 2023-07-29T19:18:27.417Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:00:24.767Z
@@ -11,7 +11,7 @@ dateCreated: 2021-08-30T22:00:24.767Z
 <a href="https://trinitycore.info/en/database/335/characters/character_spell_cooldown" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_spell_cooldown'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/character_talent" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_talent'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
 > This table holds information on all the stats regarding the character. Used for external applications such as websites.
-> Needs a value >0 in config for PlayerSave.Stats.MinLevel
+> Needs a value >0 in config for [`PlayerSave.Stats.MinLevel`](https://trinitycore.info/en/files/configuration/home)
 {.is-info}
 
 
@@ -54,7 +54,7 @@ dateCreated: 2021-08-30T22:00:24.767Z
 ## Description of fields
 
 ### guid
-The GUID of the character
+The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### maxhealth
