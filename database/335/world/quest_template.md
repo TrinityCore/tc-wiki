@@ -2,7 +2,7 @@
 title: quest_template
 description: 
 published: true
-date: 2023-07-13T21:06:53.203Z
+date: 2023-07-29T18:00:43.569Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:30.767Z
@@ -352,8 +352,8 @@ Faction id from Faction.dbc for which the quest rewards reputation points.
 
 ### RewardFactionValue\[1-5]
 This field is used for reputation lookup in QuestFactionReward.dbc. The value X in this field indicates RepX column of QuestFactionReward.dbc. 
-* RewardFactionValue > 0: Reputation from the first row of QuestFactionReward.dbc is used.
-* RewardFactionValue < 0: Reputation from the second row of QuestFactionReward.dbc is used.
+* **RewardFactionValue\*** > 0: Reputation from the first row of QuestFactionReward.dbc is used.
+* **RewardFactionValue\*** < 0: Reputation from the second row of QuestFactionReward.dbc is used.
 
 | ID | Rep0 | Rep1 | Rep2 | Rep3 | Rep4 | Rep5 | Rep6 | Rep7 | Rep8 | Rep9 |
 |----|------|------|------|------|------|------|------|------|------|------|
@@ -415,10 +415,10 @@ Example: `Return to <NPC> at <Location> in <Zone>.`
 &nbsp;
 
 ### RequiredNpcOrGo\[1-4]
-* **RequiredNpcOrGo_\*** > 0: The required [creature entry](../world/creature_template#entry) the player needs to kill/cast on in order to complete the quest.
-* **RequiredNpcOrGo_\*** < 0: The required [gameobject entry](../world/gameobject_template#entry) the player needs to cast on in order to complete the quest.
+* **RequiredNpcOrGo\*** > 0: The required [creature entry](../world/creature_template#entry) the player needs to kill/cast on in order to complete the quest.
+* **RequiredNpcOrGo\*** < 0: The required [gameobject entry](../world/gameobject_template#entry) the player needs to cast on in order to complete the quest.
 
-If [SpecialFlags](../quest_template_addon#specialflags) contains QUEST_SPECIAL_FLAGS_CAST (0x20), the objective is to cast on target, else kill.
+If [SpecialFlags](../world/quest_template_addon#specialflags) contains QUEST_SPECIAL_FLAGS_CAST (0x20), the objective is to cast on target, else kill.
 > Note: If QUEST_SPECIAL_FLAGS_CAST is set and the spell has effects Send Event or Quest Complete, this field may be left empty.
 {.is-info}
 
