@@ -2,7 +2,7 @@
 title: group_instance
 description: 
 published: true
-date: 2023-07-30T17:59:47.607Z
+date: 2023-07-30T18:03:56.960Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:00:49.574Z
@@ -25,7 +25,7 @@ dateCreated: 2021-08-30T22:00:49.574Z
 ## Description of fields
 
 ### guid
-Unique group enumerator.
+references [groups.guid](../characters/groups#guid).
 &nbsp;
 
 ### instance
