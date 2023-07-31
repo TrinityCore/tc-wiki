@@ -2,7 +2,7 @@
 title: respawn
 description: 
 published: true
-date: 2023-07-31T21:58:34.857Z
+date: 2023-07-31T22:00:52.925Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:02:17.522Z
@@ -37,8 +37,8 @@ dateCreated: 2021-08-30T22:02:17.522Z
 &nbsp;
 
 ### spawnId
-* **type** = 0: [creature guid](../characters/creature#guid)
-* **type** = 1: [gameobject guid](../characters/gameobject#guid)
+* **type** = 0: [creature guid](../world/creature#guid)
+* **type** = 1: [gameobject guid](../world/gameobject#guid)
 &nbsp;
 
 ### respawnTime
