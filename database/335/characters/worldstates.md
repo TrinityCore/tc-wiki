@@ -2,7 +2,7 @@
 title: worldstates
 description: 
 published: true
-date: 2023-08-01T01:18:24.191Z
+date: 2023-08-01T01:33:21.684Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:02:28.022Z
@@ -251,12 +251,12 @@ Comment in text format so it is easier to see what the entry is for.
 | 2338 | BG_WS_FLAG_STATE_HORDE | horde (0 - hide, 1 - flag ok, 2 - flag picked up (flashing), 3 - flag picked up (not flashing) |
 | 2339 | BG_WS_FLAG_STATE_ALLIANCE | alliance (0 - hide, 1 - flag ok, 2 - flag picked up (flashing), 3 - flag picked up (not flashing) |
 |  |||
-| 2352 | EP_NPT_N default value 1 |
-| 2353 | EP_PWT_N_H 2367 not present! use neutral! |
-| 2353 | EP_PWT_N default value 1 |
-| 2354 | EP_EWT_A default value 0 |
-| 2355 | EP_CGT_N default value 1 |
-| 2356 | EP_EWT_H default value 0 |
+| 2352 | EP_NPT_N | default value 1 |
+| 2353 | EP_PWT_N_H | 2367 not present! use neutral! |
+| 2353 | EP_PWT_N | default value 1 |
+| 2354 | EP_EWT_A | default value 0 |
+| 2355 | EP_CGT_N | default value 1 |
+| 2356 | EP_EWT_H | default value 0 |
 | 2357 | GENERAL_WORLDSTATES_06 | default value 0 // ??? |
 | 2358 | GENERAL_WORLDSTATES_07 | default value 0 // ??? |
 | 2359 | EP_EWT_N_A | ally conquested - default value 0 |
