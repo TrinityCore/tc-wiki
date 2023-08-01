@@ -2,13 +2,17 @@
 title: account
 description: 
 published: true
-date: 2022-11-21T21:22:07.411Z
-tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, auth
+date: 2023-08-01T19:13:27.028Z
+tags: database, auth, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:57:34.489Z
 ---
 
 <a href="https://trinitycore.info/en/database/335/auth/vw_rbac" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'vw_rbac'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/auth/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to auth</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/auth/account_access" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'account_access'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+> 
+> This table holds information on all available accounts.
+{.is-info}
+
 
 ## Structure
 
@@ -50,23 +54,23 @@ The account name.
 &nbsp;
 
 ### salt
-*- no description -*
-&nbsp;
-
 ### verifier
-*- no description -*
+auth components (see [TrinityCore#25157](https://github.com/TrinityCore/TrinityCore/issues/25157))
 &nbsp;
 
 ### session_key_auth
-*- no description -*
+Key generated after successful auth.
 &nbsp;
 
 ### session_key_bnet
-*- no description -*
+*- not used on 3.3.5. -*
 &nbsp;
 
 ### totp_secret
-*- no description -*
+The authenticator key.
+
+Key can be generated through the Google Authenticator API, a 3rd-party TOTP generator, or manually specified.
+[Implementation link on Wikipedia](http://en.wikipedia.org/wiki/Google_Authenticator#Implementations) for the Google Authenticator API
 &nbsp;
 
 ### email
@@ -78,7 +82,7 @@ The registration e-mail address associated with this account.
 &nbsp;
 
 ### joindate
-The date when the account was created.
+The Unix timestamp when the account was created.
 &nbsp;
 
 ### last_ip
@@ -94,39 +98,46 @@ The number of failed logins attempted on the account.
 &nbsp;
 
 ### locked
-Boolean 0 or 1 controlling if the account has been locked or not. This can be controlled with the ".account lock" GM command. 
-If locked (1), the user can only log in with their last_ip. If unlocked (0), a user can log in from any IP, and their last_ip will be updated if it is different. ".Ban account" does not lock it.
+Controlls if the account has been locked to it's last IP. This can be controlled with the `.account lock` command.
+The `.ban account` command does not lock it.
+* 0: the user can log in from any IP, and their **last_ip** will be updated if it is different
+* 1: the user can only log in with their **last_ip**.
 &nbsp;
 
 ### lock_country
-*- no description -*
+A country code from [IP2Location](https://lite.ip2location.com/database/ip-country)
+
+worldserver.conf [`IPLocationFile`](https://trinitycore.info/en/files/configuration/home) needs to point to the table fom the service above for this feature to be enabled.
 &nbsp;
 
 ### last_login
-The date when the account was last logged into.
+The Unix timestamp when the account was last logged into.
 &nbsp;
 
 ### online
-Boolean 0 or 1 controlling if the account is currently logged in and online.
+Signifies if the account is currently logged in and online.
+* 0: offline
+* 1: online
 &nbsp;
 
 ### expansion
-Integer 0 - 2 controlling if the client logged in on the account has any expansions. (for example if client is TBC, but expansion is set to 0, it will not be able to enter outlands and etc.)
+Integer 0 – 2 controlling if the client logged in on the account has any expansions. (for example if client is TBC, but expansion is set to 0, it will not be able to enter outlands and etc.)
 
 |Value|Expansion|
 |:---:|:---: |
 |0|Vanilla|
 |1|The Burning Crusade (TBC)|
 |2|Wrath of the Lich King (WotLK)|
+{.dense}
+
 &nbsp;
 
 ### mutetime
-The time, in Unix time, when the account will be unmuted. To see when mute will be expired you can use this query:
+The Unix timestamp, when the account will be unmuted. 
 
-<div class="next-codeblock-no-line-numbers"></div>
-
-```bash
-SELECT FROM_UNIXTIME(`mutetime`);
+To see when mute will be expired you can use this query:
+```sql
+SELECT FROM_UNIXTIME(`mutetime`) FROM `account`;
 ```
 &nbsp;
 
@@ -135,22 +146,38 @@ The reason for the mute.
 &nbsp;
 
 ### muteby
-The character name with the rights to the .mute command that give the mute.
+The character name with the rights to the `.mute` command that give the mute.
 &nbsp;
 
 ### locale
-The locale used by the client logged into this account. If multiple locale data has been configured and added to the world servers, the world servers will return the proper locale strings to the client. See localization IDs
+The locale used by the client logged into this account. If multiple locale data has been configured and added to the world servers, the world servers will return the proper locale strings to the client.
+
+| ID | Loc | Name |
+|----|-----|------|
+| 0 | enGB /enUS | English |
+| 1 | koKR | Korean |
+| 2 | frFR | French |
+| 3 | deDE | German |
+| 4 | zhCN / enCN | Chinese |
+| 5 | zhTW / enTW | Taiwanese |
+| 6 | esES | Spanish |
+| 7 | esMX | Mexican (Spanish) |
+| 8 | ruRU | Russian |
+| 10 | ptPT / ptBR | Portugese |
+| 11 | itIT | Italian |
+| 12 – 15 |  | *- unused -* |
+{.dense}
+
 &nbsp;
 
 ### os
 Stores information about client's OS. Used by Warden system.
-
-- Win
-- Mac
+* `Win`
+* `Mac`
 &nbsp;
 
 ### recruiter
-The account ID of another account. Used for recuit-a-friend system. See [account.id](#id)
+The [account id](#id) of another account. Used for recuit-a-friend system.
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/auth/vw_rbac" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'vw_rbac'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/auth/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to auth</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/auth/account_access" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'account_access'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
