@@ -2,7 +2,7 @@
 title: serverside_spell
 description: 
 published: true
-date: 2023-08-05T19:28:15.494Z
+date: 2023-08-06T00:15:15.946Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:10.897Z
@@ -766,15 +766,86 @@ dateCreated: 2021-08-30T09:36:10.897Z
 &nbsp;
 
 ### InterruptFlags
-*- no description -*
+| Name | Hex |
+| :--- | :--- |
+|None                        | 0		     |
+|Movement                    | 0x00000001|
+|DamagePushbackPlayerOnly    | 0x00000002|
+|Stun                        | 0x00000004| 
+|Combat                      | 0x00000008|
+|DamageCancelsPlayerOnly     | 0x00000010|
+|MeleeCombat                 | 0x00000020| 
+|Immunity                    | 0x00000040| 
+|DamageAbsorb                | 0x00000080|
+|ZeroDamageCancels           | 0x00000100|
+|DamagePushback              | 0x00000200|
+|DamageCancels               | 0x00000400|
 &nbsp;
 
 ### AuraInterruptFlags1
-*- no description -*
+| Name | Hex |
+| :--- | :--- |
+|None                        | 0         |
+|HostileActionReceived       | 0x00000001|
+|Damage                      | 0x00000002|
+|Action                      | 0x00000004|
+|Moving                      | 0x00000008|
+|Turning                     | 0x00000010|
+|Anim                        | 0x00000020|
+|Dismount                    | 0x00000040|
+|UnderWater                  | 0x00000080| 
+|AboveWater                  | 0x00000100| 
+|Sheathing                   | 0x00000200|
+|Interacting                 | 0x00000400| 
+|Looting                     | 0x00000800|
+|Attacking                   | 0x00001000|
+|ItemUse                     | 0x00002000|
+|DamageChannelDuration       | 0x00004000|
+|Shapeshifting               | 0x00008000|
+|ActionDelayed               | 0x00010000|
+|Mount                       | 0x00020000|
+|Standing                    | 0x00040000|
+|LeaveWorld                  | 0x00080000|
+|StealthOrInvis              | 0x00100000|
+|InvulnerabilityBuff         | 0x00200000|
+|EnterWorld                  | 0x00400000|
+|PvPActive                   | 0x00800000|
+|NonPeriodicDamage           | 0x01000000|
+|LandingOrFlight             | 0x02000000|
+|Release                     | 0x04000000|
+|DamageCancelsScript         | 0x08000000| 
+|EnteringCombat              | 0x10000000|
+|Login                       | 0x20000000|
+|Summon                      | 0x40000000|
+|LeavingCombat               | 0x80000000|
 &nbsp;
 
 ### AuraInterruptFlags2
-*- no description -*
+| Name | Hex |
+| :--- | :--- |
+|None                        | 0         |
+|Falling                     | 0x00000001| 
+|Swimming                    | 0x00000002|
+|NotMoving                   | 0x00000004| 
+|Ground                      | 0x00000008|
+|Transform                   | 0x00000010| 
+|Jump                        | 0x00000020|
+|ChangeSpec                  | 0x00000040|
+|AbandonVehicle              | 0x00000080| 
+|StartOfEncounter            | 0x00000100| 
+|EndOfEncounter              | 0x00000200| 
+|Disconnect                  | 0x00000400| 
+|EnteringInstance            | 0x00000800| 
+|DuelEnd                     | 0x00001000| 
+|LeaveArenaOrBattleground    | 0x00002000| 
+|ChangeTalent                | 0x00004000|
+|ChangeGlyph                 | 0x00008000|
+|SeamlessTransfer            | 0x00010000| 
+|WarModeLeave                | 0x00020000| 
+|TouchingGround              | 0x00040000| 
+|ChromieTime                 | 0x00080000| 
+|SplineFlightOrFreeFlight    | 0x00100000| 
+|ProcOrPeriodicAttacking     | 0x00200000| 
 &nbsp;
 
 ### ChannelInterruptFlags1
