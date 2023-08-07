@@ -2,7 +2,7 @@
 title: serverside_spell
 description: 
 published: true
-date: 2023-08-06T00:15:15.946Z
+date: 2023-08-07T19:38:20.671Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:10.897Z
@@ -893,11 +893,11 @@ dateCreated: 2021-08-30T09:36:10.897Z
 &nbsp;
 
 ### DurationIndex
-*- no description -*
+[SpellDuration.db2](https://wago.tools/db2/SpellDuration)
 &nbsp;
 
 ### RangeIndex
-*- no description -*
+[SpellRange.db2](https://wago.tools/db2/SpellRange)
 &nbsp;
 
 ### Speed
