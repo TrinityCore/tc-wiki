@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2023-08-15T17:33:10.513Z
+date: 2023-08-15T17:46:53.010Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -134,6 +134,11 @@ These files are shipped with MySQL Server, search for them at program files dire
 ### 9. [OpenSSL](http://www.slproweb.com/products/Win32OpenSSL.html){target=_blank}
 
 > Download the 64bit version.
+{.is-info}
+
+> Depending on what MySQL version you installed, a different OpenSSL version should be selected.
+For MySQL 8.1 use OpenSSL 3
+For MySQL 8.0 use OpenSSL 1.1.1
 {.is-info}
 
 Find the 64bit version by finding the latest **Win64 OpenSSL** that is **NOT** the "light" version.
