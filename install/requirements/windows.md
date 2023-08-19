@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2023-08-15T17:53:36.199Z
+date: 2023-08-19T11:42:08.662Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -104,8 +104,7 @@ Try connecting to your MySQL instance that you installed above. Depending on the
 
 1. Download the prebuilt Windows Binary for Visual Studio 2022 (or higher)
 Here the links for minimum version:
-	- 64bit: [https://sourceforge.net/projects/boost/files/boost-binaries/1.73.0/boost_1_73_0-msvc-14.3-64.exe/download](https://sourceforge.net/projects/boost/files/boost-binaries/1.73.0/boost_1_73_0-msvc-14.3-64.exe/download){target=_blank}
-	- 32bit: [https://sourceforge.net/projects/boost/files/boost-binaries/1.73.0/boost_1_73_0-msvc-14.3-32.exe/download](https://sourceforge.net/projects/boost/files/boost-binaries/1.73.0/boost_1_73_0-msvc-14.3-32.exe/download){target=_blank}
+	- 64bit: [https://sourceforge.net/projects/boost/files/boost-binaries/1.78.0/boost_1_78_0-msvc-14.3-64.exe/download](https://sourceforge.net/projects/boost/files/boost-binaries/1.78.0/boost_1_78_0-msvc-14.3-64.exe/download){target=_blank}
 >   **If you  prefer a higher Boost version check here:** [https://sourceforge.net/projects/boost/files/boost-binaries/](https://sourceforge.net/projects/boost/files/boost-binaries/){target=_blank}
 >   Not all version are currently supported by TrinityCore (minimum is 1.73) or CMake (e.g. CMake 3.24.1 will throw CMake errors with boost 1.80)
 > To find the correct version we will explain on example: boost_1_80_0-msvc-14.3-64.exe:
