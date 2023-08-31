@@ -2,7 +2,7 @@
 title: spell_area
 description: 
 published: true
-date: 2023-07-20T22:06:23.743Z
+date: 2023-08-31T07:50:10.771Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:18.065Z
@@ -69,9 +69,15 @@ Races mask of ids from ChrRaces.dbc **spell** applies to. (0: any race)
 
 ### gender
 The player gender this entry applies to.
-* **gender** = 0: Male
-* **gender** = 1: Female
-* **gender** = 2: Any
+
+[`enum Gender`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L75-L80)
+| ID | Name | Comment |
+|----|------|---------|
+| 0 | GENDER_MALE | Male |
+| 1 | GENDER_FEMALE | Female |
+| 2 | GENDER_NONE | Any |
+{.dense}
+
 &nbsp;
 
 ### autocast
@@ -81,6 +87,8 @@ The spell will be automatically applied when the character enters the area. Also
 ### quest_start_status
 ### quest_end_status
 Bitmask of different quest statuses.
+
+[`enum QuestStatus`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Quests/QuestDef.h#L101-L111)
 | Value | Flag   | Name | Comment |
 |-------|--------|------|---------|
 | 1 | 0x01 | QUEST_STATUS_NONE  | Player does not have or had quest at all. He could accept it, but he did not (yet). |
@@ -95,7 +103,7 @@ Bitmask of different quest statuses.
 ## Examples
 * All players are [pacified](https://aowow.trinitycore.info/?spell=64373) on the [Argent Tournament Grounds](https://aowow.trinitycore.info/?zone=4658).
 * Factions-specific buffs, e.g. in Icecrown Citadel: H [Hellscream's Warsong](https://aowow.trinitycore.info/?spell=73822) / A [Strength of Wrynn](https://aowow.trinitycore.info/?spell=73828)
-* A [ghost flying mount](https://aowow.trinitycore.info/?spell=55164) in zones where the player may be required to fly to reach his [corpse](https://aowow.trinitycore.info/?spell=8326)
-* A [permanent disguise](https://aowow.trinitycore.info/?spell=40214) after the player completes an [attunement quest](https://aowow.trinitycore.info/?spell=11013)
+* A [ghost flying mount](https://aowow.trinitycore.info/?spell=55164) in zones where the player may be required to fly to reach his [corpse](https://aowow.trinitycore.info/?spell=8326).
+* A [permanent disguise](https://aowow.trinitycore.info/?spell=40214) after the player completes an [attunement quest](https://aowow.trinitycore.info/?quest=11013).
 
 <a href="https://trinitycore.info/en/database/335/world/spawn_group_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'spawn_group_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/spell_bonus_data" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'spell_bonus_data'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
