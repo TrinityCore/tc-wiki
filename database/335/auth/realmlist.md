@@ -1,6 +1,6 @@
 ---
 title: realmlist
-description: 
+description:
 published: true
 date: 2023-08-01T22:15:37.733Z
 tags: database, auth, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -92,51 +92,60 @@ Realmflag of this realm.
 &nbsp;
 
 ### timezone
-The realm timezone, it will be displayed in the tabs of the realmlist
+The realm timezone, it will be displayed in the tabs of the realmlist.
 
-|timezone | displayed name |
+**timezone** corresponds to [cfg_categories IDs](/files/DBC/335/cfg_categories#id)
+| timezone | displayed name |
 | --- | --- |
-| 1 | Development | 
-| 2 | United States | 
-| 3 | Oceanic | 
-| 4 | Latin America | 
-| 5 | Tournament | 
-| 6 | Korea | 
-| 7 | Tournament | 
-| 8 | English | 
-| 9 | German | 
-| 10 | French | 
-| 11 | Spanish | 
-| 12 | Russian | 
-| 13 | Tournament | 
-| 14 | Taiwan | 
-| 15 | Tournament | 
-| 16 | China | 
-| 17 | CN1 | 
-| 18 | CN2 | 
-| 19 | CN3 | 
-| 20 | CN4 | 
-| 21 | CN5 | 
-| 22 | CN6 | 
-| 23 | CN7 | 
-| 24 | CN8 | 
-| 25 | Tournament | 
-| 26 | Test Server | 
-| 27 | Tournament | 
-| 28 | QA Server | 
-| 29 | CN9 | 
+| 1 | Development |
+| 2 | United States |
+| 3 | Oceanic |
+| 4 | Latin America |
+| 5 | Tournament |
+| 6 | Korea |
+| 7 | Tournament |
+| 8 | English |
+| 9 | German |
+| 10 | French |
+| 11 | Spanish |
+| 12 | Russian |
+| 13 | Tournament |
+| 14 | Taiwan |
+| 15 | Tournament |
+| 16 | China |
+| 17 | CN1 |
+| 18 | CN2 |
+| 19 | CN3 |
+| 20 | CN4 |
+| 21 | CN5 |
+| 22 | CN6 |
+| 23 | CN7 |
+| 24 | CN8 |
+| 25 | Tournament |
+| 26 | Test Server |
+| 27 | Tournament |
+| 28 | QA Server |
+| 29 | CN9 |
+| 30 | Test Server 2 |
+| 31 | CN10 |
+| 32 | CTC |
+| 33 | CNC |
+| 34 | CN1/4 |
+| 35 | CN2/6/9 |
+| 36 | CN3/7 |
+| 37 | CN5/8 |
 {.dense}
 
 &nbsp;
 
 ### allowedSecurityLevel
-The minimum [SecurityLevel](../auth/account_access#securitylevel) required for accounts to log in to this realm. 
+The minimum [SecurityLevel](../auth/account_access#securitylevel) required for accounts to log in to this realm.
 
 Changing this value will automatically update the visible in-game realm list, but the Worldserver must be restarted for it to truly take effect.
 &nbsp;
 
 ### population
-This field is automatically updated at regular intervals and will have the current population. 
+This field is automatically updated at regular intervals and will have the current population.
 
 The formula to calculate the value in this field is: `playerCount / maxPlayerCount * 2`.
 In the realm list in-game, the thresholds for low, medium, and high population are 0.5, 1.0, and 2.0 respectively.

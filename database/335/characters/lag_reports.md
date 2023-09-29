@@ -1,6 +1,6 @@
 ---
 title: lag_reports
-description: 
+description:
 published: true
 date: 2023-07-30T16:50:17.798Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -53,7 +53,7 @@ The [guid](../characters/characters#guid) of the reporting character.
 &nbsp;
 
 ### mapId
-MapID from Map.dbc where lag was reported.
+[Map ID](/files/DBC/335/map#id) where lag was reported.
 &nbsp;
 
 ### posX

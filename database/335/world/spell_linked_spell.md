@@ -1,6 +1,6 @@
 ---
 title: spell_linked_spell
-description: 
+description:
 published: true
 date: 2023-07-22T21:14:28.702Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -24,11 +24,11 @@ This table provides data for spell linking system, telling it which spells trigg
 ## Description of fields
 
 ### spell_trigger
-The spell from Spell.dbc, which when cast, will trigger the spell listed in **spell_effect**.
+The [Spell ID](/files/DBC/335/spell#id), which when cast, will trigger the spell listed in **spell_effect**.
 &nbsp;
 
 ### spell_effect
-The spell from Spell.dbc that you want to be triggered. How this spell acts is determined by the **type** field.
+The [Spell ID](/files/DBC/335/spell#id) that you want to be triggered. How this spell acts is determined by the **type** field.
 &nbsp;
 
 ### type
@@ -47,7 +47,7 @@ Describes how both spells are linked
 | **spell_effect < 0** | When spell_trigger hits it's target<br>auras of spell_effect are removed. | *- invalid -* |
 
 
-* 2: SPELL_LINK_AURA	
+* 2: SPELL_LINK_AURA
 | -- | -- | -- | -- |
 |  | **spell_trigger > 0** | **spell_trigger < 0** |
 | **spell_effect > 0** | While aura of spell_trigger is applied<br>aura of spell_effect is also applied on the same target. | *- invalid -* |

@@ -1,6 +1,6 @@
 ---
 title: character_talent
-description: 
+description:
 published: true
 date: 2023-07-29T19:20:21.424Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -29,7 +29,7 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### spell
-The Spell ID from Spell.dbc known to the character.
+The [Spell ID](/files/DBC/335/spell#id) known to the character.
 &nbsp;
 
 ### talentGroup

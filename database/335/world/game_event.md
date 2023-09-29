@@ -1,6 +1,6 @@
 ---
 title: game_event
-description: 
+description:
 published: true
 date: 2023-07-09T17:31:14.034Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -42,7 +42,7 @@ Absolute end date of the event. The event will stop occurring if the local time 
 &nbsp;
 
 ### occurence
-Number of minutes between 2 occurrences of the event. (2880 = 2 days, 1440 = 1 day, etc). 
+Number of minutes between 2 occurrences of the event. (2880 = 2 days, 1440 = 1 day, etc).
 > Note: Setting this to 0 will crash the server.
 {.is-warning}
 
@@ -54,11 +54,11 @@ This value must be lower than occurrence one or the event will never stop.
 &nbsp;
 
 ### holiday
-Holiday if from Holidays.dbc. This is sent to the client to update the calender.
+[Holiday ID](/files/DBC/335/holidays#id). This is sent to the client to update the calender.
 &nbsp;
 
 ### holidayStage
-Index of the main event stage. (see durations in Holidays.dbc)
+Index of the main event stage. (see [HolidayDuration](/files/DBC/335/holidays#duration))
 
 (e.g.: Darkmoon Faire has a preparation stage where it sets up.)
 

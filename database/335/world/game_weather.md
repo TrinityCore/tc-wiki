@@ -1,6 +1,6 @@
 ---
 title: game_weather
-description: 
+description:
 published: true
 date: 2023-07-09T18:51:33.455Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -34,7 +34,7 @@ This table holds the percentages for weather changes in various zones. Not all z
 ## Description of fields
 
 ### zone
-This field contains the zone id from AreaTable.dbc that you wish to change the weather for.
+This field contains the [AreaTable ID](/files/DBC/335/areatable#id) of the zone that you wish to change the weather for.
 &nbsp;
 
 ### spring_rain_chance

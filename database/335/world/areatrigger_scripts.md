@@ -1,6 +1,6 @@
 ---
 title: areatrigger_scripts
-description: 
+description:
 published: true
 date: 2023-07-07T20:14:55.020Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -22,7 +22,7 @@ Allows for an area trigger to be scripted with Trinity Script.
 ## Description of fields
 
 ### entry
-This is the trigger identifier from AreaTrigger.dbc
+This is the [AreaTrigger ID](/files/DBC/335/areatrigger#id).
 &nbsp;
 
 ### ScriptName

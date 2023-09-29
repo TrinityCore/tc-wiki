@@ -1,6 +1,6 @@
 ---
 title: characters
-description: 
+description:
 published: true
 date: 2023-07-29T23:22:54.006Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -102,7 +102,7 @@ The character global unique identifier. This number must be unique and is the be
 &nbsp;
 
 ### account
-The [account ID](../auth/account#id) in which this character resides. 
+The [account ID](../auth/account#id) in which this character resides.
 &nbsp;
 
 ### name
@@ -110,15 +110,15 @@ The name of the character.
 &nbsp;
 
 ### race
-The RaceID from ChrRaces.dbc of the character.
+The [Race ID](/files/DBC/335/chrraces#id) of the character.
 &nbsp;
 
 ### class
-The ClassID from ChrClasses.dbc of the character.
+The [Class ID](/files/DBC/335/chrclasses#id) of the character.
 &nbsp;
 
 ### gender
-The gender of the character. 
+The gender of the character.
 * 0: Male
 * 1: Female
 * 2: Unknown
@@ -216,7 +216,7 @@ The z position of the character's location.
 &nbsp;
 
 ### map
-The Map ID from Map.dbc the character is on.
+The [Map ID](/files/DBC/335/map#id) the character is on.
 &nbsp;
 
 ### instance_id
@@ -244,7 +244,7 @@ The orientation the character is facing. (North = 0.0, South = 3.14159)
 &nbsp;
 
 ### taximask
-Known taxi node IDs from TaxiNodes.dbc stored in space separated bit masks.
+Known [TaxiNode IDs](/files/DBC/335/taxinodes#id) stored in space separated bit masks.
 ```cpp
 uint8  fieldIdx = uint8((nodeId - 1) / 32);
 uint32 maskBit  = 1 << ((nodeId - 1) % 32);
@@ -353,7 +353,7 @@ This field is a bitmask controlling different actions taken once a player logs i
 &nbsp;
 
 ### zone
-The AreaID from AreaTable.dbc the character is in.
+The [AreaTable ID](/files/DBC/335/areatable#id) the character is in.
 &nbsp;
 
 ### death_expire_time
@@ -361,7 +361,7 @@ Unix timestamp when a character can be resurrected in case of a server crash or 
 &nbsp;
 
 ### taxi_path
-Stores the players current TaxiPathID from TaxiPath.dbc if logged off while on one.
+Stores the players current [TaxiPath ID](/files/DBC/335/taxipath#id) if logged off while on one.
 &nbsp;
 
 ### arenaPoints
@@ -394,12 +394,12 @@ The amount of players this character killed yesterday.
 
 ### chosenTitle
 Currently selected title.
-Value of the InGameOrder field from CharTitles.dbc
+Value of the [CharTitle MaskID](/files/DBC/335/chartitles#maskid)
 &nbsp;
 
 ### knownCurrencies
 Known currencies listed in the characters currency tab.
-Value is bitmask of the BitIndex field from CurrencyTypes.dbc.
+Value is bitmask of the [CurrencyType BitIndex](/files/DBC/335/currencytypes#bitindex) field.
 ```cpp
 // adding to field
 knownCurrencies |= (1 << (BitIndex - 1));
@@ -412,7 +412,7 @@ knownCurrencies &= ~(1 << (BitIndex - 1));
 
 ### watchedFaction
 Tracked faction at experience bar.
-Value is the ReputationIndex field from Faction.dbc.
+Value is the [Faction ReputationIndex](/files/DBC/335/faction#reputationindex) field.
 &nbsp;
 
 ### drunk
@@ -427,7 +427,7 @@ Character's drunk state, 0 – 100.
 The characters current health.
 &nbsp;
 
-### power\[1-7\]
+### power\[1-7]
 Current character powers (snapshot from when the character was saved)
 | Index | Name |
 |-------|------|
@@ -457,16 +457,16 @@ The currently activated talent specialization for this character.
 &nbsp;
 
 ### exploredZones
-Explored areas stored in space separated bit masks of the AreaBit field from AreaTable.dbc.
+Explored areas stored in space separated bit masks of the [AreaTable AreaBit](/files/DBC/335/areatable#areabit) field.
 ```cpp
-uint8  fieldIdx = uint8(AreaBit) / 32);
-uint32 maskBit  = 1 << (AreaBit  % 32);
+uint8  fieldIdx = uint8(AreaBit / 32);
+uint32 maskBit  = 1 << (AreaBit % 32);
 ```
 &nbsp;
 
 ### equipmentCache
 Equipment shown on character login screen.
-Space separated list of "[ItemEntry](../world/item_template#entry) EnchantmentId" pairs. 0 for no item equipped or item not enchanted. EnchantmentId is Index of from SpellItemEnchantment.dbc.
+Space separated list of "[ItemEntry](../world/item_template#entry) EnchantmentId" pairs. 0 for no item equipped or item not enchanted. [SpellItemEnchantment ID](/files/DBC/335/spellitemenchantment#id).
 Pairs are ordered from EQUIPMENT_SLOT_HEAD (0) to INVENTORY_SLOT_BAG_END-1 (22)
 
 e.g.: `headItem headEnchantment neckItem neckEnchant … bag4Item bag4Enchantment`
@@ -477,10 +477,10 @@ e.g.: `headItem headEnchantment neckItem neckEnchant … bag4Item bag4Enchantmen
 &nbsp;
 
 ### knownTitles
-Granted titles stored in space separated bit masks of the MaskID field from CharTitles.dbc.
+Granted titles stored in space separated bit masks of the [CharTitle MaskID](/files/DBC/335/chartitles#maskid) field.
 ```cpp
-uint8  fieldIdx = uint8(MaskID) / 32);
-uint32 maskBit  = 1 << (MaskID  % 32);
+uint8  fieldIdx = uint8(MaskID / 32);
+uint32 maskBit  = 1 << (MaskID % 32);
 ```
 &nbsp;
 

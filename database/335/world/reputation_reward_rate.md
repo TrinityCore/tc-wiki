@@ -1,6 +1,6 @@
 ---
 title: reputation_reward_rate
-description: 
+description:
 published: true
 date: 2023-07-13T21:27:38.633Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -28,7 +28,7 @@ Holds reputation multipliers for specific factions.
 ## Description of fields
 
 ### faction
-The id of the faction from Faction.dbc these rates apply to.
+[Faction ID](/files/DBC/335/faction#id) these rates apply to.
 &nbsp;
 
 ### quest_rate

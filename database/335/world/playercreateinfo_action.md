@@ -1,6 +1,6 @@
 ---
 title: playercreateinfo_action
-description: 
+description:
 published: true
 date: 2023-07-11T23:29:31.491Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -25,7 +25,7 @@ This table holds information on what default actions a brand new character shoul
 ## Description of fields
 
 ### race
-The character's race id from ChrRaces.dbc
+The character's [ChrRace ID](/files/DBC/335/chrraces#id)
 | ID | Name      |
 |----|-----------|
 |  1 | Human     |
@@ -43,7 +43,7 @@ The character's race id from ChrRaces.dbc
 &nbsp;
 
 ### class
-The character's class id from ChrClasses.dbc
+The character's [ChrClass ID](/files/DBC/335/chrclasses#id)
 | ID | Name         |
 |----|--------------|
 |  1 | Warrior      |
@@ -63,7 +63,7 @@ The character's class id from ChrClasses.dbc
 ### button
 The ID of the slot on the action bar where the action icon will be placed.
 Special bars are used for stances, auras, pets, stealth, and other similar special modes.
-|Button IDs | Set (key) | Comment | 
+|Button IDs | Set (key) | Comment |
 |-----------|-----------|---------|
 | 0-11 | 1 (SHIFT + 1) |  |
 | 12-23 | 2 (SHIFT + 2) |  |
@@ -81,7 +81,7 @@ Special bars are used for stances, auras, pets, stealth, and other similar speci
 
 ### action
 Depending on the **type** value:
-* type = 0: spell id from Spell.dbc
+* type = 0: [Spell ID](/files/DBC/335/spell#id)
 * type = 128: [item entry](../world/item_template#entry) (yes item prototype, not item instance)
 * type = 64: macro id
 &nbsp;

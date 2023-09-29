@@ -1,6 +1,6 @@
 ---
 title: battleground_template
-description: 
+description:
 published: true
 date: 2023-07-07T20:47:37.548Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -33,7 +33,7 @@ Contains information about the different battlegrounds, like how many players ar
 ## Description of fields
 
 ### ID
-The battleground ID. (see BattlemasterList.dbc)
+references [BattlemasterList ID](/files/DBC/335/battlemasterlist#id)
 
 | ID | Type |
 |----|------|
@@ -55,7 +55,7 @@ The battleground ID. (see BattlemasterList.dbc)
 &nbsp;
 
 ### MinPlayersPerTeam
-Controls the minimum number of players that need to join the battleground on each faction side for the battleground to start. For the battleground to start, all characters (between min and max player values) must be in the same tier. Tiers are set up in ranges of 10 levels except for level 80. So the first tier is 10-19, the next are 20-29, 30-39, 40-49, 50-59, 60-69, 70-79 and finally 80. If characters of different tiers all join the queue, they will join their respective tier's queue and wait for more players of their tier to join the queue. 
+Controls the minimum number of players that need to join the battleground on each faction side for the battleground to start. For the battleground to start, all characters (between min and max player values) must be in the same tier. Tiers are set up in ranges of 10 levels except for level 80. So the first tier is 10-19, the next are 20-29, 30-39, 40-49, 50-59, 60-69, 70-79 and finally 80. If characters of different tiers all join the queue, they will join their respective tier's queue and wait for more players of their tier to join the queue.
 Characters in different tiers can never join the same battleground.
 &nbsp;
 
@@ -75,7 +75,7 @@ The maximum level that players can be to enter the battleground.
 &nbsp;
 
 ### AllianceStartLoc
-The location where the alliance players get teleported to when the battleground first starts. (see WorldSafeLocs.dbc)
+The [WorldSafeLoc ID](/files/DBC/335/worldsafelocs#id) where the alliance players get teleported to when the battleground first starts.
 &nbsp;
 
 ### AllianceStartO
@@ -83,7 +83,7 @@ The orientation of the alliance players upon teleport into the battleground. Nor
 &nbsp;
 
 ### HordeStartLoc
-The location where the horde players get teleported to when the battleground first starts. (see WorldSafeLocs.dbc)
+The [WorldSafeLoc ID](/files/DBC/335/worldsafelocs#id) where the horde players get teleported to when the battleground first starts.
 &nbsp;
 
 ### HordeStartO

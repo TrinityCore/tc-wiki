@@ -1,6 +1,6 @@
 ---
 title: instance_reset
-description: 
+description:
 published: true
 date: 2023-07-31T16:03:43.712Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -10,7 +10,7 @@ dateCreated: 2021-08-30T22:01:24.380Z
 
 <a href="https://trinitycore.info/en/database/335/characters/instance" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'instance'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/item_instance" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'item_instance'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
-> Date and time when heroic and raid instances will be reset (i.e. instances which have a fixed reset interval, which is independent of the time, when some player(s) entered the instance). 
+> Date and time when heroic and raid instances will be reset (i.e. instances which have a fixed reset interval, which is independent of the time, when some player(s) entered the instance).
 >
 >If worldserver.conf [`Rate.InstanceResetTime`](https://trinitycore.info/en/files/configuration/home) is changed, TRUNCATE this table and restart the server in order to repopulate it with the updated "resettime".
 {.is-info}
@@ -27,7 +27,7 @@ dateCreated: 2021-08-30T22:01:24.380Z
 ## Description of fields
 
 ### mapid
-MapID from Map.dbc
+[Map ID](/files/DBC/335/map#id)
 &nbsp;
 
 ### difficulty

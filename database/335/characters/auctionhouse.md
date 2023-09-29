@@ -1,6 +1,6 @@
 ---
 title: auctionhouse
-description: 
+description:
 published: true
 date: 2023-07-24T20:38:05.629Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -11,7 +11,7 @@ dateCreated: 2021-08-30T21:58:45.939Z
 <a href="https://trinitycore.info/en/database/335/characters/auctionbidders" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'auctionbidders'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/banned_addons" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'banned_addons'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
 > Contains all information about the currently ongoing auctions in the auction houses. It controls what items are put up for auction and who put it up, who is the highest bidder, etc.
-> 
+>
 > This table is used by Trinity while running and not a table that you would usually edit.
 {.is-info}
 
@@ -39,7 +39,7 @@ Unique identifier for every auction.
 &nbsp;
 
 ### houseid
-The Auctionhouse where this auction was created. Referes to AuctionHouse.dbc. Options are :
+The Auctionhouse where this auction was created. Referes to [AuctionHouse ID](/files/DBC/335/auctionhouse#id). Options are :
 
 - 2: Alliance Auction House
 - 6: Horde Auction House
@@ -63,7 +63,7 @@ The time when the auction will end, measured in Unix time (number of seconds fro
 &nbsp;
 
 ### buyguid
-The [character guid](../characters/characters#guid) of the highest bidder. 
+The [character guid](../characters/characters#guid) of the highest bidder.
 &nbsp;
 
 ### lastbid

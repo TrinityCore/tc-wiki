@@ -1,6 +1,6 @@
 ---
 title: playercreateinfo_skills
-description: 
+description:
 published: true
 date: 2023-07-12T09:40:43.110Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -25,7 +25,7 @@ This table holds information on what skills newly created characters should star
 ## Description of fields
 
 ### raceMask
-Race id mask from ChrRaces.dbc. `0` is all races.
+Race id mask from [ChrRace ID](/files/DBC/335/chrraces#id). `0` is all races.
 | Value | Flag   | Name      |
 |-------|--------|-----------|
 |     1 | 0x0001 | Human     |
@@ -43,7 +43,7 @@ Race id mask from ChrRaces.dbc. `0` is all races.
 &nbsp;
 
 ### classMask
-Class id mask from ChrClasses.dbc. `0` is all classes.
+Class id mask from [ChrClass ID](/files/DBC/335/chrclasses#id). `0` is all classes.
 | Value | Flag   | Name         |
 |-------|--------|--------------|
 |     1 | 0x0001 | Warrior      |
@@ -61,11 +61,11 @@ Class id mask from ChrClasses.dbc. `0` is all classes.
 &nbsp;
 
 ### skill
-A skill id from SkillLine.dbc to start with.
+A [SkillLine ID](/files/DBC/335/skillline#id) to start with.
 &nbsp;
 
 ### rank
-If the skill has ranks set in SkillTiers.dbc the desired starting rank (and thus starting skill value) can be specified here.
+If the skill has ranks set in [SkillTiers](/files/DBC/335/skilltiers) the desired starting rank (and thus starting skill value) can be specified here as [SkillTiers Value](/files/DBC/335/skilltiers#value) index.
 &nbsp;
 
 ### comment

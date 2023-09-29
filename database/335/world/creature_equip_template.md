@@ -1,6 +1,6 @@
 ---
 title: creature_equip_template
-description: 
+description:
 published: true
 date: 2023-07-07T23:26:53.071Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -34,15 +34,15 @@ An additional identifier for each individual entry, enabling multiple equipments
 &nbsp;
 
 ### ItemID1
-This is the item number of the equipment used in the right hand from Item.dbc.
+This is the [Item ID](/files/DBC/335/item#id) of the equipment used in the right hand slot.
 &nbsp;
 
 ### ItemID2
-This is the item number of the equipment used in the left hand from Item.dbc.
+This is the [Item ID](/files/DBC/335/item#id) of the equipment used in the left hand slot.
 &nbsp;
 
 ### ItemID3
-This is the item number of the equipment used in the ranged slot from Item.dbc.
+This is the [Item ID](/files/DBC/335/item#id) of the equipment used in the ranged slot.
 &nbsp;
 
 ### VerifiedBuild

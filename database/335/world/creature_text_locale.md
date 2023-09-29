@@ -1,6 +1,6 @@
 ---
 title: creature_text_locale
-description: 
+description:
 published: true
 date: 2022-11-21T21:27:04.250Z
 tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
@@ -35,7 +35,19 @@ dateCreated: 2021-08-30T22:04:09.474Z
 &nbsp;
 
 ### Locale
-*- no description -*
+[Localization](/how-to/localization):
+| Locale | Name |
+| :---: | :---: |
+| koKR | Korean|
+| frFR | French|
+| deDE | German|
+| zhCN | Chinese |
+| zhTW | Taiwanese |
+| esES | Spanish (EU) |
+| esMX | Spanish (Latin American) |
+| ruRU | Russian |
+{.dense}
+
 &nbsp;
 
 ### Text

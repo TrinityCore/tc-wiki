@@ -1,6 +1,6 @@
 ---
 title: character_spell_cooldown
-description: 
+description:
 published: true
 date: 2023-07-29T19:11:40.849Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -32,7 +32,7 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### spell
-The Spell ID from Spell.dbc on cooldown.
+The [Spell ID](/files/DBC/335/spell#id) on cooldown.
 &nbsp;
 
 ### item
@@ -44,7 +44,7 @@ The Unix timestamp when the spell cooldown will finish.
 &nbsp;
 
 ### categoryId
-The Category ID from SpellCategory.dbc (if any) linking to Spell.dbc column 2. Used for category cooldown handling.
+The [SpellCategory ID](/files/DBC/335/spellcategory#id) (if any) linking to [Spell Category](/files/DBC/335/spell#category). Used for category cooldown handling.
 &nbsp;
 
 ### categoryEnd

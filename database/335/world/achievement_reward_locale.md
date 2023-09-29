@@ -1,6 +1,6 @@
 ---
 title: achievement_reward_locale
-description: 
+description:
 published: true
 date: 2023-07-07T20:11:42.586Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -26,18 +26,17 @@ references [achievement_reward](../world/achievement_reward#id)
 &nbsp;
 
 ### Locale
-|Value|Locale|
-|:---:|:---: |
-|deDE|German|
-|esES|Spanish|
-|esMX|Spanish (Latin American)|
-|frFR|French|
-|itIT|Italian|
-|koKR|Korean|
-|ptBR|Portuguese|
-|ruRU|Russian|
-|zhCN|Chinese (China)|
-|zhTW|Chinese (Taiwan/Traditional)|
+[Localization](/how-to/localization):
+| Locale | Name |
+| :---: | :---: |
+| koKR | Korean|
+| frFR | French|
+| deDE | German|
+| zhCN | Chinese |
+| zhTW | Taiwanese |
+| esES | Spanish (EU) |
+| esMX | Spanish (Latin American) |
+| ruRU | Russian |
 {.dense}
 
 &nbsp;

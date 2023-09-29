@@ -1,9 +1,9 @@
 ---
 title: *_loot_template
-description: 
+description:
 published: true
 date: 2023-07-08T16:28:59.839Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2023-07-08T00:17:47.784Z
 ---
@@ -57,18 +57,18 @@ The 12 tables have different relations with other DB tables.
 
 | table | field | relation | related table | related field | comment |
 |-------|-------|----------|---------------|---------------|---------|
-| fishing_loot_template | | no db relation | AreaTable.dbc | id | Entry is linked with ID of the fishing zone or area |
+| fishing_loot_template | | no db relation | [AreaTable](/files/DBC/335/areatable) | id | Entry is linked with ID of the fishing zone or area |
 | creature_loot_template | [Entry](#entry) | many <- many | [creature_template](../world/creature_template) | [lootid](../world/creature_template#lootid) |  |
-| gameobject_loot_template | [Entry](#entry) | many <- many |[gameobject_template](../world/gameobject_template) | [data1](../world/gameobject_template#data1) | Only GAMEOBJECT_TYPE_CHEST (3) or GAMEOBJECT_TYPE_FISHINGHOLE (25) | 
+| gameobject_loot_template | [Entry](#entry) | many <- many |[gameobject_template](../world/gameobject_template) | [data1](../world/gameobject_template#data1) | Only GAMEOBJECT_TYPE_CHEST (3) or GAMEOBJECT_TYPE_FISHINGHOLE (25) |
 | item_loot_template | [Entry](#entry) | many <- one | [item_template](../world/item_template) | [entry](../world/item_template#entry) | | |
 | disenchant_loot_template | [Entry](#entry) | many <- many | [item_template](../world/item_template) | [DisenchantID](../world/item_template#disenchantid) | | |
 | prospecting_loot_template | [Entry](#entry) | many <- one | [item_template](../world/item_template) | [entry](../world/item_template#entry) | | |
-| milling_loot_template | [Entry](#entry) | many <- one | [item_template](../world/item_template) | [entry](../world/item_template#entry) | | 
-| pickpocketing_loot_template | [Entry](#entry) | many <- many | [creature_template](../world/creature_template) | [pickpocketloot](../world/creature_template#pickpocketloot) | | 
-| skinning_loot_template | [Entry](#entry) | many <- many | [creature_template](../world/creature_template) | [skinloot](../world/creature_template#skinloot) | Can also store minable/herbable items gathered from creatures | 
-| mail_loot_template | [Entry](#entry) | many <- one | [quest_template_addon](../world/quest_template_addon) | [RewardMailTemplateID](../world/quest_template_addon#rewardmailtemplateid) | | 
-| spell_loot_template | [Entry](#entry) | no db relation | Spell.dbc | id | Only spells with SPELL_EFFECT_CREATE_RANDOM_ITEM (59) or SPELL_EFFECT_CREATE_ITEM_2 (157) | 
-| reference_loot_template | [Entry](#entry) | many <- many | \*_loot_template | [Reference](#Reference) | | 
+| milling_loot_template | [Entry](#entry) | many <- one | [item_template](../world/item_template) | [entry](../world/item_template#entry) | |
+| pickpocketing_loot_template | [Entry](#entry) | many <- many | [creature_template](../world/creature_template) | [pickpocketloot](../world/creature_template#pickpocketloot) | |
+| skinning_loot_template | [Entry](#entry) | many <- many | [creature_template](../world/creature_template) | [skinloot](../world/creature_template#skinloot) | Can also store minable/herbable items gathered from creatures |
+| mail_loot_template | [Entry](#entry) | many <- one | [quest_template_addon](../world/quest_template_addon) | [RewardMailTemplateID](../world/quest_template_addon#rewardmailtemplateid) | |
+| spell_loot_template | [Entry](#entry) | no db relation | [Spell](/files/DBC/335/spell) | id | Only spells with SPELL_EFFECT_CREATE_RANDOM_ITEM (59) or SPELL_EFFECT_CREATE_ITEM_2 (157) |
+| reference_loot_template | [Entry](#entry) | many <- many | \*_loot_template | [Reference](#Reference) | |
 
 ## Description of fields
 
@@ -132,7 +132,7 @@ Zero value of **Chance** is allowed for grouped entries only.
 &nbsp;
 
 ### QuestRequired
-Informs the core that the item should be shown only to characters having appropriate quest. This means that even if item is dropped, in order to see it in the loot the player must have at least one quest that has the [item ID](../world/item_template#entry) in its [RequiredItemId](../world/quest_template#requireditemid1) fields or in its [StartItem](../quest_template#startitem) fields. The player must also have less copies of the item than [RequiredItemCount](../world/quest_template#requireditemcount1) or [ProvidedItemCount](../world/quest_template_addon#provideditemcount). 
+Informs the core that the item should be shown only to characters having appropriate quest. This means that even if item is dropped, in order to see it in the loot the player must have at least one quest that has the [item ID](../world/item_template#entry) in its [RequiredItemId](../world/quest_template#requireditemid1) fields or in its [StartItem](../quest_template#startitem) fields. The player must also have less copies of the item than [RequiredItemCount](../world/quest_template#requireditemcount1) or [ProvidedItemCount](../world/quest_template_addon#provideditemcount).
 &nbsp;
 
 ### LootMode
@@ -175,7 +175,7 @@ _If you understand the process you can understand the results:_
 * If *group chance* is at least 100 then one item will be dropped for sure.
 * If *group chance* does not exceed 100 then every item defined in group entries has exactly that chance to drop as set in **Chance**.
 * If *group chance* is greater than 100 then some entries will lose a part of their chance (or even not be checked at all - that will be the case for all equal-chanced entries) whatever value takes the roll **R**. So for some items chance to drop will be less than their **Chance**. That is very bad and that is why having *group chance* > 100 is strictly prohibited.
-    
+
 Processing of equal-chanced part takes much less time then of explicitly-chanced one. So usage of equal-chanced groups is recommended when possible.
 
 _So now basic applications of the groups are clear:_
@@ -213,7 +213,7 @@ _For non-reference entries:_
 * the maximum number of copies of the item that can drop in a single loot.
 
 _For reference entries:_
-* The value of **MaxCount** field is used as a repetition factor for references - the reference will be processed not just once but exactly **MaxCount** times. 
+* The value of **MaxCount** field is used as a repetition factor for references - the reference will be processed not just once but exactly **MaxCount** times.
 This is designed to serve a single purpose: to make definition of tier token drops a bit simplier (tokens of a tier are defined as a 100%-chance group of an artificial template and bosses' loot templates include 100%-chanced reference to that group with repetition factor of 2 or 3 depending on the case). Using non-1 repetition factor for other things (references to a group with group chance less than 100% or chanced references with chance less than 100%) must be agreed with TDB devs first (and described here).
 
 > Note: core rolls chance for any loot definition entry just one time - so if a references loses its roll it is skipped for the current loot completely, whatever it's **MaxCount** value.
@@ -231,7 +231,7 @@ These agreements are different for different loot tables. Mainly agreements defi
 
 ### Fishing haul
 
-For fishing_loot_template, ID is the zone or area ID from AreaTable.dbc
+For fishing_loot_template, ID is the [AreaTable ID](/files/DBC/335/areatable#id)
 
 Also an extra note on fishing_loot_template: if just one area ID is defined for a zone, then that whole zone ID is skipped and therefore all areas in that zone need to have entries in the table. Only when there doesn't exist any area entries for a zone does the core use the zone ID directly. Zone = Wetlands, Elwynn, etc; Area = Northshire, Lakeshire, etc.
 

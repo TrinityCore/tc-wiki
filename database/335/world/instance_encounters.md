@@ -1,6 +1,6 @@
 ---
 title: instance_encounters
-description: 
+description:
 published: true
 date: 2023-07-10T22:50:24.418Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -16,16 +16,16 @@ Definitions of instance encounters. Used by the LFG system.
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | int | unsigned | PRI | NO |  |  | Unique entry from DungeonEncounter.dbc |
+| [entry](#entry) | int | unsigned | PRI | NO |  |  | Unique entry from [DungeonEncounter](/files/DBC/335/dungeonencounter) |
 | [creditType](#credittype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [creditEntry](#creditentry) | int | unsigned |  | NO | 0 |  |  |
-| [lastEncounterDungeon](#lastencounterdungeon) | smallint | unsigned |  | NO | 0 |  | If not 0, LfgDungeon.dbc entry for the instance it is last encounter in |
+| [lastEncounterDungeon](#lastencounterdungeon) | smallint | unsigned |  | NO | 0 |  | If not 0, [LfgDungeon ID](/files/DBC/335/lfgdungeons#id) entry for the instance it is last encounter in |
 | [comment](#comment) | varchar(255) |  |  | NO | '' |  |  |
 &nbsp;
 ## Description of fields
 
 ### entry
-Unique entry from DungeonEncounter.dbc
+Unique [DungeonEncounter ID](/files/DBC/335/dungeonencounter#id)
 &nbsp;
 
 ### creditType
@@ -36,13 +36,13 @@ from [`enum EncounterCreditType`](https://github.com/TrinityCore/TrinityCore/tre
 
 ### creditEntry
 * **creditType** = 0: this field is a [creature entry](../world/creature_template#entry).
-* **creditType** = 1: this field is a spell Id from Spell.dbc.
+* **creditType** = 1: this field is a [Spell ID](/files/DBC/335/spell#id).
 
 Casting the spell or killing the creature will mark the encounter as completed.
 &nbsp;
 
 ### lastEncounterDungeon
-Reference to LfgDungeon.dbc entry for the instance which this encounter is the last of. If 0, encounter is not the final one.
+Reference to [LfgDungeon ID](/files/DBC/335/lfgdungeons#id) for the instance which this encounter is the last of. If 0, encounter is not the final one.
 &nbsp;
 
 ### comment

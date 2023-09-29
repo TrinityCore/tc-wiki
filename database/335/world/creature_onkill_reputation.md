@@ -1,6 +1,6 @@
 ---
 title: creature_onkill_reputation
-description: 
+description:
 published: true
 date: 2023-07-08T17:52:10.601Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -35,7 +35,7 @@ The template ID of the creature. See [creature_template.entry](../world/creature
 
 ### RewOnKillRepFaction1
 ### RewOnKillRepFaction2
-The faction ID of the faction that the player will gain or lose points in. (see Faction.dbc)
+The [Faction ID](/files/DBC/335/faction#id) that the player will gain or lose points in.
 &nbsp;
 
 

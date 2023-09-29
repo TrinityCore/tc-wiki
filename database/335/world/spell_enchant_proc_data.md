@@ -1,6 +1,6 @@
 ---
 title: spell_enchant_proc_data
-description: 
+description:
 published: true
 date: 2023-07-23T01:00:08.740Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -25,7 +25,7 @@ This table holds information how and when an enchantment proc can occur.
 ## Description of fields
 
 ### EnchantID
-Id from SpellItemEnchantment.dbc
+references [SpellItemEnchantment ID](/files/DBC/335/spellitemenchantment#id)
 Any of the types (0 – 2) must be of ITEM_ENCHANTMENT_TYPE_COMBAT_SPELL (1)
 &nbsp;
 

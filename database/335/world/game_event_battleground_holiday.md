@@ -1,6 +1,6 @@
 ---
 title: game_event_battleground_holiday
-description: 
+description:
 published: true
 date: 2023-07-09T17:43:59.383Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -26,7 +26,7 @@ refers to [game_event.EventEntry](../world/game_event#evententry)
 &nbsp;
 
 ### BattlegroundID
-Index from BattlemasterList.dbc to apply the event to. 
+[BattlemasterList ID](/files/DBC/335/battlemasterlist#id) to apply the event to.
 | ID | Name | | ID | Name |
 |----|------|-|----|------|
 | 1 | Alterac Valley | | 7 | Eye of the Storm |

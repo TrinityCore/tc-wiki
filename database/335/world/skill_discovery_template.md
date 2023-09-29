@@ -1,6 +1,6 @@
 ---
 title: skill_discovery_template
-description: 
+description:
 published: true
 date: 2023-07-15T09:54:23.592Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -24,7 +24,7 @@ This table controls the so called "discovery" system of learning spells. This sy
 ## Description of fields
 
 ### spellId
-The recipe spell id from Spell.dbc that has a chance to be automatically discovered.
+The recipe [Spell ID](/files/DBC/335/spell#id) that has a chance to be automatically discovered.
 &nbsp;
 
 ### reqSpell

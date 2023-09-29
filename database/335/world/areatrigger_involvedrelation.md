@@ -1,6 +1,6 @@
 ---
 title: areatrigger_involvedrelation
-description: 
+description:
 published: true
 date: 2023-07-07T20:13:26.523Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -24,7 +24,7 @@ If there is a record in the table for a quest, then the quest will not be comple
 ## Description of fields
 
 ### id
-This is the trigger ID from AreaTrigger.dbc
+This is the [AreaTrigger ID](/files/DBC/335/areatrigger#id).
 &nbsp;
 
 ### quest

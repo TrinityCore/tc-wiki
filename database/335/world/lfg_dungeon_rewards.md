@@ -1,6 +1,6 @@
 ---
 title: lfg_dungeon_rewards
-description: 
+description:
 published: true
 date: 2023-07-11T17:21:39.193Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -22,7 +22,7 @@ dateCreated: 2021-08-30T22:06:17.982Z
 ## Description of fields
 
 ### dungeonId
-Dungeon ID from LfgDungeons.dbc
+references [LfgDungeons ID](/files/DBC/335/lfgdungeons#id)
 &nbsp;
 
 ### maxLevel

@@ -1,6 +1,6 @@
 ---
 title: account
-description: 
+description:
 published: true
 date: 2023-08-01T19:13:27.028Z
 tags: database, auth, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -9,7 +9,7 @@ dateCreated: 2021-08-30T21:57:34.489Z
 ---
 
 <a href="https://trinitycore.info/en/database/335/auth/vw_rbac" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'vw_rbac'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/auth/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to auth</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/auth/account_access" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'account_access'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-> 
+>
 > This table holds information on all available accounts.
 {.is-info}
 
@@ -133,7 +133,7 @@ Integer 0 – 2 controlling if the client logged in on the account has any expan
 &nbsp;
 
 ### mutetime
-The Unix timestamp, when the account will be unmuted. 
+The Unix timestamp, when the account will be unmuted.
 
 To see when mute will be expired you can use this query:
 ```sql
@@ -152,20 +152,18 @@ The character name with the rights to the `.mute` command that give the mute.
 ### locale
 The locale used by the client logged into this account. If multiple locale data has been configured and added to the world servers, the world servers will return the proper locale strings to the client.
 
-| ID | Loc | Name |
-|----|-----|------|
-| 0 | enGB /enUS | English |
-| 1 | koKR | Korean |
-| 2 | frFR | French |
-| 3 | deDE | German |
-| 4 | zhCN / enCN | Chinese |
-| 5 | zhTW / enTW | Taiwanese |
-| 6 | esES | Spanish |
-| 7 | esMX | Mexican (Spanish) |
-| 8 | ruRU | Russian |
-| 10 | ptPT / ptBR | Portugese |
-| 11 | itIT | Italian |
-| 12 – 15 |  | *- unused -* |
+See [Localization](/how-to/localization):
+| ID | Name |
+|----|------|
+| 0 | English |
+| 1 | Korean |
+| 2 | French |
+| 3 | German |
+| 4 | Chinese |
+| 5 | Taiwanese |
+| 6 | Spanish (EU) |
+| 7 | Spanish (Latin America) |
+| 8 | Russian |
 {.dense}
 
 &nbsp;

@@ -1,6 +1,6 @@
 ---
 title: achievement_criteria_data
-description: 
+description:
 published: true
 date: 2023-07-07T20:06:01.761Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -25,14 +25,14 @@ This table contains the data that a player needs to obtain / complete in order t
 ## Description of fields
 
 ### criteria_id
-This is the ID from Achievement_Criteria.dbc
+This is the [AchievementCriteria ID](/files/DBC/335/achievement_criteria#id).
 &nbsp;
 
 ### type
 Depending on this value, it will determine how [value1](#value1) and [value2](#value2) are used.
 | Type | Name |
 |------|------|
-| 0 | TYPE_NONE | 
+| 0 | TYPE_NONE |
 | 1 | TYPE_T_CREATURE |
 | 2 | TYPE_T_PLAYER_CLASS_RACE |
 | 3 | TYPE_T_PLAYER_LESS_HEALTH |
@@ -67,11 +67,11 @@ Depending on this value, it will determine how [value1](#value1) and [value2](#v
 |------|--------|---------|---------|
 | TYPE_NONE | 0 | 0 |  |
 | TYPE_T_CREATURE | creature entry from [creature_template](../world/creature_template#entry) | 0 |  |
-| TYPE_T_PLAYER_CLASS_RACE | class ID from ChrClasses.dbc | race ID from ChrRaces.dbc |   |
+| TYPE_T_PLAYER_CLASS_RACE | [ChrClass ID](/files/DBC/335/chrclasses#id) | [ChrRace ID](/files/DBC/335/chrraces#id) |   |
 | TYPE_T_PLAYER_LESS_HEALTH | The percentage of health that the target must reach | 0 |  |
 | TYPE_T_PLAYER_DEAD | own_team | 0 | not corpse (not released body), own_team == false if enemy team expected |
-| TYPE_S_AURA | The spell ID of the aura that must be on the player (see Spell.dbc) | Effect Index of the aura |  |
-| TYPE_S_AREA | Area ID from AreaTable.dbc | 0 |  |
+| TYPE_S_AURA | The spell ID of the aura that must be on the player (see [Spell ID](/files/DBC/335/spell#id)) | Effect Index of the aura |  |
+| TYPE_S_AREA | [AreaTable ID](/files/DBC/335/areatable#id) | 0 |  |
 | TYPE_T_AURA | The spell ID of the aura that must be on the target | Effect Index of the aura |  |
 | TYPE_VALUE | Value to compare needed to attain achievement | ComparisationType:<br>&nbsp;&nbsp;&nbsp;&nbsp;COMP_TYPE_EQ = 0<br>&nbsp;&nbsp;&nbsp;&nbsp;COMP_TYPE_HIGH = 1<br>&nbsp;&nbsp;&nbsp;&nbsp;COMP_TYPE_LOW = 2<br>&nbsp;&nbsp;&nbsp;&nbsp;COMP_TYPE_HIGH_EQ = 3<br>&nbsp;&nbsp;&nbsp;&nbsp;COMP_TYPE_LOW_EQ = 4 | value provided with achievement update must be not less that limit |
 | TYPE_T_LEVEL | The minimum level of the target. | 0 |  |
@@ -81,17 +81,16 @@ Depending on this value, it will determine how [value1](#value1) and [value2](#v
 | TYPE_MAP_PLAYER_COUNT | count | 0 | "with less than %u people in the zone" |
 | TYPE_T_TEAM | The target must be on this team: Alliance = 469, Horde = 67 | 0 |  |
 | TYPE_S_DRUNK | How drunk the player must be:<br>&nbsp;&nbsp;&nbsp;&nbsp;DRUNKEN_SOBER = 0<br>&nbsp;&nbsp;&nbsp;&nbsp;DRUNKEN_TIPSY = 1<br>&nbsp;&nbsp;&nbsp;&nbsp;DRUNKEN_DRUNK = 2<br>&nbsp;&nbsp;&nbsp;&nbsp;DRUNKEN_SMASHED = 3 | 0 | (enum DrunkenState) of player |
-| TYPE_HOLIDAY | Holiday ID from Holiday.dbc and [game_event](../world/game_event). Must be an active holiday | 0 | event in holiday time |
+| TYPE_HOLIDAY | [Holiday ID](/files/DBC/335/holidays#id) and [game_event](../world/game_event). Must be an active holiday | 0 | event in holiday time |
 | TYPE_BG_LOSS_TEAM_SCORE | min. score | max. score | player's team win bg and opposition team have team score in range |
 | TYPE_INSTANCE_SCRIPT | 0 | 0 | make instance script call for check current criteria requirements fit |
 | TYPE_S_EQUIPPED_ITEM | [Item level](../world/item_template#itemlevel) | [Item quality](../world/item_template#quality) | for equipped item in slot to check item level and quality |
-| TYPE_MAP_ID | Player must be on mapId (see Map.dbc) | 0 |  |
-| TYPE_S_PLAYER_CLASS_RACE | class ID from ChrClasses.dbc | race ID from ChrRaces.dbc |
+| TYPE_MAP_ID | Player must be on [Map ID](/files/DBC/335/map#id) | 0 |  |
+| TYPE_S_PLAYER_CLASS_RACE | [ChrClass ID](/files/DBC/335/chrclasses#id) | [ChrRace ID](/files/DBC/335/chrraces#id) |
 | TYPE_NTH_BIRTHDAY | N | 0 | login on day of N-th Birthday |
-| TYPE_S_KNOWN_TITLE | Title ID from CharTitles.dbc | 0 | known (pvp) title |
+| TYPE_S_KNOWN_TITLE | [CharTitle ID](/files/DBC/335/chartitles#id) | 0 | known (pvp) title |
 | TYPE_GAME_EVENT | - | - | 7.x only |
 | TYPE_S_ITEM_QUALITY | [Item quality](../world/item_template#quality) | 0 |  |
-
 {.dense}
 
 &nbsp;

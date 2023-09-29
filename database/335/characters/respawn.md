@@ -1,6 +1,6 @@
 ---
 title: respawn
-description: 
+description:
 published: true
 date: 2023-07-31T22:00:52.925Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -30,8 +30,8 @@ dateCreated: 2021-08-30T22:02:17.522Z
 `enum SpawnObjectType`
 | ID | Name |
 |----|------|
-| 0 | SPAWN_TYPE_CREATURE |   
-| 1 | SPAWN_TYPE_GAMEOBJECT | 
+| 0 | SPAWN_TYPE_CREATURE |
+| 1 | SPAWN_TYPE_GAMEOBJECT |
 {.dense}
 
 &nbsp;
@@ -46,11 +46,11 @@ Unix timestamp when the entity should be respawned.
 &nbsp;
 
 ### mapId
-MapID from Map.dbc where the entity should be spawned.
+[Map ID](/files/DBC/335/map#id) where the entity should be spawned.
 &nbsp;
 
 ### instanceId
-If the entity was killed/destroyed in an instance, this field holds the [instance id](../characters/instance#id) where this entity should be respawned. 
+If the entity was killed/destroyed in an instance, this field holds the [instance id](../characters/instance#id) where this entity should be respawned.
 
 Each instance is different depending on the group so this field is vital in keeping track of which creatures/gameobjects should be respawned for which players at what time.
 &nbsp;

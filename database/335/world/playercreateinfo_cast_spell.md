@@ -1,6 +1,6 @@
 ---
 title: playercreateinfo_cast_spell
-description: 
+description:
 published: true
 date: 2023-07-11T23:43:01.432Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -24,7 +24,7 @@ This table holds information on spells a new character casts when he logs in for
 ## Description of fields
 
 ### raceMask
-Race id mask from ChrRaces.dbc. `0` is all races.
+Race mask of [ChrRace IDs](/files/DBC/335/chrraces#id). `0` is all races.
 
 | Value | Flag   | Name      |
 |-------|--------|-----------|
@@ -43,7 +43,7 @@ Race id mask from ChrRaces.dbc. `0` is all races.
 &nbsp;
 
 ### classMask
-Class id mask from ChrClasses.dbc. `0` is all classes.
+Class mask of [ChrClass IDs](/files/DBC/335/chrclasses#id). `0` is all classes.
 | Value | Flag   | Name         |
 |-------|--------|--------------|
 |     1 | 0x0001 | Warrior      |
@@ -61,7 +61,7 @@ Class id mask from ChrClasses.dbc. `0` is all classes.
 &nbsp;
 
 ### spell
-Spell id from Spell.dbc to cast on first log in.
+[Spell ID](/files/DBC/335/spell#id) to cast on first log in.
 &nbsp;
 
 ### note

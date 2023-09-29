@@ -1,6 +1,6 @@
 ---
 title: instance_spawn_groups
-description: 
+description:
 published: true
 date: 2023-07-10T23:36:33.215Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -27,7 +27,7 @@ A spawn group is activated if any of its FLAG_ACTIVATE_SPAWN conditions are met,
 ## Description of fields
 
 ### instanceMapId
-Id from Map.dbc the boss is on. 
+[Map ID](/files/DBC/335/map#id) the boss is on.
 &nbsp;
 
 ### bossStateId

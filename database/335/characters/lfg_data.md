@@ -1,6 +1,6 @@
 ---
 title: lfg_data
-description: 
+description:
 published: true
 date: 2023-07-31T20:28:32.241Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -29,7 +29,7 @@ references [groups.guid](../characters/groups#guid)
 &nbsp;
 
 ### dungeon
-ID from LFGDungeons.dbc
+[LFGDungeon ID](/files/DBC/335/lfgdungeons#id)
 &nbsp;
 
 ### state

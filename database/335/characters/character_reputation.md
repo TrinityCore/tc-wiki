@@ -1,6 +1,6 @@
 ---
 title: character_reputation
-description: 
+description:
 published: true
 date: 2023-07-29T18:43:37.897Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -30,7 +30,7 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### faction
-The faction ID from Faction.dbc that the character has the given reputation in.
+The [Faction ID](/files/DBC/335/faction#id) that the character has the given reputation in.
 &nbsp;
 
 ### standing

@@ -1,6 +1,6 @@
 ---
 title: areatrigger_teleport
-description: 
+description:
 published: true
 date: 2023-07-07T20:26:15.433Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -28,7 +28,7 @@ Contains all the teleport triggers definition. This table is used to complete .d
 ## Description of fields
 
 ### ID
-This is the trigger identifier from AreaTrigger.dbc
+This is the [AreaTrigger ID](/files/DBC/335/areatrigger#id).
 &nbsp;
 
 ### Name
@@ -36,7 +36,7 @@ Name of the trigger. This can be an arbitrary name, and is for descriptive purpo
 &nbsp;
 
 ### target_map
-Target map of the trigger (see Map.dbc)
+Target [Map ID](/files/DBC/335/map#id) of the trigger.
 &nbsp;
 
 ### target_position_x

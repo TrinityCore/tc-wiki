@@ -1,6 +1,6 @@
 ---
 title: achievement_reward
-description: 
+description:
 published: true
 date: 2023-07-07T20:04:34.933Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -28,15 +28,15 @@ This table describes the reward that you will receive when you obtain a given ac
 ## Description of fields
 
 ### ID
-This is the ID of the achievement from Achievement.dbc
+[Achievement ID](/files/DBC/335/achievement#id)
 &nbsp;
 
 ### TitleA
-This is the ID of the title for Alliance from CharTitles.dbc if the achievement rewards a title.
+This is the [CharTitle ID](/files/DBC/335/chartitles#id) for Alliance if the achievement rewards a title.
 &nbsp;
 
 ### TitleH
-This is the ID of the title for Horde from CharTitles.dbc if the achievement rewards a title.
+This is the [CharTitle ID](/files/DBC/335/chartitles#id) for Horde from if the achievement rewards a title.
 &nbsp;
 
 ### ItemID
@@ -56,7 +56,7 @@ This is the text of the body of that mail that you receive.
 &nbsp;
 
 ### MailTemplateID
-This is the ID from MailTemplate.dbc for the mail that you receive. Subject and Text must be empty. They are read from dbc file.
+This is the [MailTemplate ID](/files/DBC/335/mailtemplate#id) for the mail that you receive. Subject and Text must be empty. They are read from dbc file.
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/world/achievement_dbc" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'achievement_dbc'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/achievement_reward_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'achievement_reward_locale'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>

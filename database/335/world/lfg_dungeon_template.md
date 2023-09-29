@@ -1,6 +1,6 @@
 ---
 title: lfg_dungeon_template
-description: 
+description:
 published: true
 date: 2023-07-11T17:33:09.089Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -16,7 +16,7 @@ Used by LFG system to teleport players on specified position. This table should 
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [dungeonId](#dungeonid) | int | unsigned | PRI | NO | 0 |  | Unique id from LFGDungeons.dbc |
+| [dungeonId](#dungeonid) | int | unsigned | PRI | NO | 0 |  | Unique id from [LFGDungeons](/files/DBC/335/lfgdungeons) |
 | [name](#name) | varchar(255) |  |  | YES | NULL |  |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
@@ -27,11 +27,11 @@ Used by LFG system to teleport players on specified position. This table should 
 ## Description of fields
 
 ### dungeonId
-Dungeon ID from LfgDungeons.dbc
+references [LfgDungeons ID](/files/DBC/335/lfgdungeons#id)
 &nbsp;
 
 ### name
-Dungeon name from LfgDungeons.dbc
+references [LfgDungeons Name](/files/DBC/335/lfgdungeons#name)
 &nbsp;
 
 ### position_x

@@ -1,6 +1,6 @@
 ---
 title: game_tele
-description: 
+description:
 published: true
 date: 2023-07-09T18:38:50.935Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -48,7 +48,7 @@ The direction that the player will face after arriving at the teleport location.
 &nbsp;
 
 ### map
-The map ID of the location. (see Map.dbc)
+The [Map ID](/files/DBC/335/map#id) of the location.
 &nbsp;
 
 ### name

@@ -1,6 +1,6 @@
 ---
 title: creature_template
-description: 
+description:
 published: true
 date: 2023-07-15T09:33:35.488Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -82,7 +82,7 @@ Creature's unique id.
 &nbsp;
 
 ### difficulty_entry_1
-This field connects the stats from another **entry** to this template when in 25man normal, 10man heroic or 25man heroic mode instance. 
+This field connects the stats from another **entry** to this template when in 25man normal, 10man heroic or 25man heroic mode instance.
 * For Dungeons: 5 (Heroic)
 * For Raids: 25 (Normal)
 ### difficulty_entry_2
@@ -103,7 +103,7 @@ If this is a kill credit template -- one that is a dummy template that is used w
 ### modelid2
 ### modelid3
 ### modelid4
-A random graphical model that the client applies on this creature. This is a [creature_model_info.DisplayID](../world/creature_model_info#displayid). (see CreatureDisplayInfo.dbc)
+A random graphical model that the client applies on this creature. This is a [creature_model_info.DisplayID](../world/creature_model_info#displayid) / [CreatureDisplayInfo ID](/files/DBC/335/creaturedisplayinfo#id).
 &nbsp;
 
 ### name
@@ -115,8 +115,8 @@ The subname of the creature that appears in \<..\> below the creature's name.
 &nbsp;
 
 ### IconName
-Use special mouse pointer when hovering over the creature. 
-| Value | Description | 
+Use special mouse pointer when hovering over the creature.
+| Value | Description |
 |-------|-------------|
 | Directions | Used for Guards and Teleporter NPC's. |
 | Gunner | Indicator of a Turret NPC/Player Controlled. |
@@ -159,7 +159,7 @@ The expansion table the creatures health value is taken from. Values are from 0 
 &nbsp;
 
 ### faction
-The faction of the creature. (see FactionTemplate.dbc)
+The [FactionTemplate ID](/files/DBC/335/factiontemplate#id) of the creature.
 Just because more than one faction has the same name, the inter-faction relationships can be different.
 
 > Note: This field also controls the creature family assistance mechanic. Only creatures with the same faction will assist each other.
@@ -212,7 +212,7 @@ Controls how fast the creature can run. For vehicles: increases ground movement 
 &nbsp;
 
 ### scale
-If non-zero, this field defines the size of how the model of the creature appears ingame. If zero, it will use default model size taken from CreatureDisplayInfo.dbc/CreatureModelScale
+If non-zero, this field defines the size of how the model of the creature appears ingame. If zero, it will use default model size taken from [CreatureDisplayInfo CreatureModelScale](/files/DBC/335/creaturedisplayinfo#creaturemodelscale)
 &nbsp;
 
 ### rank
@@ -285,31 +285,31 @@ This is the creature's class, and it dictates levels of health and mana. Also no
 Allows the manual application of unit flags to creatures. Again this is a bitmask field and to apply more than one flag, just add the different numbers. Some possible flags are:
 | Value | Flag | Name | Comment |
 |-------|------|------|---------|
-| 2 | 0x00000002 | UNIT_FLAG_NON_ATTACKABLE | not attackable, set when creature starts to cast spells with SPELL_EFFECT_SPAWN and cast time, removed when spell hits caster. | 
-| 8 | 0x00000008 | UNIT_FLAG_PLAYER_CONTROLLED | controlled by player, use _IMMUNE_TO_PC instead of _IMMUNE_TO_NPC | 
-| 64 | 0x00000040 | UNIT_FLAG_UNK_6 |  | 
-| 128 | 0x00000080 | UNIT_FLAG_NOT_ATTACKABLE_1 | ?? (UNIT_FLAG_PLAYER_CONTROLLED | UNIT_FLAG_NOT_ATTACKABLE_1) is NON_PVP_ATTACKABLE | 
-| 256 | 0x00000100 | UNIT_FLAG_IMMUNE_TO_PC | disables combat/assistance with PlayerCharacters (PC) - see Unit::IsValidAttackTarget, Unit::IsValidAssistTarget | 
-| 512 | 0x00000200 | UNIT_FLAG_IMMUNE_TO_NPC | disables combat/assistance with NonPlayerCharacters (NPC) - see Unit::IsValidAttackTarget, Unit::IsValidAssistTarget | 
-| 1024 | 0x00000400 | UNIT_FLAG_LOOTING | loot animation | 
-| 2048 | 0x00000800 | UNIT_FLAG_PET_IN_COMBAT | on player pets: whether the pet is chasing a target to attack || on other units: whether any of the unit's minions is in combat | 
-| 4096 | 0x00001000 | UNIT_FLAG_PVP_ENABLING | changed in 3.0.3, now UNIT_BYTES_2_OFFSET_PVP_FLAG from UNIT_FIELD_BYTES_2 | 
-| 8192 | 0x00002000 | UNIT_FLAG_SILENCED | silenced, 2.1.1 | 
-| 16384 | 0x00004000 | UNIT_FLAG_CANNOT_SWIM | 2.0.8 | 
-| 32768 | 0x00008000 | UNIT_FLAG_CAN_SWIM | shows swim animation in water | 
-| 65536 | 0x00010000 | UNIT_FLAG_NON_ATTACKABLE_2 | removes attackable icon, if on yourself, cannot assist self but can cast TARGET_SELF spells - added by SPELL_AURA_MOD_UNATTACKABLE | 
-| 131072 | 0x00020000 | UNIT_FLAG_PACIFIED | Creature will not attack | 
-| 262144 | 0x00040000 | UNIT_FLAG_STUNNED |  | 
-| 524288 | 0x00080000 | UNIT_FLAG_IN_COMBAT |  | 
-| 2097152 | 0x00200000 | UNIT_FLAG_DISARMED | 3.0.3, disable melee spells casting..., "Required melee weapon" added to melee spells tooltip. | 
-| 4194304 | 0x00400000 | UNIT_FLAG_CONFUSED |  | 
-| 8388608 | 0x00800000 | UNIT_FLAG_FLEEING |  | 
-| 16777216 | 0x01000000 | UNIT_FLAG_POSSESSED | under direct client control by a player (possess or vehicle) | 
-| 33554432 | 0x02000000 | UNIT_FLAG_UNINTERACTIBLE | Can't be selected by mouse or with /target {name} command. | 
-| 67108864 | 0x04000000 | UNIT_FLAG_SKINNABLE |  | 
-| 134217728 | 0x08000000 | UNIT_FLAG_MOUNT | The client seems to handle it perfectly. Also used when making custom mounts. | 
-| 1073741824 | 0x40000000 | UNIT_FLAG_SHEATHE |  | 
-| 2147483648 | 0x80000000 | UNIT_FLAG_IMMUNE | Immune to damage | 
+| 2 | 0x00000002 | UNIT_FLAG_NON_ATTACKABLE | not attackable, set when creature starts to cast spells with SPELL_EFFECT_SPAWN and cast time, removed when spell hits caster. |
+| 8 | 0x00000008 | UNIT_FLAG_PLAYER_CONTROLLED | controlled by player, use _IMMUNE_TO_PC instead of _IMMUNE_TO_NPC |
+| 64 | 0x00000040 | UNIT_FLAG_UNK_6 |  |
+| 128 | 0x00000080 | UNIT_FLAG_NOT_ATTACKABLE_1 | ?? (UNIT_FLAG_PLAYER_CONTROLLED | UNIT_FLAG_NOT_ATTACKABLE_1) is NON_PVP_ATTACKABLE |
+| 256 | 0x00000100 | UNIT_FLAG_IMMUNE_TO_PC | disables combat/assistance with PlayerCharacters (PC) - see Unit::IsValidAttackTarget, Unit::IsValidAssistTarget |
+| 512 | 0x00000200 | UNIT_FLAG_IMMUNE_TO_NPC | disables combat/assistance with NonPlayerCharacters (NPC) - see Unit::IsValidAttackTarget, Unit::IsValidAssistTarget |
+| 1024 | 0x00000400 | UNIT_FLAG_LOOTING | loot animation |
+| 2048 | 0x00000800 | UNIT_FLAG_PET_IN_COMBAT | on player pets: whether the pet is chasing a target to attack || on other units: whether any of the unit's minions is in combat |
+| 4096 | 0x00001000 | UNIT_FLAG_PVP_ENABLING | changed in 3.0.3, now UNIT_BYTES_2_OFFSET_PVP_FLAG from UNIT_FIELD_BYTES_2 |
+| 8192 | 0x00002000 | UNIT_FLAG_SILENCED | silenced, 2.1.1 |
+| 16384 | 0x00004000 | UNIT_FLAG_CANNOT_SWIM | 2.0.8 |
+| 32768 | 0x00008000 | UNIT_FLAG_CAN_SWIM | shows swim animation in water |
+| 65536 | 0x00010000 | UNIT_FLAG_NON_ATTACKABLE_2 | removes attackable icon, if on yourself, cannot assist self but can cast TARGET_SELF spells - added by SPELL_AURA_MOD_UNATTACKABLE |
+| 131072 | 0x00020000 | UNIT_FLAG_PACIFIED | Creature will not attack |
+| 262144 | 0x00040000 | UNIT_FLAG_STUNNED |  |
+| 524288 | 0x00080000 | UNIT_FLAG_IN_COMBAT |  |
+| 2097152 | 0x00200000 | UNIT_FLAG_DISARMED | 3.0.3, disable melee spells casting..., "Required melee weapon" added to melee spells tooltip. |
+| 4194304 | 0x00400000 | UNIT_FLAG_CONFUSED |  |
+| 8388608 | 0x00800000 | UNIT_FLAG_FLEEING |  |
+| 16777216 | 0x01000000 | UNIT_FLAG_POSSESSED | under direct client control by a player (possess or vehicle) |
+| 33554432 | 0x02000000 | UNIT_FLAG_UNINTERACTIBLE | Can't be selected by mouse or with /target {name} command. |
+| 67108864 | 0x04000000 | UNIT_FLAG_SKINNABLE |  |
+| 134217728 | 0x08000000 | UNIT_FLAG_MOUNT | The client seems to handle it perfectly. Also used when making custom mounts. |
+| 1073741824 | 0x40000000 | UNIT_FLAG_SHEATHE |  |
+| 2147483648 | 0x80000000 | UNIT_FLAG_IMMUNE | Immune to damage |
 {.dense}
 
 &nbsp;
@@ -356,7 +356,7 @@ Flags that control visual appearance of the creature. A few known flags and thei
 &nbsp;
 
 ### family
-The family this creature belongs to. (see CreatureFamily.dbc)
+The [CreatureFamily ID](/files/DBC/335/creaturefamily#id) this creature belongs to.
 | ID | Name | ID | Name |
 |----|------|----|------|
 | 1 | Wolf | 26 | Owl |
@@ -384,7 +384,7 @@ The family this creature belongs to. (see CreatureFamily.dbc)
 &nbsp;
 
 ### type
-The type of the creature. (see CreatureType.dbc)
+The [CreatureType ID](/files/DBC/335/creaturetype#id) of the creature.
 | ID | Name |
 |----|------|
 | 0 | None |
@@ -460,11 +460,11 @@ The ID of the [skinning_loot_template](../world/loot_template) that this creatur
 &nbsp;
 
 ### PetSpellDataId
-ID, found in CreatureSpellData.dbc, that displays what spells the pet has in the client.
+[CreatureSpellData ID](/files/DBC/335/creaturespelldata#id), that displays what spells the pet has in the client.
 &nbsp;
 
 ### VehicleId
-Entryid of Vehicle.dbc if creature is/has a vehicle entry. This field determines how the player appears on the vehicle, how the vehicle moves, and whether or not the vehicle action bar is shown.
+[Vehicle ID](/files/DBC/335/vehicle#id) if creature is/has a vehicle entry. This field determines how the player appears on the vehicle, how the vehicle moves, and whether or not the vehicle action bar is shown.
 For example, a **VehicleId** of 292 will make the player invisible, prevent the vehicle from strafing left/right (but will allow fowards/backwards), and will show the vehicle action bar spells (which are defined in spell1-8). An [npc_spellclick_spells](../world/npc_spellclick_spells) entry must be made for this creature entry in order for this to work.
 &nbsp;
 
@@ -542,7 +542,7 @@ Boolean 1 or 0 controlling if the creature should regenerate its health out of c
 &nbsp;
 
 ### mechanic_immune_mask
-This makes the creature immune to specific spell mechanics. See Spell.dbc at row effect_X_mechanic_id.
+This makes the creature immune to specific spell mechanics. (See [Spell EffectMechanic](/files/DBC/335/spell#effectmechanic))
 | Value | Flag | Name | Comment |
 |-------|------|------|---------|
 | 1 | 0x00000001 | MECHANIC_CHARM |  |

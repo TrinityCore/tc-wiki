@@ -1,6 +1,6 @@
 ---
 title: smart_scripts
-description: 
+description:
 published: true
 date: 2023-07-18T14:51:59.828Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -22,27 +22,27 @@ dateCreated: 2021-08-30T22:09:09.695Z
 | [event_phase_mask](#event_phase_mask) | smallint | unsigned |  | NO | 0 |  |  |
 | [event_chance](#event_chance) | tinyint | unsigned |  | NO | 100 |  |  |
 | [event_flags](#event_flags) | smallint | unsigned |  | NO | 0 |  |  |
-| [event_param1](#event_param1) | int | unsigned |  | NO | 0 |  |  |
-| [event_param2](#event_param2) | int | unsigned |  | NO | 0 |  |  |
-| [event_param3](#event_param3) | int | unsigned |  | NO | 0 |  |  |
-| [event_param4](#event_param4) | int | unsigned |  | NO | 0 |  |  |
-| [event_param5](#event_param5) | int | unsigned |  | NO | 0 |  |  |
+| [event_param1](#event_type) | int | unsigned |  | NO | 0 |  |  |
+| [event_param2](#event_type) | int | unsigned |  | NO | 0 |  |  |
+| [event_param3](#event_type) | int | unsigned |  | NO | 0 |  |  |
+| [event_param4](#event_type) | int | unsigned |  | NO | 0 |  |  |
+| [event_param5](#event_type) | int | unsigned |  | NO | 0 |  |  |
 | [action_type](#action_type) | tinyint | unsigned |  | NO | 0 |  |  |
-| [action_param1](#action_param1) | int | unsigned |  | NO | 0 |  |  |
-| [action_param2](#action_param2) | int | unsigned |  | NO | 0 |  |  |
-| [action_param3](#action_param3) | int | unsigned |  | NO | 0 |  |  |
-| [action_param4](#action_param4) | int | unsigned |  | NO | 0 |  |  |
-| [action_param5](#action_param5) | int | unsigned |  | NO | 0 |  |  |
-| [action_param6](#action_param6) | int | unsigned |  | NO | 0 |  |  |
+| [action_param1](#action_type) | int | unsigned |  | NO | 0 |  |  |
+| [action_param2](#action_type) | int | unsigned |  | NO | 0 |  |  |
+| [action_param3](#action_type) | int | unsigned |  | NO | 0 |  |  |
+| [action_param4](#action_type) | int | unsigned |  | NO | 0 |  |  |
+| [action_param5](#action_type) | int | unsigned |  | NO | 0 |  |  |
+| [action_param6](#action_type) | int | unsigned |  | NO | 0 |  |  |
 | [target_type](#target_type) | tinyint | unsigned |  | NO | 0 |  |  |
-| [target_param1](#target_param1) | int | unsigned |  | NO | 0 |  |  |
-| [target_param2](#target_param2) | int | unsigned |  | NO | 0 |  |  |
-| [target_param3](#target_param3) | int | unsigned |  | NO | 0 |  |  |
-| [target_param4](#target_param4) | int | unsigned |  | NO | 0 |  |  |
-| [target_x](#target_x) | float |  |  | NO | 0 |  |  |
-| [target_y](#target_y) | float |  |  | NO | 0 |  |  |
-| [target_z](#target_z) | float |  |  | NO | 0 |  |  |
-| [target_o](#target_o) | float |  |  | NO | 0 |  |  |
+| [target_param1](#target_type) | int | unsigned |  | NO | 0 |  |  |
+| [target_param2](#target_type) | int | unsigned |  | NO | 0 |  |  |
+| [target_param3](#target_type) | int | unsigned |  | NO | 0 |  |  |
+| [target_param4](#target_type) | int | unsigned |  | NO | 0 |  |  |
+| [target_x](#target_type) | float |  |  | NO | 0 |  |  |
+| [target_y](#target_type) | float |  |  | NO | 0 |  |  |
+| [target_z](#target_type) | float |  |  | NO | 0 |  |  |
+| [target_o](#target_type) | float |  |  | NO | 0 |  |  |
 | [comment](#comment) | text |  |  | NO |  |  | Event Comment |
 &nbsp;
 
@@ -56,7 +56,7 @@ dateCreated: 2021-08-30T22:09:09.695Z
 * **source_type** = 9: invoking **entryorguid** * 100 (+i, if multiple timed action lists are set)
 * **entryorguid** > 0: entry of the creature / game object / etc.
 * **entryorguid** < 0: guid of the creature / game object / etc.
-    
+
 &nbsp;
 
 ### source_type
@@ -100,30 +100,30 @@ Example: if **id** = 0 and **link** = 1; **id** 1 will only be able to occur if 
 | 5 | SMART_EVENT_KILL | CooldownMin | CooldownMax | Player only (0/1) | [creature entry](../world/creature_template#entry) (if param3 is 0) |  | 0 | On Creature Kill |
 | 6 | SMART_EVENT_DEATH |  |  |  |  |  | 0 | On Creature Death |
 | 7 | SMART_EVENT_EVADE |  |  |  |  |  | 0 | On Creature Enter Evade Mode |
-| 8 | SMART_EVENT_SPELLHIT | SpellID | [SchoolMask](#spellschoolmask) (0: any) | CooldownMin | CooldownMax |  | 0 + 1 | On Creature/Gameobject Spell Hit |
+| 8 | SMART_EVENT_SPELLHIT | [Spell ID](/files/DBC/335/spell#id) | [SchoolMask](#spellschoolmask) (0: any) | CooldownMin | CooldownMax |  | 0 + 1 | On Creature/Gameobject Spell Hit |
 | 9 | SMART_EVENT_RANGE | MinDist | MaxDist | RepeatMin | RepeatMax |  | 0 | On Target In Range |
 | 10 | SMART_EVENT_OOC_LOS | 0: Hostile<br>1: Not Hostile<br>2: Any | MaxRange | CooldownMin | CooldownMax |  | 0 | On Target In Distance Out of Combat |
-| 11 | SMART_EVENT_RESPAWN | type (None= 0, Map = 1, Area = 2) | MapId | ZoneId |  |  | 0 + 1 | On Creature/Gameobject Respawn |
+| 11 | SMART_EVENT_RESPAWN | type (None= 0, Map = 1, Area = 2) | [Map ID](/files/DBC/335/map#id) | [AreaTable ID](/files/DBC/335/areatable#id) |  |  | 0 + 1 | On Creature/Gameobject Respawn |
 | 12 | :x: SMART_EVENT_TARGET_HEALTH_PCT |  |  |  |  |  | 0 | UNUSED, DO NOT REUSE - On Target Health Percentage |
-| 13 | SMART_EVENT_VICTIM_CASTING | RepeatMin | RepeatMax | SpellID (0: any) |  |  | 0 | On Target Casting Spell |
+| 13 | SMART_EVENT_VICTIM_CASTING | RepeatMin | RepeatMax | [Spell ID](/files/DBC/335/spell#id) (0: any) |  |  | 0 | On Target Casting Spell |
 | 14 | :x: SMART_EVENT_FRIENDLY_HEALTH |  |  |  |  |  | 0 | UNUSED, DO NOT REUSE - On Friendly Health Deficit |
 | 15 | SMART_EVENT_FRIENDLY_IS_CC | Radius | RepeatMin | RepeatMax |  |  | 0 | Feared, Charmed, Rooted, Stunned, Confused |
-| 16 | SMART_EVENT_FRIENDLY_MISSING_BUFF | SpellID | Radius | RepeatMin | RepeatMax |  | 0 | On Friendly Lost Buff |
+| 16 | SMART_EVENT_FRIENDLY_MISSING_BUFF | [Spell ID](/files/DBC/335/spell#id) | Radius | RepeatMin | RepeatMax |  | 0 | On Friendly Lost Buff |
 | 17 | SMART_EVENT_SUMMONED_UNIT | [creature entry](..world/creature_template#entry) (0: any) | CooldownMin | CooldownMax |  |  | 0 + 1 | On Creature/Gameobject Summoned Unit |
 | 18 | :x: SMART_EVENT_TARGET_MANA_PCT |  |  |  |  |  | 0 | UNUSED, DO NOT REUSE - On Target Mana Percentage |
-| 19 | SMART_EVENT_ACCEPTED_QUEST | [quest id](..world/quest_template#id) (0: any) | CooldownMin | CooldownMax |  |  | 0 + 1 | On Target Accepted Quest |
-| 20 | SMART_EVENT_REWARD_QUEST | [quest id](..world/quest_template#id) (0: any) | CooldownMin | CooldownMax |  |  | 0 + 1 | On Target Rewarded Quest |
+| 19 | SMART_EVENT_ACCEPTED_QUEST | [quest ID](..world/quest_template#id) (0: any) | CooldownMin | CooldownMax |  |  | 0 + 1 | On Target Accepted Quest |
+| 20 | SMART_EVENT_REWARD_QUEST | [quest ID](..world/quest_template#id) (0: any) | CooldownMin | CooldownMax |  |  | 0 + 1 | On Target Rewarded Quest |
 | 21 | SMART_EVENT_REACHED_HOME |  |  |  |  |  | 0 | On Creature Reached Home Pos. |
-| 22 | SMART_EVENT_RECEIVE_EMOTE | EmoteId | CooldownMin | CooldownMax | condition |, val1, val2, val3  | 0 | On Receive Emote. |
-| 23 | SMART_EVENT_HAS_AURA | SpellID | Stack amount | RepeatMin | RepeatMax |  | 0 | On Creature Has Aura |
-| 24 | SMART_EVENT_TARGET_BUFFED | SpellID | Stack amount | RepeatMin | RepeatMax |  | 0 | On Target Buffed With Spell |
+| 22 | SMART_EVENT_RECEIVE_EMOTE | [EmotesText ID](/files/DBC/335/emotestext#id) | CooldownMin | CooldownMax | condition |, val1, val2, val3  | 0 | On Receive Player Emote. |
+| 23 | SMART_EVENT_HAS_AURA | [Spell ID](/files/DBC/335/spell#id) | Stack amount | RepeatMin | RepeatMax |  | 0 | On Creature Has Aura |
+| 24 | SMART_EVENT_TARGET_BUFFED | [Spell ID](/files/DBC/335/spell#id) | Stack amount | RepeatMin | RepeatMax |  | 0 | On Target Buffed With Spell |
 | 25 | SMART_EVENT_RESET |  |  |  |  |  | 0 | Called after combat, when the creature respawn and spawn. |
 | 26 | SMART_EVENT_IC_LOS | 0: Hostile<br>1: Not Hostile<br>2: Any | MaxRange | CooldownMin | CooldownMax |  | 0 | On Target In Distance In Combat |
 | 27 | SMART_EVENT_PASSENGER_BOARDED | CooldownMin | CooldownMax |  |  |  | 0 | On Player/NPC Entered Creature (Vehicle) |
 | 28 | SMART_EVENT_PASSENGER_REMOVED | CooldownMin | CooldownMax |  |  |  | 0 | On Player/NPC Left Creature (Vehicle) |
 | 29 | SMART_EVENT_CHARMED | 0: onApply; 1: onRemove |  |  |  |  | 0 | On Creature Charmed |
 | 30 | :x: SMART_EVENT_CHARMED_TARGET |  |  |  |  |  | 0 | UNUSED, DO NOT REUSE - On Target Charmed |
-| 31 | SMART_EVENT_SPELLHIT_TARGET | SpellID | [SchoolMask](#spellschoolmask) (0: any) | CooldownMin | CooldownMax |  | 0 | On Target Spell Hit |
+| 31 | SMART_EVENT_SPELLHIT_TARGET | [Spell ID](/files/DBC/335/spell#id) | [SchoolMask](#spellschoolmask) (0: any) | CooldownMin | CooldownMax |  | 0 | On Target Spell Hit |
 | 32 | SMART_EVENT_DAMAGED | MinDmg | MaxDmg | CooldownMin | CooldownMax |  | 0 | On Creature Damaged |
 | 33 | SMART_EVENT_DAMAGED_TARGET | MinDmg | MaxDmg | CooldownMin | CooldownMax |  | 0 | On Target Damaged |
 | 34 | SMART_EVENT_MOVEMENTINFORM | [MovementType](#movementtype) (0: any) | PointID |  |  |  | 0 |  |
@@ -138,7 +138,7 @@ Example: if **id** = 0 and **link** = 1; **id** 1 will only be able to occur if 
 | 43 | :x: SMART_EVENT_TRANSPORT_REMOVE_PLAYER |  |  |  |  |  | 7 | source_type unavailable |
 | 44 | :x: SMART_EVENT_TRANSPORT_RELOCATE | PointId |  |  |  |  | 7 | source_type unavailable |
 | 45 | :x: SMART_EVENT_INSTANCE_PLAYER_ENTER | Team (0: any) | CooldownMin | CooldownMax |  |  | 8 | source_type unavailable |
-| 46 | SMART_EVENT_AREATRIGGER_ONTRIGGER | TriggerId (0: any) |  |  |  |  | 2 |  |
+| 46 | SMART_EVENT_AREATRIGGER_ONTRIGGER | [AreaTrigger ID](/files/DBC/335/areatrigger#id) (0: any) |  |  |  |  | 2 |  |
 | 47 | :x: SMART_EVENT_QUEST_ACCEPTED |  |  |  |  |  | 5 | source_type unavailable - On Target Quest Accepted|
 | 48 | :x: SMART_EVENT_QUEST_OBJ_COMPLETION |  |  |  |  |  | 5 | source_type unavailable - On Target Quest Objective Completed |
 | 49 | :x: SMART_EVENT_QUEST_COMPLETION |  |  |  |  |  | 5 | source_type unavailable - On Target Quest Completed |
@@ -175,9 +175,9 @@ Example: if **id** = 0 and **link** = 1; **id** 1 will only be able to occur if 
 | 80 | :x: SMART_EVENT_SCENE_CANCEL |  |  |  |  |  | 0 | don't use on 3.3.5a |
 | 81 | :x: SMART_EVENT_SCENE_COMPLETE |  |  |  |  |  | 0 | don't use on 3.3.5a |
 | 82 | SMART_EVENT_SUMMONED_UNIT_DIES | [creature entry](..world/creature_template#entry) (0: any) | CooldownMin | CooldownMax |  |  | 0 + 1 |  |
-| 83 | SMART_EVENT_ON_SPELL_CAST | SpellID | CooldownMin | CooldownMax |  |  | 0 | on Spell::cast |
-| 84 | SMART_EVENT_ON_SPELL_FAILED | SpellID | CooldownMin | CooldownMax |  |  | 0 | on Unit::InterruptSpell |
-| 85 | SMART_EVENT_ON_SPELL_START | SpellID | CooldownMin | CooldownMax |  |  | 0 | on Spell::prapare |
+| 83 | SMART_EVENT_ON_SPELL_CAST | [Spell ID](/files/DBC/335/spell#id) | CooldownMin | CooldownMax |  |  | 0 | on Spell::cast |
+| 84 | SMART_EVENT_ON_SPELL_FAILED | [Spell ID](/files/DBC/335/spell#id) | CooldownMin | CooldownMax |  |  | 0 | on Unit::InterruptSpell |
+| 85 | SMART_EVENT_ON_SPELL_START | [Spell ID](/files/DBC/335/spell#id) | CooldownMin | CooldownMax |  |  | 0 | on Spell::prapare |
 | 86 | SMART_EVENT_ON_DESPAWN |  |  |  |  |  | 0 | On Before Creature Removed |
 {.dense}
 
@@ -216,7 +216,7 @@ If the script is in phase 1 and want to skip to phase 2:
 &nbsp;
 
 ### event_chance
-This is the probability of the event to occur as a percentage from 0-100. So, if you want the event to occur roughly half of the time, then set this to 50. 
+This is the probability of the event to occur as a percentage from 0-100. So, if you want the event to occur roughly half of the time, then set this to 50.
 &nbsp;
 
 ### event_flags
@@ -241,22 +241,22 @@ Sets if the event should not repeat or should only happen in a given instance/du
 |----|------|---------------|---------------|---------------|---------------|---------------|---------------|---------|
 | 0 | SMART_ACTION_NONE |  |  |  |  |  |  | No action |
 | 1 | SMART_ACTION_TALK | [GroupID](../world/creature_text#groupid) | duration in ms to wait before<br>TEXT_OVER event is triggered | useTalkTarget:<br>0 - target talks to invoker<br>1 - creature talks to target |  |  |  | action_param3 only relevant for creature targets |
-| 2 | SMART_ACTION_SET_FACTION | FactionTemplateId (0: default) |  |  |  |  |  | Sets faction to creature. |
+| 2 | SMART_ACTION_SET_FACTION | [FactionTemplate ID](/files/DBC/335/factiontemplate#id) (0: default) |  |  |  |  |  | Sets faction to creature. |
 | 3 | SMART_ACTION_MORPH_TO_ENTRY_OR_MODEL | [creature entry](../world/creature_template#entry) | [DisplayID](../world/creature_model_info#displayid) |  |  |  |  | set one or the other; both 0: demorph |
-| 4 | SMART_ACTION_SOUND | SoundId | onlySelf? (0/1) | distantSound? (0/1) |  |  |  | distantSound: external sound source |
-| 5 | SMART_ACTION_PLAY_EMOTE | EmoteId |  |  |  |  |  |  |
-| 6 | SMART_ACTION_FAIL_QUEST | [Quest ID](../world/quest_template#id) |  |  |  |  |  | Fail quest of target. |
-| 7 | SMART_ACTION_OFFER_QUEST | [Quest ID](../world/quest_template#id) | directAdd:<br>0 - offer quest<br>1 - add quest to log |  |  |  |  | Offer quest to target. |
+| 4 | SMART_ACTION_SOUND | [SoundEntry ID](/files/DBC/335/soundentries#id) | onlySelf? (0/1) | distantSound? (0/1) |  |  |  | distantSound: external sound source |
+| 5 | SMART_ACTION_PLAY_EMOTE | [Emote ID](/files/DBC/335/emotes#id) |  |  |  |  |  |  |
+| 6 | SMART_ACTION_FAIL_QUEST | [quest ID](../world/quest_template#id) |  |  |  |  |  | Fail quest of target. |
+| 7 | SMART_ACTION_OFFER_QUEST | [quest ID](../world/quest_template#id) | directAdd:<br>0 - offer quest<br>1 - add quest to log |  |  |  |  | Offer quest to target. |
 | 8 | SMART_ACTION_SET_REACT_STATE | [state](#reactstate) |  |  |  |  |  |  |
 | 9 | SMART_ACTION_ACTIVATE_GOBJECT |  |  |  |  |  |  | Set gameobject active. |
-| 10 | SMART_ACTION_RANDOM_EMOTE | EmoteId1 | EmoteId2 | EmoteId3 | EmoteId4 | EmoteId5 | EmoteId6 | Play random emote. |
-| 11 | SMART_ACTION_CAST | SpellID | [CastFlags](#smartcastflags) | [TriggeredFlags](#triggercastflags) |  |  |  | Cast spell at taget. |
+| 10 | SMART_ACTION_RANDOM_EMOTE | [Emote ID1](/files/DBC/335/emotes#id) | [Emote ID2](/files/DBC/335/emotes#id) | [Emote ID3](/files/DBC/335/emotes#id) | [Emote ID4](/files/DBC/335/emotes#id) | [Emote ID5](/files/DBC/335/emotes#id) | [Emote ID6](/files/DBC/335/emotes#id) | Play random emote. |
+| 11 | SMART_ACTION_CAST | [Spell ID](/files/DBC/335/spell#id) | [CastFlags](#smartcastflags) | [TriggeredFlags](#triggercastflags) |  |  |  | Cast spell at taget. |
 | 12 | SMART_ACTION_SUMMON_CREATURE | [creature entry](../world/creature_template#entry) | [SummonType](#summontype) | duration in ms | attackInvoker? (0/1) | SmartActionSummonCreatureFlags:<br>0x1 - PersonalSpawn<br>0x2 - PreferUnit |  | Summon NPC |
 | 13 | SMART_ACTION_THREAT_SINGLE_PCT | Threat% incr. | Threat% decr. |  |  |  |  | Change threat percentage for single target |
 | 14 | SMART_ACTION_THREAT_ALL_PCT | Threat% incr. | Threat% decr. |  |  |  |  | Change threat percentage for all targets |
 | 15 | SMART_ACTION_CALL_AREAEXPLOREDOREVENTHAPPENS | [QuestID](../world/quest_template#id) |  |  |  |  |  | Satisfy exploration requirement for quest. |
 | 16 | :x: SMART_ACTION_RESERVED_16 |  |  |  |  |  |  | used on 4.3.4 and higher scripts |
-| 17 | SMART_ACTION_SET_EMOTE_STATE | EmoteID |  |  |  |  |  | Play Emote Continuously |
+| 17 | SMART_ACTION_SET_EMOTE_STATE | [Emote ID](/files/DBC/335/emotes#id) |  |  |  |  |  | Play Emote Continuously |
 | 18 | :x: SMART_ACTION_SET_UNIT_FLAG | flags | 0: set unit_flags<br>1: set unit_flags2 |  |  |  |  | UNUSED, DO NOT REUSE - Set multiple flags at once|
 | 19 | :x: SMART_ACTION_REMOVE_UNIT_FLAG | flags | 0: unset unit_flags<br>1: unset unit_flags2 |  |  |  |  | UNUSED, DO NOT REUSE - Remove multiple flags at once|
 | 20 | SMART_ACTION_AUTO_ATTACK | allowAttack? (0/1) |  |  |  |  |  | Start or Stop auto hits |
@@ -265,9 +265,9 @@ Sets if the event should not repeat or should only happen in a given instance/du
 | 23 | SMART_ACTION_INC_EVENT_PHASE | increment | decrement |  |  |  |  | only increment OR decrement, not both |
 | 24 | SMART_ACTION_EVADE | 0: to respawn pos.<br>1: to last stored home pos. |  |  |  |  |  | Enter Evade mode. |
 | 25 | SMART_ACTION_FLEE_FOR_ASSIST | withEmote? (0/1) |  |  |  |  |  | Emote: '%s attempts to run away in fear'  |
-| 26 | SMART_ACTION_CALL_GROUPEVENTHAPPENS | [Quest ID](../world/quest_template#id) |  |  |  |  |  | Like #15 but for whole party. |
+| 26 | SMART_ACTION_CALL_GROUPEVENTHAPPENS | [quest ID](../world/quest_template#id) |  |  |  |  |  | Like #15 but for whole party. |
 | 27 | SMART_ACTION_COMBAT_STOP |  |  |  |  |  |  |  |
-| 28 | SMART_ACTION_REMOVEAURASFROMSPELL | SpellID (0: any) | charges (0: all) | onlyOwned? (0/1) |  |  |  |  |
+| 28 | SMART_ACTION_REMOVEAURASFROMSPELL | [Spell ID](/files/DBC/335/spell#id) (0: any) | charges (0: all) | onlyOwned? (0/1) |  |  |  |  |
 | 29 | SMART_ACTION_FOLLOW | distance (0: default) | angle (0: default) | [end creature entry](../world/creature_template#entry) | credit | creditType:<br>0 - moster kill<br>1 - event |  | Following ends when reaching end creature.<br>Credit is rewarded upon StopFollow. |
 | 30 | SMART_ACTION_RANDOM_PHASE | Phase1 | Phase2 | Phase3 | Phase4 | Phase5 | Phase6 | see **event_phase_mask** |
 | 31 | SMART_ACTION_RANDOM_PHASE_RANGE | PhaseMin | PhaseMax |  |  |  |  | see **event_phase_mask** |
@@ -291,17 +291,17 @@ Sets if the event should not repeat or should only happen in a given instance/du
 | 49 | SMART_ACTION_ATTACK_START |  |  |  |  |  |  | start attacking random target |
 | 50 | SMART_ACTION_SUMMON_GO | [gameobject entry](../world/gameobject_template#entry) | despawnTime in sec | [SummonType](#gosummontype) |  |  |  | Spawns Gameobject, use target_type to set spawn position. |
 | 51 | SMART_ACTION_KILL_UNIT |  |  |  |  |  |  | Forces non-player target to suicide. |
-| 52 | SMART_ACTION_ACTIVATE_TAXI | TaxiPathId |  |  |  |  |  | Sends target player to flight path. You have to be close to Flight Master, which gives Taxi ID you need.  |
-| 53 | SMART_ACTION_WP_START | run? (0/1) | [Waypoint entry](../world/waypoints#entry) | canRepeat? (0/1) | [Quest ID](../world/quest_template#id) | despawntime |  | Creature starts Waypoint Movement. Use waypoints table to create movement. |
+| 52 | SMART_ACTION_ACTIVATE_TAXI | [TaxiPath ID](/files/DBC/335/taxipath#id) |  |  |  |  |  | Sends target player to flight path. You have to be close to Flight Master, which gives Taxi ID you need.  |
+| 53 | SMART_ACTION_WP_START | run? (0/1) | [Waypoint entry](../world/waypoints#entry) | canRepeat? (0/1) | [quest ID](../world/quest_template#id) | despawntime |  | Creature starts Waypoint Movement. Use waypoints table to create movement. |
 | 54 | SMART_ACTION_WP_PAUSE | time in ms |  |  |  |  |  | Creature pauses its Waypoint Movement for given time. |
-| 55 | SMART_ACTION_WP_STOP | despawnTime | [Quest ID](../world/quest_template#id) | failQuest? (0/1) |  |  |  | Creature stops its Waypoint Movement. |
+| 55 | SMART_ACTION_WP_STOP | despawnTime | [quest ID](../world/quest_template#id) | failQuest? (0/1) |  |  |  | Creature stops its Waypoint Movement. |
 | 56 | SMART_ACTION_ADD_ITEM | [item entry](../world/item_template#entry) | count |  |  |  |  | Adds item(s) to player. |
 | 57 | SMART_ACTION_REMOVE_ITEM | [item entry](../world/item_template#entry) | count |  |  |  |  | Removes item(s) from player. |
 | 58 | :x: SMART_ACTION_INSTALL_AI_TEMPLATE |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
 | 59 | SMART_ACTION_SET_RUN | enable? (0/1) |  |  |  |  |  |  |
 | 60 | SMART_ACTION_SET_DISABLE_GRAVITY | disable? (0/1) |  |  |  |  |  | Only works for creatures with inhabit air. |
 | 61 | :x: SMART_ACTION_SET_SWIM |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 62 | SMART_ACTION_TELEPORT | Map ID |  |  |  |  |  | Use World Pos. from **target_type** to set destination |
+| 62 | SMART_ACTION_TELEPORT | [Map ID](/files/DBC/335/map#id) |  |  |  |  |  | Use World Pos. from **target_type** to set destination |
 | 63 | SMART_ACTION_SET_COUNTER | counterID | value | reset? (0/1) |  |  |  |  |
 | 64 | SMART_ACTION_STORE_TARGET_LIST | varID |  |  |  |  |  |  |
 | 65 | SMART_ACTION_WP_RESUME |  |  |  |  |  |  | Creature continues in its Waypoint Movement. |
@@ -324,14 +324,14 @@ Sets if the event should not repeat or should only happen in a given instance/du
 | 82 | SMART_ACTION_ADD_NPC_FLAG | [npcflag](../world/creature_template#npcflag) |  |  |  |  |  | Add npcflags to creature taget |
 | 83 | SMART_ACTION_REMOVE_NPC_FLAG | [npcflag](../world/creature_template#npcflag) |  |  |  |  |  | Remove npcflags from creature taget |
 | 84 | SMART_ACTION_SIMPLE_TALK | [groupID](../world/creature_text#groupid) |  |  |  |  |  | Target units will say the text.<br>TEXT_OVER event is not triggered. |
-| 85 | SMART_ACTION_SELF_CAST | SpellID | [CastFlags](#smartcastflags) | [TriggeredFlags](#triggercastflags) | maxTargets (0: all) |  |  | The targets will cast the spell on it themself |
-| 86 | SMART_ACTION_CROSS_CAST | SpellID | [CastFlags](#smartcastflags) | caster_**target_type** | caster_**target_param1** | caster_**target_param2** | caster_**target_param3** | CasterTarget will cast SpellID on all (regular) targets.<br>Use with caution if targeting multiple * multiple units.
+| 85 | SMART_ACTION_SELF_CAST | [Spell ID](/files/DBC/335/spell#id) | [CastFlags](#smartcastflags) | [TriggeredFlags](#triggercastflags) | maxTargets (0: all) |  |  | The targets will cast the spell on it themself |
+| 86 | SMART_ACTION_CROSS_CAST | [Spell ID](/files/DBC/335/spell#id) | [CastFlags](#smartcastflags) | caster_**target_type** | caster_**target_param1** | caster_**target_param2** | caster_**target_param3** | CasterTarget will cast Spell ID on all (regular) targets.<br>Use with caution if targeting multiple * multiple units.
 | 87 | SMART_ACTION_CALL_RANDOM_TIMED_ACTIONLIST | **entryorguid**1 | **entryorguid**2 | **entryorguid**3 | **entryorguid**4 | **entryorguid**5 | **entryorguid**6 | Start random (id > 0) TimedActionList on SAI enabled target. |
 | 88 | SMART_ACTION_CALL_RANDOM_RANGE_TIMED_ACTIONLIST | min. **entryorguid** | max. **entryorguid** |  |  |  |  | Start random (min <= id <= max) TimedActionList on SAI enabled target. |
 | 89 | SMART_ACTION_RANDOM_MOVE | maxDist (0: idleMove) |  |  |  |  |  | Creature target or self moves maxDist in random direction. |
 | 90 | SMART_ACTION_SET_UNIT_FIELD_BYTES_1 | bytes | target:<br>0 - [StandState](../world/creature_template_addon#standstate)<br>2 - [VisFlags](../world/creature_template_addon#visflags)<br>3 - [AnimTier](../world/creature_template_addon#animtier)  |  |  |  |  | Set units BYTES_1 at target offset. |
 | 91 | SMART_ACTION_REMOVE_UNIT_FIELD_BYTES_1 | bytes | target:<br>0 - [StandState](../world/creature_template_addon#standstate)<br>2 - [VisFlags](../world/creature_template_addon#visflags)<br>3 - [AnimTier](../world/creature_template_addon#animtier)  |  |  |  |  | Reset units BYTES_1 at target offset. |
-| 92 | SMART_ACTION_INTERRUPT_SPELL | withDelayed? (0/1) | SpellID | withInstant? (0/1) |  |  |  | Interrupt the current spell being cast by target.<br>Without SpellId, the core will find the current spell depending on withDelay and withInstant. |
+| 92 | SMART_ACTION_INTERRUPT_SPELL | withDelayed? (0/1) | [Spell ID](/files/DBC/335/spell#id) | withInstant? (0/1) |  |  |  | Interrupt the current spell being cast by target.<br>Without Spell ID, the core will find the current spell depending on withDelay and withInstant. |
 | 93 | :x: SMART_ACTION_SEND_GO_CUSTOM_ANIM |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
 | 94 | :x: SMART_ACTION_SET_DYNAMIC_FLAG |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
 | 95 | :x: SMART_ACTION_ADD_DYNAMIC_FLAG |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
@@ -354,7 +354,7 @@ Sets if the event should not repeat or should only happen in a given instance/du
 | 112 | SMART_ACTION_GAME_EVENT_START | [eventEntry](../world/game_event#evententry) |  |  |  |  |  |  |
 | 113 | SMART_ACTION_START_CLOSEST_WAYPOINT | [entry1](../world/waypoints#entry) | [entry2](../world/waypoints#entry) | [entry3](../world/waypoints#entry) | [entry4](../world/waypoints#entry) | [entry5](../world/waypoints#entry) | [entry6](../world/waypoints#entry) | Make target creature follow waypoint path closest to its location. |
 | 114 | SMART_ACTION_MOVE_OFFSET |  |  |  |  |  |  | Use SMART_TARGET_SELF (1) _and also_ set target World pos. to use as offset. |
-| 115 | SMART_ACTION_RANDOM_SOUND | SoundId1 | SoundId2 | SoundId3 | SoundId4 | onlySelf? (0/1) | distantSound? (0/1) | Play random sound from list. |
+| 115 | SMART_ACTION_RANDOM_SOUND | [SoundEntry ID1](/files/DBC/335/soundentries#id) | [SoundEntry ID2](/files/DBC/335/soundentries#id) | [SoundEntry ID3](/files/DBC/335/soundentries#id) | [SoundEntry ID4](/files/DBC/335/soundentries#id) | onlySelf? (0/1) | distantSound? (0/1) | Play random sound from list. |
 | 116 | SMART_ACTION_SET_CORPSE_DELAY | time | includeDecayRatio? (0/1) |  |  |  |  | Set corpse despawn for target creature. |
 | 117 | SMART_ACTION_DISABLE_EVADE | disabled? (0/1) |  |  |  |  |  | Disable/Enable evade mode for target creature. |
 | 118 | SMART_ACTION_GO_SET_GO_STATE | [state](#gostate) |  |  |  |  |  | Set state for target gameobject. |
@@ -373,12 +373,12 @@ Sets if the event should not repeat or should only happen in a given instance/du
 | 131 | SMART_ACTION_SPAWN_SPAWNGROUP | [groupId](../world/spawn_group_template#groupid) | minDelay in sec | maxDelay in sec | [spawnFlags](#smartspawnflags) |  |  |  |
 | 132 | SMART_ACTION_DESPAWN_SPAWNGROUP | [groupId](../world/spawn_group_template#groupid) | minDelay in sec | maxDelay in sec | [spawnFlags](#smartspawnflags) |  |  |  |
 | 133 | SMART_ACTION_RESPAWN_BY_SPAWNID | type:<br>0 - [creature](../world/creature)<br>1 - [gameobject](../world/gameobject) | guid |  |  |  |  | Self or target determines the map to repsawn on. |
-| 134 | SMART_ACTION_INVOKER_CAST | SpellID | [CastFlags](#smartcastflags) | [TriggeredFlags](#triggercastflags) | maxTargets (0: all) |  |  | If avaliable, last invoker will cast spellId with castFlags on targets. |
-| 135 | SMART_ACTION_PLAY_CINEMATIC | CinematicSequenceID |  |  |  |  |  | Play cinematic for target player. |
+| 134 | SMART_ACTION_INVOKER_CAST | [Spell ID](/files/DBC/335/spell#id) | [CastFlags](#smartcastflags) | [TriggeredFlags](#triggercastflags) | maxTargets (0: all) |  |  | If avaliable, last invoker will cast spell ID with castFlags on targets. |
+| 135 | SMART_ACTION_PLAY_CINEMATIC | [CinematicSequence ID](/files/DBC/335/cinematicsequences#id) |  |  |  |  |  | Play cinematic for target player. |
 | 136 | SMART_ACTION_SET_MOVEMENT_SPEED | [MovementType](#movementtype) | speedInteger | speedInteger |  |  |  | Set movement speed of target creature. |
-| 137 | :x: SMART_ACTION_PLAY_SPELL_VISUAL_KIT | SpellVisualKitId |  |  |  |  |  | RESERVED, PENDING CHERRYPICK |
-| 138 | SMART_ACTION_OVERRIDE_LIGHT | AreaTableId | area LightId | new LightId | fadeIn time in ms |  |  | Override skybox visual in area. |
-| 139 | SMART_ACTION_OVERRIDE_WEATHER | AreaTableId | WeatherId | intensity (0: low - 1: full) |  |  |  | Override weather in area. |
+| 137 | :x: SMART_ACTION_PLAY_SPELL_VISUAL_KIT | [SpellVisualKit ID](/files/DBC/335/spellvisualkit#id) |  |  |  |  |  | RESERVED, PENDING CHERRYPICK |
+| 138 | SMART_ACTION_OVERRIDE_LIGHT | [AreaTable ID](/files/DBC/335/areatable#id) | area [Light ID](/files/DBC/335/light#id) | new [Light ID](/files/DBC/335/light#id) | fadeIn time in ms |  |  | Override skybox visual in area. |
+| 139 | SMART_ACTION_OVERRIDE_WEATHER | [AreaTable ID](/files/DBC/335/areatable#id) | [Weather ID](/files/DBC/335/weather#id) | intensity (0: low - 1: full) |  |  |  | Override weather in area. |
 | 140 | :x: SMART_ACTION_SET_AI_ANIM_KIT |  |  |  |  |  |  | DEPRECATED, DO REUSE  |
 | 141 | SMART_ACTION_SET_HOVER | enable? (01/) |  |  |  |  |  | Enable/Disable target unit hover. |
 | 142 | SMART_ACTION_SET_HEALTH_PCT | percent |  |  |  |  |  | Set target units current health percentage. |
@@ -406,7 +406,7 @@ Sets if the event should not repeat or should only happen in a given instance/du
 | 5 | SMART_TARGET_HOSTILE_RANDOM | maxDist | playerOnly? (0/1) | [powerType](#powertype) + 1 (0: any) |  |  | Just any random target on our threat list |
 | 6 | SMART_TARGET_HOSTILE_RANDOM_NOT_TOP | maxDist | playerOnly? (0/1) | [powerType](#powertype) + 1 (0: any) |  |  | Any random target except top threat |
 | 7 | SMART_TARGET_ACTION_INVOKER |  |  |  |  |  | Unit who caused this Event to occur |
-| 8 | SMART_TARGET_POSITION |  |  |  |  | x y z o | use xyz from event params |
+| 8 | SMART_TARGET_POSITION |  |  |  |  | [x y z o](/how-to/worldposition) | use xyz from event params |
 | 9 | SMART_TARGET_CREATURE_RANGE | [creature entry](../world/creature_template#entry) (0: any) | minDist | maxDist | maxTargets (0: all) |  | Creatures with specified entry within specified range. |
 | 10 | SMART_TARGET_CREATURE_GUID | [creature guid](../world/creature#guid) | [creature entry](../world/creature_template#entry) (0: any) |  |  |  | Creature with specified GUID (and entry). |
 | 11 | SMART_TARGET_CREATURE_DISTANCE | [creature entry](../world/creature_template#entry) (0: any) | maxDist | maxTargets (0: all) |  |  | Creatures with specified entry within distance. (Like #9 w/o minDist) |
@@ -514,7 +514,7 @@ Commenting on SAI uses a template which is the following:
 | ID | Name | Comment |
 |----|------|---------|
 | 1 | GO_NOT_READY |  |
-| 2 | GO_READY | can be ready but despawned, and then not possible activate until spawn |                                               
+| 2 | GO_READY | can be ready but despawned, and then not possible activate until spawn |
 | 3 | GO_ACTIVATE |  |
 | 4 | GO_JUST_DEACTIVATED |  |
 {.dense}

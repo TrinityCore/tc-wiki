@@ -1,6 +1,6 @@
 ---
 title: quest_poi
-description: 
+description:
 published: true
 date: 2023-07-12T12:45:38.145Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -43,15 +43,15 @@ If `-1`, it's the position of the npc where you can complete the quest.
 &nbsp;
 
 ### MapID
-The Map id from Map.dbc to display the POI on.
+The [Map ID](/files/DBC/335/map#id) to display the POI on.
 &nbsp;
 
 ### WorldMapAreaId
-An id from WorldMapArea.dbc, matching **MapID**, to disply the POI on.
+A [WorldMapArea ID](/files/DBC/335/worldmaparea#id), matching **MapID**, to disply the POI on.
 &nbsp;
 
 ### Floor
-If the area is has multiple levels, the floor with the POI. (see DungeonMap.dbc)
+If the area is has multiple levels, the [DungeonMap FloorIndex](/files/DBC/335/dungeonmap#floorindex) with the POI.
 &nbsp;
 
 ### Priority
@@ -60,7 +60,7 @@ If the area is has multiple levels, the floor with the POI. (see DungeonMap.dbc)
 
 ### Flags
 *unknown / just sent to client*
-Same as AreaPOI.dbc/Flags ?
+Same as [AreaPOI Flags](/files/DBC/335/areapoi#flags)?
 &nbsp;
 
 ### VerifiedBuild

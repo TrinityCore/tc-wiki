@@ -1,6 +1,6 @@
 ---
 title: guild_member_withdraw
-description: 
+description:
 published: true
 date: 2023-07-31T00:07:02.912Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -33,7 +33,7 @@ dateCreated: 2021-08-30T22:01:16.371Z
 [character guid](../characters/characters#guid) of the player withdrawing from guild bank.
 &nbsp;
 
-### tab\[0-5\]
+### tab\[0-5]
 Number of items withdrawn from this tab.
 &nbsp;
 

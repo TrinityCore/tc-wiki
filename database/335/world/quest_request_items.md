@@ -1,6 +1,6 @@
 ---
 title: quest_request_items
-description: 
+description:
 published: true
 date: 2023-07-12T16:02:08.519Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -14,7 +14,7 @@ This table basically handles 3 quest details:
 1. NPC Emote when quest is completed
 1. NPC Emote when quest is incomplete
 1. Completion text for quests requiring quest items
-    
+
 ## Structure
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
@@ -32,11 +32,11 @@ references [quest_template.ID](../world/quest_template#id)
 &nbsp;
 
 ### EmoteOnComplete
-Emote (from Emotes.dbc) played by the quest ender NPC when all quest objectives are completed.
+[Emote ID](/files/DBC/335/emotes#id) played by the quest ender NPC when all quest objectives are completed.
 &nbsp;
 
 ### EmoteOnIncomplete
-Emote (from Emotes.dbc) played by the quest ender NPC if any of the quest objectives are incomplete.
+[Emote ID](/files/DBC/335/emotes#id) played by the quest ender NPC if any of the quest objectives are incomplete.
 &nbsp;
 
 ### CompletionText

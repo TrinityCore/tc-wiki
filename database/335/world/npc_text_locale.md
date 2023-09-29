@@ -1,6 +1,6 @@
 ---
 title: npc_text_locale
-description: 
+description:
 published: true
 date: 2022-11-21T21:28:56.329Z
 tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
@@ -40,7 +40,19 @@ dateCreated: 2021-08-30T22:06:40.070Z
 &nbsp;
 
 ### Locale
-*- no description -*
+[Localization](/how-to/localization):
+| Locale | Name |
+| :---: | :---: |
+| koKR | Korean|
+| frFR | French|
+| deDE | German|
+| zhCN | Chinese |
+| zhTW | Taiwanese |
+| esES | Spanish (EU) |
+| esMX | Spanish (Latin American) |
+| ruRU | Russian |
+{.dense}
+
 &nbsp;
 
 ### Text0_0

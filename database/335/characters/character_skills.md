@@ -1,6 +1,6 @@
 ---
 title: character_skills
-description: 
+description:
 published: true
 date: 2023-07-29T18:48:20.434Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -30,7 +30,7 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### skill
-The SkillID from SkillLine.dbc a character owns. For a list, see [here](https://wow.tools/dbc/?dbc=skillline&build=3.3.5.12340#page=1) 
+The [SkillLine ID](/files/DBC/335/skillline#id) a character owns. For a list, see [here](https://wow.tools/dbc/?dbc=skillline&build=3.3.5.12340#page=1)
 &nbsp;
 
 ### value

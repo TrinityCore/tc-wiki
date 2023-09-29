@@ -1,6 +1,6 @@
 ---
 title: character_action
-description: 
+description:
 published: true
 date: 2023-07-25T18:54:11.064Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -64,7 +64,7 @@ The content of **action** depends on the **type**
 
 | type | Flag | Name | Comment | action |
 |------|------|------|---------|--------|
-| 0 | 0x00 | ACTION_BUTTON_SPELL | Spell | ID from Spell.dbc
+| 0 | 0x00 | ACTION_BUTTON_SPELL | Spell | [Spell ID](/files/DBC/335/spell#id)
 | 1 | 0x01 | ACTION_BUTTON_C | Click |  |
 | 32 | 0x20 | ACTION_BUTTON_EQSET | Equipment Set | Set ID |
 | 64 | 0x40 | ACTION_BUTTON_MACRO | Macro | Macro ID |

@@ -1,6 +1,6 @@
 ---
 title: item_set_names
-description: 
+description:
 published: true
 date: 2023-07-11T13:50:21.959Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -10,8 +10,8 @@ dateCreated: 2021-08-30T22:06:06.438Z
 
 <a href="https://trinitycore.info/en/database/335/world/item_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'item_loot_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/item_set_names_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'item_set_names_locale'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
-This table contains the item names displayed in an items tooltip in the itemset overview. 
-Yes those names can be different from the actual item. 
+This table contains the item names displayed in an items tooltip in the itemset overview.
+Yes those names can be different from the actual item.
 
 ## Structure
 
@@ -25,7 +25,7 @@ Yes those names can be different from the actual item.
 ## Description of fields
 
 ### entry
-An [item_template.entry](../world/item_template#entry) that must be present in ItemSet.dbc
+An [item_template.entry](../world/item_template#entry) that must be present in [ItemSet](/files/DBC/335/itemset)
 &nbsp;
 
 ### name
@@ -37,19 +37,19 @@ from [`enum InventoryType`](https://github.com/TrinityCore/TrinityCore/tree/3.3.
 | ID | Name |   | ID | Name |
 |----|------|---|----|------|
 | 1 | INVTYPE_HEAD | | 15 | INVTYPE_RANGED |
-| 2 | INVTYPE_NECK | | 16 | INVTYPE_CLOAK | 
-| 3 | INVTYPE_SHOULDERS | | 17 | INVTYPE_2HWEAPON | 
-| 4 | INVTYPE_BODY | | 18 | INVTYPE_BAG | 
-| 5 | INVTYPE_CHEST | | 19 | INVTYPE_TABARD | 
-| 6 | INVTYPE_WAIST | | 20 | INVTYPE_ROBE | 
-| 7 | INVTYPE_LEGS | | 21 | INVTYPE_WEAPONMAINHAND | 
-| 8 | INVTYPE_FEET | | 22 | INVTYPE_WEAPONOFFHAND | 
-| 9 | INVTYPE_WRISTS | | 23 | INVTYPE_HOLDABLE | 
-| 10 | INVTYPE_HANDS | | 24 | INVTYPE_AMMO | 
-| 11 | INVTYPE_FINGER | | 25 | INVTYPE_THROWN | 
-| 12 | INVTYPE_TRINKET | | 26 | INVTYPE_RANGEDRIGHT | 
-| 13 | INVTYPE_WEAPON | | 27 | INVTYPE_QUIVER | 
-| 14 | INVTYPE_SHIELD | | 28 | INVTYPE_RELIC | 
+| 2 | INVTYPE_NECK | | 16 | INVTYPE_CLOAK |
+| 3 | INVTYPE_SHOULDERS | | 17 | INVTYPE_2HWEAPON |
+| 4 | INVTYPE_BODY | | 18 | INVTYPE_BAG |
+| 5 | INVTYPE_CHEST | | 19 | INVTYPE_TABARD |
+| 6 | INVTYPE_WAIST | | 20 | INVTYPE_ROBE |
+| 7 | INVTYPE_LEGS | | 21 | INVTYPE_WEAPONMAINHAND |
+| 8 | INVTYPE_FEET | | 22 | INVTYPE_WEAPONOFFHAND |
+| 9 | INVTYPE_WRISTS | | 23 | INVTYPE_HOLDABLE |
+| 10 | INVTYPE_HANDS | | 24 | INVTYPE_AMMO |
+| 11 | INVTYPE_FINGER | | 25 | INVTYPE_THROWN |
+| 12 | INVTYPE_TRINKET | | 26 | INVTYPE_RANGEDRIGHT |
+| 13 | INVTYPE_WEAPON | | 27 | INVTYPE_QUIVER |
+| 14 | INVTYPE_SHIELD | | 28 | INVTYPE_RELIC |
 {.dense}
 
 &nbsp;

@@ -1,6 +1,6 @@
 ---
 title: spell_custom_attr
-description: 
+description:
 published: true
 date: 2023-07-20T22:41:51.642Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -22,7 +22,7 @@ Table used for storing custom spell attributes.
 ## Description of fields
 
 ### entry
-SpellID from Spell.dbc
+references [Spell ID](/files/DBC/335/spell#id)
 &nbsp;
 
 ### attributes
@@ -51,7 +51,7 @@ SpellID from Spell.dbc
 | 524288 | 0x00080000 | SPELL_ATTR0_CU_NEEDS_AMMO_DATA |  |
 | 1048576 | 0x00100000 | SPELL_ATTR0_CU_BINARY_SPELL |  |
 | 2097152 | 0x00200000 | SPELL_ATTR0_CU_SCHOOLMASK_NORMAL_WITH_MAGIC |  |
-| 4194304 | 0x00400000 | :x: SPELL_ATTR0_CU_DEPRECATED_LIQUID_AURA | DO NOT REUSE | 
+| 4194304 | 0x00400000 | :x: SPELL_ATTR0_CU_DEPRECATED_LIQUID_AURA | DO NOT REUSE |
 | 8388608 | 0x00800000 | :x: SPELL_ATTR0_CU_IS_TALENT | reserved for master branch |
 | 16777216 | 0x01000000 | SPELL_ATTR0_CU_AURA_CANNOT_BE_SAVED |  |
 {.dense}

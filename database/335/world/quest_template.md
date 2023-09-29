@@ -1,6 +1,6 @@
 ---
 title: quest_template
-description: 
+description:
 published: true
 date: 2023-07-29T18:00:43.569Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -23,10 +23,10 @@ Contains all basic definitions of available quests.
 | [QuestSortID](#questsortid) | smallint | signed |  | NO | 0 |  |  |
 | [QuestInfoID](#questinfoid) | smallint | unsigned |  | NO | 0 |  |  |
 | [SuggestedGroupNum](#suggestedgroupnum) | tinyint | unsigned |  | NO | 0 |  |  |
-| [RequiredFactionId1](#requiredfactionid1) | smallint | unsigned |  | NO | 0 |  |  |
-| [RequiredFactionId2](#requiredfactionid2) | smallint | unsigned |  | NO | 0 |  |  |
-| [RequiredFactionValue1](#requiredfactionvalue1) | mediumint | signed |  | NO | 0 |  |  |
-| [RequiredFactionValue2](#requiredfactionvalue2) | mediumint | signed |  | NO | 0 |  |  |
+| [RequiredFactionId1](#requiredfactionid[1-2]) | smallint | unsigned |  | NO | 0 |  |  |
+| [RequiredFactionId2](#requiredfactionid[1-2]) | smallint | unsigned |  | NO | 0 |  |  |
+| [RequiredFactionValue1](#requiredfactionvalue[1-2]) | mediumint | signed |  | NO | 0 |  |  |
+| [RequiredFactionValue2](#requiredfactionvalue[1-2]) | mediumint | signed |  | NO | 0 |  |  |
 | [RewardNextQuest](#rewardnextquest) | mediumint | unsigned |  | NO | 0 |  |  |
 | [RewardXPDifficulty](#rewardxpdifficulty) | tinyint | unsigned |  | NO | 0 |  |  |
 | [RewardMoney](#rewardmoney) | int | signed |  | NO | 0 |  |  |
@@ -38,34 +38,34 @@ Contains all basic definitions of available quests.
 | [StartItem](#startitem) | mediumint | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
 | [RequiredPlayerKills](#requiredplayerkills) | tinyint | unsigned |  | NO | 0 |  |  |
-| [RewardItem1](#rewarditem1) | mediumint | unsigned |  | NO | 0 |  |  |
-| [RewardAmount1](#rewardamount1) | smallint | unsigned |  | NO | 0 |  |  |
-| [RewardItem2](#rewarditem2) | mediumint | unsigned |  | NO | 0 |  |  |
-| [RewardAmount2](#rewardamount2) | smallint | unsigned |  | NO | 0 |  |  |
-| [RewardItem3](#rewarditem3) | mediumint | unsigned |  | NO | 0 |  |  |
-| [RewardAmount3](#rewardamount3) | smallint | unsigned |  | NO | 0 |  |  |
-| [RewardItem4](#rewarditem4) | mediumint | unsigned |  | NO | 0 |  |  |
-| [RewardAmount4](#rewardamount4) | smallint | unsigned |  | NO | 0 |  |  |
-| [ItemDrop1](#itemdrop1) | mediumint | unsigned |  | NO | 0 |  |  |
-| [ItemDropQuantity1](#itemdropquantity1) | smallint | unsigned |  | NO | 0 |  |  |
-| [ItemDrop2](#itemdrop2) | mediumint | unsigned |  | NO | 0 |  |  |
-| [ItemDropQuantity2](#itemdropquantity2) | smallint | unsigned |  | NO | 0 |  |  |
-| [ItemDrop3](#itemdrop3) | mediumint | unsigned |  | NO | 0 |  |  |
-| [ItemDropQuantity3](#itemdropquantity3) | smallint | unsigned |  | NO | 0 |  |  |
-| [ItemDrop4](#itemdrop4) | mediumint | unsigned |  | NO | 0 |  |  |
-| [ItemDropQuantity4](#itemdropquantity4) | smallint | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemID1](#rewardchoiceitemid1) | mediumint | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemQuantity1](#rewardchoiceitemquantity1) | smallint | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemID2](#rewardchoiceitemid2) | mediumint | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemQuantity2](#rewardchoiceitemquantity2) | smallint | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemID3](#rewardchoiceitemid3) | mediumint | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemQuantity3](#rewardchoiceitemquantity3) | smallint | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemID4](#rewardchoiceitemid4) | mediumint | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemQuantity4](#rewardchoiceitemquantity4) | smallint | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemID5](#rewardchoiceitemid5) | mediumint | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemQuantity5](#rewardchoiceitemquantity5) | smallint | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemID6](#rewardchoiceitemid6) | mediumint | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemQuantity6](#rewardchoiceitemquantity6) | smallint | unsigned |  | NO | 0 |  |  |
+| [RewardItem1](#rewarditem[1-4]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RewardAmount1](#rewardamount[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
+| [RewardItem2](#rewarditem[1-4]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RewardAmount2](#rewardamount[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
+| [RewardItem3](#rewarditem[1-4]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RewardAmount3](#rewardamount[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
+| [RewardItem4](#rewarditem[1-4]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RewardAmount4](#rewardamount[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
+| [ItemDrop1](#itemdrop[1-4]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [ItemDropQuantity1](#itemdropquantity[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
+| [ItemDrop2](#itemdrop[1-4]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [ItemDropQuantity2](#itemdropquantity[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
+| [ItemDrop3](#itemdrop[1-4]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [ItemDropQuantity3](#itemdropquantity[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
+| [ItemDrop4](#itemdrop[1-4]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [ItemDropQuantity4](#itemdropquantity[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemID1](#rewardchoiceitemid[1-6]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemQuantity1](#rewardchoiceitemquantity[1-6]) | smallint | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemID2](#rewardchoiceitemid[1-6]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemQuantity2](#rewardchoiceitemquantity[1-6]) | smallint | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemID3](#rewardchoiceitemid[1-6]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemQuantity3](#rewardchoiceitemquantity[1-6]) | smallint | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemID4](#rewardchoiceitemid[1-6]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemQuantity4](#rewardchoiceitemquantity[1-6]) | smallint | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemID5](#rewardchoiceitemid[1-6]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemQuantity5](#rewardchoiceitemquantity[1-6]) | smallint | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemID6](#rewardchoiceitemid[1-6]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemQuantity6](#rewardchoiceitemquantity[1-6]) | smallint | unsigned |  | NO | 0 |  |  |
 | [POIContinent](#poicontinent) | smallint | unsigned |  | NO | 0 |  |  |
 | [POIx](#poix) | float |  |  | NO | 0 |  |  |
 | [POIy](#poiy) | float |  |  | NO | 0 |  |  |
@@ -73,21 +73,21 @@ Contains all basic definitions of available quests.
 | [RewardTitle](#rewardtitle) | tinyint | unsigned |  | NO | 0 |  |  |
 | [RewardTalents](#rewardtalents) | tinyint | unsigned |  | NO | 0 |  |  |
 | [RewardArenaPoints](#rewardarenapoints) | smallint | unsigned |  | NO | 0 |  |  |
-| [RewardFactionID1](#rewardfactionid1) | smallint | unsigned |  | NO | 0 |  | faction id from Faction.dbc in this case |
-| [RewardFactionValue1](#rewardfactionvalue1) | mediumint | signed |  | NO | 0 |  |  |
-| [RewardFactionOverride1](#rewardfactionoverride1) | mediumint | signed |  | NO | 0 |  |  |
-| [RewardFactionID2](#rewardfactionid2) | smallint | unsigned |  | NO | 0 |  | faction id from Faction.dbc in this case |
-| [RewardFactionValue2](#rewardfactionvalue2) | mediumint | signed |  | NO | 0 |  |  |
-| [RewardFactionOverride2](#rewardfactionoverride2) | mediumint | signed |  | NO | 0 |  |  |
-| [RewardFactionID3](#rewardfactionid3) | smallint | unsigned |  | NO | 0 |  | faction id from Faction.dbc in this case |
-| [RewardFactionValue3](#rewardfactionvalue3) | mediumint | signed |  | NO | 0 |  |  |
-| [RewardFactionOverride3](#rewardfactionoverride3) | mediumint | signed |  | NO | 0 |  |  |
-| [RewardFactionID4](#rewardfactionid4) | smallint | unsigned |  | NO | 0 |  | faction id from Faction.dbc in this case |
-| [RewardFactionValue4](#rewardfactionvalue4) | mediumint | signed |  | NO | 0 |  |  |
-| [RewardFactionOverride4](#rewardfactionoverride4) | mediumint | signed |  | NO | 0 |  |  |
-| [RewardFactionID5](#rewardfactionid5) | smallint | unsigned |  | NO | 0 |  | faction id from Faction.dbc in this case |
-| [RewardFactionValue5](#rewardfactionvalue5) | mediumint | signed |  | NO | 0 |  |  |
-| [RewardFactionOverride5](#rewardfactionoverride5) | mediumint | signed |  | NO | 0 |  |  |
+| [RewardFactionID1](#rewardfactionid[1-5]) | smallint | unsigned |  | NO | 0 |  | [Faction ID](/files/DBC/335/faction#id) |
+| [RewardFactionValue1](#rewardfactionvalue[1-5]) | mediumint | signed |  | NO | 0 |  |  |
+| [RewardFactionOverride1](#rewardfactionoverride[1-5]) | mediumint | signed |  | NO | 0 |  |  |
+| [RewardFactionID2](#rewardfactionid[1-5]) | smallint | unsigned |  | NO | 0 |  | [Faction ID](/files/DBC/335/faction#id) |
+| [RewardFactionValue2](#rewardfactionvalue[1-5]) | mediumint | signed |  | NO | 0 |  |  |
+| [RewardFactionOverride2](#rewardfactionoverride[1-5]) | mediumint | signed |  | NO | 0 |  |  |
+| [RewardFactionID3](#rewardfactionid[1-5]) | smallint | unsigned |  | NO | 0 |  | [Faction ID](/files/DBC/335/faction#id) |
+| [RewardFactionValue3](#rewardfactionvalue[1-5]) | mediumint | signed |  | NO | 0 |  |  |
+| [RewardFactionOverride3](#rewardfactionoverride[1-5]) | mediumint | signed |  | NO | 0 |  |  |
+| [RewardFactionID4](#rewardfactionid[1-5]) | smallint | unsigned |  | NO | 0 |  | [Faction ID](/files/DBC/335/faction#id) |
+| [RewardFactionValue4](#rewardfactionvalue[1-5]) | mediumint | signed |  | NO | 0 |  |  |
+| [RewardFactionOverride4](#rewardfactionoverride[1-5]) | mediumint | signed |  | NO | 0 |  |  |
+| [RewardFactionID5](#rewardfactionid[1-5]) | smallint | unsigned |  | NO | 0 |  | [Faction ID](/files/DBC/335/faction#id) |
+| [RewardFactionValue5](#rewardfactionvalue[1-5]) | mediumint | signed |  | NO | 0 |  |  |
+| [RewardFactionOverride5](#rewardfactionoverride[1-5]) | mediumint | signed |  | NO | 0 |  |  |
 | [TimeAllowed](#timeallowed) | int | unsigned |  | NO | 0 |  |  |
 | [AllowableRaces](#allowableraces) | smallint | unsigned |  | NO | 0 |  |  |
 | [LogTitle](#logtitle) | text |  |  | YES | NULL |  |  |
@@ -95,31 +95,31 @@ Contains all basic definitions of available quests.
 | [QuestDescription](#questdescription) | text |  |  | YES | NULL |  |  |
 | [AreaDescription](#areadescription) | text |  |  | YES | NULL |  |  |
 | [QuestCompletionLog](#questcompletionlog) | text |  |  | YES | NULL |  |  |
-| [RequiredNpcOrGo1](#requirednpcorgo1) | mediumint | signed |  | NO | 0 |  |  |
-| [RequiredNpcOrGo2](#requirednpcorgo2) | mediumint | signed |  | NO | 0 |  |  |
-| [RequiredNpcOrGo3](#requirednpcorgo3) | mediumint | signed |  | NO | 0 |  |  |
-| [RequiredNpcOrGo4](#requirednpcorgo4) | mediumint | signed |  | NO | 0 |  |  |
-| [RequiredNpcOrGoCount1](#requirednpcorgocount1) | smallint | unsigned |  | NO | 0 |  |  |
-| [RequiredNpcOrGoCount2](#requirednpcorgocount2) | smallint | unsigned |  | NO | 0 |  |  |
-| [RequiredNpcOrGoCount3](#requirednpcorgocount3) | smallint | unsigned |  | NO | 0 |  |  |
-| [RequiredNpcOrGoCount4](#requirednpcorgocount4) | smallint | unsigned |  | NO | 0 |  |  |
-| [RequiredItemId1](#requireditemid1) | mediumint | unsigned |  | NO | 0 |  |  |
-| [RequiredItemId2](#requireditemid2) | mediumint | unsigned |  | NO | 0 |  |  |
-| [RequiredItemId3](#requireditemid3) | mediumint | unsigned |  | NO | 0 |  |  |
-| [RequiredItemId4](#requireditemid4) | mediumint | unsigned |  | NO | 0 |  |  |
-| [RequiredItemId5](#requireditemid5) | mediumint | unsigned |  | NO | 0 |  |  |
-| [RequiredItemId6](#requireditemid6) | mediumint | unsigned |  | NO | 0 |  |  |
-| [RequiredItemCount1](#requireditemcount1) | smallint | unsigned |  | NO | 0 |  |  |
-| [RequiredItemCount2](#requireditemcount2) | smallint | unsigned |  | NO | 0 |  |  |
-| [RequiredItemCount3](#requireditemcount3) | smallint | unsigned |  | NO | 0 |  |  |
-| [RequiredItemCount4](#requireditemcount4) | smallint | unsigned |  | NO | 0 |  |  |
-| [RequiredItemCount5](#requireditemcount5) | smallint | unsigned |  | NO | 0 |  |  |
-| [RequiredItemCount6](#requireditemcount6) | smallint | unsigned |  | NO | 0 |  |  |
+| [RequiredNpcOrGo1](#requirednpcorgo[1-4]) | mediumint | signed |  | NO | 0 |  |  |
+| [RequiredNpcOrGo2](#requirednpcorgo[1-4]) | mediumint | signed |  | NO | 0 |  |  |
+| [RequiredNpcOrGo3](#requirednpcorgo[1-4]) | mediumint | signed |  | NO | 0 |  |  |
+| [RequiredNpcOrGo4](#requirednpcorgo[1-4]) | mediumint | signed |  | NO | 0 |  |  |
+| [RequiredNpcOrGoCount1](#requirednpcorgocount[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
+| [RequiredNpcOrGoCount2](#requirednpcorgocount[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
+| [RequiredNpcOrGoCount3](#requirednpcorgocount[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
+| [RequiredNpcOrGoCount4](#requirednpcorgocount[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
+| [RequiredItemId1](#requireditemid[1-6]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RequiredItemId2](#requireditemid[1-6]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RequiredItemId3](#requireditemid[1-6]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RequiredItemId4](#requireditemid[1-6]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RequiredItemId5](#requireditemid[1-6]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RequiredItemId6](#requireditemid[1-6]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RequiredItemCount1](#requireditemcount[1-6]) | smallint | unsigned |  | NO | 0 |  |  |
+| [RequiredItemCount2](#requireditemcount[1-6]) | smallint | unsigned |  | NO | 0 |  |  |
+| [RequiredItemCount3](#requireditemcount[1-6]) | smallint | unsigned |  | NO | 0 |  |  |
+| [RequiredItemCount4](#requireditemcount[1-6]) | smallint | unsigned |  | NO | 0 |  |  |
+| [RequiredItemCount5](#requireditemcount[1-6]) | smallint | unsigned |  | NO | 0 |  |  |
+| [RequiredItemCount6](#requireditemcount[1-6]) | smallint | unsigned |  | NO | 0 |  |  |
 | [Unknown0](#unknown0) | tinyint | unsigned |  | NO | 0 |  |  |
-| [ObjectiveText1](#objectivetext1) | text |  |  | YES | NULL |  |  |
-| [ObjectiveText2](#objectivetext2) | text |  |  | YES | NULL |  |  |
-| [ObjectiveText3](#objectivetext3) | text |  |  | YES | NULL |  |  |
-| [ObjectiveText4](#objectivetext4) | text |  |  | YES | NULL |  |  |
+| [ObjectiveText1](#objectivetext[1-4]) | text |  |  | YES | NULL |  |  |
+| [ObjectiveText2](#objectivetext[1-4]) | text |  |  | YES | NULL |  |  |
+| [ObjectiveText3](#objectivetext[1-4]) | text |  |  | YES | NULL |  |  |
+| [ObjectiveText4](#objectivetext[1-4]) | text |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | smallint | signed |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -145,10 +145,10 @@ Minimum level at which a player can get the quest.
 
 ### QuestSortID
 This field defines under what category the quest falls in the quest log.
-* **QuestSortID** > 0: positive zone id taken from AreaTable.dbc
-* **QuestSortID** < 0: negative QuestSort id taken from QuestSort.dbc (in general profession, class or holiday quests)
+* **QuestSortID** > 0: positive [AreaTable ID](/files/DBC/335/areatable#id)
+* **QuestSortID** < 0: negative [QuestSort ID](/files/DBC/335/questsort#id) (in general profession, class or holiday quests)
 
-QuestSort.dbc excerpt:
+[QuestSort](/files/DBC/335/questsort) excerpt:
 | ID | Name |  | ID | Name |
 |----|------|--|----|------|
 | 22 | Seasonal | | 261 | Hunter |
@@ -172,7 +172,7 @@ QuestSort.dbc excerpt:
 &nbsp;
 
 ### QuestInfoID
-Id from QuestInfo.dbc
+[QuestInfo ID](/files/DBC/335/questinfo#id)
 | ID | Name |
 |----|------|
 | 1 | Group |
@@ -195,12 +195,12 @@ Recommended number of players to do the quest together.
 &nbsp;
 
 ### RequiredFactionId\[1-2]
-Faction ID from Faction.dbc for an objective to achieve a certain reputation value with.
+[Faction ID](/files/DBC/335/faction#id) for an objective to achieve a certain reputation value with.
 &nbsp;
 
 ### RequiredFactionValue\[1-2]
 Reputation value that the player must achieve with the faction in **RequiredFactionId** as part of the quest objectives.
-Example Values: 
+Example Values:
 | Value | Description |
 |-------|-------------|
 | -6001 | Hated |
@@ -217,8 +217,8 @@ Example Values:
 &nbsp;
 
 ### RewardXPDifficulty
-Id from QuestXP.dbc
-The amount of XP is determined by the **QuestLevel** (row) and **RewardXPDifficulty** (column) when reading from the QuestXP.dbc table.
+references [QuestXP Difficulty](/files/DBC/335/questxp#difficulty)
+The amount of XP is determined by the **QuestLevel** (row) and **RewardXPDifficulty** (column) when reading from [QuestXP](/files/DBC/335/questxp) table.
 
 If the quest is repeatable, XP will be given only once. The total XP that a character will receive is also affected by the level difference between the character's level and the quest's level.
 &nbsp;
@@ -319,7 +319,7 @@ The amount of items to reward if if the correspondig **RewardChoiceItemID\*** is
 &nbsp;
 
 ### POIContinent
-Map id from Map.dbc of a quest point of interest (POI - Point Of Interest). POI will be shown on the map when quest is active.
+[Map ID](/files/DBC/335/map#id) of a quest point of interest (POI - Point Of Interest). POI will be shown on the map when quest is active.
 &nbsp;
 
 ### POIx
@@ -335,7 +335,7 @@ Y coordinate of quest POI.
 &nbsp;
 
 ### RewardTitle
-Title id from CharTitles.dbc to reward on completion.
+[CharTitle ID](/files/DBC/335/chartitles#id) to reward on completion.
 &nbsp;
 
 ### RewardTalents
@@ -347,13 +347,13 @@ An amount of arena points to reward on completion.
 &nbsp;
 
 ### RewardFactionID\[1-5]
-Faction id from Faction.dbc for which the quest rewards reputation points.
+[Faction ID](/files/DBC/335/faction#id) for which the quest rewards reputation points.
 &nbsp;
 
 ### RewardFactionValue\[1-5]
-This field is used for reputation lookup in QuestFactionReward.dbc. The value X in this field indicates RepX column of QuestFactionReward.dbc. 
-* **RewardFactionValue\*** > 0: Reputation from the first row of QuestFactionReward.dbc is used.
-* **RewardFactionValue\*** < 0: Reputation from the second row of QuestFactionReward.dbc is used.
+This field is used for reputation lookup in [QuestFactionReward](/files/DBC/335/questfactionreward). The value X in this field indicates index of [QuestFactionReward Difficulty](/files/DBC/335/questfactionreward#difficulty).
+* **RewardFactionValue\*** > 0: Reputation from the first row of [QuestFactionReward](/files/DBC/335/questfactionreward) is used.
+* **RewardFactionValue\*** < 0: Reputation from the second row of [QuestFactionReward](/files/DBC/335/questfactionreward) is used.
 
 | ID | Rep0 | Rep1 | Rep2 | Rep3 | Rep4 | Rep5 | Rep6 | Rep7 | Rep8 | Rep9 |
 |----|------|------|------|------|------|------|------|------|------|------|
@@ -364,7 +364,7 @@ This field is used for reputation lookup in QuestFactionReward.dbc. The value X 
 &nbsp;
 
 ### RewardFactionOverride\[1-5]
-This field is used to give reputation values not present in QuestFactionReward.dbc or to override them if **RewardFactionValue\*** is wrong for some reason. The value in this field is 100× the intended reputation reward (if you want to give 400 rep, put 40000 in **RewardFactionOverride\***).
+This field is used to give reputation values not present in [QuestFactionReward](/files/DBC/335/questfactionreward) or to override them if **RewardFactionValue\*** is wrong for some reason. The value in this field is 100× the intended reputation reward (if you want to give 400 rep, put 40000 in **RewardFactionOverride\***).
 &nbsp;
 
 ### TimeAllowed
@@ -372,8 +372,8 @@ Time in seconds that the player has to complete this quest.
 &nbsp;
 
 ### AllowableRaces
-Races mask of ids from ChrRaces.dbc allowed to get the quest.
-0 means the quest is accessible for all races. 
+Race mask of [ChrRace IDs](/files/DBC/335/chrraces#id) allowed to get the quest.
+0 means the quest is accessible for all races.
 | Value | Flag   | Name      |  | Value | Flag   | Name      |
 |-------|--------|-----------|--|-------|--------|-----------|
 |     1 | 0x0001 | Human     |  |     2 | 0x0002 | Orc       |
@@ -500,7 +500,7 @@ Player should only be allowed to complete one of three possible.
                questE
 ```
 ```sql
-ID = questA   PrevQuestID = 0        NextQuestID = questD   ExclusiveGroup = questA   RewardNextQuest = questD    
+ID = questA   PrevQuestID = 0        NextQuestID = questD   ExclusiveGroup = questA   RewardNextQuest = questD
 ID = questB   PrevQuestID = 0        NextQuestID = questD   ExclusiveGroup = questA   RewardNextQuest = questD
 ID = questC   PrevQuestID = 0        NextQuestID = questD   ExclusiveGroup = questA   RewardNextQuest = questD
 ID = questD   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questE
@@ -547,91 +547,91 @@ ID = questD   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0  
 ### Multiple quest chains, leading to one final quest
 Player may complete (not required to) X, but has to complete all three quest chains before final quest becomes available.
 ```
-.                questX 
+.                questX
                    |
-     questA      questC      questE 
+     questA      questC      questE
        |           |            |
-     questB      questD      questF 
+     questB      questD      questF
        \           |           /
          ------- questG ------
 ```
 ```sql
-ID = questX   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questC    
-ID = questA   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questB    
-ID = questB   PrevQuestID = questA   NextQuestID = questG   ExclusiveGroup = -questB  RewardNextQuest = 0         
-ID = questC   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questD    
-ID = questD   PrevQuestID = questC   NextQuestID = questG   ExclusiveGroup = -questB  RewardNextQuest = 0         
-ID = questE   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questF    
-ID = questF   PrevQuestID = questE   NextQuestID = questG   ExclusiveGroup = -questB  RewardNextQuest = 0    
+ID = questX   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questC
+ID = questA   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questB
+ID = questB   PrevQuestID = questA   NextQuestID = questG   ExclusiveGroup = -questB  RewardNextQuest = 0
+ID = questC   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questD
+ID = questD   PrevQuestID = questC   NextQuestID = questG   ExclusiveGroup = -questB  RewardNextQuest = 0
+ID = questE   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questF
+ID = questF   PrevQuestID = questE   NextQuestID = questG   ExclusiveGroup = -questB  RewardNextQuest = 0
 
-ID = questG   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0         
+ID = questG   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0
 ```
 &nbsp;
 
 ### Complicated
 Player must first complete A, then B to unlock the chain from C to E. Three other quests (F, G, H) in a group will also be unlocked, those can be done at the same time. The three grouped quests must all be completed before I becomes available. Completion of E and I is required to obtain the final quest.
 ```
-.                questA 
+.                questA
                    |
-                 questB 
+                 questB
               /          \
-           questC       questF 
-             |          questG 
-           questD       questH 
+           questC       questF
+             |          questG
+           questD       questH
              |            |
-           questE       questI 
+           questE       questI
              \           /
-                 questJ 
+                 questJ
 
 ```
 ```sql
 ID = questA   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questB
-ID = questB   PrevQuestID = questA   NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0     
+ID = questB   PrevQuestID = questA   NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0
 
 ID = questC   PrevQuestID = questB   NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questD
 ID = questD   PrevQuestID = questC   NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questE
-ID = questE   PrevQuestID = questD   NextQuestID = questJ   ExclusiveGroup = -questE  RewardNextQuest = 0     
+ID = questE   PrevQuestID = questD   NextQuestID = questJ   ExclusiveGroup = -questE  RewardNextQuest = 0
 
-ID = questF   PrevQuestID = questB   NextQuestID = questI   ExclusiveGroup = -questF  RewardNextQuest = 0     
-ID = questG   PrevQuestID = questB   NextQuestID = questI   ExclusiveGroup = -questF  RewardNextQuest = 0     
-ID = questH   PrevQuestID = questB   NextQuestID = questI   ExclusiveGroup = -questF  RewardNextQuest = 0     
+ID = questF   PrevQuestID = questB   NextQuestID = questI   ExclusiveGroup = -questF  RewardNextQuest = 0
+ID = questG   PrevQuestID = questB   NextQuestID = questI   ExclusiveGroup = -questF  RewardNextQuest = 0
+ID = questH   PrevQuestID = questB   NextQuestID = questI   ExclusiveGroup = -questF  RewardNextQuest = 0
 
-ID = questI   PrevQuestID = 0        NextQuestID = questJ   ExclusiveGroup = -questE  RewardNextQuest = 0     
+ID = questI   PrevQuestID = 0        NextQuestID = questJ   ExclusiveGroup = -questE  RewardNextQuest = 0
 
-ID = questJ   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0     
+ID = questJ   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0
 ```
 &nbsp;
 
 ### Impossible - many quests may unlock many
 Player can choose between two alternative chains (Chain A or B, but not both chains). A2 or B2 should unlock C, D and E when complete. When all three complete, F should be unlocked. If player get A3 or B3 after complete F, depends on if chain A or B was chosen.
 ```
-.                questA1             questB1 
+.                questA1             questB1
                     |                   |
-                 questA2             questB2 
+                 questA2             questB2
                     \                  /
                      ----  questC  ----
-                           questD 
-                           questE 
+                           questD
+                           questE
                              |
-                           questF 
+                           questF
                          /        \
-                     questA3     questB3 
+                     questA3     questB3
 ```
 ```sql
 ID = questA1  PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questA2
-ID = questA2  PrevQuestID = questA1  NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0      
+ID = questA2  PrevQuestID = questA1  NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0
 
 ID = questB1  PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = questB2
-ID = questB2  PrevQuestID = questB1  NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0      
+ID = questB2  PrevQuestID = questB1  NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0
 
-ID = questC   PrevQuestID = 0        NextQuestID = questF   ExclusiveGroup = -questC  RewardNextQuest = 0      
-ID = questD   PrevQuestID = 0        NextQuestID = questF   ExclusiveGroup = -questC  RewardNextQuest = 0      
-ID = questE   PrevQuestID = 0        NextQuestID = questF   ExclusiveGroup = -questC  RewardNextQuest = 0      
+ID = questC   PrevQuestID = 0        NextQuestID = questF   ExclusiveGroup = -questC  RewardNextQuest = 0
+ID = questD   PrevQuestID = 0        NextQuestID = questF   ExclusiveGroup = -questC  RewardNextQuest = 0
+ID = questE   PrevQuestID = 0        NextQuestID = questF   ExclusiveGroup = -questC  RewardNextQuest = 0
 
-ID = questF   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0      
+ID = questF   PrevQuestID = 0        NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0
 
-ID = questA3  PrevQuestID = questF   NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0      
-ID = questB3  PrevQuestID = questF   NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0      
+ID = questA3  PrevQuestID = questF   NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0
+ID = questB3  PrevQuestID = questF   NextQuestID = 0        ExclusiveGroup = 0        RewardNextQuest = 0
 ```
 > Note: If player can choose between chain A or B may be determined by faction status (aldor or scryer), using [RequiredMinRepFaction](../world/quest_template_addon#requiredminrepfaction) = 1. Player should not be able to be neutral+1 with both at the same time. This may be the common threshold to obtain aldor or scryer quests (this is unsure). If that is the case, only the unlock of C, D and E after complete A2 or B2 is the impossible part.
 {.is-info}

@@ -1,6 +1,6 @@
 ---
 title: access_requirement
-description: 
+description:
 published: true
 date: 2023-07-07T20:06:33.633Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -32,7 +32,7 @@ This table contains the access requirements to enter an instance.
 ## Description of fields
 
 ### mapId
-The map ID of the instance. See Map.dbc
+The [Map ID](/files/DBC/335/map#id) of the instance.
 &nbsp;
 
 ### difficulty
@@ -73,7 +73,7 @@ A [quest](../world/quest_template#id) that you must have completed. This field i
 &nbsp;
 
 ### completed_achievement
-An achievement that must be completed by the player to enter an instance. See Achievement.dbc
+An [Achievement ID](/files/DBC/335/achievement#id) that must be completed by the player to enter an instance.
 &nbsp;
 
 ### quest_failed_text

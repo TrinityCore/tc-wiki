@@ -1,6 +1,6 @@
 ---
 title: quest_greeting
-description: 
+description:
 published: true
 date: 2023-07-12T11:35:47.676Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -36,7 +36,7 @@ This table adds greeting behavior to an NPC or an Gameobject.
 &nbsp;
 
 ### GreetEmoteType
-Quest NPC emote from Emotes.dbc
+Quest NPC [Emote ID](/files/DBC/335/emotes#id)
 &nbsp;
 
 ### GreetEmoteDelay

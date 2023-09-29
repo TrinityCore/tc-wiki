@@ -1,6 +1,6 @@
 ---
 title: skill_fishing_base_level
-description: 
+description:
 published: true
 date: 2023-07-15T10:37:16.846Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -26,7 +26,7 @@ This table controls the minimum skill level required in SKILL_FISHING (356), to 
 ## Description of fields
 
 ### entry
-The area id from AreaTable.dbc
+references [AreaTable ID](/files/DBC/335/areatable#id)
 &nbsp;
 
 ### skill

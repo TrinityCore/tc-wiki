@@ -1,6 +1,6 @@
 ---
 title: player_classlevelstats
-description: 
+description:
 published: true
 date: 2023-07-11T20:43:20.805Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -24,7 +24,7 @@ This table holds information on the base health and mana of characters when they
 ## Description of fields
 
 ### class
-The players class id from ChrClasses.dbc
+The players [ChrClass ID](/files/DBC/335/chrclasses#id)
 | ID | Name         |
 |----|--------------|
 |  1 | Warrior      |

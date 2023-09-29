@@ -1,6 +1,6 @@
 ---
 title: disables
-description: 
+description:
 published: true
 date: 2023-07-09T14:30:20.588Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -44,12 +44,12 @@ This table is used to disable dungeons/bgs/spells/etc.
 ### entry
 | sourceType | entry |
 |-------|------|
-| 0 | spell id from Spell.dbc |
+| 0 | [Spell ID](/files/DBC/335/spell#id) |
 | 1 | [quest_template.ID](../world/quest_template#id) |
-| 3 | BG id from BattlemasterList.dbc |
-| 4 | criteria id from AchivementCriteria.dbc |
+| 3 | [BattlemasterList ID](/files/DBC/335/battlemasterlist#id) |
+| 4 | criteria id from [AchivementCriteria ID](/files/DBC/335/achivementcriteria#id) |
 | 5 | value from [`enum OutdoorPvPTypes`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/OutdoorPvP/OutdoorPvP.h)|
-| 2, 6, 7, 8 | map id from Map.dbc |
+| 2, 6, 7, 8 | [Map ID](/files/DBC/335/map#id) |
 &nbsp;
 
 ### flags
@@ -99,11 +99,11 @@ _other sourceTypes:_
 &nbsp;
 
 ### params_0
-comma seperated list of map ids if DISABLE_TYPE_SPELL used, 0 for all maps. (see Map.dbc)
+comma seperated list of [Map IDs](/files/DBC/335/map#id) if DISABLE_TYPE_SPELL used, 0 for all maps.
 &nbsp;
 
 ### params_1
-comma seperated list of area ids if DISABLE_TYPE_SPELL used, 0 for all areas. (see AreaTable.dbc)
+comma seperated list of [AreaTable IDs](/files/DBC/335/areatable#id) if DISABLE_TYPE_SPELL used, 0 for all areas.
 &nbsp;
 
 ### comment

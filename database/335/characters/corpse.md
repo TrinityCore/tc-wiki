@@ -1,6 +1,6 @@
 ---
 title: corpse
-description: 
+description:
 published: true
 date: 2023-07-30T01:21:18.687Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -59,14 +59,14 @@ The orientation of the corpse. (North = 0.0; South = pi (3.14159))
 &nbsp;
 
 ### mapId
-The MapID from Map.dbc the corpse resides on.
+The [Map ID](/files/DBC/335/map#id) the corpse resides on.
 
 ### phaseMask
 This is a bitmask field that describes all the phases the corpse is visible in.
 &nbsp;
 
 ### displayId
-A DisplayID from ChrRaces.dbc, where race dictates the row and gender the column.
+A [ChrRace DisplayID](/files/DBC/335/chrraces#maledisplayid), where race dictates the row and gender the column.
 * [gender](../characters/characters#gender) = 0: MaleModel
 * [gender](../characters/characters#gender) = 1: FemaleModel
 &nbsp;

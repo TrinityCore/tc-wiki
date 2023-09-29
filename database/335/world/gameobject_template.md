@@ -1,6 +1,6 @@
 ---
 title: gameobject_template
-description: 
+description:
 published: true
 date: 2023-07-10T19:01:55.300Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -24,30 +24,30 @@ This table contains the description of gameobjects. Each spawned object is an in
 | [castBarCaption](#castbarcaption) | varchar(100) |  |  | NO | '' |  |  |
 | [unk1](#unk1) | varchar(100) |  |  | NO | '' |  |  |
 | [size](#size) | float |  |  | NO | 1 |  |  |
-| [Data0](#data0) | int | unsigned |  | NO | 0 |  |  |
-| [Data1](#data1) | int | signed |  | NO | 0 |  |  |
-| [Data2](#data2) | int | unsigned |  | NO | 0 |  |  |
-| [Data3](#data3) | int | unsigned |  | NO | 0 |  |  |
-| [Data4](#data4) | int | unsigned |  | NO | 0 |  |  |
-| [Data5](#data5) | int | unsigned |  | NO | 0 |  |  |
-| [Data6](#data6) | int | signed |  | NO | 0 |  |  |
-| [Data7](#data7) | int | unsigned |  | NO | 0 |  |  |
-| [Data8](#data8) | int | unsigned |  | NO | 0 |  |  |
-| [Data9](#data9) | int | unsigned |  | NO | 0 |  |  |
-| [Data10](#data10) | int | unsigned |  | NO | 0 |  |  |
-| [Data11](#data11) | int | unsigned |  | NO | 0 |  |  |
-| [Data12](#data12) | int | unsigned |  | NO | 0 |  |  |
-| [Data13](#data13) | int | unsigned |  | NO | 0 |  |  |
-| [Data14](#data14) | int | unsigned |  | NO | 0 |  |  |
-| [Data15](#data15) | int | unsigned |  | NO | 0 |  |  |
-| [Data16](#data16) | int | unsigned |  | NO | 0 |  |  |
-| [Data17](#data17) | int | unsigned |  | NO | 0 |  |  |
-| [Data18](#data18) | int | unsigned |  | NO | 0 |  |  |
-| [Data19](#data19) | int | unsigned |  | NO | 0 |  |  |
-| [Data20](#data20) | int | unsigned |  | NO | 0 |  |  |
-| [Data21](#data21) | int | unsigned |  | NO | 0 |  |  |
-| [Data22](#data22) | int | unsigned |  | NO | 0 |  |  |
-| [Data23](#data23) | int | unsigned |  | NO | 0 |  |  |
+| [Data0](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
+| [Data1](#data[0-23]) | int | signed |  | NO | 0 |  |  |
+| [Data2](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
+| [Data3](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
+| [Data4](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
+| [Data5](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
+| [Data6](#data[0-23]) | int | signed |  | NO | 0 |  |  |
+| [Data7](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
+| [Data8](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
+| [Data9](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
+| [Data10](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
+| [Data11](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
+| [Data12](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
+| [Data13](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
+| [Data14](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
+| [Data15](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
+| [Data16](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
+| [Data17](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
+| [Data18](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
+| [Data19](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
+| [Data20](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
+| [Data21](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
+| [Data22](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
+| [Data23](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
 | [AIName](#ainame) | char(64) |  |  | NO | '' |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
 | [VerifiedBuild](#verifiedbuild) | smallint | signed |  | YES | 0 |  |  |
@@ -102,7 +102,7 @@ Gameobject's unique id.
 &nbsp;
 
 ### displayId
-Graphic model id sent to the client from GameObjectDisplayInfo.dbc 
+[GameObjectDisplayInfo ID](/files/DBC/335/gameobjectdisplayinfo#id) sent to the client.
 &nbsp;
 
 ### name
@@ -110,8 +110,8 @@ Object's name
 &nbsp;
 
 ### IconName
-Use special mouse pointer when hovering over the gameobject. 
-| Value | Description | 
+Use special mouse pointer when hovering over the gameobject.
+| Value | Description |
 |-------|-------------|
 | Directions | Used for Guards and Teleporter NPC's. |
 | Gunner | Indicator of a Turret NPC/Player Controlled. |
@@ -156,7 +156,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | startOpen | 0, 1 | initializes with state: GO_ACTIVATED |
-| 1 | lockId | Id from Lock.dbc |  |
+| 1 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
 | 2 | autoCloseTime |  | time untill state reset in milliseconds |
 | 3 | noDamageImmune | 0, 1 | can not be used by player under immunity; break opening whenever you recieve damage? |
 | 4 | openTextID | unknown TextID | unused; can be used to replace castBarCaption? |
@@ -169,7 +169,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | startOpen | 0, 1 | initializes with state: GO_ACTIVATED |
-| 1 | lockId | Id from Lock.dbc |  |
+| 1 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
 | 2 | autoCloseTime |  | time untill state reset in milliseconds |
 | 3 | linkedTrap | [gameobject_template.entry](../world/gameobject_template#entry) | the trap object must be of GAMEOBJECT_TYPE_TRAP (6) |
 | 4 | noDamageImmune | 0, 1 | can not be used by player under immunity; isBattlegroundObject |
@@ -183,9 +183,9 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 **_GAMEOBJECT_TYPE_QUESTGIVER (2)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | lockId | Id from Lock.dbc |  |
+| 0 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
 | 1 | questList | unknown ID | unused |
-| 2 | pageMaterial | Id from PageTextMaterial.dbc | Background texture of the gossip window |
+| 2 | pageMaterial | [PageTextMaterial ID](/files/DBC/335/pagetextmaterial#id) | Background texture of the gossip window |
 | 3 | gossipID | [gossip_menu.entry](../world/gossip_menu#entry)  |  |
 | 4 | customAnim | 0 — 4 | unused |
 | 5 | noDamageImmune | 0, 1 | can not be used by player under immunity |
@@ -199,7 +199,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 **_GAMEOBJECT_TYPE_CHEST (3)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | lockId | Id from Lock.dbc |  |
+| 0 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
 | 1 | lootId | [gameobject_loot_template.entry](../world/gameobject_loot_template#entry) |  |
 | 2 | chestRestockTime | time in seconds | restocks if not fully looted |
 | 3 | consumable | 0, 1 | despawns after use |
@@ -238,10 +238,10 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 **_GAMEOBJECT_TYPE_TRAP (6)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | lockId | Id from Lock.dbc |  |
+| 0 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
 | 1 | level |  | npc level equivalent for casted spell |
 | 2 | diameter |  | diameter for trap activation |
-| 3 | spellId | Id from Spell.dbc |  |
+| 3 | spellId | [Spell ID](/files/DBC/335/spell#id) |  |
 | 4 | type | 0, 1, 2 | 0: trap with no despawn after cast.<br>1: trap despawns after cast.<br>2: spell casts on spawn. |
 | 5 | cooldown |  | time in seconds |
 | 6 | autoCloseTime |  | time untill state reset in milliseconds |
@@ -269,7 +269,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 **_GAMEOBJECT_TYPE_SPELL_FOCUS (8)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | focusId | Id from SpellFocusObject.dbc | also appears as RequiresSpellFocus in Spell.dbc |
+| 0 | focusId | [SpellFocusObject ID](/files/DBC/335/spellfocusobject#id) | also appears as [Spell RequiresSpellFocus](/files/DBC/335/spell#requiresspellfocus) |
 | 1 | dist |  | radius in m |
 | 2 | linkedTrapId | [gameobject_template.entry](../world/gameobject_template#entry) | the trap object must be of GAMEOBJECT_TYPE_TRAP (6) |
 | 3 | serverOnly | 0, 1 | not visible in client |
@@ -284,8 +284,8 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | pageID | [page_text.ID](../world/page_text#id) |  |
-| 1 | language | Id from Languages.dbc |  |
-| 2 | pageMaterial | Id from PageTextMaterial.dbc | Background texture of the gossip window |
+| 1 | language | [Language ID](/files/DBC/335/languages#id) |  |
+| 2 | pageMaterial | [PageTextMaterial ID](/files/DBC/335/pagetextmaterial#id) | Background texture of the gossip window |
 | 3 | allowMounted | 0, 1 | Is usable while on mount/vehicle. |
 | 4 | conditionID1 | 0 | unused |
 {.dense}
@@ -293,7 +293,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 **_GAMEOBJECT_TYPE_GOOBER (10)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | lockId | Id from Lock.dbc |  |
+| 0 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
 | 1 | questId | [quest_template.ID](../world/quest_template#id) | quest must be active for GO interaction |
 | 2 | eventId | [event_script.id](../world/scripts#id) | also usable by script oder SmartAI |
 | 3 | autoCloseTime |  | time untill state reset in milliseconds |
@@ -301,9 +301,9 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 5 | consumable | 0, 1 | despawns after use |
 | 6 | cooldown |  | time in seconds |
 | 7 | pageId | [page_text.ID](../world/page_text#id) |  |
-| 8 | language | Id from Languages.dbc |  |
-| 9 | pageMaterial | Id from PageTextMaterial.dbc | Background texture of the gossip window |
-| 10 | spellId | Id from Spell.dbc | spell cast on interaction |
+| 8 | language | [Language ID](/files/DBC/335/languages#id) |  |
+| 9 | pageMaterial | [PageTextMaterial ID](/files/DBC/335/pagetextmaterial#id) | Background texture of the gossip window |
+| 10 | spellId | [Spell ID](/files/DBC/335/spell#id) | spell cast on interaction |
 | 11 | noDamageImmune | 0, 1 | can not be used by player under immunity |
 | 12 | linkedTrapId | [gameobject_template.entry](../world/gameobject_template#entry) | the trap object must be of GAMEOBJECT_TYPE_TRAP (6) |
 | 13 | large | 0, 1 | large objects are visible from further away |
@@ -326,13 +326,13 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 2 | autoCloseTime |  | time untill state reset in milliseconds |
 | 3 | pause1EventID | unknown EventID | unused |
 | 4 | pause2EventID | unknown EventID | unused |
-| 5 | mapID | Id from Map.dbc | unused; MO-Transports are their own maps |
+| 5 | mapID | [Map ID](/files/DBC/335/map#id) | unused; MO-Transports are their own maps |
 {.dense}
 
 **_GAMEOBJECT_TYPE_AREADAMAGE (12)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | lockId | Id from Lock.dbc |  |
+| 0 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
 | 1 | radius |  | unused |
 | 2 | damageMin |  | unused |
 | 3 | damageMax |  | unused |
@@ -345,8 +345,8 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 **_GAMEOBJECT_TYPE_CAMERA (13)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | lockId | Id from Lock.dbc |  |
-| 1 | cinematicId | Id from CinematicCamera.dbc |  |
+| 0 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
+| 1 | cinematicId | [CinematicCamera ID](/files/DBC/335/cinematiccamera#id) |  |
 | 2 | eventID | [event_script.id](../world/scripts#id) | also usable by script oder SmartAI |
 | 3 | openTextID | unknown TextID | unused; can be used to replace castBarCaption? |
 | 4 | conditionID1 | 0 | unused |
@@ -359,13 +359,13 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 **_GAMEOBJECT_TYPE_MO_TRANSPORT (15)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | taxiPathId | Id from TaxiPath.dbc |  |
+| 0 | taxiPathId | [TaxiPath ID](/files/DBC/335/taxipath#id) |  |
 | 1 | moveSpeed |  |  |
 | 2 | accelRate |  |  |
 | 3 | startEventID | unknown EventID | unused |
 | 4 | stopEventID | unknown EventID | unused |
 | 5 | transportPhysics |  | unused |
-| 6 | mapID | Id from Map.dbc | MO-Transports are their own maps |
+| 6 | mapID | [Map ID](/files/DBC/335/map#id) | MO-Transports are their own maps |
 | 7 | worldState1 |  | unused |
 | 8 | canBeStopped | 0, 1 |  |
 {.dense}
@@ -382,10 +382,10 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | reqParticipants |  | number of unique player interactions |
-| 1 | spellId | Id from Spell.dbc | spell cast when **reqParticipants** is fulfilled |
-| 2 | animSpell | Id from Spell.dbc | spell cast on interaction |
+| 1 | spellId | [Spell ID](/files/DBC/335/spell#id) | spell cast when **reqParticipants** is fulfilled |
+| 2 | animSpell | [Spell ID](/files/DBC/335/spell#id) | spell cast on interaction |
 | 3 | ritualPersistent | 0, 1 | do not deactivate after **reqParticipants** is fulfilled |
-| 4 | casterTargetSpell | Id from Spell.dbc | cast on random user after **reqParticipants** is fulfilled |
+| 4 | casterTargetSpell | [Spell ID](/files/DBC/335/spell#id) | cast on random user after **reqParticipants** is fulfilled |
 | 5 | casterTargetSpellTargets | N | **casterTargetSpell** is cast N times |
 | 6 | castersGrouped | 0, 1 | user must be in party with owner |
 | 7 | ritualNoTargetCheck | 0, 1 | unused |
@@ -412,7 +412,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 **_GAMEOBJECT_TYPE_SPELLCASTER (22)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | spellId | Id from Spell.dbc | spell cast on interaction |
+| 0 | spellId | [Spell ID](/files/DBC/335/spell#id) | spell cast on interaction |
 | 1 | charges |  | max. number of uses |
 | 2 | partyOnly | 0, 1 | user must be in party with owner |
 | 3 | allowMounted | 0, 1 | Is usable while on mount/vehicle. |
@@ -425,17 +425,17 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 |-------|------|-------|---------|
 | 0 | minLevel |  | min. player level required for interaction |
 | 1 | maxLevel |  | min. player level allowed for interaction |
-| 2 | areaID | Id from AreaTable.dbc | unused; |
+| 2 | areaID | [AreaTable ID](/files/DBC/335/areatable#id) | unused; |
 {.dense}
 
 **_GAMEOBJECT_TYPE_FLAGSTAND (24)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | lockId | Id from Lock.dbc |  |
-| 1 | pickupSpell | Id from Spell.dbc | unused |
+| 0 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
+| 1 | pickupSpell | [Spell ID](/files/DBC/335/spell#id) | unused |
 | 2 | radius |  | unused; interaction distance? |
-| 3 | returnAura | Id from Spell.dbc | unused |
-| 4 | returnSpell | Id from Spell.dbc | unused |
+| 3 | returnAura | [Spell ID](/files/DBC/335/spell#id) | unused |
+| 4 | returnSpell | [Spell ID](/files/DBC/335/spell#id) | unused |
 | 5 | noDamageImmune | 0, 1 | can not be used by player under immunity |
 | 6 | openTextID | unknown TextID | unused; can be used to replace castBarCaption? |
 | 7 | losOK | 0, 1 | ignores line of sight checks |
@@ -449,15 +449,15 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 1 | lootId | [gameobject_loot_template.Entry](../world/loot_template#entry) |  |
 | 2 | minSuccessOpens |  | minimum number of fishing attempts |
 | 3 | maxSuccessOpens |  | maximum number of fishing attempts |
-| 4 | lockId | Id from Lock.dbc | possibly 1628 for all? |
+| 4 | lockId | [Lock ID](/files/DBC/335/lock#id) | possibly 1628 for all? |
 {.dense}
 
 **_GAMEOBJECT_TYPE_FLAGDROP (26)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | lockId | Id from Lock.dbc |  |
+| 0 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
 | 1 | eventID | unknown EventID | unused |
-| 2 | pickupSpell | Id from Spell.dbc | unused |
+| 2 | pickupSpell | [Spell ID](/files/DBC/335/spell#id) | unused |
 | 3 | noDamageImmune | 0, 1 | can not be used by player under immunity |
 | 4 | openTextID | unknown TextID | unused; can be used to replace castBarCaption? |
 {.dense}
@@ -504,9 +504,9 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 |-------|------|-------|---------|
 | 0 | startOpen | 0, 1 | initializes with state: GO_ACTIVATED |
 | 1 | radius |  | unused |
-| 2 | auraID1 | Id from Spell.dbc | unused |
+| 2 | auraID1 | [Spell ID](/files/DBC/335/spell#id) | unused |
 | 3 | conditionID1 | unknown ID | unused |
-| 4 | auraID2 | Id from Spell.dbc | unused |
+| 4 | auraID2 | [Spell ID](/files/DBC/335/spell#id) | unused |
 | 5 | conditionID2 | 0, -1 | unused |
 | 6 | serverOnly | 0, 1 | not visible in client |
 {.dense}
@@ -514,7 +514,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 **_GAMEOBJECT_TYPE_DUNGEON_DIFFICULTY (31)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | mapID | Id from Map.dbc | destination map |
+| 0 | mapID | [Map ID](/files/DBC/335/map#id) | destination map |
 | 1 | difficulty | 0 — 3 | [`enum Difficulty`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/DataStores/DBCEnums.h) |
 {.dense}
 
@@ -532,13 +532,13 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 1 | creditProxyCreature | [creature_template.entry](../world/creature_template#entry) | unused; kill credit |
 | 2 | empty1 |  | unused |
 | 3 | intactEvent | eventID | unused |
-| 4 | empty2 | Id from GameObjectDisplayInfo.dbc | unused; damaged displayId |
+| 4 | empty2 | [GameObjectDisplayInfo ID](/files/DBC/335/gameobjectdisplayinfo#id) | unused; damaged displayId |
 | 5 | damagedNumHits |  | if at or below **damagedNumHits**: GO state is DAMAGED |
 | 6 | empty3 |  | unused |
 | 7 | empty4 |  | unused |
 | 8 | empty5 |  | unused |
 | 9 | damagedEvent | eventID | handled by script oder SmartAI |
-| 10 | empty6 | Id from GameObjectDisplayInfo.dbc | unused; destroyed displayId |
+| 10 | empty6 | [GameObjectDisplayInfo ID](/files/DBC/335/gameobjectdisplayinfo#id) | unused; destroyed displayId |
 | 11 | empty7 |  | unused |
 | 12 | empty8 |  | unused |
 | 13 | empty9 |  | unused |
@@ -546,7 +546,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 15 | empty10 |  | unused |
 | 16 | rebuildingTimeSecs |  | unused |
 | 17 | empty11 |  | unused |
-| 18 | destructibleData | Id from DestructibleModelData.dbc |  |
+| 18 | destructibleData | [DestructibleModelData ID](/files/DBC/335/destructiblemodeldata#id) |  |
 | 19 | rebuildingEvent | eventID | handled by script oder SmartAI |
 | 20 | empty12 |  | unused |
 | 21 | empty13 |  | unused |

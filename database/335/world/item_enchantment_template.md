@@ -1,6 +1,6 @@
 ---
 title: item_enchantment_template
-description: 
+description:
 published: true
 date: 2023-07-10T23:51:37.039Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -28,8 +28,8 @@ This field ties in with _*either*_ [RandomProperty](../world/item_template#Rando
 
 ### ench
 The enchantment to apply on the item. This fields value depends on the source of **entry**.
-* RandomProperty: **ench** is an ID from ItemRandomProperties.dbc.
-* RandomSuffix: **ench** is an ID from ItemRandomSuffix.dbc.
+* RandomProperty: **ench** is an [ItemRandomPropery ID](/files/DBC/335/itemrandomproperties#id).
+* RandomSuffix: **ench** is an [ItemRandomSuffix ID](/files/DBC/335/itemrandomsuffix#id).
 
 &nbsp;
 

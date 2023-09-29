@@ -1,6 +1,6 @@
 ---
 title: gameobject_template_addon
-description: 
+description:
 published: true
 date: 2023-07-10T19:17:24.415Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -21,10 +21,10 @@ This table holds additional information on gameobjects.
 | [flags](#flags) | int | unsigned |  | NO | 0 |  |  |
 | [mingold](#mingold) | mediumint | unsigned |  | NO | 0 |  |  |
 | [maxgold](#maxgold) | mediumint | unsigned |  | NO | 0 |  |  |
-| [artkit0](#artkit0) | int | signed |  | NO | 0 |  |  |
-| [artkit1](#artkit1) | int | signed |  | NO | 0 |  |  |
-| [artkit2](#artkit2) | int | signed |  | NO | 0 |  |  |
-| [artkit3](#artkit3) | int | signed |  | NO | 0 |  |  |
+| [artkit0](#artkit[0-3]) | int | signed |  | NO | 0 |  |  |
+| [artkit1](#artkit[0-3]) | int | signed |  | NO | 0 |  |  |
+| [artkit2](#artkit[0-3]) | int | signed |  | NO | 0 |  |  |
+| [artkit3](#artkit[0-3]) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -33,7 +33,7 @@ references [gameobject_template.entry](../world/gameobject_template#entry)
 &nbsp;
 
 ### faction
-Object's faction from FactionTemplate.dbc, if any.
+Object's [FactionTemplate ID](/files/DBC/335/factiontemplate#id), if any.
 &nbsp;
 
 ### flags
@@ -62,7 +62,7 @@ Maximum money, in copper, that the gameobject can drop when accessed / used.
 &nbsp;
 
 ### artkit\[0-3]
-Id from GameObjectArtKit.dbc
+[GameObjectArtKit ID](/files/DBC/335/gameobjectartkit#id)
 Updates display if object is activated by SPELL_EFFCT_ACTIVATE_OBJECT with MiscValue 19 - 22.
 &nbsp;
 

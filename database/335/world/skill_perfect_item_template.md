@@ -1,6 +1,6 @@
 ---
 title: skill_perfect_item_template
-description: 
+description:
 published: true
 date: 2023-07-15T10:46:36.542Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -24,11 +24,11 @@ This table holds information about when using certain profession spells will cre
 ## Description of fields
 
 ### spellId
-The spell id from Spell.dbc that creates the item.
+[Spell ID](/files/DBC/335/spell#id) that creates the item.
 &nbsp;
 
 ### requiredSpecialization
-The character must have the spell id from Spell.dbc specified here learned to have a chance at triggering the effect.
+The character must have the [Spell ID](/files/DBC/335/spell#id) specified here learned to have a chance at triggering the effect.
 &nbsp;
 
 ### perfectCreateChance

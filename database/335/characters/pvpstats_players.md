@@ -1,6 +1,6 @@
 ---
 title: pvpstats_players
-description: 
+description:
 published: true
 date: 2023-08-01T14:25:52.222Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -53,7 +53,7 @@ The [guid](../characters/characters/#guid) of the participating character.
 Accumulated statistics, shared among all Battlegrounds.
 &nbsp;
 
-### attr_\[1-5\]
+### attr_\[1-5]
 Accumulated statistics, unique to a [battleground type](../characters/pvpstats_battlegrounds#type).
 | type | Name | attr_1 | attr_2 | attr_3 | attr_4 | attr_5 |
 |------|------|--------|--------|--------|--------|--------|

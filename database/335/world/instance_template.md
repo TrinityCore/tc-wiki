@@ -1,6 +1,6 @@
 ---
 title: instance_template
-description: 
+description:
 published: true
 date: 2023-07-10T23:41:05.050Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -26,7 +26,7 @@ If you want to change the spot you will start in when you enter/leave an instanc
 ## Description of fields
 
 ### map
-The map ID of the instance. (see Maps.dbc)
+The [Map ID](/files/DBC/335/map#id) of the instance.
 &nbsp;
 
 ### parent

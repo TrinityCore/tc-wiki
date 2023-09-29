@@ -1,6 +1,6 @@
 ---
 title: trainer
-description: 
+description:
 published: true
 date: 2023-07-23T17:53:59.264Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -35,7 +35,7 @@ The trainer type dictates the requirement (if any).
 
 #### Type = 0 (Trainer::Type::Class)
 #### Type = 3 (Trainer::Type::Pet)
-**Requirement** is ID from ChrClasses.dbc (or 0 for no requirement)
+**Requirement** is a [ChrClass ID](/files/DBC/335/chrclasses#id) (or 0 for no requirement)
 | Requirement | Description |
 |-------------|-------------|
 | 1 | Warrior |
@@ -53,7 +53,7 @@ The trainer type dictates the requirement (if any).
 &nbsp;
 
 #### Type = 1 (Trainer::Type::Mount)
-**Requirement** is ID from ChrRaces.dbc (or 0 for no requirement)
+**Requirement** is a [ChrRace ID](/files/DBC/335/chrraces#id) (or 0 for no requirement)
 | Requirement | Description |
 |-------------|-------------|
 | 1 | Human |
@@ -71,13 +71,13 @@ The trainer type dictates the requirement (if any).
 &nbsp;
 
 #### Type = 2 (Trainer::Type::Tradeskill)
-**Requirement** is ID from Spell.dbc (or 0 for no requirement)
+**Requirement** is a [Spell ID](/files/DBC/335/spell#id) (or 0 for no requirement)
 
 The player must know this spell to learn from this trainer.
 &nbsp;
 
 ### Greeting
-This is the text shown, once a trainer window has been opened in the top. 
+This is the text shown, once a trainer window has been opened in the top.
 
 > Note: This is not the gossip text.
 {.is-info}

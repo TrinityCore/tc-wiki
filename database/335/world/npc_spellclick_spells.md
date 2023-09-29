@@ -1,6 +1,6 @@
 ---
 title: npc_spellclick_spells
-description: 
+description:
 published: true
 date: 2023-07-11T17:53:54.832Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -30,7 +30,7 @@ That opcode is sent for quests in which you have to loot creatures, who are alre
 &nbsp;
 
 ### spell_id
-The spell from Spell.dbc which should be cast.
+The [Spell ID](/files/DBC/335/spell#id) which should be cast.
 
 > Note: that for several quests there are more than one spell per click.
 {.is-info}
@@ -48,9 +48,9 @@ Lower bit defines caster: 1=Clicker, 0=Clickee; higher bit defines target, same 
 You can use this table for the actual value:
 | Value | Caster | Target |
 |-------|--------|--------|
-| 0 | Creature | Creature | 
-| 1 | Player | Creature | 
-| 2 | Creature | Player | 
+| 0 | Creature | Creature |
+| 1 | Player | Creature |
+| 2 | Creature | Player |
 | 3 | Player | Player |
 {.dense}
 
@@ -61,10 +61,10 @@ Relation with summoner: defines who is able to use this spellclick.
 
 | Value | Description |
 |-------|-------------|
-| 0 | Only self | 
-| 1 | Friendly | 
-| 2 | Raid | 
-| 3 | Party | 
+| 0 | Only self |
+| 1 | Friendly |
+| 2 | Raid |
+| 3 | Party |
 {.dense}
 
 &nbsp;

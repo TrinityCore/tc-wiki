@@ -1,6 +1,6 @@
 ---
 title: areatrigger_tavern
-description: 
+description:
 published: true
 date: 2023-07-07T20:19:24.449Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -22,7 +22,7 @@ Enable a trigger when player enters a city or tavern. This causes the player to 
 ## Description of fields
 
 ### id
-This is the trigger identifier, see AreaTrigger.dbc
+This is the [AreaTrigger ID](/files/DBC/335/areatrigger#id).
 &nbsp;
 
 ### name

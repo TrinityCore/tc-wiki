@@ -1,6 +1,6 @@
 ---
 title: broadcast_text_locale
-description: 
+description:
 published: true
 date: 2022-11-21T21:26:16.244Z
 tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
@@ -27,7 +27,19 @@ dateCreated: 2021-08-30T22:03:05.205Z
 &nbsp;
 
 ### locale
-*- no description -*
+[Localization](/how-to/localization):
+| locale | Name |
+| :---: | :---: |
+| koKR | Korean|
+| frFR | French|
+| deDE | German|
+| zhCN | Chinese |
+| zhTW | Taiwanese |
+| esES | Spanish (EU) |
+| esMX | Spanish (Latin American) |
+| ruRU | Russian |
+{.dense}
+
 &nbsp;
 
 ### Text
