@@ -2,7 +2,7 @@
 title: Windows Core Installation
 description: 
 published: true
-date: 2023-04-26T17:08:20.249Z
+date: 2023-08-15T17:44:21.012Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-15T10:17:42.057Z
@@ -39,10 +39,6 @@ Note: If you don't specify a branch, git will pull master by default! 
 
 Before you begin, create an empty directory called **Build**. In this example, we will use **C:\\Build**.
 
-> **Uncommon compilers**
-> 
-> **Note**: If CMake does not recognize your C/C++ compiler, choose **Specific Native Compiler**, and choose path to target **vcvarsall.bat**, e.g. C:\\Program Files\\Microsoft Visual Studio 14.0\\VC\\vcvarsall.bat
-
 > Note: The following images serve as an example and partly show outdated software versions:
 
 |     |     |     |
@@ -69,21 +65,15 @@ Before you begin, create an empty directory called **Build**. In this example, 
 
 In Visual Studio, browse into your **C:\\Build** folder and open **TrinityCore.sln** with Visual Studio Community.
 
--   if you are using CMake 3.8.0 or newer, you can use the button \[**Open Project**\] to open the solution directly with VS.
+-   You can use the button \[**Open Project**\] in CMake window to open the solution directly with VS.
 
 On the menu at the top, click **Build** and select **Configuration Manager**.
 
 Set **Active Solution Configuration** to **RelWithDebInfo**
 
-In the list menus below "Help", set **Active Solution Platform** to **x64** (if you set 32-bit compilation during the CMake configuration, select **x86**)
+Right-click **ALL\_BUILD** and select **Build** (or go to the Build menu and click Rebuild Solution (Ctrl+Alt+F7)).
 
-and click Close (settings get saved instantly). On some versions of Visual Studio, this will be read and set automatically based on the CMake settings.
-
-Right-click  **ALL\_BUILD**  in the Solution Explorer on the left sidebar and select  **Clean**
-
-(if your GUI does not show Solution Explorer, click the **Build** menu and select  **Clean** **Solution**).
-
-Right-click **ALL\_BUILD** and select **Build** (or go to the Build menu and click Build Solution (Ctrl+Shift+B)).
+(if your GUI does not show Solution Explorer, click the **Build** menu and select **Rebuild Solution**).
 
 1.  Compilation time differs from machine to machine, you can expect it to take anywhere between 5 and 30 minutes.
 2.  If you are asked to "Reload build files" during the compile, do so.
@@ -91,36 +81,26 @@ Right-click **ALL\_BUILD** and select **Build** (or go to the Build menu and 
 
 > **\========== Build: 22 succeeded, 0 failed, 0 up-to-date, 1 skipped ==========**
 
-> **This info may be outdated**
-> 
-> Note: in MySQL 5.7 64bit there is a bug. Binary\_log\_types.h and Binary\_log\_funcs.h are missing.
-> 
-> you can download [http://dev.mysql.com/downloads/file/?id=456917](http://dev.mysql.com/downloads/file/?id=456917) and open it with winrar (or google something for opening .tar Archive)
-> 
-> then go to mysql-5.7.7-rc\\libbinlogevents\\include  there you'll find both files.  copy them to C:\\Program Files\\MySQL\\MySQL Server 5.7\\include (default location, change to your directory if you have a different mysql install location
-
 You will find your freshly compiled binaries in the **C:\\Build\\bin\\RelWithDebInfo** or **C:\\Build\\bin\\Debug** folder. These are all used to run your server at the end of this instruction.
 
 You will need the following files in order for the core to function properly:
 
-| **3.3.5a**<br><br>**authserver.exe**  <br>**authserver.pdb**  <br>**authserver.conf.dist**  <br>**worldserver.exe**  <br>**worldserver.pdb**  <br>**worldserver.conf.dist**  <br>**libmysql.dll**  <br>**libeay32.dll**  <br>**ssleay32.dll** | **master (10.x)**<br><br>**bnetserver.exe**  <br>**bnetserver.pdb**  <br>**bnetserver.conf.dist**  <br>**bnetserver.cert.perm**  <br>**bnetserver.key.perm**  <br>**worldserver.exe**  <br>**worldserver.pdb**  <br>**worldserver.conf.dist**  <br>**libmysql.dll**  <br>**libeay32.dll**  <br>**ssleay32.dll**  <br>**openssl_ed25519.dll** |
+| **3.3.5a**<br><br>**authserver.exe**  <br>**authserver.pdb**  <br>**authserver.conf.dist**  <br>**worldserver.exe**  <br>**worldserver.pdb**  <br>**worldserver.conf.dist**  <br>**libmysql.dll** <br>**legacy.dll**  <br>**libcrypto-3-x64.dll**  <br>**libssl-3-x64.dll** | **master (10.x)**<br><br>**bnetserver.exe**  <br>**bnetserver.pdb**  <br>**bnetserver.conf.dist**  <br>**bnetserver.cert.perm**  <br>**bnetserver.key.perm**  <br>**worldserver.exe**  <br>**worldserver.pdb**  <br>**worldserver.conf.dist**  <br>**libmysql.dll** <br>**legacy.dll**  <br>**libcrypto-3-x64.dll**  <br>**libssl-3-x64.dll**  <br>**openssl_ed25519.dll** |
 | --- | --- |
 
   
-There are three DLL files that need to be manually added to this folder, and you need to copy them over from the following installation/bin directories:
+There are four DLL files that need to be manually added to this folder, and you need to copy them over from the following installation/bin directories:
 
-**libmysql.dll** →  C:\\Program Files\\MySQL\\MySQL Server 5.x\\lib\\
+**libmysql.dll** →  C:\\Program Files\\MySQL\\MySQL Server 8.x\\lib\\
 
-OpenSSL _before_ 1.1.0 version installed:
+OpenSSL 3 requires the following files:
 
- **libeay32.dll**  
- **ssleay32.dll**  → C:\\OpenSSL-Win64\\ or C:\\OpenSSL-Win32\\ (*depends on if your core is 64-bit or 32-bit*)
+ **legacy.dll**
+ **libssl-3-x64.dll**  
+ **libcrypto-3-x64.dll** → C:\\OpenSSL-Win64\\bin
 
-OpenSSL 1.1.0 and more recent installed, names have changed:
+OpenSSL 1.1.1 requires the following files:
 
- **libssl-1\_1.dll**  
- **libcrypto-1\_1.dll** → C:\\OpenSSL-Win32\\bin  
-  
  **libssl-1\_1-x64.dll**  
  **libcrypto-1\_1-x64.dll** → C:\\OpenSSL-Win64\\bin
 

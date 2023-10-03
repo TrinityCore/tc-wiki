@@ -2,7 +2,7 @@
 title: spell_area
 description: 
 published: true
-date: 2023-02-08T22:20:18.095Z
+date: 2023-08-18T22:33:17.054Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:40.299Z
@@ -22,8 +22,8 @@ dateCreated: 2021-08-30T09:36:40.299Z
 | [racemask](#racemask) | bigint | unsigned | PRI | NO | 0 |  |  |
 | [gender](#gender) | tinyint | unsigned | PRI | NO | 2 |  |  |
 | [flags](#flags) | tinyint | unsigned |  | NO | 3 |  |  |
-| [quest_start_status](#quest_start_status) | int | signed |  | NO | 64 |  |  |
-| [quest_end_status](#quest_end_status) | int | signed |  | NO | 11 |  |  |
+| [quest_start_status](#quest_start_status/quest_end_status) | int | signed |  | NO | 64 |  |  |
+| [quest_end_status](#quest_start_status/quest_end_status) | int | signed |  | NO | 11 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -105,13 +105,18 @@ The gender type this entry applies to. 0 = Male, 1 = Female, 2 = Any.
 | 2 | 0x02 | SPELL_AREA_FLAG_AUTOREMOVE | If the spell should be automatically removed when the character is inside the area (only works with quest updates) |
 &nbsp;
 
-### quest_start_status
-*- no description -*
+### quest_start_status/quest_end_status
+| Quest Status | Flags | Explanation |
+| --- | --- | --- |
+| QUEST_STATUS_NONE | 1 | Player does not have or had quest at all. He could accept it, but he did not (yet). |
+| QUEST_STATUS_COMPLETE | 2 | Player fulfilled objectives, but did not hand it in yet. |
+| :x: QUEST_STATUS_UNAVAILABLE | 4 | (not used) |
+| QUEST_STATUS_INCOMPLETE | 8 | Player did not fulfill objectives yet |
+| :x: QUEST_STATUS_AVAILABLE | 16 | (not used) |
+| QUEST_STATUS_FAILED | 32 | Player failed to fulfill objectives for any reason, e.g. time limit |
+| QUEST_STATUS_REWARDED | 64 | Player handed quest in and this is sort of a post-quest interaction |
 &nbsp;
 
-### quest_end_status
-*- no description -*
-&nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/spawn_group_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'spawn_group_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/spell_custom_attr" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'spell_custom_attr'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 

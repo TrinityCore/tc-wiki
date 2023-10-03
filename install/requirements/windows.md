@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2023-06-05T15:19:48.841Z
+date: 2023-09-02T20:03:21.156Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -10,13 +10,11 @@ dateCreated: 2021-08-14T03:18:48.201Z
 
 ## Supported Windows Operating Systems
 
-> Windows 7 SP1 and their servers versions and up
-> Both x86 and x64 versions are supported but x64 is recommended due to ram consumption
+> Windows 10 and their servers versions and up
 {.is-info}
 
 ## Software
-> Processor with SSE2 support
-> Boost ≥ 1.73 (latest stable recommended)
+> Boost ≥ 1.78 (latest stable recommended)
 > MySQL ≥ 5.7
 > OpenSSL ≥ 1.1.x
 > CMake ≥ 3.18.4 (latest stable recommended)
@@ -33,12 +31,12 @@ dateCreated: 2021-08-14T03:18:48.201Z
 {.is-warning}
 
 
-#### 1.1 [Git Extensions](http://sourceforge.net/projects/gitextensions/){target=_blank}
+#### 1.1 [Git Extensions](https://gitextensions.github.io/){target=_blank}
 Git Extensions adds some visual extras and an improved UI for Git.
 &nbsp;
 
-### 2. [Visual Studio 2022](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=community&rel=16&utm_medium=microsoft&utm_source=docs.microsoft.com&utm_campaign=download+from+relnotes&utm_content=vs2019ga+button){target=_blank}
-> The installer for VS 2019 and higher (any edition) no longer installs the C++ compiler by default.
+### 2. [Visual Studio 2022](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&channel=Release&version=VS2022){target=_blank}
+> The installer for VS no longer installs the C++ compiler by default.
 {.is-warning}
 
 To enable it, select **Custom** in the type of installation and pick **Desktop development with C++** as workload
@@ -65,10 +63,10 @@ vs_enterprise.exe /q /norestart /InstallSelectableItems NativeLanguageSupport_Gr
 
 ### 3. MySQL Server Community Edition
 
-- [MySQL Server Community Edition](https://dev.mysql.com/downloads/mysql/5.7.html){target=_blank} Version 5.7
-  <span style="color:red">(not recommended, better use 8.0)</span>
 - [MySQL Server Community Edition](https://dev.mysql.com/downloads/mysql/8.0.html){target=_blank} Version 8.0
   <span style="color:green">(highly recommended)</span>
+- [MySQL Server Community Edition](https://dev.mysql.com/downloads/mysql/5.7.html){target=_blank} Version 5.7
+  <span style="color:red">(deprecated, will be removed soon, using 8.0 or newer)</span>
 {.links-list}
 
 1. Download the Windows MSI Installer. 
@@ -99,19 +97,14 @@ Try connecting to your MySQL instance that you installed above. Depending on the
 	Create a new connection/session. The Hostname/IP address of "127.0.0.1" or "localhost" is fine if you installed MySQL on the same computer that you installed HeidiSQL or SQLYog. Simply fill in your root // whatever password and you should now be able to connect to your database
 &nbsp;
 
-### 6. [.NET Framework 3.5](http://www.microsoft.com/downloads/details.aspx?FamilyId=333325FD-AE52-4E35-B531-508D977D32A6&amp;displaylang=en){target=_blank} or above
-(you should already have it via your Windows updates)
-&nbsp;
-
-### 7. [Boost](http://www.boost.org/){target=_blank}
+### 6. [Boost](http://www.boost.org/){target=_blank}
 
 > Depending on your boost version, you require newer CMake version.
-> For example: boost 1.80 requires CMake 3.24.2 (with 3.24.1 it will throw warnings).{.is-warning}
+> For example: boost 1.80 requires CMake 3.24.2 (with 3.24.1 it will display warnings).{.is-warning}
 
-1. Download the prebuilt Windows Binary for Visual Studio 2019 (or higher)
+1. Download the prebuilt Windows Binary for Visual Studio 2022 (or higher)
 Here the links for minimum version:
-	- 64bit: [https://sourceforge.net/projects/boost/files/boost-binaries/1.73.0/boost_1_73_0-msvc-14.2-64.exe/download](https://sourceforge.net/projects/boost/files/boost-binaries/1.73.0/boost_1_73_0-msvc-14.2-64.exe/download){target=_blank}
-	- 32bit: [https://sourceforge.net/projects/boost/files/boost-binaries/1.73.0/boost_1_73_0-msvc-14.2-32.exe/download](https://sourceforge.net/projects/boost/files/boost-binaries/1.73.0/boost_1_73_0-msvc-14.2-32.exe/download){target=_blank}
+	- 64bit: [https://sourceforge.net/projects/boost/files/boost-binaries/1.78.0/boost_1_78_0-msvc-14.3-64.exe/download](https://sourceforge.net/projects/boost/files/boost-binaries/1.78.0/boost_1_78_0-msvc-14.3-64.exe/download){target=_blank}
 >   **If you  prefer a higher Boost version check here:** [https://sourceforge.net/projects/boost/files/boost-binaries/](https://sourceforge.net/projects/boost/files/boost-binaries/){target=_blank}
 >   Not all version are currently supported by TrinityCore (minimum is 1.73) or CMake (e.g. CMake 3.24.1 will throw CMake errors with boost 1.80)
 > To find the correct version we will explain on example: boost_1_80_0-msvc-14.3-64.exe:
@@ -121,35 +114,34 @@ Here the links for minimum version:
 {.is-info}
 
 4. Install the package to the default location (usually C:\local\boost_1_XX_0\ .)
-5. Add an environment variable to "System" variable named "BOOST_ROOT" and as value your Boost installation directory, e.g "C:/local/boost_1_72_0". Important is to use "**<span style="color:red">/</span>**", not "**<span style="color:red">\\</span>**"  when pointing to directory.
+5. Add an environment variable to "System" variable named "BOOST_ROOT" and as value your Boost installation directory, e.g "C:/local/boost_1_73_0". Important is to use "**<span style="color:red">/</span>**", not "**<span style="color:red">\\</span>**"  when pointing to directory.
 (Make sure that it does **<span style="color:red">not</span>** have a trailing slash (end of path). If you still get problems, add the same variable in the "USER" variables section too, like shown in the image below.)
 ![boost.jpg](/boost.jpg)Notice that this image shows the version number 1.72.0 - use your actual version number in your settings.
 &nbsp;
 
-### 8. [CMake](https://cmake.org/download/){target=_blank}
+### 7. [CMake](https://cmake.org/download/){target=_blank}
 
-1. Download and install the **Latest Release** win32-x86.exe file, **<span style="color:red">NEVER</span>** <span style="color:red">the RC (Release Candidate) versions</span>.
-2. “Visual Studio 14” is Microsoft Visual Studio 2015, or Visual C++ 14.0, or MSC 19.0 (confusing, right?) If I need to build for 64-bit, then I choose “Visual Studio 14 Win64” **<span style="color:red">we recommend to compile all on 64 bits mode</span>**
-3. Note: If used different MySQL server e.g Wampserver with included MySQL or any other software, then is needed to point cmake to that directory (the same way how it was done for BOOST). Add an environment variable to "System" variable named "MYSQL_ROOT" and as value your MySQL installation directory, e.g "c:/wamp/bin/mysql/mysql5.7.19". Important is to use "**<span style="color:red">/</span>**", **not** "**<span style="color:red">\\</span>**"  when pointing to directory.
+1. Download and install the **Latest Release** -windows-x86_64.msi file, **<span style="color:red">NEVER</span>** <span style="color:red">the RC (Release Candidate) versions</span>.
+2. Select "Microsoft Visual Studio 2022" **<span style="color:red">do not select Win32 platform</span>**
+3. Note: If used different MySQL server e.g Wampserver with included MySQL or any other software, then is needed to point cmake to that directory (the same way how it was done for BOOST). Add an environment variable to "System" variable named "MYSQL_ROOT" and as value your MySQL installation directory, e.g "c:/wamp/bin/mysql/mysql5.7.19". Important is to use "**<span style="color:red">/</span>**", **not** "**<span style="color:red">\\</span>**"  when pointing to directory. (use bundled mysql servers on your own risk, not supported)
 &nbsp;
 
-### 9. MySQL development files
-These files are shipped with MySQL Server, search for them at program files directory, MySQL\MySQL Server 8(5).X\lib and MySQL\MySQL Server 8(5).X\include.
+### 8. MySQL development files
+These files are shipped with MySQL Server, search for them at program files directory, MySQL\MySQL Server 8.X\lib and MySQL\MySQL Server 8.X\include.
 &nbsp;
 
-### 10. [OpenSSL](http://www.slproweb.com/products/Win32OpenSSL.html){target=_blank}
-> Do not download OpenSSL version 3.x.x
-{.is-warning}
+### 9. [OpenSSL](http://www.slproweb.com/products/Win32OpenSSL.html){target=_blank}
 
-
-> Download the 64bit version. Or you can get both if you plan to compile both 32 and 64bit, they can coexist side by side.
+> Download the 64bit version.
 {.is-info}
 
-1. Find the 64bit version by finding the latest 1.0.x or 1.1.x **Win64 OpenSSL** that is **NOT** the "light" or 3.x version.
-	- Example: **Win64 OpenSSL v1.1.1L**
-&nbsp;
-2. Find the 32bit version by finding the latest 1.0.x or 1.1.x **Win32 OpenSSL** that is **NOT** the "light" or 3.x version.
-	- Example: **Win32 OpenSSL v1.1.1L**
+> Depending on what MySQL version you installed, a different OpenSSL version should be selected.
+For MySQL 8.0.34 and newer use OpenSSL 3
+For MySQL 8.0 to 8.0.33 use OpenSSL 1.1.1
+{.is-info}
+
+Find the 64bit version by finding the latest **Win64 OpenSSL** that is **NOT** the "light" version.
+	- Example: **Win64 OpenSSL v3.1.2**
 &nbsp;
 
 > While installing OpenSSL, choose **The OpenSSL binaries (/bin) directory** (NOT "The Windows system directory")
@@ -160,7 +152,7 @@ These files are shipped with MySQL Server, search for them at program files dire
 ### (Optional)
 
 1. If you use different PCs to compile/run Trinity, install one of the following packages on your Server-PC to avoid missing dependencies (depending on your Visual Studio Version and your Server-PC Operating System)
-	- [Microsoft Visual C++ 2017 Redistributable Package](https://go.microsoft.com/fwlink/?LinkId=746572){target=_blank}
+	- [Microsoft Visual C++ 2022 Redistributable Package](https://aka.ms/vs/17/release/vc_redist.x64.exe){target=_blank}
 	- **<span style="color:red">NOTE: Whatever you do you CAN'T run TrinityCore on Windows XP or Windows Server 2003 or Windows Vista.</span>**
 2. [TortoiseGit](http://code.google.com/p/tortoisegit/){target=_blank}
 	- This instruction supports Git Extensions only, but TortoiseGit is another viable option if you're comfortable with the process.
