@@ -1,8 +1,8 @@
 ---
 title: pet_aura
-description:
+description: 
 published: true
-date: 2023-08-01T17:01:08.356Z
+date: 2023-10-04T14:42:51.629Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:01:50.883Z
