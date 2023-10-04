@@ -1,6 +1,6 @@
 ---
 title: mail
-description: 
+description:
 published: true
 date: 2023-07-31T21:33:06.629Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -55,7 +55,7 @@ This field contains the unique ID across all messages.
 ### stationery
 Defines the background texture of the mail.
 
-`enum MailStationery` gathered from Stationery.dbc
+`enum MailStationery` gathered from [Stationery ID](/files/DBC/335/stationery#id)
 | ID | Name | Comment |
 |----|------|---------|
 | 1 | MAIL_STATIONERY_TEST |  |
@@ -70,13 +70,13 @@ Defines the background texture of the mail.
 &nbsp;
 
 ### mailTemplateId
-ID from MailTemplate.dbc if available.
+[MailTemplate ID](/files/DBC/335/mailtemplate#id) if available.
 &nbsp;
 
 ### sender
 Can be one of:
 * [character guid](../characters/characters#guid)
-* ID from AuctionHouse.dbc
+* [AuctionHouse ID](/files/DBC/335/auctionhouse#id)
 * [creature entry](../world/creature_template#entry)
 * [gameobject entry](../gameobject_template#entry)
 * [calendar event id](../characters/calendar_events#id)
@@ -96,7 +96,7 @@ The text contained in the mail.
 &nbsp;
 
 ### has_items
-Flag if the mail can contain items. 
+Flag if the mail can contain items.
 * 0: no items attached
 * 1: check [mail_items](../characters/mail_items)
 &nbsp;

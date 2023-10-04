@@ -1,6 +1,6 @@
 ---
 title: transports
-description: 
+description:
 published: true
 date: 2023-07-23T18:19:18.153Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -12,7 +12,7 @@ dateCreated: 2021-08-30T22:10:18.608Z
 
 This table contains all GAMEOBJECT_TYPE_MO_TRANSPORT (15) (Boats and Zeppelins).
 
-All other transport types have their frame time read from TransportAnimation.dbc.
+All other transport types have their frame time read from [TransportAnimation](/files/DBC/335/transportanimation).
 
 ## Structure
 
@@ -26,7 +26,7 @@ All other transport types have their frame time read from TransportAnimation.dbc
 ## Description of fields
 
 ### guid
-Unique identifier for transport. When adding a new one, simply use the `max(guid) + 1`. 
+Unique identifier for transport. When adding a new one, simply use the `max(guid) + 1`.
 &nbsp;
 
 ### entry

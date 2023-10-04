@@ -1,6 +1,6 @@
 ---
 title: creature_text
-description: 
+description:
 published: true
 date: 2023-07-09T13:38:02.143Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -62,7 +62,7 @@ The text the creature will say.
 &nbsp;
 
 ### Language
-A language id found in Languages.dbc. When set to 0, the current default language will be used.
+A [Language ID](/files/DBC/335/languages#id). When set to 0, the current default language will be used.
 | ID | Language | | ID | Language |
 |----|----------|-|----|----------|
 | 1 | Orcish | | 12 | Kalimag |
@@ -83,7 +83,7 @@ A value from 1-100 that represents the percentage chance that this text will be 
 &nbsp;
 
 ### Emote
-The emote that the creature plays when the text is executed. Emotes can be obtained from the Emotes.dbc
+The [Emote ID](/files/DBC/335/emotes#id) that the creature plays when the text is executed.
 &nbsp;
 
 ### Duration
@@ -91,7 +91,7 @@ Time in milliseconds to see the text. 0 is default and calculated by core.
 &nbsp;
 
 ### Sound
-The sound entry this creature will play at the same time the text is executed. Sounds can be obtained from the SoundEntries.dbc.
+The [SoundEntry ID](/files/DBC/335/soundentries#id) this creature will play at the same time the text is executed.
 &nbsp;
 
 ### BroadcastTextId
@@ -144,7 +144,7 @@ SmartAI excerpt:
 |      <span style="color:darkred;">**329602**</span> |           9 |  1 |          0 |            0 |           1 |             <span style="color:#F77;">**4**</span> |             0 |             0 |             0 | Stormwind City Guard - On Script - Say Line 4                 |
 |      <span style="color:purple;">**329603**</span> |           9 |  0 |          0 |            0 |           1 |             <span style="color:#C6F;">**5**</span> |             0 |             0 |             0 | Stormwind City Guard - On Script - Say Line 5                 |
 
-SMART_ACTION_TALK (1) accesses creature_text on with the current **creatureID** and provided **GroupID** as parameter. 
+SMART_ACTION_TALK (1) accesses creature_text on with the current **creatureID** and provided **GroupID** as parameter.
 In the case of **GroupID** **5** a random text is picked with equal chance (all have **Probability**: 100) and said (**Type**: 12) in the vicinity (**TextRange**: 0) of the guard in its default tongue (**Language**: 0).
 
 

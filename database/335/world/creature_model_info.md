@@ -1,6 +1,6 @@
 ---
 title: creature_model_info
-description: 
+description:
 published: true
 date: 2023-07-08T16:36:03.890Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -25,7 +25,7 @@ This table contains all models of mobs, their gender and other information that 
 ## Description of fields
 
 ### DisplayID
-DisplayID from CreatureDisplayInfo.dbc
+references [CreatureDisplayInfo ID](/files/DBC/335/creaturedisplayinfo#id)
 &nbsp;
 
 ### BoundingRadius

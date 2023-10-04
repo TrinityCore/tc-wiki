@@ -1,6 +1,6 @@
 ---
 title: character_achievement_progress
-description: 
+description:
 published: true
 date: 2023-07-25T18:27:00.839Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -30,7 +30,7 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### criteria
-Criteria from Achievement_Criteria.dbc
+[AchievementCriteria ID](/files/DBC/335/achievement_criteria#id)
 &nbsp;
 
 ### counter

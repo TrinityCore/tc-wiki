@@ -1,6 +1,6 @@
 ---
 title: spell_proc
-description: 
+description:
 published: true
 date: 2023-07-23T01:00:27.357Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -19,9 +19,9 @@ This table holds information on what events (or procs) certain spells are activa
 | [SpellId](#spellid) | int | signed | PRI | NO | 0 |  |  |
 | [SchoolMask](#schoolmask) | tinyint | unsigned |  | NO | 0 |  |  |
 | [SpellFamilyName](#spellfamilyname) | smallint | unsigned |  | NO | 0 |  |  |
-| [SpellFamilyMask0](#spellfamilymask0) | int | unsigned |  | NO | 0 |  |  |
-| [SpellFamilyMask1](#spellfamilymask1) | int | unsigned |  | NO | 0 |  |  |
-| [SpellFamilyMask2](#spellfamilymask2) | int | unsigned |  | NO | 0 |  |  |
+| [SpellFamilyMask0](#spellfamilymask[0-2]) | int | unsigned |  | NO | 0 |  |  |
+| [SpellFamilyMask1](#spellfamilymask[0-2]) | int | unsigned |  | NO | 0 |  |  |
+| [SpellFamilyMask2](#spellfamilymask[0-2]) | int | unsigned |  | NO | 0 |  |  |
 | [ProcFlags](#procflags) | int | unsigned |  | NO | 0 |  |  |
 | [SpellTypeMask](#spelltypemask) | int | unsigned |  | NO | 0 |  |  |
 | [SpellPhaseMask](#spellphasemask) | int | unsigned |  | NO | 0 |  |  |
@@ -36,7 +36,7 @@ This table holds information on what events (or procs) certain spells are activa
 ## Description of fields
 
 ### SpellId
-The SpellID from Spell.dbc that is capable to proc on an event. (Can use negative SpellID for [ranked spells](../world/spell_ranks#first_spell_id))
+The [Spell ID](/files/DBC/335/spell#id) that is capable to proc on an event. (Can use negative SpellID for [ranked spells](../world/spell_ranks#first_spell_id))
 &nbsp;
 
 ### SchoolMask
@@ -79,7 +79,7 @@ This field controls what family name spells can proc the triggered spell.
 &nbsp;
 
 ### SpellFamilyMask\[0-2]
-This field controls what spells' family flags can proc the triggered spell. 
+This field controls what spells' family flags can proc the triggered spell.
 &nbsp;
 
 ### ProcFlags
@@ -203,7 +203,7 @@ Chance relative to [delay of equipped weapon](../world/item_template#delay).
 
 ### Chance
 Absolute chance per hit or spell cast. (Used when **ProcsPerMinute** is 0)
-If both **Chance** and **ProcsPerMinute** is 0, the default value from Spell.dbc is used.
+If both **Chance** and **ProcsPerMinute** is 0, the default value from [Spell ProcChance](/files/DBC/335/spell#procchance) is used.
 &nbsp;
 
 ### Cooldown
@@ -212,7 +212,7 @@ Define hidden cooldowns on the spell, in milliseconds. Also known as the proc's 
 
 ### Charges
 The amount of aura charges available to proc.
-If 0, the default value from Spell.dbc is used.
+If 0, the default value from [Spell ProcCharges](/files/DBC/335/spell#proccharges) is used.
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/world/spell_pet_auras" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'spell_pet_auras'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/spell_ranks" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'spell_ranks'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>

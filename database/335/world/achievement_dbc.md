@@ -1,6 +1,6 @@
 ---
 title: achievement_dbc
-description: 
+description:
 published: true
 date: 2023-07-07T20:05:20.466Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -10,7 +10,7 @@ dateCreated: 2021-08-30T22:02:35.965Z
 
 <a href="https://trinitycore.info/en/database/335/world/achievement_criteria_data" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'achievement_criteria_data'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/achievement_reward" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'achievement_reward'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
-Stores achievement data that is missing in Achievement.dbc
+Stores achievement data that is missing in [Achievement.dbc](/files/DBC/335/achievement) file.
 
 ## Structure
 
@@ -27,7 +27,7 @@ Stores achievement data that is missing in Achievement.dbc
 ## Description of fields
 
 ### ID
-This is the ID of the achievement from Achievement_Criteria.dbc (2nd column)
+[AchievementCriteria AchievementID](/files/DBC/335/achievement_criteria#achievementid)
 &nbsp;
 
 ### requiredFaction

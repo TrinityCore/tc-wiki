@@ -1,6 +1,6 @@
 ---
 title: pet_aura
-description: 
+description:
 published: true
 date: 2023-08-01T17:01:08.356Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -51,7 +51,7 @@ Depending on the caster who applied the aura:
 &nbsp;
 
 ### spell
-The SpellID from Spell.dbc which applied the aura. 
+The [Spell ID](/files/DBC/335/spell#id) which applied the aura.
 &nbsp;
 
 ### effectMask
@@ -73,11 +73,11 @@ Bitmask of effect indizes that can be recalculated.
 Determines how many stacks of the spell the character has.
 &nbsp;
 
-### amount\[0-2\]
+### amount\[0-2]
 The base_amount + modifier value associated with the aura.
 &nbsp;
 
-### base_amount\[0-2\]
+### base_amount\[0-2]
 The base_amount value associated with the aura.
 &nbsp;
 

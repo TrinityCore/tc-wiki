@@ -1,6 +1,6 @@
 ---
 title: vehicle_accessory
-description: 
+description:
 published: true
 date: 2023-07-24T17:34:57.103Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -37,7 +37,7 @@ Flying vehicles must have [Flight](../world/creature_template_movement#Flight) e
 &nbsp;
 
 ### seat_id
-SeatID from VehicleSeat.dbc in witch the accessory should be spawned. 
+[VehicleSeat ID](/files/DBC/335/vehicleseat#id) in witch the accessory should be spawned.
 &nbsp;
 
 ### minion

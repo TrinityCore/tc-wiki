@@ -1,6 +1,6 @@
 ---
 title: spell_target_position
-description: 
+description:
 published: true
 date: 2023-07-23T16:54:51.466Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -28,7 +28,7 @@ This table holds coordinate information on where the player should be teleported
 ## Description of fields
 
 ### ID
-The SpellID from Spell.dbc
+references [Spell ID](/files/DBC/335/spell#id)
 &nbsp;
 
 ### EffectIndex
@@ -37,7 +37,7 @@ The effect index of the spell with TARGET_DEST_DB.
 &nbsp;
 
 ### MapID
-The MapID from Map.dbc the player should be teleported to.
+The [Map ID](/files/DBC/335/map#id) the player should be teleported to.
 &nbsp;
 
 ### PositionX

@@ -1,6 +1,6 @@
 ---
 title: gameobject_overrides
-description: 
+description:
 published: true
 date: 2023-07-09T21:34:19.689Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -27,7 +27,7 @@ refers to [gameobject.guid](../world/gameobject#guid)
 &nbsp;
 
 ### faction
-Id from FactionTemplate.dbc
+[FactionTemplate ID](/files/DBC/335/factiontemplate#id)
 Replaces faction from [gameobject_template_addon.faction](../world/gameobject_template_addon#faction) if set.
 &nbsp;
 

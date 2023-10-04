@@ -1,6 +1,6 @@
 ---
 title: pet_spell
-description: 
+description:
 published: true
 date: 2023-08-01T17:17:49.845Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -29,7 +29,7 @@ The [pet id](../characters/character_pet#id) of the pet having this spell.
 &nbsp;
 
 ### spell
-The Spell ID from Spell.dbc known to this pet.
+The [Spell ID](/files/DBC/335/spell#id) known to this pet.
 &nbsp;
 
 ### active

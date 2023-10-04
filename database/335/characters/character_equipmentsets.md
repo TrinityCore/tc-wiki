@@ -1,6 +1,6 @@
 ---
 title: character_equipmentsets
-description: 
+description:
 published: true
 date: 2023-07-27T17:33:03.006Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -24,25 +24,25 @@ dateCreated: 2021-08-30T21:59:31.038Z
 | [name](#name) | varchar(31) |  |  | NO |  |  |  |
 | [iconname](#iconname) | varchar(100) |  |  | NO |  |  |  |
 | [ignore_mask](#ignore_mask) | int | unsigned |  | NO | 0 |  |  |
-| [item0](#item0) | int | unsigned |  | NO | 0 |  |  |
-| [item1](#item1) | int | unsigned |  | NO | 0 |  |  |
-| [item2](#item2) | int | unsigned |  | NO | 0 |  |  |
-| [item3](#item3) | int | unsigned |  | NO | 0 |  |  |
-| [item4](#item4) | int | unsigned |  | NO | 0 |  |  |
-| [item5](#item5) | int | unsigned |  | NO | 0 |  |  |
-| [item6](#item6) | int | unsigned |  | NO | 0 |  |  |
-| [item7](#item7) | int | unsigned |  | NO | 0 |  |  |
-| [item8](#item8) | int | unsigned |  | NO | 0 |  |  |
-| [item9](#item9) | int | unsigned |  | NO | 0 |  |  |
-| [item10](#item10) | int | unsigned |  | NO | 0 |  |  |
-| [item11](#item11) | int | unsigned |  | NO | 0 |  |  |
-| [item12](#item12) | int | unsigned |  | NO | 0 |  |  |
-| [item13](#item13) | int | unsigned |  | NO | 0 |  |  |
-| [item14](#item14) | int | unsigned |  | NO | 0 |  |  |
-| [item15](#item15) | int | unsigned |  | NO | 0 |  |  |
-| [item16](#item16) | int | unsigned |  | NO | 0 |  |  |
-| [item17](#item17) | int | unsigned |  | NO | 0 |  |  |
-| [item18](#item18) | int | unsigned |  | NO | 0 |  |  |
+| [item0](#item[0-18]) | int | unsigned |  | NO | 0 |  |  |
+| [item1](#item[0-18]) | int | unsigned |  | NO | 0 |  |  |
+| [item2](#item[0-18]) | int | unsigned |  | NO | 0 |  |  |
+| [item3](#item[0-18]) | int | unsigned |  | NO | 0 |  |  |
+| [item4](#item[0-18]) | int | unsigned |  | NO | 0 |  |  |
+| [item5](#item[0-18]) | int | unsigned |  | NO | 0 |  |  |
+| [item6](#item[0-18]) | int | unsigned |  | NO | 0 |  |  |
+| [item7](#item[0-18]) | int | unsigned |  | NO | 0 |  |  |
+| [item8](#item[0-18]) | int | unsigned |  | NO | 0 |  |  |
+| [item9](#item[0-18]) | int | unsigned |  | NO | 0 |  |  |
+| [item10](#item1[0-18]) | int | unsigned |  | NO | 0 |  |  |
+| [item11](#item1[0-18]) | int | unsigned |  | NO | 0 |  |  |
+| [item12](#item1[0-18]) | int | unsigned |  | NO | 0 |  |  |
+| [item13](#item1[0-18]) | int | unsigned |  | NO | 0 |  |  |
+| [item14](#item1[0-18]) | int | unsigned |  | NO | 0 |  |  |
+| [item15](#item1[0-18]) | int | unsigned |  | NO | 0 |  |  |
+| [item16](#item1[0-18]) | int | unsigned |  | NO | 0 |  |  |
+| [item17](#item1[0-18]) | int | unsigned |  | NO | 0 |  |  |
+| [item18](#item1[0-18]) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -63,7 +63,7 @@ Individual. Name is set by player.
 &nbsp;
 
 ### iconname
-Name taken from ItemDisplayInfo.dbc, column 6
+[ItemDisplayInfo InventoryIcon_0](/files/DBC/335/itemdisplayinfo#inventoryicon)
 &nbsp;
 
 ### ignore_mask

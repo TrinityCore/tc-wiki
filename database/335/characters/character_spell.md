@@ -1,6 +1,6 @@
 ---
 title: character_spell
-description: 
+description:
 published: true
 date: 2023-07-29T19:06:10.639Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -30,13 +30,13 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### spell
-The Spell ID from Spell.dbc known to the character.
+The [Spell ID](/files/DBC/335/spell#id) known to the character.
 &nbsp;
 
 ### active
 Signifies whether the spell appears in the spell book
 * 0: unavailable
-* 1: available 
+* 1: available
 &nbsp;
 
 ### disabled

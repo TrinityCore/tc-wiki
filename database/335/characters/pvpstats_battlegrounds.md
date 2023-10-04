@@ -1,6 +1,6 @@
 ---
 title: pvpstats_battlegrounds
-description: 
+description:
 published: true
 date: 2023-08-01T14:40:47.224Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -59,7 +59,7 @@ Identifies the bracket level range:
 &nbsp;
 
 ### type
-ID from BattlemasterList.dbc
+[BattlemasterList ID](/files/DBC/335/battlemasterlist#id)
 | ID | Name |
 |------|------|
 | 1 | Alterac Valley |

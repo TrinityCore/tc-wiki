@@ -1,9 +1,9 @@
 ---
 title: *_scripts
-description: 
+description:
 published: true
 date: 2023-07-09T16:57:16.125Z
-tags: 
+tags:
 editor: markdown
 dateCreated: 2023-07-09T16:57:16.125Z
 ---
@@ -36,13 +36,13 @@ This table format is used for 3 different tables to control possible scripts act
 | [o](#o) | float |  |  | NO | 0 |  |  |
 | [guid](#guid) ^\[2]^ | int | signed | PRI | NO | 0 |  | Acts as primary key and is set automatically using the GM command 'wp event add' |
 | [Comment](#comment) | varchar(255) |  |  | NO | '' |  |  |
-^1^ present in spell_scripts table only. 
+^1^ present in spell_scripts table only.
 ^2^ present in waypoint_scripts table only.
 &nbsp;
 ## Description of fields
 
 ### id
-* `spell_scripts`: spell ID from Spell.dbc
+* `spell_scripts`: [Spell ID](/files/DBC/335/spell#id)
 * `waypoint_scripts`: action ID from [waypoint_data](../world/waypoint_data#action)
 * `event_scripts`: an event ID. There doesn't exist currently a full list of events. In any case, the event IDs are taken directly from gameobject WDB data or spell effect data. If both a gameobject and a spell activate the same event, the IDs will match.
 &nbsp;
@@ -101,12 +101,12 @@ The following commands can be used:
 | command | datalong | datalong2 | dataint | coordinate tuple |
 |---------|----------|-----------|---------|------------|
 | 0 | [ChatType](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Globals/ObjectMgr.h) | talk source: 0 - creature; 1 - player | [broadcast_text](../world/broadcast_text#id) | - |
-| 1 | emoteId from Emotes.dbc | play emote as: 0 - oneshot; 1 - state | 0 | - |
+| 1 | [Emote ID](/files/DBC/335/emotes#id) | play emote as: 0 - oneshot; 1 - state | 0 | - |
 | 2 | field index | value to be set | 0 | - |
 | 3 | 0 | time for movement (in seconds?) | 0 | destination |
 | 4 | field index | bitmask to be set | 0 | - |
 | 5 | field index | bitmask to be unset | 0 | - |
-| 6 | destination map id from Map.dbc | target: 0 - player; 1 - creature | 0 | destination |
+| 6 | destination [Map ID](/files/DBC/335/map#id) | target: 0 - player; 1 - creature | 0 | destination |
 | 7 | [quest ID](../world/quest_template#id) to satisfy | min distance to target to satisfy (min.: 5m) | 0 | - |
 | 8 | [creature entry](../world/creature_template#entry) to credit | granted to: 0 - player; 1 - player+party | 0 | - |
 | 9 | [object guid](../world/gameobject#guid) to spawn | despawn delay in seconds (min.: 5s) | 0 | - |
@@ -114,9 +114,9 @@ The following commands can be used:
 | 11 | [object guid](../world/gameobject#guid) to open | reset delay in milliseconds (min.: 15000ms) | 0 | - |
 | 12 | [object guid](../world/gameobject#guid) to close | reset delay in milliseconds (min.: 15000ms) | 0 | - |
 | 13 | 0 | 0 | 0 | - |
-| 14 | spell id from Spell.dbc to remove | remove from: 0 - target; 1 - source | 0 | - |
-| 15 | spell id from Spell.dbc to cast | 0: Source -> Target<br>1: Source -> Source (self cast)<br>2: Target -> Target<br>3: Target -> Source (cast back)<br>4: [creature entry](../world/creature_template#entry) from **dataint** | cast type: 0 - normal; 1 - triggered<br><br><br><br>[creature entry](../world/creature_template#entry) | - |
-| 16 | sound if from SoundEntries.dbc to play | 0x1: play to everyone instead of player<br>0x2: play with distance dependancy instead of without| 0 | - |
+| 14 | [Spell ID](/files/DBC/335/spell#id) to remove | remove from: 0 - target; 1 - source | 0 | - |
+| 15 | [Spell ID](/files/DBC/335/spell#id) to cast | 0: Source -> Target<br>1: Source -> Source (self cast)<br>2: Target -> Target<br>3: Target -> Source (cast back)<br>4: [creature entry](../world/creature_template#entry) from **dataint** | cast type: 0 - normal; 1 - triggered<br><br><br><br>[creature entry](../world/creature_template#entry) | - |
+| 16 | [SoundEntry ID](/files/DBC/335/soundentries#id) to play | 0x1: play to everyone instead of player<br>0x2: play with distance dependancy instead of without| 0 | - |
 | 17 | [item entry](../world/item_template#entry) to create | amount | 0 | - |
 | 18 | despawn delay (in seconds?) | 0 | 0 | - |
 | 20 | waypoint [path id](../world/waypoint_data#ID) to load | repeatable: 0 - no; 1 - yes | 0 | - |
@@ -124,9 +124,9 @@ The following commands can be used:
 | 22 | 0 | 0 | 0: leave corpse; 1: remove corpse | - |
 | 30 | face: 0 - **o** value; 1 - target | 0 | 0 | 0 0 0 orientation (max.: 2π) |
 | 31 | ID from [creature_equip_template](../world/creature_equip_template#id) | 0 | 0 | - |
-| 32 | model id from CreatureDisplayInfo.dbc | 0 | 0 | - |
+| 32 | [CreatureDisplayInfo ID](/files/DBC/335/creaturedisplayinfo#id) | 0 | 0 | - |
 | 33 | 0 | 0 | 0 | - |
-| 34 | movie id from Movie.dbc to play | 0 | 0 | - |
+| 34 | [Movie ID](/files/DBC/335/movie#id) to play | 0 | 0 | - |
 | 35 | MOTION_TYPE: 1 - RANDOM; 2 - WAYPOINT | distance in m for RANDOM_MOTION_TYPE | [path id](../world/waypoint_data#ID) for WAYPOINT_MOTION_TYPE| - |
 {.dense}
 

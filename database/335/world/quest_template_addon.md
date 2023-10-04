@@ -1,6 +1,6 @@
 ---
 title: quest_template_addon
-description: 
+description:
 published: true
 date: 2023-07-13T20:33:10.586Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -46,7 +46,7 @@ Maximum level at which a player can get the quest.
 &nbsp;
 
 ### AllowableClasses
-Class id mask from ChrClasses.dbc allowed to get the quest.
+Class mask of [ChrClass IDs](/files/DBC/335/chrclasses#id) allowed to get the quest.
 | Value | Flag   | Name         |
 |-------|--------|--------------|
 |     1 | 0x0001 | Warrior      |
@@ -64,7 +64,7 @@ Class id mask from ChrClasses.dbc allowed to get the quest.
 &nbsp;
 
 ### SourceSpellID
-Spell id from Spell.dbc cast on player when quest is started. Can be a buff or a learning spell.
+[Spell ID](/files/DBC/335/spell#id) cast on player when quest is started. Can be a buff or a learning spell.
 &nbsp;
 
 ### PrevQuestID
@@ -78,10 +78,10 @@ Spell id from Spell.dbc cast on player when quest is started. Can be a buff or a
 &nbsp;
 
 ### ExclusiveGroup
-* **ExclusiveGroup** > 0: Allows to define a group of quests of which only one may be chosen and completed. 
+* **ExclusiveGroup** > 0: Allows to define a group of quests of which only one may be chosen and completed.
 E.g. if from quests 1200, 1201 and 1202 only one should be allowed to be chosen, insert 1200 into ExclusiveGroup of all 3 quests.
 
-* **ExclusiveGroup** < 0: Allows to define a group of quests of which all must be completed and rewarded to start next quest. 
+* **ExclusiveGroup** < 0: Allows to define a group of quests of which all must be completed and rewarded to start next quest.
 E.g. if quest 1000 dependent from one of quests 1200, 1201 and 1202 and all this quests have same negative exclusive group then all this quest must be completed and rewarded before quest 1000 can be started.
 
 > Note: All quests that use an **ExclusiveGroup** must also have entries in [quest_pool_template](../world/quest_pool_template) and  [quest_pool_members](../world/quest_pool_members) in order for the core to choose one randomly. See the examples section for examples.
@@ -95,7 +95,7 @@ Breadcrumb quests exist for the sole purpose of guiding the player to a new zone
 &nbsp;
 
 ### RewardMailTemplateID
-If the quest gives as a reward an item from a possible list of items, the ID here corresponds to the proper entry in [mail_loot_template](../world/loot_template) and MailTemplate.dbc. According to the rules in that loot template, items "looted" will be sent by mail at the completion of the quest.
+If the quest gives as a reward an item from a possible list of items, the ID here corresponds to the proper entry in [mail_loot_template](../world/loot_template) and [MailTemplate ID](/files/DBC/335/mailtemplate#id). According to the rules in that loot template, items "looted" will be sent by mail at the completion of the quest.
 &nbsp;
 
 ### RewardMailDelay
@@ -103,7 +103,7 @@ How many seconds to wait until the mail is sent to the character that turned in 
 &nbsp;
 
 ### RequiredSkillID
-Skill id from SkillLine.dbc required to know to accept the quest.
+[SkillLine ID](/files/DBC/335/skillline#id) required to know to accept the quest.
 &nbsp;
 
 ### RequiredSkillPoints
@@ -111,11 +111,11 @@ Skill points in **RequiredSkillID** required to have in order to accept the ques
 &nbsp;
 
 ### RequiredMinRepFaction
-Faction id from Faction.dbc for reputation requirement.
+[Faction ID](/files/DBC/335/faction#id) for reputation requirement.
 &nbsp;
 
 ### RequiredMaxRepFaction
-Faction id from Faction.dbc for reputation requirement.
+[Faction ID](/files/DBC/335/faction#id) for reputation requirement.
 &nbsp;
 
 ### RequiredMinRepValue

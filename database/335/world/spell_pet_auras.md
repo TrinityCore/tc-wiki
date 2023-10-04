@@ -1,6 +1,6 @@
 ---
 title: spell_pet_auras
-description: 
+description:
 published: true
 date: 2023-07-22T21:49:28.767Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -10,7 +10,7 @@ dateCreated: 2021-08-30T22:09:45.979Z
 
 <a href="https://trinitycore.info/en/database/335/world/spell_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'spell_loot_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/spell_proc" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'spell_proc'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
-This table links player controlled pet spells with their actual effects. 
+This table links player controlled pet spells with their actual effects.
 
 ## Structure
 
@@ -24,7 +24,7 @@ This table links player controlled pet spells with their actual effects.
 ## Description of fields
 
 ### spell
-Dummy spell from Spell.dbc
+Dummy [Spell ID](/files/DBC/335/spell#id).
 On the selected **effectId** it must either have SPELL_EFFECT_DUMMY (3) or apply a SPELL_AURA_DUMMY (4).
 &nbsp;
 
@@ -37,7 +37,7 @@ If set, **aura** is only applied to this [creature entry](../world/creature_temp
 &nbsp;
 
 ### aura
-SpellId from Spell.dbc with the actual effects described by **spell**.
+[Spell ID](/files/DBC/335/spell#id) with the actual effects described by **spell**.
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/world/spell_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'spell_loot_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/spell_proc" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'spell_proc'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>

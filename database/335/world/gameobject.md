@@ -1,6 +1,6 @@
 ---
 title: gameobject
-description: 
+description:
 published: true
 date: 2023-07-09T20:49:04.818Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -48,7 +48,7 @@ The [entry](../world/gameobject_template#entry) of the template that is used whe
 &nbsp;
 
 ### map
-The map ID where this object is spawned. (see Map.dbc)
+The [Map ID](/files/DBC/335/map#id) where this object is spawned.
 &nbsp;
 
 ### zoneId

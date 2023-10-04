@@ -1,6 +1,6 @@
 ---
 title: spell_script_names
-description: 
+description:
 published: true
 date: 2023-07-23T16:45:54.692Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -22,7 +22,7 @@ Holds the spell id to ScriptName pairings for use in spell scripts.
 ## Description of fields
 
 ### spell_id
-The ID of the spell from Spell.dbc to link. If it is negative and a [first_spell_id](../world/spell_ranks#first_spell_id), all ranks of the spell specified in [spell_ranks](../world/spell_ranks) are included.
+The [Spell ID](/files/DBC/335/spell#id) to link. If it is negative and a [first_spell_id](../world/spell_ranks#first_spell_id), all ranks of the spell specified in [spell_ranks](../world/spell_ranks) are included.
 
 One spell can have more than one script assigned.
 &nbsp;

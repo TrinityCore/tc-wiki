@@ -1,6 +1,6 @@
 ---
 title: item_loot_items
-description: 
+description:
 published: true
 date: 2023-07-31T19:31:11.812Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -11,7 +11,7 @@ dateCreated: 2021-08-30T22:01:29.745Z
 <a href="https://trinitycore.info/en/database/335/characters/item_instance" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'item_instance'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/item_loot_money" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'item_loot_money'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
 > Contains the items associated with a [lootable container item](https://aowow.trinitycore.info/?items&filter=cr=11;crs=1;crv=0).
-> 
+>
 > This table is populated the first time the player right-clicks to open an item. Rows are deleted when the player either removes an item or destroys the container item.
 {.is-info}
 
@@ -52,7 +52,7 @@ The [item entry](../world/item_template#entry) of the loot item.
 &nbsp;
 
 ### item_count
-The stack size of the item. 
+The stack size of the item.
 (**item_count** <= [stackable](../world/item_template#stackable))
 &nbsp;
 
@@ -97,12 +97,12 @@ Flag to determine if the item is a quest item to be counted as a "quest drop".
 &nbsp;
 
 ### rnd_prop
-ID from ItemRandomProperties.dbc (if any) that was rolled and added to the item when the loot container was originally opened.
+[ItemRandomProperty ID](/files/DBC/335/itemrandomproperties#id) (if any) that was rolled and added to the item when the loot container was originally opened.
 Mutually exclusive with **rnd_suffix**.
 &nbsp;
 
 ### rnd_suffix
-ID from ItemRandomSuffix.dbc (if any) that was rolled and added to the item when the loot container was originally opened.
+[ItemRandomSuffix ID](/files/DBC/335/itemrandomsuffix#id) (if any) that was rolled and added to the item when the loot container was originally opened.
 Mutually exclusive with **rnd_prop**.
 &nbsp;
 

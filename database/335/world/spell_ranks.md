@@ -1,6 +1,6 @@
 ---
 title: spell_ranks
-description: 
+description:
 published: true
 date: 2023-07-23T01:04:11.240Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -23,11 +23,11 @@ Table used by the core to group different ranks of spells (the gray text seen on
 ## Description of fields
 
 ### first_spell_id
-SpellID from Spell.dbc which is first rank of spell rank chain. It identifies the whole chain.
+[Spell ID](/files/DBC/335/spell#id) which is first rank of spell rank chain. It identifies the whole chain.
 &nbsp;
 
 ### spell_id
-SpellId from Spell.dbc
+references [Spell ID](/files/DBC/335/spell#id)
 &nbsp;
 
 ### rank

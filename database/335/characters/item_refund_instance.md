@@ -1,6 +1,6 @@
 ---
 title: item_refund_instance
-description: 
+description:
 published: true
 date: 2023-07-31T19:55:19.258Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -38,7 +38,7 @@ The amount of money (in copper) paid for the item.
 &nbsp;
 
 ### paidExtendedCost
-The ItemExtendedCost.dbc ID that was paid for the item.
+The [ItemExtendedCost ID](/files/DBC/335/itemextendedcost#id) that was paid for the item.
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/characters/item_loot_money" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'item_loot_money'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/item_soulbound_trade_data" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'item_soulbound_trade_data'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>

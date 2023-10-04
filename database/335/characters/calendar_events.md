@@ -1,6 +1,6 @@
 ---
 title: calendar_events
-description: 
+description:
 published: true
 date: 2023-07-24T23:47:14.596Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -57,7 +57,7 @@ fulltext event description
 &nbsp;
 
 ### dungeon
-DungeonID from LFGDungeons.dbc or `-1` if not set.
+[LFGDungeon ID](/files/DBC/335/lfgdungeons#id) or `-1` if not set.
 &nbsp;
 
 ### eventtime

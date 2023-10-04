@@ -1,6 +1,6 @@
 ---
 title: item_instance
-description: 
+description:
 published: true
 date: 2023-07-31T17:03:51.640Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -83,7 +83,7 @@ The number of charges for each of the five possible [spellcharges](../world/item
 &nbsp;
 
 ### enchantments
-Stores all enchantments as 12 space separated 3-tuples of \[EnchantmentId duration charges\]. EnchantmentId is index of SpellItemEnchantment.dbc.
+Stores all enchantments as 12 space separated 3-tuples of \[EnchantmentId duration charges\]. EnchantmentId is a [SpellItemEnchantment ID](/files/DBC/335/spellitemenchantment#id).
 `enum EnchantmentSlot`
 | ID | Name | Comment |
 |----|------|---------|
@@ -104,8 +104,8 @@ Stores all enchantments as 12 space separated 3-tuples of \[EnchantmentId durati
 &nbsp;
 
 ### randomPropertyId
-* **randomPropertyId** > 0: ID from ItemRandomProperties.dbc
-* **randomPropertyId** < 0: ID from ItemRandomSuffix.dbc
+* **randomPropertyId** > 0: [ItemRandomProperty ID](/files/DBC/335/itemrandomproperties#id)
+* **randomPropertyId** < 0: [ItemRandomSuffix ID](/files/DBC/335/itemrandomsuffix#id)
 &nbsp;
 
 ### durability

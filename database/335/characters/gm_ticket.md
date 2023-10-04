@@ -1,6 +1,6 @@
 ---
 title: gm_ticket
-description: 
+description:
 published: true
 date: 2023-07-30T17:50:53.633Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -72,7 +72,7 @@ Unix timestamp when the ticket was submitted.
 &nbsp;
 
 ### mapId
-MapID from Map.dbc where ticket has ben created.
+[Map ID](/files/DBC/335/map#id) where ticket has ben created.
 &nbsp;
 
 ### posX
@@ -105,7 +105,7 @@ The GM comment to the ticket, only visible to game masters.
 &nbsp;
 
 ### response
-The GMs response to the ticket issuer. 
+The GMs response to the ticket issuer.
 &nbsp;
 
 ### completed

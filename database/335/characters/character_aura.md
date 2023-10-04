@@ -1,6 +1,6 @@
 ---
 title: character_aura
-description: 
+description:
 published: true
 date: 2023-07-25T19:19:46.251Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -25,12 +25,12 @@ dateCreated: 2021-08-30T21:59:17.652Z
 | [effectMask](#effectmask) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [recalculateMask](#recalculatemask) | tinyint | unsigned |  | NO | 0 |  |  |
 | [stackCount](#stackcount) | tinyint | unsigned |  | NO | 1 |  |  |
-| [amount0](#amount0) | int | signed |  | NO | 0 |  |  |
-| [amount1](#amount1) | int | signed |  | NO | 0 |  |  |
-| [amount2](#amount2) | int | signed |  | NO | 0 |  |  |
-| [base_amount0](#base_amount0) | int | signed |  | NO | 0 |  |  |
-| [base_amount1](#base_amount1) | int | signed |  | NO | 0 |  |  |
-| [base_amount2](#base_amount2) | int | signed |  | NO | 0 |  |  |
+| [amount0](#amount[0-2]) | int | signed |  | NO | 0 |  |  |
+| [amount1](#amount[0-2]) | int | signed |  | NO | 0 |  |  |
+| [amount2](#amount[0-2]) | int | signed |  | NO | 0 |  |  |
+| [base_amount0](#base_amount[0-2]) | int | signed |  | NO | 0 |  |  |
+| [base_amount1](#base_amount[0-2]) | int | signed |  | NO | 0 |  |  |
+| [base_amount2](#base_amount[0-2]) | int | signed |  | NO | 0 |  |  |
 | [maxDuration](#maxduration) | int | signed |  | NO | 0 |  |  |
 | [remainTime](#remaintime) | int | signed |  | NO | 0 |  |  |
 | [remainCharges](#remaincharges) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -44,15 +44,15 @@ The [character guid](../characters/characters#guid) of the target affected by th
 &nbsp;
 
 ### casterGuid
-The [character guid](../characters/characters#guid) player who casted the aura. 
+The [character guid](../characters/characters#guid) player who casted the aura.
 &nbsp;
 
 ### itemGuid
-The [item guid](../characters/item_instance#guid) of the item which casted the aura. 
+The [item guid](../characters/item_instance#guid) of the item which casted the aura.
 &nbsp;
 
 ### spell
-The SpellID from Spell.dbc which applied the aura. 
+The [Spell ID](/files/DBC/335/spell#id) which applied the aura.
 &nbsp;
 
 ### effectMask

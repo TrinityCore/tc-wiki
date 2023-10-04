@@ -1,6 +1,6 @@
 ---
 title: playercreateinfo_spell_custom
-description: 
+description:
 published: true
 date: 2023-07-12T09:44:58.425Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -26,7 +26,7 @@ Please note you'll have to set `PlayerStart.AllSpells = 1` in config, else this 
 ## Description of fields
 
 ### racemask
-Race id mask from ChrRaces.dbc. `0` is all races.
+Race mask of [ChrRace IDs](/files/DBC/335/chrraces#id). `0` is all races.
 | Value | Flag   | Name      |
 |-------|--------|-----------|
 |     1 | 0x0001 | Human     |
@@ -44,7 +44,7 @@ Race id mask from ChrRaces.dbc. `0` is all races.
 &nbsp;
 
 ### classmask
-Class id mask from ChrClasses.dbc. `0` is all classes.
+Class mask of [ChrClass IDs](/files/DBC/335/chrclasses#id). `0` is all classes.
 | Value | Flag   | Name         |
 |-------|--------|--------------|
 |     1 | 0x0001 | Warrior      |
@@ -62,7 +62,7 @@ Class id mask from ChrClasses.dbc. `0` is all classes.
 &nbsp;
 
 ### Spell
-A spell id from Spell.dbc to start with.
+A [Spell ID](/files/DBC/335/spell#id) to start with.
 &nbsp;
 
 ### Note

@@ -1,6 +1,6 @@
 ---
 title: groups
-description: 
+description:
 published: true
 date: 2023-07-30T18:46:31.753Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -80,7 +80,7 @@ Quality threshold past which players have to roll for items.
 
 &nbsp;
 
-### icon\[1-8\]
+### icon\[1-8]
 [character guid](../characters/characters#guid) or [creature guid](../characters/creature#guid) the icon is placed on.
 | Idx | Name |
 |-----|------|

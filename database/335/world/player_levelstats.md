@@ -1,6 +1,6 @@
 ---
 title: player_levelstats
-description: 
+description:
 published: true
 date: 2023-07-11T21:42:16.695Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -28,7 +28,7 @@ This table holds information on what stats are gained by characters when they le
 ## Description of fields
 
 ### race
-The character race from ChrRaces.dbc. This field along with **class** defines what stats to be applied on the character.
+The characters [ChrRace ID](/files/DBC/335/chrraces#id). This field along with **class** defines what stats to be applied on the character.
 | ID | Name      |
 |----|-----------|
 |  1 | Human     |
@@ -46,7 +46,7 @@ The character race from ChrRaces.dbc. This field along with **class** defines wh
 &nbsp;
 
 ### class
-The character class from ChrClasses.dbc. This field along with **race** defines what stats to be applied on the character.
+The characters [ChrClass ID](/files/DBC/335/chrclasses#id). This field along with **race** defines what stats to be applied on the character.
 | ID | Name         |
 |----|--------------|
 |  1 | Warrior      |

@@ -1,6 +1,6 @@
 ---
 title: spell_bonus_data
-description: 
+description:
 published: true
 date: 2023-07-20T22:22:54.555Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -26,7 +26,7 @@ Table used for storing custom damage/healing bonus coefficients.
 ## Description of fields
 
 ### entry
-SpellID from Spell.dbc.
+references [Spell ID](/files/DBC/335/spell#id)
 Only the first rank of the spell needs data if spell exists in [spell_ranks](../world/spell_ranks) and coefficients are the same for each rank.
 &nbsp;
 

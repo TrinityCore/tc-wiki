@@ -1,6 +1,6 @@
 ---
 title: spell_area
-description: 
+description:
 published: true
 date: 2023-08-31T07:50:10.771Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -30,11 +30,11 @@ This table is used to apply a specific spell aura to the player within an area i
 ## Description of fields
 
 ### spell
-The SpellID from Spell.dbc to be casted on the player.
+The [Spell ID](/files/DBC/335/spell#id) to be casted on the player.
 &nbsp;
 
 ### area
-The AreaID from AreaTable.dbc where **spell** should be applied.
+The [AreaTable ID](/files/DBC/335/areatable#id) where **spell** should be applied.
 &nbsp;
 
 ### quest_start
@@ -47,14 +47,14 @@ Setting both quest_start and quest_end to the same value is useless.
 &nbsp;
 
 ### aura_spell
-If set, this value (plus or minus aura SpellID from Spell.dbc) imposes additional condition.
+If set, this value (plus or minus aura [Spell ID](/files/DBC/335/spell#id)) imposes additional condition.
 * **aura_spell** < 0: If the player has aura **-aura_spell** then **spell** will not be activated.
 * **aura_spell** = 0: This column is ignored.
 * **aura_spell** > 0: If the player has no aura **aura_spell** then **spell** will not be activated.
 &nbsp;
 
 ### racemask
-Races mask of ids from ChrRaces.dbc **spell** applies to. (0: any race)
+Race mask of [ChrRace IDs](/files/DBC/335/chrraces#id) **spell** applies to. (0: any race)
 | Value | Flag   | Name      |  | Value | Flag   | Name      |
 |-------|--------|-----------|--|-------|--------|-----------|
 |     1 | 0x0001 | Human     |  |     2 | 0x0002 | Orc       |

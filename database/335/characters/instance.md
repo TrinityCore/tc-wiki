@@ -1,6 +1,6 @@
 ---
 title: instance
-description: 
+description:
 published: true
 date: 2023-07-31T15:58:26.626Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -32,7 +32,7 @@ The instance ID. This number is unique to every instance.
 &nbsp;
 
 ### map
-The MapID from Map.dbc the instance is in.
+The [Map ID](/files/DBC/335/map#id) the instance is in.
 &nbsp;
 
 ### resettime
@@ -52,8 +52,8 @@ The resettime of raid and heroic instances for every specific group is stored in
 &nbsp;
 
 ### completedEncounters
-Bitmask of completed encounters, where EncounterBit is col. 5 of the matching DungeonEncounter.dbc entry.
-`completedEncounters |= 1 << EncounterBit;` 
+Bitmask of completed encounters, where EncounterBit is [DungeonEncounter OrderIndex](/files/DBC/335/dungeonencounter#orderindex) of the matching entry.
+`completedEncounters |= 1 << EncounterBit;`
 &nbsp;
 
 ### data

@@ -1,6 +1,6 @@
 ---
 title: character_achievement
-description: 
+description:
 published: true
 date: 2023-07-25T18:18:51.310Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -29,11 +29,11 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### achievement
-The ID of the achievement from Achievement.dbc
+[Achievement ID](/files/DBC/335/achievement#id)
 &nbsp;
 
 ### date
-The date/time when this achievement was earned, in Unix time. 
+The date/time when this achievement was earned, in Unix time.
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/characters/character_account_data" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_account_data'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/character_achievement_progress" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_achievement_progress'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>

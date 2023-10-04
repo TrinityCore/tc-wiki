@@ -1,6 +1,6 @@
 ---
 title: quest_details
-description: 
+description:
 published: true
 date: 2023-07-12T11:11:14.742Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -17,14 +17,14 @@ This table handles Quest NPC emotes with emote delays when accepting a quest.
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ID](#id) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [Emote1](#emote1) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote2](#emote2) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote3](#emote3) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote4](#emote4) | smallint | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay1](#emotedelay1) | int | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay2](#emotedelay2) | int | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay3](#emotedelay3) | int | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay4](#emotedelay4) | int | unsigned |  | NO | 0 |  |  |
+| [Emote1](#emote[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote2](#emote[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote3](#emote[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote4](#emote[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay1](#emotedelay[1-4]) | int | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay2](#emotedelay[1-4]) | int | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay3](#emotedelay[1-4]) | int | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay4](#emotedelay[1-4]) | int | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -34,7 +34,7 @@ references [quest_template.ID](../world/quest_template#id)
 &nbsp;
 
 ### Emote\[1-4]
-Emote from Emotes.dbc played by NPC.
+[Emote ID](/files/DBC/335/emotes#id) played by NPC.
 &nbsp;
 
 ### EmoteDelay\[1-4]

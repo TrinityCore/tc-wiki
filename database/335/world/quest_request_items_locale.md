@@ -1,6 +1,6 @@
 ---
 title: quest_request_items_locale
-description: 
+description:
 published: true
 date: 2022-11-21T21:30:18.249Z
 tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
@@ -26,7 +26,19 @@ dateCreated: 2021-08-30T22:08:28.041Z
 &nbsp;
 
 ### locale
-*- no description -*
+[Localization](/how-to/localization):
+| locale | Name |
+| :---: | :---: |
+| koKR | Korean|
+| frFR | French|
+| deDE | German|
+| zhCN | Chinese |
+| zhTW | Taiwanese |
+| esES | Spanish (EU) |
+| esMX | Spanish (Latin American) |
+| ruRU | Russian |
+{.dense}
+
 &nbsp;
 
 ### CompletionText

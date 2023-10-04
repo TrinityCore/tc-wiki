@@ -1,6 +1,6 @@
 ---
 title: item_template
-description: 
+description:
 published: true
 date: 2023-07-11T17:13:34.269Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -45,26 +45,26 @@ Holds information on every item that exists in the game. All items are created f
 | [stackable](#stackable) | int | signed |  | YES | 1 |  |  |
 | [ContainerSlots](#containerslots) | tinyint | unsigned |  | NO | 0 |  |  |
 | [StatsCount](#statscount) | tinyint | unsigned |  | NO | 0 |  |  |
-| [stat_type1](#stat_type1) | tinyint | unsigned |  | NO | 0 |  |  |
-| [stat_value1](#stat_value1) | smallint | signed |  | NO | 0 |  |  |
-| [stat_type2](#stat_type2) | tinyint | unsigned |  | NO | 0 |  |  |
-| [stat_value2](#stat_value2) | smallint | signed |  | NO | 0 |  |  |
-| [stat_type3](#stat_type3) | tinyint | unsigned |  | NO | 0 |  |  |
-| [stat_value3](#stat_value3) | smallint | signed |  | NO | 0 |  |  |
-| [stat_type4](#stat_type4) | tinyint | unsigned |  | NO | 0 |  |  |
-| [stat_value4](#stat_value4) | smallint | signed |  | NO | 0 |  |  |
-| [stat_type5](#stat_type5) | tinyint | unsigned |  | NO | 0 |  |  |
-| [stat_value5](#stat_value5) | smallint | signed |  | NO | 0 |  |  |
-| [stat_type6](#stat_type6) | tinyint | unsigned |  | NO | 0 |  |  |
-| [stat_value6](#stat_value6) | smallint | signed |  | NO | 0 |  |  |
-| [stat_type7](#stat_type7) | tinyint | unsigned |  | NO | 0 |  |  |
-| [stat_value7](#stat_value7) | smallint | signed |  | NO | 0 |  |  |
-| [stat_type8](#stat_type8) | tinyint | unsigned |  | NO | 0 |  |  |
-| [stat_value8](#stat_value8) | smallint | signed |  | NO | 0 |  |  |
-| [stat_type9](#stat_type9) | tinyint | unsigned |  | NO | 0 |  |  |
-| [stat_value9](#stat_value9) | smallint | signed |  | NO | 0 |  |  |
-| [stat_type10](#stat_type10) | tinyint | unsigned |  | NO | 0 |  |  |
-| [stat_value10](#stat_value10) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type1](#stat_type[1-10]) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value1](#stat_value[1-10]) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type2](#stat_type[1-10]) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value2](#stat_value[1-10]) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type3](#stat_type[1-10]) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value3](#stat_value[1-10]) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type4](#stat_type[1-10]) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value4](#stat_value[1-10]) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type5](#stat_type[1-10]) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value5](#stat_value[1-10]) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type6](#stat_type[1-10]) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value6](#stat_value[1-10]) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type7](#stat_type[1-10]) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value7](#stat_value[1-10]) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type8](#stat_type[1-10]) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value8](#stat_value[1-10]) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type9](#stat_type[1-10]) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value9](#stat_value[1-10]) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type10](#stat_type1[1-10]) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value10](#stat_value1[1-10]) | smallint | signed |  | NO | 0 |  |  |
 | [ScalingStatDistribution](#scalingstatdistribution) | smallint | signed |  | NO | 0 |  |  |
 | [ScalingStatValue](#scalingstatvalue) | int | unsigned |  | NO | 0 |  |  |
 | [dmg_min1](#dmg_min1) | float |  |  | NO | 0 |  |  |
@@ -83,41 +83,41 @@ Holds information on every item that exists in the game. All items are created f
 | [delay](#delay) | smallint | unsigned |  | NO | 1000 |  |  |
 | [ammo_type](#ammo_type) | tinyint | unsigned |  | NO | 0 |  |  |
 | [RangedModRange](#rangedmodrange) | float |  |  | NO | 0 |  |  |
-| [spellid_1](#spellid_1) | mediumint | signed |  | NO | 0 |  |  |
-| [spelltrigger_1](#spelltrigger_1) | tinyint | unsigned |  | NO | 0 |  |  |
-| [spellcharges_1](#spellcharges_1) | smallint | signed |  | NO | 0 |  |  |
-| [spellppmRate_1](#spellppmrate_1) | float |  |  | NO | 0 |  |  |
-| [spellcooldown_1](#spellcooldown_1) | int | signed |  | NO | -1 |  |  |
-| [spellcategory_1](#spellcategory_1) | smallint | unsigned |  | NO | 0 |  |  |
-| [spellcategorycooldown_1](#spellcategorycooldown_1) | int | signed |  | NO | -1 |  |  |
-| [spellid_2](#spellid_2) | mediumint | signed |  | NO | 0 |  |  |
-| [spelltrigger_2](#spelltrigger_2) | tinyint | unsigned |  | NO | 0 |  |  |
-| [spellcharges_2](#spellcharges_2) | smallint | signed |  | NO | 0 |  |  |
-| [spellppmRate_2](#spellppmrate_2) | float |  |  | NO | 0 |  |  |
-| [spellcooldown_2](#spellcooldown_2) | int | signed |  | NO | -1 |  |  |
-| [spellcategory_2](#spellcategory_2) | smallint | unsigned |  | NO | 0 |  |  |
-| [spellcategorycooldown_2](#spellcategorycooldown_2) | int | signed |  | NO | -1 |  |  |
-| [spellid_3](#spellid_3) | mediumint | signed |  | NO | 0 |  |  |
-| [spelltrigger_3](#spelltrigger_3) | tinyint | unsigned |  | NO | 0 |  |  |
-| [spellcharges_3](#spellcharges_3) | smallint | signed |  | NO | 0 |  |  |
-| [spellppmRate_3](#spellppmrate_3) | float |  |  | NO | 0 |  |  |
-| [spellcooldown_3](#spellcooldown_3) | int | signed |  | NO | -1 |  |  |
-| [spellcategory_3](#spellcategory_3) | smallint | unsigned |  | NO | 0 |  |  |
-| [spellcategorycooldown_3](#spellcategorycooldown_3) | int | signed |  | NO | -1 |  |  |
-| [spellid_4](#spellid_4) | mediumint | signed |  | NO | 0 |  |  |
-| [spelltrigger_4](#spelltrigger_4) | tinyint | unsigned |  | NO | 0 |  |  |
-| [spellcharges_4](#spellcharges_4) | smallint | signed |  | NO | 0 |  |  |
-| [spellppmRate_4](#spellppmrate_4) | float |  |  | NO | 0 |  |  |
-| [spellcooldown_4](#spellcooldown_4) | int | signed |  | NO | -1 |  |  |
-| [spellcategory_4](#spellcategory_4) | smallint | unsigned |  | NO | 0 |  |  |
-| [spellcategorycooldown_4](#spellcategorycooldown_4) | int | signed |  | NO | -1 |  |  |
-| [spellid_5](#spellid_5) | mediumint | signed |  | NO | 0 |  |  |
-| [spelltrigger_5](#spelltrigger_5) | tinyint | unsigned |  | NO | 0 |  |  |
-| [spellcharges_5](#spellcharges_5) | smallint | signed |  | NO | 0 |  |  |
-| [spellppmRate_5](#spellppmrate_5) | float |  |  | NO | 0 |  |  |
-| [spellcooldown_5](#spellcooldown_5) | int | signed |  | NO | -1 |  |  |
-| [spellcategory_5](#spellcategory_5) | smallint | unsigned |  | NO | 0 |  |  |
-| [spellcategorycooldown_5](#spellcategorycooldown_5) | int | signed |  | NO | -1 |  |  |
+| [spellid_1](#spellid_[1-5]) | mediumint | signed |  | NO | 0 |  |  |
+| [spelltrigger_1](#spelltrigger_[1-5]) | tinyint | unsigned |  | NO | 0 |  |  |
+| [spellcharges_1](#spellcharges_[1-5]) | smallint | signed |  | NO | 0 |  |  |
+| [spellppmRate_1](#spellppmrate_[1-5]) | float |  |  | NO | 0 |  |  |
+| [spellcooldown_1](#spellcooldown_[1-5]) | int | signed |  | NO | -1 |  |  |
+| [spellcategory_1](#spellcategory_[1-5]) | smallint | unsigned |  | NO | 0 |  |  |
+| [spellcategorycooldown_1](#spellcategorycooldown_[1-5]) | int | signed |  | NO | -1 |  |  |
+| [spellid_2](#spellid_[1-5]) | mediumint | signed |  | NO | 0 |  |  |
+| [spelltrigger_2](#spelltrigger_[1-5]) | tinyint | unsigned |  | NO | 0 |  |  |
+| [spellcharges_2](#spellcharges_[1-5]) | smallint | signed |  | NO | 0 |  |  |
+| [spellppmRate_2](#spellppmrate_[1-5]) | float |  |  | NO | 0 |  |  |
+| [spellcooldown_2](#spellcooldown_[1-5]) | int | signed |  | NO | -1 |  |  |
+| [spellcategory_2](#spellcategory_[1-5]) | smallint | unsigned |  | NO | 0 |  |  |
+| [spellcategorycooldown_2](#spellcategorycooldown_[1-5]) | int | signed |  | NO | -1 |  |  |
+| [spellid_3](#spellid_[1-5]) | mediumint | signed |  | NO | 0 |  |  |
+| [spelltrigger_3](#spelltrigger_[1-5]) | tinyint | unsigned |  | NO | 0 |  |  |
+| [spellcharges_3](#spellcharges_[1-5]) | smallint | signed |  | NO | 0 |  |  |
+| [spellppmRate_3](#spellppmrate_[1-5]) | float |  |  | NO | 0 |  |  |
+| [spellcooldown_3](#spellcooldown_[1-5]) | int | signed |  | NO | -1 |  |  |
+| [spellcategory_3](#spellcategory_[1-5]) | smallint | unsigned |  | NO | 0 |  |  |
+| [spellcategorycooldown_3](#spellcategorycooldown_[1-5]) | int | signed |  | NO | -1 |  |  |
+| [spellid_4](#spellid_[1-5]) | mediumint | signed |  | NO | 0 |  |  |
+| [spelltrigger_4](#spelltrigger_[1-5]) | tinyint | unsigned |  | NO | 0 |  |  |
+| [spellcharges_4](#spellcharges_[1-5]) | smallint | signed |  | NO | 0 |  |  |
+| [spellppmRate_4](#spellppmrate_[1-5]) | float |  |  | NO | 0 |  |  |
+| [spellcooldown_4](#spellcooldown_[1-5]) | int | signed |  | NO | -1 |  |  |
+| [spellcategory_4](#spellcategory_[1-5]) | smallint | unsigned |  | NO | 0 |  |  |
+| [spellcategorycooldown_4](#spellcategorycooldown_[1-5]) | int | signed |  | NO | -1 |  |  |
+| [spellid_5](#spellid_[1-5]) | mediumint | signed |  | NO | 0 |  |  |
+| [spelltrigger_5](#spelltrigger_[1-5]) | tinyint | unsigned |  | NO | 0 |  |  |
+| [spellcharges_5](#spellcharges_[1-5]) | smallint | signed |  | NO | 0 |  |  |
+| [spellppmRate_5](#spellppmrate_[1-5]) | float |  |  | NO | 0 |  |  |
+| [spellcooldown_5](#spellcooldown_[1-5]) | int | signed |  | NO | -1 |  |  |
+| [spellcategory_5](#spellcategory_[1-5]) | smallint | unsigned |  | NO | 0 |  |  |
+| [spellcategorycooldown_5](#spellcategorycooldown_[1-5]) | int | signed |  | NO | -1 |  |  |
 | [bonding](#bonding) | tinyint | unsigned |  | NO | 0 |  |  |
 | [description](#description) | varchar(255) |  |  | NO | '' |  |  |
 | [PageText](#pagetext) | mediumint | unsigned |  | NO | 0 |  |  |
@@ -136,12 +136,12 @@ Holds information on every item that exists in the game. All items are created f
 | [Map](#map) | smallint | signed |  | NO | 0 |  |  |
 | [BagFamily](#bagfamily) | mediumint | signed |  | NO | 0 |  |  |
 | [TotemCategory](#totemcategory) | mediumint | signed |  | NO | 0 |  |  |
-| [socketColor_1](#socketcolor_1) | tinyint | signed |  | NO | 0 |  |  |
-| [socketContent_1](#socketcontent_1) | mediumint | signed |  | NO | 0 |  |  |
-| [socketColor_2](#socketcolor_2) | tinyint | signed |  | NO | 0 |  |  |
-| [socketContent_2](#socketcontent_2) | mediumint | signed |  | NO | 0 |  |  |
-| [socketColor_3](#socketcolor_3) | tinyint | signed |  | NO | 0 |  |  |
-| [socketContent_3](#socketcontent_3) | mediumint | signed |  | NO | 0 |  |  |
+| [socketColor_1](#socketcolor_[1-3]) | tinyint | signed |  | NO | 0 |  |  |
+| [socketContent_1](#socketcontent_[1-3]) | mediumint | signed |  | NO | 0 |  |  |
+| [socketColor_2](#socketcolor_[1-3]) | tinyint | signed |  | NO | 0 |  |  |
+| [socketContent_2](#socketcontent_[1-3]) | mediumint | signed |  | NO | 0 |  |  |
+| [socketColor_3](#socketcolor_[1-3]) | tinyint | signed |  | NO | 0 |  |  |
+| [socketContent_3](#socketcontent_[1-3]) | mediumint | signed |  | NO | 0 |  |  |
 | [socketBonus](#socketbonus) | mediumint | signed |  | NO | 0 |  |  |
 | [GemProperties](#gemproperties) | mediumint | signed |  | NO | 0 |  |  |
 | [RequiredDisenchantSkill](#requireddisenchantskill) | smallint | signed |  | NO | -1 |  |  |
@@ -164,67 +164,67 @@ The unique ID of the item.
 &nbsp;
 
 ### class
-Id from ItemClass.dbc
+references [ItemClass ID](/files/DBC/335/itemclass#id)
 
 excerpt
 | ID | Name |  | ID | Name |
 |----|------|--|----|------|
-| 0 | Consumable | | 7 | Trade Goods | 
-| 1 | Container | | 9 | Recipe | 
-| 2 | Weapon | | 11 | Quiver | 
-| 3 | Gem | | 12 | Quest | 
-| 4 | Armor | | 13 | Key | 
-| 5 | Reagent | | 15 | Miscellaneous | 
-| 6 | Projectile | | 16 | Glyph | 
+| 0 | Consumable | | 7 | Trade Goods |
+| 1 | Container | | 9 | Recipe |
+| 2 | Weapon | | 11 | Quiver |
+| 3 | Gem | | 12 | Quest |
+| 4 | Armor | | 13 | Key |
+| 5 | Reagent | | 15 | Miscellaneous |
+| 6 | Projectile | | 16 | Glyph |
 {.dense}
 
 &nbsp;
 
 ### subclass
-subClassId from ItemSubClass.dbc
+references [ItemSubClass ID](/files/DBC/335/itemsubclass#id)
 
 excerpt
-| classId | subclassId | Name |  | classId | subclassId | Name |  | classId | subclassId | Name |  
+| classId | subclassId | Name |  | classId | subclassId | Name |  | classId | subclassId | Name |
 |---------|------------|------|--|---------|------------|------|--|---------|------------|------|
-| 0 | 0 | Consumable | | 3 | 0 | Red | | 9 | 0 | Book | 
-| 0 | 1 | Potion | | 3 | 1 | Blue | | 9 | 1 | Leatherworking | 
-| 0 | 2 | Elixir | | 3 | 2 | Yellow | | 9 | 2 | Tailoring | 
-| 0 | 3 | Flask | | 3 | 3 | Purple | | 9 | 3 | Engineering | 
-| 0 | 4 | Scroll | | 3 | 4 | Green | | 9 | 4 | Blacksmithing | 
-| 0 | 5 | Food & Drink | | 3 | 5 | Orange | | 9 | 5 | Cooking | 
-| 0 | 6 | Item Enhancement | | 3 | 6 | Meta | | 9 | 6 | Alchemy | 
-| 0 | 7 | Bandage | | 3 | 7 | Simple | | 9 | 7 | First Aid | 
-| 0 | 8 | Other | | 3 | 8 | Prismatic | | 9 | 8 | Enchanting | 
-|  |  |  | |  |  |  | | 9 | 9 | Fishing | 
-| 1 | 0 | Bag | | 4 | 0 | Miscellaneous | | 9 | 10 | Jewelcrafting | 
-| 1 | 1 | Soul Bag | | 4 | 1 | Cloth | |  |  |  | 
-| 1 | 2 | Herb Bag | | 4 | 2 | Leather | | 11 | 2 | Quiver (Arrow Container) | 
-| 1 | 3 | Enchanting Bag | | 4 | 3 | Mail | | 11 | 3 | Ammo Pouch (Bullet Container) | 
-| 1 | 4 | Engineering Bag | | 4 | 4 | Plate | |  |  |  | 
-| 1 | 5 | Gem Bag | | 4 | 6 | Shield | | 12 | 0 | Quest | 
-| 1 | 6 | Mining Bag | | 4 | 7 | Libram | |  |  |  | 
-| 1 | 7 | Leatherworking Bag | | 4 | 8 | Idol | | 13 | 0 | Key | 
-| 1 | 8 | Inscription Bag | | 4 | 9 | Totem | | 13 | 1 | Lockpick | 
-|  |  |  | | 4 | 10 | Sigil | |  |  |  | 
-| 2 | 0 | Axe (1H) | |  |  |  | | 14 | 0 | Permanent | 
-| 2 | 1 | Axe (2H) | | 5 | 0 | Reagent | |  |  |  | 
-| 2 | 2 | Bow | |  |  |  | | 15 | 0 | Junk | 
-| 2 | 3 | Gun | | 6 | 2 | Arrow | | 15 | 1 | Reagent | 
-| 2 | 4 | Mace (1H) | | 6 | 3 | Bullet | | 15 | 2 | Pet | 
-| 2 | 5 | Mace (2H) | |  |  |  | | 15 | 3 | Holiday | 
-| 2 | 6 | Polearm | | 7 | 0 | Trade Goods | | 15 | 4 | Other | 
-| 2 | 7 | Sword (1H) | | 7 | 1 | Parts | | 15 | 5 | Mount | 
-| 2 | 8 | Sword (2H) | | 7 | 2 | Explosives | |  |  |  | 
-| 2 | 10 | Staff | | 7 | 3 | Devices | | 16 | 1 | Warrior | 
-| 2 | 11 | Exotic | | 7 | 4 | Jewelcrafting | | 16 | 2 | Paladin | 
-| 2 | 12 | Exotic | | 7 | 5 | Cloth | | 16 | 3 | Hunter | 
-| 2 | 13 | Fist Weapon | | 7 | 6 | Leather | | 16 | 4 | Rogue | 
-| 2 | 14 | Miscellaneous (Tools) | | 7 | 7 | Metal & Stone | | 16 | 5 | Priest | 
-| 2 | 15 | Dagger | | 7 | 8 | Meat | | 16 | 6 | Death Knight | 
-| 2 | 16 | Thrown | | 7 | 9 | Herb | | 16 | 7 | Shaman | 
-| 2 | 17 | Spear | | 7 | 10 | Elemental | | 16 | 8 | Mage | 
-| 2 | 18 | Crossbow | | 7 | 11 | Other | | 16 | 9 | Warlock | 
-| 2 | 19 | Wand | | 7 | 12 | Enchanting | | 16 | 11 | Druid | 
+| 0 | 0 | Consumable | | 3 | 0 | Red | | 9 | 0 | Book |
+| 0 | 1 | Potion | | 3 | 1 | Blue | | 9 | 1 | Leatherworking |
+| 0 | 2 | Elixir | | 3 | 2 | Yellow | | 9 | 2 | Tailoring |
+| 0 | 3 | Flask | | 3 | 3 | Purple | | 9 | 3 | Engineering |
+| 0 | 4 | Scroll | | 3 | 4 | Green | | 9 | 4 | Blacksmithing |
+| 0 | 5 | Food & Drink | | 3 | 5 | Orange | | 9 | 5 | Cooking |
+| 0 | 6 | Item Enhancement | | 3 | 6 | Meta | | 9 | 6 | Alchemy |
+| 0 | 7 | Bandage | | 3 | 7 | Simple | | 9 | 7 | First Aid |
+| 0 | 8 | Other | | 3 | 8 | Prismatic | | 9 | 8 | Enchanting |
+|  |  |  | |  |  |  | | 9 | 9 | Fishing |
+| 1 | 0 | Bag | | 4 | 0 | Miscellaneous | | 9 | 10 | Jewelcrafting |
+| 1 | 1 | Soul Bag | | 4 | 1 | Cloth | |  |  |  |
+| 1 | 2 | Herb Bag | | 4 | 2 | Leather | | 11 | 2 | Quiver (Arrow Container) |
+| 1 | 3 | Enchanting Bag | | 4 | 3 | Mail | | 11 | 3 | Ammo Pouch (Bullet Container) |
+| 1 | 4 | Engineering Bag | | 4 | 4 | Plate | |  |  |  |
+| 1 | 5 | Gem Bag | | 4 | 6 | Shield | | 12 | 0 | Quest |
+| 1 | 6 | Mining Bag | | 4 | 7 | Libram | |  |  |  |
+| 1 | 7 | Leatherworking Bag | | 4 | 8 | Idol | | 13 | 0 | Key |
+| 1 | 8 | Inscription Bag | | 4 | 9 | Totem | | 13 | 1 | Lockpick |
+|  |  |  | | 4 | 10 | Sigil | |  |  |  |
+| 2 | 0 | Axe (1H) | |  |  |  | | 14 | 0 | Permanent |
+| 2 | 1 | Axe (2H) | | 5 | 0 | Reagent | |  |  |  |
+| 2 | 2 | Bow | |  |  |  | | 15 | 0 | Junk |
+| 2 | 3 | Gun | | 6 | 2 | Arrow | | 15 | 1 | Reagent |
+| 2 | 4 | Mace (1H) | | 6 | 3 | Bullet | | 15 | 2 | Pet |
+| 2 | 5 | Mace (2H) | |  |  |  | | 15 | 3 | Holiday |
+| 2 | 6 | Polearm | | 7 | 0 | Trade Goods | | 15 | 4 | Other |
+| 2 | 7 | Sword (1H) | | 7 | 1 | Parts | | 15 | 5 | Mount |
+| 2 | 8 | Sword (2H) | | 7 | 2 | Explosives | |  |  |  |
+| 2 | 10 | Staff | | 7 | 3 | Devices | | 16 | 1 | Warrior |
+| 2 | 11 | Exotic | | 7 | 4 | Jewelcrafting | | 16 | 2 | Paladin |
+| 2 | 12 | Exotic | | 7 | 5 | Cloth | | 16 | 3 | Hunter |
+| 2 | 13 | Fist Weapon | | 7 | 6 | Leather | | 16 | 4 | Rogue |
+| 2 | 14 | Miscellaneous (Tools) | | 7 | 7 | Metal & Stone | | 16 | 5 | Priest |
+| 2 | 15 | Dagger | | 7 | 8 | Meat | | 16 | 6 | Death Knight |
+| 2 | 16 | Thrown | | 7 | 9 | Herb | | 16 | 7 | Shaman |
+| 2 | 17 | Spear | | 7 | 10 | Elemental | | 16 | 8 | Mage |
+| 2 | 18 | Crossbow | | 7 | 11 | Other | | 16 | 9 | Warlock |
+| 2 | 19 | Wand | | 7 | 12 | Enchanting | | 16 | 11 | Druid |
 | 2 | 20 | Fishing Pole | | 7 | 13 | Materials |  |  |  |  |
 |  |  |  | | 7 | 14 | Armor Enchantment |  |  |  |  |
 |  |  |  | | 7 | 15 | Weapon Enchantment |  |  |  |  |
@@ -243,7 +243,7 @@ The name of the item.
 &nbsp;
 
 ### displayid
-The model ID of the item from ItemDisplayInfo.dbc
+references [ItemDisplayInfo ID](/files/DBC/335/itemdisplayinfo#id)
 Each model has its own icon assigned so this field controls both the model appearance and the icon.
 &nbsp;
 
@@ -358,25 +358,25 @@ In what slot the item can be equipped. (see [`enum InventoryType`](https://githu
 | ID | Name |   | ID | Name |
 |----|------|---|----|------|
 | 1 | INVTYPE_HEAD | | 15 | INVTYPE_RANGED |
-| 2 | INVTYPE_NECK | | 16 | INVTYPE_CLOAK | 
-| 3 | INVTYPE_SHOULDERS | | 17 | INVTYPE_2HWEAPON | 
-| 4 | INVTYPE_BODY | | 18 | INVTYPE_BAG | 
-| 5 | INVTYPE_CHEST | | 19 | INVTYPE_TABARD | 
-| 6 | INVTYPE_WAIST | | 20 | INVTYPE_ROBE | 
-| 7 | INVTYPE_LEGS | | 21 | INVTYPE_WEAPONMAINHAND | 
-| 8 | INVTYPE_FEET | | 22 | INVTYPE_WEAPONOFFHAND | 
-| 9 | INVTYPE_WRISTS | | 23 | INVTYPE_HOLDABLE | 
-| 10 | INVTYPE_HANDS | | 24 | INVTYPE_AMMO | 
-| 11 | INVTYPE_FINGER | | 25 | INVTYPE_THROWN | 
-| 12 | INVTYPE_TRINKET | | 26 | INVTYPE_RANGEDRIGHT | 
-| 13 | INVTYPE_WEAPON | | 27 | INVTYPE_QUIVER | 
-| 14 | INVTYPE_SHIELD | | 28 | INVTYPE_RELIC | 
+| 2 | INVTYPE_NECK | | 16 | INVTYPE_CLOAK |
+| 3 | INVTYPE_SHOULDERS | | 17 | INVTYPE_2HWEAPON |
+| 4 | INVTYPE_BODY | | 18 | INVTYPE_BAG |
+| 5 | INVTYPE_CHEST | | 19 | INVTYPE_TABARD |
+| 6 | INVTYPE_WAIST | | 20 | INVTYPE_ROBE |
+| 7 | INVTYPE_LEGS | | 21 | INVTYPE_WEAPONMAINHAND |
+| 8 | INVTYPE_FEET | | 22 | INVTYPE_WEAPONOFFHAND |
+| 9 | INVTYPE_WRISTS | | 23 | INVTYPE_HOLDABLE |
+| 10 | INVTYPE_HANDS | | 24 | INVTYPE_AMMO |
+| 11 | INVTYPE_FINGER | | 25 | INVTYPE_THROWN |
+| 12 | INVTYPE_TRINKET | | 26 | INVTYPE_RANGEDRIGHT |
+| 13 | INVTYPE_WEAPON | | 27 | INVTYPE_QUIVER |
+| 14 | INVTYPE_SHIELD | | 28 | INVTYPE_RELIC |
 {.dense}
 
 &nbsp;
 
 ### AllowableClass
-Bitmask of ids from ChrClasses.dbc controlling which classes can use this item. Use -1 if all classes can use it.
+Bitmask of [ChrClass IDs](/files/DBC/335/chrclasses#id) controlling which classes can use this item. Use -1 if all classes can use it.
 | Value | Flag | Name |
 |-------|------|------|
 |     1 | 0x0001 | Warrior      |
@@ -394,7 +394,7 @@ Bitmask of ids from ChrClasses.dbc controlling which classes can use this item. 
 &nbsp;
 
 ### AllowableRace
-Bitmask of ids from ChrRaces.dbc controlling which races can use this item. Use -1 if all races can use it.
+Bitmask of [ChrRace IDs](/files/DBC/335/chrraces#id) controlling which races can use this item. Use -1 if all races can use it.
 | Value | Flag | Name |
 |-------|------|------|
 |     1 | 0x0001 | Human     |
@@ -420,7 +420,7 @@ The level that a player must be to equip the item.
 &nbsp;
 
 ### RequiredSkill
-The skill required to use this item. See the SkillLine.dbc file for IDs which can be used here.
+The [SkillLine ID](/files/DBC/335/skillline#id) required to use this item.
 &nbsp;
 
 ### RequiredSkillRank
@@ -428,7 +428,7 @@ The required skill rank the player needs to have to use this item.
 &nbsp;
 
 ### requiredspell
-The required Id from Spell.dbc that the player needs to have to use this item.
+The [Spell ID](/files/DBC/335/spell#id) that the player needs to have to use this item.
 &nbsp;
 
 ### requiredhonorrank
@@ -458,7 +458,7 @@ The honor rank the player needs to have to use this item.
 &nbsp;
 
 ### RequiredReputationFaction
-Id from FactionTemplate.dbc for the faction that the player has to have a certain ranking with. If this value is 0, the faction of the seller of the item is used.
+[FactionTemplate ID](/files/DBC/335/factiontemplate#id) that the player has to have a certain ranking with. If this value is 0, the faction of the seller of the item is used.
 &nbsp;
 
 ### RequiredReputationRank
@@ -515,7 +515,7 @@ The type of stat to modify. (see [`enum ItemModType`](https://github.com/Trinity
 | 19 | ITEM_MOD_CRIT_MELEE_RATING | | | 41 | ITEM_MOD_SPELL_HEALING_DONE | deprecated |
 | 20 | ITEM_MOD_CRIT_RANGED_RATING | | | 42 | ITEM_MOD_SPELL_DAMAGE_DONE | deprecated |
 | 21 | ITEM_MOD_CRIT_SPELL_RATING | | | 43 | ITEM_MOD_MANA_REGENERATION | |
-| 22 | ITEM_MOD_HIT_TAKEN_MELEE_RATING | | | 44 | ITEM_MOD_ARMOR_PENETRATION_RATING | 
+| 22 | ITEM_MOD_HIT_TAKEN_MELEE_RATING | | | 44 | ITEM_MOD_ARMOR_PENETRATION_RATING |
 | 23 | ITEM_MOD_HIT_TAKEN_RANGED_RATING | | | 45 | ITEM_MOD_SPELL_POWER | |
 | 24 | ITEM_MOD_HIT_TAKEN_SPELL_RATING | | | 46 | ITEM_MOD_HEALTH_REGEN | |
 | 25 | ITEM_MOD_CRIT_TAKEN_MELEE_RATING | | | 47 | ITEM_MOD_SPELL_PENETRATION | |
@@ -530,11 +530,11 @@ The value to change the stat type to.
 
 ### ScalingStatDistribution
 Similar to Static Stats these are the Stats that grow along with the users level (mainly heirloom leveling gear) use like static stats.
-Id from ScalingStatDistribution.dbc
+references [ScalingStatDistribution ID](/files/DBC/335/scalingstatdistribution#id)
 &nbsp;
 
 ### ScalingStatValue
-Mask for selecting column in ScalingStatValues.dbc
+Mask for selecting column in [ScalingStatValues](/files/DBC/335/scalingstatvalues)
 &nbsp;
 
 ### dmg_min1
@@ -590,7 +590,7 @@ The time in milliseconds between successive hits. (weapon swing speed)
 &nbsp;
 
 ### ammo_type
-The type of ammunition the item uses. 
+The type of ammunition the item uses.
 * 2: Arrows
 * 3: Bullets
 &nbsp;
@@ -602,26 +602,26 @@ All blizzard ranged weapons have **RangedModRange** 100.
 &nbsp;
 
 ### spellid_\[1-5]
-An id from Spell.dbc that the item can cast or trigger.
+A [Spell ID](/files/DBC/335/spell#id) that the item can cast or trigger.
 &nbsp;
 
 ### spelltrigger_\[1-5]
 Id from `enum ItemSpelltriggerType`
 | ID | Name | Comment |
 |----|------|---------|
-| 0 | ITEM_SPELLTRIGGER_ON_USE | use after equip cooldown |                   
+| 0 | ITEM_SPELLTRIGGER_ON_USE | use after equip cooldown |
 | 1 | ITEM_SPELLTRIGGER_ON_EQUIP | |
 | 2 | ITEM_SPELLTRIGGER_CHANCE_ON_HIT | |
 | 4 | ITEM_SPELLTRIGGER_SOULSTONE | |
-| 5 | ITEM_SPELLTRIGGER_ON_NO_DELAY_USE | no equip cooldown | 
+| 5 | ITEM_SPELLTRIGGER_ON_NO_DELAY_USE | no equip cooldown |
 | 6 | ITEM_SPELLTRIGGER_LEARN_SPELL_ID | used in **spellid_2** with SPELL_GENERIC_LEARN in **spellid_1** |
 {.dense}
 
 &nbsp;
 
 ### spellcharges_\[1-5]
-The number of times N that the item can cast the spell. 
-* N = 0: infinite uses 
+The number of times N that the item can cast the spell.
+* N = 0: infinite uses
 * N < 0: After N uses the item is destroyed.
 * N > 0: After N uses the spell can no longer be triggered.
 &nbsp;
@@ -632,18 +632,18 @@ For ITEM_SPELLTRIGGER_CHANCE_ON_HIT (2) the proc per minute rate controls how of
 &nbsp;
 
 ### spellcooldown_\[1-5]
-The cooldown in milliseconds for the specific spell controlling how often the spell can be used. Use -1 to use the default spell cooldown. 
+The cooldown in milliseconds for the specific spell controlling how often the spell can be used. Use -1 to use the default spell cooldown.
 > Note: this is not the "internal cooldown" of procs commonly found on items such as trinkets with "Chance on hit" effects.
 {.is-info}
 
 &nbsp;
 
 ### spellcategory_\[1-5]
-The category that the spell is in. (Id from SpellCategory.dbc)
+The [SpellCategory ID](/files/DBC/335/spellcategory#id) that the spell is in.
 &nbsp;
 
 ### spellcategorycooldown_\[1-5]
-The cooldown time in milliseconds that is applied to all other spells of the same **spellcategory**. 
+The cooldown time in milliseconds that is applied to all other spells of the same **spellcategory**.
 Use -1 to use the default spell cooldown.
 &nbsp;
 
@@ -669,7 +669,7 @@ The [page_text.ID](../world/page_text#id) referring to the text that the item wi
 &nbsp;
 
 ### LanguageID
-The language id found in Languages.dbc, that the item text is written in. 
+The [Language ID](/files/DBC/335/languages#id), that the item text is written in.
 | ID | Language | | ID | Language |
 |----|----------|-|----|----------|
 | 1 | Orcish | | 12 | Kalimag |
@@ -686,7 +686,7 @@ The language id found in Languages.dbc, that the item text is written in.
 &nbsp;
 
 ### PageMaterial
-An id from PageTextMaterial.dbc defining the background texture that appears in the page text window.
+A [PageTextMaterial ID](/files/DBC/335/pagetextmaterial#id) defining the background texture that appears in the page text window.
 &nbsp;
 
 ### startquest
@@ -694,11 +694,11 @@ The [quest_template.ID](../world/quest_template#id) of the quest that this item 
 &nbsp;
 
 ### lockid
-An id from Lock.dbc that this item (which serves as a key) is tied to. This field is used in key-door mechanics.
+A [Lock ID](/files/DBC/335/lock#id) that this item (which serves as a key) is tied to. This field is used in key-door mechanics.
 &nbsp;
 
 ### Material
-An id from Material.dbc defining what the item is made of. The value here affects the sound that the item makes when moved. 
+A [Material ID](/files/DBC/335/material#id) defining what the item is made of. The value here affects the sound that the item makes when moved.
 Use -1 for consumable items like food, reagents, etc.
 | ID | Name |
 |----|------|
@@ -731,15 +731,15 @@ Controls how the item is put away on the character. Press the 'Z' hotkey to shea
 &nbsp;
 
 ### RandomProperty
-The number in this field points to [item_enchantment_template.entry](../world/item_enchantment_template#entry) and ties in an item's chance at having a random property attached to it when it is generated. 
-The items enchantments are then ultimately derived from ItemRandomProperties.dbc
+The number in this field points to [item_enchantment_template.entry](../world/item_enchantment_template#entry) and ties in an item's chance at having a random property attached to it when it is generated.
+The items enchantments are then ultimately derived from [ItemRandomProperties](/files/DBC/335/itemrandomproperties)
 
 This field and the **RandomSuffix** field CANNOT both have non-zero values.
 &nbsp;
 
 ### RandomSuffix
-The number in this field points to [item_enchantment_template.entry](../world/item_enchantment_template#entry) and ties in an item's chance at having a random suffix attached to it when it is generated. 
-The items enchantments are then ultimately derived from ItemRandomSuffix.dbc
+The number in this field points to [item_enchantment_template.entry](../world/item_enchantment_template#entry) and ties in an item's chance at having a random suffix attached to it when it is generated.
+The items enchantments are then ultimately derived from [ItemRandomSuffix](/files/DBC/335/itemrandomsuffix)
 
 This field and the **RandomProperty** field CANNOT both have non-zero values.
 &nbsp;
@@ -749,8 +749,8 @@ If the item is a shield, the block chance of the shield.
 &nbsp;
 
 ### itemset
-The ID of the item set that this item belongs to. 
-> Note: You *can not* make up new item sets. Item sets are defined in ItemSet.dbc
+The ID of the item set that this item belongs to.
+> Note: You *can not* make up new item sets. Item sets are defined in [ItemSet](/files/DBC/335/itemset)
 {.is-info}
 
 &nbsp;
@@ -760,15 +760,15 @@ The maximum durability of this item.
 &nbsp;
 
 ### area
-The AreaTable.dbc id of the zone in which this item exists. Leaving the zone will detroy it. 
+The [AreaTable ID](/files/DBC/335/areatable#id) of the zone in which this item exists. Leaving the zone will detroy it.
 &nbsp;
 
 ### Map
-The Map.dbc id of the map in which this item exists. Leaving the map will detroy it. 
+The [Map ID](/files/DBC/335/map#id) in which this item exists. Leaving the map will detroy it.
 &nbsp;
 
 ### BagFamily
-If the item is a bag, this field is a bitmask controlling what types of items can be put in this bag. You can combine different types by adding up the bit numbers.
+If the item is a bag, this field is a bitmask of [BagFamily IDs](/files/DBC/335/itembagfamily#id) controlling what types of items can be put in this bag. You can combine different types by adding up the bit numbers.
 | Value | Flag | Name |
 |-------|------|------|
 | 1 | 0x0001 | Arrows |
@@ -791,7 +791,8 @@ If the item is a bag, this field is a bitmask controlling what types of items ca
 &nbsp;
 
 ### TotemCategory
-Id to a tool from TotemCategory.dbc. This item is required to cast spells with a set ToolCategory.
+references [TotemCategory ID](/files/DBC/335/totemcategory#id).
+This item is a tool and is required to cast spells with a set [Spell RequiredTotemCategory](/files/DBC/335/spell#requiredtotemcategoryid).
 
 excerpt
 | ID | Name |  | ID | Name |
@@ -816,7 +817,7 @@ excerpt
 
 ### socketColor_\[1-3]
 The color of the socket on this item.
-| ID | Name | 
+| ID | Name |
 |----|------|
 | 1 | Meta |
 | 2 | Red |
@@ -831,11 +832,11 @@ Amount of gems of **SocketColor_X**?
 &nbsp;
 
 ### socketBonus
-Id from SpellItemEnchantment.dbc to be enabled when all sockets on the item have matching gems.
+[SpellItemEnchantment ID](/files/DBC/335/spellitemenchantment#id) to be enabled when all sockets on the item have matching gems.
 &nbsp;
 
 ### GemProperties
-The value here corresponds to an id from GemProperties.dbc. This item itself should be of ITEM_CLASS_GEM (3).
+The value here corresponds to a [GemPropery ID](/files/DBC/335/gemproperties#id). This item itself should be of ITEM_CLASS_GEM (3).
 &nbsp;
 
 ### RequiredDisenchantSkill
@@ -843,7 +844,7 @@ The required proficiency in SKILL_ENCHANTING (333) that the player needs to have
 &nbsp;
 
 ### ArmorDamageModifier
-Defines how much of an items **armor** is counted as bonus. 
+Defines how much of an items **armor** is counted as bonus.
 This fields value is not added onto the armor total and values less than 0 are ignored entirely.
 &nbsp;
 
@@ -853,7 +854,7 @@ Set ITEM_FLAGS_CU_DURATION_REAL_TIME in **flagsCustom** for real time. In that c
 &nbsp;
 
 ### ItemLimitCategory
-Id from ItemLimitCategory.dbc. It defines how many items of that ItemLimitCategory can be either owned or equipped.
+references [ItemLimitCategory ID](/files/DBC/335/itemlimitcategory#id). It defines how many items of that ItemLimitCategory can be either owned or equipped.
 e.g.: The heroic and regular version of a ring/trinket share their ItemLimitCategory.
 
 excerpt
@@ -867,7 +868,8 @@ excerpt
 &nbsp;
 
 ### HolidayId
-An id from Holidays.dbc. If no [game_events](../world/game_event#holiday) with the associated holiday are active this item will be destroyed.
+references [HolidayID](/files/DBC/335/holidays#id)
+If no [game_events](../world/game_event#holiday) with the associated holiday are active this item will be destroyed.
 &nbsp;
 
 ### ScriptName
@@ -879,7 +881,8 @@ references [disenchant_loot_template.Entry](../world/loot_template#entry)
 &nbsp;
 
 ### FoodType
-An id from ItemPet.Food.dbc. It defines what Hunter pet family can use this item as food.
+references [ItemPetFood ID](/files/DBC/335/itempetfood#id)
+It defines what Hunter pet family can use this item as food.
 
 > Note: Raw meat and raw fish is not the same as regular meat and fish. It seems that the last two types of diets include grey "poor" types of food that players have no use for but some pets seem to be able to eat. Also, those food types appeared in TBC so most likely only TBC pets will have those types of diets.
 {.is-info}

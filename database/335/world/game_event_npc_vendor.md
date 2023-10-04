@@ -1,6 +1,6 @@
 ---
 title: game_event_npc_vendor
-description: 
+description:
 published: true
 date: 2023-07-09T18:14:21.641Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -52,7 +52,7 @@ Combined with **maxcount**, this field tells how often (in seconds) the vendor l
 &nbsp;
 
 ### ExtendedCost
-The value here corresponds to an ID in ItemExtendedCost.dbc and that ID controls the item's non monetary price, be it honor points, arena points, different types of badges or any combination of the above.
+The value here corresponds to an [ItemExtendedCost ID](/files/DBC/335/itemextendedcost#id) and that ID controls the item's non monetary price, be it honor points, arena points, different types of badges or any combination of the above.
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/world/game_event_model_equip" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'game_event_model_equip'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/game_event_npcflag" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'game_event_npcflag'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>

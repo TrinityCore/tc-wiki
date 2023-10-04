@@ -1,6 +1,6 @@
 ---
 title: skill_extra_item_template
-description: 
+description:
 published: true
 date: 2023-07-15T10:21:30.287Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -24,11 +24,11 @@ This table holds information about when using certain profession spells will cre
 ## Description of fields
 
 ### spellId
-The spell id from Spell.dbc that creates the item.
+The [Spell ID](/files/DBC/335/spell#id) that creates the item.
 &nbsp;
 
 ### requiredSpecialization
-The character must have the spell id from Spell.dbc specified here learned to have a chance at triggering the extra item proc.
+The character must have the [Spell ID](/files/DBC/335/spell#id) specified here learned to have a chance at triggering the extra item proc.
 &nbsp;
 
 ### additionalCreateChance
@@ -36,7 +36,7 @@ The chance that the player will create an additional item.
 &nbsp;
 
 ### additionalMaxNum
-The number of extra copies that can be created. 
+The number of extra copies that can be created.
 **additionalCreateChance** is rolled for each attempt, until failure or reaching **additionalMaxNum**.
 &nbsp;
 

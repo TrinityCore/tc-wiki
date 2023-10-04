@@ -1,6 +1,6 @@
 ---
 title: mail_level_reward
-description: 
+description:
 published: true
 date: 2023-07-11T17:41:26.733Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -46,7 +46,7 @@ Players race must match mask to receive mail.
 &nbsp;
 
 ### mailTemplateId
-Entry from MailTemplate.dbc to send.
+[MailTemplate ID](/files/DBC/335/mailtemplate#id) to send.
 &nbsp;
 
 ### senderEntry

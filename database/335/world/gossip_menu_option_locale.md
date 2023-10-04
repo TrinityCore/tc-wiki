@@ -1,6 +1,6 @@
 ---
 title: gossip_menu_option_locale
-description: 
+description:
 published: true
 date: 2022-11-21T21:28:16.230Z
 tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
@@ -31,7 +31,19 @@ dateCreated: 2021-08-30T22:05:44.625Z
 &nbsp;
 
 ### Locale
-*- no description -*
+[Localization](/how-to/localization):
+| Locale | Name |
+| :---: | :---: |
+| koKR | Korean|
+| frFR | French|
+| deDE | German|
+| zhCN | Chinese |
+| zhTW | Taiwanese |
+| esES | Spanish (EU) |
+| esMX | Spanish (Latin American) |
+| ruRU | Russian |
+{.dense}
+
 &nbsp;
 
 ### OptionText

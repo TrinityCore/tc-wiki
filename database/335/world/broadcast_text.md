@@ -1,6 +1,6 @@
 ---
 title: broadcast_text
-description: 
+description:
 published: true
 date: 2023-07-11T18:03:18.853Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -24,12 +24,12 @@ All the values are from sniffs (ADBVerified) so, don't add things in it - Kinzco
 | [LanguageID](#languageid) | mediumint | unsigned |  | NO | 0 |  |  |
 | [Text](#text) | longtext |  |  | YES | NULL |  |  |
 | [Text1](#text1) | longtext |  |  | YES | NULL |  |  |
-| [EmoteID1](#emoteid1) | mediumint | unsigned |  | NO | 0 |  |  |
-| [EmoteID2](#emoteid2) | mediumint | unsigned |  | NO | 0 |  |  |
-| [EmoteID3](#emoteid3) | mediumint | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay1](#emotedelay1) | mediumint | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay2](#emotedelay2) | mediumint | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay3](#emotedelay3) | mediumint | unsigned |  | NO | 0 |  |  |
+| [EmoteID1](#emoteid[1-3]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [EmoteID2](#emoteid[1-3]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [EmoteID3](#emoteid[1-3]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay1](#emotedelay[1-3]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay2](#emotedelay[1-3]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay3](#emotedelay[1-3]) | mediumint | unsigned |  | NO | 0 |  |  |
 | [SoundEntriesID](#soundentriesid) | mediumint | unsigned |  | NO | 0 |  |  |
 | [EmotesID](#emotesid) | mediumint | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | mediumint | unsigned |  | NO | 0 |  |  |
@@ -42,7 +42,7 @@ Self description.
 &nbsp;
 
 ### LanguageID
-The language in which the text will be broadcasted. (see Languages.dbc)
+The [Language ID](/files/DBC/335/languages#id) in which the text will be broadcasted.
 | ID | Language | | ID | Language |
 |----|----------|-|----|----------|
 | 1 | Orcish | | 12 | Kalimag |
@@ -67,7 +67,7 @@ The alternative text that the creature will broadcast.
 &nbsp;
 
 ### EmoteID\[1-3]
-The emotes played when the texts are broadcasted. (see Emotes.dbc)
+The [Emote ID](/files/DBC/335/emotes#id) played when the texts are broadcasted.
 &nbsp;
 
 ### EmoteDelay\[1-3]
@@ -75,10 +75,10 @@ The delays of the broadcasted emotes.
 &nbsp;
 
 ### SoundEntriesID
-The sounds played when the texts are broadcasted. (see SoundEntries.dbc)
+The [SoundEntry ID](/files/DBC/335/soundentries#id) played when the texts are broadcasted.
 &nbsp;
 
-### EmotesID
+### Emote ID
 *- no description -*
 &nbsp;
 

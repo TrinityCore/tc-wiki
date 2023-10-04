@@ -1,6 +1,6 @@
 ---
 title: player_factionchange_reputations
-description: 
+description:
 published: true
 date: 2023-07-11T21:15:15.134Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -22,13 +22,13 @@ Basically all faction/reputation changes made when player changes faction.
 ## Description of fields
 
 ### alliance_id
-This is the alliance faction id from Faction.dbc. If you convert to horde and your factions have a record in his table, they will be converted to **horde_id**.
+This is the alliance [Faction ID](/files/DBC/335/faction#id). If you convert to horde and your factions have a record in his table, they will be converted to **horde_id**.
 See [character_reputation.faction](../characters/character_reputation#faction)
 
 &nbsp;
 
 ### horde_id
-This is the horde faction id from Faction.dbc. If you convert to alliance and your factions have a record in his table, they will be converted to **alliance_id**.
+This is the horde [Faction ID](/files/DBC/335/faction#id). If you convert to alliance and your factions have a record in his table, they will be converted to **alliance_id**.
 See [character_reputation.faction](../characters/character_reputation#faction)
 
 &nbsp;

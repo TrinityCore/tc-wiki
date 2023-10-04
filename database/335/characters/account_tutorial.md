@@ -1,6 +1,6 @@
 ---
 title: account_tutorial
-description: 
+description:
 published: true
 date: 2023-07-24T20:16:52.036Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -18,14 +18,14 @@ dateCreated: 2021-08-30T21:58:32.647Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [accountId](#accountid) | int | unsigned | PRI | NO | 0 |  | Account Identifier |
-| [tut0](#tut0) | int | unsigned |  | NO | 0 |  |  |
-| [tut1](#tut1) | int | unsigned |  | NO | 0 |  |  |
-| [tut2](#tut2) | int | unsigned |  | NO | 0 |  |  |
-| [tut3](#tut3) | int | unsigned |  | NO | 0 |  |  |
-| [tut4](#tut4) | int | unsigned |  | NO | 0 |  |  |
-| [tut5](#tut5) | int | unsigned |  | NO | 0 |  |  |
-| [tut6](#tut6) | int | unsigned |  | NO | 0 |  |  |
-| [tut7](#tut7) | int | unsigned |  | NO | 0 |  |  |
+| [tut0](#tut[0-7]) | int | unsigned |  | NO | 0 |  |  |
+| [tut1](#tut[0-7]) | int | unsigned |  | NO | 0 |  |  |
+| [tut2](#tut[0-7]) | int | unsigned |  | NO | 0 |  |  |
+| [tut3](#tut[0-7]) | int | unsigned |  | NO | 0 |  |  |
+| [tut4](#tut[0-7]) | int | unsigned |  | NO | 0 |  |  |
+| [tut5](#tut[0-7]) | int | unsigned |  | NO | 0 |  |  |
+| [tut6](#tut[0-7]) | int | unsigned |  | NO | 0 |  |  |
+| [tut7](#tut[0-7]) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

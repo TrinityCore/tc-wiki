@@ -1,6 +1,6 @@
 ---
 title: playercreateinfo_item
-description: 
+description:
 published: true
 date: 2023-07-12T09:14:57.985Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -10,7 +10,7 @@ dateCreated: 2021-08-30T22:07:36.750Z
 
 <a href="https://trinitycore.info/en/database/335/world/playercreateinfo_cast_spell" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'playercreateinfo_cast_spell'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/playercreateinfo_skills" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'playercreateinfo_skills'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
-This table is used for any custom items that you might want to give to characters on creation. I used to be used to hold the normal items that characters get as well, but now that info is read from CharStartOutfit.dbc
+This table is used for any custom items that you might want to give to characters on creation. I used to be used to hold the normal items that characters get as well, but now that info is read from [CharStartOutfit](/files/DBC/335/charstartoutfit)
 
 ## Structure
 
@@ -24,7 +24,7 @@ This table is used for any custom items that you might want to give to character
 ## Description of fields
 
 ### race
-The character's race id from ChrRaces.dbc
+The character's [ChrRace ID](/files/DBC/335/chrraces#id)
 | ID | Name      |
 |----|-----------|
 |  1 | Human     |
@@ -42,7 +42,7 @@ The character's race id from ChrRaces.dbc
 &nbsp;
 
 ### class
-The character's class id from ChrClasses.dbc
+The character's [ChrClass ID](/files/DBC/335/chrclasses#id)
 | ID | Name         |
 |----|--------------|
 |  1 | Warrior      |

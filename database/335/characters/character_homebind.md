@@ -1,6 +1,6 @@
 ---
 title: character_homebind
-description: 
+description:
 published: true
 date: 2023-07-27T18:25:25.065Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -32,11 +32,11 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### mapId
-ID of the map where homebind is set, taken from Map.dbc
+[Map ID](/files/DBC/335/map#id) of the map where homebind is set.
 &nbsp;
 
 ### zoneId
-ID of the zone where homebind is set, taken from AreaTable.dbc
+[AreaTable ID](/files/DBC/335/areatable#id) of the zone where homebind is set.
 &nbsp;
 
 ### posX

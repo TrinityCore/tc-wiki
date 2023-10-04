@@ -1,6 +1,6 @@
 ---
 title: playercreateinfo
-description: 
+description:
 published: true
 date: 2023-07-11T23:04:24.661Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -28,7 +28,7 @@ This table holds the start positions of each class-race combinations for all new
 ## Description of fields
 
 ### race
-The character's race id from ChrRaces.dbc
+The character's [ChrRace ID](/files/DBC/335/chrraces#id)
 | ID | Name      |
 |----|-----------|
 |  1 | Human     |
@@ -46,7 +46,7 @@ The character's race id from ChrRaces.dbc
 &nbsp;
 
 ### class
-The character's class id from ChrClasses.dbc
+The character's [ChrClass ID](/files/DBC/335/chrclasses#id)
 | ID | Name         |
 |----|--------------|
 |  1 | Warrior      |
@@ -64,11 +64,11 @@ The character's class id from ChrClasses.dbc
 &nbsp;
 
 ### map
-The map id from Map.dbc the player will start on. It can not be instanceable.
+The [Map ID](/files/DBC/335/map#id) the player will start on. It can not be instanceable.
 &nbsp;
 
 ### zone
-The start zone ID from AreaTable.dbc
+The start zone [AreaTable ID](/files/DBC/335/areatable#id).
 > unused?
 {.is-info}
 

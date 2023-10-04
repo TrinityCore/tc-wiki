@@ -1,6 +1,6 @@
 ---
 title: character_queststatus
-description: 
+description:
 published: true
 date: 2023-07-27T22:03:22.688Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -23,16 +23,16 @@ dateCreated: 2021-08-30T21:59:55.520Z
 | [status](#status) | tinyint | unsigned |  | NO | 0 |  |  |
 | [explored](#explored) | tinyint | unsigned |  | NO | 0 |  |  |
 | [timer](#timer) | int | unsigned |  | NO | 0 |  |  |
-| [mobcount1](#mobcount1) | smallint | unsigned |  | NO | 0 |  |  |
-| [mobcount2](#mobcount2) | smallint | unsigned |  | NO | 0 |  |  |
-| [mobcount3](#mobcount3) | smallint | unsigned |  | NO | 0 |  |  |
-| [mobcount4](#mobcount4) | smallint | unsigned |  | NO | 0 |  |  |
-| [itemcount1](#itemcount1) | smallint | unsigned |  | NO | 0 |  |  |
-| [itemcount2](#itemcount2) | smallint | unsigned |  | NO | 0 |  |  |
-| [itemcount3](#itemcount3) | smallint | unsigned |  | NO | 0 |  |  |
-| [itemcount4](#itemcount4) | smallint | unsigned |  | NO | 0 |  |  |
-| [itemcount5](#itemcount5) | smallint | unsigned |  | NO | 0 |  |  |
-| [itemcount6](#itemcount6) | smallint | unsigned |  | NO | 0 |  |  |
+| [mobcount1](#mobcount[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
+| [mobcount2](#mobcount[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
+| [mobcount3](#mobcount[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
+| [mobcount4](#mobcount[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
+| [itemcount1](#itemcount[1-6]) | smallint | unsigned |  | NO | 0 |  |  |
+| [itemcount2](#itemcount[1-6]) | smallint | unsigned |  | NO | 0 |  |  |
+| [itemcount3](#itemcount[1-6]) | smallint | unsigned |  | NO | 0 |  |  |
+| [itemcount4](#itemcount[1-6]) | smallint | unsigned |  | NO | 0 |  |  |
+| [itemcount5](#itemcount[1-6]) | smallint | unsigned |  | NO | 0 |  |  |
+| [itemcount6](#itemcount[1-6]) | smallint | unsigned |  | NO | 0 |  |  |
 | [playercount](#playercount) | smallint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -69,12 +69,12 @@ Boolean 1 or 0 representing if the character has explored what was needed to exp
 Unix Time when [TimeAllowed](../world/quest_template#timeallowed) will run out.
 &nbsp;
 
-### mobcount\[1-4\]
+### mobcount\[1-4]
 Current count of the number of kills or casts on the specified creature or gameobject, if any.
 Matches [RequiredNpcOrGoCount\[1-4\]](../world/quest_template#requirednpcorgocount1-4)
 &nbsp;
 
-### itemcount\[1-6\]
+### itemcount\[1-6]
 Current item count for the item in a delivery quest, if any.
 Matches [RequiredItemCount\[1-6\]](../world/quest_template#requireditemcount1-6)
 &nbsp;

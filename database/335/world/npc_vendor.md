@@ -1,6 +1,6 @@
 ---
 title: npc_vendor
-description: 
+description:
 published: true
 date: 2023-07-11T18:27:00.352Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -47,7 +47,7 @@ Combined with **maxcount**, this field tells how often (in seconds) the vendor l
 &nbsp;
 
 ### ExtendedCost
-The value here corresponds to an ID in ItemExtendedCost.dbc and that ID controls the item's non monetary price, be it honor points, arena points, different types of badges or any combination of the above.
+The value here corresponds to an [ItemExtendedCost ID](/files/DBC/335/itemextendedcost#id) and that ID controls the item's non monetary price, be it honor points, arena points, different types of badges or any combination of the above.
 &nbsp;
 
 ### VerifiedBuild

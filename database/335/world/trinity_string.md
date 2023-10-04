@@ -1,6 +1,6 @@
 ---
 title: trinity_string
-description: 
+description:
 published: true
 date: 2023-07-23T18:33:22.218Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -22,14 +22,14 @@ This table holds all of the strings used internally by the server. This table is
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entry](#entry) | mediumint | unsigned | PRI | NO | 0 |  |  |
 | [content_default](#content_default) | text |  |  | NO |  |  |  |
-| [content_loc1](#content_loc1) | text |  |  | YES | NULL |  |  |
-| [content_loc2](#content_loc2) | text |  |  | YES | NULL |  |  |
-| [content_loc3](#content_loc3) | text |  |  | YES | NULL |  |  |
-| [content_loc4](#content_loc4) | text |  |  | YES | NULL |  |  |
-| [content_loc5](#content_loc5) | text |  |  | YES | NULL |  |  |
-| [content_loc6](#content_loc6) | text |  |  | YES | NULL |  |  |
-| [content_loc7](#content_loc7) | text |  |  | YES | NULL |  |  |
-| [content_loc8](#content_loc8) | text |  |  | YES | NULL |  |  |
+| [content_loc1](#content_loc[1-8]) | text |  |  | YES | NULL |  |  |
+| [content_loc2](#content_loc[1-8]) | text |  |  | YES | NULL |  |  |
+| [content_loc3](#content_loc[1-8]) | text |  |  | YES | NULL |  |  |
+| [content_loc4](#content_loc[1-8]) | text |  |  | YES | NULL |  |  |
+| [content_loc5](#content_loc[1-8]) | text |  |  | YES | NULL |  |  |
+| [content_loc6](#content_loc[1-8]) | text |  |  | YES | NULL |  |  |
+| [content_loc7](#content_loc[1-8]) | text |  |  | YES | NULL |  |  |
+| [content_loc8](#content_loc[1-8]) | text |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 
@@ -38,28 +38,22 @@ The ID that the core uses to identify a string. These IDs are contained and used
 &nbsp;
 
 ### content_default
-The English translation.
-
-| ID | Name | Description |
-|----|------|-------------|
-| 0 | enUS / enGB | English / Great British |
-{.dense}
-
+The english string.
 &nbsp;
 
 ### content_loc\[1-8]
-Localized version of **content_default**. The field enumerator refers to a locale.
+Localized version of **content_default**. The field enumerator refers to a locale. (see [Localization](/how-to/localization))
 
-| ID | Name | Description |
-|----|------|-------------|
-| 1 | koKR | Korean |
-| 2 | frFR | French |
-| 3 | deDE | German |
-| 4 | zhCN | Chinese |
-| 5 | zhTW | Taiwan |
-| 6 | esES | Spanish (Spain) |
-| 7 | esMX | Spanish (Mexican) |
-| 8 | ruRU | Russian |
+| idx | Name |
+|-----|------|
+| 1 | Korean |
+| 2 | French |
+| 3 | German |
+| 4 | Chinese |
+| 5 | Taiwanese |
+| 6 | Spanish (EU) |
+| 7 | Spanish (Latin America) |
+| 8 | Russian |
 {.dense}
 
 &nbsp;

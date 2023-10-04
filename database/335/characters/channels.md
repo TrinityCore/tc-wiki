@@ -1,6 +1,6 @@
 ---
 title: channels
-description: 
+description:
 published: true
 date: 2023-07-25T01:07:16.136Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -33,7 +33,7 @@ Name of the channel.
 &nbsp;
 
 ### team
-Allow access to channel from specified player faction. Id from Faction.dbc, but only the two are in use:
+Allow access to channel from specified player faction. [Faction ID](/files/DBC/335/faction#id), but only the two are in use:
 * 67: Horde
 * 469: Alliance
 

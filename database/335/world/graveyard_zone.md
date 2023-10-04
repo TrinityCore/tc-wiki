@@ -1,6 +1,6 @@
 ---
 title: graveyard_zone
-description: 
+description:
 published: true
 date: 2023-07-10T19:57:27.209Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -13,7 +13,7 @@ dateCreated: 2021-08-30T22:05:47.482Z
 Contains information about zones connected to world's graveyards.
 This table is used to set what factions a given graveyard will accept, and also to specify the nearest graveyard to a given zone.
 
-For a list of all existing graveyard zones and their respective IDs, check out WorldSafeLocs.dbc
+For a list of all existing graveyard zones and their respective IDs, check out [wow.tools](https://wow.tools/dbc/?dbc=worldsafelocs&build=3.3.5.12340#page=1)
 
 
 ## Structure
@@ -28,15 +28,15 @@ For a list of all existing graveyard zones and their respective IDs, check out W
 ## Description of fields
 
 ### ID
-Graveyard's ID from WorldSafeLocs.dbc
+references [WorldSafeLoc ID](/files/DBC/335/worldsafelocs#id)
 &nbsp;
 
 ### GhostZone
-Zone's Id of ghost position before teleportation to graveyard. (see AreaTable.dbc)
+[AreaTable ID](/files/DBC/335/areatable#id) of ghost position before teleportation to graveyard.
 &nbsp;
 
 ### Faction
-Graveyard's team.
+Graveyard's team as [Faction ID](/files/DBC/335/faction#id)
 * 0 - Any team accepted
 * 469 - Alliance team only
 * 67 - Horde team only

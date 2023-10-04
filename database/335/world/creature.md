@@ -1,6 +1,6 @@
 ---
 title: creature
-description: 
+description:
 published: true
 date: 2023-07-07T21:41:32.257Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -52,7 +52,7 @@ The [entry](../world/creature_template#entry) of the template that is used when 
 &nbsp;
 
 ### map
-The Map ID of the position of the creature (see Map.dbc)
+The [Map ID](/files/DBC/335/map#id) of the position of the creature.
 &nbsp;
 
 ### zoneId
@@ -83,7 +83,7 @@ This is a bitmask field that describes all the phases that a creature will appea
 &nbsp;
 
 ### modelid
-The model ID associated with this creature. Note that two creatures that use the same template can have different models. See [creature_model_info](../world/creature_model_info#displayid) for more information on model-specific characteristics. 
+The model ID associated with this creature. Note that two creatures that use the same template can have different models. See [creature_model_info](../world/creature_model_info#displayid) for more information on model-specific characteristics.
 
 NOTE: This can be left at 0 and a random model from its assigned models in [creature_template](../world/creature_template#modelid1) will be assigned by the core.
 &nbsp;

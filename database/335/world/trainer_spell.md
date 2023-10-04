@@ -1,6 +1,6 @@
 ---
 title: trainer_spell
-description: 
+description:
 published: true
 date: 2023-07-23T18:07:22.236Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -21,9 +21,9 @@ This table contains all the trainer spell entries.
 | [MoneyCost](#moneycost) | int | unsigned |  | NO | 0 |  |  |
 | [ReqSkillLine](#reqskillline) | int | unsigned |  | NO | 0 |  |  |
 | [ReqSkillRank](#reqskillrank) | int | unsigned |  | NO | 0 |  |  |
-| [ReqAbility1](#reqability1) | int | unsigned |  | NO | 0 |  |  |
-| [ReqAbility2](#reqability2) | int | unsigned |  | NO | 0 |  |  |
-| [ReqAbility3](#reqability3) | int | unsigned |  | NO | 0 |  |  |
+| [ReqAbility1](#reqability[1-3]) | int | unsigned |  | NO | 0 |  |  |
+| [ReqAbility2](#reqability[1-3]) | int | unsigned |  | NO | 0 |  |  |
+| [ReqAbility3](#reqability[1-3]) | int | unsigned |  | NO | 0 |  |  |
 | [ReqLevel](#reqlevel) | tinyint | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | smallint | signed |  | YES | 0 |  |  |
 &nbsp;
@@ -34,7 +34,7 @@ references [trainer.id](../world/trainer#id)
 &nbsp;
 
 ### SpellId
-The SpellID from Spell.dbc being taught.
+The [Spell ID](/files/DBC/335/spell#id) being taught.
 &nbsp;
 
 ### MoneyCost
@@ -42,9 +42,9 @@ The cost in copper for the spell being taught.
 &nbsp;
 
 ### ReqSkillLine
-The SkillID from SkillLine.dbc the player ist requird to have.
+The [SkillLine ID](/files/DBC/335/skillline#id) the player ist requird to have.
 
-SkillLine.dbc excerpt
+[SkillLine](/files/DBC/335/skillline) excerpt
 | ID | Name |
 |----|------|
 | 129 | First Aid |
@@ -72,7 +72,7 @@ The minimum level of skill points in **ReqSkillLine** required to be taught the 
 &nbsp;
 
 ### ReqAbility\[1-3]
-A SpellID from Spell.dbc the player is required to know.
+A [Spell ID](/files/DBC/335/spell#id) the player is required to know.
 &nbsp;
 
 ### ReqLevel

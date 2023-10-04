@@ -1,6 +1,6 @@
 ---
 title: creature_addon
-description: 
+description:
 published: true
 date: 2023-07-08T22:34:41.562Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
@@ -43,11 +43,11 @@ If a creature has waypoint pathed movement, this field hold the [waypoint_data.i
 &nbsp;
 
 ### mount
-The model ID (see CreatureDisplayInfo.dbc) of the mount to be used to make the creature appear mounted. The value here overrides the value for the creature's unit field UNIT_FIELD_MOUNTDISPLAYID.
+The [CreatureDisplayInfo ID](/files/DBC/335/creaturedisplayinfo#id) of the mount to be used to make the creature appear mounted. The value here overrides the value for the creature's unit field UNIT_FIELD_MOUNTDISPLAYID.
 &nbsp;
 
 ### MountCreatureID
-The [creature entry](../world/creature_template#entry) this creature is mounted on. 
+The [creature entry](../world/creature_template#entry) this creature is mounted on.
 > Note: This field is currently not in use.
 {.is-info}
 
@@ -86,7 +86,7 @@ The value here overrides the `UnitVisFlags` for the creature's unit field UNIT_F
 | 2 | UNIT_VIS_FLAGS_CREEP |
 | 4 | UNIT_VIS_FLAGS_UNTRACKABLE |
 {.dense}
- 
+
 &nbsp;
 
 ### SheathState
@@ -112,7 +112,7 @@ The value here overrides the `UnitPVPStateFlags` for the creature's unit field U
 &nbsp;
 
 ### emote
-Emote ID that the creature should continually perform. (see Emotes.dbc)
+[Emote ID](/files/DBC/335/emotes#id) that the creature should continually perform.
 &nbsp;
 
 ### visibilityDistanceType
@@ -124,7 +124,7 @@ Adjusts the distance from which the creature is visible.
 | 2 | Small | 50m |
 | 3 | Large | 200m |
 | 4 | Gigantic | 400m |
-| 5 | Infinite | ∞ | 
+| 5 | Infinite | ∞ |
 {.dense}
 
 &nbsp;
