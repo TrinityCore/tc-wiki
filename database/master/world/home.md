@@ -2,7 +2,7 @@
 title: World
 description: 
 published: true
-date: 2023-07-09T10:59:22.589Z
+date: 2023-10-04T22:36:59.494Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-28T21:01:17.438Z
@@ -124,7 +124,6 @@ dateCreated: 2021-08-28T21:01:17.438Z
 - [guild_rewards_req_achievements](/database/master/world/guild_rewards_req_achievements)
 {.links-list}
 ## i
-- [instance_encounters](/database/master/world/instance_encounters)
 - [instance_spawn_groups](/database/master/world/instance_spawn_groups)
 - [instance_template](/database/master/world/instance_template)
 - [item_loot_template](/database/master/world/item_loot_template)
