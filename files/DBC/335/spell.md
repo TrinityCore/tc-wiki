@@ -1,12 +1,13 @@
 ---
 title: Spell.dbc
-description:
+description: 
 published: true
-date: 2023-09-30CEST01:03:36.000Z
-tags: dbc, database client, 3.3.5, 3.3.5a, 335, 335a, wotlk
+date: 2023-10-04T12:49:06.524Z
+tags: 3.3.5, 3.3.5a, 335, 335a, wotlk, dbc, database client
 editor: markdown
-dateCreated: 2023-08-09CEST00:06:01.000Z
+dateCreated: 2023-10-04T08:07:22.166Z
 ---
+
 <a href="https://trinitycore.info/files/DBC/335/spammessages" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'SpamMessages'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to DBCs (3.3.5a)</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/spellcasttimes" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'SpellCastTimes'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
 # Spell.dbc
@@ -1242,6 +1243,7 @@ see **Mechanic**
 | 39 | TARGET_DEST_CASTER_FISHING |  | 74 | TARGET_DEST_TARGET_RANDOM |  | 110 | TARGET_UNIT_CONE_ENTRY_110 |
 | 40 | TARGET_GAMEOBJECT_NEARBY_ENTRY |  | 75 | TARGET_DEST_TARGET_RADIUS |  |  |  |
 {.dense}
+
 &nbsp;
 
 ### EffectImplicitTargetB
@@ -1520,6 +1522,7 @@ Global cooldown amount in msec.
 | 15 | SPELLFAMILY_DEATHKNIGHT |  |
 | 17 | SPELLFAMILY_PET |  |
 {.dense}
+
 &nbsp;
 
 ### SpellClassMask
