@@ -57,7 +57,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 32 | [Flags](#flags) | uint32 |  |
 | 33 | [SrcItemID](#srcitemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
 | 34 | [ConditionID](#conditionid) | uint32 | [SpellItemEnchantmentCondition.dbc/0](/files/DBC/335/spellitemenchantmentcondition#id) |
-| 35 | [RequiredSkillID](#requiredskillid) | uint32 | [SkillLine.dbc/0](/files/DBC/335/skilllline#id) |
+| 35 | [RequiredSkillID](#requiredskillid) | uint32 | [SkillLine.dbc/0](/files/DBC/335/skillline#id) |
 | 36 | [RequiredSkillRank](#requiredskillrank) | uint32 |  |
 | 37 | [MinLevel](#minlevel) | uint32 |  |
 &nbsp;

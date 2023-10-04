@@ -73,7 +73,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 48 | [SetThreshold_5](#setthreshold) | uint32 |  |
 | 49 | [SetThreshold_6](#setthreshold) | uint32 |  |
 | 50 | [SetThreshold_7](#setthreshold) | uint32 |  |
-| 51 | [RequiredSkill](#requiredskill) | uint32 | [SkillLine.dbc/0](/files/DBC/335/skilllline#id) |
+| 51 | [RequiredSkill](#requiredskill) | uint32 | [SkillLine.dbc/0](/files/DBC/335/skillline#id) |
 | 52 | [RequiredSkillRank](#requiredskillrank) | uint32 |  |
 &nbsp;
 ## Description of fields

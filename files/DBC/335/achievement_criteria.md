@@ -79,7 +79,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 0 | ACHIEVEMENT_CRITERIA_TYPE_KILL_CREATURE | [creature entry](/database/335/world/creature_template#entry) |  |
 | 1 | ACHIEVEMENT_CRITERIA_TYPE_WIN_BG | [Map ID](/files/DBC/335/map#id) |  |
 | 5 | ACHIEVEMENT_CRITERIA_TYPE_REACH_LEVEL |  |  |
-| 7 | ACHIEVEMENT_CRITERIA_TYPE_REACH_SKILL_LEVEL | [SkillLine ID](/files/DBC/335/skilllline#id) |  |
+| 7 | ACHIEVEMENT_CRITERIA_TYPE_REACH_SKILL_LEVEL | [SkillLine ID](/files/DBC/335/skillline#id) |  |
 | 8 | ACHIEVEMENT_CRITERIA_TYPE_COMPLETE_ACHIEVEMENT | [Achievement ID](/files/DBC/335/achievement#id) |  |
 | 9 | ACHIEVEMENT_CRITERIA_TYPE_COMPLETE_QUEST_COUNT |  |  |
 | 10 | ACHIEVEMENT_CRITERIA_TYPE_COMPLETE_DAILY_QUEST_DAILY |  | you have to complete a daily quest x times in a row |
@@ -109,7 +109,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 37 | ACHIEVEMENT_CRITERIA_TYPE_WIN_RATED_ARENA |  |  |
 | 38 | ACHIEVEMENT_CRITERIA_TYPE_HIGHEST_TEAM_RATING | [`enum ArenaType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Battlegrounds/Battleground.h#L200-L205) |  |
 | 39 | ACHIEVEMENT_CRITERIA_TYPE_HIGHEST_PERSONAL_RATING | [`enum ArenaType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Battlegrounds/Battleground.h#L200-L205) |  |
-| 40 | ACHIEVEMENT_CRITERIA_TYPE_LEARN_SKILL_LEVEL | [SkillLine ID](/files/DBC/335/skilllline#id) |  |
+| 40 | ACHIEVEMENT_CRITERIA_TYPE_LEARN_SKILL_LEVEL | [SkillLine ID](/files/DBC/335/skillline#id) |  |
 | 41 | ACHIEVEMENT_CRITERIA_TYPE_USE_ITEM | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |  |
 | 42 | ACHIEVEMENT_CRITERIA_TYPE_LOOT_ITEM | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |  |
 | 43 | ACHIEVEMENT_CRITERIA_TYPE_EXPLORE_AREA | [WorldMapOverlay ID](/files/DBC/335/worldmapoverlay#id) |  |
@@ -141,7 +141,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 72 | ACHIEVEMENT_CRITERIA_TYPE_FISH_IN_GAMEOBJECT | [gameobject entry](/database/335/world/gameobject_template#entry) |  |
 | 73 | :x: UNUSED |  | @todo: Achievements 1515, 1241, 1103 (Name: Mal'Ganis) |
 | 74 | ACHIEVEMENT_CRITERIA_TYPE_ON_LOGIN |  |  |
-| 75 | ACHIEVEMENT_CRITERIA_TYPE_LEARN_SKILLLINE_SPELLS | [SkillLine ID](/files/DBC/335/skilllline#id) |  |
+| 75 | ACHIEVEMENT_CRITERIA_TYPE_LEARN_SKILLLINE_SPELLS | [SkillLine ID](/files/DBC/335/skillline#id) |  |
 | 76 | ACHIEVEMENT_CRITERIA_TYPE_WIN_DUEL |  |  |
 | 77 | ACHIEVEMENT_CRITERIA_TYPE_LOSE_DUEL |  |  |
 | 78 | ACHIEVEMENT_CRITERIA_TYPE_KILL_CREATURE_TYPE |  |  |
@@ -174,7 +174,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 108 | ACHIEVEMENT_CRITERIA_TYPE_FLIGHT_PATHS_TAKEN |  |  |
 | 109 | ACHIEVEMENT_CRITERIA_TYPE_LOOT_TYPE | [`enum LootType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Loot/Loot.h#L80-L96) |  |
 | 110 | ACHIEVEMENT_CRITERIA_TYPE_CAST_SPELL2 | [Spell ID](/files/DBC/335/spell#id) |  @todo target entry is missing |
-| 112 | ACHIEVEMENT_CRITERIA_TYPE_LEARN_SKILL_LINE | [SkillLine ID](/files/DBC/335/skilllline#id) |  |
+| 112 | ACHIEVEMENT_CRITERIA_TYPE_LEARN_SKILL_LINE | [SkillLine ID](/files/DBC/335/skillline#id) |  |
 | 113 | ACHIEVEMENT_CRITERIA_TYPE_EARN_HONORABLE_KILL |  |  |
 | 114 | ACHIEVEMENT_CRITERIA_TYPE_ACCEPTED_SUMMONINGS |  |  |
 | 115 | ACHIEVEMENT_CRITERIA_TYPE_EARN_ACHIEVEMENT_POINTS |  |  |
