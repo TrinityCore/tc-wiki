@@ -1,11 +1,11 @@
 ---
 title: DBCs (3.3.5a)
-description:
+description: 
 published: true
-date: 2023-08-08T22:33:31.000Z
-tags: dbc, database client, 3.3.5, 3.3.5a, 335, 335a, wotlk
+date: 2023-10-04T22:33:35.390Z
+tags: 3.3.5, 3.3.5a, 335, 335a, wotlk, dbc, database client
 editor: markdown
-dateCreated: 2023-08-08T22:33:31.000Z
+dateCreated: 2023-10-04T08:04:14.633Z
 ---
 
 ## A
