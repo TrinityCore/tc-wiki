@@ -1,12 +1,13 @@
 ---
 title: SkillLineAbility.dbc
-description:
+description: 
 published: true
-date: 2023-09-30CEST01:03:36.000Z
-tags: dbc, database client, 3.3.5, 3.3.5a, 335, 335a, wotlk
+date: 2023-10-04T22:51:58.760Z
+tags: 3.3.5, 3.3.5a, 335, 335a, wotlk, dbc, database client
 editor: markdown
-dateCreated: 2023-08-09CEST00:06:01.000Z
+dateCreated: 2023-10-04T08:06:51.451Z
 ---
+
 <a href="https://trinitycore.info/files/DBC/335/skillline" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'SkillLine'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/DBC" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to DBCs (3.3.5a)</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/skilllinecategory" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'SkillLineCategory'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
 # SkillLineAbility.dbc
@@ -23,7 +24,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
 | 0 | [ID](#id) | uint32 |  |
-| 1 | [SkillLine](#skillline) | uint32 | [SkillLine.dbc/0](/files/DBC/335/skilllline#id) |
+| 1 | [SkillLine](#skillline) | uint32 | [SkillLine.dbc/0](/files/DBC/335/skillline#id) |
 | 2 | [Spell](#spell) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
 | 3 | [RaceMask](#racemask) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id) |
 | 4 | [ClassMask](#classmask) | uint32 | [ChrClasses.dbc/0](/files/DBC/335/chrclasses#id) |
