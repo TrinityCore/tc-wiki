@@ -1,12 +1,13 @@
 ---
 title: CreatureFamily.dbc
-description:
+description: 
 published: true
-date: 2023-09-30CEST01:03:36.000Z
-tags: dbc, database client, 3.3.5, 3.3.5a, 335, 335a, wotlk
+date: 2023-10-04T22:47:12.378Z
+tags: 3.3.5, 3.3.5a, 335, 335a, wotlk, dbc, database client
 editor: markdown
-dateCreated: 2023-08-09CEST00:06:01.000Z
+dateCreated: 2023-10-04T08:02:04.989Z
 ---
+
 <a href="https://trinitycore.info/files/DBC/335/creaturedisplayinfoextra" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'CreatureDisplayInfoExtra'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/DBC" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to DBCs (3.3.5a)</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/creaturemodeldata" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'CreatureModelData'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
 # CreatureFamily.dbc
@@ -27,8 +28,8 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 2 | [MinScaleLevel](#minscalelevel) | uint32 |  |
 | 3 | [MaxScale](#maxscale) | float |  |
 | 4 | [MaxScaleLevel](#maxscalelevel) | uint32 |  |
-| 5 | [SkillLine_0](#skillline) | uint32 | [SkillLine.dbc/0](/files/DBC/335/skilllline#id) |
-| 6 | [SkillLine_1](#skillline) | uint32 | [SkillLine.dbc/0](/files/DBC/335/skilllline#id) |
+| 5 | [SkillLine_0](#skillline) | uint32 | [SkillLine.dbc/0](/files/DBC/335/skillline#id) |
+| 6 | [SkillLine_1](#skillline) | uint32 | [SkillLine.dbc/0](/files/DBC/335/skillline#id) |
 | 7 | [PetFoodMask](#petfoodmask) | uint32 | [ItemPetFood.dbc/0](/files/DBC/335/itempetfood#id) |
 | 8 | [PetTalentType](#pettalenttype) | int32 | [TalentTab.dbc/21](/files/DBC/335/talenttab#pettalentmask) |
 | 9 | [CategoryEnumID](#categoryenumid) | int32 |  |
