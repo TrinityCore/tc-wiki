@@ -2,7 +2,7 @@
 title: chr_classes
 description: 
 published: true
-date: 2022-11-21T21:12:21.544Z
+date: 2023-10-06T19:24:22.357Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:51:10.105Z
@@ -31,7 +31,6 @@ dateCreated: 2021-08-30T09:51:10.105Z
 | [LowResScreenFileDataID](#lowresscreenfiledataid) | int | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | int | signed |  | NO | 0 |  |  |
 | [SpellTextureBlobFileDataID](#spelltextureblobfiledataid) | int | unsigned |  | NO | 0 |  |  |
-| [RolesMask](#rolesmask) | int | unsigned |  | NO | 0 |  |  |
 | [ArmorTypeMask](#armortypemask) | int | unsigned |  | NO | 0 |  |  |
 | [CharStartKitUnknown901](#charstartkitunknown901) | int | signed |  | NO | 0 |  |  |
 | [MaleCharacterCreationVisualFallback](#malecharactercreationvisualfallback) | int | signed |  | NO | 0 |  |  |
@@ -53,6 +52,7 @@ dateCreated: 2021-08-30T09:51:10.105Z
 | [ClassColorR](#classcolorr) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ClassColorG](#classcolorg) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ClassColorB](#classcolorb) | tinyint | unsigned |  | NO | 0 |  |  |
+| [RolesMask](#rolesmask) | tinyint | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -122,10 +122,6 @@ dateCreated: 2021-08-30T09:51:10.105Z
 &nbsp;
 
 ### SpellTextureBlobFileDataID
-*- no description -*
-&nbsp;
-
-### RolesMask
 *- no description -*
 &nbsp;
 
@@ -210,6 +206,10 @@ dateCreated: 2021-08-30T09:51:10.105Z
 &nbsp;
 
 ### ClassColorB
+*- no description -*
+&nbsp;
+
+### RolesMask
 *- no description -*
 &nbsp;
 

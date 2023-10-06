@@ -2,7 +2,7 @@
 title: area_table
 description: 
 published: true
-date: 2022-11-21T21:10:31.424Z
+date: 2023-10-06T19:24:21.906Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:48:46.638Z
@@ -30,7 +30,7 @@ dateCreated: 2021-08-30T09:48:46.638Z
 | [UwIntroSound](#uwintrosound) | int | unsigned |  | NO | 0 |  |  |
 | [FactionGroupMask](#factiongroupmask) | tinyint | unsigned |  | NO | 0 |  |  |
 | [AmbientMultiplier](#ambientmultiplier) | float |  |  | NO | 0 |  |  |
-| [MountFlags](#mountflags) | tinyint | unsigned |  | NO | 0 |  |  |
+| [MountFlags](#mountflags) | int | signed |  | NO | 0 |  |  |
 | [PvpCombatWorldStateID](#pvpcombatworldstateid) | smallint | signed |  | NO | 0 |  |  |
 | [WildBattlePetLevelMin](#wildbattlepetlevelmin) | tinyint | unsigned |  | NO | 0 |  |  |
 | [WildBattlePetLevelMax](#wildbattlepetlevelmax) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -172,4 +172,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/area_group_member" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'area_group_member'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/area_table_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'area_table_locale'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

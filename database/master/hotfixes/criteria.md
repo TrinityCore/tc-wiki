@@ -2,7 +2,7 @@
 title: criteria
 description: 
 published: true
-date: 2022-11-21T21:13:25.317Z
+date: 2023-10-06T19:24:23.538Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:52:35.601Z
@@ -18,12 +18,12 @@ dateCreated: 2021-08-30T09:52:35.601Z
 | [Type](#type) | smallint | signed |  | NO | 0 |  |  |
 | [Asset](#asset) | int | signed |  | NO | 0 |  |  |
 | [ModifierTreeId](#modifiertreeid) | int | unsigned |  | NO | 0 |  |  |
-| [StartEvent](#startevent) | tinyint | unsigned |  | NO | 0 |  |  |
+| [StartEvent](#startevent) | int | signed |  | NO | 0 |  |  |
 | [StartAsset](#startasset) | int | signed |  | NO | 0 |  |  |
 | [StartTimer](#starttimer) | smallint | unsigned |  | NO | 0 |  |  |
-| [FailEvent](#failevent) | tinyint | unsigned |  | NO | 0 |  |  |
+| [FailEvent](#failevent) | int | signed |  | NO | 0 |  |  |
 | [FailAsset](#failasset) | int | signed |  | NO | 0 |  |  |
-| [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
 | [EligibilityWorldStateID](#eligibilityworldstateid) | smallint | signed |  | NO | 0 |  |  |
 | [EligibilityWorldStateValue](#eligibilityworldstatevalue) | tinyint | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
@@ -92,4 +92,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/creature_type_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'creature_type_locale'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/criteria_tree" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'criteria_tree'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

@@ -2,7 +2,7 @@
 title: groups
 description: 
 published: true
-date: 2022-11-21T21:01:35.358Z
+date: 2023-10-06T19:23:33.691Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T07:45:04.322Z
@@ -27,7 +27,7 @@ dateCreated: 2021-08-30T07:45:04.322Z
 | [icon6](#icon6) | binary(16) |  |  | NO |  |  |  |
 | [icon7](#icon7) | binary(16) |  |  | NO |  |  |  |
 | [icon8](#icon8) | binary(16) |  |  | NO |  |  |  |
-| [groupType](#grouptype) | tinyint | unsigned |  | NO |  |  |  |
+| [groupType](#grouptype) | smallint | unsigned |  | NO |  |  |  |
 | [difficulty](#difficulty) | tinyint | unsigned |  | NO | 1 |  |  |
 | [raidDifficulty](#raiddifficulty) | tinyint | unsigned |  | NO | 14 |  |  |
 | [legacyRaidDifficulty](#legacyraiddifficulty) | tinyint | unsigned |  | NO | 3 |  |  |

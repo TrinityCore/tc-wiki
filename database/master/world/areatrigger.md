@@ -18,6 +18,7 @@ dateCreated: 2021-08-30T09:28:46.460Z
 | [AreaTriggerId](#areatriggerid) | int | unsigned |  | NO |  |  |  |
 | [IsServerSide](#isserverside) | tinyint | unsigned |  | NO |  |  |  |
 | [MapId](#mapid) | int | unsigned |  | NO |  |  |  |
+| [SpawnDifficulties](#spawndifficulties) | varchar(100) |  |  | NO | 0 |  |  |
 | [PosX](#posx) | float |  |  | NO |  |  |  |
 | [PosY](#posy) | float |  |  | NO |  |  |  |
 | [PosZ](#posz) | float |  |  | NO |  |  |  |
@@ -34,8 +35,10 @@ dateCreated: 2021-08-30T09:28:46.460Z
 | [ShapeData5](#shapedata0-7) | float |  |  | NO | 0 |  |  |
 | [ShapeData6](#shapedata0-7) | float |  |  | NO | 0 |  |  |
 | [ShapeData7](#shapedata0-7) | float |  |  | NO | 0 |  |  |
+| [SpellForVisuals](#spellforvisuals) | int | signed |  | YES | NULL |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
 | [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -59,6 +62,10 @@ You can see them inside [AreaTrigger.db2](https://wow.tools/dbc/?dbc=areatrigger
 
 ### MapId
 The [ID](https://wow.tools/dbc/?dbc=map){target=_blank} of the map that the areatrigger is spawned on.
+&nbsp;
+
+### SpawnDifficulties
+*- no description -*
 &nbsp;
 
 ### PosX
@@ -131,12 +138,20 @@ The data changes depending on the Type.
 |ShapeData7| - | - | - | - | - | LocationZOffsetTarget | -
 &nbsp;
 
+### SpellForVisuals
+*- no description -*
+&nbsp;
+
 ### ScriptName
 *- no description -*
 &nbsp;
 
 ### Comment
 This field is for any comment you want to make about the requirements. It is arbitrary text.
+&nbsp;
+
+### VerifiedBuild
+*- no description -*
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/achievement_scripts" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'achievement_scripts'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/areatrigger_create_properties" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'areatrigger_create_properties'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>

@@ -32,6 +32,14 @@ dateCreated: 2023-05-29T22:25:06.332Z
 | [SkinLootID](#skinlootid) | int | unsigned |  | NO | 0 |  |  |  |
 | [GoldMin](#goldmin) | int | unsigned |  | NO | 0 |  |  |  |
 | [GoldMax](#goldmax) | int | unsigned |  | NO | 0 |  |  |  |
+| [StaticFlags1](#staticflags1) | int | unsigned |  | NO | 0 |  |  |  |
+| [StaticFlags2](#staticflags2) | int | unsigned |  | NO | 0 |  |  |  |
+| [StaticFlags3](#staticflags3) | int | unsigned |  | NO | 0 |  |  |  |
+| [StaticFlags4](#staticflags4) | int | unsigned |  | NO | 0 |  |  |  |
+| [StaticFlags5](#staticflags5) | int | unsigned |  | NO | 0 |  |  |  |
+| [StaticFlags6](#staticflags6) | int | unsigned |  | NO | 0 |  |  |  |
+| [StaticFlags7](#staticflags7) | int | unsigned |  | NO | 0 |  |  |  |
+| [StaticFlags8](#staticflags8) | int | unsigned |  | NO | 0 |  |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  | Generated |
 &nbsp;
 ## Description of fields
@@ -105,6 +113,38 @@ dateCreated: 2023-05-29T22:25:06.332Z
 &nbsp;
 
 ### GoldMax
+*- no description -*
+&nbsp;
+
+### StaticFlags1
+*- no description -*
+&nbsp;
+
+### StaticFlags2
+*- no description -*
+&nbsp;
+
+### StaticFlags3
+*- no description -*
+&nbsp;
+
+### StaticFlags4
+*- no description -*
+&nbsp;
+
+### StaticFlags5
+*- no description -*
+&nbsp;
+
+### StaticFlags6
+*- no description -*
+&nbsp;
+
+### StaticFlags7
+*- no description -*
+&nbsp;
+
+### StaticFlags8
 *- no description -*
 &nbsp;
 

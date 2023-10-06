@@ -2,7 +2,7 @@
 title: chr_customization_req
 description: 
 published: true
-date: 2022-12-19T18:37:41.468Z
+date: 2023-10-06T19:24:22.756Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:51:33.919Z
@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T09:51:33.919Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [RaceMask](#racemask) | bigint | signed |  | NO | 0 |  |  |
 | [ReqSource](#reqsource) | text |  |  | YES | NULL |  |  |
 | [Flags](#flags) | int | signed |  | NO | 0 |  |  |
 | [ClassMask](#classmask) | int | signed |  | NO | 0 |  |  |
@@ -27,6 +28,10 @@ dateCreated: 2021-08-30T09:51:33.919Z
 ## Description of fields
 
 ### ID
+*- no description -*
+&nbsp;
+
+### RaceMask
 *- no description -*
 &nbsp;
 

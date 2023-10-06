@@ -2,7 +2,7 @@
 title: Hotfixes
 description: 
 published: true
-date: 2023-05-11T09:04:24.459Z
+date: 2023-10-06T19:36:30.789Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -74,7 +74,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 - [broadcast_text_locale](/database/master/hotfixes/broadcast_text_locale)
 {.links-list}
 ## c
+- [cfg_categories](/database/master/hotfixes/cfg_categories)
+- [cfg_categories_locale](/database/master/hotfixes/cfg_categories_locale)
 - [cfg_regions](/database/master/hotfixes/cfg_regions)
+- [challenge_mode_item_bonus_override](/database/master/hotfixes/challenge_mode_item_bonus_override)
 - [char_titles](/database/master/hotfixes/char_titles)
 - [char_titles_locale](/database/master/hotfixes/char_titles_locale)
 - [character_loadout](/database/master/hotfixes/character_loadout)
@@ -102,8 +105,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 - [chr_specialization_locale](/database/master/hotfixes/chr_specialization_locale)
 - [cinematic_camera](/database/master/hotfixes/cinematic_camera)
 - [cinematic_sequences](/database/master/hotfixes/cinematic_sequences)
+- [conditional_chr_model](/database/master/hotfixes/conditional_chr_model)
+- [conditional_content_tuning](/database/master/hotfixes/conditional_content_tuning)
 - [content_tuning](/database/master/hotfixes/content_tuning)
 - [content_tuning_x_expected](/database/master/hotfixes/content_tuning_x_expected)
+- [content_tuning_x_label](/database/master/hotfixes/content_tuning_x_label)
 - [conversation_line](/database/master/hotfixes/conversation_line)
 - [corruption_effects](/database/master/hotfixes/corruption_effects)
 - [creature](/database/master/hotfixes/creature)
@@ -206,11 +212,14 @@ dateCreated: 2021-08-30T06:00:00.000Z
 - [item_bag_family](/database/master/hotfixes/item_bag_family)
 - [item_bag_family_locale](/database/master/hotfixes/item_bag_family_locale)
 - [item_bonus](/database/master/hotfixes/item_bonus)
+- [item_bonus_list_group_entry](/database/master/hotfixes/item_bonus_list_group_entry)
 - [item_bonus_list_level_delta](/database/master/hotfixes/item_bonus_list_level_delta)
+- [item_bonus_tree](/database/master/hotfixes/item_bonus_tree)
 - [item_bonus_tree_node](/database/master/hotfixes/item_bonus_tree_node)
 - [item_child_equipment](/database/master/hotfixes/item_child_equipment)
 - [item_class](/database/master/hotfixes/item_class)
 - [item_class_locale](/database/master/hotfixes/item_class_locale)
+- [item_context_picker_entry](/database/master/hotfixes/item_context_picker_entry)
 - [item_currency_cost](/database/master/hotfixes/item_currency_cost)
 - [item_damage_ammo](/database/master/hotfixes/item_damage_ammo)
 - [item_damage_one_hand](/database/master/hotfixes/item_damage_one_hand)
@@ -287,6 +296,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 - [mount_type_x_capability](/database/master/hotfixes/mount_type_x_capability)
 - [mount_x_display](/database/master/hotfixes/mount_x_display)
 - [movie](/database/master/hotfixes/movie)
+- [mythic_plus_season](/database/master/hotfixes/mythic_plus_season)
 {.links-list}
 ## n
 - [name_gen](/database/master/hotfixes/name_gen)
@@ -310,6 +320,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 - [prestige_level_info_locale](/database/master/hotfixes/prestige_level_info_locale)
 - [pvp_difficulty](/database/master/hotfixes/pvp_difficulty)
 - [pvp_item](/database/master/hotfixes/pvp_item)
+- [pvp_season](/database/master/hotfixes/pvp_season)
 - [pvp_talent](/database/master/hotfixes/pvp_talent)
 - [pvp_talent_category](/database/master/hotfixes/pvp_talent_category)
 - [pvp_talent_locale](/database/master/hotfixes/pvp_talent_locale)

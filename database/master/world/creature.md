@@ -2,7 +2,7 @@
 title: creature
 description: 
 published: true
-date: 2023-06-19T16:16:51.046Z
+date: 2023-10-06T19:27:09.332Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:41.375Z
@@ -36,10 +36,10 @@ dateCreated: 2021-08-30T09:29:41.375Z
 | [curhealth](#curhealth) | int | unsigned |  | NO | 1 |  |  |
 | [curmana](#curmana) | int | unsigned |  | NO | 0 |  |  |
 | [MovementType](#movementtype) | tinyint | unsigned |  | NO | 0 |  |  |
-| [npcflag](#npcflag) | bigint | unsigned |  | NO | 0 |  |  |
-| [unit_flags](#unit_flags) | int | unsigned |  | NO | 0 |  |  |
-| [unit_flags2](#unit_flags2) | int | unsigned |  | NO | 0 |  |  |
-| [unit_flags3](#unit_flags3) | int | unsigned |  | NO | 0 |  |  |
+| [npcflag](#npcflag) | bigint | unsigned |  | YES | NULL |  |  |
+| [unit_flags](#unit_flags) | int | unsigned |  | YES | NULL |  |  |
+| [unit_flags2](#unit_flags2) | int | unsigned |  | YES | NULL |  |  |
+| [unit_flags3](#unit_flags3) | int | unsigned |  | YES | NULL |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
 | [StringId](#stringid) | varchar(64) |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |

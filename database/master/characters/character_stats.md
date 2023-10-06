@@ -2,7 +2,7 @@
 title: character_stats
 description: 
 published: true
-date: 2023-05-11T08:55:46.508Z
+date: 2023-10-06T19:23:33.582Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T07:35:37.929Z
@@ -47,6 +47,8 @@ dateCreated: 2021-08-30T07:35:37.929Z
 | [rangedAttackPower](#rangedattackpower) | int | unsigned |  | NO | 0 |  |  |
 | [spellPower](#spellpower) | int | unsigned |  | NO | 0 |  |  |
 | [resilience](#resilience) | int | unsigned |  | NO | 0 |  |  |
+| [mastery](#mastery) | float |  |  | NO | 0 |  |  |
+| [versatility](#versatility) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -179,6 +181,14 @@ dateCreated: 2021-08-30T07:35:37.929Z
 &nbsp;
 
 ### resilience
+*- no description -*
+&nbsp;
+
+### mastery
+*- no description -*
+&nbsp;
+
+### versatility
 *- no description -*
 &nbsp;
 

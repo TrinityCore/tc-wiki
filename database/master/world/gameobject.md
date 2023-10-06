@@ -2,7 +2,7 @@
 title: gameobject
 description: 
 published: true
-date: 2023-06-02T23:23:09.793Z
+date: 2023-10-06T19:27:10.493Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:31:38.234Z
@@ -36,6 +36,7 @@ dateCreated: 2021-08-30T09:31:38.234Z
 | [animprogress](#animprogress) | tinyint | unsigned |  | NO | 0 |  |  |
 | [state](#state) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
+| [StringId](#stringid) | varchar(64) |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -205,6 +206,10 @@ For chests and doors.
 
 ### ScriptName
 The name of the script that this gameobject uses, if any. This ties a script from a scripting engine to this creature.
+&nbsp;
+
+### StringId
+*- no description -*
 &nbsp;
 
 ### VerifiedBuild

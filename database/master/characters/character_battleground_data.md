@@ -2,7 +2,7 @@
 title: character_battleground_data
 description: 
 published: true
-date: 2022-11-21T20:59:48.280Z
+date: 2023-10-06T19:23:32.957Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T07:20:54.346Z
@@ -25,6 +25,7 @@ dateCreated: 2021-08-30T07:20:54.346Z
 | [taxiStart](#taxistart) | int | unsigned |  | NO | 0 |  |  |
 | [taxiEnd](#taxiend) | int | unsigned |  | NO | 0 |  |  |
 | [mountSpell](#mountspell) | int | unsigned |  | NO | 0 |  |  |
+| [queueId](#queueid) | bigint | unsigned |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -72,5 +73,8 @@ dateCreated: 2021-08-30T07:20:54.346Z
 *- no description -*
 &nbsp;
 
-<a href="https://trinitycore.info/en/database/master/characters/character_banned" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_banned'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/characters/character_battleground_random" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_battleground_random'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
+### queueId
+*- no description -*
+&nbsp;
 
+<a href="https://trinitycore.info/en/database/master/characters/character_banned" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_banned'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/characters/character_battleground_random" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'character_battleground_random'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>

@@ -2,7 +2,7 @@
 title: ui_map
 description: 
 published: true
-date: 2023-05-11T09:04:24.330Z
+date: 2023-10-06T19:24:25.689Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T10:03:29.616Z
@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T10:03:29.616Z
 | [Type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
 | [BountySetID](#bountysetid) | int | signed |  | NO | 0 |  |  |
 | [BountyDisplayLocation](#bountydisplaylocation) | int | unsigned |  | NO | 0 |  |  |
+| [VisibilityPlayerConditionID2](#visibilityplayerconditionid2) | int | signed |  | NO | 0 |  |  |
 | [VisibilityPlayerConditionID](#visibilityplayerconditionid) | int | signed |  | NO | 0 |  |  |
 | [HelpTextPosition](#helptextposition) | tinyint | signed |  | NO | 0 |  |  |
 | [BkgAtlasID](#bkgatlasid) | int | signed |  | NO | 0 |  |  |
@@ -60,6 +61,10 @@ dateCreated: 2021-08-30T10:03:29.616Z
 &nbsp;
 
 ### BountyDisplayLocation
+*- no description -*
+&nbsp;
+
+### VisibilityPlayerConditionID2
 *- no description -*
 &nbsp;
 

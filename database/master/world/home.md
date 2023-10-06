@@ -2,10 +2,10 @@
 title: World
 description: 
 published: true
-date: 2023-10-04T22:36:59.494Z
+date: 2023-10-06T19:27:12.464Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-28T21:01:17.438Z
+dateCreated: 2021-08-30T06:00:00.000Z
 ---
 
 ## a
@@ -88,7 +88,6 @@ dateCreated: 2021-08-28T21:01:17.438Z
 ## g
 - [game_event](/database/master/world/game_event)
 - [game_event_arena_seasons](/database/master/world/game_event_arena_seasons)
-- [game_event_battleground_holiday](/database/master/world/game_event_battleground_holiday)
 - [game_event_condition](/database/master/world/game_event_condition)
 - [game_event_creature](/database/master/world/game_event_creature)
 - [game_event_creature_quest](/database/master/world/game_event_creature_quest)
@@ -198,6 +197,7 @@ dateCreated: 2021-08-28T21:01:17.438Z
 - [quest_greeting_locale](/database/master/world/quest_greeting_locale)
 - [quest_mail_sender](/database/master/world/quest_mail_sender)
 - [quest_objectives](/database/master/world/quest_objectives)
+- [quest_objectives_completion_effect](/database/master/world/quest_objectives_completion_effect)
 - [quest_objectives_locale](/database/master/world/quest_objectives_locale)
 - [quest_offer_reward](/database/master/world/quest_offer_reward)
 - [quest_offer_reward_conditional](/database/master/world/quest_offer_reward_conditional)

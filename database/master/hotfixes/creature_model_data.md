@@ -2,7 +2,7 @@
 title: creature_model_data
 description: 
 published: true
-date: 2022-11-21T21:13:19.460Z
+date: 2023-10-06T19:24:23.503Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:52:27.569Z
@@ -23,6 +23,8 @@ dateCreated: 2021-08-30T09:52:27.569Z
 | [GeoBox6](#geobox6) | float |  |  | NO | 0 |  |  |
 | [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
 | [FileDataID](#filedataid) | int | unsigned |  | NO | 0 |  |  |
+| [WalkSpeed](#walkspeed) | float |  |  | NO | 0 |  |  |
+| [RunSpeed](#runspeed) | float |  |  | NO | 0 |  |  |
 | [BloodID](#bloodid) | int | unsigned |  | NO | 0 |  |  |
 | [FootprintTextureID](#footprinttextureid) | int | unsigned |  | NO | 0 |  |  |
 | [FootprintTextureLength](#footprinttexturelength) | float |  |  | NO | 0 |  |  |
@@ -89,6 +91,14 @@ dateCreated: 2021-08-30T09:52:27.569Z
 &nbsp;
 
 ### FileDataID
+*- no description -*
+&nbsp;
+
+### WalkSpeed
+*- no description -*
+&nbsp;
+
+### RunSpeed
 *- no description -*
 &nbsp;
 
@@ -222,4 +232,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/creature_family_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'creature_family_locale'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/creature_type" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'creature_type'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

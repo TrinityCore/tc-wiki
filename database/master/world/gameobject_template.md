@@ -2,7 +2,7 @@
 title: gameobject_template
 description: 
 published: true
-date: 2022-11-21T21:05:34.536Z
+date: 2023-10-06T19:27:11.126Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:31:56.235Z
@@ -60,6 +60,7 @@ dateCreated: 2021-08-30T09:31:56.235Z
 | [ContentTuningId](#contenttuningid) | int | signed |  | NO | 0 |  |  |
 | [AIName](#ainame) | varchar(64) |  |  | NO | '' |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
+| [StringId](#stringid) | varchar(64) |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -245,6 +246,10 @@ dateCreated: 2021-08-30T09:31:56.235Z
 &nbsp;
 
 ### ScriptName
+*- no description -*
+&nbsp;
+
+### StringId
 *- no description -*
 &nbsp;
 
