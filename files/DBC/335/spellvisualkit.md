@@ -1,12 +1,13 @@
 ---
 title: SpellVisualKit.dbc
-description:
+description: 
 published: true
-date: 2023-09-30CEST01:03:36.000Z
-tags: dbc, database client, 3.3.5, 3.3.5a, 335, 335a, wotlk
+date: 2023-10-07T22:03:23.102Z
+tags: 3.3.5, 3.3.5a, 335, 335a, wotlk, dbc, database client
 editor: markdown
-dateCreated: 2023-08-09CEST00:06:01.000Z
+dateCreated: 2023-10-04T08:08:11.623Z
 ---
+
 <a href="https://trinitycore.info/files/DBC/335/spellvisualeffectname" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'SpellVisualEffectName'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/DBC" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to DBCs (3.3.5a)</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/spellvisualkitareamodel" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'SpellVisualKitAreaModel'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
 # SpellVisualKit.dbc
@@ -23,39 +24,42 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
 | 0 | [ID](#id) | uint32 |  |
-| 1 | [StartAnimID](#startanimid) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id) |      Seems to be caster animation of some sort...
-| 2 | [AnimID](#animid) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id) |      Caster animation.
-| 3 | [HeadEffect](#headeffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id) |      Visual effect over the head.
-| 4 | [ChestEffect](#chesteffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id) |      Visual effect at chest.
-| 5 | [BaseEffect](#baseeffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id) |      Visual effect at the base/ground.
-| 6 | [LeftHandEffect](#lefthandeffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id) |      Visual effect at right hand.
-| 7 | [RightHandEffect](#righthandeffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id) |      Visual effect at left hand.
-| 8 | [BreathEffect](#breatheffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id) |      Visual effect of AOE spells/abilities.
+| 1 | [StartAnimID](#startanimid) | int32 | [AnimationData.dbc/0](/files/DBC/335/animationdata#id) |
+| 2 | [AnimID](#animid) | int32 | [AnimationData.dbc/0](/files/DBC/335/animationdata#id) |
+| 3 | [HeadEffect](#headeffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id) |
+| 4 | [ChestEffect](#chesteffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id) |
+| 5 | [BaseEffect](#baseeffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id) |
+| 6 | [LeftHandEffect](#lefthandeffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id) |
+| 7 | [RightHandEffect](#righthandeffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id) |
+| 8 | [BreathEffect](#breatheffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id) |
 | 9 | [LeftWeaponEffect](#leftweaponeffect) | int32 |  |
 | 10 | [RightWeaponEffect](#rightweaponeffect) | int32 |  |
 | 11 | [SpecialEffect_0](#specialeffect) | int32 |  |
 | 12 | [SpecialEffect_1](#specialeffect) | int32 |  |
 | 13 | [SpecialEffect_2](#specialeffect) | int32 |  |
 | 14 | [WorldEffect](#worldeffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id) |
-| 15 | [SoundID](#soundid) | int32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |      Sound effect associated with the visual effects.
+| 15 | [SoundID](#soundid) | int32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
 | 16 | [ShakeID](#shakeid) | uint32 | [CameraShakes.dbc/0](/files/DBC/335/camerashakes#id) |
-| 17 | [CharProc](#charproc) | int32 |  |   Known value "17" reference to item_entry in column 26, example spell - 58493(mohawk grenade), point to item 43486 (Mohawk Mask)
-| 18 | [CharParamA_0](#charparama) | float |  |     Colormask converted from HEX to DECIMAL (can be used for caster or target color)
-| 19 | [CharParamA_1](#charparama) | float |  |
-| 20 | [CharParamA_2](#charparama) | float |  |
-| 21 | [CharParamA_3](#charparama) | float |  |
-| 22 | [CharParamB_0](#charparamb) | float |  |
-| 23 | [CharParamB_1](#charparamb) | float |  |
-| 24 | [CharParamB_2](#charparamb) | float |  |
-| 25 | [CharParamB_3](#charparamb) | float |  |
-| 26 | [CharParamC_0](#charparamc) | float |  |
-| 27 | [CharParamC_1](#charparamc) | float |  |
-| 28 | [CharParamC_2](#charparamc) | float |  |
-| 29 | [CharParamC_3](#charparamc) | float |  |
-| 30 | [CharParamD_0](#charparamd) | float |  |
-| 31 | [CharParamD_1](#charparamd) | float |  |
-| 32 | [CharParamD_2](#charparamd) | float |  |
-| 33 | [CharParamD_3](#charparamd) | float |  |
+| 17 | [CharProc_0](#charproc) | int32 |  |
+| 18 | [CharProc_1](#charproc) | int32 |  |
+| 19 | [CharProc_2](#charproc) | int32 |  |
+| 20 | [CharProc_3](#charproc) | int32 |  |
+| 21 | [CharParamA_0](#charparama) | float |  |
+| 22 | [CharParamA_1](#charparama) | float |  |
+| 23 | [CharParamA_2](#charparama) | float |  |
+| 24 | [CharParamA_3](#charparama) | float |  |
+| 25 | [CharParamB_0](#charparamb) | float |  |
+| 26 | [CharParamB_1](#charparamb) | float |  |
+| 27 | [CharParamB_2](#charparamb) | float |  |
+| 28 | [CharParamB_3](#charparamb) | float |  |
+| 29 | [CharParamC_0](#charparamc) | float |  |
+| 30 | [CharParamC_1](#charparamc) | float |  |
+| 31 | [CharParamC_2](#charparamc) | float |  |
+| 32 | [CharParamC_3](#charparamc) | float |  |
+| 33 | [CharParamD_0](#charparamd) | float |  |
+| 34 | [CharParamD_1](#charparamd) | float |  |
+| 35 | [CharParamD_2](#charparamd) | float |  |
+| 36 | [CharParamD_3](#charparamd) | float |  |
 &nbsp;
 ## Description of fields
 
@@ -68,49 +72,49 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 ### StartAnimID
 :x: <code>Col: 1 (int32)</code>
 
-*- no description -*
+Seems to be caster animation of some sort...
 &nbsp;
 
 ### AnimID
 :x: <code>Col: 2 (int32)</code>
 
-*- no description -*
+Caster animation.
 &nbsp;
 
 ### HeadEffect
 :x: <code>Col: 3 (int32)</code>
 
-*- no description -*
+Visual effect over the head.
 &nbsp;
 
 ### ChestEffect
 :x: <code>Col: 4 (int32)</code>
 
-*- no description -*
+Visual effect at chest.
 &nbsp;
 
 ### BaseEffect
 :x: <code>Col: 5 (int32)</code>
 
-*- no description -*
+Visual effect at the base/ground.
 &nbsp;
 
 ### LeftHandEffect
 :x: <code>Col: 6 (int32)</code>
 
-*- no description -*
+Visual effect at left hand.
 &nbsp;
 
 ### RightHandEffect
 :x: <code>Col: 7 (int32)</code>
 
-*- no description -*
+Visual effect at right hand.
 &nbsp;
 
 ### BreathEffect
 :x: <code>Col: 8 (int32)</code>
 
-*- no description -*
+Visual effect of AOE spells/abilities.
 &nbsp;
 
 ### LeftWeaponEffect
@@ -140,7 +144,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 ### SoundID
 :x: <code>Col: 15 (int32)</code>
 
-*- no description -*
+Sound effect associated with the visual effects.
 &nbsp;
 
 ### ShakeID
@@ -150,31 +154,31 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### CharProc
-:x: <code>Col: 17 (int32)</code>
+:x: <code>Col: 17 &ndash; 20 (int32)</code>
 
-*- no description -*
+Known value `17` in col. 17 reference to item entry in col. 25, example spell - `58493` (Mohawk Grenade), point to item `43486` (Mohawk Mask)
 &nbsp;
 
 ### CharParamA
-:x: <code>Col: 18 &ndash; 21 (float)</code>
+:x: <code>Col: 21 &ndash; 24 (float)</code>
 
-*- no description -*
+Colormask converted from HEX to DECIMAL (can be used for caster or target color)
 &nbsp;
 
 ### CharParamB
-:x: <code>Col: 22 &ndash; 25 (float)</code>
+:x: <code>Col: 25 &ndash; 28 (float)</code>
 
 *- no description -*
 &nbsp;
 
 ### CharParamC
-:x: <code>Col: 26 &ndash; 29 (float)</code>
+:x: <code>Col: 29 &ndash; 32 (float)</code>
 
 *- no description -*
 &nbsp;
 
 ### CharParamD
-:x: <code>Col: 30 &ndash; 33 (float)</code>
+:x: <code>Col: 33 &ndash; 36 (float)</code>
 
 *- no description -*
 &nbsp;
