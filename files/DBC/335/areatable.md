@@ -1,12 +1,13 @@
 ---
 title: AreaTable.dbc
-description:
+description: 
 published: true
-date: 2023-09-30CEST01:03:36.000Z
-tags: dbc, database client, 3.3.5, 3.3.5a, 335, 335a, wotlk
+date: 2023-10-07T20:33:36.860Z
+tags: 3.3.5, 3.3.5a, 335, 335a, wotlk, dbc, database client
 editor: markdown
-dateCreated: 2023-08-09CEST00:06:01.000Z
+dateCreated: 2023-10-04T08:01:03.988Z
 ---
+
 <a href="https://trinitycore.info/files/DBC/335/areapoi" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'AreaPOI'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/DBC" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to DBCs (3.3.5a)</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/areatrigger" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'AreaTrigger'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
 # AreaTable.dbc
@@ -51,10 +52,10 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 26 | [AreaName_15](#areaname) | string |  |
 | 27 | [AreaName_lang_mask](#areaname) | uint32 |  |
 | 28 | [FactionGroupMask](#factiongroupmask) | uint32 | [FactionGroup.dbc/1](/files/DBC/335/factiongroup#maskid) |
-| 29 | [LiquidTypeID_0](#liquidtypeid) | uint32 |  |
-| 30 | [LiquidTypeID_1](#liquidtypeid) | uint32 |  |
-| 31 | [LiquidTypeID_2](#liquidtypeid) | uint32 |  |
-| 32 | [LiquidTypeID_3](#liquidtypeid) | uint32 |  |
+| 29 | [LiquidTypeID_0](#liquidtypeid) | uint32 | [LiquidType.dbc/0](/files/DBC/335/liquidtype#id) |
+| 30 | [LiquidTypeID_1](#liquidtypeid) | uint32 | [LiquidType.dbc/0](/files/DBC/335/liquidtype#id) |
+| 31 | [LiquidTypeID_2](#liquidtypeid) | uint32 | [LiquidType.dbc/0](/files/DBC/335/liquidtype#id) |
+| 32 | [LiquidTypeID_3](#liquidtypeid) | uint32 | [LiquidType.dbc/0](/files/DBC/335/liquidtype#id) |
 | 33 | [MinElevation](#minelevation) | float |  |
 | 34 | [AmbientMultiplier](#ambientmultiplier) | float |  |
 | 35 | [LightID](#lightid) | uint32 | [Light.dbc/0](/files/DBC/335/light#id) |
@@ -177,12 +178,12 @@ Bitmask of FactionGroup MaskIDs as bit offset.
 
 Liquid override by type
 [`enum LiquidType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/tools/map_extractor/adt.h#L27-L33)
-| Index | Name |
-|-------|------|
-| 0 | LIQUID_TYPE_WATER |
-| 1 | LIQUID_TYPE_OCEAN |
-| 2 | LIQUID_TYPE_MAGMA |
-| 3 | LIQUID_TYPE_SLIME |
+| Col | Name |
+|:---:|------|
+| 29 | LIQUID_TYPE_WATER |
+| 30 | LIQUID_TYPE_OCEAN |
+| 31 | LIQUID_TYPE_MAGMA |
+| 32 | LIQUID_TYPE_SLIME |
 {.dense}
 
 &nbsp;
