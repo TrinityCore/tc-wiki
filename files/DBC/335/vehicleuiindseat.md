@@ -2,7 +2,7 @@
 title: VehicleUIIndSeat.dbc
 description: 
 published: true
-date: 2023-10-07T22:17:30.046Z
+date: 2023-10-07T22:17:47.294Z
 tags: 3.3.5, 3.3.5a, 335, 335a, wotlk, dbc, database client
 editor: markdown
 dateCreated: 2023-10-04T08:09:10.888Z
@@ -24,10 +24,10 @@ dateCreated: 2023-10-04T08:09:10.888Z
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
 | 0 | [ID](#id) | uint32 |  |
-| 0 | [VehicleUIIndicatorID](#vehicleuiindicatorid) | uint32 | [VehicleUIIndicator.dbc/0](/files/DBC/335/vehicleuiindicator#id) |
-| 0 | [VirtualSeatIndex](#virtualseatindex) | uint32 |  |
-| 0 | [Pos_X](#pos) | float |  |
-| 0 | [Pos_Y](#pos) | float |  |
+| 1 | [VehicleUIIndicatorID](#vehicleuiindicatorid) | uint32 | [VehicleUIIndicator.dbc/0](/files/DBC/335/vehicleuiindicator#id) |
+| 2 | [VirtualSeatIndex](#virtualseatindex) | uint32 |  |
+| 3 | [Pos_X](#pos) | float |  |
+| 4 | [Pos_Y](#pos) | float |  |
 &nbsp;
 ## Description of fields
 
