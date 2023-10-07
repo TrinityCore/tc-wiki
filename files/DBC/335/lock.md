@@ -1,12 +1,13 @@
 ---
 title: Lock.dbc
-description:
+description: 
 published: true
-date: 2023-09-30CEST01:03:36.000Z
-tags: dbc, database client, 3.3.5, 3.3.5a, 335, 335a, wotlk
+date: 2023-10-07T21:22:35.042Z
+tags: 3.3.5, 3.3.5a, 335, 335a, wotlk, dbc, database client
 editor: markdown
-dateCreated: 2023-08-09CEST00:06:01.000Z
+dateCreated: 2023-10-04T08:05:24.618Z
 ---
+
 <a href="https://trinitycore.info/files/DBC/335/loadingscreentaxisplines" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'LoadingScreenTaxiSplines'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/DBC" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to DBCs (3.3.5a)</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/locktype" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'LockType'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
 # Lock.dbc
@@ -69,7 +70,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 [`enum LockKeyType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L2621-L2627)
 | ID | Name |
-|----|------|
+|:--:|------|
 | 0 | LOCK_KEY_NONE |
 | 1 | LOCK_KEY_ITEM |
 | 2 | LOCK_KEY_SKILL |
@@ -82,7 +83,8 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 <code>Col: 9 &ndash; 16 (uint32)</code>
 
 Dependant on **Type**:
-| **Type** | Name | **Index** |
+| Type | Name | **Index** |
+|:----:|------|------------|
 | 1 | LOCK_KEY_ITEM | [item entry](/database/335/world/item_template#id) |
 | 2 | LOCK_KEY_SKILL | [LockType ID](/files/DBC/335/locktype#id) |
 | 3 | LOCK_KEY_SPELL | [Spell ID](/files/DBC/335/spell#id) |
@@ -101,7 +103,7 @@ The required skill amount.
 :x: <code>Col: 25 &ndash; 32 (uint32)</code>
 
 | ID | Comment |
-|----|---------|
+|:--:|---------|
 | 0 | Open |
 | 1 | Open-Unlock |
 | 2 | Close |
