@@ -1,12 +1,13 @@
 ---
 title: CreatureSoundData.dbc
-description:
+description: 
 published: true
-date: 2023-09-30CEST01:03:36.000Z
-tags: dbc, database client, 3.3.5, 3.3.5a, 335, 335a, wotlk
+date: 2023-10-07T20:54:48.325Z
+tags: 3.3.5, 3.3.5a, 335, 335a, wotlk, dbc, database client
 editor: markdown
-dateCreated: 2023-08-09CEST00:06:01.000Z
+dateCreated: 2023-10-04T08:02:11.651Z
 ---
+
 <a href="https://trinitycore.info/files/DBC/335/creaturemovementinfo" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'CreatureMovementInfo'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/DBC" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to DBCs (3.3.5a)</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/creaturespelldata" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'CreatureSpellData'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
 # CreatureSoundData.dbc
@@ -53,8 +54,8 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 28 | [SoundPetAttackID](#soundpetattackid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
 | 29 | [SoundPetOrderID](#soundpetorderid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
 | 30 | [SoundPetDismissID](#soundpetdismissid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 31 | [DidgetDelaySecondsMin](#fidgetdelaysecondsmin) | float |  |
-| 32 | [DidgetDelaySecondsMax](#fidgetdelaysecondsmax) | float |  |
+| 31 | [FidgetDelaySecondsMin](#fidgetdelaysecondsmin) | float |  |
+| 32 | [FidgetDelaySecondsMax](#fidgetdelaysecondsmax) | float |  |
 | 33 | [BirthSoundID](#birthsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
 | 34 | [SpellCastDirectedSoundID](#spellcastdirectedsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
 | 35 | [SubmergeSoundID](#submergesoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
@@ -207,13 +208,13 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 Used by SMSG_PET_DISMISS_SOUND.
 &nbsp;
 
-### DidgetDelaySecondsMin
+### FidgetDelaySecondsMin
 :x: <code>Col: 31 (flaot)</code>
 
 Time / Interval? 30 seconds?
 &nbsp;
 
-### DidgetDelaySecondsMax
+### FidgetDelaySecondsMax
 :x: <code>Col: 32 (flaot)</code>
 
 Time / Interval? 30 seconds?
