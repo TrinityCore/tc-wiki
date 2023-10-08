@@ -2,7 +2,7 @@
 title: CreatureSoundData.dbc
 description: 
 published: true
-date: 2023-10-07T20:54:48.325Z
+date: 2023-10-08T14:05:05.117Z
 tags: 3.3.5, 3.3.5a, 335, 335a, wotlk, dbc, database client
 editor: markdown
 dateCreated: 2023-10-04T08:02:11.651Z
@@ -25,7 +25,7 @@ dateCreated: 2023-10-04T08:02:11.651Z
 | :---: | --- | :---: | --- |
 | 0 | [ID](#id) | uint32 |  |
 | 1 | [SoundExertionID](#soundexertionid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 2 | [SoundExertionCriticalID](#soundexertioncriticalid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |Confirm?
+| 2 | [SoundExertionCriticalID](#soundexertioncriticalid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
 | 3 | [SoundInjuryID](#soundinjuryid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
 | 4 | [SoundInjuryCriticalID](#soundinjurycriticalid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
 | 5 | [SoundInjuryCrushingBlowID](#soundinjurycrushingblowid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
