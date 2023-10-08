@@ -2,7 +2,7 @@
 title: Map.dbc
 description: 
 published: true
-date: 2023-10-04T13:09:03.698Z
+date: 2023-10-08T14:11:58.616Z
 tags: 3.3.5, 3.3.5a, 335, 335a, wotlk, dbc, database client
 editor: markdown
 dateCreated: 2023-10-04T08:05:31.322Z
@@ -122,7 +122,7 @@ reference to World\Map\ \[...\] \
 ### Flags
 <code>Col: 3 (uint32)</code>
 
-[`enum MapType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/DataStores/DBCEnums.h#L342-L345)
+[`enum MapFlags`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/DataStores/DBCEnums.h#L342-L345)
 | Value | Flag | Name | Comment |
 |-------|------|------|---------|
 | 1 | 0x0001 |  | Optimize |
