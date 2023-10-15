@@ -2,7 +2,7 @@
 title: waypoint_data
 description: 
 published: true
-date: 2023-10-15T20:48:35.202Z
+date: 2023-10-15T20:49:33.334Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:38:05.732Z
