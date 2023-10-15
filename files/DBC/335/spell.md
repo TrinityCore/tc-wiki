@@ -2,7 +2,7 @@
 title: Spell.dbc
 description: 
 published: true
-date: 2023-10-04T12:49:06.524Z
+date: 2023-10-15T13:06:26.037Z
 tags: 3.3.5, 3.3.5a, 335, 335a, wotlk, dbc, database client
 editor: markdown
 dateCreated: 2023-10-04T08:07:22.166Z
@@ -620,7 +620,7 @@ dateCreated: 2023-10-04T08:07:22.166Z
 |-------|------|------|---------|
 | 1 | 0x00000001 | SPELL_ATTR7_UNK0 | Unknown attribute 0@Attr7 |
 | 2 | 0x00000002 | SPELL_ATTR7_IGNORE_DURATION_MODS | Ignore duration modifiers |
-| 4 | 0x00000004 | SPELL_ATTR7_REACTIVATE_AT_RESURRECT | Reactivate at resurrect (client only) |
+| 4 | 0x00000004 | SPELL_ATTR7_DISABLE_AURA_WHILE_DEAD | Disable Aura While Dead |
 | 8 | 0x00000008 | SPELL_ATTR7_IS_CHEAT_SPELL | Is cheat spell DESCRIPTION Cannot cast if caster doesn't have UnitFlag2 & UNIT_FLAG2_ALLOW_CHEAT_SPELLS |
 | 16 | 0x00000010 | SPELL_ATTR7_UNK4 | Unknown attribute 4@Attr7 DESCRIPTION Soulstone related? |
 | 32 | 0x00000020 | SPELL_ATTR7_SUMMON_PLAYER_TOTEM | Summons player-owned totem |
