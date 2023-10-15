@@ -2,7 +2,7 @@
 title: waypoint_data
 description: 
 published: true
-date: 2023-05-28T14:03:17.853Z
+date: 2023-10-15T20:48:35.202Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:38:05.732Z
@@ -31,9 +31,11 @@ dateCreated: 2021-08-30T09:38:05.732Z
 ### id
 Unique ID for each path.
 
-The TDB standard way of assigning an ID is to multiply GUID of the creature by 10.
+The TDB standard is **[`creature_template.entry`](/database/master/world/creature_template#entry) * 100 (+ path offset)**. Any waypoints submitted to TDB should follow this standard.
 
-So for a creature with a GUID of 1234 the path ID would be 12340. Any waypoints submitted to TDB should follow this standard.
+> **Example**: Creature with entry 1234 and two paths:
+> - Path 1 &rarr; 1234 * 100 + 0 = 123400
+> - Path 2 &rarr; 1234 * 100 + 1 = 123401
 
 However, this is only a suggestion when creating your own waypoints. This ID can be anything you want as long as [`creature_addon.path_id`](/database/master/world/creature_addon#path_id) is set to the ID you pick here for the creature you are creating a waypoint for.
 &nbsp;
