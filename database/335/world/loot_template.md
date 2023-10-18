@@ -1,9 +1,9 @@
 ---
 title: *_loot_template
-description:
+description: loot template definition summary
 published: true
-date: 2023-07-08T16:28:59.839Z
-tags:
+date: 2023-10-18T23:23:26.977Z
+tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2023-07-08T00:17:47.784Z
 ---
@@ -57,7 +57,7 @@ The 12 tables have different relations with other DB tables.
 
 | table | field | relation | related table | related field | comment |
 |-------|-------|----------|---------------|---------------|---------|
-| fishing_loot_template | | no db relation | [AreaTable](/files/DBC/335/areatable) | id | Entry is linked with ID of the fishing zone or area |
+| fishing_loot_template | | no db relation | [AreaTable](/files/DBC/335/areatable) | [id](/files/DBC/335/areatable#id) | Entry is linked with ID of the fishing zone or area |
 | creature_loot_template | [Entry](#entry) | many <- many | [creature_template](../world/creature_template) | [lootid](../world/creature_template#lootid) |  |
 | gameobject_loot_template | [Entry](#entry) | many <- many |[gameobject_template](../world/gameobject_template) | [data1](../world/gameobject_template#data1) | Only GAMEOBJECT_TYPE_CHEST (3) or GAMEOBJECT_TYPE_FISHINGHOLE (25) |
 | item_loot_template | [Entry](#entry) | many <- one | [item_template](../world/item_template) | [entry](../world/item_template#entry) | | |
@@ -67,7 +67,7 @@ The 12 tables have different relations with other DB tables.
 | pickpocketing_loot_template | [Entry](#entry) | many <- many | [creature_template](../world/creature_template) | [pickpocketloot](../world/creature_template#pickpocketloot) | |
 | skinning_loot_template | [Entry](#entry) | many <- many | [creature_template](../world/creature_template) | [skinloot](../world/creature_template#skinloot) | Can also store minable/herbable items gathered from creatures |
 | mail_loot_template | [Entry](#entry) | many <- one | [quest_template_addon](../world/quest_template_addon) | [RewardMailTemplateID](../world/quest_template_addon#rewardmailtemplateid) | |
-| spell_loot_template | [Entry](#entry) | no db relation | [Spell](/files/DBC/335/spell) | id | Only spells with SPELL_EFFECT_CREATE_RANDOM_ITEM (59) or SPELL_EFFECT_CREATE_ITEM_2 (157) |
+| spell_loot_template | [Entry](#entry) | no db relation | [Spell](/files/DBC/335/spell) | [id](/files/DBC/335/spell#id) | Only spells with SPELL_EFFECT_CREATE_RANDOM_ITEM (59) or SPELL_EFFECT_CREATE_ITEM_2 (157) |
 | reference_loot_template | [Entry](#entry) | many <- many | \*_loot_template | [Reference](#Reference) | |
 
 ## Description of fields
@@ -87,7 +87,9 @@ Agreements on **Entry** field values are described [there](#agreements).
 ### Item
 [Template ID](../world/item_template#entry) of the item which is included into the loot.
 
-NOTE: For reference entries this field has no meaning and is not used by the core in any way. Yet because of the PRIMARY KEY on the entry + item combination, this field will nonetheless need to be a unique number for each reference entry so that no indexing conflicts arise.
+> Note: For reference entries this field has no meaning and is not used by the core in any way. Yet because of the PRIMARY KEY on the entry + item combination, this field will nonetheless need to be a unique number for each reference entry so that no indexing conflicts arise.
+{.is-info}
+
 &nbsp;
 
 ### Reference
