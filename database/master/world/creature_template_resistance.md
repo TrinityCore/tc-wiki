@@ -22,15 +22,25 @@ dateCreated: 2021-12-15T19:39:20.849Z
 ## Description of fields
 
 ### CreatureID
-*- no description -*
+references [creature_template.entry](../world/creature_template#entry)
 &nbsp;
 
 ### School
-*- no description -*
+The spell school the creature is resistant to.
+| Value | Name |
+|-------|------|
+| 1 | SPELL_SCHOOL_HOLY |
+| 2 | SPELL_SCHOOL_FIRE |
+| 3 | SPELL_SCHOOL_NATURE |
+| 4 | SPELL_SCHOOL_FROST |
+| 5 | SPELL_SCHOOL_SHADOW |
+| 6 | SPELL_SCHOOL_ARCANE |
+{.dense}
+
 &nbsp;
 
 ### Resistance
-*- no description -*
+The resistance amount.
 &nbsp;
 
 ### VerifiedBuild

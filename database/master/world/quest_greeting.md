@@ -24,23 +24,25 @@ dateCreated: 2021-08-30T09:34:57.623Z
 ## Description of fields
 
 ### ID
-*- no description -*
+* **Type** = 0: references [creature_template.entry](../world/creature_template#entry)
+* **Type** = 1: references [gameobject_template.entry](../world/gameobject_template#entry)
 &nbsp;
 
 ### Type
-*- no description -*
+* 0: Creature
+* 1: GameObject
 &nbsp;
 
 ### GreetEmoteType
-*- no description -*
+Quest NPC [Emote ID](https://wow.tools/dbc/?dbc=emotes)
 &nbsp;
 
 ### GreetEmoteDelay
-*- no description -*
+Emote delay in milliseconds.
 &nbsp;
 
 ### Greeting
-*- no description -*
+Text to display.
 &nbsp;
 
 ### VerifiedBuild

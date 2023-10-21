@@ -29,7 +29,7 @@ dateCreated: 2021-08-30T09:33:31.733Z
 &nbsp;
 
 ### level
-*- no description -*
+The level at which the stats should be applied.
 &nbsp;
 
 ### str

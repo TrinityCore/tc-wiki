@@ -25,15 +25,15 @@ dateCreated: 2021-08-30T09:35:20.746Z
 ## Description of fields
 
 ### ID
-*- no description -*
+references [quest_template.ID](../world/quest_template#id)
 &nbsp;
 
 ### EmoteOnComplete
-*- no description -*
+[Emote ID](https://wow.tools/dbc/?dbc=emotes) played by the quest ender NPC when all quest objectives are completed.
 &nbsp;
 
 ### EmoteOnIncomplete
-*- no description -*
+[Emote ID](https://wow.tools/dbc/?dbc=emotes) played by the quest ender NPC if any of the quest objectives are incomplete.
 &nbsp;
 
 ### EmoteOnCompleteDelay
@@ -45,7 +45,8 @@ dateCreated: 2021-08-30T09:35:20.746Z
 &nbsp;
 
 ### CompletionText
-*- no description -*
+Quest gossip text shown in the final gossip dialogue window when turning in an item delivery quest.
+The quest item(s) involved in the quest can either be provided by the quest giver or collected by the player.
 &nbsp;
 
 ### VerifiedBuild

@@ -138,15 +138,18 @@ dateCreated: 2021-08-30T09:35:31.131Z
 ## Description of fields
 
 ### ID
-*- no description -*
+The quest ID. This column is the Primary Key for the Table. Each quest ID must be unique!
 &nbsp;
 
 ### QuestType
-*- no description -*
+* 0: Quest is enabled, but it is auto-completed when accepted; this skips quest objectives and quest details.
+* 1: Quest is disabled (not yet implemented in the core).
+* 2: Quest is enabled (does not auto-complete).
+* 3: Quest is a World Quest.
 &nbsp;
 
-### QuestPackageID
-*- no description -*
+### QuestLevel
+Level of quest. Player receives full experience amount only if their level is less than or equal to Level+5. If Level is set to -1, the player's level will be used as (Quest)Level for the experience calculation.
 &nbsp;
 
 ### ContentTuningID
@@ -154,23 +157,65 @@ dateCreated: 2021-08-30T09:35:31.131Z
 &nbsp;
 
 ### QuestSortID
-*- no description -*
+This field defines under what category the quest falls in the quest log.
+* **QuestSortID** > 0: positive [AreaTable ID](https://wow.tools/dbc/?dbc=areatable)
+* **QuestSortID** < 0: negative [QuestSort ID](https://wow.tools/dbc/?dbc=questsort) (in general profession, class or holiday quests)
+
+[QuestSort](/files/DBC/335/questsort) excerpt:
+| ID | Name |  | ID | Name |
+|----|------|--|----|------|
+| 22 | Seasonal | | 261 | Hunter |
+| 24 | Herbalism | | 262 | Priest |
+| 25 | Battlegrounds | | 263 | Druid |
+| 41 | Day of the Dead | | 264 | Tailoring |
+| 61 | Warlock | | 304 | Cooking |
+| 81 | Warrior | | 324 | First Aid |
+| 82 | Shaman | | 364 | Darkmoon Faire |
+| 101 | Fishing | | 366 | Lunar Festival |
+| 121 | Blacksmithing | | 369 | Midsummer |
+| 141 | Paladin | | 370 | Brewfest |
+| 161 | Mage | | 371 | Inscription |
+| 162 | Rogue | | 372 | Death Knight |
+| 181 | Alchemy | | 373 | Jewelcrafting |
+| 182 | Leatherworking | | 374 | Noblegarden |
+| 201 | Engineering | | 375 | Pilgrim's Bounty |
+| 241 | Tournament | | 376 | Love is in the Air |
+{.dense}
+
 &nbsp;
 
 ### QuestInfoID
-*- no description -*
+[QuestInfo ID](https://wow.tools/dbc/?dbc=questinfo)
+| ID | Name |
+|----|------|
+| 1 | Group |
+| 21 | Life |
+| 41 | PvP |
+| 62 | Raid |
+| 81 | Dungeon |
+| 82 | World Event |
+| 83 | Legendary |
+| 84 | Escort |
+| 85 | Heroic |
+| 88 | Raid (10) |
+| 89 | Raid (25) |
+{.dense}
+
 &nbsp;
 
 ### SuggestedGroupNum
-*- no description -*
+Recommended number of players to do the quest together.
 &nbsp;
 
 ### RewardNextQuest
-*- no description -*
+**ID** of the next quest in a chain. The result is, that if you end the quest, the new quest instantly appears from the quest giver.
 &nbsp;
 
 ### RewardXPDifficulty
-*- no description -*
+references [QuestXP Difficulty](https://wow.tools/dbc/?dbc=questxp)
+The amount of XP is determined by the **QuestLevel** (row) and **RewardXPDifficulty** (column) when reading from [QuestXP](https://wow.tools/dbc/?dbc=questxp) table.
+
+If the quest is repeatable, XP will be given only once. The total XP that a character will receive is also affected by the level difference between the character's level and the quest's level.
 &nbsp;
 
 ### RewardXPMultiplier
@@ -186,35 +231,37 @@ dateCreated: 2021-08-30T09:35:31.131Z
 &nbsp;
 
 ### RewardBonusMoney
-*- no description -*
+The money a character at level 80 would get when they complete this quest.
 &nbsp;
 
-### RewardDisplaySpell1
-*- no description -*
-&nbsp;
+### RewardDisplaySpell[1-3]
+Spell that is shown to be casted on quest completion in the quest log. Note that this spell will NOT be casted if **RewardSpellCast** is non-zero. The spell in the other field will be casted instead, in which case the spell here only serves as the visual in the quest log.
 
-### RewardDisplaySpell2
-*- no description -*
-&nbsp;
+> Note: This field comes straight from the WDB and should not be changed.
+{.is-info}
 
-### RewardDisplaySpell3
-*- no description -*
 &nbsp;
 
 ### RewardSpell
-*- no description -*
+Spell that will always be casted at player when completing the quest. This can be a learn spell and player the learned some spell in result, or a buff spell for example. If this field is non-zero then this spell will ALWAYS be casted and the spell in **RewardDisplaySpell** will not.
+
+> Note: This field comes straight from the WDB and should not be changed.
+{.is-info}
+
 &nbsp;
 
 ### RewardHonor
-*- no description -*
+Number of honor points rewarded for completing this quest.
 &nbsp;
 
 ### RewardKillHonor
-*- no description -*
+Number of honorable kill honor rewarded for completing this quest.
+
+Example: An example value is 8 for [For Great Honor](https://aowow.trinitycore.info/?quest=8388). At level 80 an honorable kill is worth 124 honor. Multiply this with 8 and you receive 992 honor as reward.
 &nbsp;
 
 ### StartItem
-*- no description -*
+[Item entry](https://wow.tools/dbc/?dbc=itemsparse) given when accepting the quest. Item will be deleted when the quest is abandoned.
 &nbsp;
 
 ### RewardArtifactXPDifficulty
@@ -230,7 +277,30 @@ dateCreated: 2021-08-30T09:35:31.131Z
 &nbsp;
 
 ### Flags
-*- no description -*
+[`enum QuestFlags`](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Quests/QuestDef.h)
+| Value | Flag | Name | Description |
+|-------|------|------|-------------|
+| 1 | 0x000001 | QUEST_FLAGS_STAY_ALIVE | Not used currently; If the player dies, the quest is failed. |
+| 2 | 0x000002 | QUEST_FLAGS_PARTY_ACCEPT | Not used currently. If player in party, all players that can accept this quest will receive confirmation box to accept quest CMSG_QUEST_CONFIRM_ACCEPT/SMSG_QUEST_CONFIRM_ACCEPT |
+| 4 | 0x000004 | QUEST_FLAGS_EXPLORATION | Not used currently; Involves the activation of an areatrigger. |
+| 8 | 0x000008 | QUEST_FLAGS_SHARABLE | Can be shared: Player::CanShareQuest() |
+| 16 | 0x000010 | QUEST_FLAGS_HAS_CONDITION | Not used currently |
+| 32 | 0x000020 | QUEST_FLAGS_HIDE_REWARD_POI | Not used currently: Unsure of content |
+| 64 | 0x000040 | QUEST_FLAGS_RAID | Can be completed while in raid |
+| 128 | 0x000080 | QUEST_FLAGS_TBC | Not used currently: Available if TBC expansion enabled only |
+| 256 | 0x000100 | QUEST_FLAGS_NO_MONEY_FROM_XP | Not used currently: Experience is not converted to gold at max level |
+| 512 | 0x000200 | QUEST_FLAGS_HIDDEN_REWARDS | Item and monetary rewards are hidden in the initial quest details page and in the quest log but will appear once ready to be rewarded. |
+| 1024 | 0x000400 | QUEST_FLAGS_TRACKING | These quests are automatically rewarded on quest complete and they will never appear in quest log client side. |
+| 2048 | 0x000800 | QUEST_FLAGS_DEPRECATE_REPUTATION | Not used currently |
+| 4096 | 0x001000 | QUEST_FLAGS_DAILY | Daily repeatable quests |
+| 8192 | 0x002000 | QUEST_FLAGS_FLAGS_PVP | Having this quest in log forces PvP flag |
+| 16384 | 0x004000 | QUEST_FLAGS_UNAVAILABLE | Used on quests that are not generically available |
+| 32768 | 0x008000 | QUEST_FLAGS_WEEKLY | Weekly repeatable quests |
+| 65536 | 0x010000 | QUEST_FLAGS_AUTOCOMPLETE | auto complete |
+| 131072 | 0x020000 | QUEST_FLAGS_DISPLAY_ITEM_IN_TRACKER | Displays usable item in quest tracker |
+| 262144 | 0x040000 | QUEST_FLAGS_OBJ_TEXT | use Objective text as Complete text |
+| 524288 | 0x080000 | QUEST_FLAGS_AUTO_ACCEPT | The client recognizes this flag as auto-accept. However, NONE of the current quests (3.3.5a) have this flag. Maybe blizz used to use it, or will use it in the future. |
+{.dense}
 &nbsp;
 
 ### FlagsEx
@@ -241,164 +311,52 @@ dateCreated: 2021-08-30T09:35:31.131Z
 *- no description -*
 &nbsp;
 
-### RewardItem1
-*- no description -*
+### RewardItem\[1-4]
+[Item entry](../world/item_template#entry) given as reward (no choice).
 &nbsp;
 
-### RewardAmount1
-*- no description -*
+### RewardAmount\[1-4]
+The amount of items forced onto the player.
 &nbsp;
 
-### RewardItem2
-*- no description -*
+### ItemDrop\[1-4]
+[Item entry](https://wow.tools/dbc/?dbc=itemsparse) that is needed indirectly by the quest. For example, the quests asks for item X but the only way to get item X is by activating item Y; however, item Y is also a quest item. Therefore you set item Y's entry in this field. This requirement will not appear in the quest text, it is just for the core to know when to drop a quest item that isn't in the **RequiredItemId\*** field but is still needed by the quest.
 &nbsp;
 
-### RewardAmount2
-*- no description -*
+### ItemDropQuantity\[1-4]
+The maximum number of copies of the item in **RequiredSourceItemId\*** that can be picked up (and dropped by the core).
 &nbsp;
 
-### RewardItem3
-*- no description -*
+### RewardChoiceItemID\[1-6]
+The player has to pick one of **RewardChoiceItemID\*** as a reward.
 &nbsp;
 
-### RewardAmount3
-*- no description -*
-&nbsp;
-
-### RewardItem4
-*- no description -*
-&nbsp;
-
-### RewardAmount4
-*- no description -*
-&nbsp;
-
-### ItemDrop1
-*- no description -*
-&nbsp;
-
-### ItemDropQuantity1
-*- no description -*
-&nbsp;
-
-### ItemDrop2
-*- no description -*
-&nbsp;
-
-### ItemDropQuantity2
-*- no description -*
-&nbsp;
-
-### ItemDrop3
-*- no description -*
-&nbsp;
-
-### ItemDropQuantity3
-*- no description -*
-&nbsp;
-
-### ItemDrop4
-*- no description -*
-&nbsp;
-
-### ItemDropQuantity4
-*- no description -*
-&nbsp;
-
-### RewardChoiceItemID1
-*- no description -*
-&nbsp;
-
-### RewardChoiceItemQuantity1
-*- no description -*
-&nbsp;
-
-### RewardChoiceItemDisplayID1
-*- no description -*
-&nbsp;
-
-### RewardChoiceItemID2
-*- no description -*
-&nbsp;
-
-### RewardChoiceItemQuantity2
-*- no description -*
-&nbsp;
-
-### RewardChoiceItemDisplayID2
-*- no description -*
-&nbsp;
-
-### RewardChoiceItemID3
-*- no description -*
-&nbsp;
-
-### RewardChoiceItemQuantity3
-*- no description -*
-&nbsp;
-
-### RewardChoiceItemDisplayID3
-*- no description -*
-&nbsp;
-
-### RewardChoiceItemID4
-*- no description -*
-&nbsp;
-
-### RewardChoiceItemQuantity4
-*- no description -*
-&nbsp;
-
-### RewardChoiceItemDisplayID4
-*- no description -*
-&nbsp;
-
-### RewardChoiceItemID5
-*- no description -*
-&nbsp;
-
-### RewardChoiceItemQuantity5
-*- no description -*
-&nbsp;
-
-### RewardChoiceItemDisplayID5
-*- no description -*
-&nbsp;
-
-### RewardChoiceItemID6
-*- no description -*
-&nbsp;
-
-### RewardChoiceItemQuantity6
-*- no description -*
-&nbsp;
-
-### RewardChoiceItemDisplayID6
-*- no description -*
+### RewardChoiceItemQuantity\[1-6]
+The amount of items to reward if if the correspondig **RewardChoiceItemID\*** is selected.
 &nbsp;
 
 ### POIContinent
-*- no description -*
+[Map ID](https://wow.tools/dbc/?dbc=map) of a quest point of interest (POI - Point Of Interest). POI will be shown on the map when quest is active.
 &nbsp;
 
 ### POIx
-*- no description -*
+X coordinate of quest POI.
 &nbsp;
 
 ### POIy
-*- no description -*
+Y coordinate of quest POI.
 &nbsp;
 
 ### POIPriority
-*- no description -*
+*unknown / just sent to client*
 &nbsp;
 
 ### RewardTitle
-*- no description -*
+[CharTitle ID](https://wow.tools/dbc/?dbc=chartitles) to reward on completion.
 &nbsp;
 
 ### RewardArenaPoints
-*- no description -*
+An amount of arena points to reward on completion.
 &nbsp;
 
 ### RewardSkillLineID
@@ -425,83 +383,28 @@ dateCreated: 2021-08-30T09:35:31.131Z
 *- no description -*
 &nbsp;
 
-### RewardFactionID1
-*- no description -*
+### RewardFactionID\[1-5]
+[Faction ID](https://wow.tools/dbc/?dbc=faction) for which the quest rewards reputation points.
 &nbsp;
 
-### RewardFactionValue1
-*- no description -*
+### RewardFactionValue\[1-5]
+This field is used for reputation lookup in [QuestFactionReward](https://wow.tools/dbc/?dbc=questfactionreward). The value X in this field indicates index of [QuestFactionReward Difficulty](https://wow.tools/dbc/?dbc=questfactionreward).
+* **RewardFactionValue\*** > 0: Reputation from the first row of [QuestFactionReward](https://wow.tools/dbc/?dbc=questfactionreward) is used.
+* **RewardFactionValue\*** < 0: Reputation from the second row of [QuestFactionReward](https://wow.tools/dbc/?dbc=questfactionreward) is used.
+
+| ID | Rep0 | Rep1 | Rep2 | Rep3 | Rep4 | Rep5 | Rep6 | Rep7 | Rep8 | Rep9 |
+|----|------|------|------|------|------|------|------|------|------|------|
+1 | 0 | 10 | 25 | 75 | 150 | 250 | 350 | 500 | 1000 | 5 |
+2 | 0 | -10 | -25 | -75 | -150 | -250 | -350 | -500 | -1000 | -5 |
+{.dense}
+
 &nbsp;
 
-### RewardFactionOverride1
-*- no description -*
+### RewardFactionOverride\[1-5]
+This field is used to give reputation values not present in [QuestFactionReward](https://wow.tools/dbc/?dbc=questfactionreward) or to override them if **RewardFactionValue\*** is wrong for some reason. The value in this field is 100× the intended reputation reward (if you want to give 400 rep, put 40000 in **RewardFactionOverride\***).
 &nbsp;
 
-### RewardFactionCapIn1
-*- no description -*
-&nbsp;
-
-### RewardFactionID2
-*- no description -*
-&nbsp;
-
-### RewardFactionValue2
-*- no description -*
-&nbsp;
-
-### RewardFactionOverride2
-*- no description -*
-&nbsp;
-
-### RewardFactionCapIn2
-*- no description -*
-&nbsp;
-
-### RewardFactionID3
-*- no description -*
-&nbsp;
-
-### RewardFactionValue3
-*- no description -*
-&nbsp;
-
-### RewardFactionOverride3
-*- no description -*
-&nbsp;
-
-### RewardFactionCapIn3
-*- no description -*
-&nbsp;
-
-### RewardFactionID4
-*- no description -*
-&nbsp;
-
-### RewardFactionValue4
-*- no description -*
-&nbsp;
-
-### RewardFactionOverride4
-*- no description -*
-&nbsp;
-
-### RewardFactionCapIn4
-*- no description -*
-&nbsp;
-
-### RewardFactionID5
-*- no description -*
-&nbsp;
-
-### RewardFactionValue5
-*- no description -*
-&nbsp;
-
-### RewardFactionOverride5
-*- no description -*
-&nbsp;
-
-### RewardFactionCapIn5
+### RewardFactionCapIn\[1-5]
 *- no description -*
 &nbsp;
 
@@ -554,11 +457,22 @@ dateCreated: 2021-08-30T09:35:31.131Z
 &nbsp;
 
 ### TimeAllowed
-*- no description -*
+Time in seconds that the player has to complete this quest.
 &nbsp;
 
 ### AllowableRaces
-*- no description -*
+Race mask of [ChrRace IDs](https://wow.tools/dbc/?dbc=chrraces) allowed to get the quest.
+0 means the quest is accessible for all races.
+| Value | Flag   | Name      |  | Value | Flag   | Name      |
+|-------|--------|-----------|--|-------|--------|-----------|
+|     1 | 0x0001 | Human     |  |     2 | 0x0002 | Orc       |
+|     4 | 0x0004 | Dwarf     |  |    16 | 0x0010 | Undead    |
+|     8 | 0x0008 | Night Elf |  |    32 | 0x0020 | Tauren    |
+|    64 | 0x0040 | Gnome     |  |   128 | 0x0080 | Troll     |
+|  1024 | 0x0400 | Draenei   |  |   512 | 0x0200 | Blood Elf |
+|  1101 | 0x044D | *_Alliance_* |  |   690 | 0x02B2 | *_Horde_* |
+{.dense}
+UPDATE ME
 &nbsp;
 
 ### TreasurePickerID
@@ -610,7 +524,8 @@ dateCreated: 2021-08-30T09:35:31.131Z
 &nbsp;
 
 ### QuestCompletionLog
-*- no description -*
+Objective text displayed after all other objectives are completed.
+Example: `Return to <NPC> at <Location> in <Zone>.`
 &nbsp;
 
 ### VerifiedBuild

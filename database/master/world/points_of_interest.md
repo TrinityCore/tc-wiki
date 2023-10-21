@@ -28,15 +28,15 @@ dateCreated: 2021-08-30T09:34:33.819Z
 ## Description of fields
 
 ### ID
-*- no description -*
+Unique id to be referenced by the scripting system to display the POI.
 &nbsp;
 
 ### PositionX
-*- no description -*
+X postion for the _map_ this POI gets shown on.
 &nbsp;
 
 ### PositionY
-*- no description -*
+Y postion for the _map_ this POI gets shown on.
 &nbsp;
 
 ### PositionZ
@@ -48,15 +48,15 @@ dateCreated: 2021-08-30T09:34:33.819Z
 &nbsp;
 
 ### Flags
-*- no description -*
+*unknown / just sent to client*
 &nbsp;
 
 ### Importance
-*- no description -*
+*unknown / just sent to client*
 &nbsp;
 
 ### Name
-*- no description -*
+Text of the onMouseover tooltip for the **Icon**.
 &nbsp;
 
 ### WMOGroupID

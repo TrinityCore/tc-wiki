@@ -70,11 +70,11 @@ The ID of the `OptionText` text in [`broadcast_text.ID`](/database/master/world/
 &nbsp;
 
 ### ActionMenuID
-*- no description -*
+If you want to create a sub-menu, this is the ID ([gossip_menu.MenuID](../world/gossip_menu#menuid) / [gossip_menu_option.menuID](../world/gossip_menu_option#menuid)) to link to to create that sub-menu.
 &nbsp;
 
 ### ActionPoiID
-*- no description -*
+If you want a POI (point of interest) to display on the minimap (like how a city guard places a marker when you ask directions), this is the ID from [points_of_interest](../world/points_of_interest#id)
 &nbsp;
 
 ### GossipNpcOptionID
@@ -82,15 +82,17 @@ The ID of the `OptionText` text in [`broadcast_text.ID`](/database/master/world/
 &nbsp;
 
 ### BoxCoded
-*- no description -*
+If you want a box to display where you have to enter a code, set this field to `1`.
 &nbsp;
 
 ### BoxMoney
-*- no description -*
+The amount of money the player has to pay for the selected option, appears in the confirmation box as amount of gold, silver, copper.
+The DB value you insert here must be given in the number of copper, so 10 gold is entered as 100000 (10g 00s 00c).
 &nbsp;
 
 ### BoxText
-Text displayed in a box after selecting the gossip option.
+This is the text of the window that appears that has "Yes" or "No" as clickable buttons. This is useful if you want a Yes/No confirmation window before the script executes. For example: "Are you sure you want to teleport to Dalaran?".
+If **BoxBroadCastTextID** contains a valid [broadcast_text.ID](../world/broadcast_text#id), it links to broadcast_text so the content from broadcast_text is displayed directly instead of the **BoxText** field content.
 &nbsp;
 
 ### BoxBroadcastTextID

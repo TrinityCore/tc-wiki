@@ -59,24 +59,9 @@ Minimum money, in copper, that the gameobject can drop when accessed / used.
 Maximum money, in copper, that the gameobject can drop when accessed / used.
 &nbsp;
 
-### artkit0
-*- no description -*
-&nbsp;
-
-### artkit1
-*- no description -*
-&nbsp;
-
-### artkit2
-*- no description -*
-&nbsp;
-
-### artkit3
-*- no description -*
-&nbsp;
-
-### artkit4
-*- no description -*
+### artkit\[0-4]
+[GameObjectArtKit ID](https://wow.tools/dbc/?dbc=gameobjectartkit)
+Updates display if object is activated by SPELL_EFFCT_ACTIVATE_OBJECT with MiscValue 19 - 22.
 &nbsp;
 
 ### WorldEffectID

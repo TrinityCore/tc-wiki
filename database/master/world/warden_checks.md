@@ -26,11 +26,24 @@ dateCreated: 2021-08-30T09:38:03.122Z
 ## Description of fields
 
 ### id
-*- no description -*
+Unique ID, automatically incremented by 1
 &nbsp;
 
 ### type
-*- no description -*
+| ID | Name | Comment |
+|----|------|---------|
+| 0 |  NONE_CHECK | SKIP |
+| 87 |  TIMING_CHECK | nyi |
+| 113 |  DRIVER_CHECK | uint Seed + byte[20] SHA1 + byte driverNameIndex (check to ensure driver isn't loaded) |
+| 126 |  PROC_CHECK | nyi |
+| 139 |  LUA_EVAL_CHECK | evaluate arbitrary Lua check |
+| 152 |  MPQ_CHECK | get hash of MPQ file (to check it is not modified) |
+| 178 |  PAGE_CHECK_A | scans all pages for specified SHA1 hash |
+| 191 |  PAGE_CHECK_B | scans only pages starts with MZ+PE headers for specified hash |
+| 217 |  MODULE_CHECK | check to make sure module isn't injected |
+| 243 |  MEM_CHECK | retrieve specific memory |
+{.dense}
+
 &nbsp;
 
 ### str

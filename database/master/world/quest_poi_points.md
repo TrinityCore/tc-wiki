@@ -25,23 +25,39 @@ dateCreated: 2021-08-30T09:35:18.209Z
 ## Description of fields
 
 ### QuestID
-*- no description -*
+references [quest_template.ID](../world/quest_template#id) and [quest_poi.QuestID](../world/quest_poi#questid)
 &nbsp;
 
 ### Idx1
-*- no description -*
+Used to group multiple entries from [quest_poi.id](../world/quest_poi#id). You must manually increment this value by 1 for each new row in quest_poi_point with the same questId (0, 1, 2, 3...).
 &nbsp;
 
 ### Idx2
-*- no description -*
+Used to group multiple entries in the quest poi points to draw the polygon for that point of interest. The actual points are the corners of each polygon.
+
+Example quest: [Secret Communication](https://aowow.trinitycore.info/?quest=8318).
+| QuestID | Idx1 | Idx2 | X     | Y   | VerifiedBuild |
+|---------|------|------|-------|-----|---------------|
+|    8318 |    3 |    0 | -6231 | -51 |             0 |
+|    8318 |    3 |    1 | -6236 |  19 |             0 |
+|    8318 |    3 |    2 | -6241 |  52 |             0 |
+|    8318 |    3 |    3 | -6316 | 282 |             0 |
+|    8318 |    3 |    4 | -6413 | 282 |             0 |
+|    8318 |    3 |    5 | -6483 | 250 |             0 |
+|    8318 |    3 |    6 | -6483 | 217 |             0 |
+|    8318 |    3 |    7 | -6326 |  -7 |             0 |
+{.dense}
+
+These points are all the little corners on the blue box. idx1 represents an area defined by the points of idx2 to draw the shape.
+![quest_poi.png](/quest_poi.png)
 &nbsp;
 
 ### X
-*- no description -*
+The X position of the question mark on the [MapID](../world/quest_poi#mapid).
 &nbsp;
 
 ### Y
-*- no description -*
+The Y position of the question mark on the [MapID](../world/quest_poi#mapid).
 &nbsp;
 
 ### Z

@@ -22,15 +22,15 @@ dateCreated: 2021-08-30T09:31:51.158Z
 ## Description of fields
 
 ### GameObjectEntry
-*- no description -*
+The gameobject that is supposed show this information (references [gameobject_template.entry](../world/gameobject_template#entry))
 &nbsp;
 
 ### Idx
-*- no description -*
+The order in which the items are listed. **Idx** must be less than MAX_GAMEOBJECT_QUEST_ITEMS (6)
 &nbsp;
 
 ### ItemId
-*- no description -*
+An item that should appear in the tooltip. (references [ItemID](https://wow.tools/dbc/?dbc=itemsparse))
 &nbsp;
 
 ### VerifiedBuild

@@ -34,7 +34,7 @@ dateCreated: 2021-08-30T09:35:15.540Z
 ## Description of fields
 
 ### QuestID
-*- no description -*
+The Quest Id from [quest_template.ID](../world/quest_template#id)
 &nbsp;
 
 ### BlobIndex
@@ -46,7 +46,7 @@ dateCreated: 2021-08-30T09:35:15.540Z
 &nbsp;
 
 ### ObjectiveIndex
-*- no description -*
+If `-1`, it's the position of the npc where you can complete the quest.
 &nbsp;
 
 ### QuestObjectiveID
@@ -58,7 +58,7 @@ dateCreated: 2021-08-30T09:35:15.540Z
 &nbsp;
 
 ### MapID
-*- no description -*
+The [Map ID](https://wow.tools/dbc/?dbc=map) to display the POI on.
 &nbsp;
 
 ### UiMapID
@@ -66,7 +66,7 @@ dateCreated: 2021-08-30T09:35:15.540Z
 &nbsp;
 
 ### Priority
-*- no description -*
+*unknown / just sent to client*
 &nbsp;
 
 ### Flags

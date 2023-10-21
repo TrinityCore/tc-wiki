@@ -28,39 +28,15 @@ dateCreated: 2021-08-30T09:34:54.995Z
 ## Description of fields
 
 ### ID
-*- no description -*
+references [quest_template.ID](../world/quest_template#id)
 &nbsp;
 
-### Emote1
-*- no description -*
+### Emote\[1-4]
+[Emote ID](https://wow.tools/dbc/?dbc=emotes) played by NPC.
 &nbsp;
 
-### Emote2
-*- no description -*
-&nbsp;
-
-### Emote3
-*- no description -*
-&nbsp;
-
-### Emote4
-*- no description -*
-&nbsp;
-
-### EmoteDelay1
-*- no description -*
-&nbsp;
-
-### EmoteDelay2
-*- no description -*
-&nbsp;
-
-### EmoteDelay3
-*- no description -*
-&nbsp;
-
-### EmoteDelay4
-*- no description -*
+### EmoteDelay\[1-4]
+Emote delay in milliseconds
 &nbsp;
 
 ### VerifiedBuild

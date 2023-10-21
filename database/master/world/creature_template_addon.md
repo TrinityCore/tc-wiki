@@ -45,7 +45,9 @@ The model ID of the mount to be used to make the creature appear mounted. The va
 &nbsp;
 
 ### MountCreatureID
-*- no description -*
+The [creature entry](../world/creature_template#entry) this creature is mounted on.
+{.is-info}
+
 &nbsp;
 
 ### StandState

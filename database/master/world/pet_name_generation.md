@@ -22,19 +22,22 @@ dateCreated: 2021-08-30T09:33:24.050Z
 ## Description of fields
 
 ### id
-*- no description -*
+The ID of the entry. This is an auto increment field and this is an arbitrary number. When adding entries it is best to just let the database pick the next available ID number.
 &nbsp;
 
 ### word
-*- no description -*
+The name part for this entry.
 &nbsp;
 
 ### entry
-*- no description -*
+The [creature_template.entry](../world/creature_template#entry) for the creature that you want this part of the name to be generated for.
 &nbsp;
 
 ### half
-*- no description -*
+This determines whether this is the first or last half of the name for this entry.
+* 0: First half
+* 1: Last half
+    
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/pet_levelstats" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'pet_levelstats'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/phase_area" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'phase_area'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>

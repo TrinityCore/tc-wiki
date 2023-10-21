@@ -53,7 +53,11 @@ HolidayID from [Holidays.db2](https://wow.tools/dbc/?dbc=holidays){target=_blank
 &nbsp;
 
 ### holidayStage
-*- no description -*
+Index of the main event stage. (see [HolidayDuration](https://wow.tools/dbc/?dbc=holidays))
+
+(e.g.: Darkmoon Faire has a preparation stage where it sets up.)
+
+min.: 1 - max.: MAX_HOLIDAY_DURATIONS (10)
 &nbsp;
 
 ### description

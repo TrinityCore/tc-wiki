@@ -27,31 +27,42 @@ dateCreated: 2021-08-30T09:31:40.941Z
 ## Description of fields
 
 ### guid
-*- no description -*
+refers to [gameobject.guid](../world/gameobject#guid)
 &nbsp;
 
 ### parent_rotation0
-*- no description -*
+parentRotation.x
+-1 <= x <= 1
 &nbsp;
 
 ### parent_rotation1
-*- no description -*
+parentRotation.y
+-1 <= y <= 1
 &nbsp;
 
 ### parent_rotation2
-*- no description -*
+parentRotation.z
+-1 <= z <= 1
 &nbsp;
 
 ### parent_rotation3
-*- no description -*
+parentRotation.w
+-1 <= w <= 1
 &nbsp;
 
 ### invisibilityType
-*- no description -*
+from [`enum InvisibilityType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h)
+| ID | Name |
+|----|------|
+| 0 | INVISIBILITY_GENERAL |
+| 3 | INVISIBILITY_TRAP |
+| 6 | INVISIBILITY_DRUNK |
+{.dense}
+
 &nbsp;
 
 ### invisibilityValue
-*- no description -*
+The larger the value the harder it is to detect this gameobject.
 &nbsp;
 
 ### WorldEffectID

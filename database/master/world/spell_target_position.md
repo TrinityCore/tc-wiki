@@ -25,27 +25,28 @@ dateCreated: 2021-08-30T09:37:21.892Z
 ## Description of fields
 
 ### ID
-*- no description -*
+references [Spell ID](https://wow.tools/dbc/?dbc=spell)
 &nbsp;
 
 ### EffectIndex
-*- no description -*
+The effect index of the spell with TARGET_DEST_DB.
+(0 – 2)
 &nbsp;
 
 ### MapID
-*- no description -*
+The [Map ID](https://wow.tools/dbc/?dbc=map) the player should be teleported to.
 &nbsp;
 
 ### PositionX
-*- no description -*
+X coordinate for the target destination of the spell.
 &nbsp;
 
 ### PositionY
-*- no description -*
+Y coordinate for the target destination of the spell.
 &nbsp;
 
 ### PositionZ
-*- no description -*
+Z coordinate for the target destination of the spell.
 &nbsp;
 
 ### VerifiedBuild

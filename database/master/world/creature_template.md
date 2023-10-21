@@ -275,28 +275,46 @@ Allows the manual application of unit flags to creatures. Again this is a bitmas
 &nbsp;
 
 ### VehicleId
-*- no description -*
+[Vehicle ID](/files/DBC/335/vehicle#id) if creature is/has a vehicle entry. This field determines how the player appears on the vehicle, how the vehicle moves, and whether or not the vehicle action bar is shown.
+For example, a **VehicleId** of 292 will make the player invisible, prevent the vehicle from strafing left/right (but will allow fowards/backwards), and will show the vehicle action bar spells (which are defined in spell1-8). An [npc_spellclick_spells](../world/npc_spellclick_spells) entry must be made for this creature entry in order for this to work.
 &nbsp;
 
 ### AIName
-*- no description -*
+This field is overridden by ScriptName field if both are set.
+| Value | Description |
+|-------|-------------|
+| NullAI | Empty AI, creature does nothing. |
+| AggressorAI | Creature attacks as soon as something is in aggro range. |
+| ReactorAI | Creature attacks only if aggroed by attack, spell etc. |
+| GuardAI |  |
+| PetAI | Creature is a pet. |
+| TotemAI | Creature casts [Spell](../world/creature_template_spell#spell) from **Index** 1 , otherwise like NullAI. |
+| SmartAI | Creature uses [Smart AI](../world/smart_scripts). |
+{.dense}
+
 &nbsp;
 
 ### MovementType
-*- no description -*
+The creature's default movement type.
+| Value | Description |
+|-------|-------------|
+| 0 | Idle; stay in one place |
+| 1 | Random movement inside the spawndist radius |
+| 2 | Waypoint movement |
+{.dense}
+
 &nbsp;
 
 ### ExperienceModifier
-*- no description -*
+Directly multiplies the experience granted on kill.
 &nbsp;
 
 ### RacialLeader
-*- no description -*
+A flag indicating wheather the creature is a racial leader. Killing racial leaders grants 100 honor.
 &nbsp;
 
 ### movementId
-*- no description -*
-&nbsp;
+We have no idea what this field does. It is passed directly to the client.&nbsp;
 
 ### WidgetSetID
 *- no description -*
@@ -307,15 +325,61 @@ Allows the manual application of unit flags to creatures. Again this is a bitmas
 &nbsp;
 
 ### RegenHealth
-*- no description -*
+Boolean 1 or 0 controlling if the creature should regenerate its health out of combat or not.
 &nbsp;
 
 ### mechanic_immune_mask
-*- no description -*
+This makes the creature immune to specific spell mechanics. (See [Spell EffectMechanic](/files/DBC/335/spell#effectmechanic))
+| Value | Flag | Name | Comment |
+|-------|------|------|---------|
+| 1 | 0x00000001 | MECHANIC_CHARM |  |
+| 2 | 0x00000002 | MECHANIC_DISORIENTED |  |
+| 4 | 0x00000004 | MECHANIC_DISARM |  |
+| 8 | 0x00000008 | MECHANIC_DISTRACT |  |
+| 16 | 0x00000010 | MECHANIC_FEAR |  |
+| 32 | 0x00000020 | MECHANIC_GRIP | Death Grip and similar effects |
+| 64 | 0x00000040 | MECHANIC_ROOT |  |
+| 128 | 0x00000080 | MECHANIC_SLOW_ATTACK |  |
+| 256 | 0x00000100 | MECHANIC_SILENCE |  |
+| 512 | 0x00000200 | MECHANIC_SLEEP |  |
+| 1024 | 0x00000400 | MECHANIC_SNARE |  |
+| 2048 | 0x00000800 | MECHANIC_STUN |  |
+| 4096 | 0x00001000 | MECHANIC_FREEZE |  |
+| 8192 | 0x00002000 | MECHANIC_KNOCKOUT | Incapacitate effects such as Repetance (Paladin) |
+| 16384 | 0x00004000 | MECHANIC_BLEED |  |
+| 32768 | 0x00008000 | MECHANIC_BANDAGE | Healing etc. |
+| 65536 | 0x00010000 | MECHANIC_POLYMORPH |  |
+| 131072 | 0x00020000 | MECHANIC_BANISH |  |
+| 262144 | 0x00040000 | MECHANIC_SHIELD |  |
+| 524288 | 0x00080000 | MECHANIC_SHACKLE | Shackle Undead only |
+| 1048576 | 0x00100000 | MECHANIC_MOUNT | Any effect that summons a mount |
+| 2097152 | 0x00200000 | MECHANIC_INFECTED | Frost Fever, Blood Plague etc. |
+| 4194304 | 0x00400000 | MECHANIC_TURN | e.g. Turn Evil |
+| 8388608 | 0x00800000 | MECHANIC_HORROR | e.g. Death Coil (Warlock) |
+| 16777216 | 0x01000000 | MECHANIC_INVULNERABILITY | Forbearance, Nether Protection, Diplomatic Immunity only |
+| 33554432 | 0x02000000 | MECHANIC_INTERRUPT |  |
+| 67108864 | 0x04000000 | MECHANIC_DAZE |  |
+| 134217728 | 0x08000000 | MECHANIC_DISCOVERY | Any Create Item effect |
+| 268435456 | 0x10000000 | MECHANIC_IMMUNE_SHIELD | Divine Shield, Ice Block, Hand of Protection... |
+| 536870912 | 0x20000000 | MECHANIC_SAPPED |  |
+| 1073741824 | 0x40000000 | MECHANIC_ENRAGED |  |
+{.dense}
+
+To combine immunities just add values. Immune to everything corresponds to the value 2147483647 (0x3FFF FFFF).
 &nbsp;
 
 ### spell_school_immune_mask
-*- no description -*
+This makes the creature immune to spell from specific schools.
+| Value | Flag | Name |
+|-------|------|
+| 1 | 0x01 | SPELL_SCHOOL_NORMAL |
+| 2 | 0x02 | SPELL_SCHOOL_HOLY |
+| 4 | 0x04 | SPELL_SCHOOL_FIRE |
+| 8 | 0x08 | SPELL_SCHOOL_NATURE |
+| 16 | 0x10 | SPELL_SCHOOL_FROST |
+| 32 | 0x20 | SPELL_SCHOOL_SHADOW |
+| 64 | 0x40 | SPELL_SCHOOL_ARCANE |
+{.dense}
 &nbsp;
 
 ### flags_extra
@@ -348,7 +412,7 @@ Extra flags which aren't sniffable
 &nbsp;
 
 ### ScriptName
-*- no description -*
+The name of the script that this creature uses, if any. This ties a script from a scripting engine to this creature.
 &nbsp;
 
 ### StringId

@@ -49,7 +49,7 @@ This is an arbitrary name that is only used to describe this transport entry.
 &nbsp;
 
 ### ScriptName
-*- no description -*
+The ScriptName for when scripting it in the core.
 &nbsp;
 
 ## Appendix: Static Passengers (npcs)

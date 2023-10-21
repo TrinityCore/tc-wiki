@@ -40,7 +40,8 @@ The Horde players will start at the position listed inside [world_safe_locs](/da
 &nbsp;
 
 ### StartMaxDist
-*- no description -*
+Maximum distance a player can have to the StartLoc point before the battle starts.
+A value of 0 is ignored.
 &nbsp;
 
 ### Weight

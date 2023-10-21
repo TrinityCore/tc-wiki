@@ -22,15 +22,15 @@ dateCreated: 2021-12-15T19:39:27.626Z
 ## Description of fields
 
 ### CreatureID
-*- no description -*
+references [creature_template.entry](../world/creature_template#entry)
 &nbsp;
 
 ### Index
-*- no description -*
+The spells position on the cast bar if the creature is player controlled. Must be less than MAX_CREATURE_SPELLS (8)
 &nbsp;
 
 ### Spell
-*- no description -*
+A [Spell ID](https://wow.tools/dbc/?dbc=spellname) to use.
 &nbsp;
 
 ### VerifiedBuild

@@ -29,27 +29,27 @@ dateCreated: 2021-08-30T09:33:11.088Z
 ## Description of fields
 
 ### entry
-*- no description -*
+This is the [entry](../world/creature_template#entry) of the NPC that you wish to create a vendor list for.
 &nbsp;
 
 ### slot
-*- no description -*
+Position of the item when the vendor window opens (order from top-left to bottom.right of the window with values 0 and then 1,2,3,etc).
 &nbsp;
 
 ### item
-*- no description -*
+Refers to to the [ItemID](https://wow.tools/dbc/?dbc=itemsparse) of the item being sold.
 &nbsp;
 
 ### maxcount
-*- no description -*
+The maximum number of copies of the item the vendor has available to be sold before **incrtime** is up. If 0, then it is an unlimited number of copies.
 &nbsp;
 
 ### incrtime
-*- no description -*
+Combined with **maxcount**, this field tells how often (in seconds) the vendor list is refreshed and the limited item copies are restocked. For limited item copies, every refresh, the quantity is increased by the items [BuyCount](../world/item_template#buycount).
 &nbsp;
 
 ### ExtendedCost
-*- no description -*
+The value here corresponds to an [ItemExtendedCost ID](https://wow.tools/dbc/?dbc=itemextendedcost) and that ID controls the item's non monetary price, be it honor points, arena points, different types of badges or any combination of the above.
 &nbsp;
 
 ### type

@@ -34,31 +34,65 @@ dateCreated: 2021-08-30T09:34:20.895Z
 ## Description of fields
 
 ### race
-*- no description -*
+The character's [ChrRace ID](https://wow.tools/dbc/?dbc=chrraces)
+| ID | Name      |
+|----|-----------|
+|  1 | Human     |
+|  2 | Orc       |
+|  3 | Dwarf     |
+|  4 | Night Elf |
+|  5 | Undead    |
+|  6 | Tauren    |
+|  7 | Gnome     |
+|  8 | Troll     |
+| 10 | Blood Elf |
+| 11 | Draenei   |
+{.dense}
+
 &nbsp;
 
 ### class
-*- no description -*
+The character's [ChrClass ID](https://wow.tools/dbc/?dbc=chrclasses)
+| ID | Name         |
+|----|--------------|
+|  1 | Warrior      |
+|  2 | Paladin      |
+|  3 | Hunter       |
+|  4 | Rogue        |
+|  5 | Priest       |
+|  6 | Death Knight |
+|  7 | Shaman       |
+|  8 | Mage         |
+|  9 | Warlock      |
+| 11 | Druid        |
+{.dense}
+
 &nbsp;
 
 ### map
-*- no description -*
+The [Map ID](https://wow.tools/dbc/?dbc=map) the player will start on. It can not be instanceable.
 &nbsp;
 
 ### position_x
-*- no description -*
+The X position.
 &nbsp;
 
 ### position_y
-*- no description -*
+The Y position.
 &nbsp;
 
 ### position_z
-*- no description -*
+The Z position.
 &nbsp;
 
 ### orientation
-*- no description -*
+The direction the new character will be facing.
+|--|--|--|
+| North: | `0 / 2p` | 6.28319 |
+| West: | `0.5p` | 1.57080 |
+| South: | `p` | 3.14159 |
+| East: | `1.5p` | 4.71239 |
+{.dense}
 &nbsp;
 
 ### npe_map

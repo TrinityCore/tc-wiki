@@ -24,15 +24,15 @@ dateCreated: 2021-08-30T09:33:16.251Z
 ## Description of fields
 
 ### ID
-*- no description -*
+The ID of the text in the page. This number is unique to every text entry.
 &nbsp;
 
 ### Text
-*- no description -*
+The actual text. The message in this field will be shown as the text on a page.
 &nbsp;
 
 ### NextPageID
-*- no description -*
+The **ID** of the next page's text entry.
 &nbsp;
 
 ### PlayerConditionID
