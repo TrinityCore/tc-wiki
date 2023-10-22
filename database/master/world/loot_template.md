@@ -2,7 +2,7 @@
 title: *_loot_template
 description: 
 published: true
-date: 2023-10-22T16:05:19.445Z
+date: 2023-10-22T19:26:01.946Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2022-04-19T10:04:49.757Z
@@ -64,7 +64,7 @@ Agreements on **Entry** field values are described [there](#agreements).
 &nbsp;
 
 ### Item
-[Template ID](https://wow.tools/dbc/?dbc=itemsparse) of the item which is included into the loot.
+[Item ID](https://wow.tools/dbc/?dbc=itemsparse) of the item which is included into the loot.
 
 > Note: For reference entries this field has no meaning and is not used by the core in any way. Yet because of the PRIMARY KEY on the entry + item combination, this field will nonetheless need to be a unique number for each reference entry so that no indexing conflicts arise.
 {.is-info}
@@ -113,7 +113,7 @@ Zero value of **Chance** is allowed for grouped entries only.
 &nbsp;
 
 ### QuestRequired
-Informs the core that the item should be shown only to characters having appropriate quest. This means that even if item is dropped, in order to see it in the loot the player must have at least one quest that has the [item ID](https://wow.tools/dbc/?dbc=itemsparse) in its [RequiredItemId](../world/quest_template#requireditemid1) fields or in its [StartItem](../quest_template#startitem) fields. The player must also have less copies of the item than [RequiredItemCount](../world/quest_template#requireditemcount1) or [ProvidedItemCount](../world/quest_template_addon#provideditemcount).
+Informs the core that the item should be shown only to characters having appropriate quest. This means that even if item is dropped, in order to see it in the loot the player must have at least one quest that has the [item ID](https://wow.tools/dbc/?dbc=itemsparse) in its [RequiredItemId](../world/quest_template#requireditemid1) fields or in its [StartItem](../world/quest_template#startitem) fields. The player must also have less copies of the item than [RequiredItemCount](../world/quest_template#requireditemcount1) or [ProvidedItemCount](../world/quest_template_addon#provideditemcount).
 &nbsp;
 
 ### LootMode
