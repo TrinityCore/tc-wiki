@@ -2,7 +2,7 @@
 title: Trinitycore Wiki
 description: 
 published: true
-date: 2023-05-03T06:53:23.662Z
+date: 2023-10-22T15:37:05.516Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T17:47:17.543Z
@@ -56,3 +56,6 @@ For further information on the TrinityCore project, please visit our project web
 4. [Role-based Access Controls (RBAC)](/how-to/RBAC)
 
 5. [Aowow Trinitycore wowhead like](https://aowow.trinitycore.info/)
+
+
+<object type="text/html" data="../Core-Installation/windows-core-installation.html"></object>
