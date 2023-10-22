@@ -2,7 +2,7 @@
 title: creature_loot_template
 description: 
 published: true
-date: 2023-10-22T16:16:31.839Z
+date: 2023-10-22T16:16:56.613Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:55.166Z
@@ -27,7 +27,7 @@ dateCreated: 2021-08-30T09:29:55.166Z
 &nbsp;
 ## Description of fields
 > Click the button for desription: 
-<a href="https://trinitycore.info/en/database/master/world/_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-table theme--light"></i><span>*_loot_template</span></span></a>
+<a href="https://trinitycore.info/en/database/master/world/loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-table theme--light"></i><span>*_loot_template</span></span></a>
 {.is-info}
 
 &nbsp;
