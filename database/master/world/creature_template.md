@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2023-10-22T15:43:23.389Z
+date: 2023-10-22T15:45:03.894Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:15.744Z
@@ -329,7 +329,7 @@ Boolean 1 or 0 controlling if the creature should regenerate its health out of c
 &nbsp;
 
 ### mechanic_immune_mask
-This makes the creature immune to specific spell mechanics. (See [Spell EffectMechanic](/files/DBC/335/spell#effectmechanic))
+This makes the creature immune to specific spell mechanics. (See [SpellEffect EffectMechanic](https://wow.tools/dbc/?dbc=spelleffect))
 | Value | Flag | Name | Comment |
 |-------|------|------|---------|
 | 1 | 0x00000001 | MECHANIC_CHARM |  |
