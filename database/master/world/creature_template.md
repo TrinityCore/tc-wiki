@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2023-06-19T16:17:32.390Z
+date: 2023-10-22T15:43:23.389Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:15.744Z
@@ -275,7 +275,7 @@ Allows the manual application of unit flags to creatures. Again this is a bitmas
 &nbsp;
 
 ### VehicleId
-[Vehicle ID](/files/DBC/335/vehicle#id) if creature is/has a vehicle entry. This field determines how the player appears on the vehicle, how the vehicle moves, and whether or not the vehicle action bar is shown.
+[Vehicle ID](https://wow.tools/dbc/?dbc=vehicle) if creature is/has a vehicle entry. This field determines how the player appears on the vehicle, how the vehicle moves, and whether or not the vehicle action bar is shown.
 For example, a **VehicleId** of 292 will make the player invisible, prevent the vehicle from strafing left/right (but will allow fowards/backwards), and will show the vehicle action bar spells (which are defined in spell1-8). An [npc_spellclick_spells](../world/npc_spellclick_spells) entry must be made for this creature entry in order for this to work.
 &nbsp;
 
