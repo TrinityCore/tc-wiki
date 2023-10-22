@@ -2,7 +2,7 @@
 title: GM Commands
 description: Console commands 
 published: true
-date: 2023-01-17T15:54:02.390Z
+date: 2023-10-22T16:26:39.597Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-03T23:04:45.226Z
@@ -18,7 +18,7 @@ Note: Some commands are working only by selecting a player or a creature. These 
 
 &nbsp;
 
-## 6.x commands                       
+## master commands                       
 
 
 
