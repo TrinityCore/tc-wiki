@@ -2,10 +2,10 @@
 title: World
 description: 
 published: true
-date: 2023-10-06T19:27:12.464Z
+date: 2023-10-22T16:04:04.119Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-28T21:01:17.438Z
 ---
 
 ## a
@@ -137,6 +137,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 - [lfg_dungeon_rewards](/database/master/world/lfg_dungeon_rewards)
 - [lfg_dungeon_template](/database/master/world/lfg_dungeon_template)
 - [linked_respawn](/database/master/world/linked_respawn)
+- [\*_loot_template](/database/master/world/loot_template)
 {.links-list}
 ## m
 - [mail_level_reward](/database/master/world/mail_level_reward)
