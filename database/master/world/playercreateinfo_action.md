@@ -2,7 +2,7 @@
 title: playercreateinfo_action
 description: 
 published: true
-date: 2022-11-21T21:07:22.226Z
+date: 2023-10-22T16:06:29.318Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:34:23.529Z
@@ -79,7 +79,7 @@ Special bars are used for stances, auras, pets, stealth, and other similar speci
 
 ### action
 Depending on the **type** value:
-* type = 0: [Spell ID](/files/DBC/335/spell#id)
+* type = 0: [Spell ID](https://wow.tools/dbc/?dbc=spell)
 * type = 128: [item entry](../world/item_template#entry) (yes item prototype, not item instance)
 * type = 64: macro id
 &nbsp;
