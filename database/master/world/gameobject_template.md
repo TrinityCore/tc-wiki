@@ -2,7 +2,7 @@
 title: gameobject_template
 description: 
 published: true
-date: 2023-10-06T19:27:11.126Z
+date: 2023-10-22T15:59:12.204Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:31:56.235Z
@@ -167,7 +167,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | startOpen | 0, 1 | initializes with state: GO_ACTIVATED |
-| 1 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
+| 1 | lockId | [Lock ID](https://wow.tools/dbc/?dbc=lock) |  |
 | 2 | autoCloseTime |  | time untill state reset in milliseconds |
 | 3 | noDamageImmune | 0, 1 | can not be used by player under immunity; break opening whenever you recieve damage? |
 | 4 | openTextID | unknown TextID | unused; can be used to replace castBarCaption? |
@@ -180,7 +180,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | startOpen | 0, 1 | initializes with state: GO_ACTIVATED |
-| 1 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
+| 1 | lockId | [Lock ID](https://wow.tools/dbc/?dbc=lock) |  |
 | 2 | autoCloseTime |  | time untill state reset in milliseconds |
 | 3 | linkedTrap | [gameobject_template.entry](../world/gameobject_template#entry) | the trap object must be of GAMEOBJECT_TYPE_TRAP (6) |
 | 4 | noDamageImmune | 0, 1 | can not be used by player under immunity; isBattlegroundObject |
@@ -194,11 +194,11 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 **_GAMEOBJECT_TYPE_QUESTGIVER (2)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
+| 0 | lockId | [Lock ID](https://wow.tools/dbc/?dbc=lock) |  |
 | 1 | questList | unknown ID | unused |
-| 2 | pageMaterial | [PageTextMaterial ID](/files/DBC/335/pagetextmaterial#id) | Background texture of the gossip window |
+| 2 | pageMaterial | [PageTextMaterial ID](https://wow.tools/dbc/?dbc=pagetextmaterial) | Background texture of the gossip window |
 | 3 | gossipID | [gossip_menu.entry](../world/gossip_menu#entry)  |  |
-| 4 | customAnim | 0 — 4 | unused |
+| 4 | customAnim | 0 ï¿½ 4 | unused |
 | 5 | noDamageImmune | 0, 1 | can not be used by player under immunity |
 | 6 | openTextID | unknown TextID | unused; can be used to replace castBarCaption? |
 | 7 | losOK | 0, 1 | ignores line of sight checks |
@@ -210,7 +210,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 **_GAMEOBJECT_TYPE_CHEST (3)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
+| 0 | lockId | [Lock ID](https://wow.tools/dbc/?dbc=lock) |  |
 | 1 | lootId | [gameobject_loot_template.entry](../world/gameobject_loot_template#entry) |  |
 | 2 | chestRestockTime | time in seconds | restocks if not fully looted |
 | 3 | consumable | 0, 1 | despawns after use |
@@ -219,7 +219,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 6 | eventId | unknown EventID | lootedEvent |
 | 7 | linkedTrapId | [gameobject_template.entry](../world/gameobject_template#entry) | the trap object must be of GAMEOBJECT_TYPE_TRAP (6) |
 | 8 | questId | [quest_template.ID](../world/quest_template#id) | quest must be rewarded for GO activation; not currently used |
-| 9 | level | 0 — 80 | minimum level required to open this gameobject |
+| 9 | level | 0 ï¿½ 80 | minimum level required to open this gameobject |
 | 10 | losOK | 0, 1 | ignores line of sight checks |
 | 11 | leaveLoot | 0, 1 | unused |
 | 12 | notInCombat | 0, 1 | unused |
@@ -249,10 +249,10 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 **_GAMEOBJECT_TYPE_TRAP (6)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
+| 0 | lockId | [Lock ID](https://wow.tools/dbc/?dbc=lock) |  |
 | 1 | level |  | npc level equivalent for casted spell |
 | 2 | diameter |  | diameter for trap activation |
-| 3 | spellId | [Spell ID](/files/DBC/335/spell#id) |  |
+| 3 | spellId | [Spell ID](https://wow.tools/dbc/?dbc=spell&) |  |
 | 4 | type | 0, 1, 2 | 0: trap with no despawn after cast.<br>1: trap despawns after cast.<br>2: spell casts on spawn. |
 | 5 | cooldown |  | time in seconds |
 | 6 | autoCloseTime |  | time untill state reset in milliseconds |
@@ -271,7 +271,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | slots |  | number of players that can sit down on it |
-| 1 | height | 0, 1, 2 | offset to [`UnitStandStateType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Unit/UnitDefines.h) applied to sitting player |
+| 1 | height | 0, 1, 2 | offset to [`UnitStandStateType`](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Entities/Unit/UnitDefines.h) applied to sitting player |
 | 2 | onlyCreatorUse | 0, 1 | unused |
 | 3 | triggeredEvent | unknown eventID | unused |
 | 4 | conditionID1 | 0 | unused |
@@ -280,7 +280,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 **_GAMEOBJECT_TYPE_SPELL_FOCUS (8)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | focusId | [SpellFocusObject ID](/files/DBC/335/spellfocusobject#id) | also appears as [Spell RequiresSpellFocus](/files/DBC/335/spell#requiresspellfocus) |
+| 0 | focusId | [SpellFocusObject ID](https://wow.tools/dbc/?dbc=spellfocusobject) | also appears as [SpellCastingRequirements RequiresSpellFocus](https://wow.tools/dbc/?dbc=spellcastingrequirements) |
 | 1 | dist |  | radius in m |
 | 2 | linkedTrapId | [gameobject_template.entry](../world/gameobject_template#entry) | the trap object must be of GAMEOBJECT_TYPE_TRAP (6) |
 | 3 | serverOnly | 0, 1 | not visible in client |
@@ -295,8 +295,8 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | pageID | [page_text.ID](../world/page_text#id) |  |
-| 1 | language | [Language ID](/files/DBC/335/languages#id) |  |
-| 2 | pageMaterial | [PageTextMaterial ID](/files/DBC/335/pagetextmaterial#id) | Background texture of the gossip window |
+| 1 | language | [Language ID](https://wow.tools/dbc/?dbc=languages) |  |
+| 2 | pageMaterial | [PageTextMaterial ID](https://wow.tools/dbc/?dbc=pagetextmaterial) | Background texture of the gossip window |
 | 3 | allowMounted | 0, 1 | Is usable while on mount/vehicle. |
 | 4 | conditionID1 | 0 | unused |
 {.dense}
@@ -304,16 +304,16 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 **_GAMEOBJECT_TYPE_GOOBER (10)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
+| 0 | lockId | [Lock ID](https://wow.tools/dbc/?dbc=lock) |  |
 | 1 | questId | [quest_template.ID](../world/quest_template#id) | quest must be active for GO interaction |
 | 2 | eventId | [event_script.id](../world/scripts#id) | also usable by script oder SmartAI |
 | 3 | autoCloseTime |  | time untill state reset in milliseconds |
-| 4 | customAnim | 0 — 4 | just sent to client on use |
+| 4 | customAnim | 0 ï¿½ 4 | just sent to client on use |
 | 5 | consumable | 0, 1 | despawns after use |
 | 6 | cooldown |  | time in seconds |
 | 7 | pageId | [page_text.ID](../world/page_text#id) |  |
-| 8 | language | [Language ID](/files/DBC/335/languages#id) |  |
-| 9 | pageMaterial | [PageTextMaterial ID](/files/DBC/335/pagetextmaterial#id) | Background texture of the gossip window |
+| 8 | language | [Language ID](https://wow.tools/dbc/?dbc=languages) |  |
+| 9 | pageMaterial | [PageTextMaterial ID](https://wow.tools/dbc/?dbc=pagetextmaterial) | Background texture of the gossip window |
 | 10 | spellId | [Spell ID](/files/DBC/335/spell#id) | spell cast on interaction |
 | 11 | noDamageImmune | 0, 1 | can not be used by player under immunity |
 | 12 | linkedTrapId | [gameobject_template.entry](../world/gameobject_template#entry) | the trap object must be of GAMEOBJECT_TYPE_TRAP (6) |
@@ -337,13 +337,13 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 2 | autoCloseTime |  | time untill state reset in milliseconds |
 | 3 | pause1EventID | unknown EventID | unused |
 | 4 | pause2EventID | unknown EventID | unused |
-| 5 | mapID | [Map ID](/files/DBC/335/map#id) | unused; MO-Transports are their own maps |
+| 5 | mapID | [Map ID](https://wow.tools/dbc/?dbc=map) | unused; MO-Transports are their own maps |
 {.dense}
 
 **_GAMEOBJECT_TYPE_AREADAMAGE (12)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
+| 0 | lockId | [Lock ID](https://wow.tools/dbc/?dbc=lock) |  |
 | 1 | radius |  | unused |
 | 2 | damageMin |  | unused |
 | 3 | damageMax |  | unused |
@@ -356,8 +356,8 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 **_GAMEOBJECT_TYPE_CAMERA (13)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
-| 1 | cinematicId | [CinematicCamera ID](/files/DBC/335/cinematiccamera#id) |  |
+| 0 | lockId | [Lock ID](https://wow.tools/dbc/?dbc=lock) |  |
+| 1 | cinematicId | [CinematicCamera ID](https://wow.tools/dbc/?dbc=cinematiccamera) |  |
 | 2 | eventID | [event_script.id](../world/scripts#id) | also usable by script oder SmartAI |
 | 3 | openTextID | unknown TextID | unused; can be used to replace castBarCaption? |
 | 4 | conditionID1 | 0 | unused |
@@ -370,13 +370,13 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 **_GAMEOBJECT_TYPE_MO_TRANSPORT (15)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | taxiPathId | [TaxiPath ID](/files/DBC/335/taxipath#id) |  |
+| 0 | taxiPathId | [TaxiPath ID](https://wow.tools/dbc/?dbc=taxipath) |  |
 | 1 | moveSpeed |  |  |
 | 2 | accelRate |  |  |
 | 3 | startEventID | unknown EventID | unused |
 | 4 | stopEventID | unknown EventID | unused |
 | 5 | transportPhysics |  | unused |
-| 6 | mapID | [Map ID](/files/DBC/335/map#id) | MO-Transports are their own maps |
+| 6 | mapID | [Map ID](https://wow.tools/dbc/?dbc=map) | MO-Transports are their own maps |
 | 7 | worldState1 |  | unused |
 | 8 | canBeStopped | 0, 1 |  |
 {.dense}
@@ -393,10 +393,10 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | reqParticipants |  | number of unique player interactions |
-| 1 | spellId | [Spell ID](/files/DBC/335/spell#id) | spell cast when **reqParticipants** is fulfilled |
-| 2 | animSpell | [Spell ID](/files/DBC/335/spell#id) | spell cast on interaction |
+| 1 | spellId | [Spell ID](https://wow.tools/dbc/?dbc=spell) | spell cast when **reqParticipants** is fulfilled |
+| 2 | animSpell | [Spell ID](https://wow.tools/dbc/?dbc=spell) | spell cast on interaction |
 | 3 | ritualPersistent | 0, 1 | do not deactivate after **reqParticipants** is fulfilled |
-| 4 | casterTargetSpell | [Spell ID](/files/DBC/335/spell#id) | cast on random user after **reqParticipants** is fulfilled |
+| 4 | casterTargetSpell | [Spell ID](https://wow.tools/dbc/?dbc=spell) | cast on random user after **reqParticipants** is fulfilled |
 | 5 | casterTargetSpellTargets | N | **casterTargetSpell** is cast N times |
 | 6 | castersGrouped | 0, 1 | user must be in party with owner |
 | 7 | ritualNoTargetCheck | 0, 1 | unused |
@@ -423,7 +423,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 **_GAMEOBJECT_TYPE_SPELLCASTER (22)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | spellId | [Spell ID](/files/DBC/335/spell#id) | spell cast on interaction |
+| 0 | spellId | [Spell ID](https://wow.tools/dbc/?dbc=spell) | spell cast on interaction |
 | 1 | charges |  | max. number of uses |
 | 2 | partyOnly | 0, 1 | user must be in party with owner |
 | 3 | allowMounted | 0, 1 | Is usable while on mount/vehicle. |
@@ -436,17 +436,17 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 |-------|------|-------|---------|
 | 0 | minLevel |  | min. player level required for interaction |
 | 1 | maxLevel |  | min. player level allowed for interaction |
-| 2 | areaID | [AreaTable ID](/files/DBC/335/areatable#id) | unused; |
+| 2 | areaID | [AreaTable ID](https://wow.tools/dbc/?dbc=areatable) | unused; |
 {.dense}
 
 **_GAMEOBJECT_TYPE_FLAGSTAND (24)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
-| 1 | pickupSpell | [Spell ID](/files/DBC/335/spell#id) | unused |
+| 0 | lockId | [Lock ID](https://wow.tools/dbc/?dbc=lock) |  |
+| 1 | pickupSpell | [Spell ID](https://wow.tools/dbc/?dbc=spell) | unused |
 | 2 | radius |  | unused; interaction distance? |
-| 3 | returnAura | [Spell ID](/files/DBC/335/spell#id) | unused |
-| 4 | returnSpell | [Spell ID](/files/DBC/335/spell#id) | unused |
+| 3 | returnAura | [Spell ID](https://wow.tools/dbc/?dbc=spell) | unused |
+| 4 | returnSpell | [Spell ID](https://wow.tools/dbc/?dbc=spell) | unused |
 | 5 | noDamageImmune | 0, 1 | can not be used by player under immunity |
 | 6 | openTextID | unknown TextID | unused; can be used to replace castBarCaption? |
 | 7 | losOK | 0, 1 | ignores line of sight checks |
@@ -460,15 +460,15 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 1 | lootId | [gameobject_loot_template.Entry](../world/loot_template#entry) |  |
 | 2 | minSuccessOpens |  | minimum number of fishing attempts |
 | 3 | maxSuccessOpens |  | maximum number of fishing attempts |
-| 4 | lockId | [Lock ID](/files/DBC/335/lock#id) | possibly 1628 for all? |
+| 4 | lockId | [Lock ID](https://wow.tools/dbc/?dbc=lock) | possibly 1628 for all? |
 {.dense}
 
 **_GAMEOBJECT_TYPE_FLAGDROP (26)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
+| 0 | lockId | [Lock ID](https://wow.tools/dbc/?dbc=lock) |  |
 | 1 | eventID | unknown EventID | unused |
-| 2 | pickupSpell | [Spell ID](/files/DBC/335/spell#id) | unused |
+| 2 | pickupSpell | [Spell ID](https://wow.tools/dbc/?dbc=spell) | unused |
 | 3 | noDamageImmune | 0, 1 | can not be used by player under immunity |
 | 4 | openTextID | unknown TextID | unused; can be used to replace castBarCaption? |
 {.dense}
@@ -498,7 +498,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 9 | progressEventID2 | unknown EventID  | unused |
 | 10 | neutralEventID1 | unknown EventID  | unused |
 | 11 | neutralEventID2 | unknown EventID  | unused |
-| 12 | neutralPercent | 0 — 100 | neutral area of progress bar; half of remaining pct belongs to each faction  |
+| 12 | neutralPercent | 0 ï¿½ 100 | neutral area of progress bar; half of remaining pct belongs to each faction  |
 | 13 | worldstate3 |  | worldstate variable for **neutralPercent** |
 | 14 | minSuperiority |  | unused; min players required for capture |
 | 15 | maxSuperiority |  | unused; max players contributing to capture |
@@ -506,7 +506,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 17 | maxTime |  | capture time in seconds for min players for full capture |
 | 18 | large | 0, 1 | large objects are visible from further away |
 | 19 | highlight | 0, 1 | unused |
-| 20 | startingValue | 0 — 100 | unused; 0: Horde owned; 100: Alliance owned |
+| 20 | startingValue | 0 ï¿½ 100 | unused; 0: Horde owned; 100: Alliance owned |
 | 21 | unidirectional | 0 | unused |
 {.dense}
 
@@ -515,9 +515,9 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 |-------|------|-------|---------|
 | 0 | startOpen | 0, 1 | initializes with state: GO_ACTIVATED |
 | 1 | radius |  | unused |
-| 2 | auraID1 | [Spell ID](/files/DBC/335/spell#id) | unused |
+| 2 | auraID1 | [Spell ID](https://wow.tools/dbc/?dbc=spell) | unused |
 | 3 | conditionID1 | unknown ID | unused |
-| 4 | auraID2 | [Spell ID](/files/DBC/335/spell#id) | unused |
+| 4 | auraID2 | [Spell ID](https://wow.tools/dbc/?dbc=spell) | unused |
 | 5 | conditionID2 | 0, -1 | unused |
 | 6 | serverOnly | 0, 1 | not visible in client |
 {.dense}
@@ -526,13 +526,13 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | mapID | [Map ID](/files/DBC/335/map#id) | destination map |
-| 1 | difficulty | 0 — 3 | [`enum Difficulty`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/DataStores/DBCEnums.h) |
+| 1 | difficulty | 0 ï¿½ 3 | [`enum Difficulty`](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/DataStores/DBCEnums.h) |
 {.dense}
 
 **_GAMEOBJECT_TYPE_BARBER_CHAIR (32)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | chairheight | 0, 1, 2 | offset to [`UnitStandStateType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Unit/UnitDefines.h) applied to sitting player |
+| 0 | chairheight | 0, 1, 2 | offset to [`UnitStandStateType`](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Entities/Unit/UnitDefines.h) applied to sitting player |
 | 1 | heightOffset | 0 | unused |
 {.dense}
 
@@ -543,13 +543,13 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 1 | creditProxyCreature | [creature_template.entry](../world/creature_template#entry) | unused; kill credit |
 | 2 | empty1 |  | unused |
 | 3 | intactEvent | eventID | unused |
-| 4 | empty2 | [GameObjectDisplayInfo ID](/files/DBC/335/gameobjectdisplayinfo#id) | unused; damaged displayId |
+| 4 | empty2 | [GameObjectDisplayInfo ID](https://wow.tools/dbc/?dbc=gameobjectdisplayinfo) | unused; damaged displayId |
 | 5 | damagedNumHits |  | if at or below **damagedNumHits**: GO state is DAMAGED |
 | 6 | empty3 |  | unused |
 | 7 | empty4 |  | unused |
 | 8 | empty5 |  | unused |
 | 9 | damagedEvent | eventID | handled by script oder SmartAI |
-| 10 | empty6 | [GameObjectDisplayInfo ID](/files/DBC/335/gameobjectdisplayinfo#id) | unused; destroyed displayId |
+| 10 | empty6 | [GameObjectDisplayInfo ID](https://wow.tools/dbc/?dbc=gameobjectdisplayinfo) | unused; destroyed displayId |
 | 11 | empty7 |  | unused |
 | 12 | empty8 |  | unused |
 | 13 | empty9 |  | unused |
@@ -557,7 +557,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 15 | empty10 |  | unused |
 | 16 | rebuildingTimeSecs |  | unused |
 | 17 | empty11 |  | unused |
-| 18 | destructibleData | [DestructibleModelData ID](/files/DBC/335/destructiblemodeldata#id) |  |
+| 18 | destructibleData | [DestructibleModelData ID](https://wow.tools/dbc/?dbc=destructiblemodeldata) |  |
 | 19 | rebuildingEvent | eventID | handled by script oder SmartAI |
 | 20 | empty12 |  | unused |
 | 21 | empty13 |  | unused |
