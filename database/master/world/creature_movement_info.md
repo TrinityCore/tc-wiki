@@ -2,7 +2,7 @@
 title: creature_movement_info
 description: 
 published: true
-date: 2022-11-21T22:46:41.247Z
+date: 2023-10-22T15:42:21.868Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2022-04-17T19:08:15.909Z
@@ -27,7 +27,7 @@ This table is currently unused and is reserved for future use.
 ## Description of fields
 
 ### MovementID
-references [creature_template.movementId](../world/creature_template#movementid) / [CreatureMovementInfo ID](/files/DBC/335/creaturemovementinfo#id)
+references [creature_template.movementId](../world/creature_template#movementid) / [CreatureMovementInfo ID](https://wow.tools/dbc/?dbc=creaturemovementinfo)
 &nbsp;
 
 ### WalkSpeed
