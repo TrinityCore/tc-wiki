@@ -2,7 +2,7 @@
 title: gameobject_addon
 description: 
 published: true
-date: 2022-11-21T21:05:22.258Z
+date: 2023-10-22T15:47:32.069Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:31:40.941Z
@@ -51,7 +51,7 @@ parentRotation.w
 &nbsp;
 
 ### invisibilityType
-from [`enum InvisibilityType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h)
+from [`enum InvisibilityType`](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Miscellaneous/SharedDefines.h)
 | ID | Name |
 |----|------|
 | 0 | INVISIBILITY_GENERAL |
