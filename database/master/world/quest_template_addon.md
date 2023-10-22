@@ -2,7 +2,7 @@
 title: quest_template_addon
 description: 
 published: true
-date: 2022-11-21T21:08:10.338Z
+date: 2023-10-22T16:07:49.220Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:35:34.485Z
@@ -94,7 +94,7 @@ Breadcrumb quests exist for the sole purpose of guiding the player to a new zone
 &nbsp;
 
 ### RewardMailTemplateID
-If the quest gives as a reward an item from a possible list of items, the ID here corresponds to the proper entry in [mail_loot_template](../world/loot_template) and [MailTemplate ID](/files/DBC/335/mailtemplate#id). According to the rules in that loot template, items "looted" will be sent by mail at the completion of the quest.
+If the quest gives as a reward an item from a possible list of items, the ID here corresponds to the proper entry in [mail_loot_template](../world/loot_template) and [MailTemplate ID](https://wow.tools/dbc/?dbc=mailtemplate). According to the rules in that loot template, items "looted" will be sent by mail at the completion of the quest.
 &nbsp;
 
 ### RewardMailDelay
