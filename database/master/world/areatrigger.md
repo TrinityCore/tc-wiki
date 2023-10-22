@@ -2,7 +2,7 @@
 title: areatrigger
 description: 
 published: true
-date: 2022-12-25T18:31:53.036Z
+date: 2023-10-22T01:55:40.491Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:28:46.460Z
@@ -73,7 +73,6 @@ The X position of the areatrigger spawn point.
 &nbsp;
 
 ### PosY
-*- no description -*
 The Y position of the areatrigger spawn point.
 
 ### PosZ
