@@ -2,7 +2,7 @@
 title: quest_template
 description: 
 published: true
-date: 2023-10-06T19:27:11.710Z
+date: 2023-10-22T16:08:36.684Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:35:31.131Z
@@ -161,7 +161,7 @@ This field defines under what category the quest falls in the quest log.
 * **QuestSortID** > 0: positive [AreaTable ID](https://wow.tools/dbc/?dbc=areatable)
 * **QuestSortID** < 0: negative [QuestSort ID](https://wow.tools/dbc/?dbc=questsort) (in general profession, class or holiday quests)
 
-[QuestSort](/files/DBC/335/questsort) excerpt:
+[QuestSort](https://wow.tools/dbc/?dbc=questsort) excerpt:
 | ID | Name |  | ID | Name |
 |----|------|--|----|------|
 | 22 | Seasonal | | 261 | Hunter |
@@ -401,7 +401,7 @@ This field is used for reputation lookup in [QuestFactionReward](https://wow.too
 &nbsp;
 
 ### RewardFactionOverride\[1-5]
-This field is used to give reputation values not present in [QuestFactionReward](https://wow.tools/dbc/?dbc=questfactionreward) or to override them if **RewardFactionValue\*** is wrong for some reason. The value in this field is 100× the intended reputation reward (if you want to give 400 rep, put 40000 in **RewardFactionOverride\***).
+This field is used to give reputation values not present in [QuestFactionReward](https://wow.tools/dbc/?dbc=questfactionreward) or to override them if **RewardFactionValue\*** is wrong for some reason. The value in this field is 100ï¿½ the intended reputation reward (if you want to give 400 rep, put 40000 in **RewardFactionOverride\***).
 &nbsp;
 
 ### RewardFactionCapIn\[1-5]
