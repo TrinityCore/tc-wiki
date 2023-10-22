@@ -2,7 +2,7 @@
 title: *_loot_template
 description: 
 published: true
-date: 2022-11-21T22:46:49.325Z
+date: 2023-10-22T16:02:58.101Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2022-04-19T10:04:49.757Z
@@ -212,7 +212,7 @@ These agreements are different for different loot tables. Mainly agreements defi
 
 ### Fishing haul
 
-For fishing_loot_template, ID is the [AreaTable ID](/files/DBC/335/areatable#id)
+For fishing_loot_template, ID is the [AreaTable ID](https://wow.tools/dbc/?dbc=areatable)
 
 Also an extra note on fishing_loot_template: if just one area ID is defined for a zone, then that whole zone ID is skipped and therefore all areas in that zone need to have entries in the table. Only when there doesn't exist any area entries for a zone does the core use the zone ID directly. Zone = Wetlands, Elwynn, etc; Area = Northshire, Lakeshire, etc.
 
