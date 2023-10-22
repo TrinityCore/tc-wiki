@@ -2,7 +2,7 @@
 title: Trinitycore Wiki
 description: 
 published: true
-date: 2023-10-22T15:37:21.379Z
+date: 2023-10-22T15:38:08.938Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T17:47:17.543Z
@@ -57,5 +57,4 @@ For further information on the TrinityCore project, please visit our project web
 
 5. [Aowow Trinitycore wowhead like](https://aowow.trinitycore.info/)
 
-
-<object type="text/html" data="https://github.com/TrinityCore/tc-wiki/edit/main/install/Core-Installation/windows-core-installation.html"></object>
+<link href="https://github.com/TrinityCore/tc-wiki/edit/main/install/Core-Installation/windows-core-installation.html" rel="import" />
