@@ -1,11 +1,11 @@
 ---
 title: World Position
-description:
+description: 
 published: true
-date: 2023-09-07T22:00:00.000Z
-tags:
+date: 2023-10-24T20:33:50.450Z
+tags: 
 editor: markdown
-dateCreated: 2023-03-04T06:22:32.729Z
+dateCreated: 2023-10-04T08:09:53.978Z
 ---
 
 # World Position
@@ -50,12 +50,12 @@ Orientation is stored as radian, increasing counterclockwise around the **z**-ax
 &nbsp;
 
 ## Zone Coordinates
-World Position should not be confused with zone coordinates used by client addons or [Aowow](https://aowow.trinitycore.info/?npc=1226) (0 &ndash; 100). Zone coordinates are calculated from WorldmapArea.dbc data and largely irrelevant from a server point of view.
+World Position should not be confused with zone coordinates used by client addons or [Aowow](https://aowow.trinitycore.info/?npc=1226) (0 &ndash; 100). Zone coordinates are calculated from WorldMapArea.dbc data and largely irrelevant from a server point of view.
 &nbsp;
 
-**[WorldMapArea.dbc](/files/DBC/335/WorldMapArea) - describes the WorldPos boundaries of each area map viewed in-game.**
+**[WorldMapArea.dbc](/files/DBC/335/worldmaparea) - describes the WorldPos boundaries of each area map viewed in-game.**
 ```
-WorldMaparea.dbc
+WorldMapArea.dbc
 +-----+-------+--------+------------------+---------+----------+----------+-----------+
 | ID  | MapID | AreaID | AreaName         | LocLeft | LocRight | LocTop   | LocBottom |
 +-----+-------+--------+------------------+---------+----------+----------+-----------+
