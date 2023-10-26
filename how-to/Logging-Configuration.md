@@ -2,7 +2,7 @@
 title: Logging Configuration
 description: Learn about the logging system of TrinityCore
 published: true
-date: 2023-10-26T18:07:40.211Z
+date: 2023-10-26T18:14:16.607Z
 tags: logging, core
 editor: markdown
 dateCreated: 2023-10-26T18:07:40.211Z
@@ -195,3 +195,5 @@ Logger.entities.player.character=3,Console
 Logger.sql.dev=3,SQLDev
 ```
 With this config, any message logger with a Log type different to GUILD, CHARACTER or SQLDEV will be ignored, as we didn't define a logger Root and system created a default Root disabled. Appender Console, log level should be defined to allow all possible messages of its loggers, in this case GUILD uses TRACE (1), so Appender should allow it. Logger Characters will limit it's own messages to INFO (3)
+
+![](https://static.requarks.io/logo/git-alt.svg =x70){.align-abstopright}
