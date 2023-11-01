@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2023-11-01T19:33:48.396Z
+date: 2023-11-01T19:35:35.667Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -96,11 +96,11 @@ Simple event linking.
 ### Difficulties
 Comma-separated list of difficulties where only the event can occur. `''` means everywhere.
 > **Examples**:
-> '' &rarr; Everywhere
-> '0' &rarr; Open world
-> '1,2' &rarr; Dungeon normal/heroic
-> '0,3' &rarr; Open world and Raid 10 Player
-> '3,4,5,6' &rarr; Raid 10/25 normal/heroic
+> * '' &rarr; Everywhere
+> * '0' &rarr; Open world
+> * '1,2' &rarr; Dungeon normal/heroic
+> * '0,3' &rarr; Open world and Raid 10 Player
+> * '3,4,5,6' &rarr; Raid 10/25 normal/heroic
 
 ### event_phase_mask
 Event can only occur if the source is in this event phase. The default event phase is **SMART_EVENT_PHASE_ALWAYS (0)**.
