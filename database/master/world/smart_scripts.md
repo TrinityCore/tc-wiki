@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2023-09-29T14:12:56.962Z
+date: 2023-11-01T19:33:48.396Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T09:36:32.378Z
 | [source_type](#source_type) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [id](#id) | smallint | unsigned | PRI | NO | 0 |  |  |
 | [link](#link) | smallint | unsigned | PRI | NO | 0 |  |  |
+| [Difficulties](#difficulties) | varchar(100) |  |  | NO | '' |  |  |
 | [event_type](#event_type) | tinyint | unsigned |  | NO | 0 |  |  |
 | [event_phase_mask](#event_phase_mask) | smallint | unsigned |  | NO | 0 |  |  |
 | [event_chance](#event_chance) | tinyint | unsigned |  | NO | 100 |  |  |
@@ -92,6 +93,15 @@ Simple event linking.
 
 > **Example**: If id = 0 and link = 1, id = 1 will only be able to occur if id = 0 was triggered.
 
+### Difficulties
+Comma-separated list of difficulties where only the event can occur. `''` means everywhere.
+> **Examples**:
+> '' &rarr; Everywhere
+> '0' &rarr; Open world
+> '1,2' &rarr; Dungeon normal/heroic
+> '0,3' &rarr; Open world and Raid 10 Player
+> '3,4,5,6' &rarr; Raid 10/25 normal/heroic
+
 ### event_phase_mask
 Event can only occur if the source is in this event phase. The default event phase is **SMART_EVENT_PHASE_ALWAYS (0)**.
 
@@ -130,10 +140,10 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 | Name | Flag | Hex | Comment |
 | :--- | ---: | :--- | :--- |
 | SMART_EVENT_FLAG_NOT_REPEATABLE | 1 | 0x01 | Event can not repeat |
-| SMART_EVENT_FLAG_DIFFICULTY_0 | 2 | 0x02 | Event only occurs in instance difficulty 0 |
-| SMART_EVENT_FLAG_DIFFICULTY_1 | 4 | 0x04 | Event only occurs in instance difficulty 1 |
-| SMART_EVENT_FLAG_DIFFICULTY_2 | 8 | 0x08 | Event only occurs in instance difficulty 2 |
-| SMART_EVENT_FLAG_DIFFICULTY_3 | 16 | 0x10 | Event only occurs in instance difficulty 3 |
+| SMART_EVENT_FLAG_DIFFICULTY_0_DEPRECATED | 2 | 0x02 | UNUSED, DO NOT REUSE |
+| SMART_EVENT_FLAG_DIFFICULTY_1_DEPRECATED | 4 | 0x04 | UNUSED, DO NOT REUSE |
+| SMART_EVENT_FLAG_DIFFICULTY_2_DEPRECATED | 8 | 0x08 | UNUSED, DO NOT REUSE |
+| SMART_EVENT_FLAG_DIFFICULTY_3_DEPRECATED | 16 | 0x10 | UNUSED, DO NOT REUSE |
 | SMART_EVENT_FLAG_RESERVED_5 | 32 | 0x20 | |
 | SMART_EVENT_FLAG_RESERVED_6 | 64 | 0x40 | |
 | SMART_EVENT_FLAG_DEBUG_ONLY | 128 | 0x80 | Event only occurs in debug build |
