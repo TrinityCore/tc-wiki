@@ -2,12 +2,23 @@
 title: Hotfixes
 description: 
 published: true
-date: 2023-10-06T19:36:30.789Z
+date: 2023-11-03T23:58:38.389Z
 tags: database, master, hotfixes
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-29T20:42:31.704Z
 ---
 
+ > Each table schema represents its corresponding [DB2](https://wowdev.wiki/DB2)-File structure. (except the locale tables)
+ > The tables **only** contain additional/corrected/removed data for their corresponding DB2-File.
+ > 
+ > Following tables are non DB2-tables and are needed for the system to operate properly:
+ > [hotfix_blob](/database/master/hotfixes/hotfix_blob)
+ > [hotfix_data](/database/master/hotfixes/hotfix_data)
+ > [hotfix_optional_data](/database/master/hotfixes/hotfix_optional_data)
+ > [updates](/database/master/hotfixes/updates)
+ > [updates_include](/database/master/hotfixes/updates_include)
+ {.is-info}
+ 
 ## a
 - [achievement](/database/master/hotfixes/achievement)
 - [achievement_category](/database/master/hotfixes/achievement_category)
