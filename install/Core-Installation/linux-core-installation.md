@@ -2,7 +2,7 @@
 title: Linux Core Installation
 description: 
 published: true
-date: 2022-11-21T20:57:49.405Z
+date: 2023-11-11T18:03:54.493Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-14T21:37:11.567Z
@@ -278,9 +278,6 @@ It will create the following structure:
 
 >"path"/bin/ - binaries will be placed here
 "path"/etc/ - config files will be placed here
-
-Also, compile has been tested on Debian 9 x32/x64, Ubuntu 17.10/18.04 x64 - all without problems IF YOU DO NOT MESS AROUND ON YOUR OWN!
-We don't recommend to mix deps on older linuxes and update your distribution to one modern linux (debian 10, ubuntu 20.10)
 
 > Please remember to rename the **worldserver.conf.dist** and **authserver.conf.dist** files in **worldserver.conf** and **authserver.conf** respectively, unless you want to keep the configuration files of a previously compiled version of the core.
 {.is-info}
