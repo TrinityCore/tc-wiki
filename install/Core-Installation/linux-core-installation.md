@@ -2,7 +2,7 @@
 title: Linux Core Installation
 description: 
 published: true
-date: 2023-11-11T18:03:54.493Z
+date: 2023-11-11T18:08:32.285Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-14T21:37:11.567Z
@@ -54,15 +54,12 @@ su - username
 
 Note : Change your current user to "username" so everything will run and compile with the user you just have created.
 
-
-&nbsp;
 &nbsp;
 
 ### Required Software
 
 See [Requirements](/install/requirements/)
 
-&nbsp;
 &nbsp;
 
 ### Building the server itself
@@ -90,10 +87,6 @@ This will clone **master** branch, note that this is **NOT** the recommended bra
 &nbsp;
 The directory **TrinityCore** will be created automatically and all the source files will be stored in there.
 
-> FreeBSD users will need to apply the patch located [here](https://code.google.com/archive/p/trinitycore/issues/3690#c5) for g3d to compile properly, before doing anything else.
-{.is-warning}
-
-&nbsp;
 &nbsp;
 
 ### Compiling the source code
@@ -123,11 +116,11 @@ cmake ../ [additional parameters]
 
 #### Parameter explanations (advanced users)
 
-path to your OpenSSL library - **use if you have OpenSSL installed system wide with a different version to 1.0.x:**
+path to your OpenSSL library - **use if you have OpenSSL installed system wide with a different version than required by TrinityCore**
 
 >-DOPENSSL_LIBRARIES=path to OpenSSL library
 
-path to your OpenSSL includes directory - **use if you have OpenSSL installed system wide with a different version to 1.0.x:**
+path to your OpenSSL includes directory - **use if you have OpenSSL installed system wide with a different version than required by TrinityCore:**
 
 >-DOPENSSL_INCLUDE_DIR=path to OpenSSL includes
 
@@ -264,12 +257,7 @@ When configuring MySQL make sure you remember the password you set for the defau
 
 Things to notice :
 
->-DWITH_COREDEBUG=0 not required, this flag is only for core developers as its default is : 0 it may cause crashes if using on production environments if you want to compile core on debug mode you need to use -DCMAKE_BUILD_TYPE=Debug
-
-The new method for custom SSL-libraries are:
-
->-DOPENSSL_LIBRARIES=path to OpenSSL libraries directory
--DOPENSSL_INCLUDE_DIR=path to OpenSSL br /includes directory
+>-DWITH_COREDEBUG=0 not required, this flag is only for core developers as its default is : 0. If you want to compile core in debug mode you need to use -DCMAKE_BUILD_TYPE=Debug
 
 The paths for installation can be done without any other parameters but this :
 >-DCMAKE_INSTALL_PREFIX=/path/to/where/you/want/core/to/be/installed
