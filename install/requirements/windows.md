@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2023-12-01T16:53:36.471Z
+date: 2023-12-01T16:53:43.097Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -10,7 +10,7 @@ dateCreated: 2021-08-14T03:18:48.201Z
 
 ## Supported Windows Operating Systems
 
-> Windows 10 1903 (19H1) and their servers versions (funlly updated 2019) and up
+> Windows 10 1903 (19H1) and their servers versions (fully updated 2019) and up
 {.is-info}
 
 ## Software
