@@ -1,8 +1,8 @@
 ---
 title: account
-description:
+description: 
 published: true
-date: 2023-08-01T19:13:27.028Z
+date: 2023-12-03T17:44:35.347Z
 tags: database, auth, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:57:34.489Z
@@ -41,6 +41,7 @@ dateCreated: 2021-08-30T21:57:34.489Z
 | [muteby](#muteby) | varchar(50) |  |  | NO | '' |  |  |
 | [locale](#locale) | tinyint | unsigned |  | NO | 0 |  |  |
 | [os](#os) | varchar(3) |  |  | NO | '' |  |  |
+| [timezone_offset](#timezone_offset) | smallint | signed |  | NO | 0 |  |  |
 | [recruiter](#recruiter) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -172,6 +173,10 @@ See [Localization](/how-to/localization):
 Stores information about client's OS. Used by Warden system.
 * `Win`
 * `Mac`
+&nbsp;
+
+### timezone_offset
+Offset to UTC in minutes.
 &nbsp;
 
 ### recruiter
