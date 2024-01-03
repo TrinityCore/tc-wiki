@@ -1,8 +1,8 @@
 ---
 title: creature_template
-description:
+description: 
 published: true
-date: 2023-07-15T09:33:35.488Z
+date: 2024-01-03T18:16:44.085Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:50.335Z
@@ -286,13 +286,13 @@ Allows the manual application of unit flags to creatures. Again this is a bitmas
 | Value | Flag | Name | Comment |
 |-------|------|------|---------|
 | 2 | 0x00000002 | UNIT_FLAG_NON_ATTACKABLE | not attackable, set when creature starts to cast spells with SPELL_EFFECT_SPAWN and cast time, removed when spell hits caster. |
-| 8 | 0x00000008 | UNIT_FLAG_PLAYER_CONTROLLED | controlled by player, use _IMMUNE_TO_PC instead of _IMMUNE_TO_NPC |
+| 8 | 0x00000008 | UNIT_FLAG_PLAYER_CONTROLLED | controlled by player, use \_IMMUNE_TO_PC instead of \_IMMUNE_TO_NPC |
 | 64 | 0x00000040 | UNIT_FLAG_UNK_6 |  |
-| 128 | 0x00000080 | UNIT_FLAG_NOT_ATTACKABLE_1 | ?? (UNIT_FLAG_PLAYER_CONTROLLED | UNIT_FLAG_NOT_ATTACKABLE_1) is NON_PVP_ATTACKABLE |
+| 128 | 0x00000080 | UNIT_FLAG_NOT_ATTACKABLE_1 | ?? (UNIT_FLAG_PLAYER_CONTROLLED \| UNIT_FLAG_NOT_ATTACKABLE_1) is NON_PVP_ATTACKABLE |
 | 256 | 0x00000100 | UNIT_FLAG_IMMUNE_TO_PC | disables combat/assistance with PlayerCharacters (PC) - see Unit::IsValidAttackTarget, Unit::IsValidAssistTarget |
 | 512 | 0x00000200 | UNIT_FLAG_IMMUNE_TO_NPC | disables combat/assistance with NonPlayerCharacters (NPC) - see Unit::IsValidAttackTarget, Unit::IsValidAssistTarget |
 | 1024 | 0x00000400 | UNIT_FLAG_LOOTING | loot animation |
-| 2048 | 0x00000800 | UNIT_FLAG_PET_IN_COMBAT | on player pets: whether the pet is chasing a target to attack || on other units: whether any of the unit's minions is in combat |
+| 2048 | 0x00000800 | UNIT_FLAG_PET_IN_COMBAT | on player pets: whether the pet is chasing a target to attack \|\| on other units: whether any of the unit's minions is in combat |
 | 4096 | 0x00001000 | UNIT_FLAG_PVP_ENABLING | changed in 3.0.3, now UNIT_BYTES_2_OFFSET_PVP_FLAG from UNIT_FIELD_BYTES_2 |
 | 8192 | 0x00002000 | UNIT_FLAG_SILENCED | silenced, 2.1.1 |
 | 16384 | 0x00004000 | UNIT_FLAG_CANNOT_SWIM | 2.0.8 |
