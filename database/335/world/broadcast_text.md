@@ -1,8 +1,8 @@
 ---
 title: broadcast_text
-description:
+description: 
 published: true
-date: 2023-07-11T18:03:18.853Z
+date: 2024-01-04T20:57:24.183Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:02.490Z
@@ -78,7 +78,7 @@ The delays of the broadcasted emotes.
 The [SoundEntry ID](/files/DBC/335/soundentries#id) played when the texts are broadcasted.
 &nbsp;
 
-### Emote ID
+### EmotesID
 *- no description -*
 &nbsp;
 
