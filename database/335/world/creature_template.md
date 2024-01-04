@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2024-01-03T18:16:44.085Z
+date: 2024-01-04T21:10:15.726Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:50.335Z
@@ -17,15 +17,15 @@ This table contains the description of creatures. Each spawned creature is an in
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entry](#entry) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [difficulty_entry_1](#difficulty_entry_1) | mediumint | unsigned |  | NO | 0 |  |  |
-| [difficulty_entry_2](#difficulty_entry_2) | mediumint | unsigned |  | NO | 0 |  |  |
-| [difficulty_entry_3](#difficulty_entry_3) | mediumint | unsigned |  | NO | 0 |  |  |
-| [KillCredit1](#killcredit1) | int | unsigned |  | NO | 0 |  |  |
-| [KillCredit2](#killcredit2) | int | unsigned |  | NO | 0 |  |  |
-| [modelid1](#modelid1) | mediumint | unsigned |  | NO | 0 |  |  |
-| [modelid2](#modelid2) | mediumint | unsigned |  | NO | 0 |  |  |
-| [modelid3](#modelid3) | mediumint | unsigned |  | NO | 0 |  |  |
-| [modelid4](#modelid4) | mediumint | unsigned |  | NO | 0 |  |  |
+| [difficulty_entry_1](#difficulty_entry_\[1-3\]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [difficulty_entry_2](#difficulty_entry_\[1-3\]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [difficulty_entry_3](#difficulty_entry_\[1-3\]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [KillCredit1](#killcredit\[1-2\]) | int | unsigned |  | NO | 0 |  |  |
+| [KillCredit2](#killcredit\[1-2\]) | int | unsigned |  | NO | 0 |  |  |
+| [modelid1](#modelid\[1-4\]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [modelid2](#modelid\[1-4\]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [modelid3](#modelid\[1-4\]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [modelid4](#modelid\[1-4\]) | mediumint | unsigned |  | NO | 0 |  |  |
 | [name](#name) | char(100) |  | MUL | NO | 0 |  |  |
 | [subname](#subname) | char(100) |  |  | YES | NULL |  |  |
 | [IconName](#iconname) | char(100) |  |  | YES | NULL |  |  |
@@ -81,28 +81,24 @@ This table contains the description of creatures. Each spawned creature is an in
 Creature's unique id.
 &nbsp;
 
-### difficulty_entry_1
+### difficulty_entry_\[1-3\]
 This field connects the stats from another **entry** to this template when in 25man normal, 10man heroic or 25man heroic mode instance.
-* For Dungeons: 5 (Heroic)
-* For Raids: 25 (Normal)
-### difficulty_entry_2
-* For Raids: 10 (Heroic)
-### difficulty_entry_3
-* For Raids: 25 (Heroic)
+
+| idx | for Raids | for Dungeons |
+| :-: | --------- | ------------ |
+| 1 | 25 (Normal) | 5 (Heroic) |
+| 2 | 10 (Heroic) | - |
+| 3 | 25 (Heroic) | - |
+{.dense}
+
 &nbsp;
 
-### KillCredit1
-If this is a kill credit template -- one that is a dummy template that is used when more than one creature can count as a kill in a quest, then this is a link to the first **entry** of the creature that could be killed to give quest credit.
+### KillCredit\[1-2\]
+If this is a kill credit template -- one that is a dummy template that is used when more than one creature can count as a kill in a quest, then this is a link to the **entry** of the creature that could be killed to give quest credit.
+If more than two creatures can be killed and count toward a single objective, a smart or C++ script will be required.
 &nbsp;
 
-### KillCredit2
-If this is a kill credit template -- one that is a dummy template that is used when more than one creature can count as a kill in a quest, then this is a link to the second **entry** of the creature that could be killed to give quest credit. If more than two creatures can be killed and count toward a single objective, a smart or C++ script will be required.
-&nbsp;
-
-### modelid1
-### modelid2
-### modelid3
-### modelid4
+### modelid\[1-4\]
 A random graphical model that the client applies on this creature. This is a [creature_model_info.DisplayID](../world/creature_model_info#displayid) / [CreatureDisplayInfo ID](/files/DBC/335/creaturedisplayinfo#id).
 &nbsp;
 
