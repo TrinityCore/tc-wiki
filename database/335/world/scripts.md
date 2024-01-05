@@ -1,9 +1,9 @@
 ---
 title: *_scripts
-description:
+description: 
 published: true
-date: 2023-07-09T16:57:16.125Z
-tags:
+date: 2024-01-05T18:10:05.443Z
+tags: 
 editor: markdown
 dateCreated: 2023-07-09T16:57:16.125Z
 ---
@@ -27,13 +27,13 @@ This table format is used for 3 different tables to control possible scripts act
 | [effIndex](#effindex) ^\[1]^ | tinyint | unsigned |  | NO | 0 |  |  |
 | [delay](#delay) | int | unsigned |  | NO | 0 |  |  |
 | [command](#command) | mediumint | unsigned |  | NO | 0 |  |  |
-| [datalong](#datalong) | mediumint | unsigned |  | NO | 0 |  |  |
-| [datalong2](#datalong2) | int | unsigned |  | NO | 0 |  |  |
-| [dataint](#dataint) | int | signed |  | NO | 0 |  |  |
-| [x](#x) | float |  |  | NO | 0 |  |  |
-| [y](#y) | float |  |  | NO | 0 |  |  |
-| [z](#z) | float |  |  | NO | 0 |  |  |
-| [o](#o) | float |  |  | NO | 0 |  |  |
+| [datalong](#other-fields) | mediumint | unsigned |  | NO | 0 |  |  |
+| [datalong2](#other-fields) | int | unsigned |  | NO | 0 |  |  |
+| [dataint](#other-fields) | int | signed |  | NO | 0 |  |  |
+| [x](#other-fields) | float |  |  | NO | 0 |  |  |
+| [y](#other-fields) | float |  |  | NO | 0 |  |  |
+| [z](#other-fields) | float |  |  | NO | 0 |  |  |
+| [o](#other-fields) | float |  |  | NO | 0 |  |  |
 | [guid](#guid) ^\[2]^ | int | signed | PRI | NO | 0 |  | Acts as primary key and is set automatically using the GM command 'wp event add' |
 | [Comment](#comment) | varchar(255) |  |  | NO | '' |  |  |
 ^1^ present in spell_scripts table only.
@@ -98,9 +98,9 @@ The following commands can be used:
 &nbsp;
 
 ### Other Fields
-| command | datalong | datalong2 | dataint | coordinate tuple |
+| command | datalong | datalong2 | dataint | [World Position](/how-to/worldposition) |
 |---------|----------|-----------|---------|------------|
-| 0 | [ChatType](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Globals/ObjectMgr.h) | talk source: 0 - creature; 1 - player | [broadcast_text](../world/broadcast_text#id) | - |
+| 0 | [ChatType](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Globals/ObjectMgr.h#L135-L145) | talk source: 0 - creature; 1 - player | [broadcast_text id](../world/broadcast_text#id) | - |
 | 1 | [Emote ID](/files/DBC/335/emotes#id) | play emote as: 0 - oneshot; 1 - state | 0 | - |
 | 2 | field index | value to be set | 0 | - |
 | 3 | 0 | time for movement (in seconds?) | 0 | destination |
@@ -122,7 +122,7 @@ The following commands can be used:
 | 20 | waypoint [path id](../world/waypoint_data#ID) to load | repeatable: 0 - no; 1 - yes | 0 | - |
 | 21 | creature [entry](../world/creature_template#entry) or [guid](../world/creature#guid) to load script on | script **id** | 3: use spell_scripts table<br>5: use event_scripts table<br>6: use waypoint_scripts table | - |
 | 22 | 0 | 0 | 0: leave corpse; 1: remove corpse | - |
-| 30 | face: 0 - **o** value; 1 - target | 0 | 0 | 0 0 0 orientation (max.: 2π) |
+| 30 | face: 0 - **o** value; 1 - target | 0 | 0 | 0, 0, 0, **o** (0 &ndash; 2π) |
 | 31 | ID from [creature_equip_template](../world/creature_equip_template#id) | 0 | 0 | - |
 | 32 | [CreatureDisplayInfo ID](/files/DBC/335/creaturedisplayinfo#id) | 0 | 0 | - |
 | 33 | 0 | 0 | 0 | - |
