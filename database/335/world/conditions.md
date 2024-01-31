@@ -1,8 +1,8 @@
 ---
 title: conditions
-description:
+description: 
 published: true
-date: 2023-06-04T00:05:53.180Z
+date: 2024-01-31T20:26:51.940Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:10.475Z
@@ -67,7 +67,7 @@ dateCreated: 2021-08-30T22:03:10.475Z
 | :x: CONDITION_SOURCE_TYPE_GRAVEYARD | 27 | Always 0 | [world_safe_locs.ID](/en/database/master/world/world_safe_locs#id) | Always 0 | (source code / new description here) |  |
 | :x: CONDITION_SOURCE_TYPE_AREATRIGGER | 28 | [areatrigger_template.Id](/en/database/master/world/areatrigger_template#id) | 0 = **Non**-ServersideAreatrigger<br/>1 = ServersideAreatrigger  | Always 0 | (source code / new description here) |  |
 | :x: CONDITION_SOURCE_TYPE_CONVERSATION_LINE | 29 | Always 0 | ConversationLineID | Always 0 | (source code / new description here) |  |
-| :x: CONDITION_SOURCE_TYPE_AREATRIGGER_CLIENT_TRIGGERED | 30 | Always 0 | [Areatrigger ID](/files/DBC/335/areatrigger#id) | Always 0 | (source code / new description here) |  |
+| CONDITION_SOURCE_TYPE_AREATRIGGER_CLIENT_TRIGGERED | 30 | Always 0 | [Areatrigger ID](/files/DBC/335/areatrigger#id) | Always 0 | (source code / new description here) |  |
 | :x: CONDITION_SOURCE_TYPE_TRAINER_SPELL | 31 | TrainerID | [Spell ID](/files/DBC/335/spell#id) | Always 0 | (source code / new description here) |  |
 | :x: CONDITION_SOURCE_TYPE_OBJECT_ID_VISIBILITY | 32 | CreatureID / GameObjectID | ObjectType:<br/>5 = Unit<br/>8 = GameObject | Always 0 | (source code / new description here) |  |
 
