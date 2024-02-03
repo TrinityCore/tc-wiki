@@ -1,8 +1,8 @@
 ---
 title: creature
-description:
+description: 
 published: true
-date: 2023-07-07T21:41:32.257Z
+date: 2024-02-03T04:16:40.088Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:13.159Z
@@ -133,6 +133,7 @@ The current mana that the creature has.
 
 ### MovementType
 The movement type associated with this creature. Usually the same as [creature_template.MovementType](../world/creature_template#movementtype) but can be different.
+NOTE: A creature.MovementType record will override a creature_template.MovementType record.
 &nbsp;
 
 ### npcflag
