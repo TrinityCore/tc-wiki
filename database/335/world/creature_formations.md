@@ -2,7 +2,7 @@
 title: creature_formations
 description: 
 published: true
-date: 2023-07-07T23:34:35.720Z
+date: 2024-02-03T02:16:29.759Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:26.275Z
@@ -52,6 +52,9 @@ Sets group member behaviours, values are:
 | 0 | If any creature from group is attacked, members won't assist |
 | 1 | Group member will assist only their leader if attacked. |
 | 2 | Group members will assist all group members |
+| 3 | Everyone assists everyone and member don't follow the leader |
+| 512 | Noone assists noone and member follow the leader |
+| 515 | Everyone assists everyone and member follow the leader |
 {.dense}
 
 &nbsp;
