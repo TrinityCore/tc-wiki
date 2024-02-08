@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2023-07-21T15:57:32.624Z
+date: 2024-02-08T20:04:51.750Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -69,7 +69,7 @@ dateCreated: 2021-08-30T09:29:30.449Z
 | CONDITION_SOURCE_TYPE_CONVERSATION_LINE | 29 | Always 0 | ConversationLineID | Always 0 | (source code / new description here) |  |
 | CONDITION_SOURCE_TYPE_AREATRIGGER_CLIENT_TRIGGERED | 30 | Always 0 | Areatrigger ID [AreaTrigger.db2](https://wow.tools/dbc/?dbc=areatrigger){target=_blank} | Always 0 | (source code / new description here) |  |
 | CONDITION_SOURCE_TYPE_TRAINER_SPELL | 31 | TrainerID | SpellID | Always 0 | (source code / new description here) |  |
-| CONDITION_SOURCE_TYPE_OBJECT_ID_VISIBILITY | 32 | CreatureID / GameObjectID | ObjectType:<br/>5 = Unit<br/>8 = GameObject | Always 0 | (source code / new description here) |  |
+| CONDITION_SOURCE_TYPE_OBJECT_ID_VISIBILITY | 32 | ObjectType:<br/>5 = Unit<br/>8 = GameObject | CreatureID / GameObjectID | Always 0 | (source code / new description here) |  |
 | CONDITION_SOURCE_TYPE_MAX | 33 |  |  |  |  | (Placeholder) |
 
 &nbsp;
