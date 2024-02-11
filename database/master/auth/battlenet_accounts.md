@@ -2,7 +2,7 @@
 title: battlenet_accounts
 description: This table holds information on all available battlenet accounts.
 published: true
-date: 2022-11-21T20:58:10.153Z
+date: 2024-02-11T19:53:51.135Z
 tags: database, auth, master
 editor: markdown
 dateCreated: 2021-08-20T14:34:01.031Z
@@ -16,7 +16,9 @@ dateCreated: 2021-08-20T14:34:01.031Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [id](#id) | int | unsigned | PRI | NO |  | auto_increment | Identifier |
 | [email](#email) | varchar(320) |  |  | NO |  |  |  |
-| [sha_pass_hash](#sha_pass_hash) | varchar(64) |  |  | NO | '' |  |  |
+| [srp_version](#srp_version) | tinyint | signed |  | NO | 1 |  |  |
+| [salt](#salt) | binary(32) |  |  | NO |  |  |  |
+| [verifier](#verifier) | blob |  |  | NO |  |  |  |
 | [joindate](#joindate) | timestamp |  |  | NO | CURRENT_TIMESTAMP | DEFAULT_GENERATED |  |
 | [last_ip](#last_ip) | varchar(15) |  |  | NO | 127.0.0.1 |  |  |
 | [failed_logins](#failed_logins) | int | unsigned |  | NO | 0 |  |  |
@@ -40,17 +42,16 @@ The unique account ID.
 The e-mail address associated with this account.
 &nbsp;
 
-### sha_pass_hash
-This field contains the encrypted password. The encryption is bin2hex and is in the following format: email:password. The SQL to create the password (or to compare with the current hash) is:
+### srp_version
+*- no description -*
+&nbsp;
 
-```sql
-SELECT SHA1(CONCAT(UPPER(`username`), ':', UPPER(&lt;pass&gt;)));
-```
-or via PHP:
-```php
-bin2hex(strrev(hex2bin(strtoupper(hash("sha256",strtoupper(hash("sha256", strtoupper($email)).":".strtoupper($password)))))));
-```
+### salt
+*- no description -*
+&nbsp;
 
+### verifier
+*- no description -*
 &nbsp;
 
 ### joindate

@@ -2,7 +2,7 @@
 title: account
 description: 
 published: true
-date: 2022-12-19T18:36:48.290Z
+date: 2024-02-11T19:53:50.783Z
 tags: database, auth, master
 editor: markdown
 dateCreated: 2021-08-19T10:37:27.827Z
@@ -41,6 +41,7 @@ dateCreated: 2021-08-19T10:37:27.827Z
 | [muteby](#muteby) | varchar(50) |  |  | NO | '' |  |  |
 | [locale](#locale) | tinyint | unsigned |  | NO | 0 |  |  |
 | [os](#os) | varchar(4) |  |  | NO | '' |  |  |
+| [timezone_offset](#timezone_offset) | smallint | signed |  | NO | 0 |  |  |
 | [recruiter](#recruiter) | int | unsigned |  | NO | 0 |  |  |
 | [battlenet_account](#battlenet_account) | int | unsigned | MUL | YES | NULL |  |  |
 | [battlenet_index](#battlenet_index) | tinyint | unsigned |  | YES | NULL |  |  |
@@ -164,6 +165,10 @@ Stores information about client's OS. Used by Warden system.
 
 - Win
 - Mac
+&nbsp;
+
+### timezone_offset
+*- no description -*
 &nbsp;
 
 ### recruiter
