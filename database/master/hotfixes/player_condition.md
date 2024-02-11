@@ -2,7 +2,7 @@
 title: player_condition
 description: 
 published: true
-date: 2022-12-19T18:38:37.596Z
+date: 2024-02-11T20:02:24.882Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:58:48.556Z
@@ -52,7 +52,7 @@ dateCreated: 2021-08-30T09:58:48.556Z
 | [MaxAvgItemLevel](#maxavgitemlevel) | int | signed |  | NO | 0 |  |  |
 | [MinAvgEquippedItemLevel](#minavgequippeditemlevel) | smallint | unsigned |  | NO | 0 |  |  |
 | [MaxAvgEquippedItemLevel](#maxavgequippeditemlevel) | smallint | unsigned |  | NO | 0 |  |  |
-| [PhaseUseFlags](#phaseuseflags) | tinyint | unsigned |  | NO | 0 |  |  |
+| [PhaseUseFlags](#phaseuseflags) | int | signed |  | NO | 0 |  |  |
 | [PhaseID](#phaseid) | smallint | unsigned |  | NO | 0 |  |  |
 | [PhaseGroupID](#phasegroupid) | int | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | int | signed |  | NO | 0 |  |  |

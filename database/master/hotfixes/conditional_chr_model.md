@@ -2,7 +2,7 @@
 title: conditional_chr_model
 description: 
 published: true
-date: 2023-10-06T19:36:30.235Z
+date: 2024-02-11T20:02:21.616Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | signed | PRI | NO | 0 |  |  |
-| [ChrModelID](#chrmodelid) | int | unsigned |  | NO | 0 |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ChrModelID](#chrmodelid) | int | signed |  | NO | 0 |  |  |
 | [ChrCustomizationReqID](#chrcustomizationreqid) | int | signed |  | NO | 0 |  |  |
 | [PlayerConditionID](#playerconditionid) | int | signed |  | NO | 0 |  |  |
 | [Flags](#flags) | int | signed |  | NO | 0 |  |  |

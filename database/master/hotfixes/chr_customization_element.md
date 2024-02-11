@@ -2,7 +2,7 @@
 title: chr_customization_element
 description: 
 published: true
-date: 2023-10-06T19:24:22.586Z
+date: 2024-02-11T20:02:21.453Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:51:25.991Z
@@ -27,6 +27,7 @@ dateCreated: 2021-08-30T09:51:25.991Z
 | [ChrCustomizationVoiceID](#chrcustomizationvoiceid) | int | signed |  | NO | 0 |  |  |
 | [AnimKitID](#animkitid) | int | signed |  | NO | 0 |  |  |
 | [ParticleColorID](#particlecolorid) | int | signed |  | NO | 0 |  |  |
+| [ChrCustGeoComponentLinkID](#chrcustgeocomponentlinkid) | int | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -80,6 +81,10 @@ dateCreated: 2021-08-30T09:51:25.991Z
 &nbsp;
 
 ### ParticleColorID
+*- no description -*
+&nbsp;
+
+### ChrCustGeoComponentLinkID
 *- no description -*
 &nbsp;
 
