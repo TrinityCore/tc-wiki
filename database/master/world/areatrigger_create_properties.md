@@ -2,7 +2,7 @@
 title: areatrigger_create_properties
 description: 
 published: true
-date: 2022-11-21T21:33:06.383Z
+date: 2024-02-11T20:06:05.974Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-11-14T20:12:34.174Z
@@ -15,7 +15,10 @@ dateCreated: 2021-11-14T20:12:34.174Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [Id](#id) | int | unsigned | PRI | NO |  |  |  |
+| [IsCustom](#iscustom) | tinyint | unsigned | PRI | NO |  |  |  |
 | [AreaTriggerId](#areatriggerid) | int | unsigned |  | NO |  |  |  |
+| [IsAreatriggerCustom](#isareatriggercustom) | tinyint | unsigned |  | NO |  |  |  |
+| [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
 | [MoveCurveId](#movecurveid) | int | unsigned |  | NO | 0 |  |  |
 | [ScaleCurveId](#scalecurveid) | int | unsigned |  | NO | 0 |  |  |
 | [MorphCurveId](#morphcurveid) | int | unsigned |  | NO | 0 |  |  |
@@ -43,8 +46,20 @@ dateCreated: 2021-11-14T20:12:34.174Z
 This ID is the MiscValue of spells with effect `SPELL_EFFECT_CREATE_AREATRIGGER`, `SPELL_EFFECT_183` or EffectAura `SPELL_AURA_AREA_TRIGGER`, which spawn areatrigger entities.
 &nbsp;
 
+### IsCustom
+*- no description -*
+&nbsp;
+
 ### AreaTriggerId
 The ID of the [areatrigger_template](/database/master/world/areatrigger_template) that is used when instantiating this areatrigger.
+&nbsp;
+
+### IsAreatriggerCustom
+*- no description -*
+&nbsp;
+
+### Flags
+*- no description -*
 &nbsp;
 
 ### MoveCurveId

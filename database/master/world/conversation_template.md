@@ -2,7 +2,7 @@
 title: conversation_template
 description: 
 published: true
-date: 2022-11-21T21:03:48.247Z
+date: 2024-02-11T20:06:07.137Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:38.658Z
@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T09:29:38.658Z
 | [Id](#id) | int | unsigned | PRI | NO |  |  |  |
 | [FirstLineId](#firstlineid) | int | unsigned |  | NO |  |  |  |
 | [TextureKitId](#texturekitid) | int | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | tinyint | signed |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
@@ -31,6 +32,10 @@ ID of [ConversationLine.db2](https://wow.tools/dbc/?dbc=conversationline){target
 &nbsp;
 
 ### TextureKitId
+*- no description -*
+&nbsp;
+
+### Flags
 *- no description -*
 &nbsp;
 

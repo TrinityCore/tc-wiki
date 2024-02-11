@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2024-02-08T20:04:51.750Z
+date: 2024-02-11T20:06:06.992Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -24,6 +24,7 @@ dateCreated: 2021-08-30T09:29:30.449Z
 | [ConditionValue1](#conditionvalue1) | int | unsigned | PRI | NO | 0 |  |  |
 | [ConditionValue2](#conditionvalue2) | int | unsigned | PRI | NO | 0 |  |  |
 | [ConditionValue3](#conditionvalue3) | int | unsigned | PRI | NO | 0 |  |  |
+| [ConditionStringValue1](#conditionstringvalue1) | varchar(64) |  | PRI | NO | '' |  |  |
 | [NegativeCondition](#negativecondition) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ErrorType](#errortype) | int | unsigned |  | NO | 0 |  |  |
 | [ErrorTextId](#errortextid) | int | unsigned |  | NO | 0 |  |  |
@@ -175,6 +176,10 @@ See [ConditionTypeOrReference](#conditiontypeorreference).
 
 ### ConditionValue3
 See [ConditionTypeOrReference](#conditiontypeorreference).
+&nbsp;
+
+### ConditionStringValue1
+*- no description -*
 &nbsp;
 
 ### NegativeCondition

@@ -2,7 +2,7 @@
 title: areatrigger
 description: 
 published: true
-date: 2023-10-22T01:55:40.491Z
+date: 2024-02-11T20:06:05.753Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:28:46.460Z
@@ -15,8 +15,8 @@ dateCreated: 2021-08-30T09:28:46.460Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [SpawnId](#spawnid) | bigint | unsigned | PRI | NO |  |  |  |
-| [AreaTriggerId](#areatriggerid) | int | unsigned |  | NO |  |  |  |
-| [IsServerSide](#isserverside) | tinyint | unsigned |  | NO |  |  |  |
+| [AreaTriggerCreatePropertiesId](#areatriggercreatepropertiesid) | int | unsigned |  | NO |  |  |  |
+| [IsCustom](#iscustom) | tinyint | unsigned |  | NO |  |  |  |
 | [MapId](#mapid) | int | unsigned |  | NO |  |  |  |
 | [SpawnDifficulties](#spawndifficulties) | varchar(100) |  |  | NO | 0 |  |  |
 | [PosX](#posx) | float |  |  | NO |  |  |  |
@@ -26,15 +26,6 @@ dateCreated: 2021-08-30T09:28:46.460Z
 | [PhaseUseFlags](#phaseuseflags) | tinyint | unsigned |  | YES | 0 |  |  |
 | [PhaseId](#phaseid) | int | unsigned |  | YES | 0 |  |  |
 | [PhaseGroup](#phasegroup) | int | unsigned |  | YES | 0 |  |  |
-| [Shape](#shape) | tinyint | unsigned |  | NO | 0 |  |  |
-| [ShapeData0](#shapedata0-7) | float |  |  | NO | 0 |  |  |
-| [ShapeData1](#shapedata0-7) | float |  |  | NO | 0 |  |  |
-| [ShapeData2](#shapedata0-7) | float |  |  | NO | 0 |  |  |
-| [ShapeData3](#shapedata0-7) | float |  |  | NO | 0 |  |  |
-| [ShapeData4](#shapedata0-7) | float |  |  | NO | 0 |  |  |
-| [ShapeData5](#shapedata0-7) | float |  |  | NO | 0 |  |  |
-| [ShapeData6](#shapedata0-7) | float |  |  | NO | 0 |  |  |
-| [ShapeData7](#shapedata0-7) | float |  |  | NO | 0 |  |  |
 | [SpellForVisuals](#spellforvisuals) | int | signed |  | YES | NULL |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
 | [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
@@ -46,18 +37,12 @@ dateCreated: 2021-08-30T09:28:46.460Z
 A unique identifier given to each areatrigger to distinguish one areatrigger from another. Two areatriggers can NOT have same SpawnId.
 &nbsp;
 
-### AreaTriggerId
-The ID of the [areatrigger_template](/database/master/world/areatrigger_template) that is used when instantiating this areatrigger.
+### AreaTriggerCreatePropertiesId
+*- no description -*
 &nbsp;
 
-### IsServerSide
-0 = False
-1 = True
-
-If `True` then the spawn is not sent to client via `SMGS_UPDATE_OBJECT` packet (e.g. instance entries/exists)
-
-Nevertheless there are still clientsided areatriggers for content before Legion addon.
-You can see them inside [AreaTrigger.db2](https://wow.tools/dbc/?dbc=areatrigger){target=_blank}
+### IsCustom
+*- no description -*
 &nbsp;
 
 ### MapId
@@ -107,34 +92,6 @@ Works similar as PhaseId, but the areatrigger can be placed inside multiple Phas
 The taken PhaseGroup might contains phases not needed, but are unused inside the phased area anyway.
 
 A full list of available PhaseGroups can be taken from [PhaseXPhaseGroup.db2](https://wow.tools/dbc/?dbc=phasexphasegroup){target=_blank}'s PhaseGroupID field.
-&nbsp;
-
-### Shape
-Shape determines the general design of an areatrigger.
-
-|ID|Name|
-|:---:|---|
-|0|AREATRIGGER_TYPE_SPHERE|
-|1|AREATRIGGER_TYPE_BOX|
-|2|AREATRIGGER_TYPE_UNK|
-|3|AREATRIGGER_TYPE_POLYGON|
-|4|AREATRIGGER_TYPE_CYLINDER|
-|5|AREATRIGGER_TYPE_DISK|
-|6|AREATRIGGER_TYPE_BOUNDED_PLANE|
-&nbsp;
-
-### ShapeData0-7
-The data changes depending on the Type.
-| |SPHERE|BOX|UNK|POLYGON|CYLINDER|DISK|BOUNDED PLANE
-|:---:|---|---|---|---|---|---|---|
-|ShapeData0| Radius | ExtentsX | - | Height | Radius | InnerRadius | ExtentsX
-|ShapeData1| RadiusTarget | ExtentsY | - | HeightTarget | RadiusTarget | InnerRadiusTarget | ExtentsY
-|ShapeData2| - | ExtentsZ | - | - | Height | OuterRadius | ExtentsTargetX
-|ShapeData3| - | ExtentsTargetX | - | - | HeightTarget | OuterRadiusTarget | ExtentsTargetY
-|ShapeData4| - | ExtentsTargetY | - | - | LocationZOffset | Height | - 
-|ShapeData5| - | ExtentsTargetZ | - | - | LocationZOffsetTarget | HeightTarget | -
-|ShapeData6| - | - | - | - | -| LocationZOffset | -
-|ShapeData7| - | - | - | - | - | LocationZOffsetTarget | -
 &nbsp;
 
 ### SpellForVisuals

@@ -2,7 +2,7 @@
 title: areatrigger_template
 description: This table contains the description of areatrigger.
 published: true
-date: 2022-12-24T04:48:16.572Z
+date: 2024-02-11T20:06:06.453Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:28:59.429Z
@@ -15,17 +15,8 @@ dateCreated: 2021-08-30T09:28:59.429Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [Id](#id) | int | unsigned | PRI | NO |  |  |  |
-| [IsServerSide](#isserverside) | tinyint | unsigned | PRI | NO |  |  |  |
-| [Type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
+| [IsCustom](#iscustom) | tinyint | unsigned | PRI | NO |  |  |  |
 | [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
-| [Data0](#data0-7) | float |  |  | NO | 0 |  |  |
-| [Data1](#data0-7) | float |  |  | NO | 0 |  |  |
-| [Data2](#data0-7) | float |  |  | NO | 0 |  |  |
-| [Data3](#data0-7) | float |  |  | NO | 0 |  |  |
-| [Data4](#data0-7) | float |  |  | NO | 0 |  |  |
-| [Data5](#data0-7) | float |  |  | NO | 0 |  |  |
-| [Data6](#data0-7) | float |  |  | NO | 0 |  |  |
-| [Data7](#data0-7) | float |  |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -34,26 +25,8 @@ dateCreated: 2021-08-30T09:28:59.429Z
 Unique identifier
 &nbsp;
 
-### IsServerSide
-0 = False
-1 = True
-
-If `True` then the data is not sent to client via `SMGS_UPDATE_OBJECT` packet (e.g. instance entries/exists)
-
-Nevertheless there are still clientsided areatriggers for content before Legion addon.
-You can see them inside [AreaTrigger.db2](https://wow.tools/dbc/?dbc=areatrigger){target=_blank}
-&nbsp;
-
-### Type
-|ID|Name|
-|:---:|---|
-|0|AREATRIGGER_TYPE_SPHERE|
-|1|AREATRIGGER_TYPE_BOX|
-|2|AREATRIGGER_TYPE_UNK|
-|3|AREATRIGGER_TYPE_POLYGON|
-|4|AREATRIGGER_TYPE_CYLINDER|
-|5|AREATRIGGER_TYPE_DISK|
-|6|AREATRIGGER_TYPE_BOUNDED_PLANE|
+### IsCustom
+*- no description -*
 &nbsp;
 
 ### Flags
@@ -71,20 +44,6 @@ You can see them inside [AreaTrigger.db2](https://wow.tools/dbc/?dbc=areatrigger
 |512|AREATRIGGER_FLAG_HAS_ANIM_KIT_ID (DEPRECATED)|
 |1024|AREATRIGGER_FLAG_HAS_CIRCULAR_MOVEMENT (DEPRECATED)|
 |2048|AREATRIGGER_FLAG_UNK5
-&nbsp;
-
-### Data0-7
-The data changes depending on the Type.
-| |SPHERE|BOX|UNK|POLYGON|CYLINDER|DISK|BOUNDED PLANE
-|:---:|---|---|---|---|---|---|---|
-|Data0| Radius | ExtentsX | - | Height | Radius | InnerRadius | ExtentsX
-|Data1| RadiusTarget | ExtentsY | - | HeightTarget | RadiusTarget | InnerRadiusTarget | ExtentsY
-|Data2| - | ExtentsZ | - | - | Height | OuterRadius | ExtentsTargetX
-|Data3| - | ExtentsTargetX | - | - | HeightTarget | OuterRadiusTarget | ExtentsTargetY
-|Data4| - | ExtentsTargetY | - | - | LocationZOffset | Height | - 
-|Data5| - | ExtentsTargetZ | - | - | LocationZOffsetTarget | HeightTarget | -
-|Data6| - | - | - | - | -| LocationZOffset | -
-|Data7| - | - | - | - | - | LocationZOffsetTarget | -
 &nbsp;
 
 ### VerifiedBuild

@@ -2,7 +2,7 @@
 title: creature_addon
 description: 
 published: true
-date: 2023-01-13T01:25:03.919Z
+date: 2024-02-11T20:06:07.300Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:44.302Z
@@ -21,7 +21,7 @@ The creature_addon and creature_template_addon tables define different things th
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  |  |
-| [path_id](#path_id) | int | unsigned |  | NO | 0 |  |  |
+| [PathId](#pathid) | int | unsigned |  | NO | 0 |  |  |
 | [mount](#mount) | int | unsigned |  | NO | 0 |  |  |
 | [MountCreatureID](#mountcreatureid) | int | unsigned |  | NO | 0 |  |  |
 | [StandState](#standstate) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -42,7 +42,7 @@ The creature_addon and creature_template_addon tables define different things th
 This field signifies a unique creature guid. It will affect just that creature whose GUID matches the one specified here.
 &nbsp;
 
-### path_id
+### PathId
 If a creature has waypoint pathed movement, this field hold the [waypoint_data.id](/en/database/master/world/waypoint_data#id) for the path the creature is to follow.
 &nbsp;
 

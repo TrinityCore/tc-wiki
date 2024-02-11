@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2023-10-22T15:45:03.894Z
+date: 2024-02-11T20:06:08.506Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:15.744Z
@@ -29,7 +29,7 @@ dateCreated: 2021-08-30T09:30:15.744Z
 | [speed_walk](#speed_walk) | float |  |  | NO | 1 |  | Result of 2.5/2.5, most common value |
 | [speed_run](#speed_run) | float |  |  | NO | 1.14286 |  | Result of 8.0/7.0, most common value |
 | [scale](#scale) | float |  |  | NO | 1 |  |  |
-| [rank](#rank) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Classification](#classification) | tinyint | unsigned |  | NO | 0 |  |  |
 | [dmgschool](#dmgschool) | tinyint | signed |  | NO | 0 |  |  |
 | [BaseAttackTime](#baseattacktime) | int | unsigned |  | NO | 0 |  |  |
 | [RangeAttackTime](#rangeattacktime) | int | unsigned |  | NO | 0 |  |  |
@@ -51,8 +51,7 @@ dateCreated: 2021-08-30T09:30:15.744Z
 | [WidgetSetID](#widgetsetid) | int | signed |  | NO | 0 |  |  |
 | [WidgetSetUnitConditionID](#widgetsetunitconditionid) | int | signed |  | NO | 0 |  |  |
 | [RegenHealth](#regenhealth) | tinyint | unsigned |  | NO | 1 |  |  |
-| [mechanic_immune_mask](#mechanic_immune_mask) | bigint | unsigned |  | NO | 0 |  |  |
-| [spell_school_immune_mask](#spell_school_immune_mask) | int | unsigned |  | NO | 0 |  |  |
+| [CreatureImmunitiesId](#creatureimmunitiesid) | int | signed |  | NO | 0 |  |  |
 | [flags_extra](#flags_extra) | int | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
 | [StringId](#stringid) | varchar(64) |  |  | YES | NULL |  |  |
@@ -187,10 +186,10 @@ Controls how fast the creature can run. For vehicles: increases ground movement 
 If non-zero, this field defines the size of how the model of the creature appears ingame. If zero, it will use default model size taken from the DB2.
 &nbsp;
 
-### rank
-The rank of the creature:
+### Classification
+The classification of the creature:
 
-| Rank | Name | Default Respawn Time</br>([creature.spawntimesecs](/en/database/master/world/creature#spawntimesecs)) | Corpse Decay Time</br>([Corpse.Decay](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/worldserver/worldserver.conf.dist#L1745)) | Total Default Respawn</br>([creature.spawntimesecs](/en/database/master/world/creature#spawntimesecs) + [Corpse.Decay](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/worldserver/worldserver.conf.dist#L1745)) |
+| Classification | Name | Default Respawn Time</br>([creature.spawntimesecs](/en/database/master/world/creature#spawntimesecs)) | Corpse Decay Time</br>([Corpse.Decay](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/worldserver/worldserver.conf.dist#L1745)) | Total Default Respawn</br>([creature.spawntimesecs](/en/database/master/world/creature#spawntimesecs) + [Corpse.Decay](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/worldserver/worldserver.conf.dist#L1745)) |
 |---|---|:---:|:---:|:---:|
 | 0 | Normal | 5 min | 60 sec | 6 min |
 | 1 | Elite | 5 min | 5 min | 10 min |
@@ -198,7 +197,7 @@ The rank of the creature:
 | 3 | Boss | 5 min | 1 hour | 1 hour, 5 min |
 | 4 | Rare | 5 min | 5 min | 10 min |
 
-> An NPC's rank is mostly visual (which also requires your Cache to be cleared to see changes). Changing this value will not change its health, damage, or loot. However, it will change the respawn time of the creature.
+> An NPC's classification is mostly visual (which also requires your Cache to be cleared to see changes). Changing this value will not change its health, damage, or loot. However, it will change the respawn time of the creature.
 {.is-info}
 
 
@@ -328,58 +327,8 @@ We have no idea what this field does. It is passed directly to the client.&nbsp;
 Boolean 1 or 0 controlling if the creature should regenerate its health out of combat or not.
 &nbsp;
 
-### mechanic_immune_mask
-This makes the creature immune to specific spell mechanics. (See [SpellEffect EffectMechanic](https://wow.tools/dbc/?dbc=spelleffect))
-| Value | Flag | Name | Comment |
-|-------|------|------|---------|
-| 1 | 0x00000001 | MECHANIC_CHARM |  |
-| 2 | 0x00000002 | MECHANIC_DISORIENTED |  |
-| 4 | 0x00000004 | MECHANIC_DISARM |  |
-| 8 | 0x00000008 | MECHANIC_DISTRACT |  |
-| 16 | 0x00000010 | MECHANIC_FEAR |  |
-| 32 | 0x00000020 | MECHANIC_GRIP | Death Grip and similar effects |
-| 64 | 0x00000040 | MECHANIC_ROOT |  |
-| 128 | 0x00000080 | MECHANIC_SLOW_ATTACK |  |
-| 256 | 0x00000100 | MECHANIC_SILENCE |  |
-| 512 | 0x00000200 | MECHANIC_SLEEP |  |
-| 1024 | 0x00000400 | MECHANIC_SNARE |  |
-| 2048 | 0x00000800 | MECHANIC_STUN |  |
-| 4096 | 0x00001000 | MECHANIC_FREEZE |  |
-| 8192 | 0x00002000 | MECHANIC_KNOCKOUT | Incapacitate effects such as Repetance (Paladin) |
-| 16384 | 0x00004000 | MECHANIC_BLEED |  |
-| 32768 | 0x00008000 | MECHANIC_BANDAGE | Healing etc. |
-| 65536 | 0x00010000 | MECHANIC_POLYMORPH |  |
-| 131072 | 0x00020000 | MECHANIC_BANISH |  |
-| 262144 | 0x00040000 | MECHANIC_SHIELD |  |
-| 524288 | 0x00080000 | MECHANIC_SHACKLE | Shackle Undead only |
-| 1048576 | 0x00100000 | MECHANIC_MOUNT | Any effect that summons a mount |
-| 2097152 | 0x00200000 | MECHANIC_INFECTED | Frost Fever, Blood Plague etc. |
-| 4194304 | 0x00400000 | MECHANIC_TURN | e.g. Turn Evil |
-| 8388608 | 0x00800000 | MECHANIC_HORROR | e.g. Death Coil (Warlock) |
-| 16777216 | 0x01000000 | MECHANIC_INVULNERABILITY | Forbearance, Nether Protection, Diplomatic Immunity only |
-| 33554432 | 0x02000000 | MECHANIC_INTERRUPT |  |
-| 67108864 | 0x04000000 | MECHANIC_DAZE |  |
-| 134217728 | 0x08000000 | MECHANIC_DISCOVERY | Any Create Item effect |
-| 268435456 | 0x10000000 | MECHANIC_IMMUNE_SHIELD | Divine Shield, Ice Block, Hand of Protection... |
-| 536870912 | 0x20000000 | MECHANIC_SAPPED |  |
-| 1073741824 | 0x40000000 | MECHANIC_ENRAGED |  |
-{.dense}
-
-To combine immunities just add values. Immune to everything corresponds to the value 2147483647 (0x3FFF FFFF).
-&nbsp;
-
-### spell_school_immune_mask
-This makes the creature immune to spell from specific schools.
-| Value | Flag | Name |
-|-------|------|
-| 1 | 0x01 | SPELL_SCHOOL_NORMAL |
-| 2 | 0x02 | SPELL_SCHOOL_HOLY |
-| 4 | 0x04 | SPELL_SCHOOL_FIRE |
-| 8 | 0x08 | SPELL_SCHOOL_NATURE |
-| 16 | 0x10 | SPELL_SCHOOL_FROST |
-| 32 | 0x20 | SPELL_SCHOOL_SHADOW |
-| 64 | 0x40 | SPELL_SCHOOL_ARCANE |
-{.dense}
+### CreatureImmunitiesId
+*- no description -*
 &nbsp;
 
 ### flags_extra
