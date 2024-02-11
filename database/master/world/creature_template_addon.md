@@ -2,7 +2,7 @@
 title: creature_template_addon
 description: 
 published: true
-date: 2023-05-29T22:26:24.648Z
+date: 2024-02-11T20:06:08.582Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:18.868Z
@@ -15,7 +15,7 @@ dateCreated: 2021-08-30T09:30:18.868Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
-| [path_id](#path_id) | int | unsigned |  | NO | 0 |  |  |
+| [PathId](#pathid) | int | unsigned |  | NO | 0 |  |  |
 | [mount](#mount) | int | unsigned |  | NO | 0 |  |  |
 | [MountCreatureID](#mountcreatureid) | int | unsigned |  | NO | 0 |  |  |
 | [StandState](#standstate) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -36,7 +36,7 @@ dateCreated: 2021-08-30T09:30:18.868Z
 This field signifies the creature_template.entry. It will affect all spawned creatures using that template entry.
 &nbsp;
 
-### path_id
+### PathId
 If a creature has waypoint pathed movement, this field hold the [waypoint_data.id](/en/database/master/world/waypoint_data#id) for the path the creature is to follow.
 &nbsp;
 

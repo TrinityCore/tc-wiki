@@ -2,10 +2,10 @@
 title: World
 description: 
 published: true
-date: 2023-10-22T16:04:04.119Z
+date: 2024-02-11T20:06:21.989Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-28T21:01:17.438Z
+dateCreated: 2021-08-30T06:00:00.000Z
 ---
 
 ## a
@@ -48,11 +48,13 @@ dateCreated: 2021-08-28T21:01:17.438Z
 - [creature_classlevelstats](/database/master/world/creature_classlevelstats)
 - [creature_equip_template](/database/master/world/creature_equip_template)
 - [creature_formations](/database/master/world/creature_formations)
+- [creature_immunities](/database/master/world/creature_immunities)
 - [creature_loot_template](/database/master/world/creature_loot_template)
 - [creature_model_info](/database/master/world/creature_model_info)
 - [creature_movement_info](/database/master/world/creature_movement_info)
 - [creature_movement_override](/database/master/world/creature_movement_override)
 - [creature_onkill_reputation](/database/master/world/creature_onkill_reputation)
+- [creature_quest_currency](/database/master/world/creature_quest_currency)
 - [creature_questender](/database/master/world/creature_questender)
 - [creature_questitem](/database/master/world/creature_questitem)
 - [creature_queststarter](/database/master/world/creature_queststarter)
@@ -283,8 +285,8 @@ dateCreated: 2021-08-28T21:01:17.438Z
 {.links-list}
 ## w
 - [warden_checks](/database/master/world/warden_checks)
-- [waypoint_data](/database/master/world/waypoint_data)
-- [waypoint_scripts](/database/master/world/waypoint_scripts)
+- [waypoint_path](/database/master/world/waypoint_path)
+- [waypoint_path_node](/database/master/world/waypoint_path_node)
 - [world_safe_locs](/database/master/world/world_safe_locs)
 - [world_state](/database/master/world/world_state)
 {.links-list}
