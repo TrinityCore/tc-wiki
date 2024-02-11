@@ -2,7 +2,7 @@
 title: characters
 description: 
 published: true
-date: 2023-05-11T08:55:47.143Z
+date: 2024-02-11T19:58:02.064Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T07:37:31.310Z
@@ -95,6 +95,11 @@ dateCreated: 2021-08-30T07:37:31.310Z
 | [honorRestState](#honorreststate) | tinyint | unsigned |  | NO | 2 |  |  |
 | [honorRestBonus](#honorrestbonus) | float |  |  | NO | 0 |  |  |
 | [lastLoginBuild](#lastloginbuild) | int | unsigned |  | NO | 0 |  |  |
+| [personalTabardEmblemStyle](#personaltabardemblemstyle) | int | signed |  | NO | -1 |  |  |
+| [personalTabardEmblemColor](#personaltabardemblemcolor) | int | signed |  | NO | -1 |  |  |
+| [personalTabardBorderStyle](#personaltabardborderstyle) | int | signed |  | NO | -1 |  |  |
+| [personalTabardBorderColor](#personaltabardbordercolor) | int | signed |  | NO | -1 |  |  |
+| [personalTabardBackgroundColor](#personaltabardbackgroundcolor) | int | signed |  | NO | -1 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -419,6 +424,26 @@ dateCreated: 2021-08-30T07:37:31.310Z
 &nbsp;
 
 ### lastLoginBuild
+*- no description -*
+&nbsp;
+
+### personalTabardEmblemStyle
+*- no description -*
+&nbsp;
+
+### personalTabardEmblemColor
+*- no description -*
+&nbsp;
+
+### personalTabardBorderStyle
+*- no description -*
+&nbsp;
+
+### personalTabardBorderColor
+*- no description -*
+&nbsp;
+
+### personalTabardBackgroundColor
 *- no description -*
 &nbsp;
 
