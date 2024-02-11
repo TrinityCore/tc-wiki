@@ -2,7 +2,7 @@
 title: ui_map
 description: 
 published: true
-date: 2023-10-06T19:24:25.689Z
+date: 2024-02-11T20:02:26.429Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T10:03:29.616Z
@@ -18,7 +18,7 @@ dateCreated: 2021-08-30T10:03:29.616Z
 | [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [ParentUiMapID](#parentuimapid) | int | signed |  | NO | 0 |  |  |
 | [Flags](#flags) | int | signed |  | NO | 0 |  |  |
-| [System](#system) | tinyint | unsigned |  | NO | 0 |  |  |
+| [System](#system) | tinyint | signed |  | NO | 0 |  |  |
 | [Type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
 | [BountySetID](#bountysetid) | int | signed |  | NO | 0 |  |  |
 | [BountyDisplayLocation](#bountydisplaylocation) | int | unsigned |  | NO | 0 |  |  |

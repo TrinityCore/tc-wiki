@@ -2,7 +2,7 @@
 title: movie
 description: 
 published: true
-date: 2023-10-06T19:24:24.617Z
+date: 2024-02-11T20:02:23.468Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:58:21.511Z
@@ -19,7 +19,7 @@ dateCreated: 2021-08-30T09:58:21.511Z
 | [KeyID](#keyid) | tinyint | unsigned |  | NO | 0 |  |  |
 | [AudioFileDataID](#audiofiledataid) | int | unsigned |  | NO | 0 |  |  |
 | [SubtitleFileDataID](#subtitlefiledataid) | int | unsigned |  | NO | 0 |  |  |
-| [SubtitleFileFormat](#subtitlefileformat) | int | signed |  | NO | 0 |  |  |
+| [SubtitleFileFormat](#subtitlefileformat) | int | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

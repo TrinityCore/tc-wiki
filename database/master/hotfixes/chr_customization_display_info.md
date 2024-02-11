@@ -2,7 +2,7 @@
 title: chr_customization_display_info
 description: 
 published: true
-date: 2022-11-21T21:12:31.278Z
+date: 2024-02-11T20:02:21.374Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:51:23.366Z
@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T09:51:23.366Z
 | [DisplayID](#displayid) | int | signed |  | NO | 0 |  |  |
 | [BarberShopMinCameraDistance](#barbershopmincameradistance) | float |  |  | NO | 0 |  |  |
 | [BarberShopHeightOffset](#barbershopheightoffset) | float |  |  | NO | 0 |  |  |
+| [BarberShopCameraZoomOffset](#barbershopcamerazoomoffset) | float |  |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -43,6 +44,10 @@ dateCreated: 2021-08-30T09:51:23.366Z
 *- no description -*
 &nbsp;
 
+### BarberShopCameraZoomOffset
+*- no description -*
+&nbsp;
+
 ### VerifiedBuild
 This field is used by the TrinityDB Team to determine whether a template has been verified from WDB files.
 
@@ -57,4 +62,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/chr_customization_choice_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'chr_customization_choice_locale'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/chr_customization_element" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'chr_customization_element'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

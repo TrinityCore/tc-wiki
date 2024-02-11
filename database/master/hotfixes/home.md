@@ -2,7 +2,7 @@
 title: Hotfixes
 description: 
 published: true
-date: 2023-11-03T23:58:38.389Z
+date: 2024-02-11T20:02:38.761Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-29T20:42:31.704Z
@@ -332,6 +332,8 @@ dateCreated: 2021-08-29T20:42:31.704Z
 - [pvp_difficulty](/database/master/hotfixes/pvp_difficulty)
 - [pvp_item](/database/master/hotfixes/pvp_item)
 - [pvp_season](/database/master/hotfixes/pvp_season)
+- [pvp_stat](/database/master/hotfixes/pvp_stat)
+- [pvp_stat_locale](/database/master/hotfixes/pvp_stat_locale)
 - [pvp_talent](/database/master/hotfixes/pvp_talent)
 - [pvp_talent_category](/database/master/hotfixes/pvp_talent_category)
 - [pvp_talent_locale](/database/master/hotfixes/pvp_talent_locale)
@@ -366,6 +368,8 @@ dateCreated: 2021-08-29T20:42:31.704Z
 - [scene_script_global_text](/database/master/hotfixes/scene_script_global_text)
 - [scene_script_package](/database/master/hotfixes/scene_script_package)
 - [scene_script_text](/database/master/hotfixes/scene_script_text)
+- [server_messages](/database/master/hotfixes/server_messages)
+- [server_messages_locale](/database/master/hotfixes/server_messages_locale)
 - [skill_line](/database/master/hotfixes/skill_line)
 - [skill_line_ability](/database/master/hotfixes/skill_line_ability)
 - [skill_line_ability_locale](/database/master/hotfixes/skill_line_ability_locale)

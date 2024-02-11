@@ -2,7 +2,7 @@
 title: mount_capability
 description: 
 published: true
-date: 2022-12-19T18:38:35.095Z
+date: 2024-02-11T20:02:23.418Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:58:10.715Z
@@ -15,7 +15,7 @@ dateCreated: 2021-08-30T09:58:10.715Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
-| [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
 | [ReqRidingSkill](#reqridingskill) | smallint | unsigned |  | NO | 0 |  |  |
 | [ReqAreaID](#reqareaid) | smallint | unsigned |  | NO | 0 |  |  |
 | [ReqSpellAuraID](#reqspellauraid) | int | unsigned |  | NO | 0 |  |  |
