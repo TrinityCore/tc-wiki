@@ -2,7 +2,7 @@
 title: gameobject
 description: 
 published: true
-date: 2023-10-06T19:27:10.493Z
+date: 2024-02-12T18:35:27.446Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:31:38.234Z
@@ -49,27 +49,30 @@ If a new gameobject will be spawned it should be within the GUID range of the cu
 For example a gameobject in Orgrimmar and Stormwind was added in Shadowlands (9.x) on retail (expansion 8), so it would get a GUID between 8000000 and 8999999 assigned.
 
 The GUID ranges are defined as followed:
-|                    Expansion | GUID range start | GUID range end |
-| ---------------------------- | ---------------- | -------------- |
-| Vanilla (1.x)                |                1 |         249999 |
-| The Burning Crusade (2.x)    |                1 |         249999 |
-| Wrath of the Lich King (3.x) |          2000000 |        2999999 |
-| Cataclysm (4.x)              |          3000000 |        3999999 |
-| Mists of Pandaria (5.x)      |          4000000 |        4999999 |
-| Warlords of Draenor (6.x)    |          5000000 |        5999999 |
-| Legion (7.x)                 |          6000000 |        6999999 |
-| Battle for Azeroth (8.x)     |          7000000 |        7999999 |
-| Shadowlands (9.x)            |          8000000 |        8999999 |
-| Dragonflight (10.x)          |          9000000 |        9999999 |
-| :warning: Wrath of the Lich King (3.x)        |                1 |         249999 |
-| :warning: Legacy Cataclysm (4.x)              |           200000 |         299999 |
-| :warning: Legacy Mists of Pandaria (5.x)      |           200000 |         299999 |
-| :warning: Legacy Warlords of Draenor (6.x)    |           300000 |         399999 |
-| :warning: Legacy Legion (7.x)                 |           400000 |         499999 |
-| :warning: Legacy Battle for Azeroth (8.x)     |           500000 |         599999 |
-| :warning: Legacy Shadowlands (9.x)            |           600000 |         699999 |
+|                                     Expansion | GUID range start | GUID range end | :information_source: Event GUID subrange start | :information_source: Event GUID subrange end |
+| --------------------------------------------- | ---------------- | -------------- | ------------------------- | ----------------------- |
+| Vanilla (1.x)                                 |                1 |         249999 |                           |                         |
+| The Burning Crusade (2.x)                     |                1 |         249999 |                           |                         |
+| Wrath of the Lich King (3.x)                  |          2000000 |        2999999 |                   2800000 |                 2999999 |
+| Cataclysm (4.x)                               |          3000000 |        3999999 |                   3800000 |                 3999999 |
+| Mists of Pandaria (5.x)                       |          4000000 |        4999999 |                   4800000 |                 4999999 |
+| Warlords of Draenor (6.x)                     |          5000000 |        5999999 |                   5800000 |                 5999999 |
+| Legion (7.x)                                  |          6000000 |        6999999 |                   6800000 |                 6999999 |
+| Battle for Azeroth (8.x)                      |          7000000 |        7999999 |                   7800000 |                 7999999 |
+| Shadowlands (9.x)                             |          8000000 |        8999999 |                   8800000 |                 8999999 |
+| Dragonflight (10.x)                           |          9000000 |        9999999 |                   9800000 |                 9999999 |
+| :warning: Wrath of the Lich King (3.x)        |                1 |         249999 |                           |                         |
+| :warning: Legacy Cataclysm (4.x)              |           200000 |         299999 |                           |                         |
+| :warning: Legacy Mists of Pandaria (5.x)      |           200000 |         299999 |                           |                         |
+| :warning: Legacy Warlords of Draenor (6.x)    |           300000 |         399999 |                           |                         |
+| :warning: Legacy Legion (7.x)                 |           400000 |         499999 |                           |                         |
+| :warning: Legacy Battle for Azeroth (8.x)     |           500000 |         599999 |                           |                         |
+| :warning: Legacy Shadowlands (9.x)            |           600000 |         699999 |                           |                         |
 > Because the limit of several old ranges was reached, new ranges have been defined with the nomenclature **{ExpID}000000 - {ExpID}999999**. The old ranges should not be used.
 {.is-warning}
+
+> Due to the revamp of events/holidays during the last few expansions, one subrange per expansion has been reserved to avoid leaving gaps when deleting old spawns. All holiday spawns should use this subrange.
+{.is-info}
 
 ### id
 This links to [gameobject_template_entry](/en/database/master/world/gameobject_template#entry)
