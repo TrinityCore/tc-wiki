@@ -1,8 +1,8 @@
 ---
 title: gameobject
-description:
+description: 
 published: true
-date: 2023-07-09T20:49:04.818Z
+date: 2024-02-14T19:02:52.642Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:05:11.495Z
@@ -35,7 +35,7 @@ Contains individual gameobject spawn data. Spawn of an object is an instance of 
 | [animprogress](#animprogress) | tinyint | unsigned |  | NO | 0 |  |  |
 | [state](#state) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | char(64) |  |  | YES | '' |  |  |
-| [VerifiedBuild](#verifiedbuild) | smallint | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 
