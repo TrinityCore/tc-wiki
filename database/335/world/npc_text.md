@@ -1,8 +1,8 @@
 ---
 title: npc_text
-description:
+description: 
 published: true
-date: 2023-07-11T18:19:56.033Z
+date: 2024-02-14T19:07:37.921Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:06:36.830Z
@@ -105,7 +105,7 @@ This table contains the texts that are used for gossip. More research needs to b
 | [Emote7_1](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
 | [EmoteDelay7_2](#emotedelay[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
 | [Emote7_2](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | smallint | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 
