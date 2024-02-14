@@ -2,7 +2,7 @@
 title: points_of_interest
 description: 
 published: true
-date: 2023-07-12T10:25:14.408Z
+date: 2024-02-14T19:08:45.575Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:07:44.760Z
@@ -25,7 +25,7 @@ e.g.: When asking a City Guard for the location of a trainer.
 | [Flags](#flags) | mediumint | unsigned |  | NO | 0 |  |  |
 | [Importance](#importance) | mediumint | unsigned |  | NO | 0 |  |  |
 | [Name](#name) | text |  |  | NO |  |  |  |
-| [VerifiedBuild](#verifiedbuild) | smallint | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 
