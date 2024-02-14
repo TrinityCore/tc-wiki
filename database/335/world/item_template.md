@@ -1,8 +1,8 @@
 ---
 title: item_template
-description:
+description: 
 published: true
-date: 2023-07-11T17:13:34.269Z
+date: 2024-02-14T19:06:27.834Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:06:11.793Z
@@ -155,7 +155,7 @@ Holds information on every item that exists in the game. All items are created f
 | [minMoneyLoot](#minmoneyloot) | int | unsigned |  | NO | 0 |  |  |
 | [maxMoneyLoot](#maxmoneyloot) | int | unsigned |  | NO | 0 |  |  |
 | [flagsCustom](#flagscustom) | int | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | smallint | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 
