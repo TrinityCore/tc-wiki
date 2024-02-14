@@ -1,9 +1,9 @@
 ---
 title: page_text_locale
-description:
+description: 
 published: true
-date: 2022-11-21T21:29:04.231Z
-tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
+date: 2024-02-14T19:08:16.468Z
+tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:06:50.899Z
 ---
@@ -17,7 +17,7 @@ dateCreated: 2021-08-30T22:06:50.899Z
 | [ID](#id) | mediumint | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
 | [Text](#text) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | smallint | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 
