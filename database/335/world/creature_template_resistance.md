@@ -2,7 +2,7 @@
 title: creature_template_resistance
 description: 
 published: true
-date: 2023-07-08T23:00:31.651Z
+date: 2024-02-14T19:02:05.980Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:04:01.413Z
@@ -19,7 +19,7 @@ This table describes what spell schools a creature is resistant to.
 | [CreatureID](#creatureid) | mediumint | unsigned | PRI | NO |  |  |  |
 | [School](#school) | tinyint | unsigned | PRI | NO |  |  |  |
 | [Resistance](#resistance) | smallint | signed |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | smallint | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 
