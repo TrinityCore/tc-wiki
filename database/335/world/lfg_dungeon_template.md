@@ -1,8 +1,8 @@
 ---
 title: lfg_dungeon_template
-description:
+description: 
 published: true
-date: 2023-07-11T17:33:09.089Z
+date: 2024-02-14T19:07:18.019Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:06:20.665Z
@@ -22,7 +22,7 @@ Used by LFG system to teleport players on specified position. This table should 
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |
 | [orientation](#orientation) | float |  |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | smallint | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 
