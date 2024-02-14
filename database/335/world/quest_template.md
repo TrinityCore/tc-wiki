@@ -1,8 +1,8 @@
 ---
 title: quest_template
-description:
+description: 
 published: true
-date: 2023-07-29T18:00:43.569Z
+date: 2024-02-14T19:11:28.435Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:30.767Z
@@ -120,7 +120,7 @@ Contains all basic definitions of available quests.
 | [ObjectiveText2](#objectivetext[1-4]) | text |  |  | YES | NULL |  |  |
 | [ObjectiveText3](#objectivetext[1-4]) | text |  |  | YES | NULL |  |  |
 | [ObjectiveText4](#objectivetext[1-4]) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | smallint | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 
