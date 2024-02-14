@@ -1,9 +1,9 @@
 ---
 title: quest_greeting_locale
-description:
+description: 
 published: true
-date: 2022-11-21T21:29:58.238Z
-tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
+date: 2024-02-14T19:09:46.703Z
+tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:03.627Z
 ---
@@ -18,7 +18,7 @@ dateCreated: 2021-08-30T22:08:03.627Z
 | [Type](#type) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
 | [Greeting](#greeting) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | smallint | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 
