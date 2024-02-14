@@ -1,9 +1,9 @@
 ---
 title: gameobject_template_locale
-description:
+description: 
 published: true
-date: 2022-11-21T21:28:10.223Z
-tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
+date: 2024-02-14T19:04:56.906Z
+tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:05:36.191Z
 ---
@@ -18,7 +18,7 @@ dateCreated: 2021-08-30T22:05:36.191Z
 | [locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
 | [name](#name) | text |  |  | YES | NULL |  |  |
 | [castBarCaption](#castbarcaption) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | smallint | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 
