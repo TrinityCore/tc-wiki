@@ -1,8 +1,8 @@
 ---
 title: npc_vendor
-description:
+description: 
 published: true
-date: 2023-07-11T18:27:00.352Z
+date: 2024-02-14T19:07:57.100Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:06:42.885Z
@@ -22,7 +22,7 @@ This table holds the vendor data for all NPCs that sell items and currency. The 
 | [maxcount](#maxcount) | tinyint | unsigned |  | NO | 0 |  |  |
 | [incrtime](#incrtime) | int | unsigned |  | NO | 0 |  |  |
 | [ExtendedCost](#extendedcost) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | smallint | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 
