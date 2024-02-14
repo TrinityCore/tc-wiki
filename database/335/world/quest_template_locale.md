@@ -1,9 +1,9 @@
 ---
 title: quest_template_locale
-description:
+description: 
 published: true
-date: 2022-11-21T21:30:25.341Z
-tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
+date: 2024-02-14T19:11:43.935Z
+tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:37.006Z
 ---
@@ -25,7 +25,7 @@ dateCreated: 2021-08-30T22:08:37.006Z
 | [ObjectiveText2](#objectivetext2) | text |  |  | YES | NULL |  |  |
 | [ObjectiveText3](#objectivetext3) | text |  |  | YES | NULL |  |  |
 | [ObjectiveText4](#objectivetext4) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | smallint | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 
