@@ -1,8 +1,8 @@
 ---
 title: quest_poi
-description:
+description: 
 published: true
-date: 2023-07-12T12:45:38.145Z
+date: 2024-02-14T19:10:29.400Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:14.403Z
@@ -26,7 +26,7 @@ This table manages the area and point markers for quest objectives.
 | [Floor](#floor) | int | unsigned |  | NO | 0 |  |  |
 | [Priority](#priority) | int | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | smallint | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 
