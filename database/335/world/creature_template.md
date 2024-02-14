@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2024-01-04T21:10:15.726Z
+date: 2024-02-14T18:59:18.027Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:50.335Z
@@ -73,7 +73,7 @@ This table contains the description of creatures. Each spawned creature is an in
 | [spell_school_immune_mask](#spell_school_immune_mask) | int | unsigned |  | NO | 0 |  |  |
 | [flags_extra](#flags_extra) | int | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | char(64) |  |  | NO | '' |  |  |
-| [VerifiedBuild](#verifiedbuild) | smallint | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 
