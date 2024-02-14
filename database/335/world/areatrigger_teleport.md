@@ -1,8 +1,8 @@
 ---
 title: areatrigger_teleport
-description:
+description: 
 published: true
-date: 2023-07-07T20:26:15.433Z
+date: 2024-02-14T18:57:33.169Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:02:51.770Z
@@ -23,7 +23,7 @@ Contains all the teleport triggers definition. This table is used to complete .d
 | [target_position_y](#target_position_y) | float |  |  | NO | 0 |  |  |
 | [target_position_z](#target_position_z) | float |  |  | NO | 0 |  |  |
 | [target_orientation](#target_orientation) | float |  |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | smallint | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 
