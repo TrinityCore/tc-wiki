@@ -2,7 +2,7 @@
 title: creature_questitem
 description: 
 published: true
-date: 2023-07-08T18:10:22.023Z
+date: 2024-02-14T18:58:35.809Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:42.267Z
@@ -19,7 +19,7 @@ Tells the client (mouse-hovering this creature -> tooltip) that the referenced c
 | [CreatureEntry](#creatureentry) | int | unsigned | PRI | NO | 0 |  |  |
 | [Idx](#idx) | int | unsigned | PRI | NO | 0 |  |  |
 | [ItemId](#itemid) | int | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | smallint | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
