@@ -1,9 +1,9 @@
 ---
 title: quest_request_items_locale
-description:
+description: 
 published: true
-date: 2022-11-21T21:30:18.249Z
-tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
+date: 2024-02-14T19:11:07.491Z
+tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:28.041Z
 ---
@@ -17,7 +17,7 @@ dateCreated: 2021-08-30T22:08:28.041Z
 | [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
 | [CompletionText](#completiontext) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | smallint | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
