@@ -1,9 +1,9 @@
 ---
 title: quest_offer_reward_locale
-description:
+description: 
 published: true
-date: 2022-11-21T21:30:04.236Z
-tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
+date: 2024-02-14T19:10:10.729Z
+tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:11.730Z
 ---
@@ -17,7 +17,7 @@ dateCreated: 2021-08-30T22:08:11.730Z
 | [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
 | [RewardText](#rewardtext) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | smallint | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
