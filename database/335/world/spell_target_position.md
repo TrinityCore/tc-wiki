@@ -1,8 +1,8 @@
 ---
 title: spell_target_position
-description:
+description: 
 published: true
-date: 2023-07-23T16:54:51.466Z
+date: 2024-02-14T19:12:00.973Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:10:02.280Z
@@ -23,7 +23,7 @@ This table holds coordinate information on where the player should be teleported
 | [PositionY](#positiony) | float |  |  | NO | 0 |  |  |
 | [PositionZ](#positionz) | float |  |  | NO | 0 |  |  |
 | [Orientation](#orientation) | float |  |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | smallint | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 
