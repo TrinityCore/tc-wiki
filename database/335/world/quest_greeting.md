@@ -1,8 +1,8 @@
 ---
 title: quest_greeting
-description:
+description: 
 published: true
-date: 2023-07-12T11:35:47.676Z
+date: 2024-02-14T19:09:27.642Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:00.967Z
@@ -21,7 +21,7 @@ This table adds greeting behavior to an NPC or an Gameobject.
 | [GreetEmoteType](#greetemotetype) | smallint | unsigned |  | NO | 0 |  |  |
 | [GreetEmoteDelay](#greetemotedelay) | int | unsigned |  | NO | 0 |  |  |
 | [Greeting](#greeting) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | smallint | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
