@@ -1,9 +1,9 @@
 ---
 title: creature_template_locale
-description:
+description: 
 published: true
-date: 2022-11-21T21:26:54.250Z
-tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
+date: 2024-02-14T19:01:45.203Z
+tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:56.062Z
 ---
@@ -18,7 +18,7 @@ dateCreated: 2021-08-30T22:03:56.062Z
 | [locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
 | [Name](#name) | text |  |  | YES | NULL |  |  |
 | [Title](#title) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | smallint | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 
