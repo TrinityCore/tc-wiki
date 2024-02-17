@@ -2,7 +2,7 @@
 title: areatrigger_create_properties_polygon_vertex
 description: 
 published: true
-date: 2024-02-11T20:06:06.173Z
+date: 2024-02-17T07:37:07.013Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-11-14T20:12:40.347Z
@@ -30,7 +30,7 @@ The ID of the [areatrigger_create_properties](/database/master/world/areatrigger
 &nbsp;
 
 ### IsCustom
-*- no description -*
+Describes whether `AreaTriggerCreatePropertiesId` of this row is a custom id or not.
 &nbsp;
 
 ### Idx
