@@ -2,7 +2,7 @@
 title: areatrigger_template
 description: This table contains the description of areatrigger.
 published: true
-date: 2024-02-11T20:06:06.453Z
+date: 2024-02-17T07:37:44.153Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:28:59.429Z
@@ -26,7 +26,7 @@ Unique identifier
 &nbsp;
 
 ### IsCustom
-*- no description -*
+Describes whether `Id` of this row is a custom id or not.
 &nbsp;
 
 ### Flags
