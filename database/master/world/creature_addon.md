@@ -2,7 +2,7 @@
 title: creature_addon
 description: 
 published: true
-date: 2024-02-11T20:06:07.300Z
+date: 2024-02-17T07:28:01.990Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:44.302Z
@@ -43,7 +43,7 @@ This field signifies a unique creature guid. It will affect just that creature w
 &nbsp;
 
 ### PathId
-If a creature has waypoint pathed movement, this field hold the [waypoint_data.id](/en/database/master/world/waypoint_data#id) for the path the creature is to follow.
+If a creature has waypoint pathed movement, this field hold the [waypoint_path.PathId](/en/database/master/world/waypoint_path#PathId) for the path the creature is to follow.
 &nbsp;
 
 ### mount
