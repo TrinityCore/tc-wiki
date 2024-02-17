@@ -2,7 +2,7 @@
 title: areatrigger
 description: 
 published: true
-date: 2024-02-11T20:06:05.753Z
+date: 2024-02-17T07:33:59.228Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:28:46.460Z
@@ -38,11 +38,11 @@ A unique identifier given to each areatrigger to distinguish one areatrigger fro
 &nbsp;
 
 ### AreaTriggerCreatePropertiesId
-*- no description -*
+References [`areatrigger_create_properties.Id`](/database/master/world/areatrigger_create_properties#Id)
 &nbsp;
 
 ### IsCustom
-*- no description -*
+Describes whether referenced `AreaTriggerCreatePropertiesId` is a custom id or not.
 &nbsp;
 
 ### MapId
@@ -50,7 +50,48 @@ The [ID](https://wow.tools/dbc/?dbc=map){target=_blank} of the map that the area
 &nbsp;
 
 ### SpawnDifficulties
-*- no description -*
+Comma separated list of difficulties.
+
+| Name | Value
+| --- | :---: |
+| DIFFICULTY_NONE | 0 |
+| DIFFICULTY_NORMAL | 1 |
+| DIFFICULTY_HEROIC | 2 |
+| DIFFICULTY_10_N | 3 |
+| DIFFICULTY_25_N | 4 |
+| DIFFICULTY_10_HC | 5 |
+| DIFFICULTY_25_HC | 6 |
+| DIFFICULTY_LFR | 7 |
+| DIFFICULTY_MYTHIC_KEYSTONE | 8 |
+| DIFFICULTY_40 | 9 |
+| DIFFICULTY_3_MAN_SCENARIO_HC | 11 |
+| DIFFICULTY_3_MAN_SCENARIO_N | 12 |
+| DIFFICULTY_NORMAL_RAID | 14 |
+| DIFFICULTY_HEROIC_RAID | 15 |
+| DIFFICULTY_MYTHIC_RAID | 16 |
+| DIFFICULTY_LFR_NEW | 17 |
+| DIFFICULTY_EVENT_RAID | 18 |
+| DIFFICULTY_EVENT_DUNGEON | 19 |
+| DIFFICULTY_EVENT_SCENARIO | 20 |
+| DIFFICULTY_MYTHIC | 23 |
+| DIFFICULTY_TIMEWALKING | 24 |
+| DIFFICULTY_WORLD_PVP_SCENARIO | 25 |
+| DIFFICULTY_5_MAN_SCENARIO_N | 26 |
+| DIFFICULTY_20_MAN_SCENARIO_N | 27 |
+| DIFFICULTY_PVEVP_SCENARIO | 29 |
+| DIFFICULTY_EVENT_SCENARIO_6 | 30 |
+| DIFFICULTY_WORLD_PVP_SCENARIO_2 | 32 |
+| DIFFICULTY_TIMEWALKING_RAID | 33 |
+| DIFFICULTY_PVP | 34 |
+| DIFFICULTY_NORMAL_ISLAND | 38 |
+| DIFFICULTY_HEROIC_ISLAND | 39 |
+| DIFFICULTY_MYTHIC_ISLAND | 40 |
+| DIFFICULTY_PVP_ISLAND | 45 |
+| DIFFICULTY_NORMAL_WARFRONT | 147 |
+| DIFFICULTY_HEROIC_WARFRONT | 149 |
+| DIFFICULTY_LFR_15TH_ANNIVERSARY | 151 |
+| DIFFICULTY_VISIONS_OF_NZOTH | 152 |
+| DIFFICULTY_TEEMING_ISLAND | 153 |
 &nbsp;
 
 ### PosX
@@ -95,11 +136,11 @@ A full list of available PhaseGroups can be taken from [PhaseXPhaseGroup.db2](ht
 &nbsp;
 
 ### SpellForVisuals
-*- no description -*
+SpellD from [Spell.db2](https://wow.tools/dbc/?dbc=spell){target=_blank} which should be used for visuals.
 &nbsp;
 
 ### ScriptName
-*- no description -*
+The name of the script that this areatrigger uses, if any. This ties a script from a scripting engine to this areatrigger.
 &nbsp;
 
 ### Comment
