@@ -2,7 +2,7 @@
 title: areatrigger_create_properties_orbit
 description: 
 published: true
-date: 2024-02-11T20:06:06.091Z
+date: 2024-02-17T07:36:52.690Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-11-14T20:12:37.294Z
@@ -32,7 +32,7 @@ The ID of the [areatrigger_create_properties](/database/master/world/areatrigger
 &nbsp;
 
 ### IsCustom
-*- no description -*
+Describes whether `AreaTriggerCreatePropertiesId` of this row is a custom id or not.
 &nbsp;
 
 ### StartDelay
