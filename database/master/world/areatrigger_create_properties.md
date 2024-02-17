@@ -2,7 +2,7 @@
 title: areatrigger_create_properties
 description: 
 published: true
-date: 2024-02-11T20:06:05.974Z
+date: 2024-02-17T07:36:28.007Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-11-14T20:12:34.174Z
@@ -44,10 +44,11 @@ dateCreated: 2021-11-14T20:12:34.174Z
 
 ### Id
 This ID is the MiscValue of spells with effect `SPELL_EFFECT_CREATE_AREATRIGGER`, `SPELL_EFFECT_183` or EffectAura `SPELL_AURA_AREA_TRIGGER`, which spawn areatrigger entities.
+May also be arbitrary id if `IsCustom` field is set.
 &nbsp;
 
 ### IsCustom
-*- no description -*
+Describes whether `Id` of this row is a custom id or not.
 &nbsp;
 
 ### AreaTriggerId
@@ -55,7 +56,7 @@ The ID of the [areatrigger_template](/database/master/world/areatrigger_template
 &nbsp;
 
 ### IsAreatriggerCustom
-*- no description -*
+Describes whether referenced `AreaTriggerId` is a custom id or not.
 &nbsp;
 
 ### Flags
