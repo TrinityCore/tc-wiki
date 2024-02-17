@@ -2,7 +2,7 @@
 title: areatrigger_create_properties
 description: 
 published: true
-date: 2024-02-17T07:36:28.007Z
+date: 2024-02-17T07:45:01.266Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-11-14T20:12:34.174Z
@@ -60,7 +60,20 @@ Describes whether referenced `AreaTriggerId` is a custom id or not.
 &nbsp;
 
 ### Flags
-*- no description -*
+| Flag | Name |
+| --- | --- |
+|0x00001 | HasAbsoluteOrientation|
+|0x00002 | HasDynamicShape|
+|0x00004 | HasAttached|
+|0x00008 | HasFaceMovementDir|
+|0x00010 | HasFollowsTerrain (NYI)|
+|0x00020 | Unk1|
+|0x00040 | HasTargetRollPitchYaw (NYI)|
+|0x00080 | HasAnimId (DEPRECATED)|
+|0x00100 | Unk3|
+|0x00200 | HasAnimKitId (DEPRECATED)|
+|0x00400 | HasCircularMovement (DEPRECATED)|
+|0x00800 | Unk5|
 &nbsp;
 
 ### MoveCurveId
