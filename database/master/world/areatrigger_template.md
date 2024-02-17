@@ -2,7 +2,7 @@
 title: areatrigger_template
 description: This table contains the description of areatrigger.
 published: true
-date: 2024-02-17T07:37:44.153Z
+date: 2024-02-17T07:45:34.467Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:28:59.429Z
@@ -30,20 +30,9 @@ Describes whether `Id` of this row is a custom id or not.
 &nbsp;
 
 ### Flags
-|Flag|Name|
-|---|--- |
-|1|AREATRIGGER_FLAG_HAS_ABSOLUTE_ORIENTATION|
-|2|AREATRIGGER_FLAG_HAS_DYNAMIC_SHAPE|
-|4|AREATRIGGER_FLAG_HAS_ATTACHED|
-|8|AREATRIGGER_FLAG_HAS_FACE_MOVEMENT_DIR|
-|16|AREATRIGGER_FLAG_HAS_FOLLOWS_TERRAIN|
-|32|AREATRIGGER_FLAG_UNK1|
-|64|AREATRIGGER_FLAG_HAS_TARGET_ROLL_PITCH_YAW|
-|128|AREATRIGGER_FLAG_HAS_ANIM_ID (DEPRECATED)|
-|256|AREATRIGGER_FLAG_UNK3|
-|512|AREATRIGGER_FLAG_HAS_ANIM_KIT_ID (DEPRECATED)|
-|1024|AREATRIGGER_FLAG_HAS_CIRCULAR_MOVEMENT (DEPRECATED)|
-|2048|AREATRIGGER_FLAG_UNK5
+| Flag | Name |
+| --- | --- |
+|0x00001 | IsServerSide|
 &nbsp;
 
 ### VerifiedBuild
