@@ -2,7 +2,7 @@
 title: creature_template_addon
 description: 
 published: true
-date: 2024-02-11T20:06:08.582Z
+date: 2024-02-17T07:28:48.420Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:18.868Z
@@ -37,7 +37,7 @@ This field signifies the creature_template.entry. It will affect all spawned cre
 &nbsp;
 
 ### PathId
-If a creature has waypoint pathed movement, this field hold the [waypoint_data.id](/en/database/master/world/waypoint_data#id) for the path the creature is to follow.
+If a creature has waypoint pathed movement, this field hold the [waypoint_path.PathId](/en/database/master/world/waypoint_path#PathId) for the path the creature is to follow.
 &nbsp;
 
 ### mount
