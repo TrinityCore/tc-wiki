@@ -2,7 +2,7 @@
 title: areatrigger_create_properties_spline_point
 description: 
 published: true
-date: 2024-02-11T20:06:06.267Z
+date: 2024-02-17T07:37:20.706Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-11-14T20:12:43.355Z
@@ -29,7 +29,7 @@ The ID of the [areatrigger_create_properties](/database/master/world/areatrigger
 &nbsp;
 
 ### IsCustom
-*- no description -*
+Describes whether `AreaTriggerCreatePropertiesId` of this row is a custom id or not.
 &nbsp;
 
 ### Idx
