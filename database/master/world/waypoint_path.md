@@ -2,10 +2,10 @@
 title: waypoint_path
 description: 
 published: true
-date: 2024-02-11T20:06:21.958Z
+date: 2024-02-17T07:25:39.034Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2024-02-11T20:26:37.382Z
 ---
 
 <a href="https://trinitycore.info/en/database/master/world/warden_checks" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'warden_checks'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/waypoint_path_node" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'waypoint_path_node'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
@@ -22,19 +22,27 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ## Description of fields
 
 ### PathId
-*- no description -*
+Unique ID for each path. 
 &nbsp;
 
 ### MoveType
-*- no description -*
+| Name | Value |
+| ---- | ----- |
+| Walk | 0 |
+| Run | 1 |
+| Fly | 2 |
 &nbsp;
 
 ### Flags
-*- no description -*
+| Hex | Name | 
+| --- | ---- |
+| 0x00 | None |
+| 0x01 | FollowPathBackwardsFromEndToStart |
 &nbsp;
 
 ### Comment
-*- no description -*
+Description for the path.
+For example: `<npc name> - Idle` if this path is assigned in [`creature_addon.PathId`](/database/master/world/creature_addon#PathId).
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/warden_checks" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'warden_checks'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/waypoint_path_node" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'waypoint_path_node'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
