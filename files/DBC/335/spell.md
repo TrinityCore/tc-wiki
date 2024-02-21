@@ -2,7 +2,7 @@
 title: Spell.dbc
 description: 
 published: true
-date: 2023-10-15T13:06:26.037Z
+date: 2024-02-21T17:39:14.644Z
 tags: 3.3.5, 3.3.5a, 335, 335a, wotlk, dbc, database client
 editor: markdown
 dateCreated: 2023-10-04T08:07:22.166Z
@@ -519,7 +519,7 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 16777216 | 0x01000000 | SPELL_ATTR4_UNK24 | Unknown attribute 24@Attr4 DESCRIPTION Shoot-type spell? |
 | 33554432 | 0x02000000 | SPELL_ATTR4_IS_PET_SCALING | Pet Scaling aura |
 | 67108864 | 0x04000000 | SPELL_ATTR4_CAST_ONLY_IN_OUTLAND | Only in Outland/Northrend |
-| 134217728 | 0x08000000 | SPELL_ATTR4_INHERIT_CRIT_FROM_AURA | Inherit critical chance from triggering aura |
+| 134217728 | 0x08000000 | SPELL_ATTR4_FORCE_DISPLAY_CASTBAR | Force Display Castbar |
 | 268435456 | 0x10000000 | SPELL_ATTR4_UNK28 | Unknown attribute 28@Attr4 |
 | 536870912 | 0x20000000 | SPELL_ATTR4_UNK29 | Unknown attribute 29@Attr4 |
 | 1073741824 | 0x40000000 | SPELL_ATTR4_UNK30 | Unknown attribute 30@Attr4 |
