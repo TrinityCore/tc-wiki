@@ -2,7 +2,7 @@
 title: creature_text
 description: 
 published: true
-date: 2023-03-27T14:39:58.968Z
+date: 2024-02-25T10:16:32.560Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:31.760Z
@@ -107,6 +107,9 @@ Assigns which packet should be used to send the sound
 
 ### BroadcastTextId
 Id of the equivalent text found in [broadcast_text](/en/database/master/hotfixes/broadcast_text#text)
+
+In some rare cases it's not sent in sniff, in that case put `0` in this field, as this field is optional. 
+Localization is then handled via. [creature_text_locales](/en/database/master/world/creature_text_locale).
 &nbsp;
 
 ### TextRange
