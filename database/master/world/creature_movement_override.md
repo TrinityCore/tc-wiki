@@ -2,7 +2,7 @@
 title: creature_movement_override
 description: 
 published: true
-date: 2023-06-09T21:27:18.116Z
+date: 2024-02-29T18:02:33.213Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:00.315Z
@@ -14,11 +14,7 @@ dateCreated: 2021-08-30T09:30:00.315Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [SpawnId](#spawnid) | bigint | unsigned | PRI | NO | 0 |  |  |
-| [Ground](#ground) | tinyint | unsigned |  | YES | NULL |  |  |
-| [Swim](#swim) | tinyint | unsigned |  | YES | NULL |  |  |
-| [Flight](#flight) | tinyint | unsigned |  | YES | NULL |  |  |
-| [Rooted](#rooted) | tinyint | unsigned |  | YES | NULL |  |  |
+| [HoverInitiallyEnabled](#hoverinitiallyenabled) | tinyint | unsigned |  | YES | NULL |  |  |
 | [Chase](#chase) | tinyint | unsigned |  | YES | NULL |  |  |
 | [Random](#random) | tinyint | unsigned |  | YES | NULL |  |  |
 | [InteractionPauseTimer](#interactionpausetimer) | int | unsigned |  | YES | NULL |  | Time (in milliseconds) during which creature will not move after interaction with player |
@@ -29,34 +25,11 @@ dateCreated: 2021-08-30T09:30:00.315Z
 GUID of your creature spawn [creature.guid](/en/database/master/world/creature#guid)
 &nbsp;
 
-### Ground
+### HoverInitiallyEnabled
 | Value | Description |
 | --- | --- |
-| 0 | None |
-| 1 | Run |
-| 2 | Hover |
-&nbsp;
-
-### Swim
-| Value | Description |
-| --- | --- |
-| 0 | None |
-| 1 | CanSwim |
-&nbsp;
-
-### Flight
-| Value | Description |
-| --- | --- |
-| 0 | None |
-| 1 | DisableGravity |
-| 2 | CanFly |
-&nbsp;
-
-### Rooted
-| Value | Description |
-| --- | --- |
-| 0 | None |
-| 1 | Rooted |
+| 0 | Disabled |
+| 1 | Enabled |
 &nbsp;
 
 ### Chase
