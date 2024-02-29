@@ -2,7 +2,7 @@
 title: creature_movement_override
 description: 
 published: true
-date: 2024-02-29T18:02:33.213Z
+date: 2024-02-29T18:03:37.561Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:00.315Z
@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T09:30:00.315Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
+| [SpawnId](#spawnid) | bigint | unsigned | PRI | NO | 0 |  |  |
 | [HoverInitiallyEnabled](#hoverinitiallyenabled) | tinyint | unsigned |  | YES | NULL |  |  |
 | [Chase](#chase) | tinyint | unsigned |  | YES | NULL |  |  |
 | [Random](#random) | tinyint | unsigned |  | YES | NULL |  |  |
