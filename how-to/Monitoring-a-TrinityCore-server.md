@@ -2,7 +2,7 @@
 title: Monitoring a TrinityCore server
 description: 
 published: true
-date: 2024-03-15T00:50:45.568Z
+date: 2024-03-15T21:03:44.413Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-15T00:50:45.568Z
@@ -45,30 +45,31 @@ Refer to https://docs.influxdata.com/influxdb/v1.8/query_language/manage-databas
 1. Edit Metric.ConnectionInfo with connection details (e.g "127.0.0.1;8086;worldserver")
 1. Start worldserver, the dashboard should now start receiving values
 
-### Implemented (tic) and planned (error) metrics
-- Technical oriented
+> Implemented :white_check_mark:
+planned :x:
+{.is-info}
+
+### Technical oriented
 - I/O networking traffic:
-- Packets sent (error)
-- Packets received (tic)
-- Average ping (error)
-- Traffic in (error)
-- Traffic out (error)
-- World session update time (tic)
-- Map update time (tic)
-- Map loads/unloads (tic)
-- MMap queries (tic)
-- Database async queries queued count (tic)
-- Server uptime (tic) (through world initialize and world shutdown events)
-- Active connections (error)
-- Queued connections (error)
+- Packets sent :x:
+- Packets received :white_check_mark:
+- Average ping :x:
+- Traffic in :x:
+- Traffic out :x:
+- World session update time :white_check_mark:
+- Map update time :white_check_mark:
+- Map loads/unloads :white_check_mark:
+- MMap queries :white_check_mark:
+- Database async queries queued count :white_check_mark:
+- Server uptime :white_check_mark: (through world initialize and world shutdown events)
+- Active connections :x:
+- Queued connections :x:
 ### Game oriented
-- Players online (tic)
-- Logins per hour, per day, day of week, etc (tic)
-- Mails sent (error)
-- Auction house usage (error)
-- Character levels (error)
-- Gold earn/spend (error)
-- LFG queues (error)
-
-
+- Players online :white_check_mark:
+- Logins per hour, per day, day of week, etc :white_check_mark:
+- Mails sent :x:
+- Auction house usage :x:
+- Character levels :x:
+- Gold earn/spend :x:
+- LFG queues :x:
 
