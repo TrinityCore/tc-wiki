@@ -2,7 +2,7 @@
 title: conditions
 description: 
 published: true
-date: 2024-03-16T01:08:44.103Z
+date: 2024-03-16T01:14:51.396Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:10.475Z
@@ -161,11 +161,11 @@ Two conditions with the same SourceType, SourceGroup and SourceEntry but with a 
 
 ##### ComparisonType
 |-|:-:|-|
-| **0** | == | value must be equal |
-| **1** | > | value must be higher |
-| **2** | < | value must be lower |
-| **3** | >= | value must be higher or equal |
-| **4** | <= | value must be lower or equal |
+| **0** | == | ConditionType must be equal to ConditionValue |
+| **1** | > | ConditionType must be higher than ConditionValue |
+| **2** | < | ConditionType must be lower than ConditionValue |
+| **3** | >= | ConditionType must be higher or equal to ConditionValue |
+| **4** | <= | ConditionType must be lower or equal to ConditionValue |
 {.dense}
 
 &nbsp;
