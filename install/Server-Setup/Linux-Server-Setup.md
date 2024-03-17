@@ -2,7 +2,7 @@
 title: Linux Server Setup
 description: 
 published: true
-date: 2022-11-21T22:47:13.280Z
+date: 2024-03-17T08:30:32.011Z
 tags: 
 editor: markdown
 dateCreated: 2022-09-27T12:07:29.147Z
@@ -23,9 +23,9 @@ cd <your WoW client directory>
 mkdir /home/<username>/server/data
   
 # Next line is 3.3.5 only
-cp -r Cameras dbc maps /home/<username>/server/data
+cp -r cameras dbc maps /home/<username>/server/data
 # Next line is master only
-cp -r Cameras dbc maps gt /home/<username>/server/data
+cp -r cameras dbc maps gt /home/<username>/server/data
  
 edit worldserver.conf and change datadir from "." to "../data"
 ```
