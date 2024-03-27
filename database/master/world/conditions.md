@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2024-03-27T23:23:46.257Z
+date: 2024-03-27T23:32:30.741Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -63,14 +63,14 @@ dateCreated: 2021-08-30T09:29:30.449Z
 | CONDITION_SOURCE_TYPE_SMART_EVENT | 22 | [smart_scripts.id](/en/database/master/world/smart_scripts#id) + 1 | [smart_scripts.entryorguid](/en/database/master/world/smart_scripts#entryorguid) | [smart_scripts.source_type](/en/database/master/world/smart_scripts#source_type) | 0 = Invoker<br/>1 = Object |  |
 | CONDITION_SOURCE_TYPE_NPC_VENDOR | 23 | [npc_vendor.entry](/en/database/master/world/npc_vendor#entry) | [npc_vendor.item](/en/database/master/world/npc_vendor#item) | Always 0 | 0 = Player<br/>1 = WorldObject |  |
 | CONDITION_SOURCE_TYPE_SPELL_PROC | 24 | Always 0 | SpellID of aura which triggers the proc | Always 0 | 0 = Actor<br/>1 = ActionTarget |  |
-| CONDITION_SOURCE_TYPE_TERRAIN_SWAP | 25 | Always 0 | [terrain_swap_defaults.TerrainSwapMap](/en/database/master/world/terrain_swap_defaults#terrainswapmap) | Always 0 | (source code / new description here) |  |
-| CONDITION_SOURCE_TYPE_PHASE | 26 | [phase_area.PhaseId](/en/database/master/world/phase_area#phaseid) | [phase_area.AreaId](/en/database/master/world/phase_area#areaid) (0 for any area) | Always 0 | (source code / new description here) |  |
-| CONDITION_SOURCE_TYPE_GRAVEYARD | 27 | [graveyard_zone.GhostZone](/en/database/master/world/graveyard_zone#ghostzone) | [graveyard_zone.ID](/en/database/master/world/graveyard_zone#id) | Always 0 | (source code / new description here) |  |
-| CONDITION_SOURCE_TYPE_AREATRIGGER | 28 | [areatrigger_template.Id](/en/database/master/world/areatrigger_template#id) | [areatrigger_template.IsCustom](/en/database/master/world/areatrigger_template#iscustom) | Always 0 | (source code / new description here) |  |
-| CONDITION_SOURCE_TYPE_CONVERSATION_LINE | 29 | Always 0 | ConversationLineID | Always 0 | (source code / new description here) |  |
-| CONDITION_SOURCE_TYPE_AREATRIGGER_CLIENT_TRIGGERED | 30 | Always 0 | AreatriggerID | Always 0 | (source code / new description here) |  |
-| CONDITION_SOURCE_TYPE_TRAINER_SPELL | 31 | [trainer_spell.TrainerId](/en/database/master/world/trainer_spell#trainerid) | [trainer_spell.SpellId](/en/database/master/world/trainer_spell#spellid) | Always 0 | (source code / new description here) |  |
-| CONDITION_SOURCE_TYPE_OBJECT_ID_VISIBILITY | 32 | ObjectType:<br/>5 = Unit<br/>8 = GameObject | CreatureID / GameObjectID | Always 0 | (source code / new description here) |  |
+| CONDITION_SOURCE_TYPE_TERRAIN_SWAP | 25 | Always 0 | [terrain_swap_defaults.TerrainSwapMap](/en/database/master/world/terrain_swap_defaults#terrainswapmap) | Always 0 | Always 0 |  |
+| CONDITION_SOURCE_TYPE_PHASE | 26 | [phase_area.PhaseId](/en/database/master/world/phase_area#phaseid) | [phase_area.AreaId](/en/database/master/world/phase_area#areaid) (0 for any area) | Always 0 | Always 0 |  |
+| CONDITION_SOURCE_TYPE_GRAVEYARD | 27 | [graveyard_zone.GhostZone](/en/database/master/world/graveyard_zone#ghostzone) | [graveyard_zone.ID](/en/database/master/world/graveyard_zone#id) | Always 0 | Always 0 |  |
+| CONDITION_SOURCE_TYPE_AREATRIGGER | 28 | [areatrigger_template.Id](/en/database/master/world/areatrigger_template#id) | [areatrigger_template.IsCustom](/en/database/master/world/areatrigger_template#iscustom) | Always 0 | Always 0 |  |
+| CONDITION_SOURCE_TYPE_CONVERSATION_LINE | 29 | Always 0 | ConversationLineID | Always 0 | Always 0 |  |
+| CONDITION_SOURCE_TYPE_AREATRIGGER_CLIENT_TRIGGERED | 30 | Always 0 | AreatriggerID | Always 0 | Always 0 |  |
+| CONDITION_SOURCE_TYPE_TRAINER_SPELL | 31 | [trainer_spell.TrainerId](/en/database/master/world/trainer_spell#trainerid) | [trainer_spell.SpellId](/en/database/master/world/trainer_spell#spellid) | Always 0 | Always 0 |  |
+| CONDITION_SOURCE_TYPE_OBJECT_ID_VISIBILITY | 32 | ObjectType:<br/>5 = Unit<br/>8 = GameObject | CreatureID / GameObjectID | Always 0 | Always 0 |  |
 | CONDITION_SOURCE_TYPE_SPAWN_GROUP | 33 | Always 0 | [spawn_group_template.groupId](/en/database/master/world/spawn_group_template#groupid) | Always 0 | Always 0 |  |
 | CONDITION_SOURCE_TYPE_PLAYER_CONDITION | 34 | Always 0 | PlayerConditionID | Always 0 | Always 0 |  |
 
