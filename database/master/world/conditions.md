@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2024-03-27T22:20:29.035Z
+date: 2024-03-27T23:23:46.257Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -51,28 +51,28 @@ dateCreated: 2021-08-30T09:29:30.449Z
 | CONDITION_SOURCE_TYPE_REFERENCE_LOOT_TEMPLATE | 10 | reference_loot_template.Entry | item id (_loot_template.Item or <br/> reference_loot_template.Item) | Always 0 | Always 0 |  |
 | CONDITION_SOURCE_TYPE_SKINNING_LOOT_TEMPLATE | 11 | skinning_loot_template.Entry or <br/> reference_loot_template.Entry | item id (_loot_template.Item or <br/> reference_loot_template.Item) | Always 0 | Always 0 |  |
 | CONDITION_SOURCE_TYPE_SPELL_LOOT_TEMPLATE | 12 | spell_loot_template.Entry or <br/> reference_loot_template.Entry | item id (_loot_template.Item or <br/> reference_loot_template.Item) | Always 0 | Always 0 |  |
-| CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET | 13 | Mask of effects to be affected by condition:<br/>1 = EFFECT_0, 2 = EFFECT_1, 4 = EFFECT_2 | Spell Id from  Spell DBC file | Always 0 | 0 : Potential spell Target | Don't use wowhead to get number of effects, data from wowhead sometimes doesn't match real effect number. |
+| CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET | 13 | Mask of effects to be affected by condition:<br/>1 = EFFECT_0, 2 = EFFECT_1, 4 = EFFECT_2 ... (2<sup>31</sup> = EFFECT_31) | SpellID | Always 0 | 0 : Potential spell target<br/>1 = Spell caster | Don't use wowhead to get number of effects, data from wowhead sometimes doesn't match real effect number. |
 | CONDITION_SOURCE_TYPE_GOSSIP_MENU | 14 | gossip_menu.entry (gossip menu entry) | gossip_menu.text_id (points to npc_text.ID) | Always 0 | 0 = Player<br/>1 = WorldObject |  |
 | CONDITION_SOURCE_TYPE_GOSSIP_MENU_OPTION | 15 | gossip_menu_option.menu_id (menu entry) | gossip_menu_option.id | Always 0 | 0 = Player<br/>1 = WorldObject |  |
 | CONDITION_SOURCE_TYPE_CREATURE_TEMPLATE_VEHICLE | 16 | Always 0 | creature entry (creature_template.entry) | Always 0 | 0 = Player riding vehicle<br/>1 = Vehicle creature |  |
-| CONDITION_SOURCE_TYPE_SPELL | 17 | Always 0 | Spell ID from Spell.dbc | Always 0 | 0 = spell Caster<br/>1 =  Explicit Target of the spell<br/>(only for spells which take the object<br/>selected by caster into account) | <ul><li>This source type allows you to define caster/explicit target requirements for spell to be cast.</li><li>Explicit target of the spell is the target which is selected by player during cast, not all spells take that target into account.<br/>non-explicit targets of the spell (the ones which are selected by spell like area or nearby targets for example) <br/>are not affected by this condition source type, if you want to affect those use CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET instead.</li><li>If you are looking for old CONDITION_SOURCE_TYPE_ITEM_REQUIRED_TARGET, use this condition source type instead<br/>(ConditionTarget = 1 allows you to set requirements for a given spell, so to use this condition type you need spellid of the spell cast on item use).</li><li>Remember that conditions with the same ElseGroup value will be used to make logical AND check,<br/>so to allow different targets for the same spell effect you have to set ElseGroup respectively.</li></ul> |
+| CONDITION_SOURCE_TYPE_SPELL | 17 | Always 0 | SpellID | Always 0 | 0 = Spell aster<br/>1 =  Explicit target of the spell<br/>(only for spells which take the object<br/>selected by caster into account) | <ul><li>This source type allows you to define caster/explicit target requirements for spell to be cast.</li><li>Explicit target of the spell is the target which is selected by player during cast, not all spells take that target into account.<br/>non-explicit targets of the spell (the ones which are selected by spell like area or nearby targets for example) <br/>are not affected by this condition source type, if you want to affect those use CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET instead.</li><li>If you are looking for old CONDITION_SOURCE_TYPE_ITEM_REQUIRED_TARGET, use this condition source type instead<br/>(ConditionTarget = 1 allows you to set requirements for a given spell, so to use this condition type you need spellid of the spell cast on item use).</li><li>Remember that conditions with the same ElseGroup value will be used to make logical AND check,<br/>so to allow different targets for the same spell effect you have to set ElseGroup respectively.</li></ul> |
 | CONDITION_SOURCE_TYPE_SPELL_CLICK_EVENT | 18 | creature entry (npc_spellclick_spells.npc_entry) | Spell (npc_spellclick_spells.spell_id) | Always 0 | 0 = Clicker<br/>1 =  Spellclick target (clickee) |  |
-| CONDITION_SOURCE_TYPE_QUEST_AVAILABLE | 19 | Always 0 | QuestID | Always 0 | 	Always 0 | Condition must be met for quest to be available to player. |
+| CONDITION_SOURCE_TYPE_QUEST_AVAILABLE | 19 | Always 0 | [quest_template.ID](/en/database/master/world/quest_template#id) | Always 0 | 	Always 0 | Condition must be met for quest to be available to player. |
 | ~~UNUSED~~ | 20 |  |  |  |  |  |
-| CONDITION_SOURCE_TYPE_VEHICLE_SPELL | 21 | creature entry (creature_template.entry) | Spell ID from Spell.dbc | Always 0 | 0 = Player for whom spell bar is shown<br/>1 =  Vehicle creature | This will show or hide spells in vehicle spell bar. |
-| CONDITION_SOURCE_TYPE_SMART_EVENT | 22 | ID (smart_scripts.id) + 1 | EntryOrGuid (smart_scripts.entryorguid) | SourceType<br/>(smart_scripts.source_type) | 0 = Invoker<br/>1 = Object |  |
-| CONDITION_SOURCE_TYPE_NPC_VENDOR | 23 | vendor entry (npc_vendor.entry) | item entry (npc_vendor.item) | Always 0 | Always 0 |  |
-| CONDITION_SOURCE_TYPE_SPELL_PROC | 24 | Always 0 | Spell ID of aura which triggers the proc | Always 0 | 0 = Actor<br/>1 = ActionTarget |  |
-| CONDITION_SOURCE_TYPE_TERRAIN_SWAP | 25 | Always 0 | terrainSwap - object in terrainswap | Always 0 | (source code / new description here) |  |
-| CONDITION_SOURCE_TYPE_PHASE | 26 | PhaseID | Zone or Area ID (or 0 for any area) | Always 0 | (source code / new description here) |  |
-| CONDITION_SOURCE_TYPE_GRAVEYARD | 27 | Always 0 | [world_safe_locs.ID](/en/database/master/world/world_safe_locs#id) | Always 0 | (source code / new description here) |  |
-| CONDITION_SOURCE_TYPE_AREATRIGGER | 28 | [areatrigger_template.Id](/en/database/master/world/areatrigger_template#id) | 0 = **Non**-ServersideAreatrigger<br/>1 = ServersideAreatrigger  | Always 0 | (source code / new description here) |  |
+| CONDITION_SOURCE_TYPE_VEHICLE_SPELL | 21 | [creature_template_spell.CreatureID](/en/database/master/world/creature_template_spell#creatureid) | [creature_template_spell.Spell](/en/database/master/world/creature_template_spell#spell) | Always 0 | 0 = Player for whom spell bar is shown<br/>1 = Vehicle creature | This will show or hide spells in vehicle spell bar. |
+| CONDITION_SOURCE_TYPE_SMART_EVENT | 22 | [smart_scripts.id](/en/database/master/world/smart_scripts#id) + 1 | [smart_scripts.entryorguid](/en/database/master/world/smart_scripts#entryorguid) | [smart_scripts.source_type](/en/database/master/world/smart_scripts#source_type) | 0 = Invoker<br/>1 = Object |  |
+| CONDITION_SOURCE_TYPE_NPC_VENDOR | 23 | [npc_vendor.entry](/en/database/master/world/npc_vendor#entry) | [npc_vendor.item](/en/database/master/world/npc_vendor#item) | Always 0 | 0 = Player<br/>1 = WorldObject |  |
+| CONDITION_SOURCE_TYPE_SPELL_PROC | 24 | Always 0 | SpellID of aura which triggers the proc | Always 0 | 0 = Actor<br/>1 = ActionTarget |  |
+| CONDITION_SOURCE_TYPE_TERRAIN_SWAP | 25 | Always 0 | [terrain_swap_defaults.TerrainSwapMap](/en/database/master/world/terrain_swap_defaults#terrainswapmap) | Always 0 | (source code / new description here) |  |
+| CONDITION_SOURCE_TYPE_PHASE | 26 | [phase_area.PhaseId](/en/database/master/world/phase_area#phaseid) | [phase_area.AreaId](/en/database/master/world/phase_area#areaid) (0 for any area) | Always 0 | (source code / new description here) |  |
+| CONDITION_SOURCE_TYPE_GRAVEYARD | 27 | [graveyard_zone.GhostZone](/en/database/master/world/graveyard_zone#ghostzone) | [graveyard_zone.ID](/en/database/master/world/graveyard_zone#id) | Always 0 | (source code / new description here) |  |
+| CONDITION_SOURCE_TYPE_AREATRIGGER | 28 | [areatrigger_template.Id](/en/database/master/world/areatrigger_template#id) | [areatrigger_template.IsCustom](/en/database/master/world/areatrigger_template#iscustom) | Always 0 | (source code / new description here) |  |
 | CONDITION_SOURCE_TYPE_CONVERSATION_LINE | 29 | Always 0 | ConversationLineID | Always 0 | (source code / new description here) |  |
-| CONDITION_SOURCE_TYPE_AREATRIGGER_CLIENT_TRIGGERED | 30 | Always 0 | Areatrigger ID [AreaTrigger.db2](https://wow.tools/dbc/?dbc=areatrigger){target=_blank} | Always 0 | (source code / new description here) |  |
-| CONDITION_SOURCE_TYPE_TRAINER_SPELL | 31 | TrainerID | SpellID | Always 0 | (source code / new description here) |  |
+| CONDITION_SOURCE_TYPE_AREATRIGGER_CLIENT_TRIGGERED | 30 | Always 0 | AreatriggerID | Always 0 | (source code / new description here) |  |
+| CONDITION_SOURCE_TYPE_TRAINER_SPELL | 31 | [trainer_spell.TrainerId](/en/database/master/world/trainer_spell#trainerid) | [trainer_spell.SpellId](/en/database/master/world/trainer_spell#spellid) | Always 0 | (source code / new description here) |  |
 | CONDITION_SOURCE_TYPE_OBJECT_ID_VISIBILITY | 32 | ObjectType:<br/>5 = Unit<br/>8 = GameObject | CreatureID / GameObjectID | Always 0 | (source code / new description here) |  |
-| CONDITION_SOURCE_TYPE_SPAWN_GROUP | 33 |  |  |  |  | (Placeholder) |
-| CONDITION_SOURCE_TYPE_PLAYER_CONDITION | 34 |  |  |  |  | (Placeholder) |
+| CONDITION_SOURCE_TYPE_SPAWN_GROUP | 33 | Always 0 | [spawn_group_template.groupId](/en/database/master/world/spawn_group_template#groupid) | Always 0 | Always 0 |  |
+| CONDITION_SOURCE_TYPE_PLAYER_CONDITION | 34 | Always 0 | PlayerConditionID | Always 0 | Always 0 |  |
 
 &nbsp;
 
