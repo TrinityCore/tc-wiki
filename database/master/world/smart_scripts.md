@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2023-11-01T19:35:35.667Z
+date: 2024-03-27T22:33:12.465Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -187,13 +187,13 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_EVENT_SPELLHIT_TARGET | 31 | SpellID | School | RepeatMin | RepeatMax | | | On target spell hit |
 | SMART_EVENT_DAMAGED | 32 | MinDmg | MaxDmg | RepeatMin | RepeatMax | | | On damaged |
 | SMART_EVENT_DAMAGED_TARGET | 33 | MinDmg | MaxDmg | RepeatMin | RepeatMax | | | On target damaged |
-| SMART_EVENT_MOVEMENTINFORM | 34 | [MovementType](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Movement/MovementDefines.h#L28):<ul><li>0 &rarr; Any</li><li>1 &rarr; Random</li><li>2 &rarr; Waypoint ([waypoint_data.point](/en/database/master/world/waypoint_data#point))</li><li>8 &rarr; Point</li><li>16 &rarr; Effect (Jump)</li></ul> | PointID (0xFFFFFFFF any) | | | | | On movement inform |
+| SMART_EVENT_MOVEMENTINFORM | 34 | [MovementType](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Movement/MovementDefines.h#L28):<ul><li>0 &rarr; Any</li><li>1 &rarr; Random</li><li>2 &rarr; Waypoint ([waypoint_path_node.NodeId](/en/database/master/world/waypoint_path_node#nodeid))</li><li>8 &rarr; Point</li><li>16 &rarr; Effect (Jump)</li></ul> | PointID (0xFFFFFFFF any) | | | | | On movement inform |
 | SMART_EVENT_SUMMON_DESPAWNED | 35 | [creature_template.entry](/en/database/master/world/creature_template#entry) | CooldownMin | CooldownMax | | | | On summoned unit despawned |
 | SMART_EVENT_CORPSE_REMOVED | 36 | | | | | | | On creature corpse removed |
 | SMART_EVENT_AI_INIT | 37 | | | | | | | On AI init |
 | SMART_EVENT_DATA_SET | 38 | Field | Value | CooldownMin | CooldownMax | | | On data set<br/>*(See SMART_ACTION_SET_DATA)* |
 | :warning: SMART_EVENT_WAYPOINT_START | 39 | | | | | | | UNUSED, DO NOT REUSE |
-| SMART_EVENT_WAYPOINT_REACHED | 40 | PointID (0xFFFFFFFF any) | PathID (0 any) | | | | | On creature waypoint ID reached |
+| SMART_EVENT_WAYPOINT_REACHED | 40 | [waypoint_path_node.NodeId](/en/database/master/world/waypoint_path_node#nodeid) (0xFFFFFFFF any) | [waypoint_path_node.PathId](/en/database/master/world/waypoint_path_node#pathid) (0 any) | | | | | On creature waypoint ID reached |
 | :x: SMART_EVENT_TRANSPORT_ADDPLAYER | 41 | | | | | | | Not yet implemented |
 | :x: SMART_EVENT_TRANSPORT_ADDCREATURE | 42 | Entry (0 any) | | | | | | Not yet implemented |
 | :x: SMART_EVENT_TRANSPORT_REMOVE_PLAYER | 43 | | | | | | | Not yet implemented |
@@ -208,10 +208,10 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_EVENT_TEXT_OVER | 52 | [creature_text.GroupID](/en/database/master/world/creature_text#groupid) | [creature_text.CreatureID](/en/database/master/world/creature_text#creatureid) (0 any) | | | | | On text over event triggered after SMART_ACTION_TALK |
 | SMART_EVENT_RECEIVE_HEAL | 53 | MinHeal | MaxHeal | CooldownMin | CooldownMax | | | On creature received healing |
 | SMART_EVENT_JUST_SUMMONED | 54 | | | | | | | On summon |
-| SMART_EVENT_WAYPOINT_PAUSED | 55 | PointID (0xFFFFFFFF any) | PathID (0 any) | | | | | On creature waypoint ID paused |
-| SMART_EVENT_WAYPOINT_RESUMED | 56 | PointID (0xFFFFFFFF any) | PathID (0 any) | | | | | On creature waypoint ID resumed |
-| SMART_EVENT_WAYPOINT_STOPPED | 57 | PointID (0xFFFFFFFF any) | PathID (0 any) | | | | | On creature waypoint ID stopped |
-| SMART_EVENT_WAYPOINT_ENDED | 58 | PointID (0xFFFFFFFF any) | PathID (0 any) | | | | | On creature waypoint ID ended |
+| SMART_EVENT_WAYPOINT_PAUSED | 55 | [waypoint_path_node.NodeId](/en/database/master/world/waypoint_path_node#nodeid) (0xFFFFFFFF any) | [waypoint_path_node.PathId](/en/database/master/world/waypoint_path_node#pathid) (0 any) | | | | | On creature waypoint ID paused |
+| SMART_EVENT_WAYPOINT_RESUMED | 56 | [waypoint_path_node.NodeId](/en/database/master/world/waypoint_path_node#nodeid) (0xFFFFFFFF any) | [waypoint_path_node.PathId](/en/database/master/world/waypoint_path_node#pathid) (0 any) | | | | | On creature waypoint ID resumed |
+| SMART_EVENT_WAYPOINT_STOPPED | 57 | [waypoint_path_node.NodeId](/en/database/master/world/waypoint_path_node#nodeid) (0xFFFFFFFF any) | [waypoint_path_node.PathId](/en/database/master/world/waypoint_path_node#pathid) (0 any) | | | | | On creature waypoint ID stopped |
+| SMART_EVENT_WAYPOINT_ENDED | 58 | [waypoint_path_node.NodeId](/en/database/master/world/waypoint_path_node#nodeid) (0xFFFFFFFF any) | [waypoint_path_node.PathId](/en/database/master/world/waypoint_path_node#pathid) (0 any) | | | | | On creature waypoint ID ended |
 | SMART_EVENT_TIMED_EVENT_TRIGGERED | 59 | Id | | | | | | On timed event triggered<br/>*(See SMART_ACTION_TRIGGER_TIMED_EVENT)* |
 | SMART_EVENT_UPDATE | 60 | InitialMin | InitialMax | RepeatMin | RepeatMax | | | On event update |
 | SMART_EVENT_LINK | 61 | | | | | | | Used to link together multiple events ([smart_scripts.link](#link)) |
