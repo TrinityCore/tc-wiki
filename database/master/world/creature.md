@@ -2,7 +2,7 @@
 title: creature
 description: 
 published: true
-date: 2024-02-12T18:32:28.325Z
+date: 2024-03-30T19:53:01.149Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:41.375Z
@@ -33,8 +33,7 @@ dateCreated: 2021-08-30T09:29:41.375Z
 | [spawntimesecs](#spawntimesecs) | int | unsigned |  | NO | 120 |  |  |
 | [wander_distance](#wander_distance) | float |  |  | NO | 0 |  |  |
 | [currentwaypoint](#currentwaypoint) | int | unsigned |  | NO | 0 |  |  |
-| [curhealth](#curhealth) | int | unsigned |  | NO | 1 |  |  |
-| [curmana](#curmana) | int | unsigned |  | NO | 0 |  |  |
+| [curHealthPct](#curhealthpct) | int | unsigned |  | NO | 100 |  |  |
 | [MovementType](#movementtype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [npcflag](#npcflag) | bigint | unsigned |  | YES | NULL |  |  |
 | [unit_flags](#unit_flags) | int | unsigned |  | YES | NULL |  |  |
@@ -208,12 +207,8 @@ Also controls how far away the creature can walk from its spawn point if its [Mo
 The current point of [waypoint_data](/en/database/master/world/waypoint_data) that the creature is on, if any.
 &nbsp;
 
-### curhealth
-The health that the creature will spawn with.
-&nbsp;
-
-### curmana
-The mana that the creature will spawn with.
+### curHealthPct
+The health percent (1-100) that the creature will spawn with.
 &nbsp;
 
 ### MovementType
