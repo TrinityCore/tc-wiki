@@ -2,7 +2,7 @@
 title: Client Setup
 description: 
 published: true
-date: 2024-01-02T22:04:29.595Z
+date: 2024-04-02T14:55:32.657Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-20T14:45:08.138Z
@@ -33,5 +33,5 @@ Check https://github.com/TrinityCore/TrinityCore to find the exact client versio
 If you still have any problem, check:
 
 - Updating or starting with TrinityCore issues, Trouble with your TrinityCore Install / Readme 1st / FAQs
-- [Ask help on the Forum.](https://community.trinitycore.org/)
-- If you still have problems, you can try to ask help on [IRC](https://trinitycore.atlassian.net/wiki/spaces/tc/pages/2130200/IRC), but remember it's not real time 24/7 support, most of people there lives on GMT and they can be sleeping or working.
+- [Ask help on the Forum.](https://talk.trinitycore.org/)
+- If you still have problems, you can try to ask help on [Discord](https://discord.com/invite/HPP3wNh), but remember it's not real time 24/7 support, most of people there lives on GMT and they can be sleeping or working.
