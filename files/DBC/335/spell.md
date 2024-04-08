@@ -2,7 +2,7 @@
 title: Spell.dbc
 description: 
 published: true
-date: 2024-02-21T17:39:14.644Z
+date: 2024-04-08T11:15:08.558Z
 tags: 3.3.5, 3.3.5a, 335, 335a, wotlk, dbc, database client
 editor: markdown
 dateCreated: 2023-10-04T08:07:22.166Z
@@ -392,7 +392,7 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 8388608 | 0x00800000 | SPELL_ATTR1_UNK23 | Unknwon attribute 23@Attr1 |
 | 16777216 | 0x01000000 | SPELL_ATTR1_IS_FISHING | Fishing (client only) |
 | 33554432 | 0x02000000 | SPELL_ATTR1_UNK25 | Unknown attribute 25@Attr1 |
-| 67108864 | 0x04000000 | SPELL_ATTR1_UNK26 | Unknown attribute 26@Attr1 DESCRIPTION Related to [target=focus] and [target=mouseover] macros? |
+| 67108864 | 0x04000000 | SPELL_ATTR1_REQUIRE_ALL_TARGETS | Require All Targets |
 | 134217728 | 0x08000000 | SPELL_ATTR1_UNK27 | Unknown attribute 27@Attr1 DESCRIPTION Melee spell? |
 | 268435456 | 0x10000000 | SPELL_ATTR1_DONT_DISPLAY_IN_AURA_BAR | Hide in aura bar (client only) |
 | 536870912 | 0x20000000 | SPELL_ATTR1_CHANNEL_DISPLAY_SPELL_NAME | Show spell name during channel (client only) |
@@ -429,7 +429,7 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 262144 | 0x00040000 | SPELL_ATTR2_REQ_DEAD_PET | Requires dead pet |
 | 524288 | 0x00080000 | SPELL_ATTR2_NOT_NEED_SHAPESHIFT | Also allow outside shapeshift DESCRIPTION Even if Stances are nonzero, allow spell to be cast outside of shapeshift (though not in a different shapeshift) |
 | 1048576 | 0x00100000 | SPELL_ATTR2_UNK20 | Unknown attribute 20@Attr2 |
-| 2097152 | 0x00200000 | SPELL_ATTR2_DAMAGE_REDUCED_SHIELD | Damage reduction ability DESCRIPTION Causes BG flags to be dropped if combined with ATTR1_DISPEL_AURAS_ON_IMMUNITY |
+| 2097152 | 0x00200000 | SPELL_ATTR2_FAIL_ON_ALL_TARGETS_IMMUNE | Fail on all targets immune DESCRIPTION Causes BG flags to be dropped if combined with ATTR1_DISPEL_AURAS_ON_IMMUNITY |
 | 4194304 | 0x00400000 | SPELL_ATTR2_UNK22 | Unknown attribute 22@Attr2 |
 | 8388608 | 0x00800000 | SPELL_ATTR2_IS_ARCANE_CONCENTRATION | Arcane Concentration |
 | 16777216 | 0x01000000 | SPELL_ATTR2_UNK24 | Unknown attribute 24@Attr2 |
