@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2024-04-11T21:05:14.279Z
+date: 2024-04-11T21:07:08.071Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -260,19 +260,19 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_TARGET_NONE | 0 |  |  |  |  |  |  |  |  |  |  | None. |
 | SMART_TARGET_SELF | 1 |  |  |  |  |  |  |  |  |  |  | Self cast. |
 | SMART_TARGET_VICTIM | 2 |  |  |  |  |  |  |  |  |  | Our current target. (ie: highest aggro) |
-| SMART_TARGET_SECOND_AGGRO | 3 | Max dist | Player only (0/1) | PowerType + 1 (0 any) |  |  |  |  |  | Second highest aggro |
+| SMART_TARGET_SECOND_AGGRO | 3 | Max dist | Player only (0/1) | PowerType + 1 (0 any) |  |  |    |  |  |  | Second highest aggro |
 | SMART_TARGET_HOSTILE_LAST_AGGRO | 4 | Max dist | Player only (0/1) | PowerType + 1 (0 any) |  |  |  |  |  |  | Dead last on aggro. |
 | SMART_TARGET_HOSTILE_RANDOM | 5 | Max dist | Player only (0/1) | PowerType + 1 (0 any) |  |  |  |  |  |  | Just any random target on our threat list. |
 | SMART_TARGET_HOSTILE_RANDOM_NOT_TOP | 6 | Max dist | Player only (0/1) | PowerType + 1 (0 any) |  |  |  |  |  |  | Any random target except top threat. |
 | SMART_TARGET_ACTION_INVOKER | 7 |  |  |  |  |  |  |  |  |  | Unit who caused this Event to occur. |
 | SMART_TARGET_POSITION | 8 |  |  |  |  |  | x | y | z | o | Use xyz from event params. |
-| SMART_TARGET_CREATURE_RANGE | 9 | [creature_template.entry](/en/database/master/world/creature_template#entry) (0 any) | Min dist | Max dist | Number of targets (0 = all targets) |  |  |  |  |  | Creatures with specified entry within specified range. |
+| SMART_TARGET_CREATURE_RANGE | 9 | [creature_template.entry](/en/database/master/world/creature_template#entry) (0 any) | Min dist | Max dist | Number of targets (0 = all targets) | StringId |  |  |  |  | Creatures with specified entry within specified range. |
 | SMART_TARGET_CREATURE_GUID | 10 | [creature.guid](/en/database/master/world/creature#guid) | [creature.id](/en/database/master/world/creature#id) |  |  |  |  |  |  |  | Creature with specified GUID. |
-| SMART_TARGET_CREATURE_DISTANCE | 11 | [creature_template.entry](/en/database/master/world/creature_template#entry) (0 any) | Max dist | Number of targets (0 = all targets) |  |  |  |  |  |  | Creatures with specified entry within distance. |
+| SMART_TARGET_CREATURE_DISTANCE | 11 | [creature_template.entry](/en/database/master/world/creature_template#entry) (0 any) | Max dist | Number of targets (0 = all targets) |  | StringId |  |  |  |  | Creatures with specified entry within distance. |
 | SMART_TARGET_STORED | 12 | Id |  |  |  |  |  |  |  |  | Uses pre-stored target(list) |
-| SMART_TARGET_GAMEOBJECT_RANGE | 13 | [gameobject_template.entry](/en/database/master/world/gameobject_template#entry) | Min dist | Max dist | Number of targets (0 = all targets) |  |  |  |  |  | GOs with specified entry within specified range. |
+| SMART_TARGET_GAMEOBJECT_RANGE | 13 | [gameobject_template.entry](/en/database/master/world/gameobject_template#entry) | Min dist | Max dist | Number of targets (0 = all targets) | StringId |  |  |  |  | GOs with specified entry within specified range. |
 | SMART_TARGET_GAMEOBJECT_GUID | 14 | [gameobject.guid](/en/database/master/world/gameobject#guid) | [gameobject.id](/en/database/master/world/gameobject#id) |  |  |  |  |  |  |  | GO with specified GUID. |
-| SMART_TARGET_GAMEOBJECT_DISTANCE | 15 | [gameobject_template.entry](/en/database/master/world/gameobject_template#entry) | Max dist | Number of targets (0 = all targets) |  |  |  |  |  |  | GOs with specified entry within distance. |
+| SMART_TARGET_GAMEOBJECT_DISTANCE | 15 | [gameobject_template.entry](/en/database/master/world/gameobject_template#entry) | Max dist | Number of targets (0 = all targets) |  | StringId |  |  |  |  | GOs with specified entry within distance. |
 | SMART_TARGET_INVOKER_PARTY | 16 |  |  |  |  |  |  |  |  |  | Invoker's party members |
 | SMART_TARGET_PLAYER_RANGE | 17 | Min dist | Max dist |  |  |  |  |  |  |  | All players within specified range. |
 | SMART_TARGET_PLAYER_DISTANCE | 18 | Max dist |  |  |  |  |  |  |  |  | All players within specified distance. |
