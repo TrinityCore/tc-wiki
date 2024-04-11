@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2024-04-11T20:41:08.686Z
+date: 2024-04-11T20:48:16.784Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -278,15 +278,15 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_TARGET_PLAYER_DISTANCE | 18 | maxDist |  |  |  |  |  |  |  |  | (Random?) player within specified distance. (Different from #17?) |
 | SMART_TARGET_CLOSEST_CREATURE | 19 | [creature_template.entry](/en/database/master/world/creature_template#entry) | MaxDist (0-100 yards) | dead? (0/1) |  |  |  |  |  |  | Closest creature with specified ID within specified range. |
 | SMART_TARGET_CLOSEST_GAMEOBJECT | 20 | [gameobject_template.entry](/en/database/master/world/gameobject_template#entry) | maxDist (Can be from 0-100 yards) |  |  |  |  |  |  |  | Closest object with specified ID within specified range. |
-| SMART_TARGET_CLOSEST_PLAYER | 21 | maxDist |  |  |  |  |  |  |  |  | Closest player within specified range. |
+| SMART_TARGET_CLOSEST_PLAYER | 21 | MaxDist |  |  |  |  |  |  |  |  | Closest player within specified range. |
 | SMART_TARGET_ACTION_INVOKER_VEHICLE | 22 |  |  |  |  |  |  |  |  |  | Unit's vehicle who caused this Event to occur |
-| SMART_TARGET_OWNER_OR_SUMMONER | 23 |  |  |  |  |  |  |  |  |  | Unit's owner or summoner |
-| SMART_TARGET_THREAT_LIST | 24 |  |  |  |  |  |  |  |  |  | All units on creature's threat list |
-| SMART_TARGET_CLOSEST_ENEMY | 25 | maxDist | Player only (0/1) |  |  |  |  |  |  |  | Any attackable target (creature or player) within maxDist |
-| SMART_TARGET_CLOSEST_FRIENDLY | 26 | maxDist | Player only (0/1) |  |  |  |  |  |  |  | Any friendly unit (creature, player or pet) within maxDist |
+| SMART_TARGET_OWNER_OR_SUMMONER | 23 | Use charmer or owner (0/1) |  |  |  |  |  |  |  |  | Unit's owner or summoner |
+| SMART_TARGET_THREAT_LIST | 24 | MaxDist |  |  |  |  |  |  |  |  | All units on creature's threat list |
+| SMART_TARGET_CLOSEST_ENEMY | 25 | MaxDist | Player only (0/1) |  |  |  |  |  |  |  | Any attackable target (creature or player) within maxDist |
+| SMART_TARGET_CLOSEST_FRIENDLY | 26 | MaxDist | Player only (0/1) |  |  |  |  |  |  |  | Any friendly unit (creature, player or pet) within maxDist |
 | SMART_TARGET_LOOT_RECIPIENTS | 27 |  |  |  |  |  |  |  |  |  | All tagging players |
-| SMART_TARGET_FARTHEST | 28 | MaxDist (0-100 yards) | Player only (0/1) | Is in Los (0/1) |  |  |  |  |  |  | Farthest unit on the threat list |
-| SMART_TARGET_VEHICLE_ACCESSORY | 29 | SeatMask (0 all seats) |  |  |  |  |  |  |  |  | Vehicle can target unit in given seat |
+| SMART_TARGET_FARTHEST | 28 | MaxDist | Player only (0/1) | Is in Los (0/1) |  |  |  |  |  |  | Farthest unit on the threat list |
+| SMART_TARGET_VEHICLE_PASSENGER | 29 | SeatMask (0 all seats) |  |  |  |  |  |  |  |  | Vehicle can target unit in given seat |
 | SMART_TARGET_CLOSEST_UNSPAWNED_GAMEOBJECT | 30 | [gameobject_template.entry](/en/database/master/world/gameobject_template#entry) (0 any) | MaxDist (0-100 yards) |  |  |  |  |  |  |  | Closest unspawned object with specified ID within specified range. (to be used only with action 70 and gameobjects with negative respawn time in the DB) |
 &nbsp;
 
