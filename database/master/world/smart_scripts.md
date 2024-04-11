@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2024-03-27T22:33:12.465Z
+date: 2024-04-11T20:41:08.686Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -40,11 +40,13 @@ dateCreated: 2021-08-30T09:36:32.378Z
 | [action_param5](#action_type) | int | unsigned |  | NO | 0 |  |  |
 | [action_param6](#action_type) | int | unsigned |  | NO | 0 |  |  |
 | [action_param7](#action_type) | int | unsigned |  | NO | 0 |  |  |
+| [action_param_string](#action_param_string) | varchar(255) |  |  | YES |  |  |  |
 | [target_type](#target_type) | tinyint | unsigned |  | NO | 0 |  |  |
 | [target_param1](#target_type) | int | unsigned |  | NO | 0 |  |  |
 | [target_param2](#target_type) | int | unsigned |  | NO | 0 |  |  |
 | [target_param3](#target_type) | int | unsigned |  | NO | 0 |  |  |
 | [target_param4](#target_type) | int | unsigned |  | NO | 0 |  |  |
+| [target_param_string](#target_param_string) | varchar(255) |  |  | YES |  |  |  |
 | [target_x](#target_type) | float |  |  | NO | 0 |  |  |
 | [target_y](#target_type) | float |  |  | NO | 0 |  |  |
 | [target_z](#target_type) | float |  |  | NO | 0 |  |  |
@@ -151,7 +153,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 | SMART_EVENT_FLAG_WHILE_CHARMED | 512 | 0x200 | Event occurs even if AI owner is charmed |
 
 ### event_type
-| Name | Value | Param1 | Param2 | Param3 | Param4 | Param5 | ParamString| Comment |
+| Name | Value | Param1 | Param2 | Param3 | Param4 | Param5 | ParamString | Comment |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 SMART_EVENT_UPDATE_IC | 0 | InitialMin | InitialMax | RepeatMin | RepeatMax | | | In combat |
 SMART_EVENT_UPDATE_OOC | 1 | InitialMin | InitialMax | RepeatMin | RepeatMax | | | Out of combat 
@@ -253,39 +255,39 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 &nbsp;
 
 ### target_type
-| Name | Value | target_param1 | target_param2 | target_param3 | target_param4 | target_x | target_y | target_z | target_o | Comment |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| SMART_TARGET_NONE | 0 |  |  |  |  |  |  |  |  | None. |
-| SMART_TARGET_SELF | 1 |  |  |  |  |  |  |  |  | Self cast. |
-| SMART_TARGET_VICTIM | 2 |  |  |  |  |  |  |  |  | Our current target. (ie: highest aggro) |
-| SMART_TARGET_SECOND_AGGRO | 3 |  |  |  |  |  |  |  |  | Second highest aggro |
-| SMART_TARGET_HOSTILE_LAST_AGGRO | 4 |  |  |  |  |  |  |  |  | Dead last on aggro. |
-| SMART_TARGET_HOSTILE_RANDOM | 5 |  |  |  |  |  |  |  |  | Just any random target on our threat list. |
-| SMART_TARGET_HOSTILE_RANDOM_NOT_TOP | 6 |  |  |  |  |  |  |  |  | Any random target except top threat. |
-| SMART_TARGET_ACTION_INVOKER | 7 |  |  |  |  |  |  |  |  | Unit who caused this Event to occur. |
-| SMART_TARGET_POSITION | 8 |  |  |  |  | x | y | z | o | Use xyz from event params. |
-| SMART_TARGET_CREATURE_RANGE | 9 | [creature.entry](/en/database/master/world/creature_template#entry) (0 any) | minDist | maxDist | Number of targets (0 = all targets) |  |  |  |  | (Random?) creature with specified ID within specified range. |
-| SMART_TARGET_CREATURE_GUID | 10 | guid | entry |  |  |  |  |  |  | Creature with specified GUID. |
-| SMART_TARGET_CREATURE_DISTANCE | 11 | [creature.entry](/en/database/master/world/creature_template#entry) (0 any) | maxDist | Number of targets (0 = all targets) |  |  |  |  |  | Creature with specified ID within distance. (Different from #9?) |
-| SMART_TARGET_STORED | 12 | id |  |  |  |  |  |  |  | Uses pre-stored target(list) |
-| SMART_TARGET_GAMEOBJECT_RANGE | 13 | [gameobject.entry](/en/database/master/world/gameobject_template#entry) | minDist | maxDist | Number of targets (0 = all targets) |  |  |  |  | (Random?) object with specified ID within specified range. |
-| SMART_TARGET_GAMEOBJECT_GUID | 14 | guid | entry |  |  |  |  |  |  | Object with specified GUID. |
-| SMART_TARGET_GAMEOBJECT_DISTANCE | 15 | [gameobject.entry](/en/database/master/world/gameobject_template#entry) | maxDist | Number of targets (0 = all targets) |  |  |  |  |  | Object with specified ID within distance. (Different from #13?) |
-| SMART_TARGET_INVOKER_PARTY | 16 |  |  |  |  |  |  |  |  | Invoker's party members |
-| SMART_TARGET_PLAYER_RANGE | 17 | minDist | maxDist |  |  |  |  |  |  | (Random?) player within specified range. |
-| SMART_TARGET_PLAYER_DISTANCE | 18 | maxDist |  |  |  |  |  |  |  | (Random?) player within specified distance. (Different from #17?) |
-| SMART_TARGET_CLOSEST_CREATURE | 19 | [creature.entry](/en/database/master/world/creature_template#entry) | maxDist (Can be from 0-100 yards) | dead? (0/1) |  |  |  |  |  | Closest creature with specified ID within specified range. |
-| SMART_TARGET_CLOSEST_GAMEOBJECT | 20 | [gameobject.entry](/en/database/master/world/gameobject_template#entry) | maxDist (Can be from 0-100 yards) |  |  |  |  |  |  | Closest object with specified ID within specified range. |
-| SMART_TARGET_CLOSEST_PLAYER | 21 | maxDist |  |  |  |  |  |  |  | Closest player within specified range. |
-| SMART_TARGET_ACTION_INVOKER_VEHICLE | 22 |  |  |  |  |  |  |  |  | Unit's vehicle who caused this Event to occur |
-| SMART_TARGET_OWNER_OR_SUMMONER | 23 |  |  |  |  |  |  |  |  | Unit's owner or summoner |
-| SMART_TARGET_THREAT_LIST | 24 |  |  |  |  |  |  |  |  | All units on creature's threat list |
-| SMART_TARGET_CLOSEST_ENEMY | 25 | maxDist | playerOnly (0/1) |  |  |  |  |  |  | Any attackable target (creature or player) within maxDist |
-| SMART_TARGET_CLOSEST_FRIENDLY | 26 | maxDist | playerOnly (0/1) |  |  |  |  |  |  | Any friendly unit (creature, player or pet) within maxDist |
-| SMART_TARGET_LOOT_RECIPIENTS | 27 |  |  |  |  |  |  |  |  | All tagging players |
-| SMART_TARGET_FARTHEST | 28 | maxDist | playerOnly | isInLos (0/1) |  |  |  |  |  | Farthest unit on the threat list |
-| SMART_TARGET_VEHICLE_ACCESSORY | 29 | seat |  |  |  |  |  |  |  | Vehicle can target unit in given seat |
-| SMART_TARGET_CLOSEST_UNSPAWNED_GAMEOBJECT | 30 | [gameobject.entry](/en/database/master/world/gameobject_template#entry) | maxDist (Can be from 0-100 yards) |  |  |  |  |  |  | Closest unspawned object with specified ID within specified range. (to be used only with action 70 and gameobjects with negative respawn time in the DB) |
+| Name | Value | Param1 | Param2 | Param3 | Param4 | ParamString | X | Y | Z | O | Comment |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| SMART_TARGET_NONE | 0 |  |  |  |  |  |  |  |  |  |  | None. |
+| SMART_TARGET_SELF | 1 |  |  |  |  |  |  |  |  |  |  | Self cast. |
+| SMART_TARGET_VICTIM | 2 |  |  |  |  |  |  |  |  |  | Our current target. (ie: highest aggro) |
+| SMART_TARGET_SECOND_AGGRO | 3 |  |  |  |  |  |  |  |  |  | Second highest aggro |
+| SMART_TARGET_HOSTILE_LAST_AGGRO | 4 |  |  |  |  |  |  |  |  |  | Dead last on aggro. |
+| SMART_TARGET_HOSTILE_RANDOM | 5 |  |  |  |  |  |  |  |  |  | Just any random target on our threat list. |
+| SMART_TARGET_HOSTILE_RANDOM_NOT_TOP | 6 |  |  |  |  |  |  |  |  |  | Any random target except top threat. |
+| SMART_TARGET_ACTION_INVOKER | 7 |  |  |  |  |  |  |  |  |  | Unit who caused this Event to occur. |
+| SMART_TARGET_POSITION | 8 |  |  |  |  |  | x | y | z | o | Use xyz from event params. |
+| SMART_TARGET_CREATURE_RANGE | 9 | [creature_template.entry](/en/database/master/world/creature_template#entry) (0 any) | minDist | maxDist | Number of targets (0 = all targets) |  |  |  |  |  | (Random?) creature with specified ID within specified range. |
+| SMART_TARGET_CREATURE_GUID | 10 | guid | entry |  |  |  |  |  |  |  | Creature with specified GUID. |
+| SMART_TARGET_CREATURE_DISTANCE | 11 | [creature_template.entry](/en/database/master/world/creature_template#entry) (0 any) | maxDist | Number of targets (0 = all targets) |  |  |  |  |  |  | Creature with specified ID within distance. (Different from #9?) |
+| SMART_TARGET_STORED | 12 | id |  |  |  |  |  |  |  |  | Uses pre-stored target(list) |
+| SMART_TARGET_GAMEOBJECT_RANGE | 13 | [gameobject_template.entry](/en/database/master/world/gameobject_template#entry) | minDist | maxDist | Number of targets (0 = all targets) |  |  |  |  |  | (Random?) object with specified ID within specified range. |
+| SMART_TARGET_GAMEOBJECT_GUID | 14 | guid | entry |  |  |  |  |  |  |  | Object with specified GUID. |
+| SMART_TARGET_GAMEOBJECT_DISTANCE | 15 | [gameobject_template.entry](/en/database/master/world/gameobject_template#entry) | maxDist | Number of targets (0 = all targets) |  |  |  |  |  |  | Object with specified ID within distance. (Different from #13?) |
+| SMART_TARGET_INVOKER_PARTY | 16 |  |  |  |  |  |  |  |  |  | Invoker's party members |
+| SMART_TARGET_PLAYER_RANGE | 17 | minDist | maxDist |  |  |  |  |  |  |  | (Random?) player within specified range. |
+| SMART_TARGET_PLAYER_DISTANCE | 18 | maxDist |  |  |  |  |  |  |  |  | (Random?) player within specified distance. (Different from #17?) |
+| SMART_TARGET_CLOSEST_CREATURE | 19 | [creature_template.entry](/en/database/master/world/creature_template#entry) | MaxDist (0-100 yards) | dead? (0/1) |  |  |  |  |  |  | Closest creature with specified ID within specified range. |
+| SMART_TARGET_CLOSEST_GAMEOBJECT | 20 | [gameobject_template.entry](/en/database/master/world/gameobject_template#entry) | maxDist (Can be from 0-100 yards) |  |  |  |  |  |  |  | Closest object with specified ID within specified range. |
+| SMART_TARGET_CLOSEST_PLAYER | 21 | maxDist |  |  |  |  |  |  |  |  | Closest player within specified range. |
+| SMART_TARGET_ACTION_INVOKER_VEHICLE | 22 |  |  |  |  |  |  |  |  |  | Unit's vehicle who caused this Event to occur |
+| SMART_TARGET_OWNER_OR_SUMMONER | 23 |  |  |  |  |  |  |  |  |  | Unit's owner or summoner |
+| SMART_TARGET_THREAT_LIST | 24 |  |  |  |  |  |  |  |  |  | All units on creature's threat list |
+| SMART_TARGET_CLOSEST_ENEMY | 25 | maxDist | Player only (0/1) |  |  |  |  |  |  |  | Any attackable target (creature or player) within maxDist |
+| SMART_TARGET_CLOSEST_FRIENDLY | 26 | maxDist | Player only (0/1) |  |  |  |  |  |  |  | Any friendly unit (creature, player or pet) within maxDist |
+| SMART_TARGET_LOOT_RECIPIENTS | 27 |  |  |  |  |  |  |  |  |  | All tagging players |
+| SMART_TARGET_FARTHEST | 28 | MaxDist (0-100 yards) | Player only (0/1) | Is in Los (0/1) |  |  |  |  |  |  | Farthest unit on the threat list |
+| SMART_TARGET_VEHICLE_ACCESSORY | 29 | SeatMask (0 all seats) |  |  |  |  |  |  |  |  | Vehicle can target unit in given seat |
+| SMART_TARGET_CLOSEST_UNSPAWNED_GAMEOBJECT | 30 | [gameobject_template.entry](/en/database/master/world/gameobject_template#entry) (0 any) | MaxDist (0-100 yards) |  |  |  |  |  |  |  | Closest unspawned object with specified ID within specified range. (to be used only with action 70 and gameobjects with negative respawn time in the DB) |
 &nbsp;
 
 ### comment
