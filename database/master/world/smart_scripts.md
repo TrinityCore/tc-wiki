@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2024-04-14T17:21:05.755Z
+date: 2024-04-14T17:30:58.931Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -156,21 +156,21 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 {.dense}
 
 <!-- .is-info is applied to list instead of the blockquote -->
-<blockquote data-line="147" class="line is-info">
+<blockquote class="line is-info">
   <p><strong>SMART_EVENT_FLAG_ACTIONLIST_WAITS</strong> supports these actions:</p>
   <ul>
-  <li>SMART_ACTION_TALK</li>
-<li>SMART_ACTION_SIMPLE_TALK</li>
-<li>SMART_ACTION_CAST <em>(requires <strong>SMARTCAST_WAIT_FOR_HIT</strong>)</em></li>
-<li>SMART_ACTION_SELF_CAST <em>(requires <strong>SMARTCAST_WAIT_FOR_HIT</strong>)</em></li>
-<li>SMART_ACTION_INVOKER_CAST <em>(requires <strong>SMARTCAST_WAIT_FOR_HIT</strong>)</em></li>
-<li>SMART_ACTION_MOVE_OFFSET</li>
-<li>SMART_ACTION_WP_START</li>
-<li>SMART_ACTION_MOVE_TO_POS</li>
-<li>SMART_ACTION_CROSS_CAST <em>(requires <strong>SMARTCAST_WAIT_FOR_HIT</strong>)</em></li>
-<li>SMART_ACTION_ACTIVATE_TAXI</li>
-<li>SMART_ACTION_JUMP_TO_POS</li>
-<li>SMART_ACTION_START_CLOSEST_WAYPOINT</li>
+    <li>SMART_ACTION_TALK</li>
+    <li>SMART_ACTION_SIMPLE_TALK</li>
+    <li>SMART_ACTION_CAST
+    <li>SMART_ACTION_SELF_CAST
+    <li>SMART_ACTION_INVOKER_CAST
+    <li>SMART_ACTION_MOVE_OFFSET</li>
+    <li>SMART_ACTION_WP_START</li>
+    <li>SMART_ACTION_MOVE_TO_POS</li>
+    <li>SMART_ACTION_CROSS_CAST
+    <li>SMART_ACTION_ACTIVATE_TAXI</li>
+    <li>SMART_ACTION_JUMP_TO_POS</li>
+    <li>SMART_ACTION_START_CLOSEST_WAYPOINT</li>
 </ul>
 </blockquote>
 
