@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2024-04-11T21:07:08.071Z
+date: 2024-04-14T17:21:05.755Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -80,6 +80,7 @@ Object type (creature, gameobject, quest, etc.).
 | SMART_SCRIPT_TYPE_SCENE | 10 | [scene_template.id](/en/database/master/world/scene_template#id) | SmartScene ([scene_template.ScriptName](/en/database/master/world/scene_template#scriptname)) | Player |
 | SMART_SCRIPT_TYPE_AREATRIGGER_ENTITY | 11 | [areatrigger_template.Id](/en/database/master/world/areatrigger_template#id) (IsServerSide = 0) | SmartAreaTriggerAI ([areatrigger.ScriptName](/en/database/master/world/areatrigger#scriptname)) | AreaTrigger |
 | SMART_SCRIPT_TYPE_AREATRIGGER_ENTITY_SERVERSIDE | 12 | [areatrigger_template.Id](/en/database/master/world/areatrigger_template#id) (IsServerSide = 1) | SmartAreaTriggerAI ([areatrigger.ScriptName](/en/database/master/world/areatrigger#scriptname)) | AreaTrigger |
+{.dense}
 
 >Please note :x:means that the source_type is not (yet) implemented.
 {.is-danger}
@@ -122,6 +123,7 @@ Event can only occur if the source is in this event phase. The default event pha
 | SMART_EVENT_PHASE_10 | 512 | 0x200 | Phase 10 only. |
 | SMART_EVENT_PHASE_11 | 1024 | 0x400 | Phase 11 only. |
 | SMART_EVENT_PHASE_12 | 2048 | 0x800 | Phase 12 only. |
+{.dense}
 
 > **Example**: If we want an event to be able to occur only in event phases 1 and 4, event_phase_mask: **1 + 8 = 9**.
 
@@ -142,15 +144,38 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 | Name | Flag | Hex | Comment |
 | :--- | ---: | :--- | :--- |
 | SMART_EVENT_FLAG_NOT_REPEATABLE | 1 | 0x01 | Event can not repeat |
-| SMART_EVENT_FLAG_DIFFICULTY_0_DEPRECATED | 2 | 0x02 | UNUSED, DO NOT REUSE |
-| SMART_EVENT_FLAG_DIFFICULTY_1_DEPRECATED | 4 | 0x04 | UNUSED, DO NOT REUSE |
-| SMART_EVENT_FLAG_DIFFICULTY_2_DEPRECATED | 8 | 0x08 | UNUSED, DO NOT REUSE |
-| SMART_EVENT_FLAG_DIFFICULTY_3_DEPRECATED | 16 | 0x10 | UNUSED, DO NOT REUSE |
-| SMART_EVENT_FLAG_RESERVED_5 | 32 | 0x20 | |
+| :warning: SMART_EVENT_FLAG_DIFFICULTY_0_DEPRECATED&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 2 | 0x02 | UNUSED, DO NOT REUSE |
+| :warning: SMART_EVENT_FLAG_DIFFICULTY_1_DEPRECATED | 4 | 0x04 | UNUSED, DO NOT REUSE |
+| :warning: SMART_EVENT_FLAG_DIFFICULTY_2_DEPRECATED | 8 | 0x08 | UNUSED, DO NOT REUSE |
+| :warning: SMART_EVENT_FLAG_DIFFICULTY_3_DEPRECATED | 16 | 0x10 | UNUSED, DO NOT REUSE |
+| :information_source: SMART_EVENT_FLAG_ACTIONLIST_WAITS | 32 | 0x20 | Timed action list will wait for action from this event to finish before moving on to next action |
 | SMART_EVENT_FLAG_RESERVED_6 | 64 | 0x40 | |
 | SMART_EVENT_FLAG_DEBUG_ONLY | 128 | 0x80 | Event only occurs in debug build |
 | SMART_EVENT_FLAG_DONT_RESET | 256 | 0x100 | Event will not reset in SmartScript::OnReset() |
 | SMART_EVENT_FLAG_WHILE_CHARMED | 512 | 0x200 | Event occurs even if AI owner is charmed |
+{.dense}
+
+<!-- .is-info is applied to list instead of the blockquote -->
+<blockquote data-line="147" class="line is-info">
+  <p><strong>SMART_EVENT_FLAG_ACTIONLIST_WAITS</strong> supports these actions:</p>
+  <ul>
+  <li>SMART_ACTION_TALK</li>
+<li>SMART_ACTION_SIMPLE_TALK</li>
+<li>SMART_ACTION_CAST <em>(requires <strong>SMARTCAST_WAIT_FOR_HIT</strong>)</em></li>
+<li>SMART_ACTION_SELF_CAST <em>(requires <strong>SMARTCAST_WAIT_FOR_HIT</strong>)</em></li>
+<li>SMART_ACTION_INVOKER_CAST <em>(requires <strong>SMARTCAST_WAIT_FOR_HIT</strong>)</em></li>
+<li>SMART_ACTION_MOVE_OFFSET</li>
+<li>SMART_ACTION_WP_START</li>
+<li>SMART_ACTION_MOVE_TO_POS</li>
+<li>SMART_ACTION_CROSS_CAST <em>(requires <strong>SMARTCAST_WAIT_FOR_HIT</strong>)</em></li>
+<li>SMART_ACTION_ACTIVATE_TAXI</li>
+<li>SMART_ACTION_JUMP_TO_POS</li>
+<li>SMART_ACTION_START_CLOSEST_WAYPOINT</li>
+</ul>
+</blockquote>
+
+> Please *note* :warning:means that the event_flags is deprecated and should not be used.
+{.is-warning}
 
 ### event_type
 | Name | Value | Param1 | Param2 | Param3 | Param4 | Param5 | ParamString | Comment |
@@ -198,7 +223,7 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_EVENT_WAYPOINT_REACHED | 40 | [waypoint_path_node.NodeId](/en/database/master/world/waypoint_path_node#nodeid) (0xFFFFFFFF any) | [waypoint_path_node.PathId](/en/database/master/world/waypoint_path_node#pathid) (0 any) | | | | | On creature waypoint ID reached |
 | :x: SMART_EVENT_TRANSPORT_ADDPLAYER | 41 | | | | | | | Not yet implemented |
 | :x: SMART_EVENT_TRANSPORT_ADDCREATURE | 42 | Entry (0 any) | | | | | | Not yet implemented |
-| :x: SMART_EVENT_TRANSPORT_REMOVE_PLAYER | 43 | | | | | | | Not yet implemented |
+| :x: SMART_EVENT_TRANSPORT_REMOVE_PLAYER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 43 | | | | | | | Not yet implemented |
 | :x: SMART_EVENT_TRANSPORT_RELOCATE | 44 | PointID | | | | | | Not yet implemented |
 | :x: SMART_EVENT_INSTANCE_PLAYER_ENTER | 45 | Team (0 any) | CooldownMin | CooldownMax | | | | Not yet implemented |
 | SMART_EVENT_AREATRIGGER_ONTRIGGER | 46 | TriggerId (0 any) | | | | | | On areatrigger triggered |
@@ -243,6 +268,7 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_EVENT_ON_SPELL_START | 85 | SpellID | CooldownMin | CooldownMax | | | | On spell start |
 | SMART_EVENT_ON_DESPAWN | 86 | | | | | | | On despawn |
 | SMART_EVENT_SEND_EVENT_TRIGGER | 87 | | | | | | | On GameEvent triggered |
+{.dense}
 
 > Please note :warning:means that the event_type is deprecated and should not be used.
 {.is-warning}
@@ -288,7 +314,7 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_TARGET_FARTHEST | 28 | Max dist | Player only (0/1) | Is in Los (0/1) |  |  |  |  |  |  | Farthest unit on the threat list |
 | SMART_TARGET_VEHICLE_PASSENGER | 29 | SeatMask (0 all seats) |  |  |  |  |  |  |  |  | Vehicle can target unit in given seat |
 | SMART_TARGET_CLOSEST_UNSPAWNED_GAMEOBJECT | 30 | [gameobject_template.entry](/en/database/master/world/gameobject_template#entry) (0 any) | Max dist (0-100 yards) |  |  |  |  |  |  |  | Closest unspawned object with specified ID within specified range. (to be used only with action 70 and gameobjects with negative respawn time in the DB) |
-&nbsp;
+{.dense}
 
 ### comment
 Commenting on SAI uses a template which is the following: `"Creature name - Event - Action"`
