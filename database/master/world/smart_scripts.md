@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2024-04-15T18:27:50.295Z
+date: 2024-04-15T18:30:50.806Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -286,10 +286,10 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_TARGET_NONE | 0 |  |  |  |  |  |  |  |  |  | None |
 | SMART_TARGET_SELF | 1 |  |  |  |  |  |  |  |  |  | Self cast |
 | SMART_TARGET_VICTIM | 2 |  |  |  |  |  |  |  |  |  | Our current target. (ie: highest aggro) |
-| SMART_TARGET_SECOND_AGGRO | 3 | Max dist | Player only (0/1) | [PowerType](#powertype) + 1 (0: any) |  |  |    |  |  |  | Second highest aggro |
-| SMART_TARGET_HOSTILE_LAST_AGGRO | 4 | Max dist | Player only (0/1) | [PowerType](#test) + 1 (0: any) |  |  |  |  |  |  | Dead last on aggro |
-| SMART_TARGET_HOSTILE_RANDOM | 5 | Max dist | Player only (0/1) | PowerType + 1 (0: any) |  |  |  |  |  |  | Just any random target on our threat list |
-| SMART_TARGET_HOSTILE_RANDOM_NOT_TOP | 6 | Max dist | Player only (0/1) | PowerType + 1 (0: any) |  |  |  |  |  |  | Any random target except top threat |
+| SMART_TARGET_SECOND_AGGRO | 3 | Max dist | Player only (0/1) | [PowerType](#enums) + 1 (0: any) |  |  |    |  |  |  | Second highest aggro |
+| SMART_TARGET_HOSTILE_LAST_AGGRO | 4 | Max dist | Player only (0/1) | [PowerType](#enums) + 1 (0: any) |  |  |  |  |  |  | Dead last on aggro |
+| SMART_TARGET_HOSTILE_RANDOM | 5 | Max dist | Player only (0/1) |[PowerType](#enums) + 1 (0: any) |  |  |  |  |  |  | Just any random target on our threat list |
+| SMART_TARGET_HOSTILE_RANDOM_NOT_TOP | 6 | Max dist | Player only (0/1) | [PowerType](#enums) + 1 (0: any) |  |  |  |  |  |  | Any random target except top threat |
 | SMART_TARGET_ACTION_INVOKER | 7 |  |  |  |  |  |  |  |  |  | Unit who caused this event to occur |
 | SMART_TARGET_POSITION | 8 |  |  |  |  |  | x | y | z | o | Use xyzo from target params |
 | SMART_TARGET_CREATURE_RANGE | 9 | [creature_template.entry](/en/database/master/world/creature_template#entry) (0: any) | Min dist | Max dist | Number of targets (0: all targets) | StringId |  |  |  |  | Creatures with specified entry within specified range |
