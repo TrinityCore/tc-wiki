@@ -2,7 +2,7 @@
 title: guild_bank_right
 description: 
 published: true
-date: 2023-07-30T23:21:24.650Z
+date: 2024-04-16T19:46:15.688Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:01:05.790Z
@@ -36,11 +36,11 @@ The [TabId](../characters/guild_bank_tab#tabid) this permission belongs to.
 
 ### rid
 the guild rank this permission belongs to.
-(Range: 0 - 9)
+(Range: 0 &ndash; 9)
 &nbsp;
 
 ### gbright
-`enum GuildBankRights`
+[`enum GuildBankRights`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Guilds/Guild.h#L177-L185)
 | Value | Flag | Name | Comment |
 |-------|------|------|---------|
 | 1 | 0x01 | GUILD_BANK_RIGHT_VIEW_TAB |  |
