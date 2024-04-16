@@ -2,7 +2,7 @@
 title: achievement_criteria_data
 description: 
 published: true
-date: 2024-04-16T15:18:07.702Z
+date: 2024-04-16T17:21:42.681Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:02:33.368Z
@@ -167,7 +167,7 @@ count
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_T_TEAM**
 * **value1**:
 The target must be on this team: 
-  [`enum Team`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/server/shared/SharedDefines.h#L792-L802)
+  [`enum Team`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L792-L802)
   |--|--|
   | ALLIANCE | 469 |
   | HORDE | 67 |
