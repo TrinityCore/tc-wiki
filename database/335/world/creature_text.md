@@ -1,8 +1,8 @@
 ---
 title: creature_text
-description:
+description: 
 published: true
-date: 2023-07-09T13:38:02.143Z
+date: 2024-04-16T16:49:06.410Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:04:06.752Z
@@ -51,12 +51,12 @@ The text the creature will say.
 ### Type
 | Value | Old Value | Description | Example |
 |-------|-----------|-------------|---------|
-| 12 | 0 | Say | ![creature_text_type_say.png](/creature_text_type_say.png) |
-| 14 | 1 | Yell | ![creature_text_type_yell.png](/creature_text_type_yell.png) |
-| 16 | 2 | Emote | ![creature_text_type_emote.png](/creature_text_type_emote.png) |
-| 41 | 3 | Boss Emote | ![creature_text_type_boss_emote.png](/creature_text_type_boss_emote.png) |
-| 15 | 4 | Whisper | ![creature_text_type_whisper.png](/creature_text_type_whisper.png) |
-| 42 | 5 | Boss Whisper | ![creature_text_type_boss_whisper.png](/creature_text_type_boss_whisper.png) |
+| 12 | 0 | Say | <div style="font-size:larger; color:#fffb9f; background-color:#000; padding:2px 5px;">Creature says: Say</div> |
+| 14 | 1 | Yell | <div style="font-size:larger; color:#ff3f40; background-color:#000; padding:2px 5px;">Creature yells: Yell</div> |
+| 16 | 2 | Emote | <div style="font-size:larger; color:#ff8040; background-color:#000; padding:2px 5px;">Creature gestures wildly</div> |
+| 41 | 3 | Boss Emote | <div style="font-size:larger; color:#ffdd00; background-color:#000; padding:2px 5px;">Boss Emote</div> |
+| 15 | 4 | Whisper | <div style="font-size:larger; color:#ffb2eb ; background-color:#000; padding:2px 5px;">Creature whispers: Whisper</div> |
+| 42 | 5 | Boss Whisper | <div style="font-size:larger; color:#ffdd00; background-color:black; padding:2px 5px;">Boss Whisper</div> |
 {.dense}
 
 &nbsp;
@@ -79,7 +79,7 @@ A [Language ID](/files/DBC/335/languages#id). When set to 0, the current default
 &nbsp;
 
 ### Probability
-A value from 1-100 that represents the percentage chance that this text will be executed.
+A value from 1&ndash;100 that represents the percentage chance that this text will be executed.
 &nbsp;
 
 ### Emote
