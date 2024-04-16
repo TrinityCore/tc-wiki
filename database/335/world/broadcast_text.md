@@ -2,7 +2,7 @@
 title: broadcast_text
 description: 
 published: true
-date: 2024-01-04T20:57:24.183Z
+date: 2024-04-16T15:28:33.763Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:02.490Z
@@ -24,12 +24,12 @@ All the values are from sniffs (ADBVerified) so, don't add things in it - Kinzco
 | [LanguageID](#languageid) | mediumint | unsigned |  | NO | 0 |  |  |
 | [Text](#text) | longtext |  |  | YES | NULL |  |  |
 | [Text1](#text1) | longtext |  |  | YES | NULL |  |  |
-| [EmoteID1](#emoteid[1-3]) | mediumint | unsigned |  | NO | 0 |  |  |
-| [EmoteID2](#emoteid[1-3]) | mediumint | unsigned |  | NO | 0 |  |  |
-| [EmoteID3](#emoteid[1-3]) | mediumint | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay1](#emotedelay[1-3]) | mediumint | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay2](#emotedelay[1-3]) | mediumint | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay3](#emotedelay[1-3]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [EmoteID1](#emoteid1-3) | mediumint | unsigned |  | NO | 0 |  |  |
+| [EmoteID2](#emoteid1-3) | mediumint | unsigned |  | NO | 0 |  |  |
+| [EmoteID3](#emoteid1-3) | mediumint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay1](#emotedelay1-3) | mediumint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay2](#emotedelay1-3) | mediumint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay3](#emotedelay1-3) | mediumint | unsigned |  | NO | 0 |  |  |
 | [SoundEntriesID](#soundentriesid) | mediumint | unsigned |  | NO | 0 |  |  |
 | [EmotesID](#emotesid) | mediumint | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | mediumint | unsigned |  | NO | 0 |  |  |
