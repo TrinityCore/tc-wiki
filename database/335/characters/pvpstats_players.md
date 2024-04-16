@@ -1,8 +1,8 @@
 ---
 title: pvpstats_players
-description:
+description: 
 published: true
-date: 2023-08-01T14:25:52.222Z
+date: 2024-04-16T20:00:08.485Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:02:09.605Z
@@ -22,17 +22,17 @@ dateCreated: 2021-08-30T22:02:09.605Z
 | [battleground_id](#battleground_id) | bigint | unsigned | PRI | NO |  |  |  |
 | [character_guid](#character_guid) | int | unsigned | PRI | NO |  |  |  |
 | [winner](#winner) | bit(1) |  |  | NO |  |  |  |
-| [score_killing_blows](#score_killing_blows) | mediumint | unsigned |  | NO |  |  |  |
-| [score_deaths](#score_deaths) | mediumint | unsigned |  | NO |  |  |  |
+| [score_killing_blows](#score_*) | mediumint | unsigned |  | NO |  |  |  |
+| [score_deaths](#score_*) | mediumint | unsigned |  | NO |  |  |  |
 | [score_honorable_kills](#score_*) | mediumint | unsigned |  | NO |  |  |  |
 | [score_bonus_honor](#score_*) | mediumint | unsigned |  | NO |  |  |  |
 | [score_damage_done](#score_*) | mediumint | unsigned |  | NO |  |  |  |
 | [score_healing_done](#score_*) | mediumint | unsigned |  | NO |  |  |  |
-| [attr_1](#attr_[1-5]) | mediumint | unsigned |  | NO | 0 |  |  |
-| [attr_2](#attr_[1-5]) | mediumint | unsigned |  | NO | 0 |  |  |
-| [attr_3](#attr_[1-5]) | mediumint | unsigned |  | NO | 0 |  |  |
-| [attr_4](#attr_[1-5]) | mediumint | unsigned |  | NO | 0 |  |  |
-| [attr_5](#attr_[1-5]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [attr_1](#attr_1-5) | mediumint | unsigned |  | NO | 0 |  |  |
+| [attr_2](#attr_1-5) | mediumint | unsigned |  | NO | 0 |  |  |
+| [attr_3](#attr_1-5) | mediumint | unsigned |  | NO | 0 |  |  |
+| [attr_4](#attr_1-5) | mediumint | unsigned |  | NO | 0 |  |  |
+| [attr_5](#attr_1-5) | mediumint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
