@@ -1,8 +1,8 @@
 ---
 title: groups
-description:
+description: 
 published: true
-date: 2023-07-30T18:46:31.753Z
+date: 2024-04-16T19:42:41.209Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:00:54.931Z
@@ -23,14 +23,14 @@ dateCreated: 2021-08-30T22:00:54.931Z
 | [lootMethod](#lootmethod) | tinyint | unsigned |  | NO |  |  |  |
 | [looterGuid](#looterguid) | int | unsigned |  | NO |  |  |  |
 | [lootThreshold](#lootthreshold) | tinyint | unsigned |  | NO |  |  |  |
-| [icon1](#icon[1-8]) | bigint | unsigned |  | NO |  |  |  |
-| [icon2](#icon[1-8]) | bigint | unsigned |  | NO |  |  |  |
-| [icon3](#icon[1-8]) | bigint | unsigned |  | NO |  |  |  |
-| [icon4](#icon[1-8]) | bigint | unsigned |  | NO |  |  |  |
-| [icon5](#icon[1-8]) | bigint | unsigned |  | NO |  |  |  |
-| [icon6](#icon[1-8]) | bigint | unsigned |  | NO |  |  |  |
-| [icon7](#icon[1-8]) | bigint | unsigned |  | NO |  |  |  |
-| [icon8](#icon[1-8]) | bigint | unsigned |  | NO |  |  |  |
+| [icon1](#icon1-8) | bigint | unsigned |  | NO |  |  |  |
+| [icon2](#icon1-8) | bigint | unsigned |  | NO |  |  |  |
+| [icon3](#icon1-8) | bigint | unsigned |  | NO |  |  |  |
+| [icon4](#icon1-8) | bigint | unsigned |  | NO |  |  |  |
+| [icon5](#icon1-8) | bigint | unsigned |  | NO |  |  |  |
+| [icon6](#icon1-8) | bigint | unsigned |  | NO |  |  |  |
+| [icon7](#icon1-8) | bigint | unsigned |  | NO |  |  |  |
+| [icon8](#icon1-8) | bigint | unsigned |  | NO |  |  |  |
 | [groupType](#grouptype) | tinyint | unsigned |  | NO |  |  |  |
 | [difficulty](#difficulty) | tinyint | unsigned |  | NO | 0 |  |  |
 | [raidDifficulty](#raiddifficulty) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -47,7 +47,7 @@ Unique group enumerator.
 &nbsp;
 
 ### lootMethod
-`enum LootMethod`
+[`enum LootMethod`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Loot/Loot.h#L60C6-L67)
 | ID | Name |
 |----|------|
 | 0 | FREE_FOR_ALL |
@@ -65,7 +65,7 @@ Initiated as **leaderGuid**. If **lootMethod** is ROUND_ROBIN (1), this field co
 
 ### lootThreshold
 Quality threshold past which players have to roll for items.
-`enum ItemQualities`
+[`enum ItemQualities`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L353-L364)
 | ID | Name | Comment |
 |----|------|---------|
 | 0 | ITEM_QUALITY_POOR | GREY |
@@ -82,22 +82,22 @@ Quality threshold past which players have to roll for items.
 
 ### icon\[1-8]
 [character guid](../characters/characters#guid) or [creature guid](../characters/creature#guid) the icon is placed on.
-| Idx | Name |
-|-----|------|
-| 1 | Yellow 4-point Star |
-| 2 | Orange Circle |
-| 3 | Purple Diamond |
-| 4 | Green Triangle |
-| 5 | White Crescent Moon |
-| 6 | Blue Square |
-| 7 | Red "X" Cross |
-| 8 | White Skull |
+| Idx |  | Name |
+|-----|--|------|
+| 1 | ![Star](/client-assets/ui-raidtargetingicon_1.png =16x) | Yellow 4-point Star |
+| 2 | ![Circle](/client-assets/ui-raidtargetingicon_2.png =16x) | Orange Circle |
+| 3 | ![Diamond](/client-assets/ui-raidtargetingicon_3.png =16x) | Purple Diamond |
+| 4 | ![Triangle](/client-assets/ui-raidtargetingicon_4.png =16x) | Green Triangle |
+| 5 | ![Moon](/client-assets/ui-raidtargetingicon_5.png =16x) | White Crescent Moon |
+| 6 | ![Square](/client-assets/ui-raidtargetingicon_6.png =16x) | Blue Square |
+| 7 | ![Cross](/client-assets/ui-raidtargetingicon_7.png =16x) | Red Cross |
+| 8 | ![Skull](/client-assets/ui-raidtargetingicon_8.png =16x) | White Skull |
 {.dense}
 
 &nbsp;
 
 ### groupType
-`enum GroupType`
+[`enum GroupType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Groups/Group.h#L85-L96)
 | Value | Flag | Name | Comment |
 |-------|------|------|---------|
 | 0 | 0x0 | GROUPTYPE_NORMAL |  |
@@ -111,7 +111,7 @@ Quality threshold past which players have to roll for items.
 &nbsp;
 
 ### difficulty
-`enum Difficulty`
+[`enum Difficulty`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/DataStores/DBCEnums.h#L278-L290)
 | ID | Name |
 |----|------|
 | 0 | DUNGEON_DIFFICULTY_NORMAL |
@@ -122,7 +122,7 @@ Quality threshold past which players have to roll for items.
 &nbsp;
 
 ### raidDifficulty
-`enum Difficulty`
+[`enum Difficulty`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/DataStores/DBCEnums.h#L278-L290)
 | ID | Name |
 |----|------|
 | 0 | RAID_DIFFICULTY_10MAN_NORMAL |
