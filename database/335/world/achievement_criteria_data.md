@@ -2,7 +2,7 @@
 title: achievement_criteria_data
 description: 
 published: true
-date: 2024-04-16T17:21:42.681Z
+date: 2024-04-16T22:18:52.974Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:02:33.368Z
@@ -35,9 +35,9 @@ Depending on this value, it will determine how **value1** and **value2** are use
 #### type: 0
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_NONE**
 * **value1**:
-0
+`0`
 * **value2**:
-0
+`0`
 
 
 #### type: 1
@@ -45,7 +45,7 @@ Depending on this value, it will determine how **value1** and **value2** are use
 * **value1**:
 [creature_template.entry](../world/creature_template#entry)
 * **value2**:
-0
+`0`
 
 
 #### type: 2
@@ -61,7 +61,7 @@ Depending on this value, it will determine how **value1** and **value2** are use
 * **value1**:
 The percentage of health that the target must reach
 * **value2**:
-0
+`0`
 
 
 #### type: 4
@@ -69,7 +69,7 @@ The percentage of health that the target must reach
 * **value1**:
 own_team (0, 1)
 * **value2**:
-0
+`0`
 
 not corpse (not released body), own_team == false if enemy team expected
 #### type: 5
@@ -85,7 +85,7 @@ Effect Index of the aura
 * **value1**:
 [AreaTable ID](/files/DBC/335/areatable#id)
 * **value2**:
-0
+`0`
 
 
 #### type: 7
@@ -101,22 +101,22 @@ Effect Index of the aura
 * **value1**:
 Value to compare needed to attain achievement
 * **value2**:
-  [`enum ComparisonType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/common/Utilities/Util.h#L505-L513)
-  |--|--|
-  | COMP_TYPE_EQ | 0 |
-  | COMP_TYPE_HIGH | 1 |
-  | COMP_TYPE_LOW | 2 |
-  | COMP_TYPE_HIGH_EQ | 3 |
-  | COMP_TYPE_LOW_EQ | 4 |
+[`enum ComparisonType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/common/Utilities/Util.h#L505-L513)
+  |-|:-:|-|-|
+  | 0 | == | COMP_TYPE_EQ | amount must be equal to **value1** |
+  | 1 | > | COMP_TYPE_HIGH | amount must be higher than **value1** |
+  | 2 | < | COMP_TYPE_LOW | amount must be lower than **value1** |
+  | 3 | >= | COMP_TYPE_HIGH_EQ | amount must be higher or equal to **value1** |
+  | 4 | <= | COMP_TYPE_LOW_EQ | amount must be lower or equal to **value1** |
   {.dense}
 
-value provided with achievement update must be not less that limit
+
 #### type: 9
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_T_LEVEL**
 * **value1**:
 The minimum level of the target.
 * **value2**:
-0
+`0`
 
 
 #### type: 10
@@ -129,15 +129,15 @@ The minimum level of the target.
   | GENDER_NONE | 2 |
   {.dense}
 * **value2**:
-0
+`0`
 
 
 #### type: 11
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_SCRIPT**
 * **value1**:
-0
+`0`
 * **value2**:
-0
+`0`
 
 [ScriptName](#scriptname) required
 #### type: 12
@@ -152,7 +152,7 @@ The minimum level of the target.
   | RAID_DIFFICULTY_25MAN_HEROIC |  | 3 |
   {.dense}
 * **value2**:
-0
+`0`
 
 
 #### type: 13
@@ -160,7 +160,7 @@ The minimum level of the target.
 * **value1**:
 count
 * **value2**:
-0
+`0`
 
 "with less than %u people in the zone"
 #### type: 14
@@ -173,7 +173,7 @@ The target must be on this team:
   | HORDE | 67 |
   {.dense}
 * **value2**:
-0
+`0`
 
 
 #### type: 15
@@ -188,7 +188,7 @@ How drunk the player must be:
   | DRUNKEN_SMASHED | 3 |
   {.dense}
 * **value2**:
-0
+`0`
 
 
 #### type: 16
@@ -196,7 +196,7 @@ How drunk the player must be:
 * **value1**:
 [Holiday ID](/files/DBC/335/holidays#id). Must be an active holiday
 * **value2**:
-0
+`0`
 
 event in holiday time
 #### type: 17
@@ -210,9 +210,9 @@ player's team win bg and opposition team have team score in range
 #### type: 18
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_INSTANCE_SCRIPT**
 * **value1**:
-0
+`0`
 * **value2**:
-0
+`0`
 
 make instance script call for check current criteria requirements fit
 #### type: 19
@@ -228,7 +228,7 @@ for equipped item in slot to check item level and quality
 * **value1**:
 Player must be on [Map ID](/files/DBC/335/map#id)
 * **value2**:
-0
+`0`
 
 
 #### type: 21
@@ -244,7 +244,7 @@ Player must be on [Map ID](/files/DBC/335/map#id)
 * **value1**:
 N
 * **value2**:
-0
+`0`
 
 login on day of N-th Birthday
 #### type: 23
@@ -252,7 +252,7 @@ login on day of N-th Birthday
 * **value1**:
 [CharTitle ID](/files/DBC/335/chartitles#id)
 * **value2**:
-0
+`0`
 
 known (pvp) title
 #### :x: type: 24
