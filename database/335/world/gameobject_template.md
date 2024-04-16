@@ -2,7 +2,7 @@
 title: gameobject_template
 description: 
 published: true
-date: 2024-02-14T19:03:38.388Z
+date: 2024-04-16T13:45:44.032Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:05:30.524Z
@@ -24,30 +24,30 @@ This table contains the description of gameobjects. Each spawned object is an in
 | [castBarCaption](#castbarcaption) | varchar(100) |  |  | NO | '' |  |  |
 | [unk1](#unk1) | varchar(100) |  |  | NO | '' |  |  |
 | [size](#size) | float |  |  | NO | 1 |  |  |
-| [Data0](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
-| [Data1](#data[0-23]) | int | signed |  | NO | 0 |  |  |
-| [Data2](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
-| [Data3](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
-| [Data4](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
-| [Data5](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
-| [Data6](#data[0-23]) | int | signed |  | NO | 0 |  |  |
-| [Data7](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
-| [Data8](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
-| [Data9](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
-| [Data10](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
-| [Data11](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
-| [Data12](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
-| [Data13](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
-| [Data14](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
-| [Data15](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
-| [Data16](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
-| [Data17](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
-| [Data18](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
-| [Data19](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
-| [Data20](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
-| [Data21](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
-| [Data22](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
-| [Data23](#data[0-23]) | int | unsigned |  | NO | 0 |  |  |
+| [Data0](#data0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data1](#data0-23) | int | signed |  | NO | 0 |  |  |
+| [Data2](#data0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data3](#data0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data4](#data0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data5](#data0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data6](#data0-23) | int | signed |  | NO | 0 |  |  |
+| [Data7](#data0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data8](#data0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data9](#data0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data10](#data0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data11](#data0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data12](#data0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data13](#data0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data14](#data0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data15](#data0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data16](#data0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data17](#data0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data18](#data0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data19](#data0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data20](#data0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data21](#data0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data22](#data0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data23](#data0-23) | int | unsigned |  | NO | 0 |  |  |
 | [AIName](#ainame) | char(64) |  |  | NO | '' |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
@@ -152,7 +152,9 @@ Object's size must be set because graphic models can be resample.
 The content of the Data fields depends on the gameobject **type**.
 Fields denoted as *unused* aren't further handled by the core but just sent to the client as is.
 
-**_GAMEOBJECT_TYPE_DOOR (0)_**
+### Tabset {.tabset}
+#### type: 0
+**GAMEOBJECT_TYPE_DOOR**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | startOpen | 0, 1 | initializes with state: GO_ACTIVATED |
@@ -165,7 +167,8 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 7 | conditionID1 | 0 | unused |
 {.dense}
 
-**_GAMEOBJECT_TYPE_BUTTON (1)_**
+#### type: 1
+**GAMEOBJECT_TYPE_BUTTON**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | startOpen | 0, 1 | initializes with state: GO_ACTIVATED |
@@ -180,7 +183,8 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 9 | conditionID1 | 0 | unused |
 {.dense}
 
-**_GAMEOBJECT_TYPE_QUESTGIVER (2)_**
+#### type: 2
+**GAMEOBJECT_TYPE_QUESTGIVER**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
@@ -196,7 +200,8 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 10 | conditionID1 | 0 | unused |
 {.dense}
 
-**_GAMEOBJECT_TYPE_CHEST (3)_**
+#### type: 3
+**GAMEOBJECT_TYPE_CHEST**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
@@ -219,11 +224,13 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 17 | conditionID1 | 0 | unused |
 {.dense}
 
-**_GAMEOBJECT_TYPE_BINDER (4)_**
+#### type: 4
+**GAMEOBJECT_TYPE_BINDER**
 *no data set*
 {.dense}
 
-**_GAMEOBJECT_TYPE_GENERIC (5)_**
+#### type: 5
+**GAMEOBJECT_TYPE_GENERIC**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | floatingTooltip | 0, 1 | unused |
@@ -235,7 +242,8 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 6 | conditionID1 | 0 | unused |
 {.dense}
 
-**_GAMEOBJECT_TYPE_TRAP (6)_**
+#### type: 6
+**GAMEOBJECT_TYPE_TRAP**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
@@ -256,7 +264,8 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 15 | conditionID1 | 0 | unused |
 {.dense}
 
-**_GAMEOBJECT_TYPE_CHAIR (7)_**
+#### type: 7
+**GAMEOBJECT_TYPE_CHAIR**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | slots |  | number of players that can sit down on it |
@@ -266,7 +275,8 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 4 | conditionID1 | 0 | unused |
 {.dense}
 
-**_GAMEOBJECT_TYPE_SPELL_FOCUS (8)_**
+#### type: 8
+**GAMEOBJECT_TYPE_SPELL_FOCUS**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | focusId | [SpellFocusObject ID](/files/DBC/335/spellfocusobject#id) | also appears as [Spell RequiresSpellFocus](/files/DBC/335/spell#requiresspellfocus) |
@@ -280,7 +290,8 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 8 | conditionID1 | 0 | unused |
 {.dense}
 
-**_GAMEOBJECT_TYPE_TEXT (9)_**
+#### type: 9
+**GAMEOBJECT_TYPE_TEXT**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | pageID | [page_text.ID](../world/page_text#id) |  |
@@ -290,7 +301,8 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 4 | conditionID1 | 0 | unused |
 {.dense}
 
-**_GAMEOBJECT_TYPE_GOOBER (10)_**
+#### type: 10
+**GAMEOBJECT_TYPE_GOOBER**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
@@ -318,7 +330,8 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 22 | conditionID1 | 0 | unused |
 {.dense}
 
-**_GAMEOBJECT_TYPE_TRANSPORT (11)_**
+#### type: 11
+**GAMEOBJECT_TYPE_TRANSPORT**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | pause |  | ? used as level of object ? |
@@ -329,7 +342,8 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 5 | mapID | [Map ID](/files/DBC/335/map#id) | unused; MO-Transports are their own maps |
 {.dense}
 
-**_GAMEOBJECT_TYPE_AREADAMAGE (12)_**
+#### type: 12
+**GAMEOBJECT_TYPE_AREADAMAGE**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
@@ -342,7 +356,8 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 7 | closeTextID | unknown TextID | unused |
 {.dense}
 
-**_GAMEOBJECT_TYPE_CAMERA (13)_**
+#### type: 13
+**GAMEOBJECT_TYPE_CAMERA**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
@@ -352,11 +367,13 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 4 | conditionID1 | 0 | unused |
 {.dense}
 
-**_GAMEOBJECT_TYPE_MAP_OBJECT (14)_**
+#### type: 14
+**GAMEOBJECT_TYPE_MAP_OBJECT**
 *no data set*
 {.dense}
 
-**_GAMEOBJECT_TYPE_MO_TRANSPORT (15)_**
+#### type: 15
+**GAMEOBJECT_TYPE_MO_TRANSPORT**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | taxiPathId | [TaxiPath ID](/files/DBC/335/taxipath#id) |  |
@@ -370,15 +387,18 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 8 | canBeStopped | 0, 1 |  |
 {.dense}
 
-**_GAMEOBJECT_TYPE_DUEL_ARBITER (16)_**
+#### type: 16
+**GAMEOBJECT_TYPE_DUEL_ARBITER**
 *no data set*
 {.dense}
 
-**_GAMEOBJECT_TYPE_FISHINGNODE (17)_**
+#### type: 17
+**GAMEOBJECT_TYPE_FISHINGNODE**
 *no data set*
 {.dense}
 
-**_GAMEOBJECT_TYPE_SUMMONING_RITUAL (18)_**
+#### type: 18
+**GAMEOBJECT_TYPE_SUMMONING_RITUAL**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | reqParticipants |  | number of unique player interactions |
@@ -392,24 +412,28 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 8 | conditionID1 | 0 | unused |
 {.dense}
 
-**_GAMEOBJECT_TYPE_MAILBOX (19)_**
+#### type: 19
+**GAMEOBJECT_TYPE_MAILBOX**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | conditionID1 | 0 | unused |
 {.dense}
 
-**_GAMEOBJECT_TYPE_DO_NOT_USE (20)_**
+#### type: 20
+**GAMEOBJECT_TYPE_DO_NOT_USE**
 *no data set*
 {.dense}
 
-**_GAMEOBJECT_TYPE_GUARDPOST (21)_**
+#### type: 21
+**GAMEOBJECT_TYPE_GUARDPOST**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | creatureID | [creature_template.entry](../world/creature_template#entry) | unused |
 | 1 | charges |  | max. number of uses |
 {.dense}
 
-**_GAMEOBJECT_TYPE_SPELLCASTER (22)_**
+#### type: 22
+**GAMEOBJECT_TYPE_SPELLCASTER**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | spellId | [Spell ID](/files/DBC/335/spell#id) | spell cast on interaction |
@@ -420,7 +444,8 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 5 | conditionID1 | 0 | unused |
 {.dense}
 
-**_GAMEOBJECT_TYPE_MEETINGSTONE (23)_**
+#### type: 23
+**GAMEOBJECT_TYPE_MEETINGSTONE**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | minLevel |  | min. player level required for interaction |
@@ -428,7 +453,8 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 2 | areaID | [AreaTable ID](/files/DBC/335/areatable#id) | unused; |
 {.dense}
 
-**_GAMEOBJECT_TYPE_FLAGSTAND (24)_**
+#### type: 24
+**GAMEOBJECT_TYPE_FLAGSTAND**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
@@ -442,7 +468,8 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 8 | conditionID1 | 0 | unused |
 {.dense}
 
-**_GAMEOBJECT_TYPE_FISHINGHOLE (25)_**
+#### type: 25
+**GAMEOBJECT_TYPE_FISHINGHOLE**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | radius |  | how close bobber must land for sending loot |
@@ -452,7 +479,8 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 4 | lockId | [Lock ID](/files/DBC/335/lock#id) | possibly 1628 for all? |
 {.dense}
 
-**_GAMEOBJECT_TYPE_FLAGDROP (26)_**
+#### type: 26
+**GAMEOBJECT_TYPE_FLAGDROP**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | lockId | [Lock ID](/files/DBC/335/lock#id) |  |
@@ -462,17 +490,20 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 4 | openTextID | unknown TextID | unused; can be used to replace castBarCaption? |
 {.dense}
 
-**_GAMEOBJECT_TYPE_MINI_GAME (27)_**
+#### type: 27
+**GAMEOBJECT_TYPE_MINI_GAME**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | gameType |  | unused |
 {.dense}
 
-**_GAMEOBJECT_TYPE_DO_NOT_USE_2 (28)_**
+#### type: 28
+**GAMEOBJECT_TYPE_DO_NOT_USE_2**
 *no data set*
 {.dense}
 
-**_GAMEOBJECT_TYPE_CAPTURE_POINT (29)_**
+#### type: 29
+**GAMEOBJECT_TYPE_CAPTURE_POINT**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | radius |  | distance from which players count towards the objective |
@@ -499,7 +530,8 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 21 | unidirectional | 0 | unused |
 {.dense}
 
-**_GAMEOBJECT_TYPE_AURA_GENERATOR (30)_**
+#### type: 30
+**GAMEOBJECT_TYPE_AURA_GENERATOR**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | startOpen | 0, 1 | initializes with state: GO_ACTIVATED |
@@ -511,21 +543,24 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 6 | serverOnly | 0, 1 | not visible in client |
 {.dense}
 
-**_GAMEOBJECT_TYPE_DUNGEON_DIFFICULTY (31)_**
+#### type: 31
+**GAMEOBJECT_TYPE_DUNGEON_DIFFICULTY**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | mapID | [Map ID](/files/DBC/335/map#id) | destination map |
 | 1 | difficulty | 0 — 3 | [`enum Difficulty`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/DataStores/DBCEnums.h) |
 {.dense}
 
-**_GAMEOBJECT_TYPE_BARBER_CHAIR (32)_**
+#### type: 32
+**GAMEOBJECT_TYPE_BARBER_CHAIR**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | chairheight | 0, 1, 2 | offset to [`UnitStandStateType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Unit/UnitDefines.h) applied to sitting player |
 | 1 | heightOffset | 0 | unused |
 {.dense}
 
-**_GAMEOBJECT_TYPE_DESTRUCTIBLE_BUILDING (33)_**
+#### type: 33
+**GAMEOBJECT_TYPE_DESTRUCTIBLE_BUILDING**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | intactNumHits |  | **intactNumHits** +  **damagedNumHits** = total health|
@@ -554,13 +589,15 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 23 | empty14 |  | unused |
 {.dense}
 
-**_GAMEOBJECT_TYPE_GUILD_BANK (34)_**
+#### type: 34
+**GAMEOBJECT_TYPE_GUILD_BANK**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | conditionID1 | 0 | unused |
 {.dense}
 
-**_GAMEOBJECT_TYPE_TRAPDOOR (35)_**
+#### type: 35
+**GAMEOBJECT_TYPE_TRAPDOOR**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | whenToPause | 0 | unused |
@@ -568,7 +605,6 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 2 | autoClose | 0 | unused |
 {.dense}
 
-&nbsp;
 
 ### AIName
 This field is overridden by ScriptName field if both are set.
