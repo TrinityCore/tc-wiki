@@ -2,7 +2,7 @@
 title: pet_aura
 description: 
 published: true
-date: 2023-10-04T14:42:51.629Z
+date: 2024-04-16T19:53:14.776Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:01:50.883Z
@@ -24,12 +24,12 @@ dateCreated: 2021-08-30T22:01:50.883Z
 | [effectMask](#effectmask) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [recalculateMask](#recalculatemask) | tinyint | unsigned |  | NO | 0 |  |  |
 | [stackCount](#stackcount) | tinyint | unsigned |  | NO | 1 |  |  |
-| [amount0](#amount[0-2]) | mediumint | signed |  | NO |  |  |  |
-| [amount1](#amount[0-2]) | mediumint | signed |  | NO |  |  |  |
-| [amount2](#amount[0-2]) | mediumint | signed |  | NO |  |  |  |
-| [base_amount0](#base_amount[0-2]) | mediumint | signed |  | NO |  |  |  |
-| [base_amount1](#base_amount[0-2]) | mediumint | signed |  | NO |  |  |  |
-| [base_amount2](#base_amount[0-2]) | mediumint | signed |  | NO |  |  |  |
+| [amount0](#amount0-2) | mediumint | signed |  | NO |  |  |  |
+| [amount1](#amount0-2) | mediumint | signed |  | NO |  |  |  |
+| [amount2](#amount0-2) | mediumint | signed |  | NO |  |  |  |
+| [base_amount0](#base_amount0-2) | mediumint | signed |  | NO |  |  |  |
+| [base_amount1](#base_amount0-2) | mediumint | signed |  | NO |  |  |  |
+| [base_amount2](#base_amount0-2) | mediumint | signed |  | NO |  |  |  |
 | [maxDuration](#maxduration) | int | signed |  | NO | 0 |  |  |
 | [remainTime](#remaintime) | int | signed |  | NO | 0 |  |  |
 | [remainCharges](#remaincharges) | tinyint | unsigned |  | NO | 0 |  |  |
