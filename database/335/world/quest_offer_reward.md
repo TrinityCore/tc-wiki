@@ -1,8 +1,8 @@
 ---
 title: quest_offer_reward
-description:
+description: 
 published: true
-date: 2023-07-12T11:48:49.363Z
+date: 2024-04-16T18:03:53.331Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:08.941Z
@@ -17,14 +17,14 @@ This table is used for quests offering rewards without any required quest items 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ID](#id) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [Emote1](#emote[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote2](#emote[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote3](#emote[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote4](#emote[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay1](#emotedelay[1-4]) | int | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay2](#emotedelay[1-4]) | int | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay3](#emotedelay[1-4]) | int | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay4](#emotedelay[1-4]) | int | unsigned |  | NO | 0 |  |  |
+| [Emote1](#emote1-4) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote2](#emote1-4) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote3](#emote1-4) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote4](#emote1-4) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay1](#emotedelay1-4) | int | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay2](#emotedelay1-4) | int | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay3](#emotedelay1-4) | int | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay4](#emotedelay1-4) | int | unsigned |  | NO | 0 |  |  |
 | [RewardText](#rewardtext) | text |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
