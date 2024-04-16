@@ -1,8 +1,8 @@
 ---
 title: realmlist
-description:
+description: 
 published: true
-date: 2023-08-01T22:15:37.733Z
+date: 2024-04-16T20:29:25.716Z
 tags: database, auth, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:58:11.484Z
@@ -62,7 +62,7 @@ The port that the world server is running on. If all world servers are on the sa
 ### icon
 The icon of the realm.
 
-`enum RealmType`
+[`enum RealmType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/Realm/Realm.h#L50-L62)
 | ID | Name | Comment |
 |----|------|---------|
 | 0 | REALM_TYPE_NORMAL | Normal |
@@ -75,7 +75,7 @@ The icon of the realm.
 ### flag
 Realmflag of this realm.
 
-`enum RealmFlags`
+[`enum RealmFlags`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/Realm/Realm.h#L26-L37)
 | Value | Flag | Name | Description |
 |-------|------|------|-------------|
 | 0 | 0x00 | REALM_FLAG_NONE | None |
@@ -95,45 +95,28 @@ Realmflag of this realm.
 The realm timezone, it will be displayed in the tabs of the realmlist.
 
 **timezone** corresponds to [cfg_categories IDs](/files/DBC/335/cfg_categories#id)
-| timezone | displayed name |
-| --- | --- |
-| 1 | Development |
-| 2 | United States |
-| 3 | Oceanic |
-| 4 | Latin America |
-| 5 | Tournament |
-| 6 | Korea |
-| 7 | Tournament |
-| 8 | English |
-| 9 | German |
-| 10 | French |
-| 11 | Spanish |
-| 12 | Russian |
-| 13 | Tournament |
-| 14 | Taiwan |
-| 15 | Tournament |
-| 16 | China |
-| 17 | CN1 |
-| 18 | CN2 |
-| 19 | CN3 |
-| 20 | CN4 |
-| 21 | CN5 |
-| 22 | CN6 |
-| 23 | CN7 |
-| 24 | CN8 |
-| 25 | Tournament |
-| 26 | Test Server |
-| 27 | Tournament |
-| 28 | QA Server |
-| 29 | CN9 |
-| 30 | Test Server 2 |
-| 31 | CN10 |
-| 32 | CTC |
-| 33 | CNC |
-| 34 | CN1/4 |
-| 35 | CN2/6/9 |
-| 36 | CN3/7 |
-| 37 | CN5/8 |
+| timezone | displayed name | | timezone | displayed name |
+| --- | --- |--| --- | --- |
+| 1 | Development | | 20 | CN4 |
+| 2 | United States | | 21 | CN5 |
+| 3 | Oceanic | | 22 | CN6 |
+| 4 | Latin America | | 23 | CN7 |
+| 5 | Tournament | | 24 | CN8 |
+| 6 | Korea | | 25 | Tournament |
+| 7 | Tournament | | 26 | Test Server |
+| 8 | English | | 27 | Tournament |
+| 9 | German | | 28 | QA Server |
+| 10 | French | | 29 | CN9 |
+| 11 | Spanish | | 30 | Test Server 2 |
+| 12 | Russian | | 31 | CN10 |
+| 13 | Tournament | | 32 | CTC |
+| 14 | Taiwan | | 33 | CNC |
+| 15 | Tournament | | 34 | CN1/4 |
+| 16 | China | | 35 | CN2/6/9 |
+| 17 | CN1 | | 36 | CN3/7 |
+| 18 | CN2 | | 37 | CN5/8 |
+| 19 | CN3 | | | |
+
 {.dense}
 
 &nbsp;
