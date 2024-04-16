@@ -1,8 +1,8 @@
 ---
 title: guild_member_withdraw
-description:
+description: 
 published: true
-date: 2023-07-31T00:07:02.912Z
+date: 2024-04-16T19:47:41.328Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:01:16.371Z
@@ -19,12 +19,12 @@ dateCreated: 2021-08-30T22:01:16.371Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | int | unsigned | PRI | NO |  |  |  |
-| [tab0](#tab[0-5]) | int | unsigned |  | NO | 0 |  |  |
-| [tab1](#tab[0-5]) | int | unsigned |  | NO | 0 |  |  |
-| [tab2](#tab[0-5]) | int | unsigned |  | NO | 0 |  |  |
-| [tab3](#tab[0-5]) | int | unsigned |  | NO | 0 |  |  |
-| [tab4](#tab[0-5]) | int | unsigned |  | NO | 0 |  |  |
-| [tab5](#tab[0-5]) | int | unsigned |  | NO | 0 |  |  |
+| [tab0](#tab0-5) | int | unsigned |  | NO | 0 |  |  |
+| [tab1](#tab0-5) | int | unsigned |  | NO | 0 |  |  |
+| [tab2](#tab0-5) | int | unsigned |  | NO | 0 |  |  |
+| [tab3](#tab0-5) | int | unsigned |  | NO | 0 |  |  |
+| [tab4](#tab0-5) | int | unsigned |  | NO | 0 |  |  |
+| [tab5](#tab0-5) | int | unsigned |  | NO | 0 |  |  |
 | [money](#money) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
