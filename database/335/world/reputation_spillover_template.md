@@ -1,8 +1,8 @@
 ---
 title: reputation_spillover_template
-description:
+description: 
 published: true
-date: 2023-07-13T21:46:14.167Z
+date: 2024-04-16T18:12:49.199Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:45.284Z
@@ -17,18 +17,18 @@ This table defines when reputation gain with one faction should also affect othe
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [faction](#faction) | smallint | unsigned | PRI | NO | 0 |  | faction entry |
-| [faction1](#faction[1-4]) | smallint | unsigned |  | NO | 0 |  | faction to give spillover for |
-| [rate_1](#rate_[1-4]) | float |  |  | NO | 0 |  | the given rep points * rate |
-| [rank_1](#rank_[1-4]) | tinyint | unsigned |  | NO | 0 |  | max rank,above this will not give any spillover |
-| [faction2](#faction[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
-| [rate_2](#rate_[1-4]) | float |  |  | NO | 0 |  |  |
-| [rank_2](#rank_[1-4]) | tinyint | unsigned |  | NO | 0 |  |  |
-| [faction3](#faction[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
-| [rate_3](#rate_[1-4]) | float |  |  | NO | 0 |  |  |
-| [rank_3](#rank_[1-4]) | tinyint | unsigned |  | NO | 0 |  |  |
-| [faction4](#faction[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
-| [rate_4](#rate_[1-4]) | float |  |  | NO | 0 |  |  |
-| [rank_4](#rank_[1-4]) | tinyint | unsigned |  | NO | 0 |  |  |
+| [faction1](#faction1-4) | smallint | unsigned |  | NO | 0 |  | faction to give spillover for |
+| [rate_1](#rate_1-4) | float |  |  | NO | 0 |  | the given rep points * rate |
+| [rank_1](#rank_1-4) | tinyint | unsigned |  | NO | 0 |  | max rank,above this will not give any spillover |
+| [faction2](#faction1-4) | smallint | unsigned |  | NO | 0 |  |  |
+| [rate_2](#rate_1-4) | float |  |  | NO | 0 |  |  |
+| [rank_2](#rank_1-4) | tinyint | unsigned |  | NO | 0 |  |  |
+| [faction3](#faction1-4) | smallint | unsigned |  | NO | 0 |  |  |
+| [rate_3](#rate_1-4) | float |  |  | NO | 0 |  |  |
+| [rank_3](#rank_1-4) | tinyint | unsigned |  | NO | 0 |  |  |
+| [faction4](#faction1-4) | smallint | unsigned |  | NO | 0 |  |  |
+| [rate_4](#rate_1-4) | float |  |  | NO | 0 |  |  |
+| [rank_4](#rank_1-4) | tinyint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -46,7 +46,7 @@ The factor applied to the original reputation gain. If it is negative the player
 &nbsp;
 
 ### rank_\[1-4]
-The `enum ReputationRank` up to and including which the spillover occurs.
+The [`enum ReputationRank`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L203-L213) up to and including which the spillover occurs.
 | ID | Name |
 |----|------|
 | 0 | REP_HATED |
