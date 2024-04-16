@@ -1,8 +1,8 @@
 ---
 title: gameobject_template_addon
-description:
+description: 
 published: true
-date: 2023-07-10T19:17:24.415Z
+date: 2024-04-16T17:14:08.864Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:05:33.454Z
@@ -21,10 +21,10 @@ This table holds additional information on gameobjects.
 | [flags](#flags) | int | unsigned |  | NO | 0 |  |  |
 | [mingold](#mingold) | mediumint | unsigned |  | NO | 0 |  |  |
 | [maxgold](#maxgold) | mediumint | unsigned |  | NO | 0 |  |  |
-| [artkit0](#artkit[0-3]) | int | signed |  | NO | 0 |  |  |
-| [artkit1](#artkit[0-3]) | int | signed |  | NO | 0 |  |  |
-| [artkit2](#artkit[0-3]) | int | signed |  | NO | 0 |  |  |
-| [artkit3](#artkit[0-3]) | int | signed |  | NO | 0 |  |  |
+| [artkit0](#artkit0-3) | int | signed |  | NO | 0 |  |  |
+| [artkit1](#artkit0-3) | int | signed |  | NO | 0 |  |  |
+| [artkit2](#artkit0-3) | int | signed |  | NO | 0 |  |  |
+| [artkit3](#artkit0-3) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -63,7 +63,7 @@ Maximum money, in copper, that the gameobject can drop when accessed / used.
 
 ### artkit\[0-3]
 [GameObjectArtKit ID](/files/DBC/335/gameobjectartkit#id)
-Updates display if object is activated by SPELL_EFFCT_ACTIVATE_OBJECT with MiscValue 19 - 22.
+Updates display if object is activated by SPELL_EFFECT_ACTIVATE_OBJECT (86) with a MiscValue of 19&ndash;22.
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/world/gameobject_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'gameobject_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/gameobject_template_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'gameobject_template_locale'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
