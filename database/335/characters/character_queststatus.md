@@ -1,8 +1,8 @@
 ---
 title: character_queststatus
-description:
+description: 
 published: true
-date: 2023-07-27T22:03:22.688Z
+date: 2024-04-16T19:00:02.678Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:59:55.520Z
@@ -23,16 +23,16 @@ dateCreated: 2021-08-30T21:59:55.520Z
 | [status](#status) | tinyint | unsigned |  | NO | 0 |  |  |
 | [explored](#explored) | tinyint | unsigned |  | NO | 0 |  |  |
 | [timer](#timer) | int | unsigned |  | NO | 0 |  |  |
-| [mobcount1](#mobcount[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
-| [mobcount2](#mobcount[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
-| [mobcount3](#mobcount[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
-| [mobcount4](#mobcount[1-4]) | smallint | unsigned |  | NO | 0 |  |  |
-| [itemcount1](#itemcount[1-6]) | smallint | unsigned |  | NO | 0 |  |  |
-| [itemcount2](#itemcount[1-6]) | smallint | unsigned |  | NO | 0 |  |  |
-| [itemcount3](#itemcount[1-6]) | smallint | unsigned |  | NO | 0 |  |  |
-| [itemcount4](#itemcount[1-6]) | smallint | unsigned |  | NO | 0 |  |  |
-| [itemcount5](#itemcount[1-6]) | smallint | unsigned |  | NO | 0 |  |  |
-| [itemcount6](#itemcount[1-6]) | smallint | unsigned |  | NO | 0 |  |  |
+| [mobcount1](#mobcount1-4) | smallint | unsigned |  | NO | 0 |  |  |
+| [mobcount2](#mobcount1-4) | smallint | unsigned |  | NO | 0 |  |  |
+| [mobcount3](#mobcount1-4) | smallint | unsigned |  | NO | 0 |  |  |
+| [mobcount4](#mobcount1-4) | smallint | unsigned |  | NO | 0 |  |  |
+| [itemcount1](#itemcount1-6) | smallint | unsigned |  | NO | 0 |  |  |
+| [itemcount2](#itemcount1-6) | smallint | unsigned |  | NO | 0 |  |  |
+| [itemcount3](#itemcount1-6) | smallint | unsigned |  | NO | 0 |  |  |
+| [itemcount4](#itemcount1-6) | smallint | unsigned |  | NO | 0 |  |  |
+| [itemcount5](#itemcount1-6) | smallint | unsigned |  | NO | 0 |  |  |
+| [itemcount6](#itemcount1-6) | smallint | unsigned |  | NO | 0 |  |  |
 | [playercount](#playercount) | smallint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
