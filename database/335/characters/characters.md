@@ -1,8 +1,8 @@
 ---
 title: characters
-description:
+description: 
 published: true
-date: 2023-07-29T23:22:54.006Z
+date: 2024-04-16T19:05:26.052Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:00:30.288Z
@@ -75,13 +75,13 @@ dateCreated: 2021-08-30T22:00:30.288Z
 | [watchedFaction](#watchedfaction) | int | unsigned |  | NO | 0 |  |  |
 | [drunk](#drunk) | tinyint | unsigned |  | NO | 0 |  |  |
 | [health](#health) | int | unsigned |  | NO | 0 |  |  |
-| [power1](#power[1-7]) | int | unsigned |  | NO | 0 |  |  |
-| [power2](#power[1-7]) | int | unsigned |  | NO | 0 |  |  |
-| [power3](#power[1-7]) | int | unsigned |  | NO | 0 |  |  |
-| [power4](#power[1-7]) | int | unsigned |  | NO | 0 |  |  |
-| [power5](#power[1-7]) | int | unsigned |  | NO | 0 |  |  |
-| [power6](#power[1-7]) | int | unsigned |  | NO | 0 |  |  |
-| [power7](#power[1-7]) | int | unsigned |  | NO | 0 |  |  |
+| [power1](#power1-7) | int | unsigned |  | NO | 0 |  |  |
+| [power2](#power1-7) | int | unsigned |  | NO | 0 |  |  |
+| [power3](#power1-7) | int | unsigned |  | NO | 0 |  |  |
+| [power4](#power1-7) | int | unsigned |  | NO | 0 |  |  |
+| [power5](#power1-7) | int | unsigned |  | NO | 0 |  |  |
+| [power6](#power1-7) | int | unsigned |  | NO | 0 |  |  |
+| [power7](#power1-7) | int | unsigned |  | NO | 0 |  |  |
 | [latency](#latency) | mediumint | unsigned |  | NO | 0 |  |  |
 | [talentGroupsCount](#talentgroupscount) | tinyint | unsigned |  | NO | 1 |  |  |
 | [activeTalentGroup](#activetalentgroup) | tinyint | unsigned |  | NO | 0 |  |  |
