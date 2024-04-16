@@ -1,8 +1,8 @@
 ---
 title: mail
-description:
+description: 
 published: true
-date: 2023-07-31T21:33:06.629Z
+date: 2024-04-16T19:52:40.137Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:01:45.503Z
@@ -40,7 +40,7 @@ This field contains the unique ID across all messages.
 &nbsp;
 
 ### messageType
-`enum MailMessageType`
+[`enum MailMessageType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Mails/Mail.h#L35-L42)
 | ID | Name | Comment |
 |----|------|---------|
 | 0 | MAIL_NORMAL |  |
@@ -55,7 +55,7 @@ This field contains the unique ID across all messages.
 ### stationery
 Defines the background texture of the mail.
 
-`enum MailStationery` gathered from [Stationery ID](/files/DBC/335/stationery#id)
+[`enum MailStationery`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Mails/Mail.h#L55-L64) gathered from [Stationery ID](/files/DBC/335/stationery#id)
 | ID | Name | Comment |
 |----|------|---------|
 | 1 | MAIL_STATIONERY_TEST |  |
@@ -121,7 +121,7 @@ Determines if **money** is an attachment or COD due.
 &nbsp;
 
 ### checked
-`enum MailCheckMask`
+[`enum MailCheckMask`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Mails/Mail.h#L44-L52)
 | Value | Flag | Name | Comment |
 |-------|------|------|---------|
 | 0 | 0x00 | MAIL_CHECK_MASK_NONE |  |
