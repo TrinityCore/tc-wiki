@@ -2,7 +2,7 @@
 title: gameobject_addon
 description: 
 published: true
-date: 2023-07-09T21:10:09.763Z
+date: 2024-04-16T17:08:14.087Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:05:14.318Z
@@ -32,26 +32,26 @@ refers to [gameobject.guid](../world/gameobject#guid)
 
 ### parent_rotation0
 parentRotation.x
--1 <= x <= 1
+`-1 <= x <= 1`
 &nbsp;
 
 ### parent_rotation1
 parentRotation.y
--1 <= y <= 1
+`-1 <= y <= 1`
 &nbsp;
 
 ### parent_rotation2
 parentRotation.z
--1 <= z <= 1
+`-1 <= z <= 1`
 &nbsp;
 
 ### parent_rotation3
 parentRotation.w
--1 <= w <= 1
+`-1 <= w <= 1`
 &nbsp;
 
 ### invisibilityType
-from [`enum InvisibilityType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h)
+excerpt from [`enum InvisibilityType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L1281-L1297)
 | ID | Name |
 |----|------|
 | 0 | INVISIBILITY_GENERAL |
