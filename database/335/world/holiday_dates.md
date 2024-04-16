@@ -1,8 +1,8 @@
 ---
 title: holiday_dates
-description:
+description: 
 published: true
-date: 2023-07-10T20:58:31.888Z
+date: 2024-04-16T17:26:24.070Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:05:50.321Z
@@ -39,6 +39,24 @@ Start date in BlizzTime. Use https://github.com/The-Cataclysm-Preservation-Proje
 > Epochdate=01.01.2000-00:00
 {.is-info}
 
+**Example**
+Startdate for Darkmoon Faire - Mulgore (first occurence):
+```
+blizzdate = 126957568;                    // 0b0000 0111 1001 0001 0011 1000 0000 0000
+
+minutes    =  blizzdate        & 0x3F;    // 00 0000 -> 0
+hours      = (blizzdate >>  6) & 0x1F;    //  0 0000 -> 0
+dayOfWeek  = (blizzdate >> 11) & 0x07;    //     111 -> 7
+dayOfMonth = (blizzdate >> 14) & 0x3F;    // 00 0100 -> 4
+month      = (blizzdate >> 20) & 0x0F;    //    1001 -> 9
+year       = (blizzdate >> 24) & 0x1F;    //  0 0111 -> 7
+timeZone   = (blizzdate >> 29) & 0x03;    //      00 -> 0
+padding    = (blizzdate >> 31) & 0x01;    //       0
+
+decoded: 0007-09-04T00:00:00+00:00
+apply epoch date offset
+realdate: 2007-10-05T00:00:00
+```
 &nbsp;
 
 ### holiday_duration
