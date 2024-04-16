@@ -2,7 +2,7 @@
 title: Faction.dbc
 description: 
 published: true
-date: 2023-10-04T13:08:14.955Z
+date: 2024-04-16T17:18:26.293Z
 tags: 3.3.5, 3.3.5a, 335, 335a, wotlk, dbc, database client
 editor: markdown
 dateCreated: 2023-10-04T08:02:56.984Z
@@ -98,7 +98,7 @@ Each faction that has gainable rep has a unique number. All factions that you ca
 ### ReputationRaceMask
 <code>Col: 2 &ndash; 5 (uint32)</code>
 
-Mask of races using cols 10 &nbsp; 13 as base reputation.
+Mask of races using cols 10 &ndash; 13 as base reputation.
 
 | Value | Flag   | Name      |  | Value | Flag   | Name      |
 |-------|--------|-----------|--|-------|--------|-----------|
@@ -115,7 +115,7 @@ Mask of races using cols 10 &nbsp; 13 as base reputation.
 ### ReputationClassMask
 <code>Col: 6 &ndash; 9 (uint32)</code>
 
-Mask of classes using cols 10 &nbsp; 13 as base reputation.
+Mask of classes using cols 10 &ndash; 13 as base reputation.
 
 | Value | Flag   | Name      |  | Value | Flag   | Name         |
 |-------|--------|-----------|--|-------|--------|--------------|
