@@ -2,7 +2,7 @@
 title: gameobject
 description: 
 published: true
-date: 2024-02-14T19:02:52.642Z
+date: 2024-04-16T16:03:41.817Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:05:11.495Z
@@ -40,7 +40,10 @@ Contains individual gameobject spawn data. Spawn of an object is an instance of 
 ## Description of fields
 
 ### guid
-A unique identifier given to each gameobject to distinguish one from another. Two gameobjects can NOT have same GUID.
+A unique identifier given to each gameobject to distinguish one from another. 
+> Two gameobjects can NOT have same GUID.
+{.is-warning}
+
 &nbsp;
 
 ### id
@@ -74,11 +77,13 @@ Controls under which difficulties the gameobject is spawned.
 &nbsp;
 
 ### phaseMask
-This is a bitmask field that describes all the phases that a gameobject will appear in. Aura 261 determines the phase you can see. For example, if you had this aura https://aowow.trinitycore.info/?spell=55782, you would be able to see gameobjects in phase 2. If you wanted the gameobject to be visible in both phase 1 and phase 2, you would set the phaseMask to 3.
+This is a bitmask field that describes all the phases that a gameobject will appear in. 
+
+SPELL_AURA_PHASE (261) determines the phase you can see. For example, if you had [this aura](https://aowow.trinitycore.info/?spell=55782), you would be able to see gameobjects in phase 2. If you wanted the gameobject to be visible in both phase 1 and phase 2, you would set the phaseMask to 3.
 &nbsp;
 
 ### position_x
-*- no description -*
+The X position of the gameobject.
 &nbsp;
 
 ### position_y
@@ -95,22 +100,22 @@ The orientation of the gameobject. (North = 0.0; South = pi (3.14159))
 
 ### rotation0
 rotation.x
--1 <= x <= 1
+`-1 <= x <= 1`
 &nbsp;
 
 ### rotation1
 rotation.y
--1 <= y <= 1
+`-1 <= y <= 1`
 &nbsp;
 
 ### rotation2
 rotation.z
--1 <= z <= 1
+`-1 <= z <= 1`
 &nbsp;
 
 ### rotation3
 rotation.w
--1 <= w <= 1
+`-1 <= w <= 1`
 &nbsp;
 
 ### spawntimesecs
