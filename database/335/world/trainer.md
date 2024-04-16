@@ -2,7 +2,7 @@
 title: trainer
 description: 
 published: true
-date: 2024-02-14T19:12:17.457Z
+date: 2024-04-16T18:29:43.959Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:10:10.401Z
@@ -18,7 +18,7 @@ This table contains all the trainer entries.
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [Id](#id) | int | unsigned | PRI | NO | 0 |  |  |
 | [Type](#type) | tinyint | unsigned |  | NO | 2 |  |  |
-| [Requirement](#requirement) | mediumint | unsigned |  | NO | 0 |  |  |
+| [Requirement](#type) | mediumint | unsigned |  | NO | 0 |  |  |
 | [Greeting](#greeting) | text |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
 &nbsp;
@@ -29,13 +29,12 @@ For trainer, this field signifies a unique trainer ID. It is to this ID that all
 &nbsp;
 
 ### Type
-### Requirement
-The trainer type dictates the requirement (if any).
-&nbsp;
+The trainer type dictates the **Requirement**, if any (0 for no **Requirement**).
+### Tabset {.tabset}
 
-#### Type = 0 (Trainer::Type::Class)
-#### Type = 3 (Trainer::Type::Pet)
-**Requirement** is a [ChrClass ID](/files/DBC/335/chrclasses#id) (or 0 for no requirement)
+#### Type::Class (0)
+**Trainer::Type::Class**
+[ChrClass ID](/files/DBC/335/chrclasses#id) or `0`
 | Requirement | Description |
 |-------------|-------------|
 | 1 | Warrior |
@@ -50,10 +49,9 @@ The trainer type dictates the requirement (if any).
 | 11 | Druid |
 {.dense}
 
-&nbsp;
-
-#### Type = 1 (Trainer::Type::Mount)
-**Requirement** is a [ChrRace ID](/files/DBC/335/chrraces#id) (or 0 for no requirement)
+#### Type::Mount (1)
+**Trainer::Type::Mount**
+[ChrRace ID](/files/DBC/335/chrraces#id) or `0`
 | Requirement | Description |
 |-------------|-------------|
 | 1 | Human |
@@ -68,12 +66,30 @@ The trainer type dictates the requirement (if any).
 | 11 | Draenei |
 {.dense}
 
-&nbsp;
-
-#### Type = 2 (Trainer::Type::Tradeskill)
-**Requirement** is a [Spell ID](/files/DBC/335/spell#id) (or 0 for no requirement)
+#### Type::Tradeskill (2)
+**Trainer::Type::Tradeskill**
+[Spell ID](/files/DBC/335/spell#id) or `0`
 
 The player must know this spell to learn from this trainer.
+
+#### Type::Pet (3)
+**Trainer::Type::Pet**
+[ChrClass ID](/files/DBC/335/chrclasses#id) or `0`
+| Requirement | Description |
+|-------------|-------------|
+| 1 | Warrior |
+| 2 | Paladin |
+| 3 | Hunter |
+| 4 | Rogue |
+| 5 | Priest |
+| 6 | Death Knight |
+| 7 | Shaman |
+| 8 | Mage |
+| 9 | Warlock |
+| 11 | Druid |
+{.dense}
+
+### EndTabset {.tabset}
 &nbsp;
 
 ### Greeting
