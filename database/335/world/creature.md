@@ -2,7 +2,7 @@
 title: creature
 description: 
 published: true
-date: 2024-02-03T04:16:40.088Z
+date: 2024-04-16T16:04:29.416Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:13.159Z
@@ -44,7 +44,10 @@ Contains individual creature spawn data. Spawn of a creature is an instance of t
 ## Description of fields
 
 ### guid
-A unique identifier given to each creature to distinguish one creature from another. Two creatures can NOT have same GUID.
+A unique identifier given to each creature to distinguish one creature from another. 
+> Two creatures can NOT have same GUID.
+{.is-warning}
+
 &nbsp;
 
 ### id
@@ -78,21 +81,25 @@ Controls under which difficulties the creature is spawned.
 &nbsp;
 
 ### phaseMask
-This is a bitmask field that describes all the phases that a creature will appear in. Aura 261 determines the phase you can see. For example, if you had this aura https://aowow.trinitycore.info/?spell=55782, you would be able to see creatures in phase 2. If you wanted the creature to be visible in both phase 1 and phase 2, you would set the phaseMask to 3.
+This is a bitmask field that describes all the phases that a creature will appear in.
+
+SPELL_AURA_PHASE (261) determines the phase you can see. For example, if you had [this aura](https://aowow.trinitycore.info/?spell=55782), you would be able to see creatures in phase 2. If you wanted the creature to be visible in both phase 1 and phase 2, you would set the phaseMask to 3.
 
 &nbsp;
 
 ### modelid
 The model ID associated with this creature. Note that two creatures that use the same template can have different models. See [creature_model_info](../world/creature_model_info#displayid) for more information on model-specific characteristics.
 
-NOTE: This can be left at 0 and a random model from its assigned models in [creature_template](../world/creature_template#modelid1) will be assigned by the core.
+> Note: This can be left at 0 and a random model from its assigned models in [creature_template](../world/creature_template#modelid1) will be assigned by the core.
+{.is-info}
+
 &nbsp;
 
 ### equipment_id
-The id as defined within [creature_equip_template](../world/creature_equip_template#creatureid) corresponding to the entry. The value essential defines the equip:
-* -1. A random equip chosen from it's pre-definition.
-* 0.  No equipment defined.
-* 1+. The individual id within [creature_equip_template](../world/creature_equip_template).
+The ID as defined within [creature_equip_template](../world/creature_equip_template) corresponding to the CreatureID.
+* **equipment_id** = -1: A random equipment set chosen for [creature_equip_template.CreatureID](../world/creature_equip_template#creatureid).
+* **equipment_id** = 0: No equipment defined.
+* **equipment_id** > 0: [creature_equip_template.ID](../world/creature_equip_template#id)
 &nbsp;
 
 ### position_x
@@ -133,22 +140,30 @@ The current mana that the creature has.
 
 ### MovementType
 The movement type associated with this creature. Usually the same as [creature_template.MovementType](../world/creature_template#movementtype) but can be different.
-NOTE: A creature.MovementType record will override a creature_template.MovementType record.
+> Note: A creature.MovementType record will override a creature_template.MovementType record.
+{.is-info}
+
 &nbsp;
 
 ### npcflag
 Same as [creature_template.npcflag](../world/creature_template#npcflag)
-NOTE: A creature.npcflag record will override a creature_template.npcflag record.
+> Note: A creature.npcflag record will override a creature_template.npcflag record.
+{.is-info}
+
 &nbsp;
 
 ### unit_flags
 Same as [creature_template.unit_flags](../world/creature_template#unit_flags)
-NOTE: A creature.unit_flags record will override a creature_template.unit_flags record.
+> Note: A creature.unit_flags record will override a creature_template.unit_flags record.
+{.is-info}
+
 &nbsp;
 
 ### dynamicflags
 Same as [creature_template.dynamicflags](../world/creature_template#dynamicflags)
-NOTE: A creature.dynamicflags record will override a creature_template.dynamicflags record.
+> Note: A creature.dynamicflags record will override a creature_template.dynamicflags record.
+{.is-info}
+
 &nbsp;
 
 ### ScriptName
