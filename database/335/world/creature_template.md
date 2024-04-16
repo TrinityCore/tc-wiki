@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2024-02-14T18:59:18.027Z
+date: 2024-04-16T16:18:51.298Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:50.335Z
@@ -17,15 +17,15 @@ This table contains the description of creatures. Each spawned creature is an in
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entry](#entry) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [difficulty_entry_1](#difficulty_entry_\[1-3\]) | mediumint | unsigned |  | NO | 0 |  |  |
-| [difficulty_entry_2](#difficulty_entry_\[1-3\]) | mediumint | unsigned |  | NO | 0 |  |  |
-| [difficulty_entry_3](#difficulty_entry_\[1-3\]) | mediumint | unsigned |  | NO | 0 |  |  |
-| [KillCredit1](#killcredit\[1-2\]) | int | unsigned |  | NO | 0 |  |  |
-| [KillCredit2](#killcredit\[1-2\]) | int | unsigned |  | NO | 0 |  |  |
-| [modelid1](#modelid\[1-4\]) | mediumint | unsigned |  | NO | 0 |  |  |
-| [modelid2](#modelid\[1-4\]) | mediumint | unsigned |  | NO | 0 |  |  |
-| [modelid3](#modelid\[1-4\]) | mediumint | unsigned |  | NO | 0 |  |  |
-| [modelid4](#modelid\[1-4\]) | mediumint | unsigned |  | NO | 0 |  |  |
+| [difficulty_entry_1](#difficulty_entry_1-3) | mediumint | unsigned |  | NO | 0 |  |  |
+| [difficulty_entry_2](#difficulty_entry_1-3) | mediumint | unsigned |  | NO | 0 |  |  |
+| [difficulty_entry_3](#difficulty_entry_1-3) | mediumint | unsigned |  | NO | 0 |  |  |
+| [KillCredit1](#killcredit1-2) | int | unsigned |  | NO | 0 |  |  |
+| [KillCredit2](#killcredit1-2) | int | unsigned |  | NO | 0 |  |  |
+| [modelid1](#modelid1-4) | mediumint | unsigned |  | NO | 0 |  |  |
+| [modelid2](#modelid1-4) | mediumint | unsigned |  | NO | 0 |  |  |
+| [modelid3](#modelid1-4) | mediumint | unsigned |  | NO | 0 |  |  |
+| [modelid4](#modelid1-4) | mediumint | unsigned |  | NO | 0 |  |  |
 | [name](#name) | char(100) |  | MUL | NO | 0 |  |  |
 | [subname](#subname) | char(100) |  |  | YES | NULL |  |  |
 | [IconName](#iconname) | char(100) |  |  | YES | NULL |  |  |
