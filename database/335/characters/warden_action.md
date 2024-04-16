@@ -2,7 +2,7 @@
 title: warden_action
 description: 
 published: true
-date: 2023-08-01T01:29:22.668Z
+date: 2024-04-16T20:02:35.241Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:02:25.427Z
@@ -28,7 +28,7 @@ references [warden_checks.id](../world/warden_checks#id)
 &nbsp;
 
 ### action
-`enum WardenActions`
+[`enum WardenActions`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Warden/WardenCheckMgr.h#L28-L33)
 | ID | Name |
 |----|------|
 | 0 | WARDEN_ACTION_LOG |
