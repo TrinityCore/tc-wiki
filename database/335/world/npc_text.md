@@ -2,7 +2,7 @@
 title: npc_text
 description: 
 published: true
-date: 2024-02-14T19:07:37.921Z
+date: 2024-04-16T17:57:09.577Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:06:36.830Z
@@ -17,94 +17,94 @@ This table contains the texts that are used for gossip. More research needs to b
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ID](#id) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [text0_0](#text[0-7]_0) | longtext |  |  | YES | NULL |  |  |
-| [text0_1](#text[0-7]_1) | longtext |  |  | YES | NULL |  |  |
-| [BroadcastTextID0](#broadcasttextid[0-7]) | mediumint | signed |  | NO | 0 |  |  |
-| [lang0](#lang[0-7]) | tinyint | unsigned |  | NO | 0 |  |  |
-| [Probability0](#probability[0-7]) | float |  |  | NO | 0 |  |  |
-| [EmoteDelay0_0](#emotedelay[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote0_0](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay0_1](#emotedelay[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote0_1](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay0_2](#emotedelay[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote0_2](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [text1_0](#text[0-7]_0) | longtext |  |  | YES | NULL |  |  |
-| [text1_1](#text[0-7]_1) | longtext |  |  | YES | NULL |  |  |
-| [BroadcastTextID1](#broadcasttextid[0-7]) | mediumint | signed |  | NO | 0 |  |  |
-| [lang1](#lang[0-7]) | tinyint | unsigned |  | NO | 0 |  |  |
-| [Probability1](#probability[0-7]) | float |  |  | NO | 0 |  |  |
-| [EmoteDelay1_0](#emotedelay[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote1_0](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay1_1](#emotedelay[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote1_1](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay1_2](#emotedelay[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote1_2](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [text2_0](#text[0-7]_0) | longtext |  |  | YES | NULL |  |  |
-| [text2_1](#text[0-7]_1) | longtext |  |  | YES | NULL |  |  |
-| [BroadcastTextID2](#broadcasttextid[0-7]) | mediumint | signed |  | NO | 0 |  |  |
-| [lang2](#lang[0-7]) | tinyint | unsigned |  | NO | 0 |  |  |
-| [Probability2](#probability[0-7]) | float |  |  | NO | 0 |  |  |
-| [EmoteDelay2_0](#emotedelay[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote2_0](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay2_1](#emotedelay[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote2_1](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay2_2](#emotedelay[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote2_2](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [text3_0](#text[0-7]_0) | longtext |  |  | YES | NULL |  |  |
-| [text3_1](#text[0-7]_1) | longtext |  |  | YES | NULL |  |  |
-| [BroadcastTextID3](#broadcasttextid[0-7]) | mediumint | signed |  | NO | 0 |  |  |
-| [lang3](#lang[0-7]) | tinyint | unsigned |  | NO | 0 |  |  |
-| [Probability3](#probability[0-7]) | float |  |  | NO | 0 |  |  |
-| [EmoteDelay3_0](#emotedelay[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote3_0](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay3_1](#emotedelay[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote3_1](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay3_2](#emotedelay[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote3_2](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [text4_0](#text[0-7]_0) | longtext |  |  | YES | NULL |  |  |
-| [text4_1](#text[0-7]_1) | longtext |  |  | YES | NULL |  |  |
-| [BroadcastTextID4](#broadcasttextid[0-7]) | mediumint | signed |  | NO | 0 |  |  |
-| [lang4](#lang[0-7]) | tinyint | unsigned |  | NO | 0 |  |  |
-| [Probability4](#probability[0-7]) | float |  |  | NO | 0 |  |  |
-| [EmoteDelay4_0](#emotedelay[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote4_0](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay4_1](#emotedelay[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote4_1](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay4_2](#emotedelay[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote4_2](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [text5_0](#text[0-7]_0) | longtext |  |  | YES | NULL |  |  |
-| [text5_1](#text[0-7]_1) | longtext |  |  | YES | NULL |  |  |
-| [BroadcastTextID5](#broadcasttextid[0-7]) | mediumint | signed |  | NO | 0 |  |  |
-| [lang5](#lang[0-7]) | tinyint | unsigned |  | NO | 0 |  |  |
-| [Probability5](#probability[0-7]) | float |  |  | NO | 0 |  |  |
-| [EmoteDelay5_0](#emotedelay[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote5_0](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay5_1](#emotedelay[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote5_1](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay5_2](#emotedelay[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote5_2](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [text6_0](#text[0-7]_0) | longtext |  |  | YES | NULL |  |  |
-| [text6_1](#text[0-7]_1) | longtext |  |  | YES | NULL |  |  |
-| [BroadcastTextID6](#broadcasttextid[0-7]) | mediumint | signed |  | NO | 0 |  |  |
-| [lang6](#lang[0-7]) | tinyint | unsigned |  | NO | 0 |  |  |
-| [Probability6](#probability[0-7]) | float |  |  | NO | 0 |  |  |
-| [EmoteDelay6_0](#emotedelay[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote6_0](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay6_1](#emotedelay[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote6_1](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay6_2](#emotedelay[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote6_2](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [text7_0](#text[0-7]_0) | longtext |  |  | YES | NULL |  |  |
-| [text7_1](#text[0-7]_1) | longtext |  |  | YES | NULL |  |  |
-| [BroadcastTextID7](#broadcasttextid[0-7]) | mediumint | signed |  | NO | 0 |  |  |
-| [lang7](#lang[0-7]) | tinyint | unsigned |  | NO | 0 |  |  |
-| [Probability7](#probability[0-7]) | float |  |  | NO | 0 |  |  |
-| [EmoteDelay7_0](#emotedelay[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote7_0](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay7_1](#emotedelay[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote7_1](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay7_2](#emotedelay[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote7_2](#emote[0-7]_[0-2]) | smallint | unsigned |  | NO | 0 |  |  |
+| [text0_0](#text0-7_0) | longtext |  |  | YES | NULL |  |  |
+| [text0_1](#text0-7_1) | longtext |  |  | YES | NULL |  |  |
+| [BroadcastTextID0](#broadcasttextid0-7) | mediumint | signed |  | NO | 0 |  |  |
+| [lang0](#lang0-7) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Probability0](#probability0-7) | float |  |  | NO | 0 |  |  |
+| [EmoteDelay0_0](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote0_0](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay0_1](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote0_1](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay0_2](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote0_2](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [text1_0](#text0-7_0) | longtext |  |  | YES | NULL |  |  |
+| [text1_1](#text0-7_1) | longtext |  |  | YES | NULL |  |  |
+| [BroadcastTextID1](#broadcasttextid0-7) | mediumint | signed |  | NO | 0 |  |  |
+| [lang1](#lang0-7) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Probability1](#probability0-7) | float |  |  | NO | 0 |  |  |
+| [EmoteDelay1_0](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote1_0](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay1_1](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote1_1](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay1_2](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote1_2](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [text2_0](#text0-7_0) | longtext |  |  | YES | NULL |  |  |
+| [text2_1](#text0-7_1) | longtext |  |  | YES | NULL |  |  |
+| [BroadcastTextID2](#broadcasttextid0-7) | mediumint | signed |  | NO | 0 |  |  |
+| [lang2](#lang0-7) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Probability2](#probability0-7) | float |  |  | NO | 0 |  |  |
+| [EmoteDelay2_0](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote2_0](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay2_1](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote2_1](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay2_2](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote2_2](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [text3_0](#text0-7_0) | longtext |  |  | YES | NULL |  |  |
+| [text3_1](#text0-7_1) | longtext |  |  | YES | NULL |  |  |
+| [BroadcastTextID3](#broadcasttextid0-7) | mediumint | signed |  | NO | 0 |  |  |
+| [lang3](#lang0-7) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Probability3](#probability0-7) | float |  |  | NO | 0 |  |  |
+| [EmoteDelay3_0](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote3_0](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay3_1](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote3_1](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay3_2](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote3_2](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [text4_0](#text0-7_0) | longtext |  |  | YES | NULL |  |  |
+| [text4_1](#text0-7_1) | longtext |  |  | YES | NULL |  |  |
+| [BroadcastTextID4](#broadcasttextid0-7) | mediumint | signed |  | NO | 0 |  |  |
+| [lang4](#lang0-7) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Probability4](#probability0-7) | float |  |  | NO | 0 |  |  |
+| [EmoteDelay4_0](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote4_0](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay4_1](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote4_1](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay4_2](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote4_2](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [text5_0](#text0-7_0) | longtext |  |  | YES | NULL |  |  |
+| [text5_1](#text0-7_1) | longtext |  |  | YES | NULL |  |  |
+| [BroadcastTextID5](#broadcasttextid0-7) | mediumint | signed |  | NO | 0 |  |  |
+| [lang5](#lang0-7) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Probability5](#probability0-7) | float |  |  | NO | 0 |  |  |
+| [EmoteDelay5_0](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote5_0](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay5_1](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote5_1](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay5_2](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote5_2](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [text6_0](#text0-7_0) | longtext |  |  | YES | NULL |  |  |
+| [text6_1](#text0-7_1) | longtext |  |  | YES | NULL |  |  |
+| [BroadcastTextID6](#broadcasttextid0-7) | mediumint | signed |  | NO | 0 |  |  |
+| [lang6](#lang0-7) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Probability6](#probability0-7) | float |  |  | NO | 0 |  |  |
+| [EmoteDelay6_0](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote6_0](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay6_1](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote6_1](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay6_2](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote6_2](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [text7_0](#text0-7_0) | longtext |  |  | YES | NULL |  |  |
+| [text7_1](#text0-7_1) | longtext |  |  | YES | NULL |  |  |
+| [BroadcastTextID7](#broadcasttextid0-7) | mediumint | signed |  | NO | 0 |  |  |
+| [lang7](#lang0-7) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Probability7](#probability0-7) | float |  |  | NO | 0 |  |  |
+| [EmoteDelay7_0](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote7_0](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay7_1](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote7_1](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay7_2](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote7_2](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -152,7 +152,7 @@ The delay in milliseconds after which the next emote can be played.
 &nbsp;
 
 ### Emote\[0-7]_\[0-2]
-The [Emote ID](/files/DBC/335/emotes#id) that the NPC should do when displaying the text. The emotes are played after each other in order (0 - 2).
+The [Emote ID](/files/DBC/335/emotes#id) that the NPC should do when displaying the text. The emotes are played after each other in order (0 &ndash; 2).
 &nbsp;
 
 ### VerifiedBuild
