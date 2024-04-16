@@ -1,8 +1,8 @@
 ---
 title: pet_spell
-description:
+description: 
 published: true
-date: 2023-08-01T17:17:49.845Z
+date: 2024-04-16T19:55:40.165Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:01:53.626Z
@@ -33,7 +33,7 @@ The [Spell ID](/files/DBC/335/spell#id) known to this pet.
 &nbsp;
 
 ### active
-`enum ActiveStates`
+[`enum ActiveStates`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Unit/UnitDefines.h#L396-L404)
 | Value | Flag | Name | Comment |
 |-------|------|------|---------|
 | 1 | 0x01 | ACT_PASSIVE | 0x01 - passive |
