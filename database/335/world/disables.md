@@ -1,8 +1,8 @@
 ---
 title: disables
-description:
+description: 
 published: true
-date: 2023-07-09T14:30:20.588Z
+date: 2024-04-16T16:59:41.347Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:04:12.118Z
@@ -53,13 +53,16 @@ This table is used to disable dungeons/bgs/spells/etc.
 &nbsp;
 
 ### flags
-_sourceType: DISABLE_TYPE_SPELL_
+Depending on **sourceType**. `0` if not specified otherwise.
+
+### Tabset {.tabset}
+#### DISABLE_TYPE_SPELL
 | Value | Flag | Name | Comment |
 |-------|------|------|---------|
 | 1 | 0x0001 | SPELL_DISABLE_PLAYER | Spell disabled for players |
 | 2 | 0x0002 | SPELL_DISABLE_CREATURE | Spell disabled for creatures |
 | 4 | 0x0004 | SPELL_DISABLE_PET | Spell disabled for pets |
-| 8 | 0x0008 | SPELL_DISABLE_DEPRECATED_SPELL | Spell completely disabled (used for no logner existing spells in DBCs) |
+| 8 | 0x0008 | SPELL_DISABLE_DEPRECATED_SPELL | Spell completely disabled (used for no longer existing spells in DBCs) |
 | 16 | 0x0010 | SPELL_DISABLE_MAP | Spell disabled for MapId |
 | 32 | 0x0020 | SPELL_DISABLE_AREA | Spell disabled for AreaId |
 | 64 | 0x0040 | SPELL_DISABLE_LOS | Line of Sight (LOS) is disabled for this spell (replaces "vmap.ignoreSpellIds" config option) |
@@ -68,8 +71,7 @@ _sourceType: DISABLE_TYPE_SPELL_
 | 512 | 0x0200 | SPELL_DISABLE_BATTLEGROUNDS | Spell disabled in battlegrounds |
 {.dense}
 
-&nbsp;
-_sourceType: DISABLE_TYPE_MAP:_
+#### DISABLE_TYPE_MAP
 Specifies what mode of the map is disabled (5man/10man/heroic/etc).
 | Value | Flag | Name |
 |-------|------|------|
@@ -83,8 +85,7 @@ Specifies what mode of the map is disabled (5man/10man/heroic/etc).
 | 8 | 0x08 | RAID_STATUSFLAG_25MAN_HEROIC |
 {.dense}
 
-&nbsp;
-_sourceType: DISABLE_TYPE_VMAP:_
+#### DISABLE_TYPE_VMAP
 Specifies what part of the vMap system should be disabled on which map.
 | Value | Flag | Name |
 |-------|------|------|
@@ -93,9 +94,7 @@ Specifies what part of the vMap system should be disabled on which map.
 | 4 | 0x04 | VMAP_DISABLE_LOS |
 | 8 | 0x08 | VMAP_LIQUIDSTATUS |
 {.dense}
-
-_other sourceTypes:_
-* `flags = 0`
+### EndTabset {.tabset}
 &nbsp;
 
 ### params_0
