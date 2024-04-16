@@ -1,8 +1,8 @@
 ---
 title: spell_proc
-description:
+description: 
 published: true
-date: 2023-07-23T01:00:27.357Z
+date: 2024-04-16T18:19:43.343Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:48.676Z
@@ -19,9 +19,9 @@ This table holds information on what events (or procs) certain spells are activa
 | [SpellId](#spellid) | int | signed | PRI | NO | 0 |  |  |
 | [SchoolMask](#schoolmask) | tinyint | unsigned |  | NO | 0 |  |  |
 | [SpellFamilyName](#spellfamilyname) | smallint | unsigned |  | NO | 0 |  |  |
-| [SpellFamilyMask0](#spellfamilymask[0-2]) | int | unsigned |  | NO | 0 |  |  |
-| [SpellFamilyMask1](#spellfamilymask[0-2]) | int | unsigned |  | NO | 0 |  |  |
-| [SpellFamilyMask2](#spellfamilymask[0-2]) | int | unsigned |  | NO | 0 |  |  |
+| [SpellFamilyMask0](#spellfamilymask0-2) | int | unsigned |  | NO | 0 |  |  |
+| [SpellFamilyMask1](#spellfamilymask0-2) | int | unsigned |  | NO | 0 |  |  |
+| [SpellFamilyMask2](#spellfamilymask0-2) | int | unsigned |  | NO | 0 |  |  |
 | [ProcFlags](#procflags) | int | unsigned |  | NO | 0 |  |  |
 | [SpellTypeMask](#spelltypemask) | int | unsigned |  | NO | 0 |  |  |
 | [SpellPhaseMask](#spellphasemask) | int | unsigned |  | NO | 0 |  |  |
