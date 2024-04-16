@@ -2,7 +2,7 @@
 title: item_template
 description: 
 published: true
-date: 2024-02-14T19:06:27.834Z
+date: 2024-04-16T17:52:37.791Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:06:11.793Z
@@ -45,26 +45,26 @@ Holds information on every item that exists in the game. All items are created f
 | [stackable](#stackable) | int | signed |  | YES | 1 |  |  |
 | [ContainerSlots](#containerslots) | tinyint | unsigned |  | NO | 0 |  |  |
 | [StatsCount](#statscount) | tinyint | unsigned |  | NO | 0 |  |  |
-| [stat_type1](#stat_type[1-10]) | tinyint | unsigned |  | NO | 0 |  |  |
-| [stat_value1](#stat_value[1-10]) | smallint | signed |  | NO | 0 |  |  |
-| [stat_type2](#stat_type[1-10]) | tinyint | unsigned |  | NO | 0 |  |  |
-| [stat_value2](#stat_value[1-10]) | smallint | signed |  | NO | 0 |  |  |
-| [stat_type3](#stat_type[1-10]) | tinyint | unsigned |  | NO | 0 |  |  |
-| [stat_value3](#stat_value[1-10]) | smallint | signed |  | NO | 0 |  |  |
-| [stat_type4](#stat_type[1-10]) | tinyint | unsigned |  | NO | 0 |  |  |
-| [stat_value4](#stat_value[1-10]) | smallint | signed |  | NO | 0 |  |  |
-| [stat_type5](#stat_type[1-10]) | tinyint | unsigned |  | NO | 0 |  |  |
-| [stat_value5](#stat_value[1-10]) | smallint | signed |  | NO | 0 |  |  |
-| [stat_type6](#stat_type[1-10]) | tinyint | unsigned |  | NO | 0 |  |  |
-| [stat_value6](#stat_value[1-10]) | smallint | signed |  | NO | 0 |  |  |
-| [stat_type7](#stat_type[1-10]) | tinyint | unsigned |  | NO | 0 |  |  |
-| [stat_value7](#stat_value[1-10]) | smallint | signed |  | NO | 0 |  |  |
-| [stat_type8](#stat_type[1-10]) | tinyint | unsigned |  | NO | 0 |  |  |
-| [stat_value8](#stat_value[1-10]) | smallint | signed |  | NO | 0 |  |  |
-| [stat_type9](#stat_type[1-10]) | tinyint | unsigned |  | NO | 0 |  |  |
-| [stat_value9](#stat_value[1-10]) | smallint | signed |  | NO | 0 |  |  |
-| [stat_type10](#stat_type1[1-10]) | tinyint | unsigned |  | NO | 0 |  |  |
-| [stat_value10](#stat_value1[1-10]) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type1](#stat_type1-10) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value1](#stat_value1-10) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type2](#stat_type1-10) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value2](#stat_value1-10) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type3](#stat_type1-10) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value3](#stat_value1-10) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type4](#stat_type1-10) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value4](#stat_value1-10) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type5](#stat_type1-10) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value5](#stat_value1-10) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type6](#stat_type1-10) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value6](#stat_value1-10) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type7](#stat_type1-10) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value7](#stat_value1-10) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type8](#stat_type1-10) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value8](#stat_value1-10) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type9](#stat_type1-10) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value9](#stat_value1-10) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type10](#stat_type11-10) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value10](#stat_value11-10) | smallint | signed |  | NO | 0 |  |  |
 | [ScalingStatDistribution](#scalingstatdistribution) | smallint | signed |  | NO | 0 |  |  |
 | [ScalingStatValue](#scalingstatvalue) | int | unsigned |  | NO | 0 |  |  |
 | [dmg_min1](#dmg_min1) | float |  |  | NO | 0 |  |  |
@@ -83,41 +83,41 @@ Holds information on every item that exists in the game. All items are created f
 | [delay](#delay) | smallint | unsigned |  | NO | 1000 |  |  |
 | [ammo_type](#ammo_type) | tinyint | unsigned |  | NO | 0 |  |  |
 | [RangedModRange](#rangedmodrange) | float |  |  | NO | 0 |  |  |
-| [spellid_1](#spellid_[1-5]) | mediumint | signed |  | NO | 0 |  |  |
-| [spelltrigger_1](#spelltrigger_[1-5]) | tinyint | unsigned |  | NO | 0 |  |  |
-| [spellcharges_1](#spellcharges_[1-5]) | smallint | signed |  | NO | 0 |  |  |
-| [spellppmRate_1](#spellppmrate_[1-5]) | float |  |  | NO | 0 |  |  |
-| [spellcooldown_1](#spellcooldown_[1-5]) | int | signed |  | NO | -1 |  |  |
-| [spellcategory_1](#spellcategory_[1-5]) | smallint | unsigned |  | NO | 0 |  |  |
-| [spellcategorycooldown_1](#spellcategorycooldown_[1-5]) | int | signed |  | NO | -1 |  |  |
-| [spellid_2](#spellid_[1-5]) | mediumint | signed |  | NO | 0 |  |  |
-| [spelltrigger_2](#spelltrigger_[1-5]) | tinyint | unsigned |  | NO | 0 |  |  |
-| [spellcharges_2](#spellcharges_[1-5]) | smallint | signed |  | NO | 0 |  |  |
-| [spellppmRate_2](#spellppmrate_[1-5]) | float |  |  | NO | 0 |  |  |
-| [spellcooldown_2](#spellcooldown_[1-5]) | int | signed |  | NO | -1 |  |  |
-| [spellcategory_2](#spellcategory_[1-5]) | smallint | unsigned |  | NO | 0 |  |  |
-| [spellcategorycooldown_2](#spellcategorycooldown_[1-5]) | int | signed |  | NO | -1 |  |  |
-| [spellid_3](#spellid_[1-5]) | mediumint | signed |  | NO | 0 |  |  |
-| [spelltrigger_3](#spelltrigger_[1-5]) | tinyint | unsigned |  | NO | 0 |  |  |
-| [spellcharges_3](#spellcharges_[1-5]) | smallint | signed |  | NO | 0 |  |  |
-| [spellppmRate_3](#spellppmrate_[1-5]) | float |  |  | NO | 0 |  |  |
-| [spellcooldown_3](#spellcooldown_[1-5]) | int | signed |  | NO | -1 |  |  |
-| [spellcategory_3](#spellcategory_[1-5]) | smallint | unsigned |  | NO | 0 |  |  |
-| [spellcategorycooldown_3](#spellcategorycooldown_[1-5]) | int | signed |  | NO | -1 |  |  |
-| [spellid_4](#spellid_[1-5]) | mediumint | signed |  | NO | 0 |  |  |
-| [spelltrigger_4](#spelltrigger_[1-5]) | tinyint | unsigned |  | NO | 0 |  |  |
-| [spellcharges_4](#spellcharges_[1-5]) | smallint | signed |  | NO | 0 |  |  |
-| [spellppmRate_4](#spellppmrate_[1-5]) | float |  |  | NO | 0 |  |  |
-| [spellcooldown_4](#spellcooldown_[1-5]) | int | signed |  | NO | -1 |  |  |
-| [spellcategory_4](#spellcategory_[1-5]) | smallint | unsigned |  | NO | 0 |  |  |
-| [spellcategorycooldown_4](#spellcategorycooldown_[1-5]) | int | signed |  | NO | -1 |  |  |
-| [spellid_5](#spellid_[1-5]) | mediumint | signed |  | NO | 0 |  |  |
-| [spelltrigger_5](#spelltrigger_[1-5]) | tinyint | unsigned |  | NO | 0 |  |  |
-| [spellcharges_5](#spellcharges_[1-5]) | smallint | signed |  | NO | 0 |  |  |
-| [spellppmRate_5](#spellppmrate_[1-5]) | float |  |  | NO | 0 |  |  |
-| [spellcooldown_5](#spellcooldown_[1-5]) | int | signed |  | NO | -1 |  |  |
-| [spellcategory_5](#spellcategory_[1-5]) | smallint | unsigned |  | NO | 0 |  |  |
-| [spellcategorycooldown_5](#spellcategorycooldown_[1-5]) | int | signed |  | NO | -1 |  |  |
+| [spellid_1](#spellid_1-5) | mediumint | signed |  | NO | 0 |  |  |
+| [spelltrigger_1](#spelltrigger_1-5) | tinyint | unsigned |  | NO | 0 |  |  |
+| [spellcharges_1](#spellcharges_1-5) | smallint | signed |  | NO | 0 |  |  |
+| [spellppmRate_1](#spellppmrate_1-5) | float |  |  | NO | 0 |  |  |
+| [spellcooldown_1](#spellcooldown_1-5) | int | signed |  | NO | -1 |  |  |
+| [spellcategory_1](#spellcategory_1-5) | smallint | unsigned |  | NO | 0 |  |  |
+| [spellcategorycooldown_1](#spellcategorycooldown_1-5) | int | signed |  | NO | -1 |  |  |
+| [spellid_2](#spellid_1-5) | mediumint | signed |  | NO | 0 |  |  |
+| [spelltrigger_2](#spelltrigger_1-5) | tinyint | unsigned |  | NO | 0 |  |  |
+| [spellcharges_2](#spellcharges_1-5) | smallint | signed |  | NO | 0 |  |  |
+| [spellppmRate_2](#spellppmrate_1-5) | float |  |  | NO | 0 |  |  |
+| [spellcooldown_2](#spellcooldown_1-5) | int | signed |  | NO | -1 |  |  |
+| [spellcategory_2](#spellcategory_1-5) | smallint | unsigned |  | NO | 0 |  |  |
+| [spellcategorycooldown_2](#spellcategorycooldown_1-5) | int | signed |  | NO | -1 |  |  |
+| [spellid_3](#spellid_1-5) | mediumint | signed |  | NO | 0 |  |  |
+| [spelltrigger_3](#spelltrigger_1-5) | tinyint | unsigned |  | NO | 0 |  |  |
+| [spellcharges_3](#spellcharges_1-5) | smallint | signed |  | NO | 0 |  |  |
+| [spellppmRate_3](#spellppmrate_1-5) | float |  |  | NO | 0 |  |  |
+| [spellcooldown_3](#spellcooldown_1-5) | int | signed |  | NO | -1 |  |  |
+| [spellcategory_3](#spellcategory_1-5) | smallint | unsigned |  | NO | 0 |  |  |
+| [spellcategorycooldown_3](#spellcategorycooldown_1-5) | int | signed |  | NO | -1 |  |  |
+| [spellid_4](#spellid_1-5) | mediumint | signed |  | NO | 0 |  |  |
+| [spelltrigger_4](#spelltrigger_1-5) | tinyint | unsigned |  | NO | 0 |  |  |
+| [spellcharges_4](#spellcharges_1-5) | smallint | signed |  | NO | 0 |  |  |
+| [spellppmRate_4](#spellppmrate_1-5) | float |  |  | NO | 0 |  |  |
+| [spellcooldown_4](#spellcooldown_1-5) | int | signed |  | NO | -1 |  |  |
+| [spellcategory_4](#spellcategory_1-5) | smallint | unsigned |  | NO | 0 |  |  |
+| [spellcategorycooldown_4](#spellcategorycooldown_1-5) | int | signed |  | NO | -1 |  |  |
+| [spellid_5](#spellid_1-5) | mediumint | signed |  | NO | 0 |  |  |
+| [spelltrigger_5](#spelltrigger_1-5) | tinyint | unsigned |  | NO | 0 |  |  |
+| [spellcharges_5](#spellcharges_1-5) | smallint | signed |  | NO | 0 |  |  |
+| [spellppmRate_5](#spellppmrate_1-5) | float |  |  | NO | 0 |  |  |
+| [spellcooldown_5](#spellcooldown_1-5) | int | signed |  | NO | -1 |  |  |
+| [spellcategory_5](#spellcategory_1-5) | smallint | unsigned |  | NO | 0 |  |  |
+| [spellcategorycooldown_5](#spellcategorycooldown_1-5) | int | signed |  | NO | -1 |  |  |
 | [bonding](#bonding) | tinyint | unsigned |  | NO | 0 |  |  |
 | [description](#description) | varchar(255) |  |  | NO | '' |  |  |
 | [PageText](#pagetext) | mediumint | unsigned |  | NO | 0 |  |  |
@@ -136,12 +136,12 @@ Holds information on every item that exists in the game. All items are created f
 | [Map](#map) | smallint | signed |  | NO | 0 |  |  |
 | [BagFamily](#bagfamily) | mediumint | signed |  | NO | 0 |  |  |
 | [TotemCategory](#totemcategory) | mediumint | signed |  | NO | 0 |  |  |
-| [socketColor_1](#socketcolor_[1-3]) | tinyint | signed |  | NO | 0 |  |  |
-| [socketContent_1](#socketcontent_[1-3]) | mediumint | signed |  | NO | 0 |  |  |
-| [socketColor_2](#socketcolor_[1-3]) | tinyint | signed |  | NO | 0 |  |  |
-| [socketContent_2](#socketcontent_[1-3]) | mediumint | signed |  | NO | 0 |  |  |
-| [socketColor_3](#socketcolor_[1-3]) | tinyint | signed |  | NO | 0 |  |  |
-| [socketContent_3](#socketcontent_[1-3]) | mediumint | signed |  | NO | 0 |  |  |
+| [socketColor_1](#socketcolor_1-3) | tinyint | signed |  | NO | 0 |  |  |
+| [socketContent_1](#socketcontent_1-3) | mediumint | signed |  | NO | 0 |  |  |
+| [socketColor_2](#socketcolor_1-3) | tinyint | signed |  | NO | 0 |  |  |
+| [socketContent_2](#socketcontent_1-3) | mediumint | signed |  | NO | 0 |  |  |
+| [socketColor_3](#socketcolor_1-3) | tinyint | signed |  | NO | 0 |  |  |
+| [socketContent_3](#socketcontent_1-3) | mediumint | signed |  | NO | 0 |  |  |
 | [socketBonus](#socketbonus) | mediumint | signed |  | NO | 0 |  |  |
 | [GemProperties](#gemproperties) | mediumint | signed |  | NO | 0 |  |  |
 | [RequiredDisenchantSkill](#requireddisenchantskill) | smallint | signed |  | NO | -1 |  |  |
@@ -251,14 +251,14 @@ Each model has its own icon assigned so this field controls both the model appea
 The quality of the item. To use the Bind to Account quality, the item must have `0x08000000` added to it's flags.
 | ID | Color | Name |
 |----|-------|------|
-| 0 | Grey | Poor |
-| 1 | White | Common |
-| 2 | Green | Uncommon |
-| 3 | Blue | Rare |
-| 4 | Purple | Epic |
-| 5 | Orange | Legendary |
-| 6 | Red | Artifact |
-| 7 | Gold | Bind to Account |
+| 0 | <div style="padding:2px 5px; color:#9d9d9d; background-color:#000;">**Grey**</div> | Poor |
+| 1 | <div style="padding:2px 5px; color:#fff; background-color:#000;">**White**</div> | Common |
+| 2 | <div style="padding:2px 5px; color:#1eff00; background-color:#000;">**Green**</div> | Uncommon |
+| 3 | <div style="padding:2px 5px; color:#0070dd; background-color:#000;">**Blue**</div> | Rare |
+| 4 | <div style="padding:2px 5px; color:#a335ee; background-color:#000;">**Purple**</div> | Epic |
+| 5 | <div style="padding:2px 5px; color:#ff8000; background-color:#000;">**Orange**</div> | Legendary |
+| 6 | <div style="padding:2px 5px; color:#e5cc80; background-color:#000;">**Gold**</div> | Artifact |
+| 7 | <div style="padding:2px 5px; color:#e5cc80; background-color:#000;">**Gold**</div> | Bind to Account |
 {.dense}
 
 &nbsp;
@@ -819,10 +819,10 @@ excerpt
 The color of the socket on this item.
 | ID | Name |
 |----|------|
-| 1 | Meta |
-| 2 | Red |
-| 4 | Yellow |
-| 8 | Blue |
+| 1 | <div style="padding:2px 5px; color:#9D9D9D; background-color:#000;">**Meta**</div> |
+| 2 | <div style="padding:2px 5px; color:#e60c0b; background-color:#000;">**Red**</div> |
+| 4 | <div style="padding:2px 5px; color:#ffff35; background-color:#000;">**Yellow**</div> |
+| 8 | <div style="padding:2px 5px; color:#295df1; background-color:#000;">**Blue**</div> |
 {.dense}
 
 &nbsp;
