@@ -2,7 +2,7 @@
 title: gameobject_template
 description: 
 published: true
-date: 2024-04-16T13:45:44.032Z
+date: 2024-04-17T00:23:52.575Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:05:30.524Z
@@ -153,7 +153,7 @@ The content of the Data fields depends on the gameobject **type**.
 Fields denoted as *unused* aren't further handled by the core but just sent to the client as is.
 
 ### Tabset {.tabset}
-#### type: 0
+#### type:&nbsp;0 Door
 **GAMEOBJECT_TYPE_DOOR**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -167,7 +167,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 7 | conditionID1 | 0 | unused |
 {.dense}
 
-#### type: 1
+#### type:&nbsp;1 Button
 **GAMEOBJECT_TYPE_BUTTON**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -183,7 +183,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 9 | conditionID1 | 0 | unused |
 {.dense}
 
-#### type: 2
+#### type:&nbsp;2 Questgiver
 **GAMEOBJECT_TYPE_QUESTGIVER**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -200,7 +200,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 10 | conditionID1 | 0 | unused |
 {.dense}
 
-#### type: 3
+#### type:&nbsp;3 Chest
 **GAMEOBJECT_TYPE_CHEST**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -224,12 +224,12 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 17 | conditionID1 | 0 | unused |
 {.dense}
 
-#### type: 4
+#### type:&nbsp;4 Binder
 **GAMEOBJECT_TYPE_BINDER**
 *no data set*
 {.dense}
 
-#### type: 5
+#### type:&nbsp;5 Generic
 **GAMEOBJECT_TYPE_GENERIC**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -242,7 +242,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 6 | conditionID1 | 0 | unused |
 {.dense}
 
-#### type: 6
+#### type:&nbsp;6 Trap
 **GAMEOBJECT_TYPE_TRAP**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -264,7 +264,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 15 | conditionID1 | 0 | unused |
 {.dense}
 
-#### type: 7
+#### type:&nbsp;7 Chair
 **GAMEOBJECT_TYPE_CHAIR**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -275,7 +275,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 4 | conditionID1 | 0 | unused |
 {.dense}
 
-#### type: 8
+#### type:&nbsp;8 SpellFocus
 **GAMEOBJECT_TYPE_SPELL_FOCUS**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -290,7 +290,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 8 | conditionID1 | 0 | unused |
 {.dense}
 
-#### type: 9
+#### type:&nbsp;9 Text
 **GAMEOBJECT_TYPE_TEXT**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -301,7 +301,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 4 | conditionID1 | 0 | unused |
 {.dense}
 
-#### type: 10
+#### type:&nbsp;10 Goober
 **GAMEOBJECT_TYPE_GOOBER**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -330,7 +330,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 22 | conditionID1 | 0 | unused |
 {.dense}
 
-#### type: 11
+#### type:&nbsp;11 Transport
 **GAMEOBJECT_TYPE_TRANSPORT**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -342,7 +342,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 5 | mapID | [Map ID](/files/DBC/335/map#id) | unused; MO-Transports are their own maps |
 {.dense}
 
-#### type: 12
+#### type:&nbsp;12 AreaDamage
 **GAMEOBJECT_TYPE_AREADAMAGE**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -356,7 +356,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 7 | closeTextID | unknown TextID | unused |
 {.dense}
 
-#### type: 13
+#### type:&nbsp;13 Camera
 **GAMEOBJECT_TYPE_CAMERA**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -367,12 +367,12 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 4 | conditionID1 | 0 | unused |
 {.dense}
 
-#### type: 14
+#### type:&nbsp;14 MapObject
 **GAMEOBJECT_TYPE_MAP_OBJECT**
 *no data set*
 {.dense}
 
-#### type: 15
+#### type:&nbsp;15 MOTransport
 **GAMEOBJECT_TYPE_MO_TRANSPORT**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -387,17 +387,17 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 8 | canBeStopped | 0, 1 |  |
 {.dense}
 
-#### type: 16
+#### type:&nbsp;16 DuelArbiter
 **GAMEOBJECT_TYPE_DUEL_ARBITER**
 *no data set*
 {.dense}
 
-#### type: 17
+#### type:&nbsp;17 FishingNode
 **GAMEOBJECT_TYPE_FISHINGNODE**
 *no data set*
 {.dense}
 
-#### type: 18
+#### type:&nbsp;18 Ritual
 **GAMEOBJECT_TYPE_SUMMONING_RITUAL**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -412,19 +412,19 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 8 | conditionID1 | 0 | unused |
 {.dense}
 
-#### type: 19
+#### type:&nbsp;19 Mailbox
 **GAMEOBJECT_TYPE_MAILBOX**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | conditionID1 | 0 | unused |
 {.dense}
 
-#### type: 20
+#### type:&nbsp;20 :x:&nbsp;UNUSED
 **GAMEOBJECT_TYPE_DO_NOT_USE**
 *no data set*
 {.dense}
 
-#### type: 21
+#### type:&nbsp;21 GuardPost
 **GAMEOBJECT_TYPE_GUARDPOST**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -432,7 +432,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 1 | charges |  | max. number of uses |
 {.dense}
 
-#### type: 22
+#### type:&nbsp;22 SpellCaster
 **GAMEOBJECT_TYPE_SPELLCASTER**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -444,7 +444,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 5 | conditionID1 | 0 | unused |
 {.dense}
 
-#### type: 23
+#### type:&nbsp;23 MeetingStone
 **GAMEOBJECT_TYPE_MEETINGSTONE**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -453,7 +453,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 2 | areaID | [AreaTable ID](/files/DBC/335/areatable#id) | unused; |
 {.dense}
 
-#### type: 24
+#### type:&nbsp;24 FlagStand
 **GAMEOBJECT_TYPE_FLAGSTAND**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -468,7 +468,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 8 | conditionID1 | 0 | unused |
 {.dense}
 
-#### type: 25
+#### type:&nbsp;25 FishingHole
 **GAMEOBJECT_TYPE_FISHINGHOLE**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -479,7 +479,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 4 | lockId | [Lock ID](/files/DBC/335/lock#id) | possibly 1628 for all? |
 {.dense}
 
-#### type: 26
+#### type:&nbsp;26 FlagDrop
 **GAMEOBJECT_TYPE_FLAGDROP**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -490,19 +490,19 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 4 | openTextID | unknown TextID | unused; can be used to replace castBarCaption? |
 {.dense}
 
-#### type: 27
+#### type:&nbsp;27 MiniGame
 **GAMEOBJECT_TYPE_MINI_GAME**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | gameType |  | unused |
 {.dense}
 
-#### type: 28
+#### type:&nbsp;28 :x:&nbsp;UNUSED2
 **GAMEOBJECT_TYPE_DO_NOT_USE_2**
 *no data set*
 {.dense}
 
-#### type: 29
+#### type:&nbsp;29 CapturePoint
 **GAMEOBJECT_TYPE_CAPTURE_POINT**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -530,7 +530,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 21 | unidirectional | 0 | unused |
 {.dense}
 
-#### type: 30
+#### type:&nbsp;30 AuraGen
 **GAMEOBJECT_TYPE_AURA_GENERATOR**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -543,7 +543,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 6 | serverOnly | 0, 1 | not visible in client |
 {.dense}
 
-#### type: 31
+#### type:&nbsp;31 Difficulty
 **GAMEOBJECT_TYPE_DUNGEON_DIFFICULTY**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -551,7 +551,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 1 | difficulty | 0 — 3 | [`enum Difficulty`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/DataStores/DBCEnums.h) |
 {.dense}
 
-#### type: 32
+#### type:&nbsp;32 BarberChair
 **GAMEOBJECT_TYPE_BARBER_CHAIR**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -559,7 +559,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 1 | heightOffset | 0 | unused |
 {.dense}
 
-#### type: 33
+#### type:&nbsp;33 Destructible
 **GAMEOBJECT_TYPE_DESTRUCTIBLE_BUILDING**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -589,14 +589,14 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 23 | empty14 |  | unused |
 {.dense}
 
-#### type: 34
+#### type:&nbsp;34 GuildBank
 **GAMEOBJECT_TYPE_GUILD_BANK**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | conditionID1 | 0 | unused |
 {.dense}
 
-#### type: 35
+#### type:&nbsp;35 Trapdoor
 **GAMEOBJECT_TYPE_TRAPDOOR**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
@@ -605,6 +605,8 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 2 | autoClose | 0 | unused |
 {.dense}
 
+### EndTabset {.tabset}
+&nbsp;
 
 ### AIName
 This field is overridden by ScriptName field if both are set.
