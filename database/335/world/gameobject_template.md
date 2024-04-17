@@ -2,7 +2,7 @@
 title: gameobject_template
 description: 
 published: true
-date: 2024-04-17T00:23:52.575Z
+date: 2024-04-17T00:26:57.620Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:05:30.524Z
@@ -419,7 +419,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 0 | conditionID1 | 0 | unused |
 {.dense}
 
-#### type:&nbsp;20 :x:&nbsp;UNUSED
+#### type:&nbsp;20 ❌&nbsp;UNUSED
 **GAMEOBJECT_TYPE_DO_NOT_USE**
 *no data set*
 {.dense}
@@ -497,7 +497,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 0 | gameType |  | unused |
 {.dense}
 
-#### type:&nbsp;28 :x:&nbsp;UNUSED2
+#### type:&nbsp;28 ❌&nbsp;UNUSED2
 **GAMEOBJECT_TYPE_DO_NOT_USE_2**
 *no data set*
 {.dense}
