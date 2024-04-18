@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2024-04-18T21:33:50.089Z
+date: 2024-04-18T21:35:30.402Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:09.695Z
@@ -854,7 +854,7 @@ valid for **source_type**
 |--|--|
 | 0 | SMART_SCRIPT_TYPE_CREATURE |
 {.dense}
-#### SAI-Init (37)
+#### InitSAI (37)
 SmartScript::OnInitialize()
 * **event_type**:
 SMART_EVENT_AI_INIT (37)
