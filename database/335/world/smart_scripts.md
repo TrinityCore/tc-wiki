@@ -1,8 +1,8 @@
 ---
 title: smart_scripts
-description:
+description: 
 published: true
-date: 2023-07-18T14:51:59.828Z
+date: 2024-04-18T21:33:50.089Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:09.695Z
@@ -18,15 +18,15 @@ dateCreated: 2021-08-30T22:09:09.695Z
 | [source_type](#source_type) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [id](#id) | smallint | unsigned | PRI | NO | 0 |  |  |
 | [link](#link) | smallint | unsigned | PRI | NO | 0 |  |  |
-| [event_type](#event_type) | tinyint | unsigned |  | NO | 0 |  |  |
+| [event_type](#event) | tinyint | unsigned |  | NO | 0 |  |  |
 | [event_phase_mask](#event_phase_mask) | smallint | unsigned |  | NO | 0 |  |  |
 | [event_chance](#event_chance) | tinyint | unsigned |  | NO | 100 |  |  |
 | [event_flags](#event_flags) | smallint | unsigned |  | NO | 0 |  |  |
-| [event_param1](#event_type) | int | unsigned |  | NO | 0 |  |  |
-| [event_param2](#event_type) | int | unsigned |  | NO | 0 |  |  |
-| [event_param3](#event_type) | int | unsigned |  | NO | 0 |  |  |
-| [event_param4](#event_type) | int | unsigned |  | NO | 0 |  |  |
-| [event_param5](#event_type) | int | unsigned |  | NO | 0 |  |  |
+| [event_param1](#event) | int | unsigned |  | NO | 0 |  |  |
+| [event_param2](#event) | int | unsigned |  | NO | 0 |  |  |
+| [event_param3](#event) | int | unsigned |  | NO | 0 |  |  |
+| [event_param4](#event) | int | unsigned |  | NO | 0 |  |  |
+| [event_param5](#event) | int | unsigned |  | NO | 0 |  |  |
 | [action_type](#action_type) | tinyint | unsigned |  | NO | 0 |  |  |
 | [action_param1](#action_type) | int | unsigned |  | NO | 0 |  |  |
 | [action_param2](#action_type) | int | unsigned |  | NO | 0 |  |  |
@@ -89,98 +89,1770 @@ Simple event linking;
 Example: if **id** = 0 and **link** = 1; **id** 1 will only be able to occur if **id** = 0 was triggered.
 &nbsp;
 
-### event_type
-| ID | Name | event_param1 | event_param2 | event_param3 | event_param4 | event_param5 | valid source_types | Comment |
-|----|------|--------|---------|---------|---------|---------|-------------------|---------|
-| 0 | SMART_EVENT_UPDATE_IC | InitialMin |  InitialMax |  RepeatMin |  RepeatMax |  | 0 + 9 | Update in combat. |
-| 1 | SMART_EVENT_UPDATE_OOC | InitialMin |  InitialMax |  RepeatMin |  RepeatMax |  | 0 + 1 + 8 | Update out of combat. |
-| 2 | SMART_EVENT_HEALTH_PCT | HPMin% |  HPMax% |   RepeatMin |  RepeatMax |  | 0 | Health Percentage |
-| 3 | SMART_EVENT_MANA_PCT | ManaMin% |  ManaMax% |  RepeatMin |  RepeatMax |  | 0 | Mana Percentage |
-| 4 | SMART_EVENT_AGGRO |  |  |  |  |  | 0 | On Creature Aggro |
-| 5 | SMART_EVENT_KILL | CooldownMin | CooldownMax | Player only (0/1) | [creature entry](../world/creature_template#entry) (if param3 is 0) |  | 0 | On Creature Kill |
-| 6 | SMART_EVENT_DEATH |  |  |  |  |  | 0 | On Creature Death |
-| 7 | SMART_EVENT_EVADE |  |  |  |  |  | 0 | On Creature Enter Evade Mode |
-| 8 | SMART_EVENT_SPELLHIT | [Spell ID](/files/DBC/335/spell#id) | [SchoolMask](#spellschoolmask) (0: any) | CooldownMin | CooldownMax |  | 0 + 1 | On Creature/Gameobject Spell Hit |
-| 9 | SMART_EVENT_RANGE | MinDist | MaxDist | RepeatMin | RepeatMax |  | 0 | On Target In Range |
-| 10 | SMART_EVENT_OOC_LOS | 0: Hostile<br>1: Not Hostile<br>2: Any | MaxRange | CooldownMin | CooldownMax |  | 0 | On Target In Distance Out of Combat |
-| 11 | SMART_EVENT_RESPAWN | type (None= 0, Map = 1, Area = 2) | [Map ID](/files/DBC/335/map#id) | [AreaTable ID](/files/DBC/335/areatable#id) |  |  | 0 + 1 | On Creature/Gameobject Respawn |
-| 12 | :x: SMART_EVENT_TARGET_HEALTH_PCT |  |  |  |  |  | 0 | UNUSED, DO NOT REUSE - On Target Health Percentage |
-| 13 | SMART_EVENT_VICTIM_CASTING | RepeatMin | RepeatMax | [Spell ID](/files/DBC/335/spell#id) (0: any) |  |  | 0 | On Target Casting Spell |
-| 14 | :x: SMART_EVENT_FRIENDLY_HEALTH |  |  |  |  |  | 0 | UNUSED, DO NOT REUSE - On Friendly Health Deficit |
-| 15 | SMART_EVENT_FRIENDLY_IS_CC | Radius | RepeatMin | RepeatMax |  |  | 0 | Feared, Charmed, Rooted, Stunned, Confused |
-| 16 | SMART_EVENT_FRIENDLY_MISSING_BUFF | [Spell ID](/files/DBC/335/spell#id) | Radius | RepeatMin | RepeatMax |  | 0 | On Friendly Lost Buff |
-| 17 | SMART_EVENT_SUMMONED_UNIT | [creature entry](..world/creature_template#entry) (0: any) | CooldownMin | CooldownMax |  |  | 0 + 1 | On Creature/Gameobject Summoned Unit |
-| 18 | :x: SMART_EVENT_TARGET_MANA_PCT |  |  |  |  |  | 0 | UNUSED, DO NOT REUSE - On Target Mana Percentage |
-| 19 | SMART_EVENT_ACCEPTED_QUEST | [quest ID](..world/quest_template#id) (0: any) | CooldownMin | CooldownMax |  |  | 0 + 1 | On Target Accepted Quest |
-| 20 | SMART_EVENT_REWARD_QUEST | [quest ID](..world/quest_template#id) (0: any) | CooldownMin | CooldownMax |  |  | 0 + 1 | On Target Rewarded Quest |
-| 21 | SMART_EVENT_REACHED_HOME |  |  |  |  |  | 0 | On Creature Reached Home Pos. |
-| 22 | SMART_EVENT_RECEIVE_EMOTE | [EmotesText ID](/files/DBC/335/emotestext#id) | CooldownMin | CooldownMax | condition |, val1, val2, val3  | 0 | On Receive Player Emote. |
-| 23 | SMART_EVENT_HAS_AURA | [Spell ID](/files/DBC/335/spell#id) | Stack amount | RepeatMin | RepeatMax |  | 0 | On Creature Has Aura |
-| 24 | SMART_EVENT_TARGET_BUFFED | [Spell ID](/files/DBC/335/spell#id) | Stack amount | RepeatMin | RepeatMax |  | 0 | On Target Buffed With Spell |
-| 25 | SMART_EVENT_RESET |  |  |  |  |  | 0 | Called after combat, when the creature respawn and spawn. |
-| 26 | SMART_EVENT_IC_LOS | 0: Hostile<br>1: Not Hostile<br>2: Any | MaxRange | CooldownMin | CooldownMax |  | 0 | On Target In Distance In Combat |
-| 27 | SMART_EVENT_PASSENGER_BOARDED | CooldownMin | CooldownMax |  |  |  | 0 | On Player/NPC Entered Creature (Vehicle) |
-| 28 | SMART_EVENT_PASSENGER_REMOVED | CooldownMin | CooldownMax |  |  |  | 0 | On Player/NPC Left Creature (Vehicle) |
-| 29 | SMART_EVENT_CHARMED | 0: onApply; 1: onRemove |  |  |  |  | 0 | On Creature Charmed |
-| 30 | :x: SMART_EVENT_CHARMED_TARGET |  |  |  |  |  | 0 | UNUSED, DO NOT REUSE - On Target Charmed |
-| 31 | SMART_EVENT_SPELLHIT_TARGET | [Spell ID](/files/DBC/335/spell#id) | [SchoolMask](#spellschoolmask) (0: any) | CooldownMin | CooldownMax |  | 0 | On Target Spell Hit |
-| 32 | SMART_EVENT_DAMAGED | MinDmg | MaxDmg | CooldownMin | CooldownMax |  | 0 | On Creature Damaged |
-| 33 | SMART_EVENT_DAMAGED_TARGET | MinDmg | MaxDmg | CooldownMin | CooldownMax |  | 0 | On Target Damaged |
-| 34 | SMART_EVENT_MOVEMENTINFORM | [MovementType](#movementtype) (0: any) | PointID |  |  |  | 0 |  |
-| 35 | SMART_EVENT_SUMMON_DESPAWNED | [creature entry](..world/creature_template#entry) | CooldownMin | CooldownMax |  |  | 0 + 1 | On Summoned Unit Despawned |
-| 36 | SMART_EVENT_CORPSE_REMOVED |  |  |  |  |  | 0 | On Creature Corpse Removed |
-| 37 | SMART_EVENT_AI_INIT |  |  |  |  |  | 0 + 1 | SmartScript::OnInitialize() |
-| 38 | SMART_EVENT_DATA_SET | FieldId | Value | CooldownMin | CooldownMax |  | 0 + 1 | On Creature/Gameobject Data Set (SMART_ACTION_SET_DATA) |
-| 39 | :x: SMART_EVENT_WAYPOINT_START |  |  |  |  |  | 0 | UNUSED, DO NOT REUSE - On Creature Waypoint ID Started |
-| 40 | SMART_EVENT_WAYPOINT_REACHED | PointId (0: any) | pathID (0: any) |  |  |  | 0 | On Creature Waypoint ID Reached |
-| 41 | :x: SMART_EVENT_TRANSPORT_ADDPLAYER |  |  |  |  |  | 7 | source_type unavailable |
-| 42 | :x: SMART_EVENT_TRANSPORT_ADDCREATURE | Entry (0: any) |  |  |  |  | 7 | source_type unavailable |
-| 43 | :x: SMART_EVENT_TRANSPORT_REMOVE_PLAYER |  |  |  |  |  | 7 | source_type unavailable |
-| 44 | :x: SMART_EVENT_TRANSPORT_RELOCATE | PointId |  |  |  |  | 7 | source_type unavailable |
-| 45 | :x: SMART_EVENT_INSTANCE_PLAYER_ENTER | Team (0: any) | CooldownMin | CooldownMax |  |  | 8 | source_type unavailable |
-| 46 | SMART_EVENT_AREATRIGGER_ONTRIGGER | [AreaTrigger ID](/files/DBC/335/areatrigger#id) (0: any) |  |  |  |  | 2 |  |
-| 47 | :x: SMART_EVENT_QUEST_ACCEPTED |  |  |  |  |  | 5 | source_type unavailable - On Target Quest Accepted|
-| 48 | :x: SMART_EVENT_QUEST_OBJ_COMPLETION |  |  |  |  |  | 5 | source_type unavailable - On Target Quest Objective Completed |
-| 49 | :x: SMART_EVENT_QUEST_COMPLETION |  |  |  |  |  | 5 | source_type unavailable - On Target Quest Completed |
-| 50 | :x: SMART_EVENT_QUEST_REWARDED |  |  |  |  |  | 5 | source_type unavailable - On Target Quest Rewarded |
-| 51 | :x: SMART_EVENT_QUEST_FAIL |  |  |  |  |  | 5 | source_type unavailable - On Target Quest Failed |
-| 52 | SMART_EVENT_TEXT_OVER | [GroupId](../world/creature_text#groupid) | [creature entry](../world/creature_template#entry) who talks (0: any) |  |  |  | 0 + 1 | On TEXT_OVER Event Triggered After SMART_ACTION_TALK |
-| 53 | SMART_EVENT_RECEIVE_HEAL | MinHeal | MaxHeal | CooldownMin | CooldownMax |  | 0 | On Creature Received Healing |
-| 54 | SMART_EVENT_JUST_SUMMONED |  |  |  |  |  | 0 | On Creature Just spawned |
-| 55 | SMART_EVENT_WAYPOINT_PAUSED | PointId (0: any) | pathID (0: any) |  |  |  | 0 | On Creature Paused at Waypoint ID |
-| 56 | SMART_EVENT_WAYPOINT_RESUMED | PointId (0: any) | pathID (0: any) |  |  |  | 0 | On Creature Resumed after Waypoint ID |
-| 57 | SMART_EVENT_WAYPOINT_STOPPED | PointId (0: any) | pathID (0: any) |  |  |  | 0 | On Creature Stopped On Waypoint ID |
-| 58 | SMART_EVENT_WAYPOINT_ENDED | PointId (0: any) | pathID (0: any) |  |  |  | 0 | On Creature Waypoint Path Ended |
-| 59 | SMART_EVENT_TIMED_EVENT_TRIGGERED | id |  |  |  |  | 0 + 1 | On SMART_ACTION_TRIGGER_TIMED_EVENT (73) or<br> SMART_ACTION_TRIGGER_RANDOM_TIMED_EVENT (125) trigger |
-| 60 | SMART_EVENT_UPDATE | InitialMin | InitialMax | RepeatMin | RepeatMax |  | 0 + 1 | Update always. |
-| 61 | SMART_EVENT_LINK |  |  |  |  |  | < any > | requires another **link** to point at this entries **id**<br>Used to link together multiple events, does not use any extra resources to iterate event lists needlessly |
-| 62 | SMART_EVENT_GOSSIP_SELECT | [menuID](../world/gossip_menu_option#menuid) | [OptionID](../world/gossip_menu_option#optionid) |  |  |  | 0 + 1 |  |
-| 63 | SMART_EVENT_JUST_CREATED |  |  |  |  |  | 0 + 1 | ? same as SMART_EVENT_AI_INIT ? |
-| 64 | SMART_EVENT_GOSSIP_HELLO | noReportUse (for GOs)<br>0: onGossipHello and onReportUse (may trigger twice)<br>1: onGossipHello only<br>2: onReportUse only |  |  |  |  | 0 + 1 | On Right-Click Creature/Gameobject that have gossip enabled. |
-| 65 | SMART_EVENT_FOLLOW_COMPLETED |  |  |  |  |  | 0 | On Stop Following |
-| 66 | :x: SMART_EVENT_EVENT_PHASE_CHANGE |  |  |  |  |  | 0 + 1 | UNUSED, DO NOT REUSE - On event phase mask set |
-| 67 | :x: SMART_EVENT_IS_BEHIND_TARGET |  |  |  |  |  | 0 | UNUSED, DO NOT REUSE - On Creature is behind target. |
-| 68 | SMART_EVENT_GAME_EVENT_START | [game_event.eventEntry](../world/game_event#eventEntry) |  |  |  |  | 0 + 1 | On game_event started. |
-| 69 | SMART_EVENT_GAME_EVENT_END | [game_event.eventEntry](../world/game_event#eventEntry) |  |  |  |  | 0 + 1 | On game_event ended. |
-| 70 | SMART_EVENT_GO_LOOT_STATE_CHANGED | [LootState](#lootstate) |  |  |  |  | 1 |  |
-| 71 | SMART_EVENT_GO_EVENT_INFORM | eventId |  |  |  |  | 1 | event id from [gameobject template](../world/gameobject_template) |
-| 72 | SMART_EVENT_ACTION_DONE | eventId |  |  |  |  | 0 | manual values or [enum EventId](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L3336-L3350) passed by SmartAI::DoAction() |
-| 73 | SMART_EVENT_ON_SPELLCLICK |  |  |  |  |  | 0 |  |
-| 74 | SMART_EVENT_FRIENDLY_HEALTH_PCT | minHpPct | maxHpPct | repeatMin | repeatMax |  | 0 | 'friendly' determined by **target_type** |
-| 75 | SMART_EVENT_DISTANCE_CREATURE | [creature guid](../world/creature#guid) | [creature entry](..world/creature_template#entry) | distance | repeat |  | 0 | On creature guid OR any instance of creature entry is within distance. |
-| 76 | SMART_EVENT_DISTANCE_GAMEOBJECT | [gameobject guid](../world/gameobject#guid) | [gameobject entry](../world/gameobject_template#entry) | distance | repeat |  | 0 | On gameobject guid OR any instance of gameobject entry is within distance. |
-| 77 | SMART_EVENT_COUNTER_SET | counterId | value | cooldownMin | cooldownMax |  | 0 + 1 | after SMART_ACTION_SET_COUNTER (63), check if quantity of counterId is equal to value |
-| 78 | :x: SMART_EVENT_SCENE_START |  |  |  |  |  | 0 | don't use on 3.3.5a |
-| 79 | :x: SMART_EVENT_SCENE_TRIGGER |  |  |  |  |  | 0 | don't use on 3.3.5a |
-| 80 | :x: SMART_EVENT_SCENE_CANCEL |  |  |  |  |  | 0 | don't use on 3.3.5a |
-| 81 | :x: SMART_EVENT_SCENE_COMPLETE |  |  |  |  |  | 0 | don't use on 3.3.5a |
-| 82 | SMART_EVENT_SUMMONED_UNIT_DIES | [creature entry](..world/creature_template#entry) (0: any) | CooldownMin | CooldownMax |  |  | 0 + 1 |  |
-| 83 | SMART_EVENT_ON_SPELL_CAST | [Spell ID](/files/DBC/335/spell#id) | CooldownMin | CooldownMax |  |  | 0 | on Spell::cast |
-| 84 | SMART_EVENT_ON_SPELL_FAILED | [Spell ID](/files/DBC/335/spell#id) | CooldownMin | CooldownMax |  |  | 0 | on Unit::InterruptSpell |
-| 85 | SMART_EVENT_ON_SPELL_START | [Spell ID](/files/DBC/335/spell#id) | CooldownMin | CooldownMax |  |  | 0 | on Spell::prapare |
-| 86 | SMART_EVENT_ON_DESPAWN |  |  |  |  |  | 0 | On Before Creature Removed |
-{.dense}
+### event
+### Tabset {.tabset}
+#### UpdateIC (0)
+Update in combat.
+* **event_type**:
+SMART_EVENT_UPDATE_IC (0)
+* **event_param1**:
+InitialMin (in msec.)
+* **event_param2**:
+InitialMax (in msec.)
+* **event_param3**:
+RepeatMin (in msec.)
+* **event_param4**:
+RepeatMax (in msec.)
+* **event_param5**:
+`0`
 
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+| 9 | SMART_SCRIPT_TYPE_TIMED_ACTIONLIST |
+{.dense}
+#### UpdateOOC (1)
+Update out of combat.
+* **event_type**:
+SMART_EVENT_UPDATE_OOC (1)
+* **event_param1**:
+InitialMin (in msec.)
+* **event_param2**:
+InitialMax (in msec.)
+* **event_param3**:
+RepeatMin (in msec.)
+* **event_param4**:
+RepeatMax (in msec.)
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
+| 8 | SMART_SCRIPT_TYPE_INSTANCE |
+{.dense}
+#### HealthPct (2)
+Health Percentage
+* **event_type**:
+SMART_EVENT_HEALTH_PCT (2)
+* **event_param1**:
+HPMin%
+* **event_param2**:
+HPMax%
+* **event_param3**:
+RepeatMin (in msec.)
+* **event_param4**:
+RepeatMax (in msec.)
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### ManaPct (3)
+Mana Percentage
+* **event_type**:
+SMART_EVENT_MANA_PCT (3)
+* **event_param1**:
+ManaMin%
+* **event_param2**:
+ManaMax%
+* **event_param3**:
+RepeatMin (in msec.)
+* **event_param4**:
+RepeatMax (in msec.)
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### Aggro (4)
+On Creature Aggro
+* **event_type**:
+SMART_EVENT_AGGRO (4)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### Kill (5)
+On Creature/Player Kill
+* **event_type**:
+SMART_EVENT_KILL (5)
+* **event_param1**:
+CooldownMin (in msec.)
+* **event_param2**:
+CooldownMax (in msec.)
+* **event_param3**:
+Player only (`0`/`1`)
+* **event_param4**:
+if **event_param3** = 0: [creature entry](../world/creature_template#entry) (`0`: any)
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### Death (6)
+On Creature Death
+* **event_type**:
+SMART_EVENT_DEATH (6)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### Evade (7)
+On Creature Enter Evade Mode
+* **event_type**:
+SMART_EVENT_EVADE (7)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### SpellHit (8)
+On Creature/Gameobject Spell Hit
+* **event_type**:
+SMART_EVENT_SPELLHIT (8)
+* **event_param1**:
+[Spell ID](/files/DBC/335/spell#id)
+* **event_param2**:
+[`enum SpellSchools`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L303-L313) (`0`: any)
+  | Value | Flag | Name |
+  |-------|------|------|
+  | 1 | 0x01 | SPELL_SCHOOL_NORMAL |
+  | 2 | 0x02 | SPELL_SCHOOL_HOLY |
+  | 4 | 0x04 | SPELL_SCHOOL_FIRE |
+  | 8 | 0x08 | SPELL_SCHOOL_NATURE |
+  | 16 | 0x10 | SPELL_SCHOOL_FROST |
+  | 32 | 0x20 | SPELL_SCHOOL_SHADOW |
+  | 64 | 0x40 | SPELL_SCHOOL_ARCANE |
+  {.dense}
+* **event_param3**:
+CooldownMin (in msec.)
+* **event_param4**:
+CooldownMax (in msec.)
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
+{.dense}
+#### Range (9)
+On Target In Range
+* **event_type**:
+SMART_EVENT_RANGE (9)
+* **event_param1**:
+MinDist
+* **event_param2**:
+MaxDist
+* **event_param3**:
+RepeatMin (in msec.)
+* **event_param4**:
+RepeatMax (in msec.)
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### LineOfSightOOC (10)
+On Target In Distance Out of Combat
+* **event_type**:
+SMART_EVENT_OOC_LOS (10)
+* **event_param1**:
+  * 0: Hostile
+  * 1: Not Hostile
+  * 2: Any
+* **event_param2**:
+MaxRange
+* **event_param3**:
+CooldownMin (in msec.)
+* **event_param4**:
+CooldownMax (in msec.)
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### Respawn (11)
+On Creature/Gameobject Respawn
+* **event_type**:
+SMART_EVENT_RESPAWN (11)
+* **event_param1**:
+[`enum SMART_SCRIPT_RESPAWN_CONDITION`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/AI/SmartScripts/SmartScriptMgr.h#L442-L448)
+  |--|--|
+  | SMART_SCRIPT_RESPAWN_CONDITION_NONE | 0 |
+  | SMART_SCRIPT_RESPAWN_CONDITION_MAP | 1 |
+  | SMART_SCRIPT_RESPAWN_CONDITION_AREA | 2 |
+  {.dense}
+* **event_param2**:
+if **event_param1** = 1: [Map ID](/files/DBC/335/map#id)
+* **event_param3**:
+if **event_param1** = 2: [AreaTable ID](/files/DBC/335/areatable#id)
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
+{.dense}
+#### TargetHealthPct ⚠️&nbsp;(12)
+On Target Health Percentage
+> UNUSED, DO NOT REUSE
+{.is-warning}
+* **event_type**:
+SMART_EVENT_TARGET_HEALTH_PCT (12)
+* **event_param1**:
+HPMin%
+* **event_param2**:
+HPMax%
+* **event_param3**:
+RepeatMin (in msec.)
+* **event_param4**:
+RepeatMax (in msec.)
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### VictimCast (13)
+On Target Casting Spell
+* **event_type**:
+SMART_EVENT_VICTIM_CASTING (13)
+* **event_param1**:
+RepeatMin (in msec.)
+* **event_param2**:
+RepeatMax (in msec.)
+* **event_param3**:
+[Spell ID](/files/DBC/335/spell#id) (`0`: any)
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### FriendHealth ⚠️&nbsp;(14)
+On Friendly Health Deficit
+> UNUSED, DO NOT REUSE
+{.is-warning}
+* **event_type**:
+SMART_EVENT_FRIENDLY_HEALTH (14)
+* **event_param1**:
+HPDeficit
+* **event_param2**:
+Radius
+* **event_param3**:
+RepeatMin (in msec.)
+* **event_param4**:
+RepeatMax (in msec.)
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### FriendCCed (15)
+Ally is feared, charmed, rooted, stunned or confused
+* **event_type**:
+SMART_EVENT_FRIENDLY_IS_CC (15)
+* **event_param1**:
+Radius
+* **event_param2**:
+RepeatMin (in msec.)
+* **event_param3**:
+RepeatMax (in msec.)
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### FriendNoBuff (16)
+On Friendly Lost Buff
+* **event_type**:
+SMART_EVENT_FRIENDLY_MISSING_BUFF (16)
+* **event_param1**:
+[Spell ID](/files/DBC/335/spell#id)
+* **event_param2**:
+Radius
+* **event_param3**:
+RepeatMin (in msec.)
+* **event_param4**:
+RepeatMax (in msec.)
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### Summon (17)
+On Creature/Gameobject Summoned Unit
+* **event_type**:
+SMART_EVENT_SUMMONED_UNIT (17)
+* **event_param1**:
+[creature entry](..world/creature_template#entry) (`0`: any)
+* **event_param2**:
+CooldownMin (in msec.)
+* **event_param3**:
+CooldownMax (in msec.)
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
+{.dense}
+#### TargetManaPct ⚠️&nbsp;(18)
+On Target Mana Percentage
+> UNUSED, DO NOT REUSE
+{.is-warning}
+* **event_type**:
+SMART_EVENT_TARGET_MANA_PCT (18)
+* **event_param1**:
+ManaMin%
+* **event_param2**:
+ManaMax%
+* **event_param3**:
+RepeatMin (in msec.)
+* **event_param4**:
+RepeatMax (in msec.)
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### AcceptedQuest (19)
+On Target Accepted Quest
+* **event_type**:
+SMART_EVENT_ACCEPTED_QUEST (19)
+* **event_param1**:
+[quest ID](..world/quest_template#id) (`0`: any)
+* **event_param2**:
+CooldownMin (in msec.)
+* **event_param3**:
+CooldownMax (in msec.)
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
+{.dense}
+#### RewardedQuest (20)
+On Target Rewarded Quest
+* **event_type**:
+SMART_EVENT_REWARD_QUEST (20)
+* **event_param1**:
+[quest ID](..world/quest_template#id) (`0`: any)
+* **event_param2**:
+CooldownMin (in msec.)
+* **event_param3**:
+CooldownMax (in msec.)
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
+{.dense}
+#### ReachedHome (21)
+On Creature Reached Home Pos.
+* **event_type**:
+SMART_EVENT_REACHED_HOME (21)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### ReceiveEmote (22)
+On Receive Player Emote.
+* **event_type**:
+SMART_EVENT_RECEIVE_EMOTE (22)
+* **event_param1**:
+[EmotesText ID](/files/DBC/335/emotestext#id)
+* **event_param2**:
+CooldownMin (in msec.)
+* **event_param3**:
+CooldownMax (in msec.)
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### HasAura (23)
+On Creature Has Aura (optional: more or equal stacks to **event_param2**)
+* **event_type**:
+SMART_EVENT_HAS_AURA (23)
+* **event_param1**:
+[Spell ID](/files/DBC/335/spell#id)
+* **event_param2**:
+Stack amount
+* **event_param3**:
+RepeatMin (in msec.)
+* **event_param4**:
+RepeatMax (in msec.)
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### TargetBuffed (24)
+On Target Buffed With Spell (optional: more or equal stacks to **event_param2**)
+* **event_type**:
+SMART_EVENT_TARGET_BUFFED (24)
+* **event_param1**:
+[Spell ID](/files/DBC/335/spell#id)
+* **event_param2**:
+Stack amount
+* **event_param3**:
+RepeatMin (in msec.)
+* **event_param4**:
+RepeatMax (in msec.)
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### Reset (25)
+Called after combat, when the creature respawn and spawn.
+* **event_type**:
+SMART_EVENT_RESET (25)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### LineOfSightIC (26)
+On Target In Distance In Combat
+* **event_type**:
+SMART_EVENT_IC_LOS (26)
+* **event_param1**:
+  * 0: Hostile
+  * 1: Not Hostile
+  * 2: Any
+* **event_param2**:
+MaxRange
+* **event_param3**:
+CooldownMin (in msec.)
+* **event_param4**:
+CooldownMax (in msec.)
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### PassengerEntered (27)
+On Player/NPC Entered Creature (Vehicle)
+* **event_type**:
+SMART_EVENT_PASSENGER_BOARDED (27)
+* **event_param1**:
+CooldownMin (in msec.)
+* **event_param2**:
+CooldownMax (in msec.)
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### PassengerLeft (28)
+On Player/NPC Left Creature (Vehicle)
+* **event_type**:
+SMART_EVENT_PASSENGER_REMOVED (28)
+* **event_param1**:
+CooldownMin (in msec.)
+* **event_param2**:
+CooldownMax (in msec.)
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### Charmed (29)
+On Creature Charmed
+* **event_type**:
+SMART_EVENT_CHARMED (29)
+* **event_param1**:
+  * 0: onApply
+  * 1: onRemove
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### TargetCharmed ⚠️&nbsp;(30)
+On Target Charmed
+> UNUSED, DO NOT REUSE
+{.is-warning}
+* **event_type**:
+SMART_EVENT_CHARMED_TARGET (30)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### SpellHitTarget (31)
+On Target Spell Hit
+* **event_type**:
+SMART_EVENT_SPELLHIT_TARGET (31)
+* **event_param1**:
+[Spell ID](/files/DBC/335/spell#id)
+* **event_param2**:
+[`enum SpellSchools`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L303-L313) or `0` (any SpellSchool)
+  | Value | Flag | Name |
+  |-------|------|------|
+  | 1 | 0x01 | SPELL_SCHOOL_NORMAL |
+  | 2 | 0x02 | SPELL_SCHOOL_HOLY |
+  | 4 | 0x04 | SPELL_SCHOOL_FIRE |
+  | 8 | 0x08 | SPELL_SCHOOL_NATURE |
+  | 16 | 0x10 | SPELL_SCHOOL_FROST |
+  | 32 | 0x20 | SPELL_SCHOOL_SHADOW |
+  | 64 | 0x40 | SPELL_SCHOOL_ARCANE |
+  {.dense}
+* **event_param3**:
+CooldownMin (in msec.)
+* **event_param4**:
+CooldownMax (in msec.)
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### Damaged (32)
+On Creature Damaged
+* **event_type**:
+SMART_EVENT_DAMAGED (32)
+* **event_param1**:
+MinDmg
+* **event_param2**:
+MaxDmg
+* **event_param3**:
+CooldownMin (in msec.)
+* **event_param4**:
+CooldownMax (in msec.)
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### DamagedTarget (33)
+On Target Damaged
+* **event_type**:
+SMART_EVENT_DAMAGED_TARGET (33)
+* **event_param1**:
+MinDmg
+* **event_param2**:
+MaxDmg
+* **event_param3**:
+CooldownMin (in msec.)
+* **event_param4**:
+CooldownMax (in msec.)
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### MovementType (34)
+
+* **event_type**:
+SMART_EVENT_MOVEMENTINFORM (34)
+* **event_param1**:
+[`enum MovementGeneratorType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Movement/MovementDefines.h#L26-L48)
+  |--|--|--|--|--|
+  | IDLE_MOTION_TYPE | 0 |  | DISTRACT_MOTION_TYPE | 10 |
+  | RANDOM_MOTION_TYPE | 1 |  | ASSISTANCE_MOTION_TYPE | 11 |
+  | WAYPOINT_MOTION_TYPE | 2 |  | ASSISTANCE_DISTRACT_MOTION_TYPE | 12 |
+  | MAX_DB_MOTION_TYPE | 3 |  | TIMED_FLEEING_MOTION_TYPE | 13 |
+  | CONFUSED_MOTION_TYPE | 4 |  | FOLLOW_MOTION_TYPE | 14 |
+  | CHASE_MOTION_TYPE | 5 |  | ROTATE_MOTION_TYPE | 15 |
+  | HOME_MOTION_TYPE | 6 |  | EFFECT_MOTION_TYPE | 16 |
+  | FLIGHT_MOTION_TYPE | 7 |  | SPLINE_CHAIN_MOTION_TYPE | 17 |
+  | POINT_MOTION_TYPE | 8 |  | FORMATION_MOTION_TYPE | 18 |
+  | FLEEING_MOTION_TYPE | 9 |  |  |
+
+  {.dense}
+* **event_param2**:
+PointID
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### SummonDespawn (35)
+On Summoned Unit Despawned
+* **event_type**:
+SMART_EVENT_SUMMON_DESPAWNED (35)
+* **event_param1**:
+[creature entry](..world/creature_template#entry) (`0`: any)
+* **event_param2**:
+CooldownMin (in msec.)
+* **event_param3**:
+CooldownMax (in msec.)
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
+{.dense}
+#### CorpseRemoved (36)
+On Creature Corpse Removed
+* **event_type**:
+SMART_EVENT_CORPSE_REMOVED (36)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### SAI-Init (37)
+SmartScript::OnInitialize()
+* **event_type**:
+SMART_EVENT_AI_INIT (37)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
+{.dense}
+#### DataSet (38)
+On Creature/Gameobject Data Set (SMART_ACTION_SET_DATA (45))
+* **event_type**:
+SMART_EVENT_DATA_SET (38)
+* **event_param1**:
+FieldId
+* **event_param2**:
+Value
+* **event_param3**:
+CooldownMin (in msec.)
+* **event_param4**:
+CooldownMax (in msec.)
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
+{.dense}
+#### WaypointStart ⚠️&nbsp;(39)
+On Creature Waypoint ID Started
+> UNUSED, DO NOT REUSE
+{.is-warning}
+* **event_type**:
+SMART_EVENT_WAYPOINT_START (39)
+* **event_param1**:
+[waypoint point](../world/waypoint_data#point) (`0`: any)
+* **event_param2**:
+[waypoint id](../world/waypoint_data#id) (`0`: any)
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### WaypointReached (40)
+On Creature Waypoint ID Reached
+* **event_type**:
+SMART_EVENT_WAYPOINT_REACHED (40)
+* **event_param1**:
+[waypoint point](../world/waypoint_data#point) (`0`: any)
+* **event_param2**:
+[waypoint id](../world/waypoint_data#id) (`0`: any)
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### Trans.AddPlayer ❌&nbsp;(41)
+> RESERVED for master branch
+{.is-danger}
+* **event_type**:
+SMART_EVENT_TRANSPORT_ADDPLAYER (41)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 7 | SMART_SCRIPT_TYPE_TRANSPORT |
+{.dense}
+#### Trans.AddCreatue ❌&nbsp;(42)
+> RESERVED for master branch
+{.is-danger}
+* **event_type**:
+SMART_EVENT_TRANSPORT_ADDCREATURE (42)
+* **event_param1**:
+Entry (`0`: any)
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 7 | SMART_SCRIPT_TYPE_TRANSPORT |
+{.dense}
+#### Trans.Rem.Player ❌&nbsp;(43)
+> RESERVED for master branch
+{.is-danger}
+* **event_type**:
+SMART_EVENT_TRANSPORT_REMOVE_PLAYER (43)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 7 | SMART_SCRIPT_TYPE_TRANSPORT |
+{.dense}
+#### Trans.Relocate ❌&nbsp;(44)
+> RESERVED for master branch
+{.is-danger}
+* **event_type**:
+SMART_EVENT_TRANSPORT_RELOCATE (44)
+* **event_param1**:
+PointId
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 7 | SMART_SCRIPT_TYPE_TRANSPORT |
+{.dense}
+#### PlayerEnter ❌&nbsp;(45)
+> RESERVED for master branch
+{.is-danger}
+* **event_type**:
+SMART_EVENT_INSTANCE_PLAYER_ENTER (45)
+* **event_param1**:
+Team (`0`: any)
+* **event_param2**:
+CooldownMin (in msec.)
+* **event_param3**:
+CooldownMax (in msec.)
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 8 | SMART_SCRIPT_TYPE_INSTANCE |
+{.dense}
+#### AreaTrigger (46)
+
+* **event_type**:
+SMART_EVENT_AREATRIGGER_ONTRIGGER (46)
+* **event_param1**:
+[AreaTrigger ID](/files/DBC/335/areatrigger#id) (`0`: any)
+yes, same value as **entryorguid**
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 2 | SMART_SCRIPT_TYPE_AREATRIGGER |
+{.dense}
+#### QuestAccepted ❌&nbsp;(47)
+On Target Quest Accepted
+> RESERVED for master branch
+{.is-danger}
+* **event_type**:
+SMART_EVENT_QUEST_ACCEPTED (47)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 5 | SMART_SCRIPT_TYPE_QUEST |
+{.dense}
+#### QuestProgress ❌&nbsp;(48)
+On Target Quest Objective Completed
+> RESERVED for master branch
+{.is-danger}
+* **event_type**:
+SMART_EVENT_QUEST_OBJ_COMPLETION (48)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 5 | SMART_SCRIPT_TYPE_QUEST |
+{.dense}
+#### QuestCompleted ❌&nbsp;(49)
+On Target Quest Completed
+> RESERVED for master branch
+{.is-danger}
+* **event_type**:
+SMART_EVENT_QUEST_COMPLETION (49)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 5 | SMART_SCRIPT_TYPE_QUEST |
+{.dense}
+#### QuestRewarded ❌&nbsp;(50)
+On Target Quest Rewarded
+> RESERVED for master branch
+{.is-danger}
+* **event_type**:
+SMART_EVENT_QUEST_REWARDED (50)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 5 | SMART_SCRIPT_TYPE_QUEST |
+{.dense}
+#### QuestFailed ❌&nbsp;(51)
+On Target Quest Failed
+> RESERVED for master branch
+{.is-danger}
+* **event_type**:
+SMART_EVENT_QUEST_FAIL (51)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 5 | SMART_SCRIPT_TYPE_QUEST |
+{.dense}
+#### TextOver (52)
+On TEXT_OVER Event Triggered After SMART_ACTION_TALK (1)
+* **event_type**:
+SMART_EVENT_TEXT_OVER (52)
+* **event_param1**:
+[text GroupId](../world/creature_text#groupid)
+* **event_param2**:
+[creature entry](../world/creature_template#entry) who talks (`0`: any)
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
+{.dense}
+#### ReceivedHeal (53)
+On Creature Received Healing
+* **event_type**:
+SMART_EVENT_RECEIVE_HEAL (53)
+* **event_param1**:
+MinHeal
+* **event_param2**:
+MaxHeal
+* **event_param3**:
+CooldownMin (in msec.)
+* **event_param4**:
+CooldownMax (in msec.)
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### JustSummoned (54)
+On Creature Just spawned
+* **event_type**:
+SMART_EVENT_JUST_SUMMONED (54)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### WaypointPaused (55)
+On Creature Paused at Waypoint ID
+* **event_type**:
+SMART_EVENT_WAYPOINT_PAUSED (55)
+* **event_param1**:
+[waypoint point](../world/waypoint_data#point) (`0`: any)
+* **event_param2**:
+[waypoint id](../world/waypoint_data#id) (`0`: any)
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### WaypointResumed (56)
+On Creature Resumed after Waypoint ID
+* **event_type**:
+SMART_EVENT_WAYPOINT_RESUMED (56)
+* **event_param1**:
+[waypoint point](../world/waypoint_data#point) (`0`: any)
+* **event_param2**:
+[waypoint id](../world/waypoint_data#id) (`0`: any)
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### WaypointStopped (57)
+On Creature Stopped On Waypoint ID
+* **event_type**:
+SMART_EVENT_WAYPOINT_STOPPED (57)
+* **event_param1**:
+[waypoint point](../world/waypoint_data#point) (`0`: any)
+* **event_param2**:
+[waypoint id](../world/waypoint_data#id) (`0`: any)
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### WaypointEnded (58)
+On Creature Waypoint Path Ended
+* **event_type**:
+SMART_EVENT_WAYPOINT_ENDED (58)
+* **event_param1**:
+[waypoint point](../world/waypoint_data#point) (`0`: any)
+* **event_param2**:
+[waypoint id](../world/waypoint_data#id) (`0`: any)
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### EventTriggered (59)
+On SMART_ACTION_TRIGGER_TIMED_EVENT (73) or SMART_ACTION_TRIGGER_RANDOM_TIMED_EVENT (125) trigger
+* **event_type**:
+SMART_EVENT_TIMED_EVENT_TRIGGERED (59)
+* **event_param1**:
+id
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
+{.dense}
+#### Update (60)
+Update always.
+* **event_type**:
+SMART_EVENT_UPDATE (60)
+* **event_param1**:
+InitialMin (in msec.)
+* **event_param2**:
+InitialMax (in msec.)
+* **event_param3**:
+RepeatMin (in msec.)
+* **event_param4**:
+RepeatMax (in msec.)
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
+{.dense}
+#### Link (61)
+requires another **link** to point at this entries **id**
+Used to link together multiple events, does not use any extra resources to iterate event lists needlessly.
+* **event_type**:
+SMART_EVENT_LINK (61)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+< any >
+
+#### GossipSelect (62)
+
+* **event_type**:
+SMART_EVENT_GOSSIP_SELECT (62)
+* **event_param1**:
+[gossip menuID](../world/gossip_menu_option#menuid)
+* **event_param2**:
+[gossip OptionID](../world/gossip_menu_option#optionid)
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
+{.dense}
+#### JustCreated (63)
+On Creature/Gameobject first time load.
+* **event_type**:
+SMART_EVENT_JUST_CREATED (63)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
+{.dense}
+#### GossipHello (64)
+On Right-Click Creature/Gameobject that have gossip enabled.
+* **event_type**:
+SMART_EVENT_GOSSIP_HELLO (64)
+* **event_param1**:
+OnReportUse (for GOs)
+  * 0: onGossipHello and onReportUse (may trigger twice)
+  * 1: onGossipHello only
+  * 2: onReportUse only
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
+{.dense}
+#### FollowComplete (65)
+On Stop Following
+* **event_type**:
+SMART_EVENT_FOLLOW_COMPLETED (65)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### EventPhase ⚠️&nbsp;(66)
+On event phase mask set
+> UNUSED, DO NOT REUSE
+{.is-warning}
+* **event_type**:
+SMART_EVENT_EVENT_PHASE_CHANGE (66)
+* **event_param1**:
+event phase mask (<= SMART_EVENT_PHASE_ALL)
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
+{.dense}
+#### BehindTarget ⚠️&nbsp;(67)
+On Creature is behind target.
+> UNUSED, DO NOT REUSE
+{.is-warning}
+* **event_type**:
+SMART_EVENT_IS_BEHIND_TARGET (67)
+* **event_param1**:
+CooldownMin (in msec.)
+* **event_param2**:
+CooldownMax (in msec.)
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### GameEventStart (68)
+On game_event started.
+* **event_type**:
+SMART_EVENT_GAME_EVENT_START (68)
+* **event_param1**:
+[game_event eventEntry](../world/game_event#eventEntry)
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
+{.dense}
+#### GameEventEnd (69)
+On game_event ended.
+* **event_type**:
+SMART_EVENT_GAME_EVENT_END (69)
+* **event_param1**:
+[game_event eventEntry](../world/game_event#eventEntry)
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
+{.dense}
+#### LootState (70)
+
+* **event_type**:
+SMART_EVENT_GO_LOOT_STATE_CHANGED (70)
+* **event_param1**:
+[`enum LootState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/GameObject/GameObject.h#L74-L79)
+  | ID | Name | Comment |
+  |----|------|---------|
+  | 1 | GO_NOT_READY |  |
+  | 2 | GO_READY | can be ready but despawned, and then not possible activate until spawn |
+  | 3 | GO_ACTIVATE |  |
+  | 4 | GO_JUST_DEACTIVATED |  |
+  {.dense}
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
+{.dense}
+#### GOEventInform (71)
+On Gameobject emits event.
+* **event_type**:
+SMART_EVENT_GO_EVENT_INFORM (71)
+* **event_param1**:
+eventId from [gameobject template](../world/gameobject_template#data0-23)
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
+{.dense}
+#### ActionDone (72)
+manual values or [enum EventId](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L3336-L3350) passed by SmartAI::DoAction()
+* **event_type**:
+SMART_EVENT_ACTION_DONE (72)
+* **event_param1**:
+eventId
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### Spellclick (73)
+
+* **event_type**:
+SMART_EVENT_ON_SPELLCLICK (73)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### FriendHealthPct (74)
+'friendly' determined by **target_type**
+* **event_type**:
+SMART_EVENT_FRIENDLY_HEALTH_PCT (74)
+* **event_param1**:
+minHpPct
+* **event_param2**:
+maxHpPct
+* **event_param3**:
+RepeatMin (in msec.)
+* **event_param4**:
+RepeatMax (in msec.)
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### DistanceNPC (75)
+On creature guid _OR_ any instance of creature entry is within distance.
+* **event_type**:
+SMART_EVENT_DISTANCE_CREATURE (75)
+* **event_param1**:
+[creature guid](../world/creature#guid)
+* **event_param2**:
+[creature entry](..world/creature_template#entry)
+* **event_param3**:
+distance
+* **event_param4**:
+repeat (in msec.)
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### DistanceGO (76)
+On gameobject guid OR any instance of gameobject entry is within distance.
+* **event_type**:
+SMART_EVENT_DISTANCE_GAMEOBJECT (76)
+* **event_param1**:
+[gameobject guid](../world/gameobject#guid)
+* **event_param2**:
+[gameobject entry](../world/gameobject_template#entry)
+* **event_param3**:
+distance
+* **event_param4**:
+repeat (in msec.)
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### CounterSet (77)
+after SMART_ACTION_SET_COUNTER (63), check if quantity of counterId is equal to value
+* **event_type**:
+SMART_EVENT_COUNTER_SET (77)
+* **event_param1**:
+counterId
+* **event_param2**:
+value
+* **event_param3**:
+CooldownMin (in msec.)
+* **event_param4**:
+CooldownMax (in msec.)
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
+{.dense}
+#### SceneStart ❌&nbsp;(78)
+> RESERVED for master branch
+{.is-danger}
+* **event_type**:
+SMART_EVENT_SCENE_START (78)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### SceneTrigger ❌&nbsp;(79)
+> RESERVED for master branch
+{.is-danger}
+* **event_type**:
+SMART_EVENT_SCENE_TRIGGER (79)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### SceneCancel ❌&nbsp;(80)
+> RESERVED for master branch
+{.is-danger}
+* **event_type**:
+SMART_EVENT_SCENE_CANCEL (80)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### SceneComplete ❌&nbsp;(81)
+> RESERVED for master branch
+{.is-danger}
+* **event_type**:
+SMART_EVENT_SCENE_COMPLETE (81)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### SummonDies (82)
+
+* **event_type**:
+SMART_EVENT_SUMMONED_UNIT_DIES (82)
+* **event_param1**:
+[creature entry](..world/creature_template#entry) (`0`: any)
+* **event_param2**:
+CooldownMin (in msec.)
+* **event_param3**:
+CooldownMax (in msec.)
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
+{.dense}
+#### SpellCast (83)
+on Spell::cast
+* **event_type**:
+SMART_EVENT_ON_SPELL_CAST (83)
+* **event_param1**:
+[Spell ID](/files/DBC/335/spell#id)
+* **event_param2**:
+CooldownMin (in msec.)
+* **event_param3**:
+CooldownMax (in msec.)
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### SpellFailed (84)
+on Unit::InterruptSpell
+* **event_type**:
+SMART_EVENT_ON_SPELL_FAILED (84)
+* **event_param1**:
+[Spell ID](/files/DBC/335/spell#id)
+* **event_param2**:
+CooldownMin (in msec.)
+* **event_param3**:
+CooldownMax (in msec.)
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### SpellStart (85)
+on Spell::prapare
+* **event_type**:
+SMART_EVENT_ON_SPELL_START (85)
+* **event_param1**:
+[Spell ID](/files/DBC/335/spell#id)
+* **event_param2**:
+CooldownMin (in msec.)
+* **event_param3**:
+CooldownMax (in msec.)
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### Despawn (86)
+On Before Creature Removed
+* **event_type**:
+SMART_EVENT_ON_DESPAWN (86)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+### EndTabset {.tabset}
 &nbsp;
 
 ### event_phase_mask
@@ -440,21 +2112,6 @@ Commenting on SAI uses a template which is the following:
 &nbsp;
 
 ## Additional Descriptions
-
-### SpellSchoolMask
-[`enum SpellSchools`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L303-L313)
-| Value | Flag | Name |
-|-------|------|------|
-| 1 | 0x01 | SPELL_SCHOOL_NORMAL |
-| 2 | 0x02 | SPELL_SCHOOL_HOLY |
-| 4 | 0x04 | SPELL_SCHOOL_FIRE |
-| 8 | 0x08 | SPELL_SCHOOL_NATURE |
-| 16 | 0x10 | SPELL_SCHOOL_FROST |
-| 32 | 0x20 | SPELL_SCHOOL_SHADOW |
-| 64 | 0x40 | SPELL_SCHOOL_ARCANE |
-{.dense}
-
-&nbsp;
 
 ### PowerType
 [`enum Powers`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L286-L298)
