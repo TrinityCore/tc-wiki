@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2024-04-18T21:35:30.402Z
+date: 2024-04-19T21:25:42.706Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:09.695Z
@@ -1908,101 +1908,1689 @@ Sets if the event should not repeat or should only happen in a given instance/du
 
 &nbsp;
 
-### action_type
+### action
+### Tabset {.tabset}
+#### None (0)
+No action.
+* **action_type**:
+SMART_ACTION_NONE (0)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### Talk (1)
+Display a creature text entry.
+> Note: SMART_EVENT_TEXT_OVER (52) is triggered.
+{.is-info}
+* **action_type**:
+SMART_ACTION_TALK (1)
+* **action_param1**:
+[text GroupID](../world/creature_text#groupid)
+* **action_param2**:
+duration (in msec.)
+* **action_param3**:
+useTalkTarget: only considered for creature targets
+  * 0: target talks to invoker
+  * 1: creature talks to target
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetFaction (2)
+Sets faction of target creatures.
+* **action_type**:
+SMART_ACTION_SET_FACTION (2)
+* **action_param1**:
+[FactionTemplate ID](/files/DBC/335/factiontemplate#id) (`0`: default)
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### Morph (3)
+Target creatures take on another appearance.
+> Note: creature entry takes precedence over DisplayID. If both are `0`, the original appearance is restored.
+{.is-info}
+* **action_type**:
+SMART_ACTION_MORPH_TO_ENTRY_OR_MODEL (3)
+* **action_param1**:
+[creature entry](../world/creature_template#entry)
+* **action_param2**:
+[modelInfo DisplayID](../world/creature_model_info#displayid)
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### Sound (4)
+Plays a sound entry
+* **action_type**:
+SMART_ACTION_SOUND (4)
+* **action_param1**:
+[SoundEntry ID](/files/DBC/335/soundentries#id)
+* **action_param2**:
+onlySelf
+  * 0: heard by all players in visibility range
+  * 1: heard by invoking player
+* **action_param3**:
+distantSound
+  * 0: uses WorldObject::PlayDirectSound()
+  * 1: uses WorldObject::PlayDistantSound()
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### PlayEmote (5)
+Plays an emote as oneshot. 
+* **action_type**:
+SMART_ACTION_PLAY_EMOTE (5)
+* **action_param1**:
+[Emote ID](/files/DBC/335/emotes#id)
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### FailQuest (6)
+Fail quest for target players.
+* **action_type**:
+SMART_ACTION_FAIL_QUEST (6)
+* **action_param1**:
+[quest ID](../world/quest_template#id)
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### OfferQuest (7)
+Offer quest to target players.
+* **action_type**:
+SMART_ACTION_OFFER_QUEST (7)
+* **action_param1**:
+[quest ID](../world/quest_template#id)
+* **action_param2**:
+directAdd:
+  * 0: offer quest
+  * 1: add quest to log
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetReactState (8)
+Makes the target react passive, defensive or aggressive.
+* **action_type**:
+SMART_ACTION_SET_REACT_STATE (8)
+* **action_param1**:
+[`enum ReactStates`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Unit/UnitDefines.h#L406-L411)
+  | ID | Name | Comment |
+  |----|------|---------|
+  | 0 | REACT_PASSIVE | Does not defend or attack at all. Does nothing. |
+  | 1 | REACT_DEFENSIVE | Only attacks back when attacked. |
+  | 2 | REACT_AGGRESSIVE | Will attack if on threat list and in threat radius. (default) |
+  {.dense}
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### ActivateObject (9)
+Set target gameobjects as active. This opens a door or makes a container lootable.
+* **action_type**:
+SMART_ACTION_ACTIVATE_GOBJECT (9)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### PlayRandomEmote (10)
+Play random emote. 
+> Note: An **action_param** of 0 is skipped and not interpreted as emote: ONESHOT_NONE (0).
+{.is-info}
+* **action_type**:
+SMART_ACTION_RANDOM_EMOTE (10)
+* **action_param1**:
+[Emote ID1](/files/DBC/335/emotes#id)
+* **action_param2**:
+[Emote ID2](/files/DBC/335/emotes#id)
+* **action_param3**:
+[Emote ID3](/files/DBC/335/emotes#id)
+* **action_param4**:
+[Emote ID4](/files/DBC/335/emotes#id)
+* **action_param5**:
+[Emote ID5](/files/DBC/335/emotes#id)
+* **action_param6**:
+[Emote ID6](/files/DBC/335/emotes#id)
+#### CastSpell (11)
+Cast spell at targets.
+* **action_type**:
+SMART_ACTION_CAST (11)
+* **action_param1**:
+[Spell ID](/files/DBC/335/spell#id)
+* **action_param2**:
+[`enum SmartCastFlags`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/AI/SmartScripts/SmartScriptMgr.h#L1541-L1550)
+  | Value | Flag | Name | Comment |
+  |-------|------|------|---------|
+  | 1 | 0x01 | SMARTCAST_INTERRUPT_PREVIOUS |  Interrupt any spell casting |
+  | 2 | 0x02 | SMARTCAST_TRIGGERED |  Triggered (this makes spell cost zero mana and have no cast time) |
+  | 4 | 0x04 | :x: SMARTCAST_FORCE_CAST | Forces cast even if creature is out of mana or out of range |
+  | 8 | 0x08 | :x: SMARTCAST_NO_MELEE_IF_OOM | Prevents creature from entering melee if out of mana or out of range |
+  | 16 | 0x10 | :x: SMARTCAST_FORCE_TARGET_SELF | Forces the target to cast this spell on itself |
+  | 32 | 0x20 | SMARTCAST_AURA_NOT_PRESENT |  Only casts the spell if the target does not have an aura from the spell |
+  | 64 | 0x40 | SMARTCAST_COMBAT_MOVE |  Prevents combat movement if cast successful. Allows movement on range, OOM, LOS |
+  {.dense}
+* **action_param3**:
+[`enum TriggerCastFlags`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Spells/SpellDefines.h#L146-L173)
+  | Value | Flag | Name | Comment |
+  |-------|------|------|---------|
+  | 1 | 0x00000001 | TRIGGERED_IGNORE_GCD | Will ignore GCD |
+  | 2 | 0x00000002 | TRIGGERED_IGNORE_SPELL_AND_CATEGORY_CD | Will ignore Spell and Category cooldowns |
+  | 4 | 0x00000004 | TRIGGERED_IGNORE_POWER_AND_REAGENT_COST | Will ignore power and reagent cost |
+  | 8 | 0x00000008 | TRIGGERED_IGNORE_CAST_ITEM | Will not take away cast item or update related achievement criteria |
+  | 16 | 0x00000010 | TRIGGERED_IGNORE_AURA_SCALING | Will ignore aura scaling |
+  | 32 | 0x00000020 | TRIGGERED_IGNORE_CAST_IN_PROGRESS | Will not check if a current cast is in progress |
+  | 64 | 0x00000040 | TRIGGERED_IGNORE_COMBO_POINTS | Will ignore combo point requirement |
+  | 128 | 0x00000080 | TRIGGERED_CAST_DIRECTLY | In Spell::prepare, will be cast directly without setting containers for executed spell |
+  | 256 | 0x00000100 | TRIGGERED_IGNORE_AURA_INTERRUPT_FLAGS | Will ignore interruptible aura's at cast |
+  | 512 | 0x00000200 | TRIGGERED_IGNORE_SET_FACING | Will not adjust facing to target (if any) |
+  | 1024 | 0x00000400 | TRIGGERED_IGNORE_SHAPESHIFT | Will ignore shapeshift checks |
+  | 2048 | 0x00000800 | TRIGGERED_IGNORE_CASTER_AURASTATE | Will ignore caster aura states including combat requirements and death state |
+  | 4096 | 0x00001000 | TRIGGERED_DISALLOW_PROC_EVENTS | Disallows proc events from triggered spell (default) |
+  | 8192 | 0x00002000 | TRIGGERED_IGNORE_CASTER_MOUNTED_OR_ON_VEHICLE | Will ignore mounted/on vehicle restrictions |
+  | 65536 | 0x00010000 | TRIGGERED_IGNORE_CASTER_AURAS | Will ignore caster aura restrictions or requirements |
+  | 131072 | 0x00020000 | TRIGGERED_DONT_RESET_PERIODIC_TIMER | Will allow periodic aura timers to keep ticking (instead of resetting) |
+  | 262144 | 0x00040000 | TRIGGERED_DONT_REPORT_CAST_ERROR | Will return SPELL_FAILED_DONT_REPORT in CheckCast functions |
+  | 524288 | 0x00080000 | TRIGGERED_IGNORE_EQUIPPED_ITEM_REQUIREMENT | Will ignore equipped item requirements |
+  {.dense}
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SummonNPC (12)
+Summon NPC
+* **action_type**:
+SMART_ACTION_SUMMON_CREATURE (12)
+* **action_param1**:
+[creature entry](../world/creature_template#entry)
+* **action_param2**:
+[`enum TempSummonType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Object/ObjectDefines.h#L59-L69)
+  | ID | Name | Comment |
+  |----|------|---------|
+  | 1 | TEMPSUMMON_TIMED_OR_DEAD_DESPAWN | despawns after a specified time OR when the creature disappears |
+  | 2 | TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN | despawns after a specified time OR when the creature dies |
+  | 3 | TEMPSUMMON_TIMED_DESPAWN | despawns after a specified time |
+  | 4 | TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT | despawns after a specified time after the creature is out of combat |
+  | 5 | TEMPSUMMON_CORPSE_DESPAWN | despawns instantly after death |
+  | 6 | TEMPSUMMON_CORPSE_TIMED_DESPAWN | despawns after a specified time after death |
+  | 7 | TEMPSUMMON_DEAD_DESPAWN | despawns when the creature disappears |
+  | 8 | TEMPSUMMON_MANUAL_DESPAWN | despawns when UnSummon() is called |
+  {.dense}
+* **action_param3**:
+duration in ms
+* **action_param4**:
+attackInvoker? (`0`/`1`)
+* **action_param5**:
+SmartActionSummonCreatureFlags:
+  * 0x1: PersonalSpawn (only visible to summoner)
+  * 0x2: PreferUnit (.. as summoner)
+* **action_param6**:
+`0`
+#### ThreatPctSingle (13)
+Change threat percentage for single target.
+* **action_type**:
+SMART_ACTION_THREAT_SINGLE_PCT (13)
+* **action_param1**:
+Threat% increase
+* **action_param2**:
+Threat% decrease
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### ThreatPctAll (14)
+Change threat percentage for all targets.
+* **action_type**:
+SMART_ACTION_THREAT_ALL_PCT (14)
+* **action_param1**:
+Threat% increase
+* **action_param2**:
+Threat% decrease
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### ExploreEvent (15)
+Satisfy exploration requirement for quest for target players.
+* **action_type**:
+SMART_ACTION_CALL_AREAEXPLOREDOREVENTHAPPENS (15)
+* **action_param1**:
+[QuestID](../world/quest_template#id)
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### Reserved16 ❌&nbsp;(16)
+> used on 4.3.4 and higher scripts
+{.is-danger}
+* **action_type**:
+SMART_ACTION_RESERVED_16 (16)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### PlayEmoteState (17)
+Play Emote Continuously. Useful for displaying activity on a NPC (fishing, working, etc.)
+* **action_type**:
+SMART_ACTION_SET_EMOTE_STATE (17)
+* **action_param1**:
+[Emote ID](/files/DBC/335/emotes#id)
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetUnitFlags ⚠️&nbsp;(18)
+Set multiple flags at once
+> UNUSED, DO NOT REUSE
+{.is-warning}
+* **action_type**:
+SMART_ACTION_SET_UNIT_FLAG (18)
+* **action_param1**:
+flags
+* **action_param2**:
+  * 0: set unit_flags
+  * 1: set unit_flags2
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### UnsetUnitFlags ⚠️&nbsp;(19)
+Remove multiple flags at once
+> UNUSED, DO NOT REUSE
+{.is-warning}
+* **action_type**:
+SMART_ACTION_REMOVE_UNIT_FLAG (19)
+* **action_param1**:
+flags
+* **action_param2**:
+  * 0: unset unit_flags
+  * 1: unset unit_flags2
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### AutoAttack (20)
+Set if creature can auto attack.
+* **action_type**:
+SMART_ACTION_AUTO_ATTACK (20)
+* **action_param1**:
+allowAttack
+  * 0: no and stop if currently auto attacking
+  * 1: yes
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### CombatMovement (21)
+Set if creature can move during combat.
+* **action_type**:
+SMART_ACTION_ALLOW_COMBAT_MOVEMENT (21)
+* **action_param1**:
+allowMovement? (`0`/`1`)
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetEventPhase (22)
+Set own event phase. (see **event_phase_mask**)
+* **action_type**:
+SMART_ACTION_SET_EVENT_PHASE (22)
+* **action_param1**:
+phase
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### IncEventPhase (23)
+Increment or decrement own event phase. (see **event_phase_mask**)
+> Note: only set increment OR decrement, not both.
+{.is-info}
+* **action_type**:
+SMART_ACTION_INC_EVENT_PHASE (23)
+* **action_param1**:
+increment
+* **action_param2**:
+decrement
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### EnterEvadeMode (24)
+Enter Evade mode.
+* **action_type**:
+SMART_ACTION_EVADE (24)
+* **action_param1**:
+  * 0: to respawn pos.
+  * 1: to last stored home pos.
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### FleeForAssist (25)
+Creature walks towards nearest ally.
+* **action_type**:
+SMART_ACTION_FLEE_FOR_ASSIST (25)
+* **action_param1**:
+withEmote
+  * 0: *- nothing -*
+  * 1: <span style="color:#ff8040; background-color:#000; padding:2px 5px;">%s attempts to run away in fear</span>
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### ExploreEventParty (26)
+Like SMART_ACTION_CALL_AREAEXPLOREDOREVENTHAPPENS (15) but for the whole party.
+* **action_type**:
+SMART_ACTION_CALL_GROUPEVENTHAPPENS (26)
+* **action_param1**:
+[quest ID](../world/quest_template#id)
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### CombatStop (27)
+Creature disengages combat.
+* **action_type**:
+SMART_ACTION_COMBAT_STOP (27)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### RemoveAura (28)
+Removes any or all auras from targets.
+An **action_param1** = 0 will always remove all auras regardless of other parameters.
+* **action_type**:
+SMART_ACTION_REMOVEAURASFROMSPELL (28)
+* **action_param1**:
+[Spell ID](/files/DBC/335/spell#id) (`0`: all auras)
+* **action_param2**:
+charges (`0`: all charges)
+* **action_param3**:
+onlyOwned? (`0`/`1`)
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### Follow (29)
+Creature starts to follow target at distance and angle. Optional quest credit is rewarded upon StopFollow.
+* **action_type**:
+SMART_ACTION_FOLLOW (29)
+* **action_param1**:
+distance (`0`: default)
+* **action_param2**:
+angle (`0`: default)
+* **action_param3**:
+Following ends when reaching [creature entry](../world/creature_template#entry)
+* **action_param4**:
+[creature entry](../world/creature_template#entry) or [quest ID](../world/quest_template#id), depending on **action_param5**
+* **action_param5**:
+creditType:
+  * 0: creature kill
+  * 1: exploration event
+* **action_param6**:
+`0`
+#### RandEventPhase (30)
+Set own event phase to random phase from **action_param**. (see **event_phase_mask**)
+
+> Note: An **action_param** of 0 is skipped and not interpreted as SMART_EVENT_PHASE_ALWAYS (0)
+{.is-info}
+* **action_type**:
+SMART_ACTION_RANDOM_PHASE (30)
+* **action_param1**:
+Phase1
+* **action_param2**:
+Phase2
+* **action_param3**:
+Phase3
+* **action_param4**:
+Phase4
+* **action_param5**:
+Phase5
+* **action_param6**:
+Phase6
+#### RangeEventPhase (31)
+Set own event phase to phase in within given range. (see **event_phase_mask**)
+* **action_type**:
+SMART_ACTION_RANDOM_PHASE_RANGE (31)
+* **action_param1**:
+PhaseMin
+* **action_param2**:
+PhaseMax
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### ResetObject (32)
+Resets active target gameobjects.
+* **action_type**:
+SMART_ACTION_RESET_GOBJECT (32)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### KillCredit (33)
+Credits a creature kill to satisfy [quest RequiredNpcOrGo](../world/quest_template##requirednpcorgo1-4) requirements to target players.
+> Note: If target is SMART_TARGET_NONE (0) or SMART_TARGET_SELF (1), the kill is credited to all players eligible for loot from this creature.
+{.is-info} 
+* **action_type**:
+SMART_ACTION_CALL_KILLEDMONSTER (33)
+* **action_param1**:
+[creature entry](../world/creature_template#entry)
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetInstanceData (34)
+Store data in scripted instance this entity is located in.
+* **action_type**:
+SMART_ACTION_SET_INST_DATA (34)
+* **action_param1**:
+field
+  * type = 0: fieldId
+  * type = 1: bossId
+* **action_param2**:
+data
+  * type = 0: arbitrary data
+  * type = 1: [`enum EncounterState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Instances/InstanceScript.h#L68-L76)
+    |--|--|
+    | NOT_STARTED | 0 |
+    | IN_PROGRESS | 1 |
+    | FAIL | 2 |
+    | DONE | 3 |
+    | SPECIAL | 4 |
+    {.dense}
+* **action_param3**:
+type:
+  * 0: SetData
+  * 1: SetBossState
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetInstanceData64 (35)
+Store target's guid in scripted instance this entity is located in.
+* **action_type**:
+SMART_ACTION_SET_INST_DATA64 (35)
+* **action_param1**:
+fieldId
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### UpdateTemplate (36)
+Updates creature template of target creature to given entry.
+Can set level from given creature entry.
+* **action_type**:
+SMART_ACTION_UPDATE_TEMPLATE (36)
+* **action_param1**:
+[creature entry](../world/creature_template#entry)
+* **action_param2**:
+updateLevel? (`0`/`1`)
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### Die (37)
+Creature suicides.
+* **action_type**:
+SMART_ACTION_DIE (37)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetInCombat (38)
+Creature engages all players in instanced map.
+* **action_type**:
+SMART_ACTION_SET_IN_COMBAT_WITH_ZONE (38)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### CallForHelp (39)
+Allies in range start assisting creature. Must be in combat.
+* **action_type**:
+SMART_ACTION_CALL_FOR_HELP (39)
+* **action_param1**:
+range
+* **action_param2**:
+withEmote
+  * 0: *- nothing -*
+  * 1: <span style="color:#ff8040; background-color:#000; padding:2px 5px;">%s calls for help!</span>
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetSheath (40)
+Creature draws or puts away it's weapon.
+* **action_type**:
+SMART_ACTION_SET_SHEATH (40)
+* **action_param1**:
+[`enum SheathState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Unit/UnitDefines.h#L96-L103)
+  | ID | Name | Comment |
+  |----|------|---------|
+  | 0 | SHEATH_STATE_UNARMED | non prepared weapon |
+  | 1 | SHEATH_STATE_MELEE | prepared melee weapon |
+  | 2 | SHEATH_STATE_RANGED | prepared ranged weapon |
+  {.dense}
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### ForceDespawn (41)
+Despawns target creatures / gameobjects.
+* **action_type**:
+SMART_ACTION_FORCE_DESPAWN (41)
+* **action_param1**:
+despawnDelay (in msec.)
+* **action_param2**:
+forceRespawnTimer (in sec.) (`0`: default respawn)
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetInvincibleHP (42)
+Target creatures become damage immune below HP threshold.
+> Note: Percent value takes precedence over flat value.
+{.is-info}
+* **action_type**:
+SMART_ACTION_SET_INVINCIBILITY_HP_LEVEL (42)
+* **action_param1**:
+flat HP
+* **action_param2**:
+percent HP (0 &ndash; 100)
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### Mount (43)
+Target creatures mount / dismount.
+> Note: creature entry takes precedence over DisplayID. If both are `0` the target dismounts.
+{.is-info}
+* **action_type**:
+SMART_ACTION_MOUNT_TO_ENTRY_OR_MODEL (43)
+* **action_param1**:
+[creature entry](../world/creature_template#entry)
+* **action_param2**:
+[modelInfo DisplayID](../world/creature_model_info#displayid)
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetGamePhase (44)
+Set visibility phase mask of all targets.
+* **action_type**:
+SMART_ACTION_SET_INGAME_PHASE_MASK (44)
+* **action_param1**:
+phaseMask
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetData (45)
+Store data in fieldId in AI enabled targets.
+* **action_type**:
+SMART_ACTION_SET_DATA (45)
+* **action_param1**:
+fieldId
+* **action_param2**:
+data
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### AttackStop (46)
+Target creatures stop melee, spell casting during combat and victim chasing.
+* **action_type**:
+SMART_ACTION_ATTACK_STOP (46)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetVisibility (47)
+Set visibility of unit targets.
+* **action_type**:
+SMART_ACTION_SET_VISIBILITY (47)
+* **action_param1**:
+visible? (`0`/`1`)
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetActive (48)
+Enables/disables grid active for targets. (They update without a player being present)
+* **action_type**:
+SMART_ACTION_SET_ACTIVE (48)
+* **action_param1**:
+active? (`0`/`1`)
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### AttackStart (49)
+Creature starts attacking random target.
+* **action_type**:
+SMART_ACTION_ATTACK_START (49)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SummonObject (50)
+Spawns Gameobject, use **target_type** to set spawn position.
+* **action_type**:
+SMART_ACTION_SUMMON_GO (50)
+* **action_param1**:
+[gameobject entry](../world/gameobject_template#entry)
+* **action_param2**:
+despawnTime (in sec.)
+* **action_param3**:
+[`enum GOSummonType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Object/ObjectDefines.h#L85-L89)
+  | ID | Name | Comment |
+  |----|------|---------|
+  | 0 | GO_SUMMON_TIMED_OR_CORPSE_DESPAWN | despawns after a specified time OR when the summoner dies |
+  | 1 | GO_SUMMON_TIMED_DESPAWN | despawns after a specified time |
+  {.dense}
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### KillUnit (51)
+Forces targets to suicide.
+* **action_type**:
+SMART_ACTION_KILL_UNIT (51)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### ActivateTaxi (52)
+Sends target player to flight path.
+> Note: The player must not be in combat, stunned or rooted.
+{.is-info}
+* **action_type**:
+SMART_ACTION_ACTIVATE_TAXI (52)
+* **action_param1**:
+[TaxiPath ID](/files/DBC/335/taxipath#id)
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### WaypointStart (53)
+Creature starts Waypoint Movement. Use waypoints table to create movement.
+* **action_type**:
+SMART_ACTION_WP_START (53)
+* **action_param1**:
+run? (`0`/`1`)
+* **action_param2**:
+[Waypoint entry](../world/waypoints#entry)
+* **action_param3**:
+canRepeat? (`0`/`1`)
+* **action_param4**:
+Binds creature to [quest ID](../world/quest_template#id). It's objective is satisfied when the last waypoint is reached and failed when the creature is killed or the player is out of range.
+* **action_param5**:
+despawntime (in msec.)
+* **action_param6**:
+`0`
+#### WaypointPause (54)
+Creature pauses its Waypoint Movement for given time.
+* **action_type**:
+SMART_ACTION_WP_PAUSE (54)
+* **action_param1**:
+time (in msec.)
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### WaypointStop (55)
+Creature stops its Waypoint Movement.
+* **action_type**:
+SMART_ACTION_WP_STOP (55)
+* **action_param1**:
+despawnTime (in msec.)
+* **action_param2**:
+[quest ID](../world/quest_template#id)
+* **action_param3**:
+failQuest?
+  * 0: quest objective is satisfied
+  * 1: quest fails
+  
+  Quest must be set in **action_param2** or by SMART_ACTION_WP_START (53)
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### AddItem (56)
+Adds count of item to target players.
+* **action_type**:
+SMART_ACTION_ADD_ITEM (56)
+* **action_param1**:
+[item entry](../world/item_template#entry)
+* **action_param2**:
+count
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### RemoveItem (57)
+Removes count of item from target players.
+* **action_type**:
+SMART_ACTION_REMOVE_ITEM (57)
+* **action_param1**:
+[item entry](../world/item_template#entry)
+* **action_param2**:
+count
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### UseAITemplate ⚠️&nbsp;(58)
+> UNUSED, DO NOT REUSE
+{.is-warning}
+* **action_type**:
+SMART_ACTION_INSTALL_AI_TEMPLATE (58)
+* **action_param1**:
+AITemplateID
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetRun (59)
+Set if creature can run or must walk.
+* **action_type**:
+SMART_ACTION_SET_RUN (59)
+* **action_param1**:
+enable? (`0`/`1`)
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### DisableGravity (60)
+Enable/disable smooth aerial movement for creature.
+> Note: Only works for creatures with INHABIT_AIR (4).
+{.is-info}
+* **action_type**:
+SMART_ACTION_SET_DISABLE_GRAVITY (60)
+* **action_param1**:
+disable
+  * 0: gravity is disabled
+  * 1: gravity is enabled
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetSwim ⚠️&nbsp;(61)
+> UNUSED, DO NOT REUSE
+{.is-warning}
+* **action_type**:
+SMART_ACTION_SET_SWIM (61)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### Teleport (62)
+Teleport targets to World Position set in the same target definition.
+* **action_type**:
+SMART_ACTION_TELEPORT (62)
+* **action_param1**:
+[Map ID](/files/DBC/335/map#id)
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetCounter (63)
+Store value in counterId in SAI enabled targets.
+> Note: SMART_EVENT_COUNTER_SET (77) is triggered.
+{.is-info}
+* **action_type**:
+SMART_ACTION_SET_COUNTER (63)
+* **action_param1**:
+counterID
+* **action_param2**:
+value
+* **action_param3**:
+reset
+  * 0: add value to counter
+  * 1: set counter to value
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### StoreTargets (64)
+Store selected targets in varID for later use.
+* **action_type**:
+SMART_ACTION_STORE_TARGET_LIST (64)
+* **action_param1**:
+varID
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### WaypointResume (65)
+Creature continues paused Waypoint Movement.
+* **action_type**:
+SMART_ACTION_WP_RESUME (65)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetOrientation (66)
+Creature turns in a given direction, depending on target.
+* **action_type**:
+SMART_ACTION_SET_ORIENTATION (66)
+* **action_param1**:
+orientation
+  * SMART_TARGET_SELF (1): orientation of Home Position
+  * SMART_TARGET_POSITION (8): **target_o** value
+  * < other target selectors >: set to face selected target
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### NewTimedEvent (67)
+Similar to SMART_ACTION_TRIGGER_TIMED_EVENT (73) but delayed and optionally repeatable.
+> Note: SMART_EVENT_TIMED_EVENT_TRIGGERED (77) will be triggered.
+{.is-info}
+* **action_type**:
+SMART_ACTION_CREATE_TIMED_EVENT (67)
+* **action_param1**:
+id
+* **action_param2**:
+InitialMin (in msec.)
+* **action_param3**:
+InitialMax (in msec.)
+* **action_param4**:
+RepeatMin (`0`: no repeat; in msec.)
+* **action_param5**:
+RepeatMax (`0`: no repeat; in msec.)
+* **action_param6**:
+chance (`0`: 100%)
+#### PlayMovie (68)
+Play movie for target players.
+* **action_type**:
+SMART_ACTION_PLAYMOVIE (68)
+* **action_param1**:
+MovieID
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### MoveToPos (69)
+Move to target Entity or target World Position.
+> Note: SMART_EVENT_MOVEMENTINFORM (34) is triggered.
+{.is-info}
+* **action_type**:
+SMART_ACTION_MOVE_TO_POS (69)
+* **action_param1**:
+PointID
+* **action_param2**:
+onTransport? (`0`/`1`)
+* **action_param3**:
+noPathfinding? (`0`/`1`)
+* **action_param4**:
+ContactDistance
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### EnableTmpObject (70)
+Enable target Gameobjects, not spawned by default.
+* **action_type**:
+SMART_ACTION_ENABLE_TEMP_GOBJ (70)
+* **action_param1**:
+respawn time (in sec.)
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### EquipItem (71)
+Set equipment on target creature.
+Slots 1 &ndash; 3 item entries are only used if no equipment ID is set.
+* **action_type**:
+SMART_ACTION_EQUIP (71)
+* **action_param1**:
+[equipment ID](../world/creature_equip_template#id)
+* **action_param2**:
+slotmask (`0`: 0x7)
+Only slots matching the slotmask are equipped.
+* **action_param3**:
+right hand slot (1) [item entry](../world/item_template#entry)
+* **action_param4**:
+left hand slot (2) [item entry](../world/item_template#entry)
+* **action_param5**:
+ranged slot (3) [item entry](../world/item_template#entry)
+* **action_param6**:
+`0`
+#### CloseGossip (72)
+Closes open gossip window.
+* **action_type**:
+SMART_ACTION_CLOSE_GOSSIP (72)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### TriggerTimedEvent (73)
+> Note: SMART_EVENT_TIMED_EVENT_TRIGGERED (77) is triggered.
+{.is-info}
+* **action_type**:
+SMART_ACTION_TRIGGER_TIMED_EVENT (73)
+* **action_param1**:
+id
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### RemoveTimedEvent (74)
+Delete scheduled Timed Event with id.
+* **action_type**:
+SMART_ACTION_REMOVE_TIMED_EVENT (74)
+* **action_param1**:
+id
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### AddAura ⚠️&nbsp;(75)
+Add aura to target units.
+> UNUSED, DO NOT REUSE
+{.is-warning}
+* **action_type**:
+SMART_ACTION_ADD_AURA (75)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### OverrideScript ⚠️&nbsp;(76)
+> UNUSED, DO NOT REUSE
+{.is-warning}
+* **action_type**:
+SMART_ACTION_OVERRIDE_SCRIPT_BASE_OBJECT (76)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### ResetScript ⚠️&nbsp;(77)
+> UNUSED, DO NOT REUSE
+{.is-warning}
+* **action_type**:
+SMART_ACTION_RESET_SCRIPT_BASE_OBJECT (77)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### ScriptReset (78)
+Reset this creature / gameobject.
+> Note: SMART_EVENT_RESET (25) is triggered.
+{.is-info}
+* **action_type**:
+SMART_ACTION_CALL_SCRIPT_RESET (78)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetRangedMove (79)
+Sets attack distance and angle for SAI enabled target creatures currenctly in combat.
+* **action_type**:
+SMART_ACTION_SET_RANGED_MOVEMENT (79)
+* **action_param1**:
+attackDistance
+* **action_param2**:
+attackAngle
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### StartTimedAction (80)
+Start TimedActionList on SAI enabled targets.
+* **action_type**:
+SMART_ACTION_CALL_TIMED_ACTIONLIST (80)
+* **action_param1**:
+**entryorguid**
+* **action_param2**:
+updateType
+  * 0: out of combat
+  * 1: in combat
+  * 2: always
+* **action_param3**:
+allowOverride? (`0`/`1`)
+Determines if an already active TimedActionList can be overridden.
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetNpcFlag (81)
+Replace npcflags on target creature.
+* **action_type**:
+SMART_ACTION_SET_NPC_FLAG (81)
+* **action_param1**:
+[creature npcflag](../world/creature_template#npcflag)
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### AddNpcFlag (82)
+Add npcflags to target creatures.
+* **action_type**:
+SMART_ACTION_ADD_NPC_FLAG (82)
+* **action_param1**:
+[creature npcflag](../world/creature_template#npcflag)
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### RemoveNpcFlag (83)
+Remove npcflags from target creatures.
+* **action_type**:
+SMART_ACTION_REMOVE_NPC_FLAG (83)
+* **action_param1**:
+[creature npcflag](../world/creature_template#npcflag)
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SimpleTalk (84)
+Target units will say the text.
+> Note: SMART_EVENT_TEXT_OVER (52) is **not** triggered.
+{.is-warning}
+* **action_type**:
+SMART_ACTION_SIMPLE_TALK (84)
+* **action_param1**:
+[text groupID](../world/creature_text#groupid)
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SelfCastSpell (85)
+The targets will cast the spell on themselves.
+* **action_type**:
+SMART_ACTION_SELF_CAST (85)
+* **action_param1**:
+[Spell ID](/files/DBC/335/spell#id)
+* **action_param2**:
+[`enum SmartCastFlags`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/AI/SmartScripts/SmartScriptMgr.h#L1541-L1550)
+  | Value | Flag | Name | Comment |
+  |-------|------|------|---------|
+  | 1 | 0x01 | SMARTCAST_INTERRUPT_PREVIOUS |  Interrupt any spell casting |
+  | 2 | 0x02 | SMARTCAST_TRIGGERED |  Triggered (this makes spell cost zero mana and have no cast time) |
+  | 4 | 0x04 | :x: SMARTCAST_FORCE_CAST | Forces cast even if creature is out of mana or out of range |
+  | 8 | 0x08 | :x: SMARTCAST_NO_MELEE_IF_OOM | Prevents creature from entering melee if out of mana or out of range |
+  | 16 | 0x10 | :x: SMARTCAST_FORCE_TARGET_SELF | Forces the target to cast this spell on itself |
+  | 32 | 0x20 | SMARTCAST_AURA_NOT_PRESENT |  Only casts the spell if the target does not have an aura from the spell |
+  | 64 | 0x40 | SMARTCAST_COMBAT_MOVE |  Prevents combat movement if cast successful. Allows movement on range, OOM, LOS |
+  {.dense}
+* **action_param3**:
+[`enum TriggerCastFlags`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Spells/SpellDefines.h#L146-L173)
+  | Value | Flag | Name | Comment |
+  |-------|------|------|---------|
+  | 1 | 0x00000001 | TRIGGERED_IGNORE_GCD | Will ignore GCD |
+  | 2 | 0x00000002 | TRIGGERED_IGNORE_SPELL_AND_CATEGORY_CD | Will ignore Spell and Category cooldowns |
+  | 4 | 0x00000004 | TRIGGERED_IGNORE_POWER_AND_REAGENT_COST | Will ignore power and reagent cost |
+  | 8 | 0x00000008 | TRIGGERED_IGNORE_CAST_ITEM | Will not take away cast item or update related achievement criteria |
+  | 16 | 0x00000010 | TRIGGERED_IGNORE_AURA_SCALING | Will ignore aura scaling |
+  | 32 | 0x00000020 | TRIGGERED_IGNORE_CAST_IN_PROGRESS | Will not check if a current cast is in progress |
+  | 64 | 0x00000040 | TRIGGERED_IGNORE_COMBO_POINTS | Will ignore combo point requirement |
+  | 128 | 0x00000080 | TRIGGERED_CAST_DIRECTLY | In Spell::prepare, will be cast directly without setting containers for executed spell |
+  | 256 | 0x00000100 | TRIGGERED_IGNORE_AURA_INTERRUPT_FLAGS | Will ignore interruptible aura's at cast |
+  | 512 | 0x00000200 | TRIGGERED_IGNORE_SET_FACING | Will not adjust facing to target (if any) |
+  | 1024 | 0x00000400 | TRIGGERED_IGNORE_SHAPESHIFT | Will ignore shapeshift checks |
+  | 2048 | 0x00000800 | TRIGGERED_IGNORE_CASTER_AURASTATE | Will ignore caster aura states including combat requirements and death state |
+  | 4096 | 0x00001000 | TRIGGERED_DISALLOW_PROC_EVENTS | Disallows proc events from triggered spell (default) |
+  | 8192 | 0x00002000 | TRIGGERED_IGNORE_CASTER_MOUNTED_OR_ON_VEHICLE | Will ignore mounted/on vehicle restrictions |
+  | 65536 | 0x00010000 | TRIGGERED_IGNORE_CASTER_AURAS | Will ignore caster aura restrictions or requirements |
+  | 131072 | 0x00020000 | TRIGGERED_DONT_RESET_PERIODIC_TIMER | Will allow periodic aura timers to keep ticking (instead of resetting) |
+  | 262144 | 0x00040000 | TRIGGERED_DONT_REPORT_CAST_ERROR | Will return SPELL_FAILED_DONT_REPORT in CheckCast functions |
+  | 524288 | 0x00080000 | TRIGGERED_IGNORE_EQUIPPED_ITEM_REQUIREMENT | Will ignore equipped item requirements |
+  {.dense}
+* **action_param4**:
+maxTargets (`0`: all targets)
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### CrossCastSpell (86)
+CasterTarget will cast Spell ID on all (regular) targets.
+> Use with caution when targeting multiple * multiple units.
+{.is-warning}
+* **action_type**:
+SMART_ACTION_CROSS_CAST (86)
+* **action_param1**:
+[Spell ID](/files/DBC/335/spell#id)
+* **action_param2**:
+[`enum SmartCastFlags`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/AI/SmartScripts/SmartScriptMgr.h#L1541-L1550)
+  | Value | Flag | Name | Comment |
+  |-------|------|------|---------|
+  | 1 | 0x01 | SMARTCAST_INTERRUPT_PREVIOUS |  Interrupt any spell casting |
+  | 2 | 0x02 | SMARTCAST_TRIGGERED |  Triggered (this makes spell cost zero mana and have no cast time) |
+  | 4 | 0x04 | :x: SMARTCAST_FORCE_CAST | Forces cast even if creature is out of mana or out of range |
+  | 8 | 0x08 | :x: SMARTCAST_NO_MELEE_IF_OOM | Prevents creature from entering melee if out of mana or out of range |
+  | 16 | 0x10 | :x: SMARTCAST_FORCE_TARGET_SELF | Forces the target to cast this spell on itself |
+  | 32 | 0x20 | SMARTCAST_AURA_NOT_PRESENT |  Only casts the spell if the target does not have an aura from the spell |
+  | 64 | 0x40 | SMARTCAST_COMBAT_MOVE |  Prevents combat movement if cast successful. Allows movement on range, OOM, LOS |
+  {.dense}
+* **action_param3**:
+caster_**target_type**
+* **action_param4**:
+caster_**target_param1**
+* **action_param5**:
+caster_**target_param2**
+* **action_param6**:
+caster_**target_param3**
+#### RandTimedAction (87)
+Start random (**entryorguid** > 0) TimedActionList on SAI enabled targets.
+* **action_type**:
+SMART_ACTION_CALL_RANDOM_TIMED_ACTIONLIST (87)
+* **action_param1**:
+**entryorguid** #1
+* **action_param2**:
+**entryorguid** #2
+* **action_param3**:
+**entryorguid** #3
+* **action_param4**:
+**entryorguid** #4
+* **action_param5**:
+**entryorguid** #5
+* **action_param6**:
+**entryorguid** #6
+#### RandRangeTimedAction (88)
+Start random (min <= **entryorguid** <= max) TimedActionList on SAI enabled targets.
+* **action_type**:
+SMART_ACTION_CALL_RANDOM_RANGE_TIMED_ACTIONLIST (88)
+* **action_param1**:
+min. **entryorguid**
+* **action_param2**:
+max. **entryorguid**
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### RandomMove (89)
+Target creatures move maxDist in random direction. If no target was found, this creature moves instead.
+* **action_type**:
+SMART_ACTION_RANDOM_MOVE (89)
+* **action_param1**:
+maxDist (`0`: use idle movement)
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetUnitBytes (90)
+Set BYTES_1 for target units at given offset.
+* **action_type**:
+SMART_ACTION_SET_UNIT_FIELD_BYTES_1 (90)
+* **action_param1**:
+bytes
+* **action_param2**:
+offset
+  * 0: [StandState](../world/creature_template_addon#standstate)
+  * 2: [VisFlags](../world/creature_template_addon#visflags)
+  * 3: [AnimTier](../world/creature_template_addon#animtier)
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### RemoveUnitBytes (91)
+Reset BYTES_1 for target units at given offset.
+* **action_type**:
+SMART_ACTION_REMOVE_UNIT_FIELD_BYTES_1 (91)
+* **action_param1**:
+bytes
+* **action_param2**:
+offset
+  * 0: [StandState](../world/creature_template_addon#standstate)
+  * 2: [VisFlags](../world/creature_template_addon#visflags)
+  * 3: [AnimTier](../world/creature_template_addon#animtier)
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+
+### EndTabset {.tabset}
+^WIP^
 | ID | Name | action_param1 | action_param2 | action_param3 | action_param4 | action_param5 | action_param6 | Comment |
 |----|------|---------------|---------------|---------------|---------------|---------------|---------------|---------|
-| 0 | SMART_ACTION_NONE |  |  |  |  |  |  | No action |
-| 1 | SMART_ACTION_TALK | [GroupID](../world/creature_text#groupid) | duration in ms to wait before<br>TEXT_OVER event is triggered | useTalkTarget:<br>0 - target talks to invoker<br>1 - creature talks to target |  |  |  | action_param3 only relevant for creature targets |
-| 2 | SMART_ACTION_SET_FACTION | [FactionTemplate ID](/files/DBC/335/factiontemplate#id) (0: default) |  |  |  |  |  | Sets faction to creature. |
-| 3 | SMART_ACTION_MORPH_TO_ENTRY_OR_MODEL | [creature entry](../world/creature_template#entry) | [DisplayID](../world/creature_model_info#displayid) |  |  |  |  | set one or the other; both 0: demorph |
-| 4 | SMART_ACTION_SOUND | [SoundEntry ID](/files/DBC/335/soundentries#id) | onlySelf? (0/1) | distantSound? (0/1) |  |  |  | distantSound: external sound source |
-| 5 | SMART_ACTION_PLAY_EMOTE | [Emote ID](/files/DBC/335/emotes#id) |  |  |  |  |  |  |
-| 6 | SMART_ACTION_FAIL_QUEST | [quest ID](../world/quest_template#id) |  |  |  |  |  | Fail quest of target. |
-| 7 | SMART_ACTION_OFFER_QUEST | [quest ID](../world/quest_template#id) | directAdd:<br>0 - offer quest<br>1 - add quest to log |  |  |  |  | Offer quest to target. |
-| 8 | SMART_ACTION_SET_REACT_STATE | [state](#reactstate) |  |  |  |  |  |  |
-| 9 | SMART_ACTION_ACTIVATE_GOBJECT |  |  |  |  |  |  | Set gameobject active. |
-| 10 | SMART_ACTION_RANDOM_EMOTE | [Emote ID1](/files/DBC/335/emotes#id) | [Emote ID2](/files/DBC/335/emotes#id) | [Emote ID3](/files/DBC/335/emotes#id) | [Emote ID4](/files/DBC/335/emotes#id) | [Emote ID5](/files/DBC/335/emotes#id) | [Emote ID6](/files/DBC/335/emotes#id) | Play random emote. |
-| 11 | SMART_ACTION_CAST | [Spell ID](/files/DBC/335/spell#id) | [CastFlags](#smartcastflags) | [TriggeredFlags](#triggercastflags) |  |  |  | Cast spell at taget. |
-| 12 | SMART_ACTION_SUMMON_CREATURE | [creature entry](../world/creature_template#entry) | [SummonType](#summontype) | duration in ms | attackInvoker? (0/1) | SmartActionSummonCreatureFlags:<br>0x1 - PersonalSpawn<br>0x2 - PreferUnit |  | Summon NPC |
-| 13 | SMART_ACTION_THREAT_SINGLE_PCT | Threat% incr. | Threat% decr. |  |  |  |  | Change threat percentage for single target |
-| 14 | SMART_ACTION_THREAT_ALL_PCT | Threat% incr. | Threat% decr. |  |  |  |  | Change threat percentage for all targets |
-| 15 | SMART_ACTION_CALL_AREAEXPLOREDOREVENTHAPPENS | [QuestID](../world/quest_template#id) |  |  |  |  |  | Satisfy exploration requirement for quest. |
-| 16 | :x: SMART_ACTION_RESERVED_16 |  |  |  |  |  |  | used on 4.3.4 and higher scripts |
-| 17 | SMART_ACTION_SET_EMOTE_STATE | [Emote ID](/files/DBC/335/emotes#id) |  |  |  |  |  | Play Emote Continuously |
-| 18 | :x: SMART_ACTION_SET_UNIT_FLAG | flags | 0: set unit_flags<br>1: set unit_flags2 |  |  |  |  | UNUSED, DO NOT REUSE - Set multiple flags at once|
-| 19 | :x: SMART_ACTION_REMOVE_UNIT_FLAG | flags | 0: unset unit_flags<br>1: unset unit_flags2 |  |  |  |  | UNUSED, DO NOT REUSE - Remove multiple flags at once|
-| 20 | SMART_ACTION_AUTO_ATTACK | allowAttack? (0/1) |  |  |  |  |  | Start or Stop auto hits |
-| 21 | SMART_ACTION_ALLOW_COMBAT_MOVEMENT | allowMovement? (0/1) |  |  |  |  |  | Allow or Disable Combat Movement |
-| 22 | SMART_ACTION_SET_EVENT_PHASE | phase |  |  |  |  |  | see **event_phase_mask** |
-| 23 | SMART_ACTION_INC_EVENT_PHASE | increment | decrement |  |  |  |  | only increment OR decrement, not both |
-| 24 | SMART_ACTION_EVADE | 0: to respawn pos.<br>1: to last stored home pos. |  |  |  |  |  | Enter Evade mode. |
-| 25 | SMART_ACTION_FLEE_FOR_ASSIST | withEmote? (0/1) |  |  |  |  |  | Emote: '%s attempts to run away in fear'  |
-| 26 | SMART_ACTION_CALL_GROUPEVENTHAPPENS | [quest ID](../world/quest_template#id) |  |  |  |  |  | Like #15 but for whole party. |
-| 27 | SMART_ACTION_COMBAT_STOP |  |  |  |  |  |  |  |
-| 28 | SMART_ACTION_REMOVEAURASFROMSPELL | [Spell ID](/files/DBC/335/spell#id) (0: any) | charges (0: all) | onlyOwned? (0/1) |  |  |  |  |
-| 29 | SMART_ACTION_FOLLOW | distance (0: default) | angle (0: default) | [end creature entry](../world/creature_template#entry) | credit | creditType:<br>0 - moster kill<br>1 - event |  | Following ends when reaching end creature.<br>Credit is rewarded upon StopFollow. |
-| 30 | SMART_ACTION_RANDOM_PHASE | Phase1 | Phase2 | Phase3 | Phase4 | Phase5 | Phase6 | see **event_phase_mask** |
-| 31 | SMART_ACTION_RANDOM_PHASE_RANGE | PhaseMin | PhaseMax |  |  |  |  | see **event_phase_mask** |
-| 32 | SMART_ACTION_RESET_GOBJECT |  |  |  |  |  | |
-| 33 | SMART_ACTION_CALL_KILLEDMONSTER | [creature entry](../world/creature_template#entry) |  |  |  |  |  | Satisfies [RequiredNpcOrGo](../world/quest_template#RequiredNpcOrGo1) |
-| 34 | SMART_ACTION_SET_INST_DATA | fieldId | data | type:<br>0 - SetData<br>1 - SetBossState |  |  |  | if type:<br>0 - arbitrary data<br>1 - [EncounterState](#encounterstate) |
-| 35 | SMART_ACTION_SET_INST_DATA64 | fieldId |  |  |  |  |  | save target's guid in instance's fieldId |
-| 36 | SMART_ACTION_UPDATE_TEMPLATE | [creature entry](../world/creature_template#entry) | updateLevel? (0/1) |  |  |  |  | Updates creature_template to given entry.<br>Can set level from given creature entry. |
-| 37 | SMART_ACTION_DIE |  |  |  |  |  |  | Creature suicides. |
-| 38 | SMART_ACTION_SET_IN_COMBAT_WITH_ZONE |  |  |  |  |  |  |  |
-| 39 | SMART_ACTION_CALL_FOR_HELP | range | withEmote? (0/1) |  |  |  |  | Emote: '%s calls for help!'. |
-| 40 | SMART_ACTION_SET_SHEATH | [state](#sheathstate) |  |  |  |  |  |  |
-| 41 | SMART_ACTION_FORCE_DESPAWN | despawnDelay in ms | forceRespawnTimer in sec |  |  |  |  | respawn is optional |
-| 42 | SMART_ACTION_SET_INVINCIBILITY_HP_LEVEL | flat HP | pct HP |  |  |  |  | pct takes precedent over flat |
-| 43 | SMART_ACTION_MOUNT_TO_ENTRY_OR_MODEL | [creature entry](../world/creature_template#entry) | [DisplayID](../world/creature_model_info#displayid) |  |  |  |  | set one or the other; both 0: dismount |
-| 44 | SMART_ACTION_SET_INGAME_PHASE_MASK | phaseMask |  |  |  |  |  | Sets phaseMask of target |
-| 45 | SMART_ACTION_SET_DATA | fieldId | data |  |  |  |  | write data to fieldId in AI enabled target |
-| 46 | SMART_ACTION_ATTACK_STOP |  |  |  |  |  |  | Stop melee, spell casting during combat, chasing the target and facing |
-| 47 | SMART_ACTION_SET_VISIBILITY | visible? (0/1) |  |  |  |  |  | set target visibility |
-| 48 | SMART_ACTION_SET_ACTIVE | active? (0/1) |  |  |  |  |  | make target grid active/inactive |
-| 49 | SMART_ACTION_ATTACK_START |  |  |  |  |  |  | start attacking random target |
-| 50 | SMART_ACTION_SUMMON_GO | [gameobject entry](../world/gameobject_template#entry) | despawnTime in sec | [SummonType](#gosummontype) |  |  |  | Spawns Gameobject, use target_type to set spawn position. |
-| 51 | SMART_ACTION_KILL_UNIT |  |  |  |  |  |  | Forces non-player target to suicide. |
-| 52 | SMART_ACTION_ACTIVATE_TAXI | [TaxiPath ID](/files/DBC/335/taxipath#id) |  |  |  |  |  | Sends target player to flight path. You have to be close to Flight Master, which gives Taxi ID you need.  |
-| 53 | SMART_ACTION_WP_START | run? (0/1) | [Waypoint entry](../world/waypoints#entry) | canRepeat? (0/1) | [quest ID](../world/quest_template#id) | despawntime |  | Creature starts Waypoint Movement. Use waypoints table to create movement. |
-| 54 | SMART_ACTION_WP_PAUSE | time in ms |  |  |  |  |  | Creature pauses its Waypoint Movement for given time. |
-| 55 | SMART_ACTION_WP_STOP | despawnTime | [quest ID](../world/quest_template#id) | failQuest? (0/1) |  |  |  | Creature stops its Waypoint Movement. |
-| 56 | SMART_ACTION_ADD_ITEM | [item entry](../world/item_template#entry) | count |  |  |  |  | Adds item(s) to player. |
-| 57 | SMART_ACTION_REMOVE_ITEM | [item entry](../world/item_template#entry) | count |  |  |  |  | Removes item(s) from player. |
-| 58 | :x: SMART_ACTION_INSTALL_AI_TEMPLATE |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 59 | SMART_ACTION_SET_RUN | enable? (0/1) |  |  |  |  |  |  |
-| 60 | SMART_ACTION_SET_DISABLE_GRAVITY | disable? (0/1) |  |  |  |  |  | Only works for creatures with inhabit air. |
-| 61 | :x: SMART_ACTION_SET_SWIM |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 62 | SMART_ACTION_TELEPORT | [Map ID](/files/DBC/335/map#id) |  |  |  |  |  | Use World Pos. from **target_type** to set destination |
-| 63 | SMART_ACTION_SET_COUNTER | counterID | value | reset? (0/1) |  |  |  |  |
-| 64 | SMART_ACTION_STORE_TARGET_LIST | varID |  |  |  |  |  |  |
-| 65 | SMART_ACTION_WP_RESUME |  |  |  |  |  |  | Creature continues in its Waypoint Movement. |
-| 66 | SMART_ACTION_SET_ORIENTATION | orientation:<br>1 - HomePos. orientation<br>8 - **target_o** value<br>!0 - facing target |  |  |  |  |  | depends on targets:<br>1 - SMART_TARGET_SELF<br> 8 - SMART_TARGET_POSITION<br> !0 - !SMART_TARGET_NONE |
-| 67 | SMART_ACTION_CREATE_TIMED_EVENT | id | InitialMin | InitialMax | RepeatMin (0: no repeat) | RepeatMax (0: no repeat) | chance (0: 100%) |  |
-| 68 | SMART_ACTION_PLAYMOVIE | MovieID |  |  |  |  |  | requires target player |
-| 69 | SMART_ACTION_MOVE_TO_POS | PointID | onTransport? (0/1) | noPathfinding? (0/1) | ContactDistance |  |  | PointID is called by SMART_EVENT_MOVEMENTINFORM.<br>Position is set with **target_type** |
-| 70 | SMART_ACTION_ENABLE_TEMP_GOBJ | respawn time in sec |  |  |  |  |  | GO selected by **target_type** |
-| 71 | SMART_ACTION_EQUIP | [equipment ID](../world/creature_equip_template#id) | slotmask (0: 0x7) | [right(1) item entry](../world/item_template#entry) | [left(2) item entry](../world/item_template#entry) | [ranged(3) item entry](../world/item_template#entry) |  | Set equipment on target creature.<br>Slots1-3 item entries are only used if no equipment ID is set. |
-| 72 | SMART_ACTION_CLOSE_GOSSIP |  |  |  |  |  |  | Closes gossip window. |
-| 73 | SMART_ACTION_TRIGGER_TIMED_EVENT | id |  |  |  |  |  |  |
-| 74 | SMART_ACTION_REMOVE_TIMED_EVENT | id |  |  |  |  |  |  |
-| 75 | :x: SMART_ACTION_ADD_AURA |  |  |  |  |  |  | UNUSED, DO NOT REUSE - Adds aura to player(s).  |
-| 76 | :x: SMART_ACTION_OVERRIDE_SCRIPT_BASE_OBJECT |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 77 | :x: SMART_ACTION_RESET_SCRIPT_BASE_OBJECT |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 78 | SMART_ACTION_CALL_SCRIPT_RESET |  |  |  |  |  |  |  |
-| 79 | SMART_ACTION_SET_RANGED_MOVEMENT | attackDistance | arrackAngle |  |  |  |  | Sets movement to follow at a specific range to the target. |
-| 80 | SMART_ACTION_CALL_TIMED_ACTIONLIST | **entryorguid** | updateType:<br>0 - out of combat<br>1 - in combat<br>2 - always | allowOverride? (0/1) |  |  |  | Start TimedActionList on SAI enabled target. |
-| 81 | SMART_ACTION_SET_NPC_FLAG | [npcflag](../world/creature_template#npcflag) |  |  |  |  |  | Replace npcflags on creature taget |
-| 82 | SMART_ACTION_ADD_NPC_FLAG | [npcflag](../world/creature_template#npcflag) |  |  |  |  |  | Add npcflags to creature taget |
-| 83 | SMART_ACTION_REMOVE_NPC_FLAG | [npcflag](../world/creature_template#npcflag) |  |  |  |  |  | Remove npcflags from creature taget |
-| 84 | SMART_ACTION_SIMPLE_TALK | [groupID](../world/creature_text#groupid) |  |  |  |  |  | Target units will say the text.<br>TEXT_OVER event is not triggered. |
-| 85 | SMART_ACTION_SELF_CAST | [Spell ID](/files/DBC/335/spell#id) | [CastFlags](#smartcastflags) | [TriggeredFlags](#triggercastflags) | maxTargets (0: all) |  |  | The targets will cast the spell on it themself |
-| 86 | SMART_ACTION_CROSS_CAST | [Spell ID](/files/DBC/335/spell#id) | [CastFlags](#smartcastflags) | caster_**target_type** | caster_**target_param1** | caster_**target_param2** | caster_**target_param3** | CasterTarget will cast Spell ID on all (regular) targets.<br>Use with caution if targeting multiple * multiple units.
-| 87 | SMART_ACTION_CALL_RANDOM_TIMED_ACTIONLIST | **entryorguid**1 | **entryorguid**2 | **entryorguid**3 | **entryorguid**4 | **entryorguid**5 | **entryorguid**6 | Start random (id > 0) TimedActionList on SAI enabled target. |
-| 88 | SMART_ACTION_CALL_RANDOM_RANGE_TIMED_ACTIONLIST | min. **entryorguid** | max. **entryorguid** |  |  |  |  | Start random (min <= id <= max) TimedActionList on SAI enabled target. |
-| 89 | SMART_ACTION_RANDOM_MOVE | maxDist (0: idleMove) |  |  |  |  |  | Creature target or self moves maxDist in random direction. |
-| 90 | SMART_ACTION_SET_UNIT_FIELD_BYTES_1 | bytes | target:<br>0 - [StandState](../world/creature_template_addon#standstate)<br>2 - [VisFlags](../world/creature_template_addon#visflags)<br>3 - [AnimTier](../world/creature_template_addon#animtier)  |  |  |  |  | Set units BYTES_1 at target offset. |
-| 91 | SMART_ACTION_REMOVE_UNIT_FIELD_BYTES_1 | bytes | target:<br>0 - [StandState](../world/creature_template_addon#standstate)<br>2 - [VisFlags](../world/creature_template_addon#visflags)<br>3 - [AnimTier](../world/creature_template_addon#animtier)  |  |  |  |  | Reset units BYTES_1 at target offset. |
 | 92 | SMART_ACTION_INTERRUPT_SPELL | withDelayed? (0/1) | [Spell ID](/files/DBC/335/spell#id) | withInstant? (0/1) |  |  |  | Interrupt the current spell being cast by target.<br>Without Spell ID, the core will find the current spell depending on withDelay and withInstant. |
 | 93 | :x: SMART_ACTION_SEND_GO_CUSTOM_ANIM |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
 | 94 | :x: SMART_ACTION_SET_DYNAMIC_FLAG |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
@@ -2220,17 +3808,6 @@ Commenting on SAI uses a template which is the following:
 
 &nbsp;
 
-### ReactState
-[`enum ReactStates`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Unit/UnitDefines.h#L406-L411)
-| ID | Name | Comment |
-|----|------|---------|
-| 0 | REACT_PASSIVE | Does not defend or attack at all. Does nothing. |
-| 1 | REACT_DEFENSIVE | Only attacks back when attacked. |
-| 2 | REACT_AGGRESSIVE | Will attack if on threat list and in threat radius. (default) |
-{.dense}
-
-&nbsp;
-
 ### SmartSpawnFlags
 [`enum SMARTAI_SPAWN_FLAGS`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/AI/SmartScripts/SmartScriptMgr.h#L1196-L1202)
 | Value | Flag | Name |
@@ -2279,56 +3856,6 @@ Commenting on SAI uses a template which is the following:
 | 131072 | 0x00020000 | TRIGGERED_DONT_RESET_PERIODIC_TIMER | Will allow periodic aura timers to keep ticking (instead of resetting) |
 | 262144 | 0x00040000 | TRIGGERED_DONT_REPORT_CAST_ERROR | Will return SPELL_FAILED_DONT_REPORT in CheckCast functions |
 | 524288 | 0x00080000 | TRIGGERED_IGNORE_EQUIPPED_ITEM_REQUIREMENT | Will ignore equipped item requirements |
-{.dense}
-
-&nbsp;
-
-### SummonType
-[`enum TempSummonType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Object/ObjectDefines.h#L59-L69)
-| ID | Name | Comment |
-|----|------|---------|
-| 1 | TEMPSUMMON_TIMED_OR_DEAD_DESPAWN | despawns after a specified time OR when the creature disappears |
-| 2 | TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN | despawns after a specified time OR when the creature dies |
-| 3 | TEMPSUMMON_TIMED_DESPAWN | despawns after a specified time |
-| 4 | TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT | despawns after a specified time after the creature is out of combat |
-| 5 | TEMPSUMMON_CORPSE_DESPAWN | despawns instantly after death |
-| 6 | TEMPSUMMON_CORPSE_TIMED_DESPAWN | despawns after a specified time after death |
-| 7 | TEMPSUMMON_DEAD_DESPAWN | despawns when the creature disappears |
-| 8 | TEMPSUMMON_MANUAL_DESPAWN | despawns when UnSummon() is called |
-{.dense}
-
-&nbsp;
-
-### GOSummonType
-[`enum GOSummonType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Object/ObjectDefines.h#L85-L89)
-| ID | Name | Comment |
-|----|------|---------|
-| 0 | GO_SUMMON_TIMED_OR_CORPSE_DESPAWN | despawns after a specified time OR when the summoner dies |
-| 1 | GO_SUMMON_TIMED_DESPAWN | despawns after a specified time |
-{.dense}
-
-&nbsp;
-
-### EncounterState
-[`enum EncounterState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Instances/InstanceScript.h#L68-L76)
-| ID | Name |
-|----|------|
-| 0 | NOT_STARTED |
-| 1 | IN_PROGRESS |
-| 2 | FAIL |
-| 3 | DONE |
-| 4 | SPECIAL |
-{.dense}
-
-&nbsp;
-
-### SheathState
-[`enum SheathState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Unit/UnitDefines.h#L96-L103)
-| ID | Name | Comment |
-|----|------|---------|
-| 0 | SHEATH_STATE_UNARMED | non prepared weapon |
-| 1 | SHEATH_STATE_MELEE | prepared melee weapon |
-| 2 | SHEATH_STATE_RANGED | prepared ranged weapon |
 {.dense}
 
 &nbsp;
