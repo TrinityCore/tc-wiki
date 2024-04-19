@@ -82,16 +82,16 @@ Quality threshold past which players have to roll for items.
 
 ### icon\[1-8]
 [character guid](../characters/characters#guid) or [creature guid](../characters/creature#guid) the icon is placed on.
-| Idx |  | Name |
-|-----|--|------|
-| 1 | ![Star](/client-assets/ui-raidtargetingicon_1.png =16x) | Yellow 4-point Star |
-| 2 | ![Circle](/client-assets/ui-raidtargetingicon_2.png =16x) | Orange Circle |
-| 3 | ![Diamond](/client-assets/ui-raidtargetingicon_3.png =16x) | Purple Diamond |
-| 4 | ![Triangle](/client-assets/ui-raidtargetingicon_4.png =16x) | Green Triangle |
-| 5 | ![Moon](/client-assets/ui-raidtargetingicon_5.png =16x) | White Crescent Moon |
-| 6 | ![Square](/client-assets/ui-raidtargetingicon_6.png =16x) | Blue Square |
-| 7 | ![Cross](/client-assets/ui-raidtargetingicon_7.png =16x) | Red Cross |
-| 8 | ![Skull](/client-assets/ui-raidtargetingicon_8.png =16x) | White Skull |
+| Idx | Name |
+|-----|------|
+| 1 | Yellow 4-point Star |
+| 2 | Orange Circle |
+| 3 | Purple Diamond |
+| 4 | Green Triangle |
+| 5 | White Crescent Moon |
+| 6 | Blue Square |
+| 7 | Red Cross |
+| 8 | White Skull |
 {.dense}
 
 &nbsp;
