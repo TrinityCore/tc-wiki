@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2024-04-20T19:43:14.932Z
+date: 2024-04-20T19:46:53.073Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:09.695Z
@@ -4737,7 +4737,8 @@ Commenting on SAI uses a template which is the following:
 * "Minion of Gurok - On spawn - Set Random Movement"
 &nbsp;
 
-## Additional Description - PowerType
+---
+##### PowerType
 [`enum Powers`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L286-L298)
 | ID | Name |
 |----|------|
