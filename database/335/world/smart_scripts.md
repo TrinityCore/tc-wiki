@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2024-04-19T21:25:42.706Z
+date: 2024-04-20T16:45:52.227Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:09.695Z
@@ -27,13 +27,13 @@ dateCreated: 2021-08-30T22:09:09.695Z
 | [event_param3](#event) | int | unsigned |  | NO | 0 |  |  |
 | [event_param4](#event) | int | unsigned |  | NO | 0 |  |  |
 | [event_param5](#event) | int | unsigned |  | NO | 0 |  |  |
-| [action_type](#action_type) | tinyint | unsigned |  | NO | 0 |  |  |
-| [action_param1](#action_type) | int | unsigned |  | NO | 0 |  |  |
-| [action_param2](#action_type) | int | unsigned |  | NO | 0 |  |  |
-| [action_param3](#action_type) | int | unsigned |  | NO | 0 |  |  |
-| [action_param4](#action_type) | int | unsigned |  | NO | 0 |  |  |
-| [action_param5](#action_type) | int | unsigned |  | NO | 0 |  |  |
-| [action_param6](#action_type) | int | unsigned |  | NO | 0 |  |  |
+| [action_type](#action) | tinyint | unsigned |  | NO | 0 |  |  |
+| [action_param1](#action) | int | unsigned |  | NO | 0 |  |  |
+| [action_param2](#action) | int | unsigned |  | NO | 0 |  |  |
+| [action_param3](#action) | int | unsigned |  | NO | 0 |  |  |
+| [action_param4](#action) | int | unsigned |  | NO | 0 |  |  |
+| [action_param5](#action) | int | unsigned |  | NO | 0 |  |  |
+| [action_param6](#action) | int | unsigned |  | NO | 0 |  |  |
 | [target_type](#target_type) | tinyint | unsigned |  | NO | 0 |  |  |
 | [target_param1](#target_type) | int | unsigned |  | NO | 0 |  |  |
 | [target_param2](#target_type) | int | unsigned |  | NO | 0 |  |  |
@@ -48,7 +48,7 @@ dateCreated: 2021-08-30T22:09:09.695Z
 
 ## Description of fields
 
-> Note: :x:means that the feature/option is not (yet) implemented.
+> Note: :x: means that the feature/option is not (yet) implemented.
 {.is-info}
 
 
@@ -1981,7 +1981,7 @@ SMART_ACTION_MORPH_TO_ENTRY_OR_MODEL (3)
 * **action_param6**:
 `0`
 #### Sound (4)
-Plays a sound entry
+Target units play a sound entry.
 * **action_type**:
 SMART_ACTION_SOUND (4)
 * **action_param1**:
@@ -1991,9 +1991,9 @@ onlySelf
   * 0: heard by all players in visibility range
   * 1: heard by invoking player
 * **action_param3**:
-distantSound
+distanceSound
   * 0: uses WorldObject::PlayDirectSound()
-  * 1: uses WorldObject::PlayDistantSound()
+  * 1: uses WorldObject::PlayDistanceSound()
 * **action_param4**:
 `0`
 * **action_param5**:
@@ -2095,17 +2095,17 @@ Play random emote.
 * **action_type**:
 SMART_ACTION_RANDOM_EMOTE (10)
 * **action_param1**:
-[Emote ID1](/files/DBC/335/emotes#id)
+[Emote ID](/files/DBC/335/emotes#id) #1
 * **action_param2**:
-[Emote ID2](/files/DBC/335/emotes#id)
+[Emote ID](/files/DBC/335/emotes#id) #2
 * **action_param3**:
-[Emote ID3](/files/DBC/335/emotes#id)
+[Emote ID](/files/DBC/335/emotes#id) #3
 * **action_param4**:
-[Emote ID4](/files/DBC/335/emotes#id)
+[Emote ID](/files/DBC/335/emotes#id) #4
 * **action_param5**:
-[Emote ID5](/files/DBC/335/emotes#id)
+[Emote ID](/files/DBC/335/emotes#id) #5
 * **action_param6**:
-[Emote ID6](/files/DBC/335/emotes#id)
+[Emote ID](/files/DBC/335/emotes#id) #6
 #### CastSpell (11)
 Cast spell at targets.
 * **action_type**:
@@ -2183,7 +2183,7 @@ SmartActionSummonCreatureFlags:
 * **action_param6**:
 `0`
 #### ThreatPctSingle (13)
-Change threat percentage for single target.
+Change own threat percentage against target units.
 * **action_type**:
 SMART_ACTION_THREAT_SINGLE_PCT (13)
 * **action_param1**:
@@ -2199,7 +2199,7 @@ Threat% decrease
 * **action_param6**:
 `0`
 #### ThreatPctAll (14)
-Change threat percentage for all targets.
+Change own threat percentage against all units engaged with this creature.
 * **action_type**:
 SMART_ACTION_THREAT_ALL_PCT (14)
 * **action_param1**:
@@ -2370,7 +2370,9 @@ decrement
 * **action_param6**:
 `0`
 #### EnterEvadeMode (24)
-Enter Evade mode.
+This creature enters evade mode.
+> Note: SMART_EVENT_EVADE (7) is triggered.
+{.is-info}
 * **action_type**:
 SMART_ACTION_EVADE (24)
 * **action_param1**:
@@ -2387,7 +2389,7 @@ SMART_ACTION_EVADE (24)
 * **action_param6**:
 `0`
 #### FleeForAssist (25)
-Creature walks towards nearest ally.
+This creature walks towards nearest ally.
 * **action_type**:
 SMART_ACTION_FLEE_FOR_ASSIST (25)
 * **action_param1**:
@@ -3187,7 +3189,7 @@ respawn time (in sec.)
 * **action_param6**:
 `0`
 #### EquipItem (71)
-Set equipment on target creature.
+Set equipment on target creatures.
 Slots 1 &ndash; 3 item entries are only used if no equipment ID is set.
 * **action_type**:
 SMART_ACTION_EQUIP (71)
@@ -3586,45 +3588,588 @@ offset
 `0`
 * **action_param6**:
 `0`
+#### InterruptSpell (92)
+Interrupt the current spell being cast by target.
+Without Spell ID, the core will find the current spell depending on withDelay and withInstant.
+* **action_type**:
+SMART_ACTION_INTERRUPT_SPELL (92)
+* **action_param1**:
+withDelayed? (`0`/`1`)
+* **action_param2**:
+[Spell ID](/files/DBC/335/spell#id)
+* **action_param3**:
+withInstant? (`0`/`1`)
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### AnimateObject ⚠️&nbsp;(93)
+> UNUSED, DO NOT REUSE
+{.is-warning}
+* **action_type**:
+SMART_ACTION_SEND_GO_CUSTOM_ANIM (93)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetDynFlag ⚠️&nbsp;(94)
+> UNUSED, DO NOT REUSE
+{.is-warning}
+* **action_type**:
+SMART_ACTION_SET_DYNAMIC_FLAG (94)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### AddDynFlag ⚠️&nbsp;(95)
+> UNUSED, DO NOT REUSE
+{.is-warning}
+* **action_type**:
+SMART_ACTION_ADD_DYNAMIC_FLAG (95)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### RemoveDynFlag ⚠️&nbsp;(96)
+> UNUSED, DO NOT REUSE
+{.is-warning}
+* **action_type**:
+SMART_ACTION_REMOVE_DYNAMIC_FLAG (96)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### JumpToPos (97)
+Target creatures jump to World Position set in the same target definition. Speed* describes the jump arc.
+* **action_type**:
+SMART_ACTION_JUMP_TO_POS (97)
+* **action_param1**:
+speedXY
+* **action_param2**:
+speedZ
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SendGossip (98)
+Open gossip menu to target players. Can be used together with SMART_EVENT_GOSSIP_HELLO (64) to set custom gossip.
+* **action_type**:
+SMART_ACTION_SEND_GOSSIP_MENU (98)
+* **action_param1**:
+[gossip MenuID](../world/gossip_menu#menuid)
+* **action_param2**:
+[gossip TextID](../world/gossip_menu#textid)
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetLootState (99)
+Set loot state of target gameobjects.
+* **action_type**:
+SMART_ACTION_GO_SET_LOOT_STATE (99)
+* **action_param1**:
+[`enum LootState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/GameObject/GameObject.h#L74-L79)
+  | ID | Name | Comment |
+  |----|------|---------|
+  | 1 | GO_NOT_READY |  |
+  | 2 | GO_READY | can be ready but despawned, and then not possible activate until spawn |
+  | 3 | GO_ACTIVATE |  |
+  | 4 | GO_JUST_DEACTIVATED |  |
+  {.dense}
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SendTargets (100)
+Send targets previously stored with SMART_ACTION_STORE_TARGET_LIST (64), to target creatures / gameobjects.
+The other entities can then access them as if it was their own stored list.
+* **action_type**:
+SMART_ACTION_SEND_TARGET_TO_TARGET (100)
+* **action_param1**:
+varId
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetHomePos (101)
+Set Home Position of target creatures.
+If **target_type** is SMART_TARGET_POSITION (8) Home Position is the World Position defined in target, otherwise it's the creatures current position. 
+* **action_type**:
+SMART_ACTION_SET_HOME_POS (101)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetHealthRegen (102)
+Enable/Disable health regeneration for target creatures.
+* **action_type**:
+SMART_ACTION_SET_HEALTH_REGEN (102)
+* **action_param1**:
+enable? (`0`/`1`)
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetRoot (103)
+Root/Unroot target creatures.
+* **action_type**:
+SMART_ACTION_SET_ROOT (103)
+* **action_param1**:
+enable? (`0`/`1`)
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetGoFlag ⚠️&nbsp;(104)
+> UNUSED, DO NOT REUSE
+{.is-warning}
+* **action_type**:
+SMART_ACTION_SET_GO_FLAG (104)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### AddGoFlag ⚠️&nbsp;(105)
+> UNUSED, DO NOT REUSE
+{.is-warning}
+* **action_type**:
+SMART_ACTION_ADD_GO_FLAG (105)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### RemoveGoFlag ⚠️&nbsp;(106)
+> UNUSED, DO NOT REUSE
+{.is-warning}
+* **action_type**:
+SMART_ACTION_REMOVE_GO_FLAG (106)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SpawnCreatureGrp (107)
+Summon a predefined creature group, attacking event invoker. 
+* **action_type**:
+SMART_ACTION_SUMMON_CREATURE_GROUP (107)
+* **action_param1**:
+[summon group groupID](../world/creature_summon_groups#groupid)
+* **action_param2**:
+attackInvoker? (`0`/`1`)
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetPower (108)
+Set power of target units to given amount.
+* **action_type**:
+SMART_ACTION_SET_POWER (108)
+* **action_param1**:
+[PowerType](#powertype)
+* **action_param2**:
+amount
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### AddPower (109)
+Add given amount of power to target units.
+* **action_type**:
+SMART_ACTION_ADD_POWER (109)
+* **action_param1**:
+[PowerType](#powertype)
+* **action_param2**:
+amount
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### RemovePower (110)
+Remove given amount of power from target units.
+* **action_type**:
+SMART_ACTION_REMOVE_POWER (110)
+* **action_param1**:
+[PowerType](#powertype)
+* **action_param2**:
+amount
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### GameEventStop (111)
+Stop currently active game event.
+* **action_type**:
+SMART_ACTION_GAME_EVENT_STOP (111)
+* **action_param1**:
+[game event eventEntry](../world/game_event#evententry)
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### GameEventStart (112)
+Start currently inactive game event.
+* **action_type**:
+SMART_ACTION_GAME_EVENT_START (112)
+* **action_param1**:
+[game event eventEntry](../world/game_event#evententry)
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### StartClosestWP (113)
+Make target creatures follow the provided path closest to its location.
+* **action_type**:
+SMART_ACTION_START_CLOSEST_WAYPOINT (113)
+* **action_param1**:
+[waypoint entry](../world/waypoints#entry) #1
+* **action_param2**:
+[waypoint entry](../world/waypoints#entry) #2
+* **action_param3**:
+[waypoint entry](../world/waypoints#entry) #3
+* **action_param4**:
+[waypoint entry](../world/waypoints#entry) #4
+* **action_param5**:
+[waypoint entry](../world/waypoints#entry) #5
+* **action_param6**:
+[waypoint entry](../world/waypoints#entry) #6
+#### MoveOffset (114)
+Target creatures move to World Position offset set in the same target definition.
+* **action_type**:
+SMART_ACTION_MOVE_OFFSET (114)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### RandomSound (115)
+Target units play a random sound entry from list.
+* **action_type**:
+SMART_ACTION_RANDOM_SOUND (115)
+* **action_param1**:
+[SoundEntry ID](/files/DBC/335/soundentries#id) #1
+* **action_param2**:
+[SoundEntry ID](/files/DBC/335/soundentries#id) #2
+* **action_param3**:
+[SoundEntry ID](/files/DBC/335/soundentries#id) #3
+* **action_param4**:
+[SoundEntry ID](/files/DBC/335/soundentries#id) #4
+* **action_param5**:
+onlySelf
+  * 0: heard by all players in visibility range
+  * 1: heard by invoking player
+* **action_param6**:
+distanceSound
+  * 0: uses WorldObject::PlayDirectSound()
+  * 1: uses WorldObject::PlayDistanceSound()
+#### SetCorpseDelay (116)
+Set corpse despawn for target creatures.
+* **action_type**:
+SMART_ACTION_SET_CORPSE_DELAY (116)
+* **action_param1**:
+time (in sec.)
+* **action_param2**:
+includeDecayRatio? (`0`/`1`)
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### DisableEvade (117)
+Disable/Enable evade mode for this creature.
+* **action_type**:
+SMART_ACTION_DISABLE_EVADE (117)
+* **action_param1**:
+disabled? (`0`/`1`)
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetGoState (118)
+Set state of target gameobjects.
+* **action_type**:
+SMART_ACTION_GO_SET_GO_STATE (118)
+* **action_param1**:
+[`enum GOState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L1655-L1660)
+  | ID | Name | Comment |
+  |----|------|---------|
+  | 0 | GO_STATE_ACTIVE | show in world as used and not reset (closed door open) |
+  | 1 | GO_STATE_READY | show in world as ready (closed door close) |
+  | 2 | GO_STATE_DESTROYED | show the object in-game as already used and not yet reset (e.g. door opened by a cannon blast) |
+  {.dense}
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetCanFly ⚠️&nbsp;(119)
+> UNUSED, DO NOT REUSE
+{.is-warning}
+* **action_type**:
+SMART_ACTION_SET_CAN_FLY (119)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### RemoveAuraType ⚠️&nbsp;(120)
+> UNUSED, DO NOT REUSE
+{.is-warning}
+* **action_type**:
+SMART_ACTION_REMOVE_AURAS_BY_TYPE (120)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### SetSightDist ⚠️&nbsp;(121)
+> UNUSED, DO NOT REUSE
+{.is-warning}
+* **action_type**:
+SMART_ACTION_SET_SIGHT_DIST (121)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### Flee ⚠️&nbsp;(122)
+> UNUSED, DO NOT REUSE
+{.is-warning}
+* **action_type**:
+SMART_ACTION_FLEE (122)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### AddThreat (123)
+Change own threat amount against target units.
+* **action_type**:
+SMART_ACTION_ADD_THREAT (123)
+* **action_param1**:
+flat increase
+* **action_param2**:
+flat decrease
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### LoadEquipment (124)
+Load equipment on target creatures.
+* **action_type**:
+SMART_ACTION_LOAD_EQUIPMENT (124)
+* **action_param1**:
+[equipment ID](../world/creature_equip_template#id)
+* **action_param2**:
+forceUnequip? (`0`/`1`)
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### TriggerRndTimedEvent (125)
+Trigger random (min <= id <= max) Timed Event.
+> Note: SMART_EVENT_TIMED_EVENT_TRIGGERED (77) is triggered.
+{.is-info}
+* **action_type**:
+SMART_ACTION_TRIGGER_RANDOM_TIMED_EVENT (125)
+* **action_param1**:
+min. id
+* **action_param2**:
+max. id
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
 
 ### EndTabset {.tabset}
 ^WIP^
 | ID | Name | action_param1 | action_param2 | action_param3 | action_param4 | action_param5 | action_param6 | Comment |
 |----|------|---------------|---------------|---------------|---------------|---------------|---------------|---------|
-| 92 | SMART_ACTION_INTERRUPT_SPELL | withDelayed? (0/1) | [Spell ID](/files/DBC/335/spell#id) | withInstant? (0/1) |  |  |  | Interrupt the current spell being cast by target.<br>Without Spell ID, the core will find the current spell depending on withDelay and withInstant. |
-| 93 | :x: SMART_ACTION_SEND_GO_CUSTOM_ANIM |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 94 | :x: SMART_ACTION_SET_DYNAMIC_FLAG |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 95 | :x: SMART_ACTION_ADD_DYNAMIC_FLAG |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 96 | :x: SMART_ACTION_REMOVE_DYNAMIC_FLAG |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 97 | SMART_ACTION_JUMP_TO_POS | speedXY | speedZ |  |  |  |  | Creature jumps to target, speed* describes the arc |
-| 98 | SMART_ACTION_SEND_GOSSIP_MENU | [MenuID](../world/gossip_menu#menuid) | [TextID](../world/gossip_menu#textid) |  |  |  |  | Can be used together with SMART_EVENT_GOSSIP_HELLO to set custom gossip. |
-| 99 | SMART_ACTION_GO_SET_LOOT_STATE | [state](#lootstate) |  |  |  |  |  | Set state of target gameobject. |
-| 100 | SMART_ACTION_SEND_TARGET_TO_TARGET | varId |  |  |  |  |  | Send targets previously stored with SMART_ACTION_STORE_TARGET, to another npc/go.<br>The other npc/go can then access them as if it was its own stored list. |
-| 101 | SMART_ACTION_SET_HOME_POS |  |  |  |  |  |  | Set target creatures home pos. to:<br>SMART_TARGET_SELF (1) - creatures current World pos.<br>SMART_TARGET_POSITION (8) - World pos. from **target_type**<br> NOT SMART_TARGET_NONE (!0) - targets current World pos. |
-| 102 | SMART_ACTION_SET_HEALTH_REGEN | enable? (0/1) |  |  |  |  |  | Enable/Disable health regeneration for target creature. |
-| 103 | SMART_ACTION_SET_ROOT | enable? (0/1) |  |  |  |  |  | Root/Unroot target creature. |
-| 104 | :x: SMART_ACTION_SET_GO_FLAG |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 105 | :x: SMART_ACTION_ADD_GO_FLAG |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 106 | :x: SMART_ACTION_REMOVE_GO_FLAG |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 107 | SMART_ACTION_SUMMON_CREATURE_GROUP | [groupID](../world/creature_summon_groups#groupid) | attackInvoker? (0/1) |  |  |  |  | target not used |
-| 108 | SMART_ACTION_SET_POWER | [PowerType](#powertype) | new power |  |  |  |  |  |
-| 109 | SMART_ACTION_ADD_POWER | [PowerType](#powertype) | power to add |  |  |  |  |  |
-| 110 | SMART_ACTION_REMOVE_POWER | [PowerType](#powertype) | power to remove |  |  |  |  |  |
-| 111 | SMART_ACTION_GAME_EVENT_STOP | [eventEntry](../world/game_event#evententry) |  |  |  |  |  |  |
-| 112 | SMART_ACTION_GAME_EVENT_START | [eventEntry](../world/game_event#evententry) |  |  |  |  |  |  |
-| 113 | SMART_ACTION_START_CLOSEST_WAYPOINT | [entry1](../world/waypoints#entry) | [entry2](../world/waypoints#entry) | [entry3](../world/waypoints#entry) | [entry4](../world/waypoints#entry) | [entry5](../world/waypoints#entry) | [entry6](../world/waypoints#entry) | Make target creature follow waypoint path closest to its location. |
-| 114 | SMART_ACTION_MOVE_OFFSET |  |  |  |  |  |  | Use SMART_TARGET_SELF (1) _and also_ set target World pos. to use as offset. |
-| 115 | SMART_ACTION_RANDOM_SOUND | [SoundEntry ID1](/files/DBC/335/soundentries#id) | [SoundEntry ID2](/files/DBC/335/soundentries#id) | [SoundEntry ID3](/files/DBC/335/soundentries#id) | [SoundEntry ID4](/files/DBC/335/soundentries#id) | onlySelf? (0/1) | distantSound? (0/1) | Play random sound from list. |
-| 116 | SMART_ACTION_SET_CORPSE_DELAY | time | includeDecayRatio? (0/1) |  |  |  |  | Set corpse despawn for target creature. |
-| 117 | SMART_ACTION_DISABLE_EVADE | disabled? (0/1) |  |  |  |  |  | Disable/Enable evade mode for target creature. |
-| 118 | SMART_ACTION_GO_SET_GO_STATE | [state](#gostate) |  |  |  |  |  | Set state for target gameobject. |
-| 119 | :x: SMART_ACTION_SET_CAN_FLY |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 120 | :x: SMART_ACTION_REMOVE_AURAS_BY_TYPE |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 121 | :x: SMART_ACTION_SET_SIGHT_DIST |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 122 | :x: SMART_ACTION_FLEE |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
-| 123 | SMART_ACTION_ADD_THREAT | flat incr. | flat decr. |  |  |  |  | Change target threat. |
-| 124 | SMART_ACTION_LOAD_EQUIPMENT | [equipment ID](../world/creature_equip_template#id) | forceUnequip? (0/1) |  |  |  |  | Load equipment on target creature. |
-| 125 | SMART_ACTION_TRIGGER_RANDOM_TIMED_EVENT | min. id | max. id |  |  |  |  |  |
 | 126 | :x: SMART_ACTION_REMOVE_ALL_GAMEOBJECTS |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
 | 127 | SMART_ACTION_PAUSE_MOVEMENT | [MovementSlot](#movementslot) | pause in ms | force? (0/1) |  |  |  |  |
 | 128 | :x: SMART_ACTION_PLAY_ANIMKIT |  |  |  |  |  |  | don't use on 3.3.5a |
@@ -3750,29 +4295,6 @@ Commenting on SAI uses a template which is the following:
 |----|------|---------|
 | 0 | MOTION_SLOT_DEFAULT | idle, follow, etc. |
 | 1 | MOTION_SLOT_ACTIVE | point movement |
-{.dense}
-
-&nbsp;
-
-### LootState
-[`enum LootState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/GameObject/GameObject.h#L74-L79)
-| ID | Name | Comment |
-|----|------|---------|
-| 1 | GO_NOT_READY |  |
-| 2 | GO_READY | can be ready but despawned, and then not possible activate until spawn |
-| 3 | GO_ACTIVATE |  |
-| 4 | GO_JUST_DEACTIVATED |  |
-{.dense}
-
-&nbsp;
-
-### GOState
-[`enum GOState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h.h#L1655-L1660)
-| ID | Name | Comment |
-|----|------|---------|
-| 0 | GO_STATE_ACTIVE | show in world as used and not reset (closed door open) |
-| 1 | GO_STATE_READY | show in world as ready (closed door close) |
-| 2 | GO_STATE_DESTROYED | show the object in-game as already used and not yet reset (e.g. door opened by a cannon blast) |
 {.dense}
 
 &nbsp;
