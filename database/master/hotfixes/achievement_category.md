@@ -2,7 +2,7 @@
 title: achievement_category
 description: 
 published: true
-date: 2024-04-20T18:37:28.703Z
+date: 2024-04-20T18:37:51.242Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:48:20.467Z
@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T09:48:20.467Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Name](https://trinitycore.info/database/master/hotfixes/achievement_category#name) | text |  |  | YES | NULL |  |  |
-| [ID](https://trinitycore.info/database/master/hotfixes/achievement_category#id) | int | unsigned | PRI | NO | 0 |  |  |
-| [Parent](https://trinitycore.info/database/master/hotfixes/achievement_category#parent) | smallint | signed |  | NO | 0 |  |  |
+| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [Parent](#parent) | smallint | signed |  | NO | 0 |  |  |
 | [UiOrder](#uiorder) | tinyint | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
