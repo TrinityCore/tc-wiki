@@ -22,30 +22,30 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [Name_0](#name) | string |  |
-| 2 | [Name_1](#name) | string |  |
-| 3 | [Name_2](#name) | string |  |
-| 4 | [Name_3](#name) | string |  |
-| 5 | [Name_4](#name) | string |  |
-| 6 | [Name_5](#name) | string |  |
-| 7 | [Name_6](#name) | string |  |
-| 8 | [Name_7](#name) | string |  |
-| 9 | [Name_8](#name) | string |  |
-| 10 | [Name_9](#name) | string |  |
-| 11 | [Name_10](#name) | string |  |
-| 12 | [Name_11](#name) | string |  |
-| 13 | [Name_12](#name) | string |  |
-| 14 | [Name_13](#name) | string |  |
-| 15 | [Name_14](#name) | string |  |
-| 16 | [Name_15](#name) | string |  |
-| 17 | [Name_lang_mask](#name) | uint32 |  |
-| 18 | [InternalName](#internalname) | string | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id) |
-| 19 | [Enchantment_0](#enchantment) | uint32 | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id) |
-| 20 | [Enchantment_1](#enchantment) | uint32 | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id) |
-| 21 | [Enchantment_2](#enchantment) | uint32 | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id) |
-| 22 | [Enchantment_3](#enchantment) | uint32 | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id) |
-| 23 | [Enchantment_4](#enchantment) | uint32 | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [Name_0](#name-alt) | string |  |
+| 2 | [Name_1](#name-alt) | string |  |
+| 3 | [Name_2](#name-alt) | string |  |
+| 4 | [Name_3](#name-alt) | string |  |
+| 5 | [Name_4](#name-alt) | string |  |
+| 6 | [Name_5](#name-alt) | string |  |
+| 7 | [Name_6](#name-alt) | string |  |
+| 8 | [Name_7](#name-alt) | string |  |
+| 9 | [Name_8](#name-alt) | string |  |
+| 10 | [Name_9](#name-alt) | string |  |
+| 11 | [Name_10](#name-alt) | string |  |
+| 12 | [Name_11](#name-alt) | string |  |
+| 13 | [Name_12](#name-alt) | string |  |
+| 14 | [Name_13](#name-alt) | string |  |
+| 15 | [Name_14](#name-alt) | string |  |
+| 16 | [Name_15](#name-alt) | string |  |
+| 17 | [Name_lang_mask](#name-alt) | uint32 |  |
+| 18 | [InternalName](#internalname) | string | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id-alt) |
+| 19 | [Enchantment_0](#enchantment) | uint32 | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id-alt) |
+| 20 | [Enchantment_1](#enchantment) | uint32 | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id-alt) |
+| 21 | [Enchantment_2](#enchantment) | uint32 | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id-alt) |
+| 22 | [Enchantment_3](#enchantment) | uint32 | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id-alt) |
+| 23 | [Enchantment_4](#enchantment) | uint32 | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id-alt) |
 | 24 | [AllocationPct_0](#allocationpct) | uint32 |  |
 | 25 | [AllocationPct_1](#allocationpct) | uint32 |  |
 | 26 | [AllocationPct_2](#allocationpct) | uint32 |  |
@@ -54,13 +54,13 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 <code>Col: 1 &ndash; 17 ([Loc](/how-to/localization))</code>
 
 *- no description -*

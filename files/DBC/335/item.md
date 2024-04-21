@@ -22,18 +22,18 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [ClassID](#classid) | uint32 | [ItemClass.dbc/0](/files/DBC/335/itemclass#id); [ItemSubClass.dbc/0](/files/DBC/335/itemsubclass#classid) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [ClassID](#classid) | uint32 | [ItemClass.dbc/0](/files/DBC/335/itemclass#id-alt); [ItemSubClass.dbc/0](/files/DBC/335/itemsubclass#classid) |
 | 2 | [SubclassID](#subclassid) | uint32 | [ItemSubClass.dbc/1](/files/DBC/335/itemsubclass#subclassid) |
 | 3 | [SoundOverrideSubclassID](#soundoverridesubclassid) | int32 |  |
-| 4 | [Material](#material) | int32 | [Material.dbc/0](/files/DBC/335/material#id) |
-| 5 | [DisplayInfoID](#displayinfoid) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id) |
+| 4 | [Material](#material) | int32 | [Material.dbc/0](/files/DBC/335/material#id-alt) |
+| 5 | [DisplayInfoID](#displayinfoid) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id-alt) |
 | 6 | [InventoryType](#inventorytype) | uint32 |  |
 | 7 | [SheatheType](#sheathetype) | uint32 |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

@@ -22,33 +22,33 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [WeaponSubClassID](#weaponsubclassid) | uint32 | [ItemSubClass.dbc/1](/files/DBC/335/itemsubclass#subclassid) |
 | 2 | [ParrySoundType](#parrysoundtype) | uint32 |  |
-| 3 | [ImpactSoundID_0](#impactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 4 | [ImpactSoundID_1](#impactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 5 | [ImpactSoundID_2](#impactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 6 | [ImpactSoundID_3](#impactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 7 | [ImpactSoundID_4](#impactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 8 | [ImpactSoundID_5](#impactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 9 | [ImpactSoundID_6](#impactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 10 | [ImpactSoundID_7](#impactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 11 | [ImpactSoundID_8](#impactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 12 | [ImpactSoundID_9](#impactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 13 | [CritImpactSoundID_0](#critimpactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 14 | [CritImpactSoundID_1](#critimpactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 15 | [CritImpactSoundID_2](#critimpactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 16 | [CritImpactSoundID_3](#critimpactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 17 | [CritImpactSoundID_4](#critimpactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 18 | [CritImpactSoundID_5](#critimpactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 19 | [CritImpactSoundID_6](#critimpactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 20 | [CritImpactSoundID_7](#critimpactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 21 | [CritImpactSoundID_8](#critimpactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 22 | [CritImpactSoundID_9](#critimpactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
+| 3 | [ImpactSoundID_0](#impactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 4 | [ImpactSoundID_1](#impactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 5 | [ImpactSoundID_2](#impactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 6 | [ImpactSoundID_3](#impactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 7 | [ImpactSoundID_4](#impactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 8 | [ImpactSoundID_5](#impactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 9 | [ImpactSoundID_6](#impactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 10 | [ImpactSoundID_7](#impactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 11 | [ImpactSoundID_8](#impactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 12 | [ImpactSoundID_9](#impactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 13 | [CritImpactSoundID_0](#critimpactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 14 | [CritImpactSoundID_1](#critimpactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 15 | [CritImpactSoundID_2](#critimpactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 16 | [CritImpactSoundID_3](#critimpactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 17 | [CritImpactSoundID_4](#critimpactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 18 | [CritImpactSoundID_5](#critimpactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 19 | [CritImpactSoundID_6](#critimpactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 20 | [CritImpactSoundID_7](#critimpactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 21 | [CritImpactSoundID_8](#critimpactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 22 | [CritImpactSoundID_9](#critimpactsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

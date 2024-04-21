@@ -22,12 +22,12 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [MapAreaID](#mapareaid) | uint32 | [WorldMapArea.dbc/0](/files/DBC/335/worldmaparea#id) |
-| 2 | [AreaID_0](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id) |
-| 3 | [AreaID_1](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id) |
-| 4 | [AreaID_2](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id) |
-| 5 | [AreaID_3](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [MapAreaID](#mapareaid) | uint32 | [WorldMapArea.dbc/0](/files/DBC/335/worldmaparea#id-alt) |
+| 2 | [AreaID_0](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id-alt) |
+| 3 | [AreaID_1](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id-alt) |
+| 4 | [AreaID_2](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id-alt) |
+| 5 | [AreaID_3](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id-alt) |
 | 6 | [MapPoint_X](#mappoint) | uint32 |  |
 | 7 | [MapPoint_Y](#mappoint) | uint32 |  |
 | 8 | [TextureName](#texturename) | string |  |
@@ -42,7 +42,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

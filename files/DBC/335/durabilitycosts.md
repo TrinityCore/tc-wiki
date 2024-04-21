@@ -22,7 +22,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 | [item level](/database/335/world/item_template#itemlevel) |
+| 0 | [ID](#id-alt) | uint32 | [item level](/database/335/world/item_template#itemlevel) |
 | 1 | [WeaponSubClassCost_0](#weaponsubclasscost) | uint32 |  |
 | 2 | [WeaponSubClassCost_1](#weaponsubclasscost) | uint32 |  |
 | 3 | [WeaponSubClassCost_2](#weaponsubclasscost) | uint32 |  |
@@ -55,7 +55,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

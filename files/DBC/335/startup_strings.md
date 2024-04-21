@@ -22,8 +22,8 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [Name](#name) | string |  |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [Name](#name-alt) | string |  |
 | 2 | [Message_0](#message) | string |  |
 | 3 | [Message_1](#message) | string |  |
 | 4 | [Message_2](#message) | string |  |
@@ -44,13 +44,13 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 :x: <code>Col: 1 (uint32)</code>
 
 *- no description -*

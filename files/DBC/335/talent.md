@@ -23,33 +23,33 @@ dateCreated: 2023-10-04T08:08:31.147Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [TabID](#tabid) | uint32 | [TalentTab.dbc/0](/files/DBC/335/talenttab#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [TabID](#tabid) | uint32 | [TalentTab.dbc/0](/files/DBC/335/talenttab#id-alt) |
 | 2 | [TierID](#tierid) | uint32 |  |
 | 3 | [ColumnIndex](#columnindex) | uint32 |  |
-| 4 | [SpellRank_0](#spellrank) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 5 | [SpellRank_1](#spellrank) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 6 | [SpellRank_2](#spellrank) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 7 | [SpellRank_3](#spellrank) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 8 | [SpellRank_4](#spellrank) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 9 | [SpellRank_5](#spellrankunused) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 10 | [SpellRank_6](#spellrankunused) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 11 | [SpellRank_7](#spellrankunused) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 12 | [SpellRank_8](#spellrankunused) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 13 | [PrereqTalent_0](#prereqtalent) | uint32 | [Talent.dbc/0](/files/DBC/335/talent#id) |
-| 14 | [PrereqTalent_1](#prereqtalent) | uint32 | [Talent.dbc/0](/files/DBC/335/talent#id) |
-| 15 | [PrereqTalent_2](#prereqtalent) | uint32 | [Talent.dbc/0](/files/DBC/335/talent#id) |
+| 4 | [SpellRank_0](#spellrank) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 5 | [SpellRank_1](#spellrank) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 6 | [SpellRank_2](#spellrank) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 7 | [SpellRank_3](#spellrank) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 8 | [SpellRank_4](#spellrank) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 9 | [SpellRank_5](#spellrankunused) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 10 | [SpellRank_6](#spellrankunused) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 11 | [SpellRank_7](#spellrankunused) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 12 | [SpellRank_8](#spellrankunused) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 13 | [PrereqTalent_0](#prereqtalent) | uint32 | [Talent.dbc/0](/files/DBC/335/talent#id-alt) |
+| 14 | [PrereqTalent_1](#prereqtalent) | uint32 | [Talent.dbc/0](/files/DBC/335/talent#id-alt) |
+| 15 | [PrereqTalent_2](#prereqtalent) | uint32 | [Talent.dbc/0](/files/DBC/335/talent#id-alt) |
 | 16 | [PrereqRank_0](#prereqrank) | uint32 |  |
 | 17 | [PrereqRank_1](#prereqrank) | uint32 |  |
 | 18 | [PrereqRank_2](#prereqrank) | uint32 |  |
 | 19 | [Flags](#flags) | uint32 |  |
-| 20 | [RequiredSpellID](#requiredspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
+| 20 | [RequiredSpellID](#requiredspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
 | 21 | [CategoryMask_0](#categorymask) | uint32 | [CreatureFamily.dbc/9](/files/DBC/335/creaturefamily#categoryenumid) |
 | 22 | [CategoryMask_1](#categorymask) | uint32 | [CreatureFamily.dbc/9](/files/DBC/335/creaturefamily#categoryenumid) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

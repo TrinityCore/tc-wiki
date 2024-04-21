@@ -23,38 +23,38 @@ dateCreated: 2023-10-04T08:02:04.989Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [MinScale](#minscale) | float |  |
 | 2 | [MinScaleLevel](#minscalelevel) | uint32 |  |
 | 3 | [MaxScale](#maxscale) | float |  |
 | 4 | [MaxScaleLevel](#maxscalelevel) | uint32 |  |
-| 5 | [SkillLine_0](#skillline) | uint32 | [SkillLine.dbc/0](/files/DBC/335/skillline#id) |
-| 6 | [SkillLine_1](#skillline) | uint32 | [SkillLine.dbc/0](/files/DBC/335/skillline#id) |
-| 7 | [PetFoodMask](#petfoodmask) | uint32 | [ItemPetFood.dbc/0](/files/DBC/335/itempetfood#id) |
+| 5 | [SkillLine_0](#skillline) | uint32 | [SkillLine.dbc/0](/files/DBC/335/skillline#id-alt) |
+| 6 | [SkillLine_1](#skillline) | uint32 | [SkillLine.dbc/0](/files/DBC/335/skillline#id-alt) |
+| 7 | [PetFoodMask](#petfoodmask) | uint32 | [ItemPetFood.dbc/0](/files/DBC/335/itempetfood#id-alt) |
 | 8 | [PetTalentType](#pettalenttype) | int32 | [TalentTab.dbc/21](/files/DBC/335/talenttab#pettalentmask) |
 | 9 | [CategoryEnumID](#categoryenumid) | int32 |  |
-| 10 | [Name_0](#name) | string |  |
-| 11 | [Name_1](#name) | string |  |
-| 12 | [Name_2](#name) | string |  |
-| 13 | [Name_3](#name) | string |  |
-| 14 | [Name_4](#name) | string |  |
-| 15 | [Name_5](#name) | string |  |
-| 16 | [Name_6](#name) | string |  |
-| 17 | [Name_7](#name) | string |  |
-| 18 | [Name_8](#name) | string |  |
-| 19 | [Name_9](#name) | string |  |
-| 20 | [Name_10](#name) | string |  |
-| 21 | [Name_11](#name) | string |  |
-| 22 | [Name_12](#name) | string |  |
-| 23 | [Name_13](#name) | string |  |
-| 24 | [Name_14](#name) | string |  |
-| 25 | [Name_15](#name) | string |  |
-| 26 | [Name_lang_mask](#name) | uint32 |  |
+| 10 | [Name_0](#name-alt) | string |  |
+| 11 | [Name_1](#name-alt) | string |  |
+| 12 | [Name_2](#name-alt) | string |  |
+| 13 | [Name_3](#name-alt) | string |  |
+| 14 | [Name_4](#name-alt) | string |  |
+| 15 | [Name_5](#name-alt) | string |  |
+| 16 | [Name_6](#name-alt) | string |  |
+| 17 | [Name_7](#name-alt) | string |  |
+| 18 | [Name_8](#name-alt) | string |  |
+| 19 | [Name_9](#name-alt) | string |  |
+| 20 | [Name_10](#name-alt) | string |  |
+| 21 | [Name_11](#name-alt) | string |  |
+| 22 | [Name_12](#name-alt) | string |  |
+| 23 | [Name_13](#name-alt) | string |  |
+| 24 | [Name_14](#name-alt) | string |  |
+| 25 | [Name_15](#name-alt) | string |  |
+| 26 | [Name_lang_mask](#name-alt) | uint32 |  |
 | 27 | [IconFile](#iconfile) | string |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*
@@ -115,7 +115,7 @@ Max level for model scaling.
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 <code>Col: 10 &ndash; 26 ([Loc](/how-to/localization))</code>
 
 *- no description -*

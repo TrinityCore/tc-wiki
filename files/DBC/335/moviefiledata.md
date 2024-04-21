@@ -22,7 +22,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [FileDataID](#filedataid) | uint32 | [FileData.dbc/0](/files/DBC/335/filedata#id) |
+| 0 | [FileDataID](#filedataid) | uint32 | [FileData.dbc/0](/files/DBC/335/filedata#id-alt) |
 | 1 | [Resolution](#resolution) | uint32 |  |
 &nbsp;
 ## Description of fields

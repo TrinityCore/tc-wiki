@@ -22,29 +22,29 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [ModelName](#modelname) | string |  |
-| 2 | [Sound_0](#sound) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 3 | [Sound_1](#sound) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 4 | [Sound_2](#sound) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 5 | [Sound_3](#sound) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 6 | [Sound_4](#sound) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 7 | [Sound_5](#sound) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 8 | [Sound_6](#sound) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 9 | [Sound_7](#sound) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 10 | [Sound_8](#sound) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 11 | [Sound_9](#sound) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
+| 2 | [Sound_0](#sound) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 3 | [Sound_1](#sound) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 4 | [Sound_2](#sound) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 5 | [Sound_3](#sound) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 6 | [Sound_4](#sound) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 7 | [Sound_5](#sound) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 8 | [Sound_6](#sound) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 9 | [Sound_7](#sound) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 10 | [Sound_8](#sound) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 11 | [Sound_9](#sound) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 | 12 | [GeoBoxMin_X](#geoboxmin) | float |  |
 | 13 | [GeoBoxMin_Y](#geoboxmin) | float |  |
 | 14 | [GeoBoxMin_Z](#geoboxmin) | float |  |
 | 15 | [GeoBoxMax_X](#geoboxmax) | float |  |
 | 16 | [GeoBoxMax_Y](#geoboxmax) | float |  |
 | 17 | [GeoBoxMax_Z](#geoboxmax) | float |  |
-| 18 | [ObjectEffectPackageID](#objecteffectpackageid) | uint32 | [ObjectEffectPackage.dbc/0](/files/DBC/335/objecteffectpackage#id) |
+| 18 | [ObjectEffectPackageID](#objecteffectpackageid) | uint32 | [ObjectEffectPackage.dbc/0](/files/DBC/335/objecteffectpackage#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

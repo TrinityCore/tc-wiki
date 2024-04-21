@@ -37,7 +37,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 Base melee critical hit chance.
 
 Ordered by character class 1 &ndash; 11 ASC.
-<code>idx = [ChrClassID](/files/DBC/335/chrclasses#id) - 1</code>
+<code>idx = [ChrClassID](/files/DBC/335/chrclasses#id-alt) - 1</code>
 
 &nbsp;
 

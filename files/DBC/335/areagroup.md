@@ -22,18 +22,18 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [AreaID_0](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id) |
-| 2 | [AreaID_1](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id) |
-| 3 | [AreaID_2](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id) |
-| 4 | [AreaID_3](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id) |
-| 5 | [AreaID_4](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id) |
-| 6 | [AreaID_5](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id) |
-| 7 | [NextAreaID](#nextareaid) | uint32 | [AreaGroup.dbc/0](#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [AreaID_0](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id-alt) |
+| 2 | [AreaID_1](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id-alt) |
+| 3 | [AreaID_2](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id-alt) |
+| 4 | [AreaID_3](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id-alt) |
+| 5 | [AreaID_4](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id-alt) |
+| 6 | [AreaID_5](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id-alt) |
+| 7 | [NextAreaID](#nextareaid) | uint32 | [AreaGroup.dbc/0](#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

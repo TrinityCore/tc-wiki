@@ -22,21 +22,21 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [PathID](#pathid) | uint32 | [TaxiPath.dbc/0](/files/DBC/335/taxipath#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [PathID](#pathid) | uint32 | [TaxiPath.dbc/0](/files/DBC/335/taxipath#id-alt) |
 | 2 | [NodeIndex](#nodeindex) | uint32 |  |
-| 3 | [ContinentID](#continentid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id) |
+| 3 | [ContinentID](#continentid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
 | 4 | [Loc_X](#loc) | float |  |
 | 5 | [Loc_Y](#loc) | float |  |
 | 6 | [Loc_Z](#loc) | float |  |
 | 7 | [Flags](#flags) | uint32 |  |
 | 8 | [Delay](#delay) | uint32 |  |
-| 9 | [ArrivalEventID](#arrivaleventid) | uint32 | [event_script id](/database/335/world/scripts#id) |
-| 10 | [DepartureEventID](#departureeventid) | uint32 | [event_script id](/database/335/world/scripts#id) |
+| 9 | [ArrivalEventID](#arrivaleventid) | uint32 | [event_script id](/database/335/world/scripts#id-alt) |
+| 10 | [DepartureEventID](#departureeventid) | uint32 | [event_script id](/database/335/world/scripts#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

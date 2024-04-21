@@ -24,35 +24,35 @@ Player usable text emotes.
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [Name](#name) | string |  |
-| 2 | [EmoteID](#emoteid) | uint32 | [Emotes.dbc/0](/files/DBC/335/emotes#id) |
-| 3 | [EmoteText_0](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id) |
-| 4 | [EmoteText_1](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id) |
-| 5 | [EmoteText_2](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id) |
-| 6 | [EmoteText_3](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id) |
-| 7 | [EmoteText_4](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id) |
-| 8 | [EmoteText_5](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id) |
-| 9 | [EmoteText_6](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id) |
-| 10 | [EmoteText_7](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id) |
-| 11 | [EmoteText_8](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id) |
-| 12 | [EmoteText_9](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id) |
-| 13 | [EmoteText_10](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id) |
-| 14 | [EmoteText_11](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id) |
-| 15 | [EmoteText_12](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id) |
-| 16 | [EmoteText_13](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id) |
-| 17 | [EmoteText_14](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id) |
-| 18 | [EmoteText_15](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [Name](#name-alt) | string |  |
+| 2 | [EmoteID](#emoteid) | uint32 | [Emotes.dbc/0](/files/DBC/335/emotes#id-alt) |
+| 3 | [EmoteText_0](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id-alt) |
+| 4 | [EmoteText_1](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id-alt) |
+| 5 | [EmoteText_2](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id-alt) |
+| 6 | [EmoteText_3](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id-alt) |
+| 7 | [EmoteText_4](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id-alt) |
+| 8 | [EmoteText_5](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id-alt) |
+| 9 | [EmoteText_6](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id-alt) |
+| 10 | [EmoteText_7](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id-alt) |
+| 11 | [EmoteText_8](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id-alt) |
+| 12 | [EmoteText_9](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id-alt) |
+| 13 | [EmoteText_10](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id-alt) |
+| 14 | [EmoteText_11](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id-alt) |
+| 15 | [EmoteText_12](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id-alt) |
+| 16 | [EmoteText_13](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id-alt) |
+| 17 | [EmoteText_14](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id-alt) |
+| 18 | [EmoteText_15](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 :x: <code>Col: 1 (string)</code>
 
 Same as the slash command.

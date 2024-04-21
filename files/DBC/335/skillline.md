@@ -22,8 +22,8 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [CategoryID](#categoryid) | int32 | [SkillLineCategory.dbc/0](/files/DBC/335/skilllinecategory#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [CategoryID](#categoryid) | int32 | [SkillLineCategory.dbc/0](/files/DBC/335/skilllinecategory#id-alt) |
 | 2 | [SkillCostsID](#skillcostsid) | uint32 | [SkillCostsData.dbc/1](/files/DBC/335/skillcostsdata#skillcostid) |
 | 3 | [DisplayName_0](#displayname) | string |  |
 | 4 | [DisplayName_1](#displayname) | string |  |
@@ -59,7 +59,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 34 | [Description_14](#description) | string |  |
 | 35 | [Description_15](#description) | string |  |
 | 36 | [Description_lang_mask](#description) | uint32 |  |
-| 37 | [SpellIconID](#spelliconid) | uint32 | [SpellIcon.dbc/0](/files/DBC/335/spellicon#id) |
+| 37 | [SpellIconID](#spelliconid) | uint32 | [SpellIcon.dbc/0](/files/DBC/335/spellicon#id-alt) |
 | 38 | [AlternateVerb_0](#alternateverb) | string |  |
 | 39 | [AlternateVerb_1](#alternateverb) | string |  |
 | 40 | [AlternateVerb_2](#alternateverb) | string |  |
@@ -81,7 +81,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

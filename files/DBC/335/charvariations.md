@@ -22,7 +22,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [RaceID](#raceid) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id) |
+| 0 | [RaceID](#raceid) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id-alt) |
 | 1 | [SexID](#sexid) | uint32 |  |
 | 2 | [TextureHoldLayer_0](#textureholdlayer) | uint32 |  |
 | 3 | [TextureHoldLayer_1](#textureholdlayer) | uint32 |  |

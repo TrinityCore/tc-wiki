@@ -22,17 +22,17 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 0 | [VocalUIEnum](#id) | uint32 |  |
-| 0 | [RaceID](#id) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id) |
-| 0 | [SoundID_0](#id) | int32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 0 | [SoundID_1](#id) | int32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 0 | [SoundID_2](#id) | int32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 0 | [SoundID_3](#id) | int32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 0 | [VocalUIEnum](#id-alt) | uint32 |  |
+| 0 | [RaceID](#id-alt) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id-alt) |
+| 0 | [SoundID_0](#id-alt) | int32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 0 | [SoundID_1](#id-alt) | int32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 0 | [SoundID_2](#id-alt) | int32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 0 | [SoundID_3](#id-alt) | int32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

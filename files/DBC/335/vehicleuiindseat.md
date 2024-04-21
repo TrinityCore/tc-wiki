@@ -23,15 +23,15 @@ dateCreated: 2023-10-04T08:09:10.888Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [VehicleUIIndicatorID](#vehicleuiindicatorid) | uint32 | [VehicleUIIndicator.dbc/0](/files/DBC/335/vehicleuiindicator#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [VehicleUIIndicatorID](#vehicleuiindicatorid) | uint32 | [VehicleUIIndicator.dbc/0](/files/DBC/335/vehicleuiindicator#id-alt) |
 | 2 | [VirtualSeatIndex](#virtualseatindex) | uint32 |  |
 | 3 | [Pos_X](#pos) | float |  |
 | 4 | [Pos_Y](#pos) | float |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

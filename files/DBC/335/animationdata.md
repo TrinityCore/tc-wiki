@@ -22,25 +22,25 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [Name](#name) | string |  |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [Name](#name-alt) | string |  |
 | 2 | [Weaponflags](#weaponflags) | uint32 |  |
 | 3 | [Bodyflags](#bodyflags) | uint32 |  |
 | 4 | [Flags](#flags) | uint32 |  |
-| 5 | [FallbackID](#fallbackid) | uint32 | [AnimationData.dbc/0](#id) |
-| 6 | [BehaviorID](#behaviorid) | uint32 | [AnimationData.dbc/0](#id) |
+| 5 | [FallbackID](#fallbackid) | uint32 | [AnimationData.dbc/0](#id-alt) |
+| 6 | [BehaviorID](#behaviorid) | uint32 | [AnimationData.dbc/0](#id-alt) |
 | 7 | [BehaviorTier](#behaviortier) | uint32 |  |
 
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 :x: <code>Col: 1 (string)</code>
 
 *- no description -*

@@ -22,9 +22,9 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [SoundType](#soundtype) | uint32 |  |
-| 2 | [Name](#name) | string |  |
+| 2 | [Name](#name-alt) | string |  |
 | 3 | [File_0](#file) | string |  |
 | 4 | [File_1](#file) | string |  |
 | 5 | [File_2](#file) | string |  |
@@ -51,11 +51,11 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 26 | [MinDistance](#mindistance) | float |  |
 | 27 | [DistanceCutoff](#distancecutoff) | float |  |
 | 28 | [EAXDef](#eaxdef) | uint32 |  |
-| 29 | [SoundEntriesAdvancedID](#soundentriesadvancedid) | uint32 | [SoundEntriesAdvanced.dbc/0](/files/DBC/335/soundentriesadvanced#id) |
+| 29 | [SoundEntriesAdvancedID](#soundentriesadvancedid) | uint32 | [SoundEntriesAdvanced.dbc/0](/files/DBC/335/soundentriesadvanced#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*
@@ -86,7 +86,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 :x: <code>Col: 2 (string)</code>
 
 *- no description -*

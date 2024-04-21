@@ -22,22 +22,22 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [Spells_0](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 2 | [Spells_1](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 3 | [Spells_2](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 4 | [Spells_3](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 5 | [Spells_4](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 6 | [Spells_5](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 7 | [Spells_6](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 8 | [Spells_7](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 9 | [Spells_8](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 10 | [Spells_9](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [Spells_0](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 2 | [Spells_1](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 3 | [Spells_2](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 4 | [Spells_3](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 5 | [Spells_4](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 6 | [Spells_5](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 7 | [Spells_6](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 8 | [Spells_7](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 9 | [Spells_8](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 10 | [Spells_9](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
 | 11 | [Flags](#flags) | uint32 |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

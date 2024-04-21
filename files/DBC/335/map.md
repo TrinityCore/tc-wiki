@@ -23,7 +23,7 @@ dateCreated: 2023-10-04T08:05:31.322Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [Directory](#directory) | string |  |
 | 2 | [InstanceType](#instancetype) | uint32 |  |
 | 3 | [Flags](#flags) | uint32 |  |
@@ -45,7 +45,7 @@ dateCreated: 2023-10-04T08:05:31.322Z
 | 19 | [MapName_14](#mapname) | string |  |
 | 20 | [MapName_15](#mapname) | string |  |
 | 21 | [MapName_lang_mask](#mapname) | uint32 |  |
-| 22 | [AreaTableID](#areatableid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id) |
+| 22 | [AreaTableID](#areatableid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id-alt) |
 | 23 | [MapDescription0_0](#mapdescription0) | string |  |
 | 24 | [MapDescription0_1](#mapdescription0) | string |  |
 | 25 | [MapDescription0_2](#mapdescription0) | string |  |
@@ -80,9 +80,9 @@ dateCreated: 2023-10-04T08:05:31.322Z
 | 54 | [MapDescription1_14](#mapdescription1) | string |  |
 | 55 | [MapDescription1_15](#mapdescription1) | string |  |
 | 56 | [MapDescription1_lang_mask](#mapdescription1) | uint32 |  |
-| 57 | [LoadingScreenID](#loadingscreenid) | uint32 | [LoadingScreens.dbc/0](/files/DBC/335/loadingscreens#id) |
+| 57 | [LoadingScreenID](#loadingscreenid) | uint32 | [LoadingScreens.dbc/0](/files/DBC/335/loadingscreens#id-alt) |
 | 58 | [MinimapIconScale](#minimapiconscale) | float |  |
-| 59 | [CorpseMapID](#corpsemapid) | int32 | [Map.dbc/0](#id) |
+| 59 | [CorpseMapID](#corpsemapid) | int32 | [Map.dbc/0](#id-alt) |
 | 60 | [Corpse_X](#corpse) | float |  |
 | 61 | [Corpse_Y](#corpse) | float |  |
 | 62 | [TimeOfDayOverride](#timeofdayoverride) | int32 |  |
@@ -92,7 +92,7 @@ dateCreated: 2023-10-04T08:05:31.322Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

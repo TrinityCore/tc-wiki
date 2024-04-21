@@ -22,10 +22,10 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [ModelID](#modelid) | uint32 | [CreatureModelData.dbc/0](/files/DBC/335/creaturemodeldata#id) |
-| 2 | [SoundID](#soundid) | uint32 | [CreatureSoundData.dbc/0](/files/DBC/335/creaturesounddata#id) |
-| 3 | [ExtendedDisplayInfoID](#extendeddisplayinfoid) | uint32 | [CreatureDisplayInfoExtra.dbc/0](/files/DBC/335/creaturedisplayinfoextra#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [ModelID](#modelid) | uint32 | [CreatureModelData.dbc/0](/files/DBC/335/creaturemodeldata#id-alt) |
+| 2 | [SoundID](#soundid) | uint32 | [CreatureSoundData.dbc/0](/files/DBC/335/creaturesounddata#id-alt) |
+| 3 | [ExtendedDisplayInfoID](#extendeddisplayinfoid) | uint32 | [CreatureDisplayInfoExtra.dbc/0](/files/DBC/335/creaturedisplayinfoextra#id-alt) |
 | 4 | [CreatureModelScale](#creaturemodelscale) | float |  |
 | 5 | [CreatureModelAlpha](#creaturemodelalpha) | uint32 |  |
 | 6 | [TextureVariation_0](#texturevariation) | string |  |
@@ -33,15 +33,15 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 8 | [TextureVariation_2](#texturevariation) | string |  |
 | 9 | [PortraitTextureName](#portraittexturename) | string |  |
 | 10 | [SizeClass](#sizeclass) | uint32 |  |
-| 11 | [BloodID](#bloodid) | uint32 | [UnitBloodLevels.dbc/0](/files/DBC/335/unitbloodlevels#id) |
-| 12 | [NPCSoundID](#npcsoundid) | uint32 | [NPCSounds.dbc/0](/files/DBC/335/npcsounds#id) |
-| 13 | [ParticleColorID](#particlecolorid) | uint32 | [ParticleColor.dbc/0](/files/DBC/335/particlecolor#id) |
+| 11 | [BloodID](#bloodid) | uint32 | [UnitBloodLevels.dbc/0](/files/DBC/335/unitbloodlevels#id-alt) |
+| 12 | [NPCSoundID](#npcsoundid) | uint32 | [NPCSounds.dbc/0](/files/DBC/335/npcsounds#id-alt) |
+| 13 | [ParticleColorID](#particlecolorid) | uint32 | [ParticleColor.dbc/0](/files/DBC/335/particlecolor#id-alt) |
 | 14 | [CreatureGeosetData](#creaturegeosetdata) | uint32 | M2/.skin#MeshPartID |
-| 15 | [ObjectEffectPackageID](#objecteffectpackageid) | uint32 | [ObjectEffectPackage.dbc/0](/files/DBC/335/objecteffectpackage#id) |
+| 15 | [ObjectEffectPackageID](#objecteffectpackageid) | uint32 | [ObjectEffectPackage.dbc/0](/files/DBC/335/objecteffectpackage#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

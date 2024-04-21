@@ -22,36 +22,36 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [ItemID_0](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
-| 2 | [ItemID_1](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
-| 3 | [ItemID_2](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
-| 4 | [ItemID_3](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
-| 5 | [ItemID_4](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
-| 6 | [ItemID_5](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
-| 7 | [ItemID_6](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
-| 8 | [ItemID_7](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
-| 9 | [Name_0](#name) | string |  |
-| 10 | [Name_1](#name) | string |  |
-| 11 | [Name_2](#name) | string |  |
-| 12 | [Name_3](#name) | string |  |
-| 13 | [Name_4](#name) | string |  |
-| 14 | [Name_5](#name) | string |  |
-| 15 | [Name_6](#name) | string |  |
-| 16 | [Name_7](#name) | string |  |
-| 17 | [Name_8](#name) | string |  |
-| 18 | [Name_9](#name) | string |  |
-| 19 | [Name_10](#name) | string |  |
-| 20 | [Name_11](#name) | string |  |
-| 21 | [Name_12](#name) | string |  |
-| 22 | [Name_13](#name) | string |  |
-| 23 | [Name_14](#name) | string |  |
-| 24 | [Name_15](#name) | string |  |
-| 25 | [Name_lang_mask](#name) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [ItemID_0](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 2 | [ItemID_1](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 3 | [ItemID_2](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 4 | [ItemID_3](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 5 | [ItemID_4](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 6 | [ItemID_5](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 7 | [ItemID_6](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 8 | [ItemID_7](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 9 | [Name_0](#name-alt) | string |  |
+| 10 | [Name_1](#name-alt) | string |  |
+| 11 | [Name_2](#name-alt) | string |  |
+| 12 | [Name_3](#name-alt) | string |  |
+| 13 | [Name_4](#name-alt) | string |  |
+| 14 | [Name_5](#name-alt) | string |  |
+| 15 | [Name_6](#name-alt) | string |  |
+| 16 | [Name_7](#name-alt) | string |  |
+| 17 | [Name_8](#name-alt) | string |  |
+| 18 | [Name_9](#name-alt) | string |  |
+| 19 | [Name_10](#name-alt) | string |  |
+| 20 | [Name_11](#name-alt) | string |  |
+| 21 | [Name_12](#name-alt) | string |  |
+| 22 | [Name_13](#name-alt) | string |  |
+| 23 | [Name_14](#name-alt) | string |  |
+| 24 | [Name_15](#name-alt) | string |  |
+| 25 | [Name_lang_mask](#name-alt) | uint32 |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*
@@ -63,7 +63,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 :x: <code>Col: 9 &ndash; 25 ([Loc](/how-to/localization))</code>
 
 *- no description -*

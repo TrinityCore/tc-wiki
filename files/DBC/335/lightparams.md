@@ -22,9 +22,9 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [HighlightSky](#highlightsky) | uint32 |  |
-| 2 | [LightSkyboxID](#lightskyboxid) | uint32 | [LightSkybox.dbc/0](/files/DBC/335/lightskybox#id) |
+| 2 | [LightSkyboxID](#lightskyboxid) | uint32 | [LightSkybox.dbc/0](/files/DBC/335/lightskybox#id-alt) |
 | 3 | [Glow](#glow) | float |  |
 | 4 | [WaterShallowAlpha](#watershallowalpha) | float |  |
 | 5 | [WaterDeepAlpha](#waterdeepalpha) | float |  |
@@ -34,11 +34,11 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
-* [LightIntBand ID](/files/DBC/335/lightintband#id) = **ID** \* 6 - [0 &ndash; 5]
-* [LightFloatBand.dbc/0](/files/DBC/335/lightfloatband#id) = **ID** \* 18 - [0 &ndash; 17]
+* [LightIntBand ID](/files/DBC/335/lightintband#id-alt) = **ID** \* 6 - [0 &ndash; 5]
+* [LightFloatBand.dbc/0](/files/DBC/335/lightfloatband#id-alt) = **ID** \* 18 - [0 &ndash; 17]
 &nbsp;
 
 ### HighlightSky

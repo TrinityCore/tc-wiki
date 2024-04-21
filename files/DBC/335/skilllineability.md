@@ -23,15 +23,15 @@ dateCreated: 2023-10-04T08:06:51.451Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [SkillLine](#skillline) | uint32 | [SkillLine.dbc/0](/files/DBC/335/skillline#id) |
-| 2 | [Spell](#spell) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 3 | [RaceMask](#racemask) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id) |
-| 4 | [ClassMask](#classmask) | uint32 | [ChrClasses.dbc/0](/files/DBC/335/chrclasses#id) |
-| 5 | [ExcludeRace](#excluderace) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id) |
-| 6 | [ExcludeClass](#excludeclass) | uint32 | [ChrClasses.dbc/0](/files/DBC/335/chrclasses#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [SkillLine](#skillline) | uint32 | [SkillLine.dbc/0](/files/DBC/335/skillline#id-alt) |
+| 2 | [Spell](#spell) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 3 | [RaceMask](#racemask) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id-alt) |
+| 4 | [ClassMask](#classmask) | uint32 | [ChrClasses.dbc/0](/files/DBC/335/chrclasses#id-alt) |
+| 5 | [ExcludeRace](#excluderace) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id-alt) |
+| 6 | [ExcludeClass](#excludeclass) | uint32 | [ChrClasses.dbc/0](/files/DBC/335/chrclasses#id-alt) |
 | 7 | [MinSkillLineRank](#minskilllinerank) | uint32 |  |
-| 8 | [SupercededBySpell](#supercededbyspell) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
+| 8 | [SupercededBySpell](#supercededbyspell) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
 | 9 | [AcquireMethod](#acquiremethod) | uint32 |  |
 | 10 | [TrivialSkillLineRankHigh](#trivialskilllinerankhigh) | uint32 |  |
 | 11 | [TrivialSkillLineRankLow](#trivialskilllineranklow) | uint32 |  |
@@ -40,7 +40,7 @@ dateCreated: 2023-10-04T08:06:51.451Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

@@ -22,16 +22,16 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [VisualEffectID_0](#visualeffectid) | int32 | [ItemVisualEffects.dbc/0](/files/DBC/335/itemvisualeffects#id) |
-| 2 | [VisualEffectID_1](#visualeffectid) | int32 | [ItemVisualEffects.dbc/0](/files/DBC/335/itemvisualeffects#id) |
-| 3 | [VisualEffectID_2](#visualeffectid) | int32 | [ItemVisualEffects.dbc/0](/files/DBC/335/itemvisualeffects#id) |
-| 4 | [VisualEffectID_3](#visualeffectid) | int32 | [ItemVisualEffects.dbc/0](/files/DBC/335/itemvisualeffects#id) |
-| 5 | [VisualEffectID_4](#visualeffectid) | int32 | [ItemVisualEffects.dbc/0](/files/DBC/335/itemvisualeffects#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [VisualEffectID_0](#visualeffectid) | int32 | [ItemVisualEffects.dbc/0](/files/DBC/335/itemvisualeffects#id-alt) |
+| 2 | [VisualEffectID_1](#visualeffectid) | int32 | [ItemVisualEffects.dbc/0](/files/DBC/335/itemvisualeffects#id-alt) |
+| 3 | [VisualEffectID_2](#visualeffectid) | int32 | [ItemVisualEffects.dbc/0](/files/DBC/335/itemvisualeffects#id-alt) |
+| 4 | [VisualEffectID_3](#visualeffectid) | int32 | [ItemVisualEffects.dbc/0](/files/DBC/335/itemvisualeffects#id-alt) |
+| 5 | [VisualEffectID_4](#visualeffectid) | int32 | [ItemVisualEffects.dbc/0](/files/DBC/335/itemvisualeffects#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

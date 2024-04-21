@@ -22,7 +22,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [Type](#type) | uint32 |  |
 | 2 | [DisplayName_0](#displayname) | string |  |
 | 3 | [DisplayName_1](#displayname) | string |  |
@@ -59,13 +59,13 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 34 | [Description_15](#description) | string |  |
 | 35 | [Description_lang_mask](#description) | uint32 |  |
 | 36 | [CostModifier](#costmodifier) | float |  |
-| 37 | [Race](#race) | uint32 | [ChrClasses.dbc/0](/files/DBC/335/chrclasses#id) |
+| 37 | [Race](#race) | uint32 | [ChrClasses.dbc/0](/files/DBC/335/chrclasses#id-alt) |
 | 38 | [Sex](#sex) | uint32 |  |
 | 39 | [Data](#data) | uint32 |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

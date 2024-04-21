@@ -23,16 +23,16 @@ dateCreated: 2023-10-04T08:02:56.984Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [ReputationIndex](#reputationindex) | int32 |  |
-| 2 | [ReputationRaceMask_0](#reputationracemask) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id) |
-| 3 | [ReputationRaceMask_1](#reputationracemask) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id) |
-| 4 | [ReputationRaceMask_2](#reputationracemask) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id) |
-| 5 | [ReputationRaceMask_3](#reputationracemask) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id) |
-| 6 | [ReputationClassMask_0](#reputationclassmask) | uint32 | [ChrClasses.dbc/0](/files/DBC/335/chrclasses#id) |
-| 7 | [ReputationClassMask_1](#reputationclassmask) | uint32 | [ChrClasses.dbc/0](/files/DBC/335/chrclasses#id) |
-| 8 | [ReputationClassMask_2](#reputationclassmask) | uint32 | [ChrClasses.dbc/0](/files/DBC/335/chrclasses#id) |
-| 9 | [ReputationClassMask_3](#reputationclassmask) | uint32 | [ChrClasses.dbc/0](/files/DBC/335/chrclasses#id) |
+| 2 | [ReputationRaceMask_0](#reputationracemask) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id-alt) |
+| 3 | [ReputationRaceMask_1](#reputationracemask) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id-alt) |
+| 4 | [ReputationRaceMask_2](#reputationracemask) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id-alt) |
+| 5 | [ReputationRaceMask_3](#reputationracemask) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id-alt) |
+| 6 | [ReputationClassMask_0](#reputationclassmask) | uint32 | [ChrClasses.dbc/0](/files/DBC/335/chrclasses#id-alt) |
+| 7 | [ReputationClassMask_1](#reputationclassmask) | uint32 | [ChrClasses.dbc/0](/files/DBC/335/chrclasses#id-alt) |
+| 8 | [ReputationClassMask_2](#reputationclassmask) | uint32 | [ChrClasses.dbc/0](/files/DBC/335/chrclasses#id-alt) |
+| 9 | [ReputationClassMask_3](#reputationclassmask) | uint32 | [ChrClasses.dbc/0](/files/DBC/335/chrclasses#id-alt) |
 | 10 | [ReputationBase_0](#reputationbase) | int32 |  |
 | 11 | [ReputationBase_1](#reputationbase) | int32 |  |
 | 12 | [ReputationBase_2](#reputationbase) | int32 |  |
@@ -41,28 +41,28 @@ dateCreated: 2023-10-04T08:02:56.984Z
 | 15 | [ReputationFlags_1](#reputationflags) | uint32 |  |
 | 16 | [ReputationFlags_2](#reputationflags) | uint32 |  |
 | 17 | [ReputationFlags_3](#reputationflags) | uint32 |  |
-| 18 | [ParentFactionID](#parentfactionid) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id) |
+| 18 | [ParentFactionID](#parentfactionid) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id-alt) |
 | 19 | [ParentFactionMod_0](#parentfactionmod) | float |  |
 | 20 | [ParentFactionMod_1](#parentfactionmod) | float |  |
 | 21 | [ParentFactionCap_0](#parentfactioncap) | uint32 |  |
 | 22 | [ParentFactionCap_1](#parentfactioncap) | uint32 |  |
-| 23 | [Name_0](#name) | string |  |
-| 24 | [Name_1](#name) | string |  |
-| 25 | [Name_2](#name) | string |  |
-| 26 | [Name_3](#name) | string |  |
-| 27 | [Name_4](#name) | string |  |
-| 28 | [Name_5](#name) | string |  |
-| 29 | [Name_6](#name) | string |  |
-| 30 | [Name_7](#name) | string |  |
-| 31 | [Name_8](#name) | string |  |
-| 32 | [Name_9](#name) | string |  |
-| 33 | [Name_10](#name) | string |  |
-| 34 | [Name_11](#name) | string |  |
-| 35 | [Name_12](#name) | string |  |
-| 36 | [Name_13](#name) | string |  |
-| 37 | [Name_14](#name) | string |  |
-| 38 | [Name_15](#name) | string |  |
-| 39 | [Name_lang_mask](#name) | uint32 |  |
+| 23 | [Name_0](#name-alt) | string |  |
+| 24 | [Name_1](#name-alt) | string |  |
+| 25 | [Name_2](#name-alt) | string |  |
+| 26 | [Name_3](#name-alt) | string |  |
+| 27 | [Name_4](#name-alt) | string |  |
+| 28 | [Name_5](#name-alt) | string |  |
+| 29 | [Name_6](#name-alt) | string |  |
+| 30 | [Name_7](#name-alt) | string |  |
+| 31 | [Name_8](#name-alt) | string |  |
+| 32 | [Name_9](#name-alt) | string |  |
+| 33 | [Name_10](#name-alt) | string |  |
+| 34 | [Name_11](#name-alt) | string |  |
+| 35 | [Name_12](#name-alt) | string |  |
+| 36 | [Name_13](#name-alt) | string |  |
+| 37 | [Name_14](#name-alt) | string |  |
+| 38 | [Name_15](#name-alt) | string |  |
+| 39 | [Name_lang_mask](#name-alt) | uint32 |  |
 | 40 | [Description_0](#description) | string |  |
 | 41 | [Description_1](#description) | string |  |
 | 42 | [Description_2](#description) | string |  |
@@ -83,7 +83,7 @@ dateCreated: 2023-10-04T08:02:56.984Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*
@@ -173,7 +173,7 @@ Recursive. i.e. Undercity lists ID 67, which is Horde.
 * Col 22: :x: It does not seem to be the max standing at which a faction outputs spillover ...so no idea
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 <code>Col: 23 &ndash; 39 ([Loc](/how-to/localization))</code>
 
 *- no description -*

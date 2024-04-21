@@ -22,26 +22,26 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [Flags](#flags) | uint32 |  |
 | 2 | [FactionGroup](#factiongroup) | uint32 | [FactionGroup.dbc/1](/files/DBC/335/factiongroup#maskid) |
-| 3 | [Name_0](#name) | string |  |
-| 4 | [Name_1](#name) | string |  |
-| 5 | [Name_2](#name) | string |  |
-| 6 | [Name_3](#name) | string |  |
-| 7 | [Name_4](#name) | string |  |
-| 8 | [Name_5](#name) | string |  |
-| 9 | [Name_6](#name) | string |  |
-| 10 | [Name_7](#name) | string |  |
-| 11 | [Name_8](#name) | string |  |
-| 12 | [Name_9](#name) | string |  |
-| 13 | [Name_10](#name) | string |  |
-| 14 | [Name_11](#name) | string |  |
-| 15 | [Name_12](#name) | string |  |
-| 16 | [Name_13](#name) | string |  |
-| 17 | [Name_14](#name) | string |  |
-| 18 | [Name_15](#name) | string |  |
-| 19 | [Name_lang_mask](#name) | uint32 |  |
+| 3 | [Name_0](#name-alt) | string |  |
+| 4 | [Name_1](#name-alt) | string |  |
+| 5 | [Name_2](#name-alt) | string |  |
+| 6 | [Name_3](#name-alt) | string |  |
+| 7 | [Name_4](#name-alt) | string |  |
+| 8 | [Name_5](#name-alt) | string |  |
+| 9 | [Name_6](#name-alt) | string |  |
+| 10 | [Name_7](#name-alt) | string |  |
+| 11 | [Name_8](#name-alt) | string |  |
+| 12 | [Name_9](#name-alt) | string |  |
+| 13 | [Name_10](#name-alt) | string |  |
+| 14 | [Name_11](#name-alt) | string |  |
+| 15 | [Name_12](#name-alt) | string |  |
+| 16 | [Name_13](#name-alt) | string |  |
+| 17 | [Name_14](#name-alt) | string |  |
+| 18 | [Name_15](#name-alt) | string |  |
+| 19 | [Name_lang_mask](#name-alt) | uint32 |  |
 | 20 | [Shortcut_0](#shortcut) | string |  |
 | 21 | [Shortcut_1](#shortcut) | string |  |
 | 22 | [Shortcut_2](#shortcut) | string |  |
@@ -62,7 +62,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*
@@ -95,7 +95,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 <code>Col: 3 &ndash; 19 ([Loc](/how-to/localization))</code>
 
 *- no description -*

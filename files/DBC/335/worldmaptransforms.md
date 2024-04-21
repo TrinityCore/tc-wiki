@@ -22,21 +22,21 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [MapID](#mapid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [MapID](#mapid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
 | 2 | [RegionBottom](#region) | float |  |
 | 3 | [RegionRight](#region) | float |  |
 | 4 | [RegionTop](#region) | float |  |
 | 5 | [RegionLeft](#region) | float |  |
-| 6 | [NewMapID](#newmapid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id) |
+| 6 | [NewMapID](#newmapid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
 | 7 | [RegionOffset_X](#regionoffset) | float |  |
 | 8 | [RegionOffset_Y](#regionoffset) | float |  |
-| 9 | [NewDungeonMapID](#newdungeonmapid) | uint32 | [DungeonMap.dbc/0](/files/DBC/335/dungeonmap#id) |
+| 9 | [NewDungeonMapID](#newdungeonmapid) | uint32 | [DungeonMap.dbc/0](/files/DBC/335/dungeonmap#id-alt) |
 
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

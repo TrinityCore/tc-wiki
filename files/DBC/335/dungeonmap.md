@@ -22,18 +22,18 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [MapID](#mapid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [MapID](#mapid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
 | 2 | [FloorIndex](#floorindex) | uint32 |  |
 | 3 | [MinX](#minx) | float |  |
 | 4 | [MaxX](#maxx) | float |  |
 | 5 | [MinY](#miny) | float |  |
 | 6 | [MaxY](#maxy) | float |  |
-| 7 | [ParentWorldMapID](#parentworldmapid) | uint32 | [WorldMapArea.dbc/0](/files/DBC/335/worldmaparea#id) |
+| 7 | [ParentWorldMapID](#parentworldmapid) | uint32 | [WorldMapArea.dbc/0](/files/DBC/335/worldmaparea#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

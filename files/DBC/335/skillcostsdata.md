@@ -23,7 +23,7 @@ dateCreated: 2023-10-04T08:06:46.983Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [SkillCostID](#skillcostid) | uint32 |  |
 | 2 | [Cost_0](#cost) | uint32 |  |
 | 3 | [Cost_1](#cost) | uint32 |  |
@@ -31,7 +31,7 @@ dateCreated: 2023-10-04T08:06:46.983Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

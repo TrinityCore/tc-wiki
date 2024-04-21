@@ -22,9 +22,9 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [Sort_Index](#sort_index) | uint32 |  |
-| 2 | [GMSurveyQuestionID](#gmsurveyquestionid) | uint32 | [GMSurveyQuestion.dbc/0](/files/DBC/335/gmsurveyquestions#id) |
+| 2 | [GMSurveyQuestionID](#gmsurveyquestionid) | uint32 | [GMSurveyQuestion.dbc/0](/files/DBC/335/gmsurveyquestions#id-alt) |
 | 3 | [Answer_0](#answer) | string |  |
 | 4 | [Answer_1](#answer) | string |  |
 | 5 | [Answer_2](#answer) | string |  |
@@ -45,7 +45,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

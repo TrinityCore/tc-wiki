@@ -22,7 +22,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [LtOperandType_0](#ltoperandtype) | uint8 |  |
 | 2 | [LtOperandType_1](#ltoperandtype) | uint8 |  |
 | 3 | [LtOperandType_2](#ltoperandtype) | uint8 |  |
@@ -56,7 +56,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

@@ -22,8 +22,8 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [AchievementID](#achievementid) | uint32 | [Achievement.dbc/0](/files/DBC/335/achievement#id); [achievement Id](/database/335/world/achievement_dbc#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [AchievementID](#achievementid) | uint32 | [Achievement.dbc/0](/files/DBC/335/achievement#id-alt); [achievement Id](/database/335/world/achievement_dbc#id-alt) |
 | 2 | [Type](#type) | uint32 |  |
 | 3 | [Asset](#asset) | uint32 |  |
 | 4 | [Quantity](#quantity) | uint32 |  |
@@ -56,7 +56,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*
@@ -77,18 +77,18 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | Type | Name | Asset | Comment |
 |------|------|-------|---------|
 | 0 | ACHIEVEMENT_CRITERIA_TYPE_KILL_CREATURE | [creature entry](/database/335/world/creature_template#entry) |  |
-| 1 | ACHIEVEMENT_CRITERIA_TYPE_WIN_BG | [Map ID](/files/DBC/335/map#id) |  |
+| 1 | ACHIEVEMENT_CRITERIA_TYPE_WIN_BG | [Map ID](/files/DBC/335/map#id-alt) |  |
 | 5 | ACHIEVEMENT_CRITERIA_TYPE_REACH_LEVEL |  |  |
-| 7 | ACHIEVEMENT_CRITERIA_TYPE_REACH_SKILL_LEVEL | [SkillLine ID](/files/DBC/335/skillline#id) |  |
-| 8 | ACHIEVEMENT_CRITERIA_TYPE_COMPLETE_ACHIEVEMENT | [Achievement ID](/files/DBC/335/achievement#id) |  |
+| 7 | ACHIEVEMENT_CRITERIA_TYPE_REACH_SKILL_LEVEL | [SkillLine ID](/files/DBC/335/skillline#id-alt) |  |
+| 8 | ACHIEVEMENT_CRITERIA_TYPE_COMPLETE_ACHIEVEMENT | [Achievement ID](/files/DBC/335/achievement#id-alt) |  |
 | 9 | ACHIEVEMENT_CRITERIA_TYPE_COMPLETE_QUEST_COUNT |  |  |
 | 10 | ACHIEVEMENT_CRITERIA_TYPE_COMPLETE_DAILY_QUEST_DAILY |  | you have to complete a daily quest x times in a row |
-| 11 | ACHIEVEMENT_CRITERIA_TYPE_COMPLETE_QUESTS_IN_ZONE | [AreaTable ID](/files/DBC/335/areatable#id) |  |
-| 12 | :x: ACHIEVEMENT_CRITERIA_TYPE_CURRENCY | [CurrencyType ID](/files/DBC/335/currencytypes#id) | type unused in 3.3.5a |
+| 11 | ACHIEVEMENT_CRITERIA_TYPE_COMPLETE_QUESTS_IN_ZONE | [AreaTable ID](/files/DBC/335/areatable#id-alt) |  |
+| 12 | :x: ACHIEVEMENT_CRITERIA_TYPE_CURRENCY | [CurrencyType ID](/files/DBC/335/currencytypes#id-alt) | type unused in 3.3.5a |
 | 13 | ACHIEVEMENT_CRITERIA_TYPE_DAMAGE_DONE |  |  |
 | 14 | ACHIEVEMENT_CRITERIA_TYPE_COMPLETE_DAILY_QUEST |  |  |
-| 15 | ACHIEVEMENT_CRITERIA_TYPE_COMPLETE_BATTLEGROUND | [Map ID](/files/DBC/335/map#id) |  |
-| 16 | ACHIEVEMENT_CRITERIA_TYPE_DEATH_AT_MAP | [Map ID](/files/DBC/335/map#id) |  |
+| 15 | ACHIEVEMENT_CRITERIA_TYPE_COMPLETE_BATTLEGROUND | [Map ID](/files/DBC/335/map#id-alt) |  |
+| 16 | ACHIEVEMENT_CRITERIA_TYPE_DEATH_AT_MAP | [Map ID](/files/DBC/335/map#id-alt) |  |
 | 17 | ACHIEVEMENT_CRITERIA_TYPE_DEATH |  |  |
 | 18 | ACHIEVEMENT_CRITERIA_TYPE_DEATH_IN_DUNGEON | GroupSize |  |
 | 19 | ACHIEVEMENT_CRITERIA_TYPE_COMPLETE_RAID | GroupSize |  |
@@ -96,37 +96,37 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 23 | ACHIEVEMENT_CRITERIA_TYPE_KILLED_BY_PLAYER |  |  |
 | 24 | ACHIEVEMENT_CRITERIA_TYPE_FALL_WITHOUT_DYING |  |  |
 | 26 | ACHIEVEMENT_CRITERIA_TYPE_DEATHS_FROM | [`enum EnviromentalDamage`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Player/Player.h#L676-L685) |  |
-| 27 | ACHIEVEMENT_CRITERIA_TYPE_COMPLETE_QUEST | [quest ID](/database/335/world/quest_template#id) |  |
-| 28 | ACHIEVEMENT_CRITERIA_TYPE_BE_SPELL_TARGET | [Spell ID](/files/DBC/335/spell#id) |  |
-| 29 | ACHIEVEMENT_CRITERIA_TYPE_CAST_SPELL | [Spell ID](/files/DBC/335/spell#id) |  |
+| 27 | ACHIEVEMENT_CRITERIA_TYPE_COMPLETE_QUEST | [quest ID](/database/335/world/quest_template#id-alt) |  |
+| 28 | ACHIEVEMENT_CRITERIA_TYPE_BE_SPELL_TARGET | [Spell ID](/files/DBC/335/spell#id-alt) |  |
+| 29 | ACHIEVEMENT_CRITERIA_TYPE_CAST_SPELL | [Spell ID](/files/DBC/335/spell#id-alt) |  |
 | 30 | ACHIEVEMENT_CRITERIA_TYPE_BG_OBJECTIVE_CAPTURE |  |  |
-| 31 | ACHIEVEMENT_CRITERIA_TYPE_HONORABLE_KILL_AT_AREA | [AreaTable ID](/files/DBC/335/areatable#id) |  |
-| 32 | ACHIEVEMENT_CRITERIA_TYPE_WIN_ARENA | [Map ID](/files/DBC/335/map#id) |  |
-| 33 | ACHIEVEMENT_CRITERIA_TYPE_PLAY_ARENA | [Map ID](/files/DBC/335/map#id) |  |
-| 34 | ACHIEVEMENT_CRITERIA_TYPE_LEARN_SPELL | [Spell ID](/files/DBC/335/spell#id) |  |
+| 31 | ACHIEVEMENT_CRITERIA_TYPE_HONORABLE_KILL_AT_AREA | [AreaTable ID](/files/DBC/335/areatable#id-alt) |  |
+| 32 | ACHIEVEMENT_CRITERIA_TYPE_WIN_ARENA | [Map ID](/files/DBC/335/map#id-alt) |  |
+| 33 | ACHIEVEMENT_CRITERIA_TYPE_PLAY_ARENA | [Map ID](/files/DBC/335/map#id-alt) |  |
+| 34 | ACHIEVEMENT_CRITERIA_TYPE_LEARN_SPELL | [Spell ID](/files/DBC/335/spell#id-alt) |  |
 | 35 | ACHIEVEMENT_CRITERIA_TYPE_HONORABLE_KILL |  |  |
-| 36 | ACHIEVEMENT_CRITERIA_TYPE_OWN_ITEM | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |  |
+| 36 | ACHIEVEMENT_CRITERIA_TYPE_OWN_ITEM | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |  |
 | 37 | ACHIEVEMENT_CRITERIA_TYPE_WIN_RATED_ARENA |  |  |
 | 38 | ACHIEVEMENT_CRITERIA_TYPE_HIGHEST_TEAM_RATING | [`enum ArenaType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Battlegrounds/Battleground.h#L200-L205) |  |
 | 39 | ACHIEVEMENT_CRITERIA_TYPE_HIGHEST_PERSONAL_RATING | [`enum ArenaType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Battlegrounds/Battleground.h#L200-L205) |  |
-| 40 | ACHIEVEMENT_CRITERIA_TYPE_LEARN_SKILL_LEVEL | [SkillLine ID](/files/DBC/335/skillline#id) |  |
-| 41 | ACHIEVEMENT_CRITERIA_TYPE_USE_ITEM | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |  |
-| 42 | ACHIEVEMENT_CRITERIA_TYPE_LOOT_ITEM | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |  |
-| 43 | ACHIEVEMENT_CRITERIA_TYPE_EXPLORE_AREA | [WorldMapOverlay ID](/files/DBC/335/worldmapoverlay#id) |  |
+| 40 | ACHIEVEMENT_CRITERIA_TYPE_LEARN_SKILL_LEVEL | [SkillLine ID](/files/DBC/335/skillline#id-alt) |  |
+| 41 | ACHIEVEMENT_CRITERIA_TYPE_USE_ITEM | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |  |
+| 42 | ACHIEVEMENT_CRITERIA_TYPE_LOOT_ITEM | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |  |
+| 43 | ACHIEVEMENT_CRITERIA_TYPE_EXPLORE_AREA | [WorldMapOverlay ID](/files/DBC/335/worldmapoverlay#id-alt) |  |
 | 44 | ACHIEVEMENT_CRITERIA_TYPE_OWN_RANK | PvpRank |  |
 | 45 | ACHIEVEMENT_CRITERIA_TYPE_BUY_BANK_SLOT |  |  |
-| 46 | ACHIEVEMENT_CRITERIA_TYPE_GAIN_REPUTATION | [Faction ID](/files/DBC/335/faction#id) |  |
+| 46 | ACHIEVEMENT_CRITERIA_TYPE_GAIN_REPUTATION | [Faction ID](/files/DBC/335/faction#id-alt) |  |
 | 47 | ACHIEVEMENT_CRITERIA_TYPE_GAIN_EXALTED_REPUTATION |  |  |
 | 48 | ACHIEVEMENT_CRITERIA_TYPE_VISIT_BARBER_SHOP |  |  |
 | 49 | ACHIEVEMENT_CRITERIA_TYPE_EQUIP_EPIC_ITEM | [`enum EquipmentSlots`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Player/Player.h#L536-L559) |  |
 | 50 | ACHIEVEMENT_CRITERIA_TYPE_ROLL_NEED_ON_LOOT | RollValue | @todo itemlevel is mentioned in text but not present in dbc |
 | 51 | ACHIEVEMENT_CRITERIA_TYPE_ROLL_GREED_ON_LOOT | RollValue |  |
-| 52 | ACHIEVEMENT_CRITERIA_TYPE_HK_CLASS | [ChrClass ID](/files/DBC/335/chrclasses#id) |  |
-| 53 | ACHIEVEMENT_CRITERIA_TYPE_HK_RACE | [ChrRace ID](/files/DBC/335/chrraces#id) |  |
-| 54 | ACHIEVEMENT_CRITERIA_TYPE_DO_EMOTE | [EmotesText ID](/files/DBC/335/emotestext#id) |  |
+| 52 | ACHIEVEMENT_CRITERIA_TYPE_HK_CLASS | [ChrClass ID](/files/DBC/335/chrclasses#id-alt) |  |
+| 53 | ACHIEVEMENT_CRITERIA_TYPE_HK_RACE | [ChrRace ID](/files/DBC/335/chrraces#id-alt) |  |
+| 54 | ACHIEVEMENT_CRITERIA_TYPE_DO_EMOTE | [EmotesText ID](/files/DBC/335/emotestext#id-alt) |  |
 | 55 | ACHIEVEMENT_CRITERIA_TYPE_HEALING_DONE |  |  |
 | 56 | ACHIEVEMENT_CRITERIA_TYPE_GET_KILLING_BLOWS |  | @todo in some cases map not present, and in some cases need do without die |
-| 57 | ACHIEVEMENT_CRITERIA_TYPE_EQUIP_ITEM | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |  |
+| 57 | ACHIEVEMENT_CRITERIA_TYPE_EQUIP_ITEM | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |  |
 | 59 | ACHIEVEMENT_CRITERIA_TYPE_MONEY_FROM_VENDORS |  |  |
 | 60 | ACHIEVEMENT_CRITERIA_TYPE_GOLD_SPENT_FOR_TALENTS |  |  |
 | 61 | ACHIEVEMENT_CRITERIA_TYPE_NUMBER_OF_TALENT_RESETS |  |  |
@@ -136,12 +136,12 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 66 | ACHIEVEMENT_CRITERIA_TYPE_GOLD_SPENT_FOR_MAIL |  |  |
 | 67 | ACHIEVEMENT_CRITERIA_TYPE_LOOT_MONEY |  |  |
 | 68 | ACHIEVEMENT_CRITERIA_TYPE_USE_GAMEOBJECT | [gameobject entry](/database/335/world/gameobject_template#entry) |  |
-| 69 | ACHIEVEMENT_CRITERIA_TYPE_BE_SPELL_TARGET2 | [Spell ID](/files/DBC/335/spell#id) |  |
+| 69 | ACHIEVEMENT_CRITERIA_TYPE_BE_SPELL_TARGET2 | [Spell ID](/files/DBC/335/spell#id-alt) |  |
 | 70 | ACHIEVEMENT_CRITERIA_TYPE_SPECIAL_PVP_KILL |  |  |
 | 72 | ACHIEVEMENT_CRITERIA_TYPE_FISH_IN_GAMEOBJECT | [gameobject entry](/database/335/world/gameobject_template#entry) |  |
 | 73 | :x: UNUSED |  | @todo: Achievements 1515, 1241, 1103 (Name: Mal'Ganis) |
 | 74 | ACHIEVEMENT_CRITERIA_TYPE_ON_LOGIN |  |  |
-| 75 | ACHIEVEMENT_CRITERIA_TYPE_LEARN_SKILLLINE_SPELLS | [SkillLine ID](/files/DBC/335/skillline#id) |  |
+| 75 | ACHIEVEMENT_CRITERIA_TYPE_LEARN_SKILLLINE_SPELLS | [SkillLine ID](/files/DBC/335/skillline#id-alt) |  |
 | 76 | ACHIEVEMENT_CRITERIA_TYPE_WIN_DUEL |  |  |
 | 77 | ACHIEVEMENT_CRITERIA_TYPE_LOSE_DUEL |  |  |
 | 78 | ACHIEVEMENT_CRITERIA_TYPE_KILL_CREATURE_TYPE |  |  |
@@ -173,8 +173,8 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 107 | ACHIEVEMENT_CRITERIA_TYPE_QUEST_ABANDONED |  |  |
 | 108 | ACHIEVEMENT_CRITERIA_TYPE_FLIGHT_PATHS_TAKEN |  |  |
 | 109 | ACHIEVEMENT_CRITERIA_TYPE_LOOT_TYPE | [`enum LootType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Loot/Loot.h#L80-L96) |  |
-| 110 | ACHIEVEMENT_CRITERIA_TYPE_CAST_SPELL2 | [Spell ID](/files/DBC/335/spell#id) |  @todo target entry is missing |
-| 112 | ACHIEVEMENT_CRITERIA_TYPE_LEARN_SKILL_LINE | [SkillLine ID](/files/DBC/335/skillline#id) |  |
+| 110 | ACHIEVEMENT_CRITERIA_TYPE_CAST_SPELL2 | [Spell ID](/files/DBC/335/spell#id-alt) |  @todo target entry is missing |
+| 112 | ACHIEVEMENT_CRITERIA_TYPE_LEARN_SKILL_LINE | [SkillLine ID](/files/DBC/335/skillline#id-alt) |  |
 | 113 | ACHIEVEMENT_CRITERIA_TYPE_EARN_HONORABLE_KILL |  |  |
 | 114 | ACHIEVEMENT_CRITERIA_TYPE_ACCEPTED_SUMMONINGS |  |  |
 | 115 | ACHIEVEMENT_CRITERIA_TYPE_EARN_ACHIEVEMENT_POINTS |  |  |

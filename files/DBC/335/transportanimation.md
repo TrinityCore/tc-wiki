@@ -22,17 +22,17 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [TransportID](#transportid) | uint32 | [gameobject entry](/database/335/world/gameobject_template#entry) |
 | 2 | [TimeIndex](#timeindex) | uint32 |  |
 | 3 | [Pos_X](#pos) | float |  |
 | 4 | [Pos_Y](#pos) | float |  |
 | 5 | [Pos_Z](#pos) | float |  |
-| 6 | [SequenceID](#sequenceid) | uint32 | [AnimationData.dbc/0](/files/DBC/335/animationdata#id) |
+| 6 | [SequenceID](#sequenceid) | uint32 | [AnimationData.dbc/0](/files/DBC/335/animationdata#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

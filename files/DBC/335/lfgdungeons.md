@@ -23,38 +23,38 @@ dateCreated: 2023-10-04T08:05:02.714Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [Name_0](#name) | string |  |
-| 2 | [Name_1](#name) | string |  |
-| 3 | [Name_2](#name) | string |  |
-| 4 | [Name_3](#name) | string |  |
-| 5 | [Name_4](#name) | string |  |
-| 6 | [Name_5](#name) | string |  |
-| 7 | [Name_6](#name) | string |  |
-| 8 | [Name_7](#name) | string |  |
-| 9 | [Name_8](#name) | string |  |
-| 10 | [Name_9](#name) | string |  |
-| 11 | [Name_10](#name) | string |  |
-| 12 | [Name_11](#name) | string |  |
-| 13 | [Name_12](#name) | string |  |
-| 14 | [Name_13](#name) | string |  |
-| 15 | [Name_14](#name) | string |  |
-| 16 | [Name_15](#name) | string |  |
-| 17 | [Name_lang_mask](#name) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [Name_0](#name-alt) | string |  |
+| 2 | [Name_1](#name-alt) | string |  |
+| 3 | [Name_2](#name-alt) | string |  |
+| 4 | [Name_3](#name-alt) | string |  |
+| 5 | [Name_4](#name-alt) | string |  |
+| 6 | [Name_5](#name-alt) | string |  |
+| 7 | [Name_6](#name-alt) | string |  |
+| 8 | [Name_7](#name-alt) | string |  |
+| 9 | [Name_8](#name-alt) | string |  |
+| 10 | [Name_9](#name-alt) | string |  |
+| 11 | [Name_10](#name-alt) | string |  |
+| 12 | [Name_11](#name-alt) | string |  |
+| 13 | [Name_12](#name-alt) | string |  |
+| 14 | [Name_13](#name-alt) | string |  |
+| 15 | [Name_14](#name-alt) | string |  |
+| 16 | [Name_15](#name-alt) | string |  |
+| 17 | [Name_lang_mask](#name-alt) | uint32 |  |
 | 18 | [MinLevel](#minlevel) | uint32 |  |
 | 19 | [MaxLevel](#maxlevel) | uint32 |  |
 | 20 | [TargetLevel](#targetlevel) | uint32 |  |
 | 21 | [TargetLevelMin](#targetlevelmin) | uint32 |  |
 | 22 | [TargetLevelMax](#targetlevelmax) | uint32 |  |
-| 23 | [MapID](#mapid) | int32 | [Map.dbc/0](/files/DBC/335/map#id) |
+| 23 | [MapID](#mapid) | int32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
 | 24 | [Difficulty](#difficulty) | uint32 |  |
 | 25 | [Flags](#flags) | uint32 |  |
 | 26 | [TypeID](#typeid) | uint32 |  |
-| 27 | [Faction](#faction) | int32 | [Faction.dbc/0](/files/DBC/335/faction#id) |
+| 27 | [Faction](#faction) | int32 | [Faction.dbc/0](/files/DBC/335/faction#id-alt) |
 | 28 | [TextureFilename](#texturefilename) | string |  |
 | 29 | [ExpansionLevel](#expansionlevel) | uint32 |  |
 | 30 | [OrderIndex](#orderindex) | uint32 |  |
-| 31 | [GroupID](#groupid) | uint32 | [LfgDungeonGrouo.dbc/0](/files/DBC/335/lfgdungeongroup#id) |
+| 31 | [GroupID](#groupid) | uint32 | [LfgDungeonGrouo.dbc/0](/files/DBC/335/lfgdungeongroup#id-alt) |
 | 32 | [Description_0](#description) | string |  |
 | 33 | [Description_1](#description) | string |  |
 | 34 | [Description_2](#description) | string |  |
@@ -74,13 +74,13 @@ dateCreated: 2023-10-04T08:05:02.714Z
 | 48 | [Description_lang_mask](#description) | uint32 |  |&nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 <code>Col: 1 &ndash; 17 ([Loc](/files/DBC/localization))</code>
 
 *- no description -*

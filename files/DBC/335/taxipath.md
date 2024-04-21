@@ -22,14 +22,14 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [FromTaxiNode](#fromtaxinode) | uint32 | [TaxiNodes.dbc/0](/files/DBC/335/taxinodes#id) |
-| 2 | [ToTaxiNode](#totaxinode) | uint32 | [TaxiNodes.dbc/0](/files/DBC/335/taxinodes#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [FromTaxiNode](#fromtaxinode) | uint32 | [TaxiNodes.dbc/0](/files/DBC/335/taxinodes#id-alt) |
+| 2 | [ToTaxiNode](#totaxinode) | uint32 | [TaxiNodes.dbc/0](/files/DBC/335/taxinodes#id-alt) |
 | 3 | [Cost](#cost) | uint32 |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

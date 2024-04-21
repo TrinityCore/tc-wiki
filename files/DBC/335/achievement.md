@@ -22,10 +22,10 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [Faction](#faction) | int32 |  |
-| 2 | [InstanceID](#instanceid) | int32 | [Map.dbc/0](/files/DBC/335/map#id) |
-| 3 | [Supercedes](#supercedes) | uint32 | [Achievement.dbc/0](#id); [achievement Id](/database/335/world/achievement_dbc#id) |
+| 2 | [InstanceID](#instanceid) | int32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
+| 3 | [Supercedes](#supercedes) | uint32 | [Achievement.dbc/0](#id-alt); [achievement Id](/database/335/world/achievement_dbc#id-alt) |
 | 4 | [Title_0](#title) | string |  |
 | 5 | [Title_1](#title) | string |  |
 | 6 | [Title_2](#title) | string |  |
@@ -60,11 +60,11 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 35 | [Description_14](#description) | string |  |
 | 36 | [Description_15](#description) | string |  |
 | 37 | [Description_lang_mask](#description) | uint32 |  |
-| 38 | [Category](#category) | uint32 | [Achievement_Category.dbc/0](/files/DBC/335/achievement_category#id) |
+| 38 | [Category](#category) | uint32 | [Achievement_Category.dbc/0](/files/DBC/335/achievement_category#id-alt) |
 | 39 | [Points](#points) | uint32 |  |
 | 40 | [UiOrder](#uiorder) | uint32 |  |
 | 41 | [Flags](#flags) | uint32 |  |
-| 42 | [IconID](#iconid) | uint32 | [SpellIcon.dbc/0](/files/DBC/335/spellicon#id) |
+| 42 | [IconID](#iconid) | uint32 | [SpellIcon.dbc/0](/files/DBC/335/spellicon#id-alt) |
 | 43 | [Reward_0](#reward) | string |  |
 | 44 | [Reward_1](#reward) | string |  |
 | 45 | [Reward_2](#reward) | string |  |
@@ -83,11 +83,11 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 58 | [Reward_15](#reward) | string |  |
 | 59 | [Reward_lang_mask](#reward) | uint32 |  |
 | 60 | [MinimumCriteria](#minimumcriteria) | uint32 |  |
-| 61 | [SharesCriteria](#sharescriteria) | uint32 | [Achievement.dbc/0](#id); [achievement Id](/database/335/world/achievement_dbc#id) |
+| 61 | [SharesCriteria](#sharescriteria) | uint32 | [Achievement.dbc/0](#id-alt); [achievement Id](/database/335/world/achievement_dbc#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

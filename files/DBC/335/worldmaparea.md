@@ -22,21 +22,21 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [MapID](#mapid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id) |
-| 2 | [AreaID](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [MapID](#mapid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
+| 2 | [AreaID](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id-alt) |
 | 3 | [AreaName](#areaname) | string |  |
 | 4 | [LocLeft](#loc) | float |  |
 | 5 | [LocRight](#loc) | float |  |
 | 6 | [LocTop](#loc) | float |  |
 | 7 | [LocBottom](#loc) | float |  |
-| 8 | [DisplayMapID](#displaymapid) | int32 | [Map.dbc/0](/files/DBC/335/map#id) |
+| 8 | [DisplayMapID](#displaymapid) | int32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
 | 9 | [DefaultDungeonFloor](#defaultdungeonfloor) | int32 | [DungeonMap.dbc/2](/files/DBC/335/dungeonmap#floorindex) |
-| 10 | [ParentWorldMapID](#parentworldmapid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id) |
+| 10 | [ParentWorldMapID](#parentworldmapid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

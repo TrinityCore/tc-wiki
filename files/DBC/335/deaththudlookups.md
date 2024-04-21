@@ -22,15 +22,15 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [SizeClass](#type) | uint32 | [CreatureDisplayInfo.dbc/10](/files/DBC/335/creaturedisplayinfo#sizeclass) |
-| 2 | [TerrainTypeSoundID](#type) | uint32 | [TerrainType.dbc/0](/files/DBC/335/terraintype#id) |
-| 3 | [SoundEntryID](#type) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 4 | [SoundEntryIDWater](#type) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
+| 2 | [TerrainTypeSoundID](#type) | uint32 | [TerrainType.dbc/0](/files/DBC/335/terraintype#id-alt) |
+| 3 | [SoundEntryID](#type) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 4 | [SoundEntryIDWater](#type) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

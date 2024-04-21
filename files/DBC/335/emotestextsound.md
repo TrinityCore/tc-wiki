@@ -22,15 +22,15 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [EmotesTextID](#emotestextid) | uint32 | [EmotesText.dbc/0](/files/DBC/335/emotestext#id) |
-| 2 | [RaceID](#raceid) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [EmotesTextID](#emotestextid) | uint32 | [EmotesText.dbc/0](/files/DBC/335/emotestext#id-alt) |
+| 2 | [RaceID](#raceid) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id-alt) |
 | 3 | [SexID](#sexid) | uint32 |  |
-| 4 | [SoundID](#soundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
+| 4 | [SoundID](#soundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

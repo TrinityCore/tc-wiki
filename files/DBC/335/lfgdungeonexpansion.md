@@ -22,8 +22,8 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [LfgDungeonID](#lfgdungeonid) | uint32 | [LfgDungeons.dbc/0](/files/DBC/335/lfgdungeons#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [LfgDungeonID](#lfgdungeonid) | uint32 | [LfgDungeons.dbc/0](/files/DBC/335/lfgdungeons#id-alt) |
 | 2 | [Expansion](#expansion) | uint32 |  |
 | 3 | [RandomID](#randomid) | uint32 |  |
 | 4 | [HardLevelMin](#hardlevelmin) | uint32 |  |
@@ -33,7 +33,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

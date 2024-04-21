@@ -23,48 +23,48 @@ dateCreated: 2023-10-04T08:02:11.651Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [SoundExertionID](#soundexertionid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 2 | [SoundExertionCriticalID](#soundexertioncriticalid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 3 | [SoundInjuryID](#soundinjuryid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 4 | [SoundInjuryCriticalID](#soundinjurycriticalid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 5 | [SoundInjuryCrushingBlowID](#soundinjurycrushingblowid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 6 | [SoundDeathID](#sounddeathid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 7 | [SoundStunID](#soundstunid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 8 | [SoundStandID](#soundstandid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 9 | [SoundFootstepID](#soundfootstepid) | uint32 | [FootstepTerrainLookup.dbc/0](/files/DBC/335/footstepterrainlookup#id) |
-| 10 | [SoundAggroID](#soundaggroid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 11 | [SoundWingFlapID](#soundwingflapid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 12 | [SoundWingGlideID](#soundwingglideid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 13 | [SoundAlertID](#soundalertid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 14 | [SoundFidget_0](#soundfidget) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 15 | [SoundFidget_1](#soundfidget) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 16 | [SoundFidget_2](#soundfidget) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 17 | [SoundFidget_3](#soundfidget) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 18 | [SoundFidget_4](#soundfidget) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 19 | [CustomAttack_0](#customattack) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 20 | [CustomAttack_1](#customattack) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 21 | [CustomAttack_2](#customattack) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 22 | [CustomAttack_3](#customattack) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 23 | [NPCSoundID](#npcsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 24 | [LoopSoundID](#loopsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [SoundExertionID](#soundexertionid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 2 | [SoundExertionCriticalID](#soundexertioncriticalid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 3 | [SoundInjuryID](#soundinjuryid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 4 | [SoundInjuryCriticalID](#soundinjurycriticalid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 5 | [SoundInjuryCrushingBlowID](#soundinjurycrushingblowid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 6 | [SoundDeathID](#sounddeathid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 7 | [SoundStunID](#soundstunid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 8 | [SoundStandID](#soundstandid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 9 | [SoundFootstepID](#soundfootstepid) | uint32 | [FootstepTerrainLookup.dbc/0](/files/DBC/335/footstepterrainlookup#id-alt) |
+| 10 | [SoundAggroID](#soundaggroid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 11 | [SoundWingFlapID](#soundwingflapid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 12 | [SoundWingGlideID](#soundwingglideid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 13 | [SoundAlertID](#soundalertid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 14 | [SoundFidget_0](#soundfidget) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 15 | [SoundFidget_1](#soundfidget) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 16 | [SoundFidget_2](#soundfidget) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 17 | [SoundFidget_3](#soundfidget) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 18 | [SoundFidget_4](#soundfidget) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 19 | [CustomAttack_0](#customattack) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 20 | [CustomAttack_1](#customattack) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 21 | [CustomAttack_2](#customattack) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 22 | [CustomAttack_3](#customattack) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 23 | [NPCSoundID](#npcsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 24 | [LoopSoundID](#loopsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 | 25 | [CreatureImpactType](#creatureimpacttype) | uint32 |  |
-| 26 | [SoundJumpStartID](#soundjumpstartid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 27 | [SoundJumpEndID](#soundjumpendid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 28 | [SoundPetAttackID](#soundpetattackid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 29 | [SoundPetOrderID](#soundpetorderid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 30 | [SoundPetDismissID](#soundpetdismissid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
+| 26 | [SoundJumpStartID](#soundjumpstartid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 27 | [SoundJumpEndID](#soundjumpendid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 28 | [SoundPetAttackID](#soundpetattackid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 29 | [SoundPetOrderID](#soundpetorderid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 30 | [SoundPetDismissID](#soundpetdismissid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 | 31 | [FidgetDelaySecondsMin](#fidgetdelaysecondsmin) | float |  |
 | 32 | [FidgetDelaySecondsMax](#fidgetdelaysecondsmax) | float |  |
-| 33 | [BirthSoundID](#birthsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 34 | [SpellCastDirectedSoundID](#spellcastdirectedsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 35 | [SubmergeSoundID](#submergesoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 36 | [SubmergedSoundID](#submergedsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 37 | [CreatureSoundDataIDPet](#creaturesounddataidpet) | uint32 | [CreatureSoundData.dbc/0](#id) |
+| 33 | [BirthSoundID](#birthsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 34 | [SpellCastDirectedSoundID](#spellcastdirectedsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 35 | [SubmergeSoundID](#submergesoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 36 | [SubmergedSoundID](#submergedsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 37 | [CreatureSoundDataIDPet](#creaturesounddataidpet) | uint32 | [CreatureSoundData.dbc/0](#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

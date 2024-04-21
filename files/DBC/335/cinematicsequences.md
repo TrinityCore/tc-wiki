@@ -22,20 +22,20 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [SoundID](#soundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 2 | [Camera_0](#camera) | uint32 | [CinematicCamera.dbc/0](/files/DBC/335/cinematiccamera#id) |
-| 3 | [Camera_1](#camera) | uint32 | [CinematicCamera.dbc/0](/files/DBC/335/cinematiccamera#id) |
-| 4 | [Camera_2](#camera) | uint32 | [CinematicCamera.dbc/0](/files/DBC/335/cinematiccamera#id) |
-| 5 | [Camera_3](#camera) | uint32 | [CinematicCamera.dbc/0](/files/DBC/335/cinematiccamera#id) |
-| 6 | [Camera_4](#camera) | uint32 | [CinematicCamera.dbc/0](/files/DBC/335/cinematiccamera#id) |
-| 7 | [Camera_5](#camera) | uint32 | [CinematicCamera.dbc/0](/files/DBC/335/cinematiccamera#id) |
-| 8 | [Camera_6](#camera) | uint32 | [CinematicCamera.dbc/0](/files/DBC/335/cinematiccamera#id) |
-| 9 | [Camera_7](#camera) | uint32 | [CinematicCamera.dbc/0](/files/DBC/335/cinematiccamera#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [SoundID](#soundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 2 | [Camera_0](#camera) | uint32 | [CinematicCamera.dbc/0](/files/DBC/335/cinematiccamera#id-alt) |
+| 3 | [Camera_1](#camera) | uint32 | [CinematicCamera.dbc/0](/files/DBC/335/cinematiccamera#id-alt) |
+| 4 | [Camera_2](#camera) | uint32 | [CinematicCamera.dbc/0](/files/DBC/335/cinematiccamera#id-alt) |
+| 5 | [Camera_3](#camera) | uint32 | [CinematicCamera.dbc/0](/files/DBC/335/cinematiccamera#id-alt) |
+| 6 | [Camera_4](#camera) | uint32 | [CinematicCamera.dbc/0](/files/DBC/335/cinematiccamera#id-alt) |
+| 7 | [Camera_5](#camera) | uint32 | [CinematicCamera.dbc/0](/files/DBC/335/cinematiccamera#id-alt) |
+| 8 | [Camera_6](#camera) | uint32 | [CinematicCamera.dbc/0](/files/DBC/335/cinematiccamera#id-alt) |
+| 9 | [Camera_7](#camera) | uint32 | [CinematicCamera.dbc/0](/files/DBC/335/cinematiccamera#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

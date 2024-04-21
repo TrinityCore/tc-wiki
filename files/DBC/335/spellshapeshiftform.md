@@ -23,45 +23,45 @@ dateCreated: 2023-10-04T08:08:04.899Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [BonusActionBar](#bonusactionbar) | uint32 |  |
-| 2 | [Name_0](#name) | string |  |
-| 3 | [Name_1](#name) | string |  |
-| 4 | [Name_2](#name) | string |  |
-| 5 | [Name_3](#name) | string |  |
-| 6 | [Name_4](#name) | string |  |
-| 7 | [Name_5](#name) | string |  |
-| 8 | [Name_6](#name) | string |  |
-| 9 | [Name_7](#name) | string |  |
-| 10 | [Name_8](#name) | string |  |
-| 11 | [Name_9](#name) | string |  |
-| 12 | [Name_10](#name) | string |  |
-| 13 | [Name_11](#name) | string |  |
-| 14 | [Name_12](#name) | string |  |
-| 15 | [Name_13](#name) | string |  |
-| 16 | [Name_14](#name) | string |  |
-| 17 | [Name_15](#name) | string |  |
-| 18 | [Name_lang_mask](#name) | uint32 |  |
+| 2 | [Name_0](#name-alt) | string |  |
+| 3 | [Name_1](#name-alt) | string |  |
+| 4 | [Name_2](#name-alt) | string |  |
+| 5 | [Name_3](#name-alt) | string |  |
+| 6 | [Name_4](#name-alt) | string |  |
+| 7 | [Name_5](#name-alt) | string |  |
+| 8 | [Name_6](#name-alt) | string |  |
+| 9 | [Name_7](#name-alt) | string |  |
+| 10 | [Name_8](#name-alt) | string |  |
+| 11 | [Name_9](#name-alt) | string |  |
+| 12 | [Name_10](#name-alt) | string |  |
+| 13 | [Name_11](#name-alt) | string |  |
+| 14 | [Name_12](#name-alt) | string |  |
+| 15 | [Name_13](#name-alt) | string |  |
+| 16 | [Name_14](#name-alt) | string |  |
+| 17 | [Name_15](#name-alt) | string |  |
+| 18 | [Name_lang_mask](#name-alt) | uint32 |  |
 | 19 | [Flags](#flags) | uint32 |  |
-| 20 | [CreatureType](#creaturetype) | int32 | [CreatureType.dbc/0](/files/DBC/335/creaturetype#id) |
-| 21 | [AttackIconID](#attackiconid) | uint32 | [SpellIcon.dbc/0](/files/DBC/335/spellicon#id) |
+| 20 | [CreatureType](#creaturetype) | int32 | [CreatureType.dbc/0](/files/DBC/335/creaturetype#id-alt) |
+| 21 | [AttackIconID](#attackiconid) | uint32 | [SpellIcon.dbc/0](/files/DBC/335/spellicon#id-alt) |
 | 22 | [CombatRoundTime](#combatroundtime) | uint32 |  |
-| 23 | [CreatureDisplayID_0](#creaturedisplayid) | uint32 | [CreatureDisplayInfo.dbc/0](/files/DBC/335/creaturedisplayinfo#id) |
-| 24 | [CreatureDisplayID_1](#creaturedisplayid) | uint32 | [CreatureDisplayInfo.dbc/0](/files/DBC/335/creaturedisplayinfo#id) |
-| 25 | [CreatureDisplayID_2](#creaturedisplayid) | uint32 | [CreatureDisplayInfo.dbc/0](/files/DBC/335/creaturedisplayinfo#id) |
-| 26 | [CreatureDisplayID_3](#creaturedisplayid) | uint32 | [CreatureDisplayInfo.dbc/0](/files/DBC/335/creaturedisplayinfo#id) |
-| 27 | [PresetSpellID_0](#presetspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 28 | [PresetSpellID_1](#presetspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 29 | [PresetSpellID_2](#presetspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 30 | [PresetSpellID_3](#presetspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 31 | [PresetSpellID_4](#presetspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 32 | [PresetSpellID_5](#presetspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 33 | [PresetSpellID_6](#presetspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 34 | [PresetSpellID_7](#presetspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
+| 23 | [CreatureDisplayID_0](#creaturedisplayid) | uint32 | [CreatureDisplayInfo.dbc/0](/files/DBC/335/creaturedisplayinfo#id-alt) |
+| 24 | [CreatureDisplayID_1](#creaturedisplayid) | uint32 | [CreatureDisplayInfo.dbc/0](/files/DBC/335/creaturedisplayinfo#id-alt) |
+| 25 | [CreatureDisplayID_2](#creaturedisplayid) | uint32 | [CreatureDisplayInfo.dbc/0](/files/DBC/335/creaturedisplayinfo#id-alt) |
+| 26 | [CreatureDisplayID_3](#creaturedisplayid) | uint32 | [CreatureDisplayInfo.dbc/0](/files/DBC/335/creaturedisplayinfo#id-alt) |
+| 27 | [PresetSpellID_0](#presetspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 28 | [PresetSpellID_1](#presetspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 29 | [PresetSpellID_2](#presetspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 30 | [PresetSpellID_3](#presetspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 31 | [PresetSpellID_4](#presetspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 32 | [PresetSpellID_5](#presetspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 33 | [PresetSpellID_6](#presetspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 34 | [PresetSpellID_7](#presetspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*
@@ -73,7 +73,7 @@ dateCreated: 2023-10-04T08:08:04.899Z
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 :x: <code>Col: 2 &ndash; 18 ([Loc](/how-to/localization))</code>
 
 *- no description -*

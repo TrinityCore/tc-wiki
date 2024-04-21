@@ -22,26 +22,26 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [HonorPoints](#honorpoints) | uint32 |  |
 | 2 | [ArenaPoints](#arenapoints) | uint32 |  |
 | 3 | [ArenaBracket](#arenabracket) | uint32 |  |
-| 4 | [ItemID_0](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
-| 5 | [ItemID_1](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
-| 6 | [ItemID_2](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
-| 7 | [ItemID_3](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
-| 8 | [ItemID_4](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
+| 4 | [ItemID_0](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 5 | [ItemID_1](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 6 | [ItemID_2](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 7 | [ItemID_3](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 8 | [ItemID_4](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
 | 9 | [ItemCount_0](#itemcount) | uint32 |  |
 | 10 | [ItemCount_1](#itemcount) | uint32 |  |
 | 11 | [ItemCount_2](#itemcount) | uint32 |  |
 | 12 | [ItemCount_3](#itemcount) | uint32 |  |
 | 13 | [ItemCount_4](#itemcount) | uint32 |  |
 | 14 | [RequiredArenaRating](#requiredarenarating) | uint32 |  |
-| 15 | [ItemPurchaseGroup](#itempurchasegroup) | uint32 | [ItemPurchaseGroup.dbc/0](/files/DBC/335/itempurchasegroup#id) |
+| 15 | [ItemPurchaseGroup](#itempurchasegroup) | uint32 | [ItemPurchaseGroup.dbc/0](/files/DBC/335/itempurchasegroup#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*
@@ -68,7 +68,7 @@ Arena slot restrictions. (min slot value)
 ### ItemID
 <code>Col: 4 &ndash; 8 (uint32)</code>
 
-Required [item entry](/database/335/world/item_template#id)
+Required [item entry](/database/335/world/item_template#id-alt)
 &nbsp;
 
 ### ItemCount

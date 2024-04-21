@@ -22,14 +22,14 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [DeclinedWordID](#declinedwordid) | uint32 | [DeclinedWord.dbc/0](/files/DBC/335/declinedword#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [DeclinedWordID](#declinedwordid) | uint32 | [DeclinedWord.dbc/0](/files/DBC/335/declinedword#id-alt) |
 | 2 | [CaseIndex](#caseindex) | uint32 |  |
 | 3 | [DeclinedWord](#declinedword) | string |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

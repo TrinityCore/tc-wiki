@@ -22,31 +22,31 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [DisplayRaceID](#displayraceid) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [DisplayRaceID](#displayraceid) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id-alt) |
 | 2 | [DisplaySexID](#displaysexid) | uint32 |  |
 | 3 | [SkinID](#skinid) | uint32 | [CharSections.dbc/9](/files/DBC/335/charsections#colorindex) |
 | 4 | [FaceID](#faceid) | uint32 | [CharSections.dbc/8](/files/DBC/335/charsections#variationindex) |
 | 5 | [HairStyleID](#hairstyleid) | uint32 | [CharHairGeosets.dbc/3](/files/DBC/335/charhairgeosets#hairtype) |
 | 6 | [HairColorID](#haircolorid) | uint32 | [CharSections.dbc/8](/files/DBC/335/charsections#variationindex) |
 | 7 | [FacialHairID](#facialhairid) | uint32 | [CharSections.dbc/8](/files/DBC/335/charsections#variationindex) |
-| 8 | [NPCItemDisplay_0](#npcitemdisplay) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id) |
-| 9 | [NPCItemDisplay_1](#npcitemdisplay) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id) |
-| 10 | [NPCItemDisplay_2](#npcitemdisplay) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id) |
-| 11 | [NPCItemDisplay_3](#npcitemdisplay) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id) |
-| 12 | [NPCItemDisplay_4](#npcitemdisplay) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id) |
-| 13 | [NPCItemDisplay_5](#npcitemdisplay) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id) |
-| 14 | [NPCItemDisplay_6](#npcitemdisplay) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id) |
-| 15 | [NPCItemDisplay_7](#npcitemdisplay) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id) |
-| 16 | [NPCItemDisplay_8](#npcitemdisplay) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id) |
-| 17 | [NPCItemDisplay_9](#npcitemdisplay) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id) |
-| 18 | [NPCItemDisplay_10](#npcitemdisplay) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id) |
+| 8 | [NPCItemDisplay_0](#npcitemdisplay) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id-alt) |
+| 9 | [NPCItemDisplay_1](#npcitemdisplay) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id-alt) |
+| 10 | [NPCItemDisplay_2](#npcitemdisplay) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id-alt) |
+| 11 | [NPCItemDisplay_3](#npcitemdisplay) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id-alt) |
+| 12 | [NPCItemDisplay_4](#npcitemdisplay) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id-alt) |
+| 13 | [NPCItemDisplay_5](#npcitemdisplay) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id-alt) |
+| 14 | [NPCItemDisplay_6](#npcitemdisplay) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id-alt) |
+| 15 | [NPCItemDisplay_7](#npcitemdisplay) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id-alt) |
+| 16 | [NPCItemDisplay_8](#npcitemdisplay) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id-alt) |
+| 17 | [NPCItemDisplay_9](#npcitemdisplay) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id-alt) |
+| 18 | [NPCItemDisplay_10](#npcitemdisplay) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id-alt) |
 | 19 | [Flags](#flags) | uint32 |  |
 | 20 | [BakeName](#bakename) | string |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*
