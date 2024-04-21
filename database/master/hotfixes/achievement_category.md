@@ -2,7 +2,7 @@
 title: achievement_category
 description: 
 published: true
-date: 2024-04-20T18:37:51.242Z
+date: 2024-04-21T08:34:39.129Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:48:20.467Z
@@ -15,7 +15,7 @@ dateCreated: 2021-08-30T09:48:20.467Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [Name](#name) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Parent](#parent) | smallint | signed |  | NO | 0 |  |  |
 | [UiOrder](#uiorder) | tinyint | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
@@ -26,7 +26,7 @@ dateCreated: 2021-08-30T09:48:20.467Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 
