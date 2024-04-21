@@ -22,7 +22,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [Duration_0](#duration) | uint32 |  |
 | 2 | [Duration_1](#duration) | uint32 |  |
 | 3 | [Duration_2](#duration) | uint32 |  |
@@ -71,8 +71,8 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 46 | [CalendarFlags_7](#calendarflags) | uint32 |  |
 | 47 | [CalendarFlags_8](#calendarflags) | uint32 |  |
 | 48 | [CalendarFlags_9](#calendarflags) | uint32 |  |
-| 49 | [HolidayNameID](#holidaynameid) | uint32 | [HolidayNames.dbc/0](/files/DBC/335/holidaynames#id) |
-| 50 | [HolidayDescriptionID](#holidaydescriptionid) | uint32 | [HolidayDescriptions.dbc/0](/files/DBC/335/holidaydescriptions#id) |
+| 49 | [HolidayNameID](#holidaynameid) | uint32 | [HolidayNames.dbc/0](/files/DBC/335/holidaynames#id-alt) |
+| 50 | [HolidayDescriptionID](#holidaydescriptionid) | uint32 | [HolidayDescriptions.dbc/0](/files/DBC/335/holidaydescriptions#id-alt) |
 | 51 | [TextureFilename](#texturefilename) | string |  |
 | 52 | [Priority](#priority) | uint32 |  |
 | 53 | [CalendarFilterType](#calendarfiltertype) | int32 |  |
@@ -80,7 +80,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

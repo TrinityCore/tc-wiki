@@ -22,18 +22,18 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [State0ImpactEffectDoodadSet](#state0impacteffectdoodadset) | uint32 |  |
 | 2 | [State0AmbientDoodadSet](#state0ambientdoodadset) | uint32 |  |
-| 3 | [State1Wmo](#state1wmo) | uint32 | [GameObjectDisplayInfo.dbc/0](/files/DBC/335/gameobjectdisplayinfo#id) |
+| 3 | [State1Wmo](#state1wmo) | uint32 | [GameObjectDisplayInfo.dbc/0](/files/DBC/335/gameobjectdisplayinfo#id-alt) |
 | 4 | [State1DestructionDoodadSet](#state1destructiondoodadset) | uint32 |  |
 | 5 | [State1ImpactEffectDoodadSet](#state1impacteffectdoodadset) | uint32 |  |
 | 6 | [State1AmbientDoodadSet](#state1ambientdoodadset) | uint32 |  |
-| 7 | [State2Wmo](#state2wmo) | uint32 | [GameObjectDisplayInfo.dbc/0](/files/DBC/335/gameobjectdisplayinfo#id) |
+| 7 | [State2Wmo](#state2wmo) | uint32 | [GameObjectDisplayInfo.dbc/0](/files/DBC/335/gameobjectdisplayinfo#id-alt) |
 | 8 | [State2DestructionDoodadSet](#state2destructiondoodadset) | uint32 |  |
 | 9 | [State2ImpactEffectDoodadSet](#state2impacteffectdoodadset) | uint32 |  |
 | 10 | [State2AmbientDoodadSet](#state2ambientdoodadset) | uint32 |  |
-| 11 | [State3Wmo](#state3wmo) | uint32 | [GameObjectDisplayInfo.dbc/0](/files/DBC/335/gameobjectdisplayinfo#id) |
+| 11 | [State3Wmo](#state3wmo) | uint32 | [GameObjectDisplayInfo.dbc/0](/files/DBC/335/gameobjectdisplayinfo#id-alt) |
 | 12 | [State3InitDoodadSet](#state3initdoodadset) | uint32 |  |
 | 13 | [State3AmbientDoodadSet](#state3ambientdoodadset) | uint32 |  |
 | 14 | [EjectDirection](#ejectdirection) | uint32 |  |
@@ -44,7 +44,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

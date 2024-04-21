@@ -22,20 +22,20 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [Flags](#flags) | uint32 |  |
 | 2 | [ModelName](#modelname) | string |  |
 | 3 | [SizeClass](#sizeclass) | uint32 |  |
 | 4 | [ModelScale](#modelscale) | float |  |
-| 5 | [BloodID](#bloodid) | int32 | [UnitBloodLevels.dbc/0](/files/DBC/335/unitbloodlevels#id) |
-| 6 | [FootprintTextureID](#footprinttextureid) | int32 | [FootprintTextures.dbc/0](/files/DBC/335/footprinttextures#id) |
+| 5 | [BloodID](#bloodid) | int32 | [UnitBloodLevels.dbc/0](/files/DBC/335/unitbloodlevels#id-alt) |
+| 6 | [FootprintTextureID](#footprinttextureid) | int32 | [FootprintTextures.dbc/0](/files/DBC/335/footprinttextures#id-alt) |
 | 7 | [FootprintTextureLength](#footprinttexturelength) | uint32 |  |
 | 8 | [FootprintTextureWidth](#footprinttexturewidth) | uint32 |  |
 | 9 | [FootprintParticleScale](#footprintparticlescale) | float |  |
-| 10 | [FoleyMaterialID](#foleymaterialid) | uint32 | [Material.dbc/0](/files/DBC/335/material#id) |
+| 10 | [FoleyMaterialID](#foleymaterialid) | uint32 | [Material.dbc/0](/files/DBC/335/material#id-alt) |
 | 11 | [FootstepShakeSize](#footstepshakesize) | float |  |
 | 12 | [DeathThudShakeSize](#deaththudshakesize) | uint32 |  |
-| 13 | [SoundID](#soundid) | uint32 | [CreatureSoundData.dbc/0](/files/DBC/335/creaturesounddata#id) |
+| 13 | [SoundID](#soundid) | uint32 | [CreatureSoundData.dbc/0](/files/DBC/335/creaturesounddata#id-alt) |
 | 14 | [CollisionWidth](#collisionwidth) | float |  |
 | 15 | [CollisionHeight](#collisionheight) | float |  |
 | 16 | [MountHeight](#mountheight) | float |  |
@@ -53,7 +53,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

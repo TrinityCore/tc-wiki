@@ -23,16 +23,16 @@ dateCreated: 2023-10-04T08:01:03.988Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [ContinentID](#continentid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id) |
-| 2 | [ParentAreaID](#parentareaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [ContinentID](#continentid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
+| 2 | [ParentAreaID](#parentareaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id-alt) |
 | 3 | [AreaBit](#areabit) | uint32 |  |
 | 4 | [Flags](#flags) | uint32 |  |
-| 5 | [SoundProviderPref](#soundproviderpref) | uint32 | [SoundProviderPreferences.dbc/0](/files/DBC/335/soundproviderpreferences#id) |
-| 6 | [SoundProviderPrefUnderwater](#soundproviderprefunderwater) | uint32 | [SoundProviderPreferences.dbc/0](/files/DBC/335/soundproviderpreferences#id) |
-| 7 | [AmbienceID](#ambienceid) | uint32 | [SoundAmbience.dbc/0](/files/DBC/335/soundambience#id) |
-| 8 | [ZoneMusic](#zonemusic) | uint32 | [ZoneMusic.dbc/0](/files/DBC/335/zonemusic#id) |
-| 9 | [IntroSound](#introsound) | uint32 | [ZoneIntroMusicTable.dbc/0](/files/DBC/335/zoneintromusictable#id) |
+| 5 | [SoundProviderPref](#soundproviderpref) | uint32 | [SoundProviderPreferences.dbc/0](/files/DBC/335/soundproviderpreferences#id-alt) |
+| 6 | [SoundProviderPrefUnderwater](#soundproviderprefunderwater) | uint32 | [SoundProviderPreferences.dbc/0](/files/DBC/335/soundproviderpreferences#id-alt) |
+| 7 | [AmbienceID](#ambienceid) | uint32 | [SoundAmbience.dbc/0](/files/DBC/335/soundambience#id-alt) |
+| 8 | [ZoneMusic](#zonemusic) | uint32 | [ZoneMusic.dbc/0](/files/DBC/335/zonemusic#id-alt) |
+| 9 | [IntroSound](#introsound) | uint32 | [ZoneIntroMusicTable.dbc/0](/files/DBC/335/zoneintromusictable#id-alt) |
 | 10 | [ExplorationLevel](#explorationlevel) | int32 |  |
 | 11 | [AreaName_0](#areaname) | string |  |
 | 12 | [AreaName_1](#areaname) | string |  |
@@ -52,17 +52,17 @@ dateCreated: 2023-10-04T08:01:03.988Z
 | 26 | [AreaName_15](#areaname) | string |  |
 | 27 | [AreaName_lang_mask](#areaname) | uint32 |  |
 | 28 | [FactionGroupMask](#factiongroupmask) | uint32 | [FactionGroup.dbc/1](/files/DBC/335/factiongroup#maskid) |
-| 29 | [LiquidTypeID_0](#liquidtypeid) | uint32 | [LiquidType.dbc/0](/files/DBC/335/liquidtype#id) |
-| 30 | [LiquidTypeID_1](#liquidtypeid) | uint32 | [LiquidType.dbc/0](/files/DBC/335/liquidtype#id) |
-| 31 | [LiquidTypeID_2](#liquidtypeid) | uint32 | [LiquidType.dbc/0](/files/DBC/335/liquidtype#id) |
-| 32 | [LiquidTypeID_3](#liquidtypeid) | uint32 | [LiquidType.dbc/0](/files/DBC/335/liquidtype#id) |
+| 29 | [LiquidTypeID_0](#liquidtypeid) | uint32 | [LiquidType.dbc/0](/files/DBC/335/liquidtype#id-alt) |
+| 30 | [LiquidTypeID_1](#liquidtypeid) | uint32 | [LiquidType.dbc/0](/files/DBC/335/liquidtype#id-alt) |
+| 31 | [LiquidTypeID_2](#liquidtypeid) | uint32 | [LiquidType.dbc/0](/files/DBC/335/liquidtype#id-alt) |
+| 32 | [LiquidTypeID_3](#liquidtypeid) | uint32 | [LiquidType.dbc/0](/files/DBC/335/liquidtype#id-alt) |
 | 33 | [MinElevation](#minelevation) | float |  |
 | 34 | [AmbientMultiplier](#ambientmultiplier) | float |  |
-| 35 | [LightID](#lightid) | uint32 | [Light.dbc/0](/files/DBC/335/light#id) |
+| 35 | [LightID](#lightid) | uint32 | [Light.dbc/0](/files/DBC/335/light#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

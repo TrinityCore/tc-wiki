@@ -23,7 +23,7 @@ dateCreated: 2023-10-04T08:09:06.318Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [Flags](#flags) | uint32 |  |
 | 2 | [AttachmentID](#attachmentid) | int32 |  |
 | 3 | [AttachmentOffset_X](#attachmentoffset) | float |  |
@@ -65,8 +65,8 @@ dateCreated: 2023-10-04T08:09:06.318Z
 | 39 | [VehicleEnterAnimDelay](#vehicleenteranimdelay) | float |  |
 | 40 | [VehicleExitAnimDelay](#vehicleexitanimdelay) | float |  |
 | 41 | [VehicleAbilityDisplay](#vehicleabilitydisplay) | uint32 |  |
-| 42 | [EnterUISoundID](#enteruisoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 43 | [ExitUISoundID](#exituisoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
+| 42 | [EnterUISoundID](#enteruisoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 43 | [ExitUISoundID](#exituisoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 | 44 | [UiSkin](#uiskin) | int32 |  |
 | 45 | [FlagsB](#flagsb) | uint32 |  |
 | 46 | [CameraEnteringDelay](#cameraenteringdelay) | float |  |
@@ -84,7 +84,7 @@ dateCreated: 2023-10-04T08:09:06.318Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

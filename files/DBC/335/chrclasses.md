@@ -23,27 +23,27 @@ dateCreated: 2023-10-04T08:01:51.629Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [DamageBonusStat](#damagebonusstat) | uint32 |  |
 | 2 | [DisplayPower](#displaypower) | uint32 |  |
 | 3 | [PetNameToken](#petnametoken) | string |  |
-| 4 | [Name_0](#name) | string |  |
-| 5 | [Name_1](#name) | string |  |
-| 6 | [Name_2](#name) | string |  |
-| 7 | [Name_3](#name) | string |  |
-| 8 | [Name_4](#name) | string |  |
-| 9 | [Name_5](#name) | string |  |
-| 10 | [Name_6](#name) | string |  |
-| 11 | [Name_7](#name) | string |  |
-| 12 | [Name_8](#name) | string |  |
-| 13 | [Name_9](#name) | string |  |
-| 14 | [Name_10](#name) | string |  |
-| 15 | [Name_11](#name) | string |  |
-| 16 | [Name_12](#name) | string |  |
-| 17 | [Name_13](#name) | string |  |
-| 18 | [Name_14](#name) | string |  |
-| 19 | [Name_15](#name) | string |  |
-| 20 | [Name_lang_mask](#name) | uint32 |  |
+| 4 | [Name_0](#name-alt) | string |  |
+| 5 | [Name_1](#name-alt) | string |  |
+| 6 | [Name_2](#name-alt) | string |  |
+| 7 | [Name_3](#name-alt) | string |  |
+| 8 | [Name_4](#name-alt) | string |  |
+| 9 | [Name_5](#name-alt) | string |  |
+| 10 | [Name_6](#name-alt) | string |  |
+| 11 | [Name_7](#name-alt) | string |  |
+| 12 | [Name_8](#name-alt) | string |  |
+| 13 | [Name_9](#name-alt) | string |  |
+| 14 | [Name_10](#name-alt) | string |  |
+| 15 | [Name_11](#name-alt) | string |  |
+| 16 | [Name_12](#name-alt) | string |  |
+| 17 | [Name_13](#name-alt) | string |  |
+| 18 | [Name_14](#name-alt) | string |  |
+| 19 | [Name_15](#name-alt) | string |  |
+| 20 | [Name_lang_mask](#name-alt) | uint32 |  |
 | 21 | [NameFemale_0](#namefemale) | string |  |
 | 22 | [NameFemale_1](#namefemale) | string |  |
 | 23 | [NameFemale_2](#namefemale) | string |  |
@@ -81,12 +81,12 @@ dateCreated: 2023-10-04T08:01:51.629Z
 | 55 | [Filename](#filename) | string |  |
 | 56 | [SpellClassSet](#spellclassset) | uint32 | [Spell.dbc/208](/files/DBC/335/spell#spellclassset) |
 | 57 | [Flags](#flags) | uint32 |  |
-| 58 | [CinematicSequenceID](#cinematicsequenceid) | uint32 | [CinematicSequences.dbc/0](/files/DBC/335/cinematicsequences#id) |
+| 58 | [CinematicSequenceID](#cinematicsequenceid) | uint32 | [CinematicSequences.dbc/0](/files/DBC/335/cinematicsequences#id-alt) |
 | 59 | [RequiredExpansion](#requiredexpansion) | uint32 |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*
@@ -133,7 +133,7 @@ Doesn't work for ChrClass 6?
 * else: PET
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 <code>Col: 4 &ndash; 20 ([Loc](/how-to/localization))</code>
 
 *- no description -*

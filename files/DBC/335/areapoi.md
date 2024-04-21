@@ -25,7 +25,7 @@ Points of Interest (POI) on the overhead map (including battleground map). Inclu
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [Importance](#importance) | uint32 |  |
 | 2 | [Icon_0](#icon) | uint32 |  |
 | 3 | [Icon_1](#icon) | uint32 |  |
@@ -36,30 +36,30 @@ Points of Interest (POI) on the overhead map (including battleground map). Inclu
 | 8 | [Icon_6](#icon) | uint32 |  |
 | 9 | [Icon_7](#icon) | uint32 |  |
 | 10 | [Icon_8](#icon) | uint32 |  |
-| 11 | [FactionID](#factionid) | uint32 | [FactionTemplate.dbc/0](/files/DBC/335/factiontemplate#id) |
+| 11 | [FactionID](#factionid) | uint32 | [FactionTemplate.dbc/0](/files/DBC/335/factiontemplate#id-alt) |
 | 12 | [Pos_X](#pos) | float |  |
 | 13 | [Pos_Y](#pos) | float |  |
 | 14 | [Pos_Z](#pos) | float |  |
-| 15 | [ContinentID](#continentid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id) |
+| 15 | [ContinentID](#continentid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
 | 16 | [Flags](#flags) | uint32 |  |
-| 17 | [AreaID](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id) |
-| 18 | [Name_0](#name) | string |  |
-| 19 | [Name_1](#name) | string |  |
-| 20 | [Name_2](#name) | string |  |
-| 21 | [Name_3](#name) | string |  |
-| 22 | [Name_4](#name) | string |  |
-| 23 | [Name_5](#name) | string |  |
-| 24 | [Name_6](#name) | string |  |
-| 25 | [Name_7](#name) | string |  |
-| 26 | [Name_8](#name) | string |  |
-| 27 | [Name_9](#name) | string |  |
-| 28 | [Name_10](#name) | string |  |
-| 29 | [Name_11](#name) | string |  |
-| 30 | [Name_12](#name) | string |  |
-| 31 | [Name_13](#name) | string |  |
-| 32 | [Name_14](#name) | string |  |
-| 33 | [Name_15](#name) | string |  |
-| 34 | [Name_lang_mask](#name) | uint32 |  |
+| 17 | [AreaID](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id-alt) |
+| 18 | [Name_0](#name-alt) | string |  |
+| 19 | [Name_1](#name-alt) | string |  |
+| 20 | [Name_2](#name-alt) | string |  |
+| 21 | [Name_3](#name-alt) | string |  |
+| 22 | [Name_4](#name-alt) | string |  |
+| 23 | [Name_5](#name-alt) | string |  |
+| 24 | [Name_6](#name-alt) | string |  |
+| 25 | [Name_7](#name-alt) | string |  |
+| 26 | [Name_8](#name-alt) | string |  |
+| 27 | [Name_9](#name-alt) | string |  |
+| 28 | [Name_10](#name-alt) | string |  |
+| 29 | [Name_11](#name-alt) | string |  |
+| 30 | [Name_12](#name-alt) | string |  |
+| 31 | [Name_13](#name-alt) | string |  |
+| 32 | [Name_14](#name-alt) | string |  |
+| 33 | [Name_15](#name-alt) | string |  |
+| 34 | [Name_lang_mask](#name-alt) | uint32 |  |
 | 35 | [Description_0](#description) | string |  |
 | 36 | [Description_1](#description) | string |  |
 | 37 | [Description_2](#description) | string |  |
@@ -82,7 +82,7 @@ Points of Interest (POI) on the overhead map (including battleground map). Inclu
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*
@@ -158,7 +158,7 @@ Flags defining, where this icon is shown.
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 :x: <code>Col: 18 &ndash; 34 ([Loc](/how-to/localization))</code>
 
 *- no description -*

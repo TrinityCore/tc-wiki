@@ -22,7 +22,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ClassID](#classid) | uint32 | [ItemClass.dbc/0](/files/DBC/335/itemclass#id); [SheatheSoundLookups.dbc/1](/files/DBC/335/sheathesoundlookups#classid) |
+| 0 | [ClassID](#classid) | uint32 | [ItemClass.dbc/0](/files/DBC/335/itemclass#id-alt); [SheatheSoundLookups.dbc/1](/files/DBC/335/sheathesoundlookups#classid) |
 | 1 | [SubClassID](#subclassid) | uint32 | [SheatheSoundLookups.dbc/2](/files/DBC/335/sheathesoundlookups#subclassid) |
 | 2 | [PrerequisiteProficiency](#prerequisiteproficiency) | int32 |  |
 | 3 | [PostrequisiteProficiency](#postrequisiteproficiency) | int32 |  |

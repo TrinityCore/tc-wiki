@@ -22,7 +22,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [TextureVariation_0](#texturevariation) | string |  |
 | 2 | [TextureVariation_1](#texturevariation) | string |  |
 | 3 | [TextureVariation_2](#texturevariation) | string |  |
@@ -34,7 +34,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

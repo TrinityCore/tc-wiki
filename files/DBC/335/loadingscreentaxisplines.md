@@ -22,8 +22,8 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [TaxiPathID](#taxipathid) | uint32 | [TaxiPath.dbc/0](/files/DBC/335/taxipath#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [TaxiPathID](#taxipathid) | uint32 | [TaxiPath.dbc/0](/files/DBC/335/taxipath#id-alt) |
 | 2 | [LocX_0](#loc) | float |  |
 | 3 | [LocX_1](#loc) | float |  |
 | 4 | [LocX_2](#loc) | float |  |
@@ -44,7 +44,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

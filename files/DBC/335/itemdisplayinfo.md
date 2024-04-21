@@ -22,7 +22,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [ModelName_0](#modelname) | string |  |
 | 2 | [ModelName_1](#modelname) | string |  |
 | 3 | [ModelTexture_0](#modeltexture) | string |  |
@@ -33,10 +33,10 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 8 | [GeosetGroup_1](#geosetgroup) | uint32 |  |
 | 9 | [GeosetGroup_2](#geosetgroup) | uint32 |  |
 | 10 | [Flags](#flags) | uint32 |  |
-| 11 | [SpellVisualID](#spellvisualid) | uint32 | [SpellVisual.dbc/0](/files/DBC/335/spellvisual#id) |
-| 12 | [GroupSoundIndex](#groupsoundindex) | uint32 | [ItemGroupSounds.dbc/0](/files/DBC/335/itemgroupsounds#id) |
-| 13 | [HelmetGeosetVisID_0](#helmetgeosetvisid) | uint32 | [HelmetGeosetVisData.dbc/0](/files/DBC/335/helmetgeosetvisdata#id) |
-| 14 | [HelmetGeosetVisID_1](#helmetgeosetvisid) | uint32 | [HelmetGeosetVisData.dbc/0](/files/DBC/335/helmetgeosetvisdata#id) |
+| 11 | [SpellVisualID](#spellvisualid) | uint32 | [SpellVisual.dbc/0](/files/DBC/335/spellvisual#id-alt) |
+| 12 | [GroupSoundIndex](#groupsoundindex) | uint32 | [ItemGroupSounds.dbc/0](/files/DBC/335/itemgroupsounds#id-alt) |
+| 13 | [HelmetGeosetVisID_0](#helmetgeosetvisid) | uint32 | [HelmetGeosetVisData.dbc/0](/files/DBC/335/helmetgeosetvisdata#id-alt) |
+| 14 | [HelmetGeosetVisID_1](#helmetgeosetvisid) | uint32 | [HelmetGeosetVisData.dbc/0](/files/DBC/335/helmetgeosetvisdata#id-alt) |
 | 15 | [Texture_0](#texture) | string |  |
 | 16 | [Texture_1](#texture) | string |  |
 | 17 | [Texture_2](#texture) | string |  |
@@ -50,7 +50,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

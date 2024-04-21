@@ -22,8 +22,8 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 | [LightParams.dbc/0](/files/DBC/335/lightparams#id) |
-| 1 | [NumEntries](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 | [LightParams.dbc/0](/files/DBC/335/lightparams#id-alt) |
+| 1 | [NumEntries](#id-alt) | uint32 |  |
 | 2 | [Time_0](#time) | uint32 |  |
 | 3 | [Time_1](#time) | uint32 |  |
 | 4 | [Time_2](#time) | uint32 |  |
@@ -59,10 +59,10 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
-Every [LightParamsID](/files/DBC/335/lightparams#id) corresponds to 6 **ID**s.
+Every [LightParamsID](/files/DBC/335/lightparams#id-alt) corresponds to 6 **ID**s.
 `ID = LightParamsID * 6 - 5 + Offset`
 | Offset | Comment |
 |--------|---------|

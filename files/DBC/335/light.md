@@ -22,25 +22,25 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [ContinentID](#continentid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [ContinentID](#continentid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
 | 2 | [GameCoords_X](#gamecoords) | float |  |
 | 3 | [GameCoords_Y](#gamecoords) | float |  |
 | 4 | [GameCoords_Z](#gamecoords) | float |  |
 | 5 | [GameFalloffStart](#gamefalloffstart) | float |  |
 | 6 | [GameFalloffEnd](#gamefalloffend) | float |  |
-| 7 | [LightParamsID_0](#lightparamsid) | uint32 | [LightParams.dbc/0](/files/DBC/335/lightparams#id) |
-| 8 | [LightParamsID_1](#lightparamsid) | uint32 | [LightParams.dbc/0](/files/DBC/335/lightparams#id) |
-| 9 | [LightParamsID_2](#lightparamsid) | uint32 | [LightParams.dbc/0](/files/DBC/335/lightparams#id) |
-| 10 | [LightParamsID_3](#lightparamsid) | uint32 | [LightParams.dbc/0](/files/DBC/335/lightparams#id) |
-| 11 | [LightParamsID_4](#lightparamsid) | uint32 | [LightParams.dbc/0](/files/DBC/335/lightparams#id) |
-| 12 | [LightParamsID_5](#lightparamsid) | uint32 | [LightParams.dbc/0](/files/DBC/335/lightparams#id) |
-| 13 | [LightParamsID_6](#lightparamsid) | uint32 | [LightParams.dbc/0](/files/DBC/335/lightparams#id) |
-| 14 | [LightParamsID_7](#lightparamsid) | uint32 | [LightParams.dbc/0](/files/DBC/335/lightparams#id) |
+| 7 | [LightParamsID_0](#lightparamsid) | uint32 | [LightParams.dbc/0](/files/DBC/335/lightparams#id-alt) |
+| 8 | [LightParamsID_1](#lightparamsid) | uint32 | [LightParams.dbc/0](/files/DBC/335/lightparams#id-alt) |
+| 9 | [LightParamsID_2](#lightparamsid) | uint32 | [LightParams.dbc/0](/files/DBC/335/lightparams#id-alt) |
+| 10 | [LightParamsID_3](#lightparamsid) | uint32 | [LightParams.dbc/0](/files/DBC/335/lightparams#id-alt) |
+| 11 | [LightParamsID_4](#lightparamsid) | uint32 | [LightParams.dbc/0](/files/DBC/335/lightparams#id-alt) |
+| 12 | [LightParamsID_5](#lightparamsid) | uint32 | [LightParams.dbc/0](/files/DBC/335/lightparams#id-alt) |
+| 13 | [LightParamsID_6](#lightparamsid) | uint32 | [LightParams.dbc/0](/files/DBC/335/lightparams#id-alt) |
+| 14 | [LightParamsID_7](#lightparamsid) | uint32 | [LightParams.dbc/0](/files/DBC/335/lightparams#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

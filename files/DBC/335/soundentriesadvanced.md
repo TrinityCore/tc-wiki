@@ -22,8 +22,8 @@ dateCreated: 2023-09-05CEST16:09:35.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [SoundEntryID](#soundentryid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [SoundEntryID](#soundentryid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 | 2 | [InnerRadius2D](#innerradius2d) | float |  |
 | 3 | [Time_A](#time) | uint32 |  |
 | 4 | [Time_B](#time) | uint32 |  |
@@ -45,11 +45,11 @@ dateCreated: 2023-09-05CEST16:09:35.000Z
 | 20 | [OutsideAngle](#outsideangle) | float |  |
 | 21 | [OutsideVolume](#outsidevolume) | float |  |
 | 22 | [OuterRadius2D](#outerradius2d) | float |  |
-| 23 | [Name](#name) | string |  |
+| 23 | [Name](#name-alt) | string |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*
@@ -169,7 +169,7 @@ dateCreated: 2023-09-05CEST16:09:35.000Z
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 :x: <code>Col: 23 (uint32)</code>
 
 *- no description -*

@@ -22,28 +22,28 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [Name](#name) | string |  |
-| 2 | [ObjectEffectGroupID](#objecteffectgroupid) | uint32 | [ObjectEffectGroup.dbc/0](/files/DBC/335/objecteffectgroup#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [Name](#name-alt) | string |  |
+| 2 | [ObjectEffectGroupID](#objecteffectgroupid) | uint32 | [ObjectEffectGroup.dbc/0](/files/DBC/335/objecteffectgroup#id-alt) |
 | 3 | [TriggerType](#triggertype) | uint32 |  |
 | 4 | [EventType](#eventtype) | uint32 |  |
 | 5 | [EffectRecType](#effectrectype) | uint32 |  |
-| 6 | [SoundKitID](#soundkitid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
+| 6 | [SoundKitID](#soundkitid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 | 7 | [Attachment](#attachment) | uint32 |  |
 | 8 | [Offset_X](#offset) | float |  |
 | 9 | [Offset_Y](#offset) | float |  |
 | 10 | [Offset_Z](#offset) | float |  |
-| 11 | [ObjectEffectModifierID](#objecteffectmodifierid) | uint32 | [ObjectEffectModifier.dbc/0](/files/DBC/335/objecteffectmodifier#id) |
+| 11 | [ObjectEffectModifierID](#objecteffectmodifierid) | uint32 | [ObjectEffectModifier.dbc/0](/files/DBC/335/objecteffectmodifier#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 :x: <code>Col: 1 (string)</code>
 
 *- no description -*

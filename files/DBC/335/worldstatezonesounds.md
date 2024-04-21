@@ -24,12 +24,12 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | :---: | --- | :---: | --- |
 | 0 | [WorldStateID](#worldstateid) | uint32 |  |
 | 1 | [WorldStateValue](#worldstatevalue) | uint32 |  |
-| 2 | [AreaID](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id) |
-| 3 | [WMOAreaID](#wmoareaid) | uint32 | [WMOAreaTable.dbc/0](/files/DBC/335/wmoareatable#id) |
-| 4 | [ZoneIntroMusicID](#zoneintromusicid) | uint32 | [ZoneIntroMusicTable.dbc/0](/files/DBC/335/zoneintromusictable#id) |
-| 5 | [ZoneMusicID](#zonemusicid) | uint32 | [ZoneMusic.dbc/0](/files/DBC/335/zonemusic#id) |
-| 6 | [SoundAmbienceID](#soundambienceid) | uint32 | [SoundAmbience.dbc/0](/files/DBC/335/soundambience#id) |
-| 7 | [SoundProviderPreferencesID](#soundproviderpreferencesid) | uint32 | [SoundProviderPreferences.dbc/0](/files/DBC/335/soundproviderpreferences#id) |
+| 2 | [AreaID](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id-alt) |
+| 3 | [WMOAreaID](#wmoareaid) | uint32 | [WMOAreaTable.dbc/0](/files/DBC/335/wmoareatable#id-alt) |
+| 4 | [ZoneIntroMusicID](#zoneintromusicid) | uint32 | [ZoneIntroMusicTable.dbc/0](/files/DBC/335/zoneintromusictable#id-alt) |
+| 5 | [ZoneMusicID](#zonemusicid) | uint32 | [ZoneMusic.dbc/0](/files/DBC/335/zonemusic#id-alt) |
+| 6 | [SoundAmbienceID](#soundambienceid) | uint32 | [SoundAmbience.dbc/0](/files/DBC/335/soundambience#id-alt) |
+| 7 | [SoundProviderPreferencesID](#soundproviderpreferencesid) | uint32 | [SoundProviderPreferences.dbc/0](/files/DBC/335/soundproviderpreferences#id-alt) |
 &nbsp;
 ## Description of fields
 

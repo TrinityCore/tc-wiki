@@ -22,16 +22,16 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [Control](#control) | uint32 |  |
-| 2 | [Faction](#faction) | uint32 | [FactionTemplate.dbc/0](/files/DBC/335/factiontemplate#id) |
+| 2 | [Faction](#faction) | uint32 | [FactionTemplate.dbc/0](/files/DBC/335/factiontemplate#id-alt) |
 | 3 | [Title](#title) | uint32 |  |
 | 4 | [Slot](#slot) | uint32 |  |
 | 5 | [Flags](#flags) | uint32 |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

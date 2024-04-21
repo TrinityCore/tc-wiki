@@ -22,7 +22,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [Position_X](#position) | float |  |
 | 2 | [Position_Y](#position) | float |  |
 | 3 | [Position_Z](#position) | float |  |
@@ -30,12 +30,12 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 5 | [Direction_Y](#direction) | float |  |
 | 6 | [Direction_Z](#direction) | float |  |
 | 7 | [SoundEntriesAdvancedID](#soundentriesadvancedid) | uint32 | [SoundEntriesAdvanced.dbc/1](/files/DBC/335/soundentriesadvanced#soundentriesid) |
-| 8 | [MapID](#mapid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id) |
-| 9 | [Name](#name) | string |  |
+| 8 | [MapID](#mapid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
+| 9 | [Name](#name-alt) | string |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*
@@ -65,7 +65,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 :x: <code>Col: 9 (string)</code>
 
 *- no description -*

@@ -22,34 +22,34 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [InternalName](#internalname) | string |  |
-| 2 | [Enchantment_0](#enchantment) | uint32 | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id) |
-| 3 | [Enchantment_1](#enchantment) | uint32 | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id) |
-| 4 | [Enchantment_2](#enchantment) | uint32 | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id) |
-| 5 | [Enchantment_3](#enchantment) | uint32 | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id) |
-| 6 | [Enchantment_4](#enchantment) | uint32 | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id) |
-| 7 | [Name_0](#name) | string |  |
-| 8 | [Name_1](#name) | string |  |
-| 9 | [Name_2](#name) | string |  |
-| 10 | [Name_3](#name) | string |  |
-| 11 | [Name_4](#name) | string |  |
-| 12 | [Name_5](#name) | string |  |
-| 13 | [Name_6](#name) | string |  |
-| 14 | [Name_7](#name) | string |  |
-| 15 | [Name_8](#name) | string |  |
-| 16 | [Name_9](#name) | string |  |
-| 17 | [Name_10](#name) | string |  |
-| 18 | [Name_11](#name) | string |  |
-| 19 | [Name_12](#name) | string |  |
-| 20 | [Name_13](#name) | string |  |
-| 21 | [Name_14](#name) | string |  |
-| 22 | [Name_15](#name) | string |  |
-| 23 | [Name_lang_mask](#name) | uint32 |  |
+| 2 | [Enchantment_0](#enchantment) | uint32 | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id-alt) |
+| 3 | [Enchantment_1](#enchantment) | uint32 | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id-alt) |
+| 4 | [Enchantment_2](#enchantment) | uint32 | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id-alt) |
+| 5 | [Enchantment_3](#enchantment) | uint32 | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id-alt) |
+| 6 | [Enchantment_4](#enchantment) | uint32 | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id-alt) |
+| 7 | [Name_0](#name-alt) | string |  |
+| 8 | [Name_1](#name-alt) | string |  |
+| 9 | [Name_2](#name-alt) | string |  |
+| 10 | [Name_3](#name-alt) | string |  |
+| 11 | [Name_4](#name-alt) | string |  |
+| 12 | [Name_5](#name-alt) | string |  |
+| 13 | [Name_6](#name-alt) | string |  |
+| 14 | [Name_7](#name-alt) | string |  |
+| 15 | [Name_8](#name-alt) | string |  |
+| 16 | [Name_9](#name-alt) | string |  |
+| 17 | [Name_10](#name-alt) | string |  |
+| 18 | [Name_11](#name-alt) | string |  |
+| 19 | [Name_12](#name-alt) | string |  |
+| 20 | [Name_13](#name-alt) | string |  |
+| 21 | [Name_14](#name-alt) | string |  |
+| 22 | [Name_15](#name-alt) | string |  |
+| 23 | [Name_lang_mask](#name-alt) | uint32 |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*
@@ -67,7 +67,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 Col 5 + 6 empty in 3.3.5a and unused in TC.
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 <code>Col: 7 &ndash; 23 ([Loc](/how-to/localization))</code>
 
 *- no description -*

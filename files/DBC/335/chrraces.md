@@ -22,37 +22,37 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [Flags](#flags) | uint32 |  |
-| 2 | [FactionID](#factionid) | uint32 | [FactionTemplate.dbc/0](/files/DBC/335/factiontemplate#id) |
-| 3 | [ExplorationSoundID](#explorationsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 4 | [MaleDisplayID](#maledisplayid) | uint32 | [CreatureDisplayInfo.dbc/0](/files/DBC/335/creaturedisplayinfo#id) |
-| 5 | [FemaleDisplayID](#femaledisplayid) | uint32 | [CreatureDisplayInfo.dbc/0](/files/DBC/335/creaturedisplayinfo#id) |
+| 2 | [FactionID](#factionid) | uint32 | [FactionTemplate.dbc/0](/files/DBC/335/factiontemplate#id-alt) |
+| 3 | [ExplorationSoundID](#explorationsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 4 | [MaleDisplayID](#maledisplayid) | uint32 | [CreatureDisplayInfo.dbc/0](/files/DBC/335/creaturedisplayinfo#id-alt) |
+| 5 | [FemaleDisplayID](#femaledisplayid) | uint32 | [CreatureDisplayInfo.dbc/0](/files/DBC/335/creaturedisplayinfo#id-alt) |
 | 6 | [ClientPrefix](#clientprefix) | string |  |
-| 7 | [BaseLanguage](#baselanguage) | uint32 | [Languages.dbc/0](/files/DBC/335/languages#id) |
-| 8 | [CreatureType](#creaturetype) | uint32 | [CreatureType.dbc/0](/files/DBC/335/creaturetype#id) |
-| 9 | [ResSicknessSpellID](#ressicknessspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id); [spell Id](/database/335/world/spell_dbc#id) |
-| 10 | [SplashSoundID](#splashsoundid) | uint32 |[SoundEntries.dbc/0](/files/DBC/335/soundentries#id)  |
+| 7 | [BaseLanguage](#baselanguage) | uint32 | [Languages.dbc/0](/files/DBC/335/languages#id-alt) |
+| 8 | [CreatureType](#creaturetype) | uint32 | [CreatureType.dbc/0](/files/DBC/335/creaturetype#id-alt) |
+| 9 | [ResSicknessSpellID](#ressicknessspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt); [spell Id](/database/335/world/spell_dbc#id-alt) |
+| 10 | [SplashSoundID](#splashsoundid) | uint32 |[SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt)  |
 | 11 | [ClientFileString](#clientfilestring) | string |  |
-| 12 | [CinematicSequenceID](#cinematicsequenceid) | uint32 | [CinematicSequences.dbc/0](/files/DBC/335/cinematicsequences#id) |
+| 12 | [CinematicSequenceID](#cinematicsequenceid) | uint32 | [CinematicSequences.dbc/0](/files/DBC/335/cinematicsequences#id-alt) |
 | 13 | [Alliance](#alliance) | uint32 |  |
-| 14 | [Name_0](#name) | string |  |
-| 15 | [Name_1](#name) | string |  |
-| 16 | [Name_2](#name) | string |  |
-| 17 | [Name_3](#name) | string |  |
-| 18 | [Name_4](#name) | string |  |
-| 19 | [Name_5](#name) | string |  |
-| 20 | [Name_6](#name) | string |  |
-| 21 | [Name_7](#name) | string |  |
-| 22 | [Name_8](#name) | string |  |
-| 23 | [Name_9](#name) | string |  |
-| 24 | [Name_10](#name) | string |  |
-| 25 | [Name_11](#name) | string |  |
-| 26 | [Name_12](#name) | string |  |
-| 27 | [Name_13](#name) | string |  |
-| 28 | [Name_14](#name) | string |  |
-| 29 | [Name_15](#name) | string |  |
-| 30 | [Name_lang_mask](#name) | uint32 |  |
+| 14 | [Name_0](#name-alt) | string |  |
+| 15 | [Name_1](#name-alt) | string |  |
+| 16 | [Name_2](#name-alt) | string |  |
+| 17 | [Name_3](#name-alt) | string |  |
+| 18 | [Name_4](#name-alt) | string |  |
+| 19 | [Name_5](#name-alt) | string |  |
+| 20 | [Name_6](#name-alt) | string |  |
+| 21 | [Name_7](#name-alt) | string |  |
+| 22 | [Name_8](#name-alt) | string |  |
+| 23 | [Name_9](#name-alt) | string |  |
+| 24 | [Name_10](#name-alt) | string |  |
+| 25 | [Name_11](#name-alt) | string |  |
+| 26 | [Name_12](#name-alt) | string |  |
+| 27 | [Name_13](#name-alt) | string |  |
+| 28 | [Name_14](#name-alt) | string |  |
+| 29 | [Name_15](#name-alt) | string |  |
+| 30 | [Name_lang_mask](#name-alt) | uint32 |  |
 | 31 | [NameFemale_0](#namefemale) | string |  |
 | 32 | [NameFemale_1](#namefemale) | string |  |
 | 33 | [NameFemale_2](#namefemale) | string |  |
@@ -94,7 +94,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*
@@ -193,7 +193,7 @@ ID from CinematicSequences.dbc, used for the opening cinematic.
 
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 <code>Col: 14 &ndash; 30 ([Loc](/how-to/localization))</code>
 
 *- no description -*

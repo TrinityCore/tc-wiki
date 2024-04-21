@@ -23,18 +23,18 @@ dateCreated: 2023-10-04T08:06:55.827Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [SkillID](#skillid) | uint32 | [SkillLine.dbc/0](/files/DBC/335/skillline#id) |
-| 2 | [RaceMask](#racemask) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id) |
-| 3 | [ClassMask](#classmask) | uint32 | [ChrClasses.dbc/0](/files/DBC/335/chrclasses#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [SkillID](#skillid) | uint32 | [SkillLine.dbc/0](/files/DBC/335/skillline#id-alt) |
+| 2 | [RaceMask](#racemask) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id-alt) |
+| 3 | [ClassMask](#classmask) | uint32 | [ChrClasses.dbc/0](/files/DBC/335/chrclasses#id-alt) |
 | 4 | [Flags](#flags) | uint32 |  |
 | 5 | [MinLevel](#minlevel) | uint32 |  |
-| 6 | [SkillTierID](#skilltierid) | uint32 | [SkillTiers.dbc/0](/files/DBC/335/skilltiers#id) |
+| 6 | [SkillTierID](#skilltierid) | uint32 | [SkillTiers.dbc/0](/files/DBC/335/skilltiers#id-alt) |
 | 7 | [SkillCostIndex](#skillcostindex) | uint32 | [SkillCostsData.dbc/2-4](/files/DBC/335/skillcostsdata#cost) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

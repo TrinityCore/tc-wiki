@@ -22,21 +22,21 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [Name](#name) | string |  |
-| 2 | [SoundID](#soundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [Name](#name-alt) | string |  |
+| 2 | [SoundID](#soundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 | 3 | [Priority](#priority) | uint32 |  |
 | 4 | [MinDelayMinutes](#mindelayminutes) | uint32 |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 :x: <code>Col: 1 (string)</code>
 
 *- no description -*

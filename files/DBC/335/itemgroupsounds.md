@@ -22,15 +22,15 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [SoundEntry_0](#soundentry) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 2 | [SoundEntry_1](#soundentry) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 3 | [SoundEntry_2](#soundentry) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 4 | [SoundEntry_3](#soundentry) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [SoundEntry_0](#soundentry) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 2 | [SoundEntry_1](#soundentry) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 3 | [SoundEntry_2](#soundentry) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 4 | [SoundEntry_3](#soundentry) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

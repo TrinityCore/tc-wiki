@@ -24,15 +24,15 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
 | 0 | [GeneratedID](#generatedid) | uint32 |  |
-| 1 | [WorldMapContinentID](#worldmapcontinentid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id) |
+| 1 | [WorldMapContinentID](#worldmapcontinentid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
 | 2 | [ChunkX](#chunkx) | uint32 |  |
 | 3 | [ChunkY](#chunky) | uint32 |  |
 | 4 | [SubchunkX](#subchunkx) | uint32 |  |
 | 5 | [SubchunkY](#subchunky) | uint32 |  |
-| 6 | [ZoneIntroMusicID](#zoneintromusicid) | uint32 | [ZoneIntroMusicTable.dbc/0](/files/DBC/335/zoneintromusictable#id) |
-| 7 | [ZoneMusicID](#zonemusicid) | uint32 | [ZoneMusic.dbc/0](/files/DBC/335/zonemusic#id) |
-| 8 | [SoundAmbienceID](#soundambienceid) | uint32 | [SoundAmbience.dbc/0](/files/DBC/335/soundambience#id) |
-| 9 | [SoundProviderPreferencesID](#soundproviderpreferencesid) | uint32 | [SoundProviderPreferences.dbc/0](/files/DBC/335/soundproviderpreferences#id) |
+| 6 | [ZoneIntroMusicID](#zoneintromusicid) | uint32 | [ZoneIntroMusicTable.dbc/0](/files/DBC/335/zoneintromusictable#id-alt) |
+| 7 | [ZoneMusicID](#zonemusicid) | uint32 | [ZoneMusic.dbc/0](/files/DBC/335/zonemusic#id-alt) |
+| 8 | [SoundAmbienceID](#soundambienceid) | uint32 | [SoundAmbience.dbc/0](/files/DBC/335/soundambience#id-alt) |
+| 9 | [SoundProviderPreferencesID](#soundproviderpreferencesid) | uint32 | [SoundProviderPreferences.dbc/0](/files/DBC/335/soundproviderpreferences#id-alt) |
 &nbsp;
 ## Description of fields
 

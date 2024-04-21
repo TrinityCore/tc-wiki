@@ -22,15 +22,15 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [DifficultySpellID_0](#difficultyspellid) | int32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 2 | [DifficultySpellID_1](#difficultyspellid) | int32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 3 | [DifficultySpellID_2](#difficultyspellid) | int32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
-| 4 | [DifficultySpellID_3](#difficultyspellid) | int32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [DifficultySpellID_0](#difficultyspellid) | int32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 2 | [DifficultySpellID_1](#difficultyspellid) | int32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 3 | [DifficultySpellID_2](#difficultyspellid) | int32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+| 4 | [DifficultySpellID_3](#difficultyspellid) | int32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

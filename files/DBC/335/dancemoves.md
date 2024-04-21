@@ -22,34 +22,34 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [Type](#type) | uint32 |  |
 | 2 | [Value](#value) | uint32 | mixed |
 | 3 | [Fallback](#fallback) | uint32 |  |
-| 4 | [Racemask](#racemask) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id) |
+| 4 | [Racemask](#racemask) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id-alt) |
 | 5 | [Internal](#internal) | uint32 |  |
-| 6 | [Name_0](#name) | string |  |
-| 7 | [Name_1](#name) | string |  |
-| 8 | [Name_2](#name) | string |  |
-| 9 | [Name_3](#name) | string |  |
-| 10 | [Name_4](#name) | string |  |
-| 11 | [Name_5](#name) | string |  |
-| 12 | [Name_6](#name) | string |  |
-| 13 | [Name_7](#name) | string |  |
-| 14 | [Name_8](#name) | string |  |
-| 15 | [Name_9](#name) | string |  |
-| 16 | [Name_10](#name) | string |  |
-| 17 | [Name_11](#name) | string |  |
-| 18 | [Name_12](#name) | string |  |
-| 19 | [Name_13](#name) | string |  |
-| 20 | [Name_14](#name) | string |  |
-| 21 | [Name_15](#name) | string |  |
-| 22 | [Name_lang_mask](#name) | uint32 |  |
+| 6 | [Name_0](#name-alt) | string |  |
+| 7 | [Name_1](#name-alt) | string |  |
+| 8 | [Name_2](#name-alt) | string |  |
+| 9 | [Name_3](#name-alt) | string |  |
+| 10 | [Name_4](#name-alt) | string |  |
+| 11 | [Name_5](#name-alt) | string |  |
+| 12 | [Name_6](#name-alt) | string |  |
+| 13 | [Name_7](#name-alt) | string |  |
+| 14 | [Name_8](#name-alt) | string |  |
+| 15 | [Name_9](#name-alt) | string |  |
+| 16 | [Name_10](#name-alt) | string |  |
+| 17 | [Name_11](#name-alt) | string |  |
+| 18 | [Name_12](#name-alt) | string |  |
+| 19 | [Name_13](#name-alt) | string |  |
+| 20 | [Name_14](#name-alt) | string |  |
+| 21 | [Name_15](#name-alt) | string |  |
+| 22 | [Name_lang_mask](#name-alt) | uint32 |  |
 | 23 | [LockID](#lockid) | uint32 |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*
@@ -60,8 +60,8 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Type | Name | Value | Comment |
 |------|------|-------|---------|
-| 0 | Animation | [AnimationData.dbc/0](/files/DBC/335/animationdata#id) | BE dances, laugh etc. |
-| 1 | Spells | [SpellVisual.dbc/0](/files/DBC/335/spellvisual#id) | Frost Nova |
+| 0 | Animation | [AnimationData.dbc/0](/files/DBC/335/animationdata#id-alt) | BE dances, laugh etc. |
+| 1 | Spells | [SpellVisual.dbc/0](/files/DBC/335/spellvisual#id-alt) | Frost Nova |
 | 2 | Hold | Seconds |  |
 | 3 | Repeat | Seconds |  |
 {.dense}
@@ -101,7 +101,7 @@ See **Type**
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 :x: <code>Col: 6 &ndash; 23 ([Loc](/how-to/localization))</code>
 
 *- no description -*

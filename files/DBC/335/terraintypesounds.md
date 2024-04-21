@@ -22,11 +22,11 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 | [FootstepTerrainLookup.dbc/2](/files/DBC/335/footstepterrainlookup#terrainsoundid); [TerrainType.dbc/0](/files/DBC/335/terraintype#id) |
+| 0 | [ID](#id-alt) | uint32 | [FootstepTerrainLookup.dbc/2](/files/DBC/335/footstepterrainlookup#terrainsoundid); [TerrainType.dbc/0](/files/DBC/335/terraintype#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 Plain keys, used for joining [FootstepTerrainLookup](/files/DBC/335/footstepterrainlookup) and [TerrainType](/files/DBC/335/terraintype) only.

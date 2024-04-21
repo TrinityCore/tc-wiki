@@ -22,25 +22,25 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [MovieID](#movieid) | uint32 | [Movie.dbc/0](/files/DBC/335/movie#id) |
-| 2 | [FileDataID](#filedataid) | uint32 | [FileData.dbc/0](/files/DBC/335/filedata#id); [MovieFileData.dbc/0](/files/DBC/335/moviefiledata#filedataid) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [MovieID](#movieid) | uint32 | [Movie.dbc/0](/files/DBC/335/movie#id-alt) |
+| 2 | [FileDataID](#filedataid) | uint32 | [FileData.dbc/0](/files/DBC/335/filedata#id-alt); [MovieFileData.dbc/0](/files/DBC/335/moviefiledata#filedataid) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 1 (uint32)</code>
 
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 2 (uint32)</code>
 
 *- no description -*

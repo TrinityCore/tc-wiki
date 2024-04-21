@@ -22,14 +22,14 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [ObjectEffectPackageID](#objecteffectpackageid) | uint32 | [ObjectEffectPackage.dbc/0](/files/DBC/335/objecteffectpackage#id) |
-| 2 | [ObjectEffectGroupID](#objecteffectgroupid) | uint32 | [ObjectEffectGroup.dbc/0](/files/DBC/335/objecteffectgroup#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [ObjectEffectPackageID](#objecteffectpackageid) | uint32 | [ObjectEffectPackage.dbc/0](/files/DBC/335/objecteffectpackage#id-alt) |
+| 2 | [ObjectEffectGroupID](#objecteffectgroupid) | uint32 | [ObjectEffectGroup.dbc/0](/files/DBC/335/objecteffectgroup#id-alt) |
 | 3 | [StateType](#statetype) | uint32 |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

@@ -24,7 +24,7 @@ Extended by [banned_addons](/database/335/characters/banned_addons) table.
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [NameMD5_0](#namemd5) | uint32 |  |
 | 2 | [NameMD5_1](#namemd5) | uint32 |  |
 | 3 | [NameMD5_2](#namemd5) | uint32 |  |
@@ -38,7 +38,7 @@ Extended by [banned_addons](/database/335/characters/banned_addons) table.
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

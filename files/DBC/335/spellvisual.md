@@ -22,32 +22,32 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [PrecastKit](#precastkit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id) |
-| 2 | [CastKit](#castkit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id) |
-| 3 | [ImpactKit](#impactkit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id) |
-| 4 | [StateKit](#statekit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id) |
-| 5 | [StateDoneKit](#statedonekit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id) |
-| 6 | [ChannelKit](#channelkit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [PrecastKit](#precastkit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id-alt) |
+| 2 | [CastKit](#castkit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id-alt) |
+| 3 | [ImpactKit](#impactkit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id-alt) |
+| 4 | [StateKit](#statekit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id-alt) |
+| 5 | [StateDoneKit](#statedonekit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id-alt) |
+| 6 | [ChannelKit](#channelkit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id-alt) |
 | 7 | [HasMissile](#hasmissile) | uint32 |  |
-| 8 | [MissileModel](#missilemodel) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id) |
+| 8 | [MissileModel](#missilemodel) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id-alt) |
 | 9 | [MissilePathType](#missilepathtype) | uint32 |  |
 | 10 | [MissileDestinationAttachment](#missiledestinationattachment) | uint32 |  |
-| 11 | [MissileSound](#missilesound) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 12 | [AnimEventSoundID](#animeventsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
+| 11 | [MissileSound](#missilesound) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 12 | [AnimEventSoundID](#animeventsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 | 13 | [Flags](#flags) | uint32 |  |
-| 14 | [CasterImpactKit](#casterimpactkit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id) |
-| 15 | [TargetImpactKit](#targetimpactkit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id) |
+| 14 | [CasterImpactKit](#casterimpactkit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id-alt) |
+| 15 | [TargetImpactKit](#targetimpactkit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id-alt) |
 | 16 | [MissileAttachment](#missileattachment) | int32 |  |
 | 17 | [MissileFollowGroundHeight](#missilefollowgroundheight) | uint32 |  |
 | 18 | [MissileFollowGroundDropSpeed](#missilefollowgrounddropspeed) | uint32 |  |
 | 19 | [MissileFollowGroundApproach](#missilefollowgroundapproach) | uint32 |  |
 | 20 | [MissileFollowGroundFlags](#missilefollowgroundflags) | uint32 |  |
 | 21 | [MissileMotion](#missilemotion) | uint32 |  |
-| 22 | [MissileTargetingKit](#missiletargetingkit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id) |
-| 23 | [InstantAreaKit](#instantareakit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id) |
-| 24 | [ImpactAreaKit](#impactareakit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id) |
-| 25 | [PersistentAreaKit](#persistentareakit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id) |
+| 22 | [MissileTargetingKit](#missiletargetingkit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id-alt) |
+| 23 | [InstantAreaKit](#instantareakit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id-alt) |
+| 24 | [ImpactAreaKit](#impactareakit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id-alt) |
+| 25 | [PersistentAreaKit](#persistentareakit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id-alt) |
 | 26 | [MissileCastOffset_X](#missilecastoffset) | float |  |
 | 27 | [MissileCastOffset_Y](#missilecastoffset) | float |  |
 | 28 | [MissileCastOffset_Z](#missilecastoffset) | float |  |
@@ -57,7 +57,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

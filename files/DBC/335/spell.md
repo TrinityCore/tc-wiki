@@ -23,10 +23,10 @@ dateCreated: 2023-10-04T08:07:22.166Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [Category](#category) | uint32 | [SpellCategory.dbc/0](/files/DBC/335/spellcategory#id) |
-| 2 | [DispelType](#dispeltype) | uint32 | [SpellDispelType.dbc/0](/files/DBC/335/spelldispeltype#id) |
-| 3 | [Mechanic](#mechanic) | uint32 | [SpellMechanic.dbc/0](/files/DBC/335/spellmechanic#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [Category](#category) | uint32 | [SpellCategory.dbc/0](/files/DBC/335/spellcategory#id-alt) |
+| 2 | [DispelType](#dispeltype) | uint32 | [SpellDispelType.dbc/0](/files/DBC/335/spelldispeltype#id-alt) |
+| 3 | [Mechanic](#mechanic) | uint32 | [SpellMechanic.dbc/0](/files/DBC/335/spellmechanic#id-alt) |
 | 4 | [Attributes](#attributes) | uint32 |  |
 | 5 | [AttributesEx](#attributesex) | uint32 |  |
 | 6 | [AttributesExB](#attributesexb) | uint32 |  |
@@ -35,23 +35,23 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 9 | [AttributesExE](#attributesexe) | uint32 |  |
 | 10 | [AttributesExF](#attributesexf) | uint32 |  |
 | 11 | [AttributesExG](#attributesexg) | uint32 |  |
-| 12 | [ShapeshiftMask_0](#shapeshiftmask) | uint32 | [SpellShapeshiftForm.dbc/0](/files/DBC/335/spellshapeshiftform#id) |
-| 13 | [ShapeshiftMask_1](#shapeshiftmask) | uint32 | [SpellShapeshiftForm.dbc/0](/files/DBC/335/spellshapeshiftform#id) |
-| 14 | [ShapeshiftExclude_0](#shapeshiftexclude) | uint32 | [SpellShapeshiftForm.dbc/0](/files/DBC/335/spellshapeshiftform#id) |
-| 15 | [ShapeshiftExclude_1](#shapeshiftexclude) | uint32 | [SpellShapeshiftForm.dbc/0](/files/DBC/335/spellshapeshiftform#id) |
+| 12 | [ShapeshiftMask_0](#shapeshiftmask) | uint32 | [SpellShapeshiftForm.dbc/0](/files/DBC/335/spellshapeshiftform#id-alt) |
+| 13 | [ShapeshiftMask_1](#shapeshiftmask) | uint32 | [SpellShapeshiftForm.dbc/0](/files/DBC/335/spellshapeshiftform#id-alt) |
+| 14 | [ShapeshiftExclude_0](#shapeshiftexclude) | uint32 | [SpellShapeshiftForm.dbc/0](/files/DBC/335/spellshapeshiftform#id-alt) |
+| 15 | [ShapeshiftExclude_1](#shapeshiftexclude) | uint32 | [SpellShapeshiftForm.dbc/0](/files/DBC/335/spellshapeshiftform#id-alt) |
 | 16 | [Targets](#targets) | uint32 |  |
-| 17 | [TargetCreatureType](#targetcreaturetype) | uint32 | [CreatureType.dbc/0](/files/DBC/335/creaturetype#id) |
-| 18 | [RequiresSpellFocus](#requiresspellfocus) | uint32 | [SpellFocusObject.dbc/0](/files/DBC/335/spellfocusobject#id) |
+| 17 | [TargetCreatureType](#targetcreaturetype) | uint32 | [CreatureType.dbc/0](/files/DBC/335/creaturetype#id-alt) |
+| 18 | [RequiresSpellFocus](#requiresspellfocus) | uint32 | [SpellFocusObject.dbc/0](/files/DBC/335/spellfocusobject#id-alt) |
 | 19 | [FacingCasterFlags](#facingcasterflags) | uint32 |  |
 | 20 | [CasterAuraState](#casteraurastate) | uint32 |  |
 | 21 | [TargetAuraState](#targetaurastate) | uint32 |  |
 | 22 | [ExcludeCasterAuraState](#excludecasteraurastate) | uint32 |  |
 | 23 | [ExcludeTargetAuraState](#excludetargetaurastate) | uint32 |  |
-| 24 | [CasterAuraSpell](#casterauraspell) | uint32 | [Spell.dbc/0](#id) |
-| 25 | [TargetAuraSpell](#targetauraspell) | uint32 | [Spell.dbc/0](#id) |
-| 26 | [ExcludeCasterAuraSpell](#excludecasterauraspell) | uint32 | [Spell.dbc/0](#id) |
-| 27 | [ExcludeTargetAuraSpell](#excludetargetauraspell) | uint32 | [Spell.dbc/0](#id) |
-| 28 | [CastingTimeIndex](#castingtimeindex) | uint32 | [SpellCastTimes.dbc/0](/files/DBC/335/spellcasttimes#id) |
+| 24 | [CasterAuraSpell](#casterauraspell) | uint32 | [Spell.dbc/0](#id-alt) |
+| 25 | [TargetAuraSpell](#targetauraspell) | uint32 | [Spell.dbc/0](#id-alt) |
+| 26 | [ExcludeCasterAuraSpell](#excludecasterauraspell) | uint32 | [Spell.dbc/0](#id-alt) |
+| 27 | [ExcludeTargetAuraSpell](#excludetargetauraspell) | uint32 | [Spell.dbc/0](#id-alt) |
+| 28 | [CastingTimeIndex](#castingtimeindex) | uint32 | [SpellCastTimes.dbc/0](/files/DBC/335/spellcasttimes#id-alt) |
 | 29 | [RecoveryTime](#recoverytime) | uint32 |  |
 | 30 | [CategoryRecoveryTime](#categoryrecoverytime) | uint32 |  |
 | 31 | [InterruptFlags](#interruptflags) | uint32 |  |
@@ -63,26 +63,26 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 37 | [MaxLevel](#maxlevel) | uint32 |  |
 | 38 | [BaseLevel](#baselevel) | uint32 |  |
 | 39 | [SpellLevel](#spelllevel) | uint32 |  |
-| 40 | [DurationIndex](#durationindex) | uint32 | [SpellDuration.dbc/0](/files/DBC/335/spellduration#id) |
+| 40 | [DurationIndex](#durationindex) | uint32 | [SpellDuration.dbc/0](/files/DBC/335/spellduration#id-alt) |
 | 41 | [PowerType](#powertype) | int32 |  |
 | 42 | [ManaCost](#manacost) | uint32 |  |
 | 43 | [ManaCostPerLevel](#manacostperlevel) | uint32 |  |
 | 44 | [ManaPerSecond](#manapersecond) | uint32 |  |
 | 45 | [ManaPerSecondPerLevel](#manapersecondperlevel) | uint32 |  |
-| 46 | [RangeIndex](#rangeindex) | uint32 | [SpellRange.dbc/0](/files/DBC/335/spellrange#id) |
+| 46 | [RangeIndex](#rangeindex) | uint32 | [SpellRange.dbc/0](/files/DBC/335/spellrange#id-alt) |
 | 47 | [Speed](#speed) | float |  |
-| 48 | [ModalNextSpell](#modalnextspell) | uint32 | [Spell.dbc/0](#id) |
+| 48 | [ModalNextSpell](#modalnextspell) | uint32 | [Spell.dbc/0](#id-alt) |
 | 49 | [CumulativeAura](#cumulativeaura) | uint32 |  |
-| 50 | [Totem_0](#totem) | uint32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
-| 51 | [Totem_1](#totem) | uint32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
-| 52 | [Reagent_0](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
-| 53 | [Reagent_1](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
-| 54 | [Reagent_2](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
-| 55 | [Reagent_3](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
-| 56 | [Reagent_4](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
-| 57 | [Reagent_5](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
-| 58 | [Reagent_6](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
-| 59 | [Reagent_7](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
+| 50 | [Totem_0](#totem) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 51 | [Totem_1](#totem) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 52 | [Reagent_0](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 53 | [Reagent_1](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 54 | [Reagent_2](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 55 | [Reagent_3](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 56 | [Reagent_4](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 57 | [Reagent_5](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 58 | [Reagent_6](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 59 | [Reagent_7](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
 | 60 | [ReagentCount_0](#reagentcount) | uint32 |  |
 | 61 | [ReagentCount_1](#reagentcount) | uint32 |  |
 | 62 | [ReagentCount_2](#reagentcount) | uint32 |  |
@@ -91,7 +91,7 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 65 | [ReagentCount_5](#reagentcount) | uint32 |  |
 | 66 | [ReagentCount_6](#reagentcount) | uint32 |  |
 | 67 | [ReagentCount_7](#reagentcount) | uint32 |  |
-| 68 | [EquippedItemClass](#equippeditemclass) | int32 | [ItemSubClass.dbc/0](/files/DBC/335/itemsubclass#classid); [ItemClass.dbc/0](/files/DBC/335/itemclass#id) |
+| 68 | [EquippedItemClass](#equippeditemclass) | int32 | [ItemSubClass.dbc/0](/files/DBC/335/itemsubclass#classid); [ItemClass.dbc/0](/files/DBC/335/itemclass#id-alt) |
 | 69 | [EquippedItemSubclass](#equippeditemsubclass) | int32 | [ItemSubClass.dbc/1](/files/DBC/335/itemsubclass#subclassid) |
 | 70 | [EquippedItemInvTypes](#equippediteminvtypes) | int32 |  |
 | 71 | [Effect_0](#effect) | uint32 |  |
@@ -106,18 +106,18 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 80 | [EffectBasePoints_0](#effectbasepoints) | int32 |  |
 | 81 | [EffectBasePoints_1](#effectbasepoints) | int32 |  |
 | 82 | [EffectBasePoints_2](#effectbasepoints) | int32 |  |
-| 83 | [EffectMechanic_0](#effectmechanic) | uint32 | [SpellMechanic.dbc/0](/files/DBC/335/spellmechanic#id) |
-| 84 | [EffectMechanic_1](#effectmechanic) | uint32 | [SpellMechanic.dbc/0](/files/DBC/335/spellmechanic#id) |
-| 85 | [EffectMechanic_2](#effectmechanic) | uint32 | [SpellMechanic.dbc/0](/files/DBC/335/spellmechanic#id) |
+| 83 | [EffectMechanic_0](#effectmechanic) | uint32 | [SpellMechanic.dbc/0](/files/DBC/335/spellmechanic#id-alt) |
+| 84 | [EffectMechanic_1](#effectmechanic) | uint32 | [SpellMechanic.dbc/0](/files/DBC/335/spellmechanic#id-alt) |
+| 85 | [EffectMechanic_2](#effectmechanic) | uint32 | [SpellMechanic.dbc/0](/files/DBC/335/spellmechanic#id-alt) |
 | 86 | [EffectImplicitTargetA_0](#effectimplicittargeta) | uint32 |  |
 | 87 | [EffectImplicitTargetA_1](#effectimplicittargeta) | uint32 |  |
 | 88 | [EffectImplicitTargetA_2](#effectimplicittargeta) | uint32 |  |
 | 89 | [EffectImplicitTargetB_0](#effectimplicittargetb) | uint32 |  |
 | 90 | [EffectImplicitTargetB_1](#effectimplicittargetb) | uint32 |  |
 | 91 | [EffectImplicitTargetB_2](#effectimplicittargetb) | uint32 |  |
-| 92 | [EffectRadiusIndex_0](#effectradiusindex) | uint32 | [SpellRadius.dbc/0](/files/DBC/335/spellradius#id) |
-| 93 | [EffectRadiusIndex_1](#effectradiusindex) | uint32 | [SpellRadius.dbc/0](/files/DBC/335/spellradius#id) |
-| 94 | [EffectRadiusIndex_2](#effectradiusindex) | uint32 | [SpellRadius.dbc/0](/files/DBC/335/spellradius#id) |
+| 92 | [EffectRadiusIndex_0](#effectradiusindex) | uint32 | [SpellRadius.dbc/0](/files/DBC/335/spellradius#id-alt) |
+| 93 | [EffectRadiusIndex_1](#effectradiusindex) | uint32 | [SpellRadius.dbc/0](/files/DBC/335/spellradius#id-alt) |
+| 94 | [EffectRadiusIndex_2](#effectradiusindex) | uint32 | [SpellRadius.dbc/0](/files/DBC/335/spellradius#id-alt) |
 | 95 | [EffectAura_0](#effectaura) | uint32 |  |
 | 96 | [EffectAura_1](#effectaura) | uint32 |  |
 | 97 | [EffectAura_2](#effectaura) | uint32 |  |
@@ -130,18 +130,18 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 104 | [EffectChainTargets_0](#effectchaintargets) | uint32 |  |
 | 105 | [EffectChainTargets_1](#effectchaintargets) | uint32 |  |
 | 106 | [EffectChainTargets_2](#effectchaintargets) | uint32 |  |
-| 107 | [EffectItemType_0](#effectitemtype) | uint32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
-| 108 | [EffectItemType_1](#effectitemtype) | uint32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
-| 109 | [EffectItemType_2](#effectitemtype) | uint32 | [Item.dbc/0](/files/DBC/335/item#id); [item entry](/database/335/world/item_template#id) |
+| 107 | [EffectItemType_0](#effectitemtype) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 108 | [EffectItemType_1](#effectitemtype) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 109 | [EffectItemType_2](#effectitemtype) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
 | 110 | [EffectMiscValue_0](#effectmiscvalue) | int32 |  |
 | 111 | [EffectMiscValue_1](#effectmiscvalue) | int32 |  |
 | 112 | [EffectMiscValue_2](#effectmiscvalue) | int32 |  |
 | 113 | [EffectMiscValueB_0](#effectmiscvalueb) | int32 |  |
 | 114 | [EffectMiscValueB_1](#effectmiscvalueb) | int32 |  |
 | 115 | [EffectMiscValueB_2](#effectmiscvalueb) | int32 |  |
-| 116 | [EffectTriggerSpell_0](#effecttriggerspell) | int32 | [Spell.dbc/0](#id) |
-| 117 | [EffectTriggerSpell_1](#effecttriggerspell) | int32 | [Spell.dbc/0](#id) |
-| 118 | [EffectTriggerSpell_2](#effecttriggerspell) | int32 | [Spell.dbc/0](#id) |
+| 116 | [EffectTriggerSpell_0](#effecttriggerspell) | int32 | [Spell.dbc/0](#id-alt) |
+| 117 | [EffectTriggerSpell_1](#effecttriggerspell) | int32 | [Spell.dbc/0](#id-alt) |
+| 118 | [EffectTriggerSpell_2](#effecttriggerspell) | int32 | [Spell.dbc/0](#id-alt) |
 | 119 | [EffectPointsPerCombo_0](#effectpointspercombo) | float |  |
 | 120 | [EffectPointsPerCombo_1](#effectpointspercombo) | float |  |
 | 121 | [EffectPointsPerCombo_2](#effectpointspercombo) | float |  |
@@ -154,28 +154,28 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 128 | [EffectSpellClassMask_C_0](#effectspellclassmask) | uint32 |  |
 | 129 | [EffectSpellClassMask_C_1](#effectspellclassmask) | uint32 |  |
 | 130 | [EffectSpellClassMask_C_2](#effectspellclassmask) | uint32 |  |
-| 131 | [SpellVisualID_0](#spellvisualid) | uint32 | [SpellVisual.dbc/0](/files/DBC/335/spellvisual#id) |
-| 132 | [SpellVisualID_1](#spellvisualid) | uint32 | [SpellVisual.dbc/0](/files/DBC/335/spellvisual#id) |
-| 133 | [SpellIconID](#spelliconid) | uint32 | [SpellIcon.dbc/0](/files/DBC/335/spellicon#id) |
-| 134 | [ActiveIconID](#activeiconid) | uint32 | [SpellIcon.dbc/0](/files/DBC/335/spellicon#id) |
+| 131 | [SpellVisualID_0](#spellvisualid) | uint32 | [SpellVisual.dbc/0](/files/DBC/335/spellvisual#id-alt) |
+| 132 | [SpellVisualID_1](#spellvisualid) | uint32 | [SpellVisual.dbc/0](/files/DBC/335/spellvisual#id-alt) |
+| 133 | [SpellIconID](#spelliconid) | uint32 | [SpellIcon.dbc/0](/files/DBC/335/spellicon#id-alt) |
+| 134 | [ActiveIconID](#activeiconid) | uint32 | [SpellIcon.dbc/0](/files/DBC/335/spellicon#id-alt) |
 | 135 | [SpellPriority](#spellpriority) | uint32 |  |
-| 136 | [Name_0](#name) | string |  |
-| 137 | [Name_1](#name) | string |  |
-| 138 | [Name_2](#name) | string |  |
-| 139 | [Name_3](#name) | string |  |
-| 140 | [Name_4](#name) | string |  |
-| 141 | [Name_5](#name) | string |  |
-| 142 | [Name_6](#name) | string |  |
-| 143 | [Name_7](#name) | string |  |
-| 144 | [Name_8](#name) | string |  |
-| 145 | [Name_9](#name) | string |  |
-| 146 | [Name_10](#name) | string |  |
-| 147 | [Name_11](#name) | string |  |
-| 148 | [Name_12](#name) | string |  |
-| 149 | [Name_13](#name) | string |  |
-| 150 | [Name_14](#name) | string |  |
-| 151 | [Name_15](#name) | string |  |
-| 152 | [Name_lang_mask](#name) | uint32 |  |
+| 136 | [Name_0](#name-alt) | string |  |
+| 137 | [Name_1](#name-alt) | string |  |
+| 138 | [Name_2](#name-alt) | string |  |
+| 139 | [Name_3](#name-alt) | string |  |
+| 140 | [Name_4](#name-alt) | string |  |
+| 141 | [Name_5](#name-alt) | string |  |
+| 142 | [Name_6](#name-alt) | string |  |
+| 143 | [Name_7](#name-alt) | string |  |
+| 144 | [Name_8](#name-alt) | string |  |
+| 145 | [Name_9](#name-alt) | string |  |
+| 146 | [Name_10](#name-alt) | string |  |
+| 147 | [Name_11](#name-alt) | string |  |
+| 148 | [Name_12](#name-alt) | string |  |
+| 149 | [Name_13](#name-alt) | string |  |
+| 150 | [Name_14](#name-alt) | string |  |
+| 151 | [Name_15](#name-alt) | string |  |
+| 152 | [Name_lang_mask](#name-alt) | uint32 |  |
 | 153 | [NameSubtext_0](#namesubtext) | string |  |
 | 154 | [NameSubtext_1](#namesubtext) | string |  |
 | 155 | [NameSubtext_2](#namesubtext) | string |  |
@@ -228,7 +228,7 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 202 | [AuraDescription_15](#auradescription) | string |  |
 | 203 | [AuraDescription_lang_mask](#auradescription) | uint32 |  |
 | 204 | [ManaCostPct](#manacostpct) | uint32 |  |
-| 205 | [StartRecoveryCategory](#startrecoverycategory) | uint32 | [SpellCategory.dbc/0](/files/DBC/335/spellcategory#id) |
+| 205 | [StartRecoveryCategory](#startrecoverycategory) | uint32 | [SpellCategory.dbc/0](/files/DBC/335/spellcategory#id-alt) |
 | 206 | [StartRecoveryTime](#startrecoverytime) | uint32 |  |
 | 207 | [MaxTargetLevel](#maxtargetlevel) | uint32 |  |
 | 208 | [SpellClassSet](#spellclassset) | uint32 |  |
@@ -242,25 +242,25 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 216 | [EffectChainAmplitude_0](#effectchainamplitude) | float |  |
 | 217 | [EffectChainAmplitude_1](#effectchainamplitude) | float |  |
 | 218 | [EffectChainAmplitude_2](#effectchainamplitude) | float |  |
-| 219 | [MinFactionID](#minfactionid) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id) |
+| 219 | [MinFactionID](#minfactionid) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id-alt) |
 | 220 | [MinReputation](#minreputation) | uint32 |  |
 | 221 | [RequiredAuraVision](#requiredauravision) | uint32 |  |
-| 222 | [RequiredTotemCategoryID_0](#requiredtotemcategoryid) | uint32 | [TotemCategory.dbc/0](/files/DBC/335/totemcategory#id); [item TotemCategory](/database/335/world/item_template#totemcategory) |
-| 223 | [RequiredTotemCategoryID_1](#requiredtotemcategoryid) | uint32 | [TotemCategory.dbc/0](/files/DBC/335/totemcategory#id); [item TotemCategory](/database/335/world/item_template#totemcategory) |
-| 224 | [RequiredAreasID](#requiredareasid) | int32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id) |
+| 222 | [RequiredTotemCategoryID_0](#requiredtotemcategoryid) | uint32 | [TotemCategory.dbc/0](/files/DBC/335/totemcategory#id-alt); [item TotemCategory](/database/335/world/item_template#totemcategory) |
+| 223 | [RequiredTotemCategoryID_1](#requiredtotemcategoryid) | uint32 | [TotemCategory.dbc/0](/files/DBC/335/totemcategory#id-alt); [item TotemCategory](/database/335/world/item_template#totemcategory) |
+| 224 | [RequiredAreasID](#requiredareasid) | int32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id-alt) |
 | 225 | [SchoolMask](#schoolmask) | uint32 |  |
-| 226 | [RuneCostID](#runecostid) | uint32 | [SpellRuneCost.dbc/0](/files/DBC/335/spellrunecost#id) |
-| 227 | [SpellMissileID](#spellmissileid) | uint32 | [SpellMissile.dbc/0](/files/DBC/335/spellmissile#id) |
-| 228 | [PowerDisplayID](#powerdisplayid) | int32 | [PowerDisplay.dbc/0](/files/DBC/335/powerdisplay#id) |
+| 226 | [RuneCostID](#runecostid) | uint32 | [SpellRuneCost.dbc/0](/files/DBC/335/spellrunecost#id-alt) |
+| 227 | [SpellMissileID](#spellmissileid) | uint32 | [SpellMissile.dbc/0](/files/DBC/335/spellmissile#id-alt) |
+| 228 | [PowerDisplayID](#powerdisplayid) | int32 | [PowerDisplay.dbc/0](/files/DBC/335/powerdisplay#id-alt) |
 | 229 | [EffectBonusCoefficient_0](#effectbonuscoefficient) | float |  |
 | 230 | [EffectBonusCoefficient_1](#effectbonuscoefficient) | float |  |
 | 231 | [EffectBonusCoefficient_2](#effectbonuscoefficient) | float |  |
-| 232 | [DescriptionVariablesID](#descriptionvariablesid) | int32 | [SpellDescriptionVariables.dbc/0](/files/DBC/335/spelldescriptionvariables#id) |
-| 233 | [Difficulty](#difficulty) | uint32 | [SpellDifficulty.dbc/0](/files/DBC/335/spelldifficulty#id); [spelldifficulty id](/database/335/world/spelldifficulty_dbc#id) |
+| 232 | [DescriptionVariablesID](#descriptionvariablesid) | int32 | [SpellDescriptionVariables.dbc/0](/files/DBC/335/spelldescriptionvariables#id-alt) |
+| 233 | [Difficulty](#difficulty) | uint32 | [SpellDifficulty.dbc/0](/files/DBC/335/spelldifficulty#id-alt); [spelldifficulty id](/database/335/world/spelldifficulty_dbc#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*
@@ -1452,7 +1452,7 @@ Select affected spells, matching **SpellClassSet** and **SpellClassMask**.
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 <code>Col: 136 &ndash; 152 ([Loc](/how-to/localization))</code>
 
 *- no description -*

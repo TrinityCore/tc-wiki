@@ -22,13 +22,13 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [PrecastLoadAnimName](#precastloadanimname) | string | [AnimationData.dbc/1](/files/DBC/335/animationdata#name) |
-| 2 | [PrecastHoldAnimName](#precastholdanimname) | string | [AnimationData.dbc/1](/files/DBC/335/animationdata#name) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [PrecastLoadAnimName](#precastloadanimname) | string | [AnimationData.dbc/1](/files/DBC/335/animationdata#name-alt) |
+| 2 | [PrecastHoldAnimName](#precastholdanimname) | string | [AnimationData.dbc/1](/files/DBC/335/animationdata#name-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

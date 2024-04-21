@@ -24,11 +24,11 @@ It determines information on what spells pets will have after they are tamed by 
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [Spells_0](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id); [spell Id](/database/335/world/spell_dbc#id) |
-| 2 | [Spells_1](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id); [spell Id](/database/335/world/spell_dbc#id) |
-| 3 | [Spells_2](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id); [spell Id](/database/335/world/spell_dbc#id) |
-| 4 | [Spells_3](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id); [spell Id](/database/335/world/spell_dbc#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [Spells_0](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt); [spell Id](/database/335/world/spell_dbc#id-alt) |
+| 2 | [Spells_1](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt); [spell Id](/database/335/world/spell_dbc#id-alt) |
+| 3 | [Spells_2](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt); [spell Id](/database/335/world/spell_dbc#id-alt) |
+| 4 | [Spells_3](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt); [spell Id](/database/335/world/spell_dbc#id-alt) |
 | 5 | [Availability_0](#availability) | uint32 |  |
 | 6 | [Availability_1](#availability) | uint32 |  |
 | 7 | [Availability_2](#availability) | uint32 |  |
@@ -36,7 +36,7 @@ It determines information on what spells pets will have after they are tamed by 
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

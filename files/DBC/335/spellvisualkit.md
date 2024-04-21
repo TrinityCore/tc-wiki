@@ -23,23 +23,23 @@ dateCreated: 2023-10-04T08:08:11.623Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [StartAnimID](#startanimid) | int32 | [AnimationData.dbc/0](/files/DBC/335/animationdata#id) |
-| 2 | [AnimID](#animid) | int32 | [AnimationData.dbc/0](/files/DBC/335/animationdata#id) |
-| 3 | [HeadEffect](#headeffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id) |
-| 4 | [ChestEffect](#chesteffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id) |
-| 5 | [BaseEffect](#baseeffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id) |
-| 6 | [LeftHandEffect](#lefthandeffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id) |
-| 7 | [RightHandEffect](#righthandeffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id) |
-| 8 | [BreathEffect](#breatheffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [StartAnimID](#startanimid) | int32 | [AnimationData.dbc/0](/files/DBC/335/animationdata#id-alt) |
+| 2 | [AnimID](#animid) | int32 | [AnimationData.dbc/0](/files/DBC/335/animationdata#id-alt) |
+| 3 | [HeadEffect](#headeffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id-alt) |
+| 4 | [ChestEffect](#chesteffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id-alt) |
+| 5 | [BaseEffect](#baseeffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id-alt) |
+| 6 | [LeftHandEffect](#lefthandeffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id-alt) |
+| 7 | [RightHandEffect](#righthandeffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id-alt) |
+| 8 | [BreathEffect](#breatheffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id-alt) |
 | 9 | [LeftWeaponEffect](#leftweaponeffect) | int32 |  |
 | 10 | [RightWeaponEffect](#rightweaponeffect) | int32 |  |
 | 11 | [SpecialEffect_0](#specialeffect) | int32 |  |
 | 12 | [SpecialEffect_1](#specialeffect) | int32 |  |
 | 13 | [SpecialEffect_2](#specialeffect) | int32 |  |
-| 14 | [WorldEffect](#worldeffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id) |
-| 15 | [SoundID](#soundid) | int32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 16 | [ShakeID](#shakeid) | uint32 | [CameraShakes.dbc/0](/files/DBC/335/camerashakes#id) |
+| 14 | [WorldEffect](#worldeffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id-alt) |
+| 15 | [SoundID](#soundid) | int32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 16 | [ShakeID](#shakeid) | uint32 | [CameraShakes.dbc/0](/files/DBC/335/camerashakes#id-alt) |
 | 17 | [CharProc_0](#charproc) | int32 |  |
 | 18 | [CharProc_1](#charproc) | int32 |  |
 | 19 | [CharProc_2](#charproc) | int32 |  |
@@ -63,7 +63,7 @@ dateCreated: 2023-10-04T08:08:11.623Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

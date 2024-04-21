@@ -22,21 +22,21 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [Name](#name) | string |  |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [Name](#name-alt) | string |  |
 | 2 | [Flags](#flags) | uint32 |  |
 | 3 | [SoundBank](#soundbank) | uint32 |  |
-| 4 | [SoundID](#soundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
-| 5 | [SpellID](#spellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id) |
+| 4 | [SoundID](#soundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 5 | [SpellID](#spellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
 | 6 | [MaxDarkenDepth](#maxdarkendepth) | float |  |
 | 7 | [FogDarkenIntensity](#fogdarkenintensity) | float |  |
 | 8 | [AmbDarkenIntensity](#ambdarkenintensity) | float |  |
 | 9 | [DirDarkenIntensity](#dirdarkenintensity) | float |  |
-| 10 | [LightID](#lightid) | uint32 | [Light.dbc/0](/files/DBC/335/light#id) |
+| 10 | [LightID](#lightid) | uint32 | [Light.dbc/0](/files/DBC/335/light#id-alt) |
 | 11 | [ParticleScale](#particlescale) | float |  |
 | 12 | [ParticleMovement](#particlemovement) | uint32 |  |
 | 13 | [ParticleTexSlots](#particletexslots) | uint32 |  |
-| 14 | [MaterialID](#materialid) | uint32 | [LiquidMaterial.dbc/0](/files/DBC/335/liquidmaterial#id) |
+| 14 | [MaterialID](#materialid) | uint32 | [LiquidMaterial.dbc/0](/files/DBC/335/liquidmaterial#id-alt) |
 | 15 | [Texture_0](#texture) | string |  |
 | 16 | [Texture_1](#texture) | string |  |
 | 17 | [Texture_2](#texture) | string |  |
@@ -70,13 +70,13 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 :x: <code>Col: 1 (string)</code>
 
 *- no description -*

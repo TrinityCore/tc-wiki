@@ -23,7 +23,7 @@ dateCreated: 2023-10-04T08:05:24.618Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [Type_0](#type) | uint32 |  |
 | 2 | [Type_1](#type) | uint32 |  |
 | 3 | [Type_2](#type) | uint32 |  |
@@ -48,18 +48,18 @@ dateCreated: 2023-10-04T08:05:24.618Z
 | 22 | [Skill_5](#skill) | uint32 |  |
 | 23 | [Skill_6](#skill) | uint32 |  |
 | 24 | [Skill_7](#skill) | uint32 |  |
-| 25 | [Action_0](#action) | uint32 |  |
-| 26 | [Action_1](#action) | uint32 |  |
-| 27 | [Action_2](#action) | uint32 |  |
-| 28 | [Action_3](#action) | uint32 |  |
-| 29 | [Action_4](#action) | uint32 |  |
-| 30 | [Action_5](#action) | uint32 |  |
-| 31 | [Action_6](#action) | uint32 |  |
-| 32 | [Action_7](#action) | uint32 |  |
+| 25 | [Action_0](#action-alt) | uint32 |  |
+| 26 | [Action_1](#action-alt) | uint32 |  |
+| 27 | [Action_2](#action-alt) | uint32 |  |
+| 28 | [Action_3](#action-alt) | uint32 |  |
+| 29 | [Action_4](#action-alt) | uint32 |  |
+| 30 | [Action_5](#action-alt) | uint32 |  |
+| 31 | [Action_6](#action-alt) | uint32 |  |
+| 32 | [Action_7](#action-alt) | uint32 |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*
@@ -85,9 +85,9 @@ dateCreated: 2023-10-04T08:05:24.618Z
 Dependant on **Type**:
 | Type | Name | **Index** |
 |:----:|------|------------|
-| 1 | LOCK_KEY_ITEM | [item entry](/database/335/world/item_template#id) |
-| 2 | LOCK_KEY_SKILL | [LockType ID](/files/DBC/335/locktype#id) |
-| 3 | LOCK_KEY_SPELL | [Spell ID](/files/DBC/335/spell#id) |
+| 1 | LOCK_KEY_ITEM | [item entry](/database/335/world/item_template#id-alt) |
+| 2 | LOCK_KEY_SKILL | [LockType ID](/files/DBC/335/locktype#id-alt) |
+| 3 | LOCK_KEY_SPELL | [Spell ID](/files/DBC/335/spell#id-alt) |
 {.dense}
 
 &nbsp;
@@ -99,7 +99,7 @@ Only for **Type** LOCK_KEY_SKILL (2):
 The required skill amount.
 &nbsp;
 
-### Action
+### Action <!-- {#action-alt} -->
 :x: <code>Col: 25 &ndash; 32 (uint32)</code>
 
 | ID | Comment |

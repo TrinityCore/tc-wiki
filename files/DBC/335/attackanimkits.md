@@ -22,15 +22,15 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [AnimationData](#animationdata) | uint32 | [AnimationData.dbc/0](/files/DBC/335/animationdata#id) |
-| 2 | [AttackAnimTypes](#attackanimtypes) | uint32 | [AttackAnimTypes.dbc/0](/files/DBC/335/attackanimtypes#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [AnimationData](#animationdata) | uint32 | [AnimationData.dbc/0](/files/DBC/335/animationdata#id-alt) |
+| 2 | [AttackAnimTypes](#attackanimtypes) | uint32 | [AttackAnimTypes.dbc/0](/files/DBC/335/attackanimtypes#id-alt) |
 | 3 | [Flags](#Flags) | uint32  |
 | 4 | [WhichHand](#whichhand) | uint32 |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

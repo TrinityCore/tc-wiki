@@ -22,17 +22,17 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [WMOID](#wmoid) | uint32 |  |
 | 2 | [NameSetID](#namesetid) | int32 |  |
 | 3 | [WMOGroupID](#wmogroupid) | int32 |  |
-| 4 | [SoundProviderPref](#soundproviderpref) | int32 | [SoundProviderPreferences.dbc/0](/files/DBC/335/soundproviderpreferences#id) |
-| 5 | [SoundProviderPrefUnderwater](#soundproviderprefunderwater) | uint32 | [SoundProviderPreferences.dbc/0](/files/DBC/335/soundproviderpreferences#id) |
-| 6 | [AmbienceID](#ambienceid) | uint32 | [SoundAmbience.dbc/0](/files/DBC/335/soundambience#id) |
-| 7 | [ZoneMusic](#zonemusic) | uint32 | [ZoneMusic.dbc/0](/files/DBC/335/zonemusic#id) |
-| 8 | [IntroSound](#introsound) | int32 | [ZoneIntroMusicTable.dbc/0](/files/DBC/335/zoneintromusictable#id) |
+| 4 | [SoundProviderPref](#soundproviderpref) | int32 | [SoundProviderPreferences.dbc/0](/files/DBC/335/soundproviderpreferences#id-alt) |
+| 5 | [SoundProviderPrefUnderwater](#soundproviderprefunderwater) | uint32 | [SoundProviderPreferences.dbc/0](/files/DBC/335/soundproviderpreferences#id-alt) |
+| 6 | [AmbienceID](#ambienceid) | uint32 | [SoundAmbience.dbc/0](/files/DBC/335/soundambience#id-alt) |
+| 7 | [ZoneMusic](#zonemusic) | uint32 | [ZoneMusic.dbc/0](/files/DBC/335/zonemusic#id-alt) |
+| 8 | [IntroSound](#introsound) | int32 | [ZoneIntroMusicTable.dbc/0](/files/DBC/335/zoneintromusictable#id-alt) |
 | 9 | [Flags](#flags) | uint32 |  |
-| 10 | [AreaTableID](#areatableid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id) |
+| 10 | [AreaTableID](#areatableid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id-alt) |
 | 11 | [AreaName_0](#areaname) | string |  |
 | 12 | [AreaName_1](#areaname) | string |  |
 | 13 | [AreaName_2](#areaname) | string |  |
@@ -53,7 +53,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

@@ -22,24 +22,24 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [Faction](#faction) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [Faction](#faction) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id-alt) |
 | 2 | [Flags](#flags) | uint32 |  |
 | 3 | [FactionGroup](#factiongroup) | uint32 | [FactionGroup.dbc/1](/files/DBC/335/factiongroup#maskid) |
 | 4 | [FriendGroup](#friendgroup) | uint32 | [FactionGroup.dbc/1](/files/DBC/335/factiongroup#maskid) |
 | 5 | [EnemyGroup](#enemygroup) | uint32 | [FactionGroup.dbc/1](/files/DBC/335/factiongroup#maskid) |
-| 6 | [Enemies_0](#enemies) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id) |
-| 7 | [Enemies_1](#enemies) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id) |
-| 8 | [Enemies_2](#enemies) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id) |
-| 9 | [Enemies_3](#enemies) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id) |
-| 10 | [Friend_0](#friend) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id) |
-| 11 | [Friend_1](#friend) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id) |
-| 12 | [Friend_2](#friend) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id) |
-| 13 | [Friend_3](#friend) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id) |
+| 6 | [Enemies_0](#enemies) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id-alt) |
+| 7 | [Enemies_1](#enemies) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id-alt) |
+| 8 | [Enemies_2](#enemies) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id-alt) |
+| 9 | [Enemies_3](#enemies) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id-alt) |
+| 10 | [Friend_0](#friend) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id-alt) |
+| 11 | [Friend_1](#friend) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id-alt) |
+| 12 | [Friend_2](#friend) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id-alt) |
+| 13 | [Friend_3](#friend) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

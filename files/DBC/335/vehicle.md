@@ -22,20 +22,20 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [Flags](#flags) | uint32 |  |
 | 2 | [TurnSpeed](#turnspeed) | float |  |
 | 3 | [PitchSpeed](#pitchspeed) | float |  |
 | 4 | [PitchMin](#pitchmin) | float |  |
 | 5 | [PitchMax](#pitchmax) | float |  |
-| 6 | [SeatID_0](#seatid) | uint32 | [VehicleSeat.dbc/0](/files/DBC/335/vehicleseat#id) |
-| 7 | [SeatID_1](#seatid) | uint32 | [VehicleSeat.dbc/0](/files/DBC/335/vehicleseat#id) |
-| 8 | [SeatID_2](#seatid) | uint32 | [VehicleSeat.dbc/0](/files/DBC/335/vehicleseat#id) |
-| 9 | [SeatID_3](#seatid) | uint32 | [VehicleSeat.dbc/0](/files/DBC/335/vehicleseat#id) |
-| 10 | [SeatID_4](#seatid) | uint32 | [VehicleSeat.dbc/0](/files/DBC/335/vehicleseat#id) |
-| 11 | [SeatID_5](#seatid) | uint32 | [VehicleSeat.dbc/0](/files/DBC/335/vehicleseat#id) |
-| 12 | [SeatID_6](#seatid) | uint32 | [VehicleSeat.dbc/0](/files/DBC/335/vehicleseat#id) |
-| 13 | [SeatID_7](#seatid) | uint32 | [VehicleSeat.dbc/0](/files/DBC/335/vehicleseat#id) |
+| 6 | [SeatID_0](#seatid) | uint32 | [VehicleSeat.dbc/0](/files/DBC/335/vehicleseat#id-alt) |
+| 7 | [SeatID_1](#seatid) | uint32 | [VehicleSeat.dbc/0](/files/DBC/335/vehicleseat#id-alt) |
+| 8 | [SeatID_2](#seatid) | uint32 | [VehicleSeat.dbc/0](/files/DBC/335/vehicleseat#id-alt) |
+| 9 | [SeatID_3](#seatid) | uint32 | [VehicleSeat.dbc/0](/files/DBC/335/vehicleseat#id-alt) |
+| 10 | [SeatID_4](#seatid) | uint32 | [VehicleSeat.dbc/0](/files/DBC/335/vehicleseat#id-alt) |
+| 11 | [SeatID_5](#seatid) | uint32 | [VehicleSeat.dbc/0](/files/DBC/335/vehicleseat#id-alt) |
+| 12 | [SeatID_6](#seatid) | uint32 | [VehicleSeat.dbc/0](/files/DBC/335/vehicleseat#id-alt) |
+| 13 | [SeatID_7](#seatid) | uint32 | [VehicleSeat.dbc/0](/files/DBC/335/vehicleseat#id-alt) |
 | 14 | [MouseLookOffsetPitch](#mouselookoffsetpitch) | float |  |
 | 15 | [CameraFadeDistScalarMin](#camerafadedistscalarmin) | float |  |
 | 16 | [CameraFadeDistScalarMax](#camerafadedistscalarmax) | float |  |
@@ -58,14 +58,14 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 33 | [CameraYawOffset](#camerayawoffset) | float |  |
 | 34 | [UiLocomotionType](#uilocomotiontype) | uint32 |  |
 | 35 | [MsslTrgtImpactTexRadius](#mssltrgtimpacttexradius) | float |  |
-| 36 | [VehicleUIIndicatorID](#vehicleuiindicatorid) | uint32 | [VehicleUIIndicator.dbc/0](/files/DBC/335/vehicleuiindicator#id) |
-| 37 | [PowerDisplayID_0](#powerdisplayid) | int32 | [PowerDisplay.dbc/0](/files/DBC/335/powerdisplay#id) |
-| 38 | [PowerDisplayID_1](#powerdisplayid) | int32 | [PowerDisplay.dbc/0](/files/DBC/335/powerdisplay#id) |
-| 39 | [PowerDisplayID_2](#powerdisplayid) | int32 | [PowerDisplay.dbc/0](/files/DBC/335/powerdisplay#id) |
+| 36 | [VehicleUIIndicatorID](#vehicleuiindicatorid) | uint32 | [VehicleUIIndicator.dbc/0](/files/DBC/335/vehicleuiindicator#id-alt) |
+| 37 | [PowerDisplayID_0](#powerdisplayid) | int32 | [PowerDisplay.dbc/0](/files/DBC/335/powerdisplay#id-alt) |
+| 38 | [PowerDisplayID_1](#powerdisplayid) | int32 | [PowerDisplay.dbc/0](/files/DBC/335/powerdisplay#id-alt) |
+| 39 | [PowerDisplayID_2](#powerdisplayid) | int32 | [PowerDisplay.dbc/0](/files/DBC/335/powerdisplay#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*

@@ -22,13 +22,13 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [Name](#name) | string |  |
+| 0 | [Name](#name-alt) | string |  |
 | 1 | [NumRows](#numrows) | uint32 |  |
 | 2 | [NumColumns](#numcolumns) | uint32 |  |
 &nbsp;
 ## Description of fields
 
-### Name
+### Name <!-- {#name-alt} -->
 :x: <code>Col: 0 (string)</code>
 
 The actual dbc file name is prefixed with `gt`.

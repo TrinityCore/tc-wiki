@@ -22,34 +22,34 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [MapID_0](#mapid) | int32 | [Map.dbc/0](/files/DBC/335/map#id) |
-| 2 | [MapID_1](#mapid) | int32 | [Map.dbc/0](/files/DBC/335/map#id) |
-| 3 | [MapID_2](#mapid) | int32 | [Map.dbc/0](/files/DBC/335/map#id) |
-| 4 | [MapID_3](#mapid) | int32 | [Map.dbc/0](/files/DBC/335/map#id) |
-| 5 | [MapID_4](#mapid) | int32 | [Map.dbc/0](/files/DBC/335/map#id) |
-| 6 | [MapID_5](#mapid) | int32 | [Map.dbc/0](/files/DBC/335/map#id) |
-| 7 | [MapID_6](#mapid) | int32 | [Map.dbc/0](/files/DBC/335/map#id) |
-| 8 | [MapID_7](#mapid) | int32 | [Map.dbc/0](/files/DBC/335/map#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [MapID_0](#mapid) | int32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
+| 2 | [MapID_1](#mapid) | int32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
+| 3 | [MapID_2](#mapid) | int32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
+| 4 | [MapID_3](#mapid) | int32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
+| 5 | [MapID_4](#mapid) | int32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
+| 6 | [MapID_5](#mapid) | int32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
+| 7 | [MapID_6](#mapid) | int32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
+| 8 | [MapID_7](#mapid) | int32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
 | 9 | [InstanceType](#instancetype) | uint32 |  |
 | 10 | [GroupsAllowed](#groupsallowed) | uint32 |  |
-| 11 | [Name_0](#name) | string |  |
-| 12 | [Name_1](#name) | string |  |
-| 13 | [Name_2](#name) | string |  |
-| 14 | [Name_3](#name) | string |  |
-| 15 | [Name_4](#name) | string |  |
-| 16 | [Name_5](#name) | string |  |
-| 17 | [Name_6](#name) | string |  |
-| 18 | [Name_7](#name) | string |  |
-| 19 | [Name_8](#name) | string |  |
-| 20 | [Name_9](#name) | string |  |
-| 21 | [Name_10](#name) | string |  |
-| 22 | [Name_11](#name) | string |  |
-| 23 | [Name_12](#name) | string |  |
-| 24 | [Name_13](#name) | string |  |
-| 25 | [Name_14](#name) | string |  |
-| 26 | [Name_15](#name) | string |  |
-| 27 | [Name_lang_mask](#name) | uint32 |  |
+| 11 | [Name_0](#name-alt) | string |  |
+| 12 | [Name_1](#name-alt) | string |  |
+| 13 | [Name_2](#name-alt) | string |  |
+| 14 | [Name_3](#name-alt) | string |  |
+| 15 | [Name_4](#name-alt) | string |  |
+| 16 | [Name_5](#name-alt) | string |  |
+| 17 | [Name_6](#name-alt) | string |  |
+| 18 | [Name_7](#name-alt) | string |  |
+| 19 | [Name_8](#name-alt) | string |  |
+| 20 | [Name_9](#name-alt) | string |  |
+| 21 | [Name_10](#name-alt) | string |  |
+| 22 | [Name_11](#name-alt) | string |  |
+| 23 | [Name_12](#name-alt) | string |  |
+| 24 | [Name_13](#name-alt) | string |  |
+| 25 | [Name_14](#name-alt) | string |  |
+| 26 | [Name_15](#name-alt) | string |  |
+| 27 | [Name_lang_mask](#name-alt) | uint32 |  |
 | 28 | [MaxGroupSize](#maxgroupsize) | uint32 |  |
 | 29 | [HolidayWorldState](#holidayworldstate) | uint32 |  |
 | 30 | [MinLevel](#minlevel) | uint32 |  |
@@ -57,7 +57,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*
@@ -90,7 +90,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 <code>Col: 11 &ndash; 27 ([Loc](/how-to/localization))</code>
 
 *- no description -*

@@ -24,7 +24,7 @@ The strings of player text emotes.
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [Text_0](#text) | string |  |
 | 2 | [Text_1](#text) | string |  |
 | 3 | [Text_2](#text) | string |  |
@@ -45,7 +45,7 @@ The strings of player text emotes.
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

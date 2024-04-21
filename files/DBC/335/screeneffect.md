@@ -22,26 +22,26 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [Name](#name) | string |  |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [Name](#name-alt) | string |  |
 | 2 | [Type](#type) | uint32 |  |
 | 3 | [Color](#color) | int32 |  |
 | 4 | [Edge](#edge) | uint32 |  |
 | 5 | [BW](#bw) | uint32 |  |
 | 6 | [UnkParam](#unkparam) | uint32 |  |
-| 7 | [LightParamsID](#lightparamsid) | int32 | [LightParams.dbc/0](/files/DBC/335/lightparams#id) |
-| 8 | [SoundAmbienceID](#soundambienceid) | uint32 | [SoundAmbience.dbc/0](/files/DBC/335/soundambience#id) |
-| 9 | [ZoneMusicID](#zonemusicid) | uint32 | [ZoneMusic.dbc/0](/files/DBC/335/zonemusic#id) |
+| 7 | [LightParamsID](#lightparamsid) | int32 | [LightParams.dbc/0](/files/DBC/335/lightparams#id-alt) |
+| 8 | [SoundAmbienceID](#soundambienceid) | uint32 | [SoundAmbience.dbc/0](/files/DBC/335/soundambience#id-alt) |
+| 9 | [ZoneMusicID](#zonemusicid) | uint32 | [ZoneMusic.dbc/0](/files/DBC/335/zonemusic#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 :x: <code>Col: 1 (string)</code>
 
 *- no description -*

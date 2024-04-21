@@ -22,14 +22,14 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [CameraShakeID_0](#camerashakeid) | uint32 | [CameraShakes.dbc/0](/files/DBC/335/camerashakes#id) |
-| 2 | [CameraShakeID_1](#camerashakeid) | uint32 | [CameraShakes.dbc/0](/files/DBC/335/camerashakes#id) |
-| 3 | [CameraShakeID_2](#camerashakeid) | uint32 | [CameraShakes.dbc/0](/files/DBC/335/camerashakes#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [CameraShakeID_0](#camerashakeid) | uint32 | [CameraShakes.dbc/0](/files/DBC/335/camerashakes#id-alt) |
+| 2 | [CameraShakeID_1](#camerashakeid) | uint32 | [CameraShakes.dbc/0](/files/DBC/335/camerashakes#id-alt) |
+| 3 | [CameraShakeID_2](#camerashakeid) | uint32 | [CameraShakes.dbc/0](/files/DBC/335/camerashakes#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

@@ -22,9 +22,9 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
-| 1 | [ParentSpellVisualKitID](#parentspellvisualkitid) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id) |
-| 2 | [SpellVisualEffectNameID](#spellvisualeffectnameid) | uint32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id) |
+| 0 | [ID](#id-alt) | uint32 |  |
+| 1 | [ParentSpellVisualKitID](#parentspellvisualkitid) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id-alt) |
+| 2 | [SpellVisualEffectNameID](#spellvisualeffectnameid) | uint32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id-alt) |
 | 3 | [AttachmentID](#attachmentid) | int32 |  |
 | 4 | [Offset_X](#offset_x) | float |  |
 | 5 | [Offset_Y](#offset_y) | float |  |
@@ -35,7 +35,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*

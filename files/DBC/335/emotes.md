@@ -22,17 +22,17 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [ID](#id) | uint32 |  |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [EmoteSlashCommand](#emoteslashcommand) | string |  |
-| 2 | [AnimID](#animid) | uint32 | [AnimationData.dbc/0](/files/DBC/335/animationdata#id) |
+| 2 | [AnimID](#animid) | uint32 | [AnimationData.dbc/0](/files/DBC/335/animationdata#id-alt) |
 | 3 | [EmoteFlags](#emoteflags) | uint32 |  |
 | 4 | [EmoteSpecProc](#emotespecproc) | uint32 |  |
 | 5 | [EmoteSpecProcParam](#emotespecprocparam) | uint32 |  |
-| 6 | [EventSoundID](#eventsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id) |
+| 6 | [EventSoundID](#eventsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 <code>Col: 0 (uint32)</code>
 
 *- no description -*
