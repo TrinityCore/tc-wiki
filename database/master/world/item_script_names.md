@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T09:32:42.761Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Id](#id) | int | unsigned | PRI | NO |  |  |  |
+| [Id](#id-alt) | int | unsigned | PRI | NO |  |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO |  |  |  |
 &nbsp;
 ## Description of fields
 
-### Id
+### Id <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

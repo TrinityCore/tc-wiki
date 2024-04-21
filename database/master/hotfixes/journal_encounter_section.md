@@ -14,7 +14,7 @@ dateCreated: 2021-11-14T19:56:26.332Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Title](#title) | text |  |  | YES | NULL |  |  |
 | [BodyText](#bodytext) | text |  |  | YES | NULL |  |  |
 | [JournalEncounterID](#journalencounterid) | smallint | unsigned |  | NO | 0 |  |  |
@@ -34,7 +34,7 @@ dateCreated: 2021-11-14T19:56:26.332Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

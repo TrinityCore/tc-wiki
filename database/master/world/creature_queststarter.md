@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T09:30:10.521Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO | 0 |  | Identifier |
+| [id](#id-alt) | int | unsigned | PRI | NO | 0 |  | Identifier |
 | [quest](#quest) | int | unsigned | PRI | NO | 0 |  | Quest Identifier |
 | [VerifiedBuild](#verifiedbuild) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 The ID of the creature. See [creature_template.entry](/en/database/master/world/creature_template#entry)
 &nbsp;
 

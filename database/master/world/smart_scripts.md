@@ -19,7 +19,7 @@ dateCreated: 2021-08-30T09:36:32.378Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entryorguid](#entryorguid) | bigint | signed | PRI | NO | 0 |  |  |
 | [source_type](#source_type) | tinyint | unsigned | PRI | NO | 0 |  |  |
-| [id](#id) | smallint | unsigned | PRI | NO | 0 |  |  |
+| [id](#id-alt) | smallint | unsigned | PRI | NO | 0 |  |  |
 | [link](#link) | smallint | unsigned | PRI | NO | 0 |  |  |
 | [Difficulties](#difficulties) | varchar(100) |  |  | NO | '' |  |  |
 | [event_type](#event_type) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -85,7 +85,7 @@ Object type (creature, gameobject, quest, etc.).
 >Please note :x:means that the source_type is not (yet) implemented.
 {.is-danger}
 
-### id
+### id <!-- {#id-alt} -->
 Incremental id bound to each [entryorguid](#entryorguid) & [source_type](#source_type) (0, 1, 2, ...).
 &nbsp;
 

@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T09:56:54.937Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
-| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
+| [Name](#name-alt) | text |  |  | YES | NULL |  |  |
 | [SetFlags](#setflags) | int | unsigned |  | NO | 0 |  |  |
 | [RequiredSkill](#requiredskill) | int | unsigned |  | NO | 0 |  |  |
 | [RequiredSkillRank](#requiredskillrank) | smallint | unsigned |  | NO | 0 |  |  |
@@ -40,11 +40,11 @@ dateCreated: 2021-08-30T09:56:54.937Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 

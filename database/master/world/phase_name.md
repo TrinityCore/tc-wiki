@@ -14,16 +14,16 @@ dateCreated: 2021-12-15T19:39:48.315Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO |  |  |  |
-| [Name](#name) | mediumtext |  |  | YES | NULL |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO |  |  |  |
+| [Name](#name-alt) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 Related PhaseId
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 Name for the Phase.
 Reference [Phase.db2](https://wow.tools/dbc/?dbc=phase&build=6.0.1.18179#page=1){target=_blank}
 &nbsp;

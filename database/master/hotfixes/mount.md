@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T09:58:07.982Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [Name](#name-alt) | text |  |  | YES | NULL |  |  |
 | [SourceText](#sourcetext) | text |  |  | YES | NULL |  |  |
 | [Description](#description) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [MountTypeID](#mounttypeid) | smallint | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | int | signed |  | NO | 0 |  |  |
 | [SourceTypeEnum](#sourcetypeenum) | tinyint | signed |  | NO | 0 |  |  |
@@ -31,7 +31,7 @@ dateCreated: 2021-08-30T09:58:07.982Z
 &nbsp;
 ## Description of fields
 
-### Name
+### Name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 
@@ -43,7 +43,7 @@ dateCreated: 2021-08-30T09:58:07.982Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

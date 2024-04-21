@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T07:18:00.153Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [name](#name) | varchar(128) |  | PRI | NO |  |  |  |
+| [name](#name-alt) | varchar(128) |  | PRI | NO |  |  |  |
 | [team](#team) | int | unsigned | PRI | NO |  |  |  |
 | [announce](#announce) | tinyint | unsigned |  | NO | 1 |  |  |
 | [ownership](#ownership) | tinyint | unsigned |  | NO | 1 |  |  |
@@ -24,7 +24,7 @@ dateCreated: 2021-08-30T07:18:00.153Z
 &nbsp;
 ## Description of fields
 
-### name
+### name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 

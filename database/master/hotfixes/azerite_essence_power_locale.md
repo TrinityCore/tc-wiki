@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:49:49.326Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
 | [SourceAlliance_lang](#sourcealliance_lang) | text |  |  | YES | NULL |  |  |
 | [SourceHorde_lang](#sourcehorde_lang) | text |  |  | YES | NULL |  |  |
@@ -22,7 +22,7 @@ dateCreated: 2021-08-30T09:49:49.326Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

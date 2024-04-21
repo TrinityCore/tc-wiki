@@ -14,7 +14,7 @@ dateCreated: 2021-11-14T19:59:30.718Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [RankIndex](#rankindex) | int | signed |  | NO | 0 |  |  |
 | [SpellID](#spellid) | int | signed |  | NO | 0 |  |  |
 | [AuraPointsOverride](#aurapointsoverride) | float |  |  | NO | 0 |  |  |
@@ -23,7 +23,7 @@ dateCreated: 2021-11-14T19:59:30.718Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

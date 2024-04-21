@@ -19,7 +19,7 @@ dateCreated: 2021-08-30T09:30:34.430Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [CreatureID](#creatureid) | int | unsigned | PRI | NO | 0 |  |  |
 | [GroupID](#groupid) | tinyint | unsigned | PRI | NO | 0 |  |  |
-| [ID](#id) | tinyint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [Locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
 | [Text](#text) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
@@ -33,7 +33,7 @@ This entry must be the same as [`creature_text.CreatureID`](/database/master/wor
 This entry must be the same as [`creature_text.GroupID`](/database/master/world/creature_text#GroupID) and then the row will be used to provide localization support for this creature record.
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 This entry must be the same as [`creature_text.ID`](/database/master/world/creature_text#ID) and then the row will be used to provide localization support for this creature record.
 &nbsp;
 

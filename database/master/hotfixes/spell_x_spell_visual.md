@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T10:02:31.254Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [DifficultyID](#difficultyid) | tinyint | unsigned |  | NO | 0 |  |  |
 | [SpellVisualID](#spellvisualid) | int | unsigned |  | NO | 0 |  |  |
 | [Probability](#probability) | float |  |  | NO | 0 |  |  |
@@ -31,7 +31,7 @@ dateCreated: 2021-08-30T10:02:31.254Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

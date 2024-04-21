@@ -17,7 +17,7 @@ dateCreated: 2021-08-30T10:02:52.994Z
 | [LocX](#locx) | float |  |  | NO | 0 |  |  |
 | [LocY](#locy) | float |  |  | NO | 0 |  |  |
 | [LocZ](#locz) | float |  |  | NO | 0 |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [PathID](#pathid) | smallint | unsigned |  | NO | 0 |  |  |
 | [NodeIndex](#nodeindex) | int | signed |  | NO | 0 |  |  |
 | [ContinentID](#continentid) | smallint | unsigned |  | NO | 0 |  |  |
@@ -41,7 +41,7 @@ dateCreated: 2021-08-30T10:02:52.994Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

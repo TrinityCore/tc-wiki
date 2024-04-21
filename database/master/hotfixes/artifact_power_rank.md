@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:49:23.258Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [RankIndex](#rankindex) | tinyint | unsigned |  | NO | 0 |  |  |
 | [SpellID](#spellid) | int | signed |  | NO | 0 |  |  |
 | [ItemBonusListID](#itembonuslistid) | smallint | unsigned |  | NO | 0 |  |  |
@@ -24,7 +24,7 @@ dateCreated: 2021-08-30T09:49:23.258Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

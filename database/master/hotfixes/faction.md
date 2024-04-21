@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T09:53:25.903Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [ReputationRaceMask1](#reputationracemask1) | bigint | signed |  | NO | 0 |  |  |
 | [ReputationRaceMask2](#reputationracemask2) | bigint | signed |  | NO | 0 |  |  |
 | [ReputationRaceMask3](#reputationracemask3) | bigint | signed |  | NO | 0 |  |  |
 | [ReputationRaceMask4](#reputationracemask4) | bigint | signed |  | NO | 0 |  |  |
-| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [Name](#name-alt) | text |  |  | YES | NULL |  |  |
 | [Description](#description) | text |  |  | YES | NULL |  |  |
 | [ReputationIndex](#reputationindex) | smallint | signed |  | NO | 0 |  |  |
 | [ParentFactionID](#parentfactionid) | smallint | unsigned |  | NO | 0 |  |  |
@@ -53,7 +53,7 @@ dateCreated: 2021-08-30T09:53:25.903Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 
@@ -73,7 +73,7 @@ dateCreated: 2021-08-30T09:53:25.903Z
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 

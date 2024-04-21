@@ -15,7 +15,7 @@ dateCreated: 2021-08-30T10:03:00.994Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [SourceText](#sourcetext) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [ItemID](#itemid) | int | signed |  | NO | 0 |  |  |
 | [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
 | [SourceTypeEnum](#sourcetypeenum) | tinyint | signed |  | NO | 0 |  |  |
@@ -27,7 +27,7 @@ dateCreated: 2021-08-30T10:03:00.994Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

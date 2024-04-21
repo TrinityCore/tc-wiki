@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:34:57.623Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Type](#type) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [GreetEmoteType](#greetemotetype) | smallint | unsigned |  | NO | 0 |  |  |
 | [GreetEmoteDelay](#greetemotedelay) | int | unsigned |  | NO | 0 |  |  |
@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T09:34:57.623Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 * **Type** = 0: references [creature_template.entry](../world/creature_template#entry)
 * **Type** = 1: references [gameobject_template.entry](../world/gameobject_template#entry)
 &nbsp;

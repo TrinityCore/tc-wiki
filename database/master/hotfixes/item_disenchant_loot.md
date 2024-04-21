@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:56:12.184Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Subclass](#subclass) | tinyint | signed |  | NO | 0 |  |  |
 | [Quality](#quality) | tinyint | unsigned |  | NO | 0 |  |  |
 | [MinLevel](#minlevel) | smallint | unsigned |  | NO | 0 |  |  |
@@ -26,7 +26,7 @@ dateCreated: 2021-08-30T09:56:12.184Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

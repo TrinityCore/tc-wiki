@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T09:49:33.677Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
-| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
+| [Name](#name-alt) | text |  |  | YES | NULL |  |  |
 | [FactionID](#factionid) | smallint | unsigned |  | NO | 0 |  |  |
 | [DepositRate](#depositrate) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ConsignmentRate](#consignmentrate) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -23,11 +23,11 @@ dateCreated: 2021-08-30T09:49:33.677Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 

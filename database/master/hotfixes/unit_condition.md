@@ -14,7 +14,7 @@ dateCreated: 2022-02-06T20:30:08.309Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Variable1](#variable1) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Variable2](#variable2) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -44,7 +44,7 @@ dateCreated: 2022-02-06T20:30:08.309Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

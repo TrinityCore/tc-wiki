@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:55:33.058Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [ItemLevel](#itemlevel) | smallint | signed |  | NO | 0 |  |  |
 | [Cloth](#cloth) | float |  |  | NO | 0 |  |  |
 | [Leather](#leather) | float |  |  | NO | 0 |  |  |
@@ -24,7 +24,7 @@ dateCreated: 2021-08-30T09:55:33.058Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

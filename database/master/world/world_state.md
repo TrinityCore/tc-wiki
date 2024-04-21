@@ -14,7 +14,7 @@ dateCreated: 2022-07-10T19:37:23.205Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | signed | PRI | NO |  |  |  |
+| [ID](#id-alt) | int | signed | PRI | NO |  |  |  |
 | [DefaultValue](#defaultvalue) | int | signed |  | NO |  |  |  |
 | [MapIDs](#mapids) | varchar(128) |  |  | YES | NULL |  |  |
 | [AreaIDs](#areaids) | varchar(255) |  |  | YES | NULL |  |  |
@@ -23,7 +23,7 @@ dateCreated: 2022-07-10T19:37:23.205Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 Unique identifier of the world state
 &nbsp;
 

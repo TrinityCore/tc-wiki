@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T10:00:54.553Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [SpellID](#spellid) | int | signed |  | NO | 0 |  |  |
 | [FacingCasterFlags](#facingcasterflags) | tinyint | unsigned |  | NO | 0 |  |  |
 | [MinFactionID](#minfactionid) | smallint | unsigned |  | NO | 0 |  |  |
@@ -26,7 +26,7 @@ dateCreated: 2021-08-30T10:00:54.553Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

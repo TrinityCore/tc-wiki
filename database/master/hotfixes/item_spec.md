@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:57:09.009Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [MinLevel](#minlevel) | tinyint | unsigned |  | NO | 0 |  |  |
 | [MaxLevel](#maxlevel) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ItemType](#itemtype) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -25,7 +25,7 @@ dateCreated: 2021-08-30T09:57:09.009Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

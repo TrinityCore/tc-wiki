@@ -14,7 +14,7 @@ dateCreated: 2022-12-19T18:39:32.382Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [TraitDefinitionID](#traitdefinitionid) | int | signed |  | NO | 0 |  |  |
 | [EffectIndex](#effectindex) | int | signed |  | NO | 0 |  |  |
 | [OperationType](#operationtype) | int | signed |  | NO | 0 |  |  |
@@ -23,7 +23,7 @@ dateCreated: 2022-12-19T18:39:32.382Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

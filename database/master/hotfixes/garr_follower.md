@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:54:10.829Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [HordeSourceText](#hordesourcetext) | text |  |  | YES | NULL |  |  |
 | [AllianceSourceText](#alliancesourcetext) | text |  |  | YES | NULL |  |  |
 | [TitleName](#titlename) | text |  |  | YES | NULL |  |  |
@@ -52,7 +52,7 @@ dateCreated: 2021-08-30T09:54:10.829Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

@@ -15,7 +15,7 @@ dateCreated: 2021-08-30T09:31:38.234Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  |  |
-| [id](#id) | int | unsigned |  | NO | 0 |  | Gameobject Identifier |
+| [id](#id-alt) | int | unsigned |  | NO | 0 |  | Gameobject Identifier |
 | [map](#map) | smallint | unsigned |  | NO | 0 |  | Map Identifier |
 | [zoneId](#zoneid) | smallint | unsigned |  | NO | 0 |  | Zone Identifier |
 | [areaId](#areaid) | smallint | unsigned |  | NO | 0 |  | Area Identifier |
@@ -74,7 +74,7 @@ The GUID ranges are defined as followed:
 > Due to the revamp of events/holidays during the last few expansions, one subrange per expansion has been reserved to avoid leaving gaps when deleting old spawns. All holiday spawns should use this subrange.
 {.is-info}
 
-### id
+### id <!-- {#id-alt} -->
 This links to [gameobject_template_entry](/en/database/master/world/gameobject_template#entry)
 &nbsp;
 

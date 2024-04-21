@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T09:59:21.005Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Name](#name) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [Name](#name-alt) | text |  |  | YES | NULL |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [MinRating](#minrating) | smallint | signed |  | NO | 0 |  |  |
 | [MaxRating](#maxrating) | smallint | signed |  | NO | 0 |  |  |
 | [PrevTier](#prevtier) | int | signed |  | NO | 0 |  |  |
@@ -27,11 +27,11 @@ dateCreated: 2021-08-30T09:59:21.005Z
 &nbsp;
 ## Description of fields
 
-### Name
+### Name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

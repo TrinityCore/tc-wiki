@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T10:00:14.493Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [FirstSceneScriptID](#firstscenescriptid) | smallint | unsigned |  | NO | 0 |  |  |
 | [NextSceneScriptID](#nextscenescriptid) | smallint | unsigned |  | NO | 0 |  |  |
 | [Unknown915](#unknown915) | int | signed |  | NO | 0 |  |  |
@@ -22,7 +22,7 @@ dateCreated: 2021-08-30T10:00:14.493Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

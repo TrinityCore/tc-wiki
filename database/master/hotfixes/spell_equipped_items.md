@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T10:01:16.115Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [SpellID](#spellid) | int | signed |  | NO | 0 |  |  |
 | [EquippedItemClass](#equippeditemclass) | tinyint | signed |  | NO | 0 |  |  |
 | [EquippedItemInvTypes](#equippediteminvtypes) | int | signed |  | NO | 0 |  |  |
@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T10:01:16.115Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

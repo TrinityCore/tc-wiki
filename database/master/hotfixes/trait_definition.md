@@ -17,7 +17,7 @@ dateCreated: 2022-12-19T18:39:29.145Z
 | [OverrideName](#overridename) | text |  |  | YES | NULL |  |  |
 | [OverrideSubtext](#overridesubtext) | text |  |  | YES | NULL |  |  |
 | [OverrideDescription](#overridedescription) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [SpellID](#spellid) | int | signed |  | NO | 0 |  |  |
 | [OverrideIcon](#overrideicon) | int | signed |  | NO | 0 |  |  |
 | [OverridesSpellID](#overridesspellid) | int | signed |  | NO | 0 |  |  |
@@ -38,7 +38,7 @@ dateCreated: 2022-12-19T18:39:29.145Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

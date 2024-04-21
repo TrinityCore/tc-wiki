@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:53:34.040Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Reaction](#reaction) | text |  |  | YES | NULL |  |  |
 | [FriendshipRepID](#friendshiprepid) | int | unsigned |  | NO | 0 |  |  |
 | [ReactionThreshold](#reactionthreshold) | smallint | unsigned |  | NO | 0 |  |  |
@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T09:53:34.040Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

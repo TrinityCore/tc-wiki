@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:32:45.284Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Id](#id) | int | unsigned | PRI | NO |  |  |  |
+| [Id](#id-alt) | int | unsigned | PRI | NO |  |  |  |
 | [FlagsCu](#flagscu) | int | unsigned |  | NO | 0 |  |  |
 | [FoodType](#foodtype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [MinMoneyLoot](#minmoneyloot) | int | unsigned |  | NO | 0 |  |  |
@@ -25,7 +25,7 @@ dateCreated: 2021-08-30T09:32:45.284Z
 &nbsp;
 ## Description of fields
 
-### Id
+### Id <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

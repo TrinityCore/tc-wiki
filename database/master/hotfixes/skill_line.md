@@ -19,7 +19,7 @@ dateCreated: 2021-08-30T10:00:25.040Z
 | [Description](#description) | text |  |  | YES | NULL |  |  |
 | [HordeDisplayName](#hordedisplayname) | text |  |  | YES | NULL |  |  |
 | [OverrideSourceInfoDisplayName](#overridesourceinfodisplayname) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [CategoryID](#categoryid) | tinyint | signed |  | NO | 0 |  |  |
 | [SpellIconFileID](#spelliconfileid) | int | signed |  | NO | 0 |  |  |
 | [CanLink](#canlink) | tinyint | signed |  | NO | 0 |  |  |
@@ -53,7 +53,7 @@ dateCreated: 2021-08-30T10:00:25.040Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

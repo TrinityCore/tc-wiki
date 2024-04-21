@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:48:41.458Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Fallback](#fallback) | smallint | unsigned |  | NO | 0 |  |  |
 | [BehaviorTier](#behaviortier) | tinyint | unsigned |  | NO | 0 |  |  |
 | [BehaviorID](#behaviorid) | int | signed |  | NO | 0 |  |  |
@@ -24,7 +24,7 @@ dateCreated: 2021-08-30T09:48:41.458Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

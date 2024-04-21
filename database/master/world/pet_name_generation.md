@@ -14,14 +14,14 @@ dateCreated: 2021-08-30T09:33:24.050Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO |  |  |  |
+| [id](#id-alt) | int | unsigned | PRI | NO |  |  |  |
 | [word](#word) | text |  |  | NO |  |  |  |
 | [entry](#entry) | int | unsigned |  | NO | 0 |  |  |
 | [half](#half) | tinyint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 The ID of the entry. This is an auto increment field and this is an arbitrary number. When adding entries it is best to just let the database pick the next available ID number.
 &nbsp;
 

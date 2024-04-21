@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T09:29:20.165Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Id](#id) | int | unsigned | PRI | NO |  |  |  |
-| [Name](#name) | varchar(70) |  |  | NO |  |  |  |
+| [Id](#id-alt) | int | unsigned | PRI | NO |  |  |  |
+| [Name](#name-alt) | varchar(70) |  |  | NO |  |  |  |
 | [Description](#description) | varchar(100) |  |  | NO |  |  |  |
 | [Level](#level) | tinyint | unsigned |  | NO | 1 |  |  |
 &nbsp;
 ## Description of fields
 
-### Id
+### Id <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 

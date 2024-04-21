@@ -14,7 +14,7 @@ dateCreated: 2022-12-19T18:38:52.597Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [SkillLineID](#skilllineid) | int | signed |  | NO | 0 |  |  |
 | [TraitTreeID](#traittreeid) | int | signed |  | NO | 0 |  |  |
 | [OrderIndex](#orderindex) | int | signed |  | NO | 0 |  |  |
@@ -22,7 +22,7 @@ dateCreated: 2022-12-19T18:38:52.597Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

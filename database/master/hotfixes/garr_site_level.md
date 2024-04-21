@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:54:26.729Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [TownHallUiPosX](#townhalluiposx) | float |  |  | NO | 0 |  |  |
 | [TownHallUiPosY](#townhalluiposy) | float |  |  | NO | 0 |  |  |
 | [GarrSiteID](#garrsiteid) | int | unsigned |  | NO | 0 |  |  |
@@ -29,7 +29,7 @@ dateCreated: 2021-08-30T09:54:26.729Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

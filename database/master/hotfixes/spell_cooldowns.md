@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T10:01:07.888Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [DifficultyID](#difficultyid) | tinyint | unsigned |  | NO | 0 |  |  |
 | [CategoryRecoveryTime](#categoryrecoverytime) | int | signed |  | NO | 0 |  |  |
 | [RecoveryTime](#recoverytime) | int | signed |  | NO | 0 |  |  |
@@ -25,7 +25,7 @@ dateCreated: 2021-08-30T10:01:07.888Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

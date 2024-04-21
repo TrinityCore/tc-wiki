@@ -14,9 +14,9 @@ dateCreated: 2021-08-30T09:49:05.167Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [Name](#name-alt) | text |  |  | YES | NULL |  |  |
 | [Description](#description) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [DisplayIndex](#displayindex) | tinyint | unsigned |  | NO | 0 |  |  |
 | [UiCameraID](#uicameraid) | smallint | unsigned |  | NO | 0 |  |  |
 | [AltHandUICameraID](#althanduicameraid) | smallint | unsigned |  | NO | 0 |  |  |
@@ -27,7 +27,7 @@ dateCreated: 2021-08-30T09:49:05.167Z
 &nbsp;
 ## Description of fields
 
-### Name
+### Name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 
@@ -35,7 +35,7 @@ dateCreated: 2021-08-30T09:49:05.167Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

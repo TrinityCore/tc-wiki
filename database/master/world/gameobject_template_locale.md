@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T09:32:01.684Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
-| [name](#name) | mediumtext |  |  | YES | NULL |  |  |
+| [name](#name-alt) | mediumtext |  |  | YES | NULL |  |  |
 | [castBarCaption](#castbarcaption) | mediumtext |  |  | YES | NULL |  |  |
 | [unk1](#unk1) | mediumtext |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
@@ -42,7 +42,7 @@ Entry of the gameobject, see [`gameobject_template.entry`](/database/master/worl
 |zhTW|Chinese (Taiwan/Traditional)|
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 Name for the related `locale`
 &nbsp;
 

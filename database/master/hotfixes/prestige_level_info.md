@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T09:58:59.971Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
-| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
+| [Name](#name-alt) | text |  |  | YES | NULL |  |  |
 | [PrestigeLevel](#prestigelevel) | int | signed |  | NO | 0 |  |  |
 | [BadgeTextureFileDataID](#badgetexturefiledataid) | int | signed |  | NO | 0 |  |  |
 | [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -24,11 +24,11 @@ dateCreated: 2021-08-30T09:58:59.971Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 

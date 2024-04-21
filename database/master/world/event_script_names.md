@@ -14,12 +14,12 @@ dateCreated: 2023-07-09T10:57:33.139Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Id](#id) | int | unsigned | PRI | NO |  |  |  |
+| [Id](#id-alt) | int | unsigned | PRI | NO |  |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO |  |  |  |
 &nbsp;
 ## Description of fields
 
-### Id
+### Id <!-- {#id-alt} -->
 Event ID.
 - **Gameobject**: [Gameobject_template](/database/master/world/gameobject_template) data referencing GameEvents
 - **Spell**: SPELL_EFFECT_SEND_EVENT (MiscValue)

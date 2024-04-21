@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T09:51:44.445Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [ClientPrefix](#clientprefix) | text |  |  | YES | NULL |  |  |
 | [ClientFileString](#clientfilestring) | text |  |  | YES | NULL |  |  |
-| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [Name](#name-alt) | text |  |  | YES | NULL |  |  |
 | [NameFemale](#namefemale) | text |  |  | YES | NULL |  |  |
 | [NameLowercase](#namelowercase) | text |  |  | YES | NULL |  |  |
 | [NameFemaleLowercase](#namefemalelowercase) | text |  |  | YES | NULL |  |  |
@@ -81,7 +81,7 @@ dateCreated: 2021-08-30T09:51:44.445Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 
@@ -93,7 +93,7 @@ dateCreated: 2021-08-30T09:51:44.445Z
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 

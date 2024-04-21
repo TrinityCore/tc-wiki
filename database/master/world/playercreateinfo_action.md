@@ -17,7 +17,7 @@ dateCreated: 2021-08-30T09:34:23.529Z
 | [race](#race) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [class](#class) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [button](#button) | smallint | unsigned | PRI | NO | 0 |  |  |
-| [action](#action) | int | unsigned |  | NO | 0 |  |  |
+| [action](#action-alt) | int | unsigned |  | NO | 0 |  |  |
 | [type](#type) | smallint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -77,7 +77,7 @@ Special bars are used for stances, auras, pets, stealth, and other similar speci
 
 &nbsp;
 
-### action
+### action <!-- {#action-alt} -->
 Depending on the **type** value:
 * type = 0: [Spell ID](https://wow.tools/dbc/?dbc=spell)
 * type = 128: [item entry](../world/item_template#entry) (yes item prototype, not item instance)

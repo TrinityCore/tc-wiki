@@ -14,7 +14,7 @@ dateCreated: 2021-11-14T20:02:03.877Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
 | [Header_lang](#header_lang) | text |  |  | YES | NULL |  |  |
 | [TopLeftFeatureTitle_lang](#topleftfeaturetitle_lang) | text |  |  | YES | NULL |  |  |
@@ -27,7 +27,7 @@ dateCreated: 2021-11-14T20:02:03.877Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

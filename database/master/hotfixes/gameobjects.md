@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:53:47.082Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [Name](#name-alt) | text |  |  | YES | NULL |  |  |
 | [PosX](#posx) | float |  |  | NO | 0 |  |  |
 | [PosY](#posy) | float |  |  | NO | 0 |  |  |
 | [PosZ](#posz) | float |  |  | NO | 0 |  |  |
@@ -22,7 +22,7 @@ dateCreated: 2021-08-30T09:53:47.082Z
 | [Rot2](#rot2) | float |  |  | NO | 0 |  |  |
 | [Rot3](#rot3) | float |  |  | NO | 0 |  |  |
 | [Rot4](#rot4) | float |  |  | NO | 0 |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [OwnerID](#ownerid) | int | signed |  | NO | 0 |  |  |
 | [DisplayID](#displayid) | int | signed |  | NO | 0 |  |  |
 | [Scale](#scale) | float |  |  | NO | 0 |  |  |
@@ -42,7 +42,7 @@ dateCreated: 2021-08-30T09:53:47.082Z
 &nbsp;
 ## Description of fields
 
-### Name
+### Name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 
@@ -74,7 +74,7 @@ dateCreated: 2021-08-30T09:53:47.082Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

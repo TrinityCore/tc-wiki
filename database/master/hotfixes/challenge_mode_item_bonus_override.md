@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [ItemBonusTreeGroupID](#itembonustreegroupid) | int | signed |  | NO | 0 |  |  |
 | [DstItemBonusTreeID](#dstitembonustreeid) | int | signed |  | NO | 0 |  |  |
 | [Type](#type) | tinyint | signed |  | NO | 0 |  |  |
@@ -26,7 +26,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

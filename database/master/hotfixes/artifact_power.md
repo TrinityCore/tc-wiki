@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T09:49:15.574Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [DisplayPosX](#displayposx) | float |  |  | NO | 0 |  |  |
 | [DisplayPosY](#displayposy) | float |  |  | NO | 0 |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [ArtifactID](#artifactid) | tinyint | unsigned |  | NO | 0 |  |  |
 | [MaxPurchasableRank](#maxpurchasablerank) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Label](#label) | int | signed |  | NO | 0 |  |  |
@@ -34,7 +34,7 @@ dateCreated: 2021-08-30T09:49:15.574Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

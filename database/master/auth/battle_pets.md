@@ -24,7 +24,7 @@ dateCreated: 2021-08-21T03:48:21.661Z
 | [health](#health) | int | signed |  | NO | 1 |  |  |
 | [quality](#quality) | tinyint | signed |  | NO | 0 |  |  |
 | [flags](#flags) | smallint | signed |  | NO | 0 |  |  |
-| [name](#name) | varchar(12) |  |  | NO |  |  |  |
+| [name](#name-alt) | varchar(12) |  |  | NO |  |  |  |
 | [nameTimestamp](#nametimestamp) | bigint | signed |  | NO | 0 |  |  |
 | [owner](#owner) | bigint | signed |  | YES | NULL |  |  |
 | [ownerRealmId](#ownerrealmid) | int | signed |  | YES | NULL |  |  |
@@ -83,7 +83,7 @@ List of BattlePetDbFlags.
 | 256  | 0x100   | DisplayOverridden |                                               |
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 Current battle pet name. If empty, the battle pet will use the [name](../world/creature_template#name) of the creature associated with the [species](#species).
 &nbsp;
 

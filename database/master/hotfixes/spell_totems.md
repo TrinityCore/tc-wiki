@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T10:02:26.009Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [SpellID](#spellid) | int | signed |  | NO | 0 |  |  |
 | [RequiredTotemCategoryID1](#requiredtotemcategoryid1) | smallint | unsigned |  | NO | 0 |  |  |
 | [RequiredTotemCategoryID2](#requiredtotemcategoryid2) | smallint | unsigned |  | NO | 0 |  |  |
@@ -24,7 +24,7 @@ dateCreated: 2021-08-30T10:02:26.009Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:28:49.105Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO | 0 |  | Identifier |
+| [id](#id-alt) | int | unsigned | PRI | NO | 0 |  | Identifier |
 | [quest](#quest) | int | unsigned |  | NO | 0 |  | Quest Identifier |
 &nbsp;
 ## Description of fields
@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T09:28:49.105Z
 {.is-info}
 
 
-### id
+### id <!-- {#id-alt} -->
 This is the trigger ID from [AreaTrigger.db2](https://wow.tools/dbc/?dbc=areatrigger){target=_blank}
 &nbsp;
 

@@ -18,7 +18,7 @@ dateCreated: 2021-08-30T09:52:51.404Z
 | [PosY](#posy) | float |  |  | NO | 0 |  |  |
 | [PreSLSquishPosX](#preslsquishposx) | float |  |  | NO | 0 |  |  |
 | [PreSLSquishPosY](#preslsquishposy) | float |  |  | NO | 0 |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [CurveID](#curveid) | int | unsigned |  | NO | 0 |  |  |
 | [OrderIndex](#orderindex) | tinyint | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
@@ -41,7 +41,7 @@ dateCreated: 2021-08-30T09:52:51.404Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

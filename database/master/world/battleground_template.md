@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:29:12.347Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [AllianceStartLoc](#alliancestartloc) | int | unsigned |  | NO |  |  |  |
 | [HordeStartLoc](#hordestartloc) | int | unsigned |  | NO |  |  |  |
 | [StartMaxDist](#startmaxdist) | float |  |  | NO | 0 |  |  |
@@ -24,7 +24,7 @@ dateCreated: 2021-08-30T09:29:12.347Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 The battleground ID.
 A list is available in [BattlemasterList.db2](https://wow.tools/dbc/?dbc=battlemasterlist){target=_blank} (ID field)
 &nbsp;

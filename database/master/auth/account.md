@@ -18,7 +18,7 @@ dateCreated: 2021-08-19T10:37:27.827Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO |  | auto_increment | Identifier |
+| [id](#id-alt) | int | unsigned | PRI | NO |  | auto_increment | Identifier |
 | [username](#username) | varchar(32) |  | UNI | NO | '' |  |  |
 | [salt](#salt) | binary(32) |  |  | NO |  |  |  |
 | [verifier](#verifier) | binary(32) |  |  | NO |  |  |  |
@@ -48,7 +48,7 @@ dateCreated: 2021-08-19T10:37:27.827Z
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 The unique account ID.
 &nbsp;
 

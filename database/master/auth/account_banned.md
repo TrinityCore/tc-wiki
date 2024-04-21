@@ -18,7 +18,7 @@ dateCreated: 2021-08-20T13:45:13.968Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO | 0 |  | Account id |
+| [id](#id-alt) | int | unsigned | PRI | NO | 0 |  | Account id |
 | [bandate](#bandate) | int | unsigned | PRI | NO | 0 |  |  |
 | [unbandate](#unbandate) | int | unsigned |  | NO | 0 |  |  |
 | [bannedby](#bannedby) | varchar(50) |  |  | NO |  |  |  |
@@ -27,7 +27,7 @@ dateCreated: 2021-08-20T13:45:13.968Z
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 The account ID. See [account.id](/database/master/auth/account#id)
 &nbsp;
 

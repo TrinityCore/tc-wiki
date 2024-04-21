@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:59:18.404Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Slot](#slot) | tinyint | signed |  | NO | 0 |  |  |
 | [LevelRequired](#levelrequired) | int | signed |  | NO | 0 |  |  |
 | [DeathKnightLevelRequired](#deathknightlevelrequired) | int | signed |  | NO | 0 |  |  |
@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T09:59:18.404Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

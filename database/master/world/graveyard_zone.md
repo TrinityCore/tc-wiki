@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T09:32:22.271Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [GhostZone](#ghostzone) | int | unsigned | PRI | NO | 0 |  |  |
 | [Comment](#comment) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 WorldSafeLocs ID, see [world_safe_locs](https://trinitycore.info/en/database/master/world/world_safe_locs) table
 &nbsp;
 

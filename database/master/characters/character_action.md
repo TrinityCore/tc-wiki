@@ -18,7 +18,7 @@ dateCreated: 2021-08-30T07:19:11.694Z
 | [spec](#spec) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [traitConfigId](#traitconfigid) | int | signed | PRI | NO | 0 |  |  |
 | [button](#button) | tinyint | unsigned | PRI | NO | 0 |  |  |
-| [action](#action) | bigint | unsigned |  | NO | 0 |  |  |
+| [action](#action-alt) | bigint | unsigned |  | NO | 0 |  |  |
 | [type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -39,7 +39,7 @@ dateCreated: 2021-08-30T07:19:11.694Z
 *- no description -*
 &nbsp;
 
-### action
+### action <!-- {#action-alt} -->
 *- no description -*
 &nbsp;
 

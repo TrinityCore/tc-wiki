@@ -20,7 +20,7 @@ dateCreated: 2021-08-30T09:51:39.119Z
 | [CustomizeOffset1](#customizeoffset1) | float |  |  | NO | 0 |  |  |
 | [CustomizeOffset2](#customizeoffset2) | float |  |  | NO | 0 |  |  |
 | [CustomizeOffset3](#customizeoffset3) | float |  |  | NO | 0 |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Sex](#sex) | tinyint | signed |  | NO | 0 |  |  |
 | [DisplayID](#displayid) | int | signed |  | NO | 0 |  |  |
 | [CharComponentTextureLayoutID](#charcomponenttexturelayoutid) | int | signed |  | NO | 0 |  |  |
@@ -63,7 +63,7 @@ dateCreated: 2021-08-30T09:51:39.119Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

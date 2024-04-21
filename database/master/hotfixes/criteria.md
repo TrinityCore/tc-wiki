@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:52:35.601Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Type](#type) | smallint | signed |  | NO | 0 |  |  |
 | [Asset](#asset) | int | signed |  | NO | 0 |  |  |
 | [ModifierTreeId](#modifiertreeid) | int | unsigned |  | NO | 0 |  |  |
@@ -30,7 +30,7 @@ dateCreated: 2021-08-30T09:52:35.601Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

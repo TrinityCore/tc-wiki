@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:48:20.467Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [Name](#name-alt) | text |  |  | YES | NULL |  |  |
 | [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Parent](#parent) | smallint | signed |  | NO | 0 |  |  |
 | [UiOrder](#uiorder) | tinyint | signed |  | NO | 0 |  |  |
@@ -22,7 +22,7 @@ dateCreated: 2021-08-30T09:48:20.467Z
 &nbsp;
 ## Description of fields
 
-### Name
+### Name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 

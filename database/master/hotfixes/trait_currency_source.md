@@ -15,7 +15,7 @@ dateCreated: 2022-12-19T18:39:22.681Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [Requirement](#requirement) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [TraitCurrencyID](#traitcurrencyid) | int | signed |  | NO | 0 |  |  |
 | [Amount](#amount) | int | signed |  | NO | 0 |  |  |
 | [QuestID](#questid) | int | signed |  | NO | 0 |  |  |
@@ -31,7 +31,7 @@ dateCreated: 2022-12-19T18:39:22.681Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

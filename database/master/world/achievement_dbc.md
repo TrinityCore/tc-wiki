@@ -19,7 +19,7 @@ dateCreated: 2021-08-30T09:28:38.681Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO |  |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO |  |  |  |
 | [requiredFaction](#requiredfaction) | int | signed |  | NO | -1 |  |  |
 | [mapID](#mapid) | int | signed |  | NO | -1 |  |  |
 | [points](#points) | int | unsigned |  | NO | 0 |  |  |
@@ -29,7 +29,7 @@ dateCreated: 2021-08-30T09:28:38.681Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

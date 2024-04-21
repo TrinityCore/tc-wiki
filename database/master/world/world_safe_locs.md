@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:38:13.594Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO |  |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO |  |  |  |
 | [MapID](#mapid) | int | unsigned |  | YES | NULL |  |  |
 | [LocX](#locx) | float |  |  | YES | NULL |  |  |
 | [LocY](#locy) | float |  |  | YES | NULL |  |  |
@@ -24,7 +24,7 @@ dateCreated: 2021-08-30T09:38:13.594Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 Unique identifier, as of today ID 7582 is last (leaked) entry since this used to be a shipped DB2 file. 
 New (custom) IDs should be used per expansion as followed:
 | Expansion                | ID range start | ID range end |

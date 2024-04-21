@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:57:03.008Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [AllowableRace](#allowablerace) | bigint | signed |  | NO | 0 |  |  |
 | [Description](#description) | text |  |  | YES | NULL |  |  |
 | [Display3](#display3) | text |  |  | YES | NULL |  |  |
@@ -116,7 +116,7 @@ dateCreated: 2021-08-30T09:57:03.008Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

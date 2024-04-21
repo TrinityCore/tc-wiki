@@ -15,7 +15,7 @@ dateCreated: 2021-08-30T07:14:51.093Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [arenaTeamId](#arenateamid) | int | unsigned | PRI | NO | 0 |  |  |
-| [name](#name) | varchar(24) |  |  | NO |  |  |  |
+| [name](#name-alt) | varchar(24) |  |  | NO |  |  |  |
 | [captainGuid](#captainguid) | bigint | unsigned |  | NO | 0 |  |  |
 | [type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
 | [rating](#rating) | smallint | unsigned |  | NO | 0 |  |  |
@@ -36,7 +36,7 @@ dateCreated: 2021-08-30T07:14:51.093Z
 *- no description -*
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 

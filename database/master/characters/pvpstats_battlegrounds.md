@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T08:17:55.709Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | bigint | unsigned | PRI | NO |  | auto_increment |  |
+| [id](#id-alt) | bigint | unsigned | PRI | NO |  | auto_increment |  |
 | [winner_faction](#winner_faction) | tinyint | signed |  | NO |  |  |  |
 | [bracket_id](#bracket_id) | tinyint | unsigned |  | NO |  |  |  |
 | [type](#type) | int | unsigned |  | NO |  |  |  |
@@ -22,7 +22,7 @@ dateCreated: 2021-08-30T08:17:55.709Z
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

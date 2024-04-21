@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T09:50:30.906Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [Description](#description) | text |  |  | YES | NULL |  |  |
 | [SourceText](#sourcetext) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [CreatureID](#creatureid) | int | signed |  | NO | 0 |  |  |
 | [SummonSpellID](#summonspellid) | int | signed |  | NO | 0 |  |  |
 | [IconFileDataID](#iconfiledataid) | int | signed |  | NO | 0 |  |  |
@@ -38,7 +38,7 @@ dateCreated: 2021-08-30T09:50:30.906Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

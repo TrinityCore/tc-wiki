@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T10:00:46.515Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [DifficultyID](#difficultyid) | tinyint | unsigned |  | NO | 0 |  |  |
 | [CumulativeAura](#cumulativeaura) | smallint | unsigned |  | NO | 0 |  |  |
 | [ProcCategoryRecovery](#proccategoryrecovery) | int | signed |  | NO | 0 |  |  |
@@ -28,7 +28,7 @@ dateCreated: 2021-08-30T10:00:46.515Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

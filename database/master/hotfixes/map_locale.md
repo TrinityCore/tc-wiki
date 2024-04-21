@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:58:02.656Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
 | [MapName_lang](#mapname_lang) | text |  |  | YES | NULL |  |  |
 | [MapDescription0_lang](#mapdescription0_lang) | text |  |  | YES | NULL |  |  |
@@ -25,7 +25,7 @@ dateCreated: 2021-08-30T09:58:02.656Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

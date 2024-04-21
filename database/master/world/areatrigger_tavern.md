@@ -14,16 +14,16 @@ dateCreated: 2021-08-30T09:28:54.308Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO | 0 |  | Identifier |
-| [name](#name) | mediumtext |  |  | YES | NULL |  |  |
+| [id](#id-alt) | int | unsigned | PRI | NO | 0 |  | Identifier |
+| [name](#name-alt) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 This is the trigger identifier from [AreaTrigger.db2](https://wow.tools/dbc/?dbc=areatrigger){target=_blank}.
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 Name of the city or tavern. This is purely for descriptive purposes.
 &nbsp;
 

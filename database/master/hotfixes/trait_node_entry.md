@@ -14,7 +14,7 @@ dateCreated: 2022-12-19T18:39:45.330Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [TraitDefinitionID](#traitdefinitionid) | int | signed |  | NO | 0 |  |  |
 | [MaxRanks](#maxranks) | int | signed |  | NO | 0 |  |  |
 | [NodeEntryType](#nodeentrytype) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -22,7 +22,7 @@ dateCreated: 2022-12-19T18:39:45.330Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

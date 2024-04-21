@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T10:02:39.585Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Description](#description) | text |  |  | YES | NULL |  |  |
 | [TierID](#tierid) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -29,7 +29,7 @@ dateCreated: 2021-08-30T10:02:39.585Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

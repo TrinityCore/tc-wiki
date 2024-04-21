@@ -15,7 +15,7 @@ dateCreated: 2021-08-30T09:32:50.477Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [dungeonId](#dungeonid) | int | unsigned | PRI | NO | 0 |  | Unique id from LFGDungeons.dbc |
-| [name](#name) | varchar(255) |  |  | YES | NULL |  |  |
+| [name](#name-alt) | varchar(255) |  |  | YES | NULL |  |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |
@@ -29,7 +29,7 @@ dateCreated: 2021-08-30T09:32:50.477Z
 Dungeon ID from [LFGDungeons.db2](https://wow.tools/dbc/?dbc=lfgdungeons){target=_blank}.
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 Dungeon name from [LFGDungeons.db2](https://wow.tools/dbc/?dbc=lfgdungeons){target=_blank}.
 &nbsp;
 

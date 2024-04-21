@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T09:37:42.553Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  |  |
 | [entry](#entry) | int | unsigned | UNI | NO | 0 |  |  |
-| [name](#name) | mediumtext |  |  | YES | NULL |  |  |
+| [name](#name-alt) | mediumtext |  |  | YES | NULL |  |  |
 | [phaseUseFlags](#phaseuseflags) | tinyint | unsigned |  | NO | 0 |  |  |
 | [phaseid](#phaseid) | int | signed |  | NO | 0 |  |  |
 | [phasegroup](#phasegroup) | int | signed |  | NO | 0 |  |  |
@@ -32,7 +32,7 @@ Unique identifier for transport. When adding a new one, simply use the max(guid)
 This is entry to be used for this transport from [`gameobject_template.entry`](/database/master/world/gameobject_template#entry) It must be a type 15 (MOTransport) game object.
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 This is an arbitrary name that is only used to describe this transport entry.
 &nbsp;
 

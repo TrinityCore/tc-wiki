@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:49:25.844Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Difficulty1](#difficulty1) | int | unsigned |  | NO | 0 |  |  |
 | [Difficulty2](#difficulty2) | int | unsigned |  | NO | 0 |  |  |
 | [Difficulty3](#difficulty3) | int | unsigned |  | NO | 0 |  |  |
@@ -29,7 +29,7 @@ dateCreated: 2021-08-30T09:49:25.844Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

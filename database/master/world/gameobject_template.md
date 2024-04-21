@@ -17,7 +17,7 @@ dateCreated: 2021-08-30T09:31:56.235Z
 | [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
 | [type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
 | [displayId](#displayid) | int | unsigned |  | NO | 0 |  |  |
-| [name](#name) | varchar(100) |  | MUL | NO | '' |  |  |
+| [name](#name-alt) | varchar(100) |  | MUL | NO | '' |  |  |
 | [IconName](#iconname) | varchar(100) |  |  | NO | '' |  |  |
 | [castBarCaption](#castbarcaption) | varchar(100) |  |  | NO | '' |  |  |
 | [unk1](#unk1) | varchar(100) |  |  | NO | '' |  |  |
@@ -116,7 +116,7 @@ Gameobject's unique id.
 [GameObjectDisplayInfo ID](https://wow.tools/dbc/?dbc=gameobjectdisplayinfo) sent to the client.
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 Object's name
 &nbsp;
 

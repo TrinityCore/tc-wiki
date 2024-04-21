@@ -14,7 +14,7 @@ dateCreated: 2022-12-19T18:38:47.737Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
 | [AbilityVerb_lang](#abilityverb_lang) | text |  |  | YES | NULL |  |  |
 | [AbilityAllVerb_lang](#abilityallverb_lang) | text |  |  | YES | NULL |  |  |
@@ -22,7 +22,7 @@ dateCreated: 2022-12-19T18:38:47.737Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

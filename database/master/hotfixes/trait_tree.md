@@ -14,7 +14,7 @@ dateCreated: 2022-12-19T18:40:17.337Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [TraitSystemID](#traitsystemid) | int | signed |  | NO | 0 |  |  |
 | [Unused1000_1](#unused1000_1) | int | signed |  | NO | 0 |  |  |
 | [FirstTraitNodeID](#firsttraitnodeid) | int | signed |  | NO | 0 |  |  |
@@ -26,7 +26,7 @@ dateCreated: 2022-12-19T18:40:17.337Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

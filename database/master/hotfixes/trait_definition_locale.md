@@ -14,7 +14,7 @@ dateCreated: 2022-12-19T18:39:35.669Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
 | [OverrideName_lang](#overridename_lang) | text |  |  | YES | NULL |  |  |
 | [OverrideSubtext_lang](#overridesubtext_lang) | text |  |  | YES | NULL |  |  |
@@ -23,7 +23,7 @@ dateCreated: 2022-12-19T18:39:35.669Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

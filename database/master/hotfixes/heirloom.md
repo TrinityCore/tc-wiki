@@ -15,7 +15,7 @@ dateCreated: 2021-08-30T09:54:55.514Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [SourceText](#sourcetext) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [ItemID](#itemid) | int | signed |  | NO | 0 |  |  |
 | [LegacyUpgradedItemID](#legacyupgradeditemid) | int | signed |  | NO | 0 |  |  |
 | [StaticUpgradedItemID](#staticupgradeditemid) | int | signed |  | NO | 0 |  |  |
@@ -42,7 +42,7 @@ dateCreated: 2021-08-30T09:54:55.514Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

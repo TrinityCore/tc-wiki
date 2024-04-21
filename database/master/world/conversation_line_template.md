@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:29:35.885Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Id](#id) | int | unsigned | PRI | NO |  |  |  |
+| [Id](#id-alt) | int | unsigned | PRI | NO |  |  |  |
 | [UiCameraID](#uicameraid) | int | unsigned |  | NO | 0 |  |  |
 | [ActorIdx](#actoridx) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T09:29:35.885Z
 &nbsp;
 ## Description of fields
 
-### Id
+### Id <!-- {#id-alt} -->
 Unique ID for a line in a conversation.
 Reference: [ConversationLine.db2](https://wow.tools/dbc/?dbc=conversationline){target=_blank}
 &nbsp;

@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T07:44:16.220Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO |  |  |  |
+| [id](#id-alt) | int | unsigned | PRI | NO |  |  |  |
 | [playerGuid](#playerguid) | bigint | unsigned |  | NO |  |  |  |
 | [note](#note) | text |  |  | NO |  |  |  |
 | [createTime](#createtime) | bigint | signed |  | NO | 0 |  |  |
@@ -29,7 +29,7 @@ dateCreated: 2021-08-30T07:44:16.220Z
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

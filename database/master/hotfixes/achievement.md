@@ -17,7 +17,7 @@ dateCreated: 2021-08-30T09:48:17.676Z
 | [Description](#description) | text |  |  | YES | NULL |  |  |
 | [Title](#title) | text |  |  | YES | NULL |  |  |
 | [Reward](#reward) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [InstanceID](#instanceid) | smallint | signed |  | NO | 0 |  |  |
 | [Faction](#faction) | tinyint | signed |  | NO | 0 |  |  |
 | [Supercedes](#supercedes) | smallint | signed |  | NO | 0 |  |  |
@@ -47,7 +47,7 @@ dateCreated: 2021-08-30T09:48:17.676Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

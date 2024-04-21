@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T09:48:28.247Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
-| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
+| [Name](#name-alt) | text |  |  | YES | NULL |  |  |
 | [Description](#description) | text |  |  | YES | NULL |  |  |
 | [ButtonText](#buttontext) | text |  |  | YES | NULL |  |  |
 | [RewardDescription](#rewarddescription) | text |  |  | YES | NULL |  |  |
@@ -43,11 +43,11 @@ dateCreated: 2021-08-30T09:48:28.247Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 

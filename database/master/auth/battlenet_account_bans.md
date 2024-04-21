@@ -14,7 +14,7 @@ dateCreated: 2021-08-20T15:28:44.730Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO | 0 |  | Account id |
+| [id](#id-alt) | int | unsigned | PRI | NO | 0 |  | Account id |
 | [bandate](#bandate) | int | unsigned | PRI | NO | 0 |  |  |
 | [unbandate](#unbandate) | int | unsigned |  | NO | 0 |  |  |
 | [bannedby](#bannedby) | varchar(50) |  |  | NO |  |  |  |
@@ -22,7 +22,7 @@ dateCreated: 2021-08-20T15:28:44.730Z
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 The battlenet account ID. See [battlenet_accounts.id](/database/master/auth/battlenet_accounts#id).
 &nbsp;
 

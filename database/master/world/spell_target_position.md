@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:37:21.892Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [EffectIndex](#effectindex) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [MapID](#mapid) | smallint | unsigned |  | NO | 0 |  |  |
 | [PositionX](#positionx) | float |  |  | NO | 0 |  |  |
@@ -25,7 +25,7 @@ dateCreated: 2021-08-30T09:37:21.892Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 references [Spell ID](https://wow.tools/dbc/?dbc=spell)
 &nbsp;
 

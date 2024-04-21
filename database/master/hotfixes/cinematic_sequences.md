@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:51:58.316Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [SoundID](#soundid) | int | unsigned |  | NO | 0 |  |  |
 | [Camera1](#camera1) | smallint | unsigned |  | NO | 0 |  |  |
 | [Camera2](#camera2) | smallint | unsigned |  | NO | 0 |  |  |
@@ -28,7 +28,7 @@ dateCreated: 2021-08-30T09:51:58.316Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

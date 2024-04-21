@@ -14,7 +14,7 @@ dateCreated: 2022-12-19T18:38:15.461Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [GossipNpcOption](#gossipnpcoption) | int | signed |  | NO | 0 |  |  |
 | [LFGDungeonsID](#lfgdungeonsid) | int | signed |  | NO | 0 |  |  |
 | [TrainerID](#trainerid) | int | signed |  | NO | 0 |  |  |
@@ -34,7 +34,7 @@ dateCreated: 2022-12-19T18:38:15.461Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

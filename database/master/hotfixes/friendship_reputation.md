@@ -17,7 +17,7 @@ dateCreated: 2021-08-30T09:53:39.185Z
 | [Description](#description) | text |  |  | YES | NULL |  |  |
 | [StandingModified](#standingmodified) | text |  |  | YES | NULL |  |  |
 | [StandingChanged](#standingchanged) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [FactionID](#factionid) | int | signed |  | NO | 0 |  |  |
 | [TextureFileID](#texturefileid) | int | signed |  | NO | 0 |  |  |
 | [Flags](#flags) | int | signed |  | NO | 0 |  |  |
@@ -37,7 +37,7 @@ dateCreated: 2021-08-30T09:53:39.185Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

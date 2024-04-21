@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T09:28:56.867Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [PortLocID](#portlocid) | int | unsigned |  | NO | 0 |  |  |
-| [Name](#name) | mediumtext |  | MUL | YES | NULL |  |  |
+| [Name](#name-alt) | mediumtext |  | MUL | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 This is the trigger identifier from [AreaTrigger.db2](https://wow.tools/dbc/?dbc=areatrigger){target=_blank}.
 &nbsp;
 
@@ -28,7 +28,7 @@ This is the trigger identifier from [AreaTrigger.db2](https://wow.tools/dbc/?dbc
 This is the ID from [world_safe_locs](/database/master/world/world_safe_locs).
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 Name of the trigger. This can be an arbitrary name, and is for descriptive purposes only.
 &nbsp;
 

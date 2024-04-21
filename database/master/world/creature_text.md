@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T09:30:31.760Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [CreatureID](#creatureid) | int | unsigned | PRI | NO | 0 |  |  |
 | [GroupID](#groupid) | tinyint | unsigned | PRI | NO | 0 |  |  |
-| [ID](#id) | tinyint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [Text](#text) | mediumtext |  |  | NO |  |  |  |
 | [Type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Language](#language) | tinyint | signed |  | NO | 0 |  |  |
@@ -57,7 +57,7 @@ Example from Stormwind City Guard, creature 68:
 | 68 | 5 | 7 | My family was wiped out by the Scourge! MONSTER! |
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 Entry for each group of texts. This is the unique identifier when entry (creature) is the same and groupid is unchanged, it must be incremented (ex. 0, 1, 2, 3...). A creature say will be randomly selected from this list based on the groupid it belongs to.
 &nbsp;
 

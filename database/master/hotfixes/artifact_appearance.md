@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T09:48:59.916Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Name](#name) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [Name](#name-alt) | text |  |  | YES | NULL |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [ArtifactAppearanceSetID](#artifactappearancesetid) | smallint | unsigned |  | NO | 0 |  |  |
 | [DisplayIndex](#displayindex) | tinyint | unsigned |  | NO | 0 |  |  |
 | [UnlockPlayerConditionID](#unlockplayerconditionid) | int | unsigned |  | NO | 0 |  |  |
@@ -34,11 +34,11 @@ dateCreated: 2021-08-30T09:48:59.916Z
 &nbsp;
 ## Description of fields
 
-### Name
+### Name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

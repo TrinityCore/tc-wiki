@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:52:11.547Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
 | [ItemID1](#itemid1) | mediumint | unsigned |  | NO | 0 |  |  |
 | [ItemID2](#itemid2) | mediumint | unsigned |  | NO | 0 |  |  |
 | [ItemID3](#itemid3) | mediumint | unsigned |  | NO | 0 |  |  |
@@ -27,7 +27,7 @@ dateCreated: 2021-08-30T09:52:11.547Z
 | [DisplayIDProbability2](#displayidprobability2) | float |  |  | NO | 0 |  |  |
 | [DisplayIDProbability3](#displayidprobability3) | float |  |  | NO | 0 |  |  |
 | [DisplayIDProbability4](#displayidprobability4) | float |  |  | NO | 0 |  |  |
-| [Name](#name) | mediumtext |  |  | NO |  |  |  |
+| [Name](#name-alt) | mediumtext |  |  | NO |  |  |  |
 | [FemaleName](#femalename) | mediumtext |  |  | NO |  |  |  |
 | [SubName](#subname) | mediumtext |  |  | NO |  |  |  |
 | [FemaleSubName](#femalesubname) | mediumtext |  |  | NO |  |  |  |
@@ -39,7 +39,7 @@ dateCreated: 2021-08-30T09:52:11.547Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 
@@ -91,7 +91,7 @@ dateCreated: 2021-08-30T09:52:11.547Z
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 

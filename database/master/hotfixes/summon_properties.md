@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T10:02:34.005Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Control](#control) | int | signed |  | NO | 0 |  |  |
 | [Faction](#faction) | int | signed |  | NO | 0 |  |  |
 | [Title](#title) | int | signed |  | NO | 0 |  |  |
@@ -25,7 +25,7 @@ dateCreated: 2021-08-30T10:02:34.005Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

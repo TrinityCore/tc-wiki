@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:54:50.336Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Red](#red) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Blue](#blue) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Green](#green) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -22,7 +22,7 @@ dateCreated: 2021-08-30T09:54:50.336Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

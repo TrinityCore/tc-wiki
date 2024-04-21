@@ -14,14 +14,14 @@ dateCreated: 2021-08-30T09:37:34.783Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Id](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [Id](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Type](#type) | tinyint | unsigned |  | NO | 2 |  |  |
 | [Greeting](#greeting) | mediumtext |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
-### Id
+### Id <!-- {#id-alt} -->
 For trainer, this field signifies a unique trainer ID. It is to this ID that all spells are tied to in [`trainer_spell`](/database/master/world/trainer_spell) table.
 &nbsp;
 

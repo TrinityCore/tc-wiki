@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:36:10.897Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Id](#id) | int | unsigned | PRI | NO |  |  |  |
+| [Id](#id-alt) | int | unsigned | PRI | NO |  |  |  |
 | [DifficultyID](#difficultyid) | int | signed | PRI | NO | 0 |  |  |
 | [CategoryId](#categoryid) | int | unsigned |  | NO | 0 |  |  |
 | [Dispel](#dispel) | int | unsigned |  | NO | 0 |  |  |
@@ -98,7 +98,7 @@ dateCreated: 2021-08-30T09:36:10.897Z
 &nbsp;
 ## Description of fields
 
-### Id
+### Id <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

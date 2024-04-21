@@ -17,7 +17,7 @@ dateCreated: 2021-08-30T09:48:51.972Z
 | [PosX](#posx) | float |  |  | NO | 0 |  |  |
 | [PosY](#posy) | float |  |  | NO | 0 |  |  |
 | [PosZ](#posz) | float |  |  | NO | 0 |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [ContinentID](#continentid) | smallint | signed |  | NO | 0 |  |  |
 | [PhaseUseFlags](#phaseuseflags) | int | signed |  | NO | 0 |  |  |
 | [PhaseID](#phaseid) | smallint | signed |  | NO | 0 |  |  |
@@ -47,7 +47,7 @@ dateCreated: 2021-08-30T09:48:51.972Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

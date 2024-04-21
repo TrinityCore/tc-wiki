@@ -14,11 +14,11 @@ dateCreated: 2021-11-14T19:56:20.170Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [Name](#name-alt) | text |  |  | YES | NULL |  |  |
 | [Description](#description) | text |  |  | YES | NULL |  |  |
 | [MapX](#mapx) | float |  |  | NO | 0 |  |  |
 | [MapY](#mapy) | float |  |  | NO | 0 |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [JournalInstanceID](#journalinstanceid) | smallint | unsigned |  | NO | 0 |  |  |
 | [DungeonEncounterID](#dungeonencounterid) | smallint | unsigned |  | NO | 0 |  |  |
 | [OrderIndex](#orderindex) | int | unsigned |  | NO | 0 |  |  |
@@ -31,7 +31,7 @@ dateCreated: 2021-11-14T19:56:20.170Z
 &nbsp;
 ## Description of fields
 
-### Name
+### Name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 
@@ -47,7 +47,7 @@ dateCreated: 2021-11-14T19:56:20.170Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

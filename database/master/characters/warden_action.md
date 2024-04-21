@@ -15,7 +15,7 @@ dateCreated: 2021-08-30T08:19:56.947Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [wardenId](#wardenid) | smallint | unsigned | PRI | NO |  |  |  |
-| [action](#action) | tinyint | unsigned |  | YES | NULL |  |  |
+| [action](#action-alt) | tinyint | unsigned |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 
@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T08:19:56.947Z
 *- no description -*
 &nbsp;
 
-### action
+### action <!-- {#action-alt} -->
 *- no description -*
 &nbsp;
 

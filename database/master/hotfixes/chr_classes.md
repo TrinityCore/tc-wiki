@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:51:10.105Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [Name](#name-alt) | text |  |  | YES | NULL |  |  |
 | [Filename](#filename) | text |  |  | YES | NULL |  |  |
 | [NameMale](#namemale) | text |  |  | YES | NULL |  |  |
 | [NameFemale](#namefemale) | text |  |  | YES | NULL |  |  |
@@ -24,7 +24,7 @@ dateCreated: 2021-08-30T09:51:10.105Z
 | [DisabledString](#disabledstring) | text |  |  | YES | NULL |  |  |
 | [HyphenatedNameMale](#hyphenatednamemale) | text |  |  | YES | NULL |  |  |
 | [HyphenatedNameFemale](#hyphenatednamefemale) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [CreateScreenFileDataID](#createscreenfiledataid) | int | unsigned |  | NO | 0 |  |  |
 | [SelectScreenFileDataID](#selectscreenfiledataid) | int | unsigned |  | NO | 0 |  |  |
 | [IconFileDataID](#iconfiledataid) | int | unsigned |  | NO | 0 |  |  |
@@ -57,7 +57,7 @@ dateCreated: 2021-08-30T09:51:10.105Z
 &nbsp;
 ## Description of fields
 
-### Name
+### Name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 
@@ -97,7 +97,7 @@ dateCreated: 2021-08-30T09:51:10.105Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

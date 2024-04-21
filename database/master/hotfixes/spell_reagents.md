@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T10:02:09.779Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [SpellID](#spellid) | int | signed |  | NO | 0 |  |  |
 | [Reagent1](#reagent1) | int | signed |  | NO | 0 |  |  |
 | [Reagent2](#reagent2) | int | signed |  | NO | 0 |  |  |
@@ -52,7 +52,7 @@ dateCreated: 2021-08-30T10:02:09.779Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

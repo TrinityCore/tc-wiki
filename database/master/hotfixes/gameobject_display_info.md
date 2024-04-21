@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:53:44.412Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [GeoBoxMinX](#geoboxminx) | float |  |  | NO | 0 |  |  |
 | [GeoBoxMinY](#geoboxminy) | float |  |  | NO | 0 |  |  |
 | [GeoBoxMinZ](#geoboxminz) | float |  |  | NO | 0 |  |  |
@@ -32,7 +32,7 @@ dateCreated: 2021-08-30T09:53:44.412Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

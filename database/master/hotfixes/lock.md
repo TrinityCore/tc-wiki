@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:57:41.270Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Flags](#flags) | int | signed |  | NO | 0 |  |  |
 | [Index1](#index1) | int | signed |  | NO | 0 |  |  |
 | [Index2](#index2) | int | signed |  | NO | 0 |  |  |
@@ -52,7 +52,7 @@ dateCreated: 2021-08-30T09:57:41.270Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

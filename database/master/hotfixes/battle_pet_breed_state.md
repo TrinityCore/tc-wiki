@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:50:28.271Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [BattlePetStateID](#battlepetstateid) | int | signed |  | NO | 0 |  |  |
 | [Value](#value) | smallint | unsigned |  | NO | 0 |  |  |
 | [BattlePetBreedID](#battlepetbreedid) | int | unsigned |  | NO | 0 |  |  |
@@ -22,7 +22,7 @@ dateCreated: 2021-08-30T09:50:28.271Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

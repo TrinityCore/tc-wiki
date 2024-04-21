@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:55:51.222Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [ClassName](#classname) | text |  |  | YES | NULL |  |  |
 | [ClassID](#classid) | tinyint | signed |  | NO | 0 |  |  |
 | [PriceModifier](#pricemodifier) | float |  |  | NO | 0 |  |  |
@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T09:55:51.222Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

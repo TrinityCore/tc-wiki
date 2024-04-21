@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T10:02:44.893Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [Name](#name-alt) | text |  |  | YES | NULL |  |  |
 | [PosX](#posx) | float |  |  | NO | 0 |  |  |
 | [PosY](#posy) | float |  |  | NO | 0 |  |  |
 | [PosZ](#posz) | float |  |  | NO | 0 |  |  |
@@ -22,7 +22,7 @@ dateCreated: 2021-08-30T10:02:44.893Z
 | [MapOffsetY](#mapoffsety) | float |  |  | NO | 0 |  |  |
 | [FlightMapOffsetX](#flightmapoffsetx) | float |  |  | NO | 0 |  |  |
 | [FlightMapOffsetY](#flightmapoffsety) | float |  |  | NO | 0 |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [ContinentID](#continentid) | smallint | unsigned |  | NO | 0 |  |  |
 | [ConditionID](#conditionid) | int | signed |  | NO | 0 |  |  |
 | [CharacterBitNumber](#characterbitnumber) | smallint | unsigned |  | NO | 0 |  |  |
@@ -38,7 +38,7 @@ dateCreated: 2021-08-30T10:02:44.893Z
 &nbsp;
 ## Description of fields
 
-### Name
+### Name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 
@@ -70,7 +70,7 @@ dateCreated: 2021-08-30T10:02:44.893Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

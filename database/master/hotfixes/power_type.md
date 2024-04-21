@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T09:58:57.263Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [NameGlobalStringTag](#nameglobalstringtag) | text |  |  | YES | NULL |  |  |
 | [CostGlobalStringTag](#costglobalstringtag) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [PowerTypeEnum](#powertypeenum) | tinyint | signed |  | NO | 0 |  |  |
 | [MinPower](#minpower) | int | signed |  | NO | 0 |  |  |
 | [MaxBasePower](#maxbasepower) | int | signed |  | NO | 0 |  |  |
@@ -39,7 +39,7 @@ dateCreated: 2021-08-30T09:58:57.263Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

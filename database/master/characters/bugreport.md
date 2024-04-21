@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T07:17:06.231Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO |  | auto_increment | Identifier |
+| [id](#id-alt) | int | unsigned | PRI | NO |  | auto_increment | Identifier |
 | [type](#type) | longtext |  |  | NO |  |  |  |
 | [content](#content) | longtext |  |  | NO |  |  |  |
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

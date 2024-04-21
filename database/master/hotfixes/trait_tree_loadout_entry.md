@@ -14,7 +14,7 @@ dateCreated: 2022-12-19T18:40:23.756Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [TraitTreeLoadoutID](#traittreeloadoutid) | int | signed |  | NO | 0 |  |  |
 | [SelectedTraitNodeID](#selectedtraitnodeid) | int | signed |  | NO | 0 |  |  |
 | [SelectedTraitNodeEntryID](#selectedtraitnodeentryid) | int | signed |  | NO | 0 |  |  |
@@ -24,7 +24,7 @@ dateCreated: 2022-12-19T18:40:23.756Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

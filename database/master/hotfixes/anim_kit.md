@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:48:38.891Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [OneShotDuration](#oneshotduration) | int | unsigned |  | NO | 0 |  |  |
 | [OneShotStopAnimKitID](#oneshotstopanimkitid) | smallint | unsigned |  | NO | 0 |  |  |
 | [LowDefAnimKitID](#lowdefanimkitid) | smallint | unsigned |  | NO | 0 |  |  |
@@ -22,7 +22,7 @@ dateCreated: 2021-08-30T09:48:38.891Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

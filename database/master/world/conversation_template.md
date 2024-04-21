@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:29:38.658Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Id](#id) | int | unsigned | PRI | NO |  |  |  |
+| [Id](#id-alt) | int | unsigned | PRI | NO |  |  |  |
 | [FirstLineId](#firstlineid) | int | unsigned |  | NO |  |  |  |
 | [TextureKitId](#texturekitid) | int | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | tinyint | signed |  | NO | 0 |  |  |
@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T09:29:38.658Z
 &nbsp;
 ## Description of fields
 
-### Id
+### Id <!-- {#id-alt} -->
 Unique ID for a conversation.
 &nbsp;
 

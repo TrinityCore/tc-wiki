@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T08:18:26.637Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [id](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [character_guid](#character_guid) | bigint | unsigned | PRI | NO | 0 |  |  |
 | [quest_accept_time](#quest_accept_time) | datetime |  |  | NO |  |  |  |
 | [quest_complete_time](#quest_complete_time) | datetime |  |  | YES | NULL |  |  |
@@ -25,7 +25,7 @@ dateCreated: 2021-08-30T08:18:26.637Z
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

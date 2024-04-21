@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:52:14.276Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
 | [CreatureID](#creatureid) | mediumint | unsigned |  | NO | 0 |  |  |
 | [Flags1](#flags1) | int | unsigned |  | NO | 0 |  |  |
 | [Flags2](#flags2) | int | unsigned |  | NO | 0 |  |  |
@@ -31,7 +31,7 @@ dateCreated: 2021-08-30T09:52:14.276Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

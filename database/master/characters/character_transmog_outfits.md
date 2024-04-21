@@ -17,7 +17,7 @@ dateCreated: 2021-08-30T07:36:56.302Z
 | [guid](#guid) | bigint | signed | MUL | NO | 0 |  |  |
 | [setguid](#setguid) | bigint | signed | PRI | NO |  | auto_increment |  |
 | [setindex](#setindex) | tinyint | unsigned | MUL | NO | 0 |  |  |
-| [name](#name) | varchar(128) |  |  | NO |  |  |  |
+| [name](#name-alt) | varchar(128) |  |  | NO |  |  |  |
 | [iconname](#iconname) | varchar(256) |  |  | NO |  |  |  |
 | [ignore_mask](#ignore_mask) | int | signed |  | NO | 0 |  |  |
 | [appearance0](#appearance0) | int | signed |  | NO | 0 |  |  |
@@ -56,7 +56,7 @@ dateCreated: 2021-08-30T07:36:56.302Z
 *- no description -*
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 

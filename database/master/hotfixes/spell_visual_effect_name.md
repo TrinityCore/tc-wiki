@@ -14,7 +14,7 @@ dateCreated: 2021-12-15T19:38:52.134Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [ModelFileDataID](#modelfiledataid) | int | signed |  | NO | 0 |  |  |
 | [BaseMissileSpeed](#basemissilespeed) | float |  |  | NO | 0 |  |  |
 | [Scale](#scale) | float |  |  | NO | 0 |  |  |
@@ -34,7 +34,7 @@ dateCreated: 2021-12-15T19:38:52.134Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

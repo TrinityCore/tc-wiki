@@ -14,7 +14,7 @@ dateCreated: 2022-12-19T18:40:30.166Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Index](#index) | int | signed |  | NO | 0 |  |  |
 | [TraitTreeID](#traittreeid) | int | signed |  | NO | 0 |  |  |
 | [TraitCurrencyID](#traitcurrencyid) | int | signed |  | NO | 0 |  |  |
@@ -22,7 +22,7 @@ dateCreated: 2022-12-19T18:40:30.166Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

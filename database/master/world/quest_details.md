@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:34:54.995Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Emote1](#emote1) | smallint | unsigned |  | NO | 0 |  |  |
 | [Emote2](#emote2) | smallint | unsigned |  | NO | 0 |  |  |
 | [Emote3](#emote3) | smallint | unsigned |  | NO | 0 |  |  |
@@ -27,7 +27,7 @@ dateCreated: 2021-08-30T09:34:54.995Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 references [quest_template.ID](../world/quest_template#id)
 &nbsp;
 

@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T07:37:31.310Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
 | [account](#account) | int | unsigned | MUL | NO | 0 |  | Account Identifier |
-| [name](#name) | varchar(12) |  | MUL | NO |  |  |  |
+| [name](#name-alt) | varchar(12) |  | MUL | NO |  |  |  |
 | [slot](#slot) | tinyint | unsigned |  | NO | 0 |  |  |
 | [race](#race) | tinyint | unsigned |  | NO | 0 |  |  |
 | [class](#class) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -111,7 +111,7 @@ dateCreated: 2021-08-30T07:37:31.310Z
 *- no description -*
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 

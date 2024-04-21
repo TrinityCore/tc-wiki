@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T09:48:57.249Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Name](#name) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [Name](#name-alt) | text |  |  | YES | NULL |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [UiTextureKitID](#uitexturekitid) | smallint | unsigned |  | NO | 0 |  |  |
 | [UiNameColor](#uinamecolor) | int | signed |  | NO | 0 |  |  |
 | [UiBarOverlayColor](#uibaroverlaycolor) | int | signed |  | NO | 0 |  |  |
@@ -29,11 +29,11 @@ dateCreated: 2021-08-30T09:48:57.249Z
 &nbsp;
 ## Description of fields
 
-### Name
+### Name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

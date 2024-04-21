@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T09:54:18.891Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
-| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
+| [Name](#name-alt) | text |  |  | YES | NULL |  |  |
 | [PlotType](#plottype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [HordeConstructObjID](#hordeconstructobjid) | int | signed |  | NO | 0 |  |  |
 | [AllianceConstructObjID](#allianceconstructobjid) | int | signed |  | NO | 0 |  |  |
@@ -27,11 +27,11 @@ dateCreated: 2021-08-30T09:54:18.891Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 

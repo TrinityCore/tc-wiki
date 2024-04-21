@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:52:08.929Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [MinCorruption](#mincorruption) | float |  |  | NO | 0 |  |  |
 | [Aura](#aura) | int | signed |  | NO | 0 |  |  |
 | [PlayerConditionID](#playerconditionid) | int | signed |  | NO | 0 |  |  |
@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T09:52:08.929Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

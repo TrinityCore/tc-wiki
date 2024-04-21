@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:35:31.131Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [QuestType](#questtype) | tinyint | unsigned |  | NO | 2 |  |  |
 | [QuestPackageID](#questpackageid) | int | unsigned |  | NO | 0 |  |  |
 | [ContentTuningID](#contenttuningid) | int | unsigned |  | NO | 0 |  |  |
@@ -137,7 +137,7 @@ dateCreated: 2021-08-30T09:35:31.131Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 The quest ID. This column is the Primary Key for the Table. Each quest ID must be unique!
 &nbsp;
 

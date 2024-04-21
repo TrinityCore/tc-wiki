@@ -15,7 +15,7 @@ dateCreated: 2021-08-30T09:59:10.499Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [Description](#description) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [SpecID](#specid) | int | signed |  | NO | 0 |  |  |
 | [SpellID](#spellid) | int | signed |  | NO | 0 |  |  |
 | [OverridesSpellID](#overridesspellid) | int | signed |  | NO | 0 |  |  |
@@ -32,7 +32,7 @@ dateCreated: 2021-08-30T09:59:10.499Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

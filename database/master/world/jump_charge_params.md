@@ -14,7 +14,7 @@ dateCreated: 2021-12-15T19:39:39.401Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | signed | PRI | NO |  |  |  |
+| [id](#id-alt) | int | signed | PRI | NO |  |  |  |
 | [speed](#speed) | float |  |  | NO | 42 |  |  |
 | [treatSpeedAsMoveTimeSeconds](#treatspeedasmovetimeseconds) | tinyint(1) | signed |  | NO | 0 |  |  |
 | [jumpGravity](#jumpgravity) | float |  |  | NO | 19.2911 |  |  |
@@ -24,7 +24,7 @@ dateCreated: 2021-12-15T19:39:39.401Z
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

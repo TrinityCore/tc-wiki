@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:56:38.596Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [IconFileDataID](#iconfiledataid) | int | signed |  | NO | 0 |  |  |
 | [UnequippedIconFileDataID](#unequippediconfiledataid) | int | signed |  | NO | 0 |  |  |
 | [SheatheType](#sheathetype) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -24,7 +24,7 @@ dateCreated: 2021-08-30T09:56:38.596Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

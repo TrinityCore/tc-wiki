@@ -14,7 +14,7 @@ dateCreated: 2022-12-19T18:39:12.976Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [CondType](#condtype) | int | signed |  | NO | 0 |  |  |
 | [TraitTreeID](#traittreeid) | int | signed |  | NO | 0 |  |  |
 | [GrantedRanks](#grantedranks) | int | signed |  | NO | 0 |  |  |
@@ -33,7 +33,7 @@ dateCreated: 2022-12-19T18:39:12.976Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

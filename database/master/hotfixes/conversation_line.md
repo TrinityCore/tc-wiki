@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:52:06.305Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [BroadcastTextID](#broadcasttextid) | int | unsigned |  | NO | 0 |  |  |
 | [Unused1020](#unused1020) | int | unsigned |  | NO | 0 |  |  |
 | [SpellVisualKitID](#spellvisualkitid) | int | unsigned |  | NO | 0 |  |  |
@@ -28,7 +28,7 @@ dateCreated: 2021-08-30T09:52:06.305Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:49:54.438Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [RequiredLevel](#requiredlevel) | int | signed |  | NO | 0 |  |  |
 | [AzeritePowerID](#azeritepowerid) | int | signed |  | NO | 0 |  |  |
 | [Type](#type) | int | signed |  | NO | 0 |  |  |
@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T09:49:54.438Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

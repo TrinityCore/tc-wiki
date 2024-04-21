@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T10:01:59.099Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Param](#param) | int | signed |  | NO | 0 |  |  |
 | [Coeff](#coeff) | float |  |  | NO | 0 |  |  |
@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T10:01:59.099Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

@@ -15,7 +15,7 @@ dateCreated: 2021-08-30T09:29:41.375Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  |  |
-| [id](#id) | int | unsigned | MUL | NO | 0 |  | Creature Identifier |
+| [id](#id-alt) | int | unsigned | MUL | NO | 0 |  | Creature Identifier |
 | [map](#map) | smallint | unsigned | MUL | NO | 0 |  | Map Identifier |
 | [zoneId](#zoneid) | smallint | unsigned |  | NO | 0 |  | Zone Identifier |
 | [areaId](#areaid) | smallint | unsigned |  | NO | 0 |  | Area Identifier |
@@ -77,7 +77,7 @@ The GUID ranges are defined as followed:
 > Due to the revamp of events/holidays during the last few expansions, one subrange per expansion has been reserved to avoid leaving gaps when deleting old spawns. All holiday spawns should use this subrange.
 {.is-info}
 
-### id
+### id <!-- {#id-alt} -->
 This links to [creature_template.entry](/en/database/master/world/creature_template#entry)
 &nbsp;
 

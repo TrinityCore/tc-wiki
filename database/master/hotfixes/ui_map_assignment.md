@@ -24,7 +24,7 @@ dateCreated: 2021-08-30T10:03:32.271Z
 | [Region2X](#region2x) | float |  |  | NO | 0 |  |  |
 | [Region2Y](#region2y) | float |  |  | NO | 0 |  |  |
 | [Region2Z](#region2z) | float |  |  | NO | 0 |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [UiMapID](#uimapid) | int | signed |  | NO | 0 |  |  |
 | [OrderIndex](#orderindex) | int | signed |  | NO | 0 |  |  |
 | [MapID](#mapid) | int | signed |  | NO | 0 |  |  |
@@ -75,7 +75,7 @@ dateCreated: 2021-08-30T10:03:32.271Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

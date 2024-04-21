@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T07:29:46.627Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [id](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [entry](#entry) | int | unsigned |  | NO | 0 |  |  |
 | [owner](#owner) | bigint | unsigned | MUL | NO | 0 |  |  |
 | [modelid](#modelid) | int | unsigned |  | YES | 0 |  |  |
@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T07:29:46.627Z
 | [level](#level) | smallint | unsigned |  | NO | 1 |  |  |
 | [exp](#exp) | int | unsigned |  | NO | 0 |  |  |
 | [Reactstate](#reactstate) | tinyint | unsigned |  | NO | 0 |  |  |
-| [name](#name) | varchar(21) |  |  | NO | Pet |  |  |
+| [name](#name-alt) | varchar(21) |  |  | NO | Pet |  |  |
 | [renamed](#renamed) | tinyint | unsigned |  | NO | 0 |  |  |
 | [slot](#slot) | smallint | signed | MUL | NO | -1 |  |  |
 | [curhealth](#curhealth) | int | unsigned |  | NO | 1 |  |  |
@@ -34,7 +34,7 @@ dateCreated: 2021-08-30T07:29:46.627Z
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 
@@ -70,7 +70,7 @@ dateCreated: 2021-08-30T07:29:46.627Z
 *- no description -*
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 

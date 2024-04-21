@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:55:00.833Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Region](#region) | smallint | unsigned |  | NO | 0 |  |  |
 | [Looping](#looping) | tinyint | unsigned |  | NO | 0 |  |  |
 | [HolidayNameID](#holidaynameid) | int | unsigned |  | NO | 0 |  |  |
@@ -75,7 +75,7 @@ dateCreated: 2021-08-30T09:55:00.833Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

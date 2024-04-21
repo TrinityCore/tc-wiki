@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T09:54:02.947Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [MapOffsetX](#mapoffsetx) | float |  |  | NO | 0 |  |  |
 | [MapOffsetY](#mapoffsety) | float |  |  | NO | 0 |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [GarrBuildingID](#garrbuildingid) | tinyint | unsigned |  | NO | 0 |  |  |
 | [GarrSiteLevelPlotInstID](#garrsitelevelplotinstid) | smallint | unsigned |  | NO | 0 |  |  |
 | [UiTextureAtlasMemberID](#uitextureatlasmemberid) | smallint | unsigned |  | NO | 0 |  |  |
@@ -32,7 +32,7 @@ dateCreated: 2021-08-30T09:54:02.947Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

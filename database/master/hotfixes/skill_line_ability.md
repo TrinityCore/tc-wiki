@@ -17,7 +17,7 @@ dateCreated: 2021-08-30T10:00:27.762Z
 | [RaceMask](#racemask) | bigint | signed |  | NO | 0 |  |  |
 | [AbilityVerb](#abilityverb) | text |  |  | YES | NULL |  |  |
 | [AbilityAllVerb](#abilityallverb) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [SkillLine](#skillline) | smallint | signed |  | NO | 0 |  |  |
 | [Spell](#spell) | int | signed |  | NO | 0 |  |  |
 | [MinSkillLineRank](#minskilllinerank) | smallint | signed |  | NO | 0 |  |  |
@@ -47,7 +47,7 @@ dateCreated: 2021-08-30T10:00:27.762Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

@@ -14,7 +14,7 @@ dateCreated: 2021-11-14T20:00:48.112Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [SpellID](#spellid) | int | signed |  | NO | 0 |  |  |
 | [CurrencyTypesID](#currencytypesid) | smallint | unsigned |  | NO | 0 |  |  |
 | [CurrencyCount](#currencycount) | smallint | unsigned |  | NO | 0 |  |  |
@@ -22,7 +22,7 @@ dateCreated: 2021-11-14T20:00:48.112Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

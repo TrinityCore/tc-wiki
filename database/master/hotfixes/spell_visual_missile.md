@@ -20,7 +20,7 @@ dateCreated: 2021-12-15T19:38:58.870Z
 | [ImpactOffset1](#impactoffset1) | float |  |  | NO | 0 |  |  |
 | [ImpactOffset2](#impactoffset2) | float |  |  | NO | 0 |  |  |
 | [ImpactOffset3](#impactoffset3) | float |  |  | NO | 0 |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [SpellVisualEffectNameID](#spellvisualeffectnameid) | smallint | unsigned |  | NO | 0 |  |  |
 | [SoundEntriesID](#soundentriesid) | int | unsigned |  | NO | 0 |  |  |
 | [Attachment](#attachment) | tinyint | signed |  | NO | 0 |  |  |
@@ -64,7 +64,7 @@ dateCreated: 2021-12-15T19:38:58.870Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

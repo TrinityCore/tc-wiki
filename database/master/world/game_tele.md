@@ -14,17 +14,17 @@ dateCreated: 2021-08-30T09:31:32.965Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO |  | auto_increment |  |
+| [id](#id-alt) | int | unsigned | PRI | NO |  | auto_increment |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |
 | [orientation](#orientation) | float |  |  | NO | 0 |  |  |
 | [map](#map) | smallint | unsigned |  | NO | 0 |  |  |
-| [name](#name) | varchar(100) |  |  | NO | '' |  |  |
+| [name](#name-alt) | varchar(100) |  |  | NO | '' |  |  |
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 The ID of the teleport location. This number is unique to every location added.
 &nbsp;
 
@@ -48,7 +48,7 @@ The direction that the player will face after arriving at the teleport location.
 The map ID of the location. See the [Map.ID](https://wow.tools/dbc/?dbc=map){target=blank} for the IDs of all of the zones. This can also be attained by using the `.gps` command.
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 A descriptive name for the teleport location. The name cannot have any spaces in it. It is also not recommended to use special characters such as periods, commas, slashes, etc...
 &nbsp;
 

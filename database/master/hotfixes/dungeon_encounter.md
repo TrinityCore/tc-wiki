@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T09:53:02.098Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Name](#name) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [Name](#name-alt) | text |  |  | YES | NULL |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [MapID](#mapid) | smallint | signed |  | NO | 0 |  |  |
 | [DifficultyID](#difficultyid) | int | signed |  | NO | 0 |  |  |
 | [OrderIndex](#orderindex) | int | signed |  | NO | 0 |  |  |
@@ -28,11 +28,11 @@ dateCreated: 2021-08-30T09:53:02.098Z
 &nbsp;
 ## Description of fields
 
-### Name
+### Name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

@@ -15,8 +15,8 @@ dateCreated: 2021-08-30T07:21:30.199Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  | Character Guid |
-| [id](#id) | tinyint | unsigned | PRI | NO |  |  | Profile Id (0-4) |
-| [name](#name) | varchar(12) |  |  | NO |  |  | Profile Name |
+| [id](#id-alt) | tinyint | unsigned | PRI | NO |  |  | Profile Id (0-4) |
+| [name](#name-alt) | varchar(12) |  |  | NO |  |  | Profile Name |
 | [frameHeight](#frameheight) | smallint | unsigned |  | NO | 0 |  | Profile Frame Height |
 | [frameWidth](#framewidth) | smallint | unsigned |  | NO | 0 |  | Profile Frame Width |
 | [sortBy](#sortby) | tinyint | unsigned |  | NO | 0 |  | Frame Sort By |
@@ -35,11 +35,11 @@ dateCreated: 2021-08-30T07:21:30.199Z
 *- no description -*
 &nbsp;
 
-### id
+### id <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 

@@ -14,7 +14,7 @@ dateCreated: 2021-11-14T19:50:56.576Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [BroadcastTextID](#broadcasttextid) | int | signed |  | NO | 0 |  |  |
 | [Locale](#locale) | int | signed |  | NO | 0 |  |  |
 | [Duration](#duration) | int | signed |  | NO | 0 |  |  |
@@ -22,7 +22,7 @@ dateCreated: 2021-11-14T19:50:56.576Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

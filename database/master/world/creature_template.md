@@ -17,7 +17,7 @@ dateCreated: 2021-08-30T09:30:15.744Z
 | [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
 | [KillCredit1](#killcredit1) | int | unsigned |  | NO | 0 |  |  |
 | [KillCredit2](#killcredit2) | int | unsigned |  | NO | 0 |  |  |
-| [name](#name) | mediumtext |  |  | YES | NULL |  |  |
+| [name](#name-alt) | mediumtext |  |  | YES | NULL |  |  |
 | [femaleName](#femalename) | mediumtext |  |  | YES | NULL |  |  |
 | [subname](#subname) | mediumtext |  |  | YES | NULL |  |  |
 | [TitleAlt](#titlealt) | mediumtext |  |  | YES | NULL |  |  |
@@ -71,7 +71,7 @@ If this is a kill credit template -- one that is a dummy template that is used w
 If this is a kill credit template -- one that is a dummy template that is used when more than one creature can count as a kill in a quest, then this is a link to the second entry of the creature that could be killed to give quest credit. If more than two creatures can be killed and count toward a single objective, an smart or C++ script will be required.
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 Base name of the creature.
 &nbsp;
 

@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:56:06.895Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [ItemLevel](#itemlevel) | smallint | unsigned |  | NO | 0 |  |  |
 | [Quality1](#quality1) | float |  |  | NO | 0 |  |  |
 | [Quality2](#quality2) | float |  |  | NO | 0 |  |  |
@@ -27,7 +27,7 @@ dateCreated: 2021-08-30T09:56:06.895Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

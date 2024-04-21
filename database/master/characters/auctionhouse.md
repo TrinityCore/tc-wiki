@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T07:16:31.153Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [id](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [auctionHouseId](#auctionhouseid) | int | unsigned |  | NO | 0 |  |  |
 | [owner](#owner) | bigint | unsigned |  | NO | 0 |  |  |
 | [bidder](#bidder) | bigint | unsigned |  | NO | 0 |  |  |
@@ -28,7 +28,7 @@ dateCreated: 2021-08-30T07:16:31.153Z
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

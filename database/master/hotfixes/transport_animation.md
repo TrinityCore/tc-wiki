@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T10:03:24.311Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [PosX](#posx) | float |  |  | NO | 0 |  |  |
 | [PosY](#posy) | float |  |  | NO | 0 |  |  |
 | [PosZ](#posz) | float |  |  | NO | 0 |  |  |
@@ -25,7 +25,7 @@ dateCreated: 2021-08-30T10:03:24.311Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

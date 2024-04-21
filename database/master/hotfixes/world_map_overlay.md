@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T10:04:07.728Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [UiMapArtID](#uimapartid) | int | unsigned |  | NO | 0 |  |  |
 | [TextureWidth](#texturewidth) | smallint | unsigned |  | NO | 0 |  |  |
 | [TextureHeight](#textureheight) | smallint | unsigned |  | NO | 0 |  |  |
@@ -34,7 +34,7 @@ dateCreated: 2021-08-30T10:04:07.728Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

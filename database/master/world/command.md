@@ -14,12 +14,12 @@ dateCreated: 2021-08-30T09:29:27.863Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [name](#name) | varchar(50) |  | PRI | NO | '' |  |  |
+| [name](#name-alt) | varchar(50) |  | PRI | NO | '' |  |  |
 | [help](#help) | mediumtext |  |  | NO |  |  |  |
 &nbsp;
 ## Description of fields
 
-### name
+### name <!-- {#name-alt} -->
 The name of the command.
 &nbsp;
 

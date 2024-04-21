@@ -22,7 +22,7 @@ dateCreated: 2022-12-19T18:37:08.123Z
 | [localIdentifier](#localidentifier) | int | signed |  | YES | NULL |  |  |
 | [skillLineId](#skilllineid) | int | signed |  | YES | NULL |  |  |
 | [traitSystemId](#traitsystemid) | int | signed |  | YES | NULL |  |  |
-| [name](#name) | varchar(260) |  |  | NO | '' |  |  |
+| [name](#name-alt) | varchar(260) |  |  | NO | '' |  |  |
 &nbsp;
 ## Description of fields
 
@@ -58,7 +58,7 @@ dateCreated: 2022-12-19T18:37:08.123Z
 *- no description -*
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 

@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:58:35.336Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [NumTalents](#numtalents) | int | signed |  | NO | 0 |  |  |
 | [NumTalentsDeathKnight](#numtalentsdeathknight) | int | signed |  | NO | 0 |  |  |
 | [NumTalentsDemonHunter](#numtalentsdemonhunter) | int | signed |  | NO | 0 |  |  |
@@ -22,7 +22,7 @@ dateCreated: 2021-08-30T09:58:35.336Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

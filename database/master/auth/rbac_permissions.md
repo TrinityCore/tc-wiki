@@ -14,16 +14,16 @@ dateCreated: 2021-08-26T02:26:33.699Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO | 0 |  | Permission id |
-| [name](#name) | varchar(100) |  |  | NO |  |  | Permission name |
+| [id](#id-alt) | int | unsigned | PRI | NO | 0 |  | Permission id |
+| [name](#name-alt) | varchar(100) |  |  | NO |  |  | Permission name |
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 

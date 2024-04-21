@@ -14,12 +14,12 @@ dateCreated: 2022-09-11T09:28:04.684Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | varchar(64) |  | PRI | NO |  |  |  |
+| [ID](#id-alt) | varchar(64) |  | PRI | NO |  |  |  |
 | [Value](#value) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

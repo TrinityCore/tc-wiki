@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T08:18:41.206Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [name](#name) | varchar(12) |  | PRI | NO | '' |  |  |
+| [name](#name-alt) | varchar(12) |  | PRI | NO | '' |  |  |
 &nbsp;
 ## Description of fields
 
-### name
+### name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 

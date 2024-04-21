@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:55:06.538Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Id](#id) | int | signed | PRI | NO |  |  |  |
+| [Id](#id-alt) | int | signed | PRI | NO |  |  |  |
 | [UniqueId](#uniqueid) | int | unsigned |  | NO | 0 |  |  |
 | [TableHash](#tablehash) | int | unsigned | PRI | NO |  |  |  |
 | [RecordId](#recordid) | int | signed | PRI | NO |  |  |  |
@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T09:55:06.538Z
 &nbsp;
 ## Description of fields
 
-### Id
+### Id <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

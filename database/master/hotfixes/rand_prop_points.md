@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:59:52.943Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [DamageReplaceStatF](#damagereplacestatf) | float |  |  | NO | 0 |  |  |
 | [DamageSecondaryF](#damagesecondaryf) | float |  |  | NO | 0 |  |  |
 | [DamageReplaceStat](#damagereplacestat) | int | signed |  | NO | 0 |  |  |
@@ -53,7 +53,7 @@ dateCreated: 2021-08-30T09:59:52.943Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

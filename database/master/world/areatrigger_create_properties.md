@@ -14,7 +14,7 @@ dateCreated: 2021-11-14T20:12:34.174Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Id](#id) | int | unsigned | PRI | NO |  |  |  |
+| [Id](#id-alt) | int | unsigned | PRI | NO |  |  |  |
 | [IsCustom](#iscustom) | tinyint | unsigned | PRI | NO |  |  |  |
 | [AreaTriggerId](#areatriggerid) | int | unsigned |  | NO |  |  |  |
 | [IsAreatriggerCustom](#isareatriggercustom) | tinyint | unsigned |  | NO |  |  |  |
@@ -42,7 +42,7 @@ dateCreated: 2021-11-14T20:12:34.174Z
 &nbsp;
 ## Description of fields
 
-### Id
+### Id <!-- {#id-alt} -->
 This ID is the MiscValue of spells with effect `SPELL_EFFECT_CREATE_AREATRIGGER`, `SPELL_EFFECT_183` or EffectAura `SPELL_AURA_AREA_TRIGGER`, which spawn areatrigger entities.
 May also be arbitrary id if `IsCustom` field is set.
 &nbsp;

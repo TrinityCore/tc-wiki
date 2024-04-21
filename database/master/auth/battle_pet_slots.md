@@ -14,14 +14,14 @@ dateCreated: 2021-08-25T23:56:57.316Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | tinyint | signed | PRI | NO |  |  |  |
+| [id](#id-alt) | tinyint | signed | PRI | NO |  |  |  |
 | [battlenetAccountId](#battlenetaccountid) | int | signed | PRI | NO |  |  |  |
 | [battlePetGuid](#battlepetguid) | bigint | signed |  | NO |  |  |  |
 | [locked](#locked) | tinyint | signed |  | NO | 1 |  |  |
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

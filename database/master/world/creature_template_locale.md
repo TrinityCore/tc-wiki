@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T09:30:21.440Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
-| [Name](#name) | mediumtext |  |  | YES | NULL |  |  |
+| [Name](#name-alt) | mediumtext |  |  | YES | NULL |  |  |
 | [NameAlt](#namealt) | mediumtext |  |  | YES | NULL |  |  |
 | [Title](#title) | mediumtext |  |  | YES | NULL |  |  |
 | [TitleAlt](#titlealt) | mediumtext |  |  | YES | NULL |  |  |
@@ -43,7 +43,7 @@ This entry must be the same as [creature_template.entry](/database/master/world/
 |zhTW|Chinese (Taiwan/Traditional)|
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 Translated content for [creature_template.name](/database/master/world/creature_template#name) field
 &nbsp;
 

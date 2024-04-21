@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:53:17.984Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [RaceID](#raceid) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ClassID](#classid) | tinyint | unsigned |  | NO | 0 |  |  |
 | [SexID](#sexid) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -24,7 +24,7 @@ dateCreated: 2021-08-30T09:53:17.984Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

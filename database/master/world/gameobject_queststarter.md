@@ -14,13 +14,13 @@ dateCreated: 2021-08-30T09:31:53.728Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [id](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [quest](#quest) | int | unsigned | PRI | NO | 0 |  | Quest Identifier |
 | [VerifiedBuild](#verifiedbuild) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 The template ID of the game object. See [`gameobject_template.entry`](/database/master/world/gameobject_template#entry)
 &nbsp;
 

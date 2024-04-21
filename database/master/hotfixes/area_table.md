@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:48:46.638Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [ZoneName](#zonename) | text |  |  | YES | NULL |  |  |
 | [AreaName](#areaname) | text |  |  | YES | NULL |  |  |
 | [ContinentID](#continentid) | smallint | unsigned |  | NO | 0 |  |  |
@@ -46,7 +46,7 @@ dateCreated: 2021-08-30T09:48:46.638Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

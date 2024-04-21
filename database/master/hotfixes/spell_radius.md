@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T10:02:01.851Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Radius](#radius) | float |  |  | NO | 0 |  |  |
 | [RadiusPerLevel](#radiusperlevel) | float |  |  | NO | 0 |  |  |
 | [RadiusMin](#radiusmin) | float |  |  | NO | 0 |  |  |
@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T10:02:01.851Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

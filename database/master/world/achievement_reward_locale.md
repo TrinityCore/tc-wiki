@@ -17,14 +17,14 @@ dateCreated: 2021-08-30T09:28:43.912Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
 | [Subject](#subject) | mediumtext |  |  | YES | NULL |  |  |
 | [Body](#body) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 ID from [Achievement.db2](https://wow.tools/dbc/?dbc=achievement){target=_blank}
 &nbsp;
 

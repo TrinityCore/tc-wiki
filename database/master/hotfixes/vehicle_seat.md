@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T10:03:56.626Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [AttachmentOffsetX](#attachmentoffsetx) | float |  |  | NO | 0 |  |  |
 | [AttachmentOffsetY](#attachmentoffsety) | float |  |  | NO | 0 |  |  |
 | [AttachmentOffsetZ](#attachmentoffsetz) | float |  |  | NO | 0 |  |  |
@@ -84,7 +84,7 @@ dateCreated: 2021-08-30T10:03:56.626Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

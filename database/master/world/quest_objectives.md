@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:35:05.275Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [QuestID](#questid) | int | unsigned |  | NO | 0 |  |  |
 | [Type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Order](#order) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -29,7 +29,7 @@ dateCreated: 2021-08-30T09:35:05.275Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

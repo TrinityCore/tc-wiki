@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T09:50:44.144Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [Text](#text) | text |  |  | YES | NULL |  |  |
 | [Text1](#text1) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [LanguageID](#languageid) | int | signed |  | NO | 0 |  |  |
 | [ConditionID](#conditionid) | int | signed |  | NO | 0 |  |  |
 | [EmotesID](#emotesid) | smallint | unsigned |  | NO | 0 |  |  |
@@ -43,7 +43,7 @@ dateCreated: 2021-08-30T09:50:44.144Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

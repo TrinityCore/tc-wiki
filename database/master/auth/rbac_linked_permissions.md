@@ -14,12 +14,12 @@ dateCreated: 2021-08-26T02:24:40.840Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO |  |  | Permission id |
+| [id](#id-alt) | int | unsigned | PRI | NO |  |  | Permission id |
 | [linkedId](#linkedid) | int | unsigned | PRI | NO |  |  | Linked Permission id |
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

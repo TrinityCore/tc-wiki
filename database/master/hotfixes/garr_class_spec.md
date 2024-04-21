@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:54:05.546Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [ClassSpec](#classspec) | text |  |  | YES | NULL |  |  |
 | [ClassSpecMale](#classspecmale) | text |  |  | YES | NULL |  |  |
 | [ClassSpecFemale](#classspecfemale) | text |  |  | YES | NULL |  |  |
@@ -26,7 +26,7 @@ dateCreated: 2021-08-30T09:54:05.546Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

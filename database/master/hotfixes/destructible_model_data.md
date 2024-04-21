@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:52:54.016Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [State0ImpactEffectDoodadSet](#state0impacteffectdoodadset) | tinyint | signed |  | NO | 0 |  |  |
 | [State0AmbientDoodadSet](#state0ambientdoodadset) | tinyint | unsigned |  | NO | 0 |  |  |
 | [State1Wmo](#state1wmo) | int | signed |  | NO | 0 |  |  |
@@ -41,7 +41,7 @@ dateCreated: 2021-08-30T09:52:54.016Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

@@ -15,7 +15,7 @@ dateCreated: 2021-08-30T09:29:49.778Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [CreatureID](#creatureid) | int | unsigned | PRI | NO | 0 |  |  |
-| [ID](#id) | tinyint | unsigned | PRI | NO | 1 |  |  |
+| [ID](#id-alt) | tinyint | unsigned | PRI | NO | 1 |  |  |
 | [ItemID1](#itemid1) | int | unsigned |  | NO | 0 |  |  |
 | [AppearanceModID1](#appearancemodid1) | smallint | unsigned |  | NO | 0 |  |  |
 | [ItemVisual1](#itemvisual1) | smallint | unsigned |  | NO | 0 |  |  |
@@ -33,7 +33,7 @@ dateCreated: 2021-08-30T09:29:49.778Z
 The direct corresponding id in creature table or entry in creature_template table.
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 An additional identifier for each individual entry, enabling multiple equipment for one creature entry. Counter **must** start with 1 and grow accordingly.
 &nbsp;
 

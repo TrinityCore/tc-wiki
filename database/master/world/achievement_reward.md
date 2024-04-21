@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:28:41.306Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [TitleA](#titlea) | int | unsigned |  | NO | 0 |  |  |
 | [TitleH](#titleh) | int | unsigned |  | NO | 0 |  |  |
 | [ItemID](#itemid) | int | unsigned |  | NO | 0 |  |  |
@@ -25,7 +25,7 @@ dateCreated: 2021-08-30T09:28:41.306Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 ID from [Achievement.db2](https://wow.tools/dbc/?dbc=achievement){target=_blank}.
 &nbsp;
 

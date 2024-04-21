@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:33:08.406Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment | Source in sniff |
 | --- | --- | --- | :---: | :---: | --- | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  | SMSG_QUERY_NPC_TEXT_RESPONSE (before 9.2.5) |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  | SMSG_QUERY_NPC_TEXT_RESPONSE (before 9.2.5) |
 | [Probability0](#probability0) | float |  |  | NO | 0 |  |  | SMSG_QUERY_NPC_TEXT_RESPONSE (before 9.2.5) |
 | [Probability1](#probability1) | float |  |  | NO | 0 |  |  | SMSG_QUERY_NPC_TEXT_RESPONSE (before 9.2.5) |
 | [Probability2](#probability2) | float |  |  | NO | 0 |  |  | SMSG_QUERY_NPC_TEXT_RESPONSE (before 9.2.5) |
@@ -35,7 +35,7 @@ dateCreated: 2021-08-30T09:33:08.406Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 This is the ID of the text entry.
 
 > Since patch 9.2.5, the SMSG_GOSSIP_MESSAGE system uses BroadcastTextID instead of TextID (CMSG_QUERY_NPC_TEXT) so that neither the ID nor the probabilities can be obtained.

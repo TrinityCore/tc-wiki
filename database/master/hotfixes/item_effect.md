@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:56:14.851Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [LegacySlotIndex](#legacyslotindex) | tinyint | unsigned |  | NO | 0 |  |  |
 | [TriggerType](#triggertype) | tinyint | signed |  | NO | 0 |  |  |
 | [Charges](#charges) | smallint | signed |  | NO | 0 |  |  |
@@ -27,7 +27,7 @@ dateCreated: 2021-08-30T09:56:14.851Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

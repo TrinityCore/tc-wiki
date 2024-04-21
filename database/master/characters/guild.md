@@ -15,7 +15,7 @@ dateCreated: 2021-08-30T07:45:23.393Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guildid](#guildid) | bigint | unsigned | PRI | NO | 0 |  |  |
-| [name](#name) | varchar(24) |  |  | NO | '' |  |  |
+| [name](#name-alt) | varchar(24) |  |  | NO | '' |  |  |
 | [leaderguid](#leaderguid) | bigint | unsigned |  | NO | 0 |  |  |
 | [EmblemStyle](#emblemstyle) | tinyint | unsigned |  | NO | 0 |  |  |
 | [EmblemColor](#emblemcolor) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -33,7 +33,7 @@ dateCreated: 2021-08-30T07:45:23.393Z
 *- no description -*
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 

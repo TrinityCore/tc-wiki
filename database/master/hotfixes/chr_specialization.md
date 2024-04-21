@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T09:51:50.145Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Name](#name) | text |  |  | YES | NULL |  |  |
+| [Name](#name-alt) | text |  |  | YES | NULL |  |  |
 | [FemaleName](#femalename) | text |  |  | YES | NULL |  |  |
 | [Description](#description) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [ClassID](#classid) | tinyint | signed |  | NO | 0 |  |  |
 | [OrderIndex](#orderindex) | tinyint | signed |  | NO | 0 |  |  |
 | [PetTalentType](#pettalenttype) | tinyint | signed |  | NO | 0 |  |  |
@@ -32,7 +32,7 @@ dateCreated: 2021-08-30T09:51:50.145Z
 &nbsp;
 ## Description of fields
 
-### Name
+### Name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 
@@ -44,7 +44,7 @@ dateCreated: 2021-08-30T09:51:50.145Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

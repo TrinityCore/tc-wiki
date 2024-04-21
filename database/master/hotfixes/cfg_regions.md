@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T09:50:49.399Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Tag](#tag) | text |  |  | YES | NULL |  |  |
 | [RegionID](#regionid) | smallint | unsigned |  | NO | 0 |  |  |
 | [Raidorigin](#raidorigin) | int | unsigned |  | NO | 0 |  |  |
@@ -24,7 +24,7 @@ dateCreated: 2021-08-30T09:50:49.399Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

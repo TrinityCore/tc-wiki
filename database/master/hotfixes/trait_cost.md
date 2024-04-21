@@ -15,7 +15,7 @@ dateCreated: 2022-12-19T18:39:16.246Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [InternalName](#internalname) | text |  |  | YES | NULL |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Amount](#amount) | int | signed |  | NO | 0 |  |  |
 | [TraitCurrencyID](#traitcurrencyid) | int | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
@@ -26,7 +26,7 @@ dateCreated: 2022-12-19T18:39:16.246Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

@@ -14,7 +14,7 @@ dateCreated: 2022-02-06T20:19:54.449Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [AttachModelFileID](#attachmodelfileid) | int | signed |  | NO | 0 |  |  |
 | [TextureVariationFileID1](#texturevariationfileid1) | int | signed |  | NO | 0 |  |  |
 | [TextureVariationFileID2](#texturevariationfileid2) | int | signed |  | NO | 0 |  |  |
@@ -23,7 +23,7 @@ dateCreated: 2022-02-06T20:19:54.449Z
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

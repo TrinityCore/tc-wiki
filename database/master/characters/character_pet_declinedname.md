@@ -14,7 +14,7 @@ dateCreated: 2021-08-30T07:30:06.447Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [id](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [owner](#owner) | int | unsigned | MUL | NO | 0 |  |  |
 | [genitive](#genitive) | varchar(12) |  |  | NO | '' |  |  |
 | [dative](#dative) | varchar(12) |  |  | NO | '' |  |  |
@@ -24,7 +24,7 @@ dateCreated: 2021-08-30T07:30:06.447Z
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

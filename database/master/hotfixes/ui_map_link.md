@@ -18,7 +18,7 @@ dateCreated: 2021-08-30T10:03:35.007Z
 | [UiMinY](#uiminy) | float |  |  | NO | 0 |  |  |
 | [UiMaxX](#uimaxx) | float |  |  | NO | 0 |  |  |
 | [UiMaxY](#uimaxy) | float |  |  | NO | 0 |  |  |
-| [ID](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [ParentUiMapID](#parentuimapid) | int | signed |  | NO | 0 |  |  |
 | [OrderIndex](#orderindex) | int | signed |  | NO | 0 |  |  |
 | [ChildUiMapID](#childuimapid) | int | signed |  | NO | 0 |  |  |
@@ -46,7 +46,7 @@ dateCreated: 2021-08-30T10:03:35.007Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 
