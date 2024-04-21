@@ -20,7 +20,7 @@ dateCreated: 2021-08-30T22:00:30.288Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | int | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
 | [account](#account) | int | unsigned | MUL | NO | 0 |  | Account Identifier |
-| [name](#name) | varchar(12) |  | MUL | NO |  |  |  |
+| [name](#name-alt) | varchar(12) |  | MUL | NO |  |  |  |
 | [race](#race) | tinyint | unsigned |  | NO | 0 |  |  |
 | [class](#class) | tinyint | unsigned |  | NO | 0 |  |  |
 | [gender](#gender) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -105,7 +105,7 @@ The character global unique identifier. This number must be unique and is the be
 The [account ID](../auth/account#id) in which this character resides.
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 The name of the character.
 &nbsp;
 

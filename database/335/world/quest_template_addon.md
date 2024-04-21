@@ -16,7 +16,7 @@ Contains extra definitions like linking quests, dependencies and requirements fo
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
 | [MaxLevel](#maxlevel) | tinyint | unsigned |  | NO | 0 |  |  |
 | [AllowableClasses](#allowableclasses) | int | unsigned |  | NO | 0 |  |  |
 | [SourceSpellID](#sourcespellid) | mediumint | unsigned |  | NO | 0 |  |  |
@@ -37,7 +37,7 @@ Contains extra definitions like linking quests, dependencies and requirements fo
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 references [quest_template.ID](../world/quest_template#id)
 &nbsp;
 

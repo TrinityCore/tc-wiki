@@ -16,7 +16,7 @@ Stores achievement data that is missing in [Achievement.dbc](/files/DBC/335/achi
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | int | unsigned | PRI | NO |  |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO |  |  |  |
 | [requiredFaction](#requiredfaction) | int | signed |  | NO | -1 |  |  |
 | [mapID](#mapid) | int | signed |  | NO | -1 |  |  |
 | [points](#points) | int | unsigned |  | NO | 0 |  |  |
@@ -26,7 +26,7 @@ Stores achievement data that is missing in [Achievement.dbc](/files/DBC/335/achi
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 [AchievementCriteria AchievementID](/files/DBC/335/achievement_criteria#achievementid)
 &nbsp;
 

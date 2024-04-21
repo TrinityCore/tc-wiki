@@ -16,16 +16,16 @@ Enable a trigger when player enters a city or tavern. This causes the player to 
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | mediumint | unsigned | PRI | NO | 0 |  | Identifier |
-| [name](#name) | text |  |  | YES | NULL |  |  |
+| [id](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  | Identifier |
+| [name](#name-alt) | text |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 This is the [AreaTrigger ID](/files/DBC/335/areatrigger#id).
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 Name of the city or tavern. This is purely for descriptive purposes.
 &nbsp;
 

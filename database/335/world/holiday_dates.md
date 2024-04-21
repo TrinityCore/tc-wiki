@@ -16,14 +16,14 @@ This table is used to extend the values of [Holidays](/files/DBC/335/holidays). 
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO |  |  |  |
+| [id](#id-alt) | int | unsigned | PRI | NO |  |  |  |
 | [date_id](#date_id) | tinyint | unsigned | PRI | NO |  |  |  |
 | [date_value](#date_value) | int | unsigned |  | NO |  |  |  |
 | [holiday_duration](#holiday_duration) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 references [HolidayID](/files/DBC/335/holidays#id)
 &nbsp;
 

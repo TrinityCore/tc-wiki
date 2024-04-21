@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T22:09:09.695Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entryorguid](#entryorguid) | int | signed | PRI | NO |  |  |  |
 | [source_type](#source_type) | tinyint | unsigned | PRI | NO | 0 |  |  |
-| [id](#id) | smallint | unsigned | PRI | NO | 0 |  |  |
+| [id](#id-alt) | smallint | unsigned | PRI | NO | 0 |  |  |
 | [link](#link) | smallint | unsigned | PRI | NO | 0 |  |  |
 | [event_type](#event) | tinyint | unsigned |  | NO | 0 |  |  |
 | [event_phase_mask](#event_phase_mask) | smallint | unsigned |  | NO | 0 |  |  |
@@ -80,7 +80,7 @@ What type to script:
 
 &nbsp;
 
-### id
+### id <!-- {#id-alt} -->
 Incremental id bound to each **entryorguid** + **source_type** (0, 1, 2, ...).
 &nbsp;
 
@@ -1910,7 +1910,7 @@ Sets if the event should not repeat or should only happen in a given instance/du
 
 &nbsp;
 
-### action
+### action <!-- {#action-alt} -->
 ### Tabset {.tabset}
 #### None (0)
 No action.

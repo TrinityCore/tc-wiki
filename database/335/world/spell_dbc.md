@@ -16,7 +16,7 @@ Structurally similar to the [Spell.dbc](/files/DBC/335/spell) file, this table h
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Id](#id) | int | unsigned | PRI | NO |  |  |  |
+| [Id](#id-alt) | int | unsigned | PRI | NO |  |  |  |
 | [Dispel](#dispel) | int | unsigned |  | NO | 0 |  |  |
 | [Mechanic](#mechanic) | int | unsigned |  | NO | 0 |  |  |
 | [Attributes](#attributes) | int | unsigned |  | NO | 0 |  |  |
@@ -115,7 +115,7 @@ Structurally similar to the [Spell.dbc](/files/DBC/335/spell) file, this table h
 &nbsp;
 ## Description of fields
 
-### Id
+### Id <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

@@ -19,7 +19,7 @@ dateCreated: 2021-08-30T22:00:57.718Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guildid](#guildid) | int | unsigned | PRI | NO | 0 |  |  |
-| [name](#name) | varchar(24) |  |  | NO | '' |  |  |
+| [name](#name-alt) | varchar(24) |  |  | NO | '' |  |  |
 | [leaderguid](#leaderguid) | int | unsigned |  | NO | 0 |  |  |
 | [EmblemStyle](#emblemstyle) | tinyint | unsigned |  | NO | 0 |  |  |
 | [EmblemColor](#emblemcolor) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -37,7 +37,7 @@ dateCreated: 2021-08-30T22:00:57.718Z
 The ID of the guild. This number is unique to each guild and is the main method to identify a guild.
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 The guild's name.
 &nbsp;
 

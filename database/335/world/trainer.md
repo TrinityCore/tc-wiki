@@ -16,7 +16,7 @@ This table contains all the trainer entries.
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Id](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [Id](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Type](#type) | tinyint | unsigned |  | NO | 2 |  |  |
 | [Requirement](#type) | mediumint | unsigned |  | NO | 0 |  |  |
 | [Greeting](#greeting) | text |  |  | YES | NULL |  |  |
@@ -24,7 +24,7 @@ This table contains all the trainer entries.
 &nbsp;
 ## Description of fields
 
-### Id
+### Id <!-- {#id-alt} -->
 For trainer, this field signifies a unique trainer ID. It is to this ID that all spells are tied to in [`trainer_spell`](../world/trainer_spell).
 &nbsp;
 

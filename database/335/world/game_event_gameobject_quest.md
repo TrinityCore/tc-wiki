@@ -17,7 +17,7 @@ This table holds information on quests that should only be available when an eve
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [eventEntry](#evententry) | tinyint | unsigned | PRI | NO |  |  | Entry of the game event |
-| [id](#id) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [id](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
 | [quest](#quest) | mediumint | unsigned | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -26,7 +26,7 @@ This table holds information on quests that should only be available when an eve
 refers to [game_event.eventEntry](../world/game_event/#evententry)
 &nbsp;
 
-### id
+### id <!-- {#id-alt} -->
 The [gameobject_template.entry](../world/gameobject_template#entry) of the quest giving object.
 &nbsp;
 

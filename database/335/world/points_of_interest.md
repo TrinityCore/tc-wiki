@@ -18,18 +18,18 @@ e.g.: When asking a City Guard for the location of a trainer.
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
 | [PositionX](#positionx) | float |  |  | NO | 0 |  |  |
 | [PositionY](#positiony) | float |  |  | NO | 0 |  |  |
 | [Icon](#icon) | mediumint | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | mediumint | unsigned |  | NO | 0 |  |  |
 | [Importance](#importance) | mediumint | unsigned |  | NO | 0 |  |  |
-| [Name](#name) | text |  |  | NO |  |  |  |
+| [Name](#name-alt) | text |  |  | NO |  |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 Unique id to be referenced by the scripting system to display the POI.
 &nbsp;
 
@@ -89,7 +89,7 @@ excerpt from [`enum Poi_Icon`](https://github.com/TrinityCore/TrinityCore/blob/3
 *unknown / just sent to client*
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 Text of the onMouseover tooltip for the **Icon**.
 &nbsp;
 

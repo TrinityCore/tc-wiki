@@ -21,7 +21,7 @@ dateCreated: 2021-08-30T21:59:12.388Z
 | [guid](#guid) | int | unsigned | PRI | NO | 0 |  |  |
 | [spec](#spec) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [button](#button) | tinyint | unsigned | PRI | NO | 0 |  |  |
-| [action](#action) | int | unsigned |  | NO | 0 |  |  |
+| [action](#action-alt) | int | unsigned |  | NO | 0 |  |  |
 | [type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -59,7 +59,7 @@ Possible Values:
 ### type
 The type of action
 
-### action
+### action <!-- {#action-alt} -->
 The content of **action** depends on the **type**
 
 | type | Flag | Name | Comment | action |

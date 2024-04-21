@@ -20,7 +20,7 @@ All other transport types have their frame time read from [TransportAnimation](/
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | int | unsigned | PRI | NO |  | auto_increment |  |
 | [entry](#entry) | mediumint | unsigned | UNI | NO | 0 |  |  |
-| [name](#name) | text |  |  | YES | NULL |  |  |
+| [name](#name-alt) | text |  |  | YES | NULL |  |  |
 | [ScriptName](#scriptname) | char(64) |  |  | NO | '' |  |  |
 &nbsp;
 ## Description of fields
@@ -33,7 +33,7 @@ Unique identifier for transport. When adding a new one, simply use the `max(guid
 This is the [gameobject entry](../world/gameobject_template#entry) to be used for this transport. It must be of type GAMEOBJECT_TYPE_MO_TRANSPORT (15).
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 This is an arbitrary name that is only used to describe this transport entry.
 &nbsp;
 

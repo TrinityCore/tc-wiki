@@ -18,12 +18,12 @@ dateCreated: 2021-08-30T21:58:35.334Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [name](#name) | varchar(120) |  | PRI | NO | '' |  |  |
+| [name](#name-alt) | varchar(120) |  | PRI | NO | '' |  |  |
 | [crc](#crc) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
-### name
+### name <!-- {#name-alt} -->
 Blizzard addon name. Should look like "Blizzard_AchievementUI"
 &nbsp;
 

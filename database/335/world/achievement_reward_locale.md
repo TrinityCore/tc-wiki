@@ -14,14 +14,14 @@ dateCreated: 2021-08-30T22:02:41.230Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
 | [Locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
 | [Subject](#subject) | text |  |  | YES | NULL |  |  |
 | [Body](#body) | text |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 references [achievement_reward](../world/achievement_reward#id)
 &nbsp;
 

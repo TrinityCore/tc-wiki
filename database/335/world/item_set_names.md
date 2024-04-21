@@ -18,7 +18,7 @@ Yes those names can be different from the actual item.
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entry](#entry) | mediumint | unsigned | PRI | NO |  |  |  |
-| [name](#name) | varchar(255) |  |  | NO | '' |  |  |
+| [name](#name-alt) | varchar(255) |  |  | NO | '' |  |  |
 | [InventoryType](#inventorytype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
 &nbsp;
@@ -28,7 +28,7 @@ Yes those names can be different from the actual item.
 An [item_template.entry](../world/item_template#entry) that must be present in [ItemSet](/files/DBC/335/itemset)
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 Name to be displayed
 &nbsp;
 

@@ -16,7 +16,7 @@ This table holds player created events.
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | bigint | unsigned | PRI | NO | 0 |  |  |
+| [id](#id-alt) | bigint | unsigned | PRI | NO | 0 |  |  |
 | [creator](#creator) | int | unsigned |  | NO | 0 |  |  |
 | [title](#title) | varchar(255) |  |  | NO | '' |  |  |
 | [description](#description) | varchar(255) |  |  | NO | '' |  |  |
@@ -28,7 +28,7 @@ This table holds player created events.
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 The GUID of the event.
 &nbsp;
 

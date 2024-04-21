@@ -16,7 +16,7 @@ This table holds coordinate information on where the player should be teleported
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | mediumint | unsigned | PRI | NO | 0 |  | Identifier |
+| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  | Identifier |
 | [EffectIndex](#effectindex) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [MapID](#mapid) | smallint | unsigned |  | NO | 0 |  |  |
 | [PositionX](#positionx) | float |  |  | NO | 0 |  |  |
@@ -27,7 +27,7 @@ This table holds coordinate information on where the player should be teleported
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 references [Spell ID](/files/DBC/335/spell#id)
 &nbsp;
 

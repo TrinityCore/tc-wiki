@@ -17,7 +17,7 @@ This table contains all the equipment combinations that can be set for each crea
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [CreatureID](#creatureid) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [ID](#id) | tinyint | unsigned | PRI | NO | 1 |  |  |
+| [ID](#id-alt) | tinyint | unsigned | PRI | NO | 1 |  |  |
 | [ItemID1](#itemid1) | mediumint | unsigned |  | NO | 0 |  |  |
 | [ItemID2](#itemid2) | mediumint | unsigned |  | NO | 0 |  |  |
 | [ItemID3](#itemid3) | mediumint | unsigned |  | NO | 0 |  |  |
@@ -29,7 +29,7 @@ This table contains all the equipment combinations that can be set for each crea
 The immediate corresponding entryid to [creature_template](../world/creature_template#entry) table.
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 An additional identifier for each individual entry, enabling multiple equipments for one creature entry. Counter **must** start with 1 and increment accordingly.
 &nbsp;
 

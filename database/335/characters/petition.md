@@ -20,7 +20,7 @@ dateCreated: 2021-08-30T22:01:58.984Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ownerguid](#ownerguid) | int | unsigned | PRI | NO |  |  |  |
 | [petitionguid](#petitionguid) | int | unsigned |  | YES | 0 |  |  |
-| [name](#name) | varchar(24) |  |  | NO |  |  |  |
+| [name](#name-alt) | varchar(24) |  |  | NO |  |  |  |
 | [type](#type) | tinyint | unsigned | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -33,7 +33,7 @@ The [character guid](../characters/characters#guid) of the owner that is trying 
 The [guid](../characters/item_instance#guid) of the charter item.
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 The name of the guild or arena team that the player is petitioning for.
 &nbsp;
 

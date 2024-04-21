@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T22:05:36.191Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entry](#entry) | mediumint | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
-| [name](#name) | text |  |  | YES | NULL |  |  |
+| [name](#name-alt) | text |  |  | YES | NULL |  |  |
 | [castBarCaption](#castbarcaption) | text |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
 &nbsp;
@@ -42,7 +42,7 @@ dateCreated: 2021-08-30T22:05:36.191Z
 
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 *- no description -*
 &nbsp;
 

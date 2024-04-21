@@ -18,7 +18,7 @@ dateCreated: 2021-08-30T22:01:21.703Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [id](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [map](#map) | smallint | unsigned | MUL | NO | 0 |  |  |
 | [resettime](#resettime) | bigint | unsigned | MUL | NO | 0 |  |  |
 | [difficulty](#difficulty) | tinyint | unsigned | MUL | NO | 0 |  |  |
@@ -27,7 +27,7 @@ dateCreated: 2021-08-30T22:01:21.703Z
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 The instance ID. This number is unique to every instance.
 &nbsp;
 

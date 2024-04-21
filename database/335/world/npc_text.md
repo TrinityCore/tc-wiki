@@ -16,7 +16,7 @@ This table contains the texts that are used for gossip. More research needs to b
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
 | [text0_0](#text0-7_0) | longtext |  |  | YES | NULL |  |  |
 | [text0_1](#text0-7_1) | longtext |  |  | YES | NULL |  |  |
 | [BroadcastTextID0](#broadcasttextid0-7) | mediumint | signed |  | NO | 0 |  |  |
@@ -109,7 +109,7 @@ This table contains the texts that are used for gossip. More research needs to b
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 This is the ID of the text entry.
 &nbsp;
 

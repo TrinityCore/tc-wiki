@@ -18,7 +18,7 @@ dateCreated: 2021-08-30T22:01:45.503Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO | 0 |  | Identifier |
+| [id](#id-alt) | int | unsigned | PRI | NO | 0 |  | Identifier |
 | [messageType](#messagetype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [stationery](#stationery) | tinyint | signed |  | NO | 41 |  |  |
 | [mailTemplateId](#mailtemplateid) | smallint | unsigned |  | NO | 0 |  |  |
@@ -35,7 +35,7 @@ dateCreated: 2021-08-30T22:01:45.503Z
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 This field contains the unique ID across all messages.
 &nbsp;
 

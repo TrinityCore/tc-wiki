@@ -19,7 +19,7 @@ dateCreated: 2021-08-30T22:02:25.427Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [wardenId](#wardenid) | smallint | unsigned | PRI | NO |  |  |  |
-| [action](#action) | tinyint | unsigned |  | YES | NULL |  |  |
+| [action](#action-alt) | tinyint | unsigned |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 
@@ -27,7 +27,7 @@ dateCreated: 2021-08-30T22:02:25.427Z
 references [warden_checks.id](../world/warden_checks#id)
 &nbsp;
 
-### action
+### action <!-- {#action-alt} -->
 [`enum WardenActions`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Warden/WardenCheckMgr.h#L28-L33)
 | ID | Name |
 |----|------|

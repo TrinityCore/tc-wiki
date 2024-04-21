@@ -16,8 +16,8 @@ Contains all the teleport triggers definition. This table is used to complete .d
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [Name](#name) | text |  | MUL | YES | NULL |  |  |
+| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [Name](#name-alt) | text |  | MUL | YES | NULL |  |  |
 | [target_map](#target_map) | smallint | unsigned |  | NO | 0 |  |  |
 | [target_position_x](#target_position_x) | float |  |  | NO | 0 |  |  |
 | [target_position_y](#target_position_y) | float |  |  | NO | 0 |  |  |
@@ -27,11 +27,11 @@ Contains all the teleport triggers definition. This table is used to complete .d
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 This is the [AreaTrigger ID](/files/DBC/335/areatrigger#id).
 &nbsp;
 
-### Name
+### Name <!-- {#name-alt} -->
 Name of the trigger. This can be an arbitrary name, and is for descriptive purposes only.
 &nbsp;
 

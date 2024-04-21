@@ -16,12 +16,12 @@ Table used to group spells for varius checks in the core. One spell may be added
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [id](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [spell_id](#spell_id) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 Arbitrary ID defining a group of spells. For custom made DB groups, it is required to be higher than 1000, as defined in SpellMgr.h.
 > #define SPELL_GROUP_DB_RANGE_MIN 1000
 {.is-info}

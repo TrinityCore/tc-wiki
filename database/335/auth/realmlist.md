@@ -18,8 +18,8 @@ dateCreated: 2021-08-30T21:58:11.484Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO |  | auto_increment |  |
-| [name](#name) | varchar(32) |  | UNI | NO | '' |  |  |
+| [id](#id-alt) | int | unsigned | PRI | NO |  | auto_increment |  |
+| [name](#name-alt) | varchar(32) |  | UNI | NO | '' |  |  |
 | [address](#address) | varchar(255) |  |  | NO | 127.0.0.1 |  |  |
 | [localAddress](#localaddress) | varchar(255) |  |  | NO | 127.0.0.1 |  |  |
 | [localSubnetMask](#localsubnetmask) | varchar(255) |  |  | NO | 255.255.255.0 |  |  |
@@ -33,11 +33,11 @@ dateCreated: 2021-08-30T21:58:11.484Z
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 The realm ID. This number is unique for every realm and it MUST correlate with the RealmID configuration value in worldserver.conf.
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 The name of the realm. This will appear in the realm selection list as well as in the character selection screen.
 &nbsp;
 

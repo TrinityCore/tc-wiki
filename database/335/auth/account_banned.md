@@ -18,7 +18,7 @@ dateCreated: 2021-08-30T21:57:40.058Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO | 0 |  | Account id |
+| [id](#id-alt) | int | unsigned | PRI | NO | 0 |  | Account id |
 | [bandate](#bandate) | int | unsigned | PRI | NO | 0 |  |  |
 | [unbandate](#unbandate) | int | unsigned |  | NO | 0 |  |  |
 | [bannedby](#bannedby) | varchar(50) |  |  | NO |  |  |  |
@@ -27,7 +27,7 @@ dateCreated: 2021-08-30T21:57:40.058Z
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 references [account.id](../auth/account#id)
 &nbsp;
 

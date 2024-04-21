@@ -16,7 +16,7 @@ This table contains data related to the use of the anti-cheat tool Warden, which
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | smallint | unsigned | PRI | NO |  | auto_increment |  |
+| [id](#id-alt) | smallint | unsigned | PRI | NO |  | auto_increment |  |
 | [type](#type) | tinyint | unsigned |  | YES | NULL |  |  |
 | [str](#str) | varchar(170) |  |  | YES | NULL |  |  |
 | [address](#address) | int | unsigned |  | YES | NULL |  |  |
@@ -27,7 +27,7 @@ This table contains data related to the use of the anti-cheat tool Warden, which
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 Unique ID, automatically incremented by 1
 &nbsp;
 

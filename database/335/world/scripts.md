@@ -23,7 +23,7 @@ This table format is used for 3 different tables to control possible scripts act
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | mediumint | unsigned |  | NO | 0 |  |  |
+| [id](#id-alt) | mediumint | unsigned |  | NO | 0 |  |  |
 | [effIndex](#effindex) ^\[1]^ | tinyint | unsigned |  | NO | 0 |  |  |
 | [delay](#delay) | int | unsigned |  | NO | 0 |  |  |
 | [command](#command) | mediumint | unsigned |  | NO | 0 |  |  |
@@ -41,7 +41,7 @@ This table format is used for 3 different tables to control possible scripts act
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 * `spell_scripts`: [Spell ID](/files/DBC/335/spell#id)
 * `waypoint_scripts`: action ID from [waypoint_data](../world/waypoint_data#action)
 * `event_scripts`: an event ID. There doesn't exist currently a full list of events. In any case, the event IDs are taken directly from gameobject WDB data or spell effect data. If both a gameobject and a spell activate the same event, the IDs will match.

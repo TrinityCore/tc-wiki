@@ -19,7 +19,7 @@ dateCreated: 2021-08-30T22:02:06.932Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | bigint | unsigned | PRI | NO |  | auto_increment |  |
+| [id](#id-alt) | bigint | unsigned | PRI | NO |  | auto_increment |  |
 | [winner_faction](#winner_faction) | tinyint | signed |  | NO |  |  |  |
 | [bracket_id](#bracket_id) | tinyint | unsigned |  | NO |  |  |  |
 | [type](#type) | tinyint | unsigned |  | NO |  |  |  |
@@ -27,7 +27,7 @@ dateCreated: 2021-08-30T22:02:06.932Z
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 An unique value which identifies a pvpstats record.
 &nbsp;
 

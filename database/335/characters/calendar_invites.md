@@ -16,7 +16,7 @@ This table holds player event attendance.
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | bigint | unsigned | PRI | NO | 0 |  |  |
+| [id](#id-alt) | bigint | unsigned | PRI | NO | 0 |  |  |
 | [event](#event) | bigint | unsigned |  | NO | 0 |  |  |
 | [invitee](#invitee) | int | unsigned |  | NO | 0 |  |  |
 | [sender](#sender) | int | unsigned |  | NO | 0 |  |  |
@@ -27,7 +27,7 @@ This table holds player event attendance.
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 The GUID of the invite.
 &nbsp;
 

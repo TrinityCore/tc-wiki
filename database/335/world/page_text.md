@@ -16,14 +16,14 @@ This table holds the text for letter items or any items that when moused-over tu
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
 | [Text](#text) | longtext |  |  | NO |  |  |  |
 | [NextPageID](#nextpageid) | mediumint | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 The ID of the text in the page. This number is unique to every text entry.
 &nbsp;
 

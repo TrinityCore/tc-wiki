@@ -18,7 +18,7 @@ dateCreated: 2021-08-30T21:58:16.838Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [name](#name) | varchar(200) |  | PRI | NO |  |  | filename with extension of the update. |
+| [name](#name-alt) | varchar(200) |  | PRI | NO |  |  | filename with extension of the update. |
 | [hash](#hash) | char(40) |  |  | YES | '' |  | sha1 hash of the sql file. |
 | [state](#state) | enum(<br />'RELEASED',<br />'ARCHIVED') |  |  | NO | RELEASED |  | defines if an update is released or archived. |
 | [timestamp](#timestamp) | timestamp |  |  | NO | CURRENT_TIMESTAMP | DEFAULT_GENERATED | timestamp when the query was applied. |
@@ -26,7 +26,7 @@ dateCreated: 2021-08-30T21:58:16.838Z
 &nbsp;
 ## Description of fields
 
-### name
+### name <!-- {#name-alt} -->
 Filename with extension of the update.
 &nbsp;
 

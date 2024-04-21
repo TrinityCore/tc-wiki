@@ -20,7 +20,7 @@ Holds scripts that can be activated by spells with effect:
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | mediumint | unsigned |  | NO | 0 |  |  |
+| [id](#id-alt) | mediumint | unsigned |  | NO | 0 |  |  |
 | [effIndex](#effindex) | tinyint | unsigned |  | NO | 0 |  |  |
 | [delay](#delay) | int | unsigned |  | NO | 0 |  |  |
 | [command](#command) | mediumint | unsigned |  | NO | 0 |  |  |
@@ -35,7 +35,7 @@ Holds scripts that can be activated by spells with effect:
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

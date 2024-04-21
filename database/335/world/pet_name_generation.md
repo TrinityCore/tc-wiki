@@ -16,14 +16,14 @@ This table holds pieces of names (first and last half) that are use for pet name
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | mediumint | unsigned | PRI | NO |  | auto_increment |  |
+| [id](#id-alt) | mediumint | unsigned | PRI | NO |  | auto_increment |  |
 | [word](#word) | tinytext |  |  | NO |  |  |  |
 | [entry](#entry) | mediumint | unsigned |  | NO | 0 |  |  |
 | [half](#half) | tinyint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 The ID of the entry. This is an auto increment field and this is an arbitrary number. When adding entries it is best to just let the database pick the next available ID number.
 &nbsp;
 

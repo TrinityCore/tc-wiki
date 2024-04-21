@@ -18,7 +18,7 @@ This table holds all the speech text (whisper, say, yell, emote text in speech b
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [CreatureID](#creatureid) | mediumint | unsigned | PRI | NO | 0 |  |  |
 | [GroupID](#groupid) | tinyint | unsigned | PRI | NO | 0 |  |  |
-| [ID](#id) | tinyint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [Text](#text) | longtext |  |  | YES | NULL |  |  |
 | [Type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Language](#language) | tinyint | signed |  | NO | 0 |  |  |
@@ -40,7 +40,7 @@ This is the [creature_template.entry](../world/creature_template#entry) to which
 If there is more than one of the same entry (more than one text the creature says), this column is used to choose if it is a random say or an ordered list. If a creature has got more than one say text to be shown in a given order, it must be incremented for each new matching entry (ex. 0, 1, 2, 3...). If there is only one entry or only one group, this value should be 0. If there are multiple groups of texts, this value stays the same within the group while the id increments within the same group.
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 Entry for each group of texts. This is the unique identifier when entry (creature) is the same and **GroupID** is unchanged, it must be incremented (ex. 0, 1, 2, 3...). A creature say will be randomly selected from this list based on the groupid it belongs to.
 &nbsp;
 

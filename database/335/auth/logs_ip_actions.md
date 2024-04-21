@@ -18,7 +18,7 @@ dateCreated: 2021-08-30T21:57:55.797Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO |  | auto_increment | Unique Identifier |
+| [id](#id-alt) | int | unsigned | PRI | NO |  | auto_increment | Unique Identifier |
 | [account_id](#account_id) | int | unsigned |  | NO |  |  | Account ID |
 | [character_guid](#character_guid) | bigint | unsigned |  | NO |  |  | Character Guid |
 | [realm_id](#realm_id) | int | unsigned |  | NO | 0 |  | Realm ID |
@@ -31,7 +31,7 @@ dateCreated: 2021-08-30T21:57:55.797Z
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 Unique log enumerator
 &nbsp;
 

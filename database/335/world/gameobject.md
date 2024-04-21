@@ -17,7 +17,7 @@ Contains individual gameobject spawn data. Spawn of an object is an instance of 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | int | unsigned | PRI | NO |  | auto_increment | Global Unique Identifier |
-| [id](#id) | mediumint | unsigned |  | NO | 0 |  | Gameobject Identifier |
+| [id](#id-alt) | mediumint | unsigned |  | NO | 0 |  | Gameobject Identifier |
 | [map](#map) | smallint | unsigned |  | NO | 0 |  | Map Identifier |
 | [zoneId](#zoneid) | smallint | unsigned |  | NO | 0 |  | Zone Identifier |
 | [areaId](#areaid) | smallint | unsigned |  | NO | 0 |  | Area Identifier |
@@ -46,7 +46,7 @@ A unique identifier given to each gameobject to distinguish one from another.
 
 &nbsp;
 
-### id
+### id <!-- {#id-alt} -->
 The [entry](../world/gameobject_template#entry) of the template that is used when instantiating this gameobject.
 &nbsp;
 

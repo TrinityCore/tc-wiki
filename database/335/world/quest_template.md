@@ -16,7 +16,7 @@ Contains all basic definitions of available quests.
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
 | [QuestType](#questtype) | tinyint | unsigned |  | NO | 2 |  |  |
 | [QuestLevel](#questlevel) | smallint | signed |  | NO | 1 |  |  |
 | [MinLevel](#minlevel) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -124,7 +124,7 @@ Contains all basic definitions of available quests.
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 The quest ID. This column is the Primary Key for the Table. Each quest ID must be unique!
 &nbsp;
 

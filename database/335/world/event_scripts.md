@@ -18,7 +18,7 @@ Holds scripts activated whenever an event is activated, be it by an object or as
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | mediumint | unsigned |  | NO | 0 |  |  |
+| [id](#id-alt) | mediumint | unsigned |  | NO | 0 |  |  |
 | [delay](#delay) | int | unsigned |  | NO | 0 |  |  |
 | [command](#command) | mediumint | unsigned |  | NO | 0 |  |  |
 | [datalong](#datalong) | mediumint | unsigned |  | NO | 0 |  |  |
@@ -32,7 +32,7 @@ Holds scripts activated whenever an event is activated, be it by an object or as
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

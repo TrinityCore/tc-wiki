@@ -20,7 +20,7 @@ All the values are from sniffs (ADBVerified) so, don't add things in it - Kinzco
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
 | [LanguageID](#languageid) | mediumint | unsigned |  | NO | 0 |  |  |
 | [Text](#text) | longtext |  |  | YES | NULL |  |  |
 | [Text1](#text1) | longtext |  |  | YES | NULL |  |  |
@@ -37,7 +37,7 @@ All the values are from sniffs (ADBVerified) so, don't add things in it - Kinzco
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 Self description.
 &nbsp;
 

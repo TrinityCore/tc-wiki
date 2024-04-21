@@ -18,7 +18,7 @@ dateCreated: 2021-08-30T21:59:50.131Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [id](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [entry](#entry) | int | unsigned |  | NO | 0 |  |  |
 | [owner](#owner) | int | unsigned | MUL | NO | 0 |  |  |
 | [modelid](#modelid) | int | unsigned |  | YES | 0 |  |  |
@@ -27,7 +27,7 @@ dateCreated: 2021-08-30T21:59:50.131Z
 | [level](#level) | smallint | unsigned |  | NO | 1 |  |  |
 | [exp](#exp) | int | unsigned |  | NO | 0 |  |  |
 | [Reactstate](#reactstate) | tinyint | unsigned |  | NO | 0 |  |  |
-| [name](#name) | varchar(21) |  |  | NO | Pet |  |  |
+| [name](#name-alt) | varchar(21) |  |  | NO | Pet |  |  |
 | [renamed](#renamed) | tinyint | unsigned |  | NO | 0 |  |  |
 | [slot](#slot) | tinyint | unsigned | MUL | NO | 0 |  |  |
 | [curhealth](#curhealth) | int | unsigned |  | NO | 1 |  |  |
@@ -38,7 +38,7 @@ dateCreated: 2021-08-30T21:59:50.131Z
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 The special pet ID. This is a unique identifier among all pets.
 &nbsp;
 
@@ -89,7 +89,7 @@ The current reaction state of the pet.
 
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 The pet's name.
 &nbsp;
 

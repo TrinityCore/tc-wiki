@@ -17,7 +17,7 @@ Used by LFG system to teleport players on specified position. This table should 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [dungeonId](#dungeonid) | int | unsigned | PRI | NO | 0 |  | Unique id from [LFGDungeons](/files/DBC/335/lfgdungeons) |
-| [name](#name) | varchar(255) |  |  | YES | NULL |  |  |
+| [name](#name-alt) | varchar(255) |  |  | YES | NULL |  |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |
@@ -30,7 +30,7 @@ Used by LFG system to teleport players on specified position. This table should 
 references [LfgDungeons ID](/files/DBC/335/lfgdungeons#id)
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 references [LfgDungeons Name](/files/DBC/335/lfgdungeons#name)
 &nbsp;
 

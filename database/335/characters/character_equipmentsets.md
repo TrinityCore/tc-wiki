@@ -21,7 +21,7 @@ dateCreated: 2021-08-30T21:59:31.038Z
 | [guid](#guid) | int | unsigned | MUL | NO | 0 |  |  |
 | [setguid](#setguid) | bigint | unsigned | PRI | NO |  | auto_increment |  |
 | [setindex](#setindex) | tinyint | unsigned | MUL | NO | 0 |  |  |
-| [name](#name) | varchar(31) |  |  | NO |  |  |  |
+| [name](#name-alt) | varchar(31) |  |  | NO |  |  |  |
 | [iconname](#iconname) | varchar(100) |  |  | NO |  |  |  |
 | [ignore_mask](#ignore_mask) | int | unsigned |  | NO | 0 |  |  |
 | [item0](#item0-18) | int | unsigned |  | NO | 0 |  |  |
@@ -58,7 +58,7 @@ First free guid.
 Set index, values from 0 to 9 are used.
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 Individual. Name is set by player.
 &nbsp;
 

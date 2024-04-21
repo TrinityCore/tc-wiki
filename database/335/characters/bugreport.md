@@ -18,13 +18,13 @@ dateCreated: 2021-08-30T21:58:53.944Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO |  | auto_increment | Identifier |
+| [id](#id-alt) | int | unsigned | PRI | NO |  | auto_increment | Identifier |
 | [type](#type) | longtext |  |  | NO |  |  |  |
 | [content](#content) | longtext |  |  | NO |  |  |  |
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 Auto generated value when records are inserted by Trinity. This id is just here to be a primary key and eases the data insertion.
 &nbsp;
 

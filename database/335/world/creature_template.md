@@ -26,7 +26,7 @@ This table contains the description of creatures. Each spawned creature is an in
 | [modelid2](#modelid1-4) | mediumint | unsigned |  | NO | 0 |  |  |
 | [modelid3](#modelid1-4) | mediumint | unsigned |  | NO | 0 |  |  |
 | [modelid4](#modelid1-4) | mediumint | unsigned |  | NO | 0 |  |  |
-| [name](#name) | char(100) |  | MUL | NO | 0 |  |  |
+| [name](#name-alt) | char(100) |  | MUL | NO | 0 |  |  |
 | [subname](#subname) | char(100) |  |  | YES | NULL |  |  |
 | [IconName](#iconname) | char(100) |  |  | YES | NULL |  |  |
 | [gossip_menu_id](#gossip_menu_id) | mediumint | unsigned |  | NO | 0 |  |  |
@@ -102,7 +102,7 @@ If more than two creatures can be killed and count toward a single objective, a 
 A random graphical model that the client applies on this creature. This is a [creature_model_info.DisplayID](../world/creature_model_info#displayid) / [CreatureDisplayInfo ID](/files/DBC/335/creaturedisplayinfo#id).
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 Base name of the creature.
 &nbsp;
 

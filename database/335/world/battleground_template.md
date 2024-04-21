@@ -16,7 +16,7 @@ Contains information about the different battlegrounds, like how many players ar
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
 | [MinPlayersPerTeam](#minplayersperteam) | smallint | unsigned |  | NO | 0 |  |  |
 | [MaxPlayersPerTeam](#maxplayersperteam) | smallint | unsigned |  | NO | 0 |  |  |
 | [MinLvl](#minlvl) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -32,7 +32,7 @@ Contains information about the different battlegrounds, like how many players ar
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 references [BattlemasterList ID](/files/DBC/335/battlemasterlist#id)
 
 | ID | Type |

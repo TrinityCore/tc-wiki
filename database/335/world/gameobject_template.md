@@ -19,7 +19,7 @@ This table contains the description of gameobjects. Each spawned object is an in
 | [entry](#entry) | mediumint | unsigned | PRI | NO | 0 |  |  |
 | [type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
 | [displayId](#displayid) | mediumint | unsigned |  | NO | 0 |  |  |
-| [name](#name) | varchar(100) |  | MUL | NO | '' |  |  |
+| [name](#name-alt) | varchar(100) |  | MUL | NO | '' |  |  |
 | [IconName](#iconname) | varchar(100) |  |  | NO | '' |  |  |
 | [castBarCaption](#castbarcaption) | varchar(100) |  |  | NO | '' |  |  |
 | [unk1](#unk1) | varchar(100) |  |  | NO | '' |  |  |
@@ -105,7 +105,7 @@ Gameobject's unique id.
 [GameObjectDisplayInfo ID](/files/DBC/335/gameobjectdisplayinfo#id) sent to the client.
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 Object's name
 &nbsp;
 

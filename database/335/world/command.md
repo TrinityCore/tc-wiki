@@ -16,12 +16,12 @@ Holds help information for commands. This table does NOT create new commands. It
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [name](#name) | varchar(50) |  | PRI | NO | '' |  |  |
+| [name](#name-alt) | varchar(50) |  | PRI | NO | '' |  |  |
 | [help](#help) | longtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 
-### name
+### name <!-- {#name-alt} -->
 The name of the command.
 &nbsp;
 

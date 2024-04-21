@@ -18,12 +18,12 @@ If there is a record in the table for a quest, then the quest will not be comple
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | mediumint | unsigned | PRI | NO | 0 |  | Identifier |
+| [id](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  | Identifier |
 | [quest](#quest) | mediumint | unsigned |  | NO | 0 |  | Quest Identifier |
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 This is the [AreaTrigger ID](/files/DBC/335/areatrigger#id).
 &nbsp;
 

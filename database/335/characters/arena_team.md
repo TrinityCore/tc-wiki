@@ -19,7 +19,7 @@ dateCreated: 2021-08-30T21:58:37.950Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [arenaTeamId](#arenateamid) | int | unsigned | PRI | NO | 0 |  |  |
-| [name](#name) | varchar(24) |  |  | NO |  |  |  |
+| [name](#name-alt) | varchar(24) |  |  | NO |  |  |  |
 | [captainGuid](#captainguid) | int | unsigned |  | NO | 0 |  |  |
 | [type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
 | [rating](#rating) | smallint | unsigned |  | NO | 0 |  |  |
@@ -40,7 +40,7 @@ dateCreated: 2021-08-30T21:58:37.950Z
 The ID of the ArenaTeam. This number is unique to each team and is the main method to identify a team.
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 Name of the Arena team
 &nbsp;
 

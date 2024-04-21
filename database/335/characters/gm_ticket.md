@@ -18,10 +18,10 @@ dateCreated: 2021-08-30T22:00:46.758Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO |  | auto_increment |  |
+| [id](#id-alt) | int | unsigned | PRI | NO |  | auto_increment |  |
 | [type](#type) | tinyint | unsigned |  | NO | 0 |  | 0 open, 1 closed, 2 character deleted |
 | [playerGuid](#playerguid) | int | unsigned |  | NO | 0 |  | Global Unique Identifier of ticket creator |
-| [name](#name) | varchar(12) |  |  | NO |  |  | Name of ticket creator |
+| [name](#name-alt) | varchar(12) |  |  | NO |  |  | Name of ticket creator |
 | [description](#description) | text |  |  | NO |  |  |  |
 | [createTime](#createtime) | int | unsigned |  | NO | 0 |  |  |
 | [mapId](#mapid) | smallint | unsigned |  | NO | 0 |  |  |
@@ -41,7 +41,7 @@ dateCreated: 2021-08-30T22:00:46.758Z
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 Unique ticket enumerator.
 &nbsp;
 
@@ -59,7 +59,7 @@ Unique ticket enumerator.
 The [guid](../characters/characters#guid) of the reporting character.
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 The [character name](../characters/characters#name), who created that ticket.
 &nbsp;
 

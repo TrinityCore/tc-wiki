@@ -18,12 +18,12 @@ dateCreated: 2021-08-30T21:58:43.350Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [id](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [bidderguid](#bidderguid) | int | unsigned | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 references [auctionhouse id](../characters/auctionhouse#id)
 &nbsp;
 

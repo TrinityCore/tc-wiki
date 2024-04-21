@@ -16,12 +16,12 @@ Holds gameobject quest giver relations. The gameobjects in this table should all
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [id](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
 | [quest](#quest) | mediumint | unsigned | PRI | NO | 0 |  | Quest Identifier |
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 The [entry](../world/gameobject_template#entry) of the gameobject starting the quest.
 &nbsp;
 

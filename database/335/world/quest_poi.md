@@ -19,7 +19,7 @@ This table manages the area and point markers for quest objectives.
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [QuestID](#questid) | int | unsigned | PRI | NO | 0 |  |  |
-| [id](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [id](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [ObjectiveIndex](#objectiveindex) | int | signed |  | NO | 0 |  |  |
 | [MapID](#mapid) | int | unsigned |  | NO | 0 |  |  |
 | [WorldMapAreaId](#worldmapareaid) | int | unsigned |  | NO | 0 |  |  |
@@ -34,7 +34,7 @@ This table manages the area and point markers for quest objectives.
 The Quest Id from [quest_template.ID](../world/quest_template#id)
 &nbsp;
 
-### id
+### id <!-- {#id-alt} -->
 Used to group multiple entries from [quest_poi_points.QuestID](../world/quest_poi_points#QuestID). It is the id of the POI.
 &nbsp;
 

@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T22:04:09.474Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [CreatureID](#creatureid) | mediumint | unsigned | PRI | NO | 0 |  |  |
 | [GroupID](#groupid) | tinyint | unsigned | PRI | NO | 0 |  |  |
-| [ID](#id) | tinyint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [Locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
 | [Text](#text) | text |  |  | YES | NULL |  |  |
 &nbsp;
@@ -30,7 +30,7 @@ dateCreated: 2021-08-30T22:04:09.474Z
 *- no description -*
 &nbsp;
 
-### ID
+### ID <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

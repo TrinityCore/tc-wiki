@@ -16,17 +16,17 @@ This table contains a list of teleport locations that can be used with the `.tel
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | mediumint | unsigned | PRI | NO |  | auto_increment |  |
+| [id](#id-alt) | mediumint | unsigned | PRI | NO |  | auto_increment |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |
 | [orientation](#orientation) | float |  |  | NO | 0 |  |  |
 | [map](#map) | smallint | unsigned |  | NO | 0 |  |  |
-| [name](#name) | varchar(100) |  |  | NO | '' |  |  |
+| [name](#name-alt) | varchar(100) |  |  | NO | '' |  |  |
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 The ID of the teleport location. This number is unique to every location added.
 &nbsp;
 
@@ -51,7 +51,7 @@ The direction that the player will face after arriving at the teleport location.
 The [Map ID](/files/DBC/335/map#id) of the location.
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 The name given to the location. The name must not have a space as this will be read in from the `.tele` command.
 &nbsp;
 

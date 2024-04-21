@@ -16,7 +16,7 @@ This table is used for quests offering rewards without any required quest items 
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
 | [Emote1](#emote1-4) | smallint | unsigned |  | NO | 0 |  |  |
 | [Emote2](#emote1-4) | smallint | unsigned |  | NO | 0 |  |  |
 | [Emote3](#emote1-4) | smallint | unsigned |  | NO | 0 |  |  |
@@ -30,7 +30,7 @@ This table is used for quests offering rewards without any required quest items 
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 references [quest_template.ID](../world/quest_template#id)
 &nbsp;
 

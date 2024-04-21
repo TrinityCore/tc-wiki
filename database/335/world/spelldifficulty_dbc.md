@@ -17,7 +17,7 @@ The id is called in the cpp script and depending on what version of the dungeon/
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO | 0 |  |  |
+| [id](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [spellid0](#spellid0) | int | unsigned |  | NO | 0 |  |  |
 | [spellid1](#spellid1) | int | unsigned |  | NO | 0 |  |  |
 | [spellid2](#spellid2) | int | unsigned |  | NO | 0 |  |  |
@@ -25,7 +25,7 @@ The id is called in the cpp script and depending on what version of the dungeon/
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 *- no description -*
 &nbsp;
 

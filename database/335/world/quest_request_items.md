@@ -19,7 +19,7 @@ This table basically handles 3 quest details:
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
 | [EmoteOnComplete](#emoteoncomplete) | smallint | unsigned |  | NO | 0 |  |  |
 | [EmoteOnIncomplete](#emoteonincomplete) | smallint | unsigned |  | NO | 0 |  |  |
 | [CompletionText](#completiontext) | text |  |  | YES | NULL |  |  |
@@ -27,7 +27,7 @@ This table basically handles 3 quest details:
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 references [quest_template.ID](../world/quest_template#id)
 &nbsp;
 

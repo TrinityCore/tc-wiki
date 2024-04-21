@@ -16,7 +16,7 @@ This table describes the reward that you will receive when you obtain a given ac
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
 | [TitleA](#titlea) | mediumint | unsigned |  | NO | 0 |  |  |
 | [TitleH](#titleh) | mediumint | unsigned |  | NO | 0 |  |  |
 | [ItemID](#itemid) | mediumint | unsigned |  | NO | 0 |  |  |
@@ -27,7 +27,7 @@ This table describes the reward that you will receive when you obtain a given ac
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 [Achievement ID](/files/DBC/335/achievement#id)
 &nbsp;
 

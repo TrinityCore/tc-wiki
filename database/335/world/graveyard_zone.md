@@ -20,14 +20,14 @@ For a list of all existing graveyard zones and their respective IDs, check out [
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
 | [GhostZone](#ghostzone) | mediumint | unsigned | PRI | NO | 0 |  |  |
 | [Faction](#faction) | smallint | unsigned |  | NO | 0 |  |  |
 | [Comment](#comment) | text |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 
-### ID
+### ID <!-- {#id-alt} -->
 references [WorldSafeLoc ID](/files/DBC/335/worldsafelocs#id)
 &nbsp;
 

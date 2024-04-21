@@ -17,7 +17,7 @@ Contains individual creature spawn data. Spawn of a creature is an instance of t
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | int | unsigned | PRI | NO |  | auto_increment | Global Unique Identifier |
-| [id](#id) | mediumint | unsigned | MUL | NO | 0 |  | Creature Identifier |
+| [id](#id-alt) | mediumint | unsigned | MUL | NO | 0 |  | Creature Identifier |
 | [map](#map) | smallint | unsigned | MUL | NO | 0 |  | Map Identifier |
 | [zoneId](#zoneid) | smallint | unsigned |  | NO | 0 |  | Zone Identifier |
 | [areaId](#areaid) | smallint | unsigned |  | NO | 0 |  | Area Identifier |
@@ -50,7 +50,7 @@ A unique identifier given to each creature to distinguish one creature from anot
 
 &nbsp;
 
-### id
+### id <!-- {#id-alt} -->
 The [entry](../world/creature_template#entry) of the template that is used when instantiating this creature.
 &nbsp;
 

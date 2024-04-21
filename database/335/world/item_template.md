@@ -21,7 +21,7 @@ Holds information on every item that exists in the game. All items are created f
 | [class](#class) | tinyint | unsigned | MUL | NO | 0 |  |  |
 | [subclass](#subclass) | tinyint | unsigned |  | NO | 0 |  |  |
 | [SoundOverrideSubclass](#soundoverridesubclass) | tinyint | signed |  | NO | -1 |  |  |
-| [name](#name) | varchar(255) |  | MUL | NO | '' |  |  |
+| [name](#name-alt) | varchar(255) |  | MUL | NO | '' |  |  |
 | [displayid](#displayid) | mediumint | unsigned |  | NO | 0 |  |  |
 | [Quality](#quality) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
@@ -238,7 +238,7 @@ Weapons have special sounds on impact. This column is used to override these sou
 For example an item with misc subclass can sound like a stave on impact by overriding the subclass here.
 &nbsp;
 
-### name
+### name <!-- {#name-alt} -->
 The name of the item.
 &nbsp;
 

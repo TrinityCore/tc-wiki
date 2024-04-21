@@ -16,7 +16,7 @@ This table contains all the path data for creatures that use waypoints.
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id) | int | unsigned | PRI | NO | 0 |  | Creature GUID |
+| [id](#id-alt) | int | unsigned | PRI | NO | 0 |  | Creature GUID |
 | [point](#point) | mediumint | unsigned | PRI | NO | 0 |  |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
@@ -24,13 +24,13 @@ This table contains all the path data for creatures that use waypoints.
 | [orientation](#orientation) | float |  |  | YES | NULL |  |  |
 | [delay](#delay) | int | unsigned |  | NO | 0 |  |  |
 | [move_type](#move_type) | int | signed |  | NO | 0 |  |  |
-| [action](#action) | int | signed |  | NO | 0 |  |  |
+| [action](#action-alt) | int | signed |  | NO | 0 |  |  |
 | [action_chance](#action_chance) | smallint | signed |  | NO | 100 |  |  |
 | [wpguid](#wpguid) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
-### id
+### id <!-- {#id-alt} -->
 Unique ID for each path.
 
 The TDB standard way of assigning an ID is to multiply [creature guid](../world/creature#guid) by 10.
@@ -75,7 +75,7 @@ Time to wait (in ms) before moving to the next point.
 
 &nbsp;
 
-### action
+### action <!-- {#action-alt} -->
 [Script ID](../world/waypoint_scripts#id) of the action to be performed.
 &nbsp;
 
