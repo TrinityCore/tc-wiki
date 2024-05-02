@@ -2,7 +2,7 @@
 title: Linux Requirements
 description: 
 published: true
-date: 2024-04-14T17:30:43.841Z
+date: 2024-05-02T11:24:43.585Z
 tags: requirements, installation, setup, linux
 editor: markdown
 dateCreated: 2021-08-14T00:09:23.038Z
@@ -76,12 +76,12 @@ update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
 {.is-info}
 
 ### Fedora based distributions (outdated)
-Tested on Fedora Server 27/28 (Fedora Workstation 27/28 should also work).
+Tested on Fedora 40
 <div class="next-codeblock-no-line-numbers"></div>
 
 ```bash
-dnf install https://dev.mysql.com/get/mysql57-community-release-fc27-1.noarch.rpm
-dnf install git clang cmake make gcc gcc-c++ community-mysql-devel compat-openssl10-devel bzip2-devel readline-devel ncurses-devel boost-devel community-mysql-server p7zip
+dnf install https://dev.mysql.com/get/mysql84-community-release-fc40-1.noarch.rpm
+dnf install git clang cmake make gcc gcc-c++ community-mysql-devel openssl-devel bzip2-devel readline-devel ncurses-devel boost-devel community-mysql-server p7zip
 rm -f /usr/bin/c++
 update-alternatives --install /usr/bin/cc cc /usr/bin/clang 100
 update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
