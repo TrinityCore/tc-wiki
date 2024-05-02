@@ -2,7 +2,7 @@
 title: Linux Requirements
 description: 
 published: true
-date: 2024-05-02T11:24:43.585Z
+date: 2024-05-02T12:48:57.153Z
 tags: requirements, installation, setup, linux
 editor: markdown
 dateCreated: 2021-08-14T00:09:23.038Z
@@ -75,7 +75,7 @@ update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
 > If you have an old Ubuntu version, follow https://help.ubuntu.com/community/Upgrades steps to upgrade it.
 {.is-info}
 
-### Fedora based distributions (outdated)
+### Fedora based distributions
 Tested on Fedora 40
 <div class="next-codeblock-no-line-numbers"></div>
 
