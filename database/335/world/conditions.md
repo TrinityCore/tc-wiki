@@ -2,7 +2,7 @@
 title: conditions
 description: 
 published: true
-date: 2024-04-17T00:08:55.427Z
+date: 2024-05-02T19:26:20.614Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:10.475Z
@@ -264,7 +264,7 @@ CONDITION_SOURCE_TYPE_SPELL_CLICK_EVENT (18)
 * **ConditionTarget**:
   * 0: Clicker
   * 1: Spellclick target
-#### Title (19)
+#### Quest (19)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_QUEST_AVAILABLE (19)
 * **SourceGroup**:
@@ -277,7 +277,7 @@ CONDITION_SOURCE_TYPE_QUEST_AVAILABLE (19)
 `0`
 
 Condition must be met for quest to be available to player.
-#### :x: Unused (20)
+#### Unused ❌&nbsp;(20)
 * **SourceTypeOrReferenceId**: 
 UNUSED (20)
 * **SourceGroup**:
@@ -340,7 +340,7 @@ CONDITION_SOURCE_TYPE_SPELL_PROC (24)
 * **ConditionTarget**:
   * 0: Actor
   * 1: ActionTarget
-#### :x: TerrainSwap (25)
+#### TerrainSwap ❌&nbsp;(25)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_TERRAIN_SWAP (25)
 * **SourceGroup**:
@@ -353,7 +353,7 @@ terrainSwap - object in terrainswap
 \-
 > RESERVED master branch
 {.is-warning}
-#### :x: Phase (26)
+#### Phase ❌&nbsp;(26)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_PHASE (26)
 * **SourceGroup**:
@@ -366,7 +366,7 @@ PhaseID
 \-
 > RESERVED master branch
 {.is-warning}
-#### :x: Graveyard (27)
+#### Graveyard ❌&nbsp;(27)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_GRAVEYARD (27)
 * **SourceGroup**:
@@ -379,7 +379,7 @@ CONDITION_SOURCE_TYPE_GRAVEYARD (27)
 \-
 > RESERVED master branch
 {.is-warning}
-#### :x: Areatrigger (28)
+#### Areatrigger ❌&nbsp;(28)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_AREATRIGGER (28)
 * **SourceGroup**:
@@ -396,7 +396,7 @@ CONDITION_SOURCE_TYPE_AREATRIGGER (28)
 
 > RESERVED master branch
 {.is-warning}
-#### :x: Conversation (29)
+#### Conversation ❌&nbsp;(29)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_CONVERSATION_LINE (29)
 * **SourceGroup**:
@@ -420,7 +420,7 @@ CONDITION_SOURCE_TYPE_AREATRIGGER_CLIENT_TRIGGERED (30)
 `0`
 * **ConditionTarget**:
 \-
-#### :x: TrainerSpell (31)
+#### TrainerSpell ❌&nbsp;(31)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_TRAINER_SPELL (31)
 * **SourceGroup**:
@@ -433,7 +433,7 @@ TrainerID
 \-
 > RESERVED master branch
 {.is-warning}
-#### :x: ObjectVisibility (32)
+#### ObjectVisibility ❌&nbsp;(32)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_OBJECT_ID_VISIBILITY (32)
 * **SourceGroup**:
@@ -448,7 +448,7 @@ ObjectType:
 \-
 > RESERVED master branch
 {.is-warning}
-#### :x: SpawnGroup (33)
+#### SpawnGroup ❌&nbsp;(33)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_SPAWN_GROUP (33)
 * **SourceGroup**:
@@ -1037,7 +1037,7 @@ Use **NegativeCondition** to test for the inverse:
 * **NegativeCondition** = 1: If target needs to be ON LAND.
 
 true if unit in water
-#### :x: TerrainSwap (41)
+#### TerrainSwap ❌&nbsp;(41)
 * **ConditionTypeOrReference**:
 CONDITION_TERRAIN_SWAP (41)
 * **ConditionValue1**:
@@ -1172,7 +1172,7 @@ canBeGM (0, 1)
 `0`
 
 true if player is gamemaster (or can be gamemaster)
-#### :x: ObjectEntry2 (51)
+#### ObjectEntry2 ❌&nbsp;(51)
 * **ConditionTypeOrReference**:
 CONDITION_OBJECT_ENTRY_GUID_MASTER (51)
 * **ConditionValue1**:
@@ -1186,7 +1186,7 @@ guid
 {.is-warning}
 
 true if object is type TypeID and the entry is 0 or matches entry of the object or matches guid of the object
-#### :x: TypeMask2 (52)
+#### TypeMask2 ❌&nbsp;(52)
 * **ConditionTypeOrReference**:
 CONDITION_TYPE_MASK_MASTER (52)
 * **ConditionValue1**:
@@ -1200,7 +1200,7 @@ TypeMask
 {.is-warning}
 
 true if object is type object's TypeMask matches provided TypeMask using master branch TypeMask
-#### :x: BattlePetCount (53)
+#### BattlePetCount ❌&nbsp;(53)
 * **ConditionTypeOrReference**:
 CONDITION_BATTLE_PET_COUNT (53)
 * **ConditionValue1**:
@@ -1214,7 +1214,7 @@ count
 {.is-warning}
 
 true if player has count of battle pet species
-#### :x: ScenarioStep (54)
+#### ScenarioStep ❌&nbsp;(54)
 * **ConditionTypeOrReference**:
 CONDITION_SCENARIO_STEP (54)
 * **ConditionValue1**:
@@ -1228,7 +1228,7 @@ cenarioStepId
 {.is-warning}
 
 true if object is at scenario with current step equal to ScenarioStepID
-#### :x: SceneProgress (55)
+#### SceneProgress ❌&nbsp;(55)
 * **ConditionTypeOrReference**:
 CONDITION_SCENE_IN_PROGRESS (55)
 * **ConditionValue1**:
@@ -1242,7 +1242,7 @@ SceneScriptPackageId
 {.is-warning}
 
 true if player is playing a scene with ScriptPackageId equal to given value
-#### :x: PlayerCondition (56)
+#### PlayerCondition ❌&nbsp;(56)
 * **ConditionTypeOrReference**:
 CONDITION_PLAYER_CONDITION (56)
 * **ConditionValue1**:
