@@ -2,7 +2,7 @@
 title: Linux Requirements
 description: 
 published: true
-date: 2024-05-02T12:48:57.153Z
+date: 2024-05-05T18:32:11.773Z
 tags: requirements, installation, setup, linux
 editor: markdown
 dateCreated: 2021-08-14T00:09:23.038Z
@@ -68,7 +68,7 @@ update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
 
 > Anything under this is not tested by TrinityCore developers.
 > 
-> **Not supported:** Debian 10 or lower. Ubuntu 20.04 or lower.
+> **Not supported:** Debian 11 or lower. Ubuntu 20.04 or lower.
 > 
 > AVOID CentOS.
 > 
