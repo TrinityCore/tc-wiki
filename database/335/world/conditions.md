@@ -2,7 +2,7 @@
 title: conditions
 description: 
 published: true
-date: 2024-05-02T19:26:20.614Z
+date: 2024-05-05T14:07:48.249Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:10.475Z
@@ -497,9 +497,9 @@ CONDITION_AURA (1)
 * **ConditionValue2**:
 Effect index (0 &ndash; 2)
 * **ConditionValue3**:
-use target?
+`0`
 
-true if player (or target, if **ConditionValue3**) has aura from spell with effect index
+true if target has aura from spell with effect index
 #### Item (2)
 * **ConditionTypeOrReference**:
 CONDITION_ITEM (2)
