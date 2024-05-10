@@ -2,7 +2,7 @@
 title: conditions
 description: 
 published: true
-date: 2024-05-05T14:07:48.249Z
+date: 2024-05-10T15:12:11.284Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:10.475Z
@@ -195,7 +195,8 @@ Mask of effects to be affected by condition:
 * **SourceId**:
 `0`
 * **ConditionTarget**:
-0: Potential spell Target
+  * 0: Potential spell Target
+  * 1: Spell caster
 
 > Don't use wowhead to get number of effects, data from wowhead sometimes doesn't match real effect number.
 {.is-info}
@@ -249,8 +250,11 @@ CONDITION_SOURCE_TYPE_SPELL (17)
   * 1: Explicit Target of the spell (only for spells which take the object selected by caster into account)
 
 This source type allows you to define caster/explicit target requirements for spell to be cast.
+
 Explicit target of the spell is the target which is selected by player during cast, not all spells take that target into account. Non-explicit targets of the spell (the ones which are selected by spell like area or nearby targets for example) are not affected by this condition source type, if you want to affect those use CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET (13) instead.
+
 If you are looking for old CONDITION_SOURCE_TYPE_ITEM_REQUIRED_TARGET, use this condition source type instead (ConditionTarget = 1 allows you to set requirements for a given spell, so to use this condition type you need spellid of the spell cast on item use).
+
 Remember that conditions with the same ElseGroup value will be used to make logical AND check, so to allow different targets for the same spell effect you have to set ElseGroup respectively.
 #### ClickEvent (18)
 * **SourceTypeOrReferenceId**:
@@ -327,7 +331,8 @@ CONDITION_SOURCE_TYPE_NPC_VENDOR (23)
 * **SourceId**:
 `0`
 * **ConditionTarget**:
-`0`
+  * 0: Player
+  * 1: Vendor
 #### SpellProc (24)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_SPELL_PROC (24)
@@ -964,7 +969,7 @@ true if object's reaction matches rankMask object specified by **ConditionTarget
 CONDITION_DISTANCE_TO (35)
 * **ConditionValue1**:
 Target to which distance is checked
-  - one of ConditionTargets available in current SourceType
+  - one of the ConditionTargets available in current SourceType
 * **ConditionValue2**:
 Distance between current **ConditionTarget** and target specified in **ConditionValue1**
 * **ConditionValue3**:
