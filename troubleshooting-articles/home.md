@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: Collection of common troubles while working with TrinityCore
 published: true
-date: 2024-05-15T09:08:55.415Z
+date: 2024-05-15T09:20:09.258Z
 tags: troubleshooting, problem
 editor: markdown
 dateCreated: 2024-05-15T07:58:53.487Z
@@ -47,7 +47,6 @@ If your issue is not listed, you may check out our social media channels to get 
   sudo ln -s /usr/local/mysql/lib/libmysqlclient.18.dylib /usr/lib/libmysqlclient.18.dylib
   ```
 </details>
-
 <details>
 <summary><h2 style="display:inline-block">Application Error: 0xc000007b</h2></summary>  
   
@@ -78,4 +77,24 @@ If your issue is not listed, you may check out our social media channels to get 
   >  1. Install the corresponding / matching 32bit (x86) Visual C++ Runtime distributable, vcredist_x86.exe to solve the issue.
     <!-- {blockquote:.is-success} -->
 
+</details>
+<details>
+<summary><h2 style="display:inline-block">src\common\Cryptography\ARC4.cpp:31 in Trinity::Crypto::ARC4::ARC4 ASSERTION FAILED:
+result == 1</h2></summary>  
+  
+  # Tabs {.tabset}
+  ## Issue
+  The following error appears when trying to login:
+  
+  ```
+  ...src\common\Cryptography\ARC4.cpp:31 in Trinity::Crypto::ARC4::ARC4 ASSERTION FAILED:
+result == 1
+  ```
+  
+  ## Solution
+  Your core has been compiled with OpenSSL 3.x. Therefor it requires legacy.dll.
+  As written in the Windows Installation guide you forgot to copy the legacy.dll from openssl to your core folder.
+
+  >  Copy your openssl legacy.dll to your core folder
+    <!-- {blockquote:.is-success} -->
 </details>
