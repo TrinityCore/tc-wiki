@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: Collection of common troubles while working with TrinityCore
 published: true
-date: 2024-05-15T08:07:27.814Z
+date: 2024-05-15T08:07:52.493Z
 tags: troubleshooting, problem
 editor: markdown
 dateCreated: 2024-05-15T07:58:53.487Z
@@ -17,8 +17,7 @@ If your issue is not listed, you may check out our social media channels to get 
 ## Error/Issue
 
 <details>
-<summary><h3 style="display:inline-block">dyld: Library not loaded: libmysqlclient.XX.dylib</h3></summary>  
-  ## dyld: Library not loaded: libmysqlclient.XX.dylib
+<summary><h2 style="display:inline-block">dyld: Library not loaded: libmysqlclient.XX.dylib</h2></summary>  
   Under macOS if you try to run the core and get the following error:
 
   ```bash
