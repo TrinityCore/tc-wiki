@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: Collection of common troubles while working with TrinityCore
 published: true
-date: 2024-05-15T09:03:55.957Z
+date: 2024-05-15T09:08:55.415Z
 tags: troubleshooting, problem
 editor: markdown
 dateCreated: 2024-05-15T07:58:53.487Z
@@ -55,11 +55,11 @@ If your issue is not listed, you may check out our social media channels to get 
   ## Issue
   The following error appears when launching worldserver.exe, authserver.exe or bnetserver.exe:
   
-   ```bash
-   Application Error
- 
-   The application was unable to start correctly (0xc000007b). Click OK to close the application.
-   ```
+  ```
+  Application Error
+  
+  The application was unable to start correctly (0xc000007b). Click OK to close the application.
+  ```
   
   ## Solution1  
   This error usually happens when mixing 32 bit and 64 bit DLLs.
@@ -73,10 +73,9 @@ If your issue is not listed, you may check out our social media channels to get 
     <!-- {blockquote:.is-success} -->
 
   ## Solution2
+  
+  > This error always occurs when you run 32bit applications on a 64bit operating system, never on 32bit operating systems.
+  >  1. Install the corresponding / matching 32bit (x86) Visual C++ Runtime distributable, vcredist_x86.exe to solve the issue.
+    <!-- {blockquote:.is-success} -->
 
-  Any content here will go into the third tab...
 </details>
-
-<div class="boxBorder">
-Your text here...
-</div>
