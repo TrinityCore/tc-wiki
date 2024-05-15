@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: Collection of common troubles while working with TrinityCore
 published: true
-date: 2024-05-15T08:32:27.509Z
+date: 2024-05-15T08:40:19.720Z
 tags: troubleshooting, problem
 editor: markdown
 dateCreated: 2024-05-15T07:58:53.487Z
@@ -55,18 +55,25 @@ If your issue is not listed, you may check out our social media channels to get 
   ## Issue
   The following error appears when launching worldserver.exe, authserver.exe or bnetserver.exe:
 
-  ```bash
-  Application Error
+  > Application Error
+  >
+  > The application was unable to start correctly (0xc000007b). Click OK to close the application.
+  {.is-danger}
 
-  The application was unable to start correctly (0xc000007b). Click OK to close the application.
-  ```
+>   ```bash
+>   Application Error
+> 
+>   The application was unable to start correctly (0xc000007b). Click OK to close the application.
+>   ```
+{.is-danger}
+
 
   ## Solution1  
   This error usually happens when mixing 32 bit and 64 bit DLLs.
   
   It means that if you compiled TC in 32 bits mode (CMake option selected was "Visual Studio 12 2013") you will need the required DLLs in 32 bits as well.
   If you compiled TC in 64 bits mode (Cmake option selected was "Visual Studio 12 2013 Win64") you need all the DLLs in 64 bits mode. 
-  
+
   ---
   1.   Make sure that the DLLs: libeay32.dll, libmysql.dll, ssleay32.dll and libzmq-v120-mt-X_X_X.dll match the compile mode you selected.
   a. Unsure if a .dll is 32 bits or 64 bits? See How to tell if .dll is 32 bits or 64 bits?.
@@ -77,4 +84,3 @@ If your issue is not listed, you may check out our social media channels to get 
 
   Any content here will go into the third tab...
 </details>
-
