@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: Collection of common troubles while working with TrinityCore
 published: true
-date: 2024-05-15T09:20:09.258Z
+date: 2024-05-15T10:00:59.941Z
 tags: troubleshooting, problem
 editor: markdown
 dateCreated: 2024-05-15T07:58:53.487Z
@@ -47,6 +47,9 @@ If your issue is not listed, you may check out our social media channels to get 
   sudo ln -s /usr/local/mysql/lib/libmysqlclient.18.dylib /usr/lib/libmysqlclient.18.dylib
   ```
 </details>
+
+---
+
 <details>
 <summary><h2 style="display:inline-block">Application Error: 0xc000007b</h2></summary>  
   
@@ -78,6 +81,9 @@ If your issue is not listed, you may check out our social media channels to get 
     <!-- {blockquote:.is-success} -->
 
 </details>
+
+---
+
 <details>
 <summary><h2 style="display:inline-block">src\common\Cryptography\ARC4.cpp:31 in Trinity::Crypto::ARC4::ARC4 ASSERTION FAILED:
 result == 1</h2></summary>  
@@ -98,3 +104,5 @@ result == 1
   >  Copy your openssl legacy.dll to your core folder
     <!-- {blockquote:.is-success} -->
 </details>
+
+---
