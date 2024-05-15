@@ -2,7 +2,7 @@
 title: characters
 description: 
 published: true
-date: 2024-02-11T19:58:02.064Z
+date: 2024-05-15T17:59:02.598Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T07:37:31.310Z
@@ -25,7 +25,21 @@ dateCreated: 2021-08-30T07:37:31.310Z
 | [xp](#xp) | int | unsigned |  | NO | 0 |  |  |
 | [money](#money) | bigint | unsigned |  | NO | 0 |  |  |
 | [inventorySlots](#inventoryslots) | tinyint | unsigned |  | NO | 16 |  |  |
+| [inventoryBagFlags](#inventorybagflags) | int | unsigned |  | NO | 0 |  |  |
+| [bagSlotFlags1](#bagslotflags1) | int | unsigned |  | NO | 0 |  |  |
+| [bagSlotFlags2](#bagslotflags2) | int | unsigned |  | NO | 0 |  |  |
+| [bagSlotFlags3](#bagslotflags3) | int | unsigned |  | NO | 0 |  |  |
+| [bagSlotFlags4](#bagslotflags4) | int | unsigned |  | NO | 0 |  |  |
+| [bagSlotFlags5](#bagslotflags5) | int | unsigned |  | NO | 0 |  |  |
 | [bankSlots](#bankslots) | tinyint | unsigned |  | NO | 0 |  |  |
+| [bankBagFlags](#bankbagflags) | int | unsigned |  | NO | 0 |  |  |
+| [bankBagSlotFlags1](#bankbagslotflags1) | int | unsigned |  | NO | 0 |  |  |
+| [bankBagSlotFlags2](#bankbagslotflags2) | int | unsigned |  | NO | 0 |  |  |
+| [bankBagSlotFlags3](#bankbagslotflags3) | int | unsigned |  | NO | 0 |  |  |
+| [bankBagSlotFlags4](#bankbagslotflags4) | int | unsigned |  | NO | 0 |  |  |
+| [bankBagSlotFlags5](#bankbagslotflags5) | int | unsigned |  | NO | 0 |  |  |
+| [bankBagSlotFlags6](#bankbagslotflags6) | int | unsigned |  | NO | 0 |  |  |
+| [bankBagSlotFlags7](#bankbagslotflags7) | int | unsigned |  | NO | 0 |  |  |
 | [restState](#reststate) | tinyint | unsigned |  | NO | 0 |  |  |
 | [playerFlags](#playerflags) | int | unsigned |  | NO | 0 |  |  |
 | [playerFlagsEx](#playerflagsex) | int | unsigned |  | NO | 0 |  |  |
@@ -147,7 +161,63 @@ dateCreated: 2021-08-30T07:37:31.310Z
 *- no description -*
 &nbsp;
 
+### inventoryBagFlags
+*- no description -*
+&nbsp;
+
+### bagSlotFlags1
+*- no description -*
+&nbsp;
+
+### bagSlotFlags2
+*- no description -*
+&nbsp;
+
+### bagSlotFlags3
+*- no description -*
+&nbsp;
+
+### bagSlotFlags4
+*- no description -*
+&nbsp;
+
+### bagSlotFlags5
+*- no description -*
+&nbsp;
+
 ### bankSlots
+*- no description -*
+&nbsp;
+
+### bankBagFlags
+*- no description -*
+&nbsp;
+
+### bankBagSlotFlags1
+*- no description -*
+&nbsp;
+
+### bankBagSlotFlags2
+*- no description -*
+&nbsp;
+
+### bankBagSlotFlags3
+*- no description -*
+&nbsp;
+
+### bankBagSlotFlags4
+*- no description -*
+&nbsp;
+
+### bankBagSlotFlags5
+*- no description -*
+&nbsp;
+
+### bankBagSlotFlags6
+*- no description -*
+&nbsp;
+
+### bankBagSlotFlags7
 *- no description -*
 &nbsp;
 

@@ -2,7 +2,7 @@
 title: item_instance
 description: 
 published: true
-date: 2022-12-19T18:37:29.501Z
+date: 2024-05-15T17:59:02.871Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T07:52:17.826Z
@@ -27,9 +27,8 @@ dateCreated: 2021-08-30T07:52:17.826Z
 | [randomBonusListId](#randombonuslistid) | int | unsigned |  | NO | 0 |  |  |
 | [durability](#durability) | smallint | unsigned |  | NO | 0 |  |  |
 | [playedTime](#playedtime) | int | unsigned |  | NO | 0 |  |  |
+| [createTime](#createtime) | bigint | signed |  | NO | 0 |  |  |
 | [text](#text) | text |  |  | YES | NULL |  |  |
-| [transmogrification](#transmogrification) | int | unsigned |  | NO | 0 |  |  |
-| [enchantIllusion](#enchantillusion) | int | unsigned |  | NO | 0 |  |  |
 | [battlePetSpeciesId](#battlepetspeciesid) | int | unsigned |  | NO | 0 |  |  |
 | [battlePetBreedData](#battlepetbreeddata) | int | unsigned |  | NO | 0 |  |  |
 | [battlePetLevel](#battlepetlevel) | smallint | unsigned |  | NO | 0 |  |  |
@@ -91,15 +90,11 @@ dateCreated: 2021-08-30T07:52:17.826Z
 *- no description -*
 &nbsp;
 
+### createTime
+*- no description -*
+&nbsp;
+
 ### text
-*- no description -*
-&nbsp;
-
-### transmogrification
-*- no description -*
-&nbsp;
-
-### enchantIllusion
 *- no description -*
 &nbsp;
 
@@ -128,4 +123,3 @@ dateCreated: 2021-08-30T07:52:17.826Z
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/characters/instance" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'instance'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/characters/item_instance_artifact" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'item_instance_artifact'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
