@@ -2,7 +2,7 @@
 title: Hotfixes
 description: 
 published: true
-date: 2024-02-11T20:02:38.761Z
+date: 2024-05-15T12:31:08.896Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-29T20:42:31.704Z
@@ -89,6 +89,7 @@ dateCreated: 2021-08-29T20:42:31.704Z
 - [cfg_categories_locale](/database/master/hotfixes/cfg_categories_locale)
 - [cfg_regions](/database/master/hotfixes/cfg_regions)
 - [challenge_mode_item_bonus_override](/database/master/hotfixes/challenge_mode_item_bonus_override)
+- [char_base_info](/database/master/hotfixes/char_base_info)
 - [char_titles](/database/master/hotfixes/char_titles)
 - [char_titles_locale](/database/master/hotfixes/char_titles_locale)
 - [character_loadout](/database/master/hotfixes/character_loadout)
@@ -392,6 +393,8 @@ dateCreated: 2021-08-29T20:42:31.704Z
 - [spell_cooldowns](/database/master/hotfixes/spell_cooldowns)
 - [spell_duration](/database/master/hotfixes/spell_duration)
 - [spell_effect](/database/master/hotfixes/spell_effect)
+- [spell_empower](/database/master/hotfixes/spell_empower)
+- [spell_empower_stage](/database/master/hotfixes/spell_empower_stage)
 - [spell_equipped_items](/database/master/hotfixes/spell_equipped_items)
 - [spell_focus_object](/database/master/hotfixes/spell_focus_object)
 - [spell_focus_object_locale](/database/master/hotfixes/spell_focus_object_locale)
@@ -492,6 +495,8 @@ dateCreated: 2021-08-29T20:42:31.704Z
 ## v
 - [vehicle](/database/master/hotfixes/vehicle)
 - [vehicle_seat](/database/master/hotfixes/vehicle_seat)
+- [vignette](/database/master/hotfixes/vignette)
+- [vignette_locale](/database/master/hotfixes/vignette_locale)
 {.links-list}
 ## w
 - [wmo_area_table](/database/master/hotfixes/wmo_area_table)

@@ -2,7 +2,7 @@
 title: adventure_journal
 description: 
 published: true
-date: 2022-11-21T21:10:17.383Z
+date: 2024-05-15T12:31:08.116Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:48:28.247Z
@@ -30,8 +30,6 @@ dateCreated: 2021-08-30T09:48:28.247Z
 | [BattleMasterListID](#battlemasterlistid) | smallint | unsigned |  | NO | 0 |  |  |
 | [PriorityMin](#prioritymin) | tinyint | unsigned |  | NO | 0 |  |  |
 | [PriorityMax](#prioritymax) | tinyint | unsigned |  | NO | 0 |  |  |
-| [ItemID](#itemid) | int | signed |  | NO | 0 |  |  |
-| [ItemQuantity](#itemquantity) | int | unsigned |  | NO | 0 |  |  |
 | [CurrencyType](#currencytype) | smallint | unsigned |  | NO | 0 |  |  |
 | [CurrencyQuantity](#currencyquantity) | int | unsigned |  | NO | 0 |  |  |
 | [UiMapID](#uimapid) | smallint | unsigned |  | NO | 0 |  |  |
@@ -104,14 +102,6 @@ dateCreated: 2021-08-30T09:48:28.247Z
 &nbsp;
 
 ### PriorityMax
-*- no description -*
-&nbsp;
-
-### ItemID
-*- no description -*
-&nbsp;
-
-### ItemQuantity
 *- no description -*
 &nbsp;
 

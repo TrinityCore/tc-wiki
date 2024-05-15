@@ -2,7 +2,7 @@
 title: content_tuning
 description: 
 published: true
-date: 2023-10-06T19:24:22.834Z
+date: 2024-05-15T12:31:08.348Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:52:01.029Z
@@ -17,6 +17,8 @@ dateCreated: 2021-08-30T09:52:01.029Z
 | [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Flags](#flags) | int | signed |  | NO | 0 |  |  |
 | [ExpansionID](#expansionid) | int | signed |  | NO | 0 |  |  |
+| [HealthItemLevelCurveID](#healthitemlevelcurveid) | int | signed |  | NO | 0 |  |  |
+| [DamageItemLevelCurveID](#damageitemlevelcurveid) | int | signed |  | NO | 0 |  |  |
 | [MinLevel](#minlevel) | int | signed |  | NO | 0 |  |  |
 | [MaxLevel](#maxlevel) | int | signed |  | NO | 0 |  |  |
 | [MinLevelType](#minleveltype) | int | signed |  | NO | 0 |  |  |
@@ -40,6 +42,14 @@ dateCreated: 2021-08-30T09:52:01.029Z
 &nbsp;
 
 ### ExpansionID
+*- no description -*
+&nbsp;
+
+### HealthItemLevelCurveID
+*- no description -*
+&nbsp;
+
+### DamageItemLevelCurveID
 *- no description -*
 &nbsp;
 

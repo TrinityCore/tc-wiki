@@ -2,7 +2,7 @@
 title: item_modified_appearance
 description: 
 published: true
-date: 2022-11-21T21:16:27.238Z
+date: 2024-05-15T12:31:08.558Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:56:35.859Z
@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T09:56:35.859Z
 | [ItemAppearanceID](#itemappearanceid) | int | signed |  | NO | 0 |  |  |
 | [OrderIndex](#orderindex) | int | signed |  | NO | 0 |  |  |
 | [TransmogSourceTypeEnum](#transmogsourcetypeenum) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -48,6 +49,10 @@ dateCreated: 2021-08-30T09:56:35.859Z
 *- no description -*
 &nbsp;
 
+### Flags
+*- no description -*
+&nbsp;
+
 ### VerifiedBuild
 This field is used by the TrinityDB Team to determine whether a template has been verified from WDB files.
 
@@ -62,4 +67,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/item_limit_category_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'item_limit_category_locale'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/item_modified_appearance_extra" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'item_modified_appearance_extra'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

@@ -2,7 +2,7 @@
 title: achievement
 description: 
 published: true
-date: 2022-11-21T21:10:09.319Z
+date: 2024-05-15T12:31:07.962Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:48:17.676Z
@@ -20,7 +20,7 @@ dateCreated: 2021-08-30T09:48:17.676Z
 | [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [InstanceID](#instanceid) | smallint | signed |  | NO | 0 |  |  |
 | [Faction](#faction) | tinyint | signed |  | NO | 0 |  |  |
-| [Supercedes](#supercedes) | smallint | signed |  | NO | 0 |  |  |
+| [Supercedes](#supercedes) | int | signed |  | NO | 0 |  |  |
 | [Category](#category) | smallint | signed |  | NO | 0 |  |  |
 | [MinimumCriteria](#minimumcriteria) | tinyint | signed |  | NO | 0 |  |  |
 | [Points](#points) | tinyint | signed |  | NO | 0 |  |  |
@@ -31,6 +31,8 @@ dateCreated: 2021-08-30T09:48:17.676Z
 | [CriteriaTree](#criteriatree) | int | unsigned |  | NO | 0 |  |  |
 | [SharesCriteria](#sharescriteria) | smallint | signed |  | NO | 0 |  |  |
 | [CovenantID](#covenantid) | int | signed |  | NO | 0 |  |  |
+| [HiddenBeforeDisplaySeason](#hiddenbeforedisplayseason) | int | signed |  | NO | 0 |  |  |
+| [LegacyAfterTimeEvent](#legacyaftertimeevent) | int | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -103,6 +105,14 @@ dateCreated: 2021-08-30T09:48:17.676Z
 *- no description -*
 &nbsp;
 
+### HiddenBeforeDisplaySeason
+*- no description -*
+&nbsp;
+
+### LegacyAfterTimeEvent
+*- no description -*
+&nbsp;
+
 ### VerifiedBuild
 This field is used by the TrinityDB Team to determine whether a template has been verified from WDB files.
 
@@ -117,4 +127,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/world_state_expression" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'world_state_expression'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/achievement_category" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'achievement_category'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
