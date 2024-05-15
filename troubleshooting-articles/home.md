@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: Collection of common troubles while working with TrinityCore
 published: true
-date: 2024-05-15T08:29:20.966Z
+date: 2024-05-15T08:29:45.852Z
 tags: troubleshooting, problem
 editor: markdown
 dateCreated: 2024-05-15T07:58:53.487Z
@@ -66,12 +66,6 @@ If your issue is not listed, you may check out our social media channels to get 
   This error usually happens when mixing 32 bit and 64 bit DLLs.
   It means that if you compiled TC in 32 bits mode (CMake option selected was "Visual Studio 12 2013") you will need the required DLLs in 32 bits as well.
   If you compiled TC in 64 bits mode (Cmake option selected was "Visual Studio 12 2013 Win64") you need all the DLLs in 64 bits mode. 
-  ---
-  **NOTE**
-
-  It works with almost all markdown flavours (the below blank line matters).
-
-  ---
 
   ## Solution2
 
