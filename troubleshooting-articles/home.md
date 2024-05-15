@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: Collection of common troubles while working with TrinityCore
 published: true
-date: 2024-05-15T08:07:52.493Z
+date: 2024-05-15T08:08:19.622Z
 tags: troubleshooting, problem
 editor: markdown
 dateCreated: 2024-05-15T07:58:53.487Z
@@ -14,7 +14,7 @@ Use the table of content to find a solution for your issues.
 
 If your issue is not listed, you may check out our social media channels to get support.
 
-## Error/Issue
+# Error/Issue
 
 <details>
 <summary><h2 style="display:inline-block">dyld: Library not loaded: libmysqlclient.XX.dylib</h2></summary>  
