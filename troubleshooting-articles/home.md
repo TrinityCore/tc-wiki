@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: Collection of common troubles while working with TrinityCore
 published: true
-date: 2024-05-15T08:29:45.852Z
+date: 2024-05-15T08:30:26.763Z
 tags: troubleshooting, problem
 editor: markdown
 dateCreated: 2024-05-15T07:58:53.487Z
@@ -53,7 +53,6 @@ If your issue is not listed, you may check out our social media channels to get 
   
   # Tabs {.tabset}
   ## Issue
-
   The following error appears when launching worldserver.exe, authserver.exe or bnetserver.exe:
 
   ```bash
@@ -62,11 +61,16 @@ If your issue is not listed, you may check out our social media channels to get 
   The application was unable to start correctly (0xc000007b). Click OK to close the application.
   ```
 
-  ## Solution1
+  ## Solution1  
   This error usually happens when mixing 32 bit and 64 bit DLLs.
+  
   It means that if you compiled TC in 32 bits mode (CMake option selected was "Visual Studio 12 2013") you will need the required DLLs in 32 bits as well.
   If you compiled TC in 64 bits mode (Cmake option selected was "Visual Studio 12 2013 Win64") you need all the DLLs in 64 bits mode. 
-
+  
+  ---
+  test
+  ---
+  
   ## Solution2
 
   Any content here will go into the third tab...
