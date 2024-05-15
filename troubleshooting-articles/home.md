@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: Collection of common troubles while working with TrinityCore
 published: true
-date: 2024-05-15T08:11:16.605Z
+date: 2024-05-15T08:20:29.901Z
 tags: troubleshooting, problem
 editor: markdown
 dateCreated: 2024-05-15T07:58:53.487Z
@@ -41,4 +41,34 @@ If your issue is not listed, you may check out our social media channels to get 
   ```bash
   sudo ln -s /usr/local/mysql/lib/libmysqlclient.18.dylib /usr/lib/libmysqlclient.18.dylib
   ```
+</details>
+
+<details>
+<summary><h2 style="display:inline-block">Application Error: 0xc000007b</h2></summary>  
+  The following error appears when launching worldserver.exe, authserver.exe or bnetserver.exe:
+
+  ```bash
+  Application Error
+
+  The application was unable to start correctly (0xc000007b). Click OK to close the application.
+  ```
+
+  # Tabs {.tabset}
+  ## Issue
+
+  The following error appears when launching worldserver.exe, authserver.exe or bnetserver.exe:
+
+  ```bash
+  Application Error
+
+  The application was unable to start correctly (0xc000007b). Click OK to close the application.
+  ```
+
+  ## Solution1
+
+  Any content here will go into the second tab...
+
+  ## Solution2
+
+  Any content here will go into the third tab...
 </details>
