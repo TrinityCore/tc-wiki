@@ -2,7 +2,7 @@
 title: World
 description: 
 published: true
-date: 2024-02-11T20:06:21.989Z
+date: 2024-05-15T17:59:53.027Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -30,6 +30,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 - [battle_pet_breeds](/database/master/world/battle_pet_breeds)
 - [battle_pet_quality](/database/master/world/battle_pet_quality)
 - [battlefield_template](/database/master/world/battlefield_template)
+- [battleground_scripts](/database/master/world/battleground_scripts)
 - [battleground_template](/database/master/world/battleground_template)
 - [battlemaster_entry](/database/master/world/battlemaster_entry)
 - [blackmarket_template](/database/master/world/blackmarket_template)
@@ -58,6 +59,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 - [creature_questender](/database/master/world/creature_questender)
 - [creature_questitem](/database/master/world/creature_questitem)
 - [creature_queststarter](/database/master/world/creature_queststarter)
+- [creature_static_flags_override](/database/master/world/creature_static_flags_override)
 - [creature_summon_groups](/database/master/world/creature_summon_groups)
 - [creature_summoned_data](/database/master/world/creature_summoned_data)
 - [creature_template](/database/master/world/creature_template)
@@ -76,6 +78,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 - [criteria_data](/database/master/world/criteria_data)
 {.links-list}
 ## d
+- [destructible_hitpoint](/database/master/world/destructible_hitpoint)
 - [disables](/database/master/world/disables)
 - [disenchant_loot_template](/database/master/world/disenchant_loot_template)
 {.links-list}

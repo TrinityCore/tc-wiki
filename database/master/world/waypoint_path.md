@@ -2,7 +2,7 @@
 title: waypoint_path
 description: 
 published: true
-date: 2024-02-17T07:25:39.034Z
+date: 2024-05-15T17:59:53.011Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2024-02-11T20:26:37.382Z
@@ -17,6 +17,7 @@ dateCreated: 2024-02-11T20:26:37.382Z
 | [PathId](#pathid) | int | unsigned | PRI | NO |  |  |  |
 | [MoveType](#movetype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Velocity](#velocity) | float |  |  | YES | NULL |  |  |
 | [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
@@ -38,6 +39,10 @@ Unique ID for each path.
 | --- | ---- |
 | 0x00 | None |
 | 0x01 | FollowPathBackwardsFromEndToStart |
+&nbsp;
+
+### Velocity
+*- no description -*
 &nbsp;
 
 ### Comment
