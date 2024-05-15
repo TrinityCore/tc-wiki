@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: Collection of common troubles while working with TrinityCore
 published: true
-date: 2024-05-15T08:48:19.137Z
+date: 2024-05-15T09:03:55.957Z
 tags: troubleshooting, problem
 editor: markdown
 dateCreated: 2024-05-15T07:58:53.487Z
@@ -67,10 +67,16 @@ If your issue is not listed, you may check out our social media channels to get 
   It means that if you compiled TC in 32 bits mode (CMake option selected was "Visual Studio 12 2013") you will need the required DLLs in 32 bits as well.
   If you compiled TC in 64 bits mode (Cmake option selected was "Visual Studio 12 2013 Win64") you need all the DLLs in 64 bits mode. 
 
-  1.   Make sure that the DLLs: libeay32.dll, libmysql.dll, ssleay32.dll and libzmq-v120-mt-X_X_X.dll match the compile mode you selected.
-  a. Unsure if a .dll is 32 bits or 64 bits? See How to tell if .dll is 32 bits or 64 bits?.
-  b. Download links to all these dependencies are available in the page Requirements.
+  >  1. Make sure that the DLLs: libeay32.dll, libmysql.dll, ssleay32.dll and libzmq-v120-mt-X_X_X.dll match the compile mode you selected.
+  > a. Unsure if a .dll is 32 bits or 64 bits? See How to tell if .dll is 32 bits or 64 bits?.
+  > b. Download links to all these dependencies are available in the page Requirements.
+    <!-- {blockquote:.is-success} -->
+
   ## Solution2
 
   Any content here will go into the third tab...
 </details>
+
+<div class="boxBorder">
+Your text here...
+</div>
