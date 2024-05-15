@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: Collection of common troubles while working with TrinityCore
 published: true
-date: 2024-05-15T08:30:26.763Z
+date: 2024-05-15T08:30:48.495Z
 tags: troubleshooting, problem
 editor: markdown
 dateCreated: 2024-05-15T07:58:53.487Z
@@ -68,7 +68,7 @@ If your issue is not listed, you may check out our social media channels to get 
   If you compiled TC in 64 bits mode (Cmake option selected was "Visual Studio 12 2013 Win64") you need all the DLLs in 64 bits mode. 
   
   ---
-  test
+    test
   ---
   
   ## Solution2
