@@ -2,7 +2,7 @@
 title: Troubleshooting
 description: Collection of common troubles while working with TrinityCore
 published: true
-date: 2024-05-15T08:21:06.035Z
+date: 2024-05-15T08:22:03.265Z
 tags: troubleshooting, problem
 editor: markdown
 dateCreated: 2024-05-15T07:58:53.487Z
@@ -17,6 +17,10 @@ If your issue is not listed, you may check out our social media channels to get 
 
 <details>
 <summary><h2 style="display:inline-block">dyld: Library not loaded: libmysqlclient.XX.dylib</h2></summary>  
+  
+  # Tabs {.tabset}
+  ## Issue
+
   Under macOS if you try to run the core and get the following error:
 
   ```bash
@@ -29,7 +33,8 @@ If your issue is not listed, you may check out our social media channels to get 
 
   This means it is looking for libmysqlclient.18.dylib file under /usr/lib/ folder but that file is not there.
 
-  ### Solution
+  ## Solution
+
   The solution is to locate that file and create a symbolic link under /usr/lib/ by typing:
 
   ```bash
