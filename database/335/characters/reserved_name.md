@@ -2,7 +2,7 @@
 title: reserved_name
 description: 
 published: true
-date: 2023-07-31T21:51:39.046Z
+date: 2024-05-16T12:09:46.379Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:02:14.903Z
@@ -22,7 +22,7 @@ dateCreated: 2021-08-30T22:02:14.903Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [name](#name-alt) | varchar(12) |  | PRI | NO | '' |  |  |
+| [name](#name-alt) | varchar(12) |  | PRI | NO |  |  |  |
 &nbsp;
 ## Description of fields
 
