@@ -2,7 +2,7 @@
 title: creature_text_locale
 description:
 published: true
-date: 2022-11-21T21:27:04.250Z
+date: 2024-05-16T11:19:32.326Z
 tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
 editor: markdown
 dateCreated: 2021-08-30T22:04:09.474Z
@@ -14,11 +14,11 @@ dateCreated: 2021-08-30T22:04:09.474Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [CreatureID](#creatureid) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [CreatureID](#creatureid) | int | unsigned | PRI | NO | 0 |  |  |
 | [GroupID](#groupid) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [ID](#id-alt) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [Locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
-| [Text](#text) | text |  |  | YES | NULL |  |  |
+| [Text](#text) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

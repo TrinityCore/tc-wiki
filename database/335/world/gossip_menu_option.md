@@ -2,7 +2,7 @@
 title: gossip_menu_option
 description: 
 published: true
-date: 2023-07-10T19:53:44.419Z
+date: 2024-05-16T11:19:32.959Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:05:41.659Z
@@ -19,17 +19,17 @@ Examples of options: `"Train me!"`, `"I want to unlearn my talents"`
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [MenuID](#menuid) | smallint | unsigned | PRI | NO | 0 |  |  |
 | [OptionID](#optionid) | smallint | unsigned | PRI | NO | 0 |  |  |
-| [OptionIcon](#optionicon) | mediumint | unsigned |  | NO | 0 |  |  |
-| [OptionText](#optiontext) | text |  |  | YES | NULL |  |  |
-| [OptionBroadcastTextID](#optionbroadcasttextid) | mediumint | signed |  | NO | 0 |  |  |
+| [OptionIcon](#optionicon) | int | unsigned |  | NO | 0 |  |  |
+| [OptionText](#optiontext) | mediumtext |  |  | YES | NULL |  |  |
+| [OptionBroadcastTextID](#optionbroadcasttextid) | int | signed |  | NO | 0 |  |  |
 | [OptionType](#optiontype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [OptionNpcFlag](#optionnpcflag) | int | unsigned |  | NO | 0 |  |  |
 | [ActionMenuID](#actionmenuid) | int | unsigned |  | NO | 0 |  |  |
-| [ActionPoiID](#actionpoiid) | mediumint | unsigned |  | NO | 0 |  |  |
+| [ActionPoiID](#actionpoiid) | int | unsigned |  | NO | 0 |  |  |
 | [BoxCoded](#boxcoded) | tinyint | unsigned |  | NO | 0 |  |  |
 | [BoxMoney](#boxmoney) | int | unsigned |  | NO | 0 |  |  |
-| [BoxText](#boxtext) | text |  |  | YES | NULL |  |  |
-| [BoxBroadcastTextID](#boxbroadcasttextid) | mediumint | signed |  | NO | 0 |  |  |
+| [BoxText](#boxtext) | mediumtext |  |  | YES | NULL |  |  |
+| [BoxBroadcastTextID](#boxbroadcasttextid) | int | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

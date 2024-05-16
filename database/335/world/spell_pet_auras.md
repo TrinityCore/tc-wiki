@@ -2,7 +2,7 @@
 title: spell_pet_auras
 description:
 published: true
-date: 2023-07-22T21:49:28.767Z
+date: 2024-05-16T11:19:35.822Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:45.979Z
@@ -16,10 +16,10 @@ This table links player controlled pet spells with their actual effects.
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [spell](#spell) | mediumint | unsigned | PRI | NO |  |  | dummy spell id |
+| [spell](#spell) | int | unsigned | PRI | NO |  |  | dummy spell id |
 | [effectId](#effectid) | tinyint | unsigned | PRI | NO | 0 |  |  |
-| [pet](#pet) | mediumint | unsigned | PRI | NO | 0 |  | pet id; 0 = all |
-| [aura](#aura) | mediumint | unsigned |  | NO |  |  | pet aura id |
+| [pet](#pet) | int | unsigned | PRI | NO | 0 |  | pet id; 0 = all |
+| [aura](#aura) | int | unsigned |  | NO |  |  | pet aura id |
 &nbsp;
 ## Description of fields
 

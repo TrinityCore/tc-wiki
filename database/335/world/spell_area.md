@@ -2,7 +2,7 @@
 title: spell_area
 description:
 published: true
-date: 2023-08-31T07:50:10.771Z
+date: 2024-05-16T11:19:35.757Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:18.065Z
@@ -16,12 +16,12 @@ This table is used to apply a specific spell aura to the player within an area i
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [spell](#spell) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [area](#area) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [quest_start](#quest_start) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [quest_end](#quest_end) | mediumint | unsigned |  | NO | 0 |  |  |
-| [aura_spell](#aura_spell) | mediumint | signed | PRI | NO | 0 |  |  |
-| [racemask](#racemask) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [spell](#spell) | int | unsigned | PRI | NO | 0 |  |  |
+| [area](#area) | int | unsigned | PRI | NO | 0 |  |  |
+| [quest_start](#quest_start) | int | unsigned | PRI | NO | 0 |  |  |
+| [quest_end](#quest_end) | int | unsigned |  | NO | 0 |  |  |
+| [aura_spell](#aura_spell) | int | signed | PRI | NO | 0 |  |  |
+| [racemask](#racemask) | int | unsigned | PRI | NO | 0 |  |  |
 | [gender](#gender) | tinyint | unsigned | PRI | NO | 2 |  |  |
 | [autocast](#autocast) | tinyint | unsigned |  | NO | 0 |  |  |
 | [quest_start_status](#quest_start_status) | int | signed |  | NO | 64 |  |  |

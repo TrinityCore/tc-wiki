@@ -2,7 +2,7 @@
 title: quest_template_locale
 description: 
 published: true
-date: 2024-02-14T19:11:43.935Z
+date: 2024-05-16T11:19:35.319Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:37.006Z
@@ -14,18 +14,18 @@ dateCreated: 2021-08-30T22:08:37.006Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
-| [Title](#title) | text |  |  | YES | NULL |  |  |
-| [Details](#details) | text |  |  | YES | NULL |  |  |
-| [Objectives](#objectives) | text |  |  | YES | NULL |  |  |
-| [EndText](#endtext) | text |  |  | YES | NULL |  |  |
-| [CompletedText](#completedtext) | text |  |  | YES | NULL |  |  |
-| [ObjectiveText1](#objectivetext1) | text |  |  | YES | NULL |  |  |
-| [ObjectiveText2](#objectivetext2) | text |  |  | YES | NULL |  |  |
-| [ObjectiveText3](#objectivetext3) | text |  |  | YES | NULL |  |  |
-| [ObjectiveText4](#objectivetext4) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
+| [Title](#title) | mediumtext |  |  | YES | NULL |  |  |
+| [Details](#details) | mediumtext |  |  | YES | NULL |  |  |
+| [Objectives](#objectives) | mediumtext |  |  | YES | NULL |  |  |
+| [EndText](#endtext) | mediumtext |  |  | YES | NULL |  |  |
+| [CompletedText](#completedtext) | mediumtext |  |  | YES | NULL |  |  |
+| [ObjectiveText1](#objectivetext1) | mediumtext |  |  | YES | NULL |  |  |
+| [ObjectiveText2](#objectivetext2) | mediumtext |  |  | YES | NULL |  |  |
+| [ObjectiveText3](#objectivetext3) | mediumtext |  |  | YES | NULL |  |  |
+| [ObjectiveText4](#objectivetext4) | mediumtext |  |  | YES | NULL |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

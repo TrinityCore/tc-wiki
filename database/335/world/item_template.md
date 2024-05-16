@@ -2,7 +2,7 @@
 title: item_template
 description: 
 published: true
-date: 2024-04-16T17:52:37.791Z
+date: 2024-05-16T11:19:33.775Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:06:11.793Z
@@ -17,12 +17,12 @@ Holds information on every item that exists in the game. All items are created f
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
 | [class](#class) | tinyint | unsigned | MUL | NO | 0 |  |  |
 | [subclass](#subclass) | tinyint | unsigned |  | NO | 0 |  |  |
 | [SoundOverrideSubclass](#soundoverridesubclass) | tinyint | signed |  | NO | -1 |  |  |
 | [name](#name-alt) | varchar(255) |  | MUL | NO | '' |  |  |
-| [displayid](#displayid) | mediumint | unsigned |  | NO | 0 |  |  |
+| [displayid](#displayid) | int | unsigned |  | NO | 0 |  |  |
 | [Quality](#quality) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
 | [FlagsExtra](#flagsextra) | int | unsigned |  | NO | 0 |  |  |
@@ -36,9 +36,9 @@ Holds information on every item that exists in the game. All items are created f
 | [RequiredLevel](#requiredlevel) | tinyint | unsigned |  | NO | 0 |  |  |
 | [RequiredSkill](#requiredskill) | smallint | unsigned |  | NO | 0 |  |  |
 | [RequiredSkillRank](#requiredskillrank) | smallint | unsigned |  | NO | 0 |  |  |
-| [requiredspell](#requiredspell) | mediumint | unsigned |  | NO | 0 |  |  |
-| [requiredhonorrank](#requiredhonorrank) | mediumint | unsigned |  | NO | 0 |  |  |
-| [RequiredCityRank](#requiredcityrank) | mediumint | unsigned |  | NO | 0 |  |  |
+| [requiredspell](#requiredspell) | int | unsigned |  | NO | 0 |  |  |
+| [requiredhonorrank](#requiredhonorrank) | int | unsigned |  | NO | 0 |  |  |
+| [RequiredCityRank](#requiredcityrank) | int | unsigned |  | NO | 0 |  |  |
 | [RequiredReputationFaction](#requiredreputationfaction) | smallint | unsigned |  | NO | 0 |  |  |
 | [RequiredReputationRank](#requiredreputationrank) | smallint | unsigned |  | NO | 0 |  |  |
 | [maxcount](#maxcount) | int | signed |  | NO | 0 |  |  |
@@ -63,8 +63,8 @@ Holds information on every item that exists in the game. All items are created f
 | [stat_value8](#stat_value1-10) | smallint | signed |  | NO | 0 |  |  |
 | [stat_type9](#stat_type1-10) | tinyint | unsigned |  | NO | 0 |  |  |
 | [stat_value9](#stat_value1-10) | smallint | signed |  | NO | 0 |  |  |
-| [stat_type10](#stat_type11-10) | tinyint | unsigned |  | NO | 0 |  |  |
-| [stat_value10](#stat_value11-10) | smallint | signed |  | NO | 0 |  |  |
+| [stat_type10](#stat_type1-10) | tinyint | unsigned |  | NO | 0 |  |  |
+| [stat_value10](#stat_value1-10) | smallint | signed |  | NO | 0 |  |  |
 | [ScalingStatDistribution](#scalingstatdistribution) | smallint | signed |  | NO | 0 |  |  |
 | [ScalingStatValue](#scalingstatvalue) | int | unsigned |  | NO | 0 |  |  |
 | [dmg_min1](#dmg_min1) | float |  |  | NO | 0 |  |  |
@@ -83,35 +83,35 @@ Holds information on every item that exists in the game. All items are created f
 | [delay](#delay) | smallint | unsigned |  | NO | 1000 |  |  |
 | [ammo_type](#ammo_type) | tinyint | unsigned |  | NO | 0 |  |  |
 | [RangedModRange](#rangedmodrange) | float |  |  | NO | 0 |  |  |
-| [spellid_1](#spellid_1-5) | mediumint | signed |  | NO | 0 |  |  |
+| [spellid_1](#spellid_1-5) | int | signed |  | NO | 0 |  |  |
 | [spelltrigger_1](#spelltrigger_1-5) | tinyint | unsigned |  | NO | 0 |  |  |
 | [spellcharges_1](#spellcharges_1-5) | smallint | signed |  | NO | 0 |  |  |
 | [spellppmRate_1](#spellppmrate_1-5) | float |  |  | NO | 0 |  |  |
 | [spellcooldown_1](#spellcooldown_1-5) | int | signed |  | NO | -1 |  |  |
 | [spellcategory_1](#spellcategory_1-5) | smallint | unsigned |  | NO | 0 |  |  |
 | [spellcategorycooldown_1](#spellcategorycooldown_1-5) | int | signed |  | NO | -1 |  |  |
-| [spellid_2](#spellid_1-5) | mediumint | signed |  | NO | 0 |  |  |
+| [spellid_2](#spellid_1-5) | int | signed |  | NO | 0 |  |  |
 | [spelltrigger_2](#spelltrigger_1-5) | tinyint | unsigned |  | NO | 0 |  |  |
 | [spellcharges_2](#spellcharges_1-5) | smallint | signed |  | NO | 0 |  |  |
 | [spellppmRate_2](#spellppmrate_1-5) | float |  |  | NO | 0 |  |  |
 | [spellcooldown_2](#spellcooldown_1-5) | int | signed |  | NO | -1 |  |  |
 | [spellcategory_2](#spellcategory_1-5) | smallint | unsigned |  | NO | 0 |  |  |
 | [spellcategorycooldown_2](#spellcategorycooldown_1-5) | int | signed |  | NO | -1 |  |  |
-| [spellid_3](#spellid_1-5) | mediumint | signed |  | NO | 0 |  |  |
+| [spellid_3](#spellid_1-5) | int | signed |  | NO | 0 |  |  |
 | [spelltrigger_3](#spelltrigger_1-5) | tinyint | unsigned |  | NO | 0 |  |  |
 | [spellcharges_3](#spellcharges_1-5) | smallint | signed |  | NO | 0 |  |  |
 | [spellppmRate_3](#spellppmrate_1-5) | float |  |  | NO | 0 |  |  |
 | [spellcooldown_3](#spellcooldown_1-5) | int | signed |  | NO | -1 |  |  |
 | [spellcategory_3](#spellcategory_1-5) | smallint | unsigned |  | NO | 0 |  |  |
 | [spellcategorycooldown_3](#spellcategorycooldown_1-5) | int | signed |  | NO | -1 |  |  |
-| [spellid_4](#spellid_1-5) | mediumint | signed |  | NO | 0 |  |  |
+| [spellid_4](#spellid_1-5) | int | signed |  | NO | 0 |  |  |
 | [spelltrigger_4](#spelltrigger_1-5) | tinyint | unsigned |  | NO | 0 |  |  |
 | [spellcharges_4](#spellcharges_1-5) | smallint | signed |  | NO | 0 |  |  |
 | [spellppmRate_4](#spellppmrate_1-5) | float |  |  | NO | 0 |  |  |
 | [spellcooldown_4](#spellcooldown_1-5) | int | signed |  | NO | -1 |  |  |
 | [spellcategory_4](#spellcategory_1-5) | smallint | unsigned |  | NO | 0 |  |  |
 | [spellcategorycooldown_4](#spellcategorycooldown_1-5) | int | signed |  | NO | -1 |  |  |
-| [spellid_5](#spellid_1-5) | mediumint | signed |  | NO | 0 |  |  |
+| [spellid_5](#spellid_1-5) | int | signed |  | NO | 0 |  |  |
 | [spelltrigger_5](#spelltrigger_1-5) | tinyint | unsigned |  | NO | 0 |  |  |
 | [spellcharges_5](#spellcharges_1-5) | smallint | signed |  | NO | 0 |  |  |
 | [spellppmRate_5](#spellppmrate_1-5) | float |  |  | NO | 0 |  |  |
@@ -120,42 +120,42 @@ Holds information on every item that exists in the game. All items are created f
 | [spellcategorycooldown_5](#spellcategorycooldown_1-5) | int | signed |  | NO | -1 |  |  |
 | [bonding](#bonding) | tinyint | unsigned |  | NO | 0 |  |  |
 | [description](#description) | varchar(255) |  |  | NO | '' |  |  |
-| [PageText](#pagetext) | mediumint | unsigned |  | NO | 0 |  |  |
+| [PageText](#pagetext) | int | unsigned |  | NO | 0 |  |  |
 | [LanguageID](#languageid) | tinyint | unsigned |  | NO | 0 |  |  |
 | [PageMaterial](#pagematerial) | tinyint | unsigned |  | NO | 0 |  |  |
-| [startquest](#startquest) | mediumint | unsigned |  | NO | 0 |  |  |
-| [lockid](#lockid) | mediumint | unsigned |  | NO | 0 |  |  |
+| [startquest](#startquest) | int | unsigned |  | NO | 0 |  |  |
+| [lockid](#lockid) | int | unsigned |  | NO | 0 |  |  |
 | [Material](#material) | tinyint | signed |  | NO | 0 |  |  |
 | [sheath](#sheath) | tinyint | unsigned |  | NO | 0 |  |  |
-| [RandomProperty](#randomproperty) | mediumint | signed |  | NO | 0 |  |  |
-| [RandomSuffix](#randomsuffix) | mediumint | unsigned |  | NO | 0 |  |  |
-| [block](#block) | mediumint | unsigned |  | NO | 0 |  |  |
-| [itemset](#itemset) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RandomProperty](#randomproperty) | int | signed |  | NO | 0 |  |  |
+| [RandomSuffix](#randomsuffix) | int | unsigned |  | NO | 0 |  |  |
+| [block](#block) | int | unsigned |  | NO | 0 |  |  |
+| [itemset](#itemset) | int | unsigned |  | NO | 0 |  |  |
 | [MaxDurability](#maxdurability) | smallint | unsigned |  | NO | 0 |  |  |
-| [area](#area) | mediumint | unsigned |  | NO | 0 |  |  |
+| [area](#area) | int | unsigned |  | NO | 0 |  |  |
 | [Map](#map) | smallint | signed |  | NO | 0 |  |  |
-| [BagFamily](#bagfamily) | mediumint | signed |  | NO | 0 |  |  |
-| [TotemCategory](#totemcategory) | mediumint | signed |  | NO | 0 |  |  |
+| [BagFamily](#bagfamily) | int | signed |  | NO | 0 |  |  |
+| [TotemCategory](#totemcategory) | int | signed |  | NO | 0 |  |  |
 | [socketColor_1](#socketcolor_1-3) | tinyint | signed |  | NO | 0 |  |  |
-| [socketContent_1](#socketcontent_1-3) | mediumint | signed |  | NO | 0 |  |  |
+| [socketContent_1](#socketcontent_1-3) | int | signed |  | NO | 0 |  |  |
 | [socketColor_2](#socketcolor_1-3) | tinyint | signed |  | NO | 0 |  |  |
-| [socketContent_2](#socketcontent_1-3) | mediumint | signed |  | NO | 0 |  |  |
+| [socketContent_2](#socketcontent_1-3) | int | signed |  | NO | 0 |  |  |
 | [socketColor_3](#socketcolor_1-3) | tinyint | signed |  | NO | 0 |  |  |
-| [socketContent_3](#socketcontent_1-3) | mediumint | signed |  | NO | 0 |  |  |
-| [socketBonus](#socketbonus) | mediumint | signed |  | NO | 0 |  |  |
-| [GemProperties](#gemproperties) | mediumint | signed |  | NO | 0 |  |  |
+| [socketContent_3](#socketcontent_1-3) | int | signed |  | NO | 0 |  |  |
+| [socketBonus](#socketbonus) | int | signed |  | NO | 0 |  |  |
+| [GemProperties](#gemproperties) | int | signed |  | NO | 0 |  |  |
 | [RequiredDisenchantSkill](#requireddisenchantskill) | smallint | signed |  | NO | -1 |  |  |
 | [ArmorDamageModifier](#armordamagemodifier) | float |  |  | NO | 0 |  |  |
 | [duration](#duration) | int | unsigned |  | NO | 0 |  |  |
 | [ItemLimitCategory](#itemlimitcategory) | smallint | signed |  | NO | 0 |  |  |
 | [HolidayId](#holidayid) | int | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
-| [DisenchantID](#disenchantid) | mediumint | unsigned |  | NO | 0 |  |  |
+| [DisenchantID](#disenchantid) | int | unsigned |  | NO | 0 |  |  |
 | [FoodType](#foodtype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [minMoneyLoot](#minmoneyloot) | int | unsigned |  | NO | 0 |  |  |
 | [maxMoneyLoot](#maxmoneyloot) | int | unsigned |  | NO | 0 |  |  |
 | [flagsCustom](#flagscustom) | int | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

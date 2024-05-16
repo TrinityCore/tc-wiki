@@ -2,7 +2,7 @@
 title: points_of_interest
 description: 
 published: true
-date: 2024-02-14T19:08:45.575Z
+date: 2024-05-16T11:19:34.446Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:07:44.760Z
@@ -18,14 +18,14 @@ e.g.: When asking a City Guard for the location of a trainer.
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [PositionX](#positionx) | float |  |  | NO | 0 |  |  |
 | [PositionY](#positiony) | float |  |  | NO | 0 |  |  |
-| [Icon](#icon) | mediumint | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | mediumint | unsigned |  | NO | 0 |  |  |
-| [Importance](#importance) | mediumint | unsigned |  | NO | 0 |  |  |
-| [Name](#name-alt) | text |  |  | NO |  |  |  |
-| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
+| [Icon](#icon) | int | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
+| [Importance](#importance) | int | unsigned |  | NO | 0 |  |  |
+| [Name](#name-alt) | mediumtext |  |  | NO |  |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

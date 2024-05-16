@@ -2,7 +2,7 @@
 title: gameobject_template
 description: 
 published: true
-date: 2024-04-17T00:26:57.620Z
+date: 2024-05-16T11:19:32.839Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:05:30.524Z
@@ -16,9 +16,9 @@ This table contains the description of gameobjects. Each spawned object is an in
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
 | [type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
-| [displayId](#displayid) | mediumint | unsigned |  | NO | 0 |  |  |
+| [displayId](#displayid) | int | unsigned |  | NO | 0 |  |  |
 | [name](#name-alt) | varchar(100) |  | MUL | NO | '' |  |  |
 | [IconName](#iconname) | varchar(100) |  |  | NO | '' |  |  |
 | [castBarCaption](#castbarcaption) | varchar(100) |  |  | NO | '' |  |  |
@@ -50,7 +50,7 @@ This table contains the description of gameobjects. Each spawned object is an in
 | [Data23](#data0-23) | int | unsigned |  | NO | 0 |  |  |
 | [AIName](#ainame) | char(64) |  |  | NO | '' |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
-| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

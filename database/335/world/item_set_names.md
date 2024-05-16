@@ -2,7 +2,7 @@
 title: item_set_names
 description: 
 published: true
-date: 2024-02-14T19:05:27.230Z
+date: 2024-05-16T11:19:33.025Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:06:06.438Z
@@ -17,10 +17,10 @@ Yes those names can be different from the actual item.
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | mediumint | unsigned | PRI | NO |  |  |  |
+| [entry](#entry) | int | unsigned | PRI | NO |  |  |  |
 | [name](#name-alt) | varchar(255) |  |  | NO | '' |  |  |
 | [InventoryType](#inventorytype) | tinyint | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

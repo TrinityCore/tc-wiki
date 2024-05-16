@@ -2,7 +2,7 @@
 title: game_event_quest_condition
 description: 
 published: true
-date: 2023-07-09T18:28:12.481Z
+date: 2024-05-16T11:19:32.536Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:05:00.652Z
@@ -17,8 +17,8 @@ This table contains the mapping of a quest in a world event to the condition tha
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [eventEntry](#evententry) | tinyint | unsigned |  | NO |  |  | Entry of the game event. |
-| [quest](#quest) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [condition_id](#condition_id) | mediumint | unsigned |  | NO | 0 |  |  |
+| [quest](#quest) | int | unsigned | PRI | NO | 0 |  |  |
+| [condition_id](#condition_id) | int | unsigned |  | NO | 0 |  |  |
 | [num](#num) | float |  |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields

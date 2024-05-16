@@ -2,7 +2,7 @@
 title: skill_fishing_base_level
 description: 
 published: true
-date: 2024-04-15T20:00:58.711Z
+date: 2024-05-16T11:19:35.428Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:01.581Z
@@ -20,7 +20,7 @@ This table controls the minimum skill level required in SKILL_FISHING (356), to 
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | mediumint | unsigned | PRI | NO | 0 |  | Area identifier |
+| [entry](#entry) | int | unsigned | PRI | NO | 0 |  | Area identifier |
 | [skill](#skill) | smallint | signed |  | NO | 0 |  | Base skill level requirement |
 &nbsp;
 ## Description of fields

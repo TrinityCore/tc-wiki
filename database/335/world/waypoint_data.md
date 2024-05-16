@@ -2,7 +2,7 @@
 title: waypoint_data
 description: 
 published: true
-date: 2023-07-24T18:50:38.401Z
+date: 2024-05-16T11:19:36.111Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:10:55.030Z
@@ -17,7 +17,7 @@ This table contains all the path data for creatures that use waypoints.
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [id](#id-alt) | int | unsigned | PRI | NO | 0 |  | Creature GUID |
-| [point](#point) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [point](#point) | int | unsigned | PRI | NO | 0 |  |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |

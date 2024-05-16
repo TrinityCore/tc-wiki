@@ -2,7 +2,7 @@
 title: battlefield_template
 description: 
 published: true
-date: 2022-11-21T21:26:08.216Z
+date: 2024-05-16T11:19:31.203Z
 tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
 editor: markdown
 dateCreated: 2021-08-30T22:02:54.462Z
@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T22:02:54.462Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [TypeId](#typeid) | tinyint | unsigned |  | NO |  |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
-| [comment](#comment) | text |  |  | YES | NULL |  |  |
+| [comment](#comment) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

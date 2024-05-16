@@ -2,7 +2,7 @@
 title: gameobject
 description: 
 published: true
-date: 2024-04-16T16:03:41.817Z
+date: 2024-05-16T11:19:32.594Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:05:11.495Z
@@ -17,7 +17,7 @@ Contains individual gameobject spawn data. Spawn of an object is an instance of 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | int | unsigned | PRI | NO |  | auto_increment | Global Unique Identifier |
-| [id](#id-alt) | mediumint | unsigned |  | NO | 0 |  | Gameobject Identifier |
+| [id](#id-alt) | int | unsigned |  | NO | 0 |  | Gameobject Identifier |
 | [map](#map) | smallint | unsigned |  | NO | 0 |  | Map Identifier |
 | [zoneId](#zoneid) | smallint | unsigned |  | NO | 0 |  | Zone Identifier |
 | [areaId](#areaid) | smallint | unsigned |  | NO | 0 |  | Area Identifier |
@@ -35,7 +35,7 @@ Contains individual gameobject spawn data. Spawn of an object is an instance of 
 | [animprogress](#animprogress) | tinyint | unsigned |  | NO | 0 |  |  |
 | [state](#state) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | char(64) |  |  | YES | '' |  |  |
-| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

@@ -2,7 +2,7 @@
 title: vw_smart_scripts_with_labels
 description: 
 published: true
-date: 2022-11-21T21:32:02.398Z
+date: 2024-05-16T11:19:36.098Z
 tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, world
 editor: markdown
 dateCreated: 2021-08-30T22:10:49.063Z
@@ -43,7 +43,7 @@ dateCreated: 2021-08-30T22:10:49.063Z
 | [target_y](#target_y) | float |  |  | NO | 0 |  |  |
 | [target_z](#target_z) | float |  |  | NO | 0 |  |  |
 | [target_o](#target_o) | float |  |  | NO | 0 |  |  |
-| [comment](#comment) | text |  |  | NO |  |  | Event Comment |
+| [comment](#comment) | mediumtext |  |  | NO |  |  | Event Comment |
 &nbsp;
 ## Description of fields
 

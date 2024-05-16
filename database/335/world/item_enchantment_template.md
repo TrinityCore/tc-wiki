@@ -2,7 +2,7 @@
 title: item_enchantment_template
 description:
 published: true
-date: 2023-07-10T23:51:37.039Z
+date: 2024-05-16T11:19:33.001Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:06:01.067Z
@@ -16,8 +16,8 @@ This table holds enchantment chance information for items that should have eithe
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [ench](#ench) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
+| [ench](#ench) | int | unsigned | PRI | NO | 0 |  |  |
 | [chance](#chance) | float |  |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

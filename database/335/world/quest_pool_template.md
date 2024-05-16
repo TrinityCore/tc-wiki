@@ -2,7 +2,7 @@
 title: quest_pool_template
 description: 
 published: true
-date: 2023-07-12T15:46:20.940Z
+date: 2024-05-16T11:19:34.608Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:22.651Z
@@ -16,7 +16,7 @@ Each unique quest pool is defined in this table.
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [poolId](#poolid) | mediumint | unsigned | PRI | NO |  |  |  |
+| [poolId](#poolid) | int | unsigned | PRI | NO |  |  |  |
 | [numActive](#numactive) | int | unsigned |  | NO |  |  | Number of indices to have active at any time |
 | [description](#description) | varchar(255) |  |  | YES | NULL |  |  |
 &nbsp;

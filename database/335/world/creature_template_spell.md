@@ -2,7 +2,7 @@
 title: creature_template_spell
 description: 
 published: true
-date: 2024-02-14T19:02:25.560Z
+date: 2024-05-16T11:19:32.227Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:04:04.070Z
@@ -16,10 +16,10 @@ This tables defines spells that can be used by the creatures [AI-Template](../wo
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [CreatureID](#creatureid) | mediumint | unsigned | PRI | NO |  |  |  |
+| [CreatureID](#creatureid) | int | unsigned | PRI | NO |  |  |  |
 | [Index](#index) | tinyint | unsigned | PRI | NO | 0 |  |  |
-| [Spell](#spell) | mediumint | unsigned |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
+| [Spell](#spell) | int | unsigned |  | NO |  |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

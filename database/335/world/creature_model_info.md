@@ -2,7 +2,7 @@
 title: creature_model_info
 description:
 published: true
-date: 2023-07-08T16:36:03.890Z
+date: 2024-05-16T11:19:31.692Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:31.598Z
@@ -16,11 +16,11 @@ This table contains all models of mobs, their gender and other information that 
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [DisplayID](#displayid) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [DisplayID](#displayid) | int | unsigned | PRI | NO | 0 |  |  |
 | [BoundingRadius](#boundingradius) | float |  |  | NO | 0 |  |  |
 | [CombatReach](#combatreach) | float |  |  | NO | 0 |  |  |
 | [Gender](#gender) | tinyint | unsigned |  | NO | 2 |  |  |
-| [DisplayID_Other_Gender](#displayid_other_gender) | mediumint | unsigned |  | NO | 0 |  |  |
+| [DisplayID_Other_Gender](#displayid_other_gender) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

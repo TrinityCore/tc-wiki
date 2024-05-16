@@ -2,7 +2,7 @@
 title: game_event
 description:
 published: true
-date: 2023-07-09T17:31:14.034Z
+date: 2024-05-16T11:19:32.434Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:04:25.689Z
@@ -21,7 +21,7 @@ This table holds definitions for all game events that are activated or deactivat
 | [end_time](#end_time) | timestamp |  |  | YES | NULL |  | Absolute end date, the event will never start after |
 | [occurence](#occurence) | bigint | unsigned |  | NO | 5184000 |  | Delay in minutes between occurences of the event |
 | [length](#length) | bigint | unsigned |  | NO | 2592000 |  | Length in minutes of the event |
-| [holiday](#holiday) | mediumint | unsigned |  | NO | 0 |  | Client side holiday id |
+| [holiday](#holiday) | int | unsigned |  | NO | 0 |  | Client side holiday id |
 | [holidayStage](#holidaystage) | tinyint | unsigned |  | NO | 0 |  |  |
 | [description](#description) | varchar(255) |  |  | YES | NULL |  | Description of the event displayed in console |
 | [world_event](#world_event) | tinyint | unsigned |  | NO | 0 |  | 0 if normal event, 1 if world event |

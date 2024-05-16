@@ -2,7 +2,7 @@
 title: game_event_gameobject_quest
 description: 
 published: true
-date: 2023-07-09T18:05:01.631Z
+date: 2024-05-16T11:19:32.467Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:04:44.547Z
@@ -17,8 +17,8 @@ This table holds information on quests that should only be available when an eve
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [eventEntry](#evententry) | tinyint | unsigned | PRI | NO |  |  | Entry of the game event |
-| [id](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [quest](#quest) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [id](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
+| [quest](#quest) | int | unsigned | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

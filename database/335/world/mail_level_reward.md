@@ -2,7 +2,7 @@
 title: mail_level_reward
 description:
 published: true
-date: 2023-07-11T17:41:26.733Z
+date: 2024-05-16T11:19:33.814Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:06:26.013Z
@@ -17,9 +17,9 @@ On certain levels, the player receives a mail with some text.
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [level](#level) | tinyint | unsigned | PRI | NO | 0 |  |  |
-| [raceMask](#racemask) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [mailTemplateId](#mailtemplateid) | mediumint | unsigned |  | NO | 0 |  |  |
-| [senderEntry](#senderentry) | mediumint | unsigned |  | NO | 0 |  |  |
+| [raceMask](#racemask) | int | unsigned | PRI | NO | 0 |  |  |
+| [mailTemplateId](#mailtemplateid) | int | unsigned |  | NO | 0 |  |  |
+| [senderEntry](#senderentry) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

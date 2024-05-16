@@ -2,7 +2,7 @@
 title: gameobject_questitem
 description: 
 published: true
-date: 2024-02-14T19:03:17.529Z
+date: 2024-05-16T11:19:32.633Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:05:25.118Z
@@ -19,7 +19,7 @@ Tells the client (mouse-hovering this gameobject -> tooltip) that the referenced
 | [GameObjectEntry](#gameobjectentry) | int | unsigned | PRI | NO | 0 |  |  |
 | [Idx](#idx) | int | unsigned | PRI | NO | 0 |  |  |
 | [ItemId](#itemid) | int | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

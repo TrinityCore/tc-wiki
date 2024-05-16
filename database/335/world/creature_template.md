@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2024-04-16T16:18:51.298Z
+date: 2024-05-16T11:19:32.098Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:50.335Z
@@ -16,20 +16,20 @@ This table contains the description of creatures. Each spawned creature is an in
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [difficulty_entry_1](#difficulty_entry_1-3) | mediumint | unsigned |  | NO | 0 |  |  |
-| [difficulty_entry_2](#difficulty_entry_1-3) | mediumint | unsigned |  | NO | 0 |  |  |
-| [difficulty_entry_3](#difficulty_entry_1-3) | mediumint | unsigned |  | NO | 0 |  |  |
+| [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
+| [difficulty_entry_1](#difficulty_entry_1-3) | int | unsigned |  | NO | 0 |  |  |
+| [difficulty_entry_2](#difficulty_entry_1-3) | int | unsigned |  | NO | 0 |  |  |
+| [difficulty_entry_3](#difficulty_entry_1-3) | int | unsigned |  | NO | 0 |  |  |
 | [KillCredit1](#killcredit1-2) | int | unsigned |  | NO | 0 |  |  |
 | [KillCredit2](#killcredit1-2) | int | unsigned |  | NO | 0 |  |  |
-| [modelid1](#modelid1-4) | mediumint | unsigned |  | NO | 0 |  |  |
-| [modelid2](#modelid1-4) | mediumint | unsigned |  | NO | 0 |  |  |
-| [modelid3](#modelid1-4) | mediumint | unsigned |  | NO | 0 |  |  |
-| [modelid4](#modelid1-4) | mediumint | unsigned |  | NO | 0 |  |  |
+| [modelid1](#modelid1-4) | int | unsigned |  | NO | 0 |  |  |
+| [modelid2](#modelid1-4) | int | unsigned |  | NO | 0 |  |  |
+| [modelid3](#modelid1-4) | int | unsigned |  | NO | 0 |  |  |
+| [modelid4](#modelid1-4) | int | unsigned |  | NO | 0 |  |  |
 | [name](#name-alt) | char(100) |  | MUL | NO | 0 |  |  |
 | [subname](#subname) | char(100) |  |  | YES | NULL |  |  |
 | [IconName](#iconname) | char(100) |  |  | YES | NULL |  |  |
-| [gossip_menu_id](#gossip_menu_id) | mediumint | unsigned |  | NO | 0 |  |  |
+| [gossip_menu_id](#gossip_menu_id) | int | unsigned |  | NO | 0 |  |  |
 | [minlevel](#minlevel) | tinyint | unsigned |  | NO | 1 |  |  |
 | [maxlevel](#maxlevel) | tinyint | unsigned |  | NO | 1 |  |  |
 | [exp](#exp) | smallint | signed |  | NO | 0 |  |  |
@@ -51,13 +51,13 @@ This table contains the description of creatures. Each spawned creature is an in
 | [family](#family) | tinyint | signed |  | NO | 0 |  |  |
 | [type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
 | [type_flags](#type_flags) | int | unsigned |  | NO | 0 |  |  |
-| [lootid](#lootid) | mediumint | unsigned |  | NO | 0 |  |  |
-| [pickpocketloot](#pickpocketloot) | mediumint | unsigned |  | NO | 0 |  |  |
-| [skinloot](#skinloot) | mediumint | unsigned |  | NO | 0 |  |  |
-| [PetSpellDataId](#petspelldataid) | mediumint | unsigned |  | NO | 0 |  |  |
-| [VehicleId](#vehicleid) | mediumint | unsigned |  | NO | 0 |  |  |
-| [mingold](#mingold) | mediumint | unsigned |  | NO | 0 |  |  |
-| [maxgold](#maxgold) | mediumint | unsigned |  | NO | 0 |  |  |
+| [lootid](#lootid) | int | unsigned |  | NO | 0 |  |  |
+| [pickpocketloot](#pickpocketloot) | int | unsigned |  | NO | 0 |  |  |
+| [skinloot](#skinloot) | int | unsigned |  | NO | 0 |  |  |
+| [PetSpellDataId](#petspelldataid) | int | unsigned |  | NO | 0 |  |  |
+| [VehicleId](#vehicleid) | int | unsigned |  | NO | 0 |  |  |
+| [mingold](#mingold) | int | unsigned |  | NO | 0 |  |  |
+| [maxgold](#maxgold) | int | unsigned |  | NO | 0 |  |  |
 | [AIName](#ainame) | char(64) |  |  | NO | '' |  |  |
 | [MovementType](#movementtype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [HoverHeight](#hoverheight) | float |  |  | NO | 1 |  |  |
@@ -73,7 +73,7 @@ This table contains the description of creatures. Each spawned creature is an in
 | [spell_school_immune_mask](#spell_school_immune_mask) | int | unsigned |  | NO | 0 |  |  |
 | [flags_extra](#flags_extra) | int | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | char(64) |  |  | NO | '' |  |  |
-| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

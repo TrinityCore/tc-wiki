@@ -2,7 +2,7 @@
 title: areatrigger_involvedrelation
 description:
 published: true
-date: 2023-07-07T20:13:26.523Z
+date: 2024-05-16T11:19:31.142Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:02:43.872Z
@@ -18,8 +18,8 @@ If there is a record in the table for a quest, then the quest will not be comple
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  | Identifier |
-| [quest](#quest) | mediumint | unsigned |  | NO | 0 |  | Quest Identifier |
+| [id](#id-alt) | int | unsigned | PRI | NO | 0 |  | Identifier |
+| [quest](#quest) | int | unsigned |  | NO | 0 |  | Quest Identifier |
 &nbsp;
 ## Description of fields
 

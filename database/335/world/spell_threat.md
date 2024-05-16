@@ -2,7 +2,7 @@
 title: spell_threat
 description:
 published: true
-date: 2023-07-23T17:15:08.378Z
+date: 2024-05-16T11:19:35.937Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:10:05.012Z
@@ -16,7 +16,7 @@ This table holds manual corrections to threat values on all spells that should e
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | mediumint | unsigned | PRI | NO |  |  |  |
+| [entry](#entry) | int | unsigned | PRI | NO |  |  |  |
 | [flatMod](#flatmod) | int | signed |  | YES | NULL |  |  |
 | [pctMod](#pctmod) | float |  |  | NO | 1 |  | threat multiplier for damage/healing |
 | [apPctMod](#appctmod) | float |  |  | NO | 0 |  | additional threat bonus from attack power |

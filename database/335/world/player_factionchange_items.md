@@ -2,7 +2,7 @@
 title: player_factionchange_items
 description: 
 published: true
-date: 2023-07-11T21:05:32.430Z
+date: 2024-05-16T11:19:34.385Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:07:07.222Z
@@ -18,10 +18,10 @@ Basically all item changes made when player changes faction.
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [race_A](#race_a) | int | unsigned |  | NO |  |  |  |
 | [alliance_id](#alliance_id) | int | unsigned | PRI | NO |  |  |  |
-| [commentA](#commenta) | text |  |  | YES | NULL |  |  |
+| [commentA](#commenta) | mediumtext |  |  | YES | NULL |  |  |
 | [race_H](#race_h) | int | unsigned |  | NO |  |  |  |
 | [horde_id](#horde_id) | int | unsigned | PRI | NO |  |  |  |
-| [commentH](#commenth) | text |  |  | YES | NULL |  |  |
+| [commentH](#commenth) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

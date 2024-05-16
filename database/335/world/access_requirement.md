@@ -2,7 +2,7 @@
 title: access_requirement
 description:
 published: true
-date: 2023-07-07T20:06:33.633Z
+date: 2024-05-16T11:19:31.014Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:02:30.676Z
@@ -16,18 +16,18 @@ This table contains the access requirements to enter an instance.
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [mapId](#mapid) | mediumint | unsigned | PRI | NO |  |  |  |
+| [mapId](#mapid) | int | unsigned | PRI | NO |  |  |  |
 | [difficulty](#difficulty) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [level_min](#level_min) | tinyint | unsigned |  | NO | 0 |  |  |
 | [level_max](#level_max) | tinyint | unsigned |  | NO | 0 |  |  |
 | [item_level](#item_level) | smallint | unsigned |  | NO | 0 |  |  |
-| [item](#item) | mediumint | unsigned |  | NO | 0 |  |  |
-| [item2](#item2) | mediumint | unsigned |  | NO | 0 |  |  |
-| [quest_done_A](#quest_done_a) | mediumint | unsigned |  | NO | 0 |  |  |
-| [quest_done_H](#quest_done_h) | mediumint | unsigned |  | NO | 0 |  |  |
-| [completed_achievement](#completed_achievement) | mediumint | unsigned |  | NO | 0 |  |  |
-| [quest_failed_text](#quest_failed_text) | text |  |  | YES | NULL |  |  |
-| [comment](#comment) | text |  |  | YES | NULL |  |  |
+| [item](#item) | int | unsigned |  | NO | 0 |  |  |
+| [item2](#item2) | int | unsigned |  | NO | 0 |  |  |
+| [quest_done_A](#quest_done_a) | int | unsigned |  | NO | 0 |  |  |
+| [quest_done_H](#quest_done_h) | int | unsigned |  | NO | 0 |  |  |
+| [completed_achievement](#completed_achievement) | int | unsigned |  | NO | 0 |  |  |
+| [quest_failed_text](#quest_failed_text) | mediumtext |  |  | YES | NULL |  |  |
+| [comment](#comment) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

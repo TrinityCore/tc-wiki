@@ -2,7 +2,7 @@
 title: quest_template_addon
 description:
 published: true
-date: 2023-07-13T20:33:10.586Z
+date: 2024-05-16T11:19:35.276Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:34.142Z
@@ -16,22 +16,22 @@ Contains extra definitions like linking quests, dependencies and requirements fo
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [MaxLevel](#maxlevel) | tinyint | unsigned |  | NO | 0 |  |  |
 | [AllowableClasses](#allowableclasses) | int | unsigned |  | NO | 0 |  |  |
-| [SourceSpellID](#sourcespellid) | mediumint | unsigned |  | NO | 0 |  |  |
-| [PrevQuestID](#prevquestid) | mediumint | signed |  | NO | 0 |  |  |
-| [NextQuestID](#nextquestid) | mediumint | unsigned |  | NO | 0 |  |  |
-| [ExclusiveGroup](#exclusivegroup) | mediumint | signed |  | NO | 0 |  |  |
-| [BreadcrumbForQuestId](#breadcrumbforquestid) | mediumint | signed |  | NO | 0 |  |  |
-| [RewardMailTemplateID](#rewardmailtemplateid) | mediumint | unsigned |  | NO | 0 |  |  |
+| [SourceSpellID](#sourcespellid) | int | unsigned |  | NO | 0 |  |  |
+| [PrevQuestID](#prevquestid) | int | signed |  | NO | 0 |  |  |
+| [NextQuestID](#nextquestid) | int | unsigned |  | NO | 0 |  |  |
+| [ExclusiveGroup](#exclusivegroup) | int | signed |  | NO | 0 |  |  |
+| [BreadcrumbForQuestId](#breadcrumbforquestid) | int | signed |  | NO | 0 |  |  |
+| [RewardMailTemplateID](#rewardmailtemplateid) | int | unsigned |  | NO | 0 |  |  |
 | [RewardMailDelay](#rewardmaildelay) | int | unsigned |  | NO | 0 |  |  |
 | [RequiredSkillID](#requiredskillid) | smallint | unsigned |  | NO | 0 |  |  |
 | [RequiredSkillPoints](#requiredskillpoints) | smallint | unsigned |  | NO | 0 |  |  |
 | [RequiredMinRepFaction](#requiredminrepfaction) | smallint | unsigned |  | NO | 0 |  |  |
 | [RequiredMaxRepFaction](#requiredmaxrepfaction) | smallint | unsigned |  | NO | 0 |  |  |
-| [RequiredMinRepValue](#requiredminrepvalue) | mediumint | signed |  | NO | 0 |  |  |
-| [RequiredMaxRepValue](#requiredmaxrepvalue) | mediumint | signed |  | NO | 0 |  |  |
+| [RequiredMinRepValue](#requiredminrepvalue) | int | signed |  | NO | 0 |  |  |
+| [RequiredMaxRepValue](#requiredmaxrepvalue) | int | signed |  | NO | 0 |  |  |
 | [ProvidedItemCount](#provideditemcount) | tinyint | unsigned |  | NO | 0 |  |  |
 | [SpecialFlags](#specialflags) | tinyint | unsigned |  | NO | 0 |  |  |
 &nbsp;

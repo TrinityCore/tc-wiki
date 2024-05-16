@@ -2,7 +2,7 @@
 title: trainer_spell
 description: 
 published: true
-date: 2024-04-16T18:31:06.279Z
+date: 2024-05-16T11:19:35.976Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:10:15.827Z
@@ -25,7 +25,7 @@ This table contains all the trainer spell entries.
 | [ReqAbility2](#reqability1-3) | int | unsigned |  | NO | 0 |  |  |
 | [ReqAbility3](#reqability1-3) | int | unsigned |  | NO | 0 |  |  |
 | [ReqLevel](#reqlevel) | tinyint | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

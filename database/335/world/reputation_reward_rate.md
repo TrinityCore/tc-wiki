@@ -2,7 +2,7 @@
 title: reputation_reward_rate
 description:
 published: true
-date: 2023-07-13T21:27:38.633Z
+date: 2024-05-16T11:19:35.346Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:42.575Z
@@ -16,7 +16,7 @@ Holds reputation multipliers for specific factions.
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [faction](#faction) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [faction](#faction) | int | unsigned | PRI | NO | 0 |  |  |
 | [quest_rate](#quest_rate) | float |  |  | NO | 1 |  |  |
 | [quest_daily_rate](#quest_daily_rate) | float |  |  | NO | 1 |  |  |
 | [quest_weekly_rate](#quest_weekly_rate) | float |  |  | NO | 1 |  |  |

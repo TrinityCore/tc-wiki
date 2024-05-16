@@ -2,7 +2,7 @@
 title: script_waypoint
 description: 
 published: true
-date: 2023-07-15T09:41:09.411Z
+date: 2024-05-16T11:19:35.401Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:53.470Z
@@ -16,13 +16,13 @@ This table holds creature waypoints for use by the scripting system.
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | mediumint | unsigned | PRI | NO | 0 |  | creature_template entry |
-| [pointid](#pointid) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [entry](#entry) | int | unsigned | PRI | NO | 0 |  | creature_template entry |
+| [pointid](#pointid) | int | unsigned | PRI | NO | 0 |  |  |
 | [location_x](#location_x) | float |  |  | NO | 0 |  |  |
 | [location_y](#location_y) | float |  |  | NO | 0 |  |  |
 | [location_z](#location_z) | float |  |  | NO | 0 |  |  |
 | [waittime](#waittime) | int | unsigned |  | NO | 0 |  | waittime in millisecs |
-| [point_comment](#point_comment) | text |  |  | YES | NULL |  |  |
+| [point_comment](#point_comment) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

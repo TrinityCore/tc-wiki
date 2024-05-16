@@ -2,7 +2,7 @@
 title: transports
 description:
 published: true
-date: 2023-07-23T18:19:18.153Z
+date: 2024-05-16T11:19:35.986Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:10:18.608Z
@@ -19,8 +19,8 @@ All other transport types have their frame time read from [TransportAnimation](/
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | int | unsigned | PRI | NO |  | auto_increment |  |
-| [entry](#entry) | mediumint | unsigned | UNI | NO | 0 |  |  |
-| [name](#name-alt) | text |  |  | YES | NULL |  |  |
+| [entry](#entry) | int | unsigned | UNI | NO | 0 |  |  |
+| [name](#name-alt) | mediumtext |  |  | YES | NULL |  |  |
 | [ScriptName](#scriptname) | char(64) |  |  | NO | '' |  |  |
 &nbsp;
 ## Description of fields

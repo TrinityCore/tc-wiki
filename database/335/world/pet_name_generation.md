@@ -2,7 +2,7 @@
 title: pet_name_generation
 description: 
 published: true
-date: 2023-07-11T20:34:56.849Z
+date: 2024-05-16T11:19:34.355Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:06:56.304Z
@@ -16,9 +16,9 @@ This table holds pieces of names (first and last half) that are use for pet name
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id-alt) | mediumint | unsigned | PRI | NO |  | auto_increment |  |
-| [word](#word) | tinytext |  |  | NO |  |  |  |
-| [entry](#entry) | mediumint | unsigned |  | NO | 0 |  |  |
+| [id](#id-alt) | int | unsigned | PRI | NO |  |  |  |
+| [word](#word) | text |  |  | NO |  |  |  |
+| [entry](#entry) | int | unsigned |  | NO | 0 |  |  |
 | [half](#half) | tinyint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

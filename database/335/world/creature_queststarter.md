@@ -2,7 +2,7 @@
 title: creature_queststarter
 description: 
 published: true
-date: 2023-07-08T18:16:19.093Z
+date: 2024-05-16T11:19:31.742Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:44.952Z
@@ -16,8 +16,8 @@ Holds NPC quest giver relations on which NPCs start which quests.
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  | Identifier |
-| [quest](#quest) | mediumint | unsigned | PRI | NO | 0 |  | Quest Identifier |
+| [id](#id-alt) | int | unsigned | PRI | NO | 0 |  | Identifier |
+| [quest](#quest) | int | unsigned | PRI | NO | 0 |  | Quest Identifier |
 &nbsp;
 ## Description of fields
 

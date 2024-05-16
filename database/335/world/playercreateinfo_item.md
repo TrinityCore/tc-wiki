@@ -2,7 +2,7 @@
 title: playercreateinfo_item
 description:
 published: true
-date: 2023-07-12T09:14:57.985Z
+date: 2024-05-16T11:19:34.415Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:07:36.750Z
@@ -18,7 +18,7 @@ This table is used for any custom items that you might want to give to character
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [race](#race) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [class](#class) | tinyint | unsigned | PRI | NO | 0 |  |  |
-| [itemid](#itemid) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [itemid](#itemid) | int | unsigned | PRI | NO | 0 |  |  |
 | [amount](#amount) | tinyint | signed |  | NO | 1 |  |  |
 &nbsp;
 ## Description of fields

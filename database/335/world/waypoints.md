@@ -2,7 +2,7 @@
 title: waypoints
 description: 
 published: true
-date: 2023-07-24T19:29:41.189Z
+date: 2024-05-16T11:19:36.131Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:11:00.802Z
@@ -16,14 +16,14 @@ Contains waypoint data, allowing Creatures to move to certain X, Y, and Z coordi
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [pointid](#pointid) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
+| [pointid](#pointid) | int | unsigned | PRI | NO | 0 |  |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |
 | [orientation](#orientation) | float |  |  | YES | NULL |  |  |
 | [delay](#delay) | int | unsigned |  | NO | 0 |  |  |
-| [point_comment](#point_comment) | text |  |  | YES | NULL |  |  |
+| [point_comment](#point_comment) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

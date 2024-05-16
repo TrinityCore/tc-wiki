@@ -2,7 +2,7 @@
 title: playercreateinfo_spell_custom
 description:
 published: true
-date: 2023-07-12T09:44:58.425Z
+date: 2024-05-16T11:19:34.425Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:07:42.105Z
@@ -20,7 +20,7 @@ Please note you'll have to set `PlayerStart.AllSpells = 1` in config, else this 
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [racemask](#racemask) | int | unsigned | PRI | NO | 0 |  |  |
 | [classmask](#classmask) | int | unsigned | PRI | NO | 0 |  |  |
-| [Spell](#spell) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [Spell](#spell) | int | unsigned | PRI | NO | 0 |  |  |
 | [Note](#note) | varchar(255) |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields

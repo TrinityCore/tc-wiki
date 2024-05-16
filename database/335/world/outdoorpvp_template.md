@@ -2,7 +2,7 @@
 title: outdoorpvp_template
 description: 
 published: true
-date: 2023-07-11T18:33:28.914Z
+date: 2024-05-16T11:19:34.309Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:06:45.577Z
@@ -18,7 +18,7 @@ Comes from sniffs and is not to be changed, EVER!
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [TypeId](#typeid) | tinyint | unsigned | PRI | NO |  |  |  |
 | [ScriptName](#scriptname) | char(64) |  |  | NO | '' |  |  |
-| [comment](#comment) | text |  |  | YES | NULL |  |  |
+| [comment](#comment) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

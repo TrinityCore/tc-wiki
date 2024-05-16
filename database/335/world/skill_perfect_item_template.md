@@ -2,7 +2,7 @@
 title: skill_perfect_item_template
 description:
 published: true
-date: 2023-07-15T10:46:36.542Z
+date: 2024-05-16T11:19:35.442Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:04.266Z
@@ -16,10 +16,10 @@ This table holds information about when using certain profession spells will cre
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [spellId](#spellid) | mediumint | unsigned | PRI | NO | 0 |  | SpellId of the item creation spell |
-| [requiredSpecialization](#requiredspecialization) | mediumint | unsigned |  | NO | 0 |  | Specialization spell id |
+| [spellId](#spellid) | int | unsigned | PRI | NO | 0 |  | SpellId of the item creation spell |
+| [requiredSpecialization](#requiredspecialization) | int | unsigned |  | NO | 0 |  | Specialization spell id |
 | [perfectCreateChance](#perfectcreatechance) | float |  |  | NO | 0 |  | chance to create the perfect item instead |
-| [perfectItemType](#perfectitemtype) | mediumint | unsigned |  | NO | 0 |  | perfect item type to create instead |
+| [perfectItemType](#perfectitemtype) | int | unsigned |  | NO | 0 |  | perfect item type to create instead |
 &nbsp;
 ## Description of fields
 

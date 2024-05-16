@@ -2,7 +2,7 @@
 title: gossip_menu
 description: 
 published: true
-date: 2023-07-10T19:24:38.525Z
+date: 2024-05-16T11:19:32.891Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:05:38.890Z
@@ -17,7 +17,7 @@ This table is used for displaying gossip when a player talks to an NPC with [npc
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [MenuID](#menuid) | smallint | unsigned | PRI | NO | 0 |  |  |
-| [TextID](#textid) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [TextID](#textid) | int | unsigned | PRI | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

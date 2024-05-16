@@ -2,7 +2,7 @@
 title: spell_scripts
 description: 
 published: true
-date: 2023-07-09T16:57:52.581Z
+date: 2024-05-16T11:19:35.921Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:59.500Z
@@ -20,11 +20,11 @@ Holds scripts that can be activated by spells with effect:
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id-alt) | mediumint | unsigned |  | NO | 0 |  |  |
+| [id](#id-alt) | int | unsigned |  | NO | 0 |  |  |
 | [effIndex](#effindex) | tinyint | unsigned |  | NO | 0 |  |  |
 | [delay](#delay) | int | unsigned |  | NO | 0 |  |  |
-| [command](#command) | mediumint | unsigned |  | NO | 0 |  |  |
-| [datalong](#datalong) | mediumint | unsigned |  | NO | 0 |  |  |
+| [command](#command) | int | unsigned |  | NO | 0 |  |  |
+| [datalong](#datalong) | int | unsigned |  | NO | 0 |  |  |
 | [datalong2](#datalong2) | int | unsigned |  | NO | 0 |  |  |
 | [dataint](#dataint) | int | signed |  | NO | 0 |  |  |
 | [x](#x) | float |  |  | NO | 0 |  |  |

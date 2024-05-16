@@ -2,7 +2,7 @@
 title: spell_linked_spell
 description:
 published: true
-date: 2023-07-22T21:14:28.702Z
+date: 2024-05-16T11:19:35.794Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:40.502Z
@@ -16,10 +16,10 @@ This table provides data for spell linking system, telling it which spells trigg
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [spell_trigger](#spell_trigger) | mediumint | signed | PRI | NO |  |  |  |
-| [spell_effect](#spell_effect) | mediumint | signed | PRI | NO | 0 |  |  |
+| [spell_trigger](#spell_trigger) | int | signed | PRI | NO |  |  |  |
+| [spell_effect](#spell_effect) | int | signed | PRI | NO | 0 |  |  |
 | [type](#type) | tinyint | unsigned | PRI | NO | 0 |  |  |
-| [comment](#comment) | text |  |  | NO |  |  |  |
+| [comment](#comment) | mediumtext |  |  | NO |  |  |  |
 &nbsp;
 ## Description of fields
 

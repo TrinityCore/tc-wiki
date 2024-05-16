@@ -2,7 +2,7 @@
 title: creature_questender
 description: 
 published: true
-date: 2023-07-08T17:54:15.125Z
+date: 2024-05-16T11:19:31.722Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:39.647Z
@@ -16,8 +16,8 @@ Holds NPC quest ender relations on which NPCs finishes which quests.
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  | Identifier |
-| [quest](#quest) | mediumint | unsigned | PRI | NO | 0 |  | Quest Identifier |
+| [id](#id-alt) | int | unsigned | PRI | NO | 0 |  | Identifier |
+| [quest](#quest) | int | unsigned | PRI | NO | 0 |  | Quest Identifier |
 &nbsp;
 ## Description of fields
 

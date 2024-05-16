@@ -2,7 +2,7 @@
 title: npc_vendor
 description: 
 published: true
-date: 2024-02-14T19:07:57.100Z
+date: 2024-05-16T11:19:34.305Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:06:42.885Z
@@ -16,13 +16,13 @@ This table holds the vendor data for all NPCs that sell items and currency. The 
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
 | [slot](#slot) | smallint | signed | MUL | NO | 0 |  |  |
-| [item](#item) | mediumint | signed | PRI | NO | 0 |  |  |
+| [item](#item) | int | signed | PRI | NO | 0 |  |  |
 | [maxcount](#maxcount) | tinyint | unsigned |  | NO | 0 |  |  |
 | [incrtime](#incrtime) | int | unsigned |  | NO | 0 |  |  |
-| [ExtendedCost](#extendedcost) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
+| [ExtendedCost](#extendedcost) | int | unsigned | PRI | NO | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

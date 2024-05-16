@@ -2,7 +2,7 @@
 title: pool_template
 description: 
 published: true
-date: 2023-07-12T10:56:34.217Z
+date: 2024-05-16T11:19:34.472Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:07:52.880Z
@@ -16,7 +16,7 @@ Each unique pool is defined in this table.
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | mediumint | unsigned | PRI | NO | 0 |  | Pool entry |
+| [entry](#entry) | int | unsigned | PRI | NO | 0 |  | Pool entry |
 | [max_limit](#max_limit) | int | unsigned |  | NO | 0 |  | Max number of objects (0) is no limit |
 | [description](#description) | varchar(255) |  |  | YES | NULL |  |  |
 &nbsp;

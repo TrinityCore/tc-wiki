@@ -2,7 +2,7 @@
 title: graveyard_zone
 description:
 published: true
-date: 2023-07-10T19:57:27.209Z
+date: 2024-05-16T11:19:32.977Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:05:47.482Z
@@ -20,10 +20,10 @@ For a list of all existing graveyard zones and their respective IDs, check out [
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [GhostZone](#ghostzone) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
+| [GhostZone](#ghostzone) | int | unsigned | PRI | NO | 0 |  |  |
 | [Faction](#faction) | smallint | unsigned |  | NO | 0 |  |  |
-| [Comment](#comment) | text |  |  | YES | NULL |  |  |
+| [Comment](#comment) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

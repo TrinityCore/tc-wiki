@@ -2,7 +2,7 @@
 title: quest_template
 description: 
 published: true
-date: 2024-04-16T18:09:30.271Z
+date: 2024-05-16T11:19:35.174Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:30.767Z
@@ -16,7 +16,7 @@ Contains all basic definitions of available quests.
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [QuestType](#questtype) | tinyint | unsigned |  | NO | 2 |  |  |
 | [QuestLevel](#questlevel) | smallint | signed |  | NO | 1 |  |  |
 | [MinLevel](#minlevel) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -25,90 +25,90 @@ Contains all basic definitions of available quests.
 | [SuggestedGroupNum](#suggestedgroupnum) | tinyint | unsigned |  | NO | 0 |  |  |
 | [RequiredFactionId1](#requiredfactionid1-2) | smallint | unsigned |  | NO | 0 |  |  |
 | [RequiredFactionId2](#requiredfactionid1-2) | smallint | unsigned |  | NO | 0 |  |  |
-| [RequiredFactionValue1](#requiredfactionvalue1-2) | mediumint | signed |  | NO | 0 |  |  |
-| [RequiredFactionValue2](#requiredfactionvalue1-2) | mediumint | signed |  | NO | 0 |  |  |
-| [RewardNextQuest](#rewardnextquest) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RequiredFactionValue1](#requiredfactionvalue1-2) | int | signed |  | NO | 0 |  |  |
+| [RequiredFactionValue2](#requiredfactionvalue1-2) | int | signed |  | NO | 0 |  |  |
+| [RewardNextQuest](#rewardnextquest) | int | unsigned |  | NO | 0 |  |  |
 | [RewardXPDifficulty](#rewardxpdifficulty) | tinyint | unsigned |  | NO | 0 |  |  |
 | [RewardMoney](#rewardmoney) | int | signed |  | NO | 0 |  |  |
 | [RewardBonusMoney](#rewardbonusmoney) | int | unsigned |  | NO | 0 |  |  |
-| [RewardDisplaySpell](#rewarddisplayspell) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RewardDisplaySpell](#rewarddisplayspell) | int | unsigned |  | NO | 0 |  |  |
 | [RewardSpell](#rewardspell) | int | signed |  | NO | 0 |  |  |
 | [RewardHonor](#rewardhonor) | int | signed |  | NO | 0 |  |  |
 | [RewardKillHonor](#rewardkillhonor) | float |  |  | NO | 0 |  |  |
-| [StartItem](#startitem) | mediumint | unsigned |  | NO | 0 |  |  |
+| [StartItem](#startitem) | int | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
 | [RequiredPlayerKills](#requiredplayerkills) | tinyint | unsigned |  | NO | 0 |  |  |
-| [RewardItem1](#rewarditem1-4) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RewardItem1](#rewarditem1-4) | int | unsigned |  | NO | 0 |  |  |
 | [RewardAmount1](#rewardamount1-4) | smallint | unsigned |  | NO | 0 |  |  |
-| [RewardItem2](#rewarditem1-4) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RewardItem2](#rewarditem1-4) | int | unsigned |  | NO | 0 |  |  |
 | [RewardAmount2](#rewardamount1-4) | smallint | unsigned |  | NO | 0 |  |  |
-| [RewardItem3](#rewarditem1-4) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RewardItem3](#rewarditem1-4) | int | unsigned |  | NO | 0 |  |  |
 | [RewardAmount3](#rewardamount1-4) | smallint | unsigned |  | NO | 0 |  |  |
-| [RewardItem4](#rewarditem1-4) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RewardItem4](#rewarditem1-4) | int | unsigned |  | NO | 0 |  |  |
 | [RewardAmount4](#rewardamount1-4) | smallint | unsigned |  | NO | 0 |  |  |
-| [ItemDrop1](#itemdrop1-4) | mediumint | unsigned |  | NO | 0 |  |  |
+| [ItemDrop1](#itemdrop1-4) | int | unsigned |  | NO | 0 |  |  |
 | [ItemDropQuantity1](#itemdropquantity1-4) | smallint | unsigned |  | NO | 0 |  |  |
-| [ItemDrop2](#itemdrop1-4) | mediumint | unsigned |  | NO | 0 |  |  |
+| [ItemDrop2](#itemdrop1-4) | int | unsigned |  | NO | 0 |  |  |
 | [ItemDropQuantity2](#itemdropquantity1-4) | smallint | unsigned |  | NO | 0 |  |  |
-| [ItemDrop3](#itemdrop1-4) | mediumint | unsigned |  | NO | 0 |  |  |
+| [ItemDrop3](#itemdrop1-4) | int | unsigned |  | NO | 0 |  |  |
 | [ItemDropQuantity3](#itemdropquantity1-4) | smallint | unsigned |  | NO | 0 |  |  |
-| [ItemDrop4](#itemdrop1-4) | mediumint | unsigned |  | NO | 0 |  |  |
+| [ItemDrop4](#itemdrop1-4) | int | unsigned |  | NO | 0 |  |  |
 | [ItemDropQuantity4](#itemdropquantity1-4) | smallint | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemID1](#rewardchoiceitemid1-6) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemID1](#rewardchoiceitemid1-6) | int | unsigned |  | NO | 0 |  |  |
 | [RewardChoiceItemQuantity1](#rewardchoiceitemquantity1-6) | smallint | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemID2](#rewardchoiceitemid1-6) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemID2](#rewardchoiceitemid1-6) | int | unsigned |  | NO | 0 |  |  |
 | [RewardChoiceItemQuantity2](#rewardchoiceitemquantity1-6) | smallint | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemID3](#rewardchoiceitemid1-6) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemID3](#rewardchoiceitemid1-6) | int | unsigned |  | NO | 0 |  |  |
 | [RewardChoiceItemQuantity3](#rewardchoiceitemquantity1-6) | smallint | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemID4](#rewardchoiceitemid1-6) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemID4](#rewardchoiceitemid1-6) | int | unsigned |  | NO | 0 |  |  |
 | [RewardChoiceItemQuantity4](#rewardchoiceitemquantity1-6) | smallint | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemID5](#rewardchoiceitemid1-6) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemID5](#rewardchoiceitemid1-6) | int | unsigned |  | NO | 0 |  |  |
 | [RewardChoiceItemQuantity5](#rewardchoiceitemquantity1-6) | smallint | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemID6](#rewardchoiceitemid1-6) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemID6](#rewardchoiceitemid1-6) | int | unsigned |  | NO | 0 |  |  |
 | [RewardChoiceItemQuantity6](#rewardchoiceitemquantity1-6) | smallint | unsigned |  | NO | 0 |  |  |
 | [POIContinent](#poicontinent) | smallint | unsigned |  | NO | 0 |  |  |
 | [POIx](#poix) | float |  |  | NO | 0 |  |  |
 | [POIy](#poiy) | float |  |  | NO | 0 |  |  |
-| [POIPriority](#poipriority) | mediumint | unsigned |  | NO | 0 |  |  |
+| [POIPriority](#poipriority) | int | unsigned |  | NO | 0 |  |  |
 | [RewardTitle](#rewardtitle) | tinyint | unsigned |  | NO | 0 |  |  |
 | [RewardTalents](#rewardtalents) | tinyint | unsigned |  | NO | 0 |  |  |
 | [RewardArenaPoints](#rewardarenapoints) | smallint | unsigned |  | NO | 0 |  |  |
 | [RewardFactionID1](#rewardfactionid1-5) | smallint | unsigned |  | NO | 0 |  | [Faction ID](/files/DBC/335/faction#id) |
-| [RewardFactionValue1](#rewardfactionvalue1-5) | mediumint | signed |  | NO | 0 |  |  |
-| [RewardFactionOverride1](#rewardfactionoverride1-5) | mediumint | signed |  | NO | 0 |  |  |
+| [RewardFactionValue1](#rewardfactionvalue1-5) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionOverride1](#rewardfactionoverride1-5) | int | signed |  | NO | 0 |  |  |
 | [RewardFactionID2](#rewardfactionid1-5) | smallint | unsigned |  | NO | 0 |  | [Faction ID](/files/DBC/335/faction#id) |
-| [RewardFactionValue2](#rewardfactionvalue1-5) | mediumint | signed |  | NO | 0 |  |  |
-| [RewardFactionOverride2](#rewardfactionoverride1-5) | mediumint | signed |  | NO | 0 |  |  |
+| [RewardFactionValue2](#rewardfactionvalue1-5) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionOverride2](#rewardfactionoverride1-5) | int | signed |  | NO | 0 |  |  |
 | [RewardFactionID3](#rewardfactionid1-5) | smallint | unsigned |  | NO | 0 |  | [Faction ID](/files/DBC/335/faction#id) |
-| [RewardFactionValue3](#rewardfactionvalue1-5) | mediumint | signed |  | NO | 0 |  |  |
-| [RewardFactionOverride3](#rewardfactionoverride1-5) | mediumint | signed |  | NO | 0 |  |  |
+| [RewardFactionValue3](#rewardfactionvalue1-5) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionOverride3](#rewardfactionoverride1-5) | int | signed |  | NO | 0 |  |  |
 | [RewardFactionID4](#rewardfactionid1-5) | smallint | unsigned |  | NO | 0 |  | [Faction ID](/files/DBC/335/faction#id) |
-| [RewardFactionValue4](#rewardfactionvalue1-5) | mediumint | signed |  | NO | 0 |  |  |
-| [RewardFactionOverride4](#rewardfactionoverride1-5) | mediumint | signed |  | NO | 0 |  |  |
+| [RewardFactionValue4](#rewardfactionvalue1-5) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionOverride4](#rewardfactionoverride1-5) | int | signed |  | NO | 0 |  |  |
 | [RewardFactionID5](#rewardfactionid1-5) | smallint | unsigned |  | NO | 0 |  | [Faction ID](/files/DBC/335/faction#id) |
-| [RewardFactionValue5](#rewardfactionvalue1-5) | mediumint | signed |  | NO | 0 |  |  |
-| [RewardFactionOverride5](#rewardfactionoverride1-5) | mediumint | signed |  | NO | 0 |  |  |
+| [RewardFactionValue5](#rewardfactionvalue1-5) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionOverride5](#rewardfactionoverride1-5) | int | signed |  | NO | 0 |  |  |
 | [TimeAllowed](#timeallowed) | int | unsigned |  | NO | 0 |  |  |
 | [AllowableRaces](#allowableraces) | smallint | unsigned |  | NO | 0 |  |  |
-| [LogTitle](#logtitle) | text |  |  | YES | NULL |  |  |
-| [LogDescription](#logdescription) | text |  |  | YES | NULL |  |  |
-| [QuestDescription](#questdescription) | text |  |  | YES | NULL |  |  |
-| [AreaDescription](#areadescription) | text |  |  | YES | NULL |  |  |
-| [QuestCompletionLog](#questcompletionlog) | text |  |  | YES | NULL |  |  |
-| [RequiredNpcOrGo1](#requirednpcorgo1-4) | mediumint | signed |  | NO | 0 |  |  |
-| [RequiredNpcOrGo2](#requirednpcorgo1-4) | mediumint | signed |  | NO | 0 |  |  |
-| [RequiredNpcOrGo3](#requirednpcorgo1-4) | mediumint | signed |  | NO | 0 |  |  |
-| [RequiredNpcOrGo4](#requirednpcorgo1-4) | mediumint | signed |  | NO | 0 |  |  |
+| [LogTitle](#logtitle) | mediumtext |  |  | YES | NULL |  |  |
+| [LogDescription](#logdescription) | mediumtext |  |  | YES | NULL |  |  |
+| [QuestDescription](#questdescription) | mediumtext |  |  | YES | NULL |  |  |
+| [AreaDescription](#areadescription) | mediumtext |  |  | YES | NULL |  |  |
+| [QuestCompletionLog](#questcompletionlog) | mediumtext |  |  | YES | NULL |  |  |
+| [RequiredNpcOrGo1](#requirednpcorgo1-4) | int | signed |  | NO | 0 |  |  |
+| [RequiredNpcOrGo2](#requirednpcorgo1-4) | int | signed |  | NO | 0 |  |  |
+| [RequiredNpcOrGo3](#requirednpcorgo1-4) | int | signed |  | NO | 0 |  |  |
+| [RequiredNpcOrGo4](#requirednpcorgo1-4) | int | signed |  | NO | 0 |  |  |
 | [RequiredNpcOrGoCount1](#requirednpcorgocount1-4) | smallint | unsigned |  | NO | 0 |  |  |
 | [RequiredNpcOrGoCount2](#requirednpcorgocount1-4) | smallint | unsigned |  | NO | 0 |  |  |
 | [RequiredNpcOrGoCount3](#requirednpcorgocount1-4) | smallint | unsigned |  | NO | 0 |  |  |
 | [RequiredNpcOrGoCount4](#requirednpcorgocount1-4) | smallint | unsigned |  | NO | 0 |  |  |
-| [RequiredItemId1](#requireditemid1-6) | mediumint | unsigned |  | NO | 0 |  |  |
-| [RequiredItemId2](#requireditemid1-6) | mediumint | unsigned |  | NO | 0 |  |  |
-| [RequiredItemId3](#requireditemid1-6) | mediumint | unsigned |  | NO | 0 |  |  |
-| [RequiredItemId4](#requireditemid1-6) | mediumint | unsigned |  | NO | 0 |  |  |
-| [RequiredItemId5](#requireditemid1-6) | mediumint | unsigned |  | NO | 0 |  |  |
-| [RequiredItemId6](#requireditemid1-6) | mediumint | unsigned |  | NO | 0 |  |  |
+| [RequiredItemId1](#requireditemid1-6) | int | unsigned |  | NO | 0 |  |  |
+| [RequiredItemId2](#requireditemid1-6) | int | unsigned |  | NO | 0 |  |  |
+| [RequiredItemId3](#requireditemid1-6) | int | unsigned |  | NO | 0 |  |  |
+| [RequiredItemId4](#requireditemid1-6) | int | unsigned |  | NO | 0 |  |  |
+| [RequiredItemId5](#requireditemid1-6) | int | unsigned |  | NO | 0 |  |  |
+| [RequiredItemId6](#requireditemid1-6) | int | unsigned |  | NO | 0 |  |  |
 | [RequiredItemCount1](#requireditemcount1-6) | smallint | unsigned |  | NO | 0 |  |  |
 | [RequiredItemCount2](#requireditemcount1-6) | smallint | unsigned |  | NO | 0 |  |  |
 | [RequiredItemCount3](#requireditemcount1-6) | smallint | unsigned |  | NO | 0 |  |  |
@@ -116,11 +116,11 @@ Contains all basic definitions of available quests.
 | [RequiredItemCount5](#requireditemcount1-6) | smallint | unsigned |  | NO | 0 |  |  |
 | [RequiredItemCount6](#requireditemcount1-6) | smallint | unsigned |  | NO | 0 |  |  |
 | [Unknown0](#unknown0) | tinyint | unsigned |  | NO | 0 |  |  |
-| [ObjectiveText1](#objectivetext1-4) | text |  |  | YES | NULL |  |  |
-| [ObjectiveText2](#objectivetext1-4) | text |  |  | YES | NULL |  |  |
-| [ObjectiveText3](#objectivetext1-4) | text |  |  | YES | NULL |  |  |
-| [ObjectiveText4](#objectivetext1-4) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
+| [ObjectiveText1](#objectivetext1-4) | mediumtext |  |  | YES | NULL |  |  |
+| [ObjectiveText2](#objectivetext1-4) | mediumtext |  |  | YES | NULL |  |  |
+| [ObjectiveText3](#objectivetext1-4) | mediumtext |  |  | YES | NULL |  |  |
+| [ObjectiveText4](#objectivetext1-4) | mediumtext |  |  | YES | NULL |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

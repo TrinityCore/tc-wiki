@@ -2,7 +2,7 @@
 title: creature_addon
 description:
 published: true
-date: 2023-07-08T22:34:41.562Z
+date: 2024-05-16T11:19:31.626Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:15.869Z
@@ -21,16 +21,16 @@ The [creature_addon](../world/creature_addon) and [creature_template_addon](../w
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | int | unsigned | PRI | NO | 0 |  |  |
 | [path_id](#path_id) | int | unsigned |  | NO | 0 |  |  |
-| [mount](#mount) | mediumint | unsigned |  | NO | 0 |  |  |
+| [mount](#mount) | int | unsigned |  | NO | 0 |  |  |
 | [MountCreatureID](#mountcreatureid) | int | unsigned |  | NO | 0 |  |  |
 | [StandState](#standstate) | tinyint | unsigned |  | NO | 0 |  |  |
 | [AnimTier](#animtier) | tinyint | unsigned |  | NO | 0 |  |  |
 | [VisFlags](#visflags) | tinyint | unsigned |  | NO | 0 |  |  |
 | [SheathState](#sheathstate) | tinyint | unsigned |  | NO | 1 |  |  |
 | [PvPFlags](#pvpflags) | tinyint | unsigned |  | NO | 0 |  |  |
-| [emote](#emote) | mediumint | unsigned |  | NO | 0 |  |  |
+| [emote](#emote) | int | unsigned |  | NO | 0 |  |  |
 | [visibilityDistanceType](#visibilitydistancetype) | tinyint | unsigned |  | NO | 0 |  |  |
-| [auras](#auras) | text |  |  | YES | NULL |  |  |
+| [auras](#auras) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

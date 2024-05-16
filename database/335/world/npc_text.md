@@ -2,7 +2,7 @@
 title: npc_text
 description: 
 published: true
-date: 2024-04-16T17:57:09.577Z
+date: 2024-05-16T11:19:34.263Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:06:36.830Z
@@ -16,10 +16,10 @@ This table contains the texts that are used for gossip. More research needs to b
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [text0_0](#text0-7_0) | longtext |  |  | YES | NULL |  |  |
 | [text0_1](#text0-7_1) | longtext |  |  | YES | NULL |  |  |
-| [BroadcastTextID0](#broadcasttextid0-7) | mediumint | signed |  | NO | 0 |  |  |
+| [BroadcastTextID0](#broadcasttextid0-7) | int | signed |  | NO | 0 |  |  |
 | [lang0](#lang0-7) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Probability0](#probability0-7) | float |  |  | NO | 0 |  |  |
 | [EmoteDelay0_0](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
@@ -30,7 +30,7 @@ This table contains the texts that are used for gossip. More research needs to b
 | [Emote0_2](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
 | [text1_0](#text0-7_0) | longtext |  |  | YES | NULL |  |  |
 | [text1_1](#text0-7_1) | longtext |  |  | YES | NULL |  |  |
-| [BroadcastTextID1](#broadcasttextid0-7) | mediumint | signed |  | NO | 0 |  |  |
+| [BroadcastTextID1](#broadcasttextid0-7) | int | signed |  | NO | 0 |  |  |
 | [lang1](#lang0-7) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Probability1](#probability0-7) | float |  |  | NO | 0 |  |  |
 | [EmoteDelay1_0](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
@@ -41,7 +41,7 @@ This table contains the texts that are used for gossip. More research needs to b
 | [Emote1_2](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
 | [text2_0](#text0-7_0) | longtext |  |  | YES | NULL |  |  |
 | [text2_1](#text0-7_1) | longtext |  |  | YES | NULL |  |  |
-| [BroadcastTextID2](#broadcasttextid0-7) | mediumint | signed |  | NO | 0 |  |  |
+| [BroadcastTextID2](#broadcasttextid0-7) | int | signed |  | NO | 0 |  |  |
 | [lang2](#lang0-7) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Probability2](#probability0-7) | float |  |  | NO | 0 |  |  |
 | [EmoteDelay2_0](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
@@ -52,7 +52,7 @@ This table contains the texts that are used for gossip. More research needs to b
 | [Emote2_2](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
 | [text3_0](#text0-7_0) | longtext |  |  | YES | NULL |  |  |
 | [text3_1](#text0-7_1) | longtext |  |  | YES | NULL |  |  |
-| [BroadcastTextID3](#broadcasttextid0-7) | mediumint | signed |  | NO | 0 |  |  |
+| [BroadcastTextID3](#broadcasttextid0-7) | int | signed |  | NO | 0 |  |  |
 | [lang3](#lang0-7) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Probability3](#probability0-7) | float |  |  | NO | 0 |  |  |
 | [EmoteDelay3_0](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
@@ -63,7 +63,7 @@ This table contains the texts that are used for gossip. More research needs to b
 | [Emote3_2](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
 | [text4_0](#text0-7_0) | longtext |  |  | YES | NULL |  |  |
 | [text4_1](#text0-7_1) | longtext |  |  | YES | NULL |  |  |
-| [BroadcastTextID4](#broadcasttextid0-7) | mediumint | signed |  | NO | 0 |  |  |
+| [BroadcastTextID4](#broadcasttextid0-7) | int | signed |  | NO | 0 |  |  |
 | [lang4](#lang0-7) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Probability4](#probability0-7) | float |  |  | NO | 0 |  |  |
 | [EmoteDelay4_0](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
@@ -74,7 +74,7 @@ This table contains the texts that are used for gossip. More research needs to b
 | [Emote4_2](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
 | [text5_0](#text0-7_0) | longtext |  |  | YES | NULL |  |  |
 | [text5_1](#text0-7_1) | longtext |  |  | YES | NULL |  |  |
-| [BroadcastTextID5](#broadcasttextid0-7) | mediumint | signed |  | NO | 0 |  |  |
+| [BroadcastTextID5](#broadcasttextid0-7) | int | signed |  | NO | 0 |  |  |
 | [lang5](#lang0-7) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Probability5](#probability0-7) | float |  |  | NO | 0 |  |  |
 | [EmoteDelay5_0](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
@@ -85,7 +85,7 @@ This table contains the texts that are used for gossip. More research needs to b
 | [Emote5_2](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
 | [text6_0](#text0-7_0) | longtext |  |  | YES | NULL |  |  |
 | [text6_1](#text0-7_1) | longtext |  |  | YES | NULL |  |  |
-| [BroadcastTextID6](#broadcasttextid0-7) | mediumint | signed |  | NO | 0 |  |  |
+| [BroadcastTextID6](#broadcasttextid0-7) | int | signed |  | NO | 0 |  |  |
 | [lang6](#lang0-7) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Probability6](#probability0-7) | float |  |  | NO | 0 |  |  |
 | [EmoteDelay6_0](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
@@ -96,7 +96,7 @@ This table contains the texts that are used for gossip. More research needs to b
 | [Emote6_2](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
 | [text7_0](#text0-7_0) | longtext |  |  | YES | NULL |  |  |
 | [text7_1](#text0-7_1) | longtext |  |  | YES | NULL |  |  |
-| [BroadcastTextID7](#broadcasttextid0-7) | mediumint | signed |  | NO | 0 |  |  |
+| [BroadcastTextID7](#broadcasttextid0-7) | int | signed |  | NO | 0 |  |  |
 | [lang7](#lang0-7) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Probability7](#probability0-7) | float |  |  | NO | 0 |  |  |
 | [EmoteDelay7_0](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
@@ -105,7 +105,7 @@ This table contains the texts that are used for gossip. More research needs to b
 | [Emote7_1](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
 | [EmoteDelay7_2](#emotedelay0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
 | [Emote7_2](#emote0-7_0-2) | smallint | unsigned |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

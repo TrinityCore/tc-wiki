@@ -2,7 +2,7 @@
 title: skill_discovery_template
 description:
 published: true
-date: 2023-07-15T09:54:23.592Z
+date: 2024-05-16T11:19:35.406Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:56.168Z
@@ -16,8 +16,8 @@ This table controls the so called "discovery" system of learning spells. This sy
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [spellId](#spellid) | mediumint | unsigned | PRI | NO | 0 |  | SpellId of the discoverable spell |
-| [reqSpell](#reqspell) | mediumint | unsigned | PRI | NO | 0 |  | spell requirement |
+| [spellId](#spellid) | int | unsigned | PRI | NO | 0 |  | SpellId of the discoverable spell |
+| [reqSpell](#reqspell) | int | unsigned | PRI | NO | 0 |  | spell requirement |
 | [reqSkillValue](#reqskillvalue) | smallint | unsigned |  | NO | 0 |  | skill points requirement |
 | [chance](#chance) | float |  |  | NO | 0 |  | chance to discover |
 &nbsp;

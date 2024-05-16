@@ -2,7 +2,7 @@
 title: vehicle_accessory
 description:
 published: true
-date: 2023-07-24T17:34:57.103Z
+date: 2024-05-16T11:19:36.038Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:10:29.645Z
@@ -16,11 +16,11 @@ This table is used to tell the server to spawn an additional NPC with this vehic
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [guid](#guid) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [accessory_entry](#accessory_entry) | mediumint | unsigned |  | NO | 0 |  |  |
+| [guid](#guid) | int | unsigned | PRI | NO | 0 |  |  |
+| [accessory_entry](#accessory_entry) | int | unsigned |  | NO | 0 |  |  |
 | [seat_id](#seat_id) | tinyint | signed | PRI | NO | 0 |  |  |
 | [minion](#minion) | tinyint | unsigned |  | NO | 0 |  |  |
-| [description](#description) | text |  |  | NO |  |  |  |
+| [description](#description) | mediumtext |  |  | NO |  |  |  |
 | [summontype](#summontype) | tinyint | unsigned |  | NO | 6 |  | see enum TempSummonType |
 | [summontimer](#summontimer) | int | unsigned |  | NO | 30000 |  | timer, only relevant for certain summontypes |
 &nbsp;

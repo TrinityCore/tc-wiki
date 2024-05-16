@@ -2,7 +2,7 @@
 title: achievement_criteria_data
 description: 
 published: true
-date: 2024-04-16T22:18:52.974Z
+date: 2024-05-16T11:19:31.067Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:02:33.368Z
@@ -16,10 +16,10 @@ This table contains the data that a player needs to obtain / complete in order t
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [criteria_id](#criteria_id) | mediumint | signed | PRI | NO |  |  |  |
+| [criteria_id](#criteria_id) | int | signed | PRI | NO |  |  |  |
 | [type](#type) | tinyint | unsigned | PRI | NO | 0 |  |  |
-| [value1](#type) | mediumint | unsigned |  | NO | 0 |  |  |
-| [value2](#type) | mediumint | unsigned |  | NO | 0 |  |  |
+| [value1](#type) | int | unsigned |  | NO | 0 |  |  |
+| [value2](#type) | int | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | char(64) |  |  | NO | '' |  |  |
 &nbsp;
 ## Description of fields

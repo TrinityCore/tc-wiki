@@ -2,7 +2,7 @@
 title: gameobject_template_addon
 description: 
 published: true
-date: 2024-04-16T17:14:08.864Z
+date: 2024-05-16T11:19:32.869Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:05:33.454Z
@@ -16,11 +16,11 @@ This table holds additional information on gameobjects.
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
 | [faction](#faction) | smallint | unsigned |  | NO | 0 |  |  |
 | [flags](#flags) | int | unsigned |  | NO | 0 |  |  |
-| [mingold](#mingold) | mediumint | unsigned |  | NO | 0 |  |  |
-| [maxgold](#maxgold) | mediumint | unsigned |  | NO | 0 |  |  |
+| [mingold](#mingold) | int | unsigned |  | NO | 0 |  |  |
+| [maxgold](#maxgold) | int | unsigned |  | NO | 0 |  |  |
 | [artkit0](#artkit0-3) | int | signed |  | NO | 0 |  |  |
 | [artkit1](#artkit0-3) | int | signed |  | NO | 0 |  |  |
 | [artkit2](#artkit0-3) | int | signed |  | NO | 0 |  |  |

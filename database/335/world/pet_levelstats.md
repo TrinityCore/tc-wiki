@@ -2,7 +2,7 @@
 title: pet_levelstats
 description: 
 published: true
-date: 2023-07-11T20:27:43.911Z
+date: 2024-05-16T11:19:34.337Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:06:53.572Z
@@ -16,7 +16,7 @@ This table holds information on individual pet base stats based on level.
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [creature_entry](#creature_entry) | mediumint | unsigned | PRI | NO |  |  |  |
+| [creature_entry](#creature_entry) | int | unsigned | PRI | NO |  |  |  |
 | [level](#level) | tinyint | unsigned | PRI | NO |  |  |  |
 | [hp](#hp) | smallint | unsigned |  | NO |  |  |  |
 | [mana](#mana) | smallint | unsigned |  | NO |  |  |  |

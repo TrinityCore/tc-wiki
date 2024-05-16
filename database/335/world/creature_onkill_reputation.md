@@ -2,7 +2,7 @@
 title: creature_onkill_reputation
 description:
 published: true
-date: 2023-07-08T17:52:10.601Z
+date: 2024-05-16T11:19:31.714Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:36.902Z
@@ -16,15 +16,15 @@ This table controls the reputation given by creatures when killed by players.
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [creature_id](#creature_id) | mediumint | unsigned | PRI | NO | 0 |  | Creature Identifier |
+| [creature_id](#creature_id) | int | unsigned | PRI | NO | 0 |  | Creature Identifier |
 | [RewOnKillRepFaction1](#rewonkillrepfaction1) | smallint | signed |  | NO | 0 |  |  |
 | [RewOnKillRepFaction2](#rewonkillrepfaction2) | smallint | signed |  | NO | 0 |  |  |
 | [MaxStanding1](#maxstanding1) | tinyint | signed |  | NO | 0 |  |  |
 | [IsTeamAward1](#isteamaward1) | tinyint | signed |  | NO | 0 |  |  |
-| [RewOnKillRepValue1](#rewonkillrepvalue1) | mediumint | signed |  | NO | 0 |  |  |
+| [RewOnKillRepValue1](#rewonkillrepvalue1) | int | signed |  | NO | 0 |  |  |
 | [MaxStanding2](#maxstanding2) | tinyint | signed |  | NO | 0 |  |  |
 | [IsTeamAward2](#isteamaward2) | tinyint | signed |  | NO | 0 |  |  |
-| [RewOnKillRepValue2](#rewonkillrepvalue2) | mediumint | signed |  | NO | 0 |  |  |
+| [RewOnKillRepValue2](#rewonkillrepvalue2) | int | signed |  | NO | 0 |  |  |
 | [TeamDependent](#teamdependent) | tinyint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

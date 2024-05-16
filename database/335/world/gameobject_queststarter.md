@@ -2,7 +2,7 @@
 title: gameobject_queststarter
 description: 
 published: true
-date: 2023-07-09T21:39:11.639Z
+date: 2024-05-16T11:19:32.638Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:05:27.787Z
@@ -16,8 +16,8 @@ Holds gameobject quest giver relations. The gameobjects in this table should all
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [quest](#quest) | mediumint | unsigned | PRI | NO | 0 |  | Quest Identifier |
+| [id](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
+| [quest](#quest) | int | unsigned | PRI | NO | 0 |  | Quest Identifier |
 &nbsp;
 ## Description of fields
 

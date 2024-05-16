@@ -2,7 +2,7 @@
 title: creature
 description: 
 published: true
-date: 2024-04-16T16:04:29.416Z
+date: 2024-05-16T11:19:31.560Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:13.159Z
@@ -17,13 +17,13 @@ Contains individual creature spawn data. Spawn of a creature is an instance of t
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | int | unsigned | PRI | NO |  | auto_increment | Global Unique Identifier |
-| [id](#id-alt) | mediumint | unsigned | MUL | NO | 0 |  | Creature Identifier |
+| [id](#id-alt) | int | unsigned | MUL | NO | 0 |  | Creature Identifier |
 | [map](#map) | smallint | unsigned | MUL | NO | 0 |  | Map Identifier |
 | [zoneId](#zoneid) | smallint | unsigned |  | NO | 0 |  | Zone Identifier |
 | [areaId](#areaid) | smallint | unsigned |  | NO | 0 |  | Area Identifier |
 | [spawnMask](#spawnmask) | tinyint | unsigned |  | NO | 1 |  |  |
 | [phaseMask](#phasemask) | int | unsigned |  | NO | 1 |  |  |
-| [modelid](#modelid) | mediumint | unsigned |  | NO | 0 |  |  |
+| [modelid](#modelid) | int | unsigned |  | NO | 0 |  |  |
 | [equipment_id](#equipment_id) | tinyint | signed |  | NO | 0 |  |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
@@ -31,7 +31,7 @@ Contains individual creature spawn data. Spawn of a creature is an instance of t
 | [orientation](#orientation) | float |  |  | NO | 0 |  |  |
 | [spawntimesecs](#spawntimesecs) | int | unsigned |  | NO | 120 |  |  |
 | [wander_distance](#wander_distance) | float |  |  | NO | 0 |  |  |
-| [currentwaypoint](#currentwaypoint) | mediumint | unsigned |  | NO | 0 |  |  |
+| [currentwaypoint](#currentwaypoint) | int | unsigned |  | NO | 0 |  |  |
 | [curhealth](#curhealth) | int | unsigned |  | NO | 1 |  |  |
 | [curmana](#curmana) | int | unsigned |  | NO | 0 |  |  |
 | [MovementType](#movementtype) | tinyint | unsigned |  | NO | 0 |  |  |

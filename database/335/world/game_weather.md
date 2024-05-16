@@ -2,7 +2,7 @@
 title: game_weather
 description:
 published: true
-date: 2023-07-09T18:51:33.455Z
+date: 2024-05-16T11:19:32.566Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:05:08.754Z
@@ -16,7 +16,7 @@ This table holds the percentages for weather changes in various zones. Not all z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [zone](#zone) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [zone](#zone) | int | unsigned | PRI | NO | 0 |  |  |
 | [spring_rain_chance](#spring_rain_chance) | tinyint | unsigned |  | NO | 25 |  |  |
 | [spring_snow_chance](#spring_snow_chance) | tinyint | unsigned |  | NO | 25 |  |  |
 | [spring_storm_chance](#spring_storm_chance) | tinyint | unsigned |  | NO | 25 |  |  |

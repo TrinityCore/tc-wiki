@@ -2,7 +2,7 @@
 title: item_loot_template
 description: 
 published: true
-date: 2023-07-08T16:06:17.437Z
+date: 2024-05-16T11:19:33.011Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:06:03.716Z
@@ -18,9 +18,9 @@ Contains items contained in other, openable, items.
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [Entry](#entry) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [Item](#item) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [Reference](#reference) | mediumint | unsigned |  | NO | 0 |  |  |
+| [Entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
+| [Item](#item) | int | unsigned | PRI | NO | 0 |  |  |
+| [Reference](#reference) | int | unsigned |  | NO | 0 |  |  |
 | [Chance](#chance) | float |  |  | NO | 100 |  |  |
 | [QuestRequired](#questrequired) | tinyint(1) | signed |  | NO | 0 |  |  |
 | [LootMode](#lootmode) | smallint | unsigned |  | NO | 1 |  |  |

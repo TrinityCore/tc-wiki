@@ -2,7 +2,7 @@
 title: game_event_npcflag
 description: 
 published: true
-date: 2023-07-09T18:17:16.198Z
+date: 2024-05-16T11:19:32.507Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:04:52.641Z
@@ -17,7 +17,7 @@ This table contains npcflags that are to be added to an NPC when the specified e
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [eventEntry](#evententry) | tinyint | unsigned | PRI | NO |  |  | Entry of the game event |
-| [guid](#guid) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [guid](#guid) | int | unsigned | PRI | NO | 0 |  |  |
 | [npcflag](#npcflag) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

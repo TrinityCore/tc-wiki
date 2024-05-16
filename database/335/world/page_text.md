@@ -2,7 +2,7 @@
 title: page_text
 description: 
 published: true
-date: 2023-07-11T20:12:23.500Z
+date: 2024-05-16T11:19:34.316Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:06:48.225Z
@@ -16,9 +16,9 @@ This table holds the text for letter items or any items that when moused-over tu
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Text](#text) | longtext |  |  | NO |  |  |  |
-| [NextPageID](#nextpageid) | mediumint | unsigned |  | NO | 0 |  |  |
+| [NextPageID](#nextpageid) | int | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

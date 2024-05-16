@@ -2,7 +2,7 @@
 title: quest_details
 description: 
 published: true
-date: 2024-04-16T18:03:08.886Z
+date: 2024-05-16T11:19:34.525Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:07:58.264Z
@@ -16,7 +16,7 @@ This table handles Quest NPC emotes with emote delays when accepting a quest.
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Emote1](#emote1-4) | smallint | unsigned |  | NO | 0 |  |  |
 | [Emote2](#emote1-4) | smallint | unsigned |  | NO | 0 |  |  |
 | [Emote3](#emote1-4) | smallint | unsigned |  | NO | 0 |  |  |

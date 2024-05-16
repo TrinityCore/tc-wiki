@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2024-04-20T19:46:53.073Z
+date: 2024-05-16T11:19:35.729Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:09.695Z
@@ -43,7 +43,7 @@ dateCreated: 2021-08-30T22:09:09.695Z
 | [target_y](#target_type) | float |  |  | NO | 0 |  |  |
 | [target_z](#target_type) | float |  |  | NO | 0 |  |  |
 | [target_o](#target_type) | float |  |  | NO | 0 |  |  |
-| [comment](#comment) | text |  |  | NO |  |  | Event Comment |
+| [comment](#comment) | mediumtext |  |  | NO |  |  | Event Comment |
 &nbsp;
 
 ## Description of fields

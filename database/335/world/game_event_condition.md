@@ -2,7 +2,7 @@
 title: game_event_condition
 description: 
 published: true
-date: 2023-07-09T17:53:37.858Z
+date: 2024-05-16T11:19:32.448Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:04:33.708Z
@@ -17,7 +17,7 @@ This table contains conditions to meet for the specified game event to be comple
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [eventEntry](#evententry) | tinyint | unsigned | PRI | NO |  |  | Entry of the game event |
-| [condition_id](#condition_id) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [condition_id](#condition_id) | int | unsigned | PRI | NO | 0 |  |  |
 | [req_num](#req_num) | float |  |  | YES | 0 |  |  |
 | [max_world_state_field](#max_world_state_field) | smallint | unsigned |  | NO | 0 |  |  |
 | [done_world_state_field](#done_world_state_field) | smallint | unsigned |  | NO | 0 |  |  |

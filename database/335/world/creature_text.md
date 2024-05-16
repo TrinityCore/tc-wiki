@@ -2,7 +2,7 @@
 title: creature_text
 description: 
 published: true
-date: 2024-04-16T16:49:06.410Z
+date: 2024-05-16T11:19:32.310Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:04:06.752Z
@@ -16,17 +16,17 @@ This table holds all the speech text (whisper, say, yell, emote text in speech b
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [CreatureID](#creatureid) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [CreatureID](#creatureid) | int | unsigned | PRI | NO | 0 |  |  |
 | [GroupID](#groupid) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [ID](#id-alt) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [Text](#text) | longtext |  |  | YES | NULL |  |  |
 | [Type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Language](#language) | tinyint | signed |  | NO | 0 |  |  |
 | [Probability](#probability) | float |  |  | NO | 0 |  |  |
-| [Emote](#emote) | mediumint | unsigned |  | NO | 0 |  |  |
-| [Duration](#duration) | mediumint | unsigned |  | NO | 0 |  |  |
-| [Sound](#sound) | mediumint | unsigned |  | NO | 0 |  |  |
-| [BroadcastTextId](#broadcasttextid) | mediumint | signed |  | NO | 0 |  |  |
+| [Emote](#emote) | int | unsigned |  | NO | 0 |  |  |
+| [Duration](#duration) | int | unsigned |  | NO | 0 |  |  |
+| [Sound](#sound) | int | unsigned |  | NO | 0 |  |  |
+| [BroadcastTextId](#broadcasttextid) | int | signed |  | NO | 0 |  |  |
 | [TextRange](#textrange) | tinyint | unsigned |  | NO | 0 |  |  |
 | [comment](#comment) | varchar(255) |  |  | YES | '' |  |  |
 &nbsp;

@@ -2,7 +2,7 @@
 title: achievement_reward
 description:
 published: true
-date: 2023-07-07T20:04:34.933Z
+date: 2024-05-16T11:19:31.117Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:02:38.555Z
@@ -16,14 +16,14 @@ This table describes the reward that you will receive when you obtain a given ac
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [TitleA](#titlea) | mediumint | unsigned |  | NO | 0 |  |  |
-| [TitleH](#titleh) | mediumint | unsigned |  | NO | 0 |  |  |
-| [ItemID](#itemid) | mediumint | unsigned |  | NO | 0 |  |  |
-| [Sender](#sender) | mediumint | unsigned |  | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
+| [TitleA](#titlea) | int | unsigned |  | NO | 0 |  |  |
+| [TitleH](#titleh) | int | unsigned |  | NO | 0 |  |  |
+| [ItemID](#itemid) | int | unsigned |  | NO | 0 |  |  |
+| [Sender](#sender) | int | unsigned |  | NO | 0 |  |  |
 | [Subject](#subject) | varchar(255) |  |  | YES | NULL |  |  |
-| [Body](#body) | text |  |  | YES | NULL |  |  |
-| [MailTemplateID](#mailtemplateid) | mediumint | unsigned |  | YES | 0 |  |  |
+| [Body](#body) | mediumtext |  |  | YES | NULL |  |  |
+| [MailTemplateID](#mailtemplateid) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 

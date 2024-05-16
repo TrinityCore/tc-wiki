@@ -2,7 +2,7 @@
 title: game_event_npc_vendor
 description:
 published: true
-date: 2023-07-09T18:14:21.641Z
+date: 2024-05-16T11:19:32.501Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:04:49.921Z
@@ -17,12 +17,12 @@ This table allows you to change the items a vendor sells, or to create a [vendor
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [eventEntry](#evententry) | tinyint | signed |  | NO |  |  | Entry of the game event. |
-| [guid](#guid) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [guid](#guid) | int | unsigned | PRI | NO | 0 |  |  |
 | [slot](#slot) | smallint | signed | MUL | NO | 0 |  |  |
-| [item](#item) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [maxcount](#maxcount) | mediumint | unsigned |  | NO | 0 |  |  |
-| [incrtime](#incrtime) | mediumint | unsigned |  | NO | 0 |  |  |
-| [ExtendedCost](#extendedcost) | mediumint | unsigned |  | NO | 0 |  |  |
+| [item](#item) | int | unsigned | PRI | NO | 0 |  |  |
+| [maxcount](#maxcount) | int | unsigned |  | NO | 0 |  |  |
+| [incrtime](#incrtime) | int | unsigned |  | NO | 0 |  |  |
+| [ExtendedCost](#extendedcost) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 
 ## Description of fields

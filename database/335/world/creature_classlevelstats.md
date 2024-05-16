@@ -2,7 +2,7 @@
 title: creature_classlevelstats
 description: 
 published: true
-date: 2023-07-07T23:09:06.112Z
+date: 2024-05-16T11:19:31.638Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:18.477Z
@@ -28,7 +28,7 @@ This table contains the base values for creatures' health, mana and armor.
 | [damage_base](#damage_base) | float |  |  | NO | 0 |  |  |
 | [damage_exp1](#damage_exp1) | float |  |  | NO | 0 |  |  |
 | [damage_exp2](#damage_exp2) | float |  |  | NO | 0 |  |  |
-| [comment](#comment) | text |  |  | YES | NULL |  |  |
+| [comment](#comment) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

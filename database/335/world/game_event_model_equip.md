@@ -2,7 +2,7 @@
 title: game_event_model_equip
 description: 
 published: true
-date: 2023-07-09T18:08:52.963Z
+date: 2024-05-16T11:19:32.472Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:04:47.232Z
@@ -18,7 +18,7 @@ Contains all creature instances that need to change display id and/or equipment 
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [eventEntry](#evententry) | tinyint | signed |  | NO |  |  | Entry of the game event. |
 | [guid](#guid) | int | unsigned | PRI | NO | 0 |  |  |
-| [modelid](#modelid) | mediumint | unsigned |  | NO | 0 |  |  |
+| [modelid](#modelid) | int | unsigned |  | NO | 0 |  |  |
 | [equipment_id](#equipment_id) | tinyint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

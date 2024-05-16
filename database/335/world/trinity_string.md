@@ -2,7 +2,7 @@
 title: trinity_string
 description: 
 published: true
-date: 2024-04-16T18:32:41.234Z
+date: 2024-05-16T11:19:36.022Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:10:21.329Z
@@ -20,16 +20,16 @@ This table holds all of the strings used internally by the server. This table is
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [entry](#entry) | mediumint | unsigned | PRI | NO | 0 |  |  |
-| [content_default](#content_default) | text |  |  | NO |  |  |  |
-| [content_loc1](#content_loc1-8) | text |  |  | YES | NULL |  |  |
-| [content_loc2](#content_loc1-8) | text |  |  | YES | NULL |  |  |
-| [content_loc3](#content_loc1-8) | text |  |  | YES | NULL |  |  |
-| [content_loc4](#content_loc1-8) | text |  |  | YES | NULL |  |  |
-| [content_loc5](#content_loc1-8) | text |  |  | YES | NULL |  |  |
-| [content_loc6](#content_loc1-8) | text |  |  | YES | NULL |  |  |
-| [content_loc7](#content_loc1-8) | text |  |  | YES | NULL |  |  |
-| [content_loc8](#content_loc1-8) | text |  |  | YES | NULL |  |  |
+| [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
+| [content_default](#content_default) | mediumtext |  |  | NO |  |  |  |
+| [content_loc1](#content_loc1-8) | mediumtext |  |  | YES | NULL |  |  |
+| [content_loc2](#content_loc1-8) | mediumtext |  |  | YES | NULL |  |  |
+| [content_loc3](#content_loc1-8) | mediumtext |  |  | YES | NULL |  |  |
+| [content_loc4](#content_loc1-8) | mediumtext |  |  | YES | NULL |  |  |
+| [content_loc5](#content_loc1-8) | mediumtext |  |  | YES | NULL |  |  |
+| [content_loc6](#content_loc1-8) | mediumtext |  |  | YES | NULL |  |  |
+| [content_loc7](#content_loc1-8) | mediumtext |  |  | YES | NULL |  |  |
+| [content_loc8](#content_loc1-8) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

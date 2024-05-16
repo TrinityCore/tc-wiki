@@ -2,7 +2,7 @@
 title: achievement_reward_locale
 description:
 published: true
-date: 2023-07-07T20:11:42.586Z
+date: 2024-05-16T11:19:31.133Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:02:41.230Z
@@ -14,10 +14,10 @@ dateCreated: 2021-08-30T22:02:41.230Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
-| [Subject](#subject) | text |  |  | YES | NULL |  |  |
-| [Body](#body) | text |  |  | YES | NULL |  |  |
+| [Subject](#subject) | mediumtext |  |  | YES | NULL |  |  |
+| [Body](#body) | mediumtext |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

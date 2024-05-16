@@ -2,7 +2,7 @@
 title: creature_summon_groups
 description: 
 published: true
-date: 2023-07-08T18:29:55.257Z
+date: 2024-05-16T11:19:31.761Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:47.608Z
@@ -16,10 +16,10 @@ This table holds data about temporary summoned creatures. It is possible to grou
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [summonerId](#summonerid) | mediumint | unsigned |  | NO | 0 |  |  |
+| [summonerId](#summonerid) | int | unsigned |  | NO | 0 |  |  |
 | [summonerType](#summonertype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [groupId](#groupid) | tinyint | unsigned |  | NO | 0 |  |  |
-| [entry](#entry) | mediumint | unsigned |  | NO | 0 |  |  |
+| [entry](#entry) | int | unsigned |  | NO | 0 |  |  |
 | [position_x](#position_x) | float |  |  | NO | 0 |  |  |
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |

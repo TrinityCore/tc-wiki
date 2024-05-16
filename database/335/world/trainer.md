@@ -2,7 +2,7 @@
 title: trainer
 description: 
 published: true
-date: 2024-04-16T18:29:43.959Z
+date: 2024-05-16T11:19:35.952Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:10:10.401Z
@@ -18,9 +18,9 @@ This table contains all the trainer entries.
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [Id](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Type](#type) | tinyint | unsigned |  | NO | 2 |  |  |
-| [Requirement](#type) | mediumint | unsigned |  | NO | 0 |  |  |
-| [Greeting](#greeting) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
+| [Requirement](#type) | int | unsigned |  | NO | 0 |  |  |
+| [Greeting](#greeting) | mediumtext |  |  | YES | NULL |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

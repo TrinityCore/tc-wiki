@@ -2,7 +2,7 @@
 title: battleground_template
 description:
 published: true
-date: 2023-07-07T20:47:37.548Z
+date: 2024-05-16T11:19:31.232Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:02:57.139Z
@@ -16,14 +16,14 @@ Contains information about the different battlegrounds, like how many players ar
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [MinPlayersPerTeam](#minplayersperteam) | smallint | unsigned |  | NO | 0 |  |  |
 | [MaxPlayersPerTeam](#maxplayersperteam) | smallint | unsigned |  | NO | 0 |  |  |
 | [MinLvl](#minlvl) | tinyint | unsigned |  | NO | 0 |  |  |
 | [MaxLvl](#maxlvl) | tinyint | unsigned |  | NO | 0 |  |  |
-| [AllianceStartLoc](#alliancestartloc) | mediumint | unsigned |  | NO |  |  |  |
+| [AllianceStartLoc](#alliancestartloc) | int | unsigned |  | NO |  |  |  |
 | [AllianceStartO](#alliancestarto) | float |  |  | NO |  |  |  |
-| [HordeStartLoc](#hordestartloc) | mediumint | unsigned |  | NO |  |  |  |
+| [HordeStartLoc](#hordestartloc) | int | unsigned |  | NO |  |  |  |
 | [HordeStartO](#hordestarto) | float |  |  | NO |  |  |  |
 | [StartMaxDist](#startmaxdist) | float |  |  | NO | 0 |  |  |
 | [Weight](#weight) | tinyint | unsigned |  | NO | 1 |  |  |

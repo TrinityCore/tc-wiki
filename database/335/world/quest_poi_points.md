@@ -2,7 +2,7 @@
 title: quest_poi_points
 description: 
 published: true
-date: 2024-02-14T19:10:45.761Z
+date: 2024-05-16T11:19:34.599Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:17.149Z
@@ -23,7 +23,7 @@ Visually speaking, this table is used to identify the X and Y coordinates on the
 | [Idx2](#idx2) | int | unsigned | PRI | NO | 0 |  |  |
 | [X](#x) | int | signed |  | NO | 0 |  |  |
 | [Y](#y) | int | signed |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

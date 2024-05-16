@@ -2,7 +2,7 @@
 title: skill_extra_item_template
 description:
 published: true
-date: 2023-07-15T10:21:30.287Z
+date: 2024-05-16T11:19:35.420Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:58.860Z
@@ -16,8 +16,8 @@ This table holds information about when using certain profession spells will cre
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [spellId](#spellid) | mediumint | unsigned | PRI | NO | 0 |  | SpellId of the item creation spell |
-| [requiredSpecialization](#requiredspecialization) | mediumint | unsigned |  | NO | 0 |  | Specialization spell id |
+| [spellId](#spellid) | int | unsigned | PRI | NO | 0 |  | SpellId of the item creation spell |
+| [requiredSpecialization](#requiredspecialization) | int | unsigned |  | NO | 0 |  | Specialization spell id |
 | [additionalCreateChance](#additionalcreatechance) | float |  |  | NO | 0 |  | chance to create add |
 | [additionalMaxNum](#additionalmaxnum) | tinyint | unsigned |  | NO | 0 |  | max num of adds |
 &nbsp;

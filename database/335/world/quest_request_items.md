@@ -2,7 +2,7 @@
 title: quest_request_items
 description:
 published: true
-date: 2023-07-12T16:02:08.519Z
+date: 2024-05-16T11:19:34.618Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:25.361Z
@@ -19,10 +19,10 @@ This table basically handles 3 quest details:
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  |  |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [EmoteOnComplete](#emoteoncomplete) | smallint | unsigned |  | NO | 0 |  |  |
 | [EmoteOnIncomplete](#emoteonincomplete) | smallint | unsigned |  | NO | 0 |  |  |
-| [CompletionText](#completiontext) | text |  |  | YES | NULL |  |  |
+| [CompletionText](#completiontext) | mediumtext |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

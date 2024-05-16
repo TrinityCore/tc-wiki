@@ -2,7 +2,7 @@
 title: game_event_prerequisite
 description: 
 published: true
-date: 2023-07-09T18:22:54.657Z
+date: 2024-05-16T11:19:32.517Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:04:57.978Z
@@ -17,7 +17,7 @@ This table contains events that must have been completed to start the given even
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [eventEntry](#evententry) | tinyint | unsigned | PRI | NO |  |  | Entry of the game event |
-| [prerequisite_event](#prerequisite_event) | mediumint | unsigned | PRI | NO |  |  |  |
+| [prerequisite_event](#prerequisite_event) | int | unsigned | PRI | NO |  |  |  |
 &nbsp;
 ## Description of fields
 

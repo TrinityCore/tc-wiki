@@ -2,7 +2,7 @@
 title: trainer_locale
 description: 
 published: true
-date: 2024-02-14T19:12:32.230Z
+date: 2024-05-16T11:19:35.964Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:10:13.137Z
@@ -16,8 +16,8 @@ dateCreated: 2021-08-30T22:10:13.137Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [Id](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
-| [Greeting_lang](#greeting_lang) | text |  |  | YES | NULL |  |  |
-| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
+| [Greeting_lang](#greeting_lang) | mediumtext |  |  | YES | NULL |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 

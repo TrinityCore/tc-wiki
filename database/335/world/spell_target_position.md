@@ -2,7 +2,7 @@
 title: spell_target_position
 description: 
 published: true
-date: 2024-02-14T19:12:00.973Z
+date: 2024-05-16T11:19:35.931Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:10:02.280Z
@@ -16,14 +16,14 @@ This table holds coordinate information on where the player should be teleported
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [ID](#id-alt) | mediumint | unsigned | PRI | NO | 0 |  | Identifier |
+| [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  | Identifier |
 | [EffectIndex](#effectindex) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [MapID](#mapid) | smallint | unsigned |  | NO | 0 |  |  |
 | [PositionX](#positionx) | float |  |  | NO | 0 |  |  |
 | [PositionY](#positiony) | float |  |  | NO | 0 |  |  |
 | [PositionZ](#positionz) | float |  |  | NO | 0 |  |  |
 | [Orientation](#orientation) | float |  |  | NO | 0 |  |  |
-| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
+| [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
 
