@@ -1,8 +1,8 @@
 ---
 title: corpse
-description:
+description: 
 published: true
-date: 2023-07-30T01:21:18.687Z
+date: 2024-06-02T22:21:38.763Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:00:33.428Z
@@ -101,7 +101,7 @@ Space separated list of byte fields describing the equipped items, ordered by EQ
 &nbsp;
 
 ### bytes1
-Byte encoded integers. Shift each value left by 8 * byteIndex.
+Byte encoded 8bit integers. Shift each value left by 8 * byteIndex.
 | byteIndex | Value |
 |-----------|-------|
 | 0 | 0 |
@@ -113,12 +113,12 @@ Byte encoded integers. Shift each value left by 8 * byteIndex.
 &nbsp;
 
 ### bytes2
-Byte encoded integers. Shift each value left by 8 * byteIndex.
+Byte encoded 8bit integers. Shift each value left by 8 * byteIndex.
 | byteIndex | Value |
 |-----------|-------|
-| 1 | [face](../characters/characters#face) |
-| 2 | [hairStyle](../characters/characters#hairstyle) |
-| 3 | [hairColor](../characters/characters#haircolor) |
+| 0 | [face](../characters/characters#face) |
+| 1 | [hairStyle](../characters/characters#hairstyle) |
+| 2 | [hairColor](../characters/characters#haircolor) |
 | 3 | [facialStyle](../characters/characters#facialstyle) |
 {.dense}
 
