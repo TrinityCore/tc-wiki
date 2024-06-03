@@ -2,7 +2,7 @@
 title: disables
 description: 
 published: true
-date: 2024-05-15T17:59:51.688Z
+date: 2024-06-03T22:46:46.551Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:41.993Z
@@ -35,6 +35,7 @@ dateCreated: 2021-08-30T09:30:41.993Z
 | 6 | DISABLE_TYPE_VMAP |
 | 7 | DISABLE_TYPE_MMAP |
 | 8	| DISABLE_TYPE_LFG_MAP |
+| 9 | DISABLE_TYPE_PHASE_AREA |
 &nbsp;
 
 ### entry
