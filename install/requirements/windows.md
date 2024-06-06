@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2024-02-07T09:50:35.165Z
+date: 2024-06-06T12:35:35.380Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -66,7 +66,7 @@ vs_enterprise.exe /q /norestart /InstallSelectableItems NativeLanguageSupport_Gr
 - [MySQL Server Community Edition](https://dev.mysql.com/downloads/mysql/8.0.html){target=_blank} Version 8.0
   <span style="color:green">(highly recommended)</span>
 - [MySQL Server Community Edition](https://dev.mysql.com/downloads/mysql/5.7.html){target=_blank} Version 5.7
-  <span style="color:red">(deprecated, will be removed soon, using 8.0 or newer)</span>
+  <span style="color:red">(deprecated, will be removed soon, use 8.0 or newer)</span>
 {.links-list}
 
 1. Download the Windows MSI Installer. 
