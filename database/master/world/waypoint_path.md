@@ -2,7 +2,7 @@
 title: waypoint_path
 description: 
 published: true
-date: 2024-05-15T17:59:53.011Z
+date: 2024-06-17T21:56:01.154Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2024-02-11T20:26:37.382Z
@@ -39,6 +39,7 @@ Unique ID for each path.
 | --- | ---- |
 | 0x00 | None |
 | 0x01 | FollowPathBackwardsFromEndToStart |
+| 0x02 | ExactSplinePath |
 &nbsp;
 
 ### Velocity
