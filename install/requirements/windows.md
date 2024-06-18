@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2024-06-18T17:09:30.984Z
+date: 2024-06-18T17:11:49.953Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -135,14 +135,12 @@ These files are shipped with MySQL Server, search for them at program files dire
 > Download the 64bit version.
 {.is-info}
 
-> Depending on what MySQL version you installed, a different OpenSSL version should be selected.
-For MySQL 8.0.34 and newer use OpenSSL 3
-For MySQL 8.0 to 8.0.33 use OpenSSL 1.1.1
-{.is-info}
+> Use OpenSSL 3
 
 Find the 64bit version by finding the latest **Win64 OpenSSL** that is **NOT** the "light" version.
 	- Example: **Win64 OpenSSL v3.1.2**
 &nbsp;
+If you download the Light version, it will not work. If you download the Light version and report on Discord that you have an error, we will tell you to read this wiki.
 
 > While installing OpenSSL, choose **The OpenSSL binaries (/bin) directory** (NOT "The Windows system directory")
 > when given the choice on where to copy the OpenSSL DLLs. These DLLs will need to be located easily for Core Installation.
