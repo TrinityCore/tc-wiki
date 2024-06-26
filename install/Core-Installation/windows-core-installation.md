@@ -2,7 +2,7 @@
 title: Windows Core Installation
 description: 
 published: true
-date: 2024-06-26T05:01:18.778Z
+date: 2024-06-26T05:06:15.769Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-15T10:17:42.057Z
@@ -11,7 +11,7 @@ dateCreated: 2021-08-15T10:17:42.057Z
 ## Getting started
 
 Before you get scared by this long guide, we assure you the procedure is quite simple.  
-Most of the following steps are to be performed only the first time you install Trinity and only the Trinity updating procedures will need to be run from time to time.
+Most of the following steps are to be performed only the first time you install TrinityCore and only the updating procedures will need to be run from time to time.
 
 ## Required Software
 
@@ -22,7 +22,7 @@ See [Windows Requirements](https://trinitycore.info/en/install/requirements/win
 ### Pulling the Source  
  
 
-1.  Create a directory in which Core files will be pulled (for example: **C:\\Trinity**).
+1.  Create a directory in which Core files will be pulled (for example: **C:\\TrinityCore**).
 2.  Right-click on the directory and click on **Git Extensions -> Clone** (on recent versions: **GitExt Clone...**)
 3.  Fill in the data as follow:
 
