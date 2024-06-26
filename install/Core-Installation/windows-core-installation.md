@@ -2,7 +2,7 @@
 title: Windows Core Installation
 description: 
 published: true
-date: 2023-08-15T17:44:21.012Z
+date: 2024-06-26T05:01:18.778Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-15T10:17:42.057Z
@@ -26,11 +26,11 @@ See [Windows Requirements](https://trinitycore.info/en/install/requirements/win
 2.  Right-click on the directory and click on **Git Extensions -> Clone** (on recent versions: **GitExt Clone...**)
 3.  Fill in the data as follow:
 
-| **3.3.5 (WotLK Client)**<br><br>**This will clone 3.3.5a branch,**<br><br>**this is the RECOMMENDED branch for starters and people wanting playable content.**<br><br>![](/git_ext_335.png) |
+| **3.3.5 (WotLK 3.3.5a Client)**<br><br>**This will clone 3.3.5 branch,**<br><br>**this is the RECOMMENDED branch for starters and people wanting playable content.**<br><br>![](/git_ext_335.png) |
 | --- |
 | **master (currently Dragonflight client)**<br><br>**This will clone master branch,**<br><br>**note that this is** **NOT** **the recommended branch for starters,** <br><br>**this branch doesn't ship most of content after 3.3.5a.**<br><br>![](/git_ext_master.png) |
 
-Click **Clone**. Within a few minutes all of the TrinityCore source files will be pulled into the directory **C:\\Trinity**.
+Click **Clone**. Within a few minutes all of the TrinityCore source files will be pulled into the directory **C:\\TrinityCore**.
 
 Note: If you don't specify a branch, git will pull master by default! 
 
@@ -40,6 +40,7 @@ Note: If you don't specify a branch, git will pull master by default! 
 Before you begin, create an empty directory called **Build**. In this example, we will use **C:\\Build**.
 
 > Note: The following images serve as an example and partly show outdated software versions:
+{.is-info}
 
 |     |     |     |
 | --- | --- | --- |
@@ -80,6 +81,7 @@ Right-click **ALL\_BUILD** and select **Build** (or go to the Build menu and 
 3.  When the build is complete, you will find a message similar to the one below (the numbers may be different).
 
 > **\========== Build: 22 succeeded, 0 failed, 0 up-to-date, 1 skipped ==========**
+{.is-success}
 
 You will find your freshly compiled binaries in the **C:\\Build\\bin\\RelWithDebInfo** or **C:\\Build\\bin\\Debug** folder. These are all used to run your server at the end of this instruction.
 
@@ -109,8 +111,10 @@ OpenSSL 1.1.1 requires the following files:
 > pdb files only exist if you compile on Debug or RelWithDebInfo modes, it's not mandatory but it's recommended to compile core on at least RelWithDebInfo mode to get proper crashlogs. If you compile on Release mode the pdb files aren't needed.
 > 
 > To report crash logs it's MANDATORY to compile on Debug or RelWithDebInfo mode.
+{.is-info}
 
 > Please remember to rename the **worldserver.conf.dist** and **authserver.conf.dist / bnetserver.conf.dist** files to **worldserver.conf** and **authserver.conf / bnetserver.conf** respectively, unless you want to keep the configuration files of a previously compiled version of the core.
+{.is-info}
 
 ### Keeping the Source Up-to-Date  
  
