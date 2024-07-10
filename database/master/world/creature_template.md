@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2024-02-29T18:01:02.394Z
+date: 2024-07-10T16:01:30.384Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:15.744Z
@@ -189,24 +189,24 @@ If non-zero, this field defines the size of how the model of the creature appear
 ### Classification
 The classification of the creature:
 
-| Classification | Name | Default Respawn Time</br>([creature.spawntimesecs](/en/database/master/world/creature#spawntimesecs)) | Corpse Decay Time</br>([Corpse.Decay](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/worldserver/worldserver.conf.dist#L1745)) | Total Default Respawn</br>([creature.spawntimesecs](/en/database/master/world/creature#spawntimesecs) + [Corpse.Decay](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/worldserver/worldserver.conf.dist#L1745)) |
+| Classification | Name | Default Corpse Decay Time</br>Worldserver.conf ([Corpse.Decay](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/worldserver/worldserver.conf.dist#L1745)) |
 |---|---|:---:|:---:|:---:|
-| 0 | Normal | 5 min | 60 sec | 6 min |
-| 1 | Elite | 5 min | 5 min | 10 min |
-| 2 | Rare Elite | 5 min | 5 min | 10 min |
-| 3 | Boss | 5 min | 1 hour | 1 hour, 5 min |
-| 4 | Rare | 5 min | 5 min | 10 min |
+| 0 | Normal | 5 min |
+| 1 | Elite | 5 min |
+| 2 | Rare Elite | 5 min |
+| 3 | Obsolete | 1 hour |
+| 4 | Rare | 5 min |
+| 5 | Trivial | 5 min |
+| 6 | Minus Mob | 2.5 min |
 
-> An NPC's classification is mostly visual (which also requires your Cache to be cleared to see changes). Changing this value will not change its health, damage, or loot. However, it will change the respawn time of the creature.
+> An NPC's classification is mostly visual (which also requires your Cache to be cleared to see changes). Changing this value will not change its health, damage, or loot.
 {.is-info}
-
-
-> Respawn times can be modified in two other places: [creature.spawntimesecs](/en/database/master/world/creature#spawntimesecs) (only for that single GUID of the creature) and in the worldserver.conf file under the "[Corpse.Decay](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/worldserver/worldserver.conf.dist#L1745)" settings (for ALL creatures of the same rank). The default \`spawntimesecs\` for all spawned creatures is 300 seconds (5 minutes). For example, using the ".npc add" command to spawn a "Normal" NPC will give it a default respawn time of 6 minutes (spawntimesecs + Corpse.Decay time). Also, the creature must decay first before it can respawn. For this reason, the Corpse Decay Time of the creature is also it's minimum respawn time, since setting the creature's [creature.spawntimesecs](/en/database/master/world/creature#spawntimesecs) = 0 will remove the Default Respawn Time. In the example above, setting our Normal NPC's spawntimesecs = 0 will mean the creature's respawn time decreases from 6 minutes to 60 seconds.
-{.is-info}
-
 
 > If you want the creature to show a skull or "??" in the portrait (often with Bosses), set the type_flags to 4.
 {.is-info}
+
+> Note: **Classification** (by way of `Corpse.Decay`) used to affect a creatures respawn time. This is no longer the case.
+{.is-warning}
 
 
 ### dmgschool
