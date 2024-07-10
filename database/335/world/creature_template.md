@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2024-05-16T11:19:32.098Z
+date: 2024-07-10T15:33:54.032Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:50.335Z
@@ -213,24 +213,25 @@ If non-zero, this field defines the size of how the model of the creature appear
 
 ### rank
 The rank of the creature:
-| Value | Name | Default Respawn Time<br>[creature.spawntimesecs](../world/creature#spawntimesecs) | Corpse Decay Time<br>Worldserver.conf (Corpse.Decay) | Total Default Respawn<br>[creature.spawntimesecs](../world/creature#spawntimesecs) + Corpse.Decay
+| Value | Name | Default Corpse Decay Time<br>Worldserver.conf (Corpse.Decay) |
 |---|---|---|---|---|
-| 0 | Normal | 5 min | 60 sec | 6 min |
-| 1 | Elite | 5 min | 5 min | 10 min |
-| 2 | Rare Elite | 5 min | 5 min | 10 min |
-| 3 | Boss | 5 min | 1 hour | 1 hour, 5 min |
-| 4 | Rare | 5 min | 5 min | 10 min |
-| 5 | Trivial | 5 min | 60 sec | 6 min |
+| 0 | Normal | 5 min |
+| 1 | Elite | 5 min |
+| 2 | Rare Elite | 5 min |
+| 3 | Boss | 1 hour |
+| 4 | Rare | 5 min |
+| 5 | Trivial | 5 min |
 {.dense}
 
-> Note: An NPC's rank is mostly visual (which also requires your Cache to be cleared to see changes). Changing this value will not change its health, damage, or loot. However, it will change the respawn time of the creature.
-{.is-info}
-
-> Note: Respawn times can be modified in two other places: Creature.spawntimesecs (only for that single GUID of the creature) and in the worldserver.conf file under the "Corpse.Decay" settings (for ALL creatures of the same rank). The default `spawntimesecs` for all spawned creatures is 300 seconds (5 minutes). For example, using the ".npc add" command to spawn a "Normal" NPC will give it a default respawn time of 6 minutes (spawntimesecs + Corpse.Decay time). Also, the creature must decay first before it can respawn. For this reason, the Corpse Decay Time of the creature is also it's minimum respawn time, since setting the creature's Creature.spawntimesecs = 0 will remove the Default Respawn Time. In the example above, setting our Normal NPC's spawntimesecs = 0 will mean the creature's respawn time decreases from 6 minutes to 60 seconds.
+> Note: An NPC's rank is mostly visual (which also requires your Cache to be cleared to see changes). Changing this value will not change its health, damage, or loot.
 {.is-info}
 
 > Note: If you want the creature to show a skull or "??" in the portrait (often with Bosses), set the **type_flags** to 4.
 {.is-info}
+
+> Note: **rank** (by way of `Corpse.Decay`) used to affect a creatures respawn time. This is no longer the case.
+{.is-warning}
+
 
 &nbsp;
 
