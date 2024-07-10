@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2024-07-10T15:33:54.032Z
+date: 2024-07-10T16:01:34.165Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:50.335Z
@@ -213,7 +213,7 @@ If non-zero, this field defines the size of how the model of the creature appear
 
 ### rank
 The rank of the creature:
-| Value | Name | Default Corpse Decay Time<br>Worldserver.conf (Corpse.Decay) |
+| Value | Name | Default Corpse Decay Time<br>Worldserver.conf ([Corpse.Decay](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/worldserver/worldserver.conf.dist#L1687-L1703)) |
 |---|---|---|---|---|
 | 0 | Normal | 5 min |
 | 1 | Elite | 5 min |
