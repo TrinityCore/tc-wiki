@@ -2,7 +2,7 @@
 title: creature_template_locale
 description: 
 published: true
-date: 2024-07-12T10:31:56.664Z
+date: 2024-07-12T10:40:26.173Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:56.062Z
@@ -31,8 +31,8 @@ This entry must be the same as [creature_template.entry](/database/335/world/cre
 | locale | Name |
 | :---: | :---: |
 |deDE|German|
-|esES|Spanish|
-|esMX|Spanish (EU)|
+|esES|Spanish (EU)|
+|esMX|Spanish (Latin America)|
 |frFR|French|
 |koKR|Korean|
 |ruRU|Russian|
