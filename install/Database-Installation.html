@@ -2,7 +2,7 @@
 title: Database Installation
 description: 
 published: true
-date: 2024-06-27T10:26:35.318Z
+date: 2024-07-13T15:33:13.695Z
 tags: 
 editor: ckeditor
 dateCreated: 2021-08-17T14:18:44.363Z
@@ -17,7 +17,7 @@ dateCreated: 2021-08-17T14:18:44.363Z
 <p>Example: TDB 335.24041 - This Database is for 3.3.5 branch (Wrath of the Lich King) from April 2024, release 1.</p>
 <ul>
   <li>For 3.3.5 branch, look for the most recent TDB 335. Database. 3.3.5 follows are monthly cycle of full Database releases.</li>
-  <li>For master branch, look for the most recent NON 335 download. Master does not follow a regular schedule, therefore the versioning on the Database download might not match current supported game version. Its still the correct download.</li>
+  <li>For master branch, look for the most recent TDB 10XX. Database. Master does not follow a regular schedule, therefore the versioning on the Database download might not match current supported game version. Its still the correct download.</li>
 </ul>
 <p>After you found your desired version, click on Assets to expand the list of attached files and download the .7z file at the top of that list. In our example above, that would be “TDB_full_world_335.24041_2024_04_10.7z”</p>
 <p>&nbsp;</p>
@@ -49,7 +49,7 @@ dateCreated: 2021-08-17T14:18:44.363Z
 <p>&nbsp;</p>
 <h2>Populating the MySQL Trinity databases</h2>
 <p>&nbsp;</p>
-<p>From the&nbsp;<strong>unpacked 7z folder </strong>copy&nbsp;the&nbsp;SQL files&nbsp;that start with&nbsp;<strong>"TDB_world_"</strong>&nbsp;and<strong> "TDB_hotfixes_"</strong> (hotfixes named file is master branch only) to the directory where your&nbsp;<strong>worldserver binary (worldserver on linux or mac, worldserver.exe on windows)&nbsp;</strong>is. <mark class="pen-red"><strong>(DON'T RENAME THOSE FILES OR AUTOMATIC SETUP WILL FAIL)</strong></mark></p>
+<p>From the&nbsp;<strong>unpacked 7z folder </strong>copy&nbsp;the&nbsp;SQL files&nbsp;that start with&nbsp;<strong>"TDB_full_world_"</strong>&nbsp;and<strong> "TDB_full_hotfixes_"</strong> (hotfixes named file is master branch only) to the directory where your&nbsp;<strong>worldserver binary (worldserver on linux or mac, worldserver.exe on windows)&nbsp;</strong>is. <mark class="pen-red"><strong>(DON'T RENAME THOSE FILES OR AUTOMATIC SETUP WILL FAIL)</strong></mark></p>
 <blockquote>
   <p><mark class="pen-red"><strong>NOTICE: you don't need to import any databases by hand, only the file creating users. If you have plans to import databases manually you need to disable autoupdater on config files. Be aware that this is NOT recommended for new users.</strong></mark></p>
 </blockquote>
@@ -62,7 +62,7 @@ dateCreated: 2021-08-17T14:18:44.363Z
 <blockquote>
   <ul>
     <li>If you get errors you may want to check your mysql login credentials in worldserver.conf&nbsp;and read the error message as it may tell you what to do.</li>
-    <li>If you get errors finding the TDB_world_ file, make sure to cd into the /bin/ folder first.</li>
+    <li>If you get errors finding the TDB_full_world_ file, make sure to cd into the /bin/ folder first.</li>
     <li>If you have hand created usernames, be sure they have create/alter/delete permissions.</li>
     <li>You may also have deleted or moved the source folder that was used to compile the server.<br>In that case you should&nbsp;set the setting called "SourceDirectory"&nbsp;in worldserver.conf&nbsp;under "CONNECTIONS AND DIRECTORIES" to point to the source folder you moved or downloaded.</li>
   </ul>
