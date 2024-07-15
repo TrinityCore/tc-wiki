@@ -2,7 +2,7 @@
 title: macOS Requirements
 description: 
 published: true
-date: 2023-06-16T21:57:37.462Z
+date: 2024-07-15T07:08:52.287Z
 tags: requirements, installation, setup, macos, mac
 editor: markdown
 dateCreated: 2021-08-14T00:39:12.068Z
@@ -11,10 +11,10 @@ dateCreated: 2021-08-14T00:39:12.068Z
 ## Software
 > Processor with SSE2 support.
 > Boost ≥ 1.71
-> MySQL ≥ 5.7
-> OpenSSL ≥ 1.1.x 
+> MySQL ≥ 5.7 ≤ 8.3
+> OpenSSL ≥ 3.x 
 > CMake ≥ 3.18.4
-> GCC ≥ 8.3.0 or Clang ≥ 7
+> Clang ≥ 11 or GCC ≥ 10
 {.is-info}
 
 ## Xcode
