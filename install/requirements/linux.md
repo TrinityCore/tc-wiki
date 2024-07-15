@@ -2,7 +2,7 @@
 title: Linux Requirements
 description: 
 published: true
-date: 2024-05-05T18:32:11.773Z
+date: 2024-07-15T07:06:08.796Z
 tags: requirements, installation, setup, linux
 editor: markdown
 dateCreated: 2021-08-14T00:09:23.038Z
@@ -11,7 +11,7 @@ dateCreated: 2021-08-14T00:09:23.038Z
 ## Software
 >Processor with SSE2 support 
 >Boost ≥ 1.71
->MySQL ≥ 5.7.0
+>MySQL ≥ 5.7 ≤ 8.3
 >OpenSSL ≥ 1.1.x
 >CMake ≥ 3.18.4
 >Clang  ≥ 11 (heavy recommended, especially on master branch) or GCC ≥ 10
