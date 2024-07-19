@@ -2,7 +2,7 @@
 title: Client Setup
 description: 
 published: true
-date: 2024-04-02T14:55:32.657Z
+date: 2024-07-19T20:54:08.210Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-20T14:45:08.138Z
@@ -19,7 +19,7 @@ dateCreated: 2021-09-20T14:45:08.138Z
 ## Master
 1. Change Config.wtf: **SET portal** "IP address used in realmlist table"
 - The IP in the Config.wtf file should be exactly the same as the IP address you entered in the - realmlist table above. (Example: **SET portal "127.0.0.1"**)
-> Note: you will need a custom client launcher to connect to master branch server, i.e. https://arctium.io/wow
+> Note: you will need a custom client launcher to connect to master, wotlk_classic, cata_classic branches servers, i.e. https://arctium.io/wow
 
 > Supported Version
 Check https://github.com/TrinityCore/TrinityCore to find the exact client version supported by master branch.
