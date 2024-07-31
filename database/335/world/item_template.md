@@ -2,7 +2,7 @@
 title: item_template
 description: 
 published: true
-date: 2024-05-16T11:19:33.775Z
+date: 2024-07-31T19:48:45.293Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:06:11.793Z
@@ -768,7 +768,7 @@ The [Map ID](/files/DBC/335/map#id) in which this item exists. Leaving the map w
 &nbsp;
 
 ### BagFamily
-If the item is a bag, this field is a bitmask of [BagFamily IDs](/files/DBC/335/itembagfamily#id) controlling what types of items can be put in this bag. You can combine different types by adding up the bit numbers.
+This field is a bitmask of [BagFamily IDs](/files/DBC/335/itembagfamily#id) controlling into what type of container this item can be put. You can combine different types by adding up the bit numbers.
 | Value | Flag | Name |
 |-------|------|------|
 | 1 | 0x0001 | Arrows |
