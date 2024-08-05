@@ -2,7 +2,7 @@
 title: areatrigger_create_properties
 description: 
 published: true
-date: 2024-02-17T07:45:01.266Z
+date: 2024-08-05T15:33:24.077Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-11-14T20:12:34.174Z
@@ -26,6 +26,7 @@ dateCreated: 2021-11-14T20:12:34.174Z
 | [AnimId](#animid) | int | signed |  | NO | -1 |  |  |
 | [AnimKitId](#animkitid) | int | signed |  | NO | 0 |  |  |
 | [DecalPropertiesId](#decalpropertiesid) | int | unsigned |  | NO | 0 |  |  |
+| [SpellForVisuals](#spellforvisuals) | int | signed |  | YES | NULL |  |  |
 | [TimeToTarget](#timetotarget) | int | unsigned |  | NO | 0 |  |  |
 | [TimeToTargetScale](#timetotargetscale) | int | unsigned |  | NO | 0 |  |  |
 | [Shape](#shape) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -102,6 +103,10 @@ Describes whether referenced `AreaTriggerId` is a custom id or not.
 
 ### DecalPropertiesId
 *- no description -*
+&nbsp;
+
+### SpellForVisuals
+SpellD from [Spell.db2](https://wago.tools/db2/Spell){target=_blank} which should be used for visuals.
 &nbsp;
 
 ### TimeToTarget
