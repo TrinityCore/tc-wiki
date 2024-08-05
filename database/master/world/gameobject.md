@@ -2,7 +2,7 @@
 title: gameobject
 description: 
 published: true
-date: 2024-02-12T18:35:27.446Z
+date: 2024-08-05T15:27:11.329Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:31:38.234Z
@@ -61,6 +61,7 @@ The GUID ranges are defined as followed:
 | Battle for Azeroth (8.x)                      |          7000000 |        7999999 |                   7800000 |                 7999999 |
 | Shadowlands (9.x)                             |          8000000 |        8999999 |                   8800000 |                 8999999 |
 | Dragonflight (10.x)                           |          9000000 |        9999999 |                   9800000 |                 9999999 |
+| The War Within (11.x)                         |         10000000 |       10999999 |                  10800000 |                10999999 |
 | :warning: Wrath of the Lich King (3.x)        |                1 |         249999 |                           |                         |
 | :warning: Legacy Cataclysm (4.x)              |           200000 |         299999 |                           |                         |
 | :warning: Legacy Mists of Pandaria (5.x)      |           200000 |         299999 |                           |                         |
