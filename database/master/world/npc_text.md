@@ -2,7 +2,7 @@
 title: npc_text
 description: 
 published: true
-date: 2023-05-04T04:11:10.359Z
+date: 2024-08-05T15:27:15.799Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-30T09:33:08.406Z
@@ -55,6 +55,7 @@ The ID ranges are defined as followed:
 | Battle for Azeroth (8.x)     |           570000 |         579999 |
 | Shadowlands (9.x)            |           580000 |         589999 |
 | Dragonflight (10.x)          |           590000 |         599999 |
+| The War Within (11.x)        |           600000 |         609999 |
 &nbsp;
 
 ### Probability0 - Probability7
