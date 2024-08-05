@@ -2,7 +2,7 @@
 title: areatrigger
 description: 
 published: true
-date: 2024-02-17T07:33:59.228Z
+date: 2024-08-05T15:30:38.528Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:28:46.460Z
@@ -26,7 +26,6 @@ dateCreated: 2021-08-30T09:28:46.460Z
 | [PhaseUseFlags](#phaseuseflags) | tinyint | unsigned |  | YES | 0 |  |  |
 | [PhaseId](#phaseid) | int | unsigned |  | YES | 0 |  |  |
 | [PhaseGroup](#phasegroup) | int | unsigned |  | YES | 0 |  |  |
-| [SpellForVisuals](#spellforvisuals) | int | signed |  | YES | NULL |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
 | [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
@@ -133,10 +132,6 @@ Works similar as PhaseId, but the areatrigger can be placed inside multiple Phas
 The taken PhaseGroup might contains phases not needed, but are unused inside the phased area anyway.
 
 A full list of available PhaseGroups can be taken from [PhaseXPhaseGroup.db2](https://wow.tools/dbc/?dbc=phasexphasegroup){target=_blank}'s PhaseGroupID field.
-&nbsp;
-
-### SpellForVisuals
-SpellD from [Spell.db2](https://wow.tools/dbc/?dbc=spell){target=_blank} which should be used for visuals.
 &nbsp;
 
 ### ScriptName
