@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2024-08-06T22:17:37.683Z
+date: 2024-08-06T23:07:58.264Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -280,11 +280,11 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | Name | Value | Param1 | Param2 | Param3 | Param4 | Param5 | Param6 | ParamString | Comment |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | SMART_ACTION_NONE | 0 |  |  |  |  |  |  |  |  |
-| SMART_ACTION_TALK | 1 | Creature_text.groupid |  |  |  |  |  |  |  |
-| SMART_ACTION_SET_FACTION | 2 | FactionID (0 for default) |  |  |  |  |  |  |  |
+| SMART_ACTION_TALK | 1 | [creature_text.GroupID](/en/database/master/world/creature_text#groupid) |  |  |  |  |  |  |  |
+| SMART_ACTION_SET_FACTION | 2 | [faction.db2.ID](https://wago.tools/db2/Faction) (0 for default) |  |  |  |  |  |  |  |
 | SMART_ACTION_MORPH_TO_ENTRY_OR_MODEL | 3 | [creature_template.entry](/en/database/master/world/creature_template#entry) | Creature_template.modelID |  |  |  |  |  |  |
 | SMART_ACTION_SOUND | 4 | SoundId | onlySelf (0/1) | Distant Sound (0/1) |  |  |  |  |  |
-| SMART_ACTION_PLAY_EMOTE | 5 | EmoteId |  |  |  |  |  |  |  |
+| SMART_ACTION_PLAY_EMOTE | 5 | [emote.db2.ID](https://wago.tools/db2/Emotes) |  |  |  |  |  |  |  |
 | SMART_ACTION_FAIL_QUEST | 6 | [quest_template.ID](/en/database/master/world/quest_template#id) |  |  |  |  |  |  |  |
 | SMART_ACTION_OFFER_QUEST | 7 | [quest_template.ID](/en/database/master/world/quest_template#id) |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_REACT_STATE | 8 | State |  |  |  |  |  |  |  |
@@ -295,8 +295,8 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_THREAT_SINGLE_PCT | 13 | Threat% inc | Threat% dec |  |  |  |  |  |  |
 | SMART_ACTION_THREAT_ALL_PCT | 14 | Threat% inc | Threat% dec |  |  |  |  |  |  |
 | SMART_ACTION_CALL_AREAEXPLOREDOREVENTHAPPENS | 15 | [quest_template.ID](/en/database/master/world/quest_template#id) |  |  |  |  |  |  |  |
-| SMART_ACTION_SET_INGAME_PHASE_ID | 16 | phaseId |  |  |  |  |  |  |  |
-| SMART_ACTION_SET_EMOTE_STATE | 17 | EmoteId |  |  |  |  |  |  |  |
+| SMART_ACTION_SET_INGAME_PHASE_ID | 16 | [PhaseID.db2](https://wago.tools/db2/Phase) |  |  |  |  |  |  |  |
+| SMART_ACTION_SET_EMOTE_STATE | 17 | [emote.db2.ID](https://wago.tools/db2/Emotes) |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_UNIT_FLAG | 18 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_REMOVE_UNIT_FLAG | 19 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_AUTO_ATTACK | 20 |  |  |  |  |  |  |  |  |
@@ -323,25 +323,25 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_FORCE_DESPAWN | 41 | Despawn timer in ms | Respawn timer in sec |  |  |  |  |  |  |
 | SMART_ACTION_SET_INVINCIBILITY_HP_LEVEL | 42 | flat hp value | percent hp value |  |  |  |  |  |  |
 | SMART_ACTION_MOUNT_TO_ENTRY_OR_MODEL | 43 | [creature_template.entry](/en/database/master/world/creature_template#entry) | creature.template.ModelID |  |  |  |  |  |  |
-| SMART_ACTION_SET_INGAME_PHASE_MASK | 44 | creature.phaseId |  |  |  |  |  |  |  |
+| SMART_ACTION_SET_INGAME_PHASE_MASK | 44 | [creature.phaseId](/en/database/master/world/creature#PhaseId) |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_DATA | 45 | Field | Data |  |  |  |  |  |  |
 | SMART_ACTION_ATTACK_STOP | 46 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_VISIBILITY | 47 | 0/1 |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_ACTIVE | 48 | 0/1 |  |  |  |  |  |  |  |
 | SMART_ACTION_ATTACK_START | 49 |  |  |  |  |  |  |  |  |
-| SMART_ACTION_SUMMON_GO | 50 | gameobject_template.entry |  |  |  |  |  |  |  |
+| SMART_ACTION_SUMMON_GO | 50 | [gameobject_template.entry](/en/database/master/world/gameobject_template#entry) |  |  |  |  |  |  |  |
 | SMART_ACTION_KILL_UNIT | 51 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_ACTIVATE_TAXI | 52 | TaxiID |  |  |  |  |  |  |  |
 | SMART_ACTION_WP_START | 53 | 0 = walk / 1 = run | waypoints.entry | canRepeat | quest_template.id | despawntime | reactState |  |  |
 | SMART_ACTION_WP_PAUSE | 54 | time (in ms) |  |  |  |  |  |  |  |
 | SMART_ACTION_WP_STOP | 55 | despawnTime | quest_template.id | fail (0/1) |  |  |  |  |  |
-| SMART_ACTION_ADD_ITEM | 56 | item_template.entry | count |  |  |  |  |  |  |
-| SMART_ACTION_REMOVE_ITEM | 57 | item_template.entry | count |  |  |  |  |  |  |
+| SMART_ACTION_ADD_ITEM | 56 | [ItemSparse.db2.ID](https://wago.tools/db2/ItemSparse) | count |  |  |  |  |  |  |
+| SMART_ACTION_REMOVE_ITEM | 57 | [ItemSparse.db2.ID](https://wago.tools/db2/ItemSparse) | count |  |  |  |  |  |  |
 | SMART_ACTION_INSTALL_AI_TEMPLATE | 58 | TemplateID |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_RUN | 59 | 0 = off / 1 = on |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_DISABLE_GRAVITY | 60 | 0 = gravity on / 1 = gravity off |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_SWIM | 61 | 0 = off / 1 = on |  |  |  |  |  |  |  |
-| SMART_ACTION_TELEPORT | 62 | MapID |  |  |  |  |  |  |  |
+| SMART_ACTION_TELEPORT | 62 | [map.db2.ID](https://wago.tools/db2/Map) |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_COUNTER | 63 | CounterID | value | reset (0/1) |  |  |  |  |  |
 | SMART_ACTION_STORE_TARGET_LIST | 64 | varID |  |  |  |  |  |  |  |
 | SMART_ACTION_WP_RESUME | 65 |  |  |  |  |  |  |  |  |
@@ -350,7 +350,7 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_PLAYMOVIE | 68 | entry |  |  |  |  |  |  |  |
 | SMART_ACTION_MOVE_TO_POS | 69 | PointId | isTransport(0/1) | disablePathfinding(0/1) | ContactDistance |  |  |  |  |
 | SMART_ACTION_ENABLE_TEMP_GOBJ | 70 | Respawn timer in sec |  |  |  |  |  |  |  |
-| SMART_ACTION_EQUIP | 71 | creature_equip_template.creatureId | slotmask | Slot1 | Slot2 | Slot3 |  |  |  |
+| SMART_ACTION_EQUIP | 71 | [creature_equip_template.creatureId](/en//database/master/world/creature_equip_template#CreatureID) | slotmask | Slot1 | Slot2 | Slot3 |  |  |  |
 | SMART_ACTION_CLOSE_GOSSIP | 72 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_TRIGGER_TIMED_EVENT | 73 | id(>1) |  |  |  |  |  |  |  |
 | SMART_ACTION_REMOVE_TIMED_EVENT | 74 | id(>1) |  |  |  |  |  |  |  |
@@ -360,11 +360,11 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_CALL_SCRIPT_RESET | 78 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_RANGED_MOVEMENT | 79 | attackDistance | attackAngle |  |  |  |  |  |  |
 | SMART_ACTION_CALL_TIMED_ACTIONLIST | 80 | EntryOrGuid * 100 | timer update type(0 OOC, 1 IC, 2 ALWAYS) | 0/1 can override in going action list |  |  |  |  |  |
-| SMART_ACTION_SET_NPC_FLAG | 81 | Creature_template.npcflag |  |  |  |  |  |  |  |
-| SMART_ACTION_ADD_NPC_FLAG | 82 | Creature_template.npcflag |  |  |  |  |  |  |  |
-| SMART_ACTION_REMOVE_NPC_FLAG | 83 | Creature_template.npcflag |  |  |  |  |  |  |  |
-| SMART_ACTION_SIMPLE_TALK | 84 | creature_text.groupid |  |  |  |  |  |  |  |
-| SMART_ACTION_SELF_CAST | 85 | spellID | castFlags | triggeredFlags |  |  |  |  |  |
+| SMART_ACTION_SET_NPC_FLAG | 81 | [creature_template.npcflag](/en/database/master/world/creature_template#npcflag) |  |  |  |  |  |  |  |
+| SMART_ACTION_ADD_NPC_FLAG | 82 | [creature_template.npcflag](/en/database/master/world/creature_template#npcflag) |  |  |  |  |  |  |  |
+| SMART_ACTION_REMOVE_NPC_FLAG | 83 | [creature_template.npcflag](/en/database/master/world/creature_template#npcflag) |  |  |  |  |  |  |  |
+| SMART_ACTION_SIMPLE_TALK | 84 | [creature_text.GroupID](/en/database/master/world/creature_text#groupid) |  |  |  |  |  |  |  |
+| SMART_ACTION_SELF_CAST | 85 | SpellID | castFlags | triggeredFlags |  |  |  |  |  |
 | SMART_ACTION_CROSS_CAST | 86 | SpellID | castFlags | CasterTargetType | CasterTarget | CasterTarget param1 | CasterTarget param2 | CasterTarget param3 |  |
 | SMART_ACTION_CALL_RANDOM_TIMED_ACTIONLIST | 87 | EntryOrGuid 1 | EntryOrGuid 2 | EntryOrGuid 3 | EntryOrGuid 4 | EntryOrGuid 5 | EntryOrGuid 6 |  |  |
 | SMART_ACTION_CALL_RANDOM_RANGE_TIMED_ACTIONLIST | 88 | EntryOrGuid 1 | EntryOrGuid 2 |  |  |  |  |  |  |
@@ -383,10 +383,10 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_SET_HOME_POS | 101 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_HEALTH_REGEN | 102 | 0/1 |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_ROOT | 103 | 0/1 |  |  |  |  |  |  |  |
-| SMART_ACTION_SET_GO_FLAG | 104 | gameobject_template_addon.flags |  |  |  |  |  |  |  |
-| SMART_ACTION_ADD_GO_FLAG | 105 | gameobject_template_addon.flags |  |  |  |  |  |  |  |
-| SMART_ACTION_REMOVE_GO_FLAG | 106 | gameobject_template_addon.flags |  |  |  |  |  |  |  |
-| SMART_ACTION_SUMMON_CREATURE_GROUP | 107 | creature_summon_groups.groupId | Attack Invoker (0/1) |  |  |  |  |  |  |
+| SMART_ACTION_SET_GO_FLAG | 104 | [gameobject_template_addon.flags](/en//database/master/world/gameobject_template_addon#flags) |  |  |  |  |  |  |  |
+| SMART_ACTION_ADD_GO_FLAG | 105 | [gameobject_template_addon.flags](/en//database/master/world/gameobject_template_addon#flags) |  |  |  |  |  |  |  |
+| SMART_ACTION_REMOVE_GO_FLAG | 106 | [gameobject_template_addon.flags](/en//database/master/world/gameobject_template_addon#flags) |  |  |  |  |  |  |  |
+| SMART_ACTION_SUMMON_CREATURE_GROUP | 107 | [creature_summon_groups.groupId](/en//database/master/world/creature_summon_groups#groupId) | Attack Invoker (0/1) |  |  |  |  |  |  |
 | SMART_ACTION_SET_POWER | 108 | Power Type | New Power |  |  |  |  |  |  |
 | SMART_ACTION_ADD_POWER | 109 | Power Type | Power to add |  |  |  |  |  |  |
 | SMART_ACTION_REMOVE_POWER | 110 | Power Type | Power to remove |  |  |  |  |  |  |
@@ -407,22 +407,22 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_TRIGGER_RANDOM_TIMED_EVENT | 125 | id min range | id max range |  |  |  |  |  |  |
 | SMART_ACTION_REMOVE_ALL_GAMEOBJECTS | 126 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_PAUSE_MOVEMENT | 127 | MovementSlot | PauseTime (ms) | Forced |  |  |  |  |  |
-| SMART_ACTION_PLAY_ANIMKIT | 128 | AnimKit.ID | type: |  |  |  |  |  |  |
+| SMART_ACTION_PLAY_ANIMKIT | 128 | [AnimKit.db2.ID](https://wago.tools/db2/AnimKit) | type:<ul><li>0 &rarr; PlayOneShotAnimKitId</li><li>1 &rarr; SetAIAnimKitId</li><li>2 &rarr; SetMeleeAnimKitId</li><li>3 &rarr; SetMovementAnimKitId</li></ul>|  |  |  |  |  |  |
 | SMART_ACTION_SCENE_PLAY | 129 | [scene_template.id](/en/database/master/world/scene_template#id) |  |  |  |  |  |  |  |
 | SMART_ACTION_SCENE_CANCEL | 130 | [scene_template.id](/en/database/master/world/scene_template#id) |  |  |  |  |  |  |  |
-| SMART_ACTION_SPAWN_SPAWNGROUP | 131 | groupId | minDelay | maxDelay | spawnflags |  |  |  |  |
-| SMART_ACTION_DESPAWN_SPAWNGROUP | 132 | groupId | minDelay | maxDelay | spawnflags |  |  |  |  |
+| SMART_ACTION_SPAWN_SPAWNGROUP | 131 | [spawn_group.groupId](/en//database/master/world/spawn_group#groupId) | minDelay | maxDelay | spawnflags |  |  |  |  |
+| SMART_ACTION_DESPAWN_SPAWNGROUP | 132 | [spawn_group.groupId](/en//database/master/world/spawn_group#groupId) | minDelay | maxDelay | spawnflags |  |  |  |  |
 | SMART_ACTION_RESPAWN_BY_SPAWNID | 133 | spawnType (0 npc/ 1 gob) | SpawnId |  |  |  |  |  |  |
 | SMART_ACTION_INVOKER_CAST | 134 | spellID | castFlag | triggeredFlags |  |  |  |  |  |
 | SMART_ACTION_PLAY_CINEMATIC | 135 | entry | cinematic |  |  |  |  |  |  |
 | SMART_ACTION_SET_MOVEMENT_SPEED | 136 | movementType | speedInteger | speedFraction |  |  |  |  |  |
-| SMART_ACTION_PLAY_SPELL_VISUAL_KIT | 137 | spellVisualKitId |  |  |  |  |  |  |  |
+| SMART_ACTION_PLAY_SPELL_VISUAL_KIT | 137 | [spellVisualKitId.db2.ID](https://wago.tools/db2/SpellVisualKit) |  |  |  |  |  |  |  |
 | SMART_ACTION_OVERRIDE_LIGHT | 138 | zoneId | areaLightId | lightId (overrideLightId) | fadeInTime (transition Milliseconds) |  |  |  |  |
 | SMART_ACTION_OVERRIDE_WEATHER | 139 | zoneId | weatherId | weatherGrade (intensity) |  |  |  |  |  |
 | SMART_ACTION_SET_AI_ANIM_KIT | 140 | 	 |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_HOVER | 141 | 0 = Off / 1 = On |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_HEALTH_PCT | 142 | percent |  |  |  |  |  |  |  |
-| SMART_ACTION_CREATE_CONVERSATION | 143 | conversation_template.id |  |  |  |  |  |  |  |
+| SMART_ACTION_CREATE_CONVERSATION | 143 | [conversation_template.id](/en//database/master/world/conversation_template#Id) |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_IMMUNE_PC | 144 | 0 = Off / 1 = On |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_IMMUNE_NPC | 145 | 0 = Off / 1 = On |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_UNINTERACTIBLE | 146 | 0 = Off / 1 = On |  |  |  |  |  |  |  |
