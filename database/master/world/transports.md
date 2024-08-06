@@ -2,7 +2,7 @@
 title: transports
 description: 
 published: true
-date: 2023-04-02T00:45:29.705Z
+date: 2024-08-06T23:25:49.292Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:37:42.553Z
@@ -37,15 +37,23 @@ This is an arbitrary name that is only used to describe this transport entry.
 &nbsp;
 
 ### phaseUseFlags
-*- no description -*
+| Name | Value |
+| --- | :---: |
+| PHASE_USE_FLAGS_NONE            | 0x0 |
+| PHASE_USE_FLAGS_ALWAYS_VISIBLE  | 0x1 |
+| PHASE_USE_FLAGS_INVERSE         | 0x2 |
 &nbsp;
 
 ### phaseid
-*- no description -*
+Determines in which phase the transport is in.
+Available phases can be found in Phase.db2
 &nbsp;
 
 ### phasegroup
-*- no description -*
+Determines in which PhaseGroup the transport is in.
+A PhaseGroup sets a transport in multiple phases at once.
+PhaseGroups can contain more Phases than you actually need.
+Available PhaseGroups can be found in PhaseGroup.db2
 &nbsp;
 
 ### ScriptName
