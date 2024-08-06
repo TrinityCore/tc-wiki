@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2024-08-06T22:14:55.058Z
+date: 2024-08-06T22:17:37.683Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -408,8 +408,8 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_REMOVE_ALL_GAMEOBJECTS | 126 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_PAUSE_MOVEMENT | 127 | MovementSlot | PauseTime (ms) | Forced |  |  |  |  |  |
 | SMART_ACTION_PLAY_ANIMKIT | 128 | AnimKit.ID | type: |  |  |  |  |  |  |
-| SMART_ACTION_SCENE_PLAY | 129 | SceneId |  |  |  |  |  |  |  |
-| SMART_ACTION_SCENE_CANCEL | 130 | SceneId |  |  |  |  |  |  |  |
+| SMART_ACTION_SCENE_PLAY | 129 | [scene_template.id](/en/database/master/world/scene_template#id) |  |  |  |  |  |  |  |
+| SMART_ACTION_SCENE_CANCEL | 130 | [scene_template.id](/en/database/master/world/scene_template#id) |  |  |  |  |  |  |  |
 | SMART_ACTION_SPAWN_SPAWNGROUP | 131 | groupId | minDelay | maxDelay | spawnflags |  |  |  |  |
 | SMART_ACTION_DESPAWN_SPAWNGROUP | 132 | groupId | minDelay | maxDelay | spawnflags |  |  |  |  |
 | SMART_ACTION_RESPAWN_BY_SPAWNID | 133 | spawnType (0 npc/ 1 gob) | SpawnId |  |  |  |  |  |  |
