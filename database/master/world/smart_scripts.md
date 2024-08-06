@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2024-08-06T13:38:32.412Z
+date: 2024-08-06T22:14:55.058Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -282,19 +282,19 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_NONE | 0 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_TALK | 1 | Creature_text.groupid |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_FACTION | 2 | FactionID (0 for default) |  |  |  |  |  |  |  |
-| SMART_ACTION_MORPH_TO_ENTRY_OR_MODEL | 3 | Creature_template.entry | Creature_template.modelID |  |  |  |  |  |  |
+| SMART_ACTION_MORPH_TO_ENTRY_OR_MODEL | 3 | [creature_template.entry](/en/database/master/world/creature_template#entry) | Creature_template.modelID |  |  |  |  |  |  |
 | SMART_ACTION_SOUND | 4 | SoundId | onlySelf (0/1) | Distant Sound (0/1) |  |  |  |  |  |
 | SMART_ACTION_PLAY_EMOTE | 5 | EmoteId |  |  |  |  |  |  |  |
-| SMART_ACTION_FAIL_QUEST | 6 | QuestID |  |  |  |  |  |  |  |
-| SMART_ACTION_OFFER_QUEST | 7 | QuestID |  |  |  |  |  |  |  |
+| SMART_ACTION_FAIL_QUEST | 6 | [quest_template.ID](/en/database/master/world/quest_template#id) |  |  |  |  |  |  |  |
+| SMART_ACTION_OFFER_QUEST | 7 | [quest_template.ID](/en/database/master/world/quest_template#id) |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_REACT_STATE | 8 | State |  |  |  |  |  |  |  |
 | SMART_ACTION_ACTIVATE_GOBJECT | 9 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_RANDOM_EMOTE | 10 | EmoteId1 | EmoteId2 | EmoteId3 | EmoteId4 | EmoteId5 | EmoteId6 |  |  |
 | SMART_ACTION_CAST | 11 | SpellId | castFlag | triggeredFlags |  |  |  |  |  |
-| SMART_ACTION_SUMMON_CREATURE | 12 | creature_template.entry | Summon Type | duration in ms | attackInvoker | SmartActionSummonCreatureFlags:<ul><li>1 &rarr; PersonalSpawn</li><li>2 &rarr; PreferUnit</li></ul> |  |  |  |
+| SMART_ACTION_SUMMON_CREATURE | 12 | [creature_template.entry](/en/database/master/world/creature_template#entry) | Summon Type | duration in ms | attackInvoker | SmartActionSummonCreatureFlags:<ul><li>1 &rarr; PersonalSpawn</li><li>2 &rarr; PreferUnit</li></ul> |  |  |  |
 | SMART_ACTION_THREAT_SINGLE_PCT | 13 | Threat% inc | Threat% dec |  |  |  |  |  |  |
 | SMART_ACTION_THREAT_ALL_PCT | 14 | Threat% inc | Threat% dec |  |  |  |  |  |  |
-| SMART_ACTION_CALL_AREAEXPLOREDOREVENTHAPPENS | 15 | QuestID |  |  |  |  |  |  |  |
+| SMART_ACTION_CALL_AREAEXPLOREDOREVENTHAPPENS | 15 | [quest_template.ID](/en/database/master/world/quest_template#id) |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_INGAME_PHASE_ID | 16 | phaseId |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_EMOTE_STATE | 17 | EmoteId |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_UNIT_FLAG | 18 |  |  |  |  |  |  |  |  |
@@ -305,24 +305,24 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_INC_EVENT_PHASE | 23 | increment | Decrement |  |  |  |  |  |  |
 | SMART_ACTION_EVADE | 24 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_FLEE_FOR_ASSIST | 25 |  |  |  |  |  |  |  |  |
-| SMART_ACTION_CALL_GROUPEVENTHAPPENS | 26 | QuestID |  |  |  |  |  |  |  |
+| SMART_ACTION_CALL_GROUPEVENTHAPPENS | 26 | [quest_template.ID](/en/database/master/world/quest_template#id) |  |  |  |  |  |  |  |
 | SMART_ACTION_COMBAT_STOP | 27 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_REMOVEAURASFROMSPELL | 28 | SpellId | 0/1 onlyOwnedAuras |  |  |  |  |  |  |
 | SMART_ACTION_FOLLOW | 29 | Distance (0 = default value) | Angle (0 = default value) | End creature_template.entry | credit | creditType |  |  |  |
 | SMART_ACTION_RANDOM_PHASE | 30 | smart_scripts.event_phase_mask1 | smart_scripts.event_phase_mask2 | smart_scripts.event_phase_mask3 | smart_scripts.event_phase_mask4 | smart_scripts.event_phase_mask5 | smart_scripts.event_phase_mask6 |  |  |
 | SMART_ACTION_RANDOM_PHASE_RANGE | 31 | smart_scripts.event_phase_mask minimum | smart_scripts.event_phase_mask maximum |  |  |  |  |  |  |
 | SMART_ACTION_RESET_GOBJECT | 32 |  |  |  |  |  |  |  |  |
-| SMART_ACTION_CALL_KILLEDMONSTER | 33 | creature_template.entry |  |  |  |  |  |  |  |
+| SMART_ACTION_CALL_KILLEDMONSTER | 33 | [creature_template.entry](/en/database/master/world/creature_template#entry) |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_INST_DATA | 34 | Field | Data | Type:<ul><li>0 &rarr; SetData</li><li>1 &rarr;</li></ul> SetBossState |  |  |  |  |  |
 | SMART_ACTION_SET_INST_DATA64 | 35 | Field |  |  |  |  |  |  |  |
-| SMART_ACTION_UPDATE_TEMPLATE | 36 | creature_template.entry | Update Level |  |  |  |  |  |  |
+| SMART_ACTION_UPDATE_TEMPLATE | 36 | [creature_template.entry](/en/database/master/world/creature_template#entry) | Update Level |  |  |  |  |  |  |
 | SMART_ACTION_DIE | 37 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_IN_COMBAT_WITH_ZONE | 38 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_CALL_FOR_HELP | 39 | Radius in yards | 0/1 (say call for help text) |  |  |  |  |  |  |
 | SMART_ACTION_SET_SHEATH | 40 | Sheath:<ul><li>0 &rarr; unarmed</li><li>1 &rarr; melee</li><li>2 &rarr; ranged</li></ul> |  |  |  |  |  |  |  |
 | SMART_ACTION_FORCE_DESPAWN | 41 | Despawn timer in ms | Respawn timer in sec |  |  |  |  |  |  |
 | SMART_ACTION_SET_INVINCIBILITY_HP_LEVEL | 42 | flat hp value | percent hp value |  |  |  |  |  |  |
-| SMART_ACTION_MOUNT_TO_ENTRY_OR_MODEL | 43 | creature_template.entry | creature.template.ModelID |  |  |  |  |  |  |
+| SMART_ACTION_MOUNT_TO_ENTRY_OR_MODEL | 43 | [creature_template.entry](/en/database/master/world/creature_template#entry) | creature.template.ModelID |  |  |  |  |  |  |
 | SMART_ACTION_SET_INGAME_PHASE_MASK | 44 | creature.phaseId |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_DATA | 45 | Field | Data |  |  |  |  |  |  |
 | SMART_ACTION_ATTACK_STOP | 46 |  |  |  |  |  |  |  |  |
@@ -412,7 +412,7 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_SCENE_CANCEL | 130 | SceneId |  |  |  |  |  |  |  |
 | SMART_ACTION_SPAWN_SPAWNGROUP | 131 | groupId | minDelay | maxDelay | spawnflags |  |  |  |  |
 | SMART_ACTION_DESPAWN_SPAWNGROUP | 132 | groupId | minDelay | maxDelay | spawnflags |  |  |  |  |
-| SMART_ACTION_RESPAWN_BY_SPAWNID | 133 | spawnType (0 npc/ 1 gob) | spawnId (DB Guid) |  |  |  |  |  |  |
+| SMART_ACTION_RESPAWN_BY_SPAWNID | 133 | spawnType (0 npc/ 1 gob) | SpawnId |  |  |  |  |  |  |
 | SMART_ACTION_INVOKER_CAST | 134 | spellID | castFlag | triggeredFlags |  |  |  |  |  |
 | SMART_ACTION_PLAY_CINEMATIC | 135 | entry | cinematic |  |  |  |  |  |  |
 | SMART_ACTION_SET_MOVEMENT_SPEED | 136 | movementType | speedInteger | speedFraction |  |  |  |  |  |
