@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2024-08-06T23:07:58.264Z
+date: 2024-08-06T23:17:55.504Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -279,15 +279,15 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 ### action_type
 | Name | Value | Param1 | Param2 | Param3 | Param4 | Param5 | Param6 | ParamString | Comment |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| SMART_ACTION_NONE | 0 |  |  |  |  |  |  |  |  |
+| SMART_ACTION_NONE | 0 |  |  |  |  |  |  |  | Do nothing |
 | SMART_ACTION_TALK | 1 | [creature_text.GroupID](/en/database/master/world/creature_text#groupid) |  |  |  |  |  |  |  |
-| SMART_ACTION_SET_FACTION | 2 | [faction.db2.ID](https://wago.tools/db2/Faction) (0 for default) |  |  |  |  |  |  |  |
+| SMART_ACTION_SET_FACTION | 2 | [faction.db2.ID](https://wago.tools/db2/Faction) (0 for default) |  |  |  |  |  |  | Sets faction to creature. |
 | SMART_ACTION_MORPH_TO_ENTRY_OR_MODEL | 3 | [creature_template.entry](/en/database/master/world/creature_template#entry) | Creature_template.modelID |  |  |  |  |  |  |
 | SMART_ACTION_SOUND | 4 | SoundId | onlySelf (0/1) | Distant Sound (0/1) |  |  |  |  |  |
-| SMART_ACTION_PLAY_EMOTE | 5 | [emote.db2.ID](https://wago.tools/db2/Emotes) |  |  |  |  |  |  |  |
-| SMART_ACTION_FAIL_QUEST | 6 | [quest_template.ID](/en/database/master/world/quest_template#id) |  |  |  |  |  |  |  |
-| SMART_ACTION_OFFER_QUEST | 7 | [quest_template.ID](/en/database/master/world/quest_template#id) |  |  |  |  |  |  |  |
-| SMART_ACTION_SET_REACT_STATE | 8 | State |  |  |  |  |  |  |  |
+| SMART_ACTION_PLAY_EMOTE | 5 | [emote.db2.ID](https://wago.tools/db2/Emotes) |  |  |  |  |  |  | Play Emote |
+| SMART_ACTION_FAIL_QUEST | 6 | [quest_template.ID](/en/database/master/world/quest_template#id) |  |  |  |  |  |  | Fail Quest of Target |
+| SMART_ACTION_OFFER_QUEST | 7 | [quest_template.ID](/en/database/master/world/quest_template#id) |  |  |  |  |  |  | Add Quest to Target |
+| SMART_ACTION_SET_REACT_STATE | 8 | State:<ul><li>0 &rarr; Passiv</li><li>1 &rarr; Defensive</li><li>2 &rarr; Aggresive</li><li>3 &rarr; Assist</li></ul>|  |  |  |  |  |  |  |
 | SMART_ACTION_ACTIVATE_GOBJECT | 9 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_RANDOM_EMOTE | 10 | EmoteId1 | EmoteId2 | EmoteId3 | EmoteId4 | EmoteId5 | EmoteId6 |  |  |
 | SMART_ACTION_CAST | 11 | SpellId | castFlag | triggeredFlags |  |  |  |  |  |
@@ -365,7 +365,7 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_REMOVE_NPC_FLAG | 83 | [creature_template.npcflag](/en/database/master/world/creature_template#npcflag) |  |  |  |  |  |  |  |
 | SMART_ACTION_SIMPLE_TALK | 84 | [creature_text.GroupID](/en/database/master/world/creature_text#groupid) |  |  |  |  |  |  |  |
 | SMART_ACTION_SELF_CAST | 85 | SpellID | castFlags | triggeredFlags |  |  |  |  |  |
-| SMART_ACTION_CROSS_CAST | 86 | SpellID | castFlags | CasterTargetType | CasterTarget | CasterTarget param1 | CasterTarget param2 | CasterTarget param3 |  |
+| SMART_ACTION_CROSS_CAST | 86 | SpellID | castFlags | CasterTargetType | CasterTarget | CasterTarget param1 | CasterTarget param2 |  |  |
 | SMART_ACTION_CALL_RANDOM_TIMED_ACTIONLIST | 87 | EntryOrGuid 1 | EntryOrGuid 2 | EntryOrGuid 3 | EntryOrGuid 4 | EntryOrGuid 5 | EntryOrGuid 6 |  |  |
 | SMART_ACTION_CALL_RANDOM_RANGE_TIMED_ACTIONLIST | 88 | EntryOrGuid 1 | EntryOrGuid 2 |  |  |  |  |  |  |
 | SMART_ACTION_RANDOM_MOVE | 89 | Radius |  |  |  |  |  |  |  |
@@ -390,14 +390,14 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_SET_POWER | 108 | Power Type | New Power |  |  |  |  |  |  |
 | SMART_ACTION_ADD_POWER | 109 | Power Type | Power to add |  |  |  |  |  |  |
 | SMART_ACTION_REMOVE_POWER | 110 | Power Type | Power to remove |  |  |  |  |  |  |
-| SMART_ACTION_GAME_EVENT_STOP | 111 | GameEventId |  |  |  |  |  |  |  |
-| SMART_ACTION_GAME_EVENT_START | 112 | GameEventId |  |  |  |  |  |  |  |
+| SMART_ACTION_GAME_EVENT_STOP | 111 | [game_event.eventEntry](/en/database/master/world/game_event#eventEntry) |  |  |  |  |  |  |  |
+| SMART_ACTION_GAME_EVENT_START | 112 | [game_event.eventEntry](/en/database/master/world/game_event#eventEntry) |  |  |  |  |  |  |  |
 | SMART_ACTION_START_CLOSEST_WAYPOINT | 113 | wp1 | wp2 | wp3 | wp4 | wp5 | wp6 |  |  |
 | SMART_ACTION_MOVE_OFFSET | 114 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_RANDOM_SOUND | 115 | soundId1 | soundId2 | soundId3 | soundId4 | onlySelf(0/1) | Distant Sound (0/1) |  |  |
 | SMART_ACTION_SET_CORPSE_DELAY | 116 | timer |  |  |  |  |  |  |  |
 | SMART_ACTION_DISABLE_EVADE | 117 | disable evade (1) / re-enable (0) |  |  |  |  |  |  |  |
-| SMART_ACTION_GO_SET_GO_STATE | 118 | state |  |  |  |  |  |  |  |
+| SMART_ACTION_GO_SET_GO_STATE | 118 | State |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_CAN_FLY | 119 | (0/1) |  |  |  |  |  |  |  |
 | SMART_ACTION_REMOVE_AURAS_BY_TYPE | 120 | type |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_SIGHT_DIST | 121 | SightDistance |  |  |  |  |  |  |  |
