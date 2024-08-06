@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2024-08-06T23:17:55.504Z
+date: 2024-08-06T23:21:47.891Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -313,7 +313,7 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_RANDOM_PHASE_RANGE | 31 | smart_scripts.event_phase_mask minimum | smart_scripts.event_phase_mask maximum |  |  |  |  |  |  |
 | SMART_ACTION_RESET_GOBJECT | 32 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_CALL_KILLEDMONSTER | 33 | [creature_template.entry](/en/database/master/world/creature_template#entry) |  |  |  |  |  |  |  |
-| SMART_ACTION_SET_INST_DATA | 34 | Field | Data | Type:<ul><li>0 &rarr; SetData</li><li>1 &rarr;</li></ul> SetBossState |  |  |  |  |  |
+| SMART_ACTION_SET_INST_DATA | 34 | Field | Data | Type:<ul><li>0 &rarr; SetData</li><li>1 &rarr; SetBossState</li></ul>|  |  |  |  |  |
 | SMART_ACTION_SET_INST_DATA64 | 35 | Field |  |  |  |  |  |  |  |
 | SMART_ACTION_UPDATE_TEMPLATE | 36 | [creature_template.entry](/en/database/master/world/creature_template#entry) | Update Level |  |  |  |  |  |  |
 | SMART_ACTION_DIE | 37 |  |  |  |  |  |  |  |  |
@@ -415,7 +415,7 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_RESPAWN_BY_SPAWNID | 133 | spawnType (0 npc/ 1 gob) | SpawnId |  |  |  |  |  |  |
 | SMART_ACTION_INVOKER_CAST | 134 | spellID | castFlag | triggeredFlags |  |  |  |  |  |
 | SMART_ACTION_PLAY_CINEMATIC | 135 | entry | cinematic |  |  |  |  |  |  |
-| SMART_ACTION_SET_MOVEMENT_SPEED | 136 | movementType | speedInteger | speedFraction |  |  |  |  |  |
+| SMART_ACTION_SET_MOVEMENT_SPEED | 136 | [MovementType](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Movement/MovementDefines.h#L28) | speedInteger | speedFraction |  |  |  |  |  |
 | SMART_ACTION_PLAY_SPELL_VISUAL_KIT | 137 | [spellVisualKitId.db2.ID](https://wago.tools/db2/SpellVisualKit) |  |  |  |  |  |  |  |
 | SMART_ACTION_OVERRIDE_LIGHT | 138 | zoneId | areaLightId | lightId (overrideLightId) | fadeInTime (transition Milliseconds) |  |  |  |  |
 | SMART_ACTION_OVERRIDE_WEATHER | 139 | zoneId | weatherId | weatherGrade (intensity) |  |  |  |  |  |
