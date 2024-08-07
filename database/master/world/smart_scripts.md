@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2024-08-06T23:21:47.891Z
+date: 2024-08-07T14:25:22.112Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -288,30 +288,30 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_FAIL_QUEST | 6 | [quest_template.ID](/en/database/master/world/quest_template#id) |  |  |  |  |  |  | Fail Quest of Target |
 | SMART_ACTION_OFFER_QUEST | 7 | [quest_template.ID](/en/database/master/world/quest_template#id) |  |  |  |  |  |  | Add Quest to Target |
 | SMART_ACTION_SET_REACT_STATE | 8 | State:<ul><li>0 &rarr; Passiv</li><li>1 &rarr; Defensive</li><li>2 &rarr; Aggresive</li><li>3 &rarr; Assist</li></ul>|  |  |  |  |  |  |  |
-| SMART_ACTION_ACTIVATE_GOBJECT | 9 |  |  |  |  |  |  |  |  |
-| SMART_ACTION_RANDOM_EMOTE | 10 | EmoteId1 | EmoteId2 | EmoteId3 | EmoteId4 | EmoteId5 | EmoteId6 |  |  |
-| SMART_ACTION_CAST | 11 | SpellId | castFlag | triggeredFlags |  |  |  |  |  |
-| SMART_ACTION_SUMMON_CREATURE | 12 | [creature_template.entry](/en/database/master/world/creature_template#entry) | Summon Type | duration in ms | attackInvoker | SmartActionSummonCreatureFlags:<ul><li>1 &rarr; PersonalSpawn</li><li>2 &rarr; PreferUnit</li></ul> |  |  |  |
-| SMART_ACTION_THREAT_SINGLE_PCT | 13 | Threat% inc | Threat% dec |  |  |  |  |  |  |
-| SMART_ACTION_THREAT_ALL_PCT | 14 | Threat% inc | Threat% dec |  |  |  |  |  |  |
+| SMART_ACTION_ACTIVATE_GOBJECT | 9 |  |  |  |  |  |  |  | Activate Object |
+| SMART_ACTION_RANDOM_EMOTE | 10 | EmoteId1 | EmoteId2 | EmoteId3 | EmoteId4 | EmoteId5 | EmoteId6 |  | Play Random Emote |
+| SMART_ACTION_CAST | 11 | SpellId | castFlag | triggeredFlags |  |  |  |  | Cast Spell ID at Target |
+| SMART_ACTION_SUMMON_CREATURE | 12 | [creature_template.entry](/en/database/master/world/creature_template#entry) | Summon Type | duration in ms | attackInvoker | SmartActionSummonCreatureFlags:<ul><li>1 &rarr; PersonalSpawn</li><li>2 &rarr; PreferUnit</li></ul> |  |  | Summon Unit |
+| SMART_ACTION_THREAT_SINGLE_PCT | 13 | Threat% inc | Threat% dec |  |  |  |  |  | Change Threat Percentage for Single Target |
+| SMART_ACTION_THREAT_ALL_PCT | 14 | Threat% inc | Threat% dec |  |  |  |  |  | Change Threat Percentage for All Enemies |
 | SMART_ACTION_CALL_AREAEXPLOREDOREVENTHAPPENS | 15 | [quest_template.ID](/en/database/master/world/quest_template#id) |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_INGAME_PHASE_ID | 16 | [PhaseID.db2](https://wago.tools/db2/Phase) |  |  |  |  |  |  |  |
-| SMART_ACTION_SET_EMOTE_STATE | 17 | [emote.db2.ID](https://wago.tools/db2/Emotes) |  |  |  |  |  |  |  |
-| SMART_ACTION_SET_UNIT_FLAG | 18 |  |  |  |  |  |  |  |  |
-| SMART_ACTION_REMOVE_UNIT_FLAG | 19 |  |  |  |  |  |  |  |  |
-| SMART_ACTION_AUTO_ATTACK | 20 |  |  |  |  |  |  |  |  |
-| SMART_ACTION_ALLOW_COMBAT_MOVEMENT | 21 |  |  |  |  |  |  |  |  |
+| SMART_ACTION_SET_EMOTE_STATE | 17 | [emote.db2.ID](https://wago.tools/db2/Emotes) |  |  |  |  |  |  | Play Emote Continuously |
+| :warning: SMART_ACTION_SET_UNIT_FLAG | 18 |  |  |  |  |  |  |  | Can set Multi-able flags at once |
+| :warning: SMART_ACTION_REMOVE_UNIT_FLAG | 19 |  |  |  |  |  |  |  | Can Remove Multi-able flags at once |
+| SMART_ACTION_AUTO_ATTACK | 20 |  |  |  |  |  |  |  | Stop or Continue Automatic Attack. |
+| SMART_ACTION_ALLOW_COMBAT_MOVEMENT | 21 |  |  |  |  |  |  |  | Allow or Disable Combat Movement|
 | SMART_ACTION_SET_EVENT_PHASE | 22 | smart_scripts.event_phase_mask |  |  |  |  |  |  |  |
-| SMART_ACTION_INC_EVENT_PHASE | 23 | increment | Decrement |  |  |  |  |  |  |
-| SMART_ACTION_EVADE | 24 |  |  |  |  |  |  |  |  |
-| SMART_ACTION_FLEE_FOR_ASSIST | 25 |  |  |  |  |  |  |  |  |
+| SMART_ACTION_INC_EVENT_PHASE | 23 | increment | Decrement |  |  |  |  |  | Set param1 OR param2 (not both). Value 0 has no effect. |
+| SMART_ACTION_EVADE | 24 |  |  |  |  |  |  |  | Evade Incoming Attack |
+| SMART_ACTION_FLEE_FOR_ASSIST | 25 |  |  |  |  |  |  |  | If you want the fleeing NPC to say '%s attempts to run away in fear' on flee, use 1 on param1. 0 for no message. |
 | SMART_ACTION_CALL_GROUPEVENTHAPPENS | 26 | [quest_template.ID](/en/database/master/world/quest_template#id) |  |  |  |  |  |  |  |
 | SMART_ACTION_COMBAT_STOP | 27 |  |  |  |  |  |  |  |  |
-| SMART_ACTION_REMOVEAURASFROMSPELL | 28 | SpellId | 0/1 onlyOwnedAuras |  |  |  |  |  |  |
-| SMART_ACTION_FOLLOW | 29 | Distance (0 = default value) | Angle (0 = default value) | End creature_template.entry | credit | creditType |  |  |  |
+| SMART_ACTION_REMOVEAURASFROMSPELL | 28 | SpellId | 0/1 onlyOwnedAuras |  |  |  |  |  | 0 removes all auras |
+| SMART_ACTION_FOLLOW | 29 | Distance (0 = default value) | Angle (0 = default value) | End creature_template.entry | credit | creditType |  |  | Follow Target |
 | SMART_ACTION_RANDOM_PHASE | 30 | smart_scripts.event_phase_mask1 | smart_scripts.event_phase_mask2 | smart_scripts.event_phase_mask3 | smart_scripts.event_phase_mask4 | smart_scripts.event_phase_mask5 | smart_scripts.event_phase_mask6 |  |  |
 | SMART_ACTION_RANDOM_PHASE_RANGE | 31 | smart_scripts.event_phase_mask minimum | smart_scripts.event_phase_mask maximum |  |  |  |  |  |  |
-| SMART_ACTION_RESET_GOBJECT | 32 |  |  |  |  |  |  |  |  |
+| SMART_ACTION_RESET_GOBJECT | 32 |  |  |  |  |  |  |  | Reset Gameobject |
 | SMART_ACTION_CALL_KILLEDMONSTER | 33 | [creature_template.entry](/en/database/master/world/creature_template#entry) |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_INST_DATA | 34 | Field | Data | Type:<ul><li>0 &rarr; SetData</li><li>1 &rarr; SetBossState</li></ul>|  |  |  |  |  |
 | SMART_ACTION_SET_INST_DATA64 | 35 | Field |  |  |  |  |  |  |  |
@@ -340,7 +340,7 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_INSTALL_AI_TEMPLATE | 58 | TemplateID |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_RUN | 59 | 0 = off / 1 = on |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_DISABLE_GRAVITY | 60 | 0 = gravity on / 1 = gravity off |  |  |  |  |  |  |  |
-| SMART_ACTION_SET_SWIM | 61 | 0 = off / 1 = on |  |  |  |  |  |  |  |
+| :warning: SMART_ACTION_SET_SWIM | 61 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_TELEPORT | 62 | [map.db2.ID](https://wago.tools/db2/Map) |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_COUNTER | 63 | CounterID | value | reset (0/1) |  |  |  |  |  |
 | SMART_ACTION_STORE_TARGET_LIST | 64 | varID |  |  |  |  |  |  |  |
@@ -354,9 +354,9 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_CLOSE_GOSSIP | 72 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_TRIGGER_TIMED_EVENT | 73 | id(>1) |  |  |  |  |  |  |  |
 | SMART_ACTION_REMOVE_TIMED_EVENT | 74 | id(>1) |  |  |  |  |  |  |  |
-| SMART_ACTION_ADD_AURA | 75 | SpellId |  |  |  |  |  |  |  |
-| SMART_ACTION_OVERRIDE_SCRIPT_BASE_OBJECT | 76 |  |  |  |  |  |  |  |  |
-| SMART_ACTION_RESET_SCRIPT_BASE_OBJECT | 77 |  |  |  |  |  |  |  |  |
+| :warning: SMART_ACTION_ADD_AURA | 75 |  |  |  |  |  |  |  |  |
+| :warning: SMART_ACTION_OVERRIDE_SCRIPT_BASE_OBJECT | 76 |  |  |  |  |  |  |  |  |
+| :warning: SMART_ACTION_RESET_SCRIPT_BASE_OBJECT | 77 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_CALL_SCRIPT_RESET | 78 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_RANGED_MOVEMENT | 79 | attackDistance | attackAngle |  |  |  |  |  |  |
 | SMART_ACTION_CALL_TIMED_ACTIONLIST | 80 | EntryOrGuid * 100 | timer update type(0 OOC, 1 IC, 2 ALWAYS) | 0/1 can override in going action list |  |  |  |  |  |
@@ -372,10 +372,10 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_SET_UNIT_FIELD_BYTES_1 | 90 | Value | Type |  |  |  |  |  |  |
 | SMART_ACTION_REMOVE_UNIT_FIELD_BYTES_1 | 91 | Value | Type |  |  |  |  |  |  |
 | SMART_ACTION_INTERRUPT_SPELL | 92 | With delay (0/1) | SpellId | instant (0/1) |  |  |  |  |  |
-| SMART_ACTION_SEND_GO_CUSTOM_ANIM | 93 | animprogress (0-255) |  |  |  |  |  |  |  |
-| SMART_ACTION_SET_DYNAMIC_FLAG | 94 | creature.dynamicflags |  |  |  |  |  |  |  |
-| SMART_ACTION_ADD_DYNAMIC_FLAG | 95 | creature.dynamicflags |  |  |  |  |  |  |  |
-| SMART_ACTION_REMOVE_DYNAMIC_FLAG | 96 | creature.dynamicflags |  |  |  |  |  |  |  |
+| :warning: SMART_ACTION_SEND_GO_CUSTOM_ANIM | 93 |  |  |  |  |  |  |  |  |
+| :warning: SMART_ACTION_SET_DYNAMIC_FLAG | 94 |  |  |  |  |  |  |  |  |
+| :warning: SMART_ACTION_ADD_DYNAMIC_FLAG | 95 |  |  |  |  |  |  |  |  |
+| :warning: SMART_ACTION_REMOVE_DYNAMIC_FLAG | 96 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_JUMP_TO_POS | 97 | Speed XY | Speed Z |  |  |  |  |  |  |
 | SMART_ACTION_SEND_GOSSIP_MENU | 98 | gossip_menu.entry | gossip_menu.text_id |  |  |  |  |  |  |
 | SMART_ACTION_GO_SET_LOOT_STATE | 99 | LootState:<ul><li>0 &rarr; Not Ready</li><li>1 &rarr; Ready</li><li>2 &rarr; Activated</li><li>3 &rarr; Just Deactivated</li></ul>|  |  |  |  |  |  |  |
@@ -383,9 +383,9 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_SET_HOME_POS | 101 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_HEALTH_REGEN | 102 | 0/1 |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_ROOT | 103 | 0/1 |  |  |  |  |  |  |  |
-| SMART_ACTION_SET_GO_FLAG | 104 | [gameobject_template_addon.flags](/en//database/master/world/gameobject_template_addon#flags) |  |  |  |  |  |  |  |
-| SMART_ACTION_ADD_GO_FLAG | 105 | [gameobject_template_addon.flags](/en//database/master/world/gameobject_template_addon#flags) |  |  |  |  |  |  |  |
-| SMART_ACTION_REMOVE_GO_FLAG | 106 | [gameobject_template_addon.flags](/en//database/master/world/gameobject_template_addon#flags) |  |  |  |  |  |  |  |
+| :warning: SMART_ACTION_SET_GO_FLAG | 104 | [gameobject_template_addon.flags](/en//database/master/world/gameobject_template_addon#flags) |  |  |  |  |  |  |  |
+| :warning: SMART_ACTION_ADD_GO_FLAG | 105 | [gameobject_template_addon.flags](/en//database/master/world/gameobject_template_addon#flags) |  |  |  |  |  |  |  |
+| :warning: SMART_ACTION_REMOVE_GO_FLAG | 106 | [gameobject_template_addon.flags](/en//database/master/world/gameobject_template_addon#flags) |  |  |  |  |  |  |  |
 | SMART_ACTION_SUMMON_CREATURE_GROUP | 107 | [creature_summon_groups.groupId](/en//database/master/world/creature_summon_groups#groupId) | Attack Invoker (0/1) |  |  |  |  |  |  |
 | SMART_ACTION_SET_POWER | 108 | Power Type | New Power |  |  |  |  |  |  |
 | SMART_ACTION_ADD_POWER | 109 | Power Type | Power to add |  |  |  |  |  |  |
@@ -398,14 +398,14 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_SET_CORPSE_DELAY | 116 | timer |  |  |  |  |  |  |  |
 | SMART_ACTION_DISABLE_EVADE | 117 | disable evade (1) / re-enable (0) |  |  |  |  |  |  |  |
 | SMART_ACTION_GO_SET_GO_STATE | 118 | State |  |  |  |  |  |  |  |
-| SMART_ACTION_SET_CAN_FLY | 119 | (0/1) |  |  |  |  |  |  |  |
-| SMART_ACTION_REMOVE_AURAS_BY_TYPE | 120 | type |  |  |  |  |  |  |  |
-| SMART_ACTION_SET_SIGHT_DIST | 121 | SightDistance |  |  |  |  |  |  |  |
-| SMART_ACTION_FLEE | 122 | FleeTime |  |  |  |  |  |  |  |
+| :warning: SMART_ACTION_SET_CAN_FLY | 119 | (0/1) |  |  |  |  |  |  |  |
+| :warning: SMART_ACTION_REMOVE_AURAS_BY_TYPE | 120 | type |  |  |  |  |  |  |  |
+| :warning: SMART_ACTION_SET_SIGHT_DIST | 121 | SightDistance |  |  |  |  |  |  |  |
+| :warning: SMART_ACTION_FLEE | 122 | FleeTime |  |  |  |  |  |  |  |
 | SMART_ACTION_ADD_THREAT | 123 | +threat | -threat |  |  |  |  |  |  |
 | SMART_ACTION_LOAD_EQUIPMENT | 124 | Id |  |  |  |  |  |  |  |
 | SMART_ACTION_TRIGGER_RANDOM_TIMED_EVENT | 125 | id min range | id max range |  |  |  |  |  |  |
-| SMART_ACTION_REMOVE_ALL_GAMEOBJECTS | 126 |  |  |  |  |  |  |  |  |
+| :warning: SMART_ACTION_REMOVE_ALL_GAMEOBJECTS | 126 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_PAUSE_MOVEMENT | 127 | MovementSlot | PauseTime (ms) | Forced |  |  |  |  |  |
 | SMART_ACTION_PLAY_ANIMKIT | 128 | [AnimKit.db2.ID](https://wago.tools/db2/AnimKit) | type:<ul><li>0 &rarr; PlayOneShotAnimKitId</li><li>1 &rarr; SetAIAnimKitId</li><li>2 &rarr; SetMeleeAnimKitId</li><li>3 &rarr; SetMovementAnimKitId</li></ul>|  |  |  |  |  |  |
 | SMART_ACTION_SCENE_PLAY | 129 | [scene_template.id](/en/database/master/world/scene_template#id) |  |  |  |  |  |  |  |
@@ -419,19 +419,20 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_PLAY_SPELL_VISUAL_KIT | 137 | [spellVisualKitId.db2.ID](https://wago.tools/db2/SpellVisualKit) |  |  |  |  |  |  |  |
 | SMART_ACTION_OVERRIDE_LIGHT | 138 | zoneId | areaLightId | lightId (overrideLightId) | fadeInTime (transition Milliseconds) |  |  |  |  |
 | SMART_ACTION_OVERRIDE_WEATHER | 139 | zoneId | weatherId | weatherGrade (intensity) |  |  |  |  |  |
-| SMART_ACTION_SET_AI_ANIM_KIT | 140 | 	 |  |  |  |  |  |  |  |
+| :warning: SMART_ACTION_SET_AI_ANIM_KIT | 140 | 	 |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_HOVER | 141 | 0 = Off / 1 = On |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_HEALTH_PCT | 142 | percent |  |  |  |  |  |  |  |
 | SMART_ACTION_CREATE_CONVERSATION | 143 | [conversation_template.id](/en//database/master/world/conversation_template#Id) |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_IMMUNE_PC | 144 | 0 = Off / 1 = On |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_IMMUNE_NPC | 145 | 0 = Off / 1 = On |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_UNINTERACTIBLE | 146 | 0 = Off / 1 = On |  |  |  |  |  |  |  |
-| SMART_ACTION_ACTIVATE_GAMEOBJECT | 147 |  |  |  |  |  |  |  |  |
-| SMART_ACTION_ADD_TO_STORED_TARGET_LIST | 148 |  |  |  |  |  |  |  |  |
-| SMART_ACTION_BECOME_PERSONAL_CLONE_FOR_PLAYER | 149 |  |  |  |  |  |  |  |  |
-| SMART_ACTION_TRIGGER_GAME_EVENT | 150 |  |  |  |  |  |  |  |  |
-| SMART_ACTION_DO_ACTION | 151 |  |  |  |  |  |  |  |  |
+| SMART_ACTION_ACTIVATE_GAMEOBJECT | 147 | GameObjectActions |  |  |  |  |  |  |  |
+| SMART_ACTION_ADD_TO_STORED_TARGET_LIST | 148 | varID |  |  |  |  |  |  |  |
+| SMART_ACTION_BECOME_PERSONAL_CLONE_FOR_PLAYER | 149 | SummonType | duration in ms |  |  |  |  |  |  |
+| SMART_ACTION_TRIGGER_GAME_EVENT | 150 | eventId |  |  |  |  |  |  |  |
+| SMART_ACTION_DO_ACTION | 151 | actionId |  |  |  |  |  |  |  |
 &nbsp;
+
 
 ### target_type
 | Name | Value | Param1 | Param2 | Param3 | Param4 | ParamString | X | Y | Z | O | Comment |
