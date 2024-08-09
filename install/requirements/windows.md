@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2024-07-15T07:10:56.229Z
+date: 2024-08-09T20:24:45.051Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -97,7 +97,7 @@ Try connecting to your MySQL instance that you installed above. Depending on the
 	Create a new connection/session. The Hostname/IP address of "127.0.0.1" or "localhost" is fine if you installed MySQL on the same computer that you installed HeidiSQL or SQLYog. Simply fill in your root // whatever password and you should now be able to connect to your database
 &nbsp;
 
-### 6. [Boost](http://www.boost.org/users/download/){target=_blank}
+### 6. [Boost](https://sourceforge.net/projects/boost/files/boost-binaries/){target=_blank}
 
 > Depending on your boost version, you require newer CMake version.
 > For example: boost 1.80 requires CMake 3.24.2 (with 3.24.1 it will display warnings).{.is-warning}
