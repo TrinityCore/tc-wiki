@@ -2,7 +2,7 @@
 title: Trinitycore Wiki
 description: 
 published: true
-date: 2024-03-08T00:09:27.436Z
+date: 2024-08-12T15:08:45.585Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T17:47:17.543Z
@@ -16,6 +16,14 @@ It is derived from MaNGOS, the Massive Network Game Object Server, and is based 
 It is completely open source; community involvement is highly encouraged.
 
 If you wish to contribute ideas or code, please visit our site linked below or make pull requests to our [Github repository](https://github.com/TrinityCore/).
+
+ATM Trinitycore supports 3 main branches:
+
+- 3.3.5 targeting original 2010 wow 3.3.5a, you need wow 3.3.5a.12340 client to run it, wotlk 3.4 client won't work with it.
+- cata_classic targeting 2024 wow 4.4 retail cata classic, you need wow 4.4.x client to run it, cata 4.3.4 client won't work with it.
+- master ussually targeting retail version
+
+there is also wotlk_classic targeting 2023 wow 3.4 but no developement is active with it.
 
 For further information on the TrinityCore project, please visit our project website at TrinityCore.org.
 
