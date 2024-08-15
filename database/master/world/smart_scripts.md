@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2024-08-07T14:25:22.112Z
+date: 2024-08-15T13:52:33.955Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -294,7 +294,7 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_SUMMON_CREATURE | 12 | [creature_template.entry](/en/database/master/world/creature_template#entry) | Summon Type | duration in ms | attackInvoker | SmartActionSummonCreatureFlags:<ul><li>1 &rarr; PersonalSpawn</li><li>2 &rarr; PreferUnit</li></ul> |  |  | Summon Unit |
 | SMART_ACTION_THREAT_SINGLE_PCT | 13 | Threat% inc | Threat% dec |  |  |  |  |  | Change Threat Percentage for Single Target |
 | SMART_ACTION_THREAT_ALL_PCT | 14 | Threat% inc | Threat% dec |  |  |  |  |  | Change Threat Percentage for All Enemies |
-| SMART_ACTION_CALL_AREAEXPLOREDOREVENTHAPPENS | 15 | [quest_template.ID](/en/database/master/world/quest_template#id) |  |  |  |  |  |  |  |
+| :warning: SMART_ACTION_CALL_AREAEXPLOREDOREVENTHAPPENS | 15 |  |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
 | SMART_ACTION_SET_INGAME_PHASE_ID | 16 | [PhaseID.db2](https://wago.tools/db2/Phase) |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_EMOTE_STATE | 17 | [emote.db2.ID](https://wago.tools/db2/Emotes) |  |  |  |  |  |  | Play Emote Continuously |
 | :warning: SMART_ACTION_SET_UNIT_FLAG | 18 |  |  |  |  |  |  |  | Can set Multi-able flags at once |
@@ -305,7 +305,7 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_INC_EVENT_PHASE | 23 | increment | Decrement |  |  |  |  |  | Set param1 OR param2 (not both). Value 0 has no effect. |
 | SMART_ACTION_EVADE | 24 |  |  |  |  |  |  |  | Evade Incoming Attack |
 | SMART_ACTION_FLEE_FOR_ASSIST | 25 |  |  |  |  |  |  |  | If you want the fleeing NPC to say '%s attempts to run away in fear' on flee, use 1 on param1. 0 for no message. |
-| SMART_ACTION_CALL_GROUPEVENTHAPPENS | 26 | [quest_template.ID](/en/database/master/world/quest_template#id) |  |  |  |  |  |  |  |
+| :warning: SMART_ACTION_CALL_GROUPEVENTHAPPENS | 26 |  |  |  |  |  |  |  | UNUSED, DO NOT REUSE |
 | SMART_ACTION_COMBAT_STOP | 27 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_REMOVEAURASFROMSPELL | 28 | SpellId | 0/1 onlyOwnedAuras |  |  |  |  |  | 0 removes all auras |
 | SMART_ACTION_FOLLOW | 29 | Distance (0 = default value) | Angle (0 = default value) | End creature_template.entry | credit | creditType |  |  | Follow Target |
@@ -431,7 +431,11 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_BECOME_PERSONAL_CLONE_FOR_PLAYER | 149 | SummonType | duration in ms |  |  |  |  |  |  |
 | SMART_ACTION_TRIGGER_GAME_EVENT | 150 | eventId |  |  |  |  |  |  |  |
 | SMART_ACTION_DO_ACTION | 151 | actionId |  |  |  |  |  |  |  |
-&nbsp;
+| SMART_ACTION_COMPLETE_QUEST | 152 | [quest_template.ID](/en/database/master/world/quest_template#id) |  |  |  |  |  |  | Complete quest with:<br/>*QUEST_FLAGS_COMPLETION_EVENT, QUEST_FLAGS_COMPLETION_AREA_TRIGGER or QUEST_FLAGS_TRACKING_EVENT* |
+{.dense}
+
+> Please note :warning:means that the action_type is deprecated and should not be used.
+{.is-warning}
 
 
 ### target_type
