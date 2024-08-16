@@ -2,7 +2,7 @@
 title: Final Server Steps
 description: 
 published: true
-date: 2022-11-21T21:32:18.254Z
+date: 2024-08-16T10:36:06.552Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-20T14:36:59.826Z
@@ -59,7 +59,7 @@ E-mail\Username: **test**
 Password: **test** 
 
   
-## Master
+## Master or classic branches
 **To create your account:**
 
 - Type: bnetaccount create <user> <pass>
@@ -70,11 +70,12 @@ Password: **test**
 
 - Type: account set gmlevel <user#realm> 3 -1
 
-***Example: account set gmlevel 1#1 3 -1***
-
-> Note: The username used for setting your gmlevel is not the same as the username you create with bnetaccount. You must manually find the username in auth.account.username. These are formatted as 1#1, 2#1, etc.
+> Note: The username used for setting your gmlevel is not the same as the username you create with bnetaccount. You must manually find the username in auth.account.username. These are formatted as 1#1, 2#1, etc or check the text after create account it will output something like:
+Battle.net account created: test@test.test with game account 1#1
+.
 {.is-info}
 
+***Example: account set gmlevel 1#1 3 -1***
 
 > NOTE2: if you have connected before using this command you will need to relog.
 {.is-info}
