@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2024-08-16T12:28:13.798Z
+date: 2024-08-16T12:29:07.580Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -93,7 +93,7 @@ Choose one of these
 ### 5. Test your tool
 Try connecting to your MySQL instance that you installed above. Depending on the program, you may be looking for "**Connect to Host**" or "**New Connection**" or "**Session Manager**".
 &nbsp;
-	Create a new connection/session. The Hostname/IP address of "127.0.0.1" or "localhost" is fine if you installed MySQL on the same computer that you installed HeidiSQL or SQLYog. Simply fill in your root // whatever password and you should now be able to connect to your database
+	Create a new connection/session. The Hostname/IP address of "127.0.0.1" or "localhost" is fine if you installed MySQL on the same computer that you installed SQLYog. Simply fill in your root // whatever password and you should now be able to connect to your database
 &nbsp;
 
 ### 6. [Boost](https://sourceforge.net/projects/boost/files/boost-binaries/){target=_blank}
