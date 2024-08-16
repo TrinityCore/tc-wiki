@@ -2,7 +2,7 @@
 title: Networking
 description: 
 published: true
-date: 2023-10-06T21:52:34.619Z
+date: 2024-08-16T12:29:29.294Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-20T14:27:15.045Z
@@ -28,7 +28,7 @@ This is where you have to use your internet IP so clients from the internet can 
 
 You need to make sure that your authserver / bnetserver (6.x and >) application directs incoming connections to your realm.
 
-Run your chosen database management tool (ex. SQLYog or HeidiSQL, but also web-applications like Phpmyadmin for servers with php extension)*
+Run your chosen database management tool (ex. SQLYog, but also web-applications like Phpmyadmin for servers with php extension)*
 If you need to connect to your database from one external machine, read https://www.enovision.net/mysql-ssh-tunnel-heidisql instead open ports to mysql server.
 Open the auth database and find the realmlist table. You need to edit the address field according to your needs:
 LAN IP (192.168.x.x) - If you are installing TrinityCore on a different computer from where you run WoW, but all the computers involved are on the same network (router) use that computer's Local Area Network IP.
