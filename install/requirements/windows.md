@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2024-08-09T20:24:45.051Z
+date: 2024-08-16T12:28:13.798Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -84,7 +84,6 @@ Choose one of these
 - mysql cli *(comes with MySQL installation)* 
 *(fastest and recommended)*
 - [SQLYog Community Edition](https://github.com/webyog/sqlyog-community/wiki/Downloads){target=_blank}
-- [HeidiSQL](http://www.heidisql.com/download.php){target=_blank} *(Best for beginners)*
 - [MySQL Workbench](http://dev.mysql.com/downloads/workbench/){target=_blank} (*already installed if you chose to install full MySQL package)*
 - [DBeaver](https://dbeaver.io/){target=_blank} *(Multi-platform Database Management Tool)*
 {.links-list}
