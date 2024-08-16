@@ -2,7 +2,7 @@
 title: Trinitycore Wiki
 description: 
 published: true
-date: 2024-08-12T19:01:25.512Z
+date: 2024-08-16T11:36:14.036Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T17:47:17.543Z
@@ -21,7 +21,7 @@ ATM Trinitycore supports 3 main branches:
 
 - 3.3.5 targeting original 2010 wow 3.3.5a, you need wow 3.3.5a.12340 client to run it, wotlk 3.4 client won't work with it. **best for starters**
 - cata_classic targeting 2024 wow 4.4 retail cata classic, you need wow 4.4.x client to run it, cata 4.3.4 client won't work with it. **very beta**
-- master ussually targeting retail version **a lot of missing content**
+- master usually targeting retail version **a lot of missing content**
 
 there is also wotlk_classic targeting 2023 wow 3.4 but no developement is active with it. **not recommended**
 
