@@ -2,14 +2,13 @@
 title: Optional Software
 description: 
 published: true
-date: 2022-11-21T22:47:03.089Z
+date: 2024-08-16T12:28:41.048Z
 tags: requirements, installation, setup, optional
 editor: markdown
 dateCreated: 2022-07-15T19:21:29.000Z
 ---
 
 ## Graphical database-viewing/editing
-- [HeidiSQL](https://www.heidisql.com/){target=_blank}
 - [SQLyog](https://webyog.com/product/sqlyog/){target=_blank}
 
 > Please note that the software called Navicat is NOT supported due to issues with how it handles SQL-files with "/* */"-style comments. We advise all users to stay well clear of this program unless they really are looking for issues.
