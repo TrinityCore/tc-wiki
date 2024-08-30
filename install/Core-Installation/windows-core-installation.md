@@ -2,7 +2,7 @@
 title: Windows Core Installation
 description: 
 published: true
-date: 2024-06-27T10:07:13.329Z
+date: 2024-08-30T21:25:12.920Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-15T10:17:42.057Z
@@ -28,7 +28,7 @@ See [Windows Requirements](https://trinitycore.info/en/install/requirements/win
 
 | **3.3.5 (WotLK 3.3.5a Client)**<br><br>**This will clone 3.3.5 branch,**<br><br>**this is the RECOMMENDED branch for starters and people wanting playable content.**<br><br>![](/git_ext_335.png) |
 | --- |
-| **master (currently Dragonflight client)**<br><br>**This will clone master branch,**<br><br>**note that this is** **NOT** **the recommended branch for starters,** <br><br>**this branch doesn't ship most of content after 3.3.5a.**<br><br>![](/git_ext_master.png) |
+| **master (currently The War Within client)**<br><br>**This will clone master branch,**<br><br>**note that this is** **NOT** **the recommended branch for starters,** <br><br>**this branch doesn't ship most of content after 3.3.5a.**<br><br>![](/git_ext_master.png) |
 
 Click **Clone**. Within a few minutes all of the TrinityCore source files will be pulled into the directory **C:\\TrinityCore**.
 
