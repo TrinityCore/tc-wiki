@@ -2,7 +2,7 @@
 title: creature_text
 description: 
 published: true
-date: 2024-02-25T10:16:32.560Z
+date: 2024-09-05T22:48:24.419Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:30:31.760Z
@@ -19,7 +19,7 @@ dateCreated: 2021-08-30T09:30:31.760Z
 | [ID](#id-alt) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [Text](#text) | mediumtext |  |  | NO |  |  |  |
 | [Type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
-| [Language](#language) | tinyint | signed |  | NO | 0 |  |  |
+| [Language](#language) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Probability](#probability) | float |  |  | NO | 0 |  |  |
 | [Emote](#emote) | int | unsigned |  | NO | 0 |  |  |
 | [Duration](#duration) | int | unsigned |  | NO | 0 |  |  |

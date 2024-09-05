@@ -2,7 +2,7 @@
 title: World
 description: 
 published: true
-date: 2024-05-15T17:59:53.027Z
+date: 2024-09-05T22:48:41.584Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -220,6 +220,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 - [quest_template](/database/master/world/quest_template)
 - [quest_template_addon](/database/master/world/quest_template_addon)
 - [quest_template_locale](/database/master/world/quest_template_locale)
+- [quest_treasure_pickers](/database/master/world/quest_treasure_pickers)
 - [quest_visual_effect](/database/master/world/quest_visual_effect)
 {.links-list}
 ## r
@@ -273,6 +274,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 - [trinity_string](/database/master/world/trinity_string)
 {.links-list}
 ## u
+- [ui_map_quest](/database/master/world/ui_map_quest)
+- [ui_map_quest_line](/database/master/world/ui_map_quest_line)
 - [updates](/database/master/world/updates)
 - [updates_include](/database/master/world/updates_include)
 {.links-list}

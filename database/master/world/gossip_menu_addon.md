@@ -2,7 +2,7 @@
 title: gossip_menu_addon
 description: 
 published: true
-date: 2022-11-21T22:47:05.283Z
+date: 2024-09-05T22:48:25.243Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2022-08-14T19:14:58.086Z
@@ -16,6 +16,7 @@ dateCreated: 2022-08-14T19:14:58.086Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- | --- |
 | [MenuID](#menuid) | int | unsigned | PRI | NO | 0 |  |  | SMSG_GOSSIP_MESSAGE |
 | [FriendshipFactionID](#friendshipfactionid) | int | signed |  | NO | 0 |  |  | SMSG_GOSSIP_MESSAGE |
+| [LfgDungeonsID](#lfgdungeonsid) | int | signed |  | NO | 0 |  |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  | generated |
 &nbsp;
 ## Description of fields
@@ -26,6 +27,10 @@ This matches the id used in [creature_template.gossip_menu_id](/en/database/mast
 
 ### FriendshipFactionID
 ID from [Faction.db2](https://wow.tools/dbc/?dbc=faction){target=_blank}. The faction must have a reference in the field FriendshipRefID to a valid ID from [FriendshipReputation.db2](https://wow.tools/dbc/?dbc=friendshipreputation){target=_blank}. 
+&nbsp;
+
+### LfgDungeonsID
+*- no description -*
 &nbsp;
 
 ### VerifiedBuild

@@ -2,7 +2,7 @@
 title: world_safe_locs
 description: 
 published: true
-date: 2024-08-05T15:27:13.647Z
+date: 2024-09-05T22:48:29.001Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:38:13.594Z
@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T09:38:13.594Z
 | [LocY](#locy) | float |  |  | YES | NULL |  |  |
 | [LocZ](#locz) | float |  |  | YES | NULL |  |  |
 | [Facing](#facing) | float |  |  | YES | NULL |  |  |
+| [TransportSpawnId](#transportspawnid) | bigint | unsigned |  | YES | NULL |  |  |
 | [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
@@ -56,6 +57,10 @@ Facing coordinate of the location **<u>in degrees</u>**
 
 Note:
 Radians to degrees: `Radians / (2 * PI() / 360)` (you can use this snippet in SQL)
+&nbsp;
+
+### TransportSpawnId
+*- no description -*
 &nbsp;
 
 ### Comment

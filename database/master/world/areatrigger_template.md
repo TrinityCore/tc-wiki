@@ -2,7 +2,7 @@
 title: areatrigger_template
 description: This table contains the description of areatrigger.
 published: true
-date: 2024-02-17T07:45:34.467Z
+date: 2024-09-05T22:48:23.515Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:28:59.429Z
@@ -17,6 +17,8 @@ dateCreated: 2021-08-30T09:28:59.429Z
 | [Id](#id-alt) | int | unsigned | PRI | NO |  |  |  |
 | [IsCustom](#iscustom) | tinyint | unsigned | PRI | NO |  |  |  |
 | [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
+| [ActionSetId](#actionsetid) | int | unsigned |  | NO | 0 |  |  |
+| [ActionSetFlags](#actionsetflags) | int | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -33,6 +35,14 @@ Describes whether `Id` of this row is a custom id or not.
 | Flag | Name |
 | --- | --- |
 |0x00001 | IsServerSide|
+&nbsp;
+
+### ActionSetId
+*- no description -*
+&nbsp;
+
+### ActionSetFlags
+*- no description -*
 &nbsp;
 
 ### VerifiedBuild

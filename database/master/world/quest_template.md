@@ -2,7 +2,7 @@
 title: quest_template
 description: 
 published: true
-date: 2023-10-22T16:08:36.684Z
+date: 2024-09-05T22:48:26.956Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:35:31.131Z
@@ -120,7 +120,6 @@ dateCreated: 2021-08-30T09:35:31.131Z
 | [AreaGroupID](#areagroupid) | int | unsigned |  | NO | 0 |  |  |
 | [TimeAllowed](#timeallowed) | bigint | signed |  | NO | 0 |  |  |
 | [AllowableRaces](#allowableraces) | bigint | unsigned |  | YES | 0 |  |  |
-| [TreasurePickerID](#treasurepickerid) | int | signed |  | NO | 0 |  |  |
 | [Expansion](#expansion) | int | signed |  | NO | 0 |  |  |
 | [ManagedWorldStateID](#managedworldstateid) | int | signed |  | NO | 0 |  |  |
 | [QuestSessionBonus](#questsessionbonus) | int | signed |  | NO | 0 |  |  |
@@ -133,6 +132,7 @@ dateCreated: 2021-08-30T09:35:31.131Z
 | [PortraitTurnInText](#portraitturnintext) | mediumtext |  |  | YES | NULL |  |  |
 | [PortraitTurnInName](#portraitturninname) | mediumtext |  |  | YES | NULL |  |  |
 | [QuestCompletionLog](#questcompletionlog) | mediumtext |  |  | YES | NULL |  |  |
+| [ResetByScheduler](#resetbyscheduler) | tinyint | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -148,8 +148,8 @@ The quest ID. This column is the Primary Key for the Table. Each quest ID must b
 * 3: Quest is a World Quest.
 &nbsp;
 
-### QuestLevel
-Level of quest. Player receives full experience amount only if their level is less than or equal to Level+5. If Level is set to -1, the player's level will be used as (Quest)Level for the experience calculation.
+### QuestPackageID
+*- no description -*
 &nbsp;
 
 ### ContentTuningID
@@ -475,10 +475,6 @@ Race mask of [ChrRace IDs](https://wow.tools/dbc/?dbc=chrraces) allowed to get t
 UPDATE ME
 &nbsp;
 
-### TreasurePickerID
-*- no description -*
-&nbsp;
-
 ### Expansion
 *- no description -*
 &nbsp;
@@ -526,6 +522,10 @@ UPDATE ME
 ### QuestCompletionLog
 Objective text displayed after all other objectives are completed.
 Example: `Return to <NPC> at <Location> in <Zone>.`
+&nbsp;
+
+### ResetByScheduler
+*- no description -*
 &nbsp;
 
 ### VerifiedBuild
