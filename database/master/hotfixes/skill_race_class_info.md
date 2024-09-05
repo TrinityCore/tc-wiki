@@ -2,7 +2,7 @@
 title: skill_race_class_info
 description: 
 published: true
-date: 2022-12-19T18:38:57.397Z
+date: 2024-09-05T22:46:04.860Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T10:00:33.250Z
@@ -18,8 +18,8 @@ dateCreated: 2021-08-30T10:00:33.250Z
 | [RaceMask](#racemask) | bigint | signed |  | NO | 0 |  |  |
 | [SkillID](#skillid) | smallint | signed |  | NO | 0 |  |  |
 | [ClassMask](#classmask) | int | signed |  | NO | 0 |  |  |
-| [Flags](#flags) | smallint | unsigned |  | NO | 0 |  |  |
-| [Availability](#availability) | tinyint | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
+| [Availability](#availability) | int | signed |  | NO | 0 |  |  |
 | [MinLevel](#minlevel) | tinyint | signed |  | NO | 0 |  |  |
 | [SkillTierID](#skilltierid) | smallint | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
@@ -72,4 +72,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/skill_line_x_trait_tree" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'skill_line_x_trait_tree'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/soulbind_conduit_rank" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'soulbind_conduit_rank'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

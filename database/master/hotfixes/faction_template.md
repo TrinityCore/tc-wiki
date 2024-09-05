@@ -2,7 +2,7 @@
 title: faction_template
 description: 
 published: true
-date: 2022-12-19T18:38:04.045Z
+date: 2024-09-05T22:45:57.684Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:53:31.343Z
@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T09:53:31.343Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Faction](#faction) | smallint | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | smallint | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
 | [FactionGroup](#factiongroup) | tinyint | unsigned |  | NO | 0 |  |  |
 | [FriendGroup](#friendgroup) | tinyint | unsigned |  | NO | 0 |  |  |
 | [EnemyGroup](#enemygroup) | tinyint | unsigned |  | NO | 0 |  |  |

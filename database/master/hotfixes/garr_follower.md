@@ -2,7 +2,7 @@
 title: garr_follower
 description: 
 published: true
-date: 2023-05-11T09:04:22.601Z
+date: 2024-09-05T22:45:58.356Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:54:10.829Z
@@ -26,7 +26,7 @@ dateCreated: 2021-08-30T09:54:10.829Z
 | [AllianceGarrFollRaceID](#alliancegarrfollraceid) | tinyint | unsigned |  | NO | 0 |  |  |
 | [HordeGarrClassSpecID](#hordegarrclassspecid) | int | signed |  | NO | 0 |  |  |
 | [AllianceGarrClassSpecID](#alliancegarrclassspecid) | int | signed |  | NO | 0 |  |  |
-| [Quality](#quality) | tinyint | signed |  | NO | 0 |  |  |
+| [Quality](#quality) | int | signed |  | NO | 0 |  |  |
 | [FollowerLevel](#followerlevel) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ItemLevelWeapon](#itemlevelweapon) | smallint | unsigned |  | NO | 0 |  |  |
 | [ItemLevelArmor](#itemlevelarmor) | smallint | unsigned |  | NO | 0 |  |  |

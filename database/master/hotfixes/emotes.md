@@ -2,7 +2,7 @@
 title: emotes
 description: 
 published: true
-date: 2022-11-21T21:13:53.275Z
+date: 2024-09-05T22:45:57.505Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:53:12.730Z
@@ -17,9 +17,9 @@ dateCreated: 2021-08-30T09:53:12.730Z
 | [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [RaceMask](#racemask) | bigint | signed |  | NO | 0 |  |  |
 | [EmoteSlashCommand](#emoteslashcommand) | text |  |  | YES | NULL |  |  |
-| [AnimID](#animid) | int | signed |  | NO | 0 |  |  |
-| [EmoteFlags](#emoteflags) | int | unsigned |  | NO | 0 |  |  |
-| [EmoteSpecProc](#emotespecproc) | tinyint | unsigned |  | NO | 0 |  |  |
+| [AnimID](#animid) | smallint | signed |  | NO | 0 |  |  |
+| [EmoteFlags](#emoteflags) | int | signed |  | NO | 0 |  |  |
+| [EmoteSpecProc](#emotespecproc) | int | signed |  | NO | 0 |  |  |
 | [EmoteSpecProcParam](#emotespecprocparam) | int | unsigned |  | NO | 0 |  |  |
 | [EventSoundID](#eventsoundid) | int | unsigned |  | NO | 0 |  |  |
 | [SpellVisualKitID](#spellvisualkitid) | int | unsigned |  | NO | 0 |  |  |
@@ -82,4 +82,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/durability_quality" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'durability_quality'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/emotes_text" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'emotes_text'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

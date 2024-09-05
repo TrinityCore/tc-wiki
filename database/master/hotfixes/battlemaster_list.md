@@ -2,7 +2,7 @@
 title: battlemaster_list
 description: 
 published: true
-date: 2022-12-19T18:37:34.749Z
+date: 2024-09-05T22:45:54.851Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:50:38.727Z
@@ -31,22 +31,6 @@ dateCreated: 2021-08-30T09:50:38.727Z
 | [Flags](#flags) | int | signed |  | NO | 0 |  |  |
 | [IconFileDataID](#iconfiledataid) | int | signed |  | NO | 0 |  |  |
 | [RequiredPlayerConditionID](#requiredplayerconditionid) | int | signed |  | NO | 0 |  |  |
-| [MapID1](#mapid1) | smallint | signed |  | NO | 0 |  |  |
-| [MapID2](#mapid2) | smallint | signed |  | NO | 0 |  |  |
-| [MapID3](#mapid3) | smallint | signed |  | NO | 0 |  |  |
-| [MapID4](#mapid4) | smallint | signed |  | NO | 0 |  |  |
-| [MapID5](#mapid5) | smallint | signed |  | NO | 0 |  |  |
-| [MapID6](#mapid6) | smallint | signed |  | NO | 0 |  |  |
-| [MapID7](#mapid7) | smallint | signed |  | NO | 0 |  |  |
-| [MapID8](#mapid8) | smallint | signed |  | NO | 0 |  |  |
-| [MapID9](#mapid9) | smallint | signed |  | NO | 0 |  |  |
-| [MapID10](#mapid10) | smallint | signed |  | NO | 0 |  |  |
-| [MapID11](#mapid11) | smallint | signed |  | NO | 0 |  |  |
-| [MapID12](#mapid12) | smallint | signed |  | NO | 0 |  |  |
-| [MapID13](#mapid13) | smallint | signed |  | NO | 0 |  |  |
-| [MapID14](#mapid14) | smallint | signed |  | NO | 0 |  |  |
-| [MapID15](#mapid15) | smallint | signed |  | NO | 0 |  |  |
-| [MapID16](#mapid16) | smallint | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -116,70 +100,6 @@ dateCreated: 2021-08-30T09:50:38.727Z
 &nbsp;
 
 ### RequiredPlayerConditionID
-*- no description -*
-&nbsp;
-
-### MapID1
-*- no description -*
-&nbsp;
-
-### MapID2
-*- no description -*
-&nbsp;
-
-### MapID3
-*- no description -*
-&nbsp;
-
-### MapID4
-*- no description -*
-&nbsp;
-
-### MapID5
-*- no description -*
-&nbsp;
-
-### MapID6
-*- no description -*
-&nbsp;
-
-### MapID7
-*- no description -*
-&nbsp;
-
-### MapID8
-*- no description -*
-&nbsp;
-
-### MapID9
-*- no description -*
-&nbsp;
-
-### MapID10
-*- no description -*
-&nbsp;
-
-### MapID11
-*- no description -*
-&nbsp;
-
-### MapID12
-*- no description -*
-&nbsp;
-
-### MapID13
-*- no description -*
-&nbsp;
-
-### MapID14
-*- no description -*
-&nbsp;
-
-### MapID15
-*- no description -*
-&nbsp;
-
-### MapID16
 *- no description -*
 &nbsp;
 

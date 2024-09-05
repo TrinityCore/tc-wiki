@@ -2,7 +2,7 @@
 title: power_display
 description: 
 published: true
-date: 2022-11-21T21:18:09.261Z
+date: 2024-09-05T22:46:04.051Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:58:54.599Z
@@ -16,7 +16,7 @@ dateCreated: 2021-08-30T09:58:54.599Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [GlobalStringBaseTag](#globalstringbasetag) | text |  |  | YES | NULL |  |  |
-| [ActualType](#actualtype) | tinyint | unsigned |  | NO | 0 |  |  |
+| [ActualType](#actualtype) | tinyint | signed |  | NO | 0 |  |  |
 | [Red](#red) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Green](#green) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Blue](#blue) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -62,4 +62,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/player_condition_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'player_condition_locale'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/power_type" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'power_type'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

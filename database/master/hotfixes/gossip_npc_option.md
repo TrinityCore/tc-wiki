@@ -2,7 +2,7 @@
 title: gossip_npc_option
 description: 
 published: true
-date: 2023-05-11T09:04:22.746Z
+date: 2024-09-05T22:45:58.775Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2022-12-19T18:38:15.461Z
@@ -18,7 +18,7 @@ dateCreated: 2022-12-19T18:38:15.461Z
 | [GossipNpcOption](#gossipnpcoption) | int | signed |  | NO | 0 |  |  |
 | [LFGDungeonsID](#lfgdungeonsid) | int | signed |  | NO | 0 |  |  |
 | [TrainerID](#trainerid) | int | signed |  | NO | 0 |  |  |
-| [GarrFollowerTypeID](#garrfollowertypeid) | int | signed |  | NO | 0 |  |  |
+| [GarrFollowerTypeID](#garrfollowertypeid) | tinyint | signed |  | NO | 0 |  |  |
 | [CharShipmentID](#charshipmentid) | int | signed |  | NO | 0 |  |  |
 | [GarrTalentTreeID](#garrtalenttreeid) | int | signed |  | NO | 0 |  |  |
 | [UiMapID](#uimapid) | int | signed |  | NO | 0 |  |  |

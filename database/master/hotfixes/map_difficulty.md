@@ -2,7 +2,7 @@
 title: map_difficulty
 description: 
 published: true
-date: 2022-11-21T21:17:22.286Z
+date: 2024-09-05T22:46:01.931Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:57:52.109Z
@@ -20,10 +20,11 @@ dateCreated: 2021-08-30T09:57:52.109Z
 | [LockID](#lockid) | int | signed |  | NO | 0 |  |  |
 | [ResetInterval](#resetinterval) | tinyint | signed |  | NO | 0 |  |  |
 | [MaxPlayers](#maxplayers) | int | signed |  | NO | 0 |  |  |
-| [ItemContext](#itemcontext) | int | signed |  | NO | 0 |  |  |
+| [ItemContext](#itemcontext) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ItemContextPickerID](#itemcontextpickerid) | int | signed |  | NO | 0 |  |  |
 | [Flags](#flags) | int | signed |  | NO | 0 |  |  |
 | [ContentTuningID](#contenttuningid) | int | signed |  | NO | 0 |  |  |
+| [WorldStateExpressionID](#worldstateexpressionid) | int | signed |  | NO | 0 |  |  |
 | [MapID](#mapid) | int | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
@@ -69,6 +70,10 @@ dateCreated: 2021-08-30T09:57:52.109Z
 *- no description -*
 &nbsp;
 
+### WorldStateExpressionID
+*- no description -*
+&nbsp;
+
 ### MapID
 *- no description -*
 &nbsp;
@@ -87,4 +92,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/map_challenge_mode_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'map_challenge_mode_locale'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/map_difficulty_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'map_difficulty_locale'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

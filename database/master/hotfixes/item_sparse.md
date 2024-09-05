@@ -2,7 +2,7 @@
 title: item_sparse
 description: 
 published: true
-date: 2022-12-19T18:38:29.871Z
+date: 2024-09-05T22:46:00.900Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:57:03.008Z
@@ -50,6 +50,16 @@ dateCreated: 2021-08-30T09:57:03.008Z
 | [StatPercentEditor8](#statpercenteditor8) | int | signed |  | NO | 0 |  |  |
 | [StatPercentEditor9](#statpercenteditor9) | int | signed |  | NO | 0 |  |  |
 | [StatPercentEditor10](#statpercenteditor10) | int | signed |  | NO | 0 |  |  |
+| [StatModifierBonusStat1](#statmodifierbonusstat1) | int | signed |  | NO | 0 |  |  |
+| [StatModifierBonusStat2](#statmodifierbonusstat2) | int | signed |  | NO | 0 |  |  |
+| [StatModifierBonusStat3](#statmodifierbonusstat3) | int | signed |  | NO | 0 |  |  |
+| [StatModifierBonusStat4](#statmodifierbonusstat4) | int | signed |  | NO | 0 |  |  |
+| [StatModifierBonusStat5](#statmodifierbonusstat5) | int | signed |  | NO | 0 |  |  |
+| [StatModifierBonusStat6](#statmodifierbonusstat6) | int | signed |  | NO | 0 |  |  |
+| [StatModifierBonusStat7](#statmodifierbonusstat7) | int | signed |  | NO | 0 |  |  |
+| [StatModifierBonusStat8](#statmodifierbonusstat8) | int | signed |  | NO | 0 |  |  |
+| [StatModifierBonusStat9](#statmodifierbonusstat9) | int | signed |  | NO | 0 |  |  |
+| [StatModifierBonusStat10](#statmodifierbonusstat10) | int | signed |  | NO | 0 |  |  |
 | [Stackable](#stackable) | int | signed |  | NO | 0 |  |  |
 | [MaxCount](#maxcount) | int | signed |  | NO | 0 |  |  |
 | [MinReputation](#minreputation) | int | signed |  | NO | 0 |  |  |
@@ -63,6 +73,7 @@ dateCreated: 2021-08-30T09:57:03.008Z
 | [Flags2](#flags2) | int | signed |  | NO | 0 |  |  |
 | [Flags3](#flags3) | int | signed |  | NO | 0 |  |  |
 | [Flags4](#flags4) | int | signed |  | NO | 0 |  |  |
+| [Flags5](#flags5) | int | signed |  | NO | 0 |  |  |
 | [FactionRelated](#factionrelated) | int | signed |  | NO | 0 |  |  |
 | [ModifiedCraftingReagentItemID](#modifiedcraftingreagentitemid) | int | signed |  | NO | 0 |  |  |
 | [ContentTuningID](#contenttuningid) | int | signed |  | NO | 0 |  |  |
@@ -96,16 +107,6 @@ dateCreated: 2021-08-30T09:57:03.008Z
 | [PageMaterialID](#pagematerialid) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Bonding](#bonding) | tinyint | unsigned |  | NO | 0 |  |  |
 | [DamageDamageType](#damagedamagetype) | tinyint | unsigned |  | NO | 0 |  |  |
-| [StatModifierBonusStat1](#statmodifierbonusstat1) | tinyint | signed |  | NO | 0 |  |  |
-| [StatModifierBonusStat2](#statmodifierbonusstat2) | tinyint | signed |  | NO | 0 |  |  |
-| [StatModifierBonusStat3](#statmodifierbonusstat3) | tinyint | signed |  | NO | 0 |  |  |
-| [StatModifierBonusStat4](#statmodifierbonusstat4) | tinyint | signed |  | NO | 0 |  |  |
-| [StatModifierBonusStat5](#statmodifierbonusstat5) | tinyint | signed |  | NO | 0 |  |  |
-| [StatModifierBonusStat6](#statmodifierbonusstat6) | tinyint | signed |  | NO | 0 |  |  |
-| [StatModifierBonusStat7](#statmodifierbonusstat7) | tinyint | signed |  | NO | 0 |  |  |
-| [StatModifierBonusStat8](#statmodifierbonusstat8) | tinyint | signed |  | NO | 0 |  |  |
-| [StatModifierBonusStat9](#statmodifierbonusstat9) | tinyint | signed |  | NO | 0 |  |  |
-| [StatModifierBonusStat10](#statmodifierbonusstat10) | tinyint | signed |  | NO | 0 |  |  |
 | [ContainerSlots](#containerslots) | tinyint | unsigned |  | NO | 0 |  |  |
 | [RequiredPVPMedal](#requiredpvpmedal) | tinyint | unsigned |  | NO | 0 |  |  |
 | [RequiredPVPRank](#requiredpvprank) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -260,6 +261,46 @@ dateCreated: 2021-08-30T09:57:03.008Z
 *- no description -*
 &nbsp;
 
+### StatModifierBonusStat1
+*- no description -*
+&nbsp;
+
+### StatModifierBonusStat2
+*- no description -*
+&nbsp;
+
+### StatModifierBonusStat3
+*- no description -*
+&nbsp;
+
+### StatModifierBonusStat4
+*- no description -*
+&nbsp;
+
+### StatModifierBonusStat5
+*- no description -*
+&nbsp;
+
+### StatModifierBonusStat6
+*- no description -*
+&nbsp;
+
+### StatModifierBonusStat7
+*- no description -*
+&nbsp;
+
+### StatModifierBonusStat8
+*- no description -*
+&nbsp;
+
+### StatModifierBonusStat9
+*- no description -*
+&nbsp;
+
+### StatModifierBonusStat10
+*- no description -*
+&nbsp;
+
 ### Stackable
 *- no description -*
 &nbsp;
@@ -309,6 +350,10 @@ dateCreated: 2021-08-30T09:57:03.008Z
 &nbsp;
 
 ### Flags4
+*- no description -*
+&nbsp;
+
+### Flags5
 *- no description -*
 &nbsp;
 
@@ -441,46 +486,6 @@ dateCreated: 2021-08-30T09:57:03.008Z
 &nbsp;
 
 ### DamageDamageType
-*- no description -*
-&nbsp;
-
-### StatModifierBonusStat1
-*- no description -*
-&nbsp;
-
-### StatModifierBonusStat2
-*- no description -*
-&nbsp;
-
-### StatModifierBonusStat3
-*- no description -*
-&nbsp;
-
-### StatModifierBonusStat4
-*- no description -*
-&nbsp;
-
-### StatModifierBonusStat5
-*- no description -*
-&nbsp;
-
-### StatModifierBonusStat6
-*- no description -*
-&nbsp;
-
-### StatModifierBonusStat7
-*- no description -*
-&nbsp;
-
-### StatModifierBonusStat8
-*- no description -*
-&nbsp;
-
-### StatModifierBonusStat9
-*- no description -*
-&nbsp;
-
-### StatModifierBonusStat10
 *- no description -*
 &nbsp;
 

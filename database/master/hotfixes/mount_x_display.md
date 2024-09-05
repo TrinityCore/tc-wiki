@@ -2,7 +2,7 @@
 title: mount_x_display
 description: 
 published: true
-date: 2022-11-21T21:17:42.223Z
+date: 2024-09-05T22:46:02.127Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:58:18.807Z
@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T09:58:18.807Z
 | [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [CreatureDisplayInfoID](#creaturedisplayinfoid) | int | signed |  | NO | 0 |  |  |
 | [PlayerConditionID](#playerconditionid) | int | unsigned |  | NO | 0 |  |  |
+| [Unknown1100](#unknown1100) | smallint | unsigned |  | NO | 0 |  |  |
 | [MountID](#mountid) | int | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
@@ -31,6 +32,10 @@ dateCreated: 2021-08-30T09:58:18.807Z
 &nbsp;
 
 ### PlayerConditionID
+*- no description -*
+&nbsp;
+
+### Unknown1100
 *- no description -*
 &nbsp;
 
@@ -52,4 +57,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/mount_type_x_capability" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'mount_type_x_capability'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/movie" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'movie'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

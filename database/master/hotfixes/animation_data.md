@@ -2,7 +2,7 @@
 title: animation_data
 description: 
 published: true
-date: 2022-11-21T21:10:27.281Z
+date: 2024-09-05T22:45:53.683Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:48:41.458Z
@@ -17,7 +17,7 @@ dateCreated: 2021-08-30T09:48:41.458Z
 | [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Fallback](#fallback) | smallint | unsigned |  | NO | 0 |  |  |
 | [BehaviorTier](#behaviortier) | tinyint | unsigned |  | NO | 0 |  |  |
-| [BehaviorID](#behaviorid) | int | signed |  | NO | 0 |  |  |
+| [BehaviorID](#behaviorid) | smallint | signed |  | NO | 0 |  |  |
 | [Flags1](#flags1) | int | signed |  | NO | 0 |  |  |
 | [Flags2](#flags2) | int | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
@@ -62,4 +62,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/anim_kit" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'anim_kit'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/area_group_member" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'area_group_member'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

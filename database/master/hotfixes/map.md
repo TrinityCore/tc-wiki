@@ -2,7 +2,7 @@
 title: map
 description: 
 published: true
-date: 2022-12-19T18:38:33.397Z
+date: 2024-09-05T22:46:01.762Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:57:49.316Z
@@ -39,6 +39,7 @@ dateCreated: 2021-08-30T09:57:49.316Z
 | [ZmpFileDataID](#zmpfiledataid) | int | signed |  | NO | 0 |  |  |
 | [WdtFileDataID](#wdtfiledataid) | int | signed |  | NO | 0 |  |  |
 | [NavigationMaxDistance](#navigationmaxdistance) | int | signed |  | NO | 0 |  |  |
+| [PreloadFileDataID](#preloadfiledataid) | int | signed |  | NO | 0 |  |  |
 | [Flags1](#flags1) | int | signed |  | NO | 0 |  |  |
 | [Flags2](#flags2) | int | signed |  | NO | 0 |  |  |
 | [Flags3](#flags3) | int | signed |  | NO | 0 |  |  |
@@ -143,6 +144,10 @@ dateCreated: 2021-08-30T09:57:49.316Z
 &nbsp;
 
 ### NavigationMaxDistance
+*- no description -*
+&nbsp;
+
+### PreloadFileDataID
 *- no description -*
 &nbsp;
 

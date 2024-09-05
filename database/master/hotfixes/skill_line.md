@@ -2,7 +2,7 @@
 title: skill_line
 description: 
 published: true
-date: 2024-02-11T20:02:25.314Z
+date: 2024-09-05T22:46:04.718Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T10:00:25.040Z
@@ -25,7 +25,7 @@ dateCreated: 2021-08-30T10:00:25.040Z
 | [CanLink](#canlink) | tinyint | signed |  | NO | 0 |  |  |
 | [ParentSkillLineID](#parentskilllineid) | int | unsigned |  | NO | 0 |  |  |
 | [ParentTierIndex](#parenttierindex) | int | signed |  | NO | 0 |  |  |
-| [Flags](#flags) | smallint | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
 | [SpellBookSpellID](#spellbookspellid) | int | signed |  | NO | 0 |  |  |
 | [ExpansionNameSharedStringID](#expansionnamesharedstringid) | int | signed |  | NO | 0 |  |  |
 | [HordeExpansionNameSharedStringID](#hordeexpansionnamesharedstringid) | int | signed |  | NO | 0 |  |  |

@@ -2,7 +2,7 @@
 title: vehicle_seat
 description: 
 published: true
-date: 2024-05-15T12:31:08.876Z
+date: 2024-09-05T22:46:08.873Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T10:03:56.626Z
@@ -24,7 +24,7 @@ dateCreated: 2021-08-30T10:03:56.626Z
 | [Flags](#flags) | int | signed |  | NO | 0 |  |  |
 | [FlagsB](#flagsb) | int | signed |  | NO | 0 |  |  |
 | [FlagsC](#flagsc) | int | signed |  | NO | 0 |  |  |
-| [AttachmentID](#attachmentid) | tinyint | signed |  | NO | 0 |  |  |
+| [AttachmentID](#attachmentid) | int | signed |  | NO | 0 |  |  |
 | [EnterPreDelay](#enterpredelay) | float |  |  | NO | 0 |  |  |
 | [EnterSpeed](#enterspeed) | float |  |  | NO | 0 |  |  |
 | [EnterGravity](#entergravity) | float |  |  | NO | 0 |  |  |
@@ -32,12 +32,12 @@ dateCreated: 2021-08-30T10:03:56.626Z
 | [EnterMaxDuration](#entermaxduration) | float |  |  | NO | 0 |  |  |
 | [EnterMinArcHeight](#enterminarcheight) | float |  |  | NO | 0 |  |  |
 | [EnterMaxArcHeight](#entermaxarcheight) | float |  |  | NO | 0 |  |  |
-| [EnterAnimStart](#enteranimstart) | int | signed |  | NO | 0 |  |  |
-| [EnterAnimLoop](#enteranimloop) | int | signed |  | NO | 0 |  |  |
-| [RideAnimStart](#rideanimstart) | int | signed |  | NO | 0 |  |  |
-| [RideAnimLoop](#rideanimloop) | int | signed |  | NO | 0 |  |  |
-| [RideUpperAnimStart](#rideupperanimstart) | int | signed |  | NO | 0 |  |  |
-| [RideUpperAnimLoop](#rideupperanimloop) | int | signed |  | NO | 0 |  |  |
+| [EnterAnimStart](#enteranimstart) | smallint | signed |  | NO | 0 |  |  |
+| [EnterAnimLoop](#enteranimloop) | smallint | signed |  | NO | 0 |  |  |
+| [RideAnimStart](#rideanimstart) | smallint | signed |  | NO | 0 |  |  |
+| [RideAnimLoop](#rideanimloop) | smallint | signed |  | NO | 0 |  |  |
+| [RideUpperAnimStart](#rideupperanimstart) | smallint | signed |  | NO | 0 |  |  |
+| [RideUpperAnimLoop](#rideupperanimloop) | smallint | signed |  | NO | 0 |  |  |
 | [ExitPreDelay](#exitpredelay) | float |  |  | NO | 0 |  |  |
 | [ExitSpeed](#exitspeed) | float |  |  | NO | 0 |  |  |
 | [ExitGravity](#exitgravity) | float |  |  | NO | 0 |  |  |
@@ -45,9 +45,9 @@ dateCreated: 2021-08-30T10:03:56.626Z
 | [ExitMaxDuration](#exitmaxduration) | float |  |  | NO | 0 |  |  |
 | [ExitMinArcHeight](#exitminarcheight) | float |  |  | NO | 0 |  |  |
 | [ExitMaxArcHeight](#exitmaxarcheight) | float |  |  | NO | 0 |  |  |
-| [ExitAnimStart](#exitanimstart) | int | signed |  | NO | 0 |  |  |
-| [ExitAnimLoop](#exitanimloop) | int | signed |  | NO | 0 |  |  |
-| [ExitAnimEnd](#exitanimend) | int | signed |  | NO | 0 |  |  |
+| [ExitAnimStart](#exitanimstart) | smallint | signed |  | NO | 0 |  |  |
+| [ExitAnimLoop](#exitanimloop) | smallint | signed |  | NO | 0 |  |  |
+| [ExitAnimEnd](#exitanimend) | smallint | signed |  | NO | 0 |  |  |
 | [VehicleEnterAnim](#vehicleenteranim) | smallint | signed |  | NO | 0 |  |  |
 | [VehicleEnterAnimBone](#vehicleenteranimbone) | tinyint | signed |  | NO | 0 |  |  |
 | [VehicleExitAnim](#vehicleexitanim) | smallint | signed |  | NO | 0 |  |  |
@@ -362,4 +362,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/vehicle" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'vehicle'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/vignette" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'vignette'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

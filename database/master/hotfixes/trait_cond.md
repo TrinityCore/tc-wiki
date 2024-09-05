@@ -2,7 +2,7 @@
 title: trait_cond
 description: 
 published: true
-date: 2023-05-11T09:04:23.940Z
+date: 2024-09-05T22:46:06.906Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2022-12-19T18:39:12.976Z
@@ -23,12 +23,14 @@ dateCreated: 2022-12-19T18:39:12.976Z
 | [SpecSetID](#specsetid) | int | signed |  | NO | 0 |  |  |
 | [TraitNodeGroupID](#traitnodegroupid) | int | signed |  | NO | 0 |  |  |
 | [TraitNodeID](#traitnodeid) | int | signed |  | NO | 0 |  |  |
+| [TraitNodeEntryID](#traitnodeentryid) | int | signed |  | NO | 0 |  |  |
 | [TraitCurrencyID](#traitcurrencyid) | int | signed |  | NO | 0 |  |  |
 | [SpentAmountRequired](#spentamountrequired) | int | signed |  | NO | 0 |  |  |
 | [Flags](#flags) | int | signed |  | NO | 0 |  |  |
 | [RequiredLevel](#requiredlevel) | int | signed |  | NO | 0 |  |  |
 | [FreeSharedStringID](#freesharedstringid) | int | signed |  | NO | 0 |  |  |
 | [SpendMoreSharedStringID](#spendmoresharedstringid) | int | signed |  | NO | 0 |  |  |
+| [TraitCondAccountElementID](#traitcondaccountelementid) | int | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -69,6 +71,10 @@ dateCreated: 2022-12-19T18:39:12.976Z
 *- no description -*
 &nbsp;
 
+### TraitNodeEntryID
+*- no description -*
+&nbsp;
+
 ### TraitCurrencyID
 *- no description -*
 &nbsp;
@@ -90,6 +96,10 @@ dateCreated: 2022-12-19T18:39:12.976Z
 &nbsp;
 
 ### SpendMoreSharedStringID
+*- no description -*
+&nbsp;
+
+### TraitCondAccountElementID
 *- no description -*
 &nbsp;
 

@@ -2,7 +2,7 @@
 title: creature_display_info
 description: 
 published: true
-date: 2022-12-19T18:37:55.293Z
+date: 2024-09-05T22:45:56.533Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:52:16.929Z
@@ -28,7 +28,7 @@ dateCreated: 2021-08-30T09:52:16.929Z
 | [PortraitTextureFileDataID](#portraittexturefiledataid) | int | signed |  | NO | 0 |  |  |
 | [ObjectEffectPackageID](#objecteffectpackageid) | smallint | unsigned |  | NO | 0 |  |  |
 | [AnimReplacementSetID](#animreplacementsetid) | smallint | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
 | [StateSpellVisualKitID](#statespellvisualkitid) | int | signed |  | NO | 0 |  |  |
 | [PlayerOverrideScale](#playeroverridescale) | float |  |  | NO | 0 |  |  |
 | [PetInstanceScale](#petinstancescale) | float |  |  | NO | 0 |  |  |
@@ -38,6 +38,9 @@ dateCreated: 2021-08-30T09:52:16.929Z
 | [Gender](#gender) | tinyint | signed |  | NO | 0 |  |  |
 | [DissolveOutEffectID](#dissolveouteffectid) | int | signed |  | NO | 0 |  |  |
 | [CreatureModelMinLod](#creaturemodelminlod) | tinyint | signed |  | NO | 0 |  |  |
+| [ConditionalCreatureModelID](#conditionalcreaturemodelid) | smallint | unsigned |  | NO | 0 |  |  |
+| [Unknown_1100_1](#unknown_1100_1) | float |  |  | NO | 0 |  |  |
+| [Unknown_1100_2](#unknown_1100_2) | smallint | unsigned |  | NO | 0 |  |  |
 | [TextureVariationFileDataID1](#texturevariationfiledataid1) | int | signed |  | NO | 0 |  |  |
 | [TextureVariationFileDataID2](#texturevariationfiledataid2) | int | signed |  | NO | 0 |  |  |
 | [TextureVariationFileDataID3](#texturevariationfiledataid3) | int | signed |  | NO | 0 |  |  |
@@ -139,6 +142,18 @@ dateCreated: 2021-08-30T09:52:16.929Z
 &nbsp;
 
 ### CreatureModelMinLod
+*- no description -*
+&nbsp;
+
+### ConditionalCreatureModelID
+*- no description -*
+&nbsp;
+
+### Unknown_1100_1
+*- no description -*
+&nbsp;
+
+### Unknown_1100_2
 *- no description -*
 &nbsp;
 

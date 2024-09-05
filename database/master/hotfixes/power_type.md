@@ -2,7 +2,7 @@
 title: power_type
 description: 
 published: true
-date: 2022-12-19T18:38:39.286Z
+date: 2024-09-05T22:46:04.086Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:58:57.263Z
@@ -26,7 +26,7 @@ dateCreated: 2021-08-30T09:58:57.263Z
 | [RegenInterruptTimeMS](#regeninterrupttimems) | int | signed |  | NO | 0 |  |  |
 | [RegenPeace](#regenpeace) | float |  |  | NO | 0 |  |  |
 | [RegenCombat](#regencombat) | float |  |  | NO | 0 |  |  |
-| [Flags](#flags) | smallint | signed |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

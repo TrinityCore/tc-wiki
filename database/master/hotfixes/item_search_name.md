@@ -2,7 +2,7 @@
 title: item_search_name
 description: 
 published: true
-date: 2022-12-19T18:38:27.699Z
+date: 2024-09-05T22:45:59.749Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:56:49.507Z
@@ -31,6 +31,7 @@ dateCreated: 2021-08-30T09:56:49.507Z
 | [Flags2](#flags2) | int | signed |  | NO | 0 |  |  |
 | [Flags3](#flags3) | int | signed |  | NO | 0 |  |  |
 | [Flags4](#flags4) | int | signed |  | NO | 0 |  |  |
+| [Flags5](#flags5) | int | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -100,6 +101,10 @@ dateCreated: 2021-08-30T09:56:49.507Z
 &nbsp;
 
 ### Flags4
+*- no description -*
+&nbsp;
+
+### Flags5
 *- no description -*
 &nbsp;
 

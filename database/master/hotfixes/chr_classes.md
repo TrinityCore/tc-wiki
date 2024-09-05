@@ -2,7 +2,7 @@
 title: chr_classes
 description: 
 published: true
-date: 2023-10-06T19:24:22.357Z
+date: 2024-09-05T22:45:55.414Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:51:10.105Z
@@ -44,7 +44,7 @@ dateCreated: 2021-08-30T09:51:10.105Z
 | [CinematicSequenceID](#cinematicsequenceid) | smallint | unsigned |  | NO | 0 |  |  |
 | [DefaultSpec](#defaultspec) | smallint | unsigned |  | NO | 0 |  |  |
 | [PrimaryStatPriority](#primarystatpriority) | tinyint | unsigned |  | NO | 0 |  |  |
-| [DisplayPower](#displaypower) | tinyint | unsigned |  | NO | 0 |  |  |
+| [DisplayPower](#displaypower) | tinyint | signed |  | NO | 0 |  |  |
 | [RangedAttackPowerPerAgility](#rangedattackpowerperagility) | tinyint | unsigned |  | NO | 0 |  |  |
 | [AttackPowerPerAgility](#attackpowerperagility) | tinyint | unsigned |  | NO | 0 |  |  |
 | [AttackPowerPerStrength](#attackpowerperstrength) | tinyint | unsigned |  | NO | 0 |  |  |

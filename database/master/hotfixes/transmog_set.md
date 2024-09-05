@@ -2,7 +2,7 @@
 title: transmog_set
 description: 
 published: true
-date: 2022-11-21T21:21:21.346Z
+date: 2024-09-05T22:46:07.536Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T10:03:11.351Z
@@ -17,15 +17,15 @@ dateCreated: 2021-08-30T10:03:11.351Z
 | [Name](#name-alt) | text |  |  | YES | NULL |  |  |
 | [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [ClassMask](#classmask) | int | signed |  | NO | 0 |  |  |
-| [TrackingQuestID](#trackingquestid) | int | unsigned |  | NO | 0 |  |  |
+| [TrackingQuestID](#trackingquestid) | int | signed |  | NO | 0 |  |  |
 | [Flags](#flags) | int | signed |  | NO | 0 |  |  |
-| [TransmogSetGroupID](#transmogsetgroupid) | int | unsigned |  | NO | 0 |  |  |
+| [TransmogSetGroupID](#transmogsetgroupid) | int | signed |  | NO | 0 |  |  |
 | [ItemNameDescriptionID](#itemnamedescriptionid) | int | signed |  | NO | 0 |  |  |
-| [ParentTransmogSetID](#parenttransmogsetid) | smallint | unsigned |  | NO | 0 |  |  |
-| [Unknown810](#unknown810) | tinyint | unsigned |  | NO | 0 |  |  |
-| [ExpansionID](#expansionid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [ParentTransmogSetID](#parenttransmogsetid) | int | signed |  | NO | 0 |  |  |
+| [Unknown810](#unknown810) | int | signed |  | NO | 0 |  |  |
+| [ExpansionID](#expansionid) | int | signed |  | NO | 0 |  |  |
 | [PatchID](#patchid) | int | signed |  | NO | 0 |  |  |
-| [UiOrder](#uiorder) | smallint | signed |  | NO | 0 |  |  |
+| [UiOrder](#uiorder) | int | signed |  | NO | 0 |  |  |
 | [PlayerConditionID](#playerconditionid) | int | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
@@ -97,4 +97,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/transmog_illusion" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'transmog_illusion'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/transmog_set_group" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'transmog_set_group'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

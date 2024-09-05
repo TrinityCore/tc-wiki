@@ -2,7 +2,7 @@
 title: player_condition
 description: 
 published: true
-date: 2024-02-11T20:02:24.882Z
+date: 2024-09-05T22:46:03.983Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:58:48.556Z
@@ -60,7 +60,7 @@ dateCreated: 2021-08-30T09:58:48.556Z
 | [ChrSpecializationRole](#chrspecializationrole) | tinyint | signed |  | NO | 0 |  |  |
 | [ModifierTreeID](#modifiertreeid) | int | unsigned |  | NO | 0 |  |  |
 | [PowerType](#powertype) | tinyint | signed |  | NO | 0 |  |  |
-| [PowerTypeComp](#powertypecomp) | tinyint | unsigned |  | NO | 0 |  |  |
+| [PowerTypeComp](#powertypecomp) | tinyint | signed |  | NO | 0 |  |  |
 | [PowerTypeValue](#powertypevalue) | tinyint | unsigned |  | NO | 0 |  |  |
 | [WeaponSubclassMask](#weaponsubclassmask) | int | signed |  | NO | 0 |  |  |
 | [MaxGuildLevel](#maxguildlevel) | tinyint | unsigned |  | NO | 0 |  |  |

@@ -2,7 +2,7 @@
 title: mythic_plus_season
 description: 
 published: true
-date: 2023-10-06T19:36:30.548Z
+date: 2024-09-05T22:46:02.217Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [MilestoneSeason](#milestoneseason) | int | signed |  | NO | 0 |  |  |
+| [StartTimeEvent](#starttimeevent) | int | signed |  | NO | 0 |  |  |
 | [ExpansionLevel](#expansionlevel) | int | signed |  | NO | 0 |  |  |
 | [HeroicLFGDungeonMinGear](#heroiclfgdungeonmingear) | int | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
@@ -27,6 +28,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 &nbsp;
 
 ### MilestoneSeason
+*- no description -*
+&nbsp;
+
+### StartTimeEvent
 *- no description -*
 &nbsp;
 

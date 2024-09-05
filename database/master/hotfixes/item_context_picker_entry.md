@@ -2,7 +2,7 @@
 title: item_context_picker_entry
 description: 
 published: true
-date: 2023-10-06T19:36:30.434Z
+date: 2024-09-05T22:45:59.272Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -15,7 +15,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
-| [ItemCreationContext](#itemcreationcontext) | tinyint | unsigned |  | NO | 0 |  |  |
+| [ItemCreationContext](#itemcreationcontext) | tinyint | signed |  | NO | 0 |  |  |
 | [OrderIndex](#orderindex) | tinyint | unsigned |  | NO | 0 |  |  |
 | [PVal](#pval) | int | signed |  | NO | 0 |  |  |
 | [LabelID](#labelid) | int | signed |  | NO | 0 |  |  |

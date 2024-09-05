@@ -2,7 +2,7 @@
 title: unit_condition
 description: 
 published: true
-date: 2022-11-21T22:46:33.374Z
+date: 2024-09-05T22:46:08.024Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2022-02-06T20:30:08.309Z
@@ -15,7 +15,7 @@ dateCreated: 2022-02-06T20:30:08.309Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
-| [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
 | [Variable1](#variable1) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Variable2](#variable2) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Variable3](#variable3) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -24,14 +24,14 @@ dateCreated: 2022-02-06T20:30:08.309Z
 | [Variable6](#variable6) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Variable7](#variable7) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Variable8](#variable8) | tinyint | unsigned |  | NO | 0 |  |  |
-| [Op1](#op1) | tinyint | signed |  | NO | 0 |  |  |
-| [Op2](#op2) | tinyint | signed |  | NO | 0 |  |  |
-| [Op3](#op3) | tinyint | signed |  | NO | 0 |  |  |
-| [Op4](#op4) | tinyint | signed |  | NO | 0 |  |  |
-| [Op5](#op5) | tinyint | signed |  | NO | 0 |  |  |
-| [Op6](#op6) | tinyint | signed |  | NO | 0 |  |  |
-| [Op7](#op7) | tinyint | signed |  | NO | 0 |  |  |
-| [Op8](#op8) | tinyint | signed |  | NO | 0 |  |  |
+| [Op1](#op1) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Op2](#op2) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Op3](#op3) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Op4](#op4) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Op5](#op5) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Op6](#op6) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Op7](#op7) | tinyint | unsigned |  | NO | 0 |  |  |
+| [Op8](#op8) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Value1](#value1) | int | signed |  | NO | 0 |  |  |
 | [Value2](#value2) | int | signed |  | NO | 0 |  |  |
 | [Value3](#value3) | int | signed |  | NO | 0 |  |  |
@@ -162,4 +162,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/hotfixes/ui_splash_screen_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'ui_splash_screen_locale'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to hotfixes</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/hotfixes/unit_power_bar" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'unit_power_bar'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

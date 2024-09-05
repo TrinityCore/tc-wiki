@@ -2,7 +2,7 @@
 title: challenge_mode_item_bonus_override
 description: 
 published: true
-date: 2024-05-15T12:31:08.194Z
+date: 2024-09-05T22:45:55.124Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -17,10 +17,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [ItemBonusTreeGroupID](#itembonustreegroupid) | int | signed |  | NO | 0 |  |  |
 | [DstItemBonusTreeID](#dstitembonustreeid) | int | signed |  | NO | 0 |  |  |
-| [Type](#type) | tinyint | signed |  | NO | 0 |  |  |
 | [Value](#value) | int | signed |  | NO | 0 |  |  |
-| [MythicPlusSeasonID](#mythicplusseasonid) | int | signed |  | NO | 0 |  |  |
-| [PvPSeasonID](#pvpseasonid) | int | signed |  | NO | 0 |  |  |
+| [RequiredTimeEventPassed](#requiredtimeeventpassed) | int | signed |  | NO | 0 |  |  |
 | [SrcItemBonusTreeID](#srcitembonustreeid) | int | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
@@ -38,19 +36,11 @@ dateCreated: 2021-08-30T06:00:00.000Z
 *- no description -*
 &nbsp;
 
-### Type
-*- no description -*
-&nbsp;
-
 ### Value
 *- no description -*
 &nbsp;
 
-### MythicPlusSeasonID
-*- no description -*
-&nbsp;
-
-### PvPSeasonID
+### RequiredTimeEventPassed
 *- no description -*
 &nbsp;
 

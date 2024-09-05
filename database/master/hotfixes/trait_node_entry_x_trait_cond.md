@@ -2,7 +2,7 @@
 title: trait_node_entry_x_trait_cond
 description: 
 published: true
-date: 2023-05-11T09:04:24.089Z
+date: 2024-09-05T22:46:07.206Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2022-12-19T18:39:48.552Z
@@ -16,7 +16,7 @@ dateCreated: 2022-12-19T18:39:48.552Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [TraitCondID](#traitcondid) | int | signed |  | NO | 0 |  |  |
-| [TraitNodeEntryID](#traitnodeentryid) | int | unsigned |  | NO | 0 |  |  |
+| [TraitNodeEntryID](#traitnodeentryid) | int | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields

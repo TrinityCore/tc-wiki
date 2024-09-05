@@ -2,7 +2,7 @@
 title: garr_mission
 description: 
 published: true
-date: 2023-05-11T09:04:22.643Z
+date: 2024-09-05T22:45:58.469Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-11-14T19:53:52.569Z
@@ -24,7 +24,7 @@ dateCreated: 2021-11-14T19:53:52.569Z
 | [WorldPosY](#worldposy) | float |  |  | NO | 0 |  |  |
 | [GarrTypeID](#garrtypeid) | tinyint | signed |  | NO | 0 |  |  |
 | [GarrMissionTypeID](#garrmissiontypeid) | tinyint | unsigned |  | NO | 0 |  |  |
-| [GarrFollowerTypeID](#garrfollowertypeid) | tinyint | unsigned |  | NO | 0 |  |  |
+| [GarrFollowerTypeID](#garrfollowertypeid) | tinyint | signed |  | NO | 0 |  |  |
 | [MaxFollowers](#maxfollowers) | tinyint | unsigned |  | NO | 0 |  |  |
 | [MissionCost](#missioncost) | int | unsigned |  | NO | 0 |  |  |
 | [MissionCostCurrencyTypesID](#missioncostcurrencytypesid) | smallint | unsigned |  | NO | 0 |  |  |

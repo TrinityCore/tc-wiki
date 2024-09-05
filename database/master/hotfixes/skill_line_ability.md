@@ -2,7 +2,7 @@
 title: skill_line_ability
 description: 
 published: true
-date: 2022-12-19T18:38:50.922Z
+date: 2024-09-05T22:46:04.765Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T10:00:27.762Z
@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T10:00:27.762Z
 | [MinSkillLineRank](#minskilllinerank) | smallint | signed |  | NO | 0 |  |  |
 | [ClassMask](#classmask) | int | signed |  | NO | 0 |  |  |
 | [SupercedesSpell](#supercedesspell) | int | signed |  | NO | 0 |  |  |
-| [AcquireMethod](#acquiremethod) | tinyint | signed |  | NO | 0 |  |  |
+| [AcquireMethod](#acquiremethod) | int | signed |  | NO | 0 |  |  |
 | [TrivialSkillLineRankHigh](#trivialskilllinerankhigh) | smallint | signed |  | NO | 0 |  |  |
 | [TrivialSkillLineRankLow](#trivialskilllineranklow) | smallint | signed |  | NO | 0 |  |  |
 | [Flags](#flags) | int | signed |  | NO | 0 |  |  |

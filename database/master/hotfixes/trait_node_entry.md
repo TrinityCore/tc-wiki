@@ -2,7 +2,7 @@
 title: trait_node_entry
 description: 
 published: true
-date: 2023-05-11T09:04:24.075Z
+date: 2024-09-05T22:46:07.178Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2022-12-19T18:39:45.330Z
@@ -18,6 +18,7 @@ dateCreated: 2022-12-19T18:39:45.330Z
 | [TraitDefinitionID](#traitdefinitionid) | int | signed |  | NO | 0 |  |  |
 | [MaxRanks](#maxranks) | int | signed |  | NO | 0 |  |  |
 | [NodeEntryType](#nodeentrytype) | tinyint | unsigned |  | NO | 0 |  |  |
+| [TraitSubTreeID](#traitsubtreeid) | int | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -35,6 +36,10 @@ dateCreated: 2022-12-19T18:39:45.330Z
 &nbsp;
 
 ### NodeEntryType
+*- no description -*
+&nbsp;
+
+### TraitSubTreeID
 *- no description -*
 &nbsp;
 

@@ -2,7 +2,7 @@
 title: spell_shapeshift_form
 description: 
 published: true
-date: 2024-02-11T20:02:25.866Z
+date: 2024-09-05T22:46:06.144Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T10:02:17.928Z
@@ -24,9 +24,6 @@ dateCreated: 2021-08-30T10:02:17.928Z
 | [CombatRoundTime](#combatroundtime) | smallint | signed |  | NO | 0 |  |  |
 | [DamageVariance](#damagevariance) | float |  |  | NO | 0 |  |  |
 | [MountTypeID](#mounttypeid) | smallint | unsigned |  | NO | 0 |  |  |
-| [CreatureDisplayID2](#creaturedisplayid2) | int | unsigned |  | NO | 0 |  |  |
-| [CreatureDisplayID3](#creaturedisplayid3) | int | unsigned |  | NO | 0 |  |  |
-| [CreatureDisplayID4](#creaturedisplayid4) | int | unsigned |  | NO | 0 |  |  |
 | [PresetSpellID1](#presetspellid1) | int | unsigned |  | NO | 0 |  |  |
 | [PresetSpellID2](#presetspellid2) | int | unsigned |  | NO | 0 |  |  |
 | [PresetSpellID3](#presetspellid3) | int | unsigned |  | NO | 0 |  |  |
@@ -76,18 +73,6 @@ dateCreated: 2021-08-30T10:02:17.928Z
 &nbsp;
 
 ### MountTypeID
-*- no description -*
-&nbsp;
-
-### CreatureDisplayID2
-*- no description -*
-&nbsp;
-
-### CreatureDisplayID3
-*- no description -*
-&nbsp;
-
-### CreatureDisplayID4
 *- no description -*
 &nbsp;
 

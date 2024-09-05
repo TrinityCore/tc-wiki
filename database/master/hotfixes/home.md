@@ -2,10 +2,10 @@
 title: Hotfixes
 description: 
 published: true
-date: 2024-05-15T12:31:08.896Z
+date: 2024-09-05T22:46:25.670Z
 tags: database, master, hotfixes
 editor: markdown
-dateCreated: 2021-08-29T20:42:31.704Z
+dateCreated: 2021-08-30T06:00:00.000Z
 ---
 
  > Each table schema represents its corresponding [DB2](https://wowdev.wiki/DB2)-File structure. (except the locale tables)
@@ -34,6 +34,7 @@ dateCreated: 2021-08-29T20:42:31.704Z
 - [area_table](/database/master/hotfixes/area_table)
 - [area_table_locale](/database/master/hotfixes/area_table_locale)
 - [area_trigger](/database/master/hotfixes/area_trigger)
+- [area_trigger_action_set](/database/master/hotfixes/area_trigger_action_set)
 - [armor_location](/database/master/hotfixes/armor_location)
 - [artifact](/database/master/hotfixes/artifact)
 - [artifact_appearance](/database/master/hotfixes/artifact_appearance)
@@ -80,6 +81,7 @@ dateCreated: 2021-08-29T20:42:31.704Z
 - [battle_pet_species_state](/database/master/hotfixes/battle_pet_species_state)
 - [battlemaster_list](/database/master/hotfixes/battlemaster_list)
 - [battlemaster_list_locale](/database/master/hotfixes/battlemaster_list_locale)
+- [battlemaster_list_x_map](/database/master/hotfixes/battlemaster_list_x_map)
 - [broadcast_text](/database/master/hotfixes/broadcast_text)
 - [broadcast_text_duration](/database/master/hotfixes/broadcast_text_duration)
 - [broadcast_text_locale](/database/master/hotfixes/broadcast_text_locale)
@@ -287,6 +289,7 @@ dateCreated: 2021-08-29T20:42:31.704Z
 - [lfg_dungeons_locale](/database/master/hotfixes/lfg_dungeons_locale)
 - [light](/database/master/hotfixes/light)
 - [liquid_type](/database/master/hotfixes/liquid_type)
+- [location](/database/master/hotfixes/location)
 - [lock](/database/master/hotfixes/lock)
 {.links-list}
 ## m
@@ -322,6 +325,9 @@ dateCreated: 2021-08-29T20:42:31.704Z
 {.links-list}
 ## p
 - [paragon_reputation](/database/master/hotfixes/paragon_reputation)
+- [path](/database/master/hotfixes/path)
+- [path_node](/database/master/hotfixes/path_node)
+- [path_property](/database/master/hotfixes/path_property)
 - [phase](/database/master/hotfixes/phase)
 - [phase_x_phase_group](/database/master/hotfixes/phase_x_phase_group)
 - [player_condition](/database/master/hotfixes/player_condition)
@@ -463,6 +469,8 @@ dateCreated: 2021-08-29T20:42:31.704Z
 - [trait_node_x_trait_cond](/database/master/hotfixes/trait_node_x_trait_cond)
 - [trait_node_x_trait_cost](/database/master/hotfixes/trait_node_x_trait_cost)
 - [trait_node_x_trait_node_entry](/database/master/hotfixes/trait_node_x_trait_node_entry)
+- [trait_sub_tree](/database/master/hotfixes/trait_sub_tree)
+- [trait_sub_tree_locale](/database/master/hotfixes/trait_sub_tree_locale)
 - [trait_tree](/database/master/hotfixes/trait_tree)
 - [trait_tree_loadout](/database/master/hotfixes/trait_tree_loadout)
 - [trait_tree_loadout_entry](/database/master/hotfixes/trait_tree_loadout_entry)

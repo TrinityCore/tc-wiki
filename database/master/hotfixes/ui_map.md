@@ -2,7 +2,7 @@
 title: ui_map
 description: 
 published: true
-date: 2024-02-11T20:02:26.429Z
+date: 2024-09-05T22:46:07.754Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T10:03:29.616Z
@@ -28,6 +28,8 @@ dateCreated: 2021-08-30T10:03:29.616Z
 | [BkgAtlasID](#bkgatlasid) | int | signed |  | NO | 0 |  |  |
 | [AlternateUiMapGroup](#alternateuimapgroup) | int | signed |  | NO | 0 |  |  |
 | [ContentTuningID](#contenttuningid) | int | signed |  | NO | 0 |  |  |
+| [AdventureMapTextureKitID](#adventuremaptexturekitid) | int | signed |  | NO | 0 |  |  |
+| [MapArtZoneTextPosition](#mapartzonetextposition) | tinyint | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -85,6 +87,14 @@ dateCreated: 2021-08-30T10:03:29.616Z
 &nbsp;
 
 ### ContentTuningID
+*- no description -*
+&nbsp;
+
+### AdventureMapTextureKitID
+*- no description -*
+&nbsp;
+
+### MapArtZoneTextPosition
 *- no description -*
 &nbsp;
 

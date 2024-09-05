@@ -2,7 +2,7 @@
 title: gameobject_display_info
 description: 
 published: true
-date: 2023-10-06T19:24:23.881Z
+date: 2024-09-05T22:45:57.915Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:53:44.412Z
@@ -28,6 +28,7 @@ dateCreated: 2021-08-30T09:53:44.412Z
 | [AlternateDisplayType](#alternatedisplaytype) | int | signed |  | NO | 0 |  |  |
 | [ClientCreatureDisplayInfoID](#clientcreaturedisplayinfoid) | int | signed |  | NO | 0 |  |  |
 | [ClientItemID](#clientitemid) | int | signed |  | NO | 0 |  |  |
+| [Unknown1100](#unknown1100) | smallint | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -85,6 +86,10 @@ dateCreated: 2021-08-30T09:53:44.412Z
 &nbsp;
 
 ### ClientItemID
+*- no description -*
+&nbsp;
+
+### Unknown1100
 *- no description -*
 &nbsp;
 

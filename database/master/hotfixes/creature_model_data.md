@@ -2,7 +2,7 @@
 title: creature_model_data
 description: 
 published: true
-date: 2023-10-06T19:24:23.503Z
+date: 2024-09-05T22:45:56.919Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:52:27.569Z
@@ -21,7 +21,7 @@ dateCreated: 2021-08-30T09:52:27.569Z
 | [GeoBox4](#geobox4) | float |  |  | NO | 0 |  |  |
 | [GeoBox5](#geobox5) | float |  |  | NO | 0 |  |  |
 | [GeoBox6](#geobox6) | float |  |  | NO | 0 |  |  |
-| [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
 | [FileDataID](#filedataid) | int | unsigned |  | NO | 0 |  |  |
 | [WalkSpeed](#walkspeed) | float |  |  | NO | 0 |  |  |
 | [RunSpeed](#runspeed) | float |  |  | NO | 0 |  |  |
@@ -50,10 +50,11 @@ dateCreated: 2021-08-30T09:52:27.569Z
 | [OverrideNameScale](#overridenamescale) | float |  |  | NO | 0 |  |  |
 | [OverrideSelectionRadius](#overrideselectionradius) | float |  |  | NO | 0 |  |  |
 | [TamedPetBaseScale](#tamedpetbasescale) | float |  |  | NO | 0 |  |  |
-| [Unknown820_1](#unknown820_1) | tinyint | signed |  | NO | 0 |  |  |
-| [Unknown820_2](#unknown820_2) | float |  |  | NO | 0 |  |  |
-| [Unknown820_31](#unknown820_31) | float |  |  | NO | 0 |  |  |
-| [Unknown820_32](#unknown820_32) | float |  |  | NO | 0 |  |  |
+| [MountScaleOtherIndex](#mountscaleotherindex) | tinyint | signed |  | NO | 0 |  |  |
+| [MountScaleSelf](#mountscaleself) | float |  |  | NO | 0 |  |  |
+| [Unknown1100](#unknown1100) | smallint | unsigned |  | NO | 0 |  |  |
+| [MountScaleOther1](#mountscaleother1) | float |  |  | NO | 0 |  |  |
+| [MountScaleOther2](#mountscaleother2) | float |  |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -202,19 +203,23 @@ dateCreated: 2021-08-30T09:52:27.569Z
 *- no description -*
 &nbsp;
 
-### Unknown820_1
+### MountScaleOtherIndex
 *- no description -*
 &nbsp;
 
-### Unknown820_2
+### MountScaleSelf
 *- no description -*
 &nbsp;
 
-### Unknown820_31
+### Unknown1100
 *- no description -*
 &nbsp;
 
-### Unknown820_32
+### MountScaleOther1
+*- no description -*
+&nbsp;
+
+### MountScaleOther2
 *- no description -*
 &nbsp;
 

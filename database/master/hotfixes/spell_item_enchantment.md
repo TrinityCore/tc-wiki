@@ -2,7 +2,7 @@
 title: spell_item_enchantment
 description: 
 published: true
-date: 2022-12-19T18:39:06.043Z
+date: 2024-09-05T22:46:05.378Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T10:01:26.726Z
@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T10:01:26.726Z
 | [EffectArg1](#effectarg1) | int | unsigned |  | NO | 0 |  |  |
 | [EffectArg2](#effectarg2) | int | unsigned |  | NO | 0 |  |  |
 | [EffectArg3](#effectarg3) | int | unsigned |  | NO | 0 |  |  |
+| [Flags](#flags) | int | signed |  | NO | 0 |  |  |
 | [EffectScalingPoints1](#effectscalingpoints1) | float |  |  | NO | 0 |  |  |
 | [EffectScalingPoints2](#effectscalingpoints2) | float |  |  | NO | 0 |  |  |
 | [EffectScalingPoints3](#effectscalingpoints3) | float |  |  | NO | 0 |  |  |
@@ -33,7 +34,6 @@ dateCreated: 2021-08-30T10:01:26.726Z
 | [EffectPointsMin2](#effectpointsmin2) | smallint | signed |  | NO | 0 |  |  |
 | [EffectPointsMin3](#effectpointsmin3) | smallint | signed |  | NO | 0 |  |  |
 | [ItemVisual](#itemvisual) | smallint | unsigned |  | NO | 0 |  |  |
-| [Flags](#flags) | smallint | unsigned |  | NO | 0 |  |  |
 | [RequiredSkillID](#requiredskillid) | smallint | unsigned |  | NO | 0 |  |  |
 | [RequiredSkillRank](#requiredskillrank) | smallint | unsigned |  | NO | 0 |  |  |
 | [ItemLevel](#itemlevel) | smallint | unsigned |  | NO | 0 |  |  |
@@ -75,6 +75,10 @@ dateCreated: 2021-08-30T10:01:26.726Z
 &nbsp;
 
 ### EffectArg3
+*- no description -*
+&nbsp;
+
+### Flags
 *- no description -*
 &nbsp;
 
@@ -123,10 +127,6 @@ dateCreated: 2021-08-30T10:01:26.726Z
 &nbsp;
 
 ### ItemVisual
-*- no description -*
-&nbsp;
-
-### Flags
 *- no description -*
 &nbsp;
 

@@ -2,7 +2,7 @@
 title: difficulty
 description: 
 published: true
-date: 2023-05-11T09:04:22.405Z
+date: 2024-09-05T22:45:57.363Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:52:56.833Z
@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T09:52:56.833Z
 | [MinPlayers](#minplayers) | tinyint | unsigned |  | NO | 0 |  |  |
 | [MaxPlayers](#maxplayers) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | smallint | unsigned |  | NO | 0 |  |  |
-| [ItemContext](#itemcontext) | tinyint | unsigned |  | NO | 0 |  |  |
+| [ItemContext](#itemcontext) | tinyint | signed |  | NO | 0 |  |  |
 | [ToggleDifficultyID](#toggledifficultyid) | tinyint | unsigned |  | NO | 0 |  |  |
 | [GroupSizeHealthCurveID](#groupsizehealthcurveid) | int | unsigned |  | NO | 0 |  |  |
 | [GroupSizeDmgCurveID](#groupsizedmgcurveid) | int | unsigned |  | NO | 0 |  |  |

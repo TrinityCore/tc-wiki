@@ -2,7 +2,7 @@
 title: currency_types
 description: 
 published: true
-date: 2022-12-19T18:37:57.044Z
+date: 2024-09-05T22:45:57.251Z
 tags: database, master, hotfixes
 editor: markdown
 dateCreated: 2021-08-30T09:52:43.554Z
@@ -31,6 +31,7 @@ dateCreated: 2021-08-30T09:52:43.554Z
 | [MaxQtyWorldStateID](#maxqtyworldstateid) | int | signed |  | NO | 0 |  |  |
 | [RechargingAmountPerCycle](#rechargingamountpercycle) | int | unsigned |  | NO | 0 |  |  |
 | [RechargingCycleDurationMS](#rechargingcycledurationms) | int | unsigned |  | NO | 0 |  |  |
+| [AccountTransferPercentage](#accounttransferpercentage) | float |  |  | NO | 0 |  |  |
 | [Flags1](#flags1) | int | signed |  | NO | 0 |  |  |
 | [Flags2](#flags2) | int | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
@@ -102,6 +103,10 @@ dateCreated: 2021-08-30T09:52:43.554Z
 &nbsp;
 
 ### RechargingCycleDurationMS
+*- no description -*
+&nbsp;
+
+### AccountTransferPercentage
 *- no description -*
 &nbsp;
 
