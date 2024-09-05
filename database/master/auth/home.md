@@ -2,7 +2,7 @@
 title: Auth
 description: 
 published: true
-date: 2023-05-11T08:46:28.437Z
+date: 2024-09-05T22:43:21.818Z
 tags: database, master, auth
 editor: markdown
 dateCreated: 2021-08-30T06:00:00.000Z
@@ -28,6 +28,8 @@ dateCreated: 2021-08-30T06:00:00.000Z
 - [battlenet_accounts](/database/master/auth/battlenet_accounts)
 - [battlenet_item_appearances](/database/master/auth/battlenet_item_appearances)
 - [battlenet_item_favorite_appearances](/database/master/auth/battlenet_item_favorite_appearances)
+- [build_auth_key](/database/master/auth/build_auth_key)
+- [build_executable_hash](/database/master/auth/build_executable_hash)
 - [build_info](/database/master/auth/build_info)
 {.links-list}
 ## i

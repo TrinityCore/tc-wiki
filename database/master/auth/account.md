@@ -2,7 +2,7 @@
 title: account
 description: 
 published: true
-date: 2024-02-11T19:53:50.783Z
+date: 2024-09-05T22:43:12.232Z
 tags: database, auth, master
 editor: markdown
 dateCreated: 2021-08-19T10:37:27.827Z
@@ -35,10 +35,11 @@ dateCreated: 2021-08-19T10:37:27.827Z
 | [lock_country](#lock_country) | varchar(2) |  |  | NO | 00 |  |  |
 | [last_login](#last_login) | timestamp |  |  | YES | NULL |  |  |
 | [online](#online) | tinyint | unsigned |  | NO | 0 |  |  |
-| [expansion](#expansion) | tinyint | unsigned |  | NO | 9 |  |  |
+| [expansion](#expansion) | tinyint | unsigned |  | NO | 10 |  |  |
 | [mutetime](#mutetime) | bigint | signed |  | NO | 0 |  |  |
 | [mutereason](#mutereason) | varchar(255) |  |  | NO | '' |  |  |
 | [muteby](#muteby) | varchar(50) |  |  | NO | '' |  |  |
+| [client_build](#client_build) | int | unsigned |  | NO | 0 |  |  |
 | [locale](#locale) | tinyint | unsigned |  | NO | 0 |  |  |
 | [os](#os) | varchar(4) |  |  | NO | '' |  |  |
 | [timezone_offset](#timezone_offset) | smallint | signed |  | NO | 0 |  |  |
@@ -154,6 +155,10 @@ The reason for the mute.
 
 ### muteby
 The character name with the rights to the .mute command that give the mute.
+&nbsp;
+
+### client_build
+*- no description -*
 &nbsp;
 
 ### locale
