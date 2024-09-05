@@ -2,7 +2,7 @@
 title: character_trait_entry
 description: 
 published: true
-date: 2023-05-11T08:55:46.536Z
+date: 2024-09-05T22:44:41.980Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2022-12-19T18:37:11.363Z
@@ -19,7 +19,6 @@ dateCreated: 2022-12-19T18:37:11.363Z
 | [traitNodeId](#traitnodeid) | int | signed | PRI | NO |  |  |  |
 | [traitNodeEntryId](#traitnodeentryid) | int | signed | PRI | NO |  |  |  |
 | [rank](#rank) | int | signed |  | NO | 0 |  |  |
-| [grantedRanks](#grantedranks) | int | signed |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -40,10 +39,6 @@ dateCreated: 2022-12-19T18:37:11.363Z
 &nbsp;
 
 ### rank
-*- no description -*
-&nbsp;
-
-### grantedRanks
 *- no description -*
 &nbsp;
 

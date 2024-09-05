@@ -2,7 +2,7 @@
 title: groups
 description: 
 published: true
-date: 2023-10-06T19:23:33.691Z
+date: 2024-09-05T22:44:42.404Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-30T07:45:04.322Z
@@ -32,6 +32,7 @@ dateCreated: 2021-08-30T07:45:04.322Z
 | [raidDifficulty](#raiddifficulty) | tinyint | unsigned |  | NO | 14 |  |  |
 | [legacyRaidDifficulty](#legacyraiddifficulty) | tinyint | unsigned |  | NO | 3 |  |  |
 | [masterLooterGuid](#masterlooterguid) | bigint | unsigned |  | NO |  |  |  |
+| [pingRestriction](#pingrestriction) | tinyint | signed |  | NO |  |  |  |
 &nbsp;
 ## Description of fields
 
@@ -104,6 +105,10 @@ dateCreated: 2021-08-30T07:45:04.322Z
 &nbsp;
 
 ### masterLooterGuid
+*- no description -*
+&nbsp;
+
+### pingRestriction
 *- no description -*
 &nbsp;
 
