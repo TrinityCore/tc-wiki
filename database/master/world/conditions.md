@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2024-03-27T23:32:30.741Z
+date: 2024-09-09T17:27:18.896Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -101,7 +101,7 @@ Two conditions with the same SourceType, SourceGroup and SourceEntry but with a 
 ### ConditionTypeOrReference
 - if a negative value, id of a reference (references directly the [SourceTypeOrReferenceId](#sourcetypeorreferenceid) of another condition).
 - If a positive value, condition type to be applied:
-| ConditionTypeOrReference (name) | Value | ConditionValue1 | ConditionValue2 | ConditionValue3| Usage |
+| ConditionTypeOrReference (name) | Value | ConditionValue1 | ConditionValue2 | ConditionValue3 | Usage |
 | --- | :---: | --- | --- | --- | --- |
 | CONDITION_NONE | 0 | (Never used) | (Never used) | (Never used) |  |
 | CONDITION_AURA | 1 | Spell ID from Spell.dbc | Effect index (0-31) | Always 0 |  |
@@ -122,20 +122,20 @@ Two conditions with the same SourceType, SourceGroup and SourceEntry but with a 
 | CONDITION_RACE | 16 | Player must be this race.<br/>See ChrRaces.dbc .<br/>Add flags together for all races where condition is true. | Always 0 | Always 0 |  |
 | CONDITION_ACHIEVEMENT | 17 | 	Achievement ID from Achievement.dbc | Always 0 | Always 0 |  |
 | CONDITION_TITLE | 18 | Title ID from CharTitles.dbc | Always 0 | Always 0 |  |
-| CONDITION_SPAWNMASK | 19 | spawnMask from<br/>Creature.spawnMask / Gameobject.spawnMask | Always 0 | Always 0 |  |
+| :warning: CONDITION_SPAWNMASK_DEPRECATED | 19 | | | | UNUSED, DO NOT REUSE |
 | CONDITION_GENDER | 20 | 0 = Male<br/>1 = Female<br/>2 = None | Always 0 | Always 0 |  |
 | CONDITION_UNIT_STATE | 21 | UnitState (enum from Unit.h) | Always 0 | Always 0 |  |
 | CONDITION_MAPID | 22 | Map entry from Map.dbc<br/><br/>(0=Eastern Kingdoms, 1=Kalimdor, - and so on.) | Always 0 | Always 0 |  |
 | CONDITION_AREAID | 23 | Area ID from AreaTable.dbc | Always 0 | Always 0 |  |
 | CONDITION_CREATURE_TYPE | 24 | Creature type from creature_template.type<br/><br/>True if creature_template.type == ConditionValue1 | Always 0 | Always 0 |  |
 | CONDITION_SPELL | 25 | Spell ID from Spell.dbc | Always 0 | Always 0 |  |
-| CONDITION_PHASEMASK | 26 | phasemask value | Always 0 | Always 0 |  |
+| CONDITION_PHASEID | 26 | PhaseID | Always 0 | Always 0 |  |
 | CONDITION_LEVEL | 27 | Player level (1-80 in 3.3.5 \|\| 1-60 in 9.x) | **Optional:**<pre>  0 = Level must be equal<br/>  1 = Level must be higher<br/>  2 = Level must be lower<br/>  3 = Level must be higher or equal<br/>  4 = Level must be lower or equal.<pre/> | Always 0 |  |
 | CONDITION_QUEST_COMPLETE | 28 | Quest ID - see quest_template.id | Always 0 | Always 0 |  |
 | CONDITION_NEAR_CREATURE | 29 | 	Creature entry from creature_template.entry | Distance in yards | Alive=0<br/>Dead=1 |  |
 | CONDITION_NEAR_GAMEOBJECT | 30 | Gameobject entry from gameobject_template.entry | Distance in yards | Always 0 |  |
-| CONDITION_OBJECT_ENTRY_GUID | 31 | TypeID. Available object types:<br/>3 : TYPEID_UNIT<br/>4 : TYPEID_PLAYER<br/>5 : TYPEID_GAMEOBJECT<br/>7 : TYPEID_CORPSE (player corpse, after spirit release) | 0 = Any object of given TypeID<br/>if TypeID = TYPEID_UNIT => Creature entry from creature_template.entry<br/>if TypeID = TYPEID_GAMEOBJECT => Gameobject entry from gameobject_template.entry | 0 = Any object of given type<br/><br/>1 - 500k : creature / gameobject GUID |  |
-| CONDITION_TYPE_MASK | 32 | TypeMask - a bitmask of following object types:<br/>0x0008 - TYPEMASK_UNIT (8)<br/>0x0010 - TYPEMASK_PLAYER (16)<br/>0x0020 - TYPEMASK_GAMEOBJECT (32)<br/>0x0080 - TYPEMASK_CORPSE (player corpse after spirit release) (128) | Always 0 | Always 0 |  |
+| CONDITION_OBJECT_ENTRY_GUID_LEGACY | 31 | TypeID. Available object types:<br/>3 : TYPEID_UNIT<br/>4 : TYPEID_PLAYER<br/>5 : TYPEID_GAMEOBJECT<br/>7 : TYPEID_CORPSE (player corpse, after spirit release) | 0 = Any object of given TypeID<br/>if TypeID = TYPEID_UNIT => Creature entry from creature_template.entry<br/>if TypeID = TYPEID_GAMEOBJECT => Gameobject entry from gameobject_template.entry | 0 = Any object of given type<br/><br/>1 - 500k : creature / gameobject GUID |  |
+| CONDITION_TYPE_MASK_LEGACY | 32 | TypeMask - a bitmask of following object types:<br/>0x0008 - TYPEMASK_UNIT (8)<br/>0x0010 - TYPEMASK_PLAYER (16)<br/>0x0020 - TYPEMASK_GAMEOBJECT (32)<br/>0x0080 - TYPEMASK_CORPSE (player corpse after spirit release) (128) | Always 0 | Always 0 |  |
 | CONDITION_RELATION_TO | 33 | Target to which relation is checked.<br/>- one of the ConditionTargets available in current SourceType | RelationType - defines relation of current ConditionTarget to target specified in ConditionValue1.<br/>0 - RELATION_SELF<br/>1 - RELATION_IN_PARTY<br/>2 - RELATION_IN_RAID_OR_PARTY<br/>3 - RELATION_OWNED_BY (ConditionTarget is owned by ConditionValue1)<br/>4 - RELATION_PASSENGER_OF (ConditionTarget is passenger of ConditionValue1)<br/>5 - RELATION_CREATED_BY (ConditionTarget is summoned by ConditionValue1) | Always 0 |  |
 | CONDITION_REACTION_TO | 34 | Target to which reaction is checked.<br/>- one of the ConditionTargets available in current SourceType | rankMask: This bitmask defines the reaction(s) of the current ConditionTarget<br/>to the target specified in ConditionValue1 (which are allowed).<br/>Flags for the reactions are:<br/><pre>  1 = Hated<br/>  2 = Hostile<br/>  4 = Unfriendly<br/>  8 = Neutral<br/> 16 = Friendly<br/> 32 = Honored<br/> 64 = Revered<br/>128 = Exalted<pre/> | Always 0 |  |
 | CONDITION_DISTANCE_TO | 35 | Target to which distance is checked<br/>- one of ConditionTargets available in current SourceType | Distance.<br/>Defines distance between current ConditionTarget and target specified in ConditionValue1 | ComparisionType:<br/>0 = distance must be equal to ConditionValue2<br/>1 = distance must be higher than ConditionValue2<br/>2 = distance must be lower than ConditionValue2<br/>3 = distance must be equal to or higher than ConditionValue2<br/>4 = distance must be equal to or lower than ConditionValue2 |  |
@@ -151,17 +151,21 @@ Two conditions with the same SourceType, SourceGroup and SourceEntry but with a 
 | CONDITION_PET_TYPE | 45 | mask | Always 0 | Always 0 |  |
 | CONDITION_TAXI | 46 | Always 0 | Always 0 | Always 0 |  |
 | CONDITION_QUESTSTATE | 47 | Quest ID - see quest_template.id | 	state_mask: true if player is in any of the provided quest states for the quest<br/>1 = not taken<br/>2 = completed<br/>8 = in progress<br/>32 = failed<br/>64 = rewarded | Always 0 |  |
-| CONDITION_QUEST_OBJECTIVE_COMPLETE | 48 | Quest Objective ID - see quest_objectives (6.x / 7.x/ 8.x only)<br/><br/>Quest ID (3.3.5 only) | Objective index (a value from 0 to 3) 3.3.5 only | Counter (3.3.5 only) |  |
+| CONDITION_QUEST_OBJECTIVE_PROGRESS | 48 | Quest Objective ID | Always 0 | Progress Value |  |
 | CONDITION_DIFFICULTY_ID | 49 | Difficulty (0 None, 1 Normal, etc) | Always 0  | Always 0  | true if target's map has difficulty id |
 | CONDITION_GAMEMASTER | 50 | canBeGM | Always 0 | Always 0 | true if player is gamemaster<br/>(or can be gamemaster) |
 | CONDITION_OBJECT_ENTRY_GUID | 51 | TypeID | entry | guid | true if object is type TypeID<br/>and the entry is 0<br/>or matches entry of the object<br/>or matches guid of the object |
 | CONDITION_TYPE_MASK | 52 | TypeMask | Always 0 | Always 0 | true if object is type object's<br/>TypeMask matches provided TypeMask |
-| CONDITION_BATTLE_PET_COUNT | 53 | SpecieId | count | ComparisonType | true if player has count of battle pet species
+| CONDITION_BATTLE_PET_COUNT | 53 | SpeciesId | count | ComparisonType | true if player has count of battle pet species
 | CONDITION_SCENARIO_STEP | 54 | ScenarioStepId (Only >= 5.0.3)| Always 0 | Always 0 | true if object is at scenario <br> with current step equal to ScenarioStepID |
 | CONDITION_SCENE_IN_PROGRESS | 55 | SceneScriptPackageId | Always 0 | Always 0 | true if player is playing a scene <br> with ScriptPackageId equal to given value |
 | CONDITION_PLAYER_CONDITION | 56 | PlayerConditionId | Always 0 | Always 0 | true if player satisfies PlayerCondition |
 | CONDITION_PRIVATE_OBJECT | 57 | Always 0 | Always 0 | Always 0 | true if entity is private object |
-&nbsp;
+| CONDITION_STRING_ID | 58 | Always 0 | Always 0 | Always 0 | true if entity uses string id (ConditionStringValue1) |
+{.dense}
+
+> Please note :warning:means that the ConditionType is deprecated and should not be used.
+{.is-warning}
 
 ### ConditionTarget
 Allows selecting an object for which conditions will be checked. Available objects are dependant on SourceTypeOrReferenceId, for details see respective source type reference.
