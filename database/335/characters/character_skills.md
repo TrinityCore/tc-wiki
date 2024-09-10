@@ -30,7 +30,7 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### skill
-The [SkillLine ID](/files/DBC/335/skillline#id) a character owns. For a list, see [here](https://wow.tools/dbc/?dbc=skillline&build=3.3.5.12340#page=1)
+The [SkillLine ID](/files/DBC/335/skillline#id) a character owns.
 &nbsp;
 
 ### value
