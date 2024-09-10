@@ -25,11 +25,11 @@ dateCreated: 2021-08-30T09:29:35.885Z
 
 ### Id <!-- {#id-alt} -->
 Unique ID for a line in a conversation.
-Reference: [ConversationLine.db2](https://wow.tools/dbc/?dbc=conversationline){target=_blank}
+Reference: [ConversationLine.db2](https://wago.tools/db2/conversationline){target=_blank}
 &nbsp;
 
 ### UiCameraID
-Reference: [UiCamera.db2](https://wow.tools/dbc/?dbc=uicamera){target=_blank}
+Reference: [UiCamera.db2](https://wago.tools/db2/uicamera){target=_blank}
 &nbsp;
 
 ### ActorIdx

@@ -1,6 +1,6 @@
 ---
 title: spell_target_position
-description: 
+description:
 published: true
 date: 2024-02-11T20:06:10.844Z
 tags: database, master, world
@@ -26,7 +26,7 @@ dateCreated: 2021-08-30T09:37:21.892Z
 ## Description of fields
 
 ### ID <!-- {#id-alt} -->
-references [Spell ID](https://wow.tools/dbc/?dbc=spell)
+references [Spell ID](https://wago.tools/db2/spell)
 &nbsp;
 
 ### EffectIndex
@@ -35,7 +35,7 @@ The effect index of the spell with TARGET_DEST_DB.
 &nbsp;
 
 ### MapID
-The [Map ID](https://wow.tools/dbc/?dbc=map) the player should be teleported to.
+The [Map ID](https://wago.tools/db2/map) the player should be teleported to.
 &nbsp;
 
 ### PositionX

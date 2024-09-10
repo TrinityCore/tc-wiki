@@ -1,6 +1,6 @@
 ---
 title: spell_area
-description: 
+description:
 published: true
 date: 2023-08-18T22:33:17.054Z
 tags: database, master, world
@@ -28,11 +28,11 @@ dateCreated: 2021-08-30T09:36:40.299Z
 ## Description of fields
 
 ### spell
-The spell ID of the spell to be casted on the player. See [SpellName.db2](https://wow.tools/dbc/?dbc=SpellName){target=_blank}).
+The spell ID of the spell to be casted on the player. See [SpellName.db2](https://wago.tools/db2/SpellName){target=_blank}).
 &nbsp;
 
 ### area
-The area ID. Type ".gps" in-game and find the "Area:" number to use for this cell. Also see [AreaTable.db2](https://wow.tools/dbc/?dbc=AreaTable){target=_blank}.
+The area ID. Type ".gps" in-game and find the "Area:" number to use for this cell. Also see [AreaTable.db2](https://wago.tools/db2/AreaTable){target=_blank}.
 &nbsp;
 
 ### quest_start
@@ -44,7 +44,7 @@ The entry of the quest which the player must not have in the state defined by qu
 &nbsp;
 
 ### aura_spell
-If set, this value (plus or minus aura spell ID from [SpellName.db2](https://wow.tools/dbc/?dbc=SpellName){target=_blank}) imposes additional condition.
+If set, this value (plus or minus aura spell ID from [SpellName.db2](https://wago.tools/db2/SpellName){target=_blank}) imposes additional condition.
 
 The value has the following effect:
 ```
@@ -119,4 +119,3 @@ The gender type this entry applies to. 0 = Male, 1 = Female, 2 = Any.
 
 
 <a href="https://trinitycore.info/en/database/master/world/spawn_group_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'spawn_group_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/spell_custom_attr" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'spell_custom_attr'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

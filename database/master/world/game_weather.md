@@ -1,6 +1,6 @@
 ---
 title: game_weather
-description: 
+description:
 published: true
 date: 2023-04-01T23:12:18.383Z
 tags: database, master, world
@@ -32,7 +32,7 @@ dateCreated: 2021-08-30T09:31:35.583Z
 ## Description of fields
 
 ### zone
-This field contains the zone id from the [AreaTable.ID](https://wow.tools/dbc/?dbc=areatable){target=blank} that you wish to change the weather for.
+This field contains the zone id from the [AreaTable.ID](https://wago.tools/db2/areatable){target=blank} that you wish to change the weather for.
 &nbsp;
 
 ### spring_rain_chance

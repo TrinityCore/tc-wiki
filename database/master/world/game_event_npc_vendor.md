@@ -1,6 +1,6 @@
 ---
 title: game_event_npc_vendor
-description: 
+description:
 published: true
 date: 2023-03-31T16:00:32.498Z
 tags: database, master, world
@@ -41,7 +41,7 @@ Position of the item when the vendor window opens (order from top-left to bottom
 &nbsp;
 
 ### item
-Item to be added during the event, for reference: [ItemSparse.ID](https://wow.tools/dbc/?dbc=itemsparse){target=blank}
+Item to be added during the event, for reference: [ItemSparse.ID](https://wago.tools/db2/itemsparse){target=blank}
 &nbsp;
 
 ### maxcount
@@ -53,7 +53,7 @@ Combined with maxcount, this field tells how often (in seconds) the vendor list 
 &nbsp;
 
 ### ExtendedCost
-The value here corresponds to the ID in [ItemExtendedCost.ID](https://wow.tools/dbc/?dbc=itemextendedcost){target=blank} and that ID controls the item's non monetary price, be it honor points, arena points, different types of badges or any combination of the above.
+The value here corresponds to the ID in [ItemExtendedCost.ID](https://wago.tools/db2/itemextendedcost){target=blank} and that ID controls the item's non monetary price, be it honor points, arena points, different types of badges or any combination of the above.
 &nbsp;
 
 ### type
@@ -73,4 +73,3 @@ The value here corresponds to the ID in [ItemExtendedCost.ID](https://wow.tools/
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/game_event_model_equip" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'game_event_model_equip'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/game_event_npcflag" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'game_event_npcflag'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

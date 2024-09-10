@@ -1,6 +1,6 @@
 ---
 title: gameobject_questitem
-description: 
+description:
 published: true
 date: 2022-11-21T21:05:30.205Z
 tags: database, master, world
@@ -30,7 +30,7 @@ The order in which the items are listed. **Idx** must be less than MAX_GAMEOBJEC
 &nbsp;
 
 ### ItemId
-An item that should appear in the tooltip. (references [ItemID](https://wow.tools/dbc/?dbc=itemsparse))
+An item that should appear in the tooltip. (references [ItemID](https://wago.tools/db2/itemsparse))
 &nbsp;
 
 ### VerifiedBuild
@@ -47,4 +47,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/gameobject_questender" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'gameobject_questender'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/gameobject_queststarter" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'gameobject_queststarter'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

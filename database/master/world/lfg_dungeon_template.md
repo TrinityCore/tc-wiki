@@ -1,6 +1,6 @@
 ---
 title: lfg_dungeon_template
-description: 
+description:
 published: true
 date: 2022-11-21T21:06:12.259Z
 tags: database, master, world
@@ -26,11 +26,11 @@ dateCreated: 2021-08-30T09:32:50.477Z
 ## Description of fields
 
 ### dungeonId
-Dungeon ID from [LFGDungeons.db2](https://wow.tools/dbc/?dbc=lfgdungeons){target=_blank}.
+Dungeon ID from [LFGDungeons.db2](https://wago.tools/db2/lfgdungeons){target=_blank}.
 &nbsp;
 
 ### name <!-- {#name-alt} -->
-Dungeon name from [LFGDungeons.db2](https://wow.tools/dbc/?dbc=lfgdungeons){target=_blank}.
+Dungeon name from [LFGDungeons.db2](https://wago.tools/db2/lfgdungeons){target=_blank}.
 &nbsp;
 
 ### position_x

@@ -1,6 +1,6 @@
 ---
 title: vehicle_template_accessory
-description: 
+description:
 published: true
 date: 2023-01-03T01:53:52.332Z
 tags: database, master, world
@@ -34,7 +34,7 @@ The entry from creature_template of the creature to be used as a passenger of th
 &nbsp;
 
 ### seat_id
-The vehicle seat in which the passenger is spawned. Each VehicleID has a given amount of seats which you can consult on [Vehicle.dbc](https://wow.tools/dbc/?dbc=vehicle&build=9.2.7.45745#page=1){target=_blank} under Seat[Index]. You can consult each VehicleSeat's ID parameters on [VehicleSeat.dbc](https://wow.tools/dbc/?dbc=vehicleseat&build=10.0.5.47215#page=1){target=_blank}.
+The vehicle seat in which the passenger is spawned. Each VehicleID has a given amount of seats which you can consult on [Vehicle.dbc](https://wago.tools/db2/vehicle&build=9.2.7.45745#page=1){target=_blank} under Seat[Index]. You can consult each VehicleSeat's ID parameters on [VehicleSeat.dbc](https://wago.tools/db2/vehicleseat&build=10.0.5.47215#page=1){target=_blank}.
 &nbsp;
 
 ### minion
@@ -50,15 +50,15 @@ A comment you can add to the given record for context. This provides information
 
 ### summontype
 | Flag | Name | Comments |
-| --- | --- | --- | 
-| 1 | TEMPSUMMON_TIMED_OR_DEAD_DESPAWN | Despawns after a specified time OR when the creature disappears. 
-| 2 | TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN | Despawns after a specified time OR when the creature disappears. 
-| 3 | TEMPSUMMON_TIMED_DESPAWN | Despawns after a specified time. 
-| 4 | TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT | Despawns after a specified time after the creature is out of combat. 
-| 5 | TEMPSUMMON_CORPSE_DESPAWN | Despawns instantly after death. 
-| 6 | TEMPSUMMON_CORPSE_TIMED_DESPAWN | Despawns after a specified time after death. 
+| --- | --- | --- |
+| 1 | TEMPSUMMON_TIMED_OR_DEAD_DESPAWN | Despawns after a specified time OR when the creature disappears.
+| 2 | TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN | Despawns after a specified time OR when the creature disappears.
+| 3 | TEMPSUMMON_TIMED_DESPAWN | Despawns after a specified time.
+| 4 | TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT | Despawns after a specified time after the creature is out of combat.
+| 5 | TEMPSUMMON_CORPSE_DESPAWN | Despawns instantly after death.
+| 6 | TEMPSUMMON_CORPSE_TIMED_DESPAWN | Despawns after a specified time after death.
 | 7 | TEMPSUMMON_DEAD_DESPAWN | Despawns when the creature disappears.
-| 8 | TEMPSUMMON_MANUAL_DESPAWN	 | Despawns when UnSummon() is called. 
+| 8 | TEMPSUMMON_MANUAL_DESPAWN	 | Despawns when UnSummon() is called.
 &nbsp;
 
 ### summontimer
@@ -66,4 +66,3 @@ The timer linked to the summontype field.
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/vehicle_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'vehicle_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/version" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'version'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

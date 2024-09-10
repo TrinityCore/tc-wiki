@@ -1,6 +1,6 @@
 ---
 title: game_tele
-description: 
+description:
 published: true
 date: 2023-04-01T23:08:19.107Z
 tags: database, master, world
@@ -45,7 +45,7 @@ The direction that the player will face after arriving at the teleport location.
 &nbsp;
 
 ### map
-The map ID of the location. See the [Map.ID](https://wow.tools/dbc/?dbc=map){target=blank} for the IDs of all of the zones. This can also be attained by using the `.gps` command.
+The map ID of the location. See the [Map.ID](https://wago.tools/db2/map){target=blank} for the IDs of all of the zones. This can also be attained by using the `.gps` command.
 &nbsp;
 
 ### name <!-- {#name-alt} -->

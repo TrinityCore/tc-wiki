@@ -1,6 +1,6 @@
 ---
 title: achievement_reward_locale
-description: 
+description:
 published: true
 date: 2022-11-21T21:03:07.264Z
 tags: database, master, world
@@ -25,7 +25,7 @@ dateCreated: 2021-08-30T09:28:43.912Z
 ## Description of fields
 
 ### ID <!-- {#id-alt} -->
-ID from [Achievement.db2](https://wow.tools/dbc/?dbc=achievement){target=_blank}
+ID from [Achievement.db2](https://wago.tools/db2/achievement){target=_blank}
 &nbsp;
 
 ### Locale

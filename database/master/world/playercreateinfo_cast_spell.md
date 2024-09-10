@@ -1,6 +1,6 @@
 ---
 title: playercreateinfo_cast_spell
-description: 
+description:
 published: true
 date: 2022-11-21T21:07:24.246Z
 tags: database, master, world
@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T09:34:26.107Z
 ## Description of fields
 
 ### raceMask
-Race mask of [ChrRace IDs](https://wow.tools/dbc/?dbc=chrraces). `0` is all races.
+Race mask of [ChrRace IDs](https://wago.tools/db2/chrraces). `0` is all races.
 
 | Value | Flag   | Name      |
 |-------|--------|-----------|
@@ -42,7 +42,7 @@ Race mask of [ChrRace IDs](https://wow.tools/dbc/?dbc=chrraces). `0` is all race
 &nbsp;
 
 ### classMask
-Class mask of [ChrClass IDs](https://wow.tools/dbc/?dbc=chrclasses). `0` is all classes.
+Class mask of [ChrClass IDs](https://wago.tools/db2/chrclasses). `0` is all classes.
 | Value | Flag   | Name         |
 |-------|--------|--------------|
 |     1 | 0x0001 | Warrior      |
@@ -62,7 +62,7 @@ Class mask of [ChrClass IDs](https://wow.tools/dbc/?dbc=chrclasses). `0` is all 
 &nbsp;
 
 ### spell
-[Spell ID](https://wow.tools/dbc/?dbc=spell) to cast on first log in.
+[Spell ID](https://wago.tools/db2/spell) to cast on first log in.
 &nbsp;
 
 ### note

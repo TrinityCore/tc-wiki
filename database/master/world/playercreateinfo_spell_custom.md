@@ -1,6 +1,6 @@
 ---
 title: playercreateinfo_spell_custom
-description: 
+description:
 published: true
 date: 2022-11-21T21:07:28.235Z
 tags: database, master, world
@@ -22,7 +22,7 @@ dateCreated: 2021-08-30T09:34:31.272Z
 ## Description of fields
 
 ### racemask
-Race mask of [ChrRace IDs](https://wow.tools/dbc/?dbc=chrraces). `0` is all races.
+Race mask of [ChrRace IDs](https://wago.tools/db2/chrraces). `0` is all races.
 | Value | Flag   | Name      |
 |-------|--------|-----------|
 |     1 | 0x0001 | Human     |
@@ -40,7 +40,7 @@ Race mask of [ChrRace IDs](https://wow.tools/dbc/?dbc=chrraces). `0` is all race
 &nbsp;
 
 ### classmask
-Class mask of [ChrClass IDs](https://wow.tools/dbc/?dbc=chrclasses). `0` is all classes.
+Class mask of [ChrClass IDs](https://wago.tools/db2/chrclasses). `0` is all classes.
 | Value | Flag   | Name         |
 |-------|--------|--------------|
 |     1 | 0x0001 | Warrior      |
@@ -58,7 +58,7 @@ Class mask of [ChrClass IDs](https://wow.tools/dbc/?dbc=chrclasses). `0` is all 
 &nbsp;
 
 ### Spell
-A [Spell ID](https://wow.tools/dbc/?dbc=spell) to start with.
+A [Spell ID](https://wago.tools/db2/spell) to start with.
 &nbsp;
 
 ### Note

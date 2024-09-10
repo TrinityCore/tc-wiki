@@ -1,6 +1,6 @@
 ---
 title: *_loot_template
-description: 
+description:
 published: true
 date: 2023-10-22T19:26:01.946Z
 tags: database, master, world
@@ -39,15 +39,15 @@ The 12 tables have different relations with other DB tables.
 | fishing_loot_template | no relation | entry is linked with ID of the fishing zone or area |  |  |  |
 | creature_loot_template | entry | 	many <- many | [creature_template](/en/database/master/world/creature_template){target=_blank} | [lootid](/en/database/master/world/creature_template#lootid){target=_blank} |  |
 | gameobject_loot_template | entry | many <- many | [gameobject_template](/en/database/master/world/gameobject_template){target=_blank} | [Data1](/en/database/master/world/gameobject_template#data1){target=_blank} | Only gameobject type 3 (GAMEOBJECT_TYPE_CHEST) or<br/>25 (GAMEOBJECT_TYPE_FISHINGHOLE) use data1 as loot ID,<br/>for other types data1 is used in other ways |
-| item_loot_template | entry | many <- many | [ItemSparse.db2 (wow.tools)](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} | ID |  |
-| disenchant_loot_template | entry | many <- many | [ItemSparse.db2 (wow.tools)](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} |  |  |
-| prospecting_loot_template | entry | many <- many | [ItemSparse.db2 (wow.tools)](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} | ID |  |
-| milling_loot_template | entry | many <- many | [ItemSparse.db2 (wow.tools)](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} | ID |  |
+| item_loot_template | entry | many <- many | [ItemSparse.db2 (wago.tools)](https://wago.tools/db2/itemsparse){target=_blank} | ID |  |
+| disenchant_loot_template | entry | many <- many | [ItemSparse.db2 (wago.tools)](https://wago.tools/db2/itemsparse){target=_blank} |  |  |
+| prospecting_loot_template | entry | many <- many | [ItemSparse.db2 (wago.tools)](https://wago.tools/db2/itemsparse){target=_blank} | ID |  |
+| milling_loot_template | entry | many <- many | [ItemSparse.db2 (wago.tools)](https://wago.tools/db2/itemsparse){target=_blank} | ID |  |
 | pickpocketing_loot_template | entry | many <- many | [creature_template](/en/database/master/world/creature_template){target=_blank} | [pickpocketloot](/en/database/master/world/creature_template#pickpocketloot){target=_blank} |  |
 | skinning_loot_template | entry | many <- many | [creature_template](/en/database/master/world/creature_template){target=_blank} | [skinloot](/en/database/master/world/creature_template#skinloot){target=_blank}  |  |
 | quest_mail_loot_template | entry |  | [quest_template_addon](/en/database/master/world/quest_template_addon){target=_blank} | [RewardMailTemplateID](/en/database/master/world/quest_template_addon#rewardmailtemplateid){target=_blank} |  |
 | reference_loot_template | entry | many <- many | *_loot_template | [Reference](#reference) |  |
-| spell_loot_template | entry | many <- many | [Spell.db2 (wow.tools)](https://wow.tools/dbc/?dbc=spell){target=_blank} or [SpellName.db2 (wow.tools)](https://wow.tools/dbc/?dbc=spellname){target=_blank} | ID |  |
+| spell_loot_template | entry | many <- many | [Spell.db2 (wago.tools)](https://wago.tools/db2/spell){target=_blank} or [SpellName.db2 (wago.tools)](https://wago.tools/db2/spellname){target=_blank} | ID |  |
 &nbsp;
 ## Description of fields
 
@@ -64,7 +64,7 @@ Agreements on **Entry** field values are described [there](#agreements).
 &nbsp;
 
 ### Item
-[Item ID](https://wow.tools/dbc/?dbc=itemsparse) of the item which is included into the loot.
+[Item ID](https://wago.tools/db2/itemsparse) of the item which is included into the loot.
 
 > Note: For reference entries this field has no meaning and is not used by the core in any way. Yet because of the PRIMARY KEY on the entry + item combination, this field will nonetheless need to be a unique number for each reference entry so that no indexing conflicts arise.
 {.is-info}
@@ -113,7 +113,7 @@ Zero value of **Chance** is allowed for grouped entries only.
 &nbsp;
 
 ### QuestRequired
-Informs the core that the item should be shown only to characters having appropriate quest. This means that even if item is dropped, in order to see it in the loot the player must have at least one quest that has the [item ID](https://wow.tools/dbc/?dbc=itemsparse) in its [RequiredItemId](../world/quest_template#requireditemid1) fields or in its [StartItem](../world/quest_template#startitem) fields. The player must also have less copies of the item than [RequiredItemCount](../world/quest_template#requireditemcount1) or [ProvidedItemCount](../world/quest_template_addon#provideditemcount).
+Informs the core that the item should be shown only to characters having appropriate quest. This means that even if item is dropped, in order to see it in the loot the player must have at least one quest that has the [item ID](https://wago.tools/db2/itemsparse) in its [RequiredItemId](../world/quest_template#requireditemid1) fields or in its [StartItem](../world/quest_template#startitem) fields. The player must also have less copies of the item than [RequiredItemCount](../world/quest_template#requireditemcount1) or [ProvidedItemCount](../world/quest_template_addon#provideditemcount).
 &nbsp;
 
 ### LootMode
@@ -212,7 +212,7 @@ These agreements are different for different loot tables. Mainly agreements defi
 
 ### Fishing haul
 
-For fishing_loot_template, ID is the [AreaTable ID](https://wow.tools/dbc/?dbc=areatable)
+For fishing_loot_template, ID is the [AreaTable ID](https://wago.tools/db2/areatable)
 
 Also an extra note on fishing_loot_template: if just one area ID is defined for a zone, then that whole zone ID is skipped and therefore all areas in that zone need to have entries in the table. Only when there doesn't exist any area entries for a zone does the core use the zone ID directly. Zone = Wetlands, Elwynn, etc; Area = Northshire, Lakeshire, etc.
 
