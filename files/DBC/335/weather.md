@@ -1,6 +1,6 @@
 ---
 title: Weather.dbc
-description: 
+description:
 published: true
 date: 2024-08-01T00:26:02.385Z
 tags: 3.3.5, 3.3.5a, 335, 335a, wotlk, dbc, database client
@@ -11,7 +11,6 @@ dateCreated: 2023-10-04T08:09:22.075Z
 <a href="https://trinitycore.info/files/DBC/335/weaponswingsounds2" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'WeaponSwingSounds2'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/DBC" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to DBCs (3.3.5a)</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/wmoareatable" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'WMOAreaTable'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
 # Weather.dbc
-##### :open_book: Content on [WoW.tools](https://wow.tools/dbc/?dbc=weather&build=3.3.5.12340)
 ##### :pencil: Structure on [wowdev.wiki](https://wowdev.wiki/DB/Weather)
 &nbsp;
 
