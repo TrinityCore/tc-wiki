@@ -13,8 +13,6 @@ dateCreated: 2021-08-30T22:05:47.482Z
 Contains information about zones connected to world's graveyards.
 This table is used to set what factions a given graveyard will accept, and also to specify the nearest graveyard to a given zone.
 
-For a list of all existing graveyard zones and their respective IDs, check out [wow.tools](https://wow.tools/dbc/?dbc=worldsafelocs&build=3.3.5.12340#page=1)
-
 
 ## Structure
 

@@ -1,6 +1,6 @@
 ---
 title: game_event_model_equip
-description: 
+description:
 published: true
 date: 2023-03-31T15:27:26.893Z
 tags: database, master, world
@@ -30,7 +30,7 @@ GUID of the creature which this entry should be related to during the event. Ref
 &nbsp;
 
 ### modelid
-New model to be used while the event is active (Refers to [CreatureDisplayInfo.ID](https://wow.tools/dbc/?dbc=creaturedisplayinfo){target=blank})
+New model to be used while the event is active (Refers to [CreatureDisplayInfo.ID](https://wago.tools/db2/creaturedisplayinfo){target=blank})
 Use 0 if only the equipment is to be changed during event.
 &nbsp;
 
@@ -40,4 +40,3 @@ Use 0 if only the model is to be changed during event.
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/game_event_gameobject_quest" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'game_event_gameobject_quest'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/game_event_npc_vendor" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'game_event_npc_vendor'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

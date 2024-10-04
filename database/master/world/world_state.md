@@ -1,6 +1,6 @@
 ---
 title: world_state
-description: 
+description:
 published: true
 date: 2022-11-21T22:46:59.216Z
 tags: database, master, world
@@ -35,13 +35,13 @@ Default value of the world state
 MapIDs where the worldstate should be active (comma separated: `mapId1,mapId2`)
 Using NULL as MapID means its active realmwide (= in every map).
 Using -1 as MapID marks it as allowed on ALL maps but should be bound to a map.
-References to: [Map.db2](https://wow.tools/dbc/?dbc=Map){target=_blank}
+References to: [Map.db2](https://wago.tools/db2/Map){target=_blank}
 &nbsp;
 
 ### AreaIDs
 AreaIDs where the worldstate should be active (comma separated: `areaId1,areaId2`)
 Using NULL means its active in every area of the provided `MapIDs`.
-References to: [AreaTable.db2](https://wow.tools/dbc/?dbc=AreaTable){target=_blank}
+References to: [AreaTable.db2](https://wago.tools/db2/AreaTable){target=_blank}
 &nbsp;
 
 ### ScriptName

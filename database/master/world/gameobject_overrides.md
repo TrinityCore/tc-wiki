@@ -1,6 +1,6 @@
 ---
 title: gameobject_overrides
-description: 
+description:
 published: true
 date: 2022-11-21T21:05:26.215Z
 tags: database, master, world
@@ -25,7 +25,7 @@ refers to [gameobject.guid](../world/gameobject#guid)
 &nbsp;
 
 ### faction
-[FactionTemplate ID](https://wow.tools/dbc/?dbc=factiontemplate)
+[FactionTemplate ID](https://wago.tools/db2/factiontemplate)
 Replaces faction from [gameobject_template_addon.faction](../world/gameobject_template_addon#faction) if set.
 &nbsp;
 
@@ -48,4 +48,3 @@ Replaces flags from [gameobject_template_addon.flags](../world/gameobject_templa
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/gameobject_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'gameobject_loot_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/gameobject_questender" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'gameobject_questender'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

@@ -1,6 +1,6 @@
 ---
 title: gameobject_template_addon
-description: 
+description:
 published: true
 date: 2023-04-02T00:09:28.383Z
 tags: database, master, world
@@ -34,7 +34,7 @@ Entry of the gameobject, see [`gameobject_template.entry`](/database/master/worl
 &nbsp;
 
 ### faction
-Faction of the gameobject, referencing [Faction.db2](https://wow.tools/dbc/?dbc=Faction){target=blank}
+Faction of the gameobject, referencing [Faction.db2](https://wago.tools/db2/Faction){target=blank}
 &nbsp;
 
 ### flags
@@ -60,7 +60,7 @@ Maximum money, in copper, that the gameobject can drop when accessed / used.
 &nbsp;
 
 ### artkit\[0-4]
-[GameObjectArtKit ID](https://wow.tools/dbc/?dbc=gameobjectartkit)
+[GameObjectArtKit ID](https://wago.tools/db2/gameobjectartkit)
 Updates display if object is activated by SPELL_EFFCT_ACTIVATE_OBJECT with MiscValue 19 - 22.
 &nbsp;
 
@@ -73,4 +73,3 @@ Updates display if object is activated by SPELL_EFFCT_ACTIVATE_OBJECT with MiscV
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/gameobject_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'gameobject_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/gameobject_template_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'gameobject_template_locale'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

@@ -1,6 +1,6 @@
 ---
 title: areatrigger
-description: 
+description:
 published: true
 date: 2024-08-05T15:30:38.528Z
 tags: database, master, world
@@ -45,7 +45,7 @@ Describes whether referenced `AreaTriggerCreatePropertiesId` is a custom id or n
 &nbsp;
 
 ### MapId
-The [ID](https://wow.tools/dbc/?dbc=map){target=_blank} of the map that the areatrigger is spawned on.
+The [ID](https://wago.tools/db2/map){target=_blank} of the map that the areatrigger is spawned on.
 &nbsp;
 
 ### SpawnDifficulties
@@ -123,7 +123,7 @@ If set the areatrigger is placed in the specific phase.
 
 Only players in the same phase are able to "see" the areatrigger (if PhaseUseFlags does not contain `PHASE_USE_FLAGS_ALWAYS_VISIBLE`)
 
-A full list of available phases can be taken from [Phase.db2](https://wow.tools/dbc/?dbc=phase){target=_blank}.
+A full list of available phases can be taken from [Phase.db2](https://wago.tools/db2/phase){target=_blank}.
 &nbsp;
 
 ### PhaseGroup
@@ -131,7 +131,7 @@ Works similar as PhaseId, but the areatrigger can be placed inside multiple Phas
 
 The taken PhaseGroup might contains phases not needed, but are unused inside the phased area anyway.
 
-A full list of available PhaseGroups can be taken from [PhaseXPhaseGroup.db2](https://wow.tools/dbc/?dbc=phasexphasegroup){target=_blank}'s PhaseGroupID field.
+A full list of available PhaseGroups can be taken from [PhaseXPhaseGroup.db2](https://wago.tools/db2/phasexphasegroup){target=_blank}'s PhaseGroupID field.
 &nbsp;
 
 ### ScriptName
