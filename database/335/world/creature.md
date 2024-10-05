@@ -2,7 +2,7 @@
 title: creature
 description: 
 published: true
-date: 2024-05-16T11:19:31.560Z
+date: 2024-10-05T20:46:11.686Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:13.159Z
@@ -39,6 +39,7 @@ Contains individual creature spawn data. Spawn of a creature is an instance of t
 | [unit_flags](#unit_flags) | int | unsigned |  | NO | 0 |  |  |
 | [dynamicflags](#dynamicflags) | int | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | char(64) |  |  | YES | '' |  |  |
+| [StringId](#stringid) | varchar(64) |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -169,6 +170,10 @@ Same as [creature_template.dynamicflags](../world/creature_template#dynamicflags
 ### ScriptName
 The ScriptName for when scripting it in the core.
 This might also be 'SmartTrigger'. It will than use [SmartAI](../world/smart_scripts).
+&nbsp;
+
+### StringId
+*- no description -*
 &nbsp;
 
 ### VerifiedBuild
