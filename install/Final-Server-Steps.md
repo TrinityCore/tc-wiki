@@ -2,7 +2,7 @@
 title: Final Server Steps
 description: 
 published: true
-date: 2024-08-16T10:36:06.552Z
+date: 2024-10-06T14:21:01.452Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-20T14:36:59.826Z
@@ -92,6 +92,6 @@ Password: **test**
 If you still have any problem, check:
 
 - Updating or starting with TrinityCore issues, Trouble with your TrinityCore Install / Readme 1st / FAQs
-- [Ask help on the Forum.](https://community.trinitycore.org/)
+- [Ask help on the Forum.](https://talk.trinitycore.org/)
 - If you still have problems, you can try to ask help on [IRC](https://trinitycore.atlassian.net/wiki/spaces/tc/pages/2130200/IRC), but remember it's not real time 24/7 support, most of people there lives on GMT and they can be sleeping or working.
 
