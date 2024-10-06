@@ -2,7 +2,7 @@
 title: Client Setup
 description: 
 published: true
-date: 2024-08-12T11:01:13.698Z
+date: 2024-10-06T14:29:18.068Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-20T14:45:08.138Z
@@ -16,10 +16,10 @@ dateCreated: 2021-09-20T14:45:08.138Z
 - Example: **set realmlist 127.0.0.1**
 > (Optional) If you wish to use the WoW Launcher.exe to run your client then you must change your set patchlist to the same ip/dns name as your realmlist.
 
-## Master, wotlk_classic (wow 3.4.x), cata_classic (wow 4.4.x)
+## Master, cata_classic (wow 4.4.x)
 1. Change Config.wtf: **SET portal** "IP address used in realmlist table"
 - The IP in the Config.wtf file should be exactly the same as the IP address you entered in the - realmlist table above. (Example: **SET portal "127.0.0.1"**)
-> Note: you will need a custom client launcher to connect to master, wotlk_classic, cata_classic branches servers, i.e. https://arctium.io/wow
+> Note: you will need a custom client launcher to connect to master, cata_classic branches servers, i.e. https://arctium.io/wow
 
 > Supported Version
 Check https://github.com/TrinityCore/TrinityCore to find the exact client version supported by master branch.
