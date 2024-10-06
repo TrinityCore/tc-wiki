@@ -2,7 +2,7 @@
 title: Networking
 description: 
 published: true
-date: 2024-08-16T12:29:29.294Z
+date: 2024-10-06T14:09:55.683Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-20T14:27:15.045Z
@@ -33,12 +33,12 @@ If you need to connect to your database from one external machine, read https://
 Open the auth database and find the realmlist table. You need to edit the address field according to your needs:
 LAN IP (192.168.x.x) - If you are installing TrinityCore on a different computer from where you run WoW, but all the computers involved are on the same network (router) use that computer's Local Area Network IP.
 127.0.0.1 - Also known as "localhost". Leave this setting alone here and in your configs if you've installed TrinityCore on the same computer you run WoW on, and only you are connecting to it.
-External IP – If you want other people to connect to your server, use your external IP. Visit http://www.whatismyip.com/ to find your external IP address.
+External IP – If you want other people to connect to your server, use your external IP. Visit https://www.whatismyip.com/ to find your external IP address.
 
 ##  Help
 
 If you still have any problem, check:
 
 - Updating or starting with TrinityCore issues, Trouble with your TrinityCore Install / Readme 1st / FAQs
-- [Ask help on the Forum.](https://community.trinitycore.org/)
+- [Ask help on the Forum.](https://talk.trinitycore.org/)
 - If you still have problems, you can try to ask help on [IRC](https://trinitycore.atlassian.net/wiki/spaces/tc/pages/2130200/IRC), but remember it's not real time 24/7 support, most of people there lives on GMT and they can be sleeping or working.
