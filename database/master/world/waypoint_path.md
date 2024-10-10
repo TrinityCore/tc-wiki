@@ -2,7 +2,7 @@
 title: waypoint_path
 description: 
 published: true
-date: 2024-06-19T01:21:13.440Z
+date: 2024-10-10T21:15:10.745Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2024-02-11T20:26:37.382Z
@@ -26,14 +26,13 @@ dateCreated: 2024-02-11T20:26:37.382Z
 Unique ID for each path. 
 &nbsp;
 
-### MoveType
+### MoveType 
 | Name | Value |
 | ---- | ----- |
 | Walk | 0 |
 | Run | 1 |
-| Fly | 2 |
-| Land | 3 |
-| TakeOff | 4 |
+| Land | 2 |
+| TakeOff | 3 |
 &nbsp;
 
 ### Flags
