@@ -2,7 +2,7 @@
 title: creature_template_difficulty
 description: 
 published: true
-date: 2024-10-12T11:38:03.387Z
+date: 2024-10-22T16:25:34.752Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2023-05-29T22:25:06.332Z
@@ -69,15 +69,15 @@ dateCreated: 2023-05-29T22:25:06.332Z
 &nbsp;
 
 ### HealthModifier
-*- no description -*
+Used to modify the base Level/Class health of a creature. This field comes from WDB.
 &nbsp;
 
 ### ManaModifier
-*- no description -*
+Used to modify the base Level/Class mana of a creature. This field comes from WDB.
 &nbsp;
 
 ### ArmorModifier
-*- no description -*
+Used to modify the base Level/Class armor of a creature.
 &nbsp;
 
 ### DamageModifier
@@ -89,31 +89,78 @@ dateCreated: 2023-05-29T22:25:06.332Z
 &nbsp;
 
 ### TypeFlags
-*- no description -*
+| Value | Flag | Name | Comment |
+|-------|------|------|---------|
+| 1 | 0x00000001 | CREATURE_TYPE_FLAG_TAMEABLE | Makes the mob tameable (must also be a beast and have family set) |
+| 2 | 0x00000002 | CREATURE_TYPE_FLAG_VISIBLE_TO_GHOSTS | Creature is also visible for not alive player. Allows gossip interaction if npcflag allows? |
+| 4 | 0x00000004 | CREATURE_TYPE_FLAG_BOSS_MOB | Changes creature's visible level to "??" in the creature's portrait - Immune Knockback. |
+| 8 | 0x00000008 | CREATURE_TYPE_FLAG_DO_NOT_PLAY_WOUND_ANIM | Does not play wound animation on parry. |
+| 16 | 0x00000010 | CREATURE_TYPE_FLAG_NO_FACTION_TOOLTIP |  |
+| 32 | 0x00000020 | CREATURE_TYPE_FLAG_MORE_AUDIBLE | Sound related |
+| 64 | 0x00000040 | CREATURE_TYPE_FLAG_SPELL_ATTACKABLE |  |
+| 128 | 0x00000080 | CREATURE_TYPE_FLAG_INTERACT_WHILE_DEAD | Player can interact with the creature if creature is dead (not if player is dead) |
+| 256 | 0x00000100 | CREATURE_TYPE_FLAG_SKIN_WITH_HERBALISM | Makes mob herbable |
+| 512 | 0x00000200 | CREATURE_TYPE_FLAG_SKIN_WITH_MINING | Makes mob minable |
+| 1024 | 0x00000400 | CREATURE_TYPE_FLAG_NO_DEATH_MESSAGE | Death event will not show up in combat log |
+| 2048 | 0x00000800 | CREATURE_TYPE_FLAG_ALLOW_MOUNTED_COMBAT | Creature can remain mounted when entering combat |
+| 4096 | 0x00001000 | CREATURE_TYPE_FLAG_CAN_ASSIST | Can aid any player in combat if in range? |
+| 8192 | 0x00002000 | CREATURE_TYPE_FLAG_NO_PET_BAR |  |
+| 16384 | 0x00004000 | CREATURE_TYPE_FLAG_MASK_UID |  |
+| 32768 | 0x00008000 | CREATURE_TYPE_FLAG_SKIN_WITH_ENGINEERING | Makes mob lootable by engineer |
+| 65536 | 0x00010000 | CREATURE_TYPE_FLAG_EXOTIC_PET | Tamable as an exotic pet. Normal tamable flag must also be set. |
+| 131072 | 0x00020000 | CREATURE_TYPE_FLAG_USE_MODEL_COLLISION_SIZE | Collision related. (always using default collision box?) |
+| 262144 | 0x00040000 | CREATURE_TYPE_FLAG_ALLOW_INTERACTION_WHILE_IN_COMBAT |  |
+| 524288 | 0x00080000 | CREATURE_TYPE_FLAG_COLLIDE_WITH_MISSILES | Projectiles can collide with this creature - interacts with TARGET_DEST_TRAJ |
+| 1048576 | 0x00100000 | CREATURE_TYPE_FLAG_NO_NAME_PLATE |  |
+| 2097152 | 0x00200000 | CREATURE_TYPE_FLAG_DO_NOT_PLAY_MOUNTED_ANIMATIONS |  |
+| 4194304 | 0x00400000 | CREATURE_TYPE_FLAG_LINK_ALL |  |
+| 8388608 | 0x00800000 | CREATURE_TYPE_FLAG_INTERACT_ONLY_WITH_CREATOR | Can only interact with its creator. |
+| 16777216 | 0x01000000 | CREATURE_TYPE_FLAG_DO_NOT_PLAY_UNIT_EVENT_SOUNDS |  |
+| 33554432 | 0x02000000 | CREATURE_TYPE_FLAG_HAS_NO_SHADOW_BLOB |  |
+| 67108864 | 0x04000000 | CREATURE_TYPE_FLAG_TREAT_AS_RAID_UNIT | Creature can be targeted by spells that require target to be in caster's party/raid |
+| 134217728 | 0x08000000 | CREATURE_TYPE_FLAG_FORCE_GOSSIP | Allows the creature to display a single gossip option. |
+| 268435456 | 0x10000000 | CREATURE_TYPE_FLAG_DO_NOT_SHEATHE |  |
+| 536870912 | 0x20000000 | CREATURE_TYPE_FLAG_DO_NOT_TARGET_ON_INTERACTION |  |
+| 1073741824 | 0x40000000 | CREATURE_TYPE_FLAG_DO_NOT_RENDER_OBJECT_NAME |  |
+| 2147483648 | 0x80000000 | CREATURE_TYPE_FLAG_QUEST_BOSS |  |
+{.dense}
+
 &nbsp;
 
 ### TypeFlags2
-*- no description -*
+| Value | Flag | Name |
+|-------|------|------|
+| 1 | CREATURE_TYPE_FLAG_2_UNK1 | 0x00000001 |
+| 2 | CREATURE_TYPE_FLAG_2_UNK2 | 0x00000002 |
+| 4 | CREATURE_TYPE_FLAG_2_UNK3 | 0x00000004 |
+| 8 | CREATURE_TYPE_FLAG_2_UNK4 | 0x00000008 |
+| 16 | CREATURE_TYPE_FLAG_2_UNK5 | 0x00000010 |
+| 32 | CREATURE_TYPE_FLAG_2_UNK6 | 0x00000020 |
+| 64 | CREATURE_TYPE_FLAG_2_UNK7 | 0x00000040 |
+| 128 | CREATURE_TYPE_FLAG_2_UNK8 | 0x00000080 |
 &nbsp;
 
 ### LootID
-*- no description -*
+The ID of the creature_loot_template that this creature should use to generate loot.
+[loot_template.relations](/en/database/master/world/loot_template#relations)
 &nbsp;
 
 ### PickPocketLootID
-*- no description -*
+The ID of the pickpocketing_loot_template that this creature should use to generate pickpocketing loot.
+[loot_template.relations](/en/database/master/world/loot_template#relations)
 &nbsp;
 
 ### SkinLootID
-*- no description -*
+The ID of the skinning_loot_template that this creature should use to generate skinning loot.
+[loot_template.relations](/en/database/master/world/loot_template#relations)
 &nbsp;
 
 ### GoldMin
-*- no description -*
+Minimum money that the creature drops when killed, in copper.
 &nbsp;
 
 ### GoldMax
-*- no description -*
+Maximum money that the creature drops when killed, in copper.
 &nbsp;
 
 ### StaticFlags1
