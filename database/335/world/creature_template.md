@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2024-10-05T20:53:50.998Z
+date: 2024-10-25T12:55:47.126Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:50.335Z
@@ -148,7 +148,7 @@ The minimum level of the creature if the creature has a level range.
 &nbsp;
 
 ### maxlevel
-The maximum level of the creature if the creature has a level range. When added to world, a level in chosen in the specified level range.
+The maximum level of the creature if the creature has a level range. When added to the world, a random level is chosen within the specified level range.
 &nbsp;
 
 ### exp
