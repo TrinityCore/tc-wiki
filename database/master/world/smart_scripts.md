@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2024-10-22T15:58:24.373Z
+date: 2024-10-28T20:35:12.328Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -433,6 +433,7 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_TRIGGER_GAME_EVENT | 150 | eventId |  |  |  |  |  |  |  |
 | SMART_ACTION_DO_ACTION | 151 | actionId |  |  |  |  |  |  |  |
 | SMART_ACTION_COMPLETE_QUEST | 152 | [quest_template.ID](/en/database/master/world/quest_template#id) |  |  |  |  |  |  | Complete quest with:<br/>*QUEST_FLAGS_COMPLETION_EVENT, QUEST_FLAGS_COMPLETION_AREA_TRIGGER or QUEST_FLAGS_TRACKING_EVENT* |
+| SMART_ACTION_CREDIT_QUEST_OBJECTIVE_TALK_TO | 153 |  |  |  |  |  |  |  | Only valid for SMART_SCRIPT_TYPE_CREATURE |
 {.dense}
 
 > Please note :warning:means that the action_type is deprecated and should not be used.
