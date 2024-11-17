@@ -2,7 +2,7 @@
 title: creature
 description: 
 published: true
-date: 2024-10-05T20:46:11.686Z
+date: 2024-11-17T19:00:27.845Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:13.159Z
@@ -133,6 +133,7 @@ The current waypoint number that the creature is on, if any. (see [waypoint_data
 
 ### curhealth
 The current health that the creature has.
+This column is used only if [RegenHealth](https://trinitycore.info/en/database/335/world/creature_template#regenhealth) is disabled.
 &nbsp;
 
 ### curmana
