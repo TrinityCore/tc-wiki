@@ -2,7 +2,7 @@
 title: gameobject_template
 description: 
 published: true
-date: 2023-10-22T15:59:12.204Z
+date: 2024-11-22T19:39:07.186Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:31:56.235Z
@@ -228,6 +228,21 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 15 | groupLootRules | 0, 1 | use group loot ruleset |
 | 16 | floatingTooltip | 0, 1 | unused |
 | 17 | conditionID1 | 0 | unused |
+| 18 | xplevel |  |  |
+| 19 | xpDifficulty |  |  |
+| 20 | lootlevel |  |  |
+| 21 | Group Xp |  |  |
+| 22 | Damage Immune |  |  |
+| 23 | trivialSkillLow |  |  |
+| 24 | trivialSkillHigh |  |  |
+| 25 | Dungeon Encounter |  |  |
+| 26 | spell |  |  |
+| 27 | GiganticAOI |  |  |
+| 28 | LargeAOI |  |  |
+| 29 | spawnVignette |  |  |
+| 30 | chestPersonalLoot |  |  |
+| 31 | turnpersonallootsecurityoff |  |  |
+| 32 | Chestproperties |  |  |
 {.dense}
 
 **_GAMEOBJECT_TYPE_BINDER (4)_**
