@@ -1,6 +1,6 @@
 ---
 title: battle_pets
-description: 
+description:
 published: true
 date: 2022-11-21T20:58:24.335Z
 tags: database, auth, master
@@ -40,11 +40,11 @@ The battle pet global unique identifier.
 &nbsp;
 
 ### species
-ID from [BattlePetSpecies.db2](https://wow.tools/dbc/?dbc=battlepetspecies){target=_blank}.
+ID from [BattlePetSpecies.db2](https://wago.tools/db2/battlepetspecies){target=_blank}.
 &nbsp;
 
 ### breed
-BattlePetBreedID from [BattlePetBreedState.db2](https://wow.tools/dbc/?dbc=battlepetbreedstate){target=_blank}.
+BattlePetBreedID from [BattlePetBreedState.db2](https://wago.tools/db2/battlepetbreedstate){target=_blank}.
 &nbsp;
 
 ### displayId

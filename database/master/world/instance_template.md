@@ -1,6 +1,6 @@
 ---
 title: instance_template
-description: 
+description:
 published: true
 date: 2023-04-01T23:57:10.066Z
 tags: database, master, world
@@ -21,7 +21,7 @@ dateCreated: 2021-08-30T09:32:34.977Z
 ## Description of fields
 
 ### map
-The map ID of the instance. See [Map.db2](https://wow.tools/dbc/?dbc=Map){target=blank}
+The map ID of the instance. See [Map.db2](https://wago.tools/db2/Map){target=blank}
 &nbsp;
 
 ### parent

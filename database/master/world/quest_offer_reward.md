@@ -1,6 +1,6 @@
 ---
 title: quest_offer_reward
-description: 
+description:
 published: true
 date: 2022-12-19T18:40:58.945Z
 tags: database, master, world
@@ -33,7 +33,7 @@ references [quest_template.ID](../world/quest_template#id)
 &nbsp;
 
 ### Emote\[1-4]
-[Emote ID](https://wow.tools/dbc/?dbc=emotes) played by NPC.
+[Emote ID](https://wago.tools/db2/emotes) played by NPC.
 &nbsp;
 
 ### EmoteDelay\[1-4]

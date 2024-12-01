@@ -1,6 +1,6 @@
 ---
 title: game_event
-description: 
+description:
 published: true
 date: 2023-03-27T15:08:46.515Z
 tags: database, master, world
@@ -49,11 +49,11 @@ This value must be lower than occurrence one or the event will never stop.
 &nbsp;
 
 ### holiday
-HolidayID from [Holidays.db2](https://wow.tools/dbc/?dbc=holidays){target=_blank}
+HolidayID from [Holidays.db2](https://wago.tools/db2/holidays){target=_blank}
 &nbsp;
 
 ### holidayStage
-Index of the main event stage. (see [HolidayDuration](https://wow.tools/dbc/?dbc=holidays))
+Index of the main event stage. (see [HolidayDuration](https://wago.tools/db2/holidays))
 
 (e.g.: Darkmoon Faire has a preparation stage where it sets up.)
 

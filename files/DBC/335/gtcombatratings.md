@@ -10,13 +10,12 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 <a href="https://trinitycore.info/files/DBC/335/gtchancetospellcritbase" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'GtChanceToSpellCritBase'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/DBC" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to DBCs (3.3.5a)</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/gtnpcmanacostscaler" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'GtNPCManaCostScaler'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
 # GtCombatRatings.dbc
-##### :open_book: Content on [WoW.tools](https://wow.tools/dbc/?dbc=gtcombatratings&build=3.3.5.12340)
 ##### :pencil: Structure on [wowdev.wiki](https://wowdev.wiki/DB/GtCombatRatings)
 &nbsp;
 
 > Game Table:
 > This dbc file is not indexed, but **Data** is stored in a fixed order.
-> [Entries: 100 x 32](https://wow.tools/dbc/?dbc=gametables&build=3.3.5.12340#page=1&colFilter[0]=exact%3ACombatRatings)
+> Entries: 100 x 32 (see [GameTables](/files/DBC/335/gametables) data)
 {.is-info}
 
 > :x: denotes unused fields

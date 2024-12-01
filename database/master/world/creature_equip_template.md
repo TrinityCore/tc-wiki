@@ -1,6 +1,6 @@
 ---
 title: creature_equip_template
-description: 
+description:
 published: true
 date: 2022-11-21T21:03:56.318Z
 tags: database, master, world
@@ -38,42 +38,42 @@ An additional identifier for each individual entry, enabling multiple equipment 
 &nbsp;
 
 ### ItemID1
-This is the item number of the equipment used in the right hand from [ItemSparse.db2](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} or [Item.db2](https://wow.tools/dbc/?dbc=item){target=_blank}.
+This is the item number of the equipment used in the right hand from [ItemSparse.db2](https://wago.tools/db2/itemsparse){target=_blank} or [Item.db2](https://wago.tools/db2/item){target=_blank}.
 &nbsp;
 
 ### AppearanceModID1
 ItemID + AppearanceModID together form a key to get DisplayID.
-Check: [ItemModifiedAppearance.db2](https://wow.tools/dbc/?dbc=itemmodifiedappearance){target=_blank}
+Check: [ItemModifiedAppearance.db2](https://wago.tools/db2/itemmodifiedappearance){target=_blank}
 &nbsp;
 
 ### ItemVisual1
-ItemVisual is ID for [ItemVisuals.db2](https://wow.tools/dbc/?dbc=itemvisuals){target=_blank}, for e.g. enchant visuals.
+ItemVisual is ID for [ItemVisuals.db2](https://wago.tools/db2/itemvisuals){target=_blank}, for e.g. enchant visuals.
 &nbsp;
 
 ### ItemID2
-This is the item number of the equipment used in the left hand from [ItemSparse.db2](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} or [Item.db2](https://wow.tools/dbc/?dbc=item){target=_blank}.
+This is the item number of the equipment used in the left hand from [ItemSparse.db2](https://wago.tools/db2/itemsparse){target=_blank} or [Item.db2](https://wago.tools/db2/item){target=_blank}.
 &nbsp;
 
 ### AppearanceModID2
 ItemID + AppearanceModID together form a key to get DisplayID.
-Check: [ItemModifiedAppearance.db2](https://wow.tools/dbc/?dbc=itemmodifiedappearance){target=_blank}
+Check: [ItemModifiedAppearance.db2](https://wago.tools/db2/itemmodifiedappearance){target=_blank}
 &nbsp;
 
 ### ItemVisual2
-ItemVisual is ID for [ItemVisuals.db2](https://wow.tools/dbc/?dbc=itemvisuals){target=_blank}, for e.g. enchant visuals.
+ItemVisual is ID for [ItemVisuals.db2](https://wago.tools/db2/itemvisuals){target=_blank}, for e.g. enchant visuals.
 &nbsp;
 
 ### ItemID3
-This is the item number of the equipment used in the ranged slot from [ItemSparse.db2](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} or [Item.db2](https://wow.tools/dbc/?dbc=item){target=_blank}.
+This is the item number of the equipment used in the ranged slot from [ItemSparse.db2](https://wago.tools/db2/itemsparse){target=_blank} or [Item.db2](https://wago.tools/db2/item){target=_blank}.
 &nbsp;
 
 ### AppearanceModID3
 ItemID + AppearanceModID together form a key to get DisplayID.
-Check: [ItemModifiedAppearance.db2](https://wow.tools/dbc/?dbc=itemmodifiedappearance){target=_blank}
+Check: [ItemModifiedAppearance.db2](https://wago.tools/db2/itemmodifiedappearance){target=_blank}
 &nbsp;
 
 ### ItemVisual3
-ItemVisual is ID for [ItemVisuals.db2](https://wow.tools/dbc/?dbc=itemvisuals){target=_blank}, for e.g. enchant visuals.
+ItemVisual is ID for [ItemVisuals.db2](https://wago.tools/db2/itemvisuals){target=_blank}, for e.g. enchant visuals.
 &nbsp;
 
 ### VerifiedBuild
@@ -90,4 +90,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/creature_classlevelstats" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'creature_classlevelstats'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/creature_formations" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'creature_formations'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

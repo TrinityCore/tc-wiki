@@ -1,6 +1,6 @@
 ---
 title: Map.dbc
-description: 
+description:
 published: true
 date: 2023-10-08T14:11:58.616Z
 tags: 3.3.5, 3.3.5a, 335, 335a, wotlk, dbc, database client
@@ -11,7 +11,6 @@ dateCreated: 2023-10-04T08:05:31.322Z
 <a href="https://trinitycore.info/files/DBC/335/mailtemplate" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'MailTemplate'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/DBC" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to DBCs (3.3.5a)</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/mapdifficulty" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'MapDifficulty'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
 # Map.dbc
-##### :open_book: Content on [WoW.tools](https://wow.tools/dbc/?dbc=map&build=3.3.5.12340)
 ##### :pencil: Structure on [wowdev.wiki](https://wowdev.wiki/DB/Map)
 &nbsp;
 

@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T09:28:51.767Z
 ## Description of fields
 
 ### entry
-This is the trigger identifier from [AreaTrigger.db2](https://wow.tools/dbc/?dbc=areatrigger){target=_blank}.
+This is the trigger identifier from [AreaTrigger.db2](https://wago.tools/db2/areatrigger){target=_blank}.
 
 > ScriptNames for new areatrigger system are applied inside [areatrigger_template.ScriptName](/database/master/world/areatrigger_template#scriptname)
 {.is-info}
