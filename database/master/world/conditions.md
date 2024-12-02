@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2024-09-09T17:27:18.896Z
+date: 2024-12-02T21:30:59.111Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -56,7 +56,7 @@ dateCreated: 2021-08-30T09:29:30.449Z
 | CONDITION_SOURCE_TYPE_GOSSIP_MENU_OPTION | 15 | gossip_menu_option.menu_id (menu entry) | gossip_menu_option.id | Always 0 | 0 = Player<br/>1 = WorldObject |  |
 | CONDITION_SOURCE_TYPE_CREATURE_TEMPLATE_VEHICLE | 16 | Always 0 | creature entry (creature_template.entry) | Always 0 | 0 = Player riding vehicle<br/>1 = Vehicle creature |  |
 | CONDITION_SOURCE_TYPE_SPELL | 17 | Always 0 | SpellID | Always 0 | 0 = Spell aster<br/>1 =  Explicit target of the spell<br/>(only for spells which take the object<br/>selected by caster into account) | <ul><li>This source type allows you to define caster/explicit target requirements for spell to be cast.</li><li>Explicit target of the spell is the target which is selected by player during cast, not all spells take that target into account.<br/>non-explicit targets of the spell (the ones which are selected by spell like area or nearby targets for example) <br/>are not affected by this condition source type, if you want to affect those use CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET instead.</li><li>If you are looking for old CONDITION_SOURCE_TYPE_ITEM_REQUIRED_TARGET, use this condition source type instead<br/>(ConditionTarget = 1 allows you to set requirements for a given spell, so to use this condition type you need spellid of the spell cast on item use).</li><li>Remember that conditions with the same ElseGroup value will be used to make logical AND check,<br/>so to allow different targets for the same spell effect you have to set ElseGroup respectively.</li></ul> |
-| CONDITION_SOURCE_TYPE_SPELL_CLICK_EVENT | 18 | creature entry (npc_spellclick_spells.npc_entry) | Spell (npc_spellclick_spells.spell_id) | Always 0 | 0 = Clicker<br/>1 =  Spellclick target (clickee) |  |
+| CONDITION_SOURCE_TYPE_SPELL_CLICK_EVENT | 18 | [npc_spellclick_spells.npc_entry](/en/database/master/world/npc_spellclick_spells#npc_entry) | [npc_spellclick_spells.spell_id](/en/database/master/world/npc_spellclick_spells#spell_id) | Always 0 | 0 = Clicker<br/>1 =  Spellclick target (clickee) |  |
 | CONDITION_SOURCE_TYPE_QUEST_AVAILABLE | 19 | Always 0 | [quest_template.ID](/en/database/master/world/quest_template#id) | Always 0 | 	Always 0 | Condition must be met for quest to be available to player. |
 | ~~UNUSED~~ | 20 |  |  |  |  |  |
 | CONDITION_SOURCE_TYPE_VEHICLE_SPELL | 21 | [creature_template_spell.CreatureID](/en/database/master/world/creature_template_spell#creatureid) | [creature_template_spell.Spell](/en/database/master/world/creature_template_spell#spell) | Always 0 | 0 = Player for whom spell bar is shown<br/>1 = Vehicle creature | This will show or hide spells in vehicle spell bar. |
@@ -67,7 +67,7 @@ dateCreated: 2021-08-30T09:29:30.449Z
 | CONDITION_SOURCE_TYPE_PHASE | 26 | [phase_area.PhaseId](/en/database/master/world/phase_area#phaseid) | [phase_area.AreaId](/en/database/master/world/phase_area#areaid) (0 for any area) | Always 0 | Always 0 |  |
 | CONDITION_SOURCE_TYPE_GRAVEYARD | 27 | [graveyard_zone.GhostZone](/en/database/master/world/graveyard_zone#ghostzone) | [graveyard_zone.ID](/en/database/master/world/graveyard_zone#id) | Always 0 | Always 0 |  |
 | CONDITION_SOURCE_TYPE_AREATRIGGER | 28 | [areatrigger_template.Id](/en/database/master/world/areatrigger_template#id) | [areatrigger_template.IsCustom](/en/database/master/world/areatrigger_template#iscustom) | Always 0 | Always 0 |  |
-| CONDITION_SOURCE_TYPE_CONVERSATION_LINE | 29 | Always 0 | ConversationLineID | Always 0 | Always 0 |  |
+| CONDITION_SOURCE_TYPE_CONVERSATION_LINE | 29 | Always 0 | [conversation_line_template.Id](/en/database/master/world/conversation_line_template#id) | Always 0 | Always 0 |  |
 | CONDITION_SOURCE_TYPE_AREATRIGGER_CLIENT_TRIGGERED | 30 | Always 0 | AreatriggerID | Always 0 | Always 0 |  |
 | CONDITION_SOURCE_TYPE_TRAINER_SPELL | 31 | [trainer_spell.TrainerId](/en/database/master/world/trainer_spell#trainerid) | [trainer_spell.SpellId](/en/database/master/world/trainer_spell#spellid) | Always 0 | Always 0 |  |
 | CONDITION_SOURCE_TYPE_OBJECT_ID_VISIBILITY | 32 | ObjectType:<br/>5 = Unit<br/>8 = GameObject | CreatureID / GameObjectID | Always 0 | Always 0 |  |
@@ -162,6 +162,7 @@ Two conditions with the same SourceType, SourceGroup and SourceEntry but with a 
 | CONDITION_PLAYER_CONDITION | 56 | PlayerConditionId | Always 0 | Always 0 | true if player satisfies PlayerCondition |
 | CONDITION_PRIVATE_OBJECT | 57 | Always 0 | Always 0 | Always 0 | true if entity is private object |
 | CONDITION_STRING_ID | 58 | Always 0 | Always 0 | Always 0 | true if entity uses string id (ConditionStringValue1) |
+| CONDITION_LABEL | 59 | Label | Always 0 | Always 0 | true if creature/gameobject has specified Label in CreatureLabel.db2/GameObjectLabel.db2 |
 {.dense}
 
 > Please note :warning:means that the ConditionType is deprecated and should not be used.
