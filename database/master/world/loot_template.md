@@ -2,7 +2,7 @@
 title: *_loot_template
 description: 
 published: true
-date: 2024-12-27T22:16:45.696Z
+date: 2024-12-27T22:19:07.496Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2022-04-19T10:04:49.757Z
@@ -65,17 +65,9 @@ Agreements on **Entry** field values are described [there](#agreements).
 
 ### ItemType
 Changes what [Item](#item) column refers to
-0 - Item ID
+0 - [Item ID](https://wago.tools/db2/ItemSparse) of the item which is included into the loot.
 1 - [Reference](#reference)
-2 - Currency ID
-
-### Item
-[Item ID](https://wow.tools/dbc/?dbc=itemsparse) of the item which is included into the loot.
-
-> Note: For reference entries this field has no meaning and is not used by the core in any way. Yet because of the PRIMARY KEY on the entry + item combination, this field will nonetheless need to be a unique number for each reference entry so that no indexing conflicts arise.
-{.is-info}
-
-&nbsp;
+2 - [Currency ID](https://wago.tools/db2/CurrencyTypes) of the currency which is included into the loot.
 
 ### Reference
 Template reference asks core to process another loot template and to include all items dropped for that template into current loot. Simple idea.
