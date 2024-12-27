@@ -2,7 +2,7 @@
 title: *_loot_template
 description: 
 published: true
-date: 2023-10-22T19:26:01.946Z
+date: 2024-12-27T22:16:45.696Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2022-04-19T10:04:49.757Z
@@ -22,8 +22,8 @@ Loot templates define only items in the loot. See comments about money drop in c
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [Entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
+| [ItemType](#item) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [Item](#item) | int | unsigned | PRI | NO | 0 |  |  |
-| [Reference](#reference) | int | unsigned |  | NO | 0 |  |  |
 | [Chance](#chance) | float |  |  | NO | 100 |  |  |
 | [QuestRequired](#questrequired) | tinyint(1) | signed |  | NO | 0 |  |  |
 | [LootMode](#lootmode) | smallint | unsigned |  | NO | 1 |  |  |
@@ -46,7 +46,7 @@ The 12 tables have different relations with other DB tables.
 | pickpocketing_loot_template | entry | many <- many | [creature_template](/en/database/master/world/creature_template){target=_blank} | [pickpocketloot](/en/database/master/world/creature_template#pickpocketloot){target=_blank} |  |
 | skinning_loot_template | entry | many <- many | [creature_template](/en/database/master/world/creature_template){target=_blank} | [skinloot](/en/database/master/world/creature_template#skinloot){target=_blank}  |  |
 | quest_mail_loot_template | entry |  | [quest_template_addon](/en/database/master/world/quest_template_addon){target=_blank} | [RewardMailTemplateID](/en/database/master/world/quest_template_addon#rewardmailtemplateid){target=_blank} |  |
-| reference_loot_template | entry | many <- many | *_loot_template | [Reference](#reference) |  |
+| reference_loot_template | entry | many <- many | *_loot_template | [Item](#reference) (if ItemType = 1) |  |
 | spell_loot_template | entry | many <- many | [Spell.db2 (wow.tools)](https://wow.tools/dbc/?dbc=spell){target=_blank} or [SpellName.db2 (wow.tools)](https://wow.tools/dbc/?dbc=spellname){target=_blank} | ID |  |
 &nbsp;
 ## Description of fields
@@ -62,6 +62,12 @@ When a common or artificial loot template is used a problem arises: what ID to u
 
 Agreements on **Entry** field values are described [there](#agreements).
 &nbsp;
+
+### ItemType
+Changes what [Item](#item) column refers to
+0 - Item ID
+1 - [Reference](#reference)
+2 - Currency ID
 
 ### Item
 [Item ID](https://wow.tools/dbc/?dbc=itemsparse) of the item which is included into the loot.
