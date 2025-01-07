@@ -2,7 +2,7 @@
 title: Networking
 description: 
 published: true
-date: 2024-10-06T14:09:55.683Z
+date: 2025-01-07T13:04:01.341Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-20T14:27:15.045Z
@@ -21,7 +21,7 @@ This guide is not meant to replace the How-to guides for your particular operati
 For almost all basic setup scenarios the default localhost (127.0.0.1) IP settings should be left alone. The default bindip (0.0.0.0) should be left alone as well.
 
 Setting the auth database realmlist for internet connections
-This is where you have to use your internet IP so clients from the internet can find your server. You have to have the ports 3724 (3.3.5a / 4.3.4 authserver(legacy)) and 8085 (3.3.5a, 4.3.4 worldserver(legacy)), 1119, 8085, 8086 (4.3.4 TCPP) and 1119, 8081, 8085, 8086 (master only) forwarded or open from your router / firewall, if you plan to have different version servers you will need to use a different worldserver ports for the other versions. 
+This is where you have to use your internet IP so clients from the internet can find your server. You have to have the ports 3724 (3.3.5a / 4.3.4 authserver(legacy)) and 8085 (3.3.5a, 4.3.4 worldserver(legacy)), 1119, 8085, 8086 (4.3.4 TCPP) and 1119, 8081, 8085 (master only) forwarded or open from your router / firewall, if you plan to have different version servers you will need to use a different worldserver ports for the other versions. 
 
 ## Realmlist Table
 
