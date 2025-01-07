@@ -2,7 +2,7 @@
 title: Docker Core Installation
 description: 
 published: true
-date: 2024-03-08T00:08:21.529Z
+date: 2025-01-07T13:05:01.609Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-08T00:08:21.529Z
@@ -58,8 +58,7 @@ services:
       - ./configs:/home/circleci/project/bin/check_install/etc
       - ./data:/trinity/data
     ports:
-      - 8085:8085 
-      - 8086:8086 
+      - 8085:8085
     depends_on:
       - mysql
     networks:
