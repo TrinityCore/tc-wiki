@@ -2,7 +2,7 @@
 title: Characters
 description: 
 published: true
-date: 2022-12-19T18:37:22.976Z
+date: 2025-01-08T19:17:25.805Z
 tags: database, master, characters
 editor: markdown
 dateCreated: 2021-08-28T20:36:56.913Z
@@ -63,6 +63,7 @@ dateCreated: 2021-08-28T20:36:56.913Z
 - [character_queststatus_objectives](/database/master/characters/character_queststatus_objectives)
 - [character_queststatus_objectives_criteria](/database/master/characters/character_queststatus_objectives_criteria)
 - [character_queststatus_objectives_criteria_progress](/database/master/characters/character_queststatus_objectives_criteria_progress)
+- [character_queststatus_objectives_spawn_tracking](/database/master/characters/character_queststatus_objectives_spawn_tracking)
 - [character_queststatus_rewarded](/database/master/characters/character_queststatus_rewarded)
 - [character_queststatus_seasonal](/database/master/characters/character_queststatus_seasonal)
 - [character_queststatus_weekly](/database/master/characters/character_queststatus_weekly)
