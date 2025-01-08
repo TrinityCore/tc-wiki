@@ -2,10 +2,10 @@
 title: World
 description: 
 published: true
-date: 2024-09-05T22:48:41.584Z
+date: 2025-01-08T19:19:33.098Z
 tags: database, master, world
 editor: markdown
-dateCreated: 2021-08-30T06:00:00.000Z
+dateCreated: 2021-08-28T21:01:17.438Z
 ---
 
 ## a
@@ -247,6 +247,10 @@ dateCreated: 2021-08-30T06:00:00.000Z
 - [smart_scripts](/database/master/world/smart_scripts)
 - [spawn_group](/database/master/world/spawn_group)
 - [spawn_group_template](/database/master/world/spawn_group_template)
+- [spawn_tracking](/database/master/world/spawn_tracking)
+- [spawn_tracking_quest_objective](/database/master/world/spawn_tracking_quest_objective)
+- [spawn_tracking_state](/database/master/world/spawn_tracking_state)
+- [spawn_tracking_template](/database/master/world/spawn_tracking_template)
 - [spell_area](/database/master/world/spell_area)
 - [spell_custom_attr](/database/master/world/spell_custom_attr)
 - [spell_enchant_proc_data](/database/master/world/spell_enchant_proc_data)
