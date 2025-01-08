@@ -2,7 +2,7 @@
 title: spawn_tracking_quest_objective
 description: 
 published: true
-date: 2025-01-08T23:43:09.237Z
+date: 2025-01-08T23:48:31.352Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2025-01-08T23:43:09.237Z
@@ -27,6 +27,7 @@ SpawnTracking ID linked to the quest objective. It must match a SpawnTracking al
 ### QuestObjectiveId
 An existing [quest_objectives.Id](/en/database/master/world/quest_objectives#id).
 Some SpawnTrackings are reused for several quest objectives.
+&nbsp;
 
 ### VerifiedBuild
 This field is used by the TrinityDB Team to determine whether a template has been verified from WDB files.
