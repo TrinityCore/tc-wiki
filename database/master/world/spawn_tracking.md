@@ -2,7 +2,7 @@
 title: spawn_tracking
 description: 
 published: true
-date: 2025-01-08T22:45:39.951Z
+date: 2025-01-08T22:51:44.255Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2025-01-08T22:45:39.951Z
@@ -30,11 +30,14 @@ SpawnTracking ID for the spawn. It must match a SpawnTracking already existing i
 | ---------- | ---------------- |
 |          0 | For creatures    |
 |          1 | For gameobjects  |
+<!-- {table:.dense} -->
 &nbsp;
 
 ### SpawnId
 Spawn ID/GUID of the creature/game object that should be included in the group. The GUID must exist in the [creature](/en/database/master/world/creature) or [gameobject](/en/database/master/world/gameobject) tables respectively.
-&nbsp;
+
+> Spawn must use the same Phase, PhaseGroup and PhaseUseFlags as the SpawnTracking template.
+{.is-info}
 
 ### QuestObjectiveId
 An existing [quest_objectives.Id](/en/database/master/world/quest_objectives#id).
