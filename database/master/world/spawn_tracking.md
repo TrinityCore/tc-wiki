@@ -2,7 +2,7 @@
 title: spawn_tracking
 description: 
 published: true
-date: 2025-01-08T23:40:20.807Z
+date: 2025-01-08T23:43:32.203Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2025-01-08T22:45:39.951Z
