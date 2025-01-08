@@ -2,7 +2,7 @@
 title: spawn_tracking_template
 description: 
 published: true
-date: 2025-01-08T23:33:01.586Z
+date: 2025-01-08T23:33:15.615Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2025-01-08T23:21:39.303Z
@@ -15,8 +15,8 @@ dateCreated: 2025-01-08T23:21:39.303Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [SpawnTrackingId](#spawntrackingid) | int | unsigned | PRI | NO |  |  |  |
-| [MapId](#mapid) | smallint | unsigned | | NO | 0 |  |  |
-| [PhaseId](#phaseid) | int | signed | PRI | NO | 0 |  |  |
+| [MapId](#mapid) | smallint | unsigned |  | NO | 0 |  |  |
+| [PhaseId](#phaseid) | int | signed |  | NO | 0 |  |  |
 | [PhaseGroup](#phasegroup) | int | signed |  | NO | 0 |  |  |
 | [PhaseUseFlags](#phaseuseflags) | tinyint | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
