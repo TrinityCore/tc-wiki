@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2024-12-02T21:30:59.111Z
+date: 2025-01-11T00:08:32.521Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -70,7 +70,7 @@ dateCreated: 2021-08-30T09:29:30.449Z
 | CONDITION_SOURCE_TYPE_CONVERSATION_LINE | 29 | Always 0 | [conversation_line_template.Id](/en/database/master/world/conversation_line_template#id) | Always 0 | Always 0 |  |
 | CONDITION_SOURCE_TYPE_AREATRIGGER_CLIENT_TRIGGERED | 30 | Always 0 | AreatriggerID | Always 0 | Always 0 |  |
 | CONDITION_SOURCE_TYPE_TRAINER_SPELL | 31 | [trainer_spell.TrainerId](/en/database/master/world/trainer_spell#trainerid) | [trainer_spell.SpellId](/en/database/master/world/trainer_spell#spellid) | Always 0 | Always 0 |  |
-| CONDITION_SOURCE_TYPE_OBJECT_ID_VISIBILITY | 32 | ObjectType:<br/>5 = Unit<br/>8 = GameObject | CreatureID / GameObjectID | Always 0 | Always 0 |  |
+| CONDITION_SOURCE_TYPE_OBJECT_ID_VISIBILITY | 32 | ObjectType:<br/>5 = Unit<br/>8 = GameObject | CreatureID / GameObjectID | Always 0 | 0 = Player<br/>1 = WorldObject |  |
 | CONDITION_SOURCE_TYPE_SPAWN_GROUP | 33 | Always 0 | [spawn_group_template.groupId](/en/database/master/world/spawn_group_template#groupid) | Always 0 | Always 0 |  |
 | CONDITION_SOURCE_TYPE_PLAYER_CONDITION | 34 | Always 0 | PlayerConditionID | Always 0 | Always 0 |  |
 
