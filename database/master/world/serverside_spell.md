@@ -2,7 +2,7 @@
 title: serverside_spell
 description: 
 published: true
-date: 2023-08-07T19:38:20.671Z
+date: 2025-01-23T20:25:16.927Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:10.897Z
@@ -34,6 +34,7 @@ dateCreated: 2021-08-30T09:36:10.897Z
 | [AttributesEx12](#attributesex12) | int | unsigned |  | NO | 0 |  |  |
 | [AttributesEx13](#attributesex13) | int | unsigned |  | NO | 0 |  |  |
 | [AttributesEx14](#attributesex14) | int | unsigned |  | NO | 0 |  |  |
+| [AttributesEx15](#attributesex15) | int | unsigned |  | NO | 0 |  |  |
 | [Stances](#stances) | bigint | unsigned |  | NO | 0 |  |  |
 | [StancesNot](#stancesnot) | bigint | unsigned |  | NO | 0 |  |  |
 | [Targets](#targets) | int | unsigned |  | NO | 0 |  |  |
@@ -671,6 +672,12 @@ dateCreated: 2021-08-30T09:36:10.897Z
 | SPELL_ATTR14_UNK29 | 0x20000000 | Unknown attribute 29@Attr14|
 | SPELL_ATTR14_UNK30 | 0x40000000 | Unknown attribute 30@Attr14|
 | SPELL_ATTR14_UNK31 | 0x80000000 | Unknown attribute 31@Attr14|
+&nbsp;
+
+### AttributesEx15
+| Name | Hex | Comment |
+| :--- | :--- | :--- |
+|  |  |  |
 &nbsp;
 
 ### Stances
