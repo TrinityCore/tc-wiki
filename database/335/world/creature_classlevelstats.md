@@ -2,7 +2,7 @@
 title: creature_classlevelstats
 description: 
 published: true
-date: 2025-02-02T13:45:16.365Z
+date: 2025-02-02T13:48:32.761Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:18.477Z
@@ -21,7 +21,7 @@ This table contains the base values for creatures' health, mana and armor.
 | [basehp0](#basehp0) | int | unsigned |  | NO | 1 |  |  |
 | [basehp1](#basehp1) | int | unsigned |  | NO | 1 |  |  |
 | [basehp2](#basehp2) | int | unsigned |  | NO | 1 |  |  |
-| [basemana](#basemana) | int | unsigned |  | NO | 0 |  |  |
+| [basemana](#basemana) | int | unsigned |  | NO | 1 |  |  |
 | [basearmor](#basearmor) | int | unsigned |  | NO | 1 |  |  |
 | [attackpower](#attackpower) | smallint | unsigned |  | NO | 0 |  |  |
 | [rangedattackpower](#rangedattackpower) | smallint | unsigned |  | NO | 0 |  |  |
