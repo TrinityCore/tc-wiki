@@ -2,7 +2,7 @@
 title: quest_template
 description: 
 published: true
-date: 2024-05-16T11:19:35.174Z
+date: 2025-02-04T09:59:01.982Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:30.767Z
@@ -89,7 +89,7 @@ Contains all basic definitions of available quests.
 | [RewardFactionValue5](#rewardfactionvalue1-5) | int | signed |  | NO | 0 |  |  |
 | [RewardFactionOverride5](#rewardfactionoverride1-5) | int | signed |  | NO | 0 |  |  |
 | [TimeAllowed](#timeallowed) | int | unsigned |  | NO | 0 |  |  |
-| [AllowableRaces](#allowableraces) | smallint | unsigned |  | NO | 0 |  |  |
+| [AllowableRaces](#allowableraces) | int | unsigned |  | NO | 0 |  |  |
 | [LogTitle](#logtitle) | mediumtext |  |  | YES | NULL |  |  |
 | [LogDescription](#logdescription) | mediumtext |  |  | YES | NULL |  |  |
 | [QuestDescription](#questdescription) | mediumtext |  |  | YES | NULL |  |  |
