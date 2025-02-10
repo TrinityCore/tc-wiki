@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2024-05-16T11:19:35.729Z
+date: 2025-02-10T22:58:56.620Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:09.695Z
@@ -3715,10 +3715,10 @@ SMART_ACTION_GO_SET_LOOT_STATE (99)
 [`enum LootState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/GameObject/GameObject.h#L74-L79)
   | ID | Name | Comment |
   |----|------|---------|
-  | 1 | GO_NOT_READY |  |
-  | 2 | GO_READY | can be ready but despawned, and then not possible activate until spawn |
-  | 3 | GO_ACTIVATE |  |
-  | 4 | GO_JUST_DEACTIVATED |  |
+  | 0 | GO_NOT_READY |  |
+  | 1 | GO_READY | can be ready but despawned, and then not possible activate until spawn |
+  | 2 | GO_ACTIVATE |  |
+  | 3 | GO_JUST_DEACTIVATED |  |
   {.dense}
 * **action_param2**:
 `0`
