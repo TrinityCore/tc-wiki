@@ -2,7 +2,7 @@
 title: LfgDungeons.dbc
 description: 
 published: true
-date: 2023-10-04T13:08:49.048Z
+date: 2025-02-10T17:14:57.272Z
 tags: 3.3.5, 3.3.5a, 335, 335a, wotlk, dbc, database client
 editor: markdown
 dateCreated: 2023-10-04T08:05:02.714Z
@@ -54,7 +54,7 @@ dateCreated: 2023-10-04T08:05:02.714Z
 | 28 | [TextureFilename](#texturefilename) | string |  |
 | 29 | [ExpansionLevel](#expansionlevel) | uint32 |  |
 | 30 | [OrderIndex](#orderindex) | uint32 |  |
-| 31 | [GroupID](#groupid) | uint32 | [LfgDungeonGrouo.dbc/0](/files/DBC/335/lfgdungeongroup#id-alt) |
+| 31 | [GroupID](#groupid) | uint32 | [LfgDungeonGroup.dbc/0](/files/DBC/335/lfgdungeongroup#id-alt) |
 | 32 | [Description_0](#description) | string |  |
 | 33 | [Description_1](#description) | string |  |
 | 34 | [Description_2](#description) | string |  |
@@ -81,7 +81,7 @@ dateCreated: 2023-10-04T08:05:02.714Z
 &nbsp;
 
 ### Name <!-- {#name-alt} -->
-<code>Col: 1 &ndash; 17 ([Loc](/files/DBC/localization))</code>
+<code>Col: 1 &ndash; 17 ([Loc](/how-to/localization))</code>
 
 *- no description -*
 &nbsp;
@@ -201,7 +201,7 @@ dateCreated: 2023-10-04T08:05:02.714Z
 &nbsp;
 
 ### Description
-:x: <code>Col: 32 &ndash; 48 ([Loc](/files/DBC/localization))</code>
+:x: <code>Col: 32 &ndash; 48 ([Loc](/how-to/localization))</code>
 
 *- no description -*
 &nbsp;
