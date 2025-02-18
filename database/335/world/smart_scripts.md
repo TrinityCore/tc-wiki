@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2025-02-10T22:58:56.620Z
+date: 2025-02-18T01:58:36.886Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:09.695Z
@@ -198,7 +198,8 @@ CooldownMin (in msec.)
 * **event_param2**:
 CooldownMax (in msec.)
 * **event_param3**:
-Player only (`0`/`1`)
+  * 0: Any unit
+  * 1: Player only
 * **event_param4**:
 if **event_param3** = 0: [creature entry](../world/creature_template#entry) (`0`: any)
 * **event_param5**:
@@ -310,7 +311,8 @@ CooldownMin (in msec.)
 * **event_param4**:
 CooldownMax (in msec.)
 * **event_param5**:
-`0`
+  * 0: Any unit
+  * 1: Player only
 
 valid for **source_type**
 |--|--|
@@ -631,7 +633,8 @@ CooldownMin (in msec.)
 * **event_param4**:
 CooldownMax (in msec.)
 * **event_param5**:
-`0`
+  * 0: Any unit
+  * 1: Player only
 
 valid for **source_type**
 |--|--|
