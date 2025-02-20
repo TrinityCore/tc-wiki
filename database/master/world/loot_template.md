@@ -2,7 +2,7 @@
 title: *_loot_template
 description: 
 published: true
-date: 2024-12-27T22:19:07.496Z
+date: 2025-02-20T17:42:59.138Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2022-04-19T10:04:49.757Z
@@ -283,19 +283,28 @@ When a skin is pulled for a quest it becoms the second skin from the mob. This i
 ## Reference Template Numbering
 Agreements for Reference Templates are as followed:
 
-| Range | Used for |
-|-------|----------|
-| 00000-00999 | Skinning Reference Templates |
-| 01000-09999 | KEEP FREE: TDB-DEV-References |
-| 10000-10999 | Item Reference Templates |
-| 11000-11799 | Fishing Reference Templates |
-| 11800-11999 | Milling Reference Templates |
-| 12000-12899 | Raid: Gameobject Reference Templates |
-| 12900-12999 | Mining Reference Templates |
-| 13000-13999 | Prospecting Reference Templates |
-| 14000-29000 | World Reference Templates |
-| 34000-34999 | Raid: Creature Reference Templates |
-| 35000-35999 | Dungeon Reference Templates |
+| Expansion | Range start | Range end | 
+| --------- | ----------- | --------- |
+| Vanilla (1.x)                   |                1 |          99999 |               
+| The Burning Crusade (2.x)       |           100000 |         199999 |               
+| Wrath of the Lich King (3.x)    |           200000 |         299999 |               
+| Cataclysm (4.x)                 |           300000 |         399999 |               
+| Mists of Pandaria (5.x)         |           400000 |         499999 |               
+| Warlords of Draenor (6.x)       |           500000 |         599999 |               
+| Legion (7.x)                    |           600000 |         699999 |               
+| Battle for Azeroth (8.x)        |           700000 |         799999 |               
+| Shadowlands (9.x)               |           800000 |         899999 |               
+| Dragonflight (10.x)             |           900000 |         999999 |               
+| The War Within (11.x)           |          1000000 |        1099999 |               
+{.dense}
+
+| Subrange start | Subrange end | Used for |
+| -------- | -------- | -------- |
+| X00000 | X49999 | World Reference Templates |
+| X50000 | X59999 | Dungeon Reference Templates |
+| X60000 | X69999 | Raid Reference Templates |
+| X70000 | X79999 | Item Reference Templates |
+| X80000 | X99999 | Profession Reference Templates<br>(Skinning, Mining, Scraping, Herb Gathering, Prospecting, Milling, Pick Pocket) |
 {.dense}
 
 &nbsp;
