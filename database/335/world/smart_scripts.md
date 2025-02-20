@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2025-02-19T23:40:35.793Z
+date: 2025-02-20T16:06:06.314Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:09.695Z
@@ -3107,14 +3107,19 @@ SMART_ACTION_WP_RESUME (65)
 * **action_param6**:
 `0`
 #### SetOrientation (66)
-Creature turns in a given direction, depending on target.
+Creature turns in a given direction, depending on **target_type**.
+* SMART_TARGET_SELF (1): 
+  * orientation of Home Position
+* SMART_TARGET_POSITION (8): 
+  * **target_o** value
+* < other target selectors >: 
+  * set to face selected target
+&nbsp;
+
 * **action_type**:
 SMART_ACTION_SET_ORIENTATION (66)
 * **action_param1**:
-orientation
-  * SMART_TARGET_SELF (1): orientation of Home Position
-  * SMART_TARGET_POSITION (8): **target_o** value
-  * < other target selectors >: set to face selected target
+`0`
 * **action_param2**:
 `0`
 * **action_param3**:
