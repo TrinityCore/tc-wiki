@@ -2,7 +2,7 @@
 title: conversation_template
 description: 
 published: true
-date: 2024-02-11T20:06:07.137Z
+date: 2025-03-19T16:10:34.473Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:38.658Z
@@ -32,11 +32,16 @@ ID of [ConversationLine.db2](https://wow.tools/dbc/?dbc=conversationline){target
 &nbsp;
 
 ### TextureKitId
-*- no description -*
+Background texture ([UiTextureKit.db2](https://wago.tools/db2/UiTextureKit))
 &nbsp;
 
 ### Flags
-*- no description -*
+| Name | Flag |
+| --- | --- |
+| None | 0x00 |
+| MultipleConversationType | 0x01 |
+| IsTalkingHeadConversation | 0x02 |
+| AllowWithoutSpawnedActor | 0x03 |
 &nbsp;
 
 ### ScriptName
