@@ -2,7 +2,7 @@
 title: GM Commands
 description: Console commands 
 published: true
-date: 2025-03-22T08:43:17.646Z
+date: 2025-03-25T11:39:01.204Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-03T23:04:45.226Z
@@ -11,14 +11,16 @@ dateCreated: 2023-01-03T23:04:45.226Z
 # GM Commands
 GM commands can be entered mainly in 2 ways: 
 
-- Typing it directly into the world console window. In the world console window the leading dot (.) is not mandantory, but you can use it. 
+- Typing it directly into the worldserver console window. In this case, the leading dot (.) is not mandantory, but you can use it.
 - Using the gm command ingame in the chat console of the wow client. There, all commands must start with a leading dot. Ex: `.gm on`
 
-Note: Some commands are working only by selecting a player or a creature. These commands can not be used in the world console.
+Tip: You can still use gm commands while your character is dead by typing them in the guild chat (/g).
+
+Note: Some commands are working only by selecting a player or a creature. These commands can not be used in the worldserver console.
 
 &nbsp;
 
-## master commands                       
+## master only Commands                       
 
 
 
