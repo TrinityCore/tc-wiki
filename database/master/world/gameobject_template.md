@@ -2,7 +2,7 @@
 title: gameobject_template
 description: 
 published: true
-date: 2024-11-22T19:39:07.186Z
+date: 2025-03-29T23:56:06.428Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:31:56.235Z
@@ -341,7 +341,18 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 19 | gossipID | [gossip_menu.entry](../world/gossip_menu#entry)  |  |
 | 20 | WorldStateSetsState | 0, 1 | unused |
 | 21 | floatOnWater | 0, 1 | unused |
-| 22 | conditionID1 | 0 | unused |
+| 22 | conditionID1 | 0 | conditionID1, References: PlayerCondition |
+| 23 | playerCast | 0, 1 | playerCast, enum: false, true |
+| 24 | spawnVignette | [Vignette.db2](https://wago.tools/db2/Vignette) | Spawn Vignette |
+| 25 | startOpen | 0, 1 | startOpen, enum: false, true |
+| 26 | DontPlayOpenAnim | 0, 1 | Dont Play Open Anim enum: false, true |
+| 27 | IgnoreBoundingBox | 0, 1 | Ignore Bounding Box, enum: false, true |
+| 28 | NeverUsableWhileMounted | 0, 1 | Never Usable While Mounted, enum: false, true |
+| 29 | SortFarZ | 0, 1 | Sort Far Z, enum: false, true |
+| 30 | SyncAnimationtoObjectLifetime | 0, 1 | Sync Animation to Object Lifetime (global track only), enum: false, true |
+| 31 | NoFuzzyHit | 0, 1 | No Fuzzy Hit, enum: false, true |
+| 32 | LargeAOI | 0, 1 | Large AOI, enum: false, true |
+| 33 | InteractRadiusOverride | 0 | Interact Radius Override (Yards * 100), int, Min value: 0, Max value: 2147483647, Default value: 0 |
 {.dense}
 
 **_GAMEOBJECT_TYPE_TRANSPORT (11)_**
