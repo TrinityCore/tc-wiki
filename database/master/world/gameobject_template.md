@@ -2,7 +2,7 @@
 title: gameobject_template
 description: 
 published: true
-date: 2025-03-29T23:56:06.428Z
+date: 2025-03-30T00:01:05.895Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:31:56.235Z
@@ -314,6 +314,8 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 2 | pageMaterial | [PageTextMaterial ID](https://wow.tools/dbc/?dbc=pagetextmaterial) | Background texture of the gossip window |
 | 3 | allowMounted | 0, 1 | Is usable while on mount/vehicle. |
 | 4 | conditionID1 | 0 | unused |
+| 5 | NeverUsableWhileMounted | 0, 1 | Never Usable While Mounted, enum: false, true |
+| 6 | InteractRadiusOverride | 0 | Interact Radius Override (Yards * 100), int, Min value: 0, Max value: 2147483647, Default value: 0 |
 {.dense}
 
 **_GAMEOBJECT_TYPE_GOOBER (10)_**
