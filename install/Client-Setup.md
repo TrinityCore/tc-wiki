@@ -2,7 +2,7 @@
 title: Client Setup
 description: 
 published: true
-date: 2024-10-06T14:29:18.068Z
+date: 2025-04-01T09:33:09.661Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-20T14:45:08.138Z
@@ -10,7 +10,7 @@ dateCreated: 2021-09-20T14:45:08.138Z
 
 # Client Setup
 ## 3.3.5a
-1. Open the realmlist.wtf file inside your World of Warcraft\Data\enUS folder. The IP in the realmlist.wtf file should be exactly the same as the IP address you entered in the realmlist table above.
+1. Open the realmlist.wtf file inside your World of Warcraft\Data\enUS or \enGB folder. The IP in the realmlist.wtf file should be exactly the same as the IP address you entered in the realmlist table above.
 
 - Change the first line to: **set realmlist** IP address used in realmlist table
 - Example: **set realmlist 127.0.0.1**
