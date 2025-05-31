@@ -1,12 +1,13 @@
 ---
 title: VocalUISounds.dbc
-description:
+description: 
 published: true
-date: 2023-09-30CEST01:03:36.000Z
-tags: dbc, database client, 3.3.5, 3.3.5a, 335, 335a, wotlk
+date: 2025-05-31T21:36:27.036Z
+tags: 3.3.5, 3.3.5a, 335, 335a, wotlk, dbc, database client
 editor: markdown
-dateCreated: 2023-08-09CEST00:06:01.000Z
+dateCreated: 2023-10-04T08:09:15.363Z
 ---
+
 <a href="https://trinitycore.info/files/DBC/335/videohardware" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'VideoHardware'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/DBC" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to DBCs (3.3.5a)</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/weaponimpactsounds" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'WeaponImpactSounds'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
 # VocalUISounds.dbc
@@ -23,12 +24,12 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
 | 0 | [ID](#id-alt) | uint32 |  |
-| 0 | [VocalUIEnum](#id-alt) | uint32 |  |
-| 0 | [RaceID](#id-alt) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id-alt) |
-| 0 | [SoundID_0](#id-alt) | int32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
-| 0 | [SoundID_1](#id-alt) | int32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
-| 0 | [SoundID_2](#id-alt) | int32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
-| 0 | [SoundID_3](#id-alt) | int32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 1 | [VocalUIEnum](#vocaluienum) | uint32 |  |
+| 2 | [RaceID](#raceid) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id-alt) |
+| 3 | [SoundID_0](#soundid) | int32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 4 | [SoundID_1](#soundid) | int32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 5 | [SoundID_2](#soundid) | int32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 6 | [SoundID_3](#soundid) | int32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 &nbsp;
 ## Description of fields
 
@@ -39,7 +40,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### VocalUIEnum
-:x: <code>Col: 0 (uint32)</code>
+:x: <code>Col: 1 (uint32)</code>
 
 | ID | Name | | ID | Name | | ID | Name |
 |----|------|-|----|------|-|----|------|
@@ -71,13 +72,13 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### RaceID
-:x: <code>Col: 0 (uint32)</code>
+:x: <code>Col: 2 (uint32)</code>
 
 *- no description -*
 &nbsp;
 
 ### SoundID
-:x: <code>Col: 0 (uint32)</code>
+:x: <code>Col: 3 &ndash; 6 (uint32)</code>
 
 | Index | 0 | 1 |
 | :--: | :--: | :--: |
