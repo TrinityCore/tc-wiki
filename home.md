@@ -2,7 +2,7 @@
 title: TrinityCore Wiki
 description: 
 published: true
-date: 2025-06-08T18:09:19.741Z
+date: 2025-06-08T18:16:17.150Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T17:47:17.543Z
@@ -15,7 +15,7 @@ It is derived from MaNGOS, the Massive Network Game Object Server, and is based 
 
 It is completely open source; community involvement is highly encouraged.
 
-If you wish to contribute ideas or code, please visit our site linked below or make pull requests to our [Github repository](https://github.com/TrinityCore/). * (It may take months or years for pull requests to be merged).
+If you wish to contribute ideas or code, please visit our site linked below or make pull requests to our [Github repository](https://github.com/TrinityCore/).
 
 At the moment, TrinityCore supports 3 main branches:
 
