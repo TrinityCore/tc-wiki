@@ -2,7 +2,7 @@
 title: quest_template
 description: 
 published: true
-date: 2024-09-05T22:48:26.956Z
+date: 2025-06-14T14:22:09.888Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:35:31.131Z
@@ -27,9 +27,9 @@ dateCreated: 2021-08-30T09:35:31.131Z
 | [RewardMoneyDifficulty](#rewardmoneydifficulty) | int | unsigned |  | NO | 0 |  |  |
 | [RewardMoneyMultiplier](#rewardmoneymultiplier) | float |  |  | NO | 1 |  |  |
 | [RewardBonusMoney](#rewardbonusmoney) | int | unsigned |  | NO | 0 |  |  |
-| [RewardDisplaySpell1](#rewarddisplayspell1) | int | unsigned |  | NO | 0 |  |  |
-| [RewardDisplaySpell2](#rewarddisplayspell2) | int | unsigned |  | NO | 0 |  |  |
-| [RewardDisplaySpell3](#rewarddisplayspell3) | int | unsigned |  | NO | 0 |  |  |
+| [RewardDisplaySpell1](#rewarddisplayspell1-3) | int | unsigned |  | NO | 0 |  |  |
+| [RewardDisplaySpell2](#rewarddisplayspell1-3) | int | unsigned |  | NO | 0 |  |  |
+| [RewardDisplaySpell3](#rewarddisplayspell1-3) | int | unsigned |  | NO | 0 |  |  |
 | [RewardSpell](#rewardspell) | int | unsigned |  | NO | 0 |  |  |
 | [RewardHonor](#rewardhonor) | int | unsigned |  | NO | 0 |  |  |
 | [RewardKillHonor](#rewardkillhonor) | int | unsigned |  | NO | 0 |  |  |
@@ -235,7 +235,7 @@ The money a character at level 80 would get when they complete this quest.
 &nbsp;
 
 ### RewardDisplaySpell[1-3]
-Spell that is shown to be casted on quest completion in the quest log. Note that this spell will NOT be casted if **RewardSpellCast** is non-zero. The spell in the other field will be casted instead, in which case the spell here only serves as the visual in the quest log.
+Spell that is shown to be casted on quest completion in the quest log. Note that this spell will NOT be casted if **RewardSpell** is non-zero. The spell in the other field will be casted instead, in which case the spell here only serves as the visual in the quest log.
 
 > Note: This field comes straight from the WDB and should not be changed.
 {.is-info}
