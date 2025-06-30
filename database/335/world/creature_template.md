@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2024-10-25T12:55:47.126Z
+date: 2025-06-30T18:44:09.578Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:50.335Z
@@ -95,8 +95,8 @@ This field connects the stats from another **entry** to this template when in 25
 &nbsp;
 
 ### KillCredit\[1-2\]
-If this is a kill credit template -- one that is a dummy template that is used when more than one creature can count as a kill in a quest, then this is a link to the **entry** of the creature that could be killed to give quest credit.
-If more than two creatures can be killed and count toward a single objective, a smart or C++ script will be required.
+If set, killing this creature will give additional kill credit for the creature **entry** in this field.
+If this creature needs to count towards more than 3 quest objectives, a SmartScript or C++ script will be required.
 &nbsp;
 
 ### modelid\[1-4\]
