@@ -1,11 +1,11 @@
 ---
 title: Localization
-description:
+description: 
 published: true
-date: 2023-09-07T22:00:00.000Z
-tags:
+date: 2025-03-16T00:38:40.903Z
+tags: 
 editor: markdown
-dateCreated: 2023-03-04T06:22:32.729Z
+dateCreated: 2023-10-04T08:09:51.762Z
 ---
 
 # Localization
@@ -27,7 +27,7 @@ Use this table to know which column to the right of the English one you have to 
 
 When reading a \*\_locale table from database, the localized string can be fetched by matching the locale string to the locale column.
 
-> Note: The core/database [support only 8 languages](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/common/Common.h#L47-L59) while dbc can support 16 languages.
+> Note: The core/database [support only 9 languages](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/common/Common.h#L47-L59) while dbc can support 16 languages.
 {.is-info}
 
 &nbsp;
@@ -40,8 +40,8 @@ When reading a \*\_locale table from database, the localized string can be fetch
 | 1 | `koKR` |  | Korean |
 | 2 | `frFR` |  | French |
 | 3 | `deDE` |  | German |
-| 4 | `zhCN` | enCN | Chinese (Traditional / Simplified) |
-| 5 | `zhTW` | enTW | Taiwanese (Traditional / Simplified) |
+| 4 | `zhCN` | enCN | Simplified Chinese (English speech) |
+| 5 | `zhTW` | enTW | Traditional Chinese (English speech) |
 | 6 | `esES` |  | Spanish (EU) |
 | 7 | `esMX` |  | Spanish (Latin America) |
 | 8 | `ruRU` |  | Russian |

@@ -2,7 +2,7 @@
 title: world_safe_locs
 description: 
 published: true
-date: 2024-09-05T22:48:29.001Z
+date: 2025-05-22T17:09:41.388Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:38:13.594Z
@@ -57,7 +57,10 @@ Facing coordinate of the location **<u>in degrees</u>**
 
 Note:
 Radians to degrees: `Radians / (2 * PI() / 360)` (you can use this snippet in SQL)
+
+Alternative in Python you can use this [gist](https://gist.github.com/TheSCREWEDSoftware/bc8655e5d91ffba418abd74c49281ed3).
 &nbsp;
+
 
 ### TransportSpawnId
 *- no description -*

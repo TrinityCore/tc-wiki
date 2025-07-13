@@ -2,7 +2,7 @@
 title: creature
 description: 
 published: true
-date: 2024-08-05T15:27:08.096Z
+date: 2024-10-04T20:57:58.323Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:41.375Z
@@ -51,27 +51,30 @@ If a new creature will be spawned it should be within the GUID range of the curr
 
 For example [Chromie](https://www.wowhead.com/npc=167032/chromie) is spawned in Orgrimmar and Stormwind, but was added in Shadowlands (9.x) on retail (expansion 8), so we would assign a GUID between 8000000 and 8999999. 
 
+> Classic Only Spawns: Some spawns in 4.4.x are different then 4.3.x, we use last 10k
+{.is-info}
+
 The GUID ranges are defined as followed:
-|                                     Expansion | GUID range start | GUID range end | :information_source: Event GUID subrange start | :information_source: Event GUID subrange end |
+|                                     Expansion | GUID range start | GUID range end | :information_source: Event GUID subrange start | :information_source: Event GUID subrange end | <span style="color:red">Classic Only range start</span> | <span style="color:red">Classic Only range end</span>
 | --------------------------------------------- | ---------------- | -------------- | ------------------------- | ----------------------- |
-| Vanilla (1.x)                                 |                1 |         249999 |                           |                         |
-| The Burning Crusade (2.x)                     |                1 |         249999 |                           |                         |
-| Wrath of the Lich King (3.x)                  |          2000000 |        2999999 |                   2800000 |                 2999999 |
-| Cataclysm (4.x)                               |          3000000 |        3999999 |                   3800000 |                 3999999 |
-| Mists of Pandaria (5.x)                       |          4000000 |        4999999 |                   4800000 |                 4999999 |
-| Warlords of Draenor (6.x)                     |          5000000 |        5999999 |                   5800000 |                 5999999 |
-| Legion (7.x)                                  |          6000000 |        6999999 |                   6800000 |                 6999999 |
-| Battle for Azeroth (8.x)                      |          7000000 |        7999999 |                   7800000 |                 7999999 |
-| Shadowlands (9.x)                             |          8000000 |        8999999 |                   8800000 |                 8999999 |
-| Dragonflight (10.x)                           |          9000000 |        9999999 |                   9800000 |                 9999999 |
-| The War Within (11.x)                         |         10000000 |       10999999 |                  10800000 |                10999999 |
-| :warning: Wrath of the Lich King (3.x)        |                1 |         249999 |                           |                         |
-| :warning: Legacy Cataclysm (4.x)              |           250000 |         449999 |                           |                         |
-| :warning: Legacy Mists of Pandaria (5.x)      |           250000 |         449999 |                           |                         |
-| :warning: Legacy Warlords of Draenor (6.x)    |           450000 |         649999 |                           |                         |
-| :warning: Legacy Legion (7.x)                 |           650000 |         849999 |                           |                         |
-| :warning: Legacy Battle for Azeroth (8.x)     |           850000 |        1049999 |                           |                         |
-| :warning: Legacy Shadowlands (9.x)            |          1050000 |        1249999 |                           |                         |
+| Vanilla (1.x)                                 |                1 |         249999 |                           |                         | | |
+| The Burning Crusade (2.x)                     |                1 |         249999 |                           |                         | | |
+| Wrath of the Lich King (3.x)                  |          2000000 |        2989999 |                   2800000 |                 2989999 | 2990000 | 2999999 |
+| Cataclysm (4.x)                               |          3000000 |        3989999 |                   3800000 |                 3989999 | 3990000 | 3999999 |
+| Mists of Pandaria (5.x)                       |          4000000 |        4999999 |                   4800000 |                 4999999 | | |
+| Warlords of Draenor (6.x)                     |          5000000 |        5999999 |                   5800000 |                 5999999 | | |
+| Legion (7.x)                                  |          6000000 |        6999999 |                   6800000 |                 6999999 | | |
+| Battle for Azeroth (8.x)                      |          7000000 |        7999999 |                   7800000 |                 7999999 | | |
+| Shadowlands (9.x)                             |          8000000 |        8999999 |                   8800000 |                 8999999 | | |
+| Dragonflight (10.x)                           |          9000000 |        9999999 |                   9800000 |                 9999999 | | |
+| The War Within (11.x)                         |         10000000 |       10999999 |                  10800000 |                10999999 | | |
+| :warning: Wrath of the Lich King (3.x)        |                1 |         249999 |                           |                         | | |
+| :warning: Legacy Cataclysm (4.x)              |           250000 |         449999 |                           |                         | | |
+| :warning: Legacy Mists of Pandaria (5.x)      |           250000 |         449999 |                           |                         | | |
+| :warning: Legacy Warlords of Draenor (6.x)    |           450000 |         649999 |                           |                         | | |
+| :warning: Legacy Legion (7.x)                 |           650000 |         849999 |                           |                         | | |
+| :warning: Legacy Battle for Azeroth (8.x)     |           850000 |        1049999 |                           |                         | | |
+| :warning: Legacy Shadowlands (9.x)            |          1050000 |        1249999 |                           |                         | | |
 > Because the limit of several old ranges was reached, new ranges have been defined with the nomenclature **{ExpID}000000 - {ExpID}999999**. The old ranges should not be used.
 {.is-warning}
 

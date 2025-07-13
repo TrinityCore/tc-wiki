@@ -2,7 +2,7 @@
 title: spell_target_position
 description:
 published: true
-date: 2024-02-11T20:06:10.844Z
+date: 2025-01-23T20:24:03.144Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:37:21.892Z
@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T09:37:21.892Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [EffectIndex](#effectindex) | tinyint | unsigned | PRI | NO | 0 |  |  |
+| [OrderIndex](#orderindex) | int | signed | PRI | NO | 0 |  |  |
 | [MapID](#mapid) | smallint | unsigned |  | NO | 0 |  |  |
 | [PositionX](#positionx) | float |  |  | NO | 0 |  |  |
 | [PositionY](#positiony) | float |  |  | NO | 0 |  |  |
@@ -30,8 +31,13 @@ references [Spell ID](https://wago.tools/db2/spell)
 &nbsp;
 
 ### EffectIndex
-The effect index of the spell with TARGET_DEST_DB.
-(0 � 2)
+The effect index of the spell with TARGET_DEST_DB (17) or TARGET_DEST_NEARBY_DB (106).
+(0 - 31)
+&nbsp;
+
+### OrderIndex
+In case of multiple positions (TARGET_DEST_NEARBY_DB (106)), index of each position linked to the spell effect.
+For TARGET_DEST_DB (17) is always 0.
 &nbsp;
 
 ### MapID

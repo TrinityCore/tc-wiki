@@ -2,7 +2,7 @@
 title: Windows Core Installation
 description: 
 published: true
-date: 2024-08-30T21:49:14.148Z
+date: 2024-09-25T06:29:57.719Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-15T10:17:42.057Z
@@ -87,7 +87,7 @@ You will find your freshly compiled binaries in the **C:\\Build\\bin\\RelWithDe
 
 You will need the following files in order for the core to function properly:
 
-| **3.3.5a**<br><br>**authserver.exe**  <br>**authserver.pdb**  <br>**authserver.conf.dist**  <br>**worldserver.exe**  <br>**worldserver.pdb**  <br>**worldserver.conf.dist**  <br>**libmysql.dll** <br>**legacy.dll**  <br>**libcrypto-3-x64.dll**  <br>**libssl-3-x64.dll** | **master (11.x)**<br><br>**bnetserver.exe**  <br>**bnetserver.pdb**  <br>**bnetserver.conf.dist**  <br>**bnetserver.cert.perm**  <br>**bnetserver.key.perm**  <br>**worldserver.exe**  <br>**worldserver.pdb**  <br>**worldserver.conf.dist**  <br>**libmysql.dll** <br>**legacy.dll**  <br>**libcrypto-3-x64.dll**  <br>**libssl-3-x64.dll**  <br>**openssl_ed25519.dll** |
+| **3.3.5a**<br><br>**authserver.exe**  <br>**authserver.pdb**  <br>**authserver.conf.dist**  <br>**worldserver.exe**  <br>**worldserver.pdb**  <br>**worldserver.conf.dist**  <br>**libmysql.dll** <br>**legacy.dll**  <br>**libcrypto-3-x64.dll**  <br>**libssl-3-x64.dll** | **master (11.x) & cata_classic**<br><br>**bnetserver.exe**  <br>**bnetserver.pdb**  <br>**bnetserver.conf.dist**  <br>**bnetserver.cert.perm**  <br>**bnetserver.key.perm**  <br>**worldserver.exe**  <br>**worldserver.pdb**  <br>**worldserver.conf.dist**  <br>**libmysql.dll** <br>**legacy.dll**  <br>**libcrypto-3-x64.dll**  <br>**libssl-3-x64.dll**  <br>**openssl_ed25519.dll** |
 | --- | --- |
 
   

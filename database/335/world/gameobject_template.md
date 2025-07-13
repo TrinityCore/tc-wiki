@@ -2,7 +2,7 @@
 title: gameobject_template
 description: 
 published: true
-date: 2024-05-16T11:19:32.839Z
+date: 2024-10-05T20:59:41.753Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:05:30.524Z
@@ -50,6 +50,7 @@ This table contains the description of gameobjects. Each spawned object is an in
 | [Data23](#data0-23) | int | unsigned |  | NO | 0 |  |  |
 | [AIName](#ainame) | char(64) |  |  | NO | '' |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
+| [StringId](#stringid) | varchar(64) |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
 &nbsp;
 ## Description of fields
@@ -619,6 +620,10 @@ This field is overridden by ScriptName field if both are set.
 
 ### ScriptName
 The name of the script that this object uses, if any. This ties a script from a scripting engine to this gameobject.
+&nbsp;
+
+### StringId
+*- no description -*
 &nbsp;
 
 ### VerifiedBuild

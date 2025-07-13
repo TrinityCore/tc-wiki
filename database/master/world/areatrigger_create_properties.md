@@ -2,7 +2,7 @@
 title: areatrigger_create_properties
 description: 
 published: true
-date: 2024-08-05T15:33:24.077Z
+date: 2025-01-11T00:07:01.210Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-11-14T20:12:34.174Z
@@ -27,8 +27,8 @@ dateCreated: 2021-11-14T20:12:34.174Z
 | [AnimKitId](#animkitid) | int | signed |  | NO | 0 |  |  |
 | [DecalPropertiesId](#decalpropertiesid) | int | unsigned |  | NO | 0 |  |  |
 | [SpellForVisuals](#spellforvisuals) | int | signed |  | YES | NULL |  |  |
-| [TimeToTarget](#timetotarget) | int | unsigned |  | NO | 0 |  |  |
 | [TimeToTargetScale](#timetotargetscale) | int | unsigned |  | NO | 0 |  |  |
+| [Speed](#speed) | float |  |  | NO | 1 |  |  |
 | [Shape](#shape) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ShapeData0](#shapedata0-7) | float |  |  | NO | 0 |  |  |
 | [ShapeData1](#shapedata0-7) | float |  |  | NO | 0 |  |  |
@@ -109,11 +109,11 @@ Describes whether referenced `AreaTriggerId` is a custom id or not.
 SpellD from [Spell.db2](https://wago.tools/db2/Spell){target=_blank} which should be used for visuals.
 &nbsp;
 
-### TimeToTarget
+### TimeToTargetScale
 *- no description -*
 &nbsp;
 
-### TimeToTargetScale
+### Speed
 *- no description -*
 &nbsp;
 

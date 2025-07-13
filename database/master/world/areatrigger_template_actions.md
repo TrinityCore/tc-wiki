@@ -2,7 +2,7 @@
 title: areatrigger_template_actions
 description: This table contains the description of areatrigger actions.
 published: true
-date: 2024-02-17T07:38:03.937Z
+date: 2025-06-15T13:54:46.159Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:02.076Z
@@ -36,6 +36,7 @@ Describes whether `AreaTriggerId` of this row is a custom id or not.
 | 0 | AREATRIGGER_ACTION_CAST |
 | 1 | AREATRIGGER_ACTION_ADDAURA |
 | 2 | AREATRIGGER_ACTION_TELEPORT |
+| 3 | AREATRIGGER_ACTION_TAVERN |
 &nbsp;
 
 ### ActionParam

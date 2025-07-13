@@ -1,14 +1,14 @@
 ---
-title: Trinitycore Wiki
+title: TrinityCore Wiki
 description: 
 published: true
-date: 2024-09-01T10:02:41.656Z
+date: 2025-06-08T18:16:17.150Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T17:47:17.543Z
 ---
 
-# What is Trinitycore?
+# What is TrinityCore?
 TrinityCore is a MMORPG Framework based mostly in C++.
 
 It is derived from MaNGOS, the Massive Network Game Object Server, and is based on the code of that project with extensive changes over time to optimize, improve and cleanup the codebase at the same time as improving the in-game mechanics and functionality.
@@ -17,7 +17,7 @@ It is completely open source; community involvement is highly encouraged.
 
 If you wish to contribute ideas or code, please visit our site linked below or make pull requests to our [Github repository](https://github.com/TrinityCore/).
 
-At the moment, Trinitycore supports 3 main branches:
+At the moment, TrinityCore supports 3 main branches:
 
 - 3.3.5 targeting original 2010 wow 3.3.5a, you need wow 3.3.5a.12340 client for it to run, wotlk 3.4 client is incompatible. **best for starters**
 - cata_classic targeting 2024 wow 4.4 retail cata classic, you need wow 4.4.x client for it to run, cata 4.3.4 client is incompatible. **very beta**
@@ -59,9 +59,9 @@ For further information on the TrinityCore project, please visit our project web
 - [World](/database/335/world/home)
 
 # How-to
-1. [Use ASan to debug trinitycore](/how-to/asan)
+1. [Use ASan to debug TrinityCore](/how-to/asan)
 2. [Send console commands via SOAP](/how-to/SOAP)
 3. [GM Commands](/how-to/gm-commands)
 4. [Role-based Access Controls (RBAC)](/how-to/RBAC)
 
-5. [Aowow Trinitycore wowhead like](https://aowow.trinitycore.info/)
+5. [Aowow TrinityCore wowhead like](https://aowow.trinitycore.info/)

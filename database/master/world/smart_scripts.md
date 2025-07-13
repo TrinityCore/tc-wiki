@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2024-08-15T13:52:33.955Z
+date: 2024-10-28T20:35:12.328Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -226,7 +226,7 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | :x: SMART_EVENT_TRANSPORT_REMOVE_PLAYER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 43 | | | | | | | Not yet implemented |
 | :x: SMART_EVENT_TRANSPORT_RELOCATE | 44 | PointID | | | | | | Not yet implemented |
 | :x: SMART_EVENT_INSTANCE_PLAYER_ENTER | 45 | Team (0 any) | CooldownMin | CooldownMax | | | | Not yet implemented |
-| SMART_EVENT_AREATRIGGER_ONTRIGGER | 46 | TriggerId (0 any) | | | | | | On areatrigger triggered |
+| SMART_EVENT_AREATRIGGER_ENTER | 46 | | | | | | | On areatrigger enter |
 | SMART_EVENT_QUEST_ACCEPTED | 47 | | | | | | | On target quest accepted |
 | SMART_EVENT_QUEST_OBJ_COMPLETION | 48 | [quest_objectives.ID](/en/database/master/world/quest_objectives#id) | | | | | | On target quest objective completed |
 | SMART_EVENT_QUEST_COMPLETION | 49 | | | | | | | On target quest completed |
@@ -268,6 +268,7 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_EVENT_ON_SPELL_START | 85 | SpellID | CooldownMin | CooldownMax | | | | On spell start |
 | SMART_EVENT_ON_DESPAWN | 86 | | | | | | | On despawn |
 | SMART_EVENT_SEND_EVENT_TRIGGER | 87 | | | | | | | On GameEvent triggered |
+| SMART_EVENT_AREATRIGGER_EXIT | 88 | | | | | | | On areatrigger exit |
 {.dense}
 
 > Please note :warning:means that the event_type is deprecated and should not be used.
@@ -432,6 +433,7 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_TRIGGER_GAME_EVENT | 150 | eventId |  |  |  |  |  |  |  |
 | SMART_ACTION_DO_ACTION | 151 | actionId |  |  |  |  |  |  |  |
 | SMART_ACTION_COMPLETE_QUEST | 152 | [quest_template.ID](/en/database/master/world/quest_template#id) |  |  |  |  |  |  | Complete quest with:<br/>*QUEST_FLAGS_COMPLETION_EVENT, QUEST_FLAGS_COMPLETION_AREA_TRIGGER or QUEST_FLAGS_TRACKING_EVENT* |
+| SMART_ACTION_CREDIT_QUEST_OBJECTIVE_TALK_TO | 153 |  |  |  |  |  |  |  | Only valid for SMART_SCRIPT_TYPE_CREATURE |
 {.dense}
 
 > Please note :warning:means that the action_type is deprecated and should not be used.

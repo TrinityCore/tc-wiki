@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2024-05-16T11:19:35.729Z
+date: 2025-02-20T16:06:06.314Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:09.695Z
@@ -198,7 +198,8 @@ CooldownMin (in msec.)
 * **event_param2**:
 CooldownMax (in msec.)
 * **event_param3**:
-Player only (`0`/`1`)
+  * 0: Any unit
+  * 1: Player only
 * **event_param4**:
 if **event_param3** = 0: [creature entry](../world/creature_template#entry) (`0`: any)
 * **event_param5**:
@@ -310,7 +311,8 @@ CooldownMin (in msec.)
 * **event_param4**:
 CooldownMax (in msec.)
 * **event_param5**:
-`0`
+  * 0: Any unit
+  * 1: Player only
 
 valid for **source_type**
 |--|--|
@@ -631,7 +633,8 @@ CooldownMin (in msec.)
 * **event_param4**:
 CooldownMax (in msec.)
 * **event_param5**:
-`0`
+  * 0: Any unit
+  * 1: Player only
 
 valid for **source_type**
 |--|--|
@@ -1527,10 +1530,10 @@ SMART_EVENT_GO_LOOT_STATE_CHANGED (70)
 [`enum LootState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/GameObject/GameObject.h#L74-L79)
   | ID | Name | Comment |
   |----|------|---------|
-  | 1 | GO_NOT_READY |  |
-  | 2 | GO_READY | can be ready but despawned, and then not possible activate until spawn |
-  | 3 | GO_ACTIVATE |  |
-  | 4 | GO_JUST_DEACTIVATED |  |
+  | 0 | GO_NOT_READY |  |
+  | 1 | GO_READY | can be ready but despawned, and then not possible activate until spawn |
+  | 2 | GO_ACTIVATE |  |
+  | 3 | GO_JUST_DEACTIVATED |  |
   {.dense}
 * **event_param2**:
 `0`
@@ -3104,14 +3107,19 @@ SMART_ACTION_WP_RESUME (65)
 * **action_param6**:
 `0`
 #### SetOrientation (66)
-Creature turns in a given direction, depending on target.
+Creature turns in a given direction, depending on **target_type**.
+* SMART_TARGET_SELF (1): 
+  * orientation of Home Position
+* SMART_TARGET_POSITION (8): 
+  * **target_o** value
+* < other target selectors >: 
+  * set to face selected target
+&nbsp;
+
 * **action_type**:
 SMART_ACTION_SET_ORIENTATION (66)
 * **action_param1**:
-orientation
-  * SMART_TARGET_SELF (1): orientation of Home Position
-  * SMART_TARGET_POSITION (8): **target_o** value
-  * < other target selectors >: set to face selected target
+`0`
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -3715,10 +3723,10 @@ SMART_ACTION_GO_SET_LOOT_STATE (99)
 [`enum LootState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/GameObject/GameObject.h#L74-L79)
   | ID | Name | Comment |
   |----|------|---------|
-  | 1 | GO_NOT_READY |  |
-  | 2 | GO_READY | can be ready but despawned, and then not possible activate until spawn |
-  | 3 | GO_ACTIVATE |  |
-  | 4 | GO_JUST_DEACTIVATED |  |
+  | 0 | GO_NOT_READY |  |
+  | 1 | GO_READY | can be ready but despawned, and then not possible activate until spawn |
+  | 2 | GO_ACTIVATE |  |
+  | 3 | GO_JUST_DEACTIVATED |  |
   {.dense}
 * **action_param2**:
 `0`

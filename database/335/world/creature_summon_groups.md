@@ -2,7 +2,7 @@
 title: creature_summon_groups
 description: 
 published: true
-date: 2024-05-16T11:19:31.761Z
+date: 2025-05-30T14:43:43.745Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:47.608Z
@@ -84,7 +84,7 @@ Orientation the summoned creature will get when spawned
 &nbsp;
 
 ### summonTime
-Timer linked to **summonType**
+Timer (in milliseconds) linked to **summonType**
 &nbsp;
 
 ### Comment

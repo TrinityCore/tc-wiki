@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2024-08-16T12:29:07.580Z
+date: 2025-04-01T09:09:09.624Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -113,9 +113,12 @@ Here the links for minimum version:
 {.is-info}
 
 4. Install the package to the default location (usually C:\local\boost_1_XX_0\ .)
-5. Add an environment variable to "System" variable named "BOOST_ROOT" and as value your Boost installation directory, e.g "C:/local/boost_1_73_0". Important is to use "**<span style="color:red">/</span>**", not "**<span style="color:red">\\</span>**"  when pointing to directory.
+5. Add an environment variable to "System" variable named "BOOST_ROOT" and as value your Boost installation directory, e.g "C:/local/boost_1_78_0". Important is to use "**<span style="color:red">/</span>**", not "**<span style="color:red">\\</span>**"  when pointing to directory.
 (Make sure that it does **<span style="color:red">not</span>** have a trailing slash (end of path). If you still get problems, add the same variable in the "USER" variables section too, like shown in the image below.)
-![boost.jpg](/boost.jpg)Notice that this image shows the version number 1.72.0 - use your actual version number in your settings.
+&nbsp;
+![boost.jpg](/boost.jpg)
+&nbsp;
+Notice that this image shows the version number 1.72.0 - use your actual version number in your settings.
 &nbsp;
 
 ### 7. [CMake](https://cmake.org/download/){target=_blank}
@@ -150,7 +153,7 @@ If you download the Light version, it will not work. If you download the Light v
 
 1. If you use different PCs to compile/run Trinity, install one of the following packages on your Server-PC to avoid missing dependencies (depending on your Visual Studio Version and your Server-PC Operating System)
 	- [Microsoft Visual C++ 2022 Redistributable Package](https://aka.ms/vs/17/release/vc_redist.x64.exe){target=_blank}
-	- **<span style="color:red">NOTE: Whatever you do you CAN'T run TrinityCore on Windows XP or Windows Server 2003 or Windows Vista.</span>**
+	- **<span style="color:red">NOTE: Whatever you do you CAN'T run TrinityCore on Windows XP or Windows Server 2003 or Windows Vista or Windows 7.</span>**
 2. [TortoiseGit](http://code.google.com/p/tortoisegit/){target=_blank}
 	- This instruction supports Git Extensions only, but TortoiseGit is another viable option if you're comfortable with the process.
   

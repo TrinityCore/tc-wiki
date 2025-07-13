@@ -2,7 +2,7 @@
 title: playerchoice_response
 description: 
 published: true
-date: 2022-11-21T21:07:04.394Z
+date: 2025-07-13T15:20:08.550Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:33:59.936Z
@@ -16,7 +16,6 @@ dateCreated: 2021-08-30T09:33:59.936Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ChoiceId](#choiceid) | int | signed | PRI | NO |  |  |  |
 | [ResponseId](#responseid) | int | signed | PRI | NO |  |  |  |
-| [ResponseIdentifier](#responseidentifier) | smallint | unsigned |  | NO |  |  |  |
 | [Index](#index) | int | unsigned |  | NO |  |  |  |
 | [ChoiceArtFileId](#choiceartfileid) | int | signed |  | NO | 0 |  |  |
 | [Flags](#flags) | int | signed |  | NO | 0 |  |  |
@@ -41,10 +40,6 @@ dateCreated: 2021-08-30T09:33:59.936Z
 &nbsp;
 
 ### ResponseId
-*- no description -*
-&nbsp;
-
-### ResponseIdentifier
 *- no description -*
 &nbsp;
 

@@ -2,7 +2,7 @@
 title: characters
 description: 
 published: true
-date: 2024-04-16T19:05:26.052Z
+date: 2024-10-03T20:09:46.802Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:00:30.288Z
@@ -20,7 +20,7 @@ dateCreated: 2021-08-30T22:00:30.288Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | int | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
 | [account](#account) | int | unsigned | MUL | NO | 0 |  | Account Identifier |
-| [name](#name-alt) | varchar(12) |  | MUL | NO |  |  |  |
+| [name](#name-alt) | varchar(12) |  | MUL | NO | NULL |  |  |
 | [race](#race) | tinyint | unsigned |  | NO | 0 |  |  |
 | [class](#class) | tinyint | unsigned |  | NO | 0 |  |  |
 | [gender](#gender) | tinyint | unsigned |  | NO | 0 |  |  |

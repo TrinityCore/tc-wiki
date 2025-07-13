@@ -2,7 +2,7 @@
 title: GM Commands
 description: Console commands 
 published: true
-date: 2023-10-22T16:26:39.597Z
+date: 2025-03-25T11:39:01.204Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-03T23:04:45.226Z
@@ -11,14 +11,16 @@ dateCreated: 2023-01-03T23:04:45.226Z
 # GM Commands
 GM commands can be entered mainly in 2 ways: 
 
-- Typing it directly into the world console window. In the world console window the leading dot (.) is not mandantory, but you can use it. 
+- Typing it directly into the worldserver console window. In this case, the leading dot (.) is not mandantory, but you can use it.
 - Using the gm command ingame in the chat console of the wow client. There, all commands must start with a leading dot. Ex: `.gm on`
 
-Note: Some commands are working only by selecting a player or a creature. These commands can not be used in the world console.
+Tip: You can still use gm commands while your character is dead by typing them in the guild chat (/g).
+
+Note: Some commands are working only by selecting a player or a creature. These commands can not be used in the worldserver console.
 
 &nbsp;
 
-## master commands                       
+## master only Commands                       
 
 
 
@@ -331,6 +333,7 @@ Note: Some commands are working only by selecting a player or a creature. These 
 | **gobject move**                        | 2            | .gobject move #goguid [#x #y #z] Move gameobject #goguid to character coordinates (or to (#x,#y,#z) coordinates if its provide).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | **gobject near**                        | 2            | .gobject near [#distance] Output gameobjects at distance #distance from player. Output gameobject guids and coordinates sorted by distance from character. If #distance not provided use 10 as default value.                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | **gobject set phase**                   | 2            | .gobject set phase #guid #phasemask Gameobject with DB guid #guid phasemask changed to #phasemask with related world vision update for players. Gameobject state saved to DB and persistent.                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| **gobject set state**                   | 2            | .gobject set state #guid #ojectType #objectState                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | **gobject target**                      | 2            | .gobject target [#go_id/#go_name_part] Locate and show position nearest gameobject. If #go_id or #go_name_part provide then locate and show position of nearest gameobject with gameobject template id #go_id or name included #go_name_part as part.                                                                                                                                                                                                                                                                                                                                                                            |
 | **gobject turn**                        | 2            | .gobject turn #goguid Set for gameobject #goguid orientation same as current character orientation.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | **guid**                                | 2            | .guid Display the GUID for the selected character.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |

@@ -2,7 +2,7 @@
 title: quest_template
 description: 
 published: true
-date: 2024-05-16T11:19:35.174Z
+date: 2025-06-14T14:17:15.596Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:30.767Z
@@ -89,7 +89,7 @@ Contains all basic definitions of available quests.
 | [RewardFactionValue5](#rewardfactionvalue1-5) | int | signed |  | NO | 0 |  |  |
 | [RewardFactionOverride5](#rewardfactionoverride1-5) | int | signed |  | NO | 0 |  |  |
 | [TimeAllowed](#timeallowed) | int | unsigned |  | NO | 0 |  |  |
-| [AllowableRaces](#allowableraces) | smallint | unsigned |  | NO | 0 |  |  |
+| [AllowableRaces](#allowableraces) | int | unsigned |  | NO | 0 |  |  |
 | [LogTitle](#logtitle) | mediumtext |  |  | YES | NULL |  |  |
 | [LogDescription](#logdescription) | mediumtext |  |  | YES | NULL |  |  |
 | [QuestDescription](#questdescription) | mediumtext |  |  | YES | NULL |  |  |
@@ -233,7 +233,7 @@ The money a character at level 80 would get when they complete this quest.
 &nbsp;
 
 ### RewardDisplaySpell
-Spell that is shown to be casted on quest completion in the quest log. Note that this spell will NOT be casted if **RewardSpellCast** is non-zero. The spell in the other field will be casted instead, in which case the spell here only serves as the visual in the quest log.
+Spell that is shown to be casted on quest completion in the quest log. Note that this spell will NOT be casted if **RewardSpell** is non-zero. The spell in the other field will be casted instead, in which case the spell here only serves as the visual in the quest log.
 
 > Note: This field comes straight from the WDB and should not be changed.
 {.is-info}

@@ -2,7 +2,7 @@
 title: *_loot_template
 description:
 published: true
-date: 2023-10-22T19:26:01.946Z
+date: 2025-02-20T17:42:59.138Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2022-04-19T10:04:49.757Z
@@ -22,8 +22,8 @@ Loot templates define only items in the loot. See comments about money drop in c
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [Entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
+| [ItemType](#item) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [Item](#item) | int | unsigned | PRI | NO | 0 |  |  |
-| [Reference](#reference) | int | unsigned |  | NO | 0 |  |  |
 | [Chance](#chance) | float |  |  | NO | 100 |  |  |
 | [QuestRequired](#questrequired) | tinyint(1) | signed |  | NO | 0 |  |  |
 | [LootMode](#lootmode) | smallint | unsigned |  | NO | 1 |  |  |
@@ -46,7 +46,7 @@ The 12 tables have different relations with other DB tables.
 | pickpocketing_loot_template | entry | many <- many | [creature_template](/en/database/master/world/creature_template){target=_blank} | [pickpocketloot](/en/database/master/world/creature_template#pickpocketloot){target=_blank} |  |
 | skinning_loot_template | entry | many <- many | [creature_template](/en/database/master/world/creature_template){target=_blank} | [skinloot](/en/database/master/world/creature_template#skinloot){target=_blank}  |  |
 | quest_mail_loot_template | entry |  | [quest_template_addon](/en/database/master/world/quest_template_addon){target=_blank} | [RewardMailTemplateID](/en/database/master/world/quest_template_addon#rewardmailtemplateid){target=_blank} |  |
-| reference_loot_template | entry | many <- many | *_loot_template | [Reference](#reference) |  |
+| reference_loot_template | entry | many <- many | *_loot_template | [Item](#reference) (if ItemType = 1) |  |
 | spell_loot_template | entry | many <- many | [Spell.db2 (wago.tools)](https://wago.tools/db2/spell){target=_blank} or [SpellName.db2 (wago.tools)](https://wago.tools/db2/spellname){target=_blank} | ID |  |
 &nbsp;
 ## Description of fields
@@ -63,13 +63,11 @@ When a common or artificial loot template is used a problem arises: what ID to u
 Agreements on **Entry** field values are described [there](#agreements).
 &nbsp;
 
-### Item
-[Item ID](https://wago.tools/db2/itemsparse) of the item which is included into the loot.
-
-> Note: For reference entries this field has no meaning and is not used by the core in any way. Yet because of the PRIMARY KEY on the entry + item combination, this field will nonetheless need to be a unique number for each reference entry so that no indexing conflicts arise.
-{.is-info}
-
-&nbsp;
+### ItemType
+Changes what [Item](#item) column refers to
+0 - [Item ID](https://wago.tools/db2/ItemSparse) of the item which is included into the loot.
+1 - [Reference](#reference)
+2 - [Currency ID](https://wago.tools/db2/CurrencyTypes) of the currency which is included into the loot.
 
 ### Reference
 Template reference asks core to process another loot template and to include all items dropped for that template into current loot. Simple idea.
@@ -285,19 +283,28 @@ When a skin is pulled for a quest it becoms the second skin from the mob. This i
 ## Reference Template Numbering
 Agreements for Reference Templates are as followed:
 
-| Range | Used for |
-|-------|----------|
-| 00000-00999 | Skinning Reference Templates |
-| 01000-09999 | KEEP FREE: TDB-DEV-References |
-| 10000-10999 | Item Reference Templates |
-| 11000-11799 | Fishing Reference Templates |
-| 11800-11999 | Milling Reference Templates |
-| 12000-12899 | Raid: Gameobject Reference Templates |
-| 12900-12999 | Mining Reference Templates |
-| 13000-13999 | Prospecting Reference Templates |
-| 14000-29000 | World Reference Templates |
-| 34000-34999 | Raid: Creature Reference Templates |
-| 35000-35999 | Dungeon Reference Templates |
+| Expansion | Range start | Range end | 
+| --------- | ----------- | --------- |
+| Vanilla (1.x)                   |                1 |          99999 |               
+| The Burning Crusade (2.x)       |           100000 |         199999 |               
+| Wrath of the Lich King (3.x)    |           200000 |         299999 |               
+| Cataclysm (4.x)                 |           300000 |         399999 |               
+| Mists of Pandaria (5.x)         |           400000 |         499999 |               
+| Warlords of Draenor (6.x)       |           500000 |         599999 |               
+| Legion (7.x)                    |           600000 |         699999 |               
+| Battle for Azeroth (8.x)        |           700000 |         799999 |               
+| Shadowlands (9.x)               |           800000 |         899999 |               
+| Dragonflight (10.x)             |           900000 |         999999 |               
+| The War Within (11.x)           |          1000000 |        1099999 |               
+{.dense}
+
+| Subrange start | Subrange end | Used for |
+| -------- | -------- | -------- |
+| X00000 | X49999 | World Reference Templates |
+| X50000 | X59999 | Dungeon Reference Templates |
+| X60000 | X69999 | Raid Reference Templates |
+| X70000 | X79999 | Item Reference Templates |
+| X80000 | X99999 | Profession Reference Templates<br>(Skinning, Mining, Scraping, Herb Gathering, Prospecting, Milling, Pick Pocket) |
 {.dense}
 
 &nbsp;

@@ -2,7 +2,7 @@
 title: gameobject_template
 description:
 published: true
-date: 2023-10-22T15:59:12.204Z
+date: 2025-03-30T00:01:05.895Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:31:56.235Z
@@ -228,6 +228,21 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 15 | groupLootRules | 0, 1 | use group loot ruleset |
 | 16 | floatingTooltip | 0, 1 | unused |
 | 17 | conditionID1 | 0 | unused |
+| 18 | xplevel |  |  |
+| 19 | xpDifficulty |  |  |
+| 20 | lootlevel |  |  |
+| 21 | Group Xp |  |  |
+| 22 | Damage Immune |  |  |
+| 23 | trivialSkillLow |  |  |
+| 24 | trivialSkillHigh |  |  |
+| 25 | Dungeon Encounter |  |  |
+| 26 | spell |  |  |
+| 27 | GiganticAOI |  |  |
+| 28 | LargeAOI |  |  |
+| 29 | spawnVignette |  |  |
+| 30 | chestPersonalLoot |  |  |
+| 31 | turnpersonallootsecurityoff |  |  |
+| 32 | Chestproperties |  |  |
 {.dense}
 
 **_GAMEOBJECT_TYPE_BINDER (4)_**
@@ -299,6 +314,8 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 2 | pageMaterial | [PageTextMaterial ID](https://wago.tools/db2/pagetextmaterial) | Background texture of the gossip window |
 | 3 | allowMounted | 0, 1 | Is usable while on mount/vehicle. |
 | 4 | conditionID1 | 0 | unused |
+| 5 | NeverUsableWhileMounted | 0, 1 | Never Usable While Mounted, enum: false, true |
+| 6 | InteractRadiusOverride | 0 | Interact Radius Override (Yards * 100), int, Min value: 0, Max value: 2147483647, Default value: 0 |
 {.dense}
 
 **_GAMEOBJECT_TYPE_GOOBER (10)_**
@@ -326,7 +343,18 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 19 | gossipID | [gossip_menu.entry](../world/gossip_menu#entry)  |  |
 | 20 | WorldStateSetsState | 0, 1 | unused |
 | 21 | floatOnWater | 0, 1 | unused |
-| 22 | conditionID1 | 0 | unused |
+| 22 | conditionID1 | 0 | conditionID1, References: PlayerCondition |
+| 23 | playerCast | 0, 1 | playerCast, enum: false, true |
+| 24 | spawnVignette | [Vignette.db2](https://wago.tools/db2/Vignette) | Spawn Vignette |
+| 25 | startOpen | 0, 1 | startOpen, enum: false, true |
+| 26 | DontPlayOpenAnim | 0, 1 | Dont Play Open Anim enum: false, true |
+| 27 | IgnoreBoundingBox | 0, 1 | Ignore Bounding Box, enum: false, true |
+| 28 | NeverUsableWhileMounted | 0, 1 | Never Usable While Mounted, enum: false, true |
+| 29 | SortFarZ | 0, 1 | Sort Far Z, enum: false, true |
+| 30 | SyncAnimationtoObjectLifetime | 0, 1 | Sync Animation to Object Lifetime (global track only), enum: false, true |
+| 31 | NoFuzzyHit | 0, 1 | No Fuzzy Hit, enum: false, true |
+| 32 | LargeAOI | 0, 1 | Large AOI, enum: false, true |
+| 33 | InteractRadiusOverride | 0 | Interact Radius Override (Yards * 100), int, Min value: 0, Max value: 2147483647, Default value: 0 |
 {.dense}
 
 **_GAMEOBJECT_TYPE_TRANSPORT (11)_**
