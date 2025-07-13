@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2025-06-20T21:17:19.547Z
+date: 2025-07-13T15:18:46.273Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -73,8 +73,8 @@ dateCreated: 2021-08-30T09:29:30.449Z
 | CONDITION_SOURCE_TYPE_OBJECT_ID_VISIBILITY | 32 | ObjectType:<br/>5 = Unit<br/>8 = GameObject | CreatureID / GameObjectID | Always 0 | 0 = Player<br/>1 = WorldObject |  |
 | CONDITION_SOURCE_TYPE_SPAWN_GROUP | 33 | Always 0 | [spawn_group_template.groupId](/en/database/master/world/spawn_group_template#groupid) | Always 0 | Always 0 |  |
 | CONDITION_SOURCE_TYPE_PLAYER_CONDITION | 34 | Always 0 | PlayerConditionID | Always 0 | Always 0 |  |
-| CONDITION_SOURCE_TYPE_SKILL_LINE_ABILITY | 35 | Always 0 | ID from SkillLineAbility.db2 | Always 0 | Always 0 | 
-| CONDITION_SOURCE_TYPE_PLAYER_CHOICE_RESPONSE | 36 | [playerchoice_response.ChoiceId](/en/database/master/world/playerchoice_response#choiceid) | [playerchoice_response.ResponseId](/en/database/master/world/playerchoice_response#responseid) | Always 0 | Always 0 | 
+| CONDITION_SOURCE_TYPE_SKILL_LINE_ABILITY | 35 | Always 0 | ID from SkillLineAbility.db2 | Always 0 | Always 0 |  |
+| CONDITION_SOURCE_TYPE_PLAYER_CHOICE_RESPONSE | 36 | [playerchoice_response.ChoiceId](/en/database/master/world/playerchoice_response#choiceid) | [playerchoice_response.ResponseId](/en/database/master/world/playerchoice_response#responseid) | Always 0 | Always 0 |  |
 
 &nbsp;
 
