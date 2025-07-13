@@ -2,8 +2,8 @@
 title: npc_vendor
 description: 
 published: true
-date: 2024-05-16T11:19:34.305Z
-tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
+date: 2025-07-13T14:08:07.228Z
+tags: 
 editor: markdown
 dateCreated: 2021-08-30T22:06:42.885Z
 ---
@@ -35,7 +35,10 @@ Position of the item when the vendor window opens (order from top-left to bottom
 &nbsp;
 
 ### item
-Refers to to the [item_template.entry](../world/item_template#entry) of the item being sold.
+* **item** > 0:
+	Refers to to the [item_template.entry](../world/item_template#entry) of the item being sold.
+* **item** < 0:
+  **-item** is another **entry**, allowing for shared vendor listing definitions.
 &nbsp;
 
 ### maxcount
