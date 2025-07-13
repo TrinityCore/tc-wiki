@@ -1,6 +1,6 @@
 ---
 title: conversation_actors
-description: 
+description:
 published: true
 date: 2022-11-21T21:03:44.313Z
 tags: database, master, world
@@ -49,7 +49,7 @@ Reference [creature_template.entry](/en/database/master/world/creature_template#
 &nbsp;
 
 ### CreatureDisplayInfoId
-DisplayID from [CreatureDisplayInfo.db2](https://wow.tools/dbc/?dbc=creaturedisplayinfo){target=_blank}
+DisplayID from [CreatureDisplayInfo.db2](https://wago.tools/db2/creaturedisplayinfo){target=_blank}
 Decides the visual appearance from the actor.
 &nbsp;
 

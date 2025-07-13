@@ -1,6 +1,6 @@
 ---
 title: creature_text
-description: 
+description:
 published: true
 date: 2024-09-05T22:48:24.419Z
 tags: database, master, world
@@ -77,7 +77,7 @@ The text the creature will say.
 &nbsp;
 
 ### Language
-ID from [Languages.db2](https://wow.tools/dbc/?dbc=Languages){target=_blank}
+ID from [Languages.db2](https://wago.tools/db2/Languages){target=_blank}
 &nbsp;
 
 ### Probability
@@ -108,7 +108,7 @@ Assigns which packet should be used to send the sound
 ### BroadcastTextId
 Id of the equivalent text found in [broadcast_text](/en/database/master/hotfixes/broadcast_text#text)
 
-In some rare cases it's not sent in sniff, in that case put `0` in this field, as this field is optional. 
+In some rare cases it's not sent in sniff, in that case put `0` in this field, as this field is optional.
 Localization is then handled via. [creature_text_locales](/en/database/master/world/creature_text_locale).
 &nbsp;
 

@@ -1,6 +1,6 @@
 ---
 title: spell_area
-description: 
+description:
 published: true
 date: 2025-01-08T23:33:46.925Z
 tags: database, master, world
@@ -28,11 +28,11 @@ dateCreated: 2021-08-30T09:36:40.299Z
 ## Description of fields
 
 ### spell
-The spell ID of the spell to be casted on the player. See [SpellName.db2](https://wow.tools/dbc/?dbc=SpellName){target=_blank}).
+The spell ID of the spell to be casted on the player. See [SpellName.db2](https://wago.tools/db2/SpellName){target=_blank}).
 &nbsp;
 
 ### area
-The area ID. Type ".gps" in-game and find the "Area:" number to use for this cell. Also see [AreaTable.db2](https://wow.tools/dbc/?dbc=AreaTable){target=_blank}.
+The area ID. Type ".gps" in-game and find the "Area:" number to use for this cell. Also see [AreaTable.db2](https://wago.tools/db2/AreaTable){target=_blank}.
 &nbsp;
 
 ### quest_start
@@ -44,7 +44,7 @@ The entry of the quest which the player must not have in the state defined by qu
 &nbsp;
 
 ### aura_spell
-If set, this value (plus or minus aura spell ID from [SpellName.db2](https://wow.tools/dbc/?dbc=SpellName){target=_blank}) imposes additional condition.
+If set, this value (plus or minus aura spell ID from [SpellName.db2](https://wago.tools/db2/SpellName){target=_blank}) imposes additional condition.
 
 The value has the following effect:
 ```

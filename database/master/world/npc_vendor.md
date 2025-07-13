@@ -1,6 +1,6 @@
 ---
 title: npc_vendor
-description: 
+description:
 published: true
 date: 2022-11-21T21:06:28.323Z
 tags: database, master, world
@@ -37,7 +37,7 @@ Position of the item when the vendor window opens (order from top-left to bottom
 &nbsp;
 
 ### item
-Refers to to the [ItemID](https://wow.tools/dbc/?dbc=itemsparse) of the item being sold.
+Refers to to the [ItemID](https://wago.tools/db2/itemsparse) of the item being sold.
 &nbsp;
 
 ### maxcount
@@ -49,7 +49,7 @@ Combined with **maxcount**, this field tells how often (in seconds) the vendor l
 &nbsp;
 
 ### ExtendedCost
-The value here corresponds to an [ItemExtendedCost ID](https://wow.tools/dbc/?dbc=itemextendedcost) and that ID controls the item's non monetary price, be it honor points, arena points, different types of badges or any combination of the above.
+The value here corresponds to an [ItemExtendedCost ID](https://wago.tools/db2/itemextendedcost) and that ID controls the item's non monetary price, be it honor points, arena points, different types of badges or any combination of the above.
 &nbsp;
 
 ### type
@@ -82,4 +82,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/npc_text" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'npc_text'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/outdoorpvp_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'outdoorpvp_template'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
