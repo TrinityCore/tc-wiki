@@ -1,6 +1,6 @@
 ---
 title: quest_template_addon
-description: 
+description:
 published: true
 date: 2023-10-22T16:07:49.220Z
 tags: database, master, world
@@ -45,7 +45,7 @@ Maximum level at which a player can get the quest.
 &nbsp;
 
 ### AllowableClasses
-Class mask of [ChrClass IDs](https://wow.tools/dbc/?dbc=chrraces) allowed to get the quest.
+Class mask of [ChrClass IDs](https://wago.tools/db2/chrraces) allowed to get the quest.
 | Value | Flag   | Name         |
 |-------|--------|--------------|
 |     1 | 0x0001 | Warrior      |
@@ -63,7 +63,7 @@ Class mask of [ChrClass IDs](https://wow.tools/dbc/?dbc=chrraces) allowed to get
 &nbsp;
 
 ### SourceSpellID
-[Spell ID](https://wow.tools/dbc/?dbc=spell) cast on player when quest is started. Can be a buff or a learning spell.
+[Spell ID](https://wago.tools/db2/spell) cast on player when quest is started. Can be a buff or a learning spell.
 &nbsp;
 
 ### PrevQuestID
@@ -94,7 +94,7 @@ Breadcrumb quests exist for the sole purpose of guiding the player to a new zone
 &nbsp;
 
 ### RewardMailTemplateID
-If the quest gives as a reward an item from a possible list of items, the ID here corresponds to the proper entry in [mail_loot_template](../world/loot_template) and [MailTemplate ID](https://wow.tools/dbc/?dbc=mailtemplate). According to the rules in that loot template, items "looted" will be sent by mail at the completion of the quest.
+If the quest gives as a reward an item from a possible list of items, the ID here corresponds to the proper entry in [mail_loot_template](../world/loot_template) and [MailTemplate ID](https://wago.tools/db2/mailtemplate). According to the rules in that loot template, items "looted" will be sent by mail at the completion of the quest.
 &nbsp;
 
 ### RewardMailDelay
@@ -102,7 +102,7 @@ How many seconds to wait until the mail is sent to the character that turned in 
 &nbsp;
 
 ### RequiredSkillID
-[SkillLine ID](https://wow.tools/dbc/?dbc=skillline) required to know to accept the quest.
+[SkillLine ID](https://wago.tools/db2/skillline) required to know to accept the quest.
 &nbsp;
 
 ### RequiredSkillPoints
@@ -110,11 +110,11 @@ Skill points in **RequiredSkillID** required to have in order to accept the ques
 &nbsp;
 
 ### RequiredMinRepFaction
-[Faction ID](https://wow.tools/dbc/?dbc=faction) for reputation requirement.
+[Faction ID](https://wago.tools/db2/faction) for reputation requirement.
 &nbsp;
 
 ### RequiredMaxRepFaction
-[Faction ID](https://wow.tools/dbc/?dbc=faction) for reputation requirement.
+[Faction ID](https://wago.tools/db2/faction) for reputation requirement.
 &nbsp;
 
 ### RequiredMinRepValue

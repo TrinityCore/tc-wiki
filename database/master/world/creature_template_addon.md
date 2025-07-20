@@ -1,6 +1,6 @@
 ---
 title: creature_template_addon
-description: 
+description:
 published: true
 date: 2024-02-17T07:28:48.420Z
 tags: database, master, world
@@ -113,7 +113,7 @@ The [creature entry](../world/creature_template#entry) this creature is mounted 
 ### emote
 Emote ID that the creature should continually perform.
 
-A full list of emotes can be found at [wow.tools](https://wow.tools/dbc/?dbc=emotes){target=blank}
+A full list of emotes can be found at [wago.tools](https://wago.tools/db2/emotes){target=blank}
 &nbsp;
 
 ### aiAnimKit

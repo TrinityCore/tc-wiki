@@ -1,6 +1,6 @@
 ---
 title: instance_spawn_groups
-description: 
+description:
 published: true
 date: 2023-10-06T19:27:11.202Z
 tags: database, master, world
@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T09:32:32.436Z
 ## Description of fields
 
 ### instanceMapId
-MapID, referenced in [Map.db2](https://wow.tools/dbc/?dbc=map){target=blank}
+MapID, referenced in [Map.db2](https://wago.tools/db2/map){target=blank}
 &nbsp;
 
 ### bossStateId
@@ -54,7 +54,7 @@ Mask based on EncounterState, you can combine multiple states by OR-ing them, al
 &nbsp;
 
 ### spawnGroupId
-ID of the spawn group, referenced in [`spawn_group_template.groupId`](/database/master/world/spawn_group_template#groupId) 
+ID of the spawn group, referenced in [`spawn_group_template.groupId`](/database/master/world/spawn_group_template#groupId)
 &nbsp;
 
 ### flags
@@ -67,4 +67,3 @@ ID of the spawn group, referenced in [`spawn_group_template.groupId`](/database/
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/guild_rewards_req_achievements" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'guild_rewards_req_achievements'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/instance_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'instance_template'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

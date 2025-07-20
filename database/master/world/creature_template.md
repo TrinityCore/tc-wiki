@@ -1,6 +1,6 @@
 ---
 title: creature_template
-description: 
+description:
 published: true
 date: 2024-07-10T16:01:30.384Z
 tags: database, master, world
@@ -122,7 +122,7 @@ Used to tell the player what kind of NPC this creature is.
 &nbsp;
 
 ### faction
-The faction of the creature. See [FactionTmplate.db2](https://wow.tools/dbc/?dbc=factiontemplate){target=_blank}.
+The faction of the creature. See [FactionTmplate.db2](https://wago.tools/db2/factiontemplate){target=_blank}.
 Just because more than one faction has the same name, the inter-faction relationships can be different.
 
 > This field also controls the creature family assistance mechanic. Only creatures with the same faction will assist each other.
@@ -167,9 +167,9 @@ A bitmask that represents what NPC flags the creature has. Each bit controls a d
 | 1073741824 | 0x4000 0000 | Wild Battle Pet | Creature is battle pet and collectable |
 | 2147483648 | 0x8000 0000 | Blackmarket |  |
 
-So if you want an NPC that is a quest giver, a vendor, and can repair you just add the specific flags together: 
+So if you want an NPC that is a quest giver, a vendor, and can repair you just add the specific flags together:
 ```bash
-`npcflag`=`npcflag`|1|2|128|4096 
+`npcflag`=`npcflag`|1|2|128|4096
 ```
 The same with hexadecimal numbers: 0x1 + 0x2 + 0x80 + 0x1000 = 0x1083
 &nbsp;
@@ -274,7 +274,7 @@ Allows the manual application of unit flags to creatures. Again this is a bitmas
 &nbsp;
 
 ### VehicleId
-[Vehicle ID](https://wow.tools/dbc/?dbc=vehicle) if creature is/has a vehicle entry. This field determines how the player appears on the vehicle, how the vehicle moves, and whether or not the vehicle action bar is shown.
+[Vehicle ID](https://wago.tools/db2/vehicle) if creature is/has a vehicle entry. This field determines how the player appears on the vehicle, how the vehicle moves, and whether or not the vehicle action bar is shown.
 For example, a **VehicleId** of 292 will make the player invisible, prevent the vehicle from strafing left/right (but will allow fowards/backwards), and will show the vehicle action bar spells (which are defined in spell1-8). An [npc_spellclick_spells](../world/npc_spellclick_spells) entry must be made for this creature entry in order for this to work.
 &nbsp;
 

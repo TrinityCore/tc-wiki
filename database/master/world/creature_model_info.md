@@ -1,6 +1,6 @@
 ---
 title: creature_model_info
-description: 
+description:
 published: true
 date: 2022-11-21T21:04:02.281Z
 tags: database, master, world
@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T09:29:57.796Z
 ## Description of fields
 
 ### DisplayID
-DisplayID from [CreatureDisplayInfo.db2](https://wow.tools/dbc/?dbc=creaturedisplayinfo){target=_blank}
+DisplayID from [CreatureDisplayInfo.db2](https://wago.tools/db2/creaturedisplayinfo){target=_blank}
 &nbsp;
 
 ### BoundingRadius
@@ -35,7 +35,7 @@ This value is the unit's radius in term of game mechanics: The bigger this value
 &nbsp;
 
 ### DisplayID_Other_Gender
-DisplayID for other gender from [CreatureDisplayInfo.db2](https://wow.tools/dbc/?dbc=creaturedisplayinfo){target=_blank}
+DisplayID for other gender from [CreatureDisplayInfo.db2](https://wago.tools/db2/creaturedisplayinfo){target=_blank}
 &nbsp;
 
 ### VerifiedBuild
@@ -52,4 +52,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/creature_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'creature_loot_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/creature_movement_info" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'creature_movement_info'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

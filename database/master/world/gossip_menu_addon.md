@@ -1,6 +1,6 @@
 ---
 title: gossip_menu_addon
-description: 
+description:
 published: true
 date: 2024-09-05T22:48:25.243Z
 tags: database, master, world
@@ -26,7 +26,7 @@ This matches the id used in [creature_template.gossip_menu_id](/en/database/mast
 &nbsp;
 
 ### FriendshipFactionID
-ID from [Faction.db2](https://wow.tools/dbc/?dbc=faction){target=_blank}. The faction must have a reference in the field FriendshipRefID to a valid ID from [FriendshipReputation.db2](https://wow.tools/dbc/?dbc=friendshipreputation){target=_blank}. 
+ID from [Faction.db2](https://wago.tools/db2/faction){target=_blank}. The faction must have a reference in the field FriendshipRefID to a valid ID from [FriendshipReputation.db2](https://wago.tools/db2/friendshipreputation){target=_blank}.
 &nbsp;
 
 ### LfgDungeonsID

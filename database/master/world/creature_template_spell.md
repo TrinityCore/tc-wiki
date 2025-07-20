@@ -1,6 +1,6 @@
 ---
 title: creature_template_spell
-description: 
+description:
 published: true
 date: 2023-04-05T23:13:11.090Z
 tags: database, master, world
@@ -30,7 +30,7 @@ The spells position on the cast bar if the creature is player controlled. Must b
 &nbsp;
 
 ### Spell
-A [Spell ID](https://wow.tools/dbc/?dbc=spellname) to use.
+A [Spell ID](https://wago.tools/db2/spellname) to use.
 &nbsp;
 
 ### VerifiedBuild
@@ -47,4 +47,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/creature_template_sparring" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'creature_template_sparring'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/creature_text" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'creature_text'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-

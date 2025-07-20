@@ -1,6 +1,6 @@
 ---
 title: creature_questitem
-description: 
+description:
 published: true
 date: 2023-10-06T19:27:09.404Z
 tags: database, master, world
@@ -31,7 +31,7 @@ The ID of the creature. See [creature_template.entry](/en/database/master/world/
 &nbsp;
 
 ### DifficultyID
-The ID of the [Difficulty](https://wow.tools/dbc/?dbc=difficulty){target=_blank}.
+The ID of the [Difficulty](https://wago.tools/db2/difficulty){target=_blank}.
 &nbsp;
 
 ### Idx
@@ -39,7 +39,7 @@ Index in which order items are displayed.
 &nbsp;
 
 ### ItemId
-The ID of the [Item](https://wow.tools/dbc/?dbc=itemsparse){target=_blank}.
+The ID of the [Item](https://wago.tools/db2/itemsparse){target=_blank}.
 &nbsp;
 
 ### VerifiedBuild

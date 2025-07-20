@@ -1,6 +1,6 @@
 ---
 title: achievement_scripts
-description: 
+description:
 published: true
 date: 2022-11-21T22:46:35.221Z
 tags: database, master, world
@@ -20,7 +20,7 @@ dateCreated: 2022-02-16T23:50:51.622Z
 ## Description of fields
 
 ### AchievementId
-ID from [Achievement.db2](https://wow.tools/dbc/?dbc=achievement){target=_blank}.
+ID from [Achievement.db2](https://wago.tools/db2/achievement){target=_blank}.
 &nbsp;
 
 ### ScriptName

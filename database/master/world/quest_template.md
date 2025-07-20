@@ -1,6 +1,6 @@
 ---
 title: quest_template
-description: 
+description:
 published: true
 date: 2025-06-14T14:22:09.888Z
 tags: database, master, world
@@ -158,10 +158,10 @@ The quest ID. This column is the Primary Key for the Table. Each quest ID must b
 
 ### QuestSortID
 This field defines under what category the quest falls in the quest log.
-* **QuestSortID** > 0: positive [AreaTable ID](https://wow.tools/dbc/?dbc=areatable)
-* **QuestSortID** < 0: negative [QuestSort ID](https://wow.tools/dbc/?dbc=questsort) (in general profession, class or holiday quests)
+* **QuestSortID** > 0: positive [AreaTable ID](https://wago.tools/db2/areatable)
+* **QuestSortID** < 0: negative [QuestSort ID](https://wago.tools/db2/questsort) (in general profession, class or holiday quests)
 
-[QuestSort](https://wow.tools/dbc/?dbc=questsort) excerpt:
+[QuestSort](https://wago.tools/db2/questsort) excerpt:
 | ID | Name |  | ID | Name |
 |----|------|--|----|------|
 | 22 | Seasonal | | 261 | Hunter |
@@ -185,7 +185,7 @@ This field defines under what category the quest falls in the quest log.
 &nbsp;
 
 ### QuestInfoID
-[QuestInfo ID](https://wow.tools/dbc/?dbc=questinfo)
+[QuestInfo ID](https://wago.tools/db2/questinfo)
 | ID | Name |
 |----|------|
 | 1 | Group |
@@ -212,8 +212,8 @@ Recommended number of players to do the quest together.
 &nbsp;
 
 ### RewardXPDifficulty
-references [QuestXP Difficulty](https://wow.tools/dbc/?dbc=questxp)
-The amount of XP is determined by the **QuestLevel** (row) and **RewardXPDifficulty** (column) when reading from [QuestXP](https://wow.tools/dbc/?dbc=questxp) table.
+references [QuestXP Difficulty](https://wago.tools/db2/questxp)
+The amount of XP is determined by the **QuestLevel** (row) and **RewardXPDifficulty** (column) when reading from [QuestXP](https://wago.tools/db2/questxp) table.
 
 If the quest is repeatable, XP will be given only once. The total XP that a character will receive is also affected by the level difference between the character's level and the quest's level.
 &nbsp;
@@ -261,7 +261,7 @@ Example: An example value is 8 for [For Great Honor](https://aowow.trinitycore.i
 &nbsp;
 
 ### StartItem
-[Item entry](https://wow.tools/dbc/?dbc=itemsparse) given when accepting the quest. Item will be deleted when the quest is abandoned.
+[Item entry](https://wago.tools/db2/itemsparse) given when accepting the quest. Item will be deleted when the quest is abandoned.
 &nbsp;
 
 ### RewardArtifactXPDifficulty
@@ -320,7 +320,7 @@ The amount of items forced onto the player.
 &nbsp;
 
 ### ItemDrop\[1-4]
-[Item entry](https://wow.tools/dbc/?dbc=itemsparse) that is needed indirectly by the quest. For example, the quests asks for item X but the only way to get item X is by activating item Y; however, item Y is also a quest item. Therefore you set item Y's entry in this field. This requirement will not appear in the quest text, it is just for the core to know when to drop a quest item that isn't in the **RequiredItemId\*** field but is still needed by the quest.
+[Item entry](https://wago.tools/db2/itemsparse) that is needed indirectly by the quest. For example, the quests asks for item X but the only way to get item X is by activating item Y; however, item Y is also a quest item. Therefore you set item Y's entry in this field. This requirement will not appear in the quest text, it is just for the core to know when to drop a quest item that isn't in the **RequiredItemId\*** field but is still needed by the quest.
 &nbsp;
 
 ### ItemDropQuantity\[1-4]
@@ -336,7 +336,7 @@ The amount of items to reward if if the correspondig **RewardChoiceItemID\*** is
 &nbsp;
 
 ### POIContinent
-[Map ID](https://wow.tools/dbc/?dbc=map) of a quest point of interest (POI - Point Of Interest). POI will be shown on the map when quest is active.
+[Map ID](https://wago.tools/db2/map) of a quest point of interest (POI - Point Of Interest). POI will be shown on the map when quest is active.
 &nbsp;
 
 ### POIx
@@ -352,7 +352,7 @@ Y coordinate of quest POI.
 &nbsp;
 
 ### RewardTitle
-[CharTitle ID](https://wow.tools/dbc/?dbc=chartitles) to reward on completion.
+[CharTitle ID](https://wago.tools/db2/chartitles) to reward on completion.
 &nbsp;
 
 ### RewardArenaPoints
@@ -384,13 +384,13 @@ An amount of arena points to reward on completion.
 &nbsp;
 
 ### RewardFactionID\[1-5]
-[Faction ID](https://wow.tools/dbc/?dbc=faction) for which the quest rewards reputation points.
+[Faction ID](https://wago.tools/db2/faction) for which the quest rewards reputation points.
 &nbsp;
 
 ### RewardFactionValue\[1-5]
-This field is used for reputation lookup in [QuestFactionReward](https://wow.tools/dbc/?dbc=questfactionreward). The value X in this field indicates index of [QuestFactionReward Difficulty](https://wow.tools/dbc/?dbc=questfactionreward).
-* **RewardFactionValue\*** > 0: Reputation from the first row of [QuestFactionReward](https://wow.tools/dbc/?dbc=questfactionreward) is used.
-* **RewardFactionValue\*** < 0: Reputation from the second row of [QuestFactionReward](https://wow.tools/dbc/?dbc=questfactionreward) is used.
+This field is used for reputation lookup in [QuestFactionReward](https://wago.tools/db2/questfactionreward). The value X in this field indicates index of [QuestFactionReward Difficulty](https://wago.tools/db2/questfactionreward).
+* **RewardFactionValue\*** > 0: Reputation from the first row of [QuestFactionReward](https://wago.tools/db2/questfactionreward) is used.
+* **RewardFactionValue\*** < 0: Reputation from the second row of [QuestFactionReward](https://wago.tools/db2/questfactionreward) is used.
 
 | ID | Rep0 | Rep1 | Rep2 | Rep3 | Rep4 | Rep5 | Rep6 | Rep7 | Rep8 | Rep9 |
 |----|------|------|------|------|------|------|------|------|------|------|
@@ -401,7 +401,7 @@ This field is used for reputation lookup in [QuestFactionReward](https://wow.too
 &nbsp;
 
 ### RewardFactionOverride\[1-5]
-This field is used to give reputation values not present in [QuestFactionReward](https://wow.tools/dbc/?dbc=questfactionreward) or to override them if **RewardFactionValue\*** is wrong for some reason. The value in this field is 100� the intended reputation reward (if you want to give 400 rep, put 40000 in **RewardFactionOverride\***).
+This field is used to give reputation values not present in [QuestFactionReward](https://wago.tools/db2/questfactionreward) or to override them if **RewardFactionValue\*** is wrong for some reason. The value in this field is 100� the intended reputation reward (if you want to give 400 rep, put 40000 in **RewardFactionOverride\***).
 &nbsp;
 
 ### RewardFactionCapIn\[1-5]
@@ -461,7 +461,7 @@ Time in seconds that the player has to complete this quest.
 &nbsp;
 
 ### AllowableRaces
-Race mask of [ChrRace IDs](https://wow.tools/dbc/?dbc=chrraces) allowed to get the quest.
+Race mask of [ChrRace IDs](https://wago.tools/db2/chrraces) allowed to get the quest.
 0 means the quest is accessible for all races.
 | Value | Flag   | Name      |  | Value | Flag   | Name      |
 |-------|--------|-----------|--|-------|--------|-----------|

@@ -26,7 +26,7 @@ dateCreated: 2021-08-30T09:29:12.347Z
 
 ### ID <!-- {#id-alt} -->
 The battleground ID.
-A list is available in [BattlemasterList.db2](https://wow.tools/dbc/?dbc=battlemasterlist){target=_blank} (ID field)
+A list is available in [BattlemasterList.db2](https://wago.tools/db2/battlemasterlist){target=_blank} (ID field)
 &nbsp;
 
 ### AllianceStartLoc

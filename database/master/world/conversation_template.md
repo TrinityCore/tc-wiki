@@ -1,6 +1,6 @@
 ---
 title: conversation_template
-description: 
+description:
 published: true
 date: 2025-03-19T16:10:34.473Z
 tags: database, master, world
@@ -28,7 +28,7 @@ Unique ID for a conversation.
 &nbsp;
 
 ### FirstLineId
-ID of [ConversationLine.db2](https://wow.tools/dbc/?dbc=conversationline){target=_blank} where the conversation starts.
+ID of [ConversationLine.db2](https://wago.tools/db2/conversationline){target=_blank} where the conversation starts.
 &nbsp;
 
 ### TextureKitId

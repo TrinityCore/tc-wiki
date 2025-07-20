@@ -30,12 +30,12 @@ dateCreated: 2021-08-29T20:43:51.863Z
 
 ### mapId
 MapID of the map which should have access requirements
-References to: [Map.db2](https://wow.tools/dbc/?dbc=Map){target=_blank}
+References to: [Map.db2](https://wago.tools/db2/Map){target=_blank}
 &nbsp;
 
 ### difficulty
 Difficulty id of the access requirement
-References to: [Difficulty.db2](https://wow.tools/dbc/?dbc=Difficulty){target=_blank}
+References to: [Difficulty.db2](https://wago.tools/db2/Difficulty){target=_blank}
 &nbsp;
 
 ### level_min
@@ -47,11 +47,11 @@ The maximum level that you can be in order to enter the instance.
 &nbsp;
 
 ### item
-An [item](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} that you must have in your inventory to enter the instance. This item can not be in the bank.
+An [item](https://wago.tools/db2/itemsparse){target=_blank} that you must have in your inventory to enter the instance. This item can not be in the bank.
 &nbsp;
 
 ### item2
-A second [item](https://wow.tools/dbc/?dbc=itemsparse){target=_blank} that you must have in your inventory. This item can not be in the bank.
+A second [item](https://wago.tools/db2/itemsparse){target=_blank} that you must have in your inventory. This item can not be in the bank.
 &nbsp;
 
 ### quest_done_A
@@ -63,7 +63,7 @@ A [quest](/database/master/world/quest_template#id) that you must have completed
 &nbsp;
 
 ### completed_achievement
-An [achievement](https://wow.tools/dbc/?dbc=achievement){target=_blank} that must be completed by the player to enter an instance.
+An [achievement](https://wago.tools/db2/achievement){target=_blank} that must be completed by the player to enter an instance.
 &nbsp;
 
 ### quest_failed_text
@@ -75,4 +75,3 @@ This field is for any comment you want to make about the requirements. It is arb
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/master/world/world_state" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'world_state'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/achievement_dbc" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'achievement_dbc'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
