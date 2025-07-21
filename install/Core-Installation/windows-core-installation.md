@@ -2,7 +2,7 @@
 title: Windows Core Installation
 description: 
 published: true
-date: 2024-09-25T06:29:57.719Z
+date: 2025-07-21T13:20:42.856Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-15T10:17:42.057Z
@@ -93,18 +93,10 @@ You will need the following files in order for the core to function properly:
   
 There are four DLL files that need to be manually added to this folder, and you need to copy them over from the following installation/bin directories:
 
-**libmysql.dll** →  C:\\Program Files\\MySQL\\MySQL Server 8.x\\lib\\
-
-OpenSSL 3 requires the following files:
-
- **legacy.dll**
- **libssl-3-x64.dll**  
- **libcrypto-3-x64.dll** → C:\\OpenSSL-Win64\\bin
-
-OpenSSL 1.1.1 requires the following files:
-
- **libssl-1\_1-x64.dll**  
- **libcrypto-1\_1-x64.dll** → C:\\OpenSSL-Win64\\bin
+**libmysql.dll** → C:\\Program Files\\MySQL\\MySQL Server 8.x\\lib
+**legacy.dll** → C:\\OpenSSL-Win64\\bin
+**libssl-3-x64.dll** → C:\\OpenSSL-Win64\\bin
+**libcrypto-3-x64.dll** → C:\\OpenSSL-Win64\\bin
 
 > **About compilation log and report**
 > 
