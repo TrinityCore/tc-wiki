@@ -2,7 +2,7 @@
 title: *_scripts
 description: 
 published: true
-date: 2024-01-05T18:10:05.443Z
+date: 2025-07-25T13:26:40.528Z
 tags: 
 editor: markdown
 dateCreated: 2023-07-09T16:57:16.125Z
@@ -43,7 +43,7 @@ This table format is used for 3 different tables to control possible scripts act
 
 ### id <!-- {#id-alt} -->
 * `spell_scripts`: [Spell ID](/files/DBC/335/spell#id)
-* `waypoint_scripts`: action ID from [waypoint_data](../world/waypoint_data#action)
+* `waypoint_scripts`: [waypoint_data.action](../world/waypoint_data#action)
 * `event_scripts`: an event ID. There doesn't exist currently a full list of events. In any case, the event IDs are taken directly from gameobject WDB data or spell effect data. If both a gameobject and a spell activate the same event, the IDs will match.
 &nbsp;
 
@@ -116,7 +116,7 @@ The following commands can be used:
 | 13 | 0 | 0 | 0 | - |
 | 14 | [Spell ID](/files/DBC/335/spell#id) to remove | remove from: 0 - target; 1 - source | 0 | - |
 | 15 | [Spell ID](/files/DBC/335/spell#id) to cast | 0: Source -> Target<br>1: Source -> Source (self cast)<br>2: Target -> Target<br>3: Target -> Source (cast back)<br>4: [creature entry](../world/creature_template#entry) from **dataint** | cast type: 0 - normal; 1 - triggered<br><br><br><br>[creature entry](../world/creature_template#entry) | - |
-| 16 | [SoundEntry ID](/files/DBC/335/soundentries#id) to play | 0x1: play to everyone instead of player<br>0x2: play with distance dependancy instead of without| 0 | - |
+| 16 | [SoundEntry ID](/files/DBC/335/soundentries#id) to play | 0x1: play to everyone instead of player<br>0x2: play with distance dependency instead of without| 0 | - |
 | 17 | [item entry](../world/item_template#entry) to create | amount | 0 | - |
 | 18 | despawn delay (in seconds?) | 0 | 0 | - |
 | 20 | waypoint [path id](../world/waypoint_data#ID) to load | repeatable: 0 - no; 1 - yes | 0 | - |
