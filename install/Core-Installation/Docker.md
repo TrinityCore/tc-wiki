@@ -2,7 +2,7 @@
 title: Docker Core Installation
 description: 
 published: true
-date: 2025-01-07T13:05:01.609Z
+date: 2025-07-30T17:40:35.573Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-08T00:08:21.529Z
@@ -39,7 +39,7 @@ services:
   trinity_bnetserver:
     image: trinitycore/trinitycore:3.3.5
     container_name: trinity_bnetserver
-    entrypoint: bnetserver
+    entrypoint: authserver
     volumes:
       - ./configs:/home/circleci/project/bin/check_install/etc
     ports:
