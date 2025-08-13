@@ -2,7 +2,7 @@
 title: player_classlevelstats
 description: 
 published: true
-date: 2022-11-21T21:06:44.242Z
+date: 2025-08-13T22:27:26.642Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:33:31.733Z
@@ -25,7 +25,21 @@ dateCreated: 2021-08-30T09:33:31.733Z
 ## Description of fields
 
 ### class
-*- no description -*
+| Class | ID |
+| --- | --- |
+| Warrior | 1 |
+| Paladin | 2 |
+| Hunter | 3 |
+| Rogue | 4 |
+| Priest | 5 |
+| Death Knight | 6 |
+| Shaman | 7 |
+| Mage | 8 |
+| Warlock | 9 |
+| Monk | 10 |
+| Druid | 11 |
+| Demon Hunter | 12 |
+| Evoker | 13 |
 &nbsp;
 
 ### level
@@ -33,19 +47,19 @@ The level at which the stats should be applied.
 &nbsp;
 
 ### str
-*- no description -*
+Strength value
 &nbsp;
 
 ### agi
-*- no description -*
+Agility value
 &nbsp;
 
 ### sta
-*- no description -*
+Stamina value
 &nbsp;
 
 ### inte
-*- no description -*
+Intellect value
 &nbsp;
 
 ### VerifiedBuild
