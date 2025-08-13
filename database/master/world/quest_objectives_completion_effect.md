@@ -2,7 +2,7 @@
 title: quest_objectives_completion_effect
 description: 
 published: true
-date: 2025-08-13T22:49:58.720Z
+date: 2025-08-13T22:51:07.585Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2023-10-06T19:42:39.882Z
@@ -24,7 +24,7 @@ dateCreated: 2023-10-06T19:42:39.882Z
 ## Description of fields
 
 ### ObjectiveID
-Id of the Quest [Objective](/database/master/world/quest_objectives_objectives#ID) 
+Id of the Quest [Objective](/database/master/world/quest_objectives#ID) 
 &nbsp;
 
 ### GameEventID
