@@ -2,7 +2,7 @@
 title: quest_tracker
 description: 
 published: true
-date: 2023-07-31T22:16:24.715Z
+date: 2025-09-15T11:24:17.872Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:02:12.278Z
@@ -20,7 +20,7 @@ dateCreated: 2021-08-30T22:02:12.278Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [id](#id-alt) | mediumint | unsigned |  | NO | 0 |  |  |
+| [id](#id-alt) | int | unsigned |  | NO | 0 |  |  |
 | [character_guid](#character_guid) | int | unsigned |  | NO | 0 |  |  |
 | [quest_accept_time](#quest_accept_time) | datetime |  |  | NO |  |  |  |
 | [quest_complete_time](#quest_complete_time) | datetime |  |  | YES | NULL |  |  |
