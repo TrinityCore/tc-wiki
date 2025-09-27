@@ -2,7 +2,7 @@
 title: achievement_criteria_data
 description: 
 published: true
-date: 2025-05-18T18:00:04.078Z
+date: 2025-09-27T21:59:28.083Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:02:33.368Z
@@ -255,16 +255,12 @@ login on day of N-th Birthday
 `0`
 
 known (pvp) title
-#### :x: type: 24
+#### type: 24
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_GAME_EVENT**
 * **value1**:
-\-
+[game_event.eventEntry](../world/game_event#eventEntry)
 * **value2**:
-\-
-
-> 7.x only
-{.is-danger}
-
+`0`
 
 #### type: 25
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_S_ITEM_QUALITY**
