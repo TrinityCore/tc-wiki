@@ -2,7 +2,7 @@
 title: gameobject_template
 description: 
 published: true
-date: 2024-10-05T20:59:41.753Z
+date: 2025-09-27T21:54:20.412Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:05:30.524Z
@@ -77,10 +77,10 @@ Gameobject's unique id.
 | 12 | GAMEOBJECT_TYPE_AREADAMAGE |
 | 13 | GAMEOBJECT_TYPE_CAMERA |
 | 14 | GAMEOBJECT_TYPE_MAP_OBJECT |
-| 15 | GAMEOBJECT_TYPE_MO_TRANSPORT |
+| 15 | GAMEOBJECT_TYPE_MAP_OBJ_TRANSPORT |
 | 16 | GAMEOBJECT_TYPE_DUEL_ARBITER |
 | 17 | GAMEOBJECT_TYPE_FISHINGNODE |
-| 18 | GAMEOBJECT_TYPE_SUMMONING_RITUAL |
+| 18 | GAMEOBJECT_TYPE_RITUAL |
 | 19 | GAMEOBJECT_TYPE_MAILBOX |
 | 20 | GAMEOBJECT_TYPE_DO_NOT_USE |
 | 21 | GAMEOBJECT_TYPE_GUARDPOST |
@@ -374,7 +374,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 {.dense}
 
 #### type:&nbsp;15 MOTransport
-**GAMEOBJECT_TYPE_MO_TRANSPORT**
+**GAMEOBJECT_TYPE_MAP_OBJ_TRANSPORT**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | taxiPathId | [TaxiPath ID](/files/DBC/335/taxipath#id) |  |
@@ -399,7 +399,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 {.dense}
 
 #### type:&nbsp;18 Ritual
-**GAMEOBJECT_TYPE_SUMMONING_RITUAL**
+**GAMEOBJECT_TYPE_RITUAL**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | reqParticipants |  | number of unique player interactions |
