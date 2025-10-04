@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2025-02-20T16:06:06.314Z
+date: 2025-10-04T17:45:19.836Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:09.695Z
@@ -1857,6 +1857,81 @@ SMART_EVENT_ON_DESPAWN (86)
 valid for **source_type**
 |--|--|
 | 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### SendEventTrigger ⚠️&nbsp;(87)
+> UNUSED NEEDS CHERRYPICK
+{.is-warning}
+* **event_type**:
+SMART_EVENT_SEND_EVENT_TRIGGER (87)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+#### AreatriggerExit ❌&nbsp;(88)
+> don't use on 3.3.5a
+{.is-danger}
+* **event_type**:
+SMART_EVENT_AREATRIGGER_EXIT (88)
+* **event_param1**:
+`0`
+* **event_param2**:
+`0`
+* **event_param3**:
+`0`
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 2 | SMART_SCRIPT_TYPE_AREATRIGGER |
+{.dense}
+#### AuraApplied (89)
+On aura applied
+* **event_type**:
+SMART_EVENT_ON_AURA_APPLIED (89)
+* **event_param1**:
+[Spell ID](/files/DBC/335/spell#id)
+* **event_param2**:
+CooldownMin (in msec.)
+* **event_param3**:
+CooldownMax (in msec.)
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
+#### AuraRemoved (90)
+On aura removed
+* **event_type**:
+SMART_EVENT_ON_AURA_REMOVED (90)
+* **event_param1**:
+[Spell ID](/files/DBC/335/spell#id)
+* **event_param2**:
+CooldownMin (in msec.)
+* **event_param3**:
+CooldownMax (in msec.)
+* **event_param4**:
+`0`
+* **event_param5**:
+`0`
+
+valid for **source_type**
+|--|--|
+| 0 | SMART_SCRIPT_TYPE_CREATURE |
+{.dense}
 ### EndTabset {.tabset}
 &nbsp;
 
