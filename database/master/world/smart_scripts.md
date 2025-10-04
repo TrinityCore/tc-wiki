@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2025-07-24T10:30:27.931Z
+date: 2025-10-04T11:32:47.409Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -269,6 +269,8 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_EVENT_ON_DESPAWN | 86 | | | | | | | On despawn |
 | SMART_EVENT_SEND_EVENT_TRIGGER | 87 | | | | | | | On GameEvent triggered |
 | SMART_EVENT_AREATRIGGER_EXIT | 88 | | | | | | | On areatrigger exit |
+| SMART_EVENT_ON_AURA_APPLIED | 89 | SpellID | CooldownMin | CooldownMax | | | | On Aura apply |
+| SMART_EVENT_ON_AURA_REMOVED | 90 | SpellID | CooldownMin | CooldownMax | | | | On Aura remove |
 {.dense}
 
 > Please note :warning:means that the event_type is deprecated and should not be used.
