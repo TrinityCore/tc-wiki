@@ -1,8 +1,8 @@
 ---
 title: character_achievement_progress
-description:
+description: 
 published: true
-date: 2023-07-25T18:27:00.839Z
+date: 2025-10-10T23:21:01.423Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:59:09.789Z
@@ -34,7 +34,7 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### counter
-The counter related to the respective achivement
+The counter related to the respective achievement
 &nbsp;
 
 ### date
