@@ -2,7 +2,7 @@
 title: conditions
 description: This table allows you to define conditions for various systems - Gossip, loot etc.
 published: true
-date: 2025-07-13T15:18:46.273Z
+date: 2025-10-12T22:11:32.416Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:30.449Z
@@ -120,7 +120,7 @@ Two conditions with the same SourceType, SourceGroup and SourceEntry but with a 
 | CONDITION_ACTIVE_EVENT | 12 | Event entry<br/>(game_event.eventEntry) | Always 0 | Always 0 |  |
 | CONDITION_INSTANCE_INFO | 13 | **entry** (see corresponding source script files for info) | **data** (see corresponding script source files for more info) | 0 = INSTANCE_INFO_DATA <br/>1 = INSTANCE_INFO_GUID_DATA <br/>2 = INSTANCE_INFO_BOSS_STATE <br/>3 = INSTANCE_INFO_DATA64 |  |
 | CONDITION_QUEST_NONE | 14 | Quest ID - see quest_template.id | Always 0 | Always 0 |  |
-| CONDITION_CLASS | 15 | Class mask from ChrClasses.dbc<br/>Add flags together for all classes where condition is true. | Always 0 | Always 0 |  |
+| CONDITION_CLASS | 15 | Class mask from ChrClasses.dbc<br/>Add flags together for all classes where condition is true.<br/><pre>  1 = Warrior<br/>  4 = Hunter<br/>  8 = Rogue<br/>  16 = Priest<br/>  32 = Death Knight<br/>  64 = Shaman<br/>  128 = Mage<br/>  256 = Warlock<br/>  512 = Monk<br/>  1024 = Druid<br/>  2048 = Demon Hunter<br/>  4096 = Evoker | Always 0 | Always 0 |  |
 | CONDITION_RACE | 16 | Player must be this race.<br/>See ChrRaces.dbc .<br/>Add flags together for all races where condition is true. | Always 0 | Always 0 |  |
 | CONDITION_ACHIEVEMENT | 17 | 	Achievement ID from Achievement.dbc | Always 0 | Always 0 |  |
 | CONDITION_TITLE | 18 | Title ID from CharTitles.dbc | Always 0 | Always 0 |  |
