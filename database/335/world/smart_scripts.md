@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2025-10-04T17:45:19.836Z
+date: 2025-10-16T21:34:07.934Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:09.695Z
@@ -4277,9 +4277,11 @@ SMART_ACTION_PAUSE_MOVEMENT (127)
   |----|------|---------|
   | 0 | MOTION_SLOT_DEFAULT | idle, follow, etc. |
   | 1 | MOTION_SLOT_ACTIVE | point movement |
-  {.dense}
+  | 2 | | controlled |
+  {.dense}  
 * **action_param2**:
 pause (in msec.)
+`0`: indefinitely
 * **action_param3**:
 force? (`0`/`1`)
 * **action_param4**:
@@ -4765,6 +4767,131 @@ SMART_ACTION_DO_ACTION (151)
 actionId
 * **action_param2**:
 `0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### CompleteQuest ❌&nbsp;(152)
+> RESERVED, PENDING CHERRYPICK
+{.is-danger}
+* **action_type**:
+SMART_ACTION_COMPLETE_QUEST (152)
+* **action_param1**:
+QuestId
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### QuestCreditTalkTo ❌&nbsp;(153)
+> RESERVED, PENDING CHERRYPICK
+{.is-danger}
+* **action_type**:
+SMART_ACTION_CREDIT_QUEST_OBJECTIVE_TALK_TO (153)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### DestroyConversation ❌&nbsp;(154)
+> don't use on 3.3.5a
+{.is-danger}
+* **action_type**:
+SMART_ACTION_DESTROY_CONVERSATION (154)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### EnterVehicle ❌&nbsp;(155)
+> RESERVED, PENDING CHERRYPICK
+{.is-danger}
+* **action_type**:
+SMART_ACTION_ENTER_VEHICLE (155)
+* **action_param1**:
+seatId
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### BoardPassenger ❌&nbsp;(156)
+> RESERVED, PENDING CHERRYPICK
+{.is-danger}
+* **action_type**:
+SMART_ACTION_BOARD_PASSENGER (156)
+* **action_param1**:
+seatId
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### ExitVehicle ❌&nbsp;(157)
+> RESERVED, PENDING CHERRYPICK
+{.is-danger}
+* **action_type**:
+SMART_ACTION_EXIT_VEHICLE (157)
+* **action_param1**:
+`0`
+* **action_param2**:
+`0`
+* **action_param3**:
+`0`
+* **action_param4**:
+`0`
+* **action_param5**:
+`0`
+* **action_param6**:
+`0`
+#### ResumeMovement (158)
+Target units resumes movement caused by given movement slot.
+**action_type**:
+SMART_ACTION_RESUME_MOVEMENT (158)
+* **action_param1**:
+  [`enum MovementSlot`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Movement/MovementDefines.h#L63-L68)
+  | ID | Name | Comment |
+  |----|------|---------|
+  | 0 | MOTION_SLOT_DEFAULT | idle, follow, etc. |
+  | 1 | MOTION_SLOT_ACTIVE | point movement |
+  | 2 | | controlled |
+  {.dense} 
+* **action_param2**:
+ResumeTime (in ms.)
+`0`: indefinitely
 * **action_param3**:
 `0`
 * **action_param4**:
