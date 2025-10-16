@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2025-10-16T21:34:07.934Z
+date: 2025-10-16T21:58:45.353Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:09.695Z
@@ -4277,7 +4277,6 @@ SMART_ACTION_PAUSE_MOVEMENT (127)
   |----|------|---------|
   | 0 | MOTION_SLOT_DEFAULT | idle, follow, etc. |
   | 1 | MOTION_SLOT_ACTIVE | point movement |
-  | 2 | | controlled |
   {.dense}  
 * **action_param2**:
 pause (in msec.)
@@ -4887,7 +4886,6 @@ SMART_ACTION_RESUME_MOVEMENT (158)
   |----|------|---------|
   | 0 | MOTION_SLOT_DEFAULT | idle, follow, etc. |
   | 1 | MOTION_SLOT_ACTIVE | point movement |
-  | 2 | | controlled |
   {.dense} 
 * **action_param2**:
 ResumeTime (in ms.)
