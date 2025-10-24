@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2025-10-24T10:27:36.062Z
+date: 2025-10-24T10:28:41.651Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -171,6 +171,7 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
     <li>SMART_ACTION_ACTIVATE_TAXI</li>
     <li>SMART_ACTION_JUMP_TO_POS</li>
     <li>SMART_ACTION_START_CLOSEST_WAYPOINT</li>
+    <li>SMART_ACTION_FALL</li>
 </ul>
 </blockquote>
 
