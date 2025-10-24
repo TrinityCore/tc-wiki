@@ -2,7 +2,7 @@
 title: arena_team
 description: 
 published: true
-date: 2023-07-24T20:24:05.583Z
+date: 2025-10-24T23:00:37.592Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:58:37.950Z
@@ -81,23 +81,31 @@ Rank of teams in the competition by rating.
 &nbsp;
 
 ### backgroundColor
-Team-tabard BackgroundColor (same as guild-tabard)
+ARGB color value.
+```c
+alpha = (field & 0xFF000000) >> 48
+red   = (field & 0xFF0000) >> 32
+green = (field & 0xFF00) >> 16
+blue  = (field & 0xFF)
+```
 &nbsp;
 
 ### emblemStyle
-Team-tabard Emblem (same as guild-tabard)
+file index to
+`Interface/PvPFrame/Icons/PVP-Banner-Emblem-<emblemStyle>.blp`
 &nbsp;
 
 ### emblemColor
-Team-tabard EmblemColor (same as guild-tabard)
+ARGB color value.
 &nbsp;
 
 ### borderStyle
-Team-tabard Bordertype (same as guild-tabard)
+file index to
+`Interface/PvPFrame/PVP-Banner-<2|3|5>-Border-<borderStyle>.blp`
 &nbsp;
 
 ### borderColor
-Team-tabard BorderColor (same as guild-tabard)
+ARGB color value.
 &nbsp;
 
 <a href="https://trinitycore.info/en/database/335/characters/addons" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'addons'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/arena_team_member" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'arena_team_member'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
