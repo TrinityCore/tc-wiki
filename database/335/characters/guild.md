@@ -2,7 +2,7 @@
 title: guild
 description: 
 published: true
-date: 2023-07-30T22:19:04.340Z
+date: 2025-10-24T23:10:52.482Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:00:57.718Z
@@ -46,23 +46,23 @@ The [character guid](../characters/characters#guid) of the guild leader.
 &nbsp;
 
 ### EmblemStyle
-The emblem on the guild tabard.
-&nbsp;
-
 ### EmblemColor
-The color of the emblem on guild tabard.
+Defined the emblem on the guild tabard.
+file index to:
+`textures/GuildEmblems/Emblem_<Style>_<Color>_TU_U.blp` / `*_TL_U.blp`
 &nbsp;
 
 ### BorderStyle
-The border style of the guild tabard.
-&nbsp;
-
 ### BorderColor
-The color of the border on the guild tabard.
+Defined the border on the guild tabard.
+file index to:
+`textures/GuildEmblems/Border_<Style>_<Color>_TU_U.blp` / `*_TL_U.blp`
 &nbsp;
 
 ### BackgroundColor
-The background color of the guild tabard.
+Defines the background color of the guild tabard.
+file index to:
+`textures/GuildEmblems/Background_<Color>_TU_U.blp` / `*_TL_U.blp`
 &nbsp;
 
 ### info
