@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2025-10-04T11:32:47.409Z
+date: 2025-10-24T10:27:36.062Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:36:32.378Z
@@ -440,6 +440,8 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_ENTER_VEHICLE | 155 | seat.Id |  |  |  |  |  |  |  |
 | SMART_ACTION_BOARD_PASSENGER | 156 | seat.Id |  |  |  |  |  |  |  |
 | SMART_ACTION_EXIT_VEHICLE | 157 |  |  |  |  |  |  |  |  |
+| :x: SMART_ACTION_RESUME_MOVEMENT | 158 | UNUSED NEEDS CHERRYPICK |  |  |  |  |  |  |  |
+| SMART_ACTION_FALL | 159 | pointId |  |  |  |  |  |  |  |
 {.dense}
 
 > Please note :warning:means that the action_type is deprecated and should not be used.
