@@ -2,7 +2,7 @@
 title: Linux Core Installation
 description: 
 published: true
-date: 2023-11-11T18:08:32.285Z
+date: 2025-10-29T23:12:06.379Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-14T21:37:11.567Z
@@ -253,7 +253,7 @@ Afterwards return to the "Compiling the source code" section again, and repeat t
 
 When configuring MySQL make sure you remember the password you set for the default root account and that you enabled both MyISAM and InnoDB engines.
 
-**SPECIAL NOTES! you don't need to read this unless you want to do custom instalations.**
+**SPECIAL NOTES! you don't need to read this unless you want to do custom installations.**
 
 Things to notice :
 
