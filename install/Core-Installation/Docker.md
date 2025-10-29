@@ -2,7 +2,7 @@
 title: Docker Core Installation
 description: 
 published: true
-date: 2025-07-30T17:40:35.573Z
+date: 2025-10-29T23:31:17.088Z
 tags: 
 editor: markdown
 dateCreated: 2024-03-08T00:08:21.529Z
@@ -36,7 +36,7 @@ dateCreated: 2024-03-08T00:08:21.529Z
     -   Paste the following content into this file:
 ```yaml
 services: 
-  trinity_bnetserver:
+  authserver:
     image: trinitycore/trinitycore:3.3.5
     container_name: trinity_bnetserver
     entrypoint: authserver
@@ -50,7 +50,7 @@ services:
     networks:
       - trinitycore
 
-  trinity_worldserver:
+  worldserver:
     image: trinitycore/trinitycore:3.3.5
     container_name: trinity_worldserver
     entrypoint: worldserver
@@ -64,7 +64,7 @@ services:
     networks:
       - trinitycore
 
-  trinity_mysql:
+  mysql:
     image: mysql:5.7
     container_name: trinity_mysql
     environment: 
