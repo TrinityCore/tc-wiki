@@ -2,7 +2,7 @@
 title: Optional Software
 description: 
 published: true
-date: 2024-08-16T12:28:41.048Z
+date: 2025-11-03T13:09:10.613Z
 tags: requirements, installation, setup, optional
 editor: markdown
 dateCreated: 2022-07-15T19:21:29.000Z
@@ -10,9 +10,6 @@ dateCreated: 2022-07-15T19:21:29.000Z
 
 ## Graphical database-viewing/editing
 - [SQLyog](https://webyog.com/product/sqlyog/){target=_blank}
-
-> Please note that the software called Navicat is NOT supported due to issues with how it handles SQL-files with "/* */"-style comments. We advise all users to stay well clear of this program unless they really are looking for issues.
-{.is-warning}
 
 
 ## Remote console connects to the server
