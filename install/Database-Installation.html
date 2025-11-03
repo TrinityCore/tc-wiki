@@ -2,7 +2,7 @@
 title: Database Installation
 description: 
 published: true
-date: 2025-11-03T16:14:17.309Z
+date: 2025-11-03T16:30:10.530Z
 tags: 
 editor: ckeditor
 dateCreated: 2021-08-17T14:18:44.363Z
@@ -23,7 +23,7 @@ dateCreated: 2021-08-17T14:18:44.363Z
 <p>&nbsp;</p>
 <h2>Creating the TrinityCore Databases in MySQL</h2>
 <p>&nbsp;</p>
-<p>To create the MySQL databases needed by Trinity, you need to execute one of the following MySQL queries with your mysql client:</p>
+<p>To create the MySQL databases needed by TrinityCore, you need to execute one of the following MySQL queries with your mysql client:</p>
 <ul>
   <li>For 3.3.x:<ul>
       <li><a href="https://github.com/TrinityCore/TrinityCore/blob/3.3.5/sql/create/create_mysql.sql">https://github.com/TrinityCore/TrinityCore/blob/3.3.5/sql/create/create_mysql.sql</a></li>
@@ -38,7 +38,7 @@ dateCreated: 2021-08-17T14:18:44.363Z
 <p>You would need to use one MySQL root account with your MySQL client or with MySQL CLI before starting core to run one of those files (use MySQL root only to import one of those files, never run core as root or administrator).</p>
 <p>TIP: edit those 2 files and change default password to something else for increased security (remember to edit conf files to use new password).</p>
 <p>&nbsp;</p>
-<p>By default Trinity needs three databases to run at 3.3.5 branch and four for master with the following names -&nbsp;<code>auth</code>, <code>characters</code>, <code>world</code>, and <code>hotfixes</code> (the last one master only).&nbsp;</p>
+<p>By default TrinityCore needs three databases to run at 3.3.5 branch and four for master with the following names -&nbsp;<code>auth</code>, <code>characters</code>, <code>world</code>, and <code>hotfixes</code> (the last one master only).&nbsp;</p>
 <p>If you already have those databases on use you will need to edit create_mysql.sql file and your server config files to avoid data loss or errors on setup of database to use different&nbsp;database names:</p>
 <ul>
   <li><strong>auth</strong> - holds account data - usernames, passwords, GM access, realm information, etc.</li>
@@ -47,13 +47,13 @@ dateCreated: 2021-08-17T14:18:44.363Z
   <li><strong>hotfixes </strong>(master only) - holds fixes not already added to the core or other official databases.</li>
 </ul>
 <p>&nbsp;</p>
-<h2>Populating the MySQL Trinity databases</h2>
+<h2>Populating the MySQL TrinityCore databases</h2>
 <p>&nbsp;</p>
 <p>From the&nbsp;<strong>unpacked 7z folder </strong>copy&nbsp;the&nbsp;SQL files&nbsp;that start with&nbsp;<strong>"TDB_full_world_"</strong>&nbsp;and<strong> "TDB_full_hotfixes_"</strong> (hotfixes named file is master branch only) to the directory where your&nbsp;<strong>worldserver binary (worldserver on linux or mac, worldserver.exe on windows)&nbsp;</strong>is. <mark class="pen-red"><strong>(DON'T RENAME THOSE FILES OR AUTOMATIC SETUP WILL FAIL)</strong></mark></p>
 <blockquote>
   <p><mark class="pen-red"><strong>NOTICE: you don't need to import any databases by hand, only the file creating users. If you have plans to import databases manually you need to disable autoupdater on config files. Be aware that this is NOT recommended for new users.</strong></mark></p>
 </blockquote>
-<p>If you have plans to change default mysql usernames and passwords make sure you have set valid database login information and names you want to use in the same config files (authserver (3.3.5a only) / bnetserver (master branch only) , worldserver.conf) under “MYSQL SETTINGS” and under "CONNECTIONS AND DIRECTORIES".</p>
+<p>If you have plans to change default mysql usernames and passwords make sure you have set valid database login information and names you want to use in the same config files (authserver (3.3.5a only) / bnetserver (master branch only) , worldserver.conf) under "MYSQL SETTINGS" and under "CONNECTIONS AND DIRECTORIES".</p>
 <ul>
   <li>Notice that the databases are not created yet. The names you set in the config will be used for the created databases.<br>&nbsp;</li>
 </ul>
