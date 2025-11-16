@@ -2,7 +2,7 @@
 title: smart_scripts
 description: 
 published: true
-date: 2025-10-16T21:58:45.353Z
+date: 2025-11-16T14:46:49.818Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:09.695Z
@@ -2960,13 +2960,13 @@ SMART_ACTION_ACTIVATE_TAXI (52)
 * **action_param6**:
 `0`
 #### WaypointStart (53)
-Creature starts Waypoint Movement. Use waypoints table to create movement.
+Creature starts Waypoint Movement. Use waypoint_data table to create movement.
 * **action_type**:
 SMART_ACTION_WP_START (53)
 * **action_param1**:
 run? (`0`/`1`)
 * **action_param2**:
-[Waypoint entry](../world/waypoints#entry)
+[waypoint id](../world/waypoint_data#id)
 * **action_param3**:
 canRepeat? (`0`/`1`)
 * **action_param4**:
@@ -4031,17 +4031,17 @@ Make target creatures follow the provided path closest to its location.
 * **action_type**:
 SMART_ACTION_START_CLOSEST_WAYPOINT (113)
 * **action_param1**:
-[waypoint entry](../world/waypoints#entry) #1
+[waypoint id](../world/waypoint_data#id) #1
 * **action_param2**:
-[waypoint entry](../world/waypoints#entry) #2
+[waypoint id](../world/waypoint_data#id) #2
 * **action_param3**:
-[waypoint entry](../world/waypoints#entry) #3
+[waypoint id](../world/waypoint_data#id) #3
 * **action_param4**:
-[waypoint entry](../world/waypoints#entry) #4
+[waypoint id](../world/waypoint_data#id) #4
 * **action_param5**:
-[waypoint entry](../world/waypoints#entry) #5
+[waypoint id](../world/waypoint_data#id) #5
 * **action_param6**:
-[waypoint entry](../world/waypoints#entry) #6
+[waypoint id](../world/waypoint_data#id) #6
 #### MoveOffset (114)
 Target creatures move to World Position offset set in the same target definition.
 * **action_type**:
