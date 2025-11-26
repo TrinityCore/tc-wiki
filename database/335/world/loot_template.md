@@ -2,7 +2,7 @@
 title: *_loot_template
 description: loot template definition summary
 published: true
-date: 2023-10-18T23:23:26.977Z
+date: 2025-11-26T10:51:48.304Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2023-07-08T00:17:47.784Z
@@ -66,7 +66,7 @@ The 12 tables have different relations with other DB tables.
 | milling_loot_template | [Entry](#entry) | many <- one | [item_template](../world/item_template) | [entry](../world/item_template#entry) | |
 | pickpocketing_loot_template | [Entry](#entry) | many <- many | [creature_template](../world/creature_template) | [pickpocketloot](../world/creature_template#pickpocketloot) | |
 | skinning_loot_template | [Entry](#entry) | many <- many | [creature_template](../world/creature_template) | [skinloot](../world/creature_template#skinloot) | Can also store minable/herbable items gathered from creatures |
-| mail_loot_template | [Entry](#entry) | many <- one | [quest_template_addon](../world/quest_template_addon) | [RewardMailTemplateID](../world/quest_template_addon#rewardmailtemplateid) | |
+| mail_loot_template | [Entry](#entry) | many <- one | [quest_template_addon](../world/quest_template_addon)<br>[achievement_reward](../world/achievement_reward) | [RewardMailTemplateID](../world/quest_template_addon#rewardmailtemplateid)<br>[MailTemplateID](../world/achievement_reward#mailtemplateid) | |
 | spell_loot_template | [Entry](#entry) | no db relation | [Spell](/files/DBC/335/spell) | [id](/files/DBC/335/spell#id) | Only spells with SPELL_EFFECT_CREATE_RANDOM_ITEM (59) or SPELL_EFFECT_CREATE_ITEM_2 (157) |
 | reference_loot_template | [Entry](#entry) | many <- many | \*_loot_template | [Reference](#Reference) | |
 
