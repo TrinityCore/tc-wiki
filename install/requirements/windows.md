@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2025-04-01T09:09:09.624Z
+date: 2025-11-26T17:27:08.591Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -84,7 +84,7 @@ Choose one of these
 - mysql cli *(comes with MySQL installation)* 
 *(fastest and recommended)*
 - [SQLYog Community Edition](https://github.com/webyog/sqlyog-community/wiki/Downloads){target=_blank}
-- [MySQL Workbench](http://dev.mysql.com/downloads/workbench/){target=_blank} (*already installed if you chose to install full MySQL package)*
+- [MySQL Workbench](https://dev.mysql.com/downloads/workbench/){target=_blank} (*already installed if you chose to install full MySQL package)*
 - [DBeaver](https://dbeaver.io/){target=_blank} *(Multi-platform Database Management Tool)*
 {.links-list}
 
@@ -132,15 +132,15 @@ Notice that this image shows the version number 1.72.0 - use your actual version
 These files are shipped with MySQL Server, search for them at program files directory, MySQL\MySQL Server 8.X\lib and MySQL\MySQL Server 8.X\include.
 &nbsp;
 
-### 9. [OpenSSL](http://www.slproweb.com/products/Win32OpenSSL.html){target=_blank}
+### 9. [OpenSSL](https://www.slproweb.com/products/Win32OpenSSL.html){target=_blank}
 
 > Download the 64bit version.
 {.is-info}
 
-> Use OpenSSL 3
+> Use OpenSSL 3 (Note that 3.5.x is a LTS release series while 3.6.x is not)
 
-Find the 64bit version by finding the latest **Win64 OpenSSL** that is **NOT** the "light" version.
-	- Example: **Win64 OpenSSL v3.1.2**
+Find the 64bit version by finding the latest **Win64 OpenSSL** that is **NOT** the "Light" version.
+	- Example: **Win64 OpenSSL v3.5.4**
 &nbsp;
 If you download the Light version, it will not work. If you download the Light version and report on Discord that you have an error, we will tell you to read this wiki.
 
@@ -154,7 +154,7 @@ If you download the Light version, it will not work. If you download the Light v
 1. If you use different PCs to compile/run Trinity, install one of the following packages on your Server-PC to avoid missing dependencies (depending on your Visual Studio Version and your Server-PC Operating System)
 	- [Microsoft Visual C++ 2022 Redistributable Package](https://aka.ms/vs/17/release/vc_redist.x64.exe){target=_blank}
 	- **<span style="color:red">NOTE: Whatever you do you CAN'T run TrinityCore on Windows XP or Windows Server 2003 or Windows Vista or Windows 7.</span>**
-2. [TortoiseGit](http://code.google.com/p/tortoisegit/){target=_blank}
+2. [TortoiseGit](https://tortoisegit.org/){target=_blank}
 	- This instruction supports Git Extensions only, but TortoiseGit is another viable option if you're comfortable with the process.
   
 <a href="https://trinitycore.info/en/install/Core-Installation/windows-core-installation" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Continue to 'Core Installation'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
