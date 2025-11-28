@@ -1,8 +1,8 @@
 ---
 title: AreaPOI.dbc
-description:
+description: 
 published: true
-date: 2024-04-19T18:08:06.580Z
+date: 2025-11-28T12:03:35.781Z
 tags: 3.3.5, 3.3.5a, 335, 335a, wotlk, dbc, database client
 editor: markdown
 dateCreated: 2023-10-04T08:01:01.634Z
@@ -82,19 +82,19 @@ Points of Interest (POI) on the overhead map (including battleground map). Inclu
 ## Description of fields
 
 ### ID <!-- {#id-alt} -->
-<code>Col: 0 (uint32)</code>
+:x: <code>Col: 0 (uint32)</code>
 
 *- no description -*
 &nbsp;
 
 ### Importance
-<code>Col: 1 (uint32)</code>
+:x: <code>Col: 1 (uint32)</code>
 
 *- no description -*
 &nbsp;
 
 ### Icon
-<code>Col: 2 &ndash; 10 (uint32)</code>
+:x: <code>Col: 2 &ndash; 10 (uint32)</code>
 
 | Col | Name | Comment |
 |-----|------|---------|
@@ -114,19 +114,19 @@ Indexed from left to right, then top to bottom.
 &nbsp;
 
 ### FactionID
-<code>Col: 11 (uint32)</code>
+:x: <code>Col: 11 (uint32)</code>
 
 *- no description -*
 &nbsp;
 
 ### Pos
-<code>Col: 12 &ndash; 14 ([DBCPosition3D](/how-to/worldposition))</code>
+:x: <code>Col: 12 &ndash; 14 ([DBCPosition3D](/how-to/worldposition))</code>
 
 *- no description -*
 &nbsp;
 
 ### ContinentID
-<code>Col: 15 (uint32)</code>
+:x: <code>Col: 15 (uint32)</code>
 
 *- no description -*
 &nbsp;
@@ -152,7 +152,7 @@ Flags defining, where this icon is shown.
 &nbsp;
 
 ### AreaID
-<code>Col: 17 (uint32)</code>
+:x: <code>Col: 17 (uint32)</code>
 
 *- no description -*
 &nbsp;
@@ -170,7 +170,7 @@ Flags defining, where this icon is shown.
 &nbsp;
 
 ### WorldStateID
-<code>Col: 52 (uint32)</code>
+:x: <code>Col: 52 (uint32)</code>
 
 [WorldState Examples](https://trinitycore.info/en/database/335/characters/worldstates#examples)
 &nbsp;
