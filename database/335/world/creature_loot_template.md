@@ -2,7 +2,7 @@
 title: creature_loot_template
 description: 
 published: true
-date: 2024-05-16T11:19:31.678Z
+date: 2025-12-09T22:43:41.336Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:28.901Z
@@ -32,7 +32,7 @@ Contains items dropped by slain creatures.
 ## Description of fields
 
 ### Entry
-*- no description -*
+creature_template entry
 &nbsp;
 
 ### Item
@@ -40,11 +40,12 @@ Contains items dropped by slain creatures.
 &nbsp;
 
 ### Reference
-*- no description -*
+reference_loot_template entry
 &nbsp;
 
 ### Chance
-*- no description -*
+Reference = 0, the really chance = creature_loot_template.Chance
+Reference > 0, the really chance = creature_loot_template.Chance * reference_loot_template.Chance
 &nbsp;
 
 ### QuestRequired
@@ -52,11 +53,22 @@ Contains items dropped by slain creatures.
 &nbsp;
 
 ### LootMode
-*- no description -*
+// loot modes for creatures and gameobjects, bitmask!
+enum LootModes
+{
+    LOOT_MODE_DEFAULT                  = 0x1,
+    LOOT_MODE_HARD_MODE_1              = 0x2,
+    LOOT_MODE_HARD_MODE_2              = 0x4,
+    LOOT_MODE_HARD_MODE_3              = 0x8,
+    LOOT_MODE_HARD_MODE_4              = 0x10,
+    LOOT_MODE_JUNK_FISH                = 0x8000
+};
 &nbsp;
 
 ### GroupId
-*- no description -*
+groupid < 128(1 << 7)
+
+if Reference > 0, then creature_loot_template.GroupId must equal reference_loot_template.GroupId, if not then will not loot anything.
 &nbsp;
 
 ### MinCount
