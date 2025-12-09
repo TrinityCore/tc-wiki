@@ -2,7 +2,7 @@
 title: creature_loot_template
 description: 
 published: true
-date: 2025-12-09T22:43:41.336Z
+date: 2025-12-09T22:48:19.048Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:28.901Z
@@ -67,6 +67,7 @@ enum LootModes
 
 ### GroupId
 groupid < 128(1 << 7)
+if groupid >= 128, trigger bug then all creature will not loot anything.
 
 if Reference > 0, then creature_loot_template.GroupId must equal reference_loot_template.GroupId, if not then will not loot anything.
 &nbsp;
