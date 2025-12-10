@@ -2,7 +2,7 @@
 title: creature_loot_template
 description: 
 published: true
-date: 2025-12-09T22:48:19.048Z
+date: 2025-12-10T17:16:35.417Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:28.901Z
@@ -44,8 +44,8 @@ reference_loot_template entry
 &nbsp;
 
 ### Chance
-Reference = 0, the really chance = creature_loot_template.Chance
-Reference > 0, the really chance = creature_loot_template.Chance * reference_loot_template.Chance
+ * **Reference** = 0: real chance = creature_loot_template.Chance
+ * **Reference** > 0: real chance = creature_loot_template.Chance * reference_loot_template.Chance
 &nbsp;
 
 ### QuestRequired
@@ -53,16 +53,17 @@ Reference > 0, the really chance = creature_loot_template.Chance * reference_loo
 &nbsp;
 
 ### LootMode
-// loot modes for creatures and gameobjects, bitmask!
-enum LootModes
-{
-    LOOT_MODE_DEFAULT                  = 0x1,
-    LOOT_MODE_HARD_MODE_1              = 0x2,
-    LOOT_MODE_HARD_MODE_2              = 0x4,
-    LOOT_MODE_HARD_MODE_3              = 0x8,
-    LOOT_MODE_HARD_MODE_4              = 0x10,
-    LOOT_MODE_JUNK_FISH                = 0x8000
-};
+[`enum LootModes`](https://github.com/TrinityCore/TrinityCore/blob/e757e8979d618d3672fcdcdd00411a1f632c6298/src/server/shared/SharedDefines.h#L41-L49)
+| Value | Name |
+|-------|------|
+| 0x0001 | LOOT_MODE_DEFAULT |
+| 0x0002 | LOOT_MODE_HARD_MODE_1 |
+| 0x0004 | LOOT_MODE_HARD_MODE_2 |
+| 0x0008 | LOOT_MODE_HARD_MODE_3 |
+| 0x0010 | LOOT_MODE_HARD_MODE_4 |
+| 0x8000 | LOOT_MODE_JUNK_FISH |
+{.dense}
+
 &nbsp;
 
 ### GroupId
