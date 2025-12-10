@@ -2,7 +2,7 @@
 title: *_loot_template
 description: loot template definition summary
 published: true
-date: 2025-11-26T10:51:48.304Z
+date: 2025-12-10T17:13:00.754Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2023-07-08T00:17:47.784Z
@@ -138,9 +138,21 @@ Informs the core that the item should be shown only to characters having appropr
 &nbsp;
 
 ### LootMode
-A special parameter used for separating conditional loot, such as Hard Mode loot. A lootmode of 0 will effectively disable a loot entry (its roll will always fail). This column is a bitmask, so you shouldn't duplicate loot across lootmodes. The active lootmode(s) can be changed at any time by the core. This column should only be used if required, in most cases it should be left as 1. Valid lootmodes include: 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, 16384, 32768.
-&nbsp;
+A special parameter used for separating conditional loot, such as Hard Mode loot. A lootmode of 0 will effectively disable a loot entry (its roll will always fail). This column is a bitmask, so you shouldn't duplicate loot across lootmodes. The active lootmode(s) can be changed at any time by the core. This column should only be used if required, in most cases it should be left as 1. 
 
+Valid loot modes include, but are not exclusive to:
+[`enum LootModes`](https://github.com/TrinityCore/TrinityCore/blob/e757e8979d618d3672fcdcdd00411a1f632c6298/src/server/shared/SharedDefines.h#L41-L49)
+| Value | Name |
+|-------|------|
+| 0x0001 | LOOT_MODE_DEFAULT |
+| 0x0002 | LOOT_MODE_HARD_MODE_1 |
+| 0x0004 | LOOT_MODE_HARD_MODE_2 |
+| 0x0008 | LOOT_MODE_HARD_MODE_3 |
+| 0x0010 | LOOT_MODE_HARD_MODE_4 |
+| 0x8000 | LOOT_MODE_JUNK_FISH |
+{.dense}
+
+&nbsp;
 ### GroupId
 A group is a set of loot definitions processed in such a way that at any given looting event the loot generated can receive only 1 (or none) item from the items declared in the loot definitions of the group. Groups are formed by loot definitions having the same values of entry and GroupId fields.
 
@@ -156,10 +168,11 @@ Of course group may consist of
 The easiest way to understand what are groups is to understand how core processes grouped entries:
 
 _At loading time:_
-groups are formed - all grouped entries with the same values of **GroupId** and **Entry** fields are gathered into two sets - one for explicitly-chanced entries and one for equal-chanced. Note that order of entries in the sets can not be defined by DB - you should assume that the entries are in an unknown order. But indeed every time core processes a group the entries are in some order, constant during processing.
+Groups are formed. All grouped entries with the same values of **GroupId** and **Entry** fields are gathered into two sets, one for explicitly-chanced entries and one for equal-chanced.  
+Note that order of entries in the sets can not be defined by DB - you should assume that the entries are in an unknown order.
 
 _During loot generation:_
-core rolls for explicitly-chanced entries (if any):
+Core rolls for explicitly-chanced entries (if any):
 * a random number **R** is rolled in range 0 to 100 (floating point value).
 * chance to drop is checked for every (explicitly-chanced) entry in the group:
 	* if **R** is less than absolute value of **Chance** of the entry then the entry 'wins':
