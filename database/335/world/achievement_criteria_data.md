@@ -2,7 +2,7 @@
 title: achievement_criteria_data
 description: 
 published: true
-date: 2025-12-15T00:29:58.030Z
+date: 2025-12-15T00:34:12.389Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:02:33.368Z
@@ -48,7 +48,7 @@ Depending on this value, it will determine how **value1** and **value2** are use
 `0`
 
 
-#### Target&nbsp;Player Class/Race&nbsp;(2)
+#### Target&nbsp;Player Class+Race&nbsp;(2)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_T_PLAYER_CLASS_RACE**
 * **value1**:
 [ChrClass ID](/files/DBC/335/chrclasses#id)
@@ -140,8 +140,8 @@ The minimum level of the target.
 `0`
 
 [ScriptName](#scriptname) required
-#### Difficulty (12)
-**TYPE_MAP_DIFFICULTY**
+#### Map Difficulty (12)
+**ACHIEVEMENT_CRITERIA_DATA_TYPE_MAP_DIFFICULTY**
 * **value1**:
   [`enum Difficulty`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/DataStores/DBCEnums.h#L278-L290)
   | Raid | Dungeon | Value |
@@ -231,7 +231,7 @@ Player must be on [Map ID](/files/DBC/335/map#id)
 `0`
 
 
-#### Source&nbsp;Player Class/Race&nbsp;(21)
+#### Source&nbsp;Player Class+Race&nbsp;(21)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_S_PLAYER_CLASS_RACE**
 * **value1**:
 [ChrClass ID](/files/DBC/335/chrclasses#id)
