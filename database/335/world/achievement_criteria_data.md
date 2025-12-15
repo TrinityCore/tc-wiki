@@ -2,7 +2,7 @@
 title: achievement_criteria_data
 description: 
 published: true
-date: 2025-12-15T00:28:58.773Z
+date: 2025-12-15T00:29:58.030Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:02:33.368Z
@@ -48,7 +48,7 @@ Depending on this value, it will determine how **value1** and **value2** are use
 `0`
 
 
-#### Target&nbsp;Player Class/Race (2)
+#### Target&nbsp;Player Class/Race&nbsp;(2)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_T_PLAYER_CLASS_RACE**
 * **value1**:
 [ChrClass ID](/files/DBC/335/chrclasses#id)
@@ -56,7 +56,7 @@ Depending on this value, it will determine how **value1** and **value2** are use
 [ChrRace ID](/files/DBC/335/chrraces#id)
 
  
-#### Target&nbsp;Player LessHealth (3)
+#### Target&nbsp;Player LessHealth&nbsp;(3)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_T_PLAYER_LESS_HEALTH**
 * **value1**:
 The percentage of health that the target must reach
@@ -231,7 +231,7 @@ Player must be on [Map ID](/files/DBC/335/map#id)
 `0`
 
 
-#### Source&nbsp;Player Class/Race (21)
+#### Source&nbsp;Player Class/Race&nbsp;(21)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_S_PLAYER_CLASS_RACE**
 * **value1**:
 [ChrClass ID](/files/DBC/335/chrclasses#id)
