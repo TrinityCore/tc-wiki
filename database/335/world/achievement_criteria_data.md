@@ -2,7 +2,7 @@
 title: achievement_criteria_data
 description: 
 published: true
-date: 2025-12-15T00:34:12.389Z
+date: 2025-12-15T00:34:46.161Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:02:33.368Z
@@ -140,7 +140,7 @@ The minimum level of the target.
 `0`
 
 [ScriptName](#scriptname) required
-#### Map Difficulty (12)
+#### Map&nbsp;Difficulty (12)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_MAP_DIFFICULTY**
 * **value1**:
   [`enum Difficulty`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/DataStores/DBCEnums.h#L278-L290)
