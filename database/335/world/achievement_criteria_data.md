@@ -2,7 +2,7 @@
 title: achievement_criteria_data
 description: 
 published: true
-date: 2025-09-27T21:59:28.083Z
+date: 2025-12-15T00:28:58.773Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:02:33.368Z
@@ -32,7 +32,7 @@ This is the [AchievementCriteria ID](/files/DBC/335/achievement_criteria#id).
 Depending on this value, it will determine how **value1** and **value2** are used.
 
 ### Tabset {.tabset}
-#### type: 0
+#### None (0)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_NONE**
 * **value1**:
 `0`
@@ -40,7 +40,7 @@ Depending on this value, it will determine how **value1** and **value2** are use
 `0`
 
 
-#### type: 1
+#### Target&nbsp;Creature (1)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_T_CREATURE**
 * **value1**:
 [creature_template.entry](../world/creature_template#entry)
@@ -48,7 +48,7 @@ Depending on this value, it will determine how **value1** and **value2** are use
 `0`
 
 
-#### type: 2
+#### Target&nbsp;Player Class/Race (2)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_T_PLAYER_CLASS_RACE**
 * **value1**:
 [ChrClass ID](/files/DBC/335/chrclasses#id)
@@ -56,7 +56,7 @@ Depending on this value, it will determine how **value1** and **value2** are use
 [ChrRace ID](/files/DBC/335/chrraces#id)
 
  
-#### type: 3
+#### Target&nbsp;Player LessHealth (3)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_T_PLAYER_LESS_HEALTH**
 * **value1**:
 The percentage of health that the target must reach
@@ -64,7 +64,7 @@ The percentage of health that the target must reach
 `0`
 
 
-#### type: 4
+#### Target&nbsp;Player Dead (4)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_T_PLAYER_DEAD**
 * **value1**:
 own_team (0, 1)
@@ -72,7 +72,7 @@ own_team (0, 1)
 `0`
 
 not corpse (not released body), own_team == false if enemy team expected
-#### type: 5
+#### Source&nbsp;Aura (5)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_S_AURA**
 * **value1**:
 The [Spell ID](/files/DBC/335/spell#id) of the aura that must be on the player
@@ -80,7 +80,7 @@ The [Spell ID](/files/DBC/335/spell#id) of the aura that must be on the player
 Effect Index of the aura
 
 
-#### type: 6
+#### Source&nbsp;Area (6)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_S_AREA**
 * **value1**:
 [AreaTable ID](/files/DBC/335/areatable#id)
@@ -88,7 +88,7 @@ Effect Index of the aura
 `0`
 
 
-#### type: 7
+#### Target&nbsp;Aura (7)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_T_AURA**
 * **value1**:
 The [Spell ID](/files/DBC/335/spell#id) of the aura that must be on the target
@@ -96,7 +96,7 @@ The [Spell ID](/files/DBC/335/spell#id) of the aura that must be on the target
 Effect Index of the aura
 
 
-#### type: 8
+#### Value (8)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_VALUE**
 * **value1**:
 Value to compare needed to attain achievement
@@ -111,7 +111,7 @@ Value to compare needed to attain achievement
   {.dense}
 
 
-#### type: 9
+#### Target&nbsp;Level (9)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_T_LEVEL**
 * **value1**:
 The minimum level of the target.
@@ -119,7 +119,7 @@ The minimum level of the target.
 `0`
 
 
-#### type: 10
+#### Target&nbsp;Gender (10)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_T_GENDER**
 * **value1**:
 [`enum Gender`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L75-L80)
@@ -132,7 +132,7 @@ The minimum level of the target.
 `0`
 
 
-#### type: 11
+#### Script (11)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_SCRIPT**
 * **value1**:
 `0`
@@ -140,7 +140,7 @@ The minimum level of the target.
 `0`
 
 [ScriptName](#scriptname) required
-#### type: 12
+#### Difficulty (12)
 **TYPE_MAP_DIFFICULTY**
 * **value1**:
   [`enum Difficulty`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/DataStores/DBCEnums.h#L278-L290)
@@ -155,7 +155,7 @@ The minimum level of the target.
 `0`
 
 
-#### type: 13
+#### Map&nbsp;PlayerCount (13)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_MAP_PLAYER_COUNT**
 * **value1**:
 count
@@ -163,7 +163,7 @@ count
 `0`
 
 "with less than %u people in the zone"
-#### type: 14
+#### Target&nbsp;Team (14)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_T_TEAM**
 * **value1**:
 The target must be on this team: 
@@ -176,7 +176,7 @@ The target must be on this team:
 `0`
 
 
-#### type: 15
+#### Drunk (15)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_S_DRUNK**
 * **value1**:
 How drunk the player must be: 
@@ -191,7 +191,7 @@ How drunk the player must be:
 `0`
 
 
-#### type: 16
+#### Holiday (16)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_HOLIDAY**
 * **value1**:
 [Holiday ID](/files/DBC/335/holidays#id). Must be an active holiday
@@ -199,7 +199,7 @@ How drunk the player must be:
 `0`
 
 event in holiday time
-#### type: 17
+#### BGLoss&nbsp;Score (17)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_BG_LOSS_TEAM_SCORE**
 * **value1**:
 min. score
@@ -207,7 +207,7 @@ min. score
 max. score
 
 player's team win bg and opposition team have team score in range
-#### type: 18
+#### InstanceScript (18)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_INSTANCE_SCRIPT**
 * **value1**:
 `0`
@@ -215,7 +215,7 @@ player's team win bg and opposition team have team score in range
 `0`
 
 make instance script call for check current criteria requirements fit
-#### type: 19
+#### Source&nbsp;EquippedItem (19)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_S_EQUIPPED_ITEM**
 * **value1**:
 [item_template.ItemLevel](../world/item_template#itemlevel)
@@ -223,7 +223,7 @@ make instance script call for check current criteria requirements fit
 [item_template.Quality](../world/item_template#quality)
 
 for equipped item in slot to check item level and quality
-#### type: 20
+#### MapID (20)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_MAP_ID**
 * **value1**:
 Player must be on [Map ID](/files/DBC/335/map#id)
@@ -231,7 +231,7 @@ Player must be on [Map ID](/files/DBC/335/map#id)
 `0`
 
 
-#### type: 21
+#### Source&nbsp;Player Class/Race (21)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_S_PLAYER_CLASS_RACE**
 * **value1**:
 [ChrClass ID](/files/DBC/335/chrclasses#id)
@@ -239,7 +239,7 @@ Player must be on [Map ID](/files/DBC/335/map#id)
 [ChrRace ID](/files/DBC/335/chrraces#id)
 
 
-#### type: 22
+#### Birthday (22)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_NTH_BIRTHDAY**
 * **value1**:
 N
@@ -247,7 +247,7 @@ N
 `0`
 
 login on day of N-th Birthday
-#### type: 23
+#### Source&nbsp;KnownTitle (23)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_S_KNOWN_TITLE**
 * **value1**:
 [CharTitle ID](/files/DBC/335/chartitles#id)
@@ -255,14 +255,14 @@ login on day of N-th Birthday
 `0`
 
 known (pvp) title
-#### type: 24
+#### GameEvent (24)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_GAME_EVENT**
 * **value1**:
 [game_event.eventEntry](../world/game_event#eventEntry)
 * **value2**:
 `0`
 
-#### type: 25
+#### Source&nbsp;ItemQuality (25)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_S_ITEM_QUALITY**
 * **value1**:
 [item_template.Quality](../world/item_template#quality)
