@@ -2,7 +2,7 @@
 title: conditions
 description: 
 published: true
-date: 2025-12-20T14:55:46.735Z
+date: 2025-12-20T14:56:52.435Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:10.475Z
@@ -24,7 +24,7 @@ dateCreated: 2021-08-30T22:03:10.475Z
 | [ConditionValue1](#condition) | int | unsigned | PRI | NO | 0 |  |  |
 | [ConditionValue2](#condition) | int | unsigned | PRI | NO | 0 |  |  |
 | [ConditionValue3](#condition) | int | unsigned | PRI | NO | 0 |  |  |
-| [ConditionStringValue1](#conditionstringvalue1) | varchar(64) |  | PRI | NO | '' |  |  |
+| [ConditionStringValue1](#condition) | varchar(64) |  | PRI | NO | '' |  |  |
 | [NegativeCondition](#negativecondition) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ErrorType](#errortype) | int | unsigned |  | NO | 0 |  |  |
 | [ErrorTextId](#errortextid) | int | unsigned |  | NO | 0 |  |  |
