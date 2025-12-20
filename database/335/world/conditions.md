@@ -2,7 +2,7 @@
 title: conditions
 description: 
 published: true
-date: 2024-05-10T15:12:11.284Z
+date: 2025-12-20T14:55:46.735Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:10.475Z
@@ -24,6 +24,7 @@ dateCreated: 2021-08-30T22:03:10.475Z
 | [ConditionValue1](#condition) | int | unsigned | PRI | NO | 0 |  |  |
 | [ConditionValue2](#condition) | int | unsigned | PRI | NO | 0 |  |  |
 | [ConditionValue3](#condition) | int | unsigned | PRI | NO | 0 |  |  |
+| [ConditionStringValue1](#conditionstringvalue1) | varchar(64) |  | PRI | NO | '' |  |  |
 | [NegativeCondition](#negativecondition) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ErrorType](#errortype) | int | unsigned |  | NO | 0 |  |  |
 | [ErrorTextId](#errortextid) | int | unsigned |  | NO | 0 |  |  |
@@ -492,6 +493,8 @@ CONDITION_NONE (0)
 (Never used)
 * **ConditionValue3**:
 (Never used)
+* **ConditionStringValue1**:
+(Never used)
 
 always true
 #### Aura (1)
@@ -503,6 +506,8 @@ CONDITION_AURA (1)
 Effect index (0 &ndash; 2)
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if target has aura from spell with effect index
 #### Item (2)
@@ -515,6 +520,8 @@ item count
 * **ConditionValue3**:
   * 0: inventory only
   * 1: inventory + bank
+* **ConditionStringValue1**:
+`-`
 
 true if has count of item (if **ConditionValue3** is set it searches in bank slots too)
 #### ItemEquipped (3)
@@ -526,6 +533,8 @@ CONDITION_ITEM_EQUIPPED (3)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if has item equipped
 #### Zone (4)
@@ -537,6 +546,8 @@ CONDITION_ZONEID (4)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if in zone
 #### Reputation (5)
@@ -560,6 +571,8 @@ Add the target ranks together for the condition to be true for all those ranks.
   {.dense}
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 #### Team (6)
 * **ConditionTypeOrReference**:
 CONDITION_TEAM (6)
@@ -570,6 +583,8 @@ CONDITION_TEAM (6)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 #### Skill (7)
 * **ConditionTypeOrReference**:
 CONDITION_SKILL (7)
@@ -579,6 +594,8 @@ Required [SkillLine ID](/files/DBC/335/skillline#id)
 Skill rank value (1 &ndash; 450)
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 #### QuestReward (8)
 * **ConditionTypeOrReference**:
 CONDITION_QUESTREWARDED (8)
@@ -588,6 +605,8 @@ CONDITION_QUESTREWARDED (8)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if quest was rewarded before
 #### QuestTaken (9)
@@ -599,6 +618,8 @@ CONDITION_QUESTTAKEN (9)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true while quest active
 #### Drunk (10)
@@ -616,6 +637,8 @@ CONDITION_DRUNKENSTATE (10)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if player is drunk enough
 #### Worldstate (11)
@@ -627,6 +650,8 @@ World state index
 World state value
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if world has the value for the index
 #### ActiveEvent (12)
@@ -638,6 +663,8 @@ CONDITION_ACTIVE_EVENT (12)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if event is active
 #### InstanceInfo (13)
@@ -655,6 +682,8 @@ _data_: (see corresponding source script files for more info)
   | INSTANCE_INFO_BOSS_STATE | 2 |
   | INSTANCE_INFO_DATA64 | 3 |
   {.dense}
+* **ConditionStringValue1**:
+`-`
 
 true if the instance info defined by **ConditionValue3** equals data.
 #### QuestNone (14)
@@ -666,6 +695,8 @@ CONDITION_QUEST_NONE (14)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if doesn't have quest saved
 #### Class (15)
@@ -677,6 +708,8 @@ Class mask from [ChrClass ID](/files/DBC/335/chrclasses#id)<br/>Add flags togeth
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if player's class is equal to class
 #### Race (16)
@@ -688,6 +721,8 @@ Race mask from [ChrRace ID](/files/DBC/335/chrraces#id)<br/>Add flags together f
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if player's race is equal to race
 #### Achievement (17)
@@ -699,6 +734,8 @@ CONDITION_ACHIEVEMENT (17)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if achievement is complete
 #### Title (18)
@@ -710,6 +747,8 @@ CONDITION_TITLE (18)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if player has title
 #### SpawnMask (19)
@@ -721,6 +760,8 @@ CONDITION_SPAWNMASK (19)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if in spawnMask
 #### Gender (20)
@@ -737,6 +778,8 @@ CONDITION_GENDER (20)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if player's gender is equal to gender
 #### UnitState (21)
@@ -781,6 +824,8 @@ CONDITION_UNIT_STATE (21)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if unit has unitState
 #### Map (22)
@@ -792,6 +837,8 @@ CONDITION_MAPID (22)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if in map
 #### Area (23)
@@ -803,6 +850,8 @@ CONDITION_AREAID (23)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if in area
 #### CreatureType (24)
@@ -814,6 +863,8 @@ CONDITION_CREATURE_TYPE (24)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if creature type = value1
 #### Spell (25)
@@ -825,6 +876,8 @@ CONDITION_SPELL (25)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if player has learned spell
 #### PhaseMask (26)
@@ -836,6 +889,8 @@ phasemask value
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if object is in phasemask
 #### Level (27)
@@ -847,6 +902,8 @@ Player/Creature level (1 &ndash; 83)
 [ComparisonType](#comparisontype)
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if unit's level is equal to **ConditionValue1** (**ConditionValue2** can modify the statement)
 #### QuestComplete (28)
@@ -858,6 +915,8 @@ CONDITION_QUEST_COMPLETE (28)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if player has quest with all objectives complete, but not yet rewarded
 #### NearCreature (29)
@@ -870,6 +929,8 @@ Distance in yards
 * **ConditionValue3**:
   * 0: Alive
   * 1: Dead
+* **ConditionStringValue1**:
+`-`
 
 true if there is a creature of entry in range
 #### NearGameobject (30)
@@ -881,6 +942,8 @@ CONDITION_NEAR_GAMEOBJECT (30)
 Distance in yards
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if there is a gameobject of entry in range
 #### ObjectEntry (31)
@@ -900,6 +963,8 @@ TypeID - Available object types:
   * 0: Any object of given TypeID
   * TypeID = TYPEID_UNIT: [creature guid](/database/335/world/creature#guid)
   * TypeID = TYPEID_GAMEOBJECT: [gameobject guid](/database/335/world/gameobject#guid)
+* **ConditionStringValue1**:
+`-`
 
 true if object is type TypeID and the entry is 0 or matches entry of the object or matches guid of the object
 #### TypeMask (32)
@@ -918,6 +983,8 @@ TypeMask - a bitmask of following object types:
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if object's TypeMask matches provided TypeMask
 #### Relation (33)
@@ -938,6 +1005,8 @@ Target to which relation is checked.
   {.dense}
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if object is in given relation with object specified by **ConditionTarget**
 #### Reaction (34)
@@ -962,6 +1031,8 @@ rankMask: This bitmask defines the reaction(s) of the current **ConditionTarget*
   {.dense}
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if object's reaction matches rankMask object specified by **ConditionTarget**
 #### Distance (35)
@@ -974,6 +1045,8 @@ Target to which distance is checked
 Distance between current **ConditionTarget** and target specified in **ConditionValue1**
 * **ConditionValue3**:
 [ComparisonType](#comparisontype)
+* **ConditionStringValue1**:
+`-`
 
 true if object and **ConditionTarget** are within distance given by parameters
 #### Alive (36)
@@ -985,6 +1058,8 @@ CONDITION_ALIVE (36)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 Use **NegativeCondition** to test for the inverse:
 * **NegativeCondition** = 0: if target needs to be ALIVE.
@@ -1003,6 +1078,8 @@ HP value
 [ComparisonType](#comparisontype)
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if unit's hp matches given value
 #### HitpointPct (38)
@@ -1014,6 +1091,8 @@ Percentage of max HP
 [ComparisonType](#comparisontype)
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if unit's hp matches given pct
 #### RealmAchievement (39)
@@ -1025,6 +1104,8 @@ CONDITION_REALM_ACHIEVEMENT (39)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if realm achievement is complete
 #### InWater (40)
@@ -1036,6 +1117,8 @@ CONDITION_IN_WATER (40)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 Use **NegativeCondition** to test for the inverse:
 * **NegativeCondition** = 0: If target needs to be IN WATER.
@@ -1051,6 +1134,8 @@ terrainSwap
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 > RESERVED master branch
 {.is-warning}
@@ -1071,6 +1156,8 @@ stateType (exact or any):
     * 1: Sitting
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if unit matches specified sitstate
 #### DailyQuest (43)
@@ -1082,6 +1169,8 @@ CONDITION_DAILY_QUEST_DONE (43)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if daily quest has been completed for the day
 #### Charmed (44)
@@ -1093,6 +1182,8 @@ CONDITION_CHARMED (44)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if unit is currently charmed
 #### PetType (45)
@@ -1105,6 +1196,8 @@ CONDITION_PET_TYPE (45)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if player has a pet of given type(s)
 #### Taxi (46)
@@ -1116,6 +1209,8 @@ CONDITION_TAXI (46)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if player is on taxi
 #### QuestState (47)
@@ -1135,6 +1230,8 @@ state_mask from [`enum QuestStatus`](https://github.com/TrinityCore/TrinityCore/
   {.dense}
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if player is in any of the provided quest states for the quest
 #### QuestProgress (48)
@@ -1146,6 +1243,8 @@ CONDITION_QUEST_OBJECTIVE_PROGRESS (48)
 Objective index (0 &ndash; 3)
 * **ConditionValue3**:
 Counter
+* **ConditionStringValue1**:
+`-`
 
 true if player has reached the specified objectiveCount quest progress for the objectiveIndex for the specified quest
 #### Difficulty (49)
@@ -1164,6 +1263,8 @@ CONDITION_DIFFICULTY_ID (49)
 `0` 
 * **ConditionValue3**:
 `0` 
+* **ConditionStringValue1**:
+`-`
 
 true if map has difficulty id
 #### Gamemaster (50)
@@ -1175,6 +1276,8 @@ canBeGM (0, 1)
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 true if player is gamemaster (or can be gamemaster)
 #### ObjectEntry2 ❌&nbsp;(51)
@@ -1186,6 +1289,8 @@ TypeID
 entry
 * **ConditionValue3**:
 guid
+* **ConditionStringValue1**:
+`-`
 
 > RESERVED master branch
 {.is-warning}
@@ -1200,6 +1305,8 @@ TypeMask
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 > RESERVED master branch
 {.is-warning}
@@ -1214,6 +1321,8 @@ SpeciesId
 count
 * **ConditionValue3**:
 [ComparisonType](#comparisontype)
+* **ConditionStringValue1**:
+`-`
 
 > RESERVED master branch
 {.is-warning}
@@ -1228,6 +1337,8 @@ cenarioStepId
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 > RESERVED master branch
 {.is-warning}
@@ -1242,6 +1353,8 @@ SceneScriptPackageId
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 > RESERVED master branch
 {.is-warning}
@@ -1256,11 +1369,56 @@ PlayerConditionId
 `0`
 * **ConditionValue3**:
 `0`
+* **ConditionStringValue1**:
+`-`
 
 > RESERVED master branch
 {.is-warning}
 
 true if player satisfies PlayerCondition
+#### PrivateObject ❌&nbsp;(57)
+* **ConditionTypeOrReference**:
+CONDITION_PRIVATE_OBJECT (57)
+* **ConditionValue1**:
+`0`
+* **ConditionValue2**:
+`0`
+* **ConditionValue3**:
+`0`
+* **ConditionStringValue1**:
+`-`
+
+> RESERVED master branch
+{.is-warning}
+
+true if entity is private object
+#### StringID (58)
+* **ConditionTypeOrReference**:
+CONDITION_STRING_ID (58)
+* **ConditionValue1**:
+`0`
+* **ConditionValue2**:
+`0`
+* **ConditionValue3**:
+`0`
+* **ConditionStringValue1**:
+StringId
+
+true if gameobject or creature has StringId
+#### Label ❌&nbsp;(59)
+* **ConditionTypeOrReference**:
+CONDITION_LABEL (59)
+* **ConditionValue1**:
+`0`
+* **ConditionValue2**:
+`0`
+* **ConditionValue3**:
+`0`
+* **ConditionStringValue1**:
+`-`
+
+> RESERVED master branch
+{.is-warning}
 
 ### EndTabset {.tabset}
 &nbsp;
