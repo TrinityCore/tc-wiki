@@ -1,8 +1,8 @@
 ---
 title: script_waypoint
 description: 
-published: true
-date: 2024-05-16T11:19:35.401Z
+published: false
+date: 2025-12-23T19:03:21.594Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:53.470Z
