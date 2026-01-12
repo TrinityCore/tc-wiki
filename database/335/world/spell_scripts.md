@@ -1,8 +1,8 @@
 ---
 title: spell_scripts
 description: 
-published: true
-date: 2024-05-16T11:19:35.921Z
+published: false
+date: 2026-01-12T22:48:27.074Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:09:59.500Z
