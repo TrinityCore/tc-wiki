@@ -2,7 +2,7 @@
 title: Linux Requirements
 description: 
 published: true
-date: 2025-07-01T14:03:14.958Z
+date: 2026-01-13T17:53:51.596Z
 tags: requirements, installation, setup, linux
 editor: markdown
 dateCreated: 2021-08-14T00:09:23.038Z
@@ -11,7 +11,7 @@ dateCreated: 2021-08-14T00:09:23.038Z
 ## Software
 >Processor with SSE2 support 
 >Boost ≥ 1.74
->MySQL ≥ 5.7 ≤ 8.3
+>MySQL ≥ 8.0.34
 >OpenSSL ≥ 3.x
 >CMake ≥ 3.24
 >Clang  ≥ 11 (heavy recommended, especially on master branch) or GCC ≥ 11.1
@@ -43,12 +43,12 @@ dateCreated: 2021-08-14T00:09:23.038Z
 
 **Recommendation:** Use apt-get with stable source list instead of install packages. We recommend the latest stable version of your distribution. We usually update requirements to the lastest stable Debian version. Avoid mixing stable with experimental packages as it may break your linux OS.
 
-Debian 12.x (you will need to use su to install the packages)
+Debian 13.x (you will need to use su to install the packages)
 <div class="next-codeblock-no-line-numbers"></div>
 
 ```bash
 # For latest mysql-apt repository, check url from https://dev.mysql.com/downloads/repo/apt/
-wget https://dev.mysql.com/get/mysql-apt-config_0.8.29-1_all.deb -O /tmp/mysql-apt-config_all.deb
+wget https://dev.mysql.com/get/mysql-apt-config_0.8.36-1_all.deb -O /tmp/mysql-apt-config_all.deb
 DEBIAN_FRONTEND=noninteractive dpkg -i /tmp/mysql-apt-config_all.deb
 apt-get update
 apt-get install git clang cmake make gcc g++ libmysqlclient-dev libssl-dev libbz2-dev libreadline-dev libncurses-dev libboost-all-dev mysql-server p7zip
@@ -56,7 +56,7 @@ update-alternatives --install /usr/bin/cc cc /usr/bin/clang 100
 update-alternatives --install /usr/bin/c++ c++ /usr/bin/clang 100
 ```
 
-Ubuntu 22.04 (you will need to use sudo to install the packages)
+Ubuntu 24.04 (you will need to use sudo to install the packages)
 <div class="next-codeblock-no-line-numbers"></div>
 
 ```bash
