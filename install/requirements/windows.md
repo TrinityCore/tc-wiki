@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2025-11-26T17:27:08.591Z
+date: 2026-01-13T18:00:06.834Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -15,9 +15,9 @@ dateCreated: 2021-08-14T03:18:48.201Z
 
 ## Software
 > Boost ≥ 1.78 (latest stable recommended)
-> MySQL ≥ 5.7 ≤ 8.3
+> MySQL ≥ 8.0.34
 > OpenSSL ≥ 3.x
-> CMake ≥ 3.18.4 (latest stable recommended)
+> CMake ≥ 3.24 (latest stable recommended)
 > MS Visual Studio (Community) ≥ 17.4 (2022) (Desktop) (Not previews)
 {.is-info}
 
@@ -96,24 +96,24 @@ Try connecting to your MySQL instance that you installed above. Depending on the
 	Create a new connection/session. The Hostname/IP address of "127.0.0.1" or "localhost" is fine if you installed MySQL on the same computer that you installed SQLYog. Simply fill in your root // whatever password and you should now be able to connect to your database
 &nbsp;
 
-### 6. [Boost](https://sourceforge.net/projects/boost/files/boost-binaries/){target=_blank}
+### 6. [Boost](https://www.boost.org/releases/latest/){target=_blank}
 
 > Depending on your boost version, you require newer CMake version.
 > For example: boost 1.80 requires CMake 3.24.2 (with 3.24.1 it will display warnings).{.is-warning}
 
 1. Download the prebuilt Windows Binary for Visual Studio 2022 (or higher)
 Here the links for minimum version:
-	- 64bit: [https://sourceforge.net/projects/boost/files/boost-binaries/1.78.0/boost_1_78_0-msvc-14.3-64.exe/download](https://sourceforge.net/projects/boost/files/boost-binaries/1.78.0/boost_1_78_0-msvc-14.3-64.exe/download){target=_blank}
->   **If you  prefer a higher Boost version check here:** [https://sourceforge.net/projects/boost/files/boost-binaries/](https://sourceforge.net/projects/boost/files/boost-binaries/){target=_blank}
->   Not all version are currently supported by TrinityCore (minimum is 1.78) or CMake (e.g. CMake 3.24.1 will throw CMake errors with boost 1.80)
+	- 64bit: [https://archives.boost.io/release/1.83.0/binaries/boost_1_83_0-msvc-14.3-64.exe](https://archives.boost.io/release/1.83.0/binaries/boost_1_83_0-msvc-14.3-64.exe){target=_blank}
+>   **If you  prefer a higher Boost version check here:** [https://archives.boost.io/release/](https://archives.boost.io/release/){target=_blank}
+>   Not all version are currently supported by TrinityCore (minimum is 1.78)
 > To find the correct version we will explain on example: boost_1_80_0-msvc-14.3-64.exe:
-> **1_80_0** = Version 1.80
+> **1_83_0** = Version 1.83
 > **-msvc-14.3** = Toolset v143 for Visual Studio 2022 (https://docs.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-170)
 > **-64** = 64bit
 {.is-info}
 
 4. Install the package to the default location (usually C:\local\boost_1_XX_0\ .)
-5. Add an environment variable to "System" variable named "BOOST_ROOT" and as value your Boost installation directory, e.g "C:/local/boost_1_78_0". Important is to use "**<span style="color:red">/</span>**", not "**<span style="color:red">\\</span>**"  when pointing to directory.
+5. Add an environment variable to "System" variable named "BOOST_ROOT" and as value your Boost installation directory, e.g "C:/local/boost_1_83_0". Important is to use "**<span style="color:red">/</span>**", not "**<span style="color:red">\\</span>**"  when pointing to directory.
 (Make sure that it does **<span style="color:red">not</span>** have a trailing slash (end of path). If you still get problems, add the same variable in the "USER" variables section too, like shown in the image below.)
 &nbsp;
 ![boost.jpg](/boost.jpg)
@@ -137,7 +137,7 @@ These files are shipped with MySQL Server, search for them at program files dire
 > Download the 64bit version.
 {.is-info}
 
-> Use OpenSSL 3 (Note that 3.5.x is a LTS release series while 3.6.x is not)
+> Use OpenSSL 3
 
 Find the 64bit version by finding the latest **Win64 OpenSSL** that is **NOT** the "Light" version.
 	- Example: **Win64 OpenSSL v3.5.4**
