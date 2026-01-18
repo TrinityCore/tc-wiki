@@ -2,7 +2,7 @@
 title: page_text
 description: 
 published: true
-date: 2026-01-18T09:05:38.638Z
+date: 2026-01-18T09:28:54.171Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:06:48.225Z
@@ -32,6 +32,15 @@ The ID of the text in the page. This number is unique to every text entry.
 
 ### Text
 The actual text. The message in this field will be shown as the text on a page.
+
+You can use certain placeholders that will be filled in in-game:
+* `$B`: line break
+* `$N`: the players name
+* `$R`/`$r`: player race in upper case first/lower case
+* `$C`/`$c`: player class in upper case first/lower case
+* `$Gmale:female[:reference];`: _male_ and _female_ can be replaced with any synonymn you want and one will be chosen depending on the reference. 
+_:reference_ is optional and can be `r` (the players race), `c` (the players class) or if omitted the players chosen gender.
+* `$4022W`: references a worldstate and will be replaced with it's current value. (here BATTLEFIELD_WG_WORLD_STATE_DEFENDED_H (4022) is chosen as an example)
 &nbsp;
 
 ### NextPageID
