@@ -2,7 +2,7 @@
 title: page_text
 description: 
 published: true
-date: 2024-05-16T11:19:34.316Z
+date: 2026-01-18T09:05:38.638Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:06:48.225Z
@@ -10,7 +10,10 @@ dateCreated: 2021-08-30T22:06:48.225Z
 
 <a href="https://trinitycore.info/en/database/335/world/outdoorpvp_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'outdoorpvp_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/page_text_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'page_text_locale'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
-This table holds the text for letter items or any items that when moused-over turn the cursor into a magnifying glass and on right-click will open up a window where you can read the contents of the letter.
+This table holds the text for readable items like [books](https://aowow.trinitycore.info/?item=11482), as well as readable gameobjects like [statue plaques](https://aowow.trinitycore.info/?object=193942).
+
+The text will be rendered in the ItemTextFrame, which supports [SimpleHTML](https://warcraft.wiki.gg/wiki/UIOBJECT_SimpleHTML) and [UI escape sequences](https://warcraft.wiki.gg/wiki/UI_escape_sequences).
+
 
 ## Structure
 
