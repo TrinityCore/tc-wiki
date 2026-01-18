@@ -2,7 +2,7 @@
 title: quest_template
 description: 
 published: true
-date: 2025-06-14T14:17:15.596Z
+date: 2026-01-18T09:27:18.204Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:30.767Z
@@ -399,10 +399,12 @@ Fulltext quest description under heading: _*Description*_
 
 You can use certain placeholders that will be filled in in-game:
 * `$B`: line break
-* `$N`: player name
-* `$R`: player race
-* `$C`: player class
-* `$Gmale:female;`: _male_ and _female_ can be replace with any synonymn you want and one will be chosen depending on the players gender
+* `$N`: the players name
+* `$R`/`$r`: player race in upper case first/lower case
+* `$C`/`$c`: player class in upper case first/lower case
+* `$Gmale:female[:reference];`: _male_ and _female_ can be replaced with any synonymn you want and one will be chosen depending on the reference. 
+_:reference_ is optional and can be `r` (the players race), `c` (the players class) or if omitted the players chosen gender.
+* `$4022W`: references a worldstate and will be replaced with it's current value. (here BATTLEFIELD_WG_WORLD_STATE_DEFENDED_H (4022) is chosen as an example)
 &nbsp;
 
 ### AreaDescription
