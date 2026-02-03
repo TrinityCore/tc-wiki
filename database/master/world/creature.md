@@ -2,7 +2,7 @@
 title: creature
 description: 
 published: true
-date: 2024-10-04T20:57:58.323Z
+date: 2026-02-03T19:05:40.671Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:29:41.375Z
@@ -68,6 +68,7 @@ The GUID ranges are defined as followed:
 | Shadowlands (9.x)                             |          8000000 |        8999999 |                   8800000 |                 8999999 | | |
 | Dragonflight (10.x)                           |          9000000 |        9999999 |                   9800000 |                 9999999 | | |
 | The War Within (11.x)                         |         10000000 |       10999999 |                  10800000 |                10999999 | | |
+| Midnight (12.x)                               |         11000000 |       11799999 |
 | :warning: Wrath of the Lich King (3.x)        |                1 |         249999 |                           |                         | | |
 | :warning: Legacy Cataclysm (4.x)              |           250000 |         449999 |                           |                         | | |
 | :warning: Legacy Mists of Pandaria (5.x)      |           250000 |         449999 |                           |                         | | |
