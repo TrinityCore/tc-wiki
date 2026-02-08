@@ -2,7 +2,7 @@
 title: pool_template
 description: 
 published: true
-date: 2022-11-21T21:07:36.270Z
+date: 2026-02-08T17:07:48.432Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:34:49.800Z
@@ -22,6 +22,21 @@ dateCreated: 2021-08-30T09:34:49.800Z
 
 ### entry
 The pool ID. This is an arbitrary number that is only used to link the gameobjects, creatures or quests in this pool.
+
+| Expansion       | ID start range |
+| ---------------------------- | -------------- |
+| Vanilla (1.x)                | < 100000       |
+| The Burning Crusade (2.X)    | 100000         |
+| Wrath of the Lichking (3.X)  | 200000         |
+| Cataclysm (4.X)              | 300000         |
+| Mists of Pandaria (5.X)      | 400000         |
+| Warlords of Dreanor (6.X)    | 500000         |
+| Legion (7.X)                 | 600000         |
+| Battle for Azeroth (8.X)     | 700000         |
+| Shadowlands (9.X)            | 800000         |
+| Dragonflight (10.X)          | 900000					|
+| The War Within (11.X)				 | 10000000				|
+| Midnight (12.X)							 | 11000000				|
 &nbsp;
 
 ### max_limit
