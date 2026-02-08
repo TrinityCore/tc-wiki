@@ -2,7 +2,7 @@
 title: pool_template
 description: 
 published: true
-date: 2026-02-08T17:07:48.432Z
+date: 2026-02-08T17:09:08.514Z
 tags: database, master, world
 editor: markdown
 dateCreated: 2021-08-30T09:34:49.800Z
@@ -35,8 +35,8 @@ The pool ID. This is an arbitrary number that is only used to link the gameobjec
 | Battle for Azeroth (8.X)     | 700000         |
 | Shadowlands (9.X)            | 800000         |
 | Dragonflight (10.X)          | 900000					|
-| The War Within (11.X)				 | 10000000				|
-| Midnight (12.X)							 | 11000000				|
+| The War Within (11.X)				 | 1000000				|
+| Midnight (12.X)							 | 1100000				|
 &nbsp;
 
 ### max_limit
