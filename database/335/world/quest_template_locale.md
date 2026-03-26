@@ -2,7 +2,7 @@
 title: quest_template_locale
 description: 
 published: true
-date: 2024-05-16T11:19:35.319Z
+date: 2026-03-26T14:15:30.264Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:37.006Z
@@ -50,23 +50,23 @@ dateCreated: 2021-08-30T22:08:37.006Z
 &nbsp;
 
 ### Title
-*- no description -*
+localization of [LogTitle](/database/335/world/quest_template#logtitle)
 &nbsp;
 
 ### Details
-*- no description -*
+localization of [QuestDescription](/database/335/world/quest_template#questdescription)
 &nbsp;
 
 ### Objectives
-*- no description -*
+localization of [LogDescription](/database/335/world/quest_template#logdescription)
 &nbsp;
 
 ### EndText
-*- no description -*
+localization of [AreaDescription](/database/335/world/quest_template#areadescription)
 &nbsp;
 
 ### CompletedText
-*- no description -*
+localization of [QuestCompletionLog](/database/335/world/quest_template#questcompletionlog)
 &nbsp;
 
 ### ObjectiveText1
