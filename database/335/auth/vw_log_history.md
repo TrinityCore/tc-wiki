@@ -2,8 +2,8 @@
 title: vw_log_history
 description: 
 published: true
-date: 2022-11-21T21:22:45.261Z
-tags: database, 3.3.5, 3.3.5a, 335, 335a, wotlk, auth
+date: 2026-04-17T16:04:58.140Z
+tags: database, auth, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:58:24.698Z
 ---
@@ -14,8 +14,8 @@ dateCreated: 2021-08-30T21:58:24.698Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [First Logged](#first logged) | datetime |  |  | YES | NULL |  |  |
-| [Last Logged](#last logged) | datetime |  |  | YES | NULL |  |  |
+| [First Logged](#first-logged) | datetime |  |  | YES | NULL |  |  |
+| [Last Logged](#last-logged) | datetime |  |  | YES | NULL |  |  |
 | [Occurrences](#occurrences) | bigint | signed |  | NO | 0 |  |  |
 | [Realm](#realm) | varchar(32) |  |  | YES | '' |  |  |
 | [type](#type) | varchar(250) |  |  | NO |  |  |  |
