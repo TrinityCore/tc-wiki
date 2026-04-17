@@ -2,7 +2,7 @@
 title: build_executable_hash
 description: 
 published: true
-date: 2026-04-17T15:57:16.136Z
+date: 2026-04-17T16:00:28.277Z
 tags: database, auth, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2026-04-17T15:57:16.136Z
@@ -20,7 +20,7 @@ dateCreated: 2026-04-17T15:57:16.136Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [build](#build) | int | signed | PRI | NO |  |  |  |
 | [platform](#platform) | char(4) |  | PRI | NO |  |  |  |
-| [executableHash](#executableHash) | binary(20) |  |  | NO |  |  |  |
+| [executableHash](#executablehash) | binary(20) |  |  | NO |  |  |  |
 &nbsp;
 ## Description of fields
 
