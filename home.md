@@ -2,7 +2,7 @@
 title: TrinityCore Wiki
 description: 
 published: true
-date: 2025-06-08T18:16:17.150Z
+date: 2026-04-21T16:54:06.473Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T17:47:17.543Z
@@ -17,11 +17,15 @@ It is completely open source; community involvement is highly encouraged.
 
 If you wish to contribute ideas or code, please visit our site linked below or make pull requests to our [Github repository](https://github.com/TrinityCore/).
 
-At the moment, TrinityCore supports 3 main branches:
+At the moment, TrinityCore supports 2 main branches:
 
 - 3.3.5 targeting original 2010 wow 3.3.5a, you need wow 3.3.5a.12340 client for it to run, wotlk 3.4 client is incompatible. **best for starters**
-- cata_classic targeting 2024 wow 4.4 retail cata classic, you need wow 4.4.x client for it to run, cata 4.3.4 client is incompatible. **very beta**
 - master usually targeting current retail version. **a lot of missing content**
+
+There are also 2 classic branches, but they are abandoned.
+
+- cata_classic targeting 2024 wow 4.4 retail cata classic, you need wow 4.4.x client for it to run, cata 4.3.4 client is incompatible. 
+- wotlk_classic targeting 3.4.4.61581 chinese client.
 
 There was also wotlk_classic targeting 2023 wow 3.4 but no longer maintained. **not recommended**
 
