@@ -2,7 +2,7 @@
 title: TrinityCore Wiki
 description: 
 published: true
-date: 2026-04-21T16:54:06.473Z
+date: 2026-04-21T16:56:44.011Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T17:47:17.543Z
@@ -27,7 +27,6 @@ There are also 2 classic branches, but they are abandoned.
 - cata_classic targeting 2024 wow 4.4 retail cata classic, you need wow 4.4.x client for it to run, cata 4.3.4 client is incompatible. 
 - wotlk_classic targeting 3.4.4.61581 chinese client.
 
-There was also wotlk_classic targeting 2023 wow 3.4 but no longer maintained. **not recommended**
 
 For further information on the TrinityCore project, please visit our project website at TrinityCore.org.
 
