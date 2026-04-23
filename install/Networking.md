@@ -2,7 +2,7 @@
 title: Networking
 description: 
 published: true
-date: 2026-04-23T08:25:00.520Z
+date: 2026-04-23T08:36:44.243Z
 tags: 
 editor: markdown
 dateCreated: 2021-09-20T14:27:15.045Z
@@ -25,8 +25,8 @@ For almost all basic setup scenarios the default localhost (127.0.0.1) IP settin
 | **3.3.5a / 4.3.4 (Legacy)** | Authserver | `3724` |
 | **3.3.5a / 4.3.4 (Legacy)** | Worldserver | `8085` |
 | **4.3.4 (TCPP)** | Bnetserver | `1119`, `8081` |
-| **Master (Current)** | Bnetserver | `1119`, `8081` |
 | **4.3.4 (TCPP)** | Worldserver | `8085`, `8086` |
+| **Master (Current)** | Bnetserver | `1119`, `8081` |
 | **Master (Current)** | Worldserver | `8085` |
 
 **Note:** if you plan to have different version servers you will need to use a different worldserver ports for the other versions. 
