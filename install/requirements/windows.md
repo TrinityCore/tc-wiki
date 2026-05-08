@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2026-01-13T18:00:06.834Z
+date: 2026-05-08T21:59:02.652Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -14,7 +14,7 @@ dateCreated: 2021-08-14T03:18:48.201Z
 {.is-info}
 
 ## Software
-> Boost ≥ 1.78 (latest stable recommended)
+> Boost ≥ 1.80 (latest stable recommended)
 > MySQL ≥ 8.0.34
 > OpenSSL ≥ 3.x
 > CMake ≥ 3.24 (latest stable recommended)
@@ -61,12 +61,10 @@ vs_enterprise.exe /q /norestart /InstallSelectableItems NativeLanguageSupport_Gr
 ```
 &nbsp;
 
-### 3. MySQL Server Community Edition
+### 3. [MySQL Community Server Edition](https://dev.mysql.com/downloads/mysql/8.0.html){target=_blank}
 
-- [MySQL Server Community Edition](https://dev.mysql.com/downloads/mysql/8.0.html){target=_blank} Version 8.0
+- [MySQL Community Server Edition](https://dev.mysql.com/downloads/mysql/8.0.html){target=_blank} Version 8.0
   <span style="color:green">(highly recommended)</span>
-- [MySQL Server Community Edition](https://dev.mysql.com/downloads/mysql/5.7.html){target=_blank} Version 5.7
-  <span style="color:red">(deprecated, will be removed soon, use 8.0 or newer)</span>
 {.links-list}
 
 1. Download the Windows MSI Installer. 
@@ -74,8 +72,6 @@ vs_enterprise.exe /q /norestart /InstallSelectableItems NativeLanguageSupport_Gr
 3. When the installation is almost done, make sure "Launch the MySQL Instance Configuration Wizard" is checked, then click "Finish".
 4. When the MySQL Instance Configuration Wizard launches, most default options are fine, but remember the username and password you use (root // whatever). You will need them to log into your chosen database management tool (below) in order to import SQL files later.
 5. To test if MySQL is set up correctly, hit <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>DEL</kbd> on your keyboard, enter the Task Manager, and select the "Services" tab. In the list of services you should see "MySQL" with a status of "Running".
-6. https://bugs.mysql.com/bug.php?id=76476
-Please read the Suggested Bug Fix, as this works....or you will be in a loop of "wait for the DB to start?!?"
 &nbsp;
 
 ### 4. Database management tools
