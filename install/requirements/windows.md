@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2026-05-08T21:59:02.652Z
+date: 2026-05-08T22:19:42.639Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -67,8 +67,8 @@ vs_enterprise.exe /q /norestart /InstallSelectableItems NativeLanguageSupport_Gr
   <span style="color:green">(highly recommended)</span>
 {.links-list}
 
-1. Download the Windows MSI Installer. 
-2. Scroll down to the bottom and click on "No thanks, just take me to the downloads!"
+1. Download the [Windows MSI Installer](https://dev.mysql.com/downloads/windows/installer/8.0.html){target=_blank}. 
+2. Scroll down to the bottom and click on "No thanks, just start my download."
 3. When the installation is almost done, make sure "Launch the MySQL Instance Configuration Wizard" is checked, then click "Finish".
 4. When the MySQL Instance Configuration Wizard launches, most default options are fine, but remember the username and password you use (root // whatever). You will need them to log into your chosen database management tool (below) in order to import SQL files later.
 5. To test if MySQL is set up correctly, hit <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>DEL</kbd> on your keyboard, enter the Task Manager, and select the "Services" tab. In the list of services you should see "MySQL" with a status of "Running".
