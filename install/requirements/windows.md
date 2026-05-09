@@ -2,7 +2,7 @@
 title: Windows Requirements
 description: 
 published: true
-date: 2026-05-08T22:19:42.639Z
+date: 2026-05-09T12:32:38.914Z
 tags: requirements, installation, setup, windows
 editor: markdown
 dateCreated: 2021-08-14T03:18:48.201Z
@@ -121,7 +121,7 @@ Notice that this image shows the version number 1.72.0 - use your actual version
 
 1. Download and install the **Latest Release** -windows-x86_64.msi file, **<span style="color:red">NEVER</span>** <span style="color:red">the RC (Release Candidate) versions</span>.
 2. Select "Microsoft Visual Studio 2022" **<span style="color:red">do not select Win32 platform</span>**
-3. Note: If used different MySQL server e.g Wampserver with included MySQL or any other software, then is needed to point cmake to that directory (the same way how it was done for BOOST). Add an environment variable to "System" variable named "MYSQL_ROOT" and as value your MySQL installation directory, e.g "c:/wamp/bin/mysql/mysql5.7.19". Important is to use "**<span style="color:red">/</span>**", **not** "**<span style="color:red">\\</span>**"  when pointing to directory. (use bundled mysql servers on your own risk, not supported)
+3. Note: If used different MySQL server e.g Wampserver with included MySQL or any other software, then is needed to point cmake to that directory (the same way how it was done for BOOST). Add an environment variable to "System" variable named "MYSQL_ROOT" and as value your MySQL installation directory, e.g "c:/wamp64/bin/mysql/mysql8.0.34". Important is to use "**<span style="color:red">/</span>**", **not** "**<span style="color:red">\\</span>**"  when pointing to directory. (use bundled mysql servers on your own risk, not supported)
 &nbsp;
 
 ### 8. MySQL development files
