@@ -2,7 +2,7 @@
 title: Windows Core Installation
 description: 
 published: true
-date: 2026-05-08T22:39:27.533Z
+date: 2026-05-09T12:07:44.323Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-15T10:17:42.057Z
@@ -50,16 +50,16 @@ Before you begin, create an empty directory called **Build**. In this example, 
 
 > **Some errors fixes**
 > 
-> -   If MySQL is not found by CMake it is required to set MYSQL\_INCLUDE\_DIR = C:/XX/MySQL/MySQL Server 5.XX**/include** and MYSQL\_LIBRARY= C:/XX/MySQL/MySQL Server 5.XX/**lib\_XX/libmysql.lib**.  
->     XX depends if you are compiling in 32 or 64 bits mode and the mysql version you have selected.
-> -   If you get linker errors (e.g "error LNK2019: unresolved external symbol mysql\_server\_init"), make sure MYSQL\_LIBRARY is set to the libmysql.lib that matches your compile mode (x64 vs 32 bits).  
+> -   If MySQL is not found by CMake it is required to set MYSQL\_INCLUDE\_DIR = C:/Program Files/MySQL/MySQL Server 8.X.X**/include** and MYSQL\_LIBRARY= C:/Program Files/MySQL/MySQL Server 8.X.X/**lib/libmysql.lib**.  
+>    Where 8.X.X is the mysql version you have selected/installed.
+> -   If you get linker errors (e.g "error LNK2019: unresolved external symbol mysql\_server\_init"), make sure MYSQL\_LIBRARY is set to the libmysql.lib that matches your compile mode (x64).  
 >     (If you do not see the MYSQL fields in CMake, tick the Advanced box).
 > -   If you get an error that _CMake could NOT find OpenSSL_:
 > 
 > 1.  Check the **Advanced** checkbox
 > 2.  Find the two OPENSSL entries in the list and point to the correct directories:  
->       _OPENSSL\_ROOT\_DIR_ is the installation path (by default, **C:/OpenSSL-Win32** or **C:/OpenSSL-Win64**)  
->       _OPENSSL\_INCLUDE\_DIR_ is the "include" folder in installation path (by default, **C:/OpenSSL-Win32/include** or **C:/OpenSSL-Win64/include**)
+>       _OPENSSL\_ROOT\_DIR_ is the installation path (by default, **C:/Program Files/OpenSSL-Win64**)  
+>       _OPENSSL\_INCLUDE\_DIR_ is the "include" folder in installation path (by default, **C:/Program Files/OpenSSL-Win64/include**)
 
 ### Compiling the Source  
  
@@ -93,10 +93,10 @@ You will need the following files in order for the core to function properly:
   
 There are four DLL files that need to be manually added to this folder, and you need to copy them over from the following installation/bin directories:
 
-**libmysql.dll** → C:\\Program Files\\MySQL\\MySQL Server 8.x\\lib
-**legacy.dll** → C:\\OpenSSL-Win64\\bin
-**libssl-3-x64.dll** → C:\\OpenSSL-Win64\\bin
-**libcrypto-3-x64.dll** → C:\\OpenSSL-Win64\\bin
+**libmysql.dll** → C:\\Program Files\\MySQL\\MySQL Server 8.x.x\\lib
+**legacy.dll** → C:\\Program Files\\OpenSSL-Win64\\bin
+**libssl-3-x64.dll** → C:\\Program Files\\OpenSSL-Win64\\bin
+**libcrypto-3-x64.dll** → C:\\Program Files\\OpenSSL-Win64\\bin
 
 > **About compilation log and report**
 > 
