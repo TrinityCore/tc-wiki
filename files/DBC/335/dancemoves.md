@@ -1,12 +1,13 @@
 ---
 title: DanceMoves.dbc
-description:
+description: 
 published: true
-date: 2023-09-30CEST01:03:36.000Z
-tags: dbc, database client, 3.3.5, 3.3.5a, 335, 335a, wotlk
+date: 2026-05-11T09:07:57.381Z
+tags: 3.3.5, 3.3.5a, 335, 335a, wotlk, dbc, database client
 editor: markdown
-dateCreated: 2023-08-09CEST00:06:01.000Z
+dateCreated: 2023-10-04T08:02:22.477Z
 ---
+
 <a href="https://trinitycore.info/files/DBC/335/currencytypes" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'CurrencyTypes'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/DBC" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to DBCs (3.3.5a)</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/deaththudlookups" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'DeathThudLookups'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
 # DanceMoves.dbc
@@ -60,9 +61,10 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | Type | Name | Value | Comment |
 |------|------|-------|---------|
 | 0 | Animation | [AnimationData.dbc/0](/files/DBC/335/animationdata#id-alt) | BE dances, laugh etc. |
-| 1 | Spells | [SpellVisual.dbc/0](/files/DBC/335/spellvisual#id-alt) | Frost Nova |
-| 2 | Hold | Seconds |  |
-| 3 | Repeat | Seconds |  |
+| 1 | Spell | [SpellVisual.dbc/0](/files/DBC/335/spellvisual#id-alt) | Frost Nova |
+| 2 | Audio | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |  |
+| 3 | Hold | Seconds |  |
+| 4 | Repeat | Seconds |  |
 {.dense}
 
 &nbsp;
@@ -77,7 +79,7 @@ See **Type**
 :x: <code>Col: 3 (bool)</code>
 
 *- no description -*
-*&nbsp;
+&nbsp;
 
 ### Racemask
 :x: <code>Col: 4 (uint32)</code>
