@@ -2,7 +2,7 @@
 title: account
 description: 
 published: true
-date: 2023-12-03T17:44:35.347Z
+date: 2026-05-19T13:06:03.689Z
 tags: database, auth, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:57:34.489Z
@@ -40,7 +40,7 @@ dateCreated: 2021-08-30T21:57:34.489Z
 | [mutereason](#mutereason) | varchar(255) |  |  | NO | '' |  |  |
 | [muteby](#muteby) | varchar(50) |  |  | NO | '' |  |  |
 | [locale](#locale) | tinyint | unsigned |  | NO | 0 |  |  |
-| [os](#os) | varchar(3) |  |  | NO | '' |  |  |
+| [os](#os) | varchar(4) |  |  | NO | '' |  |  |
 | [timezone_offset](#timezone_offset) | smallint | signed |  | NO | 0 |  |  |
 | [recruiter](#recruiter) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
