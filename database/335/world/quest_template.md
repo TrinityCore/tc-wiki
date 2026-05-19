@@ -2,7 +2,7 @@
 title: quest_template
 description: 
 published: true
-date: 2026-05-19T12:20:45.703Z
+date: 2026-05-19T19:48:08.721Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:30.767Z
@@ -307,7 +307,7 @@ The amount of items forced onto the player.
 &nbsp;
 
 ### ItemDropQuantity\[1-4]
-The maximum number of copies of the item in **RequiredSourceItemId\*** that can be picked up (and dropped by the core).
+The maximum number of copies of the item in **ItemDrop\*** that can be picked up (and dropped by the core).
 &nbsp;
 
 ### RewardChoiceItemID\[1-6]
