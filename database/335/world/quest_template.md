@@ -2,7 +2,7 @@
 title: quest_template
 description: 
 published: true
-date: 2026-01-18T11:17:39.982Z
+date: 2026-05-19T12:20:45.703Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:30.767Z
@@ -115,7 +115,7 @@ Contains all basic definitions of available quests.
 | [RequiredItemCount4](#requireditemcount1-6) | smallint | unsigned |  | NO | 0 |  |  |
 | [RequiredItemCount5](#requireditemcount1-6) | smallint | unsigned |  | NO | 0 |  |  |
 | [RequiredItemCount6](#requireditemcount1-6) | smallint | unsigned |  | NO | 0 |  |  |
-| [Unknown0](#unknown0) | tinyint | unsigned |  | NO | 0 |  |  |
+| [RewardFactionFlags](#rewardfactionflags) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ObjectiveText1](#objectivetext1-4) | mediumtext |  |  | YES | NULL |  |  |
 | [ObjectiveText2](#objectivetext1-4) | mediumtext |  |  | YES | NULL |  |  |
 | [ObjectiveText3](#objectivetext1-4) | mediumtext |  |  | YES | NULL |  |  |
@@ -439,8 +439,8 @@ The [item entry](../world/item_template#entry) the player needs to collect to co
 The amount of required items.
 &nbsp;
 
-### Unknown0
-*unknown & unused*
+### RewardFactionFlags
+RewardReputationMask. Just sent to client.
 &nbsp;
 
 ### ObjectiveText\[1-4]
