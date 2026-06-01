@@ -1,12 +1,13 @@
 ---
 title: Stationery.dbc
-description:
+description: 
 published: true
-date: 2023-09-30CEST01:03:36.000Z
-tags: dbc, database client, 3.3.5, 3.3.5a, 335, 335a, wotlk
+date: 2026-06-01T14:34:37.379Z
+tags: 3.3.5, 3.3.5a, 335, 335a, wotlk, dbc, database client
 editor: markdown
-dateCreated: 2023-08-09CEST00:06:01.000Z
+dateCreated: 2023-10-04T08:08:24.615Z
 ---
+
 <a href="https://trinitycore.info/files/DBC/335/startup_strings" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'Startup_Strings'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/DBC" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to DBCs (3.3.5a)</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/stringlookups" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'StringLookups'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
 # Stationery.dbc
@@ -22,9 +23,9 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
 | 0 | [ID](#id-alt) | uint32 |  |
-| 0 | [ItemID](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 0 | [Texture](#texture) | string |  |
-| 0 | [Flags](#flags) | uint32 |  |
+| 1 | [ItemID](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 2 | [Texture](#texture) | string |  |
+| 3 | [Flags](#flags) | uint32 |  |
 &nbsp;
 ## Description of fields
 
