@@ -2,7 +2,7 @@
 title: gossip_menu_option
 description: 
 published: true
-date: 2024-05-16T11:19:32.959Z
+date: 2026-06-16T10:02:32.082Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:05:41.659Z
@@ -45,19 +45,20 @@ Value increments by 1 if there are multiple options in the same gossip_menu.
 &nbsp;
 
 ### OptionIcon
-| ID | Name | Comment |
-|----|------|---------|
-| 0 | GOSSIP_ICON_CHAT | white chat bubble |
-| 1 | GOSSIP_ICON_VENDOR | brown bag |
-| 2 | GOSSIP_ICON_TAXI | flightmarker (paperplane) |
-| 3 | GOSSIP_ICON_TRAINER | brown book (trainer) |
-| 4 | GOSSIP_ICON_INTERACT_1 | golden interaction wheel |
-| 5 | GOSSIP_ICON_INTERACT_2 | golden interaction wheel |
-| 6 | GOSSIP_ICON_MONEY_BAG | brown bag (with gold coin in lower corner) |
-| 7 | GOSSIP_ICON_TALK | white chat bubble (with "..." inside) |
-| 8 | GOSSIP_ICON_TABARD | white tabard |
-| 9 | GOSSIP_ICON_BATTLE | two crossed swords |
-| 10 | GOSSIP_ICON_DOT | yellow dot/point |
+An icon prefixed to the **OptionText**.
+| ID | Name | Comment | File - (Interface\\GossipFrame\\..) |
+|----|------|---------|------|
+| 0 | GOSSIP_ICON_CHAT | white chat bubble | GossipGossipIcon.blp |
+| 1 | GOSSIP_ICON_VENDOR | brown bag | VendorGossipIcon.blp |
+| 2 | GOSSIP_ICON_TAXI | flightmarker (paperplane) | TaxiGossipIcon.blp |
+| 3 | GOSSIP_ICON_TRAINER | brown book (trainer) | TrainerGossipIcon.blp |
+| 4 | GOSSIP_ICON_INTERACT_1 | golden interaction wheel (spirit healer) | HealerGossipIcon.blp |
+| 5 | GOSSIP_ICON_INTERACT_2 | golden interaction wheel (hearthstone binding) | BinderGossipIcon.blp |
+| 6 | GOSSIP_ICON_MONEY_BAG | brown bag (with gold coin in lower corner) | BankerGossipIcon.blp |
+| 7 | GOSSIP_ICON_TALK | white chat bubble (with "..." inside) | PetitionGossipIcon.blp |
+| 8 | GOSSIP_ICON_TABARD | white tabard | TabardGossipIcon.blp |
+| 9 | GOSSIP_ICON_BATTLE | two crossed swords | BattlemasterGossipIcon.blp |
+| 10 | GOSSIP_ICON_DOT | yellow dot/point | AuctioneerGossipIcon.blp &ndash; :x: missing in 335a |
 {.dense}
 
 &nbsp;
