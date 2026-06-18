@@ -1,12 +1,13 @@
 ---
 title: Achievement_Criteria.dbc
-description:
+description: 
 published: true
-date: 2023-09-30CEST01:03:36.000Z
-tags: dbc, database client, 3.3.5, 3.3.5a, 335, 335a, wotlk
+date: 2026-06-18T13:56:02.027Z
+tags: 3.3.5, 3.3.5a, 335, 335a, wotlk, dbc, database client
 editor: markdown
-dateCreated: 2023-08-09CEST00:06:01.000Z
+dateCreated: 2023-10-04T08:00:55.057Z
 ---
+
 <a href="https://trinitycore.info/files/DBC/335/achievement_category" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'Achievement_Category'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/DBC" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to DBCs (3.3.5a)</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/animationdata" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'AnimationData'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
 # Achievement_Criteria.dbc
@@ -228,12 +229,12 @@ Two additional \[**Type**, **Asset**\] condition tuples.
 [`enum AchievementCriteriaCondition`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/DataStores/DBCEnums.h#L96-L108)
 | ID | Name | Comment |
 |----|------|---------|
-| 1 | ACHIEVEMENT_TIMED_TYPE_EVENT | Timer is started by internal event with id in timerStartEvent |
-| 2 | ACHIEVEMENT_TIMED_TYPE_QUEST | Timer is started by accepting quest with entry in timerStartEvent |
-| 5 | ACHIEVEMENT_TIMED_TYPE_SPELL_CASTER | Timer is started by casting a spell with entry in timerStartEvent |
-| 6 | ACHIEVEMENT_TIMED_TYPE_SPELL_TARGET | Timer is started by being target of spell with entry in timerStartEvent |
-| 7 | ACHIEVEMENT_TIMED_TYPE_CREATURE | Timer is started by killing creature with entry in timerStartEvent |
-| 9 | ACHIEVEMENT_TIMED_TYPE_ITEM | Timer is started by using item with entry in timerStartEvent |
+| 1 | ACHIEVEMENT_TIMED_TYPE_EVENT | Timer is started by internal event with id in **StartAsset** |
+| 2 | ACHIEVEMENT_TIMED_TYPE_QUEST | Timer is started by accepting quest with entry in **StartAsset** |
+| 5 | ACHIEVEMENT_TIMED_TYPE_SPELL_CASTER | Timer is started by casting a spell with entry in **StartAsset** |
+| 6 | ACHIEVEMENT_TIMED_TYPE_SPELL_TARGET | Timer is started by being target of spell with entry in **StartAsset** |
+| 7 | ACHIEVEMENT_TIMED_TYPE_CREATURE | Timer is started by killing creature with entry in **StartAsset** |
+| 9 | ACHIEVEMENT_TIMED_TYPE_ITEM | Timer is started by using item with entry in **StartAsset** |
 {.dense}
 
 &nbsp;
