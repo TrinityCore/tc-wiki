@@ -1,8 +1,8 @@
 ---
 title: Spell.dbc
-description:
+description: 
 published: true
-date: 2024-04-08T11:15:08.558Z
+date: 2026-06-18T14:11:17.109Z
 tags: 3.3.5, 3.3.5a, 335, 335a, wotlk, dbc, database client
 editor: markdown
 dateCreated: 2023-10-04T08:07:22.166Z
@@ -246,7 +246,7 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 221 | [RequiredAuraVision](#requiredauravision) | uint32 |  |
 | 222 | [RequiredTotemCategoryID_0](#requiredtotemcategoryid) | uint32 | [TotemCategory.dbc/0](/files/DBC/335/totemcategory#id-alt); [item TotemCategory](/database/335/world/item_template#totemcategory) |
 | 223 | [RequiredTotemCategoryID_1](#requiredtotemcategoryid) | uint32 | [TotemCategory.dbc/0](/files/DBC/335/totemcategory#id-alt); [item TotemCategory](/database/335/world/item_template#totemcategory) |
-| 224 | [RequiredAreasID](#requiredareasid) | int32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id-alt) |
+| 224 | [RequiredAreasID](#requiredareasid) | int32 | [AreaGroup.dbc/0](/files/DBC/335/areagroup#id-alt) |
 | 225 | [SchoolMask](#schoolmask) | uint32 |  |
 | 226 | [RuneCostID](#runecostid) | uint32 | [SpellRuneCost.dbc/0](/files/DBC/335/spellrunecost#id-alt) |
 | 227 | [SpellMissileID](#spellmissileid) | uint32 | [SpellMissile.dbc/0](/files/DBC/335/spellmissile#id-alt) |
