@@ -2,7 +2,7 @@
 title: GM Commands
 description: Console commands 
 published: true
-date: 2026-05-23T21:31:00.706Z
+date: 2026-06-30T18:16:35.842Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-03T23:04:45.226Z
@@ -30,7 +30,7 @@ Note: Some commands are working only by selecting a player or a creature. These 
 | **bnetaccount set**               |          |                                                                                                                         |
 | **bnetaccount link**              |          | .bnetaccount link $email $login <br /> Links battle.net account to an existing game account.    |
 | **bnetaccount gameaccountcreate** |          | .bnetaccount gameaccountcreate $account<br />Create additional game account for specified battle.net account. |
-| **bnetaccount create**            |          |                                                                                                                         |
+| **bnetaccount create**            |          | .bnetaccount create $email $password |
 
 &nbsp;
 ## 3.x Commands
