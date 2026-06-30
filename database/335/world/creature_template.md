@@ -2,7 +2,7 @@
 title: creature_template
 description: 
 published: true
-date: 2025-06-30T18:44:09.578Z
+date: 2026-06-30T11:38:55.584Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:50.335Z
@@ -399,8 +399,6 @@ The [CreatureType ID](/files/DBC/335/creaturetype#id) of the creature.
 | 11 | Totem |
 | 12 | Non-Combat Pet |
 | 13 | Gas Cloud |
-| 14 | Wild Pet |
-| 15 | Aberration |
 {.dense}
 
 &nbsp;
