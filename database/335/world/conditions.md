@@ -2,7 +2,7 @@
 title: conditions
 description: 
 published: true
-date: 2025-12-20T14:56:52.435Z
+date: 2026-07-16T18:08:21.153Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:03:10.475Z
@@ -1419,7 +1419,28 @@ CONDITION_LABEL (59)
 
 > RESERVED master branch
 {.is-warning}
+#### Group Status (60)
+* **ConditionTypeOrReference**:
+CONDITION_GROUP_STATUS (60)
+* **ConditionValue1**:
+	[`enum class GroupStatusCondition`](https://github.com/TrinityCore/TrinityCore/blob/4e91f453aa345f8c9046108cdc0bae49e8662b11/src/server/game/Conditions/ConditionMgr.h#L187-L194)
+  | id | Name | is solo | in party | in raid |
+	|-|-|:-:|:-:|:-:|
+	| 0 | NotInGroup            | ✅  | ❌ | ❌ |
+	| 1 | InGroup               | ❌ | ✅  | ✅  |
+	| 2 | InGroupButNotInRaid   | ❌ | ✅  | ❌ |
+	| 3 | InRaid                | ❌ | ❌ | ✅  |
+	| 4 | NotInGroupOrNotInRaid | ✅  | ✅  | ❌ |
+  {.dense}
+  	
+* **ConditionValue2**:
+`0`
+* **ConditionValue3**:
+`0`
+* **ConditionStringValue1**:
+`-`
 
+true if group status matches player
 ### EndTabset {.tabset}
 &nbsp;
 
