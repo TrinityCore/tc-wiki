@@ -2,7 +2,7 @@
 title: mail
 description: 
 published: true
-date: 2024-04-16T19:52:40.137Z
+date: 2026-09-12T18:02:33.073Z
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:01:45.503Z
@@ -31,7 +31,7 @@ dateCreated: 2021-08-30T22:01:45.503Z
 | [deliver_time](#deliver_time) | int | unsigned |  | NO | 0 |  |  |
 | [money](#money) | int | unsigned |  | NO | 0 |  |  |
 | [cod](#cod) | int | unsigned |  | NO | 0 |  |  |
-| [checked](#checked) | tinyint | unsigned |  | NO | 0 |  |  |
+| [checked](#checked) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
 
