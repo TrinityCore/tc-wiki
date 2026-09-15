@@ -2,7 +2,7 @@
 title: player_levelstats
 description: 
 published: true
-date: 2026-07-08T22:24:40.638Z
+date: 2026-09-15T13:50:59.929Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:07:20.624Z
@@ -19,11 +19,11 @@ This table holds information on what stats are gained by characters when they le
 | [race](#race) | tinyint | unsigned | PRI | NO |  |  |  |
 | [class](#class) | tinyint | unsigned | PRI | NO |  |  |  |
 | [level](#level) | tinyint | unsigned | PRI | NO |  |  |  |
-| [str](#str) | smallint | unsigned |  | NO |  |  |  |
-| [agi](#agi) | smallint | unsigned |  | NO |  |  |  |
-| [sta](#sta) | smallint | unsigned |  | NO |  |  |  |
-| [inte](#inte) | smallint | unsigned |  | NO |  |  |  |
-| [spi](#spi) | smallint | unsigned |  | NO |  |  |  |
+| [str](#str) | smallint | unsigned |  | NO |  |  | strength |
+| [agi](#agi) | smallint | unsigned |  | NO |  |  | agility |
+| [sta](#sta) | smallint | unsigned |  | NO |  |  | stamina |
+| [inte](#inte) | smallint | unsigned |  | NO |  |  | intellect |
+| [spi](#spi) | smallint | unsigned |  | NO |  |  | spirit |
 &nbsp;
 ## Description of fields
 
