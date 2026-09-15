@@ -2,7 +2,7 @@
 title: quest_template
 description: 
 published: true
-date: 2026-05-19T19:48:08.721Z
+date: 2026-09-15T13:48:52.315Z
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T22:08:30.767Z
@@ -88,6 +88,7 @@ Contains all basic definitions of available quests.
 | [RewardFactionID5](#rewardfactionid1-5) | smallint | unsigned |  | NO | 0 |  | [Faction ID](/files/DBC/335/faction#id) |
 | [RewardFactionValue5](#rewardfactionvalue1-5) | int | signed |  | NO | 0 |  |  |
 | [RewardFactionOverride5](#rewardfactionoverride1-5) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionFlags](#rewardfactionflags) | int | unsigned |  | NO | 0 |  |  |
 | [TimeAllowed](#timeallowed) | int | unsigned |  | NO | 0 |  |  |
 | [AllowableRaces](#allowableraces) | int | unsigned |  | NO | 0 |  |  |
 | [LogTitle](#logtitle) | mediumtext |  |  | YES | NULL |  |  |
@@ -115,7 +116,6 @@ Contains all basic definitions of available quests.
 | [RequiredItemCount4](#requireditemcount1-6) | smallint | unsigned |  | NO | 0 |  |  |
 | [RequiredItemCount5](#requireditemcount1-6) | smallint | unsigned |  | NO | 0 |  |  |
 | [RequiredItemCount6](#requireditemcount1-6) | smallint | unsigned |  | NO | 0 |  |  |
-| [RewardFactionFlags](#rewardfactionflags) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ObjectiveText1](#objectivetext1-4) | mediumtext |  |  | YES | NULL |  |  |
 | [ObjectiveText2](#objectivetext1-4) | mediumtext |  |  | YES | NULL |  |  |
 | [ObjectiveText3](#objectivetext1-4) | mediumtext |  |  | YES | NULL |  |  |
@@ -367,6 +367,10 @@ This field is used for reputation lookup in [QuestFactionReward](/files/DBC/335/
 This field is used to give reputation values not present in [QuestFactionReward](/files/DBC/335/questfactionreward) or to override them if **RewardFactionValue\*** is wrong for some reason. The value in this field is 100× the intended reputation reward (if you want to give 400 rep, put 40000 in **RewardFactionOverride\***).
 &nbsp;
 
+### RewardFactionFlags
+RewardReputationMask. Just sent to client.
+&nbsp;
+
 ### TimeAllowed
 Time in seconds that the player has to complete this quest.
 &nbsp;
@@ -437,10 +441,6 @@ The [item entry](../world/item_template#entry) the player needs to collect to co
 
 ### RequiredItemCount\[1-6]
 The amount of required items.
-&nbsp;
-
-### RewardFactionFlags
-RewardReputationMask. Just sent to client.
 &nbsp;
 
 ### ObjectiveText\[1-4]
