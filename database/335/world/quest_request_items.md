@@ -22,6 +22,8 @@ This table basically handles 3 quest details:
 | [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [EmoteOnComplete](#emoteoncomplete) | smallint | unsigned |  | NO | 0 |  |  |
 | [EmoteOnIncomplete](#emoteonincomplete) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteOnCompleteDelay](#emoteoncompletedelay) | int | unsigned |  | NO | 0 |  |  |
+| [EmoteOnIncompleteDelay](#emoteonincompletedelay) | int | unsigned |  | NO | 0 |  |  |
 | [CompletionText](#completiontext) | mediumtext |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
 &nbsp;
@@ -38,6 +40,12 @@ references [quest_template.ID](../world/quest_template#id)
 ### EmoteOnIncomplete
 [Emote ID](/files/DBC/335/emotes#id) played by the quest ender NPC if any of the quest objectives are incomplete.
 &nbsp;
+
+### EmoteOnCompleteDelay
+Delay in milliseconds before triggers the emote ID defined in [EmoteOnComplete](#emoteoncomplete)
+
+### EmoteOnIncompleteDelay
+Delay in milliseconds before triggers the emote ID defined in [EmoteOnIncomplete](#emoteonincomplete)
 
 ### CompletionText
 Quest gossip text shown in the final gossip dialogue window when turning in an item delivery quest.
