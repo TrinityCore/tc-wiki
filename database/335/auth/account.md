@@ -2,7 +2,7 @@
 title: account
 description: 
 published: true
-date: 2026-05-19T13:06:03.689Z
+date: 2026-09-16T16:07:07.813Z
 tags: database, auth, 3.3.5, 3.3.5a, 335, 335a, wotlk
 editor: markdown
 dateCreated: 2021-08-30T21:57:34.489Z
@@ -19,7 +19,7 @@ dateCreated: 2021-08-30T21:57:34.489Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [id](#id-alt) | int | unsigned | PRI | NO |  | auto_increment | Identifier |
-| [username](#username) | varchar(32) |  | UNI | NO | '' |  |  |
+| [username](#username) | varchar(64) |  | UNI | NO | '' |  |  |
 | [salt](#salt) | binary(32) |  |  | NO |  |  |  |
 | [verifier](#verifier) | binary(32) |  |  | NO |  |  |  |
 | [session_key_auth](#session_key_auth) | binary(40) |  |  | YES | NULL |  |  |
