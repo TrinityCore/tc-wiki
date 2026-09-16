@@ -16,11 +16,11 @@ dateCreated: 2021-08-30T22:08:37.006Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
-| [Title](#title) | mediumtext |  |  | YES | NULL |  |  |
-| [Details](#details) | mediumtext |  |  | YES | NULL |  |  |
-| [Objectives](#objectives) | mediumtext |  |  | YES | NULL |  |  |
-| [EndText](#endtext) | mediumtext |  |  | YES | NULL |  |  |
-| [CompletedText](#completedtext) | mediumtext |  |  | YES | NULL |  |  |
+| [LogTitle](#logtitle) | mediumtext |  |  | YES | NULL |  |  |
+| [QuestDescription](#questdescription) | mediumtext |  |  | YES | NULL |  |  |
+| [LogDescription](#logdescription) | mediumtext |  |  | YES | NULL |  |  |
+| [AreaDescription](#areadescription) | mediumtext |  |  | YES | NULL |  |  |
+| [QuestCompletionLog](#questcompletionlog) | mediumtext |  |  | YES | NULL |  |  |
 | [ObjectiveText1](#objectivetext1) | mediumtext |  |  | YES | NULL |  |  |
 | [ObjectiveText2](#objectivetext2) | mediumtext |  |  | YES | NULL |  |  |
 | [ObjectiveText3](#objectivetext3) | mediumtext |  |  | YES | NULL |  |  |
@@ -49,23 +49,23 @@ dateCreated: 2021-08-30T22:08:37.006Z
 
 &nbsp;
 
-### Title
+### LogTitle
 localization of [LogTitle](/database/335/world/quest_template#logtitle)
 &nbsp;
 
-### Details
+### QuestDescription
 localization of [QuestDescription](/database/335/world/quest_template#questdescription)
 &nbsp;
 
-### Objectives
+### LogDescription
 localization of [LogDescription](/database/335/world/quest_template#logdescription)
 &nbsp;
 
-### EndText
+### AreaDescription
 localization of [AreaDescription](/database/335/world/quest_template#areadescription)
 &nbsp;
 
-### CompletedText
+### QuestCompletionLog
 localization of [QuestCompletionLog](/database/335/world/quest_template#questcompletionlog)
 &nbsp;
 
