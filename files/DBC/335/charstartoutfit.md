@@ -1,12 +1,13 @@
 ---
 title: CharStartOutfit.dbc
-description:
+description: 
 published: true
-date: 2023-09-30CEST01:03:36.000Z
-tags: dbc, database client, 3.3.5, 3.3.5a, 335, 335a, wotlk
+date: 2026-09-23T16:57:25.144Z
+tags: 3.3.5, 3.3.5a, 335, 335a, wotlk, dbc, database client
 editor: markdown
-dateCreated: 2023-08-09CEST00:06:01.000Z
+dateCreated: 2023-10-04T08:01:40.639Z
 ---
+
 <a href="https://trinitycore.info/files/DBC/335/charsections" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'CharSections'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/DBC" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to DBCs (3.3.5a)</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/chartitles" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'CharTitles'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
 # CharStartOutfit.dbc
@@ -26,30 +27,30 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 2 | [ClassID](#classid) | uint8 | [ChrClasses.dbc/0](/files/DBC/335/chrclasses#id-alt) |
 | 3 | [SexID](#sexid) | uint8 |  |
 | 4 | [OutfitID](#outfitid) | uint8 |  |
-| 5 | [ItemID_0](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 6 | [ItemID_1](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 7 | [ItemID_2](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 8 | [ItemID_3](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 9 | [ItemID_4](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 10 | [ItemID_5](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 11 | [ItemID_6](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 12 | [ItemID_7](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 13 | [ItemID_8](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 14 | [ItemID_9](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 15 | [ItemID_10](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 16 | [ItemID_11](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 17 | [ItemID_12](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 18 | [ItemID_13](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 19 | [ItemID_14](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 20 | [ItemID_15](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 21 | [ItemID_16](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 22 | [ItemID_17](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 23 | [ItemID_18](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 24 | [ItemID_19](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 25 | [ItemID_20](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 26 | [ItemID_21](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 27 | [ItemID_22](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 28 | [ItemID_23](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 5 | [ItemID_0](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 6 | [ItemID_1](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 7 | [ItemID_2](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 8 | [ItemID_3](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 9 | [ItemID_4](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 10 | [ItemID_5](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 11 | [ItemID_6](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 12 | [ItemID_7](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 13 | [ItemID_8](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 14 | [ItemID_9](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 15 | [ItemID_10](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 16 | [ItemID_11](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 17 | [ItemID_12](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 18 | [ItemID_13](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 19 | [ItemID_14](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 20 | [ItemID_15](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 21 | [ItemID_16](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 22 | [ItemID_17](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 23 | [ItemID_18](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 24 | [ItemID_19](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 25 | [ItemID_20](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 26 | [ItemID_21](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 27 | [ItemID_22](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 28 | [ItemID_23](#itemid) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
 | 29 | [DisplayItemID_0](#displayitemid) | int32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id-alt) |
 | 30 | [DisplayItemID_1](#displayitemid) | int32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id-alt) |
 | 31 | [DisplayItemID_2](#displayitemid) | int32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id-alt) |
