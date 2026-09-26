@@ -1,4 +1,4 @@
-/* Classes carried over from Wiki.js markdown ({.is-info}, {.dense}, {.links-list}). */
+/* Classes carried over from Wiki.js markdown ({.is-info}, {.links-list}, <mark class="pen-*">). */
 .vp-doc blockquote[class*='is-'] {
   border-left-width: 4px;
   border-radius: 4px;
@@ -10,9 +10,6 @@
 .vp-doc blockquote.is-warning { border-color: var(--vp-c-warning-1); background: var(--vp-c-warning-soft); }
 .vp-doc blockquote.is-danger { border-color: var(--vp-c-danger-1); background: var(--vp-c-danger-soft); }
 
-.vp-doc table.dense td,
-.vp-doc table.dense th { padding: 4px 8px; }
-
 .vp-doc ul.links-list { list-style: none; padding-left: 0; }
 .vp-doc ul.links-list > li {
   border: 1px solid var(--vp-c-divider);
@@ -20,3 +17,9 @@
   padding: 6px 12px;
   margin: 6px 0;
 }
+
+/* Wiki.js editor text colors: pen-* colors the text, marker-* highlights it. */
+.vp-doc mark[class^='pen-'] { background: none; font-weight: 600; }
+.vp-doc mark.pen-red { color: var(--vp-c-danger-1); }
+.vp-doc mark.marker-yellow { background: var(--vp-c-warning-soft); color: inherit; }
+.vp-doc mark.marker-green { background: var(--vp-c-green-soft); color: inherit; }

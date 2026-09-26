@@ -52,9 +52,35 @@ export default defineConfig({
   title: 'TrinityCore Wiki',
   description: 'Documentation for the TrinityCore MMORPG framework',
   cleanUrls: true,
+  // Ship sidebar + page hash map once as a cached chunk instead of inlining ~350 KB into every page.
+  metaChunk: true,
   srcExclude: ['README.md', 'CLAUDE.md', ...unpublished],
   rewrites: { 'home.md': 'index.md' },
+  // Links to pages that are unpublished or were never written (already dead in Wiki.js).
+  ignoreDeadLinks: [
+    /^https?:\/\/localhost\b/,
+    ...unpublished.map((f) => `/${f.slice(0, -3)}`),
+    /^\/contributing\/(creating-a-pull-request|sql-guidelines)$/,
+    /^(\/database\/master|\.\/\.\.)\/world\/(broadcast_text|item_template|scripts|spell_ranks|waypoint_data)$/,
+  ],
   head: [['link', { rel: 'icon', href: '/tc_logo.png' }]],
+  markdown: {
+    config(md) {
+      // Wiki.js rendered the front matter title as the page header, so most pages have no H1 of their own.
+      md.core.ruler.push('frontmatter_h1', (state) => {
+        const title = state.env.frontmatter?.title
+        const hasH1 = state.tokens.some((t) =>
+          (t.type === 'heading_open' && t.tag === 'h1') || (t.type === 'html_block' && /<h1[\s>]/i.test(t.content)))
+        if (!title || hasH1) return
+        const text = new state.Token('text', '', 0)
+        text.content = title
+        const inline = new state.Token('inline', '', 0)
+        inline.content = title
+        inline.children = [text]
+        state.tokens.unshift(new state.Token('heading_open', 'h1', 1), inline, new state.Token('heading_close', 'h1', -1))
+      })
+    },
+  },
   themeConfig: {
     logo: '/tc_logo.png',
     nav: [
