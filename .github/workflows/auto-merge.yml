@@ -1,0 +1,53 @@
+name: Auto-merge content PRs
+
+on:
+  workflow_run:
+    workflows: [PR checks]
+    types: [completed]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  merge:
+    if: github.event.workflow_run.event == 'pull_request' && github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
+      MIN_ACCOUNT_AGE_DAYS: 7
+    steps:
+      # Checks out main, never the pull request, so the check script is the
+      # trusted copy. The pull request's diff is only read as data.
+      - uses: actions/checkout@v4
+
+      - name: Merge if safe
+        run: |
+          set -euo pipefail
+
+          # workflow_run lists no pull requests for forks, so match on the head commit.
+          pr=$(gh pr list --state open --base main --limit 200 --json number,headRefOid,isDraft,author \
+            --jq '[.[] | select(.headRefOid == env.HEAD_SHA and (.isDraft | not))][0] // empty')
+          if [ -z "$pr" ]; then
+            echo "No open, ready pull request at $HEAD_SHA."
+            exit 0
+          fi
+          number=$(jq -r .number <<<"$pr")
+          author=$(jq -r .author.login <<<"$pr")
+
+          created=$(gh api "users/$author" --jq .created_at)
+          age_days=$(( ($(date +%s) - $(date -d "$created" +%s)) / 86400 ))
+          if [ "$age_days" -lt "$MIN_ACCOUNT_AGE_DAYS" ]; then
+            echo "::notice::#$number needs review: @$author's account is $age_days days old."
+            exit 0
+          fi
+
+          if ! gh pr diff "$number" | node scripts/check-pr.mjs; then
+            echo "::notice::#$number needs review: the diff failed the safety check."
+            exit 0
+          fi
+
+          # --match-head-commit refuses the merge if a commit landed after the checks ran.
+          gh pr merge "$number" --squash --match-head-commit "$HEAD_SHA"
