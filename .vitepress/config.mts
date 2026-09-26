@@ -46,7 +46,45 @@ function sidebarFor(dir: string): DefaultTheme.SidebarItem[] {
   })
 }
 
-const sections = ['install', 'how-to', 'database/335', 'database/master', 'files', 'troubleshooting-articles', 'contributing']
+const sections: Record<string, string> = {
+  'install': 'Install',
+  'how-to': 'How-to',
+  'database/335': 'Databases (3.3.5a)',
+  'database/master': 'Databases (master)',
+  'files': 'Files',
+  'troubleshooting-articles': 'Troubleshooting',
+  'contributing': 'Contributing',
+}
+
+// The old Wiki.js left-hand menu. Shown as the top nav and at the head of every sidebar.
+const menu = [
+  { text: 'Install', items: [
+    { text: 'Requirements', link: '/install/requirements' },
+    { text: 'Core Installation', link: '/install/Core-Installation' },
+    { text: 'Server Setup', link: '/install/Server-Setup' },
+    { text: 'Databases Installation', link: '/install/Database-Installation' },
+    { text: 'Networking', link: '/install/Networking' },
+    { text: 'Final Server Steps', link: '/install/Final-Server-Steps' },
+    { text: 'Client Setup', link: '/install/Client-Setup' },
+  ] },
+  { text: 'Databases', items: [
+    { text: 'Databases (master)', link: '/database/master/world/home' },
+    { text: 'Databases (3.3.5a)', link: '/database/335/world/home' },
+  ] },
+  { text: 'Files', items: [
+    { text: 'Configuration', link: '/files/configuration/home' },
+    { text: 'DBC', link: '/files/DBC/335/home' },
+  ] },
+  { text: 'How-to', link: '/how-to/gm-commands' },
+  { text: 'Troubleshooting', link: '/troubleshooting-articles/home' },
+  { text: 'Contributing', link: '/contributing/standard-operating-procedures' },
+  { text: 'Links', items: [
+    { text: 'TrinityCore Forum', link: 'https://talk.trinitycore.org/' },
+    { text: 'TrinityCore GitHub', link: 'https://github.com/TrinityCore/TrinityCore' },
+    { text: 'Doxygen Master', link: 'https://trinitycore.net/' },
+    { text: 'Doxygen 3.3.5a', link: 'https://335.trinitycore.net/' },
+  ] },
+]
 
 export default defineConfig({
   title: 'TrinityCore Wiki',
@@ -94,35 +132,12 @@ export default defineConfig({
   },
   themeConfig: {
     logo: '/tc_logo.png',
-    nav: [
-      { text: 'Install', items: [
-        { text: 'Requirements', link: '/install/requirements' },
-        { text: 'Core Installation', link: '/install/Core-Installation' },
-        { text: 'Server Setup', link: '/install/Server-Setup' },
-        { text: 'Databases Installation', link: '/install/Database-Installation' },
-        { text: 'Networking', link: '/install/Networking' },
-        { text: 'Final Server Steps', link: '/install/Final-Server-Steps' },
-        { text: 'Client Setup', link: '/install/Client-Setup' },
-      ] },
-      { text: 'Databases', items: [
-        { text: 'Databases (master)', link: '/database/master/world/home' },
-        { text: 'Databases (3.3.5a)', link: '/database/335/world/home' },
-      ] },
-      { text: 'Files', items: [
-        { text: 'Configuration', link: '/files/configuration/home' },
-        { text: 'DBC', link: '/files/DBC/335/home' },
-      ] },
-      { text: 'How-to', link: '/how-to/gm-commands' },
-      { text: 'Troubleshooting', link: '/troubleshooting-articles/home' },
-      { text: 'Contributing', link: '/contributing/standard-operating-procedures' },
-      { text: 'Links', items: [
-        { text: 'TrinityCore Forum', link: 'https://talk.trinitycore.org/' },
-        { text: 'TrinityCore GitHub', link: 'https://github.com/TrinityCore/TrinityCore' },
-        { text: 'Doxygen Master', link: 'https://trinitycore.net/' },
-        { text: 'Doxygen 3.3.5a', link: 'https://335.trinitycore.net/' },
-      ] },
-    ],
-    sidebar: Object.fromEntries(sections.map((s) => [`/${s}/`, sidebarFor(s)])),
+    nav: menu,
+    sidebar: {
+      '/': menu,
+      ...Object.fromEntries(Object.entries(sections).map(([dir, text]) =>
+        [`/${dir}/`, [...menu, { text, items: sidebarFor(dir) }]])),
+    },
     search: { provider: 'local' },
     editLink: {
       pattern: 'https://github.com/TrinityCore/tc-wiki/edit/main/:path',
