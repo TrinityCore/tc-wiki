@@ -1,70 +1,86 @@
 ---
 title: TrinityCore Wiki
-description: 
+description: Documentation for the TrinityCore MMORPG framework
 published: true
-date: 2026-04-21T16:56:44.011Z
+date: 2026-09-26T00:00:00.000Z
 tags: 
 editor: markdown
 dateCreated: 2021-08-13T17:47:17.543Z
+layout: home
+hero:
+  name: TrinityCore Wiki
+  text: Build and run your own server
+  tagline: Documentation for the open-source MMORPG framework, written in C++.
+  image:
+    src: /tc_logo.png
+    alt: TrinityCore logo
+  actions:
+    - theme: brand
+      text: Install a server
+      link: /install/requirements
+    - theme: alt
+      text: Database reference
+      link: /database/335/world/home
+    - theme: alt
+      text: Get help on Discord
+      link: https://discord.trinitycore.org/
+features:
+  - title: Install
+    details: Requirements, compiling the core, and setting up the databases, network and client.
+    link: /install/requirements
+  - title: Databases
+    details: Every table and column in the auth, characters, world and hotfixes databases.
+    link: /database/335/world/home
+  - title: Files
+    details: Client DBC file structures and server configuration options.
+    link: /files/configuration/home
+  - title: How-to
+    details: GM commands, RBAC, SOAP, logging, debugging with GDB and ASan.
+    link: /how-to/gm-commands
+  - title: Troubleshooting
+    details: Fixes for common build, database and connection errors.
+    link: /troubleshooting-articles/home
+  - title: Contributing
+    details: Coding standards, the issue tracker, and how to send a pull request.
+    link: /contributing/standard-operating-procedures
 ---
 
-# What is TrinityCore?
-TrinityCore is a MMORPG Framework based mostly in C++.
+## Pick your branch
 
-It is derived from MaNGOS, the Massive Network Game Object Server, and is based on the code of that project with extensive changes over time to optimize, improve and cleanup the codebase at the same time as improving the in-game mechanics and functionality.
+| Branch | Client | Status |
+|---|---|---|
+| **3.3.5** | 3.3.5a.12340 (the 3.4 WotLK Classic client does not work) | Recommended for new users |
+| **master** | Current retail | Active, but a lot of content is missing |
+| cata_classic | 4.4.x (the 4.3.4 client does not work) | Abandoned |
+| wotlk_classic | 3.4.4.61581 (Chinese client) | Abandoned |
 
-It is completely open source; community involvement is highly encouraged.
+## Install path
 
-If you wish to contribute ideas or code, please visit our site linked below or make pull requests to our [Github repository](https://github.com/TrinityCore/).
-
-At the moment, TrinityCore supports 2 main branches:
-
-- 3.3.5 targeting original 2010 wow 3.3.5a, you need wow 3.3.5a.12340 client for it to run, wotlk 3.4 client is incompatible. **best for starters**
-- master usually targeting current retail version. **a lot of missing content**
-
-There are also 2 classic branches, but they are abandoned.
-
-- cata_classic targeting 2024 wow 4.4 retail cata classic, you need wow 4.4.x client for it to run, cata 4.3.4 client is incompatible. 
-- wotlk_classic targeting 3.4.4.61581 chinese client.
-
-
-For further information on the TrinityCore project, please visit our project website at TrinityCore.org.
-
-# Installation Guide
-
-#### Installation Guide (Linux, macOS and Windows)
-
-1. Requirements 
-- [Linux](/install/requirements/linux) 
-- [MacOS](/install/requirements/macos)
-- [Windows](/install/requirements/windows)
-2. Core Installation By Platform
-- [Linux Core Installation](/install/Core-Installation/linux-core-installation)
-- [macOS Core Installation](/install/Core-Installation/macOS-core-installation)
-- [Windows Core Installation](/install/Core-Installation/windows-core-installation)
-- [Docker Core Installation](/install/Core-Installation/Docker)
+1. [Requirements](/install/requirements): [Linux](/install/requirements/linux), [macOS](/install/requirements/macos), [Windows](/install/requirements/windows)
+2. Core installation: [Linux](/install/Core-Installation/linux-core-installation), [macOS](/install/Core-Installation/macOS-core-installation), [Windows](/install/Core-Installation/windows-core-installation), [Docker](/install/Core-Installation/Docker)
 3. [Server Setup](/install/Server-Setup)
 4. [Database Installation](/install/Database-Installation)
 5. [Networking](/install/Networking)
 6. [Final Server Steps](/install/Final-Server-Steps)
 7. [Client Setup](/install/Client-Setup)
 
-# Description of the Trinity Database Structures
-#### Master database
-- [Auth](/database/master/auth/home)
-- [Characters](/database/master/characters/home)
-- [Hotfixes](/database/master/hotfixes/home)
-- [World](/database/master/world/home)
+## Database reference
 
-#### 3.3.5a database
-- [Auth](/database/335/auth/home)
-- [Characters](/database/335/characters/home)
-- [World](/database/335/world/home)
+- **3.3.5a:** [Auth](/database/335/auth/home) · [Characters](/database/335/characters/home) · [World](/database/335/world/home)
+- **master:** [Auth](/database/master/auth/home) · [Characters](/database/master/characters/home) · [Hotfixes](/database/master/hotfixes/home) · [World](/database/master/world/home)
 
-# How-to
-1. [Use ASan to debug TrinityCore](/how-to/asan)
-2. [Send console commands via SOAP](/how-to/SOAP)
-3. [GM Commands](/how-to/gm-commands)
-4. [Role-based Access Controls (RBAC)](/how-to/RBAC)
+Frequently used 3.3.5a world tables:
+[creature_template](/database/335/world/creature_template) ·
+[creature](/database/335/world/creature) ·
+[gameobject_template](/database/335/world/gameobject_template) ·
+[quest_template](/database/335/world/quest_template) ·
+[item_template](/database/335/world/item_template) ·
+[smart_scripts](/database/335/world/smart_scripts) ·
+[conditions](/database/335/world/conditions) ·
+[creature_loot_template](/database/335/world/creature_loot_template)
 
-5. [Aowow TrinityCore wowhead like](https://aowow.trinitycore.info/)
+## More
+
+- [TrinityCore on GitHub](https://github.com/TrinityCore/TrinityCore) · [Forum](https://talk.trinitycore.org/) · [Discord](https://discord.trinitycore.org/)
+- [Aowow](https://aowow.trinitycore.info/), a Wowhead-style database browser for TrinityCore
+- Prefer the previous layout? See the [old home page](/old-home).
