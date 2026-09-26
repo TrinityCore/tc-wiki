@@ -120,7 +120,7 @@ export default defineConfig({
         const title = state.env.frontmatter?.title
         const hasH1 = state.tokens.some((t) =>
           (t.type === 'heading_open' && t.tag === 'h1') || (t.type === 'html_block' && /<h1[\s>]/i.test(t.content)))
-        if (!title || hasH1) return
+        if (!title || hasH1 || state.env.frontmatter?.layout === 'home') return
         const text = new state.Token('text', '', 0)
         text.content = title
         const inline = new state.Token('inline', '', 0)
