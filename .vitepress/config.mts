@@ -107,7 +107,7 @@ export default defineConfig({
       ] },
       { text: 'Files', items: [
         { text: 'Configuration', link: '/files/configuration/home' },
-        { text: 'DBC', link: '/files/DBC/335/achievement' },
+        { text: 'DBC', link: '/files/DBC/335/home' },
       ] },
       { text: 'How-to', link: '/how-to/gm-commands' },
       { text: 'Troubleshooting', link: '/troubleshooting-articles/home' },
