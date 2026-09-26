@@ -92,12 +92,32 @@ export default defineConfig({
   themeConfig: {
     logo: '/tc_logo.png',
     nav: [
-      { text: 'Install', link: '/install/Core-Installation' },
+      { text: 'Install', items: [
+        { text: 'Requirements', link: '/install/requirements' },
+        { text: 'Core Installation', link: '/install/Core-Installation' },
+        { text: 'Server Setup', link: '/install/Server-Setup' },
+        { text: 'Databases Installation', link: '/install/Database-Installation' },
+        { text: 'Networking', link: '/install/Networking' },
+        { text: 'Final Server Steps', link: '/install/Final-Server-Steps' },
+        { text: 'Client Setup', link: '/install/Client-Setup' },
+      ] },
+      { text: 'Databases', items: [
+        { text: 'Databases (master)', link: '/database/master/world/home' },
+        { text: 'Databases (3.3.5a)', link: '/database/335/world/home' },
+      ] },
+      { text: 'Files', items: [
+        { text: 'Configuration', link: '/files/configuration/home' },
+        { text: 'DBC', link: '/files/DBC/335/achievement' },
+      ] },
       { text: 'How-to', link: '/how-to/gm-commands' },
-      { text: '3.3.5 DB', link: '/database/335/world/home' },
-      { text: 'Master DB', link: '/database/master/world/home' },
-      { text: 'Files', link: '/files/configuration/home' },
       { text: 'Troubleshooting', link: '/troubleshooting-articles/home' },
+      { text: 'Contributing', link: '/contributing/standard-operating-procedures' },
+      { text: 'Links', items: [
+        { text: 'TrinityCore Forum', link: 'https://talk.trinitycore.org/' },
+        { text: 'TrinityCore GitHub', link: 'https://github.com/TrinityCore/TrinityCore' },
+        { text: 'Doxygen Master', link: 'https://trinitycore.net/' },
+        { text: 'Doxygen 3.3.5a', link: 'https://335.trinitycore.net/' },
+      ] },
     ],
     sidebar: Object.fromEntries(sections.map((s) => [`/${s}/`, sidebarFor(s)])),
     search: { provider: 'local' },
@@ -105,7 +125,10 @@ export default defineConfig({
       pattern: 'https://github.com/TrinityCore/tc-wiki/edit/main/:path',
       text: 'Edit this page on GitHub',
     },
-    socialLinks: [{ icon: 'github', link: 'https://github.com/TrinityCore/tc-wiki' }],
+    socialLinks: [
+      { icon: 'discord', link: 'https://discord.trinitycore.org/' },
+      { icon: 'github', link: 'https://github.com/TrinityCore/tc-wiki' },
+    ],
     outline: 'deep',
   },
 })
