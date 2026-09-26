@@ -71,7 +71,10 @@ export default defineConfig({
     })]
     fs.writeFileSync(path.join(outDir, '_redirects'), rules.join('\n') + '\n')
   },
-  head: [['link', { rel: 'icon', href: '/tc_logo.png' }]],
+  head: [
+    ['link', { rel: 'icon', href: '/tc_logo.png' }],
+    ['script', { defer: '', src: 'https://tr.kpsn.dev/script.js', 'data-website-id': 'eaecc4a9-c766-4563-8ef6-500085fd579f' }],
+  ],
   markdown: {
     config(md) {
       // Wiki.js rendered the front matter title as the page header, so most pages have no H1 of their own.
