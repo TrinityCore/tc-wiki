@@ -152,5 +152,5 @@ dateCreated: 2021-08-17T11:24:05.638Z
 <ul>
   <li>Updating or starting with TrinityCore issues, Trouble with your TrinityCore Install / Readme 1st / FAQs</li>
   <li><a href="https://talk.trinitycore.org">Ask help on the Forum</a></li>
-  <li>If you still have problems, you can try to ask help on IRC, but remember it's not real time 24/7 support, most of people there lives on GMT and they can be sleeping or working.</li>
+  <li>If you still have problems, you can try to ask help on <a href="https://discord.trinitycore.org/">Discord</a>, but remember it's not real time 24/7 support, most of people there lives on GMT and they can be sleeping or working.</li>
 </ul>

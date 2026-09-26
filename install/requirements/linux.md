@@ -171,5 +171,5 @@ If you still have any problem, check:
 
 Updating or starting with TrinityCore issues, Trouble with your TrinityCore Install / Readme 1st / FAQs
 Ask help on the Forum
-If you still have problems, you can try to ask help on IRC, but remember it's not real time 24/7 support, most of people there lives on GMT and they can be sleeping or working.
+If you still have problems, you can try to ask help on [Discord](https://discord.trinitycore.org/), but remember it's not real time 24/7 support, most of people there lives on GMT and they can be sleeping or working.
 
