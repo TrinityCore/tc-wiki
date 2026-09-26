@@ -8,8 +8,6 @@ editor: markdown
 dateCreated: 2021-08-30T09:29:41.375Z
 ---
 
-<a href="https://trinitycore.info/en/database/master/world/conversation_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'conversation_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/creature_addon" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'creature_addon'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
 ## Structure
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
@@ -82,8 +80,8 @@ The GUID ranges are defined as followed:
 > Due to the revamp of events/holidays during the last few expansions, one subrange per expansion has been reserved to avoid leaving gaps when deleting old spawns. All holiday spawns should use this subrange.
 {.is-info}
 
-### id <!-- {#id-alt} -->
-This links to [creature_template.entry](/en/database/master/world/creature_template#entry)
+### id {#id-alt}
+This links to [creature_template.entry](/database/master/world/creature_template#entry)
 &nbsp;
 
 ### map
@@ -170,17 +168,17 @@ Available PhaseGroups can be found in PhaseGroup.db2
 &nbsp;
 
 ### modelid
-The model ID associated with the creature. Note that two creatures that use the same template can have different models. See [creature_model_info](/en/database/master/world/creature_model_info) for more information on model-specific characteristics.
+The model ID associated with the creature. Note that two creatures that use the same template can have different models. See [creature_model_info](/database/master/world/creature_model_info) for more information on model-specific characteristics.
 
-> This can be left at 0 and a random model from its assigned models in [creature_template](/en/database/master/world/creature_template) will be assigned by the core.
+> This can be left at 0 and a random model from its assigned models in [creature_template](/database/master/world/creature_template) will be assigned by the core.
 {.is-info}
 
 ### equipment_id
-The ID as defined within [creature_equip_template](/en/database/master/world/creature_equip_template) corresponding to the entry. The value essential defines the equip:
+The ID as defined within [creature_equip_template](/database/master/world/creature_equip_template) corresponding to the entry. The value essential defines the equip:
 
--  **-1**: A random equip from the set of equips in [creature_equip_template](/en/database/master/world/creature_equip_template) will be chosen.
+-  **-1**: A random equip from the set of equips in [creature_equip_template](/database/master/world/creature_equip_template) will be chosen.
 -   **0**: No equipment defined.
-- **1+**: The individual id within [creature_equip_template](/en/database/master/world/creature_equip_template).
+- **1+**: The individual id within [creature_equip_template](/database/master/world/creature_equip_template).
 &nbsp;
 
 ### position_x
@@ -209,7 +207,7 @@ Also controls how far away the creature can walk from its spawn point if its [Mo
 &nbsp;
 
 ### currentwaypoint
-The current point of [waypoint_data](/en/database/master/world/waypoint_data) that the creature is on, if any.
+The current point of [waypoint_data](/database/master/world/waypoint_data) that the creature is on, if any.
 &nbsp;
 
 ### curHealthPct
@@ -217,7 +215,7 @@ The health percent (1-100) that the creature will spawn with.
 &nbsp;
 
 ### MovementType
-Same as [creature_template.MovementType](/en/database/master/world/creature_template#movementtype)
+Same as [creature_template.MovementType](/database/master/world/creature_template#movementtype)
 
 | ID | Type |
 | :-: | --- |
@@ -225,17 +223,17 @@ Same as [creature_template.MovementType](/en/database/master/world/creature_temp
 | 1 |Random movement inside the spawndist radius |
 | 2 |Waypoint movement |
 
-> A creature.MovementType will override a [creature_template.MovementType](/en/database/master/world/creature_template#movementtype) record.
+> A creature.MovementType will override a [creature_template.MovementType](/database/master/world/creature_template#movementtype) record.
 {.is-info}
 
 ### npcflag
-Same as [creature_template.npcflag](/en/database/master/world/creature_template#npcflag)
+Same as [creature_template.npcflag](/database/master/world/creature_template#npcflag)
 
-> A creature.npcflag record will override a [creature_template.npcflag](/en/database/master/world/creature_template#npcflag) record.
+> A creature.npcflag record will override a [creature_template.npcflag](/database/master/world/creature_template#npcflag) record.
 {.is-info}
 
 ### unit_flags
-Same as [creature_template.unit_flags](/en/database/master/world/creature_template#unit_flags)
+Same as [creature_template.unit_flags](/database/master/world/creature_template#unit_flags)
 
 > A creature.unit_flags record will override a creature_template.unit_flags record.
 {.is-info}
@@ -244,7 +242,7 @@ A full list can be found [/src/server/game/Entities/Unit/UnitDefines.h#L118](htt
 &nbsp;
 
 ### unit_flags2
-Same as [creature_template.unit_flags2](/en/database/master/world/creature_template#unit_flags2)
+Same as [creature_template.unit_flags2](/database/master/world/creature_template#unit_flags2)
 
 > A creature.unit_flags2 record will override a creature_template.unit_flags2 record.
 {.is-info}
@@ -253,7 +251,7 @@ A full list can be found [/src/server/game/Entities/Unit/UnitDefines.h#L156](htt
 &nbsp;
 
 ### unit_flags3
-Same as [creature_template.unit_flags3](/en/database/master/world/creature_template#unit_flags)
+Same as [creature_template.unit_flags3](/database/master/world/creature_template#unit_flags)
 
 > A creature.unit_flags3 record will override a creature_template.unit_flags3 record.
 {.is-info}
@@ -282,4 +280,3 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 
 &nbsp;
 
-<a href="https://trinitycore.info/en/database/master/world/conversation_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'conversation_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/creature_addon" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'creature_addon'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>

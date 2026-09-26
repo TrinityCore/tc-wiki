@@ -58,7 +58,7 @@ Note : Change your current user to "username" so everything will run and compile
 
 ### Required Software
 
-See [Requirements](/install/requirements/)
+See [Requirements](/install/requirements)
 
 &nbsp;
 

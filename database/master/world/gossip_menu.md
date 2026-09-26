@@ -8,8 +8,6 @@ editor: markdown
 dateCreated: 2021-08-30T09:32:09.447Z
 ---
 
-<a href="https://trinitycore.info/en/database/master/world/garrison_plot_finalize_info" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'garrison_plot_finalize_info'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/gossip_menu_addon" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'gossip_menu_addon'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
 ## Structure
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment | Source in sniff |
@@ -21,11 +19,11 @@ dateCreated: 2021-08-30T09:32:09.447Z
 ## Description of fields
 
 ### MenuID
-This matches the id used in [creature_template.gossip_menu_id](/en/database/master/world/creature_template#gossip_menu_id). This also groups the options from [gossip_menu_option](/en/database/master/world/gossip_menu_option) and displays all options associated with this ID.
+This matches the id used in [creature_template.gossip_menu_id](/database/master/world/creature_template#gossip_menu_id). This also groups the options from [gossip_menu_option](/database/master/world/gossip_menu_option) and displays all options associated with this ID.
 &nbsp;
 
 ### TextID
-This links to [npc_text.ID](/en/database/master/world/npc_text#ID). It is used for the text being displayed when the gossip menu is opened. Default text is `Greetings, <name>` if an invalid `npc_text` id is provided.
+This links to [npc_text.ID](/database/master/world/npc_text#ID). It is used for the text being displayed when the gossip menu is opened. Default text is `Greetings, <name>` if an invalid `npc_text` id is provided.
 &nbsp;
 
 ### VerifiedBuild
@@ -41,5 +39,4 @@ If value is -Client Build then it was parsed with WDB files from that specific c
 
 &nbsp;
 
-<a href="https://trinitycore.info/en/database/master/world/garrison_plot_finalize_info" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'garrison_plot_finalize_info'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/gossip_menu_addon" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'gossip_menu_addon'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 

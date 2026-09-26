@@ -8,10 +8,8 @@ editor: markdown
 dateCreated: 2021-08-30T22:02:06.932Z
 ---
 
-<a href="https://trinitycore.info/en/database/335/characters/pool_quest_save" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'pool_quest_save'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/pvpstats_players" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'pvpstats_players'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
 > This table holds data about BattleGrounds scores.
-> To enable storing this kind of informations, set [`Battleground.StoreStatistics.Enable`](https://trinitycore.info/en/files/configuration/home) = 1 in worldserver.config file.
+> To enable storing this kind of informations, set [`Battleground.StoreStatistics.Enable`](/files/configuration/home) = 1 in worldserver.config file.
 {.is-info}
 
 
@@ -27,7 +25,7 @@ dateCreated: 2021-08-30T22:02:06.932Z
 &nbsp;
 ## Description of fields
 
-### id <!-- {#id-alt} -->
+### id {#id-alt}
 An unique value which identifies a pvpstats record.
 &nbsp;
 
@@ -76,4 +74,3 @@ Identifies the bracket level range:
 Unix timestamp of the battleground ending.
 &nbsp;
 
-<a href="https://trinitycore.info/en/database/335/characters/pool_quest_save" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'pool_quest_save'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/pvpstats_players" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'pvpstats_players'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>

@@ -8,8 +8,6 @@ editor: markdown
 dateCreated: 2023-10-04T08:07:22.166Z
 ---
 
-<a href="https://trinitycore.info/files/DBC/335/spammessages" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'SpamMessages'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/DBC" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to DBCs (3.3.5a)</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/spellcasttimes" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'SpellCastTimes'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
 # Spell.dbc
 ##### :pencil: Structure on [wowdev.wiki](https://wowdev.wiki/DB/Spell)
 &nbsp;
@@ -259,7 +257,7 @@ dateCreated: 2023-10-04T08:07:22.166Z
 &nbsp;
 ## Description of fields
 
-### ID <!-- {#id-alt} -->
+### ID {#id-alt}
 <code>Col: 0 (uint32)</code>
 
 *- no description -*
@@ -1451,7 +1449,7 @@ Select affected spells, matching **SpellClassSet** and **SpellClassMask**.
 *- no description -*
 &nbsp;
 
-### Name <!-- {#name-alt} -->
+### Name {#name-alt}
 <code>Col: 136 &ndash; 152 ([Loc](/how-to/localization))</code>
 
 *- no description -*
@@ -1678,4 +1676,3 @@ Points to declaration of `$<…>` description variables.
 *- no description -*
 &nbsp;
 
-<a href="https://trinitycore.info/files/DBC/335/spammessages" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'SpamMessages'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/DBC" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to DBCs (3.3.5a)</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/spellcasttimes" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'SpellCastTimes'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>

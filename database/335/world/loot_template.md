@@ -8,8 +8,6 @@ editor: markdown
 dateCreated: 2023-07-08T00:17:47.784Z
 ---
 
-<a href="https://trinitycore.info/en/database/335/world/creature_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'creature_loot_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/gameobject_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'gameobject_loot_template'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
 # Tables: *_loot_template
 
 ## General
@@ -134,7 +132,7 @@ Zero value of **Chance** is allowed for grouped entries only.
 &nbsp;
 
 ### QuestRequired
-Informs the core that the item should be shown only to characters having appropriate quest. This means that even if item is dropped, in order to see it in the loot the player must have at least one quest that has the [item ID](../world/item_template#entry) in its [RequiredItemId](../world/quest_template#requireditemid1) fields or in its [StartItem](../quest_template#startitem) fields. The player must also have less copies of the item than [RequiredItemCount](../world/quest_template#requireditemcount1) or [ProvidedItemCount](../world/quest_template_addon#provideditemcount).
+Informs the core that the item should be shown only to characters having appropriate quest. This means that even if item is dropped, in order to see it in the loot the player must have at least one quest that has the [item ID](../world/item_template#entry) in its [RequiredItemId](../world/quest_template#requireditemid1) fields or in its [StartItem](quest_template#startitem) fields. The player must also have less copies of the item than [RequiredItemCount](../world/quest_template#requireditemcount1) or [ProvidedItemCount](../world/quest_template_addon#provideditemcount).
 &nbsp;
 
 ### LootMode
@@ -359,4 +357,3 @@ VALUES
 ```
 &nbsp;
 
-<a href="https://trinitycore.info/en/database/335/world/creature_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'creature_loot_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/gameobject_loot_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'gameobject_loot_template'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>

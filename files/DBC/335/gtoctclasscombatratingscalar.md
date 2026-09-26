@@ -8,8 +8,6 @@ editor: markdown
 dateCreated: 2023-10-04T08:03:55.279Z
 ---
 
-<a href="https://trinitycore.info/files/DBC/335/gtnpcmanacostscaler" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'GtNPCManaCostScaler'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/DBC" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to DBCs (3.3.5a)</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/gtoctregenhp" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'GtOCTRegenHP'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
 # GtOCTClassCombatRatingScalar.dbc
 ##### :pencil: Structure on [wowdev.wiki](https://wowdev.wiki/DB/GtOCTClassCombatRatingScalar)
 &nbsp;
@@ -32,7 +30,7 @@ dateCreated: 2023-10-04T08:03:55.279Z
 &nbsp;
 ## Description of fields
 
-### ID <!-- {#id-alt} -->
+### ID {#id-alt}
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*
@@ -77,4 +75,3 @@ Ordered by character class, combat rating 0 &ndash; 31 ASC.
 <code>**ID** = (([ChrClassID](/files/DBC/335/chrclasses#id-alt) - 1) * 32) + (RatingID + 1)</code>
 &nbsp;
 
-<a href="https://trinitycore.info/files/DBC/335/gtnpcmanacostscaler" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'GtNPCManaCostScaler'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/DBC" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to DBCs (3.3.5a)</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/gtoctregenhp" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'GtOCTRegenHP'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>

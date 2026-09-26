@@ -8,8 +8,6 @@ editor: markdown
 dateCreated: 2021-08-30T22:10:55.030Z
 ---
 
-<a href="https://trinitycore.info/en/database/335/world/warden_checks" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'warden_checks'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/waypoint_scripts" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'waypoint_scripts'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
 This table contains all the path data for creatures that use waypoints.
 
 ## Structure
@@ -30,7 +28,7 @@ This table contains all the path data for creatures that use waypoints.
 &nbsp;
 ## Description of fields
 
-### id <!-- {#id-alt} -->
+### id {#id-alt}
 Unique ID for each path.
 
 The TDB standard way of assigning an ID is to multiply [creature guid](../world/creature#guid) by 10.
@@ -75,7 +73,7 @@ Time to wait (in ms) before moving to the next point.
 
 &nbsp;
 
-### action <!-- {#action-alt} -->
+### action {#action-alt}
 [Script ID](../world/waypoint_scripts#id) of the action to be performed.
 &nbsp;
 
@@ -89,4 +87,3 @@ This field is used by the core and is _NOT_ to be set by hand.
 This field holds the GUID of the waypoint visual when you enable the visual mode for waypoints.
 &nbsp;
 
-<a href="https://trinitycore.info/en/database/335/world/warden_checks" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'warden_checks'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/waypoint_scripts" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'waypoint_scripts'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>

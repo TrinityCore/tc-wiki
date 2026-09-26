@@ -8,8 +8,6 @@ editor: markdown
 dateCreated: 2023-10-04T08:01:01.634Z
 ---
 
-<a href="https://trinitycore.info/files/DBC/335/areagroup" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'AreaGroup'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/DBC" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to DBCs (3.3.5a)</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/areatable" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'AreaTable'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
 # AreaPOI.dbc
 ##### :pencil: Structure on [wowdev.wiki](https://wowdev.wiki/DB/AreaPOI)
 &nbsp;
@@ -81,7 +79,7 @@ Points of Interest (POI) on the overhead map (including battleground map). Inclu
 &nbsp;
 ## Description of fields
 
-### ID <!-- {#id-alt} -->
+### ID {#id-alt}
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*
@@ -157,7 +155,7 @@ Flags defining, where this icon is shown.
 *- no description -*
 &nbsp;
 
-### Name <!-- {#name-alt} -->
+### Name {#name-alt}
 :x: <code>Col: 18 &ndash; 34 ([Loc](/how-to/localization))</code>
 
 *- no description -*
@@ -172,7 +170,7 @@ Flags defining, where this icon is shown.
 ### WorldStateID
 :x: <code>Col: 52 (uint32)</code>
 
-[WorldState Examples](https://trinitycore.info/en/database/335/characters/worldstates#examples)
+[WorldState Examples](/database/335/characters/worldstates#examples)
 &nbsp;
 
 ### WorldMapLink
@@ -181,4 +179,3 @@ Flags defining, where this icon is shown.
 *- no description -*
 &nbsp;
 
-<a href="https://trinitycore.info/files/DBC/335/areagroup" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'AreaGroup'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/DBC" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to DBCs (3.3.5a)</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/areatable" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'AreaTable'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>

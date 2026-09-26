@@ -8,8 +8,6 @@ editor: markdown
 dateCreated: 2023-10-04T08:01:51.629Z
 ---
 
-<a href="https://trinitycore.info/files/DBC/335/chatprofanity" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'ChatProfanity'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/DBC" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to DBCs (3.3.5a)</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/chrraces" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'ChrRaces'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
 # ChrClasses.dbc
 ##### :pencil: Structure on [wowdev.wiki](https://wowdev.wiki/DB/ChrClasses)
 &nbsp;
@@ -85,7 +83,7 @@ dateCreated: 2023-10-04T08:01:51.629Z
 &nbsp;
 ## Description of fields
 
-### ID <!-- {#id-alt} -->
+### ID {#id-alt}
 <code>Col: 0 (uint32)</code>
 
 *- no description -*
@@ -132,7 +130,7 @@ Doesn't work for ChrClass 6?
 * else: PET
 &nbsp;
 
-### Name <!-- {#name-alt} -->
+### Name {#name-alt}
 <code>Col: 4 &ndash; 20 ([Loc](/how-to/localization))</code>
 
 *- no description -*
@@ -211,4 +209,3 @@ ID from CinematicSequences.dbc
 * 2: WotLK
 &nbsp;
 
-<a href="https://trinitycore.info/files/DBC/335/chatprofanity" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'ChatProfanity'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/DBC" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to DBCs (3.3.5a)</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/chrraces" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'ChrRaces'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>

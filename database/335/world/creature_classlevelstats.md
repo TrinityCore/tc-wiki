@@ -8,8 +8,6 @@ editor: markdown
 dateCreated: 2021-08-30T22:03:18.477Z
 ---
 
-<a href="https://trinitycore.info/en/database/335/world/creature_addon" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'creature_addon'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/creature_default_trainer" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'creature_default_trainer'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
 This table contains the base values for creatures' health, mana and armor.
 
 ## Structure
@@ -61,11 +59,11 @@ Base armor for the creature (this value is multiplied by [creature_template.Armo
 &nbsp;
 
 ### attackpower
-adds to melee base damage by: (attackpower / 14) * ([BaseAttackTime](../world/creatute_template#baseattacktime) / 1000)
+adds to melee base damage by: (attackpower / 14) * ([BaseAttackTime](../world/creature_template#baseattacktime) / 1000)
 &nbsp;
 
 ### rangedattackpower
-adds to ranged base damage by: (rangedattackpower / 14) * ([RangeAttackTime](../world/creatute_template#rangeattacktime) / 1000)
+adds to ranged base damage by: (rangedattackpower / 14) * ([RangeAttackTime](../world/creature_template#rangeattacktime) / 1000)
 &nbsp;
 
 ### damage_base
@@ -84,4 +82,3 @@ Base damage for the creature if [creature_template.exp](../world/creature_templa
 This field is for any comment you want to make about the requirements. It is arbitrary text.
 &nbsp;
 
-<a href="https://trinitycore.info/en/database/335/world/creature_addon" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'creature_addon'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/world/creature_default_trainer" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'creature_default_trainer'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>

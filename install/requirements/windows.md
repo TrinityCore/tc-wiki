@@ -153,4 +153,3 @@ If you download the Light version, it will not work. If you download the Light v
 2. [TortoiseGit](https://tortoisegit.org/){target=_blank}
 	- This instruction supports Git Extensions only, but TortoiseGit is another viable option if you're comfortable with the process.
   
-<a href="https://trinitycore.info/en/install/Core-Installation/windows-core-installation" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Continue to 'Core Installation'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>

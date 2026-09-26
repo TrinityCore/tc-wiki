@@ -8,8 +8,6 @@ editor: markdown
 dateCreated: 2021-08-30T22:01:45.503Z
 ---
 
-<a href="https://trinitycore.info/en/database/335/characters/lfg_data" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'lfg_data'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/mail_items" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'mail_items'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
 > This table contains main data about all mails in the game.
 {.is-info}
 
@@ -35,7 +33,7 @@ dateCreated: 2021-08-30T22:01:45.503Z
 &nbsp;
 ## Description of fields
 
-### id <!-- {#id-alt} -->
+### id {#id-alt}
 This field contains the unique ID across all messages.
 &nbsp;
 
@@ -78,7 +76,7 @@ Can be one of:
 * [character guid](../characters/characters#guid)
 * [AuctionHouse ID](/files/DBC/335/auctionhouse#id)
 * [creature entry](../world/creature_template#entry)
-* [gameobject entry](../gameobject_template#entry)
+* [gameobject entry](../world/gameobject_template#entry)
 * [calendar event id](../characters/calendar_events#id)
 * 0 (unknown sender case)
 &nbsp;
@@ -107,7 +105,7 @@ Unix timestamp storing when the mail will be returned to sender. (or deleted if 
 
 ### deliver_time
 Unix timestamp when the mail will be received.
-Affected by worldserver.conf [`MailDeliveryDelay`](https://trinitycore.info/en/files/configuration/home)
+Affected by worldserver.conf [`MailDeliveryDelay`](/files/configuration/home)
 &nbsp;
 
 ### money
@@ -134,4 +132,3 @@ Determines if **money** is an attachment or COD due.
 
 &nbsp;
 
-<a href="https://trinitycore.info/en/database/335/characters/lfg_data" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'lfg_data'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/mail_items" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'mail_items'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>

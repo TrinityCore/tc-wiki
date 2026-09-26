@@ -22,9 +22,9 @@ dateCreated: 2021-08-14T20:41:23.744Z
 Pick one of the following guides
 
 ## By Platform
-- [Linux Core Installation](linux-core-installation)
-- [macOS Core Installation](macOS-core-installation)
-- [Windows Core Installation](windows-core-installation)
+- [Linux Core Installation](Core-Installation/linux-core-installation)
+- [macOS Core Installation](Core-Installation/macOS-core-installation)
+- [Windows Core Installation](Core-Installation/windows-core-installation)
 - [Windows Setup Troubleshooting]
 - [MinGW GCC toolchain]
 {.links-list}

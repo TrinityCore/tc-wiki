@@ -8,8 +8,6 @@ editor: markdown
 dateCreated: 2021-08-30T09:30:31.760Z
 ---
 
-<a href="https://trinitycore.info/en/database/master/world/creature_template_spell" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'creature_template_spell'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/creature_text_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'creature_text_locale'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
 ## Structure
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
@@ -32,7 +30,7 @@ dateCreated: 2021-08-30T09:30:31.760Z
 ## Description of fields
 
 ### CreatureID
-This is the [creature_template.entry](/en/database/master/world/creature_template#entry) to which the script is linked to.
+This is the [creature_template.entry](/database/master/world/creature_template#entry) to which the script is linked to.
 &nbsp;
 
 ### GroupID
@@ -57,7 +55,7 @@ Example from Stormwind City Guard, creature 68:
 | 68 | 5 | 7 | My family was wiped out by the Scourge! MONSTER! |
 &nbsp;
 
-### ID <!-- {#id-alt} -->
+### ID {#id-alt}
 Entry for each group of texts. This is the unique identifier when entry (creature) is the same and groupid is unchanged, it must be incremented (ex. 0, 1, 2, 3...). A creature say will be randomly selected from this list based on the groupid it belongs to.
 &nbsp;
 
@@ -106,10 +104,10 @@ Assigns which packet should be used to send the sound
 &nbsp;
 
 ### BroadcastTextId
-Id of the equivalent text found in [broadcast_text](/en/database/master/hotfixes/broadcast_text#text)
+Id of the equivalent text found in [broadcast_text](/database/master/hotfixes/broadcast_text#text)
 
 In some rare cases it's not sent in sniff, in that case put `0` in this field, as this field is optional.
-Localization is then handled via. [creature_text_locales](/en/database/master/world/creature_text_locale).
+Localization is then handled via. [creature_text_locales](/database/master/world/creature_text_locale).
 &nbsp;
 
 ### TextRange
@@ -127,4 +125,3 @@ Localization is then handled via. [creature_text_locales](/en/database/master/wo
 This field allows you to label a text entry.
 &nbsp;
 
-<a href="https://trinitycore.info/en/database/master/world/creature_template_spell" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'creature_template_spell'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/creature_text_locale" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'creature_text_locale'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>

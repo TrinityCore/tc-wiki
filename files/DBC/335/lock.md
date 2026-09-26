@@ -8,8 +8,6 @@ editor: markdown
 dateCreated: 2023-10-04T08:05:24.618Z
 ---
 
-<a href="https://trinitycore.info/files/DBC/335/loadingscreentaxisplines" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'LoadingScreenTaxiSplines'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/DBC" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to DBCs (3.3.5a)</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/locktype" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'LockType'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
 # Lock.dbc
 ##### :pencil: Structure on [wowdev.wiki](https://wowdev.wiki/DB/Lock)
 &nbsp;
@@ -58,7 +56,7 @@ dateCreated: 2023-10-04T08:05:24.618Z
 &nbsp;
 ## Description of fields
 
-### ID <!-- {#id-alt} -->
+### ID {#id-alt}
 <code>Col: 0 (uint32)</code>
 
 *- no description -*
@@ -98,7 +96,7 @@ Only for **Type** LOCK_KEY_SKILL (2):
 The required skill amount.
 &nbsp;
 
-### Action <!-- {#action-alt} -->
+### Action {#action-alt}
 :x: <code>Col: 25 &ndash; 32 (uint32)</code>
 
 | ID | Comment |
@@ -112,4 +110,3 @@ The required skill amount.
 
 &nbsp;
 
-<a href="https://trinitycore.info/files/DBC/335/loadingscreentaxisplines" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'LoadingScreenTaxiSplines'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/DBC" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to DBCs (3.3.5a)</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/files/DBC/335/locktype" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'LockType'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>

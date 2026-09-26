@@ -8,8 +8,6 @@ editor: markdown
 dateCreated: 2021-08-30T22:00:30.288Z
 ---
 
-<a href="https://trinitycore.info/en/database/335/characters/character_talent" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_talent'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/corpse" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'corpse'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
 > This table holds vital static information for each character. This information loaded and used to create the player objects in-game.
 {.is-info}
 
@@ -105,7 +103,7 @@ The character global unique identifier. This number must be unique and is the be
 The [account ID](../auth/account#id) in which this character resides.
 &nbsp;
 
-### name <!-- {#name-alt} -->
+### name {#name-alt}
 The name of the character.
 &nbsp;
 
@@ -501,16 +499,15 @@ Number of levels that can be granted to the characters 'recruit a friend' partne
 &nbsp;
 
 ### deleteInfos_Account
-Stores the [account id](../auth/account#id) if the character is deleted and worldserver.conf [`CharDelete.Method = 1`](/en/files/configuration/home).
+Stores the [account id](../auth/account#id) if the character is deleted and worldserver.conf [`CharDelete.Method = 1`](/files/configuration/home).
 &nbsp;
 
 ### deleteInfos_Name
-Stores the **name** of character if the character is deleted and and worldserver.conf [`CharDelete.Method = 1`](/en/files/configuration/home).
+Stores the **name** of character if the character is deleted and and worldserver.conf [`CharDelete.Method = 1`](/files/configuration/home).
 &nbsp;
 
 ### deleteDate
-Stores the date when the character was deleted and worldserver.conf [`CharDelete.Method = 1`](/en/files/configuration/home).
-Will be checked by worldserver against [`CharDelete.KeepDays`](/en/files/configuration/home) in worldserver.conf. If this value is lower than **deleteDate** + `CharDelete.KeepDays` the character will be purged.
+Stores the date when the character was deleted and worldserver.conf [`CharDelete.Method = 1`](/files/configuration/home).
+Will be checked by worldserver against [`CharDelete.KeepDays`](/files/configuration/home) in worldserver.conf. If this value is lower than **deleteDate** + `CharDelete.KeepDays` the character will be purged.
 &nbsp;
 
-<a href="https://trinitycore.info/en/database/335/characters/character_talent" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'character_talent'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to characters</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/335/characters/corpse" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'corpse'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>

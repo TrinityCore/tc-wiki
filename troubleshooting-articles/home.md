@@ -85,8 +85,7 @@ If your issue is not listed, you may check out our social media channels to get 
 ---
 
 <details>
-<summary><h2 style="display:inline-block">src\common\Cryptography\ARC4.cpp:31 in Trinity::Crypto::ARC4::ARC4 ASSERTION FAILED:
-result == 1</h2></summary>  
+<summary><h2 style="display:inline-block">src\common\Cryptography\ARC4.cpp:31 in Trinity::Crypto::ARC4::ARC4 ASSERTION FAILED: result == 1</h2></summary>  
   
   # Tabs {.tabset}
   ## Issue

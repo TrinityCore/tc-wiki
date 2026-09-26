@@ -8,14 +8,12 @@ editor: markdown
 dateCreated: 2022-04-19T10:04:49.757Z
 ---
 
-<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>
-
 ## General
 Well, according to vocabulary the meaning of the word "loot" is good for corpse loot and may be for some gameobjects like chests but quite unfit for fishing "loot". Nevermind. We will use term "loot" here as "a set of items generated on an event for a player" and "loot definition" as "a set of rules for loot generation". And forget about vocabulary for a while.
 
 This table format is used for 12 different tables to generate different loot items for different things. The 12 tables are creature_loot_template, disenchant_loot_template, fishing_loot_template, gameobject_loot_template, item_loot_template, pickpocketing_loot_template, prospecting_loot_template, skinning_loot_template, quest_mail_loot_template, reference_loot_template, milling_loot_template, spell_loot_template. The general description here is valid for all 12 because the loot system is the same for all eleven.
 
-Loot templates define only items in the loot. See comments about money drop in corpse, pickpocketing and luggage loot in [creature_template](/en/database/master/world/creature_template){target=_blank}.
+Loot templates define only items in the loot. See comments about money drop in corpse, pickpocketing and luggage loot in [creature_template](/database/master/world/creature_template){target=_blank}.
 &nbsp;
 ## Structure
 
@@ -37,15 +35,15 @@ The 12 tables have different relations with other DB tables.
 | Loot table | Field | Relation | Related table | Field | Comment |
 | --- | --- | --- | --- | --- | --- |
 | fishing_loot_template | no relation | entry is linked with ID of the fishing zone or area |  |  |  |
-| creature_loot_template | entry | 	many <- many | [creature_template](/en/database/master/world/creature_template){target=_blank} | [lootid](/en/database/master/world/creature_template#lootid){target=_blank} |  |
-| gameobject_loot_template | entry | many <- many | [gameobject_template](/en/database/master/world/gameobject_template){target=_blank} | [Data1](/en/database/master/world/gameobject_template#data1){target=_blank} | Only gameobject type 3 (GAMEOBJECT_TYPE_CHEST) or<br/>25 (GAMEOBJECT_TYPE_FISHINGHOLE) use data1 as loot ID,<br/>for other types data1 is used in other ways |
+| creature_loot_template | entry | 	many <- many | [creature_template](/database/master/world/creature_template){target=_blank} | [lootid](/database/master/world/creature_template#lootid){target=_blank} |  |
+| gameobject_loot_template | entry | many <- many | [gameobject_template](/database/master/world/gameobject_template){target=_blank} | [Data1](/database/master/world/gameobject_template#data1){target=_blank} | Only gameobject type 3 (GAMEOBJECT_TYPE_CHEST) or<br/>25 (GAMEOBJECT_TYPE_FISHINGHOLE) use data1 as loot ID,<br/>for other types data1 is used in other ways |
 | item_loot_template | entry | many <- many | [ItemSparse.db2 (wago.tools)](https://wago.tools/db2/itemsparse){target=_blank} | ID |  |
 | disenchant_loot_template | entry | many <- many | [ItemSparse.db2 (wago.tools)](https://wago.tools/db2/itemsparse){target=_blank} |  |  |
 | prospecting_loot_template | entry | many <- many | [ItemSparse.db2 (wago.tools)](https://wago.tools/db2/itemsparse){target=_blank} | ID |  |
 | milling_loot_template | entry | many <- many | [ItemSparse.db2 (wago.tools)](https://wago.tools/db2/itemsparse){target=_blank} | ID |  |
-| pickpocketing_loot_template | entry | many <- many | [creature_template](/en/database/master/world/creature_template){target=_blank} | [pickpocketloot](/en/database/master/world/creature_template#pickpocketloot){target=_blank} |  |
-| skinning_loot_template | entry | many <- many | [creature_template](/en/database/master/world/creature_template){target=_blank} | [skinloot](/en/database/master/world/creature_template#skinloot){target=_blank}  |  |
-| quest_mail_loot_template | entry |  | [quest_template_addon](/en/database/master/world/quest_template_addon){target=_blank} | [RewardMailTemplateID](/en/database/master/world/quest_template_addon#rewardmailtemplateid){target=_blank} |  |
+| pickpocketing_loot_template | entry | many <- many | [creature_template](/database/master/world/creature_template){target=_blank} | [pickpocketloot](/database/master/world/creature_template#pickpocketloot){target=_blank} |  |
+| skinning_loot_template | entry | many <- many | [creature_template](/database/master/world/creature_template){target=_blank} | [skinloot](/database/master/world/creature_template#skinloot){target=_blank}  |  |
+| quest_mail_loot_template | entry |  | [quest_template_addon](/database/master/world/quest_template_addon){target=_blank} | [RewardMailTemplateID](/database/master/world/quest_template_addon#rewardmailtemplateid){target=_blank} |  |
 | reference_loot_template | entry | many <- many | *_loot_template | [Item](#reference) (if ItemType = 1) |  |
 | spell_loot_template | entry | many <- many | [Spell.db2 (wago.tools)](https://wago.tools/db2/spell){target=_blank} or [SpellName.db2 (wago.tools)](https://wago.tools/db2/spellname){target=_blank} | ID |  |
 &nbsp;
@@ -332,4 +330,3 @@ VALUES
 ```
 &nbsp;
 
-<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>

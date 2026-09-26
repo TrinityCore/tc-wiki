@@ -15,7 +15,7 @@ Most of the following steps are to be performed only the first time you install 
 
 ## Required Software
 
-See [Windows Requirements](https://trinitycore.info/en/install/requirements/windows)
+See [Windows Requirements](/install/requirements/windows)
 
 ## Pulling & Compiling the Source
 

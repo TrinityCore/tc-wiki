@@ -8,8 +8,6 @@ editor: markdown
 dateCreated: 2021-08-30T09:36:40.299Z
 ---
 
-<a href="https://trinitycore.info/en/database/master/world/spawn_tracking_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'spawn_tracking_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/spell_custom_attr" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'spell_custom_attr'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
-
 ## Structure
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
@@ -36,11 +34,11 @@ The area ID. Type ".gps" in-game and find the "Area:" number to use for this cel
 &nbsp;
 
 ### quest_start
-The entry of the quest which the player must have in the state defined by quest_start_status. See [quest_template.ID](/en/database/master/world/quest_template#ID).
+The entry of the quest which the player must have in the state defined by quest_start_status. See [quest_template.ID](/database/master/world/quest_template#ID).
 &nbsp;
 
 ### quest_end
-The entry of the quest which the player must not have in the state defined by quest_end_status. See [quest_template.ID](/en/database/master/world/quest_template#ID). Setting both quest_start and quest_end to the same value is useless.
+The entry of the quest which the player must not have in the state defined by quest_end_status. See [quest_template.ID](/database/master/world/quest_template#ID). Setting both quest_start and quest_end to the same value is useless.
 &nbsp;
 
 ### aura_spell
@@ -118,5 +116,4 @@ The gender type this entry applies to. 0 = Male, 1 = Female, 2 = Any.
 &nbsp;
 
 
-<a href="https://trinitycore.info/en/database/master/world/spawn_tracking_template" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-arrow-left theme--light"></i><span>Back to 'spawn_tracking_template'</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/home" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><i aria-hidden="true" class="v-icon notranslate v-icon--left mdi mdi-home-outline theme--light"></i><span>Return to world</span></span></a>&nbsp;&nbsp;&nbsp;<a href="https://trinitycore.info/en/database/master/world/spell_custom_attr" class="mt-5 v-btn v-btn--depressed v-btn--flat v-btn--outlined theme--light v-size--default darkblue--text text--lighten-3"><span class="v-btn__content"><span>Go to 'spell_custom_attr'</span><i aria-hidden="true" class="v-icon notranslate v-icon--right mdi mdi-arrow-right theme--light"></i></span></a>
 
