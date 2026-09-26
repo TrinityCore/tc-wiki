@@ -63,6 +63,14 @@ export default defineConfig({
     /^\/contributing\/(creating-a-pull-request|sql-guidelines)$/,
     /^(\/database\/master|\.\/\.\.)\/world\/(broadcast_text|item_template|scripts|spell_ranks|waypoint_data)$/,
   ],
+  // Exact redirects for old Wiki.js /en/ URLs. A `/en/* /:splat` rule would allow `/en//evil.com` open redirects.
+  buildEnd({ outDir, pages }) {
+    const rules = ['/en / 301', '/home / 301', ...pages.map((p) => {
+      const page = p.slice(0, -3)
+      return `/en/${page} /${page === 'home' ? '' : page} 301`
+    })]
+    fs.writeFileSync(path.join(outDir, '_redirects'), rules.join('\n') + '\n')
+  },
   head: [['link', { rel: 'icon', href: '/tc_logo.png' }]],
   markdown: {
     config(md) {

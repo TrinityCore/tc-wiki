@@ -23,8 +23,8 @@ Cloudflare Pages settings: build command `npm run docs:build`, output directory 
 - Section index pages are `home.md`; the root `home.md` is rewritten to `/`.
 - `database/` documents SQL tables per branch (`335` = 3.3.5a/WotLK, `master`), split by DB (`auth`, `characters`, `world`, plus `hotfixes` on master). 335 and master pages for the same table are separate files.
 - `files/DBC/335/` documents client DBC files; `files/configuration/` documents config files.
-- Images and `_redirects` live in `public/` and are referenced by root-relative path (`/quest_poi.png`).
-- `.vitepress/config.mts` builds the sidebar from the directory tree (per section listed in `sections`), excludes pages with `published: false`, and adds the front matter `title` as an H1 when a page has none (Wiki.js showed the title in its header, so most pages lack one).
+- Images live in `public/` and are referenced by root-relative path (`/quest_poi.png`).
+- `.vitepress/config.mts` builds the sidebar from the directory tree (per section listed in `sections`), excludes pages with `published: false`, writes `_redirects` for old `/en/...` URLs at build end, and adds the front matter `title` as an H1 when a page has none (Wiki.js showed the title in its header, so most pages lack one).
 
 ## Page format gotchas
 

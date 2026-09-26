@@ -1,4 +1,0 @@
-# Old Wiki.js URLs carried a locale prefix.
-/en /  301
-/en/* /:splat 301
-/home /  301
