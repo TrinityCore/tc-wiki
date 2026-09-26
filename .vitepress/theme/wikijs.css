@@ -1,0 +1,22 @@
+/* Classes carried over from Wiki.js markdown ({.is-info}, {.dense}, {.links-list}). */
+.vp-doc blockquote[class*='is-'] {
+  border-left-width: 4px;
+  border-radius: 4px;
+  padding: 8px 16px;
+  color: var(--vp-c-text-1);
+}
+.vp-doc blockquote.is-info { border-color: var(--vp-c-tip-1); background: var(--vp-c-tip-soft); }
+.vp-doc blockquote.is-success { border-color: var(--vp-c-green-1); background: var(--vp-c-green-soft); }
+.vp-doc blockquote.is-warning { border-color: var(--vp-c-warning-1); background: var(--vp-c-warning-soft); }
+.vp-doc blockquote.is-danger { border-color: var(--vp-c-danger-1); background: var(--vp-c-danger-soft); }
+
+.vp-doc table.dense td,
+.vp-doc table.dense th { padding: 4px 8px; }
+
+.vp-doc ul.links-list { list-style: none; padding-left: 0; }
+.vp-doc ul.links-list > li {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 6px;
+  padding: 6px 12px;
+  margin: 6px 0;
+}
