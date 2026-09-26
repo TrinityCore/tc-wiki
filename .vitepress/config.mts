@@ -139,9 +139,17 @@ export default defineConfig({
         [`/${dir}/`, [...menu, { text, items: sidebarFor(dir) }]])),
     },
     search: { provider: 'local' },
+    // Serialized and run in the browser, so it must be self-contained.
+    // The sections match the collections in public/edit/config.yml.
     editLink: {
-      pattern: 'https://github.com/TrinityCore/tc-wiki/edit/main/:path',
-      text: 'Edit this page on GitHub',
+      pattern: ({ filePath }) => {
+        const [section, ...rest] = filePath.slice(0, -3).split('/')
+        const editable = ['install', 'how-to', 'database', 'files', 'troubleshooting-articles', 'contributing']
+        return editable.includes(section) && rest.length
+          ? `https://trinitycore.info/edit/#/collections/${section}/entries/${rest.join('/')}`
+          : `https://github.com/TrinityCore/tc-wiki/edit/main/${filePath}`
+      },
+      text: 'Edit this page',
     },
     socialLinks: [
       { icon: 'discord', link: 'https://discord.trinitycore.org/' },
