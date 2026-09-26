@@ -1,3 +1,22 @@
 node_modules/
 .vitepress/dist/
 .vitepress/cache/
+
+# LLM / AI tooling byproducts (CLAUDE.md is the only one tracked)
+.claude/
+.code-review-graph/
+.mcp.json
+CLAUDE.local.md
+.cursor/
+.cursorrules
+.aider*
+.codex/
+.gemini/
+GEMINI.md
+AGENTS.md
+.windsurf/
+.windsurfrules
+.continue/
+.serena/
+.specstory/
+.github/copilot-instructions.md
