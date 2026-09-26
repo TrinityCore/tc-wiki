@@ -1,0 +1,42 @@
+# Decap CMS config for the page editor at /edit.
+# Anyone with a GitHub account can edit: open_authoring forks the wiki for
+# people without write access, and each change becomes a pull request.
+backend:
+  name: github
+  repo: TrinityCore/tc-wiki
+  branch: main
+  base_url: https://trinitycore.info
+  auth_endpoint: api/auth
+  open_authoring: true
+  squash_merges: true
+publish_mode: editorial_workflow
+
+site_url: https://trinitycore.info
+logo_url: /tc_logo.png
+media_folder: public
+public_folder: /
+
+collections:
+  # Pages keep their Wiki.js front matter. The body uses raw markdown only:
+  # the rich text mode rewrites markdown and breaks {.is-info} attributes,
+  # raw HTML and the Structure tables.
+  - name: install
+    label: Install
+    folder: install
+    create: true
+    nested: &nested { depth: 10, subfolders: false, summary: '{{title}}' }
+    meta: &meta { path: { widget: string, label: Path, index_file: home } }
+    fields: &fields
+      - { name: title, label: Title, widget: string }
+      - { name: description, label: Description, widget: string, required: false }
+      - { name: tags, label: Tags, widget: string, required: false, hint: Comma-separated }
+      - { name: published, label: Published, widget: boolean, default: true }
+      - { name: editor, label: Editor, widget: hidden, default: markdown }
+      - { name: date, label: Date, widget: hidden, required: false }
+      - { name: dateCreated, label: Date created, widget: hidden, required: false }
+      - { name: body, label: Body, widget: markdown, modes: [raw] }
+  - { name: how-to, label: How-to, folder: how-to, create: true, nested: *nested, meta: *meta, fields: *fields }
+  - { name: database, label: Databases, folder: database, create: true, nested: *nested, meta: *meta, fields: *fields }
+  - { name: files, label: Files, folder: files, create: true, nested: *nested, meta: *meta, fields: *fields }
+  - { name: troubleshooting-articles, label: Troubleshooting, folder: troubleshooting-articles, create: true, nested: *nested, meta: *meta, fields: *fields }
+  - { name: contributing, label: Contributing, folder: contributing, create: true, nested: *nested, meta: *meta, fields: *fields }
