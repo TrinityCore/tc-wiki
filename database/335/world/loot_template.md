@@ -1,5 +1,5 @@
 ---
-title: *_loot_template
+title: "*_loot_template"
 description: loot template definition summary
 published: true
 date: 2025-12-10T17:13:00.754Z

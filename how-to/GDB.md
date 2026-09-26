@@ -1,5 +1,5 @@
 ---
-title: GDB: GNU Project Debugger
+title: "GDB: GNU Project Debugger"
 description: 
 published: true
 date: 2023-10-24T03:10:04.948Z

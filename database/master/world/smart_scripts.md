@@ -161,13 +161,13 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
   <ul>
     <li>SMART_ACTION_TALK</li>
     <li>SMART_ACTION_SIMPLE_TALK</li>
-    <li>SMART_ACTION_CAST
-    <li>SMART_ACTION_SELF_CAST
-    <li>SMART_ACTION_INVOKER_CAST
+    <li>SMART_ACTION_CAST</li>
+    <li>SMART_ACTION_SELF_CAST</li>
+    <li>SMART_ACTION_INVOKER_CAST</li>
     <li>SMART_ACTION_MOVE_OFFSET</li>
     <li>SMART_ACTION_WP_START</li>
     <li>SMART_ACTION_MOVE_TO_POS</li>
-    <li>SMART_ACTION_CROSS_CAST
+    <li>SMART_ACTION_CROSS_CAST</li>
     <li>SMART_ACTION_ACTIVATE_TAXI</li>
     <li>SMART_ACTION_JUMP_TO_POS</li>
     <li>SMART_ACTION_START_CLOSEST_WAYPOINT</li>

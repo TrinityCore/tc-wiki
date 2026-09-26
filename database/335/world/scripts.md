@@ -1,5 +1,5 @@
 ---
-title: *_scripts
+title: "*_scripts"
 description: 
 published: true
 date: 2026-01-12T22:49:57.955Z

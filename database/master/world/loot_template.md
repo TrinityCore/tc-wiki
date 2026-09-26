@@ -1,5 +1,5 @@
 ---
-title: *_loot_template
+title: "*_loot_template"
 description:
 published: true
 date: 2025-02-20T17:42:59.138Z

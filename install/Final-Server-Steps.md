@@ -42,13 +42,13 @@ The Trinity realm should be selectable. Log in, create a character, and you're a
 ## 3.3.5
 
 **To create your account:**
-Type: account create <user> <pass>
+Type: `account create <user> <pass>`
 
 ***Example: account create test test***
 
 **To set your account level:**
 
-Type: account set gmlevel <user> 3 -1
+Type: `account set gmlevel <user> 3 -1`
 
 ***Example: account set gmlevel test 3 -1***
 
@@ -62,13 +62,13 @@ Password: **test**
 ## Master or classic branches
 **To create your account:**
 
-- Type: bnetaccount create <user> <pass>
+- Type: `bnetaccount create <user> <pass>`
 
 ***Example: bnetaccount create test@test test***
 
 **To set your account level:**
 
-- Type: account set gmlevel <user#realm> 3 -1
+- Type: `account set gmlevel <user#realm> 3 -1`
 
 > Note: The username used for setting your gmlevel is not the same as the username you create with bnetaccount. You must manually find the username in auth.account.username. These are formatted as 1#1, 2#1, etc or check the text after create account it will output something like:
 Battle.net account created: test@test.test with game account 1#1
