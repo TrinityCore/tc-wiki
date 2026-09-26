@@ -28,8 +28,10 @@ jobs:
           set -euo pipefail
 
           # workflow_run lists no pull requests for forks, so match on the head commit.
-          pr=$(gh pr list --state open --base main --limit 200 --json number,headRefOid,isDraft,author \
-            --jq '[.[] | select(.headRefOid == env.HEAD_SHA and (.isDraft | not))][0] // empty')
+          # Decap labels unfinished entries from people with write access decap-cms/draft.
+          pr=$(gh pr list --state open --base main --limit 200 --json number,headRefOid,isDraft,author,labels \
+            --jq '[.[] | select(.headRefOid == env.HEAD_SHA and (.isDraft | not)
+              and all(.labels[]; .name != "decap-cms/draft"))][0] // empty')
           if [ -z "$pr" ]; then
             echo "No open, ready pull request at $HEAD_SHA."
             exit 0
