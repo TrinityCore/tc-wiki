@@ -35,4 +35,4 @@ If you still have any problem, check:
 
 - Updating or starting with TrinityCore issues, trouble with your TrinityCore Install / Readme 1st / FAQs
 - Ask for help on the forum
-- Ask for help on [Discord](https://discord.gg/CUXh7zzMNH)/IRC, but remember it's not real time 24/7 support, most of people there lives on GMT and they can be sleeping or working.
+- Ask for help on [Discord](https://discord.trinitycore.org/)/IRC, but remember it's not real time 24/7 support, most of people there lives on GMT and they can be sleeping or working.

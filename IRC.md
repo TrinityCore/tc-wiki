@@ -30,7 +30,7 @@ There are a number of ways you can get help for the various problems you might e
 
 - Troubleshoot on your own - https://community.trinitycore.org/topic/4046-tired-of-asking-always-the-same-questions/
 	- This should include, at a minimum, [searching the forums](https://community.trinitycore.org/search/) for similar problems. TrinityCore has been around for a long time. There's a better than good chance someone else has had your problem and posted asking about it.
-- Ask in the right place: [Help forums](https://community.trinitycore.org/forum/5-help-and-support/), [Discord](https://discord.com/invite/HPP3wNh)
+- Ask in the right place: [Help forums](https://community.trinitycore.org/forum/5-help-and-support/), [Discord](https://discord.trinitycore.org/)
 
 ## No excessive profanity
 
