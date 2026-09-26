@@ -1,0 +1,22 @@
+name: PR checks
+
+on:
+  pull_request:
+    branches: [main]
+
+# Runs the pull request's own code, so it gets a read-only token and no secrets.
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
+      - run: node --test scripts/*.test.mjs
+      - run: npm run docs:build
