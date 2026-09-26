@@ -1,12 +1,12 @@
-<!--
+---
 title: Database Installation
 description: 
 published: true
 date: 2025-11-03T16:30:10.530Z
 tags: 
-editor: ckeditor
+editor: markdown
 dateCreated: 2021-08-17T14:18:44.363Z
--->
+---
 
 <h1>Database Installation</h1>
 <p>&nbsp;</p>

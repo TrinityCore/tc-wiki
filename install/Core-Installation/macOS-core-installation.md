@@ -1,12 +1,12 @@
-<!--
+---
 title: macOS Core Installation
 description: 
 published: true
 date: 2023-06-16T22:05:32.601Z
 tags: 
-editor: ckeditor
+editor: markdown
 dateCreated: 2021-08-15T08:23:23.965Z
--->
+---
 
 <h1>Getting started</h1>
 <p>This guide describes how to get TrinityCore running on macOS. macOS ships with several libraries including OpenSSL and a special version of Readline - both required by TrinityCore. But: They are useless. OpenSSL is too old and Readline is... well... special. So we have to build the right ones. This is fairly easy and by doing this on your own (using programs like MacPorts or Homebrew is the alternative) you may learn more about libraries, your Mac and its handling on a non-graphic way. But no matter what you're doing in this guide there is one rule you should remind and never ever break:</p>

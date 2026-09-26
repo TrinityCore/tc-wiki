@@ -1,12 +1,12 @@
-<!--
+---
 title: Server Setup
 description: 
 published: true
 date: 2025-04-01T10:04:33.805Z
 tags: 
-editor: ckeditor
+editor: markdown
 dateCreated: 2021-08-17T11:24:05.638Z
--->
+---
 
 <blockquote>
   <p><mark class="pen-red"><strong>Public Servers</strong></mark></p>
@@ -17,9 +17,9 @@ dateCreated: 2021-08-17T11:24:05.638Z
 <blockquote>
   <p><strong>Note</strong></p>
   <p>This part is just a general summary of the overall extraction process - please read more detailed steps for the OS you are working with:</p>
-  <p><a href="/en/install/Server-Setup/Linux-Server-Setup"><strong>Linux Server Setup</strong></a></p>
+  <p><a href="/install/Server-Setup/Linux-Server-Setup"><strong>Linux Server Setup</strong></a></p>
   <p><strong>macOS Server Setup</strong></p>
-  <p><a href="/en/install/Server-Setup/Windows-Server-Setup"><strong>Windows Server Setup</strong></a></p>
+  <p><a href="/install/Server-Setup/Windows-Server-Setup"><strong>Windows Server Setup</strong></a></p>
 </blockquote>
 <p>&nbsp;</p>
 <p>TrinityCore needs to extract certain files from the World of Warcraft&nbsp;client. You will need to match the client version with the server branch you want to use:&nbsp;</p>
