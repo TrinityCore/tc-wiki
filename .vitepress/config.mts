@@ -103,7 +103,7 @@ export default defineConfig({
   ],
   // Exact redirects for old Wiki.js /en/ URLs. A `/en/* /:splat` rule would allow `/en//evil.com` open redirects.
   buildEnd({ outDir, pages }) {
-    const rules = ['/en / 301', '/home / 301', ...pages.map((p) => {
+    const rules = ['/en / 301', '/home / 301', ...['/IRC', '/en/IRC'].map((p) => `${p} https://discord.trinitycore.org/ 301`), ...pages.map((p) => {
       const page = p.slice(0, -3)
       return `/en/${page} /${page === 'home' ? '' : page} 301`
     })]
