@@ -13,15 +13,23 @@ jobs:
   merge:
     if: github.event.workflow_run.event == 'pull_request' && github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     env:
       GH_TOKEN: ${{ github.token }}
       GH_REPO: ${{ github.repository }}
       HEAD_SHA: ${{ github.event.workflow_run.head_sha }}
       MIN_ACCOUNT_AGE_DAYS: 7
     steps:
-      # Checks out main, never the pull request, so the check script is the
-      # trusted copy. The pull request's diff is only read as data.
+      # Checks out main, never the pull request, so the check script and its
+      # dependencies are the trusted copies. The pull request is only read as data.
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+          cache: npm
+      - run: npm ci
 
       - name: Merge if safe
         run: |
@@ -46,7 +54,9 @@ jobs:
             exit 0
           fi
 
-          if ! gh pr diff "$number" | node scripts/check-pr.mjs; then
+          # Fetched, not checked out: the checker reads the changed pages with git show.
+          git fetch --no-tags --depth=1 origin "refs/pull/$number/head"
+          if ! gh pr diff "$number" | node scripts/check-pr.mjs "$HEAD_SHA"; then
             echo "::notice::#$number needs review: the diff failed the safety check."
             exit 0
           fi

@@ -39,7 +39,9 @@ npm run docs:build   # full build, the same check CI runs
    exist and on broken HTML or Vue template syntax.
 2. If the build passes, the pull request merges on its own when:
    - it only changes markdown pages and images in `public/`,
-   - it adds no scripts, styles, iframes, event handlers or Vue syntax, and
+   - the changed pages contain no scripts, styles, iframes, event handlers,
+     Vue syntax (including `{{ }}` in inline code) or front matter keys
+     beyond the standard ones, and
    - your GitHub account is at least 7 days old.
 3. Anything else waits for a maintainer to review it.
 

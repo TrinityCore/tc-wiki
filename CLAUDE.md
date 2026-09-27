@@ -17,7 +17,7 @@ npm run docs:preview     # serve the built site
 
 `/edit` is a Decap CMS page editor (`public/edit/`). Users log in with GitHub through the Pages Functions in `functions/api/` (secrets `GITHUB_CLIENT_ID` and `GITHUB_CLIENT_SECRET`, OAuth callback `https://trinitycore.info/api/callback`), and each save becomes a pull request from their fork. Its collections must match the section list in the `editLink` pattern in `.vitepress/config.mts`.
 
-Pull requests to `main` are built by `.github/workflows/pr-checks.yml`. `.github/workflows/auto-merge.yml` then squash-merges them without review when `scripts/check-pr.mjs` passes (only pages and `public/` images changed, nothing that can run code) and the author's account is at least 7 days old. Tighten the check when you add new ways for markdown to run code. Run its tests with `node --test scripts/*.test.mjs`.
+Pull requests to `main` are built by `.github/workflows/pr-checks.yml`. `.github/workflows/auto-merge.yml` then squash-merges them without review when `scripts/check-pr.mjs` passes (only pages and `public/` images changed, nothing that can run code) and the author's account is at least 7 days old. The check renders each changed page in full with the site's markdown config and rejects anything Vue compiles into code, so it follows new markdown plugins on its own; update its front matter allowlist and blocked tags when pages legitimately need more. Run its tests with `node --test scripts/*.test.mjs`.
 
 Cloudflare Pages settings: build command `npm run docs:build`, output directory `.vitepress/dist`, Node version from `.node-version`.
 
