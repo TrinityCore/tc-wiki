@@ -1,7 +1,8 @@
 name: PR checks
 
 on:
-  # Builds main too, so the README's build badge shows the live site's state.
+  # Builds main too, for the README's build badge. Merges made by auto-merge.yml
+  # don't start this, and Cloudflare Pages deploys the site on its own.
   push:
     branches: [main]
   pull_request:
@@ -13,11 +14,19 @@ on:
 permissions:
   contents: read
 
+# A new push to a pull request cancels its older build. Builds of main all finish.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version-file: .node-version
