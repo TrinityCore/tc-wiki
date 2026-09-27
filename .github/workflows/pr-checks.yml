@@ -1,6 +1,9 @@
 name: PR checks
 
 on:
+  # Builds main too, so the README's build badge shows the live site's state.
+  push:
+    branches: [main]
   pull_request:
     branches: [main]
     # ready_for_review: Decap marks a fork's entry "In review" by taking its PR out of draft.
