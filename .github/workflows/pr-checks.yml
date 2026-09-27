@@ -3,6 +3,8 @@ name: PR checks
 on:
   pull_request:
     branches: [main]
+    # ready_for_review: Decap marks a fork's entry "In review" by taking its PR out of draft.
+    types: [opened, synchronize, reopened, ready_for_review]
 
 # Runs the pull request's own code, so it gets a read-only token and no secrets.
 permissions:
