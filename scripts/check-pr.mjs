@@ -11,7 +11,7 @@ import { readFileSync } from 'node:fs'
 import { pathToFileURL } from 'node:url'
 
 const IMAGE = /\.(png|jpe?g|gif|webp|svg)$/i
-const REPO_FILES = new Set(['README.md', 'CLAUDE.md'])
+const REPO_FILES = new Set(['README.md', 'CONTRIBUTING.md', 'CLAUDE.md'])
 
 // ponytail: line-based denylist. It errs toward "needs review"; a real HTML
 // and Vue template parse over the whole new file is the upgrade path.

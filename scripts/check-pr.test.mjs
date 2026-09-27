@@ -18,7 +18,7 @@ test('accepts plain page edits and images', () => {
 })
 
 test('rejects files outside content', () => {
-  for (const path of ['.vitepress/config.mts', '.github/workflows/x.yml', 'package.json', 'CLAUDE.md', 'public/_redirects', 'functions/api/auth.ts']) {
+  for (const path of ['.vitepress/config.mts', '.github/workflows/x.yml', 'package.json', 'CLAUDE.md', 'CONTRIBUTING.md', 'public/_redirects', 'functions/api/auth.ts']) {
     assert.notDeepEqual(problems(edit(path, 'x')), [], path)
   }
 })

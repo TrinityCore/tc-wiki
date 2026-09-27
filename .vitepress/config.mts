@@ -92,7 +92,7 @@ export default defineConfig({
   cleanUrls: true,
   // Ship sidebar + page hash map once as a cached chunk instead of inlining ~350 KB into every page.
   metaChunk: true,
-  srcExclude: ['README.md', 'CLAUDE.md', ...unpublished],
+  srcExclude: ['README.md', 'CONTRIBUTING.md', 'CLAUDE.md', ...unpublished],
   rewrites: { 'home.md': 'index.md' },
   // Links to pages that are unpublished or were never written (already dead in Wiki.js).
   ignoreDeadLinks: [
