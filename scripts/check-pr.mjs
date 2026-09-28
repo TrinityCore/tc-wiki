@@ -130,6 +130,8 @@ export async function problems(diff, readFile) {
   for (const file of files) {
     const name = file.paths.at(-1) ?? '(unknown path)'
     if (file.paths.length === 0) found.push(`${name}: path could not be read`)
+    // A moved page changes its URL, which nav links and outside links still use.
+    if (file.paths.length > 1) found.push(`${name}: renamed or copied`)
     for (const path of file.paths) {
       const problem = pathProblem(path)
       if (problem) found.push(`${path}: ${problem}`)

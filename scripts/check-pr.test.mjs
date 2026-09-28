@@ -31,9 +31,11 @@ test('rejects files outside content', async () => {
   }
 })
 
-test('rejects renames out of content, symlinks and empty diffs', async () => {
+test('rejects renames, symlinks and empty diffs', async () => {
   const rename = 'diff --git a/a.md b/.vitepress/a.md\nsimilarity index 100%\nrename from a.md\nrename to .vitepress/a.md'
   assert.notDeepEqual(await problems(rename), [])
+  const move = 'diff --git a/install/a.md b/install/home.md\nsimilarity index 91%\nrename from install/a.md\nrename to install/home.md'
+  assert.notDeepEqual(await problems(move, () => 'x'), [])
   assert.notDeepEqual(await problems('diff --git a/a.md b/a.md\nnew file mode 120000\n@@ -0,0 +1 @@\n+.vitepress/config.mts'), [])
   assert.notDeepEqual(await problems(''), [])
 })
