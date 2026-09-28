@@ -11,7 +11,7 @@
 // treat as code goes to a human, as does anything outside page and image content.
 
 import { execFileSync } from 'node:child_process'
-import { readFileSync } from 'node:fs'
+import { text } from 'node:stream/consumers'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 import { createMarkdownRenderer, resolveConfig } from 'vitepress'
 import { parse } from 'vue/compiler-sfc'
@@ -150,7 +150,7 @@ if (import.meta.url === pathToFileURL(process.argv[1]).href) {
     process.exit(2)
   }
   const readFile = (path) => execFileSync('git', ['show', `${head}:${path}`], { encoding: 'utf8' })
-  const found = await problems(readFileSync(0, 'utf8'), readFile)
+  const found = await problems(await text(process.stdin), readFile)
   for (const problem of found) console.log(problem)
   process.exit(found.length === 0 ? 0 : 1)
 }
