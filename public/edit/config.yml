@@ -20,12 +20,14 @@ collections:
   # Pages keep their Wiki.js front matter. The body uses raw markdown only:
   # the rich text mode rewrites markdown and breaks {.is-info} attributes,
   # raw HTML and the Structure tables.
+  # No meta path field: Decap rejects any path that is not lower case, so pages
+  # under files/DBC or install/Core-Installation could not be saved. New pages
+  # go in the collection folder.
   - name: install
     label: Install
     folder: install
     create: true
     nested: &nested { depth: 10, subfolders: false, summary: '{{title}}' }
-    meta: &meta { path: { widget: string, label: Path } }
     fields: &fields
       - { name: title, label: Title, widget: string }
       - { name: description, label: Description, widget: string, required: false }
@@ -35,8 +37,8 @@ collections:
       - { name: date, label: Date, widget: hidden, required: false }
       - { name: dateCreated, label: Date created, widget: hidden, required: false }
       - { name: body, label: Body, widget: markdown, modes: [raw] }
-  - { name: how-to, label: How-to, folder: how-to, create: true, nested: *nested, meta: *meta, fields: *fields }
-  - { name: database, label: Databases, folder: database, create: true, nested: *nested, meta: *meta, fields: *fields }
-  - { name: files, label: Files, folder: files, create: true, nested: *nested, meta: *meta, fields: *fields }
-  - { name: troubleshooting-articles, label: Troubleshooting, folder: troubleshooting-articles, create: true, nested: *nested, meta: *meta, fields: *fields }
-  - { name: contributing, label: Contributing, folder: contributing, create: true, nested: *nested, meta: *meta, fields: *fields }
+  - { name: how-to, label: How-to, folder: how-to, create: true, nested: *nested, fields: *fields }
+  - { name: database, label: Databases, folder: database, create: true, nested: *nested, fields: *fields }
+  - { name: files, label: Files, folder: files, create: true, nested: *nested, fields: *fields }
+  - { name: troubleshooting-articles, label: Troubleshooting, folder: troubleshooting-articles, create: true, nested: *nested, fields: *fields }
+  - { name: contributing, label: Contributing, folder: contributing, create: true, nested: *nested, fields: *fields }
