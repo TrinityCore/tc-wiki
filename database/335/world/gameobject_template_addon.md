@@ -35,19 +35,8 @@ Object's [FactionTemplate ID](/files/DBC/335/factiontemplate#id), if any.
 &nbsp;
 
 ### flags
-| Value | Flag | Name | Comment |
-|-------|------|------|---------|
-| 1 | 0x00000001 | GO_FLAG_IN_USE | Gameobject in use - Disables interaction while being animated |
-| 2 | 0x00000002 | GO_FLAG_LOCKED | Makes the Gameobject Locked. Requires a key, spell, or event to be opened. "Locked" appears in tooltip |
-| 4 | 0x00000004 | GO_FLAG_INTERACT_COND | Untargetable, cannot interact (condition to interact - requires GO_DYNFLAG_LO_ACTIVATE to enable interaction clientside) |
-| 8 | 0x00000008 | GO_FLAG_TRANSPORT | Gameobject can transport (boat, elevator, car) |
-| 16 | 0x00000010 | GO_FLAG_NOT_SELECTABLE | Not selectable (Not even in GM-mode) |
-| 32 | 0x00000020 | GO_FLAG_NODESPAWN | Never despawns. Typical for gameobjects with on/off state (doors for example) |
-| 64 | 0x00000040 | GO_FLAG_AI_OBSTACLE | makes the client register the object in something called AIObstacleMgr, unknown what it does |
-| 128 | 0x00000080 | GO_FLAG_FREEZE_ANIMATION |  |
-| 512 | 0x00000200 | GO_FLAG_DAMAGED | Gameobject has been siege damaged |
-| 1024 | 0x00000400 | GO_FLAG_DESTROYED | Gameobject has been destroyed |
-{.dense}
+
+<!--@include: @/partial/335/gameobject-flags.md-->
 
 &nbsp;
 
@@ -63,4 +52,3 @@ Maximum money, in copper, that the gameobject can drop when accessed / used.
 [GameObjectArtKit ID](/files/DBC/335/gameobjectartkit#id)
 Updates display if object is activated by SPELL_EFFECT_ACTIVATE_OBJECT (86) with a MiscValue of 19&ndash;22.
 &nbsp;
-
