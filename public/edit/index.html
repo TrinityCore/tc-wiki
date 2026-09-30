@@ -7,7 +7,7 @@
   <title>Edit · TrinityCore Wiki</title>
   <link rel="icon" href="/tc_logo.png">
   <style>
-    #review-hint {
+    .hint {
       position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%); z-index: 1000;
       max-width: calc(100% - 32px); padding: 12px 16px; border-radius: 6px; cursor: pointer;
       background: #fff3cd; color: #664d03; border: 1px solid #ffda6a; box-shadow: 0 2px 8px rgba(0,0,0,.2);
@@ -22,9 +22,14 @@
   <script src="https://cdn.jsdelivr.net/npm/decap-cms@3.16.3/dist/decap-cms.js" integrity="sha384-A/Gdn928CNLufmnGWGs9RM4Q9o8bSNLeJERqBFrBjwzL7FRpoLT3MPF8Tl0+Wd2p" crossorigin="anonymous"></script>
   <!-- Saves stay draft pull requests, which are never checked or merged, until the
        author sets the status to In review. Say so right after each save. -->
-  <div id="review-hint" role="status" hidden onclick="this.hidden = true">
+  <div id="review-hint" class="hint" role="status" hidden onclick="this.hidden = true">
     Saved as a draft. When you are done, set <b>Status</b> (next to Save) to <b>In review</b>.
     Drafts are not checked or merged.
+  </div>
+  <div id="fork-hint" class="hint" role="alert" hidden onclick="this.hidden = true">
+    Your fork of the wiki is out of date, so GitHub rejects the save. Open
+    <a id="fork-link" target="_blank" rel="noopener">your fork</a>, click <b>Sync fork</b>,
+    then <b>Update branch</b>, and save again.
   </div>
   <!-- Decap's own preview uses an old remark parser that shows {.is-info}, :emoji:,
        &nbsp; and tables right under a line of text as plain text. Render with the
@@ -50,6 +55,23 @@
       const css = t.match(/href="(\/assets\/style\.[\w-]+\.css)"/)
       if (css) CMS.registerPreviewStyle(css[1])
     }).finally(() => CMS.init())
+    // Decap syncs an existing fork with upstream at login, but GitHub refuses that
+    // when upstream changed .github/workflows (the token has no workflow scope), and
+    // every save from the stale fork then fails. Stop the save and say how to sync.
+    CMS.registerEventListener({ name: 'preSave', handler: async () => {
+      const { token } = JSON.parse(localStorage.getItem('decap-cms-user') || '{}')
+      const gh = path => fetch('https://api.github.com/' + path, { headers: { Authorization: `token ${token}` } })
+        .then(r => r.ok ? r.json() : null)
+      const upstream = await gh('repos/TrinityCore/tc-wiki')
+      // Maintainers save to the wiki repo itself, not a fork.
+      if (!upstream || upstream.permissions?.push) return
+      const { login } = await gh('user')
+      const compare = await gh(`repos/${login}/tc-wiki/compare/TrinityCore:tc-wiki:main...main`)
+      if (!compare?.behind_by) return
+      document.getElementById('fork-link').href = `https://github.com/${login}/tc-wiki`
+      document.getElementById('fork-hint').hidden = false
+      throw new Error('your fork is out of date, sync it on GitHub first')
+    } })
     CMS.registerEventListener({ name: 'postSave', handler: () => { document.getElementById('review-hint').hidden = false } })
   </script>
 </body>
