@@ -135,18 +135,7 @@ Used by races specified in mask in cols 2 &ndash; 5, 6 &ndash; 9.
 ### ReputationFlags
 <code>Col: 14 &ndash; 17 (uint32)</code>
 
-[`enum FactionFlags`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Reputation/ReputationMgr.h#L34-L45)
-| Value | Flag | Name | Comment |
-|-------|------|------|---------|
-| 1 | 0x01 | FACTION_FLAG_VISIBLE | makes visible in client (set or can be set at interaction with target of this faction) |
-| 2 | 0x02 | FACTION_FLAG_AT_WAR | enable AtWar-button in client. player controlled (except opposition team always war state), Flag only set on initial creation |
-| 4 | 0x04 | FACTION_FLAG_HIDDEN | hidden faction from reputation pane in client (player can gain reputation, but this update not sent to client) |
-| 8 | 0x08 | FACTION_FLAG_INVISIBLE_FORCED | always overwrite FACTION_FLAG_VISIBLE and hide faction in rep.list, used for hide opposite team factions |
-| 16 | 0x10 | FACTION_FLAG_PEACE_FORCED | always overwrite FACTION_FLAG_AT_WAR, used for prevent war with own team factions |
-| 32 | 0x20 | FACTION_FLAG_INACTIVE | player controlled, state stored in characters.data (CMSG_SET_FACTION_INACTIVE) |
-| 64 | 0x40 | FACTION_FLAG_RIVAL | flag for the two competing outland factions |
-| 128 | 0x80 | FACTION_FLAG_SPECIAL | horde and alliance home cities and their northrend allies have this flag |
-{.dense}
+<!--@include: @/partial/reputation-flags.md-->
 
 &nbsp;
 
@@ -181,4 +170,3 @@ Recursive. i.e. Undercity lists ID 67, which is Horde.
 
 *- no description -*
 &nbsp;
-
