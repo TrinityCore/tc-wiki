@@ -1,10 +1,10 @@
 ---
 title: areatrigger_involvedrelation
-description:
-published: true
-date: 2024-05-16T11:19:31.142Z
+description: null
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
+published: true
 editor: markdown
+date: 2024-05-16T11:19:31.142Z
 dateCreated: 2021-08-30T22:02:43.872Z
 ---
 
@@ -18,14 +18,16 @@ If there is a record in the table for a quest, then the quest will not be comple
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [id](#id-alt) | int | unsigned | PRI | NO | 0 |  | Identifier |
 | [quest](#quest) | int | unsigned |  | NO | 0 |  | Quest Identifier |
-&nbsp;
+
 ## Description of fields
 
 ### id {#id-alt}
 This is the [AreaTrigger ID](/files/DBC/335/areatrigger#id).
-&nbsp;
+
+<br>
 
 ### quest
 This is the [quest](../world/quest_template#id) id that the trigger is tied to.
-&nbsp;
+
+<br>
 
