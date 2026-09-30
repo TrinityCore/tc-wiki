@@ -67,16 +67,7 @@ The number of charges for each of the five possible [spellcharges](../world/item
 &nbsp;
 
 ### flags
-`enum ItemFieldFlags` excerpt:
-| Value | Flag | Name | Comment |
-|-------|------|------|---------|
-| 1 | 0x0001 | ITEM_FIELD_FLAG_SOULBOUND | Item is soulbound and cannot be traded |
-| 4 | 0x0004 | ITEM_FIELD_FLAG_UNLOCKED | Item had lock but can be opened now |
-| 8 | 0x0008 | ITEM_FIELD_FLAG_WRAPPED | Item is wrapped and contains another item |
-| 256 | 0x0100 | ITEM_FIELD_FLAG_BOP_TRADEABLE | Allows trading soulbound items |
-| 512 | 0x0200 | ITEM_FIELD_FLAG_READABLE | Opens text page when right clicked |
-| 4096 | 0x1000 | ITEM_FIELD_FLAG_REFUNDABLE | Item can be returned to vendor for its original cost (extended cost) |
-{.dense}
+<!--@include: @/partial/335/item-field-flags.md-->
 
 &nbsp;
 
@@ -117,4 +108,3 @@ Stores the age of the item in seconds. (governs refundability)
 ### text
 Player composed text on readable item. (see [Plain Letter](https://aowow.trinitycore.info/?item=8383), created by mail system)
 &nbsp;
-
