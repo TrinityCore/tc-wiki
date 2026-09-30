@@ -83,3 +83,28 @@ test('rejects code in front matter', async () => {
   assert.notDeepEqual(await page('x', '---\ntitle: "{{ alert(1) }}"\n---\n'), [])
   assert.notDeepEqual(await page('x', '---\ntitle: A\nhead:\n  - - script\n    - src: https://example.com/x.js\n---\n'), [])
 })
+
+test('checks pages with their partials pasted in', async () => {
+  const include = '<!--@include: @/partial/a.md-->\n'
+  const withPartial = (partial) => problems(edit('how-to/a.md'), (path) => path === 'partial/a.md' ? partial : FRONT + include)
+  assert.deepEqual(await withPartial('| a | b |\n|---|---|\n| 1 | 2 |\n'), [])
+  assert.notDeepEqual(await withPartial('{{ constructor }}\n'), [])
+  assert.notDeepEqual(await withPartial('---\ntitle: x\n---\n'), [])
+  assert.notDeepEqual(await withPartial('<!--@include: @/partial/b.md-->\n'), [])
+  assert.notDeepEqual(await problems(edit('how-to/a.md'), (path) => {
+    if (path === 'partial/a.md') throw new Error('missing')
+    return FRONT + include
+  }), [])
+  for (const target of ['@/partial/a.md#region', '@/partial/a.md{1,2}', 'partial/a.md', '@/how-to/b.md', '@/partial/../README.md']) {
+    assert.notDeepEqual(await page(`<!--@include: ${target}-->\n`), [], target)
+  }
+})
+
+test('rechecks the pages that include a changed partial', async () => {
+  // Closing the page's code fence early turns its code into Vue template.
+  const files = {
+    'partial/a.md': '```\n',
+    'how-to/a.md': FRONT + '```\n<!--@include: @/partial/a.md-->\n{{ constructor }}\n```\n',
+  }
+  assert.notDeepEqual(await problems(edit('partial/a.md'), (path) => files[path], () => ['how-to/a.md']), [])
+})

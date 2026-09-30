@@ -75,9 +75,9 @@ const menu = [
     { text: 'Configuration', link: '/files/configuration/home' },
     { text: 'DBC', link: '/files/DBC/335/home' },
   ] },
-  { text: 'How-to', link: '/how-to/gm-commands' },
+  { text: 'How-to', items: sidebarFor('how-to') },
   { text: 'Troubleshooting', link: '/troubleshooting-articles/home' },
-  { text: 'Contributing', link: '/contributing/standard-operating-procedures' },
+  { text: 'Contributing', items: sidebarFor('contributing') },
   { text: 'Links', items: [
     { text: 'TrinityCore Forum', link: 'https://talk.trinitycore.org/' },
     { text: 'TrinityCore GitHub', link: 'https://github.com/TrinityCore/TrinityCore' },
@@ -92,7 +92,8 @@ export default defineConfig({
   cleanUrls: true,
   // Ship sidebar + page hash map once as a cached chunk instead of inlining ~350 KB into every page.
   metaChunk: true,
-  srcExclude: ['README.md', 'CONTRIBUTING.md', 'CLAUDE.md', ...unpublished],
+  // partial/ holds snippets pages pull in with <!--@include: @/partial/name.md-->.
+  srcExclude: ['README.md', 'CONTRIBUTING.md', 'CLAUDE.md', 'partial/**', ...unpublished],
   rewrites: { 'home.md': 'index.md' },
   // Links to pages that are unpublished or were never written (already dead in Wiki.js).
   ignoreDeadLinks: [
