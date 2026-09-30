@@ -135,7 +135,7 @@ Used by races specified in mask in cols 2 &ndash; 5, 6 &ndash; 9.
 ### ReputationFlags
 <code>Col: 14 &ndash; 17 (uint32)</code>
 
-<!--@include: @/partial/reputation-flags.md-->
+<!--@include: @/partial/335/reputation-flags.md-->
 
 &nbsp;
 
