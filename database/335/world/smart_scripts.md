@@ -2737,13 +2737,8 @@ Creature draws or puts away it's weapon.
 * **action_type**:
 SMART_ACTION_SET_SHEATH (40)
 * **action_param1**:
-[`enum SheathState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Unit/UnitDefines.h#L96-L103)
-  | ID | Name | Comment |
-  |----|------|---------|
-  | 0 | SHEATH_STATE_UNARMED | non prepared weapon |
-  | 1 | SHEATH_STATE_MELEE | prepared melee weapon |
-  | 2 | SHEATH_STATE_RANGED | prepared ranged weapon |
-  {.dense}
+<!--@include: @/partial/335/unit-bytes2.md{4,9}-->
+
 * **action_param2**:
 `0`
 * **action_param3**:

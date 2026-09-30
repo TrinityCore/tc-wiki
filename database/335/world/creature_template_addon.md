@@ -88,24 +88,16 @@ The value here overrides the `UnitVisFlags` for the creature's unit field UNIT_F
 &nbsp;
 
 ### SheathState
-The value here overrides the `SheathState` for the creature's unit field UNIT_FIELD_BYTES_2 (see [UnitDefines.h](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Unit/UnitDefines.h) for complete list)
-| Value | Name | Description |
-|-------|------|-------------|
-| 0 | SHEATH_STATE_UNARMED | non prepared weapon |
-| 1 | SHEATH_STATE_MELEE | prepared melee weapon |
-| 2 | SHEATH_STATE_RANGED | prepared ranged weapon |
-{.dense}
+The value here overrides the `SheathState` for the creature's unit field UNIT_FIELD_BYTES_2
+
+<!--@include: @/partial/335/unit-bytes2.md{4,9}-->
 
 &nbsp;
 
 ### PvPFlags
-The value here overrides the `UnitPVPStateFlags` for the creature's unit field UNIT_FIELD_BYTES_2 (see [UnitDefines.h](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Unit/UnitDefines.h) for complete list)
-| Value | Name |
-|-------|------|
-| 0x01 | UNIT_BYTE2_FLAG_PVP |
-| 0x04 | UNIT_BYTE2_FLAG_FFA_PVP |
-| 0x08 | UNIT_BYTE2_FLAG_SANCTUARY |
-{.dense}
+The value here overrides the `UnitPVPStateFlags` for the creature's unit field UNIT_FIELD_BYTES_2
+
+<!--@include: @/partial/335/unit-bytes2.md{14,24}-->
 
 &nbsp;
 
@@ -135,4 +127,3 @@ List of useful aura entries (examples):
 * `18950` - Makes the creature detect other invisible units (players or creatures).
 * `16380 18950` - Both auras above
 &nbsp;
-
