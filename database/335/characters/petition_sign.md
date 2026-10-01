@@ -43,14 +43,6 @@ The [account id](../auth/account#id) of the player that has signed the charter. 
 ### type
 The type of the petition.
 
-[`enum CharterTypes`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L3786-L3795)
-| ID | Name |
-|----|------|
-| 2 | ARENA_TEAM_CHARTER_2v2_TYPE |
-| 3 | ARENA_TEAM_CHARTER_3v3_TYPE |
-| 5 | ARENA_TEAM_CHARTER_5v5_TYPE |
-| 9 | GUILD_CHARTER_TYPE |
-{.dense}
+<!--@include: @/partial/335/charter-types.md-->
 
 &nbsp;
-
