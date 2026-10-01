@@ -58,12 +58,7 @@ The effect index of the spell from which the aura came from. A spell has up to t
 
 ### recalculateMask
 Bitmask of effect indizes that can be recalculated.
-| Value | Name |
-|-------|------|
-| 1 | EFFECT_1 |
-| 2 | EFFECT_2 |
-| 4 | EFFECT_3 |
-{.dense}
+<!--@include: @/partial/335/spell-effect-index.md-->
 
 &nbsp;
 
@@ -100,4 +95,3 @@ Boolean if this aura is subject to resilience
 * 0: full amount
 * 1: reduced by resilience
 &nbsp;
-

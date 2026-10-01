@@ -184,11 +184,8 @@ CONDITION_SOURCE_TYPE_SPELL_LOOT_TEMPLATE (12)
 CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET (13)
 * **SourceGroup**:
 Mask of effects to be affected by condition:
-  |--|--|
-  | EFFECT_0 | 0x1 |
-  | EFFECT_1 | 0x2 |
-  | EFFECT_2 | 0x4 |
-  {.dense}
+<!--@include: @/partial/335/spell-effect-index.md-->
+
 * **SourceEntry**:
 [Spell ID](/files/DBC/335/spell#id)
 * **SourceId**:

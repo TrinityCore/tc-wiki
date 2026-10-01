@@ -125,12 +125,7 @@ Adds special behaviour to the proc, spell might trigger proc only if these condi
 
 ### DisableEffectsMask
 Disable proc on spell effect index (bitmask)
-| Value | Flag | Name |
-|-------|------|------|
-| 1 | 0x01 | EFFECT_1 |
-| 2 | 0x02 | EFFECT_2 |
-| 4 | 0x04 | EFFECT_3 |
-{.dense}
+<!--@include: @/partial/335/spell-effect-index.md-->
 
 &nbsp;
 
