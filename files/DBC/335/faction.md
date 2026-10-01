@@ -97,15 +97,7 @@ Each faction that has gainable rep has a unique number. All factions that you ca
 
 Mask of races using cols 10 &ndash; 13 as base reputation.
 
-| Value | Flag   | Name      |  | Value | Flag   | Name      |
-|-------|--------|-----------|--|-------|--------|-----------|
-|     1 | 0x0001 | Human     |  |     2 | 0x0002 | Orc       |
-|     4 | 0x0004 | Dwarf     |  |    16 | 0x0010 | Undead    |
-|     8 | 0x0008 | Night Elf |  |    32 | 0x0020 | Tauren    |
-|    64 | 0x0040 | Gnome     |  |   128 | 0x0080 | Troll     |
-|  1024 | 0x0400 | Draenei   |  |   512 | 0x0200 | Blood Elf |
-|  1101 | 0x044D | *_Alliance_* |  |   690 | 0x02B2 | *_Horde_* |
-{.dense}
+<!--@include: @/partial/335/chrraces.md{13,}-->
 
 &nbsp;
 
@@ -114,14 +106,7 @@ Mask of races using cols 10 &ndash; 13 as base reputation.
 
 Mask of classes using cols 10 &ndash; 13 as base reputation.
 
-| Value | Flag   | Name      |  | Value | Flag   | Name         |
-|-------|--------|-----------|--|-------|--------|--------------|
-|     1 | 0x0001 | Warrior   |  |    32 | 0x0020 | Death Knight |
-|     2 | 0x0002 | Paladin   |  |    64 | 0x0040 | Shaman       |
-|     4 | 0x0004 | Hunter    |  |   128 | 0x0080 | Mage         |
-|     8 | 0x0008 | Rogue     |  |   256 | 0x0100 | Warlock      |
-|    16 | 0x0010 | Priest    |  |  1024 | 0x0400 | Druid        |
-{.dense}
+<!--@include: @/partial/335/chrclasses.md{13,}-->
 
 &nbsp;
 

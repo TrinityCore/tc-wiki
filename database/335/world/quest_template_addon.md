@@ -45,19 +45,7 @@ Maximum level at which a player can get the quest.
 
 ### AllowableClasses
 Class mask of [ChrClass IDs](/files/DBC/335/chrclasses#id) allowed to get the quest.
-| Value | Flag   | Name         |
-|-------|--------|--------------|
-|     1 | 0x0001 | Warrior      |
-|     2 | 0x0002 | Paladin      |
-|     4 | 0x0004 | Hunter       |
-|     8 | 0x0008 | Rogue        |
-|    16 | 0x0010 | Priest       |
-|    32 | 0x0020 | Death Knight |
-|    64 | 0x0040 | Shaman       |
-|   128 | 0x0080 | Mage         |
-|   256 | 0x0100 | Warlock      |
-|  1024 | 0x0400 | Druid        |
-{.dense}
+<!--@include: @/partial/335/chrclasses.md{13,}-->
 
 &nbsp;
 
@@ -143,4 +131,3 @@ excerpt from [`enum QuestSpecialFlags`](https://github.com/TrinityCore/TrinityCo
 {.dense}
 
 &nbsp;
-

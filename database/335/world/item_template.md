@@ -375,37 +375,13 @@ In what slot the item can be equipped. (see [`enum InventoryType`](https://githu
 
 ### AllowableClass
 Bitmask of [ChrClass IDs](/files/DBC/335/chrclasses#id) controlling which classes can use this item. Use -1 if all classes can use it.
-| Value | Flag | Name |
-|-------|------|------|
-|     1 | 0x0001 | Warrior      |
-|     2 | 0x0002 | Paladin      |
-|     4 | 0x0004 | Hunter       |
-|     8 | 0x0008 | Rogue        |
-|    16 | 0x0010 | Priest       |
-|    32 | 0x0020 | Death Knight |
-|    64 | 0x0040 | Shaman       |
-|   128 | 0x0080 | Mage         |
-|   256 | 0x0100 | Warlock      |
-|  1024 | 0x0400 | Druid        |
-{.dense}
+<!--@include: @/partial/335/chrclasses.md{13,}-->
 
 &nbsp;
 
 ### AllowableRace
 Bitmask of [ChrRace IDs](/files/DBC/335/chrraces#id) controlling which races can use this item. Use -1 if all races can use it.
-| Value | Flag | Name |
-|-------|------|------|
-|     1 | 0x0001 | Human     |
-|     2 | 0x0002 | Orc       |
-|     4 | 0x0004 | Dwarf     |
-|     8 | 0x0008 | Night Elf |
-|    16 | 0x0010 | Undead    |
-|    32 | 0x0020 | Tauren    |
-|    64 | 0x0040 | Gnome     |
-|   128 | 0x0080 | Troll     |
-|   512 | 0x0200 | Blood Elf |
-|  1024 | 0x0400 | Draenei   |
-{.dense}
+<!--@include: @/partial/335/chrraces.md{13,}-->
 
 &nbsp;
 
