@@ -1454,25 +1454,7 @@ Global cooldown amount in msec.
 ### SpellClassSet
 <code>Col: 208 (uint32)</code>
 
-[`enum SpellFamilyNames`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L3575-L3595)
-| ID | Name | Comment |
-|----|------|---------|
-| 0 | SPELLFAMILY_GENERIC |  |
-| 1 | SPELLFAMILY_UNK1 | events, holidays, ...  |
-| 3 | SPELLFAMILY_MAGE |  |
-| 4 | SPELLFAMILY_WARRIOR |  |
-| 5 | SPELLFAMILY_WARLOCK |  |
-| 6 | SPELLFAMILY_PRIEST |  |
-| 7 | SPELLFAMILY_DRUID |  |
-| 8 | SPELLFAMILY_ROGUE |  |
-| 9 | SPELLFAMILY_HUNTER |  |
-| 10 | SPELLFAMILY_PALADIN |  |
-| 11 | SPELLFAMILY_SHAMAN |  |
-| 12 | SPELLFAMILY_UNK2 | Silence resistance?  |
-| 13 | SPELLFAMILY_POTION |  |
-| 15 | SPELLFAMILY_DEATHKNIGHT |  |
-| 17 | SPELLFAMILY_PET |  |
-{.dense}
+<!--@include: @/partial/335/spell-family.md-->
 
 &nbsp;
 
