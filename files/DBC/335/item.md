@@ -78,14 +78,6 @@ Another WeaponSubClass to use for sound.
 <code>Col: 7 (uint32)</code>
 
 Controls how the item is put away on the character. Press the 'Z' hotkey to sheathe and unsheathe your weapons.
-| ID | Type | Comment |
-|----|------|---------|
-| 1 | Two Handed Weapon | Diagonally across the back pointing downwards. |
-| 2 | Staff | Diagonally across the back pointing upwards. |
-| 3 | One Handed | On the left-hand side of the character's waist. |
-| 4 | Shield | On the middle of the character's back. |
-| 5 | Tool | ? usually not equippable ? |
-| 7 | Off hand | On the right-hand side of the character's waist. |
-{.dense}
+<!--@include: @/partial/335/sheath.md-->
 
 &nbsp;
