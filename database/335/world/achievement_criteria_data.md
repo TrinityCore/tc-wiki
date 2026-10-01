@@ -120,12 +120,8 @@ The minimum level of the target.
 #### Target&nbsp;Gender (10)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_T_GENDER**
 * **value1**:
-[`enum Gender`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L75-L80)
-  |--|--|
-  | GENDER_MALE | 0 |
-  | GENDER_FEMALE | 1 |
-  | GENDER_NONE | 2 |
-  {.dense}
+<!--@include: @/partial/335/gender.md-->
+
 * **value2**:
 `0`
 
@@ -273,4 +269,3 @@ known (pvp) title
 ### ScriptName
 The ScriptName for when scripting it in the core.
 &nbsp;
-

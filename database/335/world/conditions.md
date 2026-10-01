@@ -766,12 +766,8 @@ true if in spawnMask
 * **ConditionTypeOrReference**:
 CONDITION_GENDER (20)
 * **ConditionValue1**:
-[`enum Gender`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L75-L80)
-  |--|--|
-  | GENDER_MALE | 0 |
-  | GENDER_FEMALE | 1 |
-  | GENDER_NONE | 2 |
-  {.dense}
+<!--@include: @/partial/335/gender.md-->
+
 * **ConditionValue2**:
 `0`
 * **ConditionValue3**:
@@ -1483,4 +1479,3 @@ The ScriptName this condition uses, if any.
 ### Comment
 Explanation of this condition or reference
 &nbsp;
-

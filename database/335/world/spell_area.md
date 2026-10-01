@@ -68,13 +68,7 @@ Race mask of [ChrRace IDs](/files/DBC/335/chrraces#id) **spell** applies to. (0:
 ### gender
 The player gender this entry applies to.
 
-[`enum Gender`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L75-L80)
-| ID | Name | Comment |
-|----|------|---------|
-| 0 | GENDER_MALE | Male |
-| 1 | GENDER_FEMALE | Female |
-| 2 | GENDER_NONE | Any |
-{.dense}
+<!--@include: @/partial/335/gender.md-->
 
 &nbsp;
 
@@ -103,4 +97,3 @@ Bitmask of different quest statuses.
 * Factions-specific buffs, e.g. in Icecrown Citadel: H [Hellscream's Warsong](https://aowow.trinitycore.info/?spell=73822) / A [Strength of Wrynn](https://aowow.trinitycore.info/?spell=73828)
 * A [ghost flying mount](https://aowow.trinitycore.info/?spell=55164) in zones where the player may be required to fly to reach his [corpse](https://aowow.trinitycore.info/?spell=8326).
 * A [permanent disguise](https://aowow.trinitycore.info/?spell=40214) after the player completes an [attunement quest](https://aowow.trinitycore.info/?quest=11013).
-

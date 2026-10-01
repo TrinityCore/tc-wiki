@@ -121,13 +121,7 @@ dateCreated: 2023-10-04T08:01:40.639Z
 ### SexID
 <code>Col: 3 (uint8)</code>
 
-[`enum Gender`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L75-L80)
-| ID | Name |
-|----|------|
-| 0 | GENDER_MALE |
-| 1 | GENDER_FEMALE |
-| 2 | GENDER_NONE |
-{.dense}
+<!--@include: @/partial/335/gender.md-->
 
 &nbsp;
 
@@ -188,4 +182,3 @@ Not required at server side.
 {.dense}
 
 &nbsp;
-

@@ -59,13 +59,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 ### DisplaySexID
 <code>Col: 2 (uint32)</code>
 
-[`enum Gender`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L75-L80)
-| ID | Name |
-|----|------|
-| 0 | GENDER_MALE |
-| 1 | GENDER_FEMALE |
-| 2 | GENDER_NONE |
-{.dense}
+<!--@include: @/partial/335/gender.md-->
 
 &nbsp;
 
@@ -130,4 +124,3 @@ Look up into CharSections.dbc, where BaseSection=SECTION_TYPE_FACIAL_HAIR (2) to
 
 The texture used on the model. .blp extension can be omitted. Name must not be empty, otherwise client crashes.
 &nbsp;
-

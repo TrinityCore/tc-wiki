@@ -48,12 +48,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 ### Sex
 :x: <code>Col: 3 (uint32)</code>
 
-[`enum Gender`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L75-L80)
-| ID | Name | Comment |
-|----|------|---------|
-| 0 | GENDER_MALE | Male |
-| 1 | GENDER_FEMALE | Female |
-{.dense}
+<!--@include: @/partial/335/gender.md{,5}-->
 
 &nbsp;
-
