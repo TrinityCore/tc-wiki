@@ -1042,9 +1042,9 @@ as SubClassMask
 ### EquippedItemInvTypes
 <code>Col: 70 (int32)</code>
 
-[`enum InventoryType`](https://github.com/TrinityCore/TrinityCore/tree/3.3.5/src/server/game/Entities/Item/ItemTemplate.h#L259-L290)
+[`enum InventoryType`](https://github.com/TrinityCore/TrinityCore/blob/e490cad2b0cb538c554006a7a8842b39f7ca143e/src/server/game/Entities/Item/ItemTemplate.h#L259-L290)
 | Value | Flag | Name |  | Value | Flag | Name |
-|-------|------|------|--|-------|------|------|
+| --- | --- | --- | --- | --- | --- | --- |
 | 1 | 0x00000001 | INVTYPE_HEAD | | 16384 | 0x00004000 | INVTYPE_RANGED |
 | 2 | 0x00000002 | INVTYPE_NECK | | 32768 | 0x00008000 | INVTYPE_CLOAK |
 | 4 | 0x00000004 | INVTYPE_SHOULDERS | | 65536 | 0x00010000 | INVTYPE_2HWEAPON |
@@ -1059,7 +1059,6 @@ as SubClassMask
 | 2048 | 0x00000800 | INVTYPE_TRINKET | | 33554432 | 0x02000000 | INVTYPE_RANGEDRIGHT |
 | 4096 | 0x00001000 | INVTYPE_WEAPON | | 67108864 | 0x04000000 | INVTYPE_QUIVER |
 | 8192 | 0x00002000 | INVTYPE_SHIELD | | 134217728 | 0x08000000 | INVTYPE_RELIC |
-{.dense}
 
 &nbsp;
 
