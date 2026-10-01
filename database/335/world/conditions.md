@@ -1242,14 +1242,8 @@ true if player has reached the specified objectiveCount quest progress for the o
 * **ConditionTypeOrReference**:
 CONDITION_DIFFICULTY_ID (49)
 * **ConditionValue1**:
-  [`enum Difficulty`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/DataStores/DBCEnums.h#L278-L290)
-  | Raid | Dungeon | Value |
-  |--|--|:-:|
-  | RAID_DIFFICULTY_10MAN_NORMAL | DUNGEON_DIFFICULTY_NORMAL | 0 |
-  | RAID_DIFFICULTY_25MAN_NORMAL | DUNGEON_DIFFICULTY_HEROIC | 1 |
-  | RAID_DIFFICULTY_10MAN_HEROIC |  | 2 |
-  | RAID_DIFFICULTY_25MAN_HEROIC |  | 3 |
-  {.dense}
+<!--@include: @/partial/335/difficulty.md-->
+
 * **ConditionValue2**:
 `0` 
 * **ConditionValue3**:
