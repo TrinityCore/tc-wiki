@@ -668,18 +668,7 @@ The [page_text.ID](../world/page_text#id) referring to the text that the item wi
 
 ### LanguageID
 The [Language ID](/files/DBC/335/languages#id), that the item text is written in.
-| ID | Language | | ID | Language |
-|----|----------|-|----|----------|
-| 1 | Orcish | | 12 | Kalimag |
-| 2 | Darnassian | |  13 | Gnomish |
-| 3 | Taurahe | |  14 | Troll |
-| 6 | Dwarvish | |  33 | Gutterspeak |
-| 7 | Common | |  35 | Draenei |
-| 8 | Demonic | |  36 | Zombie |
-| 9 | Titan | |  37 | Gnomish Binary |
-| 10 | Thalassian | |  38 | Goblin Binary |
-|11 | Draconic | |   |  |
-{.dense}
+<!--@include: @/partial/335/languages.md-->
 
 &nbsp;
 
@@ -928,4 +917,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -[Client Build](/database/335/auth/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
-
