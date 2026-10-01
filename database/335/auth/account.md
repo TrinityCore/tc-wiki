@@ -121,14 +121,9 @@ Signifies if the account is currently logged in and online.
 &nbsp;
 
 ### expansion
-Integer 0 – 2 controlling if the client logged in on the account has any expansions. (for example if client is TBC, but expansion is set to 0, it will not be able to enter outlands and etc.)
+Integer 0 – 2 controlling if the client logged in on the account has any expansions. (for example if client is TBC, but expansion is set to 0, it will not be able to enter outlands, etc.)
 
-|Value|Expansion|
-|:---:|:---: |
-|0|Vanilla|
-|1|The Burning Crusade (TBC)|
-|2|Wrath of the Lich King (WotLK)|
-{.dense}
+<!--@include: @/partial/335/expansions.md-->
 
 &nbsp;
 
@@ -180,4 +175,3 @@ Offset to UTC in minutes.
 ### recruiter
 The [account id](#id) of another account. Used for recuit-a-friend system.
 &nbsp;
-

@@ -168,12 +168,7 @@ dateCreated: 2023-10-04T08:05:02.714Z
 ### ExpansionLevel
 <code>Col: 29 (uint32)</code>
 
-| Value | Expansion |
-| :---: | :---: |
-| 0 | Vanilla |
-| 1 | The Burning Crusade (TBC) |
-| 2 | Wrath of the Lich King (WotLK) |
-{.dense}
+<!--@include: @/partial/335/expansions.md-->
 
 &nbsp;
 

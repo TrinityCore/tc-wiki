@@ -185,7 +185,6 @@ ID from CinematicSequences.dbc
 ### RequiredExpansion
 <code>Col: 59 (uint32)</code>
 
-* 0: Classic
-* 1: BC
-* 2: WotLK
+<!--@include: @/partial/335/expansions.md-->
+
 &nbsp;

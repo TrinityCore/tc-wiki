@@ -196,12 +196,7 @@ Entrance coordinate (if exist single entry).
 ### ExpansionID
 <code>Col: 63 (uint32)</code>
 
-| Value | Expansion |
-| :---: | :---: |
-| 0 | Vanilla |
-| 1 | The Burning Crusade (TBC) |
-| 2 | Wrath of the Lich King (WotLK) |
-{.dense}
+<!--@include: @/partial/335/expansions.md-->
 
 &nbsp;
 
@@ -216,4 +211,3 @@ Entrance coordinate (if exist single entry).
 
 Max players, fallback if not present in [MapDifficulty.dbc](/files/DBC/335/mapdifficulty).
 &nbsp;
-

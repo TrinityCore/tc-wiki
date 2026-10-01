@@ -46,12 +46,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 ### Expansion
 :x: <code>Col: 2 (uint32)</code>
 
-| Value | Expansion |
-| :---: | :---: |
-| 0 | Vanilla |
-| 1 | The Burning Crusade (TBC) |
-| 2 | Wrath of the Lich King (WotLK) |
-{.dense}
+<!--@include: @/partial/335/expansions.md-->
 
 &nbsp;
 
@@ -84,4 +79,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-
