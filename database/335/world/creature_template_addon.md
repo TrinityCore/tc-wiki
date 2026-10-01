@@ -52,38 +52,23 @@ The [creature entry](../world/creature_template#entry) this creature is mounted 
 &nbsp;
 
 ### StandState
-The value here overrides the `UnitStandStateType` for the creature's unit field UNIT_FIELD_BYTES_1 (see [UnitDefines.h](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Unit/UnitDefines.h) for complete list)
-| Value | Name | Description |
-|-------|------|-------------|
-| 1 | UNIT_STAND_STATE_SIT | Sitting |
-| 3 | UNIT_STAND_STATE_SLEEP | Sleep |
-| 7 | UNIT_STAND_STATE_DEAD | Shows health bar as empty (combine with the state dead emote to make a creature look dead) |
-| 8 | UNIT_STAND_STATE_KNEEL | Makes the mob kneel |
-| 9 | UNIT_STAND_STATE_SUBMERGED | Submerges the creature below the ground |
-{.dense}
+The value here overrides the `UnitStandStateType` for the creature's unit field UNIT_FIELD_BYTES_1
+
+<!--@include: @/partial/335/unit-bytes1.md{3,15}-->
 
 &nbsp;
 
 ### AnimTier
-The value here overrides the `AnimTier` for the creature's unit field UNIT_FIELD_BYTES_1 (see [UnitDefines.h](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Unit/UnitDefines.h) for complete list)
-| Value | Name | Description |
-|-------|------|-------------|
-| 0 | Ground | plays ground tier animations |
-| 1 | Swim | falls back to ground tier animations, not handled by the client, should never appear in sniffs, will prevent tier change animations from playing correctly if used |
-| 2 | Hover | plays flying tier animations or falls back to ground tier animations, automatically enables hover clientside when entering visibility with this value |
-| 3 | Fly | plays flying tier animations |
-| 4 | Submerged |   |
-{.dense}
+The value here overrides the `AnimTier` for the creature's unit field UNIT_FIELD_BYTES_1
+
+<!--@include: @/partial/335/unit-bytes1.md{29,}-->
 
 &nbsp;
 
 ### VisFlags
-The value here overrides the `UnitVisFlags` for the creature's unit field UNIT_FIELD_BYTES_1 (see [UnitDefines.h](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Unit/UnitDefines.h) for complete list)
-| Value | Name |
-|-------|------|
-| 2 | UNIT_VIS_FLAGS_CREEP |
-| 4 | UNIT_VIS_FLAGS_UNTRACKABLE |
-{.dense}
+The value here overrides the `UnitVisFlags` for the creature's unit field UNIT_FIELD_BYTES_1
+
+<!--@include: @/partial/335/unit-bytes1.md{20,24}-->
 
 &nbsp;
 
