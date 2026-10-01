@@ -92,15 +92,7 @@ The value here overrides the `UnitPVPStateFlags` for the creature's unit field U
 
 ### visibilityDistanceType
 Adjusts the distance from which the creature is visible.
-| # | Range | Comment |
-|---|-------|---------|
-| 0 | Normal | 100m |
-| 1 | Tiny | 25m |
-| 2 | Small | 50m |
-| 3 | Large | 200m |
-| 4 | Gigantic | 400m |
-| 5 | Infinite | ∞ |
-{.dense}
+<!--@include: @/partial/335/visibility-distance.md-->
 
 &nbsp;
 
