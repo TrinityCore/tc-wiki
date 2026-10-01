@@ -139,16 +139,7 @@ Informs the core that the item should be shown only to characters having appropr
 A special parameter used for separating conditional loot, such as Hard Mode loot. A lootmode of 0 will effectively disable a loot entry (its roll will always fail). This column is a bitmask, so you shouldn't duplicate loot across lootmodes. The active lootmode(s) can be changed at any time by the core. This column should only be used if required, in most cases it should be left as 1. 
 
 Valid loot modes include, but are not exclusive to:
-[`enum LootModes`](https://github.com/TrinityCore/TrinityCore/blob/e757e8979d618d3672fcdcdd00411a1f632c6298/src/server/shared/SharedDefines.h#L41-L49)
-| Value | Name |
-|-------|------|
-| 0x0001 | LOOT_MODE_DEFAULT |
-| 0x0002 | LOOT_MODE_HARD_MODE_1 |
-| 0x0004 | LOOT_MODE_HARD_MODE_2 |
-| 0x0008 | LOOT_MODE_HARD_MODE_3 |
-| 0x0010 | LOOT_MODE_HARD_MODE_4 |
-| 0x8000 | LOOT_MODE_JUNK_FISH |
-{.dense}
+<!--@include: @/partial/335/loot-modes.md-->
 
 &nbsp;
 ### GroupId
@@ -356,4 +347,3 @@ VALUES
    (6846,7675,100,0,0,1,1);
 ```
 &nbsp;
-
