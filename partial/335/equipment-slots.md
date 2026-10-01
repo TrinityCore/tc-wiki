@@ -1,0 +1,22 @@
+[`enum EquipmentSlots`](https://github.com/TrinityCore/TrinityCore/blob/e490cad2b0cb538c554006a7a8842b39f7ca143e/src/server/game/Entities/Player/Player.h#L551-L574)
+| ID | Name | Comment |
+| --- | --- | --- |
+| 0 | EQUIPMENT_SLOT_HEAD |  |
+| 1 | EQUIPMENT_SLOT_NECK |  |
+| 2 | EQUIPMENT_SLOT_SHOULDERS |  |
+| 3 | EQUIPMENT_SLOT_BODY | shirt |
+| 4 | EQUIPMENT_SLOT_CHEST |  |
+| 5 | EQUIPMENT_SLOT_WAIST |  |
+| 6 | EQUIPMENT_SLOT_LEGS |  |
+| 7 | EQUIPMENT_SLOT_FEET |  |
+| 8 | EQUIPMENT_SLOT_WRISTS |  |
+| 9 | EQUIPMENT_SLOT_HANDS |  |
+| 10 | EQUIPMENT_SLOT_FINGER1 |  |
+| 11 | EQUIPMENT_SLOT_FINGER2 |  |
+| 12 | EQUIPMENT_SLOT_TRINKET1 |  |
+| 13 | EQUIPMENT_SLOT_TRINKET2 |  |
+| 14 | EQUIPMENT_SLOT_BACK |  |
+| 15 | EQUIPMENT_SLOT_MAINHAND |  |
+| 16 | EQUIPMENT_SLOT_OFFHAND |  |
+| 17 | EQUIPMENT_SLOT_RANGED | ranged or relic |
+| 18 | EQUIPMENT_SLOT_TABARD |  |

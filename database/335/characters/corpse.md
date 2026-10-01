@@ -73,28 +73,7 @@ A [ChrRace DisplayID](/files/DBC/335/chrraces#maledisplayid), where race dictate
 Space separated list of byte fields describing the equipped items, ordered by EQUIPMENT_SLOT.
 <code>byteField = [displayid](../world/item_template#displayid) | ([InventoryType](../world/item_template#inventorytype) << 24);</code>
 
-| Index | Name |
-|-------|------|
-| 0 | EQUIPMENT_SLOT_HEAD |
-| 1 | EQUIPMENT_SLOT_NECK |
-| 2 | EQUIPMENT_SLOT_SHOULDERS |
-| 3 | EQUIPMENT_SLOT_BODY |
-| 4 | EQUIPMENT_SLOT_CHEST |
-| 5 | EQUIPMENT_SLOT_WAIST |
-| 6 | EQUIPMENT_SLOT_LEGS |
-| 7 | EQUIPMENT_SLOT_FEET |
-| 8 | EQUIPMENT_SLOT_WRISTS |
-| 9 | EQUIPMENT_SLOT_HANDS |
-| 10 | EQUIPMENT_SLOT_FINGER1 |
-| 11 | EQUIPMENT_SLOT_FINGER2 |
-| 12 | EQUIPMENT_SLOT_TRINKET1 |
-| 13 | EQUIPMENT_SLOT_TRINKET2 |
-| 14 | EQUIPMENT_SLOT_BACK |
-| 15 | EQUIPMENT_SLOT_MAINHAND |
-| 16 | EQUIPMENT_SLOT_OFFHAND |
-| 17 | EQUIPMENT_SLOT_RANGED |
-| 18 | EQUIPMENT_SLOT_TABARD |
-{.dense}
+<!--@include: @/partial/335/equipment-slots.md-->
 
 &nbsp;
 
@@ -163,4 +142,3 @@ Unix timestamp when the corpse was created.
 ### instanceId
 The [instance id](../characters/instance#id) this corpse belongs to.
 &nbsp;
-
