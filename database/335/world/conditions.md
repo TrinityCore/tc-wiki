@@ -572,8 +572,8 @@ Add the target ranks together for the condition to be true for all those ranks.
 * **ConditionTypeOrReference**:
 CONDITION_TEAM (6)
 * **ConditionValue1**:
-  * 469: Alliance
-  * 67: Horde
+<!--@include: @/partial/335/team.md-->
+
 * **ConditionValue2**:
 `0`
 * **ConditionValue3**:

@@ -39,10 +39,9 @@ This is the battleground instanceId. It's shared with [instance.id](/database/33
 &nbsp;
 
 ### team
-[Faction ID](/files/DBC/335/faction#id)
-- 469: Alliance
-- 67: Horde
-- 0: GM
+(`0`: GM)
+<!--@include: @/partial/335/team.md-->
+
 &nbsp;
 
 ### joinX
@@ -76,4 +75,3 @@ Character's heading [TaxiNode ID](/files/DBC/335/taxinodes#id) before joining a 
 ### mountSpell
 Character's mount [Spell ID](/files/DBC/335/spell#id) before joining a battleground.
 &nbsp;
-
