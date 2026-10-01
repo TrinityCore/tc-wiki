@@ -552,18 +552,8 @@ CONDITION_REPUTATION_RANK (5)
 [Faction ID](/files/DBC/335/faction#id)
 * **ConditionValue2**:
 Add the target ranks together for the condition to be true for all those ranks.
-[`enum ReputationRank`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L203-L213)
-  | Value | Flag | Name |
-  |--|--|--|
-  | 1 | 0x01 | REP_HATED |
-  | 2 | 0x02 | REP_HOSTILE |
-  | 4 | 0x04 | REP_UNFRIENDLY |
-  | 8 | 0x08 | REP_NEUTRAL |
-  | 16 | 0x10 | REP_FRIENDLY |
-  | 32 | 0x20 | REP_HONORED |
-  | 64 | 0x40 | REP_REVERED |
-  | 128 | 0x80 | REP_EXALTED |
-  {.dense}
+<!--@include: @/partial/335/reputation-rank.md-->
+
 * **ConditionValue3**:
 `0`
 * **ConditionStringValue1**:
@@ -1008,18 +998,8 @@ Target to which reaction is checked.
   - one of the ConditionTargets available in current SourceType
 * **ConditionValue2**:
 rankMask: This bitmask defines the reaction(s) of the current **ConditionTarget** to the target specified in **ConditionValue1** (which are allowed).
-[`enum ReputationRank`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L203-L213)
-  | Value | Flag | Name |
-  |--|--|--|
-  | 1 | 0x01 | REP_HATED |
-  | 2 | 0x02 | REP_HOSTILE |
-  | 4 | 0x04 | REP_UNFRIENDLY |
-  | 8 | 0x08 | REP_NEUTRAL |
-  | 16 | 0x10 | REP_FRIENDLY |
-  | 32 | 0x20 | REP_HONORED |
-  | 64 | 0x40 | REP_REVERED |
-  | 128 | 0x80 | REP_EXALTED |
-  {.dense}
+<!--@include: @/partial/335/reputation-rank.md-->
+
 * **ConditionValue3**:
 `0`
 * **ConditionStringValue1**:
