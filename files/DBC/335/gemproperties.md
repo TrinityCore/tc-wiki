@@ -55,15 +55,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 ### Type
 <code>Col: 4 (uint32)</code>
 
-[`enum SocketColor`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Item/ItemTemplate.h#L249-L255)
-| Value | Flag | Name | Comment |
-|-------|------|------|---------|
-| 1 | 0x1 | SOCKET_COLOR_META | never combined with other colors |
-| 2 | 0x2 | SOCKET_COLOR_RED |  |
-| 4 | 0x4 | SOCKET_COLOR_YELLOW |  |
-| 8 | 0x8 | SOCKET_COLOR_BLUE |  |
-| 14 | 0xE |  | prismatic |
-{.dense}
+<!--@include: @/partial/335/socket-color.md-->
 
 &nbsp;
-
