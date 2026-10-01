@@ -24,18 +24,8 @@ references [achievement_reward](../world/achievement_reward#id)
 &nbsp;
 
 ### Locale
-[Localization](/how-to/localization):
-| Locale | Name |
-| :---: | :---: |
-| koKR | Korean|
-| frFR | French|
-| deDE | German|
-| zhCN | Chinese |
-| zhTW | Taiwanese |
-| esES | Spanish (EU) |
-| esMX | Spanish (Latin American) |
-| ruRU | Russian |
-{.dense}
+
+<!--@include: @/partial/335/localization.md-->
 
 &nbsp;
 
@@ -46,4 +36,3 @@ This is the subject of the mail that you receive.
 ### Body
 This is the text of the body of that mail that you receive.
 &nbsp;
-

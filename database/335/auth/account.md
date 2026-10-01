@@ -154,17 +154,16 @@ The locale used by the client logged into this account. If multiple locale data 
 
 See [Localization](/how-to/localization):
 | ID | Name |
-|----|------|
+| --- | --- |
 | 0 | English |
 | 1 | Korean |
 | 2 | French |
 | 3 | German |
-| 4 | Chinese |
-| 5 | Taiwanese |
+| 4 | Chinese (Simplified) |
+| 5 | Chinese (Traditional) |
 | 6 | Spanish (EU) |
 | 7 | Spanish (Latin America) |
 | 8 | Russian |
-{.dense}
 
 &nbsp;
 

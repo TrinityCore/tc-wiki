@@ -25,18 +25,8 @@ This entry must be the same as [creature_template.entry](/database/335/world/cre
 &nbsp;
 
 ### locale
-[Localization](/how-to/localization):
-| locale | Name |
-| :---: | :---: |
-|deDE|German|
-|esES|Spanish (EU)|
-|esMX|Spanish (Latin America)|
-|frFR|French|
-|koKR|Korean|
-|ruRU|Russian|
-|zhCN|Chinese (China)|
-|zhTW|Chinese (Taiwan/Traditional)|
-{.dense}
+
+<!--@include: @/partial/335/localization.md-->
 
 &nbsp;
 
@@ -59,4 +49,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
-

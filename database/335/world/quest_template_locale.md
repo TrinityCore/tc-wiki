@@ -32,18 +32,8 @@ dateCreated: 2021-08-30T22:08:37.006Z
 &nbsp;
 
 ### locale
-[Localization](/how-to/localization):
-| locale | Name |
-| :---: | :---: |
-| koKR | Korean|
-| frFR | French|
-| deDE | German|
-| zhCN | Chinese |
-| zhTW | Taiwanese |
-| esES | Spanish (EU) |
-| esMX | Spanish (Latin American) |
-| ruRU | Russian |
-{.dense}
+
+<!--@include: @/partial/335/localization.md-->
 
 &nbsp;
 
@@ -86,4 +76,3 @@ localization of [QuestCompletionLog](/database/335/world/quest_template#questcom
 ### VerifiedBuild
 *- no description -*
 &nbsp;
-
