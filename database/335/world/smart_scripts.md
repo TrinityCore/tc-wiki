@@ -252,17 +252,9 @@ SMART_EVENT_SPELLHIT (8)
 * **event_param1**:
 [Spell ID](/files/DBC/335/spell#id)
 * **event_param2**:
-[`enum SpellSchools`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L303-L313) (`0`: any)
-  | Value | Flag | Name |
-  |-------|------|------|
-  | 1 | 0x01 | SPELL_SCHOOL_NORMAL |
-  | 2 | 0x02 | SPELL_SCHOOL_HOLY |
-  | 4 | 0x04 | SPELL_SCHOOL_FIRE |
-  | 8 | 0x08 | SPELL_SCHOOL_NATURE |
-  | 16 | 0x10 | SPELL_SCHOOL_FROST |
-  | 32 | 0x20 | SPELL_SCHOOL_SHADOW |
-  | 64 | 0x40 | SPELL_SCHOOL_ARCANE |
-  {.dense}
+(`0`: any SpellSchool)
+<!--@include: @/partial/335/spell-schools.md{28,37}-->
+
 * **event_param3**:
 CooldownMin (in msec.)
 * **event_param4**:
@@ -724,17 +716,9 @@ SMART_EVENT_SPELLHIT_TARGET (31)
 * **event_param1**:
 [Spell ID](/files/DBC/335/spell#id)
 * **event_param2**:
-[`enum SpellSchools`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L303-L313) or `0` (any SpellSchool)
-  | Value | Flag | Name |
-  |-------|------|------|
-  | 1 | 0x01 | SPELL_SCHOOL_NORMAL |
-  | 2 | 0x02 | SPELL_SCHOOL_HOLY |
-  | 4 | 0x04 | SPELL_SCHOOL_FIRE |
-  | 8 | 0x08 | SPELL_SCHOOL_NATURE |
-  | 16 | 0x10 | SPELL_SCHOOL_FROST |
-  | 32 | 0x20 | SPELL_SCHOOL_SHADOW |
-  | 64 | 0x40 | SPELL_SCHOOL_ARCANE |
-  {.dense}
+(`0`: any SpellSchool)
+<!--@include: @/partial/335/spell-schools.md{28,37}-->
+
 * **event_param3**:
 CooldownMin (in msec.)
 * **event_param4**:

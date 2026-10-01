@@ -520,17 +520,9 @@ The maximum primary damage of the item.
 &nbsp;
 
 ### dmg_type1
-primary damage school (see `enum SpellSchool`)
-| ID | Name |
-|----|------|
-| 0 | SPELL_SCHOOL_NORMAL |
-| 1 | SPELL_SCHOOL_HOLY |
-| 2 | SPELL_SCHOOL_FIRE |
-| 3 | SPELL_SCHOOL_NATURE |
-| 4 | SPELL_SCHOOL_FROST |
-| 5 | SPELL_SCHOOL_SHADOW |
-| 6 | SPELL_SCHOOL_ARCANE |
-{.dense}
+primary damage school
+
+<!--@include: @/partial/335/spell-schools.md{3,12}-->
 
 &nbsp;
 

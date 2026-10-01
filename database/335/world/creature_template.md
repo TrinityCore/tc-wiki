@@ -236,16 +236,8 @@ The rank of the creature:
 
 ### dmgschool
 Creature's melee damage school.
-| Value | Name |
-|-------|------|
-| 0 | SPELL_SCHOOL_NORMAL |
-| 1 | SPELL_SCHOOL_HOLY |
-| 2 | SPELL_SCHOOL_FIRE |
-| 3 | SPELL_SCHOOL_NATURE |
-| 4 | SPELL_SCHOOL_FROST |
-| 5 | SPELL_SCHOOL_SHADOW |
-| 6 | SPELL_SCHOOL_ARCANE |
-{.dense}
+
+<!--@include: @/partial/335/spell-schools.md{3,12}-->
 
 &nbsp;
 
@@ -577,16 +569,8 @@ To combine immunities just add values. Immune to everything corresponds to the v
 
 ### spell_school_immune_mask
 This makes the creature immune to spell from specific schools.
-| Value | Flag | Name |
-|-------|------|
-| 1 | 0x01 | SPELL_SCHOOL_NORMAL |
-| 2 | 0x02 | SPELL_SCHOOL_HOLY |
-| 4 | 0x04 | SPELL_SCHOOL_FIRE |
-| 8 | 0x08 | SPELL_SCHOOL_NATURE |
-| 16 | 0x10 | SPELL_SCHOOL_FROST |
-| 32 | 0x20 | SPELL_SCHOOL_SHADOW |
-| 64 | 0x40 | SPELL_SCHOOL_ARCANE |
-{.dense}
+
+<!--@include: @/partial/335/spell-schools.md{28,37}-->
 
 &nbsp;
 
@@ -642,4 +626,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -[Client Build](/database/335/auth/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
-

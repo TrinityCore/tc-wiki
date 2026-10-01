@@ -40,16 +40,7 @@ The [Spell ID](/files/DBC/335/spell#id) that is capable to proc on an event. (Ca
 ### SchoolMask
 This field contains a bitmask that controls on what types of spells can trigger the proc. For example if an aura procs only when the unit it is casted upon is hit by shadow spells ([spell 34914](https://aowow.trinitycore.info/?spell=34914)).
 
-| Value | Flag | Name |
-|-------|------|------|
-| 1 | 0x01 | SPELL_SCHOOL_NORMAL |
-| 2 | 0x02 | SPELL_SCHOOL_HOLY |
-| 4 | 0x04 | SPELL_SCHOOL_FIRE |
-| 8 | 0x08 | SPELL_SCHOOL_NATURE |
-| 16 | 0x10 | SPELL_SCHOOL_FROST |
-| 32 | 0x20 | SPELL_SCHOOL_SHADOW |
-| 64 | 0x40 | SPELL_SCHOOL_ARCANE |
-{.dense}
+<!--@include: @/partial/335/spell-schools.md{28,37}-->
 
 &nbsp;
 

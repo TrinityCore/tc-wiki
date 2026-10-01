@@ -109,17 +109,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 see **Effect**
 
 __**Effect** = ITEM_ENCHANTMENT_TYPE_RESISTANCE (4)__
-[`enum SpellSchools`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L303-L313)
-| ID | Name |
-|----|------|
-| 0 | SPELL_SCHOOL_NORMAL |
-| 1 | SPELL_SCHOOL_HOLY |
-| 2 | SPELL_SCHOOL_FIRE |
-| 3 | SPELL_SCHOOL_NATURE |
-| 4 | SPELL_SCHOOL_FROST |
-| 5 | SPELL_SCHOOL_SHADOW |
-| 6 | SPELL_SCHOOL_ARCANE |
-{.dense}
+<!--@include: @/partial/335/spell-schools.md{3,12}-->
 
 __**Effect** = ITEM_ENCHANTMENT_TYPE_STAT (5)__
 [`enum ItemModType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Item/ItemTemplate.h#L28-L74)
@@ -206,4 +196,3 @@ Effect activation condition.
 
 *- no description -*
 &nbsp;
-
