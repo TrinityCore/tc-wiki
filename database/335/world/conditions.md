@@ -741,6 +741,8 @@ true if player has title
 CONDITION_SPAWNMASK (19)
 * **ConditionValue1**:
 [creature spawnMask](/database/335/world/creature#spawnmask) or [gameobject spawnMask](/database/335/world/gameobject#spawnmask)
+<!--@include: @/partial/335/spawn-mask.md-->
+
 * **ConditionValue2**:
 `0`
 * **ConditionValue3**:
