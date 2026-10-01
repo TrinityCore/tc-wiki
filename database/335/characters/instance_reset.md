@@ -29,17 +29,11 @@ dateCreated: 2021-08-30T22:01:24.380Z
 &nbsp;
 
 ### difficulty
-| ID | Name |
-|----|------|
-| 0 | RAID_DIFFICULTY_10MAN_NORMAL / DUNGEON_DIFFICULTY_NORMAL |
-| 1 | RAID_DIFFICULTY_25MAN_NORMAL / DUNGEON_DIFFICULTY_HEROIC |
-| 2 | RAID_DIFFICULTY_10MAN_HEROIC |
-| 3 | RAID_DIFFICULTY_25MAN_HEROIC |
-{.dense}
+
+<!--@include: @/partial/335/difficulty.md-->
 
 &nbsp;
 
 ### resettime
 Unix timestamp when this instance (map) will be reset.
 &nbsp;
-

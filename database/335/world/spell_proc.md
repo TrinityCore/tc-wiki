@@ -40,39 +40,14 @@ The [Spell ID](/files/DBC/335/spell#id) that is capable to proc on an event. (Ca
 ### SchoolMask
 This field contains a bitmask that controls on what types of spells can trigger the proc. For example if an aura procs only when the unit it is casted upon is hit by shadow spells ([spell 34914](https://aowow.trinitycore.info/?spell=34914)).
 
-| Value | Flag | Name |
-|-------|------|------|
-| 1 | 0x01 | SPELL_SCHOOL_NORMAL |
-| 2 | 0x02 | SPELL_SCHOOL_HOLY |
-| 4 | 0x04 | SPELL_SCHOOL_FIRE |
-| 8 | 0x08 | SPELL_SCHOOL_NATURE |
-| 16 | 0x10 | SPELL_SCHOOL_FROST |
-| 32 | 0x20 | SPELL_SCHOOL_SHADOW |
-| 64 | 0x40 | SPELL_SCHOOL_ARCANE |
-{.dense}
+<!--@include: @/partial/335/spell-schools.md{28,37}-->
 
 &nbsp;
 
 ### SpellFamilyName
 This field controls what family name spells can proc the triggered spell.
-| ID | Name | Comment |
-|----|------|---------|
-| 0 | SPELLFAMILY_GENERIC | Generic |
-| 1 | SPELLFAMILY_UNK1 | Unk1 - events, holidays, ...? |
-| 3 | SPELLFAMILY_MAGE | Mage |
-| 4 | SPELLFAMILY_WARRIOR | Warrior |
-| 5 | SPELLFAMILY_WARLOCK | Warlock |
-| 6 | SPELLFAMILY_PRIEST | Priest |
-| 7 | SPELLFAMILY_DRUID | Druid |
-| 8 | SPELLFAMILY_ROGUE | Rogue |
-| 9 | SPELLFAMILY_HUNTER | Hunter |
-| 10 | SPELLFAMILY_PALADIN | Paladin |
-| 11 | SPELLFAMILY_SHAMAN | Shaman |
-| 12 | SPELLFAMILY_UNK2 | Unk2 - Silence resistance? |
-| 13 | SPELLFAMILY_POTION | Potion |
-| 15 | SPELLFAMILY_DEATHKNIGHT | Death Knight |
-| 17 | SPELLFAMILY_PET | Pet |
-{.dense}
+
+<!--@include: @/partial/335/spell-family.md-->
 
 &nbsp;
 
@@ -81,45 +56,11 @@ This field controls what spells' family flags can proc the triggered spell.
 &nbsp;
 
 ### ProcFlags
-If non-zero, used to override the original spell ProcFlags in DBC.
+If non-zero, used to override the original [Spell ProcTypeMask](/files/DBC/335/spell#proctypemask).
 
 A bitmask controlling what events trigger the spell. To combine possible events, add the proc bits together.
-| Value | Flag | Name | Comment |
-|-------|------|------|---------|
-| 1 | 0x00000001 | PROC_FLAG_KILLED | 00 Killed by agressor - not sure about this flag |
-| 2 | 0x00000002 | PROC_FLAG_KILL | 01 Kill target (in most cases need XP/Honor reward) |
-| 4 | 0x00000004 | PROC_FLAG_DONE_MELEE_AUTO_ATTACK | 02 Done melee auto attack |
-| 8 | 0x00000008 | PROC_FLAG_TAKEN_MELEE_AUTO_ATTACK | 03 Taken melee auto attack |
-| 16 | 0x00000010 | PROC_FLAG_DONE_SPELL_MELEE_DMG_CLASS | 04 Done attack by Spell that has dmg class melee |
-| 32 | 0x00000020 | PROC_FLAG_TAKEN_SPELL_MELEE_DMG_CLASS | 05 Taken attack by Spell that has dmg class melee |
-| 64 | 0x00000040 | PROC_FLAG_DONE_RANGED_AUTO_ATTACK | 06 Done ranged auto attack |
-| 128 | 0x00000080 | PROC_FLAG_TAKEN_RANGED_AUTO_ATTACK | 07 Taken ranged auto attack |
-| 256 | 0x00000100 | PROC_FLAG_DONE_SPELL_RANGED_DMG_CLASS | 08 Done attack by Spell that has dmg class ranged |
-| 512 | 0x00000200 | PROC_FLAG_TAKEN_SPELL_RANGED_DMG_CLASS | 09 Taken attack by Spell that has dmg class ranged |
-| 1024 | 0x00000400 | PROC_FLAG_DONE_SPELL_NONE_DMG_CLASS_POS | 10 Done positive spell that has dmg class none |
-| 2048 | 0x00000800 | PROC_FLAG_TAKEN_SPELL_NONE_DMG_CLASS_POS | 11 Taken positive spell that has dmg class none |
-| 4096 | 0x00001000 | PROC_FLAG_DONE_SPELL_NONE_DMG_CLASS_NEG | 12 Done negative spell that has dmg class none |
-| 8192 | 0x00002000 | PROC_FLAG_TAKEN_SPELL_NONE_DMG_CLASS_NEG | 13 Taken negative spell that has dmg class none |
-| 16384 | 0x00004000 | PROC_FLAG_DONE_SPELL_MAGIC_DMG_CLASS_POS | 14 Done positive spell that has dmg class magic |
-| 32768 | 0x00008000 | PROC_FLAG_TAKEN_SPELL_MAGIC_DMG_CLASS_POS | 15 Taken positive spell that has dmg class magic |
-| 65536 | 0x00010000 | PROC_FLAG_DONE_SPELL_MAGIC_DMG_CLASS_NEG | 16 Done negative spell that has dmg class magic |
-| 131072 | 0x00020000 | PROC_FLAG_TAKEN_SPELL_MAGIC_DMG_CLASS_NEG | 17 Taken negative spell that has dmg class magic |
-| 262144 | 0x00040000 | PROC_FLAG_DONE_PERIODIC | 18 Successful do periodic (damage / healing) |
-| 524288 | 0x00080000 | PROC_FLAG_TAKEN_PERIODIC | 19 Taken spell periodic (damage / healing) |
-| 1048576 | 0x00100000 | PROC_FLAG_TAKEN_DAMAGE | 20 Taken any damage |
-| 2097152 | 0x00200000 | PROC_FLAG_DONE_TRAP_ACTIVATION | 21 On trap activation (possibly needs name change to ON_GAMEOBJECT_CAST or USE) |
-| 4194304 | 0x00400000 | PROC_FLAG_DONE_MAINHAND_ATTACK | 22 Done main-hand melee attacks (spell and autoattack) |
-| 8388608 | 0x00800000 | PROC_FLAG_DONE_OFFHAND_ATTACK | 23 Done off-hand melee attacks (spell and autoattack) |
-| 16777216 | 0x01000000 | PROC_FLAG_DEATH | 24 Died in any way |
-|  ||||
-| 204 | 0x000000CC | AUTO_ATTACK_PROC_FLAG_MASK | Any auto attack |
-| 12582972 | 0x00C0003C | MELEE_PROC_FLAG_MASK | Any melee attack |
-| 960 | 0x000003C0 | RANGED_PROC_FLAG_MASK | Any ranged attack |
-| 3145712 | 0x002FFFF0 | SPELL_PROC_FLAG_MASK | Any spell attack |
-| 15029588 | 0x00E55554 | DONE_HIT_PROC_FLAG_MASK | Any dealt attack |
-| 1747624 | 0x001AAAA8 | TAKEN_HIT_PROC_FLAG_MASK | Any taken attack |
-| 2446672 | 0x00255550 | REQ_SPELL_PHASE_PROC_FLAG_MASK |  |
-{.dense}
+
+<!--@include: @/partial/335/proc-flags.md-->
 
 &nbsp;
 
@@ -148,24 +89,7 @@ At which phase may the spell trigger the proc. Normally only one of them is used
 
 ### HitMask
 Used to add special conditions to spells, some spells might trigger only on critical strikes, for example.
-| Value | Flag | Name | Comment |
-|-------|------|------|---------|
-| 0 | 0x0000 | PROC_HIT_NONE | procs on:<br>PROC_HIT_NORMAL \| PROC_HIT_CRITICAL for TAKEN proc type<br>PROC_HIT_NORMAL \| PROC_HIT_CRITICAL \| PROC_HIT_ABSORB for DONE |
-| 1 | 0x0001 | PROC_HIT_NORMAL | non-critical hits |
-| 2 | 0x0002 | PROC_HIT_CRITICAL |  |
-| 4 | 0x0004 | PROC_HIT_MISS |  |
-| 8 | 0x0008 | PROC_HIT_FULL_RESIST |  |
-| 16 | 0x0010 | PROC_HIT_DODGE |  |
-| 32 | 0x0020 | PROC_HIT_PARRY |  |
-| 64 | 0x0040 | PROC_HIT_BLOCK | partial or full block |
-| 128 | 0x0080 | PROC_HIT_EVADE |  |
-| 256 | 0x0100 | PROC_HIT_IMMUNE |  |
-| 512 | 0x0200 | PROC_HIT_DEFLECT |  |
-| 1024 | 0x0400 | PROC_HIT_ABSORB | partial or full absorb |
-| 2048 | 0x0800 | PROC_HIT_REFLECT |  |
-| 4096 | 0x1000 | PROC_HIT_INTERRUPT |  |
-| 8192 | 0x2000 | PROC_HIT_FULL_BLOCK |  |
-{.dense}
+<!--@include: @/partial/335/proc-flags-hit.md-->
 
 &nbsp;
 
@@ -185,12 +109,7 @@ Adds special behaviour to the proc, spell might trigger proc only if these condi
 
 ### DisableEffectsMask
 Disable proc on spell effect index (bitmask)
-| Value | Flag | Name |
-|-------|------|------|
-| 1 | 0x01 | EFFECT_1 |
-| 2 | 0x02 | EFFECT_2 |
-| 4 | 0x04 | EFFECT_3 |
-{.dense}
+<!--@include: @/partial/335/spell-effect-index.md-->
 
 &nbsp;
 
@@ -212,4 +131,3 @@ Define hidden cooldowns on the spell, in milliseconds. Also known as the proc's 
 The amount of aura charges available to proc.
 If 0, the default value from [Spell ProcCharges](/files/DBC/335/spell#proccharges) is used.
 &nbsp;
-

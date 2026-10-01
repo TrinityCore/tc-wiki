@@ -36,23 +36,10 @@ excerpt:
 
 ### RaceId
 A [ChrRace ID](/files/DBC/335/chrraces#id) that should use the given **DisplayId** for this **TotemSlot**.
-| ID | Name      |
-|----|-----------|
-|  1 | Human     |
-|  2 | Orc       |
-|  3 | Dwarf     |
-|  4 | Night Elf |
-|  5 | Undead    |
-|  6 | Tauren    |
-|  7 | Gnome     |
-|  8 | Troll     |
-| 10 | Blood Elf |
-| 11 | Draenei   |
-{.dense}
+<!--@include: @/partial/335/chrraces.md{3,9}-->
 
 &nbsp;
 
 ### DisplayId
 references [CreatureDisplayInfo ID](/files/DBC/335/creaturedisplayinfo#id)
 &nbsp;
-

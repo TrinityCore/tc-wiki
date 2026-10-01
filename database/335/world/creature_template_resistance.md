@@ -27,15 +27,8 @@ references [creature_template.entry](../world/creature_template#entry)
 
 ### School
 The spell school the creature is resistant to.
-| Value | Name |
-|-------|------|
-| 1 | SPELL_SCHOOL_HOLY |
-| 2 | SPELL_SCHOOL_FIRE |
-| 3 | SPELL_SCHOOL_NATURE |
-| 4 | SPELL_SCHOOL_FROST |
-| 5 | SPELL_SCHOOL_SHADOW |
-| 6 | SPELL_SCHOOL_ARCANE |
-{.dense}
+
+<!--@include: @/partial/335/spell-schools.md{16,24}-->
 
 &nbsp;
 
@@ -54,5 +47,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -[Client Build](/database/335/auth/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
-
-

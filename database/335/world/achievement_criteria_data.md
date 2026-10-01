@@ -120,12 +120,8 @@ The minimum level of the target.
 #### Target&nbsp;Gender (10)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_T_GENDER**
 * **value1**:
-[`enum Gender`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L75-L80)
-  |--|--|
-  | GENDER_MALE | 0 |
-  | GENDER_FEMALE | 1 |
-  | GENDER_NONE | 2 |
-  {.dense}
+<!--@include: @/partial/335/gender.md-->
+
 * **value2**:
 `0`
 
@@ -141,14 +137,8 @@ The minimum level of the target.
 #### Map&nbsp;Difficulty (12)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_MAP_DIFFICULTY**
 * **value1**:
-  [`enum Difficulty`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/DataStores/DBCEnums.h#L278-L290)
-  | Raid | Dungeon | Value |
-  |--|--|:-:|
-  | RAID_DIFFICULTY_10MAN_NORMAL | DUNGEON_DIFFICULTY_NORMAL | 0 |
-  | RAID_DIFFICULTY_25MAN_NORMAL | DUNGEON_DIFFICULTY_HEROIC | 1 |
-  | RAID_DIFFICULTY_10MAN_HEROIC |  | 2 |
-  | RAID_DIFFICULTY_25MAN_HEROIC |  | 3 |
-  {.dense}
+<!--@include: @/partial/335/difficulty.md-->
+
 * **value2**:
 `0`
 
@@ -165,11 +155,8 @@ count
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_T_TEAM**
 * **value1**:
 The target must be on this team: 
-  [`enum Team`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L792-L802)
-  |--|--|
-  | ALLIANCE | 469 |
-  | HORDE | 67 |
-  {.dense}
+<!--@include: @/partial/335/team.md-->
+
 * **value2**:
 `0`
 
@@ -273,4 +260,3 @@ known (pvp) title
 ### ScriptName
 The ScriptName for when scripting it in the core.
 &nbsp;
-

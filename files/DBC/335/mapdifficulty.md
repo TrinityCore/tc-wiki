@@ -62,14 +62,7 @@ dateCreated: 2023-10-04T08:05:33.608Z
 <code>Col: 2 (uint32)</code>
 
 for arenas: arena slot
- [`enum Difficulty`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/DataStores/DBCEnums.h#L278-L290)
-| ID | Name |
-|----|------|
-| 0 | RAID_DIFFICULTY_10MAN_NORMAL / DUNGEON_DIFFICULTY_NORMAL |
-| 1 | RAID_DIFFICULTY_25MAN_NORMAL / DUNGEON_DIFFICULTY_HEROIC |
-| 2 | RAID_DIFFICULTY_10MAN_HEROIC |
-| 3 | RAID_DIFFICULTY_25MAN_HEROIC |
-{.dense}
+<!--@include: @/partial/335/difficulty.md-->
 
 &nbsp;
 
@@ -96,4 +89,3 @@ Instance lockout period in seconds.
 
 found in `/Interface/GlueXML/GlobalStrings.lua`
 &nbsp;
-

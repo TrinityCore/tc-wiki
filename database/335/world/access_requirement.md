@@ -34,9 +34,9 @@ The [Map ID](/files/DBC/335/map#id) of the instance.
 &nbsp;
 
 ### difficulty
-5 man dungeons - 0 for normal, 1 for heroic, 2 for epic (not used yet)
-10 man dungeons - 0 for normal, 2 for heroic
-25 man dungeons - 1 for normal, 3 for heroic
+
+<!--@include: @/partial/335/difficulty.md-->
+
 &nbsp;
 
 ### level_min
@@ -48,10 +48,10 @@ The maximum level that you can be in order to enter the instance.
 &nbsp;
 
 ### item_level
-The at least required item level for a instance.
- * All WotLK Heroics require at least an average item level of 180.
- * Trial of the Champion, Pit of Saron, and the Forge of Souls require an average item level of 200.
- * Halls of Reflection requires an average item level of 219.
+The minimum average item level required to enter
+ * 219 for Halls of Reflection.
+ * 200 for Trial of the Champion, Pit of Saron and The Forge of Souls.
+ * 180 for all other WotLK Heroic Dungeons.
 &nbsp;
 
 ### item
@@ -81,4 +81,3 @@ The text that is shown if you try and enter the instance without having complete
 ### comment
 This field is for any comment you want to make about the requirements. It is arbitrary text.
 &nbsp;
-

@@ -31,24 +31,8 @@ Name to be displayed
 &nbsp;
 
 ### InventoryType
-from [`enum InventoryType`](https://github.com/TrinityCore/TrinityCore/tree/3.3.5/src/server/game/Entities/Item/ItemTemplate.h)
-| ID | Name |   | ID | Name |
-|----|------|---|----|------|
-| 1 | INVTYPE_HEAD | | 15 | INVTYPE_RANGED |
-| 2 | INVTYPE_NECK | | 16 | INVTYPE_CLOAK |
-| 3 | INVTYPE_SHOULDERS | | 17 | INVTYPE_2HWEAPON |
-| 4 | INVTYPE_BODY | | 18 | INVTYPE_BAG |
-| 5 | INVTYPE_CHEST | | 19 | INVTYPE_TABARD |
-| 6 | INVTYPE_WAIST | | 20 | INVTYPE_ROBE |
-| 7 | INVTYPE_LEGS | | 21 | INVTYPE_WEAPONMAINHAND |
-| 8 | INVTYPE_FEET | | 22 | INVTYPE_WEAPONOFFHAND |
-| 9 | INVTYPE_WRISTS | | 23 | INVTYPE_HOLDABLE |
-| 10 | INVTYPE_HANDS | | 24 | INVTYPE_AMMO |
-| 11 | INVTYPE_FINGER | | 25 | INVTYPE_THROWN |
-| 12 | INVTYPE_TRINKET | | 26 | INVTYPE_RANGEDRIGHT |
-| 13 | INVTYPE_WEAPON | | 27 | INVTYPE_QUIVER |
-| 14 | INVTYPE_SHIELD | | 28 | INVTYPE_RELIC |
-{.dense}
+
+<!--@include: @/partial/335/inventory-type.md-->
 
 &nbsp;
 
@@ -63,4 +47,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -[Client Build](/database/335/auth/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
-

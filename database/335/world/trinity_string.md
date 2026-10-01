@@ -43,16 +43,14 @@ The english string.
 Localized version of **content_default**. The field index refers to a locale. (see [Localization](/how-to/localization))
 
 | idx | Name |
-|-----|------|
+| --- | --- |
 | 1 | Korean |
 | 2 | French |
 | 3 | German |
-| 4 | Chinese |
-| 5 | Taiwanese |
+| 4 | Chinese (Simplified) |
+| 5 | Chinese (Traditional) |
 | 6 | Spanish (EU) |
 | 7 | Spanish (Latin America) |
 | 8 | Russian |
-{.dense}
 
 &nbsp;
-

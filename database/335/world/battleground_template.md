@@ -31,24 +31,8 @@ Contains information about the different battlegrounds, like how many players ar
 ## Description of fields
 
 ### ID {#id-alt}
-references [BattlemasterList ID](/files/DBC/335/battlemasterlist#id)
 
-| ID | Type |
-|----|------|
-| 1 | Alterac Valley |
-| 2 | Warsong Gulch |
-| 3 | Arathi Basin |
-| 4 | Nagrand Arena |
-| 5 | Blade's Edge Arena |
-| 6 | All Arena |
-| 7 | Eye of the Storm |
-| 8 | Ruins of Lordaeron |
-| 9 | Strand of the Ancients |
-| 10 | Dalaran Sewers |
-| 11 | The Ring of Valor |
-| 30 | Isle of Conquest |
-| 32 | Random battleground |
-{.dense}
+<!--@include: @/partial/335/battlemaster-list.md-->
 
 &nbsp;
 
@@ -105,4 +89,3 @@ For example: If you want AV to be less often chosen, give 2 and for all other gi
 ### Comment
 This field is for any comment you want to make. It is arbitrary text.
 &nbsp;
-

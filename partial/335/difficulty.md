@@ -1,0 +1,7 @@
+[`enum Difficulty`](https://github.com/TrinityCore/TrinityCore/blob/e490cad2b0cb538c554006a7a8842b39f7ca143e/src/server/shared/DataStores/DBCEnums.h#L278-L290)
+| Value | Name |
+| --- | --- |
+| 0 | RAID_DIFFICULTY_10MAN_NORMAL / DUNGEON_DIFFICULTY_NORMAL / REGULAR_DIFFICULTY |
+| 1 | RAID_DIFFICULTY_25MAN_NORMAL / DUNGEON_DIFFICULTY_HEROIC |
+| 2 | RAID_DIFFICULTY_10MAN_HEROIC |
+| 3 | RAID_DIFFICULTY_25MAN_HEROIC |

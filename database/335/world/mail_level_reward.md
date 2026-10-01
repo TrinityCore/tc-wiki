@@ -27,19 +27,7 @@ Level required for receiving specific mail
 
 ### raceMask
 Players race must match mask to receive mail.
-| Value | Flag | Name |
-|-------|------|------|
-|     1 | 0x0001 | Human     |
-|     2 | 0x0002 | Orc       |
-|     4 | 0x0004 | Dwarf     |
-|     8 | 0x0008 | Night Elf |
-|    16 | 0x0010 | Undead    |
-|    32 | 0x0020 | Tauren    |
-|    64 | 0x0040 | Gnome     |
-|   128 | 0x0080 | Troll     |
-|   512 | 0x0200 | Blood Elf |
-|  1024 | 0x0400 | Draenei   |
-{.dense}
+<!--@include: @/partial/335/chrraces.md{13,}-->
 
 &nbsp;
 
@@ -50,4 +38,3 @@ Players race must match mask to receive mail.
 ### senderEntry
 [creature_template.entry](../world/creature_template#entry) used as source of the mail.
 &nbsp;
-

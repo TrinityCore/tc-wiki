@@ -51,16 +51,8 @@ reference_loot_template entry
 &nbsp;
 
 ### LootMode
-[`enum LootModes`](https://github.com/TrinityCore/TrinityCore/blob/e757e8979d618d3672fcdcdd00411a1f632c6298/src/server/shared/SharedDefines.h#L41-L49)
-| Value | Name |
-|-------|------|
-| 0x0001 | LOOT_MODE_DEFAULT |
-| 0x0002 | LOOT_MODE_HARD_MODE_1 |
-| 0x0004 | LOOT_MODE_HARD_MODE_2 |
-| 0x0008 | LOOT_MODE_HARD_MODE_3 |
-| 0x0010 | LOOT_MODE_HARD_MODE_4 |
-| 0x8000 | LOOT_MODE_JUNK_FISH |
-{.dense}
+
+<!--@include: @/partial/335/loot-modes.md-->
 
 &nbsp;
 
@@ -82,4 +74,3 @@ if Reference > 0, then creature_loot_template.GroupId must equal reference_loot_
 ### Comment
 *- no description -*
 &nbsp;
-

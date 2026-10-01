@@ -31,9 +31,8 @@ Name of the channel.
 &nbsp;
 
 ### team
-Allow access to channel from specified player faction. [Faction ID](/files/DBC/335/faction#id), but only the two are in use:
-* 67: Horde
-* 469: Alliance
+Allow access to channel from specified player faction.
+<!--@include: @/partial/335/team.md-->
 
 If config setting `AllowTwoSide.Interaction.Channel` is enabled, the Alliance channel is used for both and **team** is ignored.
 
@@ -66,4 +65,3 @@ List of banned player names, separated by spaces
 ### lastUsed
 Used for automated cleaning of unused channels from database. Time is in unixtime.
 &nbsp;
-

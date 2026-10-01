@@ -29,18 +29,8 @@ dateCreated: 2021-08-30T22:05:44.625Z
 &nbsp;
 
 ### Locale
-[Localization](/how-to/localization):
-| Locale | Name |
-| :---: | :---: |
-| koKR | Korean|
-| frFR | French|
-| deDE | German|
-| zhCN | Chinese |
-| zhTW | Taiwanese |
-| esES | Spanish (EU) |
-| esMX | Spanish (Latin American) |
-| ruRU | Russian |
-{.dense}
+
+<!--@include: @/partial/335/localization.md-->
 
 &nbsp;
 
@@ -51,4 +41,3 @@ dateCreated: 2021-08-30T22:05:44.625Z
 ### BoxText
 *- no description -*
 &nbsp;
-

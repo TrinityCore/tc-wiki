@@ -70,15 +70,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 ### InstanceType
 <code>Col: 9 (uint32)</code>
 
-[`enum MapTypes`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/DataStores/DBCEnums.h#L333-L340)
-| ID | Name | Comment |
-|----|------|---------|
-| 0 | MAP_COMMON | none |
-| 1 | MAP_INSTANCE | party |
-| 2 | MAP_RAID | raid |
-| 3 | MAP_BATTLEGROUND | pvp |
-| 4 | MAP_ARENA | arena |
-{.dense}
+<!--@include: @/partial/335/map-types.md-->
 
 &nbsp;
 
@@ -117,4 +109,3 @@ Used for checking if queue as group.
 
 *- no description -*
 &nbsp;
-

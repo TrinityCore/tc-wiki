@@ -54,15 +54,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 ### StatID
 <code>Col: 1 &ndash; 10 (int32)</code>
 
-[`enum Stats`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L275-L283)
-| ID | Name |
-|----|------|
-| 0 | STAT_STRENGTH |
-| 1 | STAT_AGILITY |
-| 2 | STAT_STAMINA |
-| 3 | STAT_INTELLECT |
-| 4 | STAT_SPIRIT |
-{.dense}
+<!--@include: @/partial/335/stats.md-->
 
 &nbsp;
 
@@ -77,4 +69,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

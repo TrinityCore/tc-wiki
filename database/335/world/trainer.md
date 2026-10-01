@@ -33,36 +33,12 @@ The trainer type dictates the **Requirement**, if any (0 for no **Requirement**)
 #### Type::Class (0)
 **Trainer::Type::Class**
 [ChrClass ID](/files/DBC/335/chrclasses#id) or `0`
-| Requirement | Description |
-|-------------|-------------|
-| 1 | Warrior |
-| 2 | Paladin |
-| 3 | Hunter |
-| 4 | Rogue |
-| 5 | Priest |
-| 6 | Death Knight |
-| 7 | Shaman |
-| 8 | Mage |
-| 9 | Warlock |
-| 11 | Druid |
-{.dense}
+<!--@include: @/partial/335/chrclasses.md{3,9}-->
 
 #### Type::Mount (1)
 **Trainer::Type::Mount**
 [ChrRace ID](/files/DBC/335/chrraces#id) or `0`
-| Requirement | Description |
-|-------------|-------------|
-| 1 | Human |
-| 2 | Orc |
-| 3 | Dwarf |
-| 4 | Night Elf |
-| 5 | Undead |
-| 6 | Tauren |
-| 7 | Gnome |
-| 8 | Troll |
-| 10 | Blood Elf |
-| 11 | Draenei |
-{.dense}
+<!--@include: @/partial/335/chrraces.md{3,9}-->
 
 #### Type::Tradeskill (2)
 **Trainer::Type::Tradeskill**
@@ -73,19 +49,7 @@ The player must know this spell to learn from this trainer.
 #### Type::Pet (3)
 **Trainer::Type::Pet**
 [ChrClass ID](/files/DBC/335/chrclasses#id) or `0`
-| Requirement | Description |
-|-------------|-------------|
-| 1 | Warrior |
-| 2 | Paladin |
-| 3 | Hunter |
-| 4 | Rogue |
-| 5 | Priest |
-| 6 | Death Knight |
-| 7 | Shaman |
-| 8 | Mage |
-| 9 | Warlock |
-| 11 | Druid |
-{.dense}
+<!--@include: @/partial/335/chrclasses.md{3,9}-->
 
 ### EndTabset {.tabset}
 &nbsp;
@@ -110,4 +74,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 If value is -[Client Build](/database/335/auth/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
 &nbsp;
-

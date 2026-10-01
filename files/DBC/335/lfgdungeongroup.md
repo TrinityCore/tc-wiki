@@ -71,15 +71,6 @@ dateCreated: 2023-10-04T08:05:00.544Z
 ### TypeID
 :x: <code>Col: 20 (uint32)</code>
 
-[`enum LfgType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/DungeonFinding/LFGMgr.h#L67-L74)
-| ID | Name |
-|----|------|
-| 0 | LFG_TYPE_NONE |
-| 1 | LFG_TYPE_DUNGEON |
-| 2 | LFG_TYPE_RAID |
-| 5 | LFG_TYPE_HEROIC |
-| 6 | LFG_TYPE_RANDOM |
-{.dense}
+<!--@include: @/partial/335/lfg-type.md-->
 
 &nbsp;
-

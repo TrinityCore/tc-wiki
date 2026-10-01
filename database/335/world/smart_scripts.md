@@ -252,17 +252,9 @@ SMART_EVENT_SPELLHIT (8)
 * **event_param1**:
 [Spell ID](/files/DBC/335/spell#id)
 * **event_param2**:
-[`enum SpellSchools`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L303-L313) (`0`: any)
-  | Value | Flag | Name |
-  |-------|------|------|
-  | 1 | 0x01 | SPELL_SCHOOL_NORMAL |
-  | 2 | 0x02 | SPELL_SCHOOL_HOLY |
-  | 4 | 0x04 | SPELL_SCHOOL_FIRE |
-  | 8 | 0x08 | SPELL_SCHOOL_NATURE |
-  | 16 | 0x10 | SPELL_SCHOOL_FROST |
-  | 32 | 0x20 | SPELL_SCHOOL_SHADOW |
-  | 64 | 0x40 | SPELL_SCHOOL_ARCANE |
-  {.dense}
+(`0`: any SpellSchool)
+<!--@include: @/partial/335/spell-schools.md{28,37}-->
+
 * **event_param3**:
 CooldownMin (in msec.)
 * **event_param4**:
@@ -724,17 +716,9 @@ SMART_EVENT_SPELLHIT_TARGET (31)
 * **event_param1**:
 [Spell ID](/files/DBC/335/spell#id)
 * **event_param2**:
-[`enum SpellSchools`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L303-L313) or `0` (any SpellSchool)
-  | Value | Flag | Name |
-  |-------|------|------|
-  | 1 | 0x01 | SPELL_SCHOOL_NORMAL |
-  | 2 | 0x02 | SPELL_SCHOOL_HOLY |
-  | 4 | 0x04 | SPELL_SCHOOL_FIRE |
-  | 8 | 0x08 | SPELL_SCHOOL_NATURE |
-  | 16 | 0x10 | SPELL_SCHOOL_FROST |
-  | 32 | 0x20 | SPELL_SCHOOL_SHADOW |
-  | 64 | 0x40 | SPELL_SCHOOL_ARCANE |
-  {.dense}
+(`0`: any SpellSchool)
+<!--@include: @/partial/335/spell-schools.md{28,37}-->
+
 * **event_param3**:
 CooldownMin (in msec.)
 * **event_param4**:
@@ -2238,18 +2222,8 @@ SMART_ACTION_SUMMON_CREATURE (12)
 * **action_param1**:
 [creature entry](../world/creature_template#entry)
 * **action_param2**:
-[`enum TempSummonType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Object/ObjectDefines.h#L59-L69)
-  | ID | Name | Comment |
-  |----|------|---------|
-  | 1 | TEMPSUMMON_TIMED_OR_DEAD_DESPAWN | despawns after a specified time OR when the creature disappears |
-  | 2 | TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN | despawns after a specified time OR when the creature dies |
-  | 3 | TEMPSUMMON_TIMED_DESPAWN | despawns after a specified time |
-  | 4 | TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT | despawns after a specified time after the creature is out of combat |
-  | 5 | TEMPSUMMON_CORPSE_DESPAWN | despawns instantly after death |
-  | 6 | TEMPSUMMON_CORPSE_TIMED_DESPAWN | despawns after a specified time after death |
-  | 7 | TEMPSUMMON_DEAD_DESPAWN | despawns when the creature disappears |
-  | 8 | TEMPSUMMON_MANUAL_DESPAWN | despawns when UnSummon() is called |
-  {.dense}
+<!--@include: @/partial/335/temp-summon-type.md-->
+
 * **action_param3**:
 duration in ms
 * **action_param4**:
@@ -2737,13 +2711,8 @@ Creature draws or puts away it's weapon.
 * **action_type**:
 SMART_ACTION_SET_SHEATH (40)
 * **action_param1**:
-[`enum SheathState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Unit/UnitDefines.h#L96-L103)
-  | ID | Name | Comment |
-  |----|------|---------|
-  | 0 | SHEATH_STATE_UNARMED | non prepared weapon |
-  | 1 | SHEATH_STATE_MELEE | prepared melee weapon |
-  | 2 | SHEATH_STATE_RANGED | prepared ranged weapon |
-  {.dense}
+<!--@include: @/partial/335/unit-bytes2.md{4,9}-->
+
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -4945,18 +4914,7 @@ Commenting on SAI uses a template which is the following:
 
 ---
 ##### PowerType
-[`enum Powers`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L286-L298)
-| ID | Name |
-|----|------|
-| -2 | POWER_HEALTH |
-| 0 | POWER_MANA |
-| 1 | POWER_RAGE |
-| 2 | POWER_FOCUS |
-| 3 | POWER_ENERGY |
-| 4 | POWER_HAPPINESS |
-| 5 | POWER_RUNE |
-| 6 | POWER_RUNIC_POWER |
-{.dense}
+
+<!--@include: @/partial/335/powers.md-->
 
 &nbsp;
-

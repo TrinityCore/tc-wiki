@@ -464,10 +464,13 @@ uint32 maskBit  = 1 << (AreaBit % 32);
 
 ### equipmentCache
 Equipment shown on character login screen.
-Space separated list of "[ItemEntry](../world/item_template#entry) EnchantmentId" pairs. 0 for no item equipped or item not enchanted. [SpellItemEnchantment ID](/files/DBC/335/spellitemenchantment#id).
-Pairs are ordered from EQUIPMENT_SLOT_HEAD (0) to INVENTORY_SLOT_BAG_END-1 (22)
+Space separated list of "[ItemEntry](../world/item_template#entry) [SpellItemEnchantmentID](/files/DBC/335/spellitemenchantment#id)" pairs. 0 for no item equipped or item not enchanted.
+Pairs are ordered from EQUIPMENT_SLOT + INVENTORY_SLOT_BAG (19 + 4 pairs)
 
-e.g.: `headItem headEnchantment neckItem neckEnchant … bag4Item bag4Enchantment`
+<!--@include: @/partial/335/equipment-slots.md-->
+
+
+e.g.: `headItem headEnchantment neckItem neckEnchant … bag3Item 0 bag4Item 0`
 &nbsp;
 
 ### ammoId
@@ -510,4 +513,3 @@ Stores the **name** of character if the character is deleted and and worldserver
 Stores the date when the character was deleted and worldserver.conf [`CharDelete.Method = 1`](/files/configuration/home).
 Will be checked by worldserver against [`CharDelete.KeepDays`](/files/configuration/home) in worldserver.conf. If this value is lower than **deleteDate** + `CharDelete.KeepDays` the character will be purged.
 &nbsp;
-

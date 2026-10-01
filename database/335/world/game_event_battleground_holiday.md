@@ -24,16 +24,7 @@ refers to [game_event.EventEntry](../world/game_event#evententry)
 &nbsp;
 
 ### BattlegroundID
-[BattlemasterList ID](/files/DBC/335/battlemasterlist#id) to apply the event to.
-| ID | Name | | ID | Name |
-|----|------|-|----|------|
-| 1 | Alterac Valley | | 7 | Eye of the Storm |
-| 2 | Warsong Gulch | | 8 | Ruins of Lordaernon |
-| 3 | Arathi Basin | | 9 | Strand of the Ancients |
-| 4 | Nagrand Arena | | 10 | Dalaran Sewers |
-| 5 | Blade's Edge Arena | | 11 | Ring of Valor |
-| 6 | All Arenas | | 30 | Isle of Conquest |
-{.dense}
+
+<!--@include: @/partial/335/battlemaster-list.md-->
 
 &nbsp;
-

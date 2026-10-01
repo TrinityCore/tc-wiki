@@ -93,33 +93,14 @@ dateCreated: 2023-10-04T08:01:51.629Z
 :x: <code>Col: 1 (uint32)</code>
 
 Doesn't work for ChrClass 6?
-[`enum Stats`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L275-L283)
-| ID | Name |
-|----|------|
-| 0 | STAT_STRENGTH |
-| 1 | STAT_AGILITY |
-| 2 | STAT_STAMINA |
-| 3 | STAT_INTELLECT |
-| 4 | STAT_SPIRIT |
-{.dense}
+<!--@include: @/partial/335/stats.md-->
 
 &nbsp;
 
 ### DisplayPower
 <code>Col: 2 (uint32)</code>
 
-[`enum Powers`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L286-L298)
-| ID | Name |
-|----|------|
-| -2 | POWER_HEALTH |
-| 0 | POWER_MANA |
-| 1 | POWER_RAGE |
-| 2 | POWER_FOCUS |
-| 3 | POWER_ENERGY |
-| 4 | POWER_HAPPINESS |
-| 5 | POWER_RUNE |
-| 6 | POWER_RUNIC_POWER |
-{.dense}
+<!--@include: @/partial/335/powers.md-->
 
 &nbsp;
 
@@ -157,25 +138,7 @@ Doesn't work for ChrClass 6?
 ### SpellClassSet
 <code>Col: 56 (uint32)</code>
 
-[`enum SpellFamilyNames`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L3575-L3595)
-| ID | Name | Comment |
-|----|------|---------|
-| 0 | SPELLFAMILY_GENERIC | Generic |
-| 1 | SPELLFAMILY_UNK1 | Unk1 (events, holidays, ...) |
-| 3 | SPELLFAMILY_MAGE | Mage |
-| 4 | SPELLFAMILY_WARRIOR | Warrior |
-| 5 | SPELLFAMILY_WARLOCK | Warlock |
-| 6 | SPELLFAMILY_PRIEST | Priest |
-| 7 | SPELLFAMILY_DRUID | Druid |
-| 8 | SPELLFAMILY_ROGUE | Rogue |
-| 9 | SPELLFAMILY_HUNTER | Hunter |
-| 10 | SPELLFAMILY_PALADIN | Paladin |
-| 11 | SPELLFAMILY_SHAMAN | Shaman |
-| 12 | SPELLFAMILY_UNK2 | Unk2 (Silence resistance?) |
-| 13 | SPELLFAMILY_POTION | Potion |
-| 15 | SPELLFAMILY_DEATHKNIGHT | Death Knight |
-| 17 | SPELLFAMILY_PET | Pet |
-{.dense}
+<!--@include: @/partial/335/spell-family.md-->
 
 &nbsp;
 
@@ -204,8 +167,6 @@ ID from CinematicSequences.dbc
 ### RequiredExpansion
 <code>Col: 59 (uint32)</code>
 
-* 0: Classic
-* 1: BC
-* 2: WotLK
-&nbsp;
+<!--@include: @/partial/335/expansions.md-->
 
+&nbsp;

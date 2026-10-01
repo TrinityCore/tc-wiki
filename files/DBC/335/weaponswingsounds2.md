@@ -36,12 +36,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 ### SwingType
 :x: <code>Col: 0 (uint32)</code>
 
-| ID | Name | Comment |
-|----|------|---------|
-| 0 | WEAPONSWING_LIGHT | Dagger |
-| 1 | WEAPONSWING_MEDIUM | 1H Sword/Axe |
-| 2 | WEAPONSWING_HEAVY | 2H Sword/Axe |
-{.dense}
+<!--@include: @/partial/335/weapon-swing-size.md-->
 
 &nbsp;
 
@@ -56,4 +51,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

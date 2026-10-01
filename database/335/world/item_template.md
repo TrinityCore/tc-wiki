@@ -352,60 +352,20 @@ The price that the vendor will pay you for the item when you sell it and if it i
 &nbsp;
 
 ### InventoryType
-In what slot the item can be equipped. (see [`enum InventoryType`](https://github.com/TrinityCore/TrinityCore/tree/3.3.5/src/server/game/Entities/Item/ItemTemplate.h))
-| ID | Name |   | ID | Name |
-|----|------|---|----|------|
-| 1 | INVTYPE_HEAD | | 15 | INVTYPE_RANGED |
-| 2 | INVTYPE_NECK | | 16 | INVTYPE_CLOAK |
-| 3 | INVTYPE_SHOULDERS | | 17 | INVTYPE_2HWEAPON |
-| 4 | INVTYPE_BODY | | 18 | INVTYPE_BAG |
-| 5 | INVTYPE_CHEST | | 19 | INVTYPE_TABARD |
-| 6 | INVTYPE_WAIST | | 20 | INVTYPE_ROBE |
-| 7 | INVTYPE_LEGS | | 21 | INVTYPE_WEAPONMAINHAND |
-| 8 | INVTYPE_FEET | | 22 | INVTYPE_WEAPONOFFHAND |
-| 9 | INVTYPE_WRISTS | | 23 | INVTYPE_HOLDABLE |
-| 10 | INVTYPE_HANDS | | 24 | INVTYPE_AMMO |
-| 11 | INVTYPE_FINGER | | 25 | INVTYPE_THROWN |
-| 12 | INVTYPE_TRINKET | | 26 | INVTYPE_RANGEDRIGHT |
-| 13 | INVTYPE_WEAPON | | 27 | INVTYPE_QUIVER |
-| 14 | INVTYPE_SHIELD | | 28 | INVTYPE_RELIC |
-{.dense}
+In what slot the item can be equipped.
+<!--@include: @/partial/335/inventory-type.md-->
 
 &nbsp;
 
 ### AllowableClass
 Bitmask of [ChrClass IDs](/files/DBC/335/chrclasses#id) controlling which classes can use this item. Use -1 if all classes can use it.
-| Value | Flag | Name |
-|-------|------|------|
-|     1 | 0x0001 | Warrior      |
-|     2 | 0x0002 | Paladin      |
-|     4 | 0x0004 | Hunter       |
-|     8 | 0x0008 | Rogue        |
-|    16 | 0x0010 | Priest       |
-|    32 | 0x0020 | Death Knight |
-|    64 | 0x0040 | Shaman       |
-|   128 | 0x0080 | Mage         |
-|   256 | 0x0100 | Warlock      |
-|  1024 | 0x0400 | Druid        |
-{.dense}
+<!--@include: @/partial/335/chrclasses.md{13,}-->
 
 &nbsp;
 
 ### AllowableRace
 Bitmask of [ChrRace IDs](/files/DBC/335/chrraces#id) controlling which races can use this item. Use -1 if all races can use it.
-| Value | Flag | Name |
-|-------|------|------|
-|     1 | 0x0001 | Human     |
-|     2 | 0x0002 | Orc       |
-|     4 | 0x0004 | Dwarf     |
-|     8 | 0x0008 | Night Elf |
-|    16 | 0x0010 | Undead    |
-|    32 | 0x0020 | Tauren    |
-|    64 | 0x0040 | Gnome     |
-|   128 | 0x0080 | Troll     |
-|   512 | 0x0200 | Blood Elf |
-|  1024 | 0x0400 | Draenei   |
-{.dense}
+<!--@include: @/partial/335/chrraces.md{13,}-->
 
 &nbsp;
 
@@ -493,32 +453,8 @@ When an item has entries in **stat_type**, this must be updated to display those
 &nbsp;
 
 ### stat_type\[1-10]
-The type of stat to modify. (see [`enum ItemModType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Item/ItemTemplate.h))
-| ID | Name | Comment |  | ID | Name | Comment |
-|----|------|---------|--|----|------|---------|
-| 0 | ITEM_MOD_MANA | | | 27 | ITEM_MOD_CRIT_TAKEN_SPELL_RATING | |
-| 1 | ITEM_MOD_HEALTH | | | 28 | ITEM_MOD_HASTE_MELEE_RATING | |
-| 3 | ITEM_MOD_AGILITY | | | 29 | ITEM_MOD_HASTE_RANGED_RATING | |
-| 4 | ITEM_MOD_STRENGTH | | | 30 | ITEM_MOD_HASTE_SPELL_RATING | |
-| 5 | ITEM_MOD_INTELLECT | | | 31 | ITEM_MOD_HIT_RATING | |
-| 6 | ITEM_MOD_SPIRIT | | | 32 | ITEM_MOD_CRIT_RATING | |
-| 7 | ITEM_MOD_STAMINA | | | 33 | ITEM_MOD_HIT_TAKEN_RATING | |
-| 12 | ITEM_MOD_DEFENSE_SKILL_RATING | | | 34 | ITEM_MOD_CRIT_TAKEN_RATING | |
-| 13 | ITEM_MOD_DODGE_RATING | | | 35 | ITEM_MOD_RESILIENCE_RATING | |
-| 14 | ITEM_MOD_PARRY_RATING | | | 36 | ITEM_MOD_HASTE_RATING | |
-| 15 | ITEM_MOD_BLOCK_RATING | | | 37 | ITEM_MOD_EXPERTISE_RATING | |
-| 16 | ITEM_MOD_HIT_MELEE_RATING | | | 38 | ITEM_MOD_ATTACK_POWER | |
-| 17 | ITEM_MOD_HIT_RANGED_RATING | | | 39 | ITEM_MOD_RANGED_ATTACK_POWER | |
-| 18 | ITEM_MOD_HIT_SPELL_RATING | | | 40 | ITEM_MOD_FERAL_ATTACK_POWER | not in 3.3 |
-| 19 | ITEM_MOD_CRIT_MELEE_RATING | | | 41 | ITEM_MOD_SPELL_HEALING_DONE | deprecated |
-| 20 | ITEM_MOD_CRIT_RANGED_RATING | | | 42 | ITEM_MOD_SPELL_DAMAGE_DONE | deprecated |
-| 21 | ITEM_MOD_CRIT_SPELL_RATING | | | 43 | ITEM_MOD_MANA_REGENERATION | |
-| 22 | ITEM_MOD_HIT_TAKEN_MELEE_RATING | | | 44 | ITEM_MOD_ARMOR_PENETRATION_RATING |
-| 23 | ITEM_MOD_HIT_TAKEN_RANGED_RATING | | | 45 | ITEM_MOD_SPELL_POWER | |
-| 24 | ITEM_MOD_HIT_TAKEN_SPELL_RATING | | | 46 | ITEM_MOD_HEALTH_REGEN | |
-| 25 | ITEM_MOD_CRIT_TAKEN_MELEE_RATING | | | 47 | ITEM_MOD_SPELL_PENETRATION | |
-| 26 | ITEM_MOD_CRIT_TAKEN_RANGED_RATING | | | 48 | ITEM_MOD_BLOCK_VALUE | |
-{.dense}
+The type of stat to modify.
+<!--@include: @/partial/335/item-mod-type.md-->
 
 &nbsp;
 
@@ -544,17 +480,9 @@ The maximum primary damage of the item.
 &nbsp;
 
 ### dmg_type1
-primary damage school (see `enum SpellSchool`)
-| ID | Name |
-|----|------|
-| 0 | SPELL_SCHOOL_NORMAL |
-| 1 | SPELL_SCHOOL_HOLY |
-| 2 | SPELL_SCHOOL_FIRE |
-| 3 | SPELL_SCHOOL_NATURE |
-| 4 | SPELL_SCHOOL_FROST |
-| 5 | SPELL_SCHOOL_SHADOW |
-| 6 | SPELL_SCHOOL_ARCANE |
-{.dense}
+primary damage school
+
+<!--@include: @/partial/335/spell-schools.md{3,12}-->
 
 &nbsp;
 
@@ -668,18 +596,7 @@ The [page_text.ID](../world/page_text#id) referring to the text that the item wi
 
 ### LanguageID
 The [Language ID](/files/DBC/335/languages#id), that the item text is written in.
-| ID | Language | | ID | Language |
-|----|----------|-|----|----------|
-| 1 | Orcish | | 12 | Kalimag |
-| 2 | Darnassian | |  13 | Gnomish |
-| 3 | Taurahe | |  14 | Troll |
-| 6 | Dwarvish | |  33 | Gutterspeak |
-| 7 | Common | |  35 | Draenei |
-| 8 | Demonic | |  36 | Zombie |
-| 9 | Titan | |  37 | Gnomish Binary |
-| 10 | Thalassian | |  38 | Goblin Binary |
-|11 | Draconic | |   |  |
-{.dense}
+<!--@include: @/partial/335/languages.md-->
 
 &nbsp;
 
@@ -716,15 +633,7 @@ Use -1 for consumable items like food, reagents, etc.
 
 ### sheath
 Controls how the item is put away on the character. Press the 'Z' hotkey to sheath and unsheathe your weapons.
-| ID | Type | Comment |
-|----|------|---------|
-| 1 | Two Handed Weapon | Diagonally across the back pointing downwards. |
-| 2 | Staff | Diagonally across the back pointing upwards. |
-| 3 | One Handed | On the left-hand side of the character's waist. |
-| 4 | Shield | On the middle of the character's back. |
-| 5 | Tool | ? usually not equippable ? |
-| 7 | Off hand | On the right-hand side of the character's waist. |
-{.dense}
+<!--@include: @/partial/335/sheath.md-->
 
 &nbsp;
 
@@ -928,4 +837,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -[Client Build](/database/335/auth/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
-

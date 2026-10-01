@@ -53,28 +53,14 @@ If set, this value (plus or minus aura [Spell ID](/files/DBC/335/spell#id)) impo
 
 ### racemask
 Race mask of [ChrRace IDs](/files/DBC/335/chrraces#id) **spell** applies to. (0: any race)
-| Value | Flag   | Name      |  | Value | Flag   | Name      |
-|-------|--------|-----------|--|-------|--------|-----------|
-|     1 | 0x0001 | Human     |  |     2 | 0x0002 | Orc       |
-|     4 | 0x0004 | Dwarf     |  |    16 | 0x0010 | Undead    |
-|     8 | 0x0008 | Night Elf |  |    32 | 0x0020 | Tauren    |
-|    64 | 0x0040 | Gnome     |  |   128 | 0x0080 | Troll     |
-|  1024 | 0x0400 | Draenei   |  |   512 | 0x0200 | Blood Elf |
-|  1101 | 0x044D | *_Alliance_* |  |   690 | 0x02B2 | *_Horde_* |
-{.dense}
+<!--@include: @/partial/335/chrraces.md{13,}-->
 
 &nbsp;
 
 ### gender
 The player gender this entry applies to.
 
-[`enum Gender`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L75-L80)
-| ID | Name | Comment |
-|----|------|---------|
-| 0 | GENDER_MALE | Male |
-| 1 | GENDER_FEMALE | Female |
-| 2 | GENDER_NONE | Any |
-{.dense}
+<!--@include: @/partial/335/gender.md-->
 
 &nbsp;
 
@@ -103,4 +89,3 @@ Bitmask of different quest statuses.
 * Factions-specific buffs, e.g. in Icecrown Citadel: H [Hellscream's Warsong](https://aowow.trinitycore.info/?spell=73822) / A [Strength of Wrynn](https://aowow.trinitycore.info/?spell=73828)
 * A [ghost flying mount](https://aowow.trinitycore.info/?spell=55164) in zones where the player may be required to fly to reach his [corpse](https://aowow.trinitycore.info/?spell=8326).
 * A [permanent disguise](https://aowow.trinitycore.info/?spell=40214) after the player completes an [attunement quest](https://aowow.trinitycore.info/?quest=11013).
-

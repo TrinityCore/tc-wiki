@@ -67,17 +67,8 @@ Orientation the summoned creature will get when spawned
 &nbsp;
 
 ### summonType
-| Value | Name | Comment |
-|-------|------|---------|
-| 1 | TEMPSUMMON_TIMED_OR_DEAD_DESPAWN | Despawns after a specified time OR when the creature disappears |
-| 2 | TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN | Despawns after a specified time OR when the creature dies |
-| 3 | TEMPSUMMON_TIMED_DESPAWN | Despawns after a specified time |
-| 4 | TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT | Despawns after a specified time after the creature is out of combat |
-| 5 | TEMPSUMMON_CORPSE_DESPAWN | Despawns instantly after death |
-| 6 | TEMPSUMMON_CORPSE_TIMED_DESPAWN | Despawns after a specified time after death |
-| 7 | TEMPSUMMON_DEAD_DESPAWN | Despawns when the creature disappears |
-| 8 | TEMPSUMMON_MANUAL_DESPAWN | Despawns when UnSummon() is called |
-{.dense}
+
+<!--@include: @/partial/335/temp-summon-type.md-->
 
 &nbsp;
 
@@ -88,4 +79,3 @@ Timer (in milliseconds) linked to **summonType**
 ### Comment
 This field is for any comment you want to make. It is arbitrary text.
 &nbsp;
-

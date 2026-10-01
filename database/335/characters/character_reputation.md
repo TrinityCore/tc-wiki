@@ -38,6 +38,6 @@ The current reputation value that the character has.
 ### flags
 This field is a bitmask containing flags that apply to the faction and how it's displayed to the character. Just like any flag field, you can combine flags by adding them together. If this field is 0, then it is not shown in the reputation list in-game.
 
-<!--@include: @/partial/reputation-flags.md-->
+<!--@include: @/partial/335/reputation-flags.md-->
 
 &nbsp;

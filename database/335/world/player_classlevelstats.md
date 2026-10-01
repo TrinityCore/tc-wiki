@@ -23,19 +23,7 @@ This table holds information on the base health and mana of characters when they
 
 ### class
 The players [ChrClass ID](/files/DBC/335/chrclasses#id)
-| ID | Name         |
-|----|--------------|
-|  1 | Warrior      |
-|  2 | Paladin      |
-|  3 | Hunter       |
-|  4 | Rogue        |
-|  5 | Priest       |
-|  6 | Death Knight |
-|  7 | Shaman       |
-|  8 | Mage         |
-|  9 | Warlock      |
-| 11 | Druid        |
-{.dense}
+<!--@include: @/partial/335/chrclasses.md{3,9}-->
 
 &nbsp;
 
@@ -50,4 +38,3 @@ The base health of the character (before stamina bonuses).
 ### basemana
 The base mana of the character (before intellect bonuses).
 &nbsp;
-

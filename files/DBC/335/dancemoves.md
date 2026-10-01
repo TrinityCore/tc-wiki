@@ -82,15 +82,7 @@ See **Type**
 ### Racemask
 :x: <code>Col: 4 (uint32)</code>
 
-| Value | Flag   | Name      |  | Value | Flag   | Name      |
-|-------|--------|-----------|--|-------|--------|-----------|
-|     1 | 0x0001 | Human     |  |     2 | 0x0002 | Orc       |
-|     4 | 0x0004 | Dwarf     |  |    16 | 0x0010 | Undead    |
-|     8 | 0x0008 | Night Elf |  |    32 | 0x0020 | Tauren    |
-|    64 | 0x0040 | Gnome     |  |   128 | 0x0080 | Troll     |
-|  1024 | 0x0400 | Draenei   |  |   512 | 0x0200 | Blood Elf |
-|  1101 | 0x044D | *_Alliance_* |  |   690 | 0x02B2 | *_Horde_* |
-{.dense}
+<!--@include: @/partial/335/chrraces.md{13,}-->
 
 &nbsp;
 
@@ -111,4 +103,3 @@ See **Type**
 
 Surely not pointing to Lock.dbc/0 ?
 &nbsp;
-

@@ -184,11 +184,8 @@ CONDITION_SOURCE_TYPE_SPELL_LOOT_TEMPLATE (12)
 CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET (13)
 * **SourceGroup**:
 Mask of effects to be affected by condition:
-  |--|--|
-  | EFFECT_0 | 0x1 |
-  | EFFECT_1 | 0x2 |
-  | EFFECT_2 | 0x4 |
-  {.dense}
+<!--@include: @/partial/335/spell-effect-index.md-->
+
 * **SourceEntry**:
 [Spell ID](/files/DBC/335/spell#id)
 * **SourceId**:
@@ -555,18 +552,8 @@ CONDITION_REPUTATION_RANK (5)
 [Faction ID](/files/DBC/335/faction#id)
 * **ConditionValue2**:
 Add the target ranks together for the condition to be true for all those ranks.
-[`enum ReputationRank`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L203-L213)
-  | Value | Flag | Name |
-  |--|--|--|
-  | 1 | 0x01 | REP_HATED |
-  | 2 | 0x02 | REP_HOSTILE |
-  | 4 | 0x04 | REP_UNFRIENDLY |
-  | 8 | 0x08 | REP_NEUTRAL |
-  | 16 | 0x10 | REP_FRIENDLY |
-  | 32 | 0x20 | REP_HONORED |
-  | 64 | 0x40 | REP_REVERED |
-  | 128 | 0x80 | REP_EXALTED |
-  {.dense}
+<!--@include: @/partial/335/reputation-rank.md-->
+
 * **ConditionValue3**:
 `0`
 * **ConditionStringValue1**:
@@ -575,8 +562,8 @@ Add the target ranks together for the condition to be true for all those ranks.
 * **ConditionTypeOrReference**:
 CONDITION_TEAM (6)
 * **ConditionValue1**:
-  * 469: Alliance
-  * 67: Horde
+<!--@include: @/partial/335/team.md-->
+
 * **ConditionValue2**:
 `0`
 * **ConditionValue3**:
@@ -754,6 +741,8 @@ true if player has title
 CONDITION_SPAWNMASK (19)
 * **ConditionValue1**:
 [creature spawnMask](/database/335/world/creature#spawnmask) or [gameobject spawnMask](/database/335/world/gameobject#spawnmask)
+<!--@include: @/partial/335/spawn-mask.md-->
+
 * **ConditionValue2**:
 `0`
 * **ConditionValue3**:
@@ -766,12 +755,8 @@ true if in spawnMask
 * **ConditionTypeOrReference**:
 CONDITION_GENDER (20)
 * **ConditionValue1**:
-[`enum Gender`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L75-L80)
-  |--|--|
-  | GENDER_MALE | 0 |
-  | GENDER_FEMALE | 1 |
-  | GENDER_NONE | 2 |
-  {.dense}
+<!--@include: @/partial/335/gender.md-->
+
 * **ConditionValue2**:
 `0`
 * **ConditionValue3**:
@@ -1015,18 +1000,8 @@ Target to which reaction is checked.
   - one of the ConditionTargets available in current SourceType
 * **ConditionValue2**:
 rankMask: This bitmask defines the reaction(s) of the current **ConditionTarget** to the target specified in **ConditionValue1** (which are allowed).
-[`enum ReputationRank`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L203-L213)
-  | Value | Flag | Name |
-  |--|--|--|
-  | 1 | 0x01 | REP_HATED |
-  | 2 | 0x02 | REP_HOSTILE |
-  | 4 | 0x04 | REP_UNFRIENDLY |
-  | 8 | 0x08 | REP_NEUTRAL |
-  | 16 | 0x10 | REP_FRIENDLY |
-  | 32 | 0x20 | REP_HONORED |
-  | 64 | 0x40 | REP_REVERED |
-  | 128 | 0x80 | REP_EXALTED |
-  {.dense}
+<!--@include: @/partial/335/reputation-rank.md-->
+
 * **ConditionValue3**:
 `0`
 * **ConditionStringValue1**:
@@ -1249,14 +1224,8 @@ true if player has reached the specified objectiveCount quest progress for the o
 * **ConditionTypeOrReference**:
 CONDITION_DIFFICULTY_ID (49)
 * **ConditionValue1**:
-  [`enum Difficulty`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/DataStores/DBCEnums.h#L278-L290)
-  | Raid | Dungeon | Value |
-  |--|--|:-:|
-  | RAID_DIFFICULTY_10MAN_NORMAL | DUNGEON_DIFFICULTY_NORMAL | 0 |
-  | RAID_DIFFICULTY_25MAN_NORMAL | DUNGEON_DIFFICULTY_HEROIC | 1 |
-  | RAID_DIFFICULTY_10MAN_HEROIC |  | 2 |
-  | RAID_DIFFICULTY_25MAN_HEROIC |  | 3 |
-  {.dense}
+<!--@include: @/partial/335/difficulty.md-->
+
 * **ConditionValue2**:
 `0` 
 * **ConditionValue3**:
@@ -1483,4 +1452,3 @@ The ScriptName this condition uses, if any.
 ### Comment
 Explanation of this condition or reference
 &nbsp;
-

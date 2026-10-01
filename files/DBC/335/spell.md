@@ -914,42 +914,7 @@ Cooldown for all spells this spells **Category** in msec.
 ### ProcTypeMask
 <code>Col: 34 (uint32)</code>
 
-| Value | Flag | Name | Comment |
-|-------|------|------|---------|
-| 1 | 0x00000001 | PROC_FLAG_KILLED | 00 Killed by agressor - not sure about this flag |
-| 2 | 0x00000002 | PROC_FLAG_KILL | 01 Kill target (in most cases need XP/Honor reward) |
-| 4 | 0x00000004 | PROC_FLAG_DONE_MELEE_AUTO_ATTACK | 02 Done melee auto attack |
-| 8 | 0x00000008 | PROC_FLAG_TAKEN_MELEE_AUTO_ATTACK | 03 Taken melee auto attack |
-| 16 | 0x00000010 | PROC_FLAG_DONE_SPELL_MELEE_DMG_CLASS | 04 Done attack by Spell that has dmg class melee |
-| 32 | 0x00000020 | PROC_FLAG_TAKEN_SPELL_MELEE_DMG_CLASS | 05 Taken attack by Spell that has dmg class melee |
-| 64 | 0x00000040 | PROC_FLAG_DONE_RANGED_AUTO_ATTACK | 06 Done ranged auto attack |
-| 128 | 0x00000080 | PROC_FLAG_TAKEN_RANGED_AUTO_ATTACK | 07 Taken ranged auto attack |
-| 256 | 0x00000100 | PROC_FLAG_DONE_SPELL_RANGED_DMG_CLASS | 08 Done attack by Spell that has dmg class ranged |
-| 512 | 0x00000200 | PROC_FLAG_TAKEN_SPELL_RANGED_DMG_CLASS | 09 Taken attack by Spell that has dmg class ranged |
-| 1024 | 0x00000400 | PROC_FLAG_DONE_SPELL_NONE_DMG_CLASS_POS | 10 Done positive spell that has dmg class none |
-| 2048 | 0x00000800 | PROC_FLAG_TAKEN_SPELL_NONE_DMG_CLASS_POS | 11 Taken positive spell that has dmg class none |
-| 4096 | 0x00001000 | PROC_FLAG_DONE_SPELL_NONE_DMG_CLASS_NEG | 12 Done negative spell that has dmg class none |
-| 8192 | 0x00002000 | PROC_FLAG_TAKEN_SPELL_NONE_DMG_CLASS_NEG | 13 Taken negative spell that has dmg class none |
-| 16384 | 0x00004000 | PROC_FLAG_DONE_SPELL_MAGIC_DMG_CLASS_POS | 14 Done positive spell that has dmg class magic |
-| 32768 | 0x00008000 | PROC_FLAG_TAKEN_SPELL_MAGIC_DMG_CLASS_POS | 15 Taken positive spell that has dmg class magic |
-| 65536 | 0x00010000 | PROC_FLAG_DONE_SPELL_MAGIC_DMG_CLASS_NEG | 16 Done negative spell that has dmg class magic |
-| 131072 | 0x00020000 | PROC_FLAG_TAKEN_SPELL_MAGIC_DMG_CLASS_NEG | 17 Taken negative spell that has dmg class magic |
-| 262144 | 0x00040000 | PROC_FLAG_DONE_PERIODIC | 18 Successful do periodic (damage / healing) |
-| 524288 | 0x00080000 | PROC_FLAG_TAKEN_PERIODIC | 19 Taken spell periodic (damage / healing) |
-| 1048576 | 0x00100000 | PROC_FLAG_TAKEN_DAMAGE | 20 Taken any damage |
-| 2097152 | 0x00200000 | PROC_FLAG_DONE_TRAP_ACTIVATION | 21 On trap activation (possibly needs name change to ON_GAMEOBJECT_CAST or USE) |
-| 4194304 | 0x00400000 | PROC_FLAG_DONE_MAINHAND_ATTACK | 22 Done main-hand melee attacks (spell and autoattack) |
-| 8388608 | 0x00800000 | PROC_FLAG_DONE_OFFHAND_ATTACK | 23 Done off-hand melee attacks (spell and autoattack) |
-| 16777216 | 0x01000000 | PROC_FLAG_DEATH | 24 Died in any way |
-|  ||||
-| 204 | 0x000000CC | AUTO_ATTACK_PROC_FLAG_MASK | Any auto attack |
-| 12582972 | 0x00C0003C | MELEE_PROC_FLAG_MASK | Any melee attack |
-| 960 | 0x000003C0 | RANGED_PROC_FLAG_MASK | Any ranged attack |
-| 3145712 | 0x002FFFF0 | SPELL_PROC_FLAG_MASK | Any spell attack |
-| 15029588 | 0x00E55554 | DONE_HIT_PROC_FLAG_MASK | Any dealt attack |
-| 1747624 | 0x001AAAA8 | TAKEN_HIT_PROC_FLAG_MASK | Any taken attack |
-| 2446672 | 0x00255550 | REQ_SPELL_PHASE_PROC_FLAG_MASK |  |
-{.dense}
+<!--@include: @/partial/335/proc-flags.md-->
 
 &nbsp;
 
@@ -992,18 +957,7 @@ Min caster level for spell scaling.
 ### PowerType
 <code>Col: 41 (int32)</code>
 
-[`enum Powers`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L286-L298)
-| ID | Name |
-|----|------|
-| -2 | POWER_HEALTH |
-| 0 | POWER_MANA |
-| 1 | POWER_RAGE |
-| 2 | POWER_FOCUS |
-| 3 | POWER_ENERGY |
-| 4 | POWER_HAPPINESS |
-| 5 | POWER_RUNE |
-| 6 | POWER_RUNIC_POWER |
-{.dense}
+<!--@include: @/partial/335/powers.md-->
 
 &nbsp;
 
@@ -1088,9 +1042,9 @@ as SubClassMask
 ### EquippedItemInvTypes
 <code>Col: 70 (int32)</code>
 
-[`enum InventoryType`](https://github.com/TrinityCore/TrinityCore/tree/3.3.5/src/server/game/Entities/Item/ItemTemplate.h#L259-L290)
+[`enum InventoryType`](https://github.com/TrinityCore/TrinityCore/blob/e490cad2b0cb538c554006a7a8842b39f7ca143e/src/server/game/Entities/Item/ItemTemplate.h#L259-L290)
 | Value | Flag | Name |  | Value | Flag | Name |
-|-------|------|------|--|-------|------|------|
+| --- | --- | --- | --- | --- | --- | --- |
 | 1 | 0x00000001 | INVTYPE_HEAD | | 16384 | 0x00004000 | INVTYPE_RANGED |
 | 2 | 0x00000002 | INVTYPE_NECK | | 32768 | 0x00008000 | INVTYPE_CLOAK |
 | 4 | 0x00000004 | INVTYPE_SHOULDERS | | 65536 | 0x00010000 | INVTYPE_2HWEAPON |
@@ -1105,7 +1059,6 @@ as SubClassMask
 | 2048 | 0x00000800 | INVTYPE_TRINKET | | 33554432 | 0x02000000 | INVTYPE_RANGEDRIGHT |
 | 4096 | 0x00001000 | INVTYPE_WEAPON | | 67108864 | 0x04000000 | INVTYPE_QUIVER |
 | 8192 | 0x00002000 | INVTYPE_SHIELD | | 134217728 | 0x08000000 | INVTYPE_RELIC |
-{.dense}
 
 &nbsp;
 
@@ -1500,25 +1453,7 @@ Global cooldown amount in msec.
 ### SpellClassSet
 <code>Col: 208 (uint32)</code>
 
-[`enum SpellFamilyNames`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L3575-L3595)
-| ID | Name | Comment |
-|----|------|---------|
-| 0 | SPELLFAMILY_GENERIC |  |
-| 1 | SPELLFAMILY_UNK1 | events, holidays, ...  |
-| 3 | SPELLFAMILY_MAGE |  |
-| 4 | SPELLFAMILY_WARRIOR |  |
-| 5 | SPELLFAMILY_WARLOCK |  |
-| 6 | SPELLFAMILY_PRIEST |  |
-| 7 | SPELLFAMILY_DRUID |  |
-| 8 | SPELLFAMILY_ROGUE |  |
-| 9 | SPELLFAMILY_HUNTER |  |
-| 10 | SPELLFAMILY_PALADIN |  |
-| 11 | SPELLFAMILY_SHAMAN |  |
-| 12 | SPELLFAMILY_UNK2 | Silence resistance?  |
-| 13 | SPELLFAMILY_POTION |  |
-| 15 | SPELLFAMILY_DEATHKNIGHT |  |
-| 17 | SPELLFAMILY_PET |  |
-{.dense}
+<!--@include: @/partial/335/spell-family.md-->
 
 &nbsp;
 
@@ -1626,17 +1561,7 @@ Spell is disabled outside of area.
 ### SchoolMask
 <code>Col: 225 (uint32)</code>
 
-[`enum SpellSchools`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L303-L313)
-| Value | Flag | Name |
-|-------|------|------|
-| 1 | 0x01 | SPELL_SCHOOL_NORMAL |
-| 2 | 0x02 | SPELL_SCHOOL_HOLY |
-| 4 | 0x04 | SPELL_SCHOOL_FIRE |
-| 8 | 0x08 | SPELL_SCHOOL_NATURE |
-| 16 | 0x10 | SPELL_SCHOOL_FROST |
-| 32 | 0x20 | SPELL_SCHOOL_SHADOW |
-| 64 | 0x40 | SPELL_SCHOOL_ARCANE |
-{.dense}
+<!--@include: @/partial/335/spell-schools.md{28,37}-->
 
 &nbsp;
 
@@ -1675,4 +1600,3 @@ Points to declaration of `$<…>` description variables.
 
 *- no description -*
 &nbsp;
-

@@ -23,37 +23,13 @@ This table is used for any custom items that you might want to give to character
 
 ### race
 The character's [ChrRace ID](/files/DBC/335/chrraces#id)
-| ID | Name      |
-|----|-----------|
-|  1 | Human     |
-|  2 | Orc       |
-|  3 | Dwarf     |
-|  4 | Night Elf |
-|  5 | Undead    |
-|  6 | Tauren    |
-|  7 | Gnome     |
-|  8 | Troll     |
-| 10 | Blood Elf |
-| 11 | Draenei   |
-{.dense}
+<!--@include: @/partial/335/chrraces.md{3,9}-->
 
 &nbsp;
 
 ### class
 The character's [ChrClass ID](/files/DBC/335/chrclasses#id)
-| ID | Name         |
-|----|--------------|
-|  1 | Warrior      |
-|  2 | Paladin      |
-|  3 | Hunter       |
-|  4 | Rogue        |
-|  5 | Priest       |
-|  6 | Death Knight |
-|  7 | Shaman       |
-|  8 | Mage         |
-|  9 | Warlock      |
-| 11 | Druid        |
-{.dense}
+<!--@include: @/partial/335/chrclasses.md{3,9}-->
 
 &nbsp;
 
@@ -65,4 +41,3 @@ references [item_template.entry](../world/item_template#entry)
 * **amount** > 0: copies to add on creation
 * **amount** < 0: copies to remove on creation
 &nbsp;
-

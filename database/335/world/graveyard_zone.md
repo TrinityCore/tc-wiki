@@ -32,13 +32,11 @@ references [WorldSafeLoc ID](/files/DBC/335/worldsafelocs#id)
 &nbsp;
 
 ### Faction
-Graveyard's team as [Faction ID](/files/DBC/335/faction#id)
-* 0 - Any team accepted
-* 469 - Alliance team only
-* 67 - Horde team only
+Graveyard's team or 0 for any team
+<!--@include: @/partial/335/team.md-->
+
 &nbsp;
 
 ### Comment
 This field is for any comment you want to make. It is arbitrary text.
 &nbsp;
-

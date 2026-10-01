@@ -150,12 +150,7 @@ followup **SubClassID**
 ### WeaponSwingSize
 :x: <code>Col: 9 (uint32)</code>
 
-| ID | Name | Comment |
-|----|------|---------|
-| 0 | WEAPONSWING_LIGHT | Dagger |
-| 1 | WEAPONSWING_MEDIUM | 1H Sword/Axe |
-| 2 | WEAPONSWING_HEAVY | 2H Sword/Axe |
-{.dense}
+<!--@include: @/partial/335/weapon-swing-size.md-->
 
 &nbsp;
 
@@ -170,4 +165,3 @@ followup **SubClassID**
 
 *- no description -*
 &nbsp;
-

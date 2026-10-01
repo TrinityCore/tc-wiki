@@ -224,8 +224,6 @@ Internal names for the facial features.
 ### RequiredExpansion
 <code>Col: 68 (uint32)</code>
 
-* 0: Classic
-* 1: BC
-* 2: WotLK
-&nbsp;
+<!--@include: @/partial/335/expansions.md-->
 
+&nbsp;

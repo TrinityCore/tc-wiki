@@ -104,15 +104,7 @@ reference to World\Map\ \[...\] \
 ### InstanceType
 <code>Col: 2 (uint32)</code>
 
-[`enum MapType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/DataStores/DBCEnums.h#L333-L340)
-| ID | Name | Comment |
-|----|------|---------|
-| 0 | MAP_COMMON | none |
-| 1 | MAP_INSTANCE | party |
-| 2 | MAP_RAID | raid |
-| 3 | MAP_BATTLEGROUND | pvp |
-| 4 | MAP_ARENA | arena |
-{.dense}
+<!--@include: @/partial/335/map-types.md-->
 
 &nbsp;
 
@@ -196,12 +188,7 @@ Entrance coordinate (if exist single entry).
 ### ExpansionID
 <code>Col: 63 (uint32)</code>
 
-| Value | Expansion |
-| :---: | :---: |
-| 0 | Vanilla |
-| 1 | The Burning Crusade (TBC) |
-| 2 | Wrath of the Lich King (WotLK) |
-{.dense}
+<!--@include: @/partial/335/expansions.md-->
 
 &nbsp;
 
@@ -216,4 +203,3 @@ Entrance coordinate (if exist single entry).
 
 Max players, fallback if not present in [MapDifficulty.dbc](/files/DBC/335/mapdifficulty).
 &nbsp;
-

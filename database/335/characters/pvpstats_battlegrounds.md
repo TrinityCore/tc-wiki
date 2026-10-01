@@ -57,20 +57,11 @@ Identifies the bracket level range:
 &nbsp;
 
 ### type
-[BattlemasterList ID](/files/DBC/335/battlemasterlist#id)
-| ID | Name |
-|------|------|
-| 1 | Alterac Valley |
-| 2 | Warsong Gulch |
-| 3 | Arathi Basin |
-| 7 | Eye of the Storm |
-| 9 | Strand of the Ancients |
-| 30 | Isle of Conquest |
-{.dense}
+
+<!--@include: @/partial/335/battlemaster-list.md-->
 
 &nbsp;
 
 ### date
 Unix timestamp of the battleground ending.
 &nbsp;
-

@@ -25,37 +25,13 @@ Please note you'll have to set `PlayerStart.AllSpells = 1` in config, else this 
 
 ### racemask
 Race mask of [ChrRace IDs](/files/DBC/335/chrraces#id). `0` is all races.
-| Value | Flag   | Name      |
-|-------|--------|-----------|
-|     1 | 0x0001 | Human     |
-|     2 | 0x0002 | Orc       |
-|     4 | 0x0004 | Dwarf     |
-|     8 | 0x0008 | Night Elf |
-|    16 | 0x0010 | Undead    |
-|    32 | 0x0020 | Tauren    |
-|    64 | 0x0040 | Gnome     |
-|   128 | 0x0080 | Troll     |
-|   512 | 0x0200 | Blood Elf |
-|  1024 | 0x0400 | Draenei   |
-{.dense}
+<!--@include: @/partial/335/chrraces.md{13,}-->
 
 &nbsp;
 
 ### classmask
 Class mask of [ChrClass IDs](/files/DBC/335/chrclasses#id). `0` is all classes.
-| Value | Flag   | Name         |
-|-------|--------|--------------|
-|     1 | 0x0001 | Warrior      |
-|     2 | 0x0002 | Paladin      |
-|     4 | 0x0004 | Hunter       |
-|     8 | 0x0008 | Rogue        |
-|    16 | 0x0010 | Priest       |
-|    32 | 0x0020 | Death Knight |
-|    64 | 0x0040 | Shaman       |
-|   128 | 0x0080 | Mage         |
-|   256 | 0x0100 | Warlock      |
-|  1024 | 0x0400 | Druid        |
-{.dense}
+<!--@include: @/partial/335/chrclasses.md{13,}-->
 
 &nbsp;
 
@@ -66,4 +42,3 @@ A [Spell ID](/files/DBC/335/spell#id) to start with.
 ### Note
 This field is for any comment you want to make. It is arbitrary text.
 &nbsp;
-

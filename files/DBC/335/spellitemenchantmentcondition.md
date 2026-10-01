@@ -63,15 +63,8 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 ### LtOperandType
 <code>Col: 1 &ndash; 5 (uint8)</code>
 
-unshifted [`enum SocketColor`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Item/ItemTemplate.h#L249-L255)
-`ID = LOG(enumBit, 2) + 1`
-| ID | Name |
-|----|------|
-| 1 | SOCKET_COLOR_META |
-| 2 | SOCKET_COLOR_RED |
-| 3 | SOCKET_COLOR_YELLOW |
-| 4 | SOCKET_COLOR_BLUE |
-{.dense}
+unshifted SocketColor: `ID = LOG(enumBit, 2) + 1`
+<!--@include: @/partial/335/socket-color.md-->
 
 &nbsp;
 
@@ -92,15 +85,8 @@ unshifted [`enum SocketColor`](https://github.com/TrinityCore/TrinityCore/blob/3
 ### RtOperandType
 <code>Col: 15 &ndash; 20 (uint8)</code>
 
-unshifted [`enum SocketColor`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Item/ItemTemplate.h#L249-L255)
-`ID = LOG(enumBit, 2) + 1`
-| ID | Name |
-|----|------|
-| 1 | SOCKET_COLOR_META |
-| 2 | SOCKET_COLOR_RED |
-| 3 | SOCKET_COLOR_YELLOW |
-| 4 | SOCKET_COLOR_BLUE |
-{.dense}
+unshifted SocketColor: `ID = LOG(enumBit, 2) + 1`
+<!--@include: @/partial/335/socket-color.md-->
 
 &nbsp;
 
@@ -115,4 +101,3 @@ Amount of **LtOperandType** gems.
 
 *- no description -*
 &nbsp;
-

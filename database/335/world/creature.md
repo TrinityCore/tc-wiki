@@ -67,15 +67,7 @@ calculated by the core if `Calculate.Creature.Zone.Area.Data` is enabled
 
 ### spawnMask
 Controls under which difficulties the creature is spawned.
-| Value | Comment |
-|-------|---------|
-| 0x00 | Not spawned |
-| 0x01 | Spawned only in 10-man-normal versions of map (includes maps without a heroic mode) |
-| 0x02 | Spawned only in 25-man-normal versions of map (or heroics pre 3.2) |
-| 0x04 | Spawned only in 10-man-heroic versions of map |
-| 0x08 | Spawned only in 25-man-heroic versions of map |
-| 0x0F | Spawned in all versions of map |
-{.dense}
+<!--@include: @/partial/335/spawn-mask.md-->
 
 &nbsp;
 
@@ -186,4 +178,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -[Client Build](/database/335/auth/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
-

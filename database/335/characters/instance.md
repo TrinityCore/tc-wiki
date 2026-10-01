@@ -39,13 +39,8 @@ The resettime of raid and heroic instances for every specific group is stored in
 &nbsp;
 
 ### difficulty
-| ID | Name |
-|----|------|
-| 0 | RAID_DIFFICULTY_10MAN_NORMAL / DUNGEON_DIFFICULTY_NORMAL |
-| 1 | RAID_DIFFICULTY_25MAN_NORMAL / DUNGEON_DIFFICULTY_HEROIC |
-| 2 | RAID_DIFFICULTY_10MAN_HEROIC |
-| 3 | RAID_DIFFICULTY_25MAN_HEROIC |
-{.dense}
+
+<!--@include: @/partial/335/difficulty.md-->
 
 &nbsp;
 
@@ -60,4 +55,3 @@ String of space separated values in 3 parts
 2. BossState: encounterState in order of encounters
 3. MiscData (optional): state of doors, timers, events unique to this instance, manually defined in InstanceMapScript.
 &nbsp;
-

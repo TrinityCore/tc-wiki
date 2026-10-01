@@ -121,13 +121,7 @@ dateCreated: 2023-10-04T08:01:40.639Z
 ### SexID
 <code>Col: 3 (uint8)</code>
 
-[`enum Gender`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L75-L80)
-| ID | Name |
-|----|------|
-| 0 | GENDER_MALE |
-| 1 | GENDER_FEMALE |
-| 2 | GENDER_NONE |
-{.dense}
+<!--@include: @/partial/335/gender.md-->
 
 &nbsp;
 
@@ -153,39 +147,6 @@ Not required at server side.
 :x: <code>Col: 53 &ndash; 76 (int32)</code>
 
 Not required at server side.
-[`enum InventoryType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Item/ItemTemplate.h#L259-L290)
-| ID | Name |
-|----|------|
-| 0 | INVTYPE_NON_EQUIP |
-| 1 | INVTYPE_HEAD |
-| 2 | INVTYPE_NECK |
-| 3 | INVTYPE_SHOULDERS |
-| 4 | INVTYPE_BODY |
-| 5 | INVTYPE_CHEST |
-| 6 | INVTYPE_WAIST |
-| 7 | INVTYPE_LEGS |
-| 8 | INVTYPE_FEET |
-| 9 | INVTYPE_WRISTS |
-| 10 | INVTYPE_HANDS |
-| 11 | INVTYPE_FINGER |
-| 12 | INVTYPE_TRINKET |
-| 13 | INVTYPE_WEAPON |
-| 14 | INVTYPE_SHIELD |
-| 15 | INVTYPE_RANGED |
-| 16 | INVTYPE_CLOAK |
-| 17 | INVTYPE_2HWEAPON |
-| 18 | INVTYPE_BAG |
-| 19 | INVTYPE_TABARD |
-| 20 | INVTYPE_ROBE |
-| 21 | INVTYPE_WEAPONMAINHAND |
-| 22 | INVTYPE_WEAPONOFFHAND |
-| 23 | INVTYPE_HOLDABLE |
-| 24 | INVTYPE_AMMO |
-| 25 | INVTYPE_THROWN |
-| 26 | INVTYPE_RANGEDRIGHT |
-| 27 | INVTYPE_QUIVER |
-| 28 | INVTYPE_RELIC |
-{.dense}
+<!--@include: @/partial/335/inventory-type.md-->
 
 &nbsp;
-

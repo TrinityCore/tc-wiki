@@ -62,14 +62,6 @@ BG bracket
 ### Difficulty
 <code>Col: 5 (uint32)</code>
 
-[`enum Difficulty`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/DataStores/DBCEnums.h#L278-L290)
-| ID | Name |
-|----|------|
-| 0 | RAID_DIFFICULTY_10MAN_NORMAL / DUNGEON_DIFFICULTY_NORMAL / REGULAR_DIFFICULTY |
-| 1 | RAID_DIFFICULTY_25MAN_NORMAL / DUNGEON_DIFFICULTY_HEROIC |
-| 2 | RAID_DIFFICULTY_10MAN_HEROIC |
-| 3 | RAID_DIFFICULTY_25MAN_HEROIC |
-{.dense}
+<!--@include: @/partial/335/difficulty.md-->
 
 &nbsp;
-

@@ -109,45 +109,10 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 see **Effect**
 
 __**Effect** = ITEM_ENCHANTMENT_TYPE_RESISTANCE (4)__
-[`enum SpellSchools`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L303-L313)
-| ID | Name |
-|----|------|
-| 0 | SPELL_SCHOOL_NORMAL |
-| 1 | SPELL_SCHOOL_HOLY |
-| 2 | SPELL_SCHOOL_FIRE |
-| 3 | SPELL_SCHOOL_NATURE |
-| 4 | SPELL_SCHOOL_FROST |
-| 5 | SPELL_SCHOOL_SHADOW |
-| 6 | SPELL_SCHOOL_ARCANE |
-{.dense}
+<!--@include: @/partial/335/spell-schools.md{3,12}-->
 
 __**Effect** = ITEM_ENCHANTMENT_TYPE_STAT (5)__
-[`enum ItemModType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Item/ItemTemplate.h#L28-L74)
-| ID | Name | Comment |  | ID | Name | Comment |
-|----|------|---------|--|----|------|---------|
-| 0 | ITEM_MOD_MANA | | | 27 | ITEM_MOD_CRIT_TAKEN_SPELL_RATING | |
-| 1 | ITEM_MOD_HEALTH | | | 28 | ITEM_MOD_HASTE_MELEE_RATING | |
-| 3 | ITEM_MOD_AGILITY | | | 29 | ITEM_MOD_HASTE_RANGED_RATING | |
-| 4 | ITEM_MOD_STRENGTH | | | 30 | ITEM_MOD_HASTE_SPELL_RATING | |
-| 5 | ITEM_MOD_INTELLECT | | | 31 | ITEM_MOD_HIT_RATING | |
-| 6 | ITEM_MOD_SPIRIT | | | 32 | ITEM_MOD_CRIT_RATING | |
-| 7 | ITEM_MOD_STAMINA | | | 33 | ITEM_MOD_HIT_TAKEN_RATING | |
-| 12 | ITEM_MOD_DEFENSE_SKILL_RATING | | | 34 | ITEM_MOD_CRIT_TAKEN_RATING | |
-| 13 | ITEM_MOD_DODGE_RATING | | | 35 | ITEM_MOD_RESILIENCE_RATING | |
-| 14 | ITEM_MOD_PARRY_RATING | | | 36 | ITEM_MOD_HASTE_RATING | |
-| 15 | ITEM_MOD_BLOCK_RATING | | | 37 | ITEM_MOD_EXPERTISE_RATING | |
-| 16 | ITEM_MOD_HIT_MELEE_RATING | | | 38 | ITEM_MOD_ATTACK_POWER | |
-| 17 | ITEM_MOD_HIT_RANGED_RATING | | | 39 | ITEM_MOD_RANGED_ATTACK_POWER | |
-| 18 | ITEM_MOD_HIT_SPELL_RATING | | | 40 | ITEM_MOD_FERAL_ATTACK_POWER | not in 3.3 |
-| 19 | ITEM_MOD_CRIT_MELEE_RATING | | | 41 | ITEM_MOD_SPELL_HEALING_DONE | deprecated |
-| 20 | ITEM_MOD_CRIT_RANGED_RATING | | | 42 | ITEM_MOD_SPELL_DAMAGE_DONE | deprecated |
-| 21 | ITEM_MOD_CRIT_SPELL_RATING | | | 43 | ITEM_MOD_MANA_REGENERATION | |
-| 22 | ITEM_MOD_HIT_TAKEN_MELEE_RATING | | | 44 | ITEM_MOD_ARMOR_PENETRATION_RATING |
-| 23 | ITEM_MOD_HIT_TAKEN_RANGED_RATING | | | 45 | ITEM_MOD_SPELL_POWER | |
-| 24 | ITEM_MOD_HIT_TAKEN_SPELL_RATING | | | 46 | ITEM_MOD_HEALTH_REGEN | |
-| 25 | ITEM_MOD_CRIT_TAKEN_MELEE_RATING | | | 47 | ITEM_MOD_SPELL_PENETRATION | |
-| 26 | ITEM_MOD_CRIT_TAKEN_RANGED_RATING | | | 48 | ITEM_MOD_BLOCK_VALUE | |
-{.dense}
+<!--@include: @/partial/335/item-mod-type.md-->
 
 &nbsp;
 
@@ -206,4 +171,3 @@ Effect activation condition.
 
 *- no description -*
 &nbsp;
-

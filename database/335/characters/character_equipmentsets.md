@@ -72,28 +72,6 @@ Bitmask of EQUIPMENT_SLOT_* IDs not used by the equipment set.
 An [item guid](../characters/item_instance#guid) to equip or 0 for an empty slot.
 
 The fields index is an equipment slot id:
-| slot ID | ignore_mask flag |Name | Comment |
-|---------|------------------|-----|---------|
-| 0 | 0x00000001 | EQUIPMENT_SLOT_HEAD |  |
-| 1 | 0x00000002 | EQUIPMENT_SLOT_NECK |  |
-| 2 | 0x00000004 | EQUIPMENT_SLOT_SHOULDERS |  |
-| 3 | 0x00000008 | EQUIPMENT_SLOT_BODY | shirt |
-| 4 | 0x00000010 | EQUIPMENT_SLOT_CHEST |  |
-| 5 | 0x00000020 | EQUIPMENT_SLOT_WAIST |  |
-| 6 | 0x00000040 | EQUIPMENT_SLOT_LEGS |  |
-| 7 | 0x00000080 | EQUIPMENT_SLOT_FEET |  |
-| 8 | 0x00000100 | EQUIPMENT_SLOT_WRISTS |  |
-| 9 | 0x00000200 | EQUIPMENT_SLOT_HANDS |  |
-| 10 | 0x00000400 | EQUIPMENT_SLOT_FINGER1 |  |
-| 11 | 0x00000800 | EQUIPMENT_SLOT_FINGER2 |  |
-| 12 | 0x00001000 | EQUIPMENT_SLOT_TRINKET1 |  |
-| 13 | 0x00002000 | EQUIPMENT_SLOT_TRINKET2 |  |
-| 14 | 0x00004000 | EQUIPMENT_SLOT_BACK |  |
-| 15 | 0x00008000 | EQUIPMENT_SLOT_MAINHAND |  |
-| 16 | 0x00010000 | EQUIPMENT_SLOT_OFFHAND |  |
-| 17 | 0x00020000 | EQUIPMENT_SLOT_RANGED | ranged or relic |
-| 18 | 0x00040000 | EQUIPMENT_SLOT_TABARD |  |
-{.dense}
+<!--@include: @/partial/335/equipment-slots.md-->
 
 &nbsp;
-

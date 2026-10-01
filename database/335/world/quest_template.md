@@ -376,15 +376,7 @@ Time in seconds that the player has to complete this quest.
 ### AllowableRaces
 Race mask of [ChrRace IDs](/files/DBC/335/chrraces#id) allowed to get the quest.
 0 means the quest is accessible for all races.
-| Value | Flag   | Name      |  | Value | Flag   | Name      |
-|-------|--------|-----------|--|-------|--------|-----------|
-|     1 | 0x0001 | Human     |  |     2 | 0x0002 | Orc       |
-|     4 | 0x0004 | Dwarf     |  |    16 | 0x0010 | Undead    |
-|     8 | 0x0008 | Night Elf |  |    32 | 0x0020 | Tauren    |
-|    64 | 0x0040 | Gnome     |  |   128 | 0x0080 | Troll     |
-|  1024 | 0x0400 | Draenei   |  |   512 | 0x0200 | Blood Elf |
-|  1101 | 0x044D | *_Alliance_* |  |   690 | 0x02B2 | *_Horde_* |
-{.dense}
+<!--@include: @/partial/335/chrraces.md{13,}-->
 
 &nbsp;
 
@@ -639,8 +631,3 @@ ID = questB3  PrevQuestID = questF   NextQuestID = 0        ExclusiveGroup = 0  
 
 > Note: With the [conditions](../world/conditions) now every quest chain is possible.
 {.is-info}
-
-
-
-
-

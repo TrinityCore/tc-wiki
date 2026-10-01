@@ -44,9 +44,9 @@ The factor applied to the original reputation gain. If it is negative the player
 &nbsp;
 
 ### rank_\[1-4]
-The [`enum ReputationRank`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L203-L213) up to and including which the spillover occurs.
+The [`enum ReputationRank`](https://github.com/TrinityCore/TrinityCore/blob/e490cad2b0cb538c554006a7a8842b39f7ca143e/src/server/shared/SharedDefines.h#L218-L228) up to and including where the spillover occurs.
 | ID | Name |
-|----|------|
+| --- | --- |
 | 0 | REP_HATED |
 | 1 | REP_HOSTILE |
 | 2 | REP_UNFRIENDLY |
@@ -55,7 +55,5 @@ The [`enum ReputationRank`](https://github.com/TrinityCore/TrinityCore/blob/3.3.
 | 5 | REP_HONORED |
 | 6 | REP_REVERED |
 | 7 | REP_EXALTED |
-{.dense}
 
 &nbsp;
-

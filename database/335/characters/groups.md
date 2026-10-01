@@ -109,29 +109,26 @@ Quality threshold past which players have to roll for items.
 &nbsp;
 
 ### difficulty
-[`enum Difficulty`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/DataStores/DBCEnums.h#L278-L290)
+[`enum Difficulty`](https://github.com/TrinityCore/TrinityCore/blob/e490cad2b0cb538c554006a7a8842b39f7ca143e/src/server/shared/DataStores/DBCEnums.h#L278-L290)
 | ID | Name |
-|----|------|
+| --- | --- |
 | 0 | DUNGEON_DIFFICULTY_NORMAL |
 | 1 | DUNGEON_DIFFICULTY_HEROIC |
 | 2 | DUNGEON_DIFFICULTY_EPIC |
-{.dense}
 
 &nbsp;
 
 ### raidDifficulty
-[`enum Difficulty`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/DataStores/DBCEnums.h#L278-L290)
+[`enum Difficulty`](https://github.com/TrinityCore/TrinityCore/blob/e490cad2b0cb538c554006a7a8842b39f7ca143e/src/server/shared/DataStores/DBCEnums.h#L278-L290)
 | ID | Name |
-|----|------|
+| --- | --- |
 | 0 | RAID_DIFFICULTY_10MAN_NORMAL |
 | 1 | RAID_DIFFICULTY_25MAN_NORMAL |
 | 2 | RAID_DIFFICULTY_10MAN_HEROIC |
 | 3 | RAID_DIFFICULTY_25MAN_HEROIC |
-{.dense}
 
 &nbsp;
 
 ### masterLooterGuid
 [character guid](../characters/characters#guid) of the member with the master looter flag.
 &nbsp;
-

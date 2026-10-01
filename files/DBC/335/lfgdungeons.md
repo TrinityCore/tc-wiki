@@ -122,14 +122,7 @@ dateCreated: 2023-10-04T08:05:02.714Z
 ### Difficulty
 <code>Col: 24 (uint32)</code>
 
-[`enum Difficulty`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/DataStores/DBCEnums.h#L278-L290)
-| ID | Name |
-|----|------|
-| 0 | RAID_DIFFICULTY_10MAN_NORMAL / DUNGEON_DIFFICULTY_NORMAL |
-| 1 | RAID_DIFFICULTY_25MAN_NORMAL / DUNGEON_DIFFICULTY_HEROIC |
-| 2 | RAID_DIFFICULTY_10MAN_HEROIC |
-| 3 | RAID_DIFFICULTY_25MAN_HEROIC |
-{.dense}
+<!--@include: @/partial/335/difficulty.md-->
 
 &nbsp;
 
@@ -149,15 +142,7 @@ dateCreated: 2023-10-04T08:05:02.714Z
 ### TypeID
 <code>Col: 26 (uint32)</code>
 
-[`enum LfgType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/DungeonFinding/LFGMgr.h#L67-L74)
-| ID | Name |
-|----|------|
-| 0 | LFG_TYPE_NONE |
-| 1 | LFG_TYPE_DUNGEON |
-| 2 | LFG_TYPE_RAID |
-| 5 | LFG_TYPE_HEROIC |
-| 6 | LFG_TYPE_RANDOM |
-{.dense}
+<!--@include: @/partial/335/lfg-type.md-->
 
 &nbsp;
 
@@ -176,12 +161,7 @@ dateCreated: 2023-10-04T08:05:02.714Z
 ### ExpansionLevel
 <code>Col: 29 (uint32)</code>
 
-| Value | Expansion |
-| :---: | :---: |
-| 0 | Vanilla |
-| 1 | The Burning Crusade (TBC) |
-| 2 | Wrath of the Lich King (WotLK) |
-{.dense}
+<!--@include: @/partial/335/expansions.md-->
 
 &nbsp;
 
@@ -202,4 +182,3 @@ dateCreated: 2023-10-04T08:05:02.714Z
 
 *- no description -*
 &nbsp;
-

@@ -41,37 +41,8 @@ dateCreated: 2023-10-04T08:03:55.279Z
 
 CombatRating scaling modifier
 
-[`enum CombatRating`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Unit/Unit.h#L319-L346)
-| ID | Name |
-|----|------|
-| 0 | CR_WEAPON_SKILL |
-| 1 | CR_DEFENSE_SKILL |
-| 2 | CR_DODGE |
-| 3 | CR_PARRY |
-| 4 | CR_BLOCK |
-| 5 | CR_HIT_MELEE |
-| 6 | CR_HIT_RANGED |
-| 7 | CR_HIT_SPELL |
-| 8 | CR_CRIT_MELEE |
-| 9 | CR_CRIT_RANGED |
-| 10 | CR_CRIT_SPELL |
-| 11 | CR_HIT_TAKEN_MELEE |
-| 12 | CR_HIT_TAKEN_RANGED |
-| 13 | CR_HIT_TAKEN_SPELL |
-| 14 | CR_CRIT_TAKEN_MELEE |
-| 15 | CR_CRIT_TAKEN_RANGED |
-| 16 | CR_CRIT_TAKEN_SPELL |
-| 17 | CR_HASTE_MELEE |
-| 18 | CR_HASTE_RANGED |
-| 19 | CR_HASTE_SPELL |
-| 20 | CR_WEAPON_SKILL_MAINHAND |
-| 21 | CR_WEAPON_SKILL_OFFHAND |
-| 22 | CR_WEAPON_SKILL_RANGED |
-| 23 | CR_EXPERTISE |
-| 24 | CR_ARMOR_PENETRATION |
-{.dense}
+<!--@include: @/partial/335/combat-ratings.md-->
 
 Ordered by character class, combat rating 0 &ndash; 31 ASC.
 <code>**ID** = (([ChrClassID](/files/DBC/335/chrclasses#id-alt) - 1) * 32) + (RatingID + 1)</code>
 &nbsp;
-

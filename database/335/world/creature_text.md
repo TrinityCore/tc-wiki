@@ -61,18 +61,7 @@ The text the creature will say.
 
 ### Language
 A [Language ID](/files/DBC/335/languages#id). When set to 0, the current default language will be used.
-| ID | Language | | ID | Language |
-|----|----------|-|----|----------|
-| 1 | Orcish | | 12 | Kalimag |
-| 2 | Darnassian | |  13 | Gnomish |
-| 3 | Taurahe | |  14 | Troll |
-| 6 | Dwarvish | |  33 | Gutterspeak |
-| 7 | Common | |  35 | Draenei |
-| 8 | Demonic | |  36 | Zombie |
-| 9 | Titan | |  37 | Gnomish Binary |
-| 10 | Thalassian | |  38 | Goblin Binary |
-|11 | Draconic | |   |  |
-{.dense}
+<!--@include: @/partial/335/languages.md-->
 
 &nbsp;
 
@@ -144,5 +133,3 @@ SmartAI excerpt:
 
 SMART_ACTION_TALK (1) accesses creature_text on with the current **creatureID** and provided **GroupID** as parameter.
 In the case of **GroupID** **5** a random text is picked with equal chance (all have **Probability**: 100) and said (**Type**: 12) in the vicinity (**TextRange**: 0) of the guard in its default tongue (**Language**: 0).
-
-

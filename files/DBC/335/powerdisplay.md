@@ -38,18 +38,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 ### ActualType
 <code>Col: 1 (uint32)</code>
 
-[`enum Powers`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L286-L298)
-| ID | Name |
-|----|------|
-| -2 | POWER_HEALTH |
-| 0 | POWER_MANA |
-| 1 | POWER_RAGE |
-| 2 | POWER_FOCUS |
-| 3 | POWER_ENERGY |
-| 4 | POWER_HAPPINESS |
-| 5 | POWER_RUNE |
-| 6 | POWER_RUNIC_POWER |
-{.dense}
+<!--@include: @/partial/335/powers.md-->
 
 &nbsp;
 
@@ -76,4 +65,3 @@ found in `/Interface/GlueXML/GlobalStrings.lua`
 
 *- no description -*
 &nbsp;
-
