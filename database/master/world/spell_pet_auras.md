@@ -25,7 +25,7 @@ On the selected **effectId** it must either have SPELL_EFFECT_DUMMY (3) or apply
 &nbsp;
 
 ### effectId
-Effect Index of **spell** to link **aura** to: (0 � 2)
+Effect Index of **spell** to link **aura** to: (0 &ndash; 2)
 &nbsp;
 
 ### pet
@@ -35,4 +35,3 @@ If set, **aura** is only applied to this [creature entry](../world/creature_temp
 ### aura
 [Spell ID](https://wago.tools/db2/spell) with the actual effects described by **spell**.
 &nbsp;
-

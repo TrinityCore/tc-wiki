@@ -196,7 +196,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 1 | questList | unknown ID | unused |
 | 2 | pageMaterial | [PageTextMaterial ID](https://wago.tools/db2/pagetextmaterial) | Background texture of the gossip window |
 | 3 | gossipID | [gossip_menu.entry](../world/gossip_menu#entry)  |  |
-| 4 | customAnim | 0 � 4 | unused |
+| 4 | customAnim | 0 &ndash; 4 | unused |
 | 5 | noDamageImmune | 0, 1 | can not be used by player under immunity |
 | 6 | openTextID | unknown TextID | unused; can be used to replace castBarCaption? |
 | 7 | losOK | 0, 1 | ignores line of sight checks |
@@ -217,7 +217,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 6 | eventId | unknown EventID | lootedEvent |
 | 7 | linkedTrapId | [gameobject_template.entry](../world/gameobject_template#entry) | the trap object must be of GAMEOBJECT_TYPE_TRAP (6) |
 | 8 | questId | [quest_template.ID](../world/quest_template#id) | quest must be rewarded for GO activation; not currently used |
-| 9 | level | 0 � 80 | minimum level required to open this gameobject |
+| 9 | level | 0 &ndash; 80 | minimum level required to open this gameobject |
 | 10 | losOK | 0, 1 | ignores line of sight checks |
 | 11 | leaveLoot | 0, 1 | unused |
 | 12 | notInCombat | 0, 1 | unused |
@@ -323,7 +323,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 1 | questId | [quest_template.ID](../world/quest_template#id) | quest must be active for GO interaction |
 | 2 | eventId | [event_script.id](../world/scripts#id) | also usable by script oder SmartAI |
 | 3 | autoCloseTime |  | time untill state reset in milliseconds |
-| 4 | customAnim | 0 � 4 | just sent to client on use |
+| 4 | customAnim | 0 &ndash; 4 | just sent to client on use |
 | 5 | consumable | 0, 1 | despawns after use |
 | 6 | cooldown |  | time in seconds |
 | 7 | pageId | [page_text.ID](../world/page_text#id) |  |
@@ -524,7 +524,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 9 | progressEventID2 | unknown EventID  | unused |
 | 10 | neutralEventID1 | unknown EventID  | unused |
 | 11 | neutralEventID2 | unknown EventID  | unused |
-| 12 | neutralPercent | 0 � 100 | neutral area of progress bar; half of remaining pct belongs to each faction  |
+| 12 | neutralPercent | 0 &ndash; 100 | neutral area of progress bar; half of remaining pct belongs to each faction  |
 | 13 | worldstate3 |  | worldstate variable for **neutralPercent** |
 | 14 | minSuperiority |  | unused; min players required for capture |
 | 15 | maxSuperiority |  | unused; max players contributing to capture |
@@ -532,7 +532,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 17 | maxTime |  | capture time in seconds for min players for full capture |
 | 18 | large | 0, 1 | large objects are visible from further away |
 | 19 | highlight | 0, 1 | unused |
-| 20 | startingValue | 0 � 100 | unused; 0: Horde owned; 100: Alliance owned |
+| 20 | startingValue | 0 &ndash; 100 | unused; 0: Horde owned; 100: Alliance owned |
 | 21 | unidirectional | 0 | unused |
 {.dense}
 
@@ -552,7 +552,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | mapID | [Map ID](/files/DBC/335/map#id) | destination map |
-| 1 | difficulty | 0 � 3 | [`enum Difficulty`](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/DataStores/DBCEnums.h) |
+| 1 | difficulty | 0 &ndash; 3 | [`enum Difficulty`](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/DataStores/DBCEnums.h) |
 {.dense}
 
 **_GAMEOBJECT_TYPE_BARBER_CHAIR (32)_**
@@ -637,4 +637,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 
 &nbsp;
-

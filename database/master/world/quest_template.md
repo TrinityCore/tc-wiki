@@ -399,7 +399,7 @@ This field is used for reputation lookup in [QuestFactionReward](https://wago.to
 &nbsp;
 
 ### RewardFactionOverride\[1-5]
-This field is used to give reputation values not present in [QuestFactionReward](https://wago.tools/db2/questfactionreward) or to override them if **RewardFactionValue\*** is wrong for some reason. The value in this field is 100� the intended reputation reward (if you want to give 400 rep, put 40000 in **RewardFactionOverride\***).
+This field is used to give reputation values not present in [QuestFactionReward](https://wago.tools/db2/questfactionreward) or to override them if **RewardFactionValue\*** is wrong for some reason. The value in this field is 100× the intended reputation reward (if you want to give 400 rep, put 40000 in **RewardFactionOverride\***).
 &nbsp;
 
 ### RewardFactionCapIn\[1-5]
@@ -538,4 +538,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 
 &nbsp;
-

@@ -22,7 +22,7 @@ dateCreated: 2021-08-30T09:36:53.405Z
 
 ### EnchantID
 references [SpellItemEnchantment ID](https://wago.tools/db2/spellitemenchantmen)
-Any of the types (0 � 2) must be of ITEM_ENCHANTMENT_TYPE_COMBAT_SPELL (1)
+Any of the types (0 &ndash; 2) must be of ITEM_ENCHANTMENT_TYPE_COMBAT_SPELL (1)
 &nbsp;
 
 ### Chance
@@ -70,4 +70,3 @@ Adds special behaviour to the proc, spell might trigger proc only if these condi
 {.dense}
 
 &nbsp;
-
