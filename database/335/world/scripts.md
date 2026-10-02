@@ -30,9 +30,9 @@ This table format is used for 2 different tables to control possible scripts act
 | [y](#other-fields) | float |  |  | NO | 0 |  |  |
 | [z](#other-fields) | float |  |  | NO | 0 |  |  |
 | [o](#other-fields) | float |  |  | NO | 0 |  |  |
-| [guid](#guid) ^\[1]^ | int | signed | PRI | NO | 0 |  | Acts as primary key and is set automatically using the GM command 'wp event add' |
+| [guid](#guid) <sup>\[1]</sup> | int | signed | PRI | NO | 0 |  | Acts as primary key and is set automatically using the GM command 'wp event add' |
 | [Comment](#comment) | varchar(255) |  |  | NO | '' |  |  |
-^1^ present in waypoint_scripts table only.
+<sup>1</sup> present in waypoint_scripts table only.
 &nbsp;
 ## Description of fields
 
