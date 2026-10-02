@@ -1496,15 +1496,9 @@ valid for **source_type**
 
 * **event_type**:
 SMART_EVENT_GO_LOOT_STATE_CHANGED (70)
-* **event_param1**:
-[`enum LootState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/GameObject/GameObject.h#L74-L79)
-  | ID | Name | Comment |
-  |----|------|---------|
-  | 0 | GO_NOT_READY |  |
-  | 1 | GO_READY | can be ready but despawned, and then not possible activate until spawn |
-  | 2 | GO_ACTIVATE |  |
-  | 3 | GO_JUST_DEACTIVATED |  |
-  {.dense}
+* **event_param1**:  
+  <!--@include: @/partial/335/loot-state.md-->
+
 * **event_param2**:
 `0`
 * **event_param3**:
@@ -3682,15 +3676,9 @@ SMART_ACTION_SEND_GOSSIP_MENU (98)
 Set loot state of target gameobjects.
 * **action_type**:
 SMART_ACTION_GO_SET_LOOT_STATE (99)
-* **action_param1**:
-[`enum LootState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/GameObject/GameObject.h#L74-L79)
-  | ID | Name | Comment |
-  |----|------|---------|
-  | 0 | GO_NOT_READY |  |
-  | 1 | GO_READY | can be ready but despawned, and then not possible activate until spawn |
-  | 2 | GO_ACTIVATE |  |
-  | 3 | GO_JUST_DEACTIVATED |  |
-  {.dense}
+* **action_param1**:  
+  <!--@include: @/partial/335/loot-state.md-->
+
 * **action_param2**:
 `0`
 * **action_param3**:
