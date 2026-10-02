@@ -2558,14 +2558,16 @@ field
 * **action_param2**:
 data
   * type = 0: arbitrary data
-  * type = 1: [`enum EncounterState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Instances/InstanceScript.h#L68-L76)
-    |--|--|
-    | NOT_STARTED | 0 |
-    | IN_PROGRESS | 1 |
-    | FAIL | 2 |
-    | DONE | 3 |
-    | SPECIAL | 4 |
-    {.dense}
+  * type = 1: [`enum EncounterState`](https://github.com/TrinityCore/TrinityCore/blob/d7329e3d3a713404d8ecbd91ae5f988fd143b793/src/server/game/Instances/InstanceScript.h#L71-L79)
+    | Value | Name |
+    | --- | --- |
+    | 0 | NOT_STARTED |
+    | 1 | IN_PROGRESS |
+    | 2 | FAIL |
+    | 3 | DONE |
+    | 4 | SPECIAL |
+    | 5 | TO_BE_DECIDED |
+
 * **action_param3**:
 type:
   * 0: SetData

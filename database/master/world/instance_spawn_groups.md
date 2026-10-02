@@ -41,14 +41,16 @@ enum AVDataTypes
 
 ### bossStates
 Mask based on EncounterState, you can combine multiple states by OR-ing them, also directly possible in SQL e.g. `(0x08 | 0x10)` for DONE and SPECIAL.
-| Name | Value |
-| ---- | ----- |
-| NOT_STARTED | 0x01 |
-| IN_PROGRESS | 0x02 |
-| FAIL | 0x04 |
-| DONE | 0x08 |
-| SPECIAL | 0x10 |
-| TO_BE_DECIDED | 0x20 |
+[`enum EncounterState`](https://github.com/TrinityCore/TrinityCore/blob/6ebe044cbb9895b458fcd3244639acadff287809/src/server/game/Instances/InstanceScript.h#L68-L76)
+| Value | Flag | Name |
+| --- | --- | --- |
+| 1 | 0x01 | NOT_STARTED |
+| 2 | 0x02 | IN_PROGRESS |
+| 4 | 0x04 | FAIL |
+| 8 | 0x08 | DONE |
+| 16 | 0x10 | SPECIAL |
+| 32 | 0x20 | TO_BE_DECIDED |
+
 &nbsp;
 
 ### spawnGroupId
@@ -63,4 +65,3 @@ ID of the spawn group, referenced in [`spawn_group_template.groupId`](/database/
 | FLAG_ALLIANCE_ONLY | 0x04 |
 | FLAG_HORDE_ONLY | 0x08 |
 &nbsp;
-

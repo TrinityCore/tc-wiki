@@ -33,15 +33,15 @@ Data index of the boss set in its instance script header file.
 &nbsp;
 
 ### bossStates
-bitmask, `1 << state` for [`enum EncounterState`](https://github.com/TrinityCore/TrinityCore/tree/3.3.5/src/server/game/Instances/InstanceScript.h) values
-| ID | state |
-|----|------|
-| 0 | NOT_STARTED |
-| 1 | IN_PROGRESS |
-| 2 | FAIL |
-| 3 | DONE |
-| 4 | SPECIAL |
-{.dense}
+bitmask from [`enum EncounterState`](https://github.com/TrinityCore/TrinityCore/blob/d7329e3d3a713404d8ecbd91ae5f988fd143b793/src/server/game/Instances/InstanceScript.h#L71-L79) values
+| Value | Flag | Name |
+| --- | --- | --- |
+| 1 | 0x01 | NOT_STARTED |
+| 2 | 0x02 | IN_PROGRESS |
+| 4 | 0x04 | FAIL |
+| 8 | 0x08 | DONE |
+| 16 | 0x10 | SPECIAL |
+| 32 | 0x20 | TO_BE_DECIDED |
 
 &nbsp;
 
@@ -59,4 +59,3 @@ groupId from [spawn_group_template](../world/spawn_group_template#groupid)
 {.dense}
 
 &nbsp;
-
