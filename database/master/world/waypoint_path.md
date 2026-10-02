@@ -36,7 +36,7 @@ Unique ID for each path.
 &nbsp;
 
 ### Flags
-| Hex | Name | 
+| Hex | Name |
 | --- | ---- |
 | 0x00 | None |
 | 0x01 | FollowPathBackwardsFromEndToStart |

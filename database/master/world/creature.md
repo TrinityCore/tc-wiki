@@ -54,8 +54,8 @@ For example [Chromie](https://www.wowhead.com/npc=167032/chromie) is spawned in 
 {.is-info}
 
 The GUID ranges are defined as followed:
-|                                     Expansion | GUID range start | GUID range end | :information_source: Event GUID subrange start | :information_source: Event GUID subrange end | <span style="color:red">Classic Only range start</span> | <span style="color:red">Classic Only range end</span>
-| --------------------------------------------- | ---------------- | -------------- | ------------------------- | ----------------------- |
+|                                     Expansion | GUID range start | GUID range end | :information_source: Event GUID subrange start | :information_source: Event GUID subrange end | <span style="color:red">Classic Only range start</span> | <span style="color:red">Classic Only range end</span> |
+| --------------------------------------------- | ---------------- | -------------- | ------------------------- | ----------------------- | -- | -- |
 | Vanilla (1.x)                                 |                1 |         249999 |                           |                         | | |
 | The Burning Crusade (2.x)                     |                1 |         249999 |                           |                         | | |
 | Wrath of the Lich King (3.x)                  |          2000000 |        2989999 |                   2800000 |                 2989999 | 2990000 | 2999999 |
@@ -75,6 +75,7 @@ The GUID ranges are defined as followed:
 | :warning: Legacy Legion (7.x)                 |           650000 |         849999 |                           |                         | | |
 | :warning: Legacy Battle for Azeroth (8.x)     |           850000 |        1049999 |                           |                         | | |
 | :warning: Legacy Shadowlands (9.x)            |          1050000 |        1249999 |                           |                         | | |
+
 > Because the limit of several old ranges was reached, new ranges have been defined with the nomenclature **{ExpID}000000 - {ExpID}999999**. The old ranges should not be used.
 {.is-warning}
 
@@ -100,7 +101,7 @@ The ID of the area that the creature is spawned on.
 ### spawnDifficulties
 Comma separated list of difficulties.
 
-| Name | Value
+| Name | Value |
 | --- | :---: |
 | DIFFICULTY_NONE | 0 |
 | DIFFICULTY_NORMAL | 1 |

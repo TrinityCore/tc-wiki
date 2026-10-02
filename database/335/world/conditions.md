@@ -656,12 +656,13 @@ _entry_: (see corresponding source script files for info)
 * **ConditionValue2**:
 _data_: (see corresponding source script files for more info)
 * **ConditionValue3**:
-[`enum InstanceInfo`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Conditions/ConditionMgr.h#L175-L181)
-  |--|--|
-  | INSTANCE_INFO_DATA  | 0 |
-  | INSTANCE_INFO_GUID_DATA  | 1 |
-  | INSTANCE_INFO_BOSS_STATE | 2 |
-  | INSTANCE_INFO_DATA64 | 3 |
+[`enum InstanceInfo`](https://github.com/TrinityCore/TrinityCore/blob/d7329e3d3a713404d8ecbd91ae5f988fd143b793/src/server/game/Conditions/ConditionMgr.h#L179-L185)
+  | ID | Name |
+  | --- | --- |
+  | 0 | INSTANCE_INFO_DATA  |
+  | 1 | INSTANCE_INFO_GUID_DATA  |
+  | 2 | INSTANCE_INFO_BOSS_STATE |
+  | 3 | INSTANCE_INFO_DATA64 |
 
  **ConditionStringValue1**:
 `-`
@@ -765,9 +766,9 @@ true if player's gender is equal to gender
 * **ConditionTypeOrReference**:
 CONDITION_UNIT_STATE (21)
 * **ConditionValue1**:
-[`enum UnitState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Unit/Unit.h#L217C1-L268)
+[`enum UnitState`](https://github.com/TrinityCore/TrinityCore/blob/d7329e3d3a713404d8ecbd91ae5f988fd143b793/src/server/game/Entities/Unit/Unit.h#L232-L283)
   | Value | Flag | Name | Comment |
-  |--|--|--|--|
+  | --- | --- | --- | --- |
   | 1 | 0x00000001 | UNIT_STATE_DIED | player has fake death aura |
   | 2 | 0x00000002 | UNIT_STATE_MELEE_ATTACKING | player is melee attacking someone |
   | 4 | 0x00000004 | UNIT_STATE_CHARMED | having any kind of charm aura on self |
@@ -950,9 +951,9 @@ true if object is type TypeID and the entry is 0 or matches entry of the object 
 * **ConditionTypeOrReference**:
 CONDITION_TYPE_MASK (32)
 * **ConditionValue1**:
-TypeMask - a bitmask of following object types:
+TypeMask - a bitmask of following object types:  
   | Value | Flag | Name |
-  |--|--|--|
+  | --- | --- | --- |
   | 8 | 0x08 | TYPEMASK_UNIT |
   | 16 | 0x10 | TYPEMASK_PLAYER |
   | 32 | 0x20 | TYPEMASK_GAMEOBJECT |
@@ -973,8 +974,9 @@ CONDITION_RELATION_TO (33)
 Target to which relation is checked.
   - one of the ConditionTargets available in current SourceType
 * **ConditionValue2**:
-[`enum RelationType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Conditions/ConditionMgr.h#L164-L173) - defines relation of current **ConditionTarget** to target specified in **ConditionValue1**.
-  |--|--|--|
+  [`enum RelationType`](https://github.com/TrinityCore/TrinityCore/blob/d7329e3d3a713404d8ecbd91ae5f988fd143b793/src/server/game/Conditions/ConditionMgr.h#L168-L177) - defines relation of current **ConditionTarget** to target specified in **ConditionValue1**.
+  | ID | Name | Comment |
+  | --- | --- | --- |
   | 0 | RELATION_SELF | |
   | 1 | RELATION_IN_PARTY | |
   | 2 | RELATION_IN_RAID_OR_PARTY | |
@@ -1403,7 +1405,8 @@ true if group status matches player
 
 ##### ComparisonType
 [`enum ComparisonType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/common/Utilities/Util.h#L505-L513)
-|-|:-:|-|-|
+| ID | Form | Name | Comment |
+| --- | :-: | --- | --- |
 | 0 | == | COMP_TYPE_EQ | ConditionType must be equal to ConditionValue |
 | 1 | > | COMP_TYPE_HIGH | ConditionType must be higher than ConditionValue |
 | 2 | < | COMP_TYPE_LOW | ConditionType must be lower than ConditionValue |

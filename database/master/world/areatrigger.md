@@ -50,7 +50,7 @@ The [ID](https://wago.tools/db2/map){target=_blank} of the map that the areatrig
 ### SpawnDifficulties
 Comma separated list of difficulties.
 
-| Name | Value
+| Name | Value |
 | --- | :---: |
 | DIFFICULTY_NONE | 0 |
 | DIFFICULTY_NORMAL | 1 |

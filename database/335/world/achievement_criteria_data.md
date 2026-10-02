@@ -100,8 +100,9 @@ Effect Index of the aura
 * **value1**:
 Value to compare needed to attain achievement
 * **value2**:
-[`enum ComparisonType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/common/Utilities/Util.h#L505-L513)
-  |-|:-:|-|-|
+  [`enum ComparisonType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/common/Utilities/Util.h#L505-L513)
+  | ID | Form | Name | Comment |
+  | --- | :-: | --- | --- |
   | 0 | == | COMP_TYPE_EQ | amount must be equal to **value1** |
   | 1 | > | COMP_TYPE_HIGH | amount must be higher than **value1** |
   | 2 | < | COMP_TYPE_LOW | amount must be lower than **value1** |

@@ -63,8 +63,8 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 ### SoundType
 :x: <code>Col: 1 (uint32)</code>
 
-| ID | Name | Comment |  | ID | Name | Comment
-|----|------|---------|--|----|------|---------
+| ID | Name | Comment |  | ID | Name | Comment |
+|----|------|---------|--|----|------|---------|
 | 1 | Spells |  | | 20 | Footsteps(Splashes) |  |
 | 2 | UI |  | | 21 | CharacterSplashSounds |  |
 | 3 | Footsteps |  | | 22 | WaterVolume Sounds |  |

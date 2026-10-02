@@ -283,7 +283,7 @@ When a skin is pulled for a quest it becoms the second skin from the mob. This i
 ## Reference Template Numbering
 Agreements for Reference Templates are as followed:
 
-| Expansion | Range start | Range end | 
+| Expansion | Range start | Range end |
 | --------- | ----------- | --------- |
 | Vanilla (1.x)                   |                1 |          99999 |               
 | The Burning Crusade (2.x)       |           100000 |         199999 |               
