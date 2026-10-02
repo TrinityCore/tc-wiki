@@ -16,6 +16,7 @@ Holds information on which NPC can start what battleground or arena.
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entry](#entry) | int | unsigned | PRI | NO | 0 |  | Entry of a creature |
 | [bg_template](#bg_template) | int | unsigned |  | NO | 0 |  | Battleground template id |
+
 &nbsp;
 ## Description of fields
 
@@ -26,4 +27,3 @@ The [entry](../world/creature_template#entry) of the creature.
 ### bg_template
 The [battleground_template](../world/battleground_template#id) id.
 &nbsp;
-

@@ -18,6 +18,7 @@ dateCreated: 2021-08-30T21:58:35.334Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [name](#name-alt) | varchar(120) |  | PRI | NO | '' |  |  |
 | [crc](#crc) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -28,4 +29,3 @@ Blizzard addon name. Should look like "Blizzard_AchievementUI"
 ### crc
 *- no description -*
 &nbsp;
-

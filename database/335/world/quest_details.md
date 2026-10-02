@@ -24,6 +24,7 @@ This table handles Quest NPC emotes with emote delays when accepting a quest.
 | [EmoteDelay3](#emotedelay-1-4) | int | unsigned |  | NO | 0 |  |  |
 | [EmoteDelay4](#emotedelay-1-4) | int | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

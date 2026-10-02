@@ -24,6 +24,7 @@ e.g.: When asking a City Guard for the location of a trainer.
 | [Importance](#importance) | int | unsigned |  | NO | 0 |  |  |
 | [Name](#name-alt) | mediumtext |  |  | NO |  |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

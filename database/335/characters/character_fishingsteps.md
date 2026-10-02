@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T21:59:34.167Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | int | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
 | [fishingSteps](#fishingsteps) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,4 +30,3 @@ The [guid](../characters/characters#guid) of the character.
 ### fishingSteps
 Fishing attempts since last skill up.
 &nbsp;
-

@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T09:48:30.996Z
 | [RewardDescription_lang](#rewarddescription_lang) | text |  |  | YES | NULL |  |  |
 | [ContinueDescription_lang](#continuedescription_lang) | text |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

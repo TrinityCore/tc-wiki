@@ -22,6 +22,7 @@ This table overrides [creature_template_movement](../world/creature_template_mov
 | [Chase](#chase) | tinyint | unsigned |  | YES | NULL |  |  |
 | [Random](#random) | tinyint | unsigned |  | YES | NULL |  |  |
 | [InteractionPauseTimer](#interactionpausetimer) | int | unsigned |  | YES | NULL |  | Time (in milliseconds) during which creature will not move after interaction with player |
+
 &nbsp;
 ## Description of fields
 
@@ -71,4 +72,3 @@ Time (in milliseconds) during which the creature will not move after interaction
 > \> Rooted creature that doesn't fall once dead must use `Ground=1`, `Swim=0`, `Flight=0`, `Rooted=1` (`Swim=1` if above water)
 > \> Rooted creature that falls once dead must use `Ground=0`, `Swim=0`, `Flight=1`, `Rooted=1`
 {.is-info}
-

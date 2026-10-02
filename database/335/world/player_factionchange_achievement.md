@@ -16,6 +16,7 @@ Basically all achievement changes made when the player changes faction.
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [alliance_id](#alliance_id) | int | unsigned | PRI | NO |  |  |  |
 | [horde_id](#horde_id) | int | unsigned | PRI | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -26,4 +27,3 @@ This is the alliance [Achievement ID](/files/DBC/335/achievement#id). If you con
 ### horde_id
 This is the horde [Achievement ID](/files/DBC/335/achievement#id). If you convert to alliance and your achievements have a record in his table, they will be converted to **alliance_id**.
 &nbsp;
-

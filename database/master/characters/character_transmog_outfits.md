@@ -39,6 +39,7 @@ dateCreated: 2021-08-30T07:36:56.302Z
 | [appearance18](#appearance18) | int | signed |  | NO | 0 |  |  |
 | [mainHandEnchant](#mainhandenchant) | int | signed |  | NO | 0 |  |  |
 | [offHandEnchant](#offhandenchant) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -149,4 +150,3 @@ dateCreated: 2021-08-30T07:36:56.302Z
 ### offHandEnchant
 *- no description -*
 &nbsp;
-

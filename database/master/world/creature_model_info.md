@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T09:29:57.796Z
 | [CombatReach](#combatreach) | float |  |  | NO | 0 |  |  | SMSG_UPDATE_OBJECT |
 | [DisplayID_Other_Gender](#displayid_other_gender) | int | unsigned |  | NO | 0 |  |  | manually |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  | generated |
+
 &nbsp;
 ## Description of fields
 
@@ -48,4 +49,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 
 &nbsp;
-

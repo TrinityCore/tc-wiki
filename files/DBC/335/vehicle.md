@@ -60,6 +60,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 37 | [PowerDisplayID_0](#powerdisplayid) | int32 | [PowerDisplay.dbc/0](/files/DBC/335/powerdisplay#id-alt) |
 | 38 | [PowerDisplayID_1](#powerdisplayid) | int32 | [PowerDisplay.dbc/0](/files/DBC/335/powerdisplay#id-alt) |
 | 39 | [PowerDisplayID_2](#powerdisplayid) | int32 | [PowerDisplay.dbc/0](/files/DBC/335/powerdisplay#id-alt) |
+
 &nbsp;
 ## Description of fields
 

@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T09:30:54.869Z
 | [description](#description) | varchar(255) |  |  | YES | NULL |  | Description of the event displayed in console |
 | [world_event](#world_event) | tinyint | unsigned |  | NO | 0 |  | 0 if normal event, 1 if world event |
 | [announce](#announce) | tinyint | unsigned |  | YES | 2 |  | 0 dont announce, 1 announce, 2 value from config |
+
 &nbsp;
 ## Description of fields
 
@@ -72,5 +73,5 @@ This is a boolean field that determines if this game event is a world event or n
 |     0 |                                    Don't announce |
 |     1 |                                          Announce |
 |     2 | Use value of `Event.Announce` in worldserver.conf |
-&nbsp;
 
+&nbsp;

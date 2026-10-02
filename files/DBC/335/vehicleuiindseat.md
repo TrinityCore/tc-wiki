@@ -25,6 +25,7 @@ dateCreated: 2023-10-04T08:09:10.888Z
 | 2 | [VirtualSeatIndex](#virtualseatindex) | uint32 |  |
 | 3 | [Pos_X](#pos) | float |  |
 | 4 | [Pos_Y](#pos) | float |  |
+
 &nbsp;
 ## Description of fields
 
@@ -51,4 +52,3 @@ dateCreated: 2023-10-04T08:09:10.888Z
 
 *- no description -*
 &nbsp;
-

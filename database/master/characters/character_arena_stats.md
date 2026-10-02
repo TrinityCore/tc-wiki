@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T07:19:26.893Z
 | [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  |  |
 | [slot](#slot) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [matchMakerRating](#matchmakerrating) | smallint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ dateCreated: 2021-08-30T07:19:26.893Z
 ### matchMakerRating
 *- no description -*
 &nbsp;
-
-

@@ -16,6 +16,7 @@ Holds the spell id to ScriptName pairings for use in spell scripts.
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [spell_id](#spell_id) | int | signed | PRI | NO |  |  |  |
 | [ScriptName](#scriptname) | char(64) |  | PRI | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -28,4 +29,3 @@ One spell can have more than one script assigned.
 ### ScriptName
 The script name for the given spell(s).
 &nbsp;
-

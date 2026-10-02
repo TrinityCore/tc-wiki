@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T09:33:52.207Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [Level](#level) | tinyint | unsigned | PRI | NO |  |  |  |
 | [Experience](#experience) | int | unsigned |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -24,5 +25,3 @@ The player's current level.
 ### Experience
 The amount of experience points needed to reach the next level.
 &nbsp;
-
-

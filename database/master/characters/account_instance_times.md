@@ -15,6 +15,7 @@ dateCreated: 2021-08-29T20:03:54.735Z
 | [accountId](#accountid) | int | unsigned | PRI | NO |  |  |  |
 | [instanceId](#instanceid) | int | unsigned | PRI | NO | 0 |  |  |
 | [releaseTime](#releasetime) | bigint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ dateCreated: 2021-08-29T20:03:54.735Z
 ### releaseTime
 *- no description -*
 &nbsp;
-
-

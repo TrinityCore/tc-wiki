@@ -14,6 +14,7 @@ dateCreated: 2021-08-21T03:42:48.981Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [battlenetAccountId](#battlenetaccountid) | int | unsigned | PRI | NO |  |  |  |
 | [itemModifiedAppearanceId](#itemmodifiedappearanceid) | int | unsigned | PRI | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -24,5 +25,3 @@ dateCreated: 2021-08-21T03:42:48.981Z
 ### itemModifiedAppearanceId
 *- no description -*
 &nbsp;
-
-

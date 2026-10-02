@@ -24,6 +24,7 @@ dateCreated: 2021-08-30T21:59:39.563Z
 | [glyph4](#glyph-1-6) | smallint | unsigned |  | YES | 0 |  |  |
 | [glyph5](#glyph-1-6) | smallint | unsigned |  | YES | 0 |  |  |
 | [glyph6](#glyph-1-6) | smallint | unsigned |  | YES | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

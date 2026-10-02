@@ -18,6 +18,7 @@ Spawn Groups are collections of creatures / gameobjects, linked to scripted even
 | [groupId](#groupid) | int | unsigned | PRI | NO |  |  |  |
 | [groupName](#groupname) | varchar(100) |  |  | NO |  |  |  |
 | [groupFlags](#groupflags) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

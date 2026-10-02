@@ -60,6 +60,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 37 | [Race](#race) | uint32 | [ChrClasses.dbc/0](/files/DBC/335/chrclasses#id-alt) |
 | 38 | [Sex](#sex) | uint32 |  |
 | 39 | [Data](#data) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

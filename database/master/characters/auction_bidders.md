@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T07:15:55.739Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [auctionId](#auctionid) | int | unsigned | PRI | NO |  |  |  |
 | [playerGuid](#playerguid) | bigint | unsigned | PRI | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -24,5 +25,3 @@ dateCreated: 2021-08-30T07:15:55.739Z
 ### playerGuid
 *- no description -*
 &nbsp;
-
-

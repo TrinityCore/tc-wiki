@@ -35,6 +35,7 @@ Contains individual gameobject spawn data. Spawn of an object is an instance of 
 | [ScriptName](#scriptname) | char(64) |  |  | YES | '' |  |  |
 | [StringId](#stringid) | varchar(64) |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

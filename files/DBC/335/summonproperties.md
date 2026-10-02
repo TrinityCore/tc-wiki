@@ -26,6 +26,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 3 | [Title](#title) | uint32 |  |
 | 4 | [Slot](#slot) | uint32 |  |
 | 5 | [Flags](#flags) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

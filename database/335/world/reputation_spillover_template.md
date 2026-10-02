@@ -27,6 +27,7 @@ This table defines when reputation gain with one faction should also affect othe
 | [faction4](#faction-1-4) | smallint | unsigned |  | NO | 0 |  |  |
 | [rate_4](#rate_1-4) | float |  |  | NO | 0 |  |  |
 | [rank_4](#rank_1-4) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

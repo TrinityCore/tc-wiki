@@ -21,6 +21,7 @@ dateCreated: 2026-04-17T15:51:56.075Z
 | [arch](#arch) | char(4) |  | PRI | NO |  |  |  |
 | [type](#type) | char(4) |  | PRI | NO |  |  |  |
 | [key](#key) | binary(16) |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -46,5 +47,3 @@ e.g.: `12340`
 ### key
  *- no description -*
 &nbsp;
-
-

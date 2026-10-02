@@ -19,6 +19,7 @@ This table holds information on what skills newly created characters should star
 | [skill](#skill) | smallint | unsigned | PRI | NO |  |  |  |
 | [rank](#rank) | smallint | unsigned |  | NO | 0 |  |  |
 | [comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

@@ -30,6 +30,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 7 | [Camera_5](#camera) | uint32 | [CinematicCamera.dbc/0](/files/DBC/335/cinematiccamera#id-alt) |
 | 8 | [Camera_6](#camera) | uint32 | [CinematicCamera.dbc/0](/files/DBC/335/cinematiccamera#id-alt) |
 | 9 | [Camera_7](#camera) | uint32 | [CinematicCamera.dbc/0](/files/DBC/335/cinematiccamera#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -50,4 +51,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 ID in CinematicCamera.dbc
 &nbsp;
-

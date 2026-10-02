@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T09:57:06.288Z
 | [Display1_lang](#display1_lang) | text |  |  | YES | NULL |  |  |
 | [Display_lang](#display_lang) | text |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

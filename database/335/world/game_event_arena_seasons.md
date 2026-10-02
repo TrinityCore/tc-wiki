@@ -16,6 +16,7 @@ This information comes from sniffs and is NOT supposed to be changed.
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [eventEntry](#evententry) | tinyint | unsigned | PRI | NO |  |  | Entry of the game event |
 | [season](#season) | tinyint | unsigned | PRI | NO |  |  | Arena season number |
+
 &nbsp;
 ## Description of fields
 
@@ -26,4 +27,3 @@ refers to [game_event.eventEntry](../world/game_event#evententry)
 ### season
 Arena season number: 1 - 9
 &nbsp;
-

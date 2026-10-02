@@ -32,6 +32,7 @@ dateCreated: 2021-08-30T21:59:55.520Z
 | [itemcount5](#itemcount-1-6) | smallint | unsigned |  | NO | 0 |  |  |
 | [itemcount6](#itemcount-1-6) | smallint | unsigned |  | NO | 0 |  |  |
 | [playercount](#playercount) | smallint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

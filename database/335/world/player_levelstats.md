@@ -22,6 +22,7 @@ This table holds information on what stats are gained by characters when they le
 | [sta](#sta) | smallint | unsigned |  | NO |  |  | stamina |
 | [inte](#inte) | smallint | unsigned |  | NO |  |  | intellect |
 | [spi](#spi) | smallint | unsigned |  | NO |  |  | spirit |
+
 &nbsp;
 ## Description of fields
 

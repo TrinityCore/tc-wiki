@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T09:31:46.100Z
 | [spawnId](#spawnid) | bigint | unsigned | PRI | NO | 0 |  |  |
 | [faction](#faction) | smallint | unsigned |  | NO | 0 |  |  |
 | [flags](#flags) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

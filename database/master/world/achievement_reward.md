@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T09:28:41.306Z
 | [Subject](#subject) | varchar(255) |  |  | YES | NULL |  |  |
 | [Body](#body) | mediumtext |  |  | YES | NULL |  |  |
 | [MailTemplateID](#mailtemplateid) | int | unsigned |  | YES | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -54,4 +55,3 @@ This is the text of the body of that mail that you receive.
 ### MailTemplateID
 This is Id of MailTemplate from [MailTemplate.db2](https://wago.tools/db2/mailtemplate){target=_blank} of that mail that you receive. Subject and Text must be empty. They are read from db2 file.
 &nbsp;
-

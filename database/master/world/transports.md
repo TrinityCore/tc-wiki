@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T09:37:42.553Z
 | [phaseid](#phaseid) | int | signed |  | NO | 0 |  |  |
 | [phasegroup](#phasegroup) | int | signed |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -40,6 +41,7 @@ This is an arbitrary name that is only used to describe this transport entry.
 | PHASE_USE_FLAGS_NONE            | 0x0 |
 | PHASE_USE_FLAGS_ALWAYS_VISIBLE  | 0x1 |
 | PHASE_USE_FLAGS_INVERSE         | 0x2 |
+
 &nbsp;
 
 ### phaseid
@@ -73,4 +75,3 @@ It will unload static passengers when:
 The loading process will get the map from gameobject_template.data6 (SpawnMap), and then creates all creatures and gameobjects that are in the same map.
 
 Creatures and gameobjects spawn points will be used as relative to the transport.
-

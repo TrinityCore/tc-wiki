@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T09:36:35.136Z
 | [groupId](#groupid) | int | unsigned | PRI | NO |  |  |  |
 | [spawnType](#spawntype) | tinyint | unsigned | PRI | NO |  |  |  |
 | [spawnId](#spawnid) | bigint | unsigned | PRI | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -27,10 +28,9 @@ Group ID for the group. It must match a group already existing in the [spawn_gro
 | ---------- | ---------------- |
 |          0 | For creatures    |
 |          1 | For game gbjects |
+
 &nbsp;
 
 ### spawnId
 Spawn ID/GUID of the creature/game object that should be included in the group. The GUID must exist in the [creature](/database/master/world/creature) or [gameobject](/database/master/world/gameobject) tables respectively.
 &nbsp;
-
-

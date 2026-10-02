@@ -18,6 +18,7 @@ This table holds information on the base health and mana of characters when they
 | [level](#level) | tinyint | unsigned | PRI | NO |  |  |  |
 | [basehp](#basehp) | smallint | unsigned |  | NO |  |  |  |
 | [basemana](#basemana) | smallint | unsigned |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 

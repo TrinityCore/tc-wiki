@@ -47,6 +47,7 @@ dateCreated: 2021-08-30T07:35:37.929Z
 | [resilience](#resilience) | int | unsigned |  | NO | 0 |  |  |
 | [mastery](#mastery) | float |  |  | NO | 0 |  |  |
 | [versatility](#versatility) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -189,4 +190,3 @@ dateCreated: 2021-08-30T07:35:37.929Z
 ### versatility
 *- no description -*
 &nbsp;
-

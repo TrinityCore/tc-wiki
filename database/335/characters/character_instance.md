@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T21:59:44.864Z
 | [instance](#instance) | int | unsigned | PRI | NO | 0 |  |  |
 | [permanent](#permanent) | tinyint | unsigned |  | NO | 0 |  |  |
 | [extendState](#extendstate) | tinyint | unsigned |  | NO | 1 |  |  |
+
 &nbsp;
 ## Description of fields
 

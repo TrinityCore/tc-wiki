@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T09:35:42.379Z
 | [raceID](#raceid) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [expansion](#expansion) | tinyint | unsigned |  | NO | 0 |  |  |
 | [achievementId](#achievementid) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ dateCreated: 2021-08-30T09:35:42.379Z
 ### achievementId
 *- no description -*
 &nbsp;
-
-

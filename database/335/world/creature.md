@@ -39,6 +39,7 @@ Contains individual creature spawn data. Spawn of a creature is an instance of t
 | [ScriptName](#scriptname) | char(64) |  |  | YES | '' |  |  |
 | [StringId](#stringid) | varchar(64) |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

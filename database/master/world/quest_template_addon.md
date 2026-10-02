@@ -31,6 +31,7 @@ dateCreated: 2021-08-30T09:35:34.485Z
 | [ProvidedItemCount](#provideditemcount) | tinyint | unsigned |  | NO | 0 |  |  |
 | [SpecialFlags](#specialflags) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 

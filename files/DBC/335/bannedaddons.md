@@ -33,6 +33,7 @@ Extended by [banned_addons](/database/335/characters/banned_addons) table.
 | 8 | [VersionMD5_3](#versionmd5) | uint32 |  |
 | 9 | [LastModified](#lastmodified) | uint32 |  |
 | 10 | [Flags](#flags) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -67,4 +68,3 @@ always `2`
 
 Entries without this flag are ignored in FindBannedAddOn.
 &nbsp;
-

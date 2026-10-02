@@ -18,6 +18,7 @@ dateCreated: 2021-08-30T09:32:01.684Z
 | [castBarCaption](#castbarcaption) | mediumtext |  |  | YES | NULL |  |  |
 | [unk1](#unk1) | mediumtext |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

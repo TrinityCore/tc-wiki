@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T09:30:26.571Z
 | [Chase](#chase) | tinyint | unsigned |  | YES | NULL |  |  |
 | [Random](#random) | tinyint | unsigned |  | YES | NULL |  |  |
 | [InteractionPauseTimer](#interactionpausetimer) | int | unsigned |  | YES | NULL |  | Time (in milliseconds) during which creature will not move after interaction with player |
+
 &nbsp;
 ## Description of fields
 
@@ -29,6 +30,7 @@ NPC entry
 | --- | --- |
 | 0 | Disabled |
 | 1 | Enabled |
+
 &nbsp;
 
 ### Chase
@@ -37,6 +39,7 @@ NPC entry
 | 0 | Run |
 | 1 | CanWalk |
 | 2 | AlwaysWalk |
+
 &nbsp;
 
 ### Random
@@ -51,4 +54,3 @@ NPC entry
 ### InteractionPauseTimer
 Time (in milliseconds) during which the creature will not move after interaction with player.
 &nbsp;
-

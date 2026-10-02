@@ -18,6 +18,7 @@ dateCreated: 2021-08-30T22:02:25.427Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [wardenId](#wardenid) | smallint | unsigned | PRI | NO |  |  |  |
 | [action](#action-alt) | tinyint | unsigned |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

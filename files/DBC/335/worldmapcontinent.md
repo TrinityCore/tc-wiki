@@ -34,6 +34,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 11 | [TaxiMaxX](#taxi) | float |  |
 | 12 | [TaxiMaxY](#taxi) | float |  |
 | 13 | [WorldMapID](#worldmapid) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -79,4 +80,3 @@ Another map boundary?
 * 0: Cosmic Map
 * 1: Azeroth
 &nbsp;
-

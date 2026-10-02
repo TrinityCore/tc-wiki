@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T07:47:41.341Z
 | [TabName](#tabname) | varchar(16) |  |  | NO | '' |  |  |
 | [TabIcon](#tabicon) | varchar(100) |  |  | NO | '' |  |  |
 | [TabText](#tabtext) | varchar(500) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -39,4 +40,3 @@ dateCreated: 2021-08-30T07:47:41.341Z
 ### TabText
 *- no description -*
 &nbsp;
-

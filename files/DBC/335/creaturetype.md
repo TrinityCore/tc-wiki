@@ -39,6 +39,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 16 | [Name_15](#name-alt) | string |  |
 | 17 | [Name_lang_mask](#name-alt) | uint32 |  |
 | 18 | [Flags](#flags) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -59,4 +60,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 * 1: ignore in tab targeting
 &nbsp;
-

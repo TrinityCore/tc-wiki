@@ -17,6 +17,7 @@ dateCreated: 2024-02-11T20:26:37.382Z
 | [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Velocity](#velocity) | float |  |  | YES | NULL |  |  |
 | [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -31,6 +32,7 @@ Unique ID for each path.
 | Run | 1 |
 | Land | 2 |
 | TakeOff | 3 |
+
 &nbsp;
 
 ### Flags
@@ -39,6 +41,7 @@ Unique ID for each path.
 | 0x00 | None |
 | 0x01 | FollowPathBackwardsFromEndToStart |
 | 0x02 | ExactSplinePath |
+
 &nbsp;
 
 ### Velocity
@@ -56,4 +59,3 @@ Description for the path.
 
 For example: `<Npc name> - Cosmetic Path` if this path is assigned in [`creature_addon.PathId`](/database/master/world/creature_addon#PathId).
 &nbsp;
-

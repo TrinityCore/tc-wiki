@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T09:32:34.977Z
 | [map](#map) | smallint | unsigned | PRI | NO |  |  |  |
 | [parent](#parent) | smallint | unsigned |  | NO |  |  |  |
 | [script](#script) | varchar(128) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,4 +30,3 @@ If the instance is a subinstance of another instance, this field has the parent 
 ### script
 The name of the instance script that the instance will use and apply (if any).
 &nbsp;
-

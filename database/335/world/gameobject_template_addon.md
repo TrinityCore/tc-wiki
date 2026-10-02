@@ -23,6 +23,7 @@ This table holds additional information on gameobjects.
 | [artkit1](#artkit-0-3) | int | signed |  | NO | 0 |  |  |
 | [artkit2](#artkit-0-3) | int | signed |  | NO | 0 |  |  |
 | [artkit3](#artkit-0-3) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

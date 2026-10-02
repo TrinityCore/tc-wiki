@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T07:46:39.893Z
 | [counter](#counter) | bigint | unsigned |  | NO |  |  |  |
 | [date](#date) | bigint | signed |  | NO | 0 |  |  |
 | [completedGuid](#completedguid) | bigint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -39,5 +40,3 @@ dateCreated: 2021-08-30T07:46:39.893Z
 ### completedGuid
 *- no description -*
 &nbsp;
-
-

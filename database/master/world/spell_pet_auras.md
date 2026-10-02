@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T09:37:08.855Z
 | [effectId](#effectid) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [pet](#pet) | int | unsigned | PRI | NO | 0 |  | pet id; 0 = all |
 | [aura](#aura) | int | unsigned |  | NO |  |  | pet aura id |
+
 &nbsp;
 ## Description of fields
 

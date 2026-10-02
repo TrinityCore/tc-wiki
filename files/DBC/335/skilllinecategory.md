@@ -40,6 +40,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 17 | [Name_16](#name-alt) | string |  |
 | 18 | [Name_lang_mask](#name-alt) | uint32 |  |
 | 19 | [SortIndex](#sortindex) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -60,4 +61,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 UI display order
 &nbsp;
-

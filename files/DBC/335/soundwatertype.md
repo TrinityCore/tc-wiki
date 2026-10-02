@@ -24,6 +24,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 1 | [SoundType](#soundtype) | uint32 |  |
 | 2 | [SoundSubtype](#soundsubtype) | uint32 |  |
 | 3 | [SoundID](#soundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+
 &nbsp;
 ## Description of fields
 

@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T21:58:48.666Z
 | [Name](#name-alt) | varchar(255) |  | MUL | NO |  |  |  |
 | [Version](#version) | varchar(255) |  |  | NO | '' |  |  |
 | [Timestamp](#timestamp) | timestamp |  |  | NO | CURRENT_TIMESTAMP | DEFAULT_GENERATED on update CURRENT_TIMESTAMP |  |
+
 &nbsp;
 ## Description of fields
 
@@ -38,4 +39,3 @@ Version from .toc file or leave blank for all versions of that AddOns name.
 ### Timestamp
 *- no description -*
 &nbsp;
-

@@ -19,6 +19,7 @@ This table holds the contents of pools created in [pool_template](../world/pool_
 | [poolSpawnId](#poolspawnid) | int | unsigned |  | NO |  |  |  |
 | [chance](#chance) | float |  |  | NO |  |  |  |
 | [description](#description) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -53,4 +54,3 @@ Example:
 * Snarlflare (14272) - Spawn 1
 * Spawn Point 4 - Tin Vein
 &nbsp;
-

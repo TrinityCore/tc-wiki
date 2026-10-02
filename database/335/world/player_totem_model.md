@@ -17,6 +17,7 @@ This table enables shamans to have visually distinct totems on a per race basis.
 | [TotemSlot](#totemslot) | tinyint | unsigned | PRI | NO |  |  |  |
 | [RaceId](#raceid) | tinyint | unsigned | PRI | NO |  |  |  |
 | [DisplayId](#displayid) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

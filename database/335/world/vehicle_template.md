@@ -16,6 +16,7 @@ This table holds info for despawn delay with option to extend it in the future
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [creatureId](#creatureid) | int | unsigned | PRI | NO |  |  |  |
 | [despawnDelayMs](#despawndelayms) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -26,4 +27,3 @@ This table holds info for despawn delay with option to extend it in the future
 ### despawnDelayMs
 How long the vehicle will remain when exiting.
 &nbsp;
-

@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T22:00:16.827Z
 | [friend](#friend) | int | unsigned | PRI | NO | 0 |  | Friend Global Unique Identifier |
 | [flags](#flags) | tinyint | unsigned | PRI | NO | 0 |  | Friend Flags |
 | [note](#note) | varchar(48) |  |  | NO | '' |  | Friend Note |
+
 &nbsp;
 ## Description of fields
 

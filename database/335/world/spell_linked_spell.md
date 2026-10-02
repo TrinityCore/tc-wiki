@@ -18,6 +18,7 @@ This table provides data for spell linking system, telling it which spells trigg
 | [spell_effect](#spell_effect) | int | signed | PRI | NO | 0 |  |  |
 | [type](#type) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [comment](#comment) | mediumtext |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -56,4 +57,3 @@ Describes how both spells are linked
 ### comment
 Optional comment to explain the link.
 &nbsp;
-

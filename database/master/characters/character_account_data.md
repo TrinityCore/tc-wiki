@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T07:18:21.698Z
 | [type](#type) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [time](#time) | bigint | signed |  | NO | 0 |  |  |
 | [data](#data) | blob |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,5 +35,3 @@ dateCreated: 2021-08-30T07:18:21.698Z
 ### data
 *- no description -*
 &nbsp;
-
-

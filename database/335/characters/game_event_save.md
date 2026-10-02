@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T22:00:38.886Z
 | [eventEntry](#evententry) | tinyint | unsigned | PRI | NO |  |  |  |
 | [state](#state) | tinyint | unsigned |  | NO | 1 |  |  |
 | [next_start](#next_start) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

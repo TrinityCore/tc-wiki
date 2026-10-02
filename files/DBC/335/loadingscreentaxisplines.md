@@ -39,6 +39,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 16 | [LocY_6](#loc) | float |  |
 | 17 | [LocY_7](#loc) | float |  |
 | 18 | [LegIndex](#legindex) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -65,4 +66,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

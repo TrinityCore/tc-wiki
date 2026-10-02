@@ -15,6 +15,7 @@ dateCreated: 2021-08-21T03:35:11.327Z
 | [accountId](#accountid) | int | unsigned | PRI | NO |  |  |  |
 | [itemId](#itemid) | int | unsigned | PRI | NO | 0 |  |  |
 | [flags](#flags) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ dateCreated: 2021-08-21T03:35:11.327Z
 ### flags
 *- no description -*
 &nbsp;
-
-

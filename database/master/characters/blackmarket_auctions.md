@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T07:16:48.116Z
 | [time](#time) | bigint | signed |  | NO | 0 |  |  |
 | [numBids](#numbids) | int | signed |  | NO | 0 |  |  |
 | [bidder](#bidder) | bigint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -39,5 +40,3 @@ dateCreated: 2021-08-30T07:16:48.116Z
 ### bidder
 *- no description -*
 &nbsp;
-
-

@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T09:37:03.660Z
 | [spell_effect](#spell_effect) | int | signed | PRI | NO | 0 |  |  |
 | [type](#type) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [comment](#comment) | mediumtext |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -54,4 +55,3 @@ Describes how both spells are linked
 ### comment
 Optional comment to explain the link.
 &nbsp;
-

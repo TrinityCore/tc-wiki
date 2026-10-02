@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T08:16:21.188Z
 | [guid](#guid) | int | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
 | [spell](#spell) | int | unsigned | PRI | NO | 0 |  | Spell Identifier |
 | [active](#active) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ dateCreated: 2021-08-30T08:16:21.188Z
 ### active
 *- no description -*
 &nbsp;
-
-

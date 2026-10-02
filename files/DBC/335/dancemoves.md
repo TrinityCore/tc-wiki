@@ -44,6 +44,7 @@ dateCreated: 2023-10-04T08:02:22.477Z
 | 21 | [Name_15](#name-alt) | string |  |
 | 22 | [Name_lang_mask](#name-alt) | uint32 |  |
 | 23 | [LockID](#lockid) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

@@ -19,6 +19,7 @@ dateCreated: 2026-04-17T15:57:16.136Z
 | [build](#build) | int | signed | PRI | NO |  |  |  |
 | [platform](#platform) | char(4) |  | PRI | NO |  |  |  |
 | [executableHash](#executablehash) | binary(20) |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,5 +35,3 @@ e.g.: `12340`
 ### executableHash
  *- no description -*
 &nbsp;
-
-

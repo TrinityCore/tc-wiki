@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T09:32:32.436Z
 | [bossStates](#bossstates) | tinyint | unsigned | PRI | NO |  |  |  |
 | [spawnGroupId](#spawngroupid) | int | unsigned | PRI | NO |  |  |  |
 | [flags](#flags) | tinyint | unsigned |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -64,4 +65,5 @@ ID of the spawn group, referenced in [`spawn_group_template.groupId`](/database/
 | FLAG_BLOCK_SPAWN | 0x02 |
 | FLAG_ALLIANCE_ONLY | 0x04 |
 | FLAG_HORDE_ONLY | 0x08 |
+
 &nbsp;

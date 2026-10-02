@@ -21,6 +21,7 @@ This table contains a list of teleport locations that can be used with the `.tel
 | [orientation](#orientation) | float |  |  | NO | 0 |  |  |
 | [map](#map) | smallint | unsigned |  | NO | 0 |  |  |
 | [name](#name-alt) | varchar(100) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 

@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T09:32:04.274Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [classSpecId](#classspecid) | int | unsigned | PRI | NO | 0 |  |  |
 | [abilityId](#abilityid) | int | unsigned | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -24,5 +25,3 @@ dateCreated: 2021-08-30T09:32:04.274Z
 ### abilityId
 *- no description -*
 &nbsp;
-
-

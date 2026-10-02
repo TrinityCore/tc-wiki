@@ -18,6 +18,7 @@ This table holds information on spells a new character casts when he logs in for
 | [classMask](#classmask) | int | unsigned |  | NO | 0 |  |  |
 | [spell](#spell) | int | unsigned |  | NO | 0 |  |  |
 | [note](#note) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

@@ -50,6 +50,7 @@ dateCreated: 2021-08-30T09:36:32.378Z
 | [target_z](#target_type) | float |  |  | NO | 0 |  |  |
 | [target_o](#target_type) | float |  |  | NO | 0 |  |  |
 | [comment](#comment) | mediumtext |  |  | NO |  |  | Event Comment |
+
 &nbsp;
 ## Description of fields
 

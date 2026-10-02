@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T22:00:14.157Z
 | [skill](#skill) | smallint | unsigned | PRI | NO |  |  |  |
 | [value](#value) | smallint | unsigned |  | NO |  |  |  |
 | [max](#max) | smallint | unsigned |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -38,4 +39,3 @@ The current points accumulated in the skill.
 ### max
 The highest possible **value** for the given skill within a given rank.
 &nbsp;
-

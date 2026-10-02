@@ -28,6 +28,7 @@ dateCreated: 2021-08-30T22:03:10.475Z
 | [ErrorTextId](#errortextid) | int | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | char(64) |  |  | NO | '' |  |  |
 | [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -1408,6 +1409,7 @@ true if group status matches player
 | 2 | < | COMP_TYPE_LOW | ConditionType must be lower than ConditionValue |
 | 3 | >= | COMP_TYPE_HIGH_EQ | ConditionType must be higher or equal to ConditionValue |
 | 4 | <= | COMP_TYPE_LOW_EQ | ConditionType must be lower or equal to ConditionValue |
+
 &nbsp;
 
 ### ConditionTarget

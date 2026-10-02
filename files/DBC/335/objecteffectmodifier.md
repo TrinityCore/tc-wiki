@@ -28,6 +28,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 5 | [Param_1](#param) | float |  |
 | 6 | [Param_2](#param) | float |  |
 | 7 | [Param_3](#param) | float |  |
+
 &nbsp;
 ## Description of fields
 
@@ -60,4 +61,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

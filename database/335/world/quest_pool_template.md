@@ -17,6 +17,7 @@ Each unique quest pool is defined in this table.
 | [poolId](#poolid) | int | unsigned | PRI | NO |  |  |  |
 | [numActive](#numactive) | int | unsigned |  | NO |  |  | Number of indices to have active at any time |
 | [description](#description) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -32,4 +33,3 @@ This is the maximum number of quests in this pool that should be available at a 
 Field describes the basic information about what the pool refers to.
 Example: The Rokk \<Master of Cooking\> - Daily Quests
 &nbsp;
-

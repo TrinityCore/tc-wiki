@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T22:01:32.445Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [container_id](#container_id) | int | unsigned | PRI | NO | 0 |  | guid of container (item_instance.guid) |
 | [money](#money) | int | unsigned |  | NO | 0 |  | money loot (in copper) |
+
 &nbsp;
 ## Description of fields
 
@@ -30,4 +31,3 @@ references [item_loot_items.container_id](../characters/item_loot_items#containe
 ### money
 The amount of money loot in copper.
 &nbsp;
-

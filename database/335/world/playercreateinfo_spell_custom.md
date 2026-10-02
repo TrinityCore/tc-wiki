@@ -20,6 +20,7 @@ Please note you'll have to set `PlayerStart.AllSpells = 1` in config, else this 
 | [classmask](#classmask) | int | unsigned | PRI | NO | 0 |  |  |
 | [Spell](#spell) | int | unsigned | PRI | NO | 0 |  |  |
 | [Note](#note) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

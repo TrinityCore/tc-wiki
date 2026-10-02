@@ -21,6 +21,7 @@ This table is used to tell the server to spawn an additional NPC with this vehic
 | [description](#description) | mediumtext |  |  | NO |  |  |  |
 | [summontype](#summontype) | tinyint | unsigned |  | NO | 6 |  | see enum TempSummonType |
 | [summontimer](#summontimer) | int | unsigned |  | NO | 30000 |  | timer, only relevant for certain summontypes |
+
 &nbsp;
 ## Description of fields
 

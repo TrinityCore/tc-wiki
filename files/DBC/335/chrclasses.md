@@ -80,6 +80,7 @@ dateCreated: 2023-10-04T08:01:51.629Z
 | 57 | [Flags](#flags) | uint32 |  |
 | 58 | [CinematicSequenceID](#cinematicsequenceid) | uint32 | [CinematicSequences.dbc/0](/files/DBC/335/cinematicsequences#id-alt) |
 | 59 | [RequiredExpansion](#requiredexpansion) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

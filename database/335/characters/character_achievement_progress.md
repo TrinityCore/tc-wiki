@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T21:59:09.789Z
 | [criteria](#criteria) | smallint | unsigned | PRI | NO |  |  |  |
 | [counter](#counter) | int | unsigned |  | NO |  |  |  |
 | [date](#date) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -38,4 +39,3 @@ The counter related to the respective achievement
 ### date
 The date/time when this criteria was last updated, in Unix time.
 &nbsp;
-

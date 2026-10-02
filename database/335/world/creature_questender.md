@@ -16,6 +16,7 @@ Holds NPC quest ender relations on which NPCs finishes which quests.
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [id](#id-alt) | int | unsigned | PRI | NO | 0 |  | Identifier |
 | [quest](#quest) | int | unsigned | PRI | NO | 0 |  | Quest Identifier |
+
 &nbsp;
 ## Description of fields
 
@@ -26,4 +27,3 @@ The ID of the creature. See [creature_template.entry](../world/creature_template
 ### quest
 The quest ID that the creature finishes. See [quest_template.ID](../world/quest_template#id)
 &nbsp;
-

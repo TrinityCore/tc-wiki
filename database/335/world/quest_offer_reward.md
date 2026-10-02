@@ -25,6 +25,7 @@ This table is used for quests offering rewards without any required quest items 
 | [EmoteDelay4](#emotedelay-1-4) | int | unsigned |  | NO | 0 |  |  |
 | [RewardText](#rewardtext) | mediumtext |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

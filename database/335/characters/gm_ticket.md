@@ -36,6 +36,7 @@ dateCreated: 2021-08-30T22:00:46.758Z
 | [viewed](#viewed) | tinyint | unsigned |  | NO | 0 |  |  |
 | [needMoreHelp](#needmorehelp) | tinyint | unsigned |  | NO | 0 |  |  |
 | [resolvedBy](#resolvedby) | int | signed |  | NO | 0 |  | GUID of GM who resolved the ticket |
+
 &nbsp;
 ## Description of fields
 

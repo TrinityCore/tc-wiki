@@ -23,6 +23,7 @@ dateCreated: 2021-08-30T09:31:17.730Z
 | [BonusListIDs](#bonuslistids) | mediumtext |  |  | YES | NULL |  |  |
 | [PlayerConditionID](#playerconditionid) | int | unsigned |  | NO | 0 |  |  |
 | [IgnoreFiltering](#ignorefiltering) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -69,4 +70,3 @@ The value here corresponds to the ID in [ItemExtendedCost.ID](https://wago.tools
 ### IgnoreFiltering
 *- no description -*
 &nbsp;
-

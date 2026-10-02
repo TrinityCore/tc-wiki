@@ -33,6 +33,7 @@ dateCreated: 2021-08-30T22:00:54.931Z
 | [difficulty](#difficulty) | tinyint | unsigned |  | NO | 0 |  |  |
 | [raidDifficulty](#raiddifficulty) | tinyint | unsigned |  | NO | 0 |  |  |
 | [masterLooterGuid](#masterlooterguid) | int | unsigned |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 

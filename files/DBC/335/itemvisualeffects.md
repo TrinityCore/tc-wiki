@@ -22,6 +22,7 @@ dateCreated: 2023-10-04T08:04:49.743Z
 | :---: | --- | :---: | --- |
 | 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [Model](#model) | string |  |
+
 &nbsp;
 ## Description of fields
 
@@ -36,4 +37,3 @@ Table index
 
 File path to the model of the effect. (\*.mdx)
 &nbsp;
-

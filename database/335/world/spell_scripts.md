@@ -30,6 +30,7 @@ Holds scripts that can be activated by spells with effect:
 | [z](#z) | float |  |  | NO | 0 |  |  |
 | [o](#o) | float |  |  | NO | 0 |  |  |
 | [Comment](#comment) | varchar(255) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -80,4 +81,3 @@ Holds scripts that can be activated by spells with effect:
 ### Comment
 *- no description -*
 &nbsp;
-

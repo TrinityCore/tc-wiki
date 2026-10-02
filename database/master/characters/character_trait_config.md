@@ -21,6 +21,7 @@ dateCreated: 2022-12-19T18:37:08.123Z
 | [skillLineId](#skilllineid) | int | signed |  | YES | NULL |  |  |
 | [traitSystemId](#traitsystemid) | int | signed |  | YES | NULL |  |  |
 | [name](#name-alt) | varchar(260) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -59,4 +60,3 @@ dateCreated: 2022-12-19T18:37:08.123Z
 ### name {#name-alt}
 *- no description -*
 &nbsp;
-

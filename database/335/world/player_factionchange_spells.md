@@ -16,6 +16,7 @@ Basically all spell changes made when player changes faction.
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [alliance_id](#alliance_id) | int | unsigned | PRI | NO |  |  |  |
 | [horde_id](#horde_id) | int | unsigned | PRI | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -26,4 +27,3 @@ This is the alliance [Spell ID](/files/DBC/335/spell#id). If you convert to hord
 ### horde_id
 This is the horde [Spell ID](/files/DBC/335/spell#id). If you convert to alliance and your spells have a record in his table, they will be converted to **alliance_id**.
 &nbsp;
-

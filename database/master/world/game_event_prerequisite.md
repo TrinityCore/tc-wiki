@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T09:31:25.363Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [eventEntry](#evententry) | tinyint | unsigned | PRI | NO |  |  | Entry of the game event |
 | [prerequisite_event](#prerequisite_event) | int | unsigned | PRI | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -24,5 +25,3 @@ This is the [`game_event.eventEntry`](/database/master/world/game_event#eventEnt
 ### prerequisite_event
 The is the [`game_event.eventEntry`](/database/master/world/game_event#eventEntry) that must be completed before the next event will start.
 &nbsp;
-
-

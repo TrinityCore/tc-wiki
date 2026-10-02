@@ -132,6 +132,7 @@ dateCreated: 2021-08-30T09:35:31.131Z
 | [QuestCompletionLog](#questcompletionlog) | mediumtext |  |  | YES | NULL |  |  |
 | [ResetByScheduler](#resetbyscheduler) | tinyint | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

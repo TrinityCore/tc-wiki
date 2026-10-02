@@ -25,6 +25,7 @@ dateCreated: 2023-10-04T08:06:46.983Z
 | 2 | [Cost_0](#cost) | uint32 |  |
 | 3 | [Cost_1](#cost) | uint32 |  |
 | 4 | [Cost_2](#cost) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -45,4 +46,3 @@ dateCreated: 2023-10-04T08:06:46.983Z
 
 *- no description -*
 &nbsp;
-

@@ -24,6 +24,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 1 | [FromTaxiNode](#fromtaxinode) | uint32 | [TaxiNodes.dbc/0](/files/DBC/335/taxinodes#id-alt) |
 | 2 | [ToTaxiNode](#totaxinode) | uint32 | [TaxiNodes.dbc/0](/files/DBC/335/taxinodes#id-alt) |
 | 3 | [Cost](#cost) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -50,4 +51,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 in copper
 &nbsp;
-

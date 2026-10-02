@@ -24,6 +24,7 @@ This table controls the reputation given by creatures when killed by players.
 | [IsTeamAward2](#isteamaward2) | tinyint | signed |  | NO | 0 |  |  |
 | [RewOnKillRepValue2](#rewonkillrepvalue2) | int | signed |  | NO | 0 |  |  |
 | [TeamDependent](#teamdependent) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

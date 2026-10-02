@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T08:16:03.486Z
 | [effectIndex](#effectindex) | tinyint | unsigned | PRI | NO |  |  |  |
 | [amount](#amount) | int | signed |  | NO | 0 |  |  |
 | [baseAmount](#baseamount) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -49,4 +50,3 @@ dateCreated: 2021-08-30T08:16:03.486Z
 ### baseAmount
 *- no description -*
 &nbsp;
-

@@ -154,6 +154,7 @@ Holds information on every item that exists in the game. All items are created f
 | [maxMoneyLoot](#maxmoneyloot) | int | unsigned |  | NO | 0 |  |  |
 | [flagsCustom](#flagscustom) | int | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

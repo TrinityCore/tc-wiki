@@ -17,6 +17,7 @@ dateCreated: 2021-08-26T03:16:18.297Z
 | [uptime](#uptime) | int | unsigned |  | NO | 0 |  |  |
 | [maxplayers](#maxplayers) | smallint | unsigned |  | NO | 0 |  |  |
 | [revision](#revision) | varchar(255) |  |  | NO | Trinitycore |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -39,4 +40,3 @@ The maximum number of players connected.
 ### revision
 The detailed revision of the worldserver
 &nbsp;
-

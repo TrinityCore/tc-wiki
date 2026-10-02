@@ -20,6 +20,7 @@ If you want to change the spot you will start in when you enter/leave an instanc
 | [parent](#parent) | smallint | unsigned |  | NO |  |  |  |
 | [script](#script) | varchar(128) |  |  | NO | '' |  |  |
 | [allowMount](#allowmount) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -39,4 +40,3 @@ The name of the instance script that the instance will use and apply (if any).
 * 0: you can't enter on mount and get dismounted on enter
 * 1: you can enter on mount and will not get dismounted on enter
 &nbsp;
-

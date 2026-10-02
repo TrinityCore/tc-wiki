@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T21:57:53.163Z
 | [type](#type) | varchar(250) |  |  | NO |  |  |  |
 | [level](#level) | tinyint | unsigned |  | NO | 0 |  |  |
 | [string](#string) | text |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T09:37:34.783Z
 | [Type](#type) | tinyint | unsigned |  | NO | 2 |  |  |
 | [Greeting](#greeting) | mediumtext |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -30,6 +31,7 @@ For trainer, this field signifies a unique trainer ID. It is to this ID that all
 | Talent | 1 |
 | Tradeskill | 2 |
 | Pet | 3 |
+
 &nbsp;
 
 ### Greeting
@@ -48,5 +50,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 
 &nbsp;
-
-

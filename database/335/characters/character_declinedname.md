@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T21:59:28.370Z
 | [accusative](#accusative) | varchar(15) |  |  | NO | '' |  |  |
 | [instrumental](#instrumental) | varchar(15) |  |  | NO | '' |  |  |
 | [prepositional](#prepositional) | varchar(15) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -48,4 +49,3 @@ Name in instrumental casus.
 ### prepositional
 Name in prepositional casus.
 &nbsp;
-

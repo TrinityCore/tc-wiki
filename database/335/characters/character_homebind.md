@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T21:59:42.236Z
 | [posX](#posx) | float |  |  | NO | 0 |  |  |
 | [posY](#posy) | float |  |  | NO | 0 |  |  |
 | [posZ](#posz) | float |  |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -48,4 +49,3 @@ The Y position where the character gets teleported to.
 ### posZ
 The Z position where the character gets teleported to.
 &nbsp;
-

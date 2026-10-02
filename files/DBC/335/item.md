@@ -28,6 +28,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 5 | [DisplayInfoID](#displayinfoid) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id-alt) |
 | 6 | [InventoryType](#inventorytype) | uint32 |  |
 | 7 | [SheatheType](#sheathetype) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

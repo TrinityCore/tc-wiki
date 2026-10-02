@@ -24,6 +24,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 1 | [ViolenceLevel_0](#violencelevel) | uint32 |  |
 | 2 | [ViolenceLevel_1](#violencelevel) | uint32 |  |
 | 3 | [ViolenceLevel_2](#violencelevel) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -40,4 +41,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 * col. 2: Medium
 * col. 3: High
 &nbsp;
-

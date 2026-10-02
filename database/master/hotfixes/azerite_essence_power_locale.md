@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T09:49:49.326Z
 | [SourceAlliance_lang](#sourcealliance_lang) | text |  |  | YES | NULL |  |  |
 | [SourceHorde_lang](#sourcehorde_lang) | text |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

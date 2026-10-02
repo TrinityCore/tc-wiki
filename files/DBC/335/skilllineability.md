@@ -34,6 +34,7 @@ dateCreated: 2023-10-04T08:06:51.451Z
 | 11 | [TrivialSkillLineRankLow](#trivialskilllineranklow) | uint32 |  |
 | 12 | [CharacterPoints_0](#characterpoints) | uint32 |  |
 | 13 | [CharacterPoints_1](#characterpoints) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

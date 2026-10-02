@@ -16,6 +16,7 @@ Table used for storing custom spell attributes.
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entry](#entry) | int | unsigned | PRI | NO | 0 |  | spell id |
 | [attributes](#attributes) | int | unsigned |  | NO | 0 |  | SpellCustomAttributes |
+
 &nbsp;
 ## Description of fields
 

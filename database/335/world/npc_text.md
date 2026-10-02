@@ -104,6 +104,7 @@ This table contains the texts that are used for gossip. More research needs to b
 | [EmoteDelay7_2](#emotedelay-0-7-0-2) | smallint | unsigned |  | NO | 0 |  |  |
 | [Emote7_2](#emote-0-7-0-2) | smallint | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

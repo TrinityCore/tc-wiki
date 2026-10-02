@@ -22,6 +22,7 @@ This table contains the description of creatures movements, where the creature c
 | [Chase](#chase) | tinyint | unsigned |  | YES | NULL |  |  |
 | [Random](#random) | tinyint | unsigned |  | YES | NULL |  |  |
 | [InteractionPauseTimer](#interactionpausetimer) | int | unsigned |  | YES | NULL |  | Time (in milliseconds) during which creature will not move after interaction with player |
+
 &nbsp;
 ## Description of fields
 
@@ -74,4 +75,3 @@ Time (in milliseconds) during which the creature will not move after interaction
 
 > Note: You can override this values for a specific spawn in the table: [creature_movement_override](../world/creature_movement_override)
 {.is-info}
-

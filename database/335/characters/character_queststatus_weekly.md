@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T22:00:08.862Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | int | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
 | [quest](#quest) | int | unsigned | PRI | NO | 0 |  | Quest Identifier |
+
 &nbsp;
 ## Description of fields
 
@@ -29,4 +30,3 @@ The [guid](../characters/characters#guid) of the character.
 ### quest
 The [quest ID](../world/quest_template#id) of the weekly quest.
 &nbsp;
-

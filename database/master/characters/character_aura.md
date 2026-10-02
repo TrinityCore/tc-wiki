@@ -25,6 +25,7 @@ dateCreated: 2021-08-30T07:19:44.413Z
 | [remainCharges](#remaincharges) | tinyint | unsigned |  | NO | 0 |  |  |
 | [castItemId](#castitemid) | int | unsigned |  | NO | 0 |  |  |
 | [castItemLevel](#castitemlevel) | int | signed |  | NO | -1 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -79,4 +80,3 @@ dateCreated: 2021-08-30T07:19:44.413Z
 ### castItemLevel
 *- no description -*
 &nbsp;
-

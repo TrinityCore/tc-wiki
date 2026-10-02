@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T21:59:04.555Z
 | [type](#type) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [time](#time) | int | unsigned |  | NO | 0 |  |  |
 | [data](#data) | blob |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 

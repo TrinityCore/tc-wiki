@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T08:11:20.709Z
 | [itemGuid](#itemguid) | bigint | unsigned | PRI | NO |  |  |  |
 | [artifactPowerId](#artifactpowerid) | int | unsigned | PRI | NO |  |  |  |
 | [purchasedRank](#purchasedrank) | tinyint | unsigned |  | YES | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ dateCreated: 2021-08-30T08:11:20.709Z
 ### purchasedRank
 *- no description -*
 &nbsp;
-
-

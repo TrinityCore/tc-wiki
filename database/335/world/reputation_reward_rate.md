@@ -22,6 +22,7 @@ Holds reputation multipliers for specific factions.
 | [quest_repeatable_rate](#quest_repeatable_rate) | float |  |  | NO | 1 |  |  |
 | [creature_rate](#creature_rate) | float |  |  | NO | 1 |  |  |
 | [spell_rate](#spell_rate) | float |  |  | NO | 1 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -56,4 +57,3 @@ The rate for reputation gain from creature kills.
 ### spell_rate
 The rate for reputation gain from spells. (like [Commendation Badges](https://aowow.trinitycore.info/?search=Commendation+Badge))
 &nbsp;
-

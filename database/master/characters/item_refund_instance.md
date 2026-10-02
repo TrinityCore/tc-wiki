@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T08:14:05.874Z
 | [player_guid](#player_guid) | bigint | unsigned | PRI | NO |  |  | Player GUID |
 | [paidMoney](#paidmoney) | bigint | unsigned |  | NO | 0 |  |  |
 | [paidExtendedCost](#paidextendedcost) | smallint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,5 +35,3 @@ dateCreated: 2021-08-30T08:14:05.874Z
 ### paidExtendedCost
 *- no description -*
 &nbsp;
-
-

@@ -16,6 +16,7 @@ Basically all faction/reputation changes made when player changes faction.
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [alliance_id](#alliance_id) | int | unsigned | PRI | NO |  |  |  |
 | [horde_id](#horde_id) | int | unsigned | PRI | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -30,4 +31,3 @@ This is the horde [Faction ID](/files/DBC/335/faction#id). If you convert to all
 See [character_reputation.faction](../characters/character_reputation#faction)
 
 &nbsp;
-

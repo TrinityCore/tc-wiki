@@ -18,6 +18,7 @@ This table holds information about when using certain profession spells will cre
 | [requiredSpecialization](#requiredspecialization) | int | unsigned |  | NO | 0 |  | Specialization spell id |
 | [additionalCreateChance](#additionalcreatechance) | float |  |  | NO | 0 |  | chance to create add |
 | [additionalMaxNum](#additionalmaxnum) | tinyint | unsigned |  | NO | 0 |  | max num of adds |
+
 &nbsp;
 ## Description of fields
 

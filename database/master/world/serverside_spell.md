@@ -94,6 +94,7 @@ dateCreated: 2021-08-30T09:36:10.897Z
 | [AreaGroupId](#areagroupid) | int | signed |  | NO | 0 |  |  |
 | [SchoolMask](#schoolmask) | int | unsigned |  | NO | 0 |  |  |
 | [ChargeCategoryId](#chargecategoryid) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -152,6 +153,7 @@ dateCreated: 2021-08-30T09:36:10.897Z
 | SPELL_ATTR0_NO_IMMUNITIES | 0x20000000 | Allows spell to pierce invulnerability, unless the invulnerability spell also has this attribute |
 | SPELL_ATTR0_HEARTBEAT_RESIST | 0x40000000 | Periodically re-rolls against resistance to potentially expire aura early |
 | SPELL_ATTR0_NO_AURA_CANCEL | 0x80000000 | Prevents the player from voluntarily canceling a positive aura |
+
 &nbsp;
 
 ### AttributesEx
@@ -189,6 +191,7 @@ dateCreated: 2021-08-30T09:36:10.897Z
 | SPELL_ATTR1_NAME_IN_CHANNEL_BAR | 0x20000000 | Name in Channel Bar (client only)|
 | SPELL_ATTR1_DISPEL_ALL_STACKS | 0x40000000 | Dispel All Stacks|
 | SPELL_ATTR1_CAST_WHEN_LEARNED | 0x80000000 | Cast When Learned|
+
 &nbsp;
 
 ### AttributesEx2
@@ -226,6 +229,7 @@ dateCreated: 2021-08-30T09:36:10.897Z
 | SPELL_ATTR2_CANT_CRIT | 0x20000000 | Can't Crit|
 | SPELL_ATTR2_ACTIVE_THREAT | 0x40000000 | Active Threat|
 | SPELL_ATTR2_RETAIN_ITEM_CAST | 0x80000000 | passes m_CastItem to triggered spells |
+
 &nbsp;
 
 ### AttributesEx3
@@ -263,6 +267,7 @@ dateCreated: 2021-08-30T09:36:10.897Z
 | SPELL_ATTR3_IGNORE_CASTER_MODIFIERS | 0x20000000 | Ignore Caster Modifiers|
 | SPELL_ATTR3_DO_NOT_DISPLAY_RANGE | 0x40000000 | Do Not Display Range (client only)|
 | SPELL_ATTR3_NOT_ON_AOE_IMMUNE | 0x80000000 |/*NYI, no aoe immunity implementation*/ |
+
 &nbsp;
 
 ### AttributesEx4
@@ -300,6 +305,7 @@ dateCreated: 2021-08-30T09:36:10.897Z
 | SPELL_ATTR4_AURA_BOUNCE_FAILS_SPELL | 0x20000000 | Aura Bounce Fails Spell|
 | SPELL_ATTR4_OBSOLETE | 0x40000000 | Obsolete|
 | SPELL_ATTR4_USE_FACING_FROM_SPELL | 0x80000000 | Use Facing From Spell|
+
 &nbsp;
 
 ### AttributesEx5
@@ -337,6 +343,7 @@ dateCreated: 2021-08-30T09:36:10.897Z
 | SPELL_ATTR5_AURA_UNIQUE_PER_CASTER | 0x20000000 | Aura Unique Per Caster|
 | SPELL_ATTR5_ALWAYS_SHOW_GROUND_TEXTURE | 0x40000000 | Always Show Ground Texture|
 | SPELL_ATTR5_ADD_MELEE_HIT_RATING | 0x80000000 | Add Melee Hit Rating|
+
 &nbsp;
 
 ### AttributesEx6
@@ -374,6 +381,7 @@ dateCreated: 2021-08-30T09:36:10.897Z
 | SPELL_ATTR6_IGNORE_CASTER_DAMAGE_MODIFIERS | 0x20000000 | Ignore Caster Damage Modifiers. This prevents certain damage modifiers from applying - see implementation if you really care about details|
 | SPELL_ATTR6_DISABLE_TIED_EFFECT_POINTS | 0x40000000 | /*NYI*/ // Disable Tied Effect Points|
 | SPELL_ATTR6_NO_CATEGORY_COOLDOWN_MODS | 0x80000000 | No Category Cooldown Mods|
+
 &nbsp;
 
 ### AttributesEx7
@@ -411,6 +419,7 @@ dateCreated: 2021-08-30T09:36:10.897Z
 | SPELL_ATTR7_UNK29 | 0x20000000 | Unknown attribute 29@Attr7|
 | SPELL_ATTR7_UNK30 | 0x40000000 | Unknown attribute 30@Attr7|
 | SPELL_ATTR7_CLIENT_INDICATOR | 0x80000000 | Client indicator (client only)|
+
 &nbsp;
 
 ### AttributesEx8
@@ -448,6 +457,7 @@ dateCreated: 2021-08-30T09:36:10.897Z
 | SPELL_ATTR8_MASTERY_AFFECTS_POINTS | 0x20000000 | Mastery Affects Points|
 | SPELL_ATTR8_UNK30 | 0x40000000 | Unknown attribute 30@Attr8|
 | SPELL_ATTR8_ATTACK_IGNORE_IMMUNE_TO_PC_FLAG | 0x80000000 | Can Attack ImmunePC. Do not check UNIT_FLAG_IMMUNE_TO_PC in IsValidAttackTarget|
+
 &nbsp;
 
 ### AttributesEx9
@@ -485,6 +495,7 @@ dateCreated: 2021-08-30T09:36:10.897Z
 | SPELL_ATTR9_UNK29 | 0x20000000 | Unknown attribute 29@Attr9|
 | SPELL_ATTR9_UNK30 | 0x40000000 | Unknown attribute 30@Attr9|
 | SPELL_ATTR9_UNK31 | 0x80000000 | Unknown attribute 31@Attr9|
+
 &nbsp;
 
 ### AttributesEx10
@@ -522,6 +533,7 @@ dateCreated: 2021-08-30T09:36:10.897Z
 | SPELL_ATTR10_MOUNT_IS_NOT_ACCOUNT_WIDE | 0x20000000 | This Mount is NOT at the account level|
 | SPELL_ATTR10_UNK30 | 0x40000000 | Unknown attribute 30@Attr10|
 | SPELL_ATTR10_UNK31 | 0x80000000 | Unknown attribute 31@Attr10|
+
 &nbsp;
 
 ### AttributesEx11
@@ -559,6 +571,7 @@ dateCreated: 2021-08-30T09:36:10.897Z
 | SPELL_ATTR11_UNK29 | 0x20000000 | Unknown attribute 29@Attr11|
 | SPELL_ATTR11_UNK30 | 0x40000000 | Unknown attribute 30@Attr11|
 | SPELL_ATTR11_UNK31 | 0x80000000 | Unknown attribute 31@Attr11|
+
 &nbsp;
 
 ### AttributesEx12
@@ -596,6 +609,7 @@ dateCreated: 2021-08-30T09:36:10.897Z
 | SPELL_ATTR12_UNK29 | 0x20000000 | Unknown attribute 29@Attr12|
 | SPELL_ATTR12_UNK30 | 0x40000000 | Unknown attribute 30@Attr12|
 | SPELL_ATTR12_ONLY_PROC_FROM_CLASS_ABILITIES | 0x80000000 | Only Proc From Class Abilities|
+
 &nbsp;
 
 ### AttributesEx13
@@ -633,6 +647,7 @@ dateCreated: 2021-08-30T09:36:10.897Z
 | SPELL_ATTR13_UNK29 | 0x20000000 | Unknown attribute 29@Attr13|
 | SPELL_ATTR13_UNK30 | 0x40000000 | Unknown attribute 30@Attr13|
 | SPELL_ATTR13_UNK31 | 0x80000000 | Unknown attribute 31@Attr13|
+
 &nbsp;
 
 ### AttributesEx14
@@ -670,12 +685,14 @@ dateCreated: 2021-08-30T09:36:10.897Z
 | SPELL_ATTR14_UNK29 | 0x20000000 | Unknown attribute 29@Attr14|
 | SPELL_ATTR14_UNK30 | 0x40000000 | Unknown attribute 30@Attr14|
 | SPELL_ATTR14_UNK31 | 0x80000000 | Unknown attribute 31@Attr14|
+
 &nbsp;
 
 ### AttributesEx15
 | Name | Hex | Comment |
 | :--- | :--- | :--- |
 |  |  |  |
+
 &nbsp;
 
 ### Stances
@@ -785,6 +802,7 @@ dateCreated: 2021-08-30T09:36:10.897Z
 |ZeroDamageCancels           | 0x00000100|
 |DamagePushback              | 0x00000200|
 |DamageCancels               | 0x00000400|
+
 &nbsp;
 
 ### AuraInterruptFlags1
@@ -823,6 +841,7 @@ dateCreated: 2021-08-30T09:36:10.897Z
 |Login                       | 0x20000000|
 |Summon                      | 0x40000000|
 |LeavingCombat               | 0x80000000|
+
 &nbsp;
 
 ### AuraInterruptFlags2
@@ -992,4 +1011,3 @@ dateCreated: 2021-08-30T09:36:10.897Z
 ### ChargeCategoryId
 *- no description -*
 &nbsp;
-

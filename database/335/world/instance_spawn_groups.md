@@ -21,6 +21,7 @@ A spawn group is activated if any of its FLAG_ACTIVATE_SPAWN conditions are met,
 | [bossStates](#bossstates) | tinyint | unsigned | PRI | NO |  |  |  |
 | [spawnGroupId](#spawngroupid) | int | unsigned | PRI | NO |  |  |  |
 | [flags](#flags) | tinyint | unsigned |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 

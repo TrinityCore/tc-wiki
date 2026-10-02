@@ -31,6 +31,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 8 | [DoodadWeight_3](#doodadweight) | uint32 |  |
 | 9 | [Density](#density) | uint32 |  |
 | 10 | [TerrainID](#terrainid) | uint32 | [TerrainType.dbc/0](/files/DBC/335/terraintype#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -63,4 +64,3 @@ amount and coverage?
 
 *- no description -*
 &nbsp;
-

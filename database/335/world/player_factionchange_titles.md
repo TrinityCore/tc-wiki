@@ -16,6 +16,7 @@ Basically all title changes made when player changes faction.
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [alliance_id](#alliance_id) | int | signed | PRI | NO |  |  |  |
 | [horde_id](#horde_id) | int | signed | PRI | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -26,4 +27,3 @@ This is the alliance [CharTitle ID](/files/DBC/335/chartitles#id). If you conver
 ### horde_id
 This is the horde [CharTitle ID](/files/DBC/335/chartitles#id). If you convert to alliance and your titles have a record in his table, they will be converted to **alliance_id**.
 &nbsp;
-

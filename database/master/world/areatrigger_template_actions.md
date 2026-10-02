@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T09:29:02.076Z
 | [ActionType](#actiontype) | int | unsigned |  | NO |  |  |  |
 | [ActionParam](#actionparam) | int | unsigned |  | NO |  |  |  |
 | [TargetType](#targettype) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -35,6 +36,7 @@ Describes whether `AreaTriggerId` of this row is a custom id or not.
 | 1 | AREATRIGGER_ACTION_ADDAURA |
 | 2 | AREATRIGGER_ACTION_TELEPORT |
 | 3 | AREATRIGGER_ACTION_TAVERN |
+
 &nbsp;
 
 ### ActionParam
@@ -45,6 +47,7 @@ Depending on the ActionType the ActionParam fullfills a different purpose.
 | AREATRIGGER_ACTION_CAST | SpellID |
 | AREATRIGGER_ACTION_ADDAURA | SpellID |
 | AREATRIGGER_ACTION_TELEPORT | [world_safe_locs.id](/database/master/world/world_safe_locs) |
+
 &nbsp;
 
 ### TargetType
@@ -57,5 +60,5 @@ Depending on the ActionType the ActionParam fullfills a different purpose.
 | 4 | AREATRIGGER_ACTION_USER_PARTY |
 | 5 | AREATRIGGER_ACTION_USER_CASTER |
 | 6 | AREATRIGGER_ACTION_USER_MAX |
-&nbsp;
 
+&nbsp;

@@ -25,6 +25,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 2 | [SoundID](#soundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 | 3 | [Priority](#priority) | uint32 |  |
 | 4 | [MinDelayMinutes](#mindelayminutes) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -57,4 +58,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

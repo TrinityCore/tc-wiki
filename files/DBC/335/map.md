@@ -86,6 +86,7 @@ dateCreated: 2023-10-04T08:05:31.322Z
 | 63 | [ExpansionID](#expansionid) | uint32 |  |
 | 64 | [RaidOffset](#raidoffset) | uint32 |  |
 | 65 | [MaxPlayers](#maxplayers) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

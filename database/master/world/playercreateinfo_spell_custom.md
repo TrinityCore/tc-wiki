@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T09:34:31.272Z
 | [classmask](#classmask) | int | unsigned | PRI | NO | 0 |  |  |
 | [Spell](#spell) | int | unsigned | PRI | NO | 0 |  |  |
 | [Note](#note) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

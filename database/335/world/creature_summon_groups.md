@@ -25,6 +25,7 @@ This table holds data about temporary summoned creatures. It is possible to grou
 | [summonType](#summontype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [summonTime](#summontime) | int | unsigned |  | NO | 0 |  |  |
 | [Comment](#comment) | varchar(255) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 

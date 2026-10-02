@@ -21,6 +21,7 @@ This table allows you to change the items a vendor sells, or to create a [vendor
 | [maxcount](#maxcount) | int | unsigned |  | NO | 0 |  |  |
 | [incrtime](#incrtime) | int | unsigned |  | NO | 0 |  |  |
 | [ExtendedCost](#extendedcost) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 
 ## Description of fields
@@ -52,4 +53,3 @@ Combined with **maxcount**, this field tells how often (in seconds) the vendor l
 ### ExtendedCost
 The value here corresponds to an [ItemExtendedCost ID](/files/DBC/335/itemextendedcost#id) and that ID controls the item's non monetary price, be it honor points, arena points, different types of badges or any combination of the above.
 &nbsp;
-

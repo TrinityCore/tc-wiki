@@ -20,6 +20,7 @@ This table holds information on spells that should be learned at the same time a
 | [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
 | [SpellID](#spellid) | int | unsigned | PRI | NO | 0 |  |  |
 | [Active](#active) | tinyint | unsigned |  | NO | 1 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,4 +35,3 @@ The entry of the spell that will be automatically learned by the player when the
 ### Active
 Defines whether spell is shown in spell book or not.
 &nbsp;
-

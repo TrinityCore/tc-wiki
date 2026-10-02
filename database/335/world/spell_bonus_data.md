@@ -20,6 +20,7 @@ Table used for storing custom damage/healing bonus coefficients.
 | [ap_bonus](#ap_bonus) | float |  |  | NO | 0 |  |  |
 | [ap_dot_bonus](#ap_dot_bonus) | float |  |  | NO | 0 |  |  |
 | [comments](#comments) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -54,4 +55,3 @@ Attack Power coefficient for the over time component of the spell.
 commonly: Spell User – Spell Name
 e.g.: `Item - Onyxia 10 Caster Trinket - Searing Flames`
 &nbsp;
-

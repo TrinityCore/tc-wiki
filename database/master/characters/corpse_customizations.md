@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T07:38:08.215Z
 | [ownerGuid](#ownerguid) | bigint | unsigned | PRI | NO |  |  |  |
 | [chrCustomizationOptionID](#chrcustomizationoptionid) | int | unsigned | PRI | NO |  |  |  |
 | [chrCustomizationChoiceID](#chrcustomizationchoiceid) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ dateCreated: 2021-08-30T07:38:08.215Z
 ### chrCustomizationChoiceID
 *- no description -*
 &nbsp;
-
-

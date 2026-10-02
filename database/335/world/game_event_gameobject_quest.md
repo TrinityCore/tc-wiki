@@ -17,6 +17,7 @@ This table holds information on quests that should only be available when an eve
 | [eventEntry](#evententry) | tinyint | unsigned | PRI | NO |  |  | Entry of the game event |
 | [id](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [quest](#quest) | int | unsigned | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -31,4 +32,3 @@ The [gameobject_template.entry](../world/gameobject_template#entry) of the quest
 ### quest
 The [quest_template.ID](../world/quest_template#id) that is made available.
 &nbsp;
-

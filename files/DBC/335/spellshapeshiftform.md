@@ -55,6 +55,7 @@ dateCreated: 2023-10-04T08:08:04.899Z
 | 32 | [PresetSpellID_5](#presetspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
 | 33 | [PresetSpellID_6](#presetspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
 | 34 | [PresetSpellID_7](#presetspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+
 &nbsp;
 ## Description of fields
 

@@ -29,6 +29,7 @@ dateCreated: 2021-08-30T21:58:45.939Z
 | [startbid](#startbid) | int | unsigned |  | NO | 0 |  |  |
 | [deposit](#deposit) | int | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

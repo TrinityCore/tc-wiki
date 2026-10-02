@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T09:37:45.157Z
 | [content_loc6](#content_loc6) | mediumtext |  |  | YES | NULL |  |  |
 | [content_loc7](#content_loc7) | mediumtext |  |  | YES | NULL |  |  |
 | [content_loc8](#content_loc8) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -64,5 +65,3 @@ Localized string for esMX
 ### content_loc8
 Localized string for ruRU
 &nbsp;
-
-

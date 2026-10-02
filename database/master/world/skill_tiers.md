@@ -29,6 +29,7 @@ dateCreated: 2021-08-30T09:36:27.087Z
 | [Value14](#value14) | int | unsigned |  | NO | 0 |  |  |
 | [Value15](#value15) | int | unsigned |  | NO | 0 |  |  |
 | [Value16](#value16) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -99,5 +100,3 @@ dateCreated: 2021-08-30T09:36:27.087Z
 ### Value16
 *- no description -*
 &nbsp;
-
-

@@ -18,6 +18,7 @@ dateCreated: 2022-12-19T18:39:35.669Z
 | [OverrideSubtext_lang](#overridesubtext_lang) | text |  |  | YES | NULL |  |  |
 | [OverrideDescription_lang](#overridedescription_lang) | text |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

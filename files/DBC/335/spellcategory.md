@@ -22,6 +22,7 @@ dateCreated: 2023-10-04T08:07:27.599Z
 | :---: | --- | :---: | --- |
 | 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [Flags](#flags) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

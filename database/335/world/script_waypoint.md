@@ -21,6 +21,7 @@ This table holds creature waypoints for use by the scripting system.
 | [location_z](#location_z) | float |  |  | NO | 0 |  |  |
 | [waittime](#waittime) | int | unsigned |  | NO | 0 |  | waittime in millisecs |
 | [point_comment](#point_comment) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -51,4 +52,3 @@ Time in milliseconds to wait at waypoint.
 ### point_comment
 This field is for any comment you want to make. It is arbitrary text.
 &nbsp;
-

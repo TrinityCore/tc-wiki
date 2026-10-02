@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T21:58:08.875Z
 | [realmid](#realmid) | int | unsigned | PRI | NO | 0 |  |  |
 | [acctid](#acctid) | int | unsigned | PRI | NO |  |  |  |
 | [numchars](#numchars) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -35,4 +36,3 @@ The [account id](../auth/account#id).
 The number of characters the account has on the realm.
 (Range: 0 – 10)
 &nbsp;
-

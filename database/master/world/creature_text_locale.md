@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T09:30:34.430Z
 | [ID](#id-alt) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [Locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
 | [Text](#text) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

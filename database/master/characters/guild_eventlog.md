@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T07:47:59.566Z
 | [PlayerGuid2](#playerguid2) | bigint | unsigned | MUL | NO |  |  | Player 2 |
 | [NewRank](#newrank) | tinyint | unsigned |  | NO |  |  | New rank(in case promotion/demotion) |
 | [TimeStamp](#timestamp) | bigint | signed |  | NO |  |  | Event UNIX time |
+
 &nbsp;
 ## Description of fields
 
@@ -49,5 +50,3 @@ dateCreated: 2021-08-30T07:47:59.566Z
 ### TimeStamp
 *- no description -*
 &nbsp;
-
-

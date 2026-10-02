@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T09:31:40.941Z
 | [invisibilityValue](#invisibilityvalue) | int | unsigned |  | NO | 0 |  |  |
 | [WorldEffectID](#worldeffectid) | int | unsigned |  | NO | 0 |  |  |
 | [AIAnimKitID](#aianimkitid) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T22:01:03.136Z
 | [TabId](#tabid) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [SlotId](#slotid) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [item_guid](#item_guid) | int | unsigned | MUL | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -40,4 +41,3 @@ The slot inside the tab where the item is currently placed in.
 ### item_guid
 The [item guid](../characters/item_instance#guid) of the stored item.
 &nbsp;
-

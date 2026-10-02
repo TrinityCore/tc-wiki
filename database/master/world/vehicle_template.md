@@ -31,6 +31,5 @@ Delayed Time for Vehicle Despawn in milliseconds. This is for vehicles that shou
 | --- | --- | --- |
 | None | 0x0 | |
 | DontForceParachuteOnExit | 0x1 | For flyable vehicles |
+
 &nbsp;
-
-

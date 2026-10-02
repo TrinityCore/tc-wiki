@@ -119,6 +119,7 @@ Contains all basic definitions of available quests.
 | [ObjectiveText3](#objectivetext-1-4) | mediumtext |  |  | YES | NULL |  |  |
 | [ObjectiveText4](#objectivetext-1-4) | mediumtext |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

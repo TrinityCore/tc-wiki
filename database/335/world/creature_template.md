@@ -73,6 +73,7 @@ This table contains the description of creatures. Each spawned creature is an in
 | [ScriptName](#scriptname) | char(64) |  |  | NO | '' |  |  |
 | [StringId](#stringid) | varchar(64) |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

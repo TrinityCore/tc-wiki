@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T22:01:24.380Z
 | [mapid](#mapid) | smallint | unsigned | PRI | NO | 0 |  |  |
 | [difficulty](#difficulty) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [resettime](#resettime) | bigint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

@@ -18,6 +18,7 @@ dateCreated: 2021-08-30T07:30:52.004Z
 | [explored](#explored) | tinyint | unsigned |  | NO | 0 |  |  |
 | [acceptTime](#accepttime) | bigint | signed |  | NO | 0 |  |  |
 | [endTime](#endtime) | bigint | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -44,5 +45,3 @@ dateCreated: 2021-08-30T07:30:52.004Z
 ### endTime
 *- no description -*
 &nbsp;
-
-

@@ -30,6 +30,7 @@ This table holds information on what events (or procs) certain spells are activa
 | [Chance](#chance) | float |  |  | NO | 0 |  |  |
 | [Cooldown](#cooldown) | int | unsigned |  | NO | 0 |  |  |
 | [Charges](#charges) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

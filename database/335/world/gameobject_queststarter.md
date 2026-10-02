@@ -16,6 +16,7 @@ Holds gameobject quest giver relations. The gameobjects in this table should all
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [id](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [quest](#quest) | int | unsigned | PRI | NO | 0 |  | Quest Identifier |
+
 &nbsp;
 ## Description of fields
 
@@ -26,5 +27,3 @@ The [entry](../world/gameobject_template#entry) of the gameobject starting the q
 ### quest
 The [quest ID](../world/quest_template#id) that this gameobject provides.
 &nbsp;
-
-

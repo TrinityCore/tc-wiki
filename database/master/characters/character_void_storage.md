@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T07:37:13.719Z
 | [artifactKnowledgeLevel](#artifactknowledgelevel) | int | unsigned |  | YES | 0 |  |  |
 | [context](#context) | tinyint | unsigned |  | NO | 0 |  |  |
 | [bonusListIDs](#bonuslistids) | text |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -64,5 +65,3 @@ dateCreated: 2021-08-30T07:37:13.719Z
 ### bonusListIDs
 *- no description -*
 &nbsp;
-
-

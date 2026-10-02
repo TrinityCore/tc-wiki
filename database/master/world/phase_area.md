@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T09:33:26.580Z
 | [AreaId](#areaid) | int | unsigned | PRI | NO |  |  |  |
 | [PhaseId](#phaseid) | int | unsigned | PRI | NO |  |  |  |
 | [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,4 +30,3 @@ Related PhaseId
 ### Comment
 *- no description -*
 &nbsp;
-

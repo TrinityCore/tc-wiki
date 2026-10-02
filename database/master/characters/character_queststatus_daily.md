@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T07:31:11.205Z
 | [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
 | [quest](#quest) | int | unsigned | PRI | NO | 0 |  | Quest Identifier |
 | [time](#time) | bigint | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ dateCreated: 2021-08-30T07:31:11.205Z
 ### time
 *- no description -*
 &nbsp;
-
-

@@ -21,6 +21,7 @@ This table allows to group mobs. Members of group will follow others, and attack
 | [groupAI](#groupai) | int | unsigned |  | NO |  |  |  |
 | [point_1](#point_1) | smallint | unsigned |  | NO | 0 |  |  |
 | [point_2](#point_2) | smallint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

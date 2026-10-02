@@ -22,6 +22,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | :---: | --- | :---: | --- |
 | 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [Variable](#variable) | string |  |
+
 &nbsp;
 ## Description of fields
 
@@ -36,4 +37,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 Can contain  `\n` and more variables.
 &nbsp;
-

@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T09:34:26.107Z
 | [createMode](#createmode) | tinyint | signed | PRI | NO | 0 |  |  |
 | [spell](#spell) | int | unsigned | PRI | NO | 0 |  |  |
 | [note](#note) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

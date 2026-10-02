@@ -24,6 +24,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 1 | [Base](#base) | int32 |  |
 | 2 | [PerLevel](#perlevel) | int32 |  |
 | 3 | [Minimum](#minimum) | int32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -50,4 +51,3 @@ In msec.
 
 Min. cast time in msec.
 &nbsp;
-

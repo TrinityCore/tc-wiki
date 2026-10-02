@@ -17,6 +17,7 @@ dateCreated: 2021-08-20T15:28:44.730Z
 | [unbandate](#unbandate) | int | unsigned |  | NO | 0 |  |  |
 | [bannedby](#bannedby) | varchar(50) |  |  | NO |  |  |  |
 | [banreason](#banreason) | varchar(255) |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -39,4 +40,3 @@ The character with the rights to the .ban command that banned the account.
 ### banreason
 The reason for the ban.
 &nbsp;
-

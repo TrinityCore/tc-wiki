@@ -41,6 +41,7 @@ Loading screen blurps:
 | 15 | [Text_14](#text) | string |  |
 | 16 | [Text_15](#text) | string |  |
 | 17 | [Text_lang_mask](#text) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -55,4 +56,3 @@ Loading screen blurps:
 
 *- no description -*
 &nbsp;
-

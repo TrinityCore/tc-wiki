@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T07:42:53.416Z
 | [eventEntry](#evententry) | tinyint | unsigned | PRI | NO |  |  |  |
 | [state](#state) | tinyint | unsigned |  | NO | 1 |  |  |
 | [next_start](#next_start) | bigint | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ dateCreated: 2021-08-30T07:42:53.416Z
 ### next_start
 *- no description -*
 &nbsp;
-
-

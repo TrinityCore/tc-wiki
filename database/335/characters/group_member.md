@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T22:00:52.221Z
 | [memberFlags](#memberflags) | tinyint | unsigned |  | NO | 0 |  |  |
 | [subgroup](#subgroup) | tinyint | unsigned |  | NO | 0 |  |  |
 | [roles](#roles) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

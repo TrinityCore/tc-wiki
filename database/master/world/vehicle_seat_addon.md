@@ -19,6 +19,7 @@ dateCreated: 2021-12-21T22:44:15.487Z
 | [ExitParamZ](#exitparamz) | float |  |  | YES | 0 |  |  |
 | [ExitParamO](#exitparamo) | float |  |  | YES | 0 |  |  |
 | [ExitParamValue](#exitparamvalue) | tinyint(1) | signed |  | YES | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -53,4 +54,3 @@ This field determines how each ExitParam(X,Y,Z,O) works for the given entry. If 
 - **1**: the provided parameters will be used as offset of the given creature's position when a passenger exits it.
 - **2**: the provided parameters will be used as absolute positions.
 &nbsp;
-

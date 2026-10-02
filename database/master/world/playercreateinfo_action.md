@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T09:34:23.529Z
 | [button](#button) | smallint | unsigned | PRI | NO | 0 |  |  |
 | [action](#action-alt) | int | unsigned |  | NO | 0 |  |  |
 | [type](#type) | smallint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

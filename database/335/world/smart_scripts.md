@@ -42,6 +42,7 @@ dateCreated: 2021-08-30T22:09:09.695Z
 | [target_z](#target_type) | float |  |  | NO | 0 |  |  |
 | [target_o](#target_type) | float |  |  | NO | 0 |  |  |
 | [comment](#comment) | mediumtext |  |  | NO |  |  | Event Comment |
+
 &nbsp;
 
 ## Description of fields

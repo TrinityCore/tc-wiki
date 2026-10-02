@@ -27,6 +27,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 4 | [Rot_Y](#y) | float |  |
 | 5 | [Rot_Z](#z) | float |  |
 | 6 | [Rot_W](#w) | float |  |
+
 &nbsp;
 ## Description of fields
 
@@ -53,4 +54,3 @@ GO must be of type GAMEOBJECT_TYPE_TRANSPORT (11)
 
 Rotation axis
 &nbsp;
-

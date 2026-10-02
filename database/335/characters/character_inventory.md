@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T21:59:47.506Z
 | [bag](#bag) | int | unsigned |  | NO | 0 |  |  |
 | [slot](#slot) | tinyint | unsigned |  | NO | 0 |  |  |
 | [item](#item) | int | unsigned | PRI | NO | 0 |  | Item Global Unique Identifier |
+
 &nbsp;
 ## Description of fields
 

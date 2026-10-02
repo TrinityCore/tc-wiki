@@ -23,6 +23,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 0 | [Name](#name-alt) | string |  |
 | 1 | [NumRows](#numrows) | uint32 |  |
 | 2 | [NumColumns](#numcolumns) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -44,4 +45,3 @@ Not all game tables are present in client.
 
 *- no description -*
 &nbsp;
-

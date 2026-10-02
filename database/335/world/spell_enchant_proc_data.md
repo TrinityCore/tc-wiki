@@ -19,6 +19,7 @@ This table holds information how and when an enchantment proc can occur.
 | [ProcsPerMinute](#procsperminute) | float |  |  | NO | 0 |  |  |
 | [HitMask](#hitmask) | int | unsigned |  | NO | 0 |  |  |
 | [AttributesMask](#attributesmask) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

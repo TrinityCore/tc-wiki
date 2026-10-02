@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T09:32:50.477Z
 | [orientation](#orientation) | float |  |  | NO | 0 |  |  |
 | [requiredItemLevel](#requireditemlevel) | smallint | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -63,4 +64,3 @@ If the value is -1 then it is just a placeholder until proper data are found on 
 If the value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 
 &nbsp;
-

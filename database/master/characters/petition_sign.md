@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T08:17:24.140Z
 | [petitionguid](#petitionguid) | bigint | unsigned | PRI | NO | 0 |  |  |
 | [playerguid](#playerguid) | bigint | unsigned | PRI | NO | 0 |  |  |
 | [player_account](#player_account) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,5 +35,3 @@ dateCreated: 2021-08-30T08:17:24.140Z
 ### player_account
 *- no description -*
 &nbsp;
-
-

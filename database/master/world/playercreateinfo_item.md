@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T09:34:28.684Z
 | [class](#class) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [itemid](#itemid) | int | unsigned | PRI | NO | 0 |  |  |
 | [amount](#amount) | tinyint | signed |  | NO | 1 |  |  |
+
 &nbsp;
 ## Description of fields
 

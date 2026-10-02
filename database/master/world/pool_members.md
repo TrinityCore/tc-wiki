@@ -17,6 +17,7 @@ dateCreated: 2021-12-24T01:54:40.656Z
 | [poolSpawnId](#poolspawnid) | int | unsigned |  | NO |  |  |  |
 | [chance](#chance) | float |  |  | NO |  |  |  |
 | [description](#description) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -27,6 +28,7 @@ Pick from table below.
 |    0 |   Creature |
 |    1 | GameObject |
 |    2 |       Pool |
+
 &nbsp;
 
 ### spawnId
@@ -36,6 +38,7 @@ GUID of the spawn, depends on type
 |    0 | [creature_template.entry](creature_template) |
 |    1 | [gameobject_template.entry](gameobject_template) |
 |    2 | [pool_template.entry](pool_template) |
+
 &nbsp;
 
 ### poolSpawnId
@@ -52,4 +55,3 @@ If all entries of a pool have a chance of 0 the chance for all is even.
 ### description
 *- no description -*
 &nbsp;
-

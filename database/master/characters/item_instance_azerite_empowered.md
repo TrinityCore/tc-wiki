@@ -18,6 +18,7 @@ dateCreated: 2021-08-30T08:11:54.526Z
 | [azeritePowerId3](#azeritepowerid3) | int | signed |  | NO |  |  |  |
 | [azeritePowerId4](#azeritepowerid4) | int | signed |  | NO |  |  |  |
 | [azeritePowerId5](#azeritepowerid5) | int | signed |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -44,5 +45,3 @@ dateCreated: 2021-08-30T08:11:54.526Z
 ### azeritePowerId5
 *- no description -*
 &nbsp;
-
-

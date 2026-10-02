@@ -48,6 +48,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 25 | [AreaName_14](#areaname) | string |  |
 | 26 | [AreaName_15](#areaname) | string |  |
 | 27 | [AreaName_lang_mask](#areaname) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

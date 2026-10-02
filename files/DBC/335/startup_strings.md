@@ -39,6 +39,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 16 | [Message_14](#message) | string |  |
 | 17 | [Message_15](#message) | string |  |
 | 18 | [Message_lang_mask](#message) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -59,4 +60,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

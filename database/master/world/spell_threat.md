@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T09:37:24.501Z
 | [flatMod](#flatmod) | int | signed |  | YES | NULL |  |  |
 | [pctMod](#pctmod) | float |  |  | NO | 1 |  | threat multiplier for damage/healing |
 | [apPctMod](#appctmod) | float |  |  | NO | 0 |  | additional threat bonus from attack power |
+
 &nbsp;
 ## Description of fields
 
@@ -41,4 +42,3 @@ e.g.:
 ### apPctMod
 A percentage of attack power that is added as flat threat before multipliers.
 &nbsp;
-

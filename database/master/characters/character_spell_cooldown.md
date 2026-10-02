@@ -18,6 +18,7 @@ dateCreated: 2021-08-30T07:35:10.323Z
 | [time](#time) | bigint | signed |  | NO | 0 |  |  |
 | [categoryId](#categoryid) | int | unsigned |  | NO | 0 |  | Spell category Id |
 | [categoryEnd](#categoryend) | bigint | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -44,5 +45,3 @@ dateCreated: 2021-08-30T07:35:10.323Z
 ### categoryEnd
 *- no description -*
 &nbsp;
-
-

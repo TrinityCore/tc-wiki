@@ -18,6 +18,7 @@ dateCreated: 2023-10-06T19:42:39.882Z
 | [ConversationID](#conversationid) | int | signed |  | YES | NULL |  |  |
 | [UpdatePhaseShift](#updatephaseshift) | tinyint(1) | signed |  | YES | 0 |  |  |
 | [UpdateZoneAuras](#updatezoneauras) | tinyint(1) | signed |  | YES | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -44,4 +45,3 @@ Send update for phaseshift (0/1)
 ### UpdateZoneAuras
 Send update for zone auras (0/1)
 &nbsp;
-

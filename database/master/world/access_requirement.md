@@ -23,6 +23,7 @@ dateCreated: 2021-08-29T20:43:51.863Z
 | [completed_achievement](#completed_achievement) | int | unsigned |  | NO | 0 |  |  |
 | [quest_failed_text](#quest_failed_text) | mediumtext |  |  | YES | NULL |  |  |
 | [comment](#comment) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -71,4 +72,3 @@ The text that is shown if you try and enter the instance without having complete
 ### comment
 This field is for any comment you want to make about the requirements. It is arbitrary text.
 &nbsp;
-

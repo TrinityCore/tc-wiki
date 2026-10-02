@@ -34,6 +34,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 11 | [Friend_1](#friend) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id-alt) |
 | 12 | [Friend_2](#friend) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id-alt) |
 | 13 | [Friend_3](#friend) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id-alt) |
+
 &nbsp;
 ## Description of fields
 

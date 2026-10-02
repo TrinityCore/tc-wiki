@@ -18,6 +18,7 @@ This table describes what spell schools a creature is resistant to.
 | [School](#school) | tinyint | unsigned | PRI | NO |  |  |  |
 | [Resistance](#resistance) | smallint | signed |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

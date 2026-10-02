@@ -32,6 +32,7 @@ Contains extra definitions like linking quests, dependencies and requirements fo
 | [RequiredMaxRepValue](#requiredmaxrepvalue) | int | signed |  | NO | 0 |  |  |
 | [ProvidedItemCount](#provideditemcount) | tinyint | unsigned |  | NO | 0 |  |  |
 | [SpecialFlags](#specialflags) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

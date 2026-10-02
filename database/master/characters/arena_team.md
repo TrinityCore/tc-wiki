@@ -27,6 +27,7 @@ dateCreated: 2021-08-30T07:14:51.093Z
 | [emblemColor](#emblemcolor) | int | unsigned |  | NO | 0 |  |  |
 | [borderStyle](#borderstyle) | tinyint | unsigned |  | NO | 0 |  |  |
 | [borderColor](#bordercolor) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -89,4 +90,3 @@ dateCreated: 2021-08-30T07:14:51.093Z
 ### borderColor
 *- no description -*
 &nbsp;
-

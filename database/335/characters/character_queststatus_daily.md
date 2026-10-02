@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T21:59:58.281Z
 | [guid](#guid) | int | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
 | [quest](#quest) | int | unsigned | PRI | NO | 0 |  | Quest Identifier |
 | [time](#time) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -35,4 +36,3 @@ The [quest ID](../world/quest_template#id) of the daily quest.
 ### time
 The time when the quest was rewarded, in Unix time.
 &nbsp;
-

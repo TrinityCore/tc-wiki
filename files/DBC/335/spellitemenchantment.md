@@ -58,6 +58,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 35 | [RequiredSkillID](#requiredskillid) | uint32 | [SkillLine.dbc/0](/files/DBC/335/skillline#id-alt) |
 | 36 | [RequiredSkillRank](#requiredskillrank) | uint32 |  |
 | 37 | [MinLevel](#minlevel) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

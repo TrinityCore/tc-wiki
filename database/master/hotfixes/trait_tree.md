@@ -21,6 +21,7 @@ dateCreated: 2022-12-19T18:40:17.337Z
 | [Unused1000_2](#unused1000_2) | float |  |  | NO | 0 |  |  |
 | [Unused1000_3](#unused1000_3) | float |  |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -68,4 +69,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 
 &nbsp;
-

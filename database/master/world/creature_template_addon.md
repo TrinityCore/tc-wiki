@@ -27,6 +27,7 @@ dateCreated: 2021-08-30T09:30:18.868Z
 | [meleeAnimKit](#meleeanimkit) | smallint | signed |  | NO | 0 |  |  |
 | [visibilityDistanceType](#visibilitydistancetype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [auras](#auras) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -151,4 +152,3 @@ List of useful aura entries (examples):
 - '18950' - Makes the creature detect other invisible units (players or creatures).
 - '16380 18950' - Both auras above
 &nbsp;
-

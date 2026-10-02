@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T09:37:29.636Z
 | [MapId](#mapid) | int | unsigned | PRI | NO |  |  |  |
 | [TerrainSwapMap](#terrainswapmap) | int | unsigned | PRI | NO |  |  |  |
 | [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,4 +30,3 @@ dateCreated: 2021-08-30T09:37:29.636Z
 ### Comment
 *- no description -*
 &nbsp;
-

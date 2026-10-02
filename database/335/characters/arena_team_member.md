@@ -23,6 +23,7 @@ dateCreated: 2021-08-30T21:58:40.680Z
 | [seasonGames](#seasongames) | smallint | unsigned |  | NO | 0 |  |  |
 | [seasonWins](#seasonwins) | smallint | unsigned |  | NO | 0 |  |  |
 | [personalRating](#personalrating) | smallint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -53,4 +54,3 @@ Number of games won this season.
 ### personalRating
 Personal Arena Team Rating of this member this season.
 &nbsp;
-

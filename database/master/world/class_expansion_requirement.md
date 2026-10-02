@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T09:29:25.279Z
 | [RaceID](#raceid) | tinyint | unsigned | PRI | NO |  |  |  |
 | [ActiveExpansionLevel](#activeexpansionlevel) | tinyint | unsigned |  | YES | 0 |  |  |
 | [AccountExpansionLevel](#accountexpansionlevel) | tinyint | unsigned |  | YES | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,5 +35,3 @@ dateCreated: 2021-08-30T09:29:25.279Z
 ### AccountExpansionLevel
 *- no description -*
 &nbsp;
-
-

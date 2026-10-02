@@ -16,6 +16,7 @@ dateCreated: 2022-03-16T03:59:03.453Z
 | [Permission Group](#permission group) | int | unsigned |  | NO |  |  | Permission id |
 | [Security Level](#security level) | varchar(10) |  |  | NO | '' |  |  |
 | [Permission](#permission) | varchar(100) |  |  | YES | NULL |  | Permission name |
+
 &nbsp;
 ## Description of fields
 
@@ -34,4 +35,3 @@ dateCreated: 2022-03-16T03:59:03.453Z
 ### Permission
 *- no description -*
 &nbsp;
-

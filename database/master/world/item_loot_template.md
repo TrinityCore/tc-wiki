@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T09:32:37.570Z
 | [MinCount](#mincount) | tinyint | unsigned |  | NO | 1 |  |  |
 | [MaxCount](#maxcount) | tinyint | unsigned |  | NO | 1 |  |  |
 | [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,4 +30,3 @@ dateCreated: 2021-08-30T09:32:37.570Z
 {.is-info}
 
 &nbsp;
-

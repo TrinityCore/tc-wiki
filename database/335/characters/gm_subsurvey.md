@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T22:00:41.523Z
 | [questionId](#questionid) | int | unsigned | PRI | NO | 0 |  |  |
 | [answer](#answer) | int | unsigned |  | NO | 0 |  |  |
 | [answerComment](#answercomment) | text |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -41,4 +42,3 @@ A [GMSurveyAnswers SortIndex](/files/DBC/335/gmsurveyanswers#sortindex) limited 
 ### answerComment
 A player composed comment.
 &nbsp;
-

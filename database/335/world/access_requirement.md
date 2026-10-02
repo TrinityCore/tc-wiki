@@ -26,6 +26,7 @@ This table contains the access requirements to enter an instance.
 | [completed_achievement](#completed_achievement) | int | unsigned |  | NO | 0 |  |  |
 | [quest_failed_text](#quest_failed_text) | mediumtext |  |  | YES | NULL |  |  |
 | [comment](#comment) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

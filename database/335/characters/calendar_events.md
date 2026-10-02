@@ -23,6 +23,7 @@ This table holds player created events.
 | [eventtime](#eventtime) | int | unsigned |  | NO | 0 |  |  |
 | [flags](#flags) | int | unsigned |  | NO | 0 |  |  |
 | [time2](#time2) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

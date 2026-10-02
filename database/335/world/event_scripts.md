@@ -27,6 +27,7 @@ Holds scripts activated whenever an event is activated, be it by an object or as
 | [z](#z) | float |  |  | NO | 0 |  |  |
 | [o](#o) | float |  |  | NO | 0 |  |  |
 | [Comment](#comment) | varchar(255) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -73,4 +74,3 @@ Holds scripts activated whenever an event is activated, be it by an object or as
 ### Comment
 *- no description -*
 &nbsp;
-

@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T09:32:19.746Z
 | [Locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
 | [OptionText](#optiontext) | mediumtext |  |  | YES | NULL |  |  |
 | [BoxText](#boxtext) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

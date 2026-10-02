@@ -26,6 +26,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 3 | [FootstepSprayWalk](#footstepspraywalk) | uint32 |  |
 | 4 | [TerrainSoundID](#terrainsoundid) | uint32 | [TerrainTypeSounds.dbc/0](/files/DBC/335/terraintypesounds#id-alt) |
 | 5 | [Flags](#flags) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -64,4 +65,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 * 0x1: probably footsteps?
 &nbsp;
-

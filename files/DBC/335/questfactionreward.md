@@ -31,6 +31,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 8 | [Difficulty_7](#difficulty) | uint32 |  |
 | 9 | [Difficulty_8](#difficulty) | uint32 |  |
 | 10 | [Difficulty_9](#difficulty) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -45,4 +46,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 Col indexed by [quest RewardFactionValue](/database/335/world/quest_template#rewardfactionvalue[1-5])
 &nbsp;
-

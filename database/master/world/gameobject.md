@@ -36,6 +36,7 @@ dateCreated: 2021-08-30T09:31:38.234Z
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
 | [StringId](#stringid) | varchar(64) |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -136,6 +137,7 @@ Comma separated list of difficulties.
 | DIFFICULTY_LFR_15TH_ANNIVERSARY | 151 |
 | DIFFICULTY_VISIONS_OF_NZOTH | 152 |
 | DIFFICULTY_TEEMING_ISLAND | 153 |
+
 &nbsp;
 
 ### phaseUseFlags
@@ -144,6 +146,7 @@ Comma separated list of difficulties.
 | PHASE_USE_FLAGS_NONE            | 0x0 |
 | PHASE_USE_FLAGS_ALWAYS_VISIBLE  | 0x1 |
 | PHASE_USE_FLAGS_INVERSE         | 0x2 |
+
 &nbsp;
 
 ### PhaseId
@@ -210,6 +213,7 @@ For chests and doors.
 | --- | :---: |
 | open | 0 |
 | closed | 1 |
+
 &nbsp;
 
 ### ScriptName

@@ -34,6 +34,7 @@ dateCreated: 2021-08-30T21:59:17.652Z
 | [remainCharges](#remaincharges) | tinyint | unsigned |  | NO | 0 |  |  |
 | [critChance](#critchance) | float |  |  | NO | 0 |  |  |
 | [applyResilience](#applyresilience) | tinyint | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

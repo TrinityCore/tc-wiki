@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T21:57:47.860Z
 | [minorVersion](#minorversion) | int | signed |  | YES | NULL |  |  |
 | [bugfixVersion](#bugfixversion) | int | signed |  | YES | NULL |  |  |
 | [hotfixVersion](#hotfixversion) | char(3) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -43,5 +44,3 @@ e.g.: <code>33<u><b>5</b></u>a.12340</code>
 ### hotfixVersion
 e.g.: <code>335<u><b>a</b></u>.12340</code>
 &nbsp;
-
-

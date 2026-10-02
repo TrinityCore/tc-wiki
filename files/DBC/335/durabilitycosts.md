@@ -50,6 +50,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 27 | [ArmorSubClassCost_5](#armorsubclasscost) | uint32 |  |
 | 28 | [ArmorSubClassCost_6](#armorsubclasscost) | uint32 |  |
 | 29 | [ArmorSubClassCost_7](#armorsubclasscost) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

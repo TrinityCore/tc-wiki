@@ -76,6 +76,7 @@ Points of Interest (POI) on the overhead map (including battleground map). Inclu
 | 51 | [Description_lang_mask](#description) | uint32 |  |
 | 52 | [WorldStateID](#worldstateid) | uint32 |  |
 | 53 | [WorldMapLink](#worldmaplink) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

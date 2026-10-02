@@ -57,6 +57,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 34 | [Name1_15](#name1) | string |  |
 | 35 | [Name1_lang_mask](#name1) | uint32 |  |
 | 36 | [MaskID](#maskid) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -89,4 +90,3 @@ Female
 
 Used in PLAYER_CHOSEN_TITLE and `1 << MaskID` in PLAYER__FIELD_KNOWN_TITLES
 &nbsp;
-

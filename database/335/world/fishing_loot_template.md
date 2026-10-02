@@ -26,6 +26,7 @@ Contains items (like fish) fished from open water.
 | [MinCount](#mincount) | tinyint | unsigned |  | NO | 1 |  |  |
 | [MaxCount](#maxcount) | tinyint | unsigned |  | NO | 1 |  |  |
 | [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -68,4 +69,3 @@ Contains items (like fish) fished from open water.
 ### Comment
 *- no description -*
 &nbsp;
-

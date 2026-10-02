@@ -20,6 +20,7 @@ dateCreated: 2021-08-20T13:41:19.554Z
 | [SecurityLevel](#securitylevel) | tinyint | unsigned |  | NO |  |  |  |
 | [RealmID](#realmid) | int | signed | PRI | NO | -1 |  |  |
 | [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -38,4 +39,3 @@ dateCreated: 2021-08-20T13:41:19.554Z
 ### Comment
 *- no description -*
 &nbsp;
-

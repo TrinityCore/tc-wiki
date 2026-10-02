@@ -43,6 +43,7 @@ dateCreated: 2023-10-04T08:08:31.147Z
 | 20 | [RequiredSpellID](#requiredspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
 | 21 | [CategoryMask_0](#categorymask) | uint32 | [CreatureFamily.dbc/9](/files/DBC/335/creaturefamily#categoryenumid) |
 | 22 | [CategoryMask_1](#categorymask) | uint32 | [CreatureFamily.dbc/9](/files/DBC/335/creaturefamily#categoryenumid) |
+
 &nbsp;
 ## Description of fields
 
@@ -105,4 +106,3 @@ all 0
 
 Its a 64 bit mask for pet `1 << CategoryEnumID`
 &nbsp;
-

@@ -16,6 +16,7 @@ Holds help information for commands. This table does NOT create new commands. It
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [name](#name-alt) | varchar(50) |  | PRI | NO | '' |  |  |
 | [help](#help) | longtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,4 +30,3 @@ The help text displayed by the `.help` command.
 
 **Some battlenet commands:**
 ![command-bnetaccount.png](/command-bnetaccount.png)
-

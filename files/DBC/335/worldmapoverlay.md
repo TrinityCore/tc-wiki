@@ -37,6 +37,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 14 | [HitRectLeft](#hitrect) | uint32 |  |
 | 15 | [HitRectBottom](#hitrect) | uint32 |  |
 | 16 | [HitRectRight](#hitrect) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -93,4 +94,3 @@ Some offset? Always 0.
 
 Overlay boundary on Area map.
 &nbsp;
-

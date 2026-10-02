@@ -41,6 +41,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 18 | [Name_14](#name-alt) | string |  |
 | 19 | [Name_15](#name-alt) | string |  |
 | 20 | [Name_lang_mask](#name-alt) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -73,4 +74,3 @@ Used for deposit price calculation (minimum is always 1 silver). 1/3 from real.
 
 *- no description -*
 &nbsp;
-

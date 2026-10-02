@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T09:29:12.347Z
 | [Weight](#weight) | tinyint | unsigned |  | NO | 1 |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
 | [Comment](#comment) | varchar(32) |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -54,4 +55,3 @@ The scriptname used in the core to assign it to the specific battleground.
 ### Comment
 This field is for any comment you want to make about the requirements. It is arbitrary text.
 &nbsp;
-

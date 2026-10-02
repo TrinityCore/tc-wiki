@@ -17,6 +17,7 @@ dateCreated: 2024-09-05T22:43:12.327Z
 | [arch](#arch) | char(4) |  | PRI | NO |  |  |  |
 | [type](#type) | char(4) |  | PRI | NO |  |  |  |
 | [key](#key) | binary(16) |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -39,4 +40,3 @@ dateCreated: 2024-09-05T22:43:12.327Z
 ### key
 *- no description -*
 &nbsp;
-

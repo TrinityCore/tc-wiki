@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T22:01:42.951Z
 | [guid](#guid) | int | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
 | [dungeon](#dungeon) | int | unsigned |  | NO | 0 |  |  |
 | [state](#state) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

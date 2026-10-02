@@ -28,6 +28,7 @@ dateCreated: 2023-10-04T08:06:55.827Z
 | 5 | [MinLevel](#minlevel) | uint32 |  |
 | 6 | [SkillTierID](#skilltierid) | uint32 | [SkillTiers.dbc/0](/files/DBC/335/skilltiers#id-alt) |
 | 7 | [SkillCostIndex](#skillcostindex) | uint32 | [SkillCostsData.dbc/2-4](/files/DBC/335/skillcostsdata#cost) |
+
 &nbsp;
 ## Description of fields
 

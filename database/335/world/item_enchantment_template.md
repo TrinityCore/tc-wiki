@@ -17,6 +17,7 @@ This table holds enchantment chance information for items that should have eithe
 | [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
 | [ench](#ench) | int | unsigned | PRI | NO | 0 |  |  |
 | [chance](#chance) | float |  |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,4 +35,3 @@ The enchantment to apply on the item. This fields value depends on the source of
 ### chance
 The chance for a random property or suffix to be applied to the item. For each entry in this table, the combined chances of all properties/suffixes need to equal 100 otherwise the item may not get a random enchantment on it.
 &nbsp;
-

@@ -21,6 +21,7 @@ This table allows to specify special vehicle seat behavior by extending/overridi
 | [ExitParamZ](#exitparamz) | float |  |  | YES | 0 |  |  |
 | [ExitParamO](#exitparamo) | float |  |  | YES | 0 |  |  |
 | [ExitParamValue](#exitparamvalue) | tinyint(1) | signed |  | YES | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T09:28:49.105Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [id](#id-alt) | int | unsigned | PRI | NO | 0 |  | Identifier |
 | [quest](#quest) | int | unsigned |  | NO | 0 |  | Quest Identifier |
+
 &nbsp;
 ## Description of fields
 
@@ -28,4 +29,3 @@ This is the trigger ID from [AreaTrigger.db2](https://wago.tools/db2/areatrigger
 ### quest
 This is the [QuestId](/database/master/world/quest_template#id) that the trigger is tied to.
 &nbsp;
-

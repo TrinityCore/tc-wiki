@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T09:38:00.552Z
 | [core_revision](#core_revision) | varchar(120) |  |  | YES | NULL |  |  |
 | [db_version](#db_version) | varchar(120) |  |  | YES | NULL |  | Version of world DB. |
 | [cache_id](#cache_id) | int | signed |  | YES | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -38,4 +39,3 @@ Database Version your server is currently running on. Example: `TDB 335.58`
 ### cache_id
 Minor DB version. Example: `58`
 &nbsp;
-

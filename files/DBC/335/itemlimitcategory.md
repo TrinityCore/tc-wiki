@@ -40,6 +40,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 17 | [Name_lang_mask](#name-alt) | uint32 |  |
 | 18 | [Quantity](#quantity) | uint32 |  |
 | 19 | [Flags](#flags) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

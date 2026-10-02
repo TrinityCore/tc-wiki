@@ -22,6 +22,7 @@ Contains all the teleport triggers definition. This table is used to complete .d
 | [target_position_z](#target_position_z) | float |  |  | NO | 0 |  |  |
 | [target_orientation](#target_orientation) | float |  |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -64,4 +65,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -[Client Build](/database/335/auth/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
-

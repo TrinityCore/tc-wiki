@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T22:00:11.525Z
 | [faction](#faction) | smallint | unsigned | PRI | NO | 0 |  |  |
 | [standing](#standing) | int | signed |  | NO | 0 |  |  |
 | [flags](#flags) | smallint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

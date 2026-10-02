@@ -20,6 +20,7 @@ This table is used to set what factions a given graveyard will accept, and also 
 | [GhostZone](#ghostzone) | int | unsigned | PRI | NO | 0 |  |  |
 | [Faction](#faction) | smallint | unsigned |  | NO | 0 |  |  |
 | [Comment](#comment) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

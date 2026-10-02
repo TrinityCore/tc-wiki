@@ -52,6 +52,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 29 | [MissileImpactOffset_X](#missileimpactoffset) | float |  |
 | 30 | [MissileImpactOffset_Y](#missileimpactoffset) | float |  |
 | 31 | [MissileImpactOffset_Z](#missileimpactoffset) | float |  |
+
 &nbsp;
 ## Description of fields
 
@@ -222,4 +223,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

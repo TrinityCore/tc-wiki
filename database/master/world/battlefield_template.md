@@ -15,6 +15,7 @@ dateCreated: 2022-02-06T19:55:48.572Z
 | [TypeId](#typeid) | tinyint | unsigned | PRI | NO |  |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO |  |  |  |
 | [comment](#comment) | text |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,4 +30,3 @@ dateCreated: 2022-02-06T19:55:48.572Z
 ### comment
 *- no description -*
 &nbsp;
-

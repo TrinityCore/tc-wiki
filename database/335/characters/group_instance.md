@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T22:00:49.574Z
 | [guid](#guid) | int | unsigned | PRI | NO | 0 |  |  |
 | [instance](#instance) | int | unsigned | PRI | NO | 0 |  |  |
 | [permanent](#permanent) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,4 +35,3 @@ references [groups.guid](../characters/groups#guid).
 * 0: just visiting..
 * 1: bound to instance
 &nbsp;
-

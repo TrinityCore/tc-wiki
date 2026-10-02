@@ -17,6 +17,7 @@ This table contains npcflags that are to be added to an NPC when the specified e
 | [eventEntry](#evententry) | tinyint | unsigned | PRI | NO |  |  | Entry of the game event |
 | [guid](#guid) | int | unsigned | PRI | NO | 0 |  |  |
 | [npcflag](#npcflag) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -32,4 +33,3 @@ The [guid](../world/creature#guid) of the creature that you want to change npcfl
 The npcflags that you want to set. The value specified here is bitwise added to the [npcflag](../world/creature_template#npcflag) already set on the NPC.
 So, if you want the creature to be also a quest giver, just put 2 in this column.
 &nbsp;
-

@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T07:17:06.231Z
 | [id](#id-alt) | int | unsigned | PRI | NO |  | auto_increment | Identifier |
 | [type](#type) | longtext |  |  | NO |  |  |  |
 | [content](#content) | longtext |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ dateCreated: 2021-08-30T07:17:06.231Z
 ### content
 *- no description -*
 &nbsp;
-
-

@@ -29,6 +29,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 6 | [OceanShallowAlpha](#oceanshallowalpha) | float |  |
 | 7 | [OceanDeepAlpha](#oceandeepalpha) | float |  |
 | 8 | [Flags](#flags) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -86,4 +87,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

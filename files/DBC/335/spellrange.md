@@ -60,6 +60,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 37 | [DisplayNameShort_14](#displaynameshort) | string |  |
 | 38 | [DisplayNameShort_15](#displaynameshort) | string |  |
 | 39 | [DisplayNameShort_lang_mask](#displaynameshort) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

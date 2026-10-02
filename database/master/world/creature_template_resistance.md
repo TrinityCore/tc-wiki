@@ -16,6 +16,7 @@ dateCreated: 2021-12-15T19:39:20.849Z
 | [School](#school) | tinyint | unsigned | PRI | NO |  |  |  |
 | [Resistance](#resistance) | smallint | signed |  | NO |  |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

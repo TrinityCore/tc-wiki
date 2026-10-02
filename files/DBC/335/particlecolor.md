@@ -30,6 +30,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 7 | [EndColor_0](#endcolor) | int32 |  |
 | 8 | [EndColor_1](#endcolor) | int32 |  |
 | 9 | [EndColor_2](#endcolor) | int32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -56,4 +57,3 @@ Color stored as 0xAARRGGBB
 
 Color stored as 0xAARRGGBB
 &nbsp;
-

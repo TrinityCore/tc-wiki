@@ -26,6 +26,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
 | 0 | [Data](#data) | float |  |
+
 &nbsp;
 ## Description of fields
 
@@ -37,4 +38,3 @@ Cost in copper.
 Ordered by character level 1 &ndash; 100 ASC.
 `idx = level - 1`
 &nbsp;
-

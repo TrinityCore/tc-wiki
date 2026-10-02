@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T21:59:36.947Z
 | [item_guid](#item_guid) | int | unsigned | PRI | NO | 0 |  |  |
 | [entry](#entry) | int | unsigned |  | NO | 0 |  |  |
 | [flags](#flags) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

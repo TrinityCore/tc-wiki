@@ -24,6 +24,7 @@ dateCreated: 2021-08-30T22:01:16.371Z
 | [tab4](#tab-0-5) | int | unsigned |  | NO | 0 |  |  |
 | [tab5](#tab-0-5) | int | unsigned |  | NO | 0 |  |  |
 | [money](#money) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

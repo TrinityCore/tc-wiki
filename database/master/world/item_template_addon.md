@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T09:32:45.284Z
 | [SpellPPMChance](#spellppmchance) | float |  |  | NO | 0 |  |  |
 | [RandomBonusListTemplateId](#randombonuslisttemplateid) | int | unsigned |  | NO | 0 |  |  |
 | [QuestLogItemId](#questlogitemid) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -54,4 +55,3 @@ dateCreated: 2021-08-30T09:32:45.284Z
 ### QuestLogItemId
 *- no description -*
 &nbsp;
-

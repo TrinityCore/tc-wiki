@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T09:57:46.731Z
 | [locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
 | [Body_lang](#body_lang) | text |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

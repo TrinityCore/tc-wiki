@@ -89,6 +89,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 66 | [FacialHairCustomization_1](#facialhaircustomization) | string |  |
 | 67 | [HairCustomization](#haircustomization) | string |  |
 | 68 | [RequiredExpansion](#requiredexpansion) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

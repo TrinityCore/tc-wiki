@@ -19,6 +19,7 @@ This table holds information on what default actions a brand new character shoul
 | [button](#button) | smallint | unsigned | PRI | NO | 0 |  |  |
 | [action](#action-alt) | int | unsigned |  | NO | 0 |  |  |
 | [type](#type) | smallint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

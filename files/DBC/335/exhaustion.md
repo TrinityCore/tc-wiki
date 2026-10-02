@@ -43,6 +43,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 20 | [Name_15](#name-alt) | string |  |
 | 21 | [Name_lang_mask](#name-alt) | uint32 |  |
 | 22 | [Threshold](#id-alt) | float  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -87,4 +88,3 @@ Rate EXP is earned in this state.
 
 Rested has a value of 12. All else 0.
 &nbsp;
-

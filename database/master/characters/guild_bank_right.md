@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T07:47:25.301Z
 | [rid](#rid) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [gbright](#gbright) | tinyint | signed |  | NO | 0 |  |  |
 | [SlotPerDay](#slotperday) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -39,5 +40,3 @@ dateCreated: 2021-08-30T07:47:25.301Z
 ### SlotPerDay
 *- no description -*
 &nbsp;
-
-

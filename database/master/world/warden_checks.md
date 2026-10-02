@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T09:38:03.122Z
 | [comment](#comment) | varchar(50) |  |  | YES | NULL |  |  |
 | [data](#data) | binary(24) |  |  | YES | NULL |  |  |
 | [result](#result) | varbinary(24) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

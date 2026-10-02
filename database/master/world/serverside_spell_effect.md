@@ -46,6 +46,7 @@ dateCreated: 2021-08-30T09:36:13.984Z
 | [EffectSpellClassMask4](#effectspellclassmask4) | int | signed |  | NO | 0 |  |  |
 | [ImplicitTarget1](#implicittarget1) | smallint | signed |  | NO | 0 |  |  |
 | [ImplicitTarget2](#implicittarget2) | smallint | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -380,6 +381,7 @@ dateCreated: 2021-08-30T09:36:13.984Z
 | SPELL_EFFECT_CHANGE_ITEM_BONUSES_2 | 313 |
 | SPELL_EFFECT_ADD_SOCKET_BONUS | 314 |
 | SPELL_EFFECT_LEARN_TRANSMOG_APPEARANCE_FROM_ITEM_MOD_APPEARANCE_GROUP | 315 |
+
 &nbsp;
 
 ### EffectAura
@@ -927,6 +929,7 @@ dateCreated: 2021-08-30T09:36:13.984Z
 |SPELL_AURA_ALLOW_MOUNT_IN_COMBAT                        | 539 |
 |SPELL_AURA_MOD_SUPPORT_STAT                             | 540 |
 |SPELL_AURA_MOD_REQUIRED_MOUNT_CAPABILITY_FLAGS          | 541 |
+
 &nbsp;
 
 ### EffectAmplitude
@@ -1187,10 +1190,9 @@ dateCreated: 2021-08-30T09:36:13.984Z
 |TARGET_UNIT_OWN_CRITTER                     | 150|
 |TARGET_UNK_151                              | 151|
 |TARGET_UNK_152                              | 152|
+
 &nbsp;
 
 ### ImplicitTarget2
 *- no description -*
 &nbsp;
-
-

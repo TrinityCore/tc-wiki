@@ -22,6 +22,7 @@ This table holds player event attendance.
 | [statustime](#statustime) | int | unsigned |  | NO | 0 |  |  |
 | [rank](#rank) | tinyint | unsigned |  | NO | 0 |  |  |
 | [text](#text) | varchar(255) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 

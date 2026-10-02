@@ -21,6 +21,7 @@ Table defines if auras in one [spell_group](../world/spell_group) can't stack wi
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [group_id](#group_id) | int | unsigned | PRI | NO | 0 |  |  |
 | [stack_rule](#stack_rule) | tinyint | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T07:26:28.857Z
 | [dbId](#dbid) | bigint | unsigned | PRI | NO |  |  |  |
 | [abilityId](#abilityid) | int | unsigned | PRI | NO |  |  |  |
 | [slot](#slot) | tinyint | unsigned | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ dateCreated: 2021-08-30T07:26:28.857Z
 ### slot
 *- no description -*
 &nbsp;
-
-

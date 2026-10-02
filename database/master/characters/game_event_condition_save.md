@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T07:42:38.699Z
 | [eventEntry](#evententry) | tinyint | unsigned | PRI | NO |  |  |  |
 | [condition_id](#condition_id) | int | unsigned | PRI | NO | 0 |  |  |
 | [done](#done) | float |  |  | YES | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ dateCreated: 2021-08-30T07:42:38.699Z
 ### done
 *- no description -*
 &nbsp;
-
-

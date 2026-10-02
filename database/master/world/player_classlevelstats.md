@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T09:33:31.733Z
 | [sta](#sta) | smallint | unsigned |  | NO |  |  | stamina |
 | [inte](#inte) | smallint | unsigned |  | NO |  |  | intellect |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -38,6 +39,7 @@ dateCreated: 2021-08-30T09:33:31.733Z
 | Druid | 11 |
 | Demon Hunter | 12 |
 | Evoker | 13 |
+
 &nbsp;
 
 ### level
@@ -72,5 +74,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 
 &nbsp;
-
-

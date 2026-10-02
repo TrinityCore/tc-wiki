@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T22:01:05.790Z
 | [rid](#rid) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [gbright](#gbright) | tinyint | unsigned |  | NO | 0 |  |  |
 | [SlotPerDay](#slotperday) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

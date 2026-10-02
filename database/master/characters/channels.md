@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T07:18:00.153Z
 | [password](#password) | varchar(128) |  |  | YES | NULL |  |  |
 | [bannedList](#bannedlist) | text |  |  | YES | NULL |  |  |
 | [lastUsed](#lastused) | bigint | unsigned |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -49,4 +50,3 @@ dateCreated: 2021-08-30T07:18:00.153Z
 ### lastUsed
 *- no description -*
 &nbsp;
-

@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T09:50:33.571Z
 | [Description_lang](#description_lang) | text |  |  | YES | NULL |  |  |
 | [SourceText_lang](#sourcetext_lang) | text |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

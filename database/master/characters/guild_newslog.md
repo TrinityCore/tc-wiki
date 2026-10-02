@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T07:49:30.027Z
 | [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
 | [Value](#value) | int | unsigned |  | NO | 0 |  |  |
 | [TimeStamp](#timestamp) | bigint | signed |  | NO | 0 |  | Event UNIX time |
+
 &nbsp;
 ## Description of fields
 
@@ -49,5 +50,3 @@ dateCreated: 2021-08-30T07:49:30.027Z
 ### TimeStamp
 *- no description -*
 &nbsp;
-
-

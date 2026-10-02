@@ -28,6 +28,7 @@ dateCreated: 2021-08-30T09:34:20.895Z
 | [intro_movie_id](#intro_movie_id) | int | unsigned |  | YES | NULL |  |  |
 | [intro_scene_id](#intro_scene_id) | int | unsigned |  | YES | NULL |  |  |
 | [npe_intro_scene_id](#npe_intro_scene_id) | int | unsigned |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T21:58:53.944Z
 | [id](#id-alt) | int | unsigned | PRI | NO |  | auto_increment | Identifier |
 | [type](#type) | longtext |  |  | NO |  |  |  |
 | [content](#content) | longtext |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -33,4 +34,3 @@ The text description of the type of bug or suggestion.
 ### content
 The text content of the bug or suggestion.
 &nbsp;
-

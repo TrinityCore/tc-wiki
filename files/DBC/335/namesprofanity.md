@@ -23,6 +23,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [Name](#name-alt) | string |  |
 | 2 | [Language](#language) | int32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -45,4 +46,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 * -1: all locales?
 &nbsp;
-

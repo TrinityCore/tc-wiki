@@ -18,6 +18,7 @@ dateCreated: 2021-08-30T07:19:11.694Z
 | [button](#button) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [action](#action-alt) | bigint | unsigned |  | NO | 0 |  |  |
 | [type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -44,4 +45,3 @@ dateCreated: 2021-08-30T07:19:11.694Z
 ### type
 *- no description -*
 &nbsp;
-

@@ -30,6 +30,7 @@ dateCreated: 2021-08-30T22:01:45.503Z
 | [money](#money) | int | unsigned |  | NO | 0 |  |  |
 | [cod](#cod) | int | unsigned |  | NO | 0 |  |  |
 | [checked](#checked) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T09:31:07.595Z
 | [eventEntry](#evententry) | tinyint | unsigned |  | NO |  |  | Entry of the game event. |
 | [id](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [quest](#quest) | int | unsigned | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ This field signifies the [`creature_template.entry`](/database/master/world/crea
 ### quest
 This field signifies the [`quest_template.entry`](/database/master/world/quest_template#entry)
 &nbsp;
-
-

@@ -22,6 +22,7 @@ dateCreated: 2021-08-20T13:45:13.968Z
 | [bannedby](#bannedby) | varchar(50) |  |  | NO |  |  |  |
 | [banreason](#banreason) | varchar(255) |  |  | NO |  |  |  |
 | [active](#active) | tinyint | unsigned |  | NO | 1 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -48,4 +49,3 @@ The reason for the ban.
 ### active
 Boolean 0 or 1 controlling if the ban is currently active or not.
 &nbsp;
-

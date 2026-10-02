@@ -17,6 +17,7 @@ This table contains Spawn Group members.
 | [groupId](#groupid) | int | unsigned | PRI | NO |  |  |  |
 | [spawnType](#spawntype) | tinyint | unsigned | PRI | NO |  |  |  |
 | [spawnId](#spawnid) | int | unsigned | PRI | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -33,4 +34,3 @@ This is the spawn type.
 ### spawnId
 This is the guid of the creature/gameobject included in the group.
 &nbsp;
-

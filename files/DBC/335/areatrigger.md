@@ -30,6 +30,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 7 | [BoxWidth](#boxwidth) | float |  |
 | 8 | [BoxHeight](#boxheight) | float |  |
 | 9 | [BoxYaw](#boxyaw) | float |  |
+
 &nbsp;
 ## Description of fields
 
@@ -81,4 +82,3 @@ Center of AreaTrigger.
 
 *- no description -*
 &nbsp;
-

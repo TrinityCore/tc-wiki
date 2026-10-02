@@ -30,6 +30,7 @@ dateCreated: 2021-08-30T22:01:26.999Z
 | [durability](#durability) | smallint | unsigned |  | NO | 0 |  |  |
 | [playedTime](#playedtime) | int | unsigned |  | NO | 0 |  |  |
 | [text](#text) | text |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

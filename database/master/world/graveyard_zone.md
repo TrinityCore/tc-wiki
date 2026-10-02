@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T09:32:22.271Z
 | [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [GhostZone](#ghostzone) | int | unsigned | PRI | NO | 0 |  |  |
 | [Comment](#comment) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ ZoneId before teleportation to graveyard (before pressing release button), see A
 ### Comment
 *- no description -*
 &nbsp;
-
-

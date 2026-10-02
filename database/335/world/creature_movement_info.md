@@ -21,6 +21,7 @@ Supplemental data to [CreatureMovementInfo](/files/DBC/335/creaturemovementinfo)
 | [MovementID](#movementid) | int | unsigned | PRI | NO | 0 |  | creature_template.movementId value |
 | [WalkSpeed](#walkspeed) | float |  |  | YES | NULL |  |  |
 | [RunSpeed](#runspeed) | float |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -35,4 +36,3 @@ generic value: `2.5`
 ### RunSpeed
 generic value: `8.0`
 &nbsp;
-

@@ -64,6 +64,7 @@ dateCreated: 2023-10-04T08:04:45.370Z
 | 41 | [VerboseName_14](#verbosename) | string |  |
 | 42 | [VerboseName_15](#verbosename) | string |  |
 | 43 | [VerboseName_lang_mask](#verbosename) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

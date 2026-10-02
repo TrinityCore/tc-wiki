@@ -26,6 +26,7 @@ dateCreated: 2021-08-30T09:30:31.760Z
 | [BroadcastTextId](#broadcasttextid) | int | signed |  | NO | 0 |  |  |
 | [TextRange](#textrange) | tinyint | unsigned |  | NO | 0 |  |  |
 | [comment](#comment) | varchar(255) |  |  | YES | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -53,6 +54,7 @@ Example from Stormwind City Guard, creature 68:
 | 68 | 5 | 5 | Looks like we're going to have ourselves an execution. |
 | 68 | 5 | 6 | Traitorous dog. |
 | 68 | 5 | 7 | My family was wiped out by the Scourge! MONSTER! |
+
 &nbsp;
 
 ### ID {#id-alt}
@@ -72,6 +74,7 @@ The text the creature will say.
 |    41 |    BossEmote | ![creature_text_type_boss_emote.png](/creature_text_type_boss_emote.png) |
 |    15 |      Whisper | ![creature_text_type_whisper.png](/creature_text_type_whisper.png) |
 |    42 |  BossWhisper | ![creature_text_type_boss_whisper.png](/creature_text_type_boss_whisper.png) |
+
 &nbsp;
 
 ### Language
@@ -101,6 +104,7 @@ Assigns which packet should be used to send the sound
 | ----------- | ----- |
 |      Normal |     0 |
 | ObjectSound |     1 |
+
 &nbsp;
 
 ### BroadcastTextId
@@ -119,9 +123,9 @@ Localization is then handled via. [creature_text_locales](/database/master/world
 | 3 | Map |
 | 4 | World |
 | 5 | Personal |
+
 &nbsp;
 
 ### comment
 This field allows you to label a text entry.
 &nbsp;
-

@@ -16,6 +16,7 @@ Allows for an area trigger to be scripted with Trinity Script.
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entry](#entry) | int | signed | PRI | NO |  |  |  |
 | [ScriptName](#scriptname) | char(64) |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -27,4 +28,3 @@ This is the [AreaTrigger ID](/files/DBC/335/areatrigger#id).
 The ScriptName for when scripting it in the core.
 This might also be 'SmartTrigger'. It will than use [SmartAI](../world/smart_scripts).
 &nbsp;
-

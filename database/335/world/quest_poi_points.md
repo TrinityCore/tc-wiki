@@ -22,6 +22,7 @@ Visually speaking, this table is used to identify the X and Y coordinates on the
 | [X](#x) | int | signed |  | NO | 0 |  |  |
 | [Y](#y) | int | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

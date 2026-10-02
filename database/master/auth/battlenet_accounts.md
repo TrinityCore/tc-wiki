@@ -29,6 +29,7 @@ dateCreated: 2021-08-20T14:34:01.031Z
 | [LastCharacterUndelete](#lastcharacterundelete) | int | unsigned |  | NO | 0 |  |  |
 | [LoginTicket](#loginticket) | varchar(64) |  |  | YES | NULL |  |  |
 | [LoginTicketExpiry](#loginticketexpiry) | int | unsigned |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -102,4 +103,3 @@ Stores information about client's OS. Used by Warden system.
 ### LoginTicketExpiry
 *- no description -*
 &nbsp;
-

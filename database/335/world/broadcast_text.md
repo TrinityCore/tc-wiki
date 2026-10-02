@@ -32,6 +32,7 @@ All the values are from sniffs (ADBVerified) so, don't add things in it - Kinzco
 | [EmotesID](#emotesid) | int | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

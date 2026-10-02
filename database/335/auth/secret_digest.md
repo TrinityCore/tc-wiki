@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T21:58:14.207Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [id](#id-alt) | int | unsigned | PRI | NO |  |  |  |
 | [digest](#digest) | varchar(100) |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -24,4 +25,3 @@ dateCreated: 2021-08-30T21:58:14.207Z
 ### digest
 *- no description -*
 &nbsp;
-

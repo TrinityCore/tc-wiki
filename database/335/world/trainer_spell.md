@@ -24,6 +24,7 @@ This table contains all the trainer spell entries.
 | [ReqAbility3](#reqability-1-3) | int | unsigned |  | NO | 0 |  |  |
 | [ReqLevel](#reqlevel) | tinyint | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

@@ -28,6 +28,7 @@ dateCreated: 2021-08-30T09:29:30.449Z
 | [ErrorTextId](#errortextid) | int | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
 | [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

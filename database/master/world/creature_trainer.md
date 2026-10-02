@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T09:30:37.006Z
 | [TrainerID](#trainerid) | int | unsigned |  | NO | 0 |  |  |
 | [MenuID](#menuid) | int | unsigned | PRI | NO | 0 |  |  |
 | [OptionID](#optionid) | int | unsigned | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,5 +35,3 @@ dateCreated: 2021-08-30T09:30:37.006Z
 ### OptionID
 *- no description -*
 &nbsp;
-
-

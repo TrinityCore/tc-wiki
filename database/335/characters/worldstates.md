@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T22:02:28.022Z
 | [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
 | [value](#value) | int | unsigned |  | NO | 0 |  |  |
 | [comment](#comment) | tinytext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

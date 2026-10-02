@@ -26,6 +26,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 3 | [Red](#red) | uint8 |  |
 | 4 | [Green](#green) | uint8 |  |
 | 5 | [Blue](#blue) | uint8 |  |
+
 &nbsp;
 ## Description of fields
 

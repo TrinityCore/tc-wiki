@@ -27,6 +27,7 @@ This table holds all the speech text (whisper, say, yell, emote text in speech b
 | [BroadcastTextId](#broadcasttextid) | int | signed |  | NO | 0 |  |  |
 | [TextRange](#textrange) | tinyint | unsigned |  | NO | 0 |  |  |
 | [comment](#comment) | varchar(255) |  |  | YES | '' |  |  |
+
 &nbsp;
 ## Description of fields
 

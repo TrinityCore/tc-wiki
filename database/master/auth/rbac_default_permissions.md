@@ -15,6 +15,7 @@ dateCreated: 2021-08-26T02:22:56.205Z
 | [secId](#secid) | int | unsigned | PRI | NO |  |  | Security Level id |
 | [permissionId](#permissionid) | int | unsigned | PRI | NO |  |  | permission id |
 | [realmId](#realmid) | int | signed | PRI | NO | -1 |  | Realm Id, -1 means all |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ dateCreated: 2021-08-26T02:22:56.205Z
 ### realmId
 *- no description -*
 &nbsp;
-
-

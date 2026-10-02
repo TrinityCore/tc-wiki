@@ -43,6 +43,7 @@ dateCreated: 2023-10-04T08:05:33.608Z
 | 20 | [RaidDuration](#raidduration) | uint32 |  |
 | 21 | [MaxPlayers](#maxplayers) | uint32 |  |
 | 22 | [Difficultystring](#difficultystring) | string |  |
+
 &nbsp;
 ## Description of fields
 

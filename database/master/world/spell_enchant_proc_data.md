@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T09:36:53.405Z
 | [ProcsPerMinute](#procsperminute) | float |  |  | NO | 0 |  |  |
 | [HitMask](#hitmask) | int | unsigned |  | NO | 0 |  |  |
 | [AttributesMask](#attributesmask) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

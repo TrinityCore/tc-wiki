@@ -16,6 +16,7 @@ Contains all creature instances that have to be spawned/unspawned during defined
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [eventEntry](#evententry) | tinyint | signed | PRI | NO |  |  | Entry of the game event. Put negative entry to remove during event. |
 | [guid](#guid) | int | unsigned | PRI | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -28,4 +29,3 @@ refers to [game_event.eventEntry](../world/game_event#evententry)
 ### guid
 refers to [creature.guid](../world/creature#guid)
 &nbsp;
-

@@ -18,6 +18,7 @@ This table links player controlled pet spells with their actual effects.
 | [effectId](#effectid) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [pet](#pet) | int | unsigned | PRI | NO | 0 |  | pet id; 0 = all |
 | [aura](#aura) | int | unsigned |  | NO |  |  | pet aura id |
+
 &nbsp;
 ## Description of fields
 
@@ -37,4 +38,3 @@ If set, **aura** is only applied to this [creature entry](../world/creature_temp
 ### aura
 [Spell ID](/files/DBC/335/spell#id) with the actual effects described by **spell**.
 &nbsp;
-

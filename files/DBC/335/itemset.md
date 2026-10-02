@@ -73,6 +73,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 50 | [SetThreshold_7](#setthreshold) | uint32 |  |
 | 51 | [RequiredSkill](#requiredskill) | uint32 | [SkillLine.dbc/0](/files/DBC/335/skillline#id-alt) |
 | 52 | [RequiredSkillRank](#requiredskillrank) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -117,4 +118,3 @@ Number of pieces required to activate **SetSpellID**.
 
 *- no description -*
 &nbsp;
-

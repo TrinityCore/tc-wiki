@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T07:49:12.810Z
 | [tab6](#tab6) | int | unsigned |  | NO | 0 |  |  |
 | [tab7](#tab7) | int | unsigned |  | NO | 0 |  |  |
 | [money](#money) | bigint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -64,5 +65,3 @@ dateCreated: 2021-08-30T07:49:12.810Z
 ### money
 *- no description -*
 &nbsp;
-
-

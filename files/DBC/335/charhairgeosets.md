@@ -26,6 +26,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 3 | [HairType](#hairtype) | uint32 |  |
 | 4 | [Geoset](#geoset) | uint32 |  |
 | 5 | [Bald](#bald) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

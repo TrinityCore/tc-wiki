@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T09:29:17.520Z
 | [duration](#duration) | int | signed |  | NO | 0 |  |  |
 | [chance](#chance) | float |  |  | NO | 0 |  |  |
 | [bonusListIDs](#bonuslistids) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -54,5 +55,3 @@ dateCreated: 2021-08-30T09:29:17.520Z
 ### bonusListIDs
 *- no description -*
 &nbsp;
-
-

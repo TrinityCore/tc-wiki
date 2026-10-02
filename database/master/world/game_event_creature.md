@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T09:31:05.090Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [eventEntry](#evententry) | tinyint | signed | PRI | NO |  |  | Entry of the game event. Put negative entry to remove during event. |
 | [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -28,5 +29,3 @@ Use -entry to remove the creature during the event
 ### guid
 GUID of the creature which should spawned/despawned during the event. Referenced in [`creature.guid`](/database/master/world/creature#guid)
 &nbsp;
-
-

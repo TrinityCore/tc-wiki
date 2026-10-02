@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T22:01:53.626Z
 | [guid](#guid) | int | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
 | [spell](#spell) | mediumint | unsigned | PRI | NO | 0 |  | Spell Identifier |
 | [active](#active) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

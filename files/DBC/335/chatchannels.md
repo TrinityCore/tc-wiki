@@ -57,6 +57,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 34 | [Shortcut_14](#shortcut) | string |  |
 | 35 | [Shortcut_15](#shortcut) | string |  |
 | 36 | [Shortcut_lang_mask](#shortcut) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

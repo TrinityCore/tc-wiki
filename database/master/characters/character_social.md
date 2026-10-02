@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T07:34:18.411Z
 | [friend](#friend) | bigint | unsigned | PRI | NO | 0 |  | Friend Global Unique Identifier |
 | [flags](#flags) | tinyint | unsigned | PRI | NO | 0 |  | Friend Flags |
 | [note](#note) | varchar(48) |  |  | NO | '' |  | Friend Note |
+
 &nbsp;
 ## Description of fields
 
@@ -34,4 +35,3 @@ dateCreated: 2021-08-30T07:34:18.411Z
 ### note
 *- no description -*
 &nbsp;
-

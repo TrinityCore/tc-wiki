@@ -97,6 +97,7 @@ dateCreated: 2023-10-04T08:01:40.639Z
 | 74 | [InventoryType_21](#inventorytype) | int32 |  |
 | 75 | [InventoryType_22](#inventorytype) | int32 |  |
 | 76 | [InventoryType_23](#inventorytype) | int32 |  |
+
 &nbsp;
 ## Description of fields
 

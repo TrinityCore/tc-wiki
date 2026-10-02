@@ -20,6 +20,7 @@ This table is used to disable dungeons/bgs/spells/etc.
 | [params_0](#params_0) | varchar(255) |  |  | NO | '' |  |  |
 | [params_1](#params_1) | varchar(255) |  |  | NO | '' |  |  |
 | [comment](#comment) | varchar(255) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -47,6 +48,7 @@ This table is used to disable dungeons/bgs/spells/etc.
 | 4 | [AchievementCriteria ID](/files/DBC/335/achievement_criteria#id-alt) |
 | 5 | value from [`enum OutdoorPvPTypes`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/OutdoorPvP/OutdoorPvP.h)|
 | 2, 6, 7, 8 | [Map ID](/files/DBC/335/map#id-alt) |
+
 &nbsp;
 
 ### flags

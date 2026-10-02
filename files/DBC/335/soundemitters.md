@@ -30,6 +30,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 7 | [SoundEntriesAdvancedID](#soundentriesadvancedid) | uint32 | [SoundEntriesAdvanced.dbc/1](/files/DBC/335/soundentriesadvanced#soundentriesid) |
 | 8 | [MapID](#mapid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
 | 9 | [Name](#name-alt) | string |  |
+
 &nbsp;
 ## Description of fields
 
@@ -68,4 +69,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

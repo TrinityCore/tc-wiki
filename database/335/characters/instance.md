@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T22:01:21.703Z
 | [difficulty](#difficulty) | tinyint | unsigned | MUL | NO | 0 |  |  |
 | [completedEncounters](#completedencounters) | int | unsigned |  | NO | 0 |  |  |
 | [data](#data) | tinytext |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 

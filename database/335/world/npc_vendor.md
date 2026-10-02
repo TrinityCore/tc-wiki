@@ -21,6 +21,7 @@ This table holds the vendor data for all NPCs that sell items and currency. The 
 | [incrtime](#incrtime) | int | unsigned |  | NO | 0 |  |  |
 | [ExtendedCost](#extendedcost) | int | unsigned | PRI | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -62,4 +63,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -[Client Build](/database/335/auth/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
-

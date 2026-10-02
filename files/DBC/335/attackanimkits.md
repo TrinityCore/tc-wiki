@@ -25,6 +25,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 2 | [AttackAnimTypes](#attackanimtypes) | uint32 | [AttackAnimTypes.dbc/0](/files/DBC/335/attackanimtypes#id-alt) |
 | 3 | [Flags](#Flags) | uint32  |
 | 4 | [WhichHand](#whichhand) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -60,4 +61,3 @@ Maybe this is AnimFrequency?
 * 0: Mainhand
 * 1: Offhand
 &nbsp;
-

@@ -22,6 +22,7 @@ This table contains data related to the use of the anti-cheat tool Warden, which
 | [comment](#comment) | varchar(50) |  |  | YES | NULL |  |  |
 | [data](#data) | binary(24) |  |  | YES | NULL |  |  |
 | [result](#result) | varbinary(24) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

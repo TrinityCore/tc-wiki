@@ -22,6 +22,7 @@ This table holds the start positions of each class-race combinations for all new
 | [position_y](#position_y) | float |  |  | NO | 0 |  |  |
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |
 | [orientation](#orientation) | float |  |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

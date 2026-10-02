@@ -35,6 +35,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 12 | [LightParamsID_5](#lightparamsid) | uint32 | [LightParams.dbc/0](/files/DBC/335/lightparams#id-alt) |
 | 13 | [LightParamsID_6](#lightparamsid) | uint32 | [LightParams.dbc/0](/files/DBC/335/lightparams#id-alt) |
 | 14 | [LightParamsID_7](#lightparamsid) | uint32 | [LightParams.dbc/0](/files/DBC/335/lightparams#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -78,4 +79,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 * col 11: ParamsDeath - Changing this seems to have no effect in 3.3.5a (is death light setting hardcoded?)
 * col 12+: ParamsUnk - Unsure. Used in different phases?
 &nbsp;
-

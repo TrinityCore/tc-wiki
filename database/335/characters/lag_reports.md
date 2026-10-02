@@ -25,6 +25,7 @@ dateCreated: 2021-08-30T22:01:40.327Z
 | [posZ](#posz) | float |  |  | NO | 0 |  |  |
 | [latency](#latency) | int | unsigned |  | NO | 0 |  |  |
 | [createTime](#createtime) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

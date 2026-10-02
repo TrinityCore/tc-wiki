@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T09:37:14.146Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [spell_id](#spell_id) | int | signed | PRI | NO | 0 |  |  |
 | [req_spell](#req_spell) | int | signed | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -24,4 +25,3 @@ dateCreated: 2021-08-30T09:37:14.146Z
 ### req_spell
 [Spell ID](https://wago.tools/db2/spell), which is required to be known before **spell_id** can be learned from trainer.
 &nbsp;
-

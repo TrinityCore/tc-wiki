@@ -22,6 +22,7 @@ This table describes the reward that you will receive when you obtain a given ac
 | [Subject](#subject) | varchar(255) |  |  | YES | NULL |  |  |
 | [Body](#body) | mediumtext |  |  | YES | NULL |  |  |
 | [MailTemplateID](#mailtemplateid) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -56,4 +57,3 @@ This is the text of the body of that mail that you receive.
 ### MailTemplateID
 This is the [MailTemplate ID](/files/DBC/335/mailtemplate#id) for the mail that you receive. Subject and Text must be empty. They are read from dbc file.
 &nbsp;
-

@@ -26,6 +26,7 @@ dateCreated: 2021-08-30T09:31:35.583Z
 | [winter_snow_chance](#winter_snow_chance) | tinyint | unsigned |  | NO | 25 |  |  |
 | [winter_storm_chance](#winter_storm_chance) | tinyint | unsigned |  | NO | 25 |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -84,4 +85,3 @@ Percentage chance for a sand storm to occur in the Winter
 ### ScriptName
 *- no description -*
 &nbsp;
-

@@ -20,6 +20,7 @@ The id is called in the cpp script and depending on what version of the dungeon/
 | [spellid1](#spellid1) | int | unsigned |  | NO | 0 |  |  |
 | [spellid2](#spellid2) | int | unsigned |  | NO | 0 |  |  |
 | [spellid3](#spellid3) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -42,4 +43,3 @@ The id is called in the cpp script and depending on what version of the dungeon/
 ### spellid3
 *- no description -*
 &nbsp;
-

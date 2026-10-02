@@ -20,6 +20,7 @@ That opcode is sent for quests in which you have to loot creatures, who are alre
 | [spell_id](#spell_id) | int | unsigned | PRI | NO |  |  | spell which should be casted  |
 | [cast_flags](#cast_flags) | tinyint | unsigned |  | NO |  |  | first bit defines caster: 1=player, 0=creature; second bit defines target, same mapping as caster bit |
 | [user_type](#user_type) | smallint | unsigned |  | NO | 0 |  | relation with summoner: 0-no 1-friendly 2-raid 3-party player can click |
+
 &nbsp;
 ## Description of fields
 

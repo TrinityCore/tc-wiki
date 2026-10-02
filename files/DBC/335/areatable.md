@@ -56,6 +56,7 @@ dateCreated: 2023-10-04T08:01:03.988Z
 | 33 | [MinElevation](#minelevation) | float |  |
 | 34 | [AmbientMultiplier](#ambientmultiplier) | float |  |
 | 35 | [LightID](#lightid) | uint32 | [Light.dbc/0](/files/DBC/335/light#id-alt) |
+
 &nbsp;
 ## Description of fields
 

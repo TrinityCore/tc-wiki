@@ -18,6 +18,7 @@ dateCreated: 2021-08-30T09:35:07.919Z
 | [StorageIndex](#storageindex) | tinyint | signed |  | NO | 0 |  |  |
 | [Description](#description) | mediumtext |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

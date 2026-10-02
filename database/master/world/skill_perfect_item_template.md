@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T09:36:24.521Z
 | [requiredSpecialization](#requiredspecialization) | int | unsigned |  | NO | 0 |  | Specialization spell id |
 | [perfectCreateChance](#perfectcreatechance) | float |  |  | NO | 0 |  | chance to create the perfect item instead |
 | [perfectItemType](#perfectitemtype) | int | unsigned |  | NO | 0 |  | perfect item type to create instead |
+
 &nbsp;
 ## Description of fields
 
@@ -34,4 +35,3 @@ The chance that the player will create an alternative item.
 ### perfectItemType
 The [ItemID](https://wago.tools/db2/itemsparse) replacing the original crafted item.
 &nbsp;
-

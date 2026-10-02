@@ -29,6 +29,7 @@ Loot templates define only items in the loot. See comments about money drop in c
 | [MinCount](#mincount) | tinyint | unsigned |  | NO | 1 |  |  |
 | [MaxCount](#maxcount) | tinyint | unsigned |  | NO | 1 |  |  |
 | [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Relations
 The 12 tables have different relations with other DB tables.
@@ -46,6 +47,7 @@ The 12 tables have different relations with other DB tables.
 | quest_mail_loot_template | entry |  | [quest_template_addon](/database/master/world/quest_template_addon){target=_blank} | [RewardMailTemplateID](/database/master/world/quest_template_addon#rewardmailtemplateid){target=_blank} |  |
 | reference_loot_template | entry | many <- many | *_loot_template | [Item](#reference) (if ItemType = 1) |  |
 | spell_loot_template | entry | many <- many | [Spell.db2 (wago.tools)](https://wago.tools/db2/spell){target=_blank} or [SpellName.db2 (wago.tools)](https://wago.tools/db2/spellname){target=_blank} | ID |  |
+
 &nbsp;
 ## Description of fields
 

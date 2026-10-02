@@ -28,6 +28,7 @@ This table holds all of the strings used internally by the server. This table is
 | [content_loc6](#content_loc1-8) | mediumtext |  |  | YES | NULL |  |  |
 | [content_loc7](#content_loc1-8) | mediumtext |  |  | YES | NULL |  |  |
 | [content_loc8](#content_loc1-8) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

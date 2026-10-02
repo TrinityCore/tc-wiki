@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T09:31:20.317Z
 | [eventEntry](#evententry) | tinyint | unsigned | PRI | NO |  |  | Entry of the game event |
 | [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  |  |
 | [npcflag](#npcflag) | bigint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -31,5 +32,3 @@ The npcflags that you want to set additionally during the event. The value speci
 
 So, if you want the creature to be also a quest giver, just put 2 in this column.
 &nbsp;
-
-

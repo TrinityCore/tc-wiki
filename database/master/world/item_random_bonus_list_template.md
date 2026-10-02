@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T09:32:40.201Z
 | [Id](#id-alt) | int | unsigned | PRI | NO |  |  |  |
 | [BonusListID](#bonuslistid) | int | unsigned | PRI | NO |  |  |  |
 | [Chance](#chance) | float |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ dateCreated: 2021-08-30T09:32:40.201Z
 ### Chance
 *- no description -*
 &nbsp;
-
-

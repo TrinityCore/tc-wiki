@@ -36,6 +36,7 @@ dateCreated: 2021-08-30T08:11:35.889Z
 | [selectedAzeriteEssences4azeriteEssenceId2](#selectedazeriteessences4azeriteessenceid2) | int | unsigned |  | YES | 0 |  |  |
 | [selectedAzeriteEssences4azeriteEssenceId3](#selectedazeriteessences4azeriteessenceid3) | int | unsigned |  | YES | 0 |  |  |
 | [selectedAzeriteEssences4azeriteEssenceId4](#selectedazeriteessences4azeriteessenceid4) | int | unsigned |  | YES | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -134,5 +135,3 @@ dateCreated: 2021-08-30T08:11:35.889Z
 ### selectedAzeriteEssences4azeriteEssenceId4
 *- no description -*
 &nbsp;
-
-

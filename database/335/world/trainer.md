@@ -19,6 +19,7 @@ This table contains all the trainer entries.
 | [Requirement](#type) | int | unsigned |  | NO | 0 |  |  |
 | [Greeting](#greeting) | mediumtext |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

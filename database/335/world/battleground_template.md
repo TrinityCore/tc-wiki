@@ -27,6 +27,7 @@ Contains information about the different battlegrounds, like how many players ar
 | [Weight](#weight) | tinyint | unsigned |  | NO | 1 |  |  |
 | [ScriptName](#scriptname) | char(64) |  |  | NO | '' |  |  |
 | [Comment](#comment) | char(32) |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 

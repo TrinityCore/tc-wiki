@@ -33,6 +33,7 @@ dateCreated: 2021-08-30T21:59:50.131Z
 | [curhappiness](#curhappiness) | int | unsigned |  | NO | 0 |  |  |
 | [savetime](#savetime) | int | unsigned |  | NO | 0 |  |  |
 | [abdata](#abdata) | text |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

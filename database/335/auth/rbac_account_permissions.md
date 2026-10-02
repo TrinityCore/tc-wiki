@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T21:57:58.492Z
 | [permissionId](#permissionid) | int | unsigned | PRI | NO |  |  | Permission id |
 | [granted](#granted) | tinyint(1) | signed |  | NO | 1 |  | Granted = 1, Denied = 0 |
 | [realmId](#realmid) | int | signed | PRI | NO | -1 |  | Realm Id, -1 means all |
+
 &nbsp;
 ## Description of fields
 
@@ -42,4 +43,3 @@ references [rbac_permissions.id](../auth/rbac_permissions#id)
 * -1: all realms
 * [realm id](../auth/realmlist#id): only this realm
 &nbsp;
-

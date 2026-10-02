@@ -30,6 +30,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 7 | [LightParamsID](#lightparamsid) | int32 | [LightParams.dbc/0](/files/DBC/335/lightparams#id-alt) |
 | 8 | [SoundAmbienceID](#soundambienceid) | uint32 | [SoundAmbience.dbc/0](/files/DBC/335/soundambience#id-alt) |
 | 9 | [ZoneMusicID](#zonemusicid) | uint32 | [ZoneMusic.dbc/0](/files/DBC/335/zonemusic#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -95,4 +96,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

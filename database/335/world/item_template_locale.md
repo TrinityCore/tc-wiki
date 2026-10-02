@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T22:06:15.314Z
 | [Name](#name-alt) | mediumtext |  |  | YES | NULL |  |  |
 | [Description](#description) | mediumtext |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

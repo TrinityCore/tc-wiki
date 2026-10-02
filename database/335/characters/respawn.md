@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T22:02:17.522Z
 | [respawnTime](#respawntime) | bigint | unsigned |  | NO |  |  |  |
 | [mapId](#mapid) | smallint | unsigned |  | NO |  |  |  |
 | [instanceId](#instanceid) | int | unsigned | PRI | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 

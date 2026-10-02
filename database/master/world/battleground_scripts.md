@@ -15,6 +15,7 @@ dateCreated: 2024-05-15T17:59:51.398Z
 | [MapId](#mapid) | int | signed | PRI | NO |  |  |  |
 | [BattlemasterListId](#battlemasterlistid) | int | signed | PRI | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,4 +30,3 @@ dateCreated: 2024-05-15T17:59:51.398Z
 ### ScriptName
 *- no description -*
 &nbsp;
-

@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T09:36:05.675Z
 | [x](#x) | float |  |  | NO |  |  |  |
 | [y](#y) | float |  |  | NO |  |  |  |
 | [z](#z) | float |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -49,5 +50,3 @@ dateCreated: 2021-08-30T09:36:05.675Z
 ### z
 *- no description -*
 &nbsp;
-
-

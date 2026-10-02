@@ -19,6 +19,7 @@ Definitions of instance encounters. Used by the LFG system.
 | [creditEntry](#creditentry) | int | unsigned |  | NO | 0 |  |  |
 | [lastEncounterDungeon](#lastencounterdungeon) | smallint | unsigned |  | NO | 0 |  | If not 0, [LfgDungeon ID](/files/DBC/335/lfgdungeons#id) entry for the instance it is last encounter in |
 | [comment](#comment) | varchar(255) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -46,4 +47,3 @@ Reference to [LfgDungeon ID](/files/DBC/335/lfgdungeons#id) for the instance whi
 ### comment
 Instance encounter comment for easy identification. Encounter name used only.
 &nbsp;
-

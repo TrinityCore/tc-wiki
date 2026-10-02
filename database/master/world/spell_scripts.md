@@ -24,6 +24,7 @@ dateCreated: 2021-08-30T09:37:19.225Z
 | [z](#z) | float |  |  | NO | 0 |  |  |
 | [o](#o) | float |  |  | NO | 0 |  |  |
 | [Comment](#comment) | varchar(255) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -74,4 +75,3 @@ dateCreated: 2021-08-30T09:37:19.225Z
 ### Comment
 *- no description -*
 &nbsp;
-

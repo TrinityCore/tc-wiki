@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T09:33:47.060Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [alliance_id](#alliance_id) | int | signed | PRI | NO |  |  |  |
 | [horde_id](#horde_id) | int | signed | PRI | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -24,4 +25,3 @@ This is the alliance [CharTitle ID](https://wago.tools/db2/chartitles). If you c
 ### horde_id
 This is the horde [CharTitle ID](https://wago.tools/db2/chartitles). If you convert to alliance and your titles have a record in his table, they will be converted to **alliance_id**.
 &nbsp;
-

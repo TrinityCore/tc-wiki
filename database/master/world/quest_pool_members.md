@@ -16,6 +16,7 @@ dateCreated: 2021-12-21T22:43:59.533Z
 | [poolId](#poolid) | int | unsigned |  | NO |  |  |  |
 | [poolIndex](#poolindex) | tinyint | unsigned |  | NO |  |  | Multiple quests with the same index will always spawn together! |
 | [description](#description) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -38,4 +39,3 @@ Incremental index of pool with **poolId**. Starts at `0`.
 This field usually names the quest and describes the pool it belongs to.
 Example: Fueling the Demolishers (Alliance, defenders)
 &nbsp;
-

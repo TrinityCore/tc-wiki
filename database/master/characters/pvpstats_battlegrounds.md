@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T08:17:55.709Z
 | [bracket_id](#bracket_id) | tinyint | unsigned |  | NO |  |  |  |
 | [type](#type) | int | unsigned |  | NO |  |  |  |
 | [date](#date) | datetime |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -39,4 +40,3 @@ dateCreated: 2021-08-30T08:17:55.709Z
 ### date
 *- no description -*
 &nbsp;
-

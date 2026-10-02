@@ -21,6 +21,7 @@ Gameobjects can be linked too!
 | [guid](#guid) | int | unsigned | PRI | NO |  |  | dependent creature |
 | [linkedGuid](#linkedguid) | int | unsigned |  | NO |  |  | master creature |
 | [linkType](#linktype) | tinyint | unsigned | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

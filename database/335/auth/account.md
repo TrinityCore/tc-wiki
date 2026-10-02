@@ -42,6 +42,7 @@ dateCreated: 2021-08-30T21:57:34.489Z
 | [os](#os) | varchar(4) |  |  | NO | '' |  |  |
 | [timezone_offset](#timezone_offset) | smallint | signed |  | NO | 0 |  |  |
 | [recruiter](#recruiter) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

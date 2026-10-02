@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T22:00:44.193Z
 | [mainSurvey](#mainsurvey) | int | unsigned |  | NO | 0 |  |  |
 | [comment](#comment) | longtext |  |  | NO |  |  |  |
 | [createTime](#createtime) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -44,4 +45,3 @@ A player composed comment.
 ### createTime
 Unix timestamp when the survey was submitted.
 &nbsp;
-

@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T22:00:22.135Z
 | [time](#time) | int | unsigned |  | NO | 0 |  |  |
 | [categoryId](#categoryid) | int | unsigned |  | NO | 0 |  | Spell category Id |
 | [categoryEnd](#categoryend) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -48,4 +49,3 @@ The [SpellCategory ID](/files/DBC/335/spellcategory#id) (if any) linking to [Spe
 ### categoryEnd
 The Unix timestamp when the category cooldown will finish.
 &nbsp;
-

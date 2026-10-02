@@ -24,6 +24,7 @@ dateCreated: 2021-08-30T07:45:23.393Z
 | [motd](#motd) | varchar(256) |  |  | NO | '' |  |  |
 | [createdate](#createdate) | int | unsigned |  | NO | 0 |  |  |
 | [BankMoney](#bankmoney) | bigint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -74,4 +75,3 @@ dateCreated: 2021-08-30T07:45:23.393Z
 ### BankMoney
 *- no description -*
 &nbsp;
-

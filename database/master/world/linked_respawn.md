@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T09:32:53.049Z
 | [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  |  |
 | [linkedGuid](#linkedguid) | bigint | unsigned |  | NO | 0 |  |  |
 | [linkType](#linktype) | tinyint | unsigned | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

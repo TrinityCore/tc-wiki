@@ -44,6 +44,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 21 | [Name_14](#name-alt) | string |  |
 | 22 | [Name_15](#name-alt) | string |  |
 | 23 | [Name_lang_mask](#name-alt) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -70,4 +71,3 @@ Col 5 + 6 empty in 3.3.5a and unused in TC.
 
 *- no description -*
 &nbsp;
-

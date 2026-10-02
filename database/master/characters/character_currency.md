@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T07:21:46.561Z
 | [IncreasedCapQuantity](#increasedcapquantity) | int | unsigned |  | NO | 0 |  |  |
 | [EarnedQuantity](#earnedquantity) | int | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | tinyint | unsigned |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -54,5 +55,3 @@ dateCreated: 2021-08-30T07:21:46.561Z
 ### Flags
 *- no description -*
 &nbsp;
-
-

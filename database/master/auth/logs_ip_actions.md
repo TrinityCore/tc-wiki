@@ -22,6 +22,7 @@ dateCreated: 2021-08-26T02:09:23.301Z
 | [unixtime](#unixtime) | int | unsigned |  | NO |  |  | Unixtime |
 | [time](#time) | timestamp |  |  | NO | CURRENT_TIMESTAMP | DEFAULT_GENERATED | Timestamp |
 | [comment](#comment) | text |  |  | YES | NULL |  | Allows users to add a comment |
+
 &nbsp;
 ## Description of fields
 
@@ -64,4 +65,3 @@ dateCreated: 2021-08-26T02:09:23.301Z
 ### comment
 *- no description -*
 &nbsp;
-

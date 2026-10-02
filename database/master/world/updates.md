@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T09:37:47.765Z
 | [state](#state) | enum(<br />'RELEASED',<br />'ARCHIVED') |  |  | NO | RELEASED |  | defines if an update is released or archived. |
 | [timestamp](#timestamp) | timestamp |  |  | NO | CURRENT_TIMESTAMP | DEFAULT_GENERATED | timestamp when the query was applied. |
 | [speed](#speed) | int | unsigned |  | NO | 0 |  | time the query takes to apply in ms. |
+
 &nbsp;
 ## Description of fields
 
@@ -40,4 +41,3 @@ Timestamp when the query was applied
 ### speed
 Time the query took to apply in ms
 &nbsp;
-

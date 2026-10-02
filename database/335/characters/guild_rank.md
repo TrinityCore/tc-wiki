@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T22:01:19.039Z
 | [rname](#rname) | varchar(20) |  |  | NO | '' |  |  |
 | [rights](#rights) | mediumint | unsigned |  | NO | 0 |  |  |
 | [BankMoneyPerDay](#bankmoneyperday) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

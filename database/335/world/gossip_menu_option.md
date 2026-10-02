@@ -29,6 +29,7 @@ Examples of options: `"Train me!"`, `"I want to unlearn my talents"`
 | [BoxText](#boxtext) | mediumtext |  |  | YES | NULL |  |  |
 | [BoxBroadcastTextID](#boxbroadcasttextid) | int | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

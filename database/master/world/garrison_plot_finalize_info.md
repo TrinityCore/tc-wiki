@@ -25,6 +25,7 @@ dateCreated: 2021-08-30T09:32:06.802Z
 | [allianceZ](#alliancez) | float |  |  | NO | 0 |  |  |
 | [allianceO](#allianceo) | float |  |  | NO | 0 |  |  |
 | [allianceAnimKitId](#allianceanimkitid) | smallint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -79,5 +80,3 @@ dateCreated: 2021-08-30T09:32:06.802Z
 ### allianceAnimKitId
 *- no description -*
 &nbsp;
-
-

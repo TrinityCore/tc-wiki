@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T22:03:21.129Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [CreatureId](#creatureid) | int | unsigned | PRI | NO |  |  |  |
 | [TrainerId](#trainerid) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 &nbsp;

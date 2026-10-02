@@ -19,6 +19,7 @@ dateCreated: 2021-12-15T19:38:24.675Z
 | [type](#type) | varchar(250) |  |  | NO |  |  |  |
 | [level](#level) | tinyint | unsigned |  | NO | 0 |  |  |
 | [string](#string) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -49,4 +50,3 @@ dateCreated: 2021-12-15T19:38:24.675Z
 ### string
 *- no description -*
 &nbsp;
-

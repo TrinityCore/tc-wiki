@@ -28,6 +28,7 @@ dateCreated: 2021-08-30T21:58:11.484Z
 | [allowedSecurityLevel](#allowedsecuritylevel) | tinyint | unsigned |  | NO | 0 |  |  |
 | [population](#population) | float |  |  | NO | 0 |  |  |
 | [gamebuild](#gamebuild) | int | unsigned |  | NO | 12340 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -68,6 +69,7 @@ The icon of the realm.
 | 4 | REALM_TYPE_NORMAL2 | Normal |
 | 6 | REALM_TYPE_RP | RP |
 | 8 | REALM_TYPE_RPPVP | RP PvP |
+
 &nbsp;
 
 ### flag

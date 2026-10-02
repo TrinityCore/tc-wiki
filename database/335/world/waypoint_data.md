@@ -25,6 +25,7 @@ This table contains all the path data for creatures that use waypoints.
 | [action](#action-alt) | int | signed |  | NO | 0 |  |  |
 | [action_chance](#action_chance) | smallint | signed |  | NO | 100 |  |  |
 | [wpguid](#wpguid) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

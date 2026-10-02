@@ -112,6 +112,7 @@ dateCreated: 2021-08-30T07:37:31.310Z
 | [personalTabardBorderStyle](#personaltabardborderstyle) | int | signed |  | NO | -1 |  |  |
 | [personalTabardBorderColor](#personaltabardbordercolor) | int | signed |  | NO | -1 |  |  |
 | [personalTabardBackgroundColor](#personaltabardbackgroundcolor) | int | signed |  | NO | -1 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -514,4 +515,3 @@ dateCreated: 2021-08-30T07:37:31.310Z
 ### personalTabardBackgroundColor
 *- no description -*
 &nbsp;
-

@@ -32,6 +32,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 9 | [Spells_8](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
 | 10 | [Spells_9](#spells) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
 | 11 | [Flags](#flags) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

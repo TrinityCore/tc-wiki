@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T22:01:58.984Z
 | [petitionguid](#petitionguid) | int | unsigned |  | YES | 0 |  |  |
 | [name](#name-alt) | varchar(24) |  |  | NO |  |  |  |
 | [type](#type) | tinyint | unsigned | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

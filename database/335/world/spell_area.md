@@ -24,6 +24,7 @@ This table is used to apply a specific spell aura to the player within an area i
 | [autocast](#autocast) | tinyint | unsigned |  | NO | 0 |  |  |
 | [quest_start_status](#quest_start_status) | int | signed |  | NO | 64 |  |  |
 | [quest_end_status](#quest_end_status) | int | signed |  | NO | 11 |  |  |
+
 &nbsp;
 ## Description of fields
 

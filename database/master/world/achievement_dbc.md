@@ -24,6 +24,7 @@ dateCreated: 2021-08-30T09:28:38.681Z
 | [flags](#flags) | int | unsigned |  | NO | 0 |  |  |
 | [count](#count) | int | unsigned |  | NO | 0 |  |  |
 | [refAchievement](#refachievement) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -54,5 +55,3 @@ dateCreated: 2021-08-30T09:28:38.681Z
 ### refAchievement
 *- no description -*
 &nbsp;
-
-

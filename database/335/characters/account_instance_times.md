@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T21:58:29.996Z
 | [accountId](#accountid) | int | unsigned | PRI | NO |  |  |  |
 | [instanceId](#instanceid) | int | unsigned | PRI | NO | 0 |  |  |
 | [releaseTime](#releasetime) | bigint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -33,4 +34,3 @@ This is the [instance id](../characters/instance#id) which characters of this ac
 ### releaseTime
 The time when the instances should be allowed again measured in Unix time.
 &nbsp;
-

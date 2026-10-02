@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T21:58:03.658Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [id](#id-alt) | int | unsigned | PRI | NO |  |  | Permission id |
 | [linkedId](#linkedid) | int | unsigned | PRI | NO |  |  | Linked Permission id |
+
 &nbsp;
 ## Description of fields
 
@@ -30,4 +31,3 @@ references [rbac_permissions.id](../auth/rbac_permissions#id)
 ### linkedId
 references [rbac_permissions.id](../auth/rbac_permissions#id)
 &nbsp;
-

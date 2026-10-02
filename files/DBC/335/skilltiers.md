@@ -53,6 +53,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 30 | [Value_13](#value) | uint32 |  |
 | 31 | [Value_14](#value) | uint32 |  |
 | 32 | [Value_15](#value) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -73,4 +74,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

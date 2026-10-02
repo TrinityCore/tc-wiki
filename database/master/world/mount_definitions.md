@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T09:33:03.310Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [spellId](#spellid) | int | unsigned | PRI | NO |  |  |  |
 | [otherFactionSpellId](#otherfactionspellid) | int | unsigned |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -24,5 +25,3 @@ dateCreated: 2021-08-30T09:33:03.310Z
 ### otherFactionSpellId
 *- no description -*
 &nbsp;
-
-

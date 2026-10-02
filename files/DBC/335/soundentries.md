@@ -50,6 +50,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 27 | [DistanceCutoff](#distancecutoff) | float |  |
 | 28 | [EAXDef](#eaxdef) | uint32 |  |
 | 29 | [SoundEntriesAdvancedID](#soundentriesadvancedid) | uint32 | [SoundEntriesAdvanced.dbc/0](/files/DBC/335/soundentriesadvanced#id-alt) |
+
 &nbsp;
 ## Description of fields
 

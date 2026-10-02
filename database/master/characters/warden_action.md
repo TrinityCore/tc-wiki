@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T08:19:56.947Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [wardenId](#wardenid) | smallint | unsigned | PRI | NO |  |  |  |
 | [action](#action-alt) | tinyint | unsigned |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -24,5 +25,3 @@ dateCreated: 2021-08-30T08:19:56.947Z
 ### action {#action-alt}
 *- no description -*
 &nbsp;
-
-

@@ -16,6 +16,7 @@ Holds NPC quest giver relations on which NPCs start which quests.
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [id](#id-alt) | int | unsigned | PRI | NO | 0 |  | Identifier |
 | [quest](#quest) | int | unsigned | PRI | NO | 0 |  | Quest Identifier |
+
 &nbsp;
 ## Description of fields
 
@@ -26,4 +27,3 @@ The ID of the creature. See [creature_template.entry](../world/creature_template
 ### quest
 The quest ID that the creature starts. See [quest_template.ID](../world/quest_template#id)
 &nbsp;
-

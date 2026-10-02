@@ -82,6 +82,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 59 | [Reward_lang_mask](#reward) | uint32 |  |
 | 60 | [MinimumCriteria](#minimumcriteria) | uint32 |  |
 | 61 | [SharesCriteria](#sharescriteria) | uint32 | [Achievement.dbc/0](#id-alt); [achievement Id](/database/335/world/achievement_dbc#id-alt) |
+
 &nbsp;
 ## Description of fields
 

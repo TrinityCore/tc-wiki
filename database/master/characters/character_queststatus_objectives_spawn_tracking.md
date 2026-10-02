@@ -16,6 +16,7 @@ dateCreated: 2025-01-08T19:15:15.081Z
 | [quest](#quest) | int | unsigned | PRI | NO |  |  |  |
 | [objective](#objective) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [spawnTrackingId](#spawntrackingid) | int | unsigned | PRI | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,5 +35,3 @@ dateCreated: 2025-01-08T19:15:15.081Z
 ### spawnTrackingId
 *- no description -*
 &nbsp;
-
-

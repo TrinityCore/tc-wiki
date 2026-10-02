@@ -29,6 +29,7 @@ The [creature_addon](../world/creature_addon) and [creature_template_addon](../w
 | [emote](#emote) | int | unsigned |  | NO | 0 |  |  |
 | [visibilityDistanceType](#visibilitydistancetype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [auras](#auras) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

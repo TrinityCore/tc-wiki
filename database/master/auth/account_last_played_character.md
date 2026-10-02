@@ -19,6 +19,7 @@ dateCreated: 2021-08-20T13:48:14.868Z
 | [characterName](#charactername) | varchar(12) |  |  | YES | NULL |  |  |
 | [characterGUID](#characterguid) | bigint | unsigned |  | YES | NULL |  |  |
 | [lastPlayedTime](#lastplayedtime) | int | unsigned |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -49,4 +50,3 @@ dateCreated: 2021-08-20T13:48:14.868Z
 ### lastPlayedTime
 *- no description -*
 &nbsp;
-

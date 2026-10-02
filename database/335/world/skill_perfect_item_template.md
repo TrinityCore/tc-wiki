@@ -18,6 +18,7 @@ This table holds information about when using certain profession spells will cre
 | [requiredSpecialization](#requiredspecialization) | int | unsigned |  | NO | 0 |  | Specialization spell id |
 | [perfectCreateChance](#perfectcreatechance) | float |  |  | NO | 0 |  | chance to create the perfect item instead |
 | [perfectItemType](#perfectitemtype) | int | unsigned |  | NO | 0 |  | perfect item type to create instead |
+
 &nbsp;
 ## Description of fields
 
@@ -36,4 +37,3 @@ The chance that the player will create an alternative item.
 ### perfectItemType
 The [item entry](../world/item_template#entry) replacing the original crafted item.
 &nbsp;
-

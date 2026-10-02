@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T07:38:27.582Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [OwnerGuid](#ownerguid) | bigint | unsigned | PRI | NO | 0 |  |  |
 | [PhaseId](#phaseid) | int | unsigned | PRI | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -24,5 +25,3 @@ dateCreated: 2021-08-30T07:38:27.582Z
 ### PhaseId
 *- no description -*
 &nbsp;
-
-

@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T09:36:00.560Z
 | [ScriptPackageID](#scriptpackageid) | int | unsigned |  | NO | 0 |  |  |
 | [Encrypted](#encrypted) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -39,4 +40,3 @@ dateCreated: 2021-08-30T09:36:00.560Z
 ### ScriptName
 *- no description -*
 &nbsp;
-

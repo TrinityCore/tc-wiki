@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T21:57:50.536Z
 | [unbandate](#unbandate) | int | unsigned |  | NO |  |  |  |
 | [bannedby](#bannedby) | varchar(50) |  |  | NO | [Console] |  |  |
 | [banreason](#banreason) | varchar(255) |  |  | NO | no reason |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -44,4 +45,3 @@ The name of the character that banned the IP. The character should belong to an 
 ### banreason
 The reason given for the IP ban.
 &nbsp;
-

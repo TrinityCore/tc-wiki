@@ -254,6 +254,7 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 231 | [EffectBonusCoefficient_2](#effectbonuscoefficient) | float |  |
 | 232 | [DescriptionVariablesID](#descriptionvariablesid) | int32 | [SpellDescriptionVariables.dbc/0](/files/DBC/335/spelldescriptionvariables#id-alt) |
 | 233 | [Difficulty](#difficulty) | uint32 | [SpellDifficulty.dbc/0](/files/DBC/335/spelldifficulty#id-alt); [spelldifficulty id](/database/335/world/spelldifficulty_dbc#id-alt) |
+
 &nbsp;
 ## Description of fields
 

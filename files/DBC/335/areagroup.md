@@ -28,6 +28,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 5 | [AreaID_4](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id-alt) |
 | 6 | [AreaID_5](#areaid) | uint32 | [AreaTable.dbc/0](/files/DBC/335/areatable#id-alt) |
 | 7 | [NextAreaID](#nextareaid) | uint32 | [AreaGroup.dbc/0](#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -48,4 +49,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 If group is to contain more than 6 areas, this links to another part of group (group chaining).
 &nbsp;
-

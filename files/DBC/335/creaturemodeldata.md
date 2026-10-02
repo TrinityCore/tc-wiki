@@ -48,6 +48,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 25 | [MissileCollisionRadius](#missilecollisionradius) | float |  |
 | 26 | [MissileCollisionPush](#missilecollisionpush) | float |  |
 | 27 | [MissileCollisionRaise](#missilecollisionraise) | float |  |
+
 &nbsp;
 ## Description of fields
 

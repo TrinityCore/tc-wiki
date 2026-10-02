@@ -18,6 +18,7 @@ dateCreated: 2021-08-30T09:31:02.498Z
 | [max_world_state_field](#max_world_state_field) | smallint | unsigned |  | NO | 0 |  |  |
 | [done_world_state_field](#done_world_state_field) | smallint | unsigned |  | NO | 0 |  |  |
 | [description](#description) | varchar(25) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -44,4 +45,3 @@ This is the world state update field number sent to the client that is used to r
 ### description
 Arbitrary text field describing this condition.
 &nbsp;
-

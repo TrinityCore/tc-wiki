@@ -23,6 +23,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 0 | [ID](#id-alt) | uint32 |  |
 | 0 | [EnumID](#enumid) | uint32 |  |
 | 0 | [VisualKitID](#visualkitid) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id-alt) |
+
 &nbsp;
 ## Description of fields
 

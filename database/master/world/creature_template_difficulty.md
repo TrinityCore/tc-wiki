@@ -39,6 +39,7 @@ dateCreated: 2023-05-29T22:25:06.332Z
 | [StaticFlags7](#staticflags7) | int | unsigned |  | NO | 0 |  |  |  |
 | [StaticFlags8](#staticflags8) | int | unsigned |  | NO | 0 |  |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  | Generated |
+
 &nbsp;
 ## Description of fields
 
@@ -135,6 +136,7 @@ Used to modify the base Level/Class armor of a creature.
 | 32 | CREATURE_TYPE_FLAG_2_UNK6 | 0x00000020 |
 | 64 | CREATURE_TYPE_FLAG_2_UNK7 | 0x00000040 |
 | 128 | CREATURE_TYPE_FLAG_2_UNK8 | 0x00000080 |
+
 &nbsp;
 
 ### LootID
@@ -195,6 +197,7 @@ Maximum money that the creature drops when killed, in copper.
 | CREATURE_STATIC_FLAG_FLOATING | 0x20000000 | sets DisableGravity movementflag on spawn/reset |
 | CREATURE_STATIC_FLAG_MORE_AUDIBLE | 0x40000000 | CREATURE_TYPE_FLAG_MORE_AUDIBLE |
 | CREATURE_STATIC_FLAG_LARGE_AOI | 0x80000000 | UnitFlags2 0x200000 |
+
 &nbsp;
 
 ### StaticFlags2
@@ -232,6 +235,7 @@ Maximum money that the creature drops when killed, in copper.
 | CREATURE_STATIC_FLAG_2_CAN_ASSIST | 0x20000000 | CREATURE_TYPE_FLAG_CAN_ASSIST, original description: Player Can Heal/Buff |
 | CREATURE_STATIC_FLAG_2_NO_SKILL_GAINS | 0x40000000 | CREATURE_FLAG_EXTRA_NO_SKILL_GAINS |
 | CREATURE_STATIC_FLAG_2_NO_PET_BAR | 0x80000000 | CREATURE_TYPE_FLAG_NO_PET_BAR |
+
 &nbsp;
 
 ### StaticFlags3
@@ -269,6 +273,7 @@ Maximum money that the creature drops when killed, in copper.
 | CREATURE_STATIC_FLAG_3_LINK_ALL | 0x20000000 | CREATURE_TYPE_FLAG_LINK_ALL |
 | CREATURE_STATIC_FLAG_3_AI_CAN_AUTO_TAKEOFF_IN_COMBAT | 0x40000000 |  |
 | CREATURE_STATIC_FLAG_3_AI_CAN_AUTO_LAND_IN_COMBAT | 0x80000000 |  |
+
 &nbsp;
 
 ### StaticFlags4

@@ -21,6 +21,7 @@ This table provides additional parameters to each gameobject on a per spawn basi
 | [parent_rotation3](#parent_rotation3) | float |  |  | NO | 1 |  |  |
 | [invisibilityType](#invisibilitytype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [invisibilityValue](#invisibilityvalue) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

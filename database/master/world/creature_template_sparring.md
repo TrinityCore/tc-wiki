@@ -14,6 +14,7 @@ dateCreated: 2023-04-05T23:11:45.629Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [Entry](#entry) | int | unsigned | PRI | NO |  |  |  |
 | [NoNPCDamageBelowHealthPct](#nonpcdamagebelowhealthpct) | float |  | PRI | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -24,4 +25,3 @@ This field references the [creature_template.entry](/database/master/world/creat
 ### NoNPCDamageBelowHealthPct
 Maximum health percentage threshold.
 &nbsp;
-

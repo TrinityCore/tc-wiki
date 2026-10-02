@@ -18,6 +18,7 @@ dateCreated: 2021-08-30T22:01:37.733Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [itemGuid](#itemguid) | int | unsigned | PRI | NO |  |  | Item GUID |
 | [allowedPlayers](#allowedplayers) | text |  |  | NO |  |  | Space separated GUID list of players who can receive this item in trade |
+
 &nbsp;
 ## Description of fields
 
@@ -28,4 +29,3 @@ The souldbound [item guid](../characters/item_instance#guid) that can be traded.
 ### allowedPlayers
 Speace separated list of [character guids](../characters/characters#guid) that are eligible to trade.
 &nbsp;
-

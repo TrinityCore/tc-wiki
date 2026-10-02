@@ -45,6 +45,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 22 | [Name_lang_mask](#name-alt) | uint32 |  |
 | 23 | [MountCreatureID_0](#mountcreatureid) | uint32 | [creature entry](/database/335/world/creature_template#entry) |
 | 24 | [MountCreatureID_1](#mountcreatureid) | uint32 | [creature entry](/database/335/world/creature_template#entry) |
+
 &nbsp;
 ## Description of fields
 
@@ -78,4 +79,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 * col 23: Alliance
 * col 24: Horde
 &nbsp;
-

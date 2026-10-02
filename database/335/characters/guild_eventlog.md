@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T22:01:11.079Z
 | [PlayerGuid2](#eventtype) | int | unsigned | MUL | NO |  |  | Player 2 |
 | [NewRank](#eventtype) | tinyint | unsigned |  | NO |  |  | New rank(in case promotion/demotion) |
 | [TimeStamp](#timestamp) | int | unsigned |  | NO |  |  | Event UNIX time |
+
 &nbsp;
 ## Description of fields
 

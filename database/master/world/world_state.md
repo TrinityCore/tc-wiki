@@ -18,6 +18,7 @@ dateCreated: 2022-07-10T19:37:23.205Z
 | [AreaIDs](#areaids) | varchar(255) |  |  | YES | NULL |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
 | [Comment](#comment) | text |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -49,4 +50,3 @@ ScriptName for a `WorldStateScript`
 ### Comment
 Comment describing the world state
 &nbsp;
-

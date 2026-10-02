@@ -23,6 +23,7 @@ Records in this table can be overwritten by [vehicle_accessory](../world/vehicle
 | [description](#description) | mediumtext |  |  | NO |  |  |  |
 | [summontype](#summontype) | tinyint | unsigned |  | NO | 6 |  | see enum TempSummonType |
 | [summontimer](#summontimer) | int | unsigned |  | NO | 30000 |  | timer, only relevant for certain summontypes |
+
 &nbsp;
 ## Description of fields
 

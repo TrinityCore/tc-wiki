@@ -31,6 +31,7 @@ It determines information on what spells pets will have after they are tamed by 
 | 6 | [Availability_1](#availability) | uint32 |  |
 | 7 | [Availability_2](#availability) | uint32 |  |
 | 8 | [Availability_3](#availability) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -51,4 +52,3 @@ It determines information on what spells pets will have after they are tamed by 
 
 Divide by 10 to get in seconds.
 &nbsp;
-

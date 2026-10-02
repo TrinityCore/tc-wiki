@@ -24,6 +24,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 1 | [SpellID](#spellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
 | 2 | [GlyphSlotFlags](#glyphslotflags) | uint32 |  |
 | 3 | [SpellIconID](#spelliconid) | uint32 | [SpellIcon.dbc/0](/files/DBC/335/spellicon#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -51,4 +52,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 Rune displayed in glyphs tab.
 &nbsp;
-

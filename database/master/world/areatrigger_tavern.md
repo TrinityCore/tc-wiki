@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T09:28:54.308Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [id](#id-alt) | int | unsigned | PRI | NO | 0 |  | Identifier |
 | [name](#name-alt) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -24,4 +25,3 @@ This is the trigger identifier from [AreaTrigger.db2](https://wago.tools/db2/are
 ### name {#name-alt}
 Name of the city or tavern. This is purely for descriptive purposes.
 &nbsp;
-

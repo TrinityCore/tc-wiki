@@ -16,6 +16,7 @@ Table used to group spells for various checks in the core. One spell may be adde
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [id](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [spell_id](#spell_id) | int | signed | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -30,4 +31,3 @@ Arbitrary ID defining a group of spells. For custom made DB groups, it is requir
 * **spell_id** > 0: [Spell ID](/files/DBC/335/spell#id) associated to this group. If the spell has multiple ranks it must be the [first_spell_id](/database/335/world/spell_ranks#first_spell_id).
 * **spell_id** < 0: References another spell_group **id**.
 &nbsp;
-

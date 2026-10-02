@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T08:17:38.649Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [pool_id](#pool_id) | int | unsigned | PRI | NO | 0 |  |  |
 | [quest_id](#quest_id) | int | unsigned | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -24,5 +25,3 @@ dateCreated: 2021-08-30T08:17:38.649Z
 ### quest_id
 *- no description -*
 &nbsp;
-
-

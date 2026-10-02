@@ -51,6 +51,7 @@ dateCreated: 2023-10-04T08:00:55.057Z
 | 28 | [StartAsset](#startasset) | uint32 |  |
 | 29 | [StartTimer](#starttimer) | uint32 |  |
 | 30 | [UiOrder](#uiorder) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

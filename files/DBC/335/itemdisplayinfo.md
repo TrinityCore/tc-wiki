@@ -45,6 +45,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 22 | [Texture_7](#texture) | string |  |
 | 23 | [ItemVisual](#itemvisual) | int32 | [ItemVisuals.dbc/0](/files/DBC/335/itemvisuals#classid) |
 | 24 | [ParticleColorID](#particlecolorid) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

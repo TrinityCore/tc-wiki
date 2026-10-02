@@ -18,6 +18,7 @@ dateCreated: 2021-08-30T09:28:59.429Z
 | [ActionSetId](#actionsetid) | int | unsigned |  | NO | 0 |  |  |
 | [ActionSetFlags](#actionsetflags) | int | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -33,6 +34,7 @@ Describes whether `Id` of this row is a custom id or not.
 | Name | Flag |
 | --- | --- |
 | IsServerSide | 0x00001|
+
 &nbsp;
 
 ### ActionSetId

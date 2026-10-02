@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T09:33:49.650Z
 | [agi](#agi) | smallint | signed |  | NO |  |  | agility |
 | [sta](#sta) | smallint | signed |  | NO |  |  | stamina |
 | [inte](#inte) | smallint | signed |  | NO |  |  | intellect |
+
 &nbsp;
 ## Description of fields
 
@@ -39,5 +40,3 @@ dateCreated: 2021-08-30T09:33:49.650Z
 ### inte
 *- no description -*
 &nbsp;
-
-

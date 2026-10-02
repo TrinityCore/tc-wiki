@@ -60,6 +60,7 @@ dateCreated: 2021-08-30T09:31:56.235Z
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
 | [StringId](#stringid) | varchar(64) |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

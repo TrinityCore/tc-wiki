@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T22:02:06.932Z
 | [bracket_id](#bracket_id) | tinyint | unsigned |  | NO |  |  |  |
 | [type](#type) | tinyint | unsigned |  | NO |  |  |  |
 | [date](#date) | datetime |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 

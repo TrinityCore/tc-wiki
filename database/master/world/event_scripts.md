@@ -23,6 +23,7 @@ dateCreated: 2021-08-30T09:30:47.168Z
 | [z](#z) | float |  |  | NO | 0 |  |  |
 | [o](#o) | float |  |  | NO | 0 |  |  |
 | [Comment](#comment) | varchar(255) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -69,4 +70,3 @@ dateCreated: 2021-08-30T09:30:47.168Z
 ### Comment
 *- no description -*
 &nbsp;
-

@@ -27,6 +27,7 @@ dateCreated: 2021-08-30T21:59:23.068Z
 | [taxiStart](#taxistart) | int | unsigned |  | NO | 0 |  |  |
 | [taxiEnd](#taxiend) | int | unsigned |  | NO | 0 |  |  |
 | [mountSpell](#mountspell) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

@@ -16,6 +16,7 @@ Table used to add restrictions for learning spells from trainer. Player can't le
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [spell_id](#spell_id) | int | signed | PRI | NO | 0 |  |  |
 | [req_spell](#req_spell) | int | signed | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -26,4 +27,3 @@ Table used to add restrictions for learning spells from trainer. Player can't le
 ### req_spell
 [Spell ID](/files/DBC/335/spell#id), which is required to be known before **spell_id** can be learned from trainer.
 &nbsp;
-

@@ -28,6 +28,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 5 | [Duration](#Duration) | float |  |
 | 6 | [Phase](#phase) | float |  |
 | 7 | [Coefficient](#coefficient) | float |  |
+
 &nbsp;
 ## Description of fields
 
@@ -81,4 +82,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

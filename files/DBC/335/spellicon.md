@@ -22,6 +22,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | :---: | --- | :---: | --- |
 | 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [Filename](#filename) | string |  |
+
 &nbsp;
 ## Description of fields
 
@@ -38,4 +39,3 @@ The location for the Spell Icon image, stored in the client MPQs without file ex
 `Interface\Icons\*`
 `Interface\Spellbook\*`
 &nbsp;
-

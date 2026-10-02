@@ -14,6 +14,7 @@ dateCreated: 2022-12-19T18:37:01.549Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
 | [spell](#spell) | int | unsigned | PRI | NO | 0 |  | Spell Identifier |
+
 &nbsp;
 ## Description of fields
 
@@ -24,4 +25,3 @@ dateCreated: 2022-12-19T18:37:01.549Z
 ### spell
 *- no description -*
 &nbsp;
-

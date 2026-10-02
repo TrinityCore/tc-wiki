@@ -38,6 +38,7 @@ dateCreated: 2021-08-30T07:22:38.935Z
 | [item16](#item16) | bigint | unsigned |  | NO | 0 |  |  |
 | [item17](#item17) | bigint | unsigned |  | NO | 0 |  |  |
 | [item18](#item18) | bigint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -144,4 +145,3 @@ dateCreated: 2021-08-30T07:22:38.935Z
 ### item18
 *- no description -*
 &nbsp;
-

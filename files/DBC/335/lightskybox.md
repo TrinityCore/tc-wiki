@@ -23,6 +23,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 0 | [ID](#id-alt) | uint32 |  |
 | 0 | [Model](#model) | string |  |
 | 0 | [Flags](#flags) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

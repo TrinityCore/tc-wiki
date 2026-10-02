@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T08:14:21.605Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [itemGuid](#itemguid) | bigint | unsigned | PRI | NO |  |  | Item GUID |
 | [allowedPlayers](#allowedplayers) | text |  |  | NO |  |  | Space separated GUID list of players who can receive this item in trade |
+
 &nbsp;
 ## Description of fields
 
@@ -24,5 +25,3 @@ dateCreated: 2021-08-30T08:14:21.605Z
 ### allowedPlayers
 *- no description -*
 &nbsp;
-
-

@@ -36,6 +36,7 @@ dateCreated: 2023-10-04T08:04:27.814Z
 | 13 | [ItemCount_4](#itemcount) | uint32 |  |
 | 14 | [RequiredArenaRating](#requiredarenarating) | uint32 |  |
 | 15 | [ItemPurchaseGroup](#itempurchasegroup) | uint32 | [ItemPurchaseGroup.dbc/0](/files/DBC/335/itempurchasegroup#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -89,4 +90,3 @@ Required personal arena rating.
 
 *- no description -*
 &nbsp;
-

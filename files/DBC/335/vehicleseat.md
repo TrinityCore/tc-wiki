@@ -78,6 +78,7 @@ dateCreated: 2023-10-04T08:09:06.318Z
 | 55 | [CameraEnteringZoom](#cameraenteringzoom) | float |  |
 | 56 | [CameraSeatZoomMin](#cameraseatzoommin) | float |  |
 | 57 | [CameraSeatZoomMax](#cameraseatzoommax) | float |  |
+
 &nbsp;
 ## Description of fields
 

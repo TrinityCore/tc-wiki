@@ -26,6 +26,7 @@ dateCreated: 2021-08-26T03:06:24.878Z
 | [gamebuild](#gamebuild) | int | unsigned |  | NO | 56461 |  |  |
 | [Region](#region) | tinyint | unsigned |  | NO | 1 |  |  |
 | [Battlegroup](#battlegroup) | tinyint | unsigned |  | NO | 1 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -171,4 +172,3 @@ Accepted Client version for the realm.
 ### Battlegroup
 *- no description -*
 &nbsp;
-

@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T09:33:21.406Z
 | [sta](#sta) | smallint | unsigned |  | NO |  |  |  |
 | [inte](#inte) | smallint | unsigned |  | NO |  |  |  |
 | [spi](#spi) | smallint | unsigned |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -64,5 +65,3 @@ The base intellect of the pet at currently selected **level**.
 ### spi
 The base sprit of the pet at currently selected **level**.
 &nbsp;
-
-

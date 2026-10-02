@@ -30,6 +30,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 7 | [Flags](#flags) | uint32 |  |
 | 8 | [VariationIndex](#variationindex) | uint32 |  |
 | 9 | [ColorIndex](#colorindex) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

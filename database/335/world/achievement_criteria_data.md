@@ -19,6 +19,7 @@ This table contains the data that a player needs to obtain / complete in order t
 | [value1](#type) | int | unsigned |  | NO | 0 |  |  |
 | [value2](#type) | int | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | char(64) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 

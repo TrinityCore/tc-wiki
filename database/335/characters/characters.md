@@ -92,6 +92,7 @@ dateCreated: 2021-08-30T22:00:30.288Z
 | [deleteInfos_Account](#deleteinfos_account) | int | unsigned |  | YES | NULL |  |  |
 | [deleteInfos_Name](#deleteinfos_name) | varchar(12) |  |  | YES | NULL |  |  |
 | [deleteDate](#deletedate) | int | unsigned |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

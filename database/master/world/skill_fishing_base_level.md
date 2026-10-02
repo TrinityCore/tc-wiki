@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T09:36:21.968Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entry](#entry) | int | unsigned | PRI | NO | 0 |  | Area identifier |
 | [skill](#skill) | smallint | signed |  | NO | 0 |  | Base skill level requirement |
+
 &nbsp;
 ## Description of fields
 
@@ -27,4 +28,3 @@ The minimum skill points in fishing required to fish in the area without receivi
 If the player is less skilled, the chance to fish successfully is as follows:
 * `chance = MAX(1; (playerSkill / areaSkill)^2 * 100)`
 &nbsp;
-
