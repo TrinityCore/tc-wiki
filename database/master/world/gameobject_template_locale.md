@@ -26,18 +26,9 @@ Entry of the gameobject, see [`gameobject_template.entry`](/database/master/worl
 &nbsp;
 
 ### locale
-|Value|Locale|
-|:---:|:---: |
-|deDE|German|
-|esES|Spanish|
-|esMX|Spanish (Latin American)|
-|frFR|French|
-|itIT|Italian|
-|koKR|Korean|
-|ptBR|Portuguese|
-|ruRU|Russian|
-|zhCN|Chinese (China)|
-|zhTW|Chinese (Taiwan/Traditional)|
+
+<!--@include: @/partial/master/localization.md-->
+
 &nbsp;
 
 ### name {#name-alt}
@@ -64,4 +55,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 
 &nbsp;
-
