@@ -610,15 +610,10 @@ true while quest active
 #### Drunk (10)
 * **ConditionTypeOrReference**:
 CONDITION_DRUNKENSTATE (10)
-* **ConditionValue1**:
-[`enum DrunkenState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Player/Player.h#L319-L325)
-  |--|--|
-  | DRUNKEN_SOBER | 0 |
-  | DRUNKEN_TIPSY | 1 |
-  | DRUNKEN_DRUNK | 2 |
-  | DRUNKEN_SMASHED | 3 |
-  {.dense}
-* **ConditionValue2**:
+* **ConditionValue1**:  
+  <!--@include: @/partial/335/drunken-state.md-->
+
+ **ConditionValue2**:
 `0`
 * **ConditionValue3**:
 `0`
