@@ -109,7 +109,6 @@ Look up into CharSections.dbc, where BaseSection=SECTION_TYPE_FACIAL_HAIR (2) to
 | 16 | Gloves |
 | 17 | Tabard |
 | 18 | Cape |
-{.dense}
 
 &nbsp;
 

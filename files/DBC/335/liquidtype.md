@@ -94,7 +94,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 64 | 0x0040 | No Interior Fog Blend |
 | 256 | 0x0100 | WMO Fog Control (SLIME) |
 | 512 | 0x0200 | Force Exterior Lighting |
-{.dense}
 
 &nbsp;
 
@@ -108,7 +107,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 1 | LIQUID_TYPE_OCEAN
 | 2 | LIQUID_TYPE_MAGMA
 | 3 | LIQUID_TYPE_SLIME
-{.dense}
 
 &nbsp;
 
@@ -201,4 +199,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

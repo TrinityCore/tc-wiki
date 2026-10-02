@@ -52,7 +52,5 @@ dateCreated: 2023-10-04T08:08:24.615Z
 |-------|------|---------|
 | 1 | 0x1 | Default |
 | 2 | 0x2 | GM Mail |
-{.dense}
 
 &nbsp;
-

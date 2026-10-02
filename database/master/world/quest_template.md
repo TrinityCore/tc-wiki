@@ -178,7 +178,6 @@ This field defines under what category the quest falls in the quest log.
 | 182 | Leatherworking | | 374 | Noblegarden |
 | 201 | Engineering | | 375 | Pilgrim's Bounty |
 | 241 | Tournament | | 376 | Love is in the Air |
-{.dense}
 
 &nbsp;
 
@@ -197,7 +196,6 @@ This field defines under what category the quest falls in the quest log.
 | 85 | Heroic |
 | 88 | Raid (10) |
 | 89 | Raid (25) |
-{.dense}
 
 &nbsp;
 
@@ -298,8 +296,8 @@ Example: An example value is 8 for [For Great Honor](https://aowow.trinitycore.i
 | 131072 | 0x020000 | QUEST_FLAGS_DISPLAY_ITEM_IN_TRACKER | Displays usable item in quest tracker |
 | 262144 | 0x040000 | QUEST_FLAGS_OBJ_TEXT | use Objective text as Complete text |
 | 524288 | 0x080000 | QUEST_FLAGS_AUTO_ACCEPT | The client recognizes this flag as auto-accept. However, NONE of the current quests (3.3.5a) have this flag. Maybe blizz used to use it, or will use it in the future. |
-{.dense}
-&nbsp;
+
+nbsp;
 
 ### FlagsEx
 *- no description -*
@@ -394,7 +392,6 @@ This field is used for reputation lookup in [QuestFactionReward](https://wago.to
 |----|------|------|------|------|------|------|------|------|------|------|
 1 | 0 | 10 | 25 | 75 | 150 | 250 | 350 | 500 | 1000 | 5 |
 2 | 0 | -10 | -25 | -75 | -150 | -250 | -350 | -500 | -1000 | -5 |
-{.dense}
 
 &nbsp;
 
@@ -469,8 +466,8 @@ Race mask of [ChrRace IDs](https://wago.tools/db2/chrraces) allowed to get the q
 |    64 | 0x0040 | Gnome     |  |   128 | 0x0080 | Troll     |
 |  1024 | 0x0400 | Draenei   |  |   512 | 0x0200 | Blood Elf |
 |  1101 | 0x044D | *_Alliance_* |  |   690 | 0x02B2 | *_Horde_* |
-{.dense}
-UPDATE ME
+
+PDATE ME
 &nbsp;
 
 ### Expansion

@@ -88,7 +88,6 @@ This field connects the stats from another **entry** to this template when in 25
 | 1 | 25 (Normal) | 5 (Heroic) |
 | 2 | 10 (Heroic) | - |
 | 3 | 25 (Heroic) | - |
-{.dense}
 
 &nbsp;
 
@@ -129,7 +128,6 @@ Use special mouse pointer when hovering over the creature.
 | Quest | Unused or Unknown. (See EntryID 32870 The Real Ronakada). |
 | PVP | Unused or Unknown.(See EntryID 29387 Arena Master: Dalaran Arena). |
 | Point | |
-{.dense}
 
 > Note: This is not required to make the creature/npc function unless you are using scripts or gossip options.
 > Also: Names are case sensitive. If in doubt use an example above.
@@ -192,7 +190,6 @@ A bitmask that represents what NPC flags the creature has. Each bit controls a d
 | 16777216 | 0x01000000 | Spellclick | Needs data on [npc_spellclick_spells](../world/npc_spellclick_spells) table|
 | 33554432 | 0x02000000 | PlayerVehicle | Players with mounts that have vehicle data should have it set|
 | 67108864 | 0x04000000 | Mailbox | NPC will act like a mailbox (opens mailbox with right-click)|
-{.dense}
 
 So if you want an NPC that is a quest giver, a vendor, and can repair you just add the specific flags together: <code>`npcflag`=`npcflag`|1|2|128|4096</code>
 The same with hexadecimal numbers: `0x1 + 0x2 + 0x80 + 0x1000 = 0x1083`
@@ -220,7 +217,6 @@ The rank of the creature:
 | 3 | Boss | 1 hour |
 | 4 | Rare | 5 min |
 | 5 | Trivial | 5 min |
-{.dense}
 
 > Note: An NPC's rank is mostly visual (which also requires your Cache to be cleared to see changes). Changing this value will not change its health, damage, or loot.
 {.is-info}
@@ -265,7 +261,6 @@ This is the creature's class, and it dictates levels of health and mana. Also no
 | 2 | CLASS_PALADIN | Health & Mana (more health than Mage but less mana) |
 | 4 | CLASS_ROGUE | Health only (equal to Warrior) |
 | 8 | CLASS_MAGE | Health & Mana (less health than Paladin but more mana) |
-{.dense}
 
 &nbsp;
 
@@ -298,7 +293,6 @@ Allows the manual application of unit flags to creatures. Again this is a bitmas
 | 134217728 | 0x08000000 | UNIT_FLAG_MOUNT | The client seems to handle it perfectly. Also used when making custom mounts. |
 | 1073741824 | 0x40000000 | UNIT_FLAG_SHEATHE |  |
 | 2147483648 | 0x80000000 | UNIT_FLAG_IMMUNE | Immune to damage |
-{.dense}
 
 &nbsp;
 
@@ -323,7 +317,6 @@ Allows additional application of unit flags to creatures. Again, this is a bitma
 | 32768 | 0x00008000 | UNIT_FLAG2_CANNOT_TURN |  |
 | 131072 | 0x00020000 | UNIT_FLAG2_PLAY_DEATH_ANIM | Plays special death animation upon death |
 | 262144 | 0x00040000 | UNIT_FLAG2_ALLOW_CHEAT_SPELLS | allows casting spells with AttributesEx7 & SPELL_ATTR7_IS_CHEAT_SPELL |
-{.dense}
 
 &nbsp;
 
@@ -339,7 +332,6 @@ Flags that control visual appearance of the creature. A few known flags and thei
 | 32 | 0x20 | UNIT_DYNFLAG_DEAD | Makes the creature appear dead (this DOES NOT make the creature's name grey or not attack players). |
 | 64 | 0x40 | UNIT_DYNFLAG_REFER_A_FRIEND |  |
 | 128 | 0x80 | UNIT_DYNFLAG_TAPPED_BY_ALL_THREAT_LIST | Lua_UnitIsTappedByAllThreatList |
-{.dense}
 
 &nbsp;
 
@@ -367,7 +359,6 @@ The [CreatureFamily ID](/files/DBC/335/creaturefamily#id) this creature belongs 
 | 23 | Imp | 44 | Wasp |
 | 24 | Bat | 45 | Core Hound |
 | 25 | Hyena | 46 | Spirit Beast |
-{.dense}
 
 &nbsp;
 
@@ -389,7 +380,6 @@ The [CreatureType ID](/files/DBC/335/creaturetype#id) of the creature.
 | 11 | Totem |
 | 12 | Non-Combat Pet |
 | 13 | Gas Cloud |
-{.dense}
 
 &nbsp;
 
@@ -429,7 +419,6 @@ This field can control whether a mob is minable or herbable or lootable by engin
 | 536870912 | 0x20000000 | CREATURE_TYPE_FLAG_DO_NOT_TARGET_ON_INTERACTION |  |
 | 1073741824 | 0x40000000 | CREATURE_TYPE_FLAG_DO_NOT_RENDER_OBJECT_NAME |  |
 | 2147483648 | 0x80000000 | CREATURE_TYPE_FLAG_QUEST_BOSS |  |
-{.dense}
 
 &nbsp;
 
@@ -473,7 +462,6 @@ This field is overridden by ScriptName field if both are set.
 | PetAI | Creature is a pet. |
 | TotemAI | Creature casts [Spell](../world/creature_template_spell#spell) from **Index** 1 , otherwise like NullAI. |
 | SmartAI | Creature uses [Smart AI](../world/smart_scripts). |
-{.dense}
 
 &nbsp;
 
@@ -484,7 +472,6 @@ The creature's default movement type.
 | 0 | Idle; stay in one place |
 | 1 | Random movement inside the spawndist radius |
 | 2 | Waypoint movement |
-{.dense}
 
 &nbsp;
 
@@ -562,7 +549,6 @@ This makes the creature immune to specific spell mechanics. (See [Spell EffectMe
 | 268435456 | 0x10000000 | MECHANIC_IMMUNE_SHIELD | Divine Shield, Ice Block, Hand of Protection... |
 | 536870912 | 0x20000000 | MECHANIC_SAPPED |  |
 | 1073741824 | 0x40000000 | MECHANIC_ENRAGED |  |
-{.dense}
 
 To combine immunities just add values. Immune to everything corresponds to the value 2147483647 (0x3FFF FFFF).
 &nbsp;
@@ -603,7 +589,6 @@ These flags control certain creature specific attributes. Flags can be added tog
 | 268435456 | 0x10000000 | CREATURE_FLAG_EXTRA_DUNGEON_BOSS | Creature is a dungeon boss. This flag is generically set by core during runtime. Setting this in database will give you startup error. |
 | 536870912 | 0x20000000 | CREATURE_FLAG_EXTRA_IGNORE_PATHFINDING | Creature will ignore pathfinding. This is like disabling Mmaps, only for one creature. |
 | 1073741824 | 0x40000000 | CREATURE_FLAG_EXTRA_IMMUNITY_KNOCKBACK | creature will immune all knockback effects |
-{.dense}
 
 &nbsp;
 

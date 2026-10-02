@@ -55,7 +55,6 @@ The bank tab the event occurs on.
 | 7 | GUILD_BANK_LOG_MOVE_ITEM2 |
 | 8 | GUILD_BANK_LOG_UNK1 |
 | 9 | GUILD_BANK_LOG_BUY_SLOT |
-{.dense}
 
 &nbsp;
 
@@ -80,4 +79,3 @@ For item move events the destination tab (Range: 0 – 5), else 0.
 ### TimeStamp
 Unix timestamp when the event occured.
 &nbsp;
-

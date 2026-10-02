@@ -154,7 +154,6 @@ Doesn't work for ChrClass 6?
 | 16 | 0x10 | Can Wear Scaling-Stat Mail |
 | 32 | 0x20 | Can Wear Scaling-Stat Plate |
 | 64 | 0x40 | Bind Starting Area |
-{.dense}
 
 &nbsp;
 

@@ -57,7 +57,6 @@ An icon prefixed to the **OptionText**.
 | 8 | GOSSIP_ICON_TABARD | white tabard | TabardGossipIcon.blp |
 | 9 | GOSSIP_ICON_BATTLE | two crossed swords | BattlemasterGossipIcon.blp |
 | 10 | GOSSIP_ICON_DOT | yellow dot/point | AuctioneerGossipIcon.blp &ndash; :x: missing in 335a |
-{.dense}
 
 &nbsp;
 
@@ -99,7 +98,6 @@ The ID of the same text in [broadcast_text](../world/broadcast_text#id).
 | 18 | GOSSIP_OPTION_LEARNDUALSPEC | UNIT_NPC_FLAG_TRAINER (bonus option for GOSSIP_OPTION_TRAINER) | 16 |
 | 19 | GOSSIP_OPTION_OUTDOORPVP | added by code (option for outdoor pvp creatures) |  |
 | 20 | GOSSIP_OPTION_DUALSPEC_INFO | UNIT_NPC_FLAG_TRAINER (bonus option for GOSSIP_OPTION_TRAINER) | 16 |
-{.dense}
 
 &nbsp;
 
@@ -144,5 +142,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -[Client Build](/database/335/auth/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
-
-

@@ -104,7 +104,6 @@ followup **SubClassID**
 | 32 | 0x20 | Weapon is Right Hand Ranged |
 | 64 | 0x40 | Ammunition not required |
 | 128 | 0x80 | Weapon is Ranged |
-{.dense}
 
 &nbsp;
 

@@ -49,7 +49,6 @@ The type of log this is:
 | 8 | LOG_TYPE_GM | gm command logs |
 | 9 | LOG_TYPE_CRASH | crash alarm logs |
 | 10 | LOG_TYPE_CHAT | chat/message logs |
-{.dense}
 
 &nbsp;
 
@@ -65,11 +64,9 @@ Depends on LogLevel in authserver.conf
 | 4 | LOG_LEVEL_WARN |
 | 5 | LOG_LEVEL_ERROR |
 | 6 | LOG_LEVEL_FATAL |
-{.dense}
 
 &nbsp;
 
 ### string
 The actual string that has been logged.
 &nbsp;
-

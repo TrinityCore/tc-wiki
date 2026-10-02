@@ -47,8 +47,6 @@ given **additionalCreateChance** = 35 and **additionalMaxNum** = 4:
 | 3 | 12.25% |
 | 4 | 1.50% |
 | 5 | 0.00% |
-{.dense}
 
 
 &nbsp;
-

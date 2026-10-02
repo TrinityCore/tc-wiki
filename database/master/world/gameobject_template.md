@@ -106,7 +106,6 @@ Gameobject's unique id.
 | 33 | GAMEOBJECT_TYPE_DESTRUCTIBLE_BUILDING |
 | 34 | GAMEOBJECT_TYPE_GUILD_BANK |
 | 35 | GAMEOBJECT_TYPE_TRAPDOOR |
-{.dense}
 
 &nbsp;
 
@@ -138,7 +137,6 @@ Use special mouse pointer when hovering over the gameobject.
 | Quest | Unused or Unknown. (See EntryID 32870 The Real Ronakada). |
 | PVP | Unused or Unknown.(See EntryID 29387 Arena Master: Dalaran Arena). |
 | Point | |
-{.dense}
 
 > Note: You may experience minor bugs trying to get the Quest (Yellow exclamation mark) working. However; the rest of the listed icons works.
 {.is-info}
@@ -172,7 +170,6 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 5 | closeTextID | unknown TextID | unused |
 | 6 | ignoredByPathing | -1, 0, 1| unused |
 | 7 | conditionID1 | 0 | unused |
-{.dense}
 
 **_GAMEOBJECT_TYPE_BUTTON (1)_**
 | Data# | Name | Value | Comment |
@@ -187,7 +184,6 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 7 | closeTextID | unknown TextID | unused |
 | 8 | losOK | 0, 1 | ignores line of sight checks |
 | 9 | conditionID1 | 0 | unused |
-{.dense}
 
 **_GAMEOBJECT_TYPE_QUESTGIVER (2)_**
 | Data# | Name | Value | Comment |
@@ -203,7 +199,6 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 8 | allowMounted | 0, 1 | Is usable while on mount/vehicle. |
 | 9 | large | 0, 1 | large objects are visible from further away |
 | 10 | conditionID1 | 0 | unused |
-{.dense}
 
 **_GAMEOBJECT_TYPE_CHEST (3)_**
 | Data# | Name | Value | Comment |
@@ -241,11 +236,9 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 30 | chestPersonalLoot |  |  |
 | 31 | turnpersonallootsecurityoff |  |  |
 | 32 | Chestproperties |  |  |
-{.dense}
 
 **_GAMEOBJECT_TYPE_BINDER (4)_**
 *no data set*
-{.dense}
 
 **_GAMEOBJECT_TYPE_GENERIC (5)_**
 | Data# | Name | Value | Comment |
@@ -257,7 +250,6 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 4 | floatOnWater | 0, 1 | unused |
 | 5 | questID | [quest_template.ID](../world/quest_template#id) | quest must be active for GO interaction |
 | 6 | conditionID1 | 0 | unused |
-{.dense}
 
 **_GAMEOBJECT_TYPE_TRAP (6)_**
 | Data# | Name | Value | Comment |
@@ -278,7 +270,6 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 13 | closeTextID | unknown TextID | unused |
 | 14 | ignoreTotems | 0, 1 | unused |
 | 15 | conditionID1 | 0 | unused |
-{.dense}
 
 **_GAMEOBJECT_TYPE_CHAIR (7)_**
 | Data# | Name | Value | Comment |
@@ -288,7 +279,6 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 2 | onlyCreatorUse | 0, 1 | unused |
 | 3 | triggeredEvent | unknown eventID | unused |
 | 4 | conditionID1 | 0 | unused |
-{.dense}
 
 **_GAMEOBJECT_TYPE_SPELL_FOCUS (8)_**
 | Data# | Name | Value | Comment |
@@ -302,7 +292,6 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 6 | floatingTooltip | 0, 1 | unused |
 | 7 | floatOnWater | 0, 1 | unused |
 | 8 | conditionID1 | 0 | unused |
-{.dense}
 
 **_GAMEOBJECT_TYPE_TEXT (9)_**
 | Data# | Name | Value | Comment |
@@ -314,7 +303,6 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 4 | conditionID1 | 0 | unused |
 | 5 | NeverUsableWhileMounted | 0, 1 | Never Usable While Mounted, enum: false, true |
 | 6 | InteractRadiusOverride | 0 | Interact Radius Override (Yards * 100), int, Min value: 0, Max value: 2147483647, Default value: 0 |
-{.dense}
 
 **_GAMEOBJECT_TYPE_GOOBER (10)_**
 | Data# | Name | Value | Comment |
@@ -353,7 +341,6 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 31 | NoFuzzyHit | 0, 1 | No Fuzzy Hit, enum: false, true |
 | 32 | LargeAOI | 0, 1 | Large AOI, enum: false, true |
 | 33 | InteractRadiusOverride | 0 | Interact Radius Override (Yards * 100), int, Min value: 0, Max value: 2147483647, Default value: 0 |
-{.dense}
 
 **_GAMEOBJECT_TYPE_TRANSPORT (11)_**
 | Data# | Name | Value | Comment |
@@ -364,7 +351,6 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 3 | pause1EventID | unknown EventID | unused |
 | 4 | pause2EventID | unknown EventID | unused |
 | 5 | mapID | [Map ID](https://wago.tools/db2/map) | unused; MO-Transports are their own maps |
-{.dense}
 
 **_GAMEOBJECT_TYPE_AREADAMAGE (12)_**
 | Data# | Name | Value | Comment |
@@ -377,7 +363,6 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 5 | autoCloseTime |  | time untill state reset in milliseconds |
 | 6 | openTextID | unknown TextID | unused; can be used to replace castBarCaption? |
 | 7 | closeTextID | unknown TextID | unused |
-{.dense}
 
 **_GAMEOBJECT_TYPE_CAMERA (13)_**
 | Data# | Name | Value | Comment |
@@ -387,11 +372,9 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 2 | eventID | [event_script.id](../world/scripts#id) | also usable by script oder SmartAI |
 | 3 | openTextID | unknown TextID | unused; can be used to replace castBarCaption? |
 | 4 | conditionID1 | 0 | unused |
-{.dense}
 
 **_GAMEOBJECT_TYPE_MAP_OBJECT (14)_**
 *no data set*
-{.dense}
 
 **_GAMEOBJECT_TYPE_MO_TRANSPORT (15)_**
 | Data# | Name | Value | Comment |
@@ -405,15 +388,12 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 6 | mapID | [Map ID](https://wago.tools/db2/map) | MO-Transports are their own maps |
 | 7 | worldState1 |  | unused |
 | 8 | canBeStopped | 0, 1 |  |
-{.dense}
 
 **_GAMEOBJECT_TYPE_DUEL_ARBITER (16)_**
 *no data set*
-{.dense}
 
 **_GAMEOBJECT_TYPE_FISHINGNODE (17)_**
 *no data set*
-{.dense}
 
 **_GAMEOBJECT_TYPE_SUMMONING_RITUAL (18)_**
 | Data# | Name | Value | Comment |
@@ -427,24 +407,20 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 6 | castersGrouped | 0, 1 | user must be in party with owner |
 | 7 | ritualNoTargetCheck | 0, 1 | unused |
 | 8 | conditionID1 | 0 | unused |
-{.dense}
 
 **_GAMEOBJECT_TYPE_MAILBOX (19)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | conditionID1 | 0 | unused |
-{.dense}
 
 **_GAMEOBJECT_TYPE_DO_NOT_USE (20)_**
 *no data set*
-{.dense}
 
 **_GAMEOBJECT_TYPE_GUARDPOST (21)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | creatureID | [creature_template.entry](../world/creature_template#entry) | unused |
 | 1 | charges |  | max. number of uses |
-{.dense}
 
 **_GAMEOBJECT_TYPE_SPELLCASTER (22)_**
 | Data# | Name | Value | Comment |
@@ -455,7 +431,6 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 3 | allowMounted | 0, 1 | Is usable while on mount/vehicle. |
 | 4 | large | 0, 1 | large objects are visible from further away |
 | 5 | conditionID1 | 0 | unused |
-{.dense}
 
 **_GAMEOBJECT_TYPE_MEETINGSTONE (23)_**
 | Data# | Name | Value | Comment |
@@ -463,7 +438,6 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 0 | minLevel |  | min. player level required for interaction |
 | 1 | maxLevel |  | min. player level allowed for interaction |
 | 2 | areaID | [AreaTable ID](https://wago.tools/db2/areatable) | unused; |
-{.dense}
 
 **_GAMEOBJECT_TYPE_FLAGSTAND (24)_**
 | Data# | Name | Value | Comment |
@@ -477,7 +451,6 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 6 | openTextID | unknown TextID | unused; can be used to replace castBarCaption? |
 | 7 | losOK | 0, 1 | ignores line of sight checks |
 | 8 | conditionID1 | 0 | unused |
-{.dense}
 
 **_GAMEOBJECT_TYPE_FISHINGHOLE (25)_**
 | Data# | Name | Value | Comment |
@@ -487,7 +460,6 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 2 | minSuccessOpens |  | minimum number of fishing attempts |
 | 3 | maxSuccessOpens |  | maximum number of fishing attempts |
 | 4 | lockId | [Lock ID](https://wago.tools/db2/lock) | possibly 1628 for all? |
-{.dense}
 
 **_GAMEOBJECT_TYPE_FLAGDROP (26)_**
 | Data# | Name | Value | Comment |
@@ -497,17 +469,14 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 2 | pickupSpell | [Spell ID](https://wago.tools/db2/spell) | unused |
 | 3 | noDamageImmune | 0, 1 | can not be used by player under immunity |
 | 4 | openTextID | unknown TextID | unused; can be used to replace castBarCaption? |
-{.dense}
 
 **_GAMEOBJECT_TYPE_MINI_GAME (27)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | gameType |  | unused |
-{.dense}
 
 **_GAMEOBJECT_TYPE_DO_NOT_USE_2 (28)_**
 *no data set*
-{.dense}
 
 **_GAMEOBJECT_TYPE_CAPTURE_POINT (29)_**
 | Data# | Name | Value | Comment |
@@ -534,7 +503,6 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 19 | highlight | 0, 1 | unused |
 | 20 | startingValue | 0 &ndash; 100 | unused; 0: Horde owned; 100: Alliance owned |
 | 21 | unidirectional | 0 | unused |
-{.dense}
 
 **_GAMEOBJECT_TYPE_AURA_GENERATOR (30)_**
 | Data# | Name | Value | Comment |
@@ -546,21 +514,18 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 4 | auraID2 | [Spell ID](https://wago.tools/db2/spell) | unused |
 | 5 | conditionID2 | 0, -1 | unused |
 | 6 | serverOnly | 0, 1 | not visible in client |
-{.dense}
 
 **_GAMEOBJECT_TYPE_DUNGEON_DIFFICULTY (31)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | mapID | [Map ID](/files/DBC/335/map#id) | destination map |
 | 1 | difficulty | 0 &ndash; 3 | [`enum Difficulty`](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/DataStores/DBCEnums.h) |
-{.dense}
 
 **_GAMEOBJECT_TYPE_BARBER_CHAIR (32)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | chairheight | 0, 1, 2 | offset to [`UnitStandStateType`](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/Entities/Unit/UnitDefines.h) applied to sitting player |
 | 1 | heightOffset | 0 | unused |
-{.dense}
 
 **_GAMEOBJECT_TYPE_DESTRUCTIBLE_BUILDING (33)_**
 | Data# | Name | Value | Comment |
@@ -589,13 +554,11 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 21 | empty13 |  | unused |
 | 22 | damageEvent | eventID | unused |
 | 23 | empty14 |  | unused |
-{.dense}
 
 **_GAMEOBJECT_TYPE_GUILD_BANK (34)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | conditionID1 | 0 | unused |
-{.dense}
 
 **_GAMEOBJECT_TYPE_TRAPDOOR (35)_**
 | Data# | Name | Value | Comment |
@@ -603,7 +566,6 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 0 | whenToPause | 0 | unused |
 | 1 | startOpen | 0, 1 | initializes with state: GO_ACTIVATED |
 | 2 | autoClose | 0 | unused |
-{.dense}
 
 ### ContentTuningId
 *- no description -*
@@ -614,7 +576,7 @@ This field is overridden by ScriptName field if both are set.
 | Value | Description |
 |-------|-------------|
 | SmartGameObjectAI | Gameobject uses smart AI. |
-{.dense}
+
 &nbsp;
 
 ### ScriptName

@@ -792,5 +792,3 @@ Comment in text format so it is easier to see what the entry is for.
 | 5071 | EVENT_ECHO_ISLES_TIME | De Echo Isles attack be startin' soon!\$B\$BSit back and relax, dis song will be over in anotha \$5071W minutes and then we'd be going. - Okay! We're running a little behind, but the assaut is SCHEDULED to start in \$5071W minutes.\$B\$BI mean, everything looks ready to go, and the Gyrocopters, Mechanotanks and Infantry are all here.\$B\$BIt looks like Mekkatorque is waiting on a few more things before the assault begins. Let's hope we start on time or I may lose my job! |
 |  |||
 | 6318 | ARENA_RANKED_MATCHES_TIME | Ranked arena matches start again in \$6318d.\$B\$BWould-be champions are already busy honing their skills and acquiring the best gear they can. Are you going to be ready? |
-{.dense}
-

@@ -69,7 +69,6 @@ dateCreated: 2023-10-04T08:06:55.827Z
 | 128 | 0x0080 | SKILL_FLAG_INCLUDE_IN_SORT | Spells belonging to a skill with this flag will additionally compare skill ids when sorting spellbook in client |
 | 256 | 0x0100 | SKILL_FLAG_NOT_TRAINABLE |  |
 | 1024 | 0x0400 | SKILL_FLAG_MONO_VALUE | Skill always has value 1 - clientside display flag, real value can be different |
-{.dense}
 
 &nbsp;
 

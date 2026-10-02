@@ -90,7 +90,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 |-------|------|---------|
 | 1 | 0x1 | Use combat reach range |
 | 2 | 0x2 | Long range spell |
-{.dense}
 
 &nbsp;
 
@@ -105,4 +104,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

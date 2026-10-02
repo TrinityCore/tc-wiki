@@ -32,7 +32,5 @@ references [warden_checks.id](../world/warden_checks#id)
 | 0 | WARDEN_ACTION_LOG |
 | 1 | WARDEN_ACTION_KICK |
 | 2 | WARDEN_ACTION_BAN |
-{.dense}
 
 &nbsp;
-

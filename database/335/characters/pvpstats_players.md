@@ -61,7 +61,5 @@ Accumulated statistics, unique to a [battleground type](../characters/pvpstats_b
 | 7 | EotS | FlagCaptures | 0 | 0 | 0 | 0 |
 | 9 | SotA | DemolishersDestroyed | GatesDestroyed | 0 | 0 | 0 |
 | 30 | IoC | BasesAssaulted | BasesDefended | 0 | 0 | 0 |
-{.dense}
 
 &nbsp;
-

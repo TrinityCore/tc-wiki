@@ -50,7 +50,6 @@ fulltext event description
 | 2 | CALENDAR_TYPE_PVP |
 | 3 | CALENDAR_TYPE_MEETING |
 | 4 | CALENDAR_TYPE_OTHER |
-{.dense}
 
 &nbsp;
 
@@ -69,7 +68,6 @@ Unixtime when the event is due.
 | 16 | 0x0010 | CALENDAR_FLAG_INVITES_LOCKED | 'Lock Event' checkbox ticked |
 | 64 | 0x0040 | CALENDAR_FLAG_WITHOUT_INVITES | Guild Announcement |
 | 1024 | 0x0400 | CALENDAR_FLAG_GUILD_EVENT | Event is restricted to guild |
-{.dense}
 
 &nbsp;
 
@@ -81,4 +79,3 @@ Unixtime of: `946681200 (Sat Jan 01 00:00:00 UTC 2000)`
 
 
 &nbsp;
-

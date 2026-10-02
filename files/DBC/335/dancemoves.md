@@ -63,7 +63,6 @@ dateCreated: 2023-10-04T08:02:22.477Z
 | 2 | Audio | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |  |
 | 3 | Hold | Seconds |  |
 | 4 | Repeat | Seconds |  |
-{.dense}
 
 &nbsp;
 

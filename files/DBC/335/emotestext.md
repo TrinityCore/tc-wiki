@@ -83,7 +83,5 @@ Same as the slash command.
 | 16 | female | no | :x: UNUSED - redundant with 15 |
 | 17 | self | no | :x: UNUSED - redundant with 9 |
 | 18 | self | no | :x: UNUSED - redundant with 9 |
-{.dense}
 
 &nbsp;
-

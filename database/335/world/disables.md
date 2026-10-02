@@ -35,7 +35,6 @@ This table is used to disable dungeons/bgs/spells/etc.
 | 6 | DISABLE_TYPE_VMAP |
 | 7 | DISABLE_TYPE_MMAP |
 | 8 | DISABLE_TYPE_LFG_MAP |
-{.dense}
 
 &nbsp;
 
@@ -67,7 +66,6 @@ Depending on **sourceType**. `0` if not specified otherwise.
 | 128 | 0x0080 | SPELL_DISABLE_GAMEOBJECT | Spell disabled for game objects |
 | 256 | 0x0100 | SPELL_DISABLE_ARENAS | disabled in arena |
 | 512 | 0x0200 | SPELL_DISABLE_BATTLEGROUNDS | Spell disabled in battlegrounds |
-{.dense}
 
 #### DISABLE_TYPE_MAP
 Specifies what mode of the map is disabled (5man/10man/heroic/etc).
@@ -81,7 +79,6 @@ Specifies what mode of the map is disabled (5man/10man/heroic/etc).
 | 2 | 0x02 | RAID_STATUSFLAG_25MAN_NORMAL |
 | 4 | 0x04 | RAID_STATUSFLAG_10MAN_HEROIC |
 | 8 | 0x08 | RAID_STATUSFLAG_25MAN_HEROIC |
-{.dense}
 
 #### DISABLE_TYPE_VMAP
 Specifies what part of the vMap system should be disabled on which map.
@@ -91,7 +88,7 @@ Specifies what part of the vMap system should be disabled on which map.
 | 2 | 0x02 | VMAP_DISABLE_HEIGHT |
 | 4 | 0x04 | VMAP_DISABLE_LOS |
 | 8 | 0x08 | VMAP_LIQUIDSTATUS |
-{.dense}
+
 ### EndTabset {.tabset}
 &nbsp;
 
@@ -113,4 +110,3 @@ A comment as to why the something was disabled, or any other text that you want.
 
 <code>INSERT INTO \`disables` VALUES (6, 1, (2 + 4), 0, 0, "Disable Kalimdor vMaps");</code>
 .. will disable vMaps on whole Kalimdor.
-

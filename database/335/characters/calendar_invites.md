@@ -56,7 +56,6 @@ When creating a new event the owner invites itself (**sender** == **invitee**).
 | 7 | CALENDAR_STATUS_NOT_SIGNED_UP | not saved in db |
 | 8 | CALENDAR_STATUS_TENTATIVE |  |
 | 9 | CALENDAR_STATUS_REMOVED | not saved in db |
-{.dense}
 
 &nbsp;
 
@@ -70,11 +69,9 @@ Unixtime of last status change.
 | 0 | CALENDAR_RANK_PLAYER |
 | 1 | CALENDAR_RANK_MODERATOR |
 | 2 | CALENDAR_RANK_OWNER |
-{.dense}
 
 &nbsp;
 
 ### text
 *- unknown -*
 &nbsp;
-

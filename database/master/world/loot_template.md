@@ -294,7 +294,6 @@ Agreements for Reference Templates are as followed:
 | Shadowlands (9.x)               |           800000 |         899999 |               
 | Dragonflight (10.x)             |           900000 |         999999 |               
 | The War Within (11.x)           |          1000000 |        1099999 |               
-{.dense}
 
 | Subrange start | Subrange end | Used for |
 | -------- | -------- | -------- |
@@ -303,7 +302,6 @@ Agreements for Reference Templates are as followed:
 | X60000 | X69999 | Raid Reference Templates |
 | X70000 | X79999 | Item Reference Templates |
 | X80000 | X99999 | Profession Reference Templates<br>(Skinning, Mining, Scraping, Herb Gathering, Prospecting, Milling, Pick Pocket) |
-{.dense}
 
 &nbsp;
 
@@ -329,4 +327,3 @@ VALUES
    (6846,7675,100,0,0,1,1);
 ```
 &nbsp;
-

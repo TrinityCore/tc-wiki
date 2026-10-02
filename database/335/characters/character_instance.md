@@ -44,7 +44,5 @@ A player is bound to the instance only when he (or his party/raid) kills a creat
 | 1 | EXTEND_STATE_NORMAL | standard state |
 | 2 | EXTEND_STATE_EXTENDED | lockout period extended by player. Won't be promoted to EXPIRED at next reset period, will instead be promoted to NORMAL. |
 | 255 | EXTEND_STATE_KEEP | special state: keep current save type |
-{.dense}
 
 &nbsp;
-

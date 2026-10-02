@@ -80,7 +80,6 @@ The following commands can be used:
 | 34 | PLAYMOVIE | Plays movie. |
 | 35 | MOVEMENT | Updates creature movement. |
 | 36 | PLAY_ANIMKIT | (NOT ON 3.3.5A, DON'T REUSE) |
-{.dense}
 
 &nbsp;
 
@@ -115,7 +114,6 @@ The following commands can be used:
 | 33 | 0 | 0 | 0 | - |
 | 34 | [Movie ID](/files/DBC/335/movie#id) to play | 0 | 0 | - |
 | 35 | MOTION_TYPE: 1 - RANDOM; 2 - WAYPOINT | distance in m for RANDOM_MOTION_TYPE | [path id](../world/waypoint_data#ID) for WAYPOINT_MOTION_TYPE| - |
-{.dense}
 
 &nbsp;
 
@@ -129,4 +127,3 @@ Acts as primary key for waypoint_scripts. It is set automatically using the GM c
 ### Comment
 This field is for any comment you want to make. It is arbitrary text.
 &nbsp;
-

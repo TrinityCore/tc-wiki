@@ -85,7 +85,6 @@ Realmflag of this realm.
 | 32 | 0x20 | REALM_FLAG_RECOMMENDED | Recommended |
 | 64 | 0x40 | REALM_FLAG_NEW | New Players |
 | 128 | 0x80 | REALM_FLAG_FULL | Full |
-{.dense}
 
 &nbsp;
 
@@ -115,7 +114,6 @@ The realm timezone, it will be displayed in the tabs of the realmlist.
 | 18 | CN2 | | 37 | CN5/8 |
 | 19 | CN3 | | | |
 
-{.dense}
 
 &nbsp;
 
@@ -149,7 +147,5 @@ Accepted Client version for the realm.
 | 11623  | 3.3.3  |
 | 11723  | 3.3.3a  |
 | 12340  | 3.3.5a  |
-{.dense}
 
 &nbsp;
-

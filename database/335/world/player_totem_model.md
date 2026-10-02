@@ -30,7 +30,6 @@ excerpt:
 | 2 | SUMMON_SLOT_TOTEM_EARTH |
 | 3 | SUMMON_SLOT_TOTEM_WATER |
 | 4 | SUMMON_SLOT_TOTEM_AIR |
-{.dense}
 
 &nbsp;
 

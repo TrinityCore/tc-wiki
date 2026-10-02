@@ -321,7 +321,6 @@ Agreements for Reference Templates are as followed:
 | 14000-29000 | World Reference Templates |
 | 34000-34999 | Raid: Creature Reference Templates |
 | 35000-35999 | Dungeon Reference Templates |
-{.dense}
 
 &nbsp;
 

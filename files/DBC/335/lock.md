@@ -72,7 +72,6 @@ dateCreated: 2023-10-04T08:05:24.618Z
 | 1 | LOCK_KEY_ITEM |
 | 2 | LOCK_KEY_SKILL |
 | 3 | LOCK_KEY_SPELL |
-{.dense}
 
 &nbsp;
 
@@ -85,7 +84,6 @@ Dependant on **Type**:
 | 1 | LOCK_KEY_ITEM | [item entry](/database/335/world/item_template#id-alt) |
 | 2 | LOCK_KEY_SKILL | [LockType ID](/files/DBC/335/locktype#id-alt) |
 | 3 | LOCK_KEY_SPELL | [Spell ID](/files/DBC/335/spell#id-alt) |
-{.dense}
 
 &nbsp;
 
@@ -106,7 +104,5 @@ The required skill amount.
 | 2 | Close |
 | 3 | Destroy |
 | 4 | Rebuild |
-{.dense}
 
 &nbsp;
-

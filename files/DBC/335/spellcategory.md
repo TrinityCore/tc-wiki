@@ -40,7 +40,5 @@ dateCreated: 2023-10-04T08:07:27.599Z
 | 1 | 0x1 | SPELL_CATEGORY_FLAG_COOLDOWN_SCALES_WITH_WEAPON_SPEED | unused |
 | 2 | 0x2 |  | cooldown is global |
 | 4 | 0x4 | SPELL_CATEGORY_FLAG_COOLDOWN_STARTS_ON_EVENT |  |
-{.dense}
 
 &nbsp;
-

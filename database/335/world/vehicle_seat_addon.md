@@ -54,7 +54,5 @@ The exit orientation.
 | 0 | VehicleExitParamNone | provided parameters will be ignored |
 | 1 | VehicleExitParamOffset | provided parameters will be used as offset values |
 | 2 | VehicleExitParamDest | provided parameters will be used as absolute destination |
-{.dense}
 
 &nbsp;
-

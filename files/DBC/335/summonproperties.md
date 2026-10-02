@@ -47,7 +47,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 3 | SUMMON_CATEGORY_PUPPET | Possessed |
 | 4 | SUMMON_CATEGORY_VEHICLE | Vehicle |
 | 5 | SUMMON_CATEGORY_UNK | as of patch 3.3.5a only Bone Spike in Icecrown Citadel uses this category |
-{.dense}
 
 &nbsp;
 
@@ -76,7 +75,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 4 | SUMMON_SLOT_TOTEM_AIR |
 | 5 | SUMMON_SLOT_MINIPET |
 | 6 | SUMMON_SLOT_QUEST |
-{.dense}
 
 &nbsp;
 
@@ -102,7 +100,5 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 8192 | 0x2000 | SUMMON_PROP_FLAG_UNK14 | Do Not Follow Mounted Summoner? |
 | 16384 | 0x4000 | SUMMON_PROP_FLAG_UNK15 | Save Pet Autocast? |
 | 32768 | 0x8000 | SUMMON_PROP_FLAG_UNK16 | Ignore Summoner's Phase? (Wild Only) |
-{.dense}
 
 &nbsp;
-

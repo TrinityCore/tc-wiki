@@ -46,7 +46,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | :--: | :--: | :--: |
 | & 0x1 | Small | Large |
 | & 0x2 | Front | Back |
-{.dense}
 
 &nbsp;
 
@@ -55,4 +54,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

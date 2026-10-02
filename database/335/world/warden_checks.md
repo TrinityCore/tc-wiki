@@ -42,7 +42,6 @@ Unique ID, automatically incremented by 1
 | 191 |  PAGE_CHECK_B | scans only pages starts with MZ+PE headers for specified hash |
 | 217 |  MODULE_CHECK | check to make sure module isn't injected |
 | 243 |  MEM_CHECK | retrieve specific memory |
-{.dense}
 
 &nbsp;
 
@@ -69,4 +68,3 @@ Unique ID, automatically incremented by 1
 ### result
 *- no description -*
 &nbsp;
-

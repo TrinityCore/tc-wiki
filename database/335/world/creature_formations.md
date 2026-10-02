@@ -53,7 +53,6 @@ Sets group member behaviours, values are:
 | 3 | Everyone assists everyone and member don't follow the leader |
 | 512 | Noone assists noone and member follow the leader |
 | 515 | Everyone assists everyone and member follow the leader |
-{.dense}
 
 &nbsp;
 ### point_1
@@ -67,4 +66,3 @@ If your leader has a path like the one below where he moves to point 5 then back
 -----<--------->------
        8    7      6
 ```
-

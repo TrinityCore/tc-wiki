@@ -102,7 +102,6 @@ dateCreated: 2023-10-04T08:06:51.451Z
 | 0 |  | Taught by trainer |
 | 1 | SKILL_LINE_ABILITY_LEARNED_ON_SKILL_VALUE | Spell state will update depending on skill value |
 | 2 | SKILL_LINE_ABILITY_LEARNED_ON_SKILL_LEARN | Spell will be learned/removed together with entire skill |
-{.dense}
 
 &nbsp;
 

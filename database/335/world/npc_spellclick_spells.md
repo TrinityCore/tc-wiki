@@ -50,7 +50,6 @@ You can use this table for the actual value:
 | 1 | Player | Creature |
 | 2 | Creature | Player |
 | 3 | Player | Player |
-{.dense}
 
 &nbsp;
 
@@ -63,7 +62,5 @@ Relation with summoner: defines who is able to use this spellclick.
 | 1 | Friendly |
 | 2 | Raid |
 | 3 | Party |
-{.dense}
 
 &nbsp;
-

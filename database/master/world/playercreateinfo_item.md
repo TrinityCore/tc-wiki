@@ -33,7 +33,6 @@ The character's [ChrRace ID](https://wago.tools/db2/chrraces)
 |  8 | Troll     |
 | 10 | Blood Elf |
 | 11 | Draenei   |
-{.dense}
 
 &nbsp;
 
@@ -51,7 +50,6 @@ The character's [ChrClass ID](https://wago.tools/db2/chrclasses)
 |  8 | Mage         |
 |  9 | Warlock      |
 | 11 | Druid        |
-{.dense}
 
 &nbsp;
 
@@ -63,4 +61,3 @@ references [ItemID](https://wago.tools/db2/itemsparse)
 * **amount** > 0: copies to add on creation
 * **amount** < 0: copies to remove on creation
 &nbsp;
-

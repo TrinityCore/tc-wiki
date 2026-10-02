@@ -87,7 +87,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 6 | ITEM_ENCHANTMENT_TYPE_TOTEM | 0 | + weapon dps |
 | 7 | ITEM_ENCHANTMENT_TYPE_USE_SPELL | [Spell ID](/files/DBC/335/spell#id-alt) | use Spell |
 | 8 | ITEM_ENCHANTMENT_TYPE_PRISMATIC_SOCKET | 0 |  |
-{.dense}
 
 &nbsp;
 
@@ -138,7 +137,6 @@ __**Effect** = ITEM_ENCHANTMENT_TYPE_STAT (5)__
 | 2 | 0x02 | ENCHANTMENT_UNK1 | do not log |
 | 4 | 0x04 | ENCHANTMENT_UNK2 | mainhand only |
 | 8 | 0x08 | ENCHANTMENT_UNK3 | allowed in arena / player class skill |
-{.dense}
 
 &nbsp;
 

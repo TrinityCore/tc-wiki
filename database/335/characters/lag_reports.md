@@ -46,7 +46,6 @@ The [guid](../characters/characters#guid) of the reporting character.
 | 4 | LAG_REPORT_TYPE_CHAT |
 | 5 | LAG_REPORT_TYPE_MOVEMENT |
 | 6 | LAG_REPORT_TYPE_SPELL |
-{.dense}
 
 &nbsp;
 
@@ -73,4 +72,3 @@ Measured lag amount in ms.
 ### createTime
 Unix timestamp when report was received.
 &nbsp;
-

@@ -102,7 +102,6 @@ Max level for model scaling.
 | 0 | Ferocity |
 | 1 | Tanacity |
 | 2 | Cunning |
-{.dense}
 
 &nbsp;
 
@@ -123,4 +122,3 @@ Max level for model scaling.
 
 "Interface\\Icons\\\*"
 &nbsp;
-

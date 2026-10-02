@@ -47,7 +47,6 @@ Example quest: [Secret Communication](https://aowow.trinitycore.info/?quest=8318
 |    8318 |    3 |    5 | -6483 | 250 |             0 |
 |    8318 |    3 |    6 | -6483 | 217 |             0 |
 |    8318 |    3 |    7 | -6326 |  -7 |             0 |
-{.dense}
 
 These points are all the little corners on the blue box. idx1 represents an area defined by the points of idx2 to draw the shape.
 ![quest_poi.png](/quest_poi.png)
@@ -72,4 +71,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -[Client Build](/database/335/auth/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
-

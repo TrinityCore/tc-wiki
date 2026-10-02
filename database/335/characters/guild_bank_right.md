@@ -46,11 +46,9 @@ the guild rank this permission belongs to.
 | 4 | 0x04 | GUILD_BANK_RIGHT_UPDATE_TEXT | update item name shown when navigating the tab |
 | 3 | 0x03 | GUILD_BANK_RIGHT_DEPOSIT_ITEM |  |
 | 255 | 0xFF | GUILD_BANK_RIGHT_FULL |  |
-{.dense}
 
 &nbsp;
 
 ### SlotPerDay
 The number of items that a player can withdraw per day (if permissions give him the right to withdraw items).
 &nbsp;
-

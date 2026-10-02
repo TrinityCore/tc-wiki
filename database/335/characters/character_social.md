@@ -40,11 +40,9 @@ SocialFlag excerpt: A player can be friend and blocked at the same time (0x3).
 | 0 | 0x00 |  |  Unused entry - previously listed as friend or blocked (removed/unblocked) |
 | 1 | 0x01 | SOCIAL_FLAG_FRIEND | Added as friend |
 | 2 | 0x02 | SOCIAL_FLAG_IGNORED | Added as blocked user |
-{.dense}
 
 &nbsp;
 
 ### note
 Note about the friend (which appears beside the friend's name in friend list in Client).
 &nbsp;
-

@@ -61,7 +61,6 @@ The [SkillLine ID](/files/DBC/335/skillline#id) the player ist requird to have.
 | 755 | Jewelcrafting |
 | 773 | Inscription |
 | 776 | Runeforging |
-{.dense}
 
 &nbsp;
 

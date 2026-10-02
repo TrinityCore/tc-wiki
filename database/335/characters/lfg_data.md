@@ -42,7 +42,5 @@ references [groups.guid](../characters/groups#guid)
 | 5 | LFG_STATE_DUNGEON | In LFG Group, in a Dungeon |
 | 6 | LFG_STATE_FINISHED_DUNGEON | In LFG Group, in a finished Dungeon |
 | 7 | LFG_STATE_RAIDBROWSER | Using Raid finder |
-{.dense}
 
 &nbsp;
-

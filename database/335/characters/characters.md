@@ -164,7 +164,6 @@ Bag slots in bank bought by the character.
 | 1 | REST_STATE_RESTED | rested |
 | 2 | REST_STATE_NOT_RAF_LINKED | not rested |
 | 6 | REST_STATE_RAF_LINKED | linked by 'recruit a friend' |
-{.dense}
 
 &nbsp;
 
@@ -197,7 +196,6 @@ A bitmask that represents what Player flags the player has. Each bit controls a 
 | 8388608 | 0x00800000 | PLAYER_ALLOW_ONLY_ABILITY | used by bladestorm and killing spree, allowed only spells with SPELL_ATTR0_REQ_AMMO, SPELL_EFFECT_ATTACK, checked only for active player |
 | 16777216 | 0x01000000 | PLAYER_FLAGS_UNK24 | disabled all melee ability on tab include autoattack |
 | 33554432 | 0x02000000 | PLAYER_FLAGS_NO_XP_GAIN | |
-{.dense}
 
 &nbsp;
 
@@ -233,7 +231,6 @@ High nibble encodes raid difficulty, Low nibble encodes dungeon difficulty:
 | 16 | RAID_DIFFICULTY_25MAN_NORMAL |
 | 32 | RAID_DIFFICULTY_10MAN_HEROIC |
 | 48 | RAID_DIFFICULTY_25MAN_HEROIC |
-{.dense}
 
 &nbsp;
 
@@ -327,7 +324,6 @@ These flags control certain player specific attributes, mostly GM features.
 | 512 | 0x0200 | PLAYER_EXTRA_HAS_RACE_CHANGED | characters races was changed at some point |
 | 1024 | 0x0400 | PLAYER_EXTRA_GRANTED_LEVELS_FROM_RAF | was grantend levels from 'recruit a friend' at some point |
 | 2048 | 0x0800 | :x: PLAYER_EXTRA_LEVEL_BOOSTED | reserved for master branch |
-{.dense}
 
 &nbsp;
 
@@ -348,7 +344,6 @@ This field is a bitmask controlling different actions taken once a player logs i
 | 64 | 0x0040 | AT_LOGIN_CHANGE_FACTION | Faction change |
 | 128 | 0x0080 | AT_LOGIN_CHANGE_RACE | Race change |
 | 256 | 0x0100 | AT_LOGIN_RESURRECT | Resurrect at corpse |
-{.dense}
 
 &nbsp;
 
@@ -438,7 +433,6 @@ Current character powers (snapshot from when the character was saved)
 | 5 | Happiness |
 | 6 | Runes |
 | 7 | Runic Power |
-{.dense}
 
 &nbsp;
 
@@ -495,7 +489,6 @@ A bitmask that contains visible actionbars for the player.
 | 2 | 0x2 | Bottom Right Bar |
 | 4 | 0x4 | Rigth Bar |
 | 8 | 0x8 | Right Bar 2 |
-{.dense}
 
 &nbsp;
 

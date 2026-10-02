@@ -38,7 +38,6 @@ The individual level required for a command is defined in the [command table](..
 | 2 | SEC_GAMEMASTER |  |
 | 3 | SEC_ADMINISTRATOR |  |
 | 4 | :x: SEC_CONSOLE | not available to accounts |
-{.dense}
 
 &nbsp;
 
@@ -51,4 +50,3 @@ The [realm id](../auth/realmlist#id).
 ### Comment
 This field is for any comment you want to make. It is arbitrary text.
 &nbsp;
-

@@ -41,7 +41,5 @@ e.g.: `Halls of Lightning - General Bjarngrim - Stormforged Lieutenants`
 | 4 | 0x04 | SPAWNGROUP_FLAG_MANUAL_SPAWN | group not active by default |
 | 8 | 0x08 | SPAWNGROUP_FLAG_DYNAMIC_SPAWN_RATE | group is affected by config setting: `Respawn.DynamicMode` |
 | 16 | 0x10 | SPAWNGROUP_FLAG_ESCORTQUESTNPC | group is affected by config setting: `Respawn.DynamicEscortNPC` |
-{.dense}
 
 &nbsp;
-

@@ -55,7 +55,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 |-------|------|------|---------|
 | 1 | 0x1 | FLAG_LESS_IMPORTANT | all with flag are sorted after others |
 | 2 | 0x2 | FLAG_IS_UNUSED_CATEGORY | the "unused" category, last one with flag is used, should only be set once |
-{.dense}
 
 &nbsp;
 
@@ -64,4 +63,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

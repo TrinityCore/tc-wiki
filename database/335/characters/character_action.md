@@ -50,7 +50,6 @@ Possible Values:
 | 84-95 | 1 SpecialB |
 | 96-107 | 1 SpecialC |
 | 108-119 | 1 SpecialD |
-{.dense}
 
 &nbsp;
 
@@ -68,7 +67,5 @@ The content of **action** depends on the **type**
 | 64 | 0x40 | ACTION_BUTTON_MACRO | Macro | Macro ID |
 | 65 | 0x41 | ACTION_BUTTON_CMACRO | Click+Macro |  |
 | 128 | 0x80 | ACTION_BUTTON_ITEM | Item | [item entry](../world/item_template#entry) |
-{.dense}
 
 &nbsp;
-

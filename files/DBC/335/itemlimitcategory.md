@@ -69,7 +69,5 @@ Max allowed equipped as item or in gem slot.
 |----|------|---------|
 | 0 | ITEM_LIMIT_CATEGORY_MODE_HAVE | limit applied to amount items in inventory/bank |
 | 1 | ITEM_LIMIT_CATEGORY_MODE_EQUIP | limit applied to amount equipped items (including used gems) |
-{.dense}
 
 &nbsp;
-

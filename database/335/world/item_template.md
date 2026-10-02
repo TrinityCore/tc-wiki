@@ -174,7 +174,6 @@ excerpt
 | 4 | Armor | | 13 | Key |
 | 5 | Reagent | | 15 | Miscellaneous |
 | 6 | Projectile | | 16 | Glyph |
-{.dense}
 
 &nbsp;
 
@@ -226,7 +225,6 @@ excerpt
 | 2 | 20 | Fishing Pole | | 7 | 13 | Materials |  |  |  |  |
 |  |  |  | | 7 | 14 | Armor Enchantment |  |  |  |  |
 |  |  |  | | 7 | 15 | Weapon Enchantment |  |  |  |  |
-{.dense}
 
 &nbsp;
 
@@ -257,7 +255,6 @@ The quality of the item. To use the Bind to Account quality, the item must have 
 | 5 | <div style="padding:2px 5px; color:#ff8000; background-color:#000;">**Orange**</div> | Legendary |
 | 6 | <div style="padding:2px 5px; color:#e5cc80; background-color:#000;">**Gold**</div> | Artifact |
 | 7 | <div style="padding:2px 5px; color:#e5cc80; background-color:#000;">**Gold**</div> | Bind to Account |
-{.dense}
 
 &nbsp;
 
@@ -296,7 +293,6 @@ The quality of the item. To use the Bind to Account quality, the item must have 
 | 536870912 | 0x20000000 | ITEM_FLAG_IS_MILLABLE | Item can be milled |
 | 1073741824 | 0x40000000 | ITEM_FLAG_REPORT_TO_GUILD_CHAT | |
 | 2147483648 | 0x80000000 | ITEM_FLAG_NO_PROGRESSIVE_LOOT | Bind on Pickup tradable |
-{.dense}
 
 &nbsp;
 
@@ -335,7 +331,6 @@ The quality of the item. To use the Bind to Account quality, the item must have 
 | 536870912 | 0x20000000 | ITEM_FLAG2_NEVER_STACK_IN_LOOT_UI |  |
 | 1073741824 | 0x40000000 | ITEM_FLAG2_DISENCHANT_TO_LOOT_TABLE |  |
 | 2147483648 | 0x80000000 | ITEM_FLAG2_USED_IN_A_TRADESKILL |  |
-{.dense}
 
 &nbsp;
 
@@ -407,7 +402,6 @@ The honor rank the player needs to have to use this item.
 | 12 | Marshal | General |
 | 13 | Field Marshal | Warlord |
 | 14 | Grand Marshal | High Warlord |
-{.dense}
 
 &nbsp;
 
@@ -431,7 +425,6 @@ The rank the player has to have with the faction from **RequiredReputationFactio
 | 5 | Honored |
 | 6 | Revered |
 | 7 | Exalted |
-{.dense}
 
 &nbsp;
 
@@ -541,7 +534,6 @@ Id from `enum ItemSpelltriggerType`
 | 4 | ITEM_SPELLTRIGGER_SOULSTONE | |
 | 5 | ITEM_SPELLTRIGGER_ON_NO_DELAY_USE | no equip cooldown |
 | 6 | ITEM_SPELLTRIGGER_LEARN_SPELL_ID | used in **spellid_2** with SPELL_GENERIC_LEARN in **spellid_1** |
-{.dense}
 
 &nbsp;
 
@@ -582,7 +574,6 @@ Defines when the item is bound to the player.
 | 2 | BIND_WHEN_EQUIPED |
 | 3 | BIND_WHEN_USE |
 | 4 | BIND_QUEST_ITEM |
-{.dense}
 
 &nbsp;
 
@@ -627,7 +618,6 @@ Use -1 for consumable items like food, reagents, etc.
 | 6 | Plate |
 | 7 | Cloth |
 | 8 | Leather |
-{.dense}
 
 &nbsp;
 
@@ -693,7 +683,6 @@ This field is a bitmask of [BagFamily IDs](/files/DBC/335/itembagfamily#id) cont
 | 4096 | 0x1000 | Vanity Pets |
 | 8192 | 0x2000 | Currency Tokens |
 | 16384 | 0x4000 | Quest Items |
-{.dense}
 
 &nbsp;
 
@@ -718,7 +707,6 @@ excerpt
 |  15 | Gyromatic Micro-Adjustor      |  | 168 | Bladed Pickaxe                |
 |  21 | Master Totem                  |  | 169 | Flint and Tinder              |
 |  41 | Runed Fel Iron Rod            |  | 190 | Runed Titanium Rod            |
-{.dense}
 
 &nbsp;
 
@@ -730,7 +718,6 @@ The color of the socket on this item.
 | 2 | <div style="padding:2px 5px; color:#e60c0b; background-color:#000;">**Red**</div> |
 | 4 | <div style="padding:2px 5px; color:#ffff35; background-color:#000;">**Yellow**</div> |
 | 8 | <div style="padding:2px 5px; color:#295df1; background-color:#000;">**Blue**</div> |
-{.dense}
 
 &nbsp;
 
@@ -770,7 +757,6 @@ excerpt
 |  2 | Jeweler's Gems  |   3 |        1 |
 |  3 | Healthstone     |   1 |        0 |
 |  4 | Mana Gem        |   1 |        0 |
-{.dense}
 
 &nbsp;
 
@@ -804,7 +790,6 @@ It defines what Hunter pet family can use this item as food.
 | 6 | Fruit |
 | 7 | Raw Meat |
 | 8 | Raw Fish |
-{.dense}
 
 &nbsp;
 
@@ -822,7 +807,6 @@ If the item is a container that can contain money, then this field defines the m
 | 1 | 0x1 | ITEM_FLAGS_CU_DURATION_REAL_TIME | Item duration will tick even if player is offline |
 | 2 | 0x2 | ITEM_FLAGS_CU_IGNORE_QUEST_STATUS | No quest status will be checked when this item drops |
 | 4 | 0x4 | ITEM_FLAGS_CU_FOLLOW_LOOT_RULES | Item will always follow group/master/need before greed looting rules |
-{.dense}
 
 &nbsp;
 

@@ -121,7 +121,6 @@ Used to modify the base Level/Class armor of a creature.
 | 536870912 | 0x20000000 | CREATURE_TYPE_FLAG_DO_NOT_TARGET_ON_INTERACTION |  |
 | 1073741824 | 0x40000000 | CREATURE_TYPE_FLAG_DO_NOT_RENDER_OBJECT_NAME |  |
 | 2147483648 | 0x80000000 | CREATURE_TYPE_FLAG_QUEST_BOSS |  |
-{.dense}
 
 &nbsp;
 
@@ -304,5 +303,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 
 &nbsp;
-
-

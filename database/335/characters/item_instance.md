@@ -88,7 +88,6 @@ Stores all enchantments as 12 space separated 3-tuples of \[EnchantmentId durati
 | 9 | PROP_ENCHANTMENT_SLOT_2 | used with RandomSuffix and RandomProperty |
 | 10 | PROP_ENCHANTMENT_SLOT_3 | used with RandomProperty |
 | 11 | PROP_ENCHANTMENT_SLOT_4 | used with RandomProperty |
-{.dense}
 
 &nbsp;
 

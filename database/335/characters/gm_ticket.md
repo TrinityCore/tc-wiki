@@ -49,7 +49,6 @@ Unique ticket enumerator.
 | 0 | TICKET_TYPE_OPEN |
 | 1 | TICKET_TYPE_CLOSED |
 | 2 | TICKET_TYPE_CHARACTER_DELETED |
-{.dense}
 
 &nbsp;
 
@@ -119,7 +118,6 @@ Successful resolution?
 | 1 | TICKET_ASSIGNED | ticket is assigned to a normal gm |
 | 2 | TICKET_IN_ESCALATION_QUEUE | ticket is in the escalation queue |
 | 3 | TICKET_ESCALATED_ASSIGNED | is a custom value and should never actually be sent |
-{.dense}
 
 &nbsp;
 
@@ -138,4 +136,3 @@ Requests further GM interaction on a ticket to which a GM has already responded.
 * 0: ticket is open or was closed by console.
 * \>0: [character guid](../characters/characters#guid) of the GM who resolved it by closing or completing the ticket.
 &nbsp;
-

@@ -75,7 +75,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 512 | 0x0200 |  | Force Projected Tex. |
 | 1024 | 0x0400 |  | Can jump in playce as mount |
 | 2048 | 0x0800 |  | AI can't use walk backwards anim. |
-{.dense}
 
 &nbsp;
 
@@ -210,4 +209,3 @@ These values are the actually maximum and minimum coordinates of the vertices.
 
 *- no description -*
 &nbsp;
-

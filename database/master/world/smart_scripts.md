@@ -78,7 +78,6 @@ Object type (creature, gameobject, quest, etc.).
 | SMART_SCRIPT_TYPE_SCENE | 10 | [scene_template.id](/database/master/world/scene_template#id) | SmartScene ([scene_template.ScriptName](/database/master/world/scene_template#scriptname)) | Player |
 | SMART_SCRIPT_TYPE_AREATRIGGER_ENTITY | 11 | [areatrigger_template.Id](/database/master/world/areatrigger_template#id) (IsServerSide = 0) | SmartAreaTriggerAI ([areatrigger.ScriptName](/database/master/world/areatrigger#scriptname)) | AreaTrigger |
 | SMART_SCRIPT_TYPE_AREATRIGGER_ENTITY_SERVERSIDE | 12 | [areatrigger_template.Id](/database/master/world/areatrigger_template#id) (IsServerSide = 1) | SmartAreaTriggerAI ([areatrigger.ScriptName](/database/master/world/areatrigger#scriptname)) | AreaTrigger |
-{.dense}
 
 >Please note :x:means that the source_type is not (yet) implemented.
 {.is-danger}
@@ -121,7 +120,6 @@ Event can only occur if the source is in this event phase. The default event pha
 | SMART_EVENT_PHASE_10 | 512 | 0x200 | Phase 10 only. |
 | SMART_EVENT_PHASE_11 | 1024 | 0x400 | Phase 11 only. |
 | SMART_EVENT_PHASE_12 | 2048 | 0x800 | Phase 12 only. |
-{.dense}
 
 > **Example**: If we want an event to be able to occur only in event phases 1 and 4, event_phase_mask: **1 + 8 = 9**.
 
@@ -151,7 +149,6 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 | SMART_EVENT_FLAG_DEBUG_ONLY | 128 | 0x80 | Event only occurs in debug build |
 | SMART_EVENT_FLAG_DONT_RESET | 256 | 0x100 | Event will not reset in SmartScript::OnReset() |
 | SMART_EVENT_FLAG_WHILE_CHARMED | 512 | 0x200 | Event occurs even if AI owner is charmed |
-{.dense}
 
 <!-- .is-info is applied to list instead of the blockquote -->
 <blockquote class="line is-info">
@@ -270,7 +267,6 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_EVENT_AREATRIGGER_EXIT | 88 | | | | | | | On areatrigger exit |
 | SMART_EVENT_ON_AURA_APPLIED | 89 | SpellID | CooldownMin | CooldownMax | | | | On Aura apply |
 | SMART_EVENT_ON_AURA_REMOVED | 90 | SpellID | CooldownMin | CooldownMax | | | | On Aura remove |
-{.dense}
 
 > Please note :warning:means that the event_type is deprecated and should not be used.
 {.is-warning}
@@ -441,7 +437,6 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_EXIT_VEHICLE | 157 |  |  |  |  |  |  |  |  |
 | :x: SMART_ACTION_RESUME_MOVEMENT | 158 | UNUSED NEEDS CHERRYPICK |  |  |  |  |  |  |  |
 | SMART_ACTION_FALL | 159 | pointId |  |  |  |  |  |  |  |
-{.dense}
 
 > Please note :warning:means that the action_type is deprecated and should not be used.
 {.is-warning}
@@ -481,7 +476,6 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_TARGET_FARTHEST | 28 | Max dist | Player only (0/1) | Is in Los (0/1) |  |  |  |  |  |  | Farthest unit on the threat list |
 | SMART_TARGET_VEHICLE_PASSENGER | 29 | SeatMask (0: all seats) |  |  |  |  |  |  |  |  | Vehicle targets unit in given seat |
 | SMART_TARGET_CLOSEST_UNSPAWNED_GAMEOBJECT | 30 | [gameobject_template.entry](/database/master/world/gameobject_template#entry) (0: any) | Max dist (0-100 yards) |  |  |  |  |  |  |  | Closest unspawned gameobject with specified entry within specified distance.<br/>*(To be used only with SMART_ACTION_ENABLE_TEMP_GOBJ (70) and gameobjects with negative respawn time in the DB)* |
-{.dense}
 
 ### comment
 Commenting on SAI uses a template which is the following: `"Creature name - Event - Action"`
@@ -520,4 +514,3 @@ Commenting on SAI uses a template which is the following: `"Creature name - Even
 | POWER_ALTERNATE_ENCOUNTER | 24 |
 | POWER_ALTERNATE_MOUNT     | 25 |
 ### EndTabset {.tabset}
-

@@ -287,7 +287,6 @@ This field is overridden by ScriptName field if both are set.
 | PetAI | Creature is a pet. |
 | TotemAI | Creature casts [Spell](../world/creature_template_spell#spell) from **Index** 1 , otherwise like NullAI. |
 | SmartAI | Creature uses [Smart AI](../world/smart_scripts). |
-{.dense}
 
 &nbsp;
 
@@ -298,7 +297,6 @@ The creature's default movement type.
 | 0 | Idle; stay in one place |
 | 1 | Random movement inside the spawndist radius |
 | 2 | Waypoint movement |
-{.dense}
 
 &nbsp;
 
@@ -378,4 +376,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 
 &nbsp;
-

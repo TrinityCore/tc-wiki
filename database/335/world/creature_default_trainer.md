@@ -38,7 +38,5 @@ references a [trainer Id](../world/trainer#id)
 | 31 | Trainer Warlock |
 | 33 | Trainer Druid |
 | 36 | Trainer Mount and Fly |
-{.dense}
 
 &nbsp;
-

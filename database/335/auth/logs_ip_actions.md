@@ -63,7 +63,6 @@ The [realm](../auth/realmlist#id) this happened on.
 | 10 | CHARACTER_DELETE | Character Deleted |
 | 11 | CHARACTER_FAILED_DELETE | Character Deletion Failed |
 | 12 | UNKNOWN_ACTION | ERROR! Unknown action! |
-{.dense}
 
 ### ip
 IP address of the player.
@@ -84,4 +83,3 @@ Timestamp as DateTime string.
 ### comment
 Comments can be added manually.
 &nbsp;
-

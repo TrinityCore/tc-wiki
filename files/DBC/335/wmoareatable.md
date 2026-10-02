@@ -118,7 +118,6 @@ Used in group WMO
 | 32 | 0x20 | Chunk uses terrain for Minimap |
 | 64 | 0x40 | Ignore for Minimap and Effects |
 | 128 | 0x80 | Ignore Fatigue |
-{.dense}
 
 &nbsp;
 
@@ -133,4 +132,3 @@ Used in group WMO
 
 *- no description -*
 &nbsp;
-

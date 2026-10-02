@@ -69,7 +69,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 9 | custom1 |
 | 10 | custom2 |
 | 11 | custom3 |
-{.dense}
 
 &nbsp;
 
@@ -90,4 +89,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

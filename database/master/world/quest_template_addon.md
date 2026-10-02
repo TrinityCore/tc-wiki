@@ -56,7 +56,6 @@ Class mask of [ChrClass IDs](https://wago.tools/db2/chrraces) allowed to get the
 |   128 | 0x0080 | Mage         |
 |   256 | 0x0100 | Warlock      |
 |  1024 | 0x0400 | Druid        |
-{.dense}
 
 &nbsp;
 
@@ -139,11 +138,10 @@ excerpt from [`enum QuestSpecialFlags`](https://github.com/TrinityCore/TrinityCo
 | 8 | 0x08 | QUEST_SPECIAL_FLAGS_DF_QUEST | if the quest is used by Dungeon Finder. |
 | 16 | 0x10 | QUEST_SPECIAL_FLAGS_MONTHLY | if the quest is reset at the begining of the month |
 | 32 | 0x20 | QUEST_SPECIAL_FLAGS_CAST | if the quest requires RequiredOrNpcGo killcredit but NOT kill (a spell cast). This action usually involves "killing" an invisible "bunny" NPC. |
-{.dense}
+
 UPDATE ME
 &nbsp;
 
 ### ScriptName
 *- no description -*
 &nbsp;
-

@@ -82,7 +82,6 @@ Every [LightParamsID](/files/DBC/335/lightparams#id-alt) corresponds to 18 **ID*
 | 15 | Ocean color \[dark] deep ocean water |
 | 16 | River color \[light] shallow river water |
 | 17 | River color \[dark] deep river water |
-{.dense}
 
 &nbsp;
 
@@ -103,4 +102,3 @@ Number of **Time**/**Data** pairs in use.
 
 RGB color value.
 &nbsp;
-

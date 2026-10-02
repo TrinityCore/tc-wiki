@@ -64,7 +64,6 @@ The type of pet that this is.
 |----|------|---------|
 | 0 | SUMMON_PET | Warlock, Mage, Death Knight |
 | 1 | HUNTER_PET | Hunter tamed |
-{.dense}
 
 &nbsp;
 
@@ -83,7 +82,6 @@ The current reaction state of the pet.
 | 0 | REACT_PASSIVE | attack when ordered |
 | 1 | REACT_DEFENSIVE | attack when attacked |
 | 2 | REACT_AGGRESSIVE | attack on sight |
-{.dense}
 
 &nbsp;
 
@@ -130,7 +128,5 @@ Pets Action Bar data.
 | 0xC1 | ACT_ENABLED | 0x40 \| 0x80 - auto cast + castable | [Spell ID](/files/DBC/335/spell#id) |
 | 0x07 | ACT_COMMAND | 0x01 \| 0x02 \| 0x04 | COMMAND_&nbsp;\[STAY, FOLLOW, ATTACK\] |
 | 0x06 | ACT_REACTION | 0x02 \| 0x04 | REACT_&nbsp;\[PASSIVE, DEFENSIVE, AGGRESSIVE\] |
-{.dense}
 
 &nbsp;
-

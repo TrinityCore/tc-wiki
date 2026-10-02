@@ -54,7 +54,5 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 |-------|------|---------|
 | 1 | 0x1 | can use items |
 | 4 | 0x4 | can cast other spells |
-{.dense}
 
 &nbsp;
-

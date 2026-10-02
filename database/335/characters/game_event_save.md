@@ -35,11 +35,9 @@ references [game_event.eventEntry](../world/game_event#evententry)
 | 3 | GAMEEVENT_WORLD_NEXTPHASE | conditions are met, now 'length' timer to start next event |
 | 4 | GAMEEVENT_WORLD_FINISHED | next events are started, unapply this one |
 | 5 | GAMEEVENT_INTERNAL | never handled in update |
-{.dense}
 
 &nbsp;
 
 ### next_start
 Unix timestamp when the followup event should start, if any. 
 &nbsp;
-

@@ -80,7 +80,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 17 | NPC Sounds |  | | 52 | Sound Emitters |  |
 | 18 | Test/Temporary | deosn't exist in blizzard's enum in 2.5 | | 53 | Vehicle States |
 | 19 | Foley Sounds (NOT EDITABLE) |  |  |  |  |
-{.dense}
 
 &nbsp;
 
@@ -143,4 +142,3 @@ Probability weight for **File**.
 
 *- no description -*
 &nbsp;
-

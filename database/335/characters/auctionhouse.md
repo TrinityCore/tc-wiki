@@ -81,7 +81,5 @@ The amount of money in copper spent on the deposit.
 |-------|------|------|---------|
 | 0 | 0x0 | AUCTION_ENTRY_FLAG_NONE |  |
 | 1 | 0x1 | AUCTION_ENTRY_FLAG_GM_LOG_BUYER | write transaction to gm log file for buyer (optimization flag - avoids querying database for offline player permissions) |
-{.dense}
 
 &nbsp;
-

@@ -69,7 +69,6 @@ Ref to animationData
 | 8192 | 0x2000 | Interrupt on interact |
 | 16384 | 0x4000 | Only while still |
 | 32768 | 0x8000 | Not while flying |
-{.dense}
 
 &nbsp;
 
@@ -98,7 +97,6 @@ if **EmoteSpecProc** = 1 then this contains:
 | 7 | UNIT_STAND_STATE_DEAD |
 | 8 | UNIT_STAND_STATE_KNEEL |
 | 9 | UNIT_STAND_STATE_SUBMERGED |
-{.dense}
 
 &nbsp;
 
@@ -107,4 +105,3 @@ if **EmoteSpecProc** = 1 then this contains:
 
 *- no description -*
 &nbsp;
-

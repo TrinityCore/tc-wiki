@@ -55,7 +55,6 @@ The text the creature will say.
 | 41 | 3 | Boss Emote | <div style="font-size:larger; color:#ffdd00; background-color:#000; padding:2px 5px;">Boss Emote</div> |
 | 15 | 4 | Whisper | <div style="font-size:larger; color:#ffb2eb ; background-color:#000; padding:2px 5px;">Creature whispers: Whisper</div> |
 | 42 | 5 | Boss Whisper | <div style="font-size:larger; color:#ffdd00; background-color:black; padding:2px 5px;">Boss Whisper</div> |
-{.dense}
 
 &nbsp;
 
@@ -93,7 +92,6 @@ Id of the equivalent text found in [broadcast_text](../world/broadcast_text#ID).
 | 2 | Zone |
 | 3 | Map |
 | 4 | World |
-{.dense}
 
 &nbsp;
 

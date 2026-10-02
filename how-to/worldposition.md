@@ -31,7 +31,6 @@ This position information is expressed through the following fields per database
 | **z** | Height | `below x/y plane <= 0 <= above x/y plane` |
 | **o** | <code style="float:right; background-color:green">&nbsp;</code> Orientation | `0 <= o <= 2π` |
 | **m** | [Map ID](/files/DBC/335/map#id) the coordinates refer to | may be implied / optional |
-{.dense}
 
 &nbsp;
 

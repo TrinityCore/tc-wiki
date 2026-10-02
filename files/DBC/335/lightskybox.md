@@ -45,7 +45,5 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 |-------|------|---------|
 | 1 | 0x01 | Full day Skybox |
 | 2 | 0x02 | Combine Procedural And Skybox |
-{.dense}
 
 &nbsp;
-

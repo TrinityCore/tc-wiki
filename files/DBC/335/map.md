@@ -121,7 +121,6 @@ reference to World\Map\ \[...\] \
 | 16 | 0x0010 |  | Sort Objects |
 | 32 | 0x0020 |  | Limit to players from one realm |
 | 256 | 0x0100 | MAP_FLAG_DYNAMIC_DIFFICULTY | Dynamic Difficulty. |
-{.dense}
 
 &nbsp;
 

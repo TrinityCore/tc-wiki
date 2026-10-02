@@ -39,7 +39,5 @@ This is the guid of the [creature](../world/creature#guid) or [gameobject](../wo
 | 1 | creature | gameobject |
 | 2 | gameobject | gameobject |
 | 3 | gameobject | creature |
-{.dense}
 
 &nbsp;
-

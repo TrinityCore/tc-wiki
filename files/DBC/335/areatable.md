@@ -118,7 +118,6 @@ Recursive. If this is a sub-area, it will link to its parent area.
 | 67108864 | 0x04000000 | AREA_FLAG_OUTSIDE | used for determinating spell related inside/outside questions in Map::IsOutdoors |
 | 134217728 | 0x08000000 | AREA_FLAG_WINTERGRASP_2 | Can Hearth And Resurrect From Area |
 | 536870912 | 0x20000000 | AREA_FLAG_NO_FLY_ZONE | Marks zones where you cannot fly |
-{.dense}
 
 &nbsp;
 
@@ -181,7 +180,6 @@ Liquid override by type
 | 30 | LIQUID_TYPE_OCEAN |
 | 31 | LIQUID_TYPE_MAGMA |
 | 32 | LIQUID_TYPE_SLIME |
-{.dense}
 
 &nbsp;
 
@@ -202,4 +200,3 @@ Liquid override by type
 
 Skybox, ambient lighting and fog.
 &nbsp;
-

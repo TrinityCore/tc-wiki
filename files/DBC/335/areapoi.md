@@ -105,7 +105,6 @@ Points of Interest (POI) on the overhead map (including battleground map). Inclu
 | 8 | AllianceIcon | Building at 100% captured by the alliance. |
 | 9 | AllianceIcon50% | Destructible building being neutral at 50%. |
 | 10 | AllianceIcon0% | Destroyed alliance building. |
-{.dense}
 
 The icons are not referenced somewhere but are in the `Interface\Minimap\POIICONS.BLP` file which is a 256\*265px file with 16\*16px icons.
 Indexed from left to right, then top to bottom.
@@ -145,7 +144,6 @@ Flags defining, where this icon is shown.
 | 256 | 0x0100 | show when indoors |
 | 512 | 0x0200 | show in battlemap |
 | 1024 | 0x0400 | only show in current area |
-{.dense}
 
 &nbsp;
 
@@ -178,4 +176,3 @@ Flags defining, where this icon is shown.
 
 *- no description -*
 &nbsp;
-

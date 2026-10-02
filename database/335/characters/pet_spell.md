@@ -39,7 +39,5 @@ The [Spell ID](/files/DBC/335/spell#id) known to this pet.
 | 7 | 0x07 | ACT_COMMAND | 0x01 \| 0x02 \| 0x04 |
 | 129 | 0x81 | ACT_DISABLED | 0x80 - castable |
 | 193 | 0xC1 | ACT_ENABLED | 0x40 \| 0x80 - auto cast + castable |
-{.dense}
 
 &nbsp;
-

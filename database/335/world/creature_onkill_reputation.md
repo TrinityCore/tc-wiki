@@ -50,7 +50,6 @@ The maximum standing that the creature will award reputation until. If the playe
 | 5 | Honored |
 | 6 | Revered |
 | 7 | Exalted |
-{.dense}
 
 &nbsp;
 
@@ -75,4 +74,3 @@ Boolean 0 or 1.
 * 0: The creature will give reputation to the any player from both fields ([RewOnKillRepFaction1](#RewOnKillRepFaction1) and [RewOnKillRepFaction2](#RewOnKillRepFaction2)) if both fields are non-zero.
 * 1: The creature will award alliance players the reputation from [RewOnKillRepFaction1](#RewOnKillRepFaction1) and will award horde players the reputation from [RewOnKillRepFaction2](#RewOnKillRepFaction2)
 &nbsp;
-

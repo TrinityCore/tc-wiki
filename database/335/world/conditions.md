@@ -661,8 +661,8 @@ _data_: (see corresponding source script files for more info)
   | INSTANCE_INFO_GUID_DATA  | 1 |
   | INSTANCE_INFO_BOSS_STATE | 2 |
   | INSTANCE_INFO_DATA64 | 3 |
-  {.dense}
-* **ConditionStringValue1**:
+
+ **ConditionStringValue1**:
 `-`
 
 true if the instance info defined by **ConditionValue3** equals data.
@@ -797,8 +797,8 @@ CONDITION_UNIT_STATE (21)
   | 134217728 | 0x08000000 | UNIT_STATE_FOLLOW_MOVE | |
   | 268435456 | 0x10000000 | UNIT_STATE_IGNORE_PATHFINDING | do not use pathfinding in any MovementGenerator |
   | 536870912 | 0x20000000 | UNIT_STATE_FOLLOW_FORMATION_MOVE | |
-  {.dense}
-* **ConditionValue2**:
+
+ **ConditionValue2**:
 `0`
 * **ConditionValue3**:
 `0`
@@ -956,8 +956,8 @@ TypeMask - a bitmask of following object types:
   | 16 | 0x10 | TYPEMASK_PLAYER |
   | 32 | 0x20 | TYPEMASK_GAMEOBJECT |
   | 128 | 0x80 | TYPEMASK_CORPSE (player corpse after spirit release) |
-  {.dense}
-* **ConditionValue2**:
+
+ **ConditionValue2**:
 `0`
 * **ConditionValue3**:
 `0`
@@ -980,8 +980,8 @@ Target to which relation is checked.
   | 3 | RELATION_OWNED_BY | **ConditionTarget** is owned by **ConditionValue1** |
   | 4 | RELATION_PASSENGER_OF | **ConditionTarget** is passenger of **ConditionValue1** |
   | 5 | RELATION_CREATED_BY | **ConditionTarget** is summoned by **ConditionValue1** |
-  {.dense}
-* **ConditionValue3**:
+
+ **ConditionValue3**:
 `0`
 * **ConditionStringValue1**:
 `-`
@@ -1387,8 +1387,8 @@ CONDITION_GROUP_STATUS (60)
 	| 2 | InGroupButNotInRaid   | ❌ | ✅ | ❌ |
 	| 3 | InRaid                | ❌ | ❌ | ✅ |
 	| 4 | NotInGroupOrNotInRaid | ✅ | ✅ | ❌ |
-  {.dense}
-  	
+
+ 	
 * **ConditionValue2**:
 `0`
 * **ConditionValue3**:

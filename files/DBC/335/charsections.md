@@ -63,7 +63,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 2 | SECTION_TYPE_FACIAL_HAIR |
 | 3 | SECTION_TYPE_HAIR |
 | 4 | SECTION_TYPE_UNDERWEAR |
-{.dense}
 
 &nbsp;
 
@@ -85,7 +84,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 4 | 0x04 | SECTION_FLAG_DEATH_KNIGHT | DEATHKNIGHT |
 | 8 | 0x08 |  | NPCSKIN |
 | 16 | 0x10 |  | SKIN |
-{.dense}
 
 &nbsp;
 

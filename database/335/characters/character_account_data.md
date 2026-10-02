@@ -36,7 +36,6 @@ AccountDataType of this entry.
 | 5 | PER_CHARACTER_MACROS_CACHE | Macros cache per character |
 | 6 | PER_CHARACTER_LAYOUT_CACHE | Layout cache per character |
 | 7 | PER_CHARACTER_CHAT_CACHE | Chat cache per character |
-{.dense}
 
 &nbsp;
 
@@ -47,4 +46,3 @@ Time of last modification in Unixtime
 ### data
 No description can be written. You just must understand it's data.
 &nbsp;
-

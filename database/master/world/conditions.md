@@ -163,7 +163,6 @@ Two conditions with the same SourceType, SourceGroup and SourceEntry but with a 
 | CONDITION_PRIVATE_OBJECT | 57 | Always 0 | Always 0 | Always 0 | true if entity is private object |
 | CONDITION_STRING_ID | 58 | Always 0 | Always 0 | Always 0 | true if entity uses string id (ConditionStringValue1) |
 | CONDITION_LABEL | 59 | Label | Always 0 | Always 0 | true if creature/gameobject has specified Label in CreatureLabel.db2/GameObjectLabel.db2 |
-{.dense}
 
 > Please note :warning:means that the ConditionType is deprecated and should not be used.
 {.is-warning}
@@ -215,4 +214,3 @@ The ScriptName this condition uses, if any.
 ### Comment
 Explanation of this condition or reference
 &nbsp;
-

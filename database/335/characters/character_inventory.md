@@ -64,11 +64,9 @@ Slot # | Description
 74 – 85 | Vendor Buyback Slots
 86 – 117 | Keys in Keyring
 118 – 149 | Currencies (Emblems, Badges, Marks, etc.)
-{.dense}
 
 &nbsp;
 
 ### item
 The [item guid](../characters/item_instance#guid) in inventory.
 &nbsp;
-

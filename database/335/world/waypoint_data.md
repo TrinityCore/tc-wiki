@@ -71,7 +71,6 @@ Time to wait (in ms) before moving to the next point.
 | 1 | WAYPOINT_MOVE_TYPE_RUN |
 | 2 | WAYPOINT_MOVE_TYPE_LAND |
 | 3 | WAYPOINT_MOVE_TYPE_TAKEOFF |
-{.dense}
 
 &nbsp;
 

@@ -53,7 +53,6 @@ Unique group enumerator.
 | 2 | MASTER_LOOT |
 | 3 | GROUP_LOOT |
 | 4 | NEED_BEFORE_GREED |
-{.dense}
 
 &nbsp;
 
@@ -74,7 +73,6 @@ Quality threshold past which players have to roll for items.
 | 5 | ITEM_QUALITY_LEGENDARY | ORANGE |
 | 6 | ITEM_QUALITY_ARTIFACT | LIGHT YELLOW |
 | 7 | ITEM_QUALITY_HEIRLOOM |  |
-{.dense}
 
 &nbsp;
 
@@ -90,7 +88,6 @@ Quality threshold past which players have to roll for items.
 | 6 | Blue Square |
 | 7 | Red Cross |
 | 8 | White Skull |
-{.dense}
 
 &nbsp;
 
@@ -104,7 +101,6 @@ Quality threshold past which players have to roll for items.
 | 3 | 0x3 | GROUPTYPE_BGRAID | mask |
 | 4 | 0x4 | GROUPTYPE_LFG_RESTRICTED | Script_HasLFGRestrictions() |
 | 8 | 0x8 | GROUPTYPE_LFG |  |
-{.dense}
 
 &nbsp;
 

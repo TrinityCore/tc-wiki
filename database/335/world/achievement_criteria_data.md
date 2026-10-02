@@ -106,7 +106,6 @@ Value to compare needed to attain achievement
   | 2 | < | COMP_TYPE_LOW | amount must be lower than **value1** |
   | 3 | >= | COMP_TYPE_HIGH_EQ | amount must be higher or equal to **value1** |
   | 4 | <= | COMP_TYPE_LOW_EQ | amount must be lower or equal to **value1** |
-  {.dense}
 
 
 #### Target&nbsp;Level (9)

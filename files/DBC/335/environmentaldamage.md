@@ -44,7 +44,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 3 | DAMAGE_LAVA |
 | 4 | DAMAGE_SLIME |
 | 5 | DAMAGE_FIRE |
-{.dense}
 
 &nbsp;
 
@@ -53,4 +52,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

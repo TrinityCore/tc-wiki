@@ -33,7 +33,6 @@ The spell school the creature is resistant to.
 | 4 | SPELL_SCHOOL_FROST |
 | 5 | SPELL_SCHOOL_SHADOW |
 | 6 | SPELL_SCHOOL_ARCANE |
-{.dense}
 
 &nbsp;
 
@@ -53,5 +52,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 
 &nbsp;
-
-

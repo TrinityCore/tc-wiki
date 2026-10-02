@@ -38,7 +38,6 @@ Summoner's id depending on **summonerType**
 | 0 | SUMMONER_TYPE_CREATURE |
 | 1 | SUMMONER_TYPE_GAMEOBJECT |
 | 2 | SUMMONER_TYPE_MAP  |
-{.dense}
 
 &nbsp;
 

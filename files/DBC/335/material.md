@@ -42,7 +42,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 1 | 0x1 | is Metal |
 | 2 | 0x2 | is Plate |
 | 4 | 0x4 | is Chain |
-{.dense}
 
 &nbsp;
 
@@ -63,4 +62,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

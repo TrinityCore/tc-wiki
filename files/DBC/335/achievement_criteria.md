@@ -183,7 +183,6 @@ dateCreated: 2023-10-04T08:00:55.057Z
 | 121 | :x: UNUSED |  | missing ref Achievement |
 | 122 | :x: UNUSED |  | missing ref Achievement |
 | 123 | :x: UNUSED |  | missing ref Achievement |
-{.dense}
 
 &nbsp;
 
@@ -217,7 +216,6 @@ Two additional \[**Type**, **Asset**\] condition tuples.
 | 8 | 0x08 | ACHIEVEMENT_CRITERIA_FLAG_RESET_ON_START | criteria counters reset each restart  |
 | 16 | 0x10 | ACHIEVEMENT_CRITERIA_FLAG_IS_DATE | is a date requirement |
 | 32 | 0x20 | ACHIEVEMENT_CRITERIA_FLAG_MONEY_COUNTER | Displays counter as money |
-{.dense}
 
 &nbsp;
 
@@ -233,7 +231,6 @@ Two additional \[**Type**, **Asset**\] condition tuples.
 | 6 | ACHIEVEMENT_TIMED_TYPE_SPELL_TARGET | Timer is started by being target of spell with entry in **StartAsset** |
 | 7 | ACHIEVEMENT_TIMED_TYPE_CREATURE | Timer is started by killing creature with entry in **StartAsset** |
 | 9 | ACHIEVEMENT_TIMED_TYPE_ITEM | Timer is started by using item with entry in **StartAsset** |
-{.dense}
 
 &nbsp;
 
@@ -254,4 +251,3 @@ time limit in seconds
 
 *- no description -*
 &nbsp;
-

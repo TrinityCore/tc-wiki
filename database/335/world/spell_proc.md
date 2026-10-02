@@ -72,7 +72,6 @@ Used to choose what types of spells may trigger the proc, to combine, just add t
 | 1 | 0x01 | PROC_SPELL_TYPE_DAMAGE | only damaging spells |
 | 2 | 0x02 | PROC_SPELL_TYPE_HEAL | only healing spells |
 | 4 | 0x04 | PROC_SPELL_TYPE_NO_DMG_HEAL | all other spells |
-{.dense}
 
 &nbsp;
 
@@ -83,7 +82,6 @@ At which phase may the spell trigger the proc. Normally only one of them is used
 | 1 | 0x01 | PROC_SPELL_PHASE_CAST | trigger when spell has just finished casting |
 | 2 | 0x02 | PROC_SPELL_PHASE_HIT | trigger when the spell hits its target |
 | 4 | 0x04 | PROC_SPELL_PHASE_FINISH | trigger after spell has done all its effects on all targets |
-{.dense}
 
 &nbsp;
 
@@ -103,7 +101,6 @@ Adds special behaviour to the proc, spell might trigger proc only if these condi
 | 8 | 0x0008 |  PROC_ATTR_REQ_SPELLMOD | requires triggering spell to be affected by proccing aura to drop charges |
 | 128 | 0x0080 |  PROC_ATTR_REDUCE_PROC_60 | aura should have a reduced chance to proc if level of proc Actor > 60 |
 | 256 | 0x0100 |  PROC_ATTR_CANT_PROC_FROM_ITEM_CAST | do not allow aura proc if proc is caused by a spell casted by item |
-{.dense}
 
 &nbsp;
 

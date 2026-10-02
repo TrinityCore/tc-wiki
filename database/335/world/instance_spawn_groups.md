@@ -56,6 +56,5 @@ groupId from [spawn_group_template](../world/spawn_group_template#groupid)
 | 2 | 0x02 | FLAG_BLOCK_SPAWN |  |
 | 4 | 0x04 | FLAG_ALLIANCE_ONLY |  |
 | 8 | 0x08 | FLAG_HORDE_ONLY |  |
-{.dense}
 
 &nbsp;

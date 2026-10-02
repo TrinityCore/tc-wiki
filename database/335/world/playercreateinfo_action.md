@@ -49,7 +49,6 @@ Special bars are used for stances, auras, pets, stealth, and other similar speci
 | 84-95 | 1 SpecialB |  |
 | 96-107 | 1 SpecialC |  |
 | 108-119 | 1 SpecialD |  |
-{.dense}
 
 &nbsp;
 

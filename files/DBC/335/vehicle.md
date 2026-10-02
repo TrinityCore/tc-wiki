@@ -84,7 +84,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 1024 | 0x00000400 | VEHICLE_FLAG_ADJUST_AIM_ANGLE | Lua_IsVehicleAimAngleAdjustable |
 | 2048 | 0x00000800 | VEHICLE_FLAG_ADJUST_AIM_POWER | Lua_IsVehicleAimPowerAdjustable |
 | 2097152 | 0x00200000 | VEHICLE_FLAG_FIXED_POSITION | Used for cannons, when they should be rooted |
-{.dense}
 
 &nbsp;
 
@@ -249,4 +248,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

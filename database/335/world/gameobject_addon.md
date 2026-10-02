@@ -55,11 +55,9 @@ excerpt from [`enum InvisibilityType`](https://github.com/TrinityCore/TrinityCor
 | 0 | INVISIBILITY_GENERAL |
 | 3 | INVISIBILITY_TRAP |
 | 6 | INVISIBILITY_DRUNK |
-{.dense}
 
 &nbsp;
 
 ### invisibilityValue
 The larger the value the harder it is to detect this gameobject.
 &nbsp;
-

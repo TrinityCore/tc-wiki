@@ -83,7 +83,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 131072 | 0x20000 | CHANNEL_DBC_FLAG_GUILD_REQ | GuildRecruitment - Guild Recruitment |
 | 262144 | 0x40000 | CHANNEL_DBC_FLAG_LFG | LFG - Looking for Group |
 | 524288 | 0x80000 | CHANNEL_DBC_FLAG_UNK1 | General - Global for Tournament |
-{.dense}
 
 &nbsp;
 
@@ -104,4 +103,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-
