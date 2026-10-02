@@ -22,30 +22,30 @@ This table contains the description of gameobjects. Each spawned object is an in
 | [castBarCaption](#castbarcaption) | varchar(100) |  |  | NO | '' |  |  |
 | [unk1](#unk1) | varchar(100) |  |  | NO | '' |  |  |
 | [size](#size) | float |  |  | NO | 1 |  |  |
-| [Data0](#data0-23) | int | unsigned |  | NO | 0 |  |  |
-| [Data1](#data0-23) | int | signed |  | NO | 0 |  |  |
-| [Data2](#data0-23) | int | unsigned |  | NO | 0 |  |  |
-| [Data3](#data0-23) | int | unsigned |  | NO | 0 |  |  |
-| [Data4](#data0-23) | int | unsigned |  | NO | 0 |  |  |
-| [Data5](#data0-23) | int | unsigned |  | NO | 0 |  |  |
-| [Data6](#data0-23) | int | signed |  | NO | 0 |  |  |
-| [Data7](#data0-23) | int | unsigned |  | NO | 0 |  |  |
-| [Data8](#data0-23) | int | unsigned |  | NO | 0 |  |  |
-| [Data9](#data0-23) | int | unsigned |  | NO | 0 |  |  |
-| [Data10](#data0-23) | int | unsigned |  | NO | 0 |  |  |
-| [Data11](#data0-23) | int | unsigned |  | NO | 0 |  |  |
-| [Data12](#data0-23) | int | unsigned |  | NO | 0 |  |  |
-| [Data13](#data0-23) | int | unsigned |  | NO | 0 |  |  |
-| [Data14](#data0-23) | int | unsigned |  | NO | 0 |  |  |
-| [Data15](#data0-23) | int | unsigned |  | NO | 0 |  |  |
-| [Data16](#data0-23) | int | unsigned |  | NO | 0 |  |  |
-| [Data17](#data0-23) | int | unsigned |  | NO | 0 |  |  |
-| [Data18](#data0-23) | int | unsigned |  | NO | 0 |  |  |
-| [Data19](#data0-23) | int | unsigned |  | NO | 0 |  |  |
-| [Data20](#data0-23) | int | unsigned |  | NO | 0 |  |  |
-| [Data21](#data0-23) | int | unsigned |  | NO | 0 |  |  |
-| [Data22](#data0-23) | int | unsigned |  | NO | 0 |  |  |
-| [Data23](#data0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data0](#data-0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data1](#data-0-23) | int | signed |  | NO | 0 |  |  |
+| [Data2](#data-0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data3](#data-0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data4](#data-0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data5](#data-0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data6](#data-0-23) | int | signed |  | NO | 0 |  |  |
+| [Data7](#data-0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data8](#data-0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data9](#data-0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data10](#data-0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data11](#data-0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data12](#data-0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data13](#data-0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data14](#data-0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data15](#data-0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data16](#data-0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data17](#data-0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data18](#data-0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data19](#data-0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data20](#data-0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data21](#data-0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data22](#data-0-23) | int | unsigned |  | NO | 0 |  |  |
+| [Data23](#data-0-23) | int | unsigned |  | NO | 0 |  |  |
 | [AIName](#ainame) | char(64) |  |  | NO | '' |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
 | [StringId](#stringid) | varchar(64) |  |  | YES | NULL |  |  |
@@ -635,4 +635,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -[Client Build](/database/335/auth/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
-

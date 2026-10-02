@@ -1517,7 +1517,7 @@ On gameobject emits event
 * **event_type**:
 SMART_EVENT_GO_EVENT_INFORM (71)
 * **event_param1**:
-eventId from [gameobject template](../world/gameobject_template#data0-23)
+eventId from [gameobject template](../world/gameobject_template#data-0-23)
 * **event_param2**:
 `0`
 * **event_param3**:
@@ -2530,7 +2530,7 @@ SMART_ACTION_RESET_GOBJECT (32)
 * **action_param6**:
 `0`
 #### KillCredit (33)
-Credits a creature kill to satisfy [quest RequiredNpcOrGo](../world/quest_template##requirednpcorgo1-4) requirements to target players.
+Credits a creature kill to satisfy [quest RequiredNpcOrGo](../world/quest_template##requirednpcorgo-1-4) requirements to target players.
 > Note: If target is SMART_TARGET_NONE (0) or SMART_TARGET_SELF (1), the kill is credited to all players eligible for loot from this creature.
 {.is-info} 
 * **action_type**:

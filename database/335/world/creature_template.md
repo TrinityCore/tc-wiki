@@ -18,12 +18,12 @@ This table contains the description of creatures. Each spawned creature is an in
 | [difficulty_entry_1](#difficulty_entry_1-3) | int | unsigned |  | NO | 0 |  |  |
 | [difficulty_entry_2](#difficulty_entry_1-3) | int | unsigned |  | NO | 0 |  |  |
 | [difficulty_entry_3](#difficulty_entry_1-3) | int | unsigned |  | NO | 0 |  |  |
-| [KillCredit1](#killcredit1-2) | int | unsigned |  | NO | 0 |  |  |
-| [KillCredit2](#killcredit1-2) | int | unsigned |  | NO | 0 |  |  |
-| [modelid1](#modelid1-4) | int | unsigned |  | NO | 0 |  |  |
-| [modelid2](#modelid1-4) | int | unsigned |  | NO | 0 |  |  |
-| [modelid3](#modelid1-4) | int | unsigned |  | NO | 0 |  |  |
-| [modelid4](#modelid1-4) | int | unsigned |  | NO | 0 |  |  |
+| [KillCredit1](#killcredit-1-2) | int | unsigned |  | NO | 0 |  |  |
+| [KillCredit2](#killcredit-1-2) | int | unsigned |  | NO | 0 |  |  |
+| [modelid1](#modelid-1-4) | int | unsigned |  | NO | 0 |  |  |
+| [modelid2](#modelid-1-4) | int | unsigned |  | NO | 0 |  |  |
+| [modelid3](#modelid-1-4) | int | unsigned |  | NO | 0 |  |  |
+| [modelid4](#modelid-1-4) | int | unsigned |  | NO | 0 |  |  |
 | [name](#name-alt) | char(100) |  | MUL | NO | 0 |  |  |
 | [subname](#subname) | char(100) |  |  | YES | NULL |  |  |
 | [IconName](#iconname) | char(100) |  |  | YES | NULL |  |  |

@@ -25,9 +25,9 @@ dateCreated: 2021-08-30T09:35:31.131Z
 | [RewardMoneyDifficulty](#rewardmoneydifficulty) | int | unsigned |  | NO | 0 |  |  |
 | [RewardMoneyMultiplier](#rewardmoneymultiplier) | float |  |  | NO | 1 |  |  |
 | [RewardBonusMoney](#rewardbonusmoney) | int | unsigned |  | NO | 0 |  |  |
-| [RewardDisplaySpell1](#rewarddisplayspell1-3) | int | unsigned |  | NO | 0 |  |  |
-| [RewardDisplaySpell2](#rewarddisplayspell1-3) | int | unsigned |  | NO | 0 |  |  |
-| [RewardDisplaySpell3](#rewarddisplayspell1-3) | int | unsigned |  | NO | 0 |  |  |
+| [RewardDisplaySpell1](#rewarddisplayspell-1-3) | int | unsigned |  | NO | 0 |  |  |
+| [RewardDisplaySpell2](#rewarddisplayspell-1-3) | int | unsigned |  | NO | 0 |  |  |
+| [RewardDisplaySpell3](#rewarddisplayspell-1-3) | int | unsigned |  | NO | 0 |  |  |
 | [RewardSpell](#rewardspell) | int | unsigned |  | NO | 0 |  |  |
 | [RewardHonor](#rewardhonor) | int | unsigned |  | NO | 0 |  |  |
 | [RewardKillHonor](#rewardkillhonor) | int | unsigned |  | NO | 0 |  |  |

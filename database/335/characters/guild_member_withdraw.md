@@ -17,12 +17,12 @@ dateCreated: 2021-08-30T22:01:16.371Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | int | unsigned | PRI | NO |  |  |  |
-| [tab0](#tab0-5) | int | unsigned |  | NO | 0 |  |  |
-| [tab1](#tab0-5) | int | unsigned |  | NO | 0 |  |  |
-| [tab2](#tab0-5) | int | unsigned |  | NO | 0 |  |  |
-| [tab3](#tab0-5) | int | unsigned |  | NO | 0 |  |  |
-| [tab4](#tab0-5) | int | unsigned |  | NO | 0 |  |  |
-| [tab5](#tab0-5) | int | unsigned |  | NO | 0 |  |  |
+| [tab0](#tab-0-5) | int | unsigned |  | NO | 0 |  |  |
+| [tab1](#tab-0-5) | int | unsigned |  | NO | 0 |  |  |
+| [tab2](#tab-0-5) | int | unsigned |  | NO | 0 |  |  |
+| [tab3](#tab-0-5) | int | unsigned |  | NO | 0 |  |  |
+| [tab4](#tab-0-5) | int | unsigned |  | NO | 0 |  |  |
+| [tab5](#tab-0-5) | int | unsigned |  | NO | 0 |  |  |
 | [money](#money) | int | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -38,4 +38,3 @@ Number of items withdrawn from this tab.
 ### money
 Amount of money withdrawn from guild bank in copper.
 &nbsp;
-

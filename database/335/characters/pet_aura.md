@@ -22,9 +22,9 @@ dateCreated: 2021-08-30T22:01:50.883Z
 | [effectMask](#effectmask) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [recalculateMask](#recalculatemask) | tinyint | unsigned |  | NO | 0 |  |  |
 | [stackCount](#stackcount) | tinyint | unsigned |  | NO | 1 |  |  |
-| [amount0](#amount0-2) | mediumint | signed |  | NO |  |  |  |
-| [amount1](#amount0-2) | mediumint | signed |  | NO |  |  |  |
-| [amount2](#amount0-2) | mediumint | signed |  | NO |  |  |  |
+| [amount0](#amount-0-2) | mediumint | signed |  | NO |  |  |  |
+| [amount1](#amount-0-2) | mediumint | signed |  | NO |  |  |  |
+| [amount2](#amount-0-2) | mediumint | signed |  | NO |  |  |  |
 | [base_amount0](#base_amount0-2) | mediumint | signed |  | NO |  |  |  |
 | [base_amount1](#base_amount0-2) | mediumint | signed |  | NO |  |  |  |
 | [base_amount2](#base_amount0-2) | mediumint | signed |  | NO |  |  |  |

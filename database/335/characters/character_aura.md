@@ -23,9 +23,9 @@ dateCreated: 2021-08-30T21:59:17.652Z
 | [effectMask](#effectmask) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [recalculateMask](#recalculatemask) | tinyint | unsigned |  | NO | 0 |  |  |
 | [stackCount](#stackcount) | tinyint | unsigned |  | NO | 1 |  |  |
-| [amount0](#amount0-2) | int | signed |  | NO | 0 |  |  |
-| [amount1](#amount0-2) | int | signed |  | NO | 0 |  |  |
-| [amount2](#amount0-2) | int | signed |  | NO | 0 |  |  |
+| [amount0](#amount-0-2) | int | signed |  | NO | 0 |  |  |
+| [amount1](#amount-0-2) | int | signed |  | NO | 0 |  |  |
+| [amount2](#amount-0-2) | int | signed |  | NO | 0 |  |  |
 | [base_amount0](#base_amount0-2) | int | signed |  | NO | 0 |  |  |
 | [base_amount1](#base_amount0-2) | int | signed |  | NO | 0 |  |  |
 | [base_amount2](#base_amount0-2) | int | signed |  | NO | 0 |  |  |

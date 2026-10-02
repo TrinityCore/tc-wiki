@@ -17,9 +17,9 @@ This table holds information on what events (or procs) certain spells are activa
 | [SpellId](#spellid) | int | signed | PRI | NO | 0 |  |  |
 | [SchoolMask](#schoolmask) | tinyint | unsigned |  | NO | 0 |  |  |
 | [SpellFamilyName](#spellfamilyname) | smallint | unsigned |  | NO | 0 |  |  |
-| [SpellFamilyMask0](#spellfamilymask0-2) | int | unsigned |  | NO | 0 |  |  |
-| [SpellFamilyMask1](#spellfamilymask0-2) | int | unsigned |  | NO | 0 |  |  |
-| [SpellFamilyMask2](#spellfamilymask0-2) | int | unsigned |  | NO | 0 |  |  |
+| [SpellFamilyMask0](#spellfamilymask-0-2) | int | unsigned |  | NO | 0 |  |  |
+| [SpellFamilyMask1](#spellfamilymask-0-2) | int | unsigned |  | NO | 0 |  |  |
+| [SpellFamilyMask2](#spellfamilymask-0-2) | int | unsigned |  | NO | 0 |  |  |
 | [ProcFlags](#procflags) | int | unsigned |  | NO | 0 |  |  |
 | [SpellTypeMask](#spelltypemask) | int | unsigned |  | NO | 0 |  |  |
 | [SpellPhaseMask](#spellphasemask) | int | unsigned |  | NO | 0 |  |  |

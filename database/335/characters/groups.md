@@ -21,14 +21,14 @@ dateCreated: 2021-08-30T22:00:54.931Z
 | [lootMethod](#lootmethod) | tinyint | unsigned |  | NO |  |  |  |
 | [looterGuid](#looterguid) | int | unsigned |  | NO |  |  |  |
 | [lootThreshold](#lootthreshold) | tinyint | unsigned |  | NO |  |  |  |
-| [icon1](#icon1-8) | bigint | unsigned |  | NO |  |  |  |
-| [icon2](#icon1-8) | bigint | unsigned |  | NO |  |  |  |
-| [icon3](#icon1-8) | bigint | unsigned |  | NO |  |  |  |
-| [icon4](#icon1-8) | bigint | unsigned |  | NO |  |  |  |
-| [icon5](#icon1-8) | bigint | unsigned |  | NO |  |  |  |
-| [icon6](#icon1-8) | bigint | unsigned |  | NO |  |  |  |
-| [icon7](#icon1-8) | bigint | unsigned |  | NO |  |  |  |
-| [icon8](#icon1-8) | bigint | unsigned |  | NO |  |  |  |
+| [icon1](#icon-1-8) | bigint | unsigned |  | NO |  |  |  |
+| [icon2](#icon-1-8) | bigint | unsigned |  | NO |  |  |  |
+| [icon3](#icon-1-8) | bigint | unsigned |  | NO |  |  |  |
+| [icon4](#icon-1-8) | bigint | unsigned |  | NO |  |  |  |
+| [icon5](#icon-1-8) | bigint | unsigned |  | NO |  |  |  |
+| [icon6](#icon-1-8) | bigint | unsigned |  | NO |  |  |  |
+| [icon7](#icon-1-8) | bigint | unsigned |  | NO |  |  |  |
+| [icon8](#icon-1-8) | bigint | unsigned |  | NO |  |  |  |
 | [groupType](#grouptype) | tinyint | unsigned |  | NO |  |  |  |
 | [difficulty](#difficulty) | tinyint | unsigned |  | NO | 0 |  |  |
 | [raidDifficulty](#raiddifficulty) | tinyint | unsigned |  | NO | 0 |  |  |

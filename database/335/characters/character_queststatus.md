@@ -21,16 +21,16 @@ dateCreated: 2021-08-30T21:59:55.520Z
 | [status](#status) | tinyint | unsigned |  | NO | 0 |  |  |
 | [explored](#explored) | tinyint | unsigned |  | NO | 0 |  |  |
 | [timer](#timer) | int | unsigned |  | NO | 0 |  |  |
-| [mobcount1](#mobcount1-4) | smallint | unsigned |  | NO | 0 |  |  |
-| [mobcount2](#mobcount1-4) | smallint | unsigned |  | NO | 0 |  |  |
-| [mobcount3](#mobcount1-4) | smallint | unsigned |  | NO | 0 |  |  |
-| [mobcount4](#mobcount1-4) | smallint | unsigned |  | NO | 0 |  |  |
-| [itemcount1](#itemcount1-6) | smallint | unsigned |  | NO | 0 |  |  |
-| [itemcount2](#itemcount1-6) | smallint | unsigned |  | NO | 0 |  |  |
-| [itemcount3](#itemcount1-6) | smallint | unsigned |  | NO | 0 |  |  |
-| [itemcount4](#itemcount1-6) | smallint | unsigned |  | NO | 0 |  |  |
-| [itemcount5](#itemcount1-6) | smallint | unsigned |  | NO | 0 |  |  |
-| [itemcount6](#itemcount1-6) | smallint | unsigned |  | NO | 0 |  |  |
+| [mobcount1](#mobcount-1-4) | smallint | unsigned |  | NO | 0 |  |  |
+| [mobcount2](#mobcount-1-4) | smallint | unsigned |  | NO | 0 |  |  |
+| [mobcount3](#mobcount-1-4) | smallint | unsigned |  | NO | 0 |  |  |
+| [mobcount4](#mobcount-1-4) | smallint | unsigned |  | NO | 0 |  |  |
+| [itemcount1](#itemcount-1-6) | smallint | unsigned |  | NO | 0 |  |  |
+| [itemcount2](#itemcount-1-6) | smallint | unsigned |  | NO | 0 |  |  |
+| [itemcount3](#itemcount-1-6) | smallint | unsigned |  | NO | 0 |  |  |
+| [itemcount4](#itemcount-1-6) | smallint | unsigned |  | NO | 0 |  |  |
+| [itemcount5](#itemcount-1-6) | smallint | unsigned |  | NO | 0 |  |  |
+| [itemcount6](#itemcount-1-6) | smallint | unsigned |  | NO | 0 |  |  |
 | [playercount](#playercount) | smallint | unsigned |  | NO | 0 |  |  |
 &nbsp;
 ## Description of fields
@@ -66,12 +66,12 @@ Unix Time when [TimeAllowed](../world/quest_template#timeallowed) will run out.
 
 ### mobcount\[1-4]
 Current count of the number of kills or casts on the specified creature or gameobject, if any.
-Matches [RequiredNpcOrGoCount\[1-4\]](../world/quest_template#requirednpcorgocount1-4)
+Matches [RequiredNpcOrGoCount\[1-4\]](../world/quest_template#requirednpcorgocount-1-4)
 &nbsp;
 
 ### itemcount\[1-6]
 Current item count for the item in a delivery quest, if any.
-Matches [RequiredItemCount\[1-6\]](../world/quest_template#requireditemcount1-6)
+Matches [RequiredItemCount\[1-6\]](../world/quest_template#requireditemcount-1-6)
 &nbsp;
 
 ### playercount

@@ -19,9 +19,9 @@ This table contains all the trainer spell entries.
 | [MoneyCost](#moneycost) | int | unsigned |  | NO | 0 |  |  |
 | [ReqSkillLine](#reqskillline) | int | unsigned |  | NO | 0 |  |  |
 | [ReqSkillRank](#reqskillrank) | int | unsigned |  | NO | 0 |  |  |
-| [ReqAbility1](#reqability1-3) | int | unsigned |  | NO | 0 |  |  |
-| [ReqAbility2](#reqability1-3) | int | unsigned |  | NO | 0 |  |  |
-| [ReqAbility3](#reqability1-3) | int | unsigned |  | NO | 0 |  |  |
+| [ReqAbility1](#reqability-1-3) | int | unsigned |  | NO | 0 |  |  |
+| [ReqAbility2](#reqability-1-3) | int | unsigned |  | NO | 0 |  |  |
+| [ReqAbility3](#reqability-1-3) | int | unsigned |  | NO | 0 |  |  |
 | [ReqLevel](#reqlevel) | tinyint | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
 &nbsp;
@@ -88,4 +88,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -[Client Build](/database/335/auth/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
-

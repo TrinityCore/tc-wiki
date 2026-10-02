@@ -18,12 +18,12 @@ dateCreated: 2021-08-30T21:59:39.563Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | int | unsigned | PRI | NO |  |  |  |
 | [talentGroup](#talentgroup) | tinyint | unsigned | PRI | NO | 0 |  |  |
-| [glyph1](#glyph1-6) | smallint | unsigned |  | YES | 0 |  |  |
-| [glyph2](#glyph1-6) | smallint | unsigned |  | YES | 0 |  |  |
-| [glyph3](#glyph1-6) | smallint | unsigned |  | YES | 0 |  |  |
-| [glyph4](#glyph1-6) | smallint | unsigned |  | YES | 0 |  |  |
-| [glyph5](#glyph1-6) | smallint | unsigned |  | YES | 0 |  |  |
-| [glyph6](#glyph1-6) | smallint | unsigned |  | YES | 0 |  |  |
+| [glyph1](#glyph-1-6) | smallint | unsigned |  | YES | 0 |  |  |
+| [glyph2](#glyph-1-6) | smallint | unsigned |  | YES | 0 |  |  |
+| [glyph3](#glyph-1-6) | smallint | unsigned |  | YES | 0 |  |  |
+| [glyph4](#glyph-1-6) | smallint | unsigned |  | YES | 0 |  |  |
+| [glyph5](#glyph-1-6) | smallint | unsigned |  | YES | 0 |  |  |
+| [glyph6](#glyph-1-6) | smallint | unsigned |  | YES | 0 |  |  |
 &nbsp;
 ## Description of fields
 
@@ -39,4 +39,3 @@ The [guid](../characters/characters#guid) of the character.
 ### glyph\[1-6]
 Contains a [GlyphPropery ID](/files/DBC/335/glyphproperties#id). This fields index is linked to [GlyphSlot Tooltip](/files/DBC/335/glyphslot#tooltip), constraining the glyph type of this index. 
 &nbsp;
-
