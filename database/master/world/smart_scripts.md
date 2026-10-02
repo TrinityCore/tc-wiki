@@ -483,7 +483,7 @@ Commenting on SAI uses a template which is the following: `"Creature name - Even
 > **Example**: "Minion of Gurok - On spawn - Set Random Movement"
 
 ## Enums
-### TabSet {.tabset}
+
 #### PowerType
 | Name | Value |
 | :--- | :--- | 
@@ -514,4 +514,3 @@ Commenting on SAI uses a template which is the following: `"Creature name - Even
 | POWER_ALTERNATE_QUEST     | 23 |
 | POWER_ALTERNATE_ENCOUNTER | 24 |
 | POWER_ALTERNATE_MOUNT     | 25 |
-### EndTabset {.tabset}

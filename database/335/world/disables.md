@@ -26,7 +26,7 @@ This table is used to disable dungeons/bgs/spells/etc.
 
 ### sourceType
 | Value | Type |
-|-------|------|
+| --- | --- |
 | 0 | DISABLE_TYPE_SPELL |
 | 1 | DISABLE_TYPE_QUEST |
 | 2 | DISABLE_TYPE_MAP |
@@ -41,7 +41,7 @@ This table is used to disable dungeons/bgs/spells/etc.
 
 ### entry
 | sourceType | entry |
-|-------|------|
+| --- | --- |
 | 0 | [Spell ID](/files/DBC/335/spell#id-alt) |
 | 1 | [quest_template.ID](../world/quest_template#id-alt) |
 | 3 | [BattlemasterList ID](/files/DBC/335/battlemasterlist#id-alt) |
@@ -54,10 +54,9 @@ This table is used to disable dungeons/bgs/spells/etc.
 ### flags
 Depending on **sourceType**. `0` if not specified otherwise.
 
-### Tabset {.tabset}
-#### DISABLE_TYPE_SPELL
+::: details DISABLE_TYPE_SPELL (0)
 | Value | Flag | Name | Comment |
-|-------|------|------|---------|
+| --- | --- | --- | --- |
 | 1 | 0x0001 | SPELL_DISABLE_PLAYER | Spell disabled for players |
 | 2 | 0x0002 | SPELL_DISABLE_CREATURE | Spell disabled for creatures |
 | 4 | 0x0004 | SPELL_DISABLE_PET | Spell disabled for pets |
@@ -69,29 +68,34 @@ Depending on **sourceType**. `0` if not specified otherwise.
 | 256 | 0x0100 | SPELL_DISABLE_ARENAS | disabled in arena |
 | 512 | 0x0200 | SPELL_DISABLE_BATTLEGROUNDS | Spell disabled in battlegrounds |
 
-#### DISABLE_TYPE_MAP
+:::
+
+::: details DISABLE_TYPE_MAP (2)
 Specifies what mode of the map is disabled (5man/10man/heroic/etc).
 | Value | Flag | Name |
-|-------|------|------|
-| InstanceType of map = 1 (Dungeon) |||
+| --- | --- | --- |
+| InstanceType of map = 1 (Dungeon) | | |
 | 1 | 0x01 | DUNGEON_STATUSFLAG_NORMAL |
 | 2 | 0x02 | DUNGEON_STATUSFLAG_HEROIC |
-| InstanceType of map = 4 (Raid) |||
+| InstanceType of map = 4 (Raid) | | |
 | 1 | 0x01 | RAID_STATUSFLAG_10MAN_NORMAL |
 | 2 | 0x02 | RAID_STATUSFLAG_25MAN_NORMAL |
 | 4 | 0x04 | RAID_STATUSFLAG_10MAN_HEROIC |
 | 8 | 0x08 | RAID_STATUSFLAG_25MAN_HEROIC |
 
-#### DISABLE_TYPE_VMAP
+:::
+
+::: details DISABLE_TYPE_VMAP (6)
 Specifies what part of the vMap system should be disabled on which map.
 | Value | Flag | Name |
-|-------|------|------|
+| --- | --- | --- |
 | 1 | 0x01 | VMAP_DISABLE_AREAFLAG |
 | 2 | 0x02 | VMAP_DISABLE_HEIGHT |
 | 4 | 0x04 | VMAP_DISABLE_LOS |
 | 8 | 0x08 | VMAP_LIQUIDSTATUS |
 
-### EndTabset {.tabset}
+:::
+
 &nbsp;
 
 ### params_0

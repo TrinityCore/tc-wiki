@@ -46,7 +46,6 @@ Entry of Spell/Quest/Map/BG/Achievement/Map.
 > flags are dependent on sourceType!
 {.is-info}
 
-### Linux {.tabset}
 #### DISABLE_TYPE_SPELL
 > Specifies who the spell is disabled for.
 {.is-info}
