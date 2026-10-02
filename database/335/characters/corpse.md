@@ -53,7 +53,9 @@ The Z position of the corpse.
 &nbsp;
 
 ### orientation
-The orientation of the corpse. (North = 0.0; South = pi (3.14159))
+The orientation of the corpse.  
+<!--@include: @/partial/orientation.md-->
+
 &nbsp;
 
 ### mapId

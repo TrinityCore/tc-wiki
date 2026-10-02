@@ -238,7 +238,9 @@ High nibble encodes raid difficulty, Low nibble encodes dungeon difficulty:
 &nbsp;
 
 ### orientation
-The orientation the character is facing. (North = 0.0, South = 3.14159)
+The orientation the character is facing.  
+<!--@include: @/partial/orientation.md-->
+
 &nbsp;
 
 ### taximask

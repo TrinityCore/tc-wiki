@@ -103,7 +103,9 @@ The Z position of the areatrigger spawn point.
 &nbsp;
 
 ### Orientation
-The orientation of the areatrigger spawn point. (North = 0.0; South = pi (3.14159))
+The orientation of the areatrigger spawn point.  
+<!--@include: @/partial/orientation.md-->
+
 &nbsp;
 
 ### PhaseUseFlags
@@ -143,4 +145,3 @@ This field is for any comment you want to make about the requirements. It is arb
 ### VerifiedBuild
 *- no description -*
 &nbsp;
-

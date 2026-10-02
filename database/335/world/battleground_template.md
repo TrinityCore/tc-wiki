@@ -61,7 +61,9 @@ The [WorldSafeLoc ID](/files/DBC/335/worldsafelocs#id) where the alliance player
 &nbsp;
 
 ### AllianceStartO
-The orientation of the alliance players upon teleport into the battleground. North is 0, south is Pi (3.14159).
+The orientation of the alliance players upon teleport into the battleground.  
+<!--@include: @/partial/orientation.md-->
+
 &nbsp;
 
 ### HordeStartLoc
@@ -69,7 +71,9 @@ The [WorldSafeLoc ID](/files/DBC/335/worldsafelocs#id) where the horde players g
 &nbsp;
 
 ### HordeStartO
-The orientation of the horde players upon teleport into the battleground. North is 0, south is Pi (3.14159).
+The orientation of the horde players upon teleport into the battleground.  
+<!--@include: @/partial/orientation.md-->
+
 &nbsp;
 
 ### StartMaxDist

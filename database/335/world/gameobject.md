@@ -86,7 +86,9 @@ The Z position of the gameobject.
 &nbsp;
 
 ### orientation
-The orientation of the gameobject. (North = 0.0; South = pi (3.14159))
+The orientation of the gameobject.  
+<!--@include: @/partial/orientation.md-->
+
 &nbsp;
 
 ### rotation0

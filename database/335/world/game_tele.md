@@ -41,8 +41,9 @@ The z-axis coordinate of the teleport location. This can be attained by using th
 &nbsp;
 
 ### orientation
-The direction that the player will face after arriving at the teleport location. This can be attained by using the `.gps` command.
-(North = 0, South = 3.14159)
+The direction that the player will face after arriving at the teleport location. This can be attained by using the `.gps` command.  
+<!--@include: @/partial/orientation.md-->
+
 &nbsp;
 
 ### map
@@ -52,4 +53,3 @@ The [Map ID](/files/DBC/335/map#id) of the location.
 ### name {#name-alt}
 The name given to the location. The name must not have a space as this will be read in from the `.tele` command.
 &nbsp;
-
