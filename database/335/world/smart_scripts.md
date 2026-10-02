@@ -772,21 +772,9 @@ valid for **source_type**
 
 * **event_type**:
 SMART_EVENT_MOVEMENTINFORM (34)
-* **event_param1**:
-[`enum MovementGeneratorType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Movement/MovementDefines.h#L26-L48)
-  |--|--|--|--|--|
-  | IDLE_MOTION_TYPE | 0 |  | DISTRACT_MOTION_TYPE | 10 |
-  | RANDOM_MOTION_TYPE | 1 |  | ASSISTANCE_MOTION_TYPE | 11 |
-  | WAYPOINT_MOTION_TYPE | 2 |  | ASSISTANCE_DISTRACT_MOTION_TYPE | 12 |
-  | MAX_DB_MOTION_TYPE | 3 |  | TIMED_FLEEING_MOTION_TYPE | 13 |
-  | CONFUSED_MOTION_TYPE | 4 |  | FOLLOW_MOTION_TYPE | 14 |
-  | CHASE_MOTION_TYPE | 5 |  | ROTATE_MOTION_TYPE | 15 |
-  | HOME_MOTION_TYPE | 6 |  | EFFECT_MOTION_TYPE | 16 |
-  | FLIGHT_MOTION_TYPE | 7 |  | SPLINE_CHAIN_MOTION_TYPE | 17 |
-  | POINT_MOTION_TYPE | 8 |  | FORMATION_MOTION_TYPE | 18 |
-  | FLEEING_MOTION_TYPE | 9 |  |  |
+* **event_param1**:  
+  <!--@include: @/partial/335/movement-generator-type.md-->
 
-  {.dense}
 * **event_param2**:
 PointID
 * **event_param3**:
@@ -4238,13 +4226,9 @@ SMART_ACTION_REMOVE_ALL_GAMEOBJECTS (126)
 Target units pause movement caused by given movement slot.
 * **action_type**:
 SMART_ACTION_PAUSE_MOVEMENT (127)
-* **action_param1**:
-[`enum MovementSlot`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Movement/MovementDefines.h#L63-L68)
-  | ID | Name | Comment |
-  |----|------|---------|
-  | 0 | MOTION_SLOT_DEFAULT | idle, follow, etc. |
-  | 1 | MOTION_SLOT_ACTIVE | point movement |
-  {.dense}  
+* **action_param1**:  
+  <!--@include: @/partial/335/movement-slot.md-->
+
 * **action_param2**:
 pause (in msec.)
 `0`: indefinitely
@@ -4436,29 +4420,9 @@ SMART_ACTION_PLAY_CINEMATIC (135)
 Set movement speed of target creatures.
 * **action_type**:
 SMART_ACTION_SET_MOVEMENT_SPEED (136)
-* **action_param1**:
-[`enum MovementGeneratorType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Movement/MovementDefines.h#L26-L48)
-  |--|--|
-  | IDLE_MOTION_TYPE | 0 |
-  | RANDOM_MOTION_TYPE | 1 |
-  | WAYPOINT_MOTION_TYPE | 2 |
-  | MAX_DB_MOTION_TYPE | 3 |
-  | CONFUSED_MOTION_TYPE | 4 |
-  | CHASE_MOTION_TYPE | 5 |
-  | HOME_MOTION_TYPE | 6 |
-  | FLIGHT_MOTION_TYPE | 7 |
-  | POINT_MOTION_TYPE | 8 |
-  | FLEEING_MOTION_TYPE | 9 |
-  | DISTRACT_MOTION_TYPE | 10 |
-  | ASSISTANCE_MOTION_TYPE | 11 |
-  | ASSISTANCE_DISTRACT_MOTION_TYPE | 12 |
-  | TIMED_FLEEING_MOTION_TYPE | 13 |
-  | FOLLOW_MOTION_TYPE | 14 |
-  | ROTATE_MOTION_TYPE | 15 |
-  | EFFECT_MOTION_TYPE | 16 |
-  | SPLINE_CHAIN_MOTION_TYPE | 17 |
-  | FORMATION_MOTION_TYPE | 18 |
-  {.dense}
+* **action_param1**:  
+  <!--@include: @/partial/335/movement-generator-type.md-->
+
 * **action_param2**:
 speedInteger
 * **action_param3**:
@@ -4847,13 +4811,9 @@ SMART_ACTION_EXIT_VEHICLE (157)
 Target units resumes movement caused by given movement slot.
 **action_type**:
 SMART_ACTION_RESUME_MOVEMENT (158)
-* **action_param1**:
-  [`enum MovementSlot`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Movement/MovementDefines.h#L63-L68)
-  | ID | Name | Comment |
-  |----|------|---------|
-  | 0 | MOTION_SLOT_DEFAULT | idle, follow, etc. |
-  | 1 | MOTION_SLOT_ACTIVE | point movement |
-  {.dense} 
+* **action_param1**:  
+  <!--@include: @/partial/335/movement-slot.md-->
+
 * **action_param2**:
 ResumeTime (in ms.)
 `0`: indefinitely
