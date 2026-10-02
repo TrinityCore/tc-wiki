@@ -610,15 +610,10 @@ true while quest active
 #### Drunk (10)
 * **ConditionTypeOrReference**:
 CONDITION_DRUNKENSTATE (10)
-* **ConditionValue1**:
-[`enum DrunkenState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Player/Player.h#L319-L325)
-  |--|--|
-  | DRUNKEN_SOBER | 0 |
-  | DRUNKEN_TIPSY | 1 |
-  | DRUNKEN_DRUNK | 2 |
-  | DRUNKEN_SMASHED | 3 |
-  {.dense}
-* **ConditionValue2**:
+* **ConditionValue1**:  
+  <!--@include: @/partial/335/drunken-state.md-->
+
+ **ConditionValue2**:
 `0`
 * **ConditionValue3**:
 `0`
@@ -1192,16 +1187,10 @@ CONDITION_QUESTSTATE (47)
 * **ConditionValue1**:
 [quest ID](/database/335/world/quest_template#id)
 * **ConditionValue2**:
-state_mask from [`enum QuestStatus`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Quests/QuestDef.h#L102-L112)
-  | Value | Flag | Name |
-  |--|--|--|
-  | 1 | 0x01 | QUEST_STATUS_NONE |
-  | 2 | 0x02 | QUEST_STATUS_COMPLETE |
-  | 8 | 0x08 | QUEST_STATUS_INCOMPLETE |
-  | 32 | 0x20 | QUEST_STATUS_FAILED |
-  | 64 | 0x40 | QUEST_STATUS_REWARDED |
-  {.dense}
-* **ConditionValue3**:
+  state_mask from 
+  <!--@include: @/partial/335/quest-status.md-->
+
+ **ConditionValue3**:
 `0`
 * **ConditionStringValue1**:
 `-`

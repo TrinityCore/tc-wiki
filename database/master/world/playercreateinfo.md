@@ -84,13 +84,9 @@ The Z position.
 &nbsp;
 
 ### orientation
-The direction the new character will be facing.
-|--|--|--|
-| North: | `0 / 2p` | 6.28319 |
-| West: | `0.5p` | 1.57080 |
-| South: | `p` | 3.14159 |
-| East: | `1.5p` | 4.71239 |
-{.dense}
+The direction the new character will be facing.  
+<!--@include: @/partial/orientation.md-->
+
 &nbsp;
 
 ### npe_map
@@ -128,4 +124,3 @@ The direction the new character will be facing.
 ### npe_intro_scene_id
 *- no description -*
 &nbsp;
-

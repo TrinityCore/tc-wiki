@@ -44,18 +44,15 @@ The [quest ID](../world/quest_template#id).
 &nbsp;
 
 ### status
-The current quest status.
-
-Value | Status | Comment
--- | -- | --
-0 | QUEST_STATUS_NONE | Quest isn't shown in quest list - default
-1 | QUEST_STATUS_COMPLETE | Quest has been completed
-2 | QUEST_STATUS_UNAVAILABLE | NOT USED
-3 | QUEST_STATUS_INCOMPLETE | Quest is active in quest log but incomplete
-4 | QUEST_STATUS_AVAILABLE | NOT USED
-5 | QUEST_STATUS_FAILED | Player failed to complete the quest
-6 | QUEST_STATUS_REWARDED | Not used in DB
-{.dense}
+The current quest status.  
+[`enum QuestStatus`](https://github.com/TrinityCore/TrinityCore/blob/d7329e3d3a713404d8ecbd91ae5f988fd143b793/src/server/game/Quests/QuestDef.h#L101-L111)
+| Value | Status | Comment |
+| --- | --- | --- |
+| 0 | QUEST_STATUS_NONE | Player does not have or had quest at all. He could accept it, but he did not (yet). |
+| 1 | QUEST_STATUS_COMPLETE | Player fulfilled objectives, but did not hand it in yet. |
+| 3 | QUEST_STATUS_INCOMPLETE | Player did not fulfill objectives yet. |
+| 5 | QUEST_STATUS_FAILED | Player failed to fulfill objectives for any reason, e.g. time limit. |
+| 6 | QUEST_STATUS_REWARDED | Not used in DB. |
 
 &nbsp;
 
@@ -80,4 +77,3 @@ Matches [RequiredItemCount\[1-6\]](../world/quest_template#requireditemcount1-6)
 ### playercount
 Current player slay count out of [RequiredPlayerKills](../world/quest_template#requiredplayerkills).
 &nbsp;
-

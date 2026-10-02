@@ -106,7 +106,9 @@ The Z position of the creature.
 &nbsp;
 
 ### orientation
-The orientation of the creature. (North = 0.0; South = pi (3.14159))
+The orientation of the creature.  
+<!--@include: @/partial/orientation.md-->
+
 &nbsp;
 
 ### spawntimesecs

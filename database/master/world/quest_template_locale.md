@@ -32,7 +32,9 @@ dateCreated: 2021-08-30T09:35:37.173Z
 &nbsp;
 
 ### locale
-*- no description -*
+
+<!--@include: @/partial/master/localization.md-->
+
 &nbsp;
 
 ### LogTitle
@@ -83,4 +85,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 
 &nbsp;
-

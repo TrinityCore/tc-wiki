@@ -164,15 +164,10 @@ The target must be on this team:
 #### Drunk (15)
 **ACHIEVEMENT_CRITERIA_DATA_TYPE_S_DRUNK**
 * **value1**:
-How drunk the player must be: 
-  [`enum DrunkenState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Player/Player.h#L319-L325)
-  |--|--|
-  | DRUNKEN_SOBER | 0 |
-  | DRUNKEN_TIPSY | 1 |
-  | DRUNKEN_DRUNK | 2 |
-  | DRUNKEN_SMASHED | 3 |
-  {.dense}
-* **value2**:
+How drunk the player must be:  
+  <!--@include: @/partial/335/drunken-state.md-->
+
+ **value2**:
 `0`
 
 

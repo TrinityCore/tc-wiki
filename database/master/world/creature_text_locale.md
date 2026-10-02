@@ -36,21 +36,11 @@ This entry must be the same as [`creature_text.ID`](/database/master/world/creat
 &nbsp;
 
 ### Locale
-|Value|Locale|
-|:---:|:---: |
-|deDE|German|
-|esES|Spanish|
-|esMX|Spanish (Latin American)|
-|frFR|French|
-|itIT|Italian|
-|koKR|Korean|
-|ptBR|Portuguese|
-|ruRU|Russian|
-|zhCN|Chinese (China)|
-|zhTW|Chinese (Taiwan/Traditional)|
+
+<!--@include: @/partial/master/localization.md-->
+
 &nbsp;
 
 ### Text
 Translated content for [`creature_text.Text`](/database/master/world/creature_text#Text)
 &nbsp;
-

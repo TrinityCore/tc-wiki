@@ -772,21 +772,9 @@ valid for **source_type**
 
 * **event_type**:
 SMART_EVENT_MOVEMENTINFORM (34)
-* **event_param1**:
-[`enum MovementGeneratorType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Movement/MovementDefines.h#L26-L48)
-  |--|--|--|--|--|
-  | IDLE_MOTION_TYPE | 0 |  | DISTRACT_MOTION_TYPE | 10 |
-  | RANDOM_MOTION_TYPE | 1 |  | ASSISTANCE_MOTION_TYPE | 11 |
-  | WAYPOINT_MOTION_TYPE | 2 |  | ASSISTANCE_DISTRACT_MOTION_TYPE | 12 |
-  | MAX_DB_MOTION_TYPE | 3 |  | TIMED_FLEEING_MOTION_TYPE | 13 |
-  | CONFUSED_MOTION_TYPE | 4 |  | FOLLOW_MOTION_TYPE | 14 |
-  | CHASE_MOTION_TYPE | 5 |  | ROTATE_MOTION_TYPE | 15 |
-  | HOME_MOTION_TYPE | 6 |  | EFFECT_MOTION_TYPE | 16 |
-  | FLIGHT_MOTION_TYPE | 7 |  | SPLINE_CHAIN_MOTION_TYPE | 17 |
-  | POINT_MOTION_TYPE | 8 |  | FORMATION_MOTION_TYPE | 18 |
-  | FLEEING_MOTION_TYPE | 9 |  |  |
+* **event_param1**:  
+  <!--@include: @/partial/335/movement-generator-type.md-->
 
-  {.dense}
 * **event_param2**:
 PointID
 * **event_param3**:
@@ -1508,15 +1496,9 @@ valid for **source_type**
 
 * **event_type**:
 SMART_EVENT_GO_LOOT_STATE_CHANGED (70)
-* **event_param1**:
-[`enum LootState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/GameObject/GameObject.h#L74-L79)
-  | ID | Name | Comment |
-  |----|------|---------|
-  | 0 | GO_NOT_READY |  |
-  | 1 | GO_READY | can be ready but despawned, and then not possible activate until spawn |
-  | 2 | GO_ACTIVATE |  |
-  | 3 | GO_JUST_DEACTIVATED |  |
-  {.dense}
+* **event_param1**:  
+  <!--@include: @/partial/335/loot-state.md-->
+
 * **event_param2**:
 `0`
 * **event_param3**:
@@ -2174,41 +2156,12 @@ Cast spell at targets.
 SMART_ACTION_CAST (11)
 * **action_param1**:
 [Spell ID](/files/DBC/335/spell#id)
-* **action_param2**:
-[`enum SmartCastFlags`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/AI/SmartScripts/SmartScriptMgr.h#L1541-L1550)
-  | Value | Flag | Name | Comment |
-  |-------|------|------|---------|
-  | 1 | 0x01 | SMARTCAST_INTERRUPT_PREVIOUS |  Interrupt any spell casting |
-  | 2 | 0x02 | SMARTCAST_TRIGGERED |  Triggered (this makes spell cost zero mana and have no cast time) |
-  | 4 | 0x04 | :x: SMARTCAST_FORCE_CAST | Forces cast even if creature is out of mana or out of range |
-  | 8 | 0x08 | :x: SMARTCAST_NO_MELEE_IF_OOM | Prevents creature from entering melee if out of mana or out of range |
-  | 16 | 0x10 | :x: SMARTCAST_FORCE_TARGET_SELF | Forces the target to cast this spell on itself |
-  | 32 | 0x20 | SMARTCAST_AURA_NOT_PRESENT |  Only casts the spell if the target does not have an aura from the spell |
-  | 64 | 0x40 | SMARTCAST_COMBAT_MOVE |  Prevents combat movement if cast successful. Allows movement on range, OOM, LOS |
-  {.dense}
-* **action_param3**:
-[`enum TriggerCastFlags`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Spells/SpellDefines.h#L146-L173)
-  | Value | Flag | Name | Comment |
-  |-------|------|------|---------|
-  | 1 | 0x00000001 | TRIGGERED_IGNORE_GCD | Will ignore GCD |
-  | 2 | 0x00000002 | TRIGGERED_IGNORE_SPELL_AND_CATEGORY_CD | Will ignore Spell and Category cooldowns |
-  | 4 | 0x00000004 | TRIGGERED_IGNORE_POWER_AND_REAGENT_COST | Will ignore power and reagent cost |
-  | 8 | 0x00000008 | TRIGGERED_IGNORE_CAST_ITEM | Will not take away cast item or update related achievement criteria |
-  | 16 | 0x00000010 | TRIGGERED_IGNORE_AURA_SCALING | Will ignore aura scaling |
-  | 32 | 0x00000020 | TRIGGERED_IGNORE_CAST_IN_PROGRESS | Will not check if a current cast is in progress |
-  | 64 | 0x00000040 | TRIGGERED_IGNORE_COMBO_POINTS | Will ignore combo point requirement |
-  | 128 | 0x00000080 | TRIGGERED_CAST_DIRECTLY | In Spell::prepare, will be cast directly without setting containers for executed spell |
-  | 256 | 0x00000100 | TRIGGERED_IGNORE_AURA_INTERRUPT_FLAGS | Will ignore interruptible aura's at cast |
-  | 512 | 0x00000200 | TRIGGERED_IGNORE_SET_FACING | Will not adjust facing to target (if any) |
-  | 1024 | 0x00000400 | TRIGGERED_IGNORE_SHAPESHIFT | Will ignore shapeshift checks |
-  | 2048 | 0x00000800 | TRIGGERED_IGNORE_CASTER_AURASTATE | Will ignore caster aura states including combat requirements and death state |
-  | 4096 | 0x00001000 | TRIGGERED_DISALLOW_PROC_EVENTS | Disallows proc events from triggered spell (default) |
-  | 8192 | 0x00002000 | TRIGGERED_IGNORE_CASTER_MOUNTED_OR_ON_VEHICLE | Will ignore mounted/on vehicle restrictions |
-  | 65536 | 0x00010000 | TRIGGERED_IGNORE_CASTER_AURAS | Will ignore caster aura restrictions or requirements |
-  | 131072 | 0x00020000 | TRIGGERED_DONT_RESET_PERIODIC_TIMER | Will allow periodic aura timers to keep ticking (instead of resetting) |
-  | 262144 | 0x00040000 | TRIGGERED_DONT_REPORT_CAST_ERROR | Will return SPELL_FAILED_DONT_REPORT in CheckCast functions |
-  | 524288 | 0x00080000 | TRIGGERED_IGNORE_EQUIPPED_ITEM_REQUIREMENT | Will ignore equipped item requirements |
-  {.dense}
+* **action_param2**:  
+  <!--@include: @/partial/335/smart-cast-flags.md-->
+
+* **action_param3**:  
+  <!--@include: @/partial/335/trigger-cast-flags.md-->
+
 * **action_param4**:
 `0`
 * **action_param5**:
@@ -2605,14 +2558,16 @@ field
 * **action_param2**:
 data
   * type = 0: arbitrary data
-  * type = 1: [`enum EncounterState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Instances/InstanceScript.h#L68-L76)
-    |--|--|
-    | NOT_STARTED | 0 |
-    | IN_PROGRESS | 1 |
-    | FAIL | 2 |
-    | DONE | 3 |
-    | SPECIAL | 4 |
-    {.dense}
+  * type = 1: [`enum EncounterState`](https://github.com/TrinityCore/TrinityCore/blob/d7329e3d3a713404d8ecbd91ae5f988fd143b793/src/server/game/Instances/InstanceScript.h#L71-L79)
+    | Value | Name |
+    | --- | --- |
+    | 0 | NOT_STARTED |
+    | 1 | IN_PROGRESS |
+    | 2 | FAIL |
+    | 3 | DONE |
+    | 4 | SPECIAL |
+    | 5 | TO_BE_DECIDED |
+
 * **action_param3**:
 type:
   * 0: SetData
@@ -3485,41 +3440,12 @@ The targets will cast the spell on themselves.
 SMART_ACTION_SELF_CAST (85)
 * **action_param1**:
 [Spell ID](/files/DBC/335/spell#id)
-* **action_param2**:
-[`enum SmartCastFlags`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/AI/SmartScripts/SmartScriptMgr.h#L1541-L1550)
-  | Value | Flag | Name | Comment |
-  |-------|------|------|---------|
-  | 1 | 0x01 | SMARTCAST_INTERRUPT_PREVIOUS |  Interrupt any spell casting |
-  | 2 | 0x02 | SMARTCAST_TRIGGERED |  Triggered (this makes spell cost zero mana and have no cast time) |
-  | 4 | 0x04 | :x: SMARTCAST_FORCE_CAST | Forces cast even if creature is out of mana or out of range |
-  | 8 | 0x08 | :x: SMARTCAST_NO_MELEE_IF_OOM | Prevents creature from entering melee if out of mana or out of range |
-  | 16 | 0x10 | :x: SMARTCAST_FORCE_TARGET_SELF | Forces the target to cast this spell on itself |
-  | 32 | 0x20 | SMARTCAST_AURA_NOT_PRESENT |  Only casts the spell if the target does not have an aura from the spell |
-  | 64 | 0x40 | SMARTCAST_COMBAT_MOVE |  Prevents combat movement if cast successful. Allows movement on range, OOM, LOS |
-  {.dense}
-* **action_param3**:
-[`enum TriggerCastFlags`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Spells/SpellDefines.h#L146-L173)
-  | Value | Flag | Name | Comment |
-  |-------|------|------|---------|
-  | 1 | 0x00000001 | TRIGGERED_IGNORE_GCD | Will ignore GCD |
-  | 2 | 0x00000002 | TRIGGERED_IGNORE_SPELL_AND_CATEGORY_CD | Will ignore Spell and Category cooldowns |
-  | 4 | 0x00000004 | TRIGGERED_IGNORE_POWER_AND_REAGENT_COST | Will ignore power and reagent cost |
-  | 8 | 0x00000008 | TRIGGERED_IGNORE_CAST_ITEM | Will not take away cast item or update related achievement criteria |
-  | 16 | 0x00000010 | TRIGGERED_IGNORE_AURA_SCALING | Will ignore aura scaling |
-  | 32 | 0x00000020 | TRIGGERED_IGNORE_CAST_IN_PROGRESS | Will not check if a current cast is in progress |
-  | 64 | 0x00000040 | TRIGGERED_IGNORE_COMBO_POINTS | Will ignore combo point requirement |
-  | 128 | 0x00000080 | TRIGGERED_CAST_DIRECTLY | In Spell::prepare, will be cast directly without setting containers for executed spell |
-  | 256 | 0x00000100 | TRIGGERED_IGNORE_AURA_INTERRUPT_FLAGS | Will ignore interruptible aura's at cast |
-  | 512 | 0x00000200 | TRIGGERED_IGNORE_SET_FACING | Will not adjust facing to target (if any) |
-  | 1024 | 0x00000400 | TRIGGERED_IGNORE_SHAPESHIFT | Will ignore shapeshift checks |
-  | 2048 | 0x00000800 | TRIGGERED_IGNORE_CASTER_AURASTATE | Will ignore caster aura states including combat requirements and death state |
-  | 4096 | 0x00001000 | TRIGGERED_DISALLOW_PROC_EVENTS | Disallows proc events from triggered spell (default) |
-  | 8192 | 0x00002000 | TRIGGERED_IGNORE_CASTER_MOUNTED_OR_ON_VEHICLE | Will ignore mounted/on vehicle restrictions |
-  | 65536 | 0x00010000 | TRIGGERED_IGNORE_CASTER_AURAS | Will ignore caster aura restrictions or requirements |
-  | 131072 | 0x00020000 | TRIGGERED_DONT_RESET_PERIODIC_TIMER | Will allow periodic aura timers to keep ticking (instead of resetting) |
-  | 262144 | 0x00040000 | TRIGGERED_DONT_REPORT_CAST_ERROR | Will return SPELL_FAILED_DONT_REPORT in CheckCast functions |
-  | 524288 | 0x00080000 | TRIGGERED_IGNORE_EQUIPPED_ITEM_REQUIREMENT | Will ignore equipped item requirements |
-  {.dense}
+* **action_param2**:  
+  <!--@include: @/partial/335/smart-cast-flags.md-->
+
+* **action_param3**:  
+  <!--@include: @/partial/335/trigger-cast-flags.md-->
+
 * **action_param4**:
 maxTargets (`0`: all targets)
 * **action_param5**:
@@ -3534,18 +3460,9 @@ CasterTarget will cast Spell ID on all (regular) targets.
 SMART_ACTION_CROSS_CAST (86)
 * **action_param1**:
 [Spell ID](/files/DBC/335/spell#id)
-* **action_param2**:
-[`enum SmartCastFlags`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/AI/SmartScripts/SmartScriptMgr.h#L1541-L1550)
-  | Value | Flag | Name | Comment |
-  |-------|------|------|---------|
-  | 1 | 0x01 | SMARTCAST_INTERRUPT_PREVIOUS |  Interrupt any spell casting |
-  | 2 | 0x02 | SMARTCAST_TRIGGERED |  Triggered (this makes spell cost zero mana and have no cast time) |
-  | 4 | 0x04 | :x: SMARTCAST_FORCE_CAST | Forces cast even if creature is out of mana or out of range |
-  | 8 | 0x08 | :x: SMARTCAST_NO_MELEE_IF_OOM | Prevents creature from entering melee if out of mana or out of range |
-  | 16 | 0x10 | :x: SMARTCAST_FORCE_TARGET_SELF | Forces the target to cast this spell on itself |
-  | 32 | 0x20 | SMARTCAST_AURA_NOT_PRESENT |  Only casts the spell if the target does not have an aura from the spell |
-  | 64 | 0x40 | SMARTCAST_COMBAT_MOVE |  Prevents combat movement if cast successful. Allows movement on range, OOM, LOS |
-  {.dense}
+* **action_param2**:  
+  <!--@include: @/partial/335/smart-cast-flags.md-->
+
 * **action_param3**:
 caster_**target_type**
 * **action_param4**:
@@ -3761,15 +3678,9 @@ SMART_ACTION_SEND_GOSSIP_MENU (98)
 Set loot state of target gameobjects.
 * **action_type**:
 SMART_ACTION_GO_SET_LOOT_STATE (99)
-* **action_param1**:
-[`enum LootState`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/GameObject/GameObject.h#L74-L79)
-  | ID | Name | Comment |
-  |----|------|---------|
-  | 0 | GO_NOT_READY |  |
-  | 1 | GO_READY | can be ready but despawned, and then not possible activate until spawn |
-  | 2 | GO_ACTIVATE |  |
-  | 3 | GO_JUST_DEACTIVATED |  |
-  {.dense}
+* **action_param1**:  
+  <!--@include: @/partial/335/loot-state.md-->
+
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -4238,13 +4149,9 @@ SMART_ACTION_REMOVE_ALL_GAMEOBJECTS (126)
 Target units pause movement caused by given movement slot.
 * **action_type**:
 SMART_ACTION_PAUSE_MOVEMENT (127)
-* **action_param1**:
-[`enum MovementSlot`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Movement/MovementDefines.h#L63-L68)
-  | ID | Name | Comment |
-  |----|------|---------|
-  | 0 | MOTION_SLOT_DEFAULT | idle, follow, etc. |
-  | 1 | MOTION_SLOT_ACTIVE | point movement |
-  {.dense}  
+* **action_param1**:  
+  <!--@include: @/partial/335/movement-slot.md-->
+
 * **action_param2**:
 pause (in msec.)
 `0`: indefinitely
@@ -4317,14 +4224,9 @@ SMART_ACTION_SPAWN_SPAWNGROUP (131)
 minDelay (in sec.)
 * **action_param3**:
 maxDelay (in sec.)
-* **action_param4**:
-[`enum SMARTAI_SPAWN_FLAGS`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/AI/SmartScripts/SmartScriptMgr.h#L1196-L1202)
-  | Value | Flag | Name |
-  |-------|------|------|
-  | 1 | 0x01 | SMARTAI_SPAWN_FLAG_IGNORE_RESPAWN |
-  | 2 | 0x02 | SMARTAI_SPAWN_FLAG_FORCE_SPAWN |
-  | 4 | 0x04 | SMARTAI_SPAWN_FLAG_NOSAVE_RESPAWN |
-  {.dense}
+* **action_param4**:  
+  <!--@include: @/partial/335/smartai-spawn-flags.md-->
+
 * **action_param5**:
 `0`
 * **action_param6**:
@@ -4339,14 +4241,9 @@ SMART_ACTION_DESPAWN_SPAWNGROUP (132)
 minDelay (in sec.)
 * **action_param3**:
 maxDelay (in sec.)
-* **action_param4**:
-[`enum SMARTAI_SPAWN_FLAGS`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/AI/SmartScripts/SmartScriptMgr.h#L1196-L1202)
-  | Value | Flag | Name |
-  |-------|------|------|
-  | 1 | 0x01 | SMARTAI_SPAWN_FLAG_IGNORE_RESPAWN |
-  | 2 | 0x02 | SMARTAI_SPAWN_FLAG_FORCE_SPAWN |
-  | 4 | 0x04 | SMARTAI_SPAWN_FLAG_NOSAVE_RESPAWN |
-  {.dense}
+* **action_param4**:  
+  <!--@include: @/partial/335/smartai-spawn-flags.md-->
+
 * **action_param5**:
 `0`
 * **action_param6**:
@@ -4375,41 +4272,12 @@ Last invoker will cast spell ID with castFlags on target units.
 SMART_ACTION_INVOKER_CAST (134)
 * **action_param1**:
 [Spell ID](/files/DBC/335/spell#id)
-* **action_param2**:
-[`enum SmartCastFlags`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/AI/SmartScripts/SmartScriptMgr.h#L1541-L1550)
-  | Value | Flag | Name | Comment |
-  |-------|------|------|---------|
-  | 1 | 0x01 | SMARTCAST_INTERRUPT_PREVIOUS |  Interrupt any spell casting |
-  | 2 | 0x02 | SMARTCAST_TRIGGERED |  Triggered (this makes spell cost zero mana and have no cast time) |
-  | 4 | 0x04 | :x: SMARTCAST_FORCE_CAST | Forces cast even if creature is out of mana or out of range |
-  | 8 | 0x08 | :x: SMARTCAST_NO_MELEE_IF_OOM | Prevents creature from entering melee if out of mana or out of range |
-  | 16 | 0x10 | :x: SMARTCAST_FORCE_TARGET_SELF | Forces the target to cast this spell on itself |
-  | 32 | 0x20 | SMARTCAST_AURA_NOT_PRESENT |  Only casts the spell if the target does not have an aura from the spell |
-  | 64 | 0x40 | SMARTCAST_COMBAT_MOVE |  Prevents combat movement if cast successful. Allows movement on range, OOM, LOS |
-  {.dense}
-* **action_param3**:
-[`enum TriggerCastFlags`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Spells/SpellDefines.h#L146-L173)
-  | Value | Flag | Name | Comment |
-  |-------|------|------|---------|
-  | 1 | 0x00000001 | TRIGGERED_IGNORE_GCD | Will ignore GCD |
-  | 2 | 0x00000002 | TRIGGERED_IGNORE_SPELL_AND_CATEGORY_CD | Will ignore Spell and Category cooldowns |
-  | 4 | 0x00000004 | TRIGGERED_IGNORE_POWER_AND_REAGENT_COST | Will ignore power and reagent cost |
-  | 8 | 0x00000008 | TRIGGERED_IGNORE_CAST_ITEM | Will not take away cast item or update related achievement criteria |
-  | 16 | 0x00000010 | TRIGGERED_IGNORE_AURA_SCALING | Will ignore aura scaling |
-  | 32 | 0x00000020 | TRIGGERED_IGNORE_CAST_IN_PROGRESS | Will not check if a current cast is in progress |
-  | 64 | 0x00000040 | TRIGGERED_IGNORE_COMBO_POINTS | Will ignore combo point requirement |
-  | 128 | 0x00000080 | TRIGGERED_CAST_DIRECTLY | In Spell::prepare, will be cast directly without setting containers for executed spell |
-  | 256 | 0x00000100 | TRIGGERED_IGNORE_AURA_INTERRUPT_FLAGS | Will ignore interruptible aura's at cast |
-  | 512 | 0x00000200 | TRIGGERED_IGNORE_SET_FACING | Will not adjust facing to target (if any) |
-  | 1024 | 0x00000400 | TRIGGERED_IGNORE_SHAPESHIFT | Will ignore shapeshift checks |
-  | 2048 | 0x00000800 | TRIGGERED_IGNORE_CASTER_AURASTATE | Will ignore caster aura states including combat requirements and death state |
-  | 4096 | 0x00001000 | TRIGGERED_DISALLOW_PROC_EVENTS | Disallows proc events from triggered spell (default) |
-  | 8192 | 0x00002000 | TRIGGERED_IGNORE_CASTER_MOUNTED_OR_ON_VEHICLE | Will ignore mounted/on vehicle restrictions |
-  | 65536 | 0x00010000 | TRIGGERED_IGNORE_CASTER_AURAS | Will ignore caster aura restrictions or requirements |
-  | 131072 | 0x00020000 | TRIGGERED_DONT_RESET_PERIODIC_TIMER | Will allow periodic aura timers to keep ticking (instead of resetting) |
-  | 262144 | 0x00040000 | TRIGGERED_DONT_REPORT_CAST_ERROR | Will return SPELL_FAILED_DONT_REPORT in CheckCast functions |
-  | 524288 | 0x00080000 | TRIGGERED_IGNORE_EQUIPPED_ITEM_REQUIREMENT | Will ignore equipped item requirements |
-  {.dense}
+* **action_param2**:  
+  <!--@include: @/partial/335/smart-cast-flags.md-->
+
+* **action_param3**:  
+  <!--@include: @/partial/335/trigger-cast-flags.md-->
+
 * **action_param4**:
 maxTargets (`0`: all)
 * **action_param5**:
@@ -4436,29 +4304,9 @@ SMART_ACTION_PLAY_CINEMATIC (135)
 Set movement speed of target creatures.
 * **action_type**:
 SMART_ACTION_SET_MOVEMENT_SPEED (136)
-* **action_param1**:
-[`enum MovementGeneratorType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Movement/MovementDefines.h#L26-L48)
-  |--|--|
-  | IDLE_MOTION_TYPE | 0 |
-  | RANDOM_MOTION_TYPE | 1 |
-  | WAYPOINT_MOTION_TYPE | 2 |
-  | MAX_DB_MOTION_TYPE | 3 |
-  | CONFUSED_MOTION_TYPE | 4 |
-  | CHASE_MOTION_TYPE | 5 |
-  | HOME_MOTION_TYPE | 6 |
-  | FLIGHT_MOTION_TYPE | 7 |
-  | POINT_MOTION_TYPE | 8 |
-  | FLEEING_MOTION_TYPE | 9 |
-  | DISTRACT_MOTION_TYPE | 10 |
-  | ASSISTANCE_MOTION_TYPE | 11 |
-  | ASSISTANCE_DISTRACT_MOTION_TYPE | 12 |
-  | TIMED_FLEEING_MOTION_TYPE | 13 |
-  | FOLLOW_MOTION_TYPE | 14 |
-  | ROTATE_MOTION_TYPE | 15 |
-  | EFFECT_MOTION_TYPE | 16 |
-  | SPLINE_CHAIN_MOTION_TYPE | 17 |
-  | FORMATION_MOTION_TYPE | 18 |
-  {.dense}
+* **action_param1**:  
+  <!--@include: @/partial/335/movement-generator-type.md-->
+
 * **action_param2**:
 speedInteger
 * **action_param3**:
@@ -4847,13 +4695,9 @@ SMART_ACTION_EXIT_VEHICLE (157)
 Target units resumes movement caused by given movement slot.
 **action_type**:
 SMART_ACTION_RESUME_MOVEMENT (158)
-* **action_param1**:
-  [`enum MovementSlot`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Movement/MovementDefines.h#L63-L68)
-  | ID | Name | Comment |
-  |----|------|---------|
-  | 0 | MOTION_SLOT_DEFAULT | idle, follow, etc. |
-  | 1 | MOTION_SLOT_ACTIVE | point movement |
-  {.dense} 
+* **action_param1**:  
+  <!--@include: @/partial/335/movement-slot.md-->
+
 * **action_param2**:
 ResumeTime (in ms.)
 `0`: indefinitely

@@ -29,18 +29,9 @@ Option ID as referenced in [`gossip_menu_option.OptionID`](/database/master/worl
 &nbsp;
 
 ### Locale
-|Value|Locale|
-|:---:|:---: |
-|deDE|German|
-|esES|Spanish|
-|esMX|Spanish (Latin American)|
-|frFR|French|
-|itIT|Italian|
-|koKR|Korean|
-|ptBR|Portuguese|
-|ruRU|Russian|
-|zhCN|Chinese (China)|
-|zhTW|Chinese (Taiwan/Traditional)|
+
+<!--@include: @/partial/master/localization.md-->
+
 &nbsp;
 
 ### OptionText
@@ -50,4 +41,3 @@ OptionText for the given locale
 ### BoxText
 BoxText for the given locale
 &nbsp;
-

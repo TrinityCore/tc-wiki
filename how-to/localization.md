@@ -13,7 +13,7 @@ dateCreated: 2023-10-04T08:09:51.762Z
 This is the list of locale codes/indizes used when reading string in dbc or in \*\_locale Trinity table.
 &nbsp;
 
-## DBCs
+## DBC/DB2
 
 When reading a dbc, all string fields diplayed at client screen are localized if you use a non US/GB version of the client. To get the localized strings, you need to read one of the fields next to the english one.
 Use this table to know which column to the right of the English one you have to read to see localized data. The strings block is always followed by a bitmask/flags field of unknown purpose.
@@ -23,11 +23,11 @@ Use this table to know which column to the right of the English one you have to 
 
 &nbsp;
 
-## Trinity Database
+## TrinityCore Database
 
 When reading a \*\_locale table from database, the localized string can be fetched by matching the locale string to the locale column.
 
-> Note: The core/database [support only 9 languages](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/common/Common.h#L47-L59) while dbc can support 16 languages.
+> Note: The core/database support only [9 (3.3.5.)](https://github.com/TrinityCore/TrinityCore/blob/e490cad2b0cb538c554006a7a8842b39f7ca143e/src/common/Common.h#L47-L60) and [11 (master)](https://github.com/TrinityCore/TrinityCore/blob/6ebe044cbb9895b458fcd3244639acadff287809/src/common/Common.h#L50-L66) languages, while the client can support 16 languages.
 {.is-info}
 
 &nbsp;
@@ -45,12 +45,11 @@ When reading a \*\_locale table from database, the localized string can be fetch
 | 6 | `esES` |  | Spanish (EU) |
 | 7 | `esMX` |  | Spanish (Latin America) |
 | 8 | `ruRU` |  | Russian |
-| 9 | `jaJP` |  | :x: Japanese^(unsure)^ |
-| 10 | `ptPT` | ptBR | :x: Portugese (EU / Latin America) |
-| 11 | `itIT` |  | :x: Italian |
+| 9 | `jaJP` |  | :x: Japanese<sup>>(unsure)</sup> |
+| 10 | `ptBR` | ptPT | Portuguese (Latin America / EU) <sup>(master branch)</sup> |
+| 11 | `itIT` |  | Italian <sup>(master branch)</sup> |
 | 12 |  |  | Unknown |
 | 13 |  |  | Unknown |
 | 14 |  |  | Unknown |
 | 15 |  |  | Unknown |
 | 16 | - | - | lang ref flags |
-{.dense}

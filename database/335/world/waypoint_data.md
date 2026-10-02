@@ -55,7 +55,9 @@ The Z coordinate of the destination waypoint.
 &nbsp;
 
 ### orientation
-The orientation of the creature. (North = 0.0; South = π (3.14159))
+The orientation of the creature.  
+<!--@include: @/partial/orientation.md-->
+
 &nbsp;
 
 ### delay
@@ -86,4 +88,3 @@ This field is used by the core and is _NOT_ to be set by hand.
 
 This field holds the GUID of the waypoint visual when you enable the visual mode for waypoints.
 &nbsp;
-
