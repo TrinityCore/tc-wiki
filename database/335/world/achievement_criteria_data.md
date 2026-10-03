@@ -1,10 +1,10 @@
 ---
 title: achievement_criteria_data
-description: 
-published: true
-date: 2025-12-15T00:34:46.161Z
+description: ''
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
+published: true
 editor: markdown
+date: 2025-12-15T00:34:46.161Z
 dateCreated: 2021-08-30T22:02:33.368Z
 ---
 
@@ -49,8 +49,6 @@ Depending on this value, it will determine how **value1** and **value2** are use
   [ChrClass ID](/files/DBC/335/chrclasses#id-alt)
 * **value2**:  
   [ChrRace ID](/files/DBC/335/chrraces#id-alt)
-
- 
 :::
 
 ::: details ACHIEVEMENT_CRITERIA_DATA_TYPE_T_PLAYER_LESS_HEALTH (3)
@@ -236,14 +234,14 @@ known (pvp) title
   [game_event.eventEntry](../world/game_event#evententry)
 * **value2**:  
   `0`
-
 :::
 
 ::: details ACHIEVEMENT_CRITERIA_DATA_TYPE_S_ITEM_QUALITY (25)
 * **value1**:  
   [item_template.Quality](../world/item_template#quality)
 * **value2**:  
-  0
+  `0`
+:::
 
 &nbsp;
 
