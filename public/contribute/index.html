@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Edit · TrinityCore Wiki</title>
+  <link rel="icon" href="/tc_logo.png">
+  <style>
+    .hint {
+      position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%); z-index: 1000;
+      max-width: calc(100% - 32px); padding: 12px 16px; border-radius: 6px; cursor: pointer;
+      background: #fff3cd; color: #664d03; border: 1px solid #ffda6a; box-shadow: 0 2px 8px rgba(0,0,0,.2);
+      font: 14px/1.4 system-ui, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <!-- Start Sveltia CMS by hand, once the preview stylesheet is registered. -->
+  <script>window.CMS_MANUAL_INIT = true</script>
+  <!-- Sveltia loads its lazy chunks from the same pinned version directory, and
+       Immutable.js and other helpers from unpkg.com. -->
+  <script src="https://cdn.jsdelivr.net/npm/@sveltia/cms@0.227.2/dist/sveltia-cms.js" integrity="sha384-gCr3f3RuJYg6+sIiMAg2eO1+YeXswqgZAF7gmS1lggpTauAbv+2yFhIX8gol7JCy" crossorigin="anonymous"></script>
+  <div id="fork-hint" class="hint" role="alert" hidden onclick="this.hidden = true">
+    Your fork of the wiki is out of date, so GitHub rejects the save. Open
+    <a id="fork-link" target="_blank" rel="noopener">your fork</a>, click <b>Sync fork</b>,
+    then <b>Update branch</b>, and save again.
+  </div>
+  <!-- The CMS's own preview does not know {.is-info} or :emoji:. Render with the
+       same markdown-it plugins VitePress uses, in the site stylesheet, instead. -->
+  <script src="https://cdn.jsdelivr.net/npm/markdown-it@14.1.0/dist/markdown-it.min.js" integrity="sha384-wLhprpjsmjc/XYIcF+LpMxd8yS1gss6jhevOp6F6zhiIoFK6AmHtm4bGKtehTani" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markdown-it-attrs@4.3.1/markdown-it-attrs.browser.js" integrity="sha384-x7/cajBAdDAXNBhe8vNNlRjlB/UuamDg9uMIUg3C+kQOPaBWDg7khpyX13BiKuue" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/markdown-it-emoji@3.0.0/dist/markdown-it-emoji.min.js" integrity="sha384-BGX8e6xhwiGY+TZktKRC7/SR8/yLgir3km0d4oqYSbmvR93z9ruJnciVEtjdJWPV" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.2.6/dist/purify.min.js" integrity="sha384-JEyTNhjM6R1ElGoJns4U2Ln4ofPcqzSsynQkmEc/KGy6336qAZl70tDLufbkla+3" crossorigin="anonymous"></script>
+  <script>
+    const md = markdownit({ html: true, linkify: true }).use(markdownItAttrs).use(markdownitEmoji.full || markdownitEmoji)
+    // Other people's drafts can be opened here with a maintainer's GitHub token in
+    // the page, so sanitize like the CMS's own preview does.
+    const PagePreview = ({ entry }) => {
+      const html = DOMPurify.sanitize(md.render(entry.getIn(['data', 'body']) || ''))
+      // The site shows the title as the H1 when the page has none.
+      return h('div', { className: 'vp-doc', style: { padding: '24px 32px' } },
+        /<h1[\s>]/i.test(html) ? null : h('h1', {}, entry.getIn(['data', 'title'])),
+        h('div', { dangerouslySetInnerHTML: { __html: html } }))
+    }
+    for (const c of ['install', 'how-to', 'database', 'files', 'troubleshooting-articles', 'contributing']) CMS.registerPreviewTemplate(c, PagePreview)
+    // The stylesheet name has a build hash, so take it from the home page.
+    fetch('/').then(r => r.text()).then(t => {
+      const css = t.match(/href="(\/assets\/style\.[\w-]+\.css)"/)
+      if (css) CMS.registerPreviewStyle(css[1])
+    }).finally(() => CMS.init())
+    // The CMS syncs an existing fork with upstream at login, but GitHub refuses that
+    // when upstream changed .github/workflows (the token has no workflow scope), and
+    // every save from the stale fork then fails. Stop the save and say how to sync.
+    CMS.registerEventListener({ name: 'preSave', handler: async () => {
+      const { token } = JSON.parse(localStorage.getItem('sveltia-cms.user') || '{}')
+      const gh = path => fetch('https://api.github.com/' + path, { headers: { Authorization: `token ${token}` } })
+        .then(r => r.ok ? r.json() : null)
+      const upstream = await gh('repos/TrinityCore/tc-wiki')
+      // Maintainers save to the wiki repo itself, not a fork.
+      if (!upstream || upstream.permissions?.push) return
+      const { login } = await gh('user')
+      const compare = await gh(`repos/${login}/tc-wiki/compare/TrinityCore:tc-wiki:main...main`)
+      if (!compare?.behind_by) return
+      document.getElementById('fork-link').href = `https://github.com/${login}/tc-wiki`
+      document.getElementById('fork-hint').hidden = false
+      throw new Error('your fork is out of date, sync it on GitHub first')
+    } })
+  </script>
+</body>
+</html>

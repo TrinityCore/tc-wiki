@@ -1,0 +1,49 @@
+# Sveltia CMS config for the trial page editor at /contribute. /edit still
+# runs Decap CMS from public/edit; keep the collections of both in sync.
+# Anyone with a GitHub account can edit: open_authoring forks the wiki for
+# people without write access, and each change becomes a pull request.
+backend:
+  name: github
+  repo: TrinityCore/tc-wiki
+  branch: main
+  base_url: https://trinitycore.info
+  auth_endpoint: api/auth
+  open_authoring: true
+  # Forking and opening pull requests from the fork need no more than this.
+  auth_scope: public_repo
+  squash_merges: true
+  # auto-merge.yml skips pull requests labeled decap-cms/draft.
+  cms_label_prefix: decap-cms/
+publish_mode: editorial_workflow
+
+site_url: https://trinitycore.info
+logo: { src: /tc_logo.png }
+media_folder: public
+public_folder: /
+
+collections:
+  # Pages keep their Wiki.js front matter. The body uses raw markdown only:
+  # the rich text mode rewrites markdown and breaks {.is-info} attributes,
+  # raw HTML and the Structure tables.
+  # No meta path field: Decap rejected any path that is not lower case, so pages
+  # under files/DBC or install/Core-Installation could not be saved. New pages
+  # go in the collection folder.
+  - name: install
+    label: Install
+    folder: install
+    create: true
+    nested: &nested { depth: 10, subfolders: false, summary: '{{title}}' }
+    fields: &fields
+      - { name: title, label: Title, widget: string }
+      - { name: description, label: Description, widget: string, required: false }
+      - { name: tags, label: Tags, widget: string, required: false, hint: Comma-separated }
+      - { name: published, label: Published, widget: boolean, default: true }
+      - { name: editor, label: Editor, widget: hidden, default: markdown }
+      - { name: date, label: Date, widget: hidden }
+      - { name: dateCreated, label: Date created, widget: hidden }
+      - { name: body, label: Body, widget: markdown, modes: [raw] }
+  - { name: how-to, label: How-to, folder: how-to, create: true, nested: *nested, fields: *fields }
+  - { name: database, label: Databases, folder: database, create: true, nested: *nested, fields: *fields }
+  - { name: files, label: Files, folder: files, create: true, nested: *nested, fields: *fields }
+  - { name: troubleshooting-articles, label: Troubleshooting, folder: troubleshooting-articles, create: true, nested: *nested, fields: *fields }
+  - { name: contributing, label: Contributing, folder: contributing, create: true, nested: *nested, fields: *fields }
