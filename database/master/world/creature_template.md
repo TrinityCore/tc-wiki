@@ -130,7 +130,6 @@ Just because more than one faction has the same name, the inter-faction relation
 ### npcflag
 A bitmask that represents what NPC flags the creature has. Each bit controls a different flag and to combine flags, you can add each flag that you want, in effect activating the respective bits.
 
-| Flag                    ||        |         |
 | Decimal    | Hexadecimal | Name   | Comment |
 |:-----------|-------------|--------|---------|
 | 1          | 0x0000 0001 | Gossip | If creature has more gossip options, add this flag to bring up a menu. |
@@ -188,8 +187,8 @@ If non-zero, this field defines the size of how the model of the creature appear
 ### Classification
 The classification of the creature:
 
-| Classification | Name | Default Corpse Decay Time</br>Worldserver.conf ([Corpse.Decay](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/worldserver/worldserver.conf.dist#L1745)) |
-|---|---|:---:|:---:|:---:|
+| Classification | Name | Default Corpse Decay Time<br>Worldserver.conf ([Corpse.Decay](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/worldserver/worldserver.conf.dist#L1745)) |
+|---|---|:---:|
 | 0 | Normal | 5 min |
 | 1 | Elite | 5 min |
 | 2 | Rare Elite | 5 min |

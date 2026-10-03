@@ -32,6 +32,7 @@ This table format is used for 2 different tables to control possible scripts act
 | [o](#other-fields) | float |  |  | NO | 0 |  |  |
 | [guid](#guid) <sup>\[1]</sup> | int | signed | PRI | NO | 0 |  | Acts as primary key and is set automatically using the GM command 'wp event add' |
 | [Comment](#comment) | varchar(255) |  |  | NO | '' |  |  |
+
 <sup>1</sup> present in waypoint_scripts table only.
 &nbsp;
 ## Description of fields
