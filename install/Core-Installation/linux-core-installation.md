@@ -1,10 +1,10 @@
 ---
 title: Linux Core Installation
-description: 
+description: ''
+tags: ''
 published: true
-date: 2025-10-29T23:12:06.379Z
-tags: 
 editor: markdown
+date: 2025-10-29T23:12:06.379Z
 dateCreated: 2021-08-14T21:37:11.567Z
 ---
 
@@ -253,7 +253,7 @@ Afterwards return to the "Compiling the source code" section again, and repeat t
 
 When configuring MySQL make sure you remember the password you set for the default root account and that you enabled both MyISAM and InnoDB engines.
 
-**SPECIAL NOTES! you don't need to read this unless you want to do custom installations.**
+**SPECIAL NOTES! you don't need to follow the instructions below unless you want to do custom installations.**
 
 Things to notice :
 
@@ -269,4 +269,3 @@ It will create the following structure:
 
 > Please remember to rename the **worldserver.conf.dist** and **authserver.conf.dist** files in **worldserver.conf** and **authserver.conf** respectively, unless you want to keep the configuration files of a previously compiled version of the core.
 {.is-info}
-
