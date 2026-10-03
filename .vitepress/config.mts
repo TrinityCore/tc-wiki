@@ -115,6 +115,15 @@ export default defineConfig({
     ['script', { defer: '', src: 'https://tr.kpsn.dev/script.js', 'data-website-id': 'eaecc4a9-c766-4563-8ef6-500085fd579f' }],
   ],
   markdown: {
+    // Wiki.js turned every newline into a line break; the pages were written that way.
+    breaks: true,
+    // VitePress's default slugify, minus `_`: Wiki.js kept underscores in heading ids, and the
+    // field links on database/DBC pages (`#session_key_auth`) and outside links still use them.
+    anchor: {
+      slugify: (s) => s.normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/[\u0000-\u001f]/g, '')
+        .replace(/[\s~`!@#$%^&*()\-+=[\]{}|\\;:"'“”‘’<>,.?/]+/g, '-').replace(/-{2,}/g, '-')
+        .replace(/^-+|-+$/g, '').replace(/^(\d)/, '_$1').toLowerCase(),
+    },
     config(md) {
       // Wiki.js rendered the front matter title as the page header, so most pages have no H1 of their own.
       md.core.ruler.push('frontmatter_h1', (state) => {
