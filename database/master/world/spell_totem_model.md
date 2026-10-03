@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T09:37:27.100Z
 | [SpellID](#spellid) | int | unsigned | PRI | NO |  |  |  |
 | [RaceID](#raceid) | tinyint | unsigned | PRI | NO |  |  |  |
 | [DisplayID](#displayid) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ dateCreated: 2021-08-30T09:37:27.100Z
 ### DisplayID
 *- no description -*
 &nbsp;
-
-

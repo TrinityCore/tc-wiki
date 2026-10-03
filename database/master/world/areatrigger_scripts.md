@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T09:28:51.767Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entry](#entry) | int | signed | PRI | NO |  |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -32,4 +33,3 @@ This is the trigger identifier from [AreaTrigger.db2](https://wago.tools/db2/are
 The ScriptName for when scripting it in the core.
 This might also be 'SmartTrigger'. It will than use [SmartAI](/database/master/world/smart_scripts).
 &nbsp;
-

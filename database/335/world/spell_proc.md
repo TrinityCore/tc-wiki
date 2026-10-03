@@ -17,9 +17,9 @@ This table holds information on what events (or procs) certain spells are activa
 | [SpellId](#spellid) | int | signed | PRI | NO | 0 |  |  |
 | [SchoolMask](#schoolmask) | tinyint | unsigned |  | NO | 0 |  |  |
 | [SpellFamilyName](#spellfamilyname) | smallint | unsigned |  | NO | 0 |  |  |
-| [SpellFamilyMask0](#spellfamilymask0-2) | int | unsigned |  | NO | 0 |  |  |
-| [SpellFamilyMask1](#spellfamilymask0-2) | int | unsigned |  | NO | 0 |  |  |
-| [SpellFamilyMask2](#spellfamilymask0-2) | int | unsigned |  | NO | 0 |  |  |
+| [SpellFamilyMask0](#spellfamilymask-0-2) | int | unsigned |  | NO | 0 |  |  |
+| [SpellFamilyMask1](#spellfamilymask-0-2) | int | unsigned |  | NO | 0 |  |  |
+| [SpellFamilyMask2](#spellfamilymask-0-2) | int | unsigned |  | NO | 0 |  |  |
 | [ProcFlags](#procflags) | int | unsigned |  | NO | 0 |  |  |
 | [SpellTypeMask](#spelltypemask) | int | unsigned |  | NO | 0 |  |  |
 | [SpellPhaseMask](#spellphasemask) | int | unsigned |  | NO | 0 |  |  |
@@ -30,11 +30,12 @@ This table holds information on what events (or procs) certain spells are activa
 | [Chance](#chance) | float |  |  | NO | 0 |  |  |
 | [Cooldown](#cooldown) | int | unsigned |  | NO | 0 |  |  |
 | [Charges](#charges) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### SpellId
-The [Spell ID](/files/DBC/335/spell#id) that is capable to proc on an event. (Can use negative SpellID for [ranked spells](../world/spell_ranks#first_spell_id))
+The [Spell ID](/files/DBC/335/spell#id-alt) that is capable to proc on an event. (Can use negative SpellID for [ranked spells](../world/spell_ranks#first_spell_id))
 &nbsp;
 
 ### SchoolMask
@@ -72,7 +73,6 @@ Used to choose what types of spells may trigger the proc, to combine, just add t
 | 1 | 0x01 | PROC_SPELL_TYPE_DAMAGE | only damaging spells |
 | 2 | 0x02 | PROC_SPELL_TYPE_HEAL | only healing spells |
 | 4 | 0x04 | PROC_SPELL_TYPE_NO_DMG_HEAL | all other spells |
-{.dense}
 
 &nbsp;
 
@@ -83,7 +83,6 @@ At which phase may the spell trigger the proc. Normally only one of them is used
 | 1 | 0x01 | PROC_SPELL_PHASE_CAST | trigger when spell has just finished casting |
 | 2 | 0x02 | PROC_SPELL_PHASE_HIT | trigger when the spell hits its target |
 | 4 | 0x04 | PROC_SPELL_PHASE_FINISH | trigger after spell has done all its effects on all targets |
-{.dense}
 
 &nbsp;
 
@@ -103,7 +102,6 @@ Adds special behaviour to the proc, spell might trigger proc only if these condi
 | 8 | 0x0008 |  PROC_ATTR_REQ_SPELLMOD | requires triggering spell to be affected by proccing aura to drop charges |
 | 128 | 0x0080 |  PROC_ATTR_REDUCE_PROC_60 | aura should have a reduced chance to proc if level of proc Actor > 60 |
 | 256 | 0x0100 |  PROC_ATTR_CANT_PROC_FROM_ITEM_CAST | do not allow aura proc if proc is caused by a spell casted by item |
-{.dense}
 
 &nbsp;
 

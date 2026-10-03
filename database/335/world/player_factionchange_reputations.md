@@ -16,18 +16,18 @@ Basically all faction/reputation changes made when player changes faction.
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [alliance_id](#alliance_id) | int | unsigned | PRI | NO |  |  |  |
 | [horde_id](#horde_id) | int | unsigned | PRI | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### alliance_id
-This is the alliance [Faction ID](/files/DBC/335/faction#id). If you convert to horde and your factions have a record in his table, they will be converted to **horde_id**.
+This is the alliance [Faction ID](/files/DBC/335/faction#id-alt). If you convert to horde and your factions have a record in his table, they will be converted to **horde_id**.
 See [character_reputation.faction](../characters/character_reputation#faction)
 
 &nbsp;
 
 ### horde_id
-This is the horde [Faction ID](/files/DBC/335/faction#id). If you convert to alliance and your factions have a record in his table, they will be converted to **alliance_id**.
+This is the horde [Faction ID](/files/DBC/335/faction#id-alt). If you convert to alliance and your factions have a record in his table, they will be converted to **alliance_id**.
 See [character_reputation.faction](../characters/character_reputation#faction)
 
 &nbsp;
-

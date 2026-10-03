@@ -22,6 +22,7 @@ dateCreated: 2022-12-19T18:36:55.053Z
 | [entranceWorldSafeLocId](#entranceworldsafelocid) | int | unsigned |  | YES | NULL |  |  |
 | [expiryTime](#expirytime) | bigint | unsigned |  | YES | NULL |  |  |
 | [extended](#extended) | tinyint | unsigned |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -64,4 +65,3 @@ dateCreated: 2022-12-19T18:36:55.053Z
 ### extended
 *- no description -*
 &nbsp;
-

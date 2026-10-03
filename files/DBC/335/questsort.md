@@ -38,6 +38,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 15 | [SortName_14](#sortname) | string |  |
 | 16 | [SortName_15](#sortname) | string |  |
 | 17 | [SortName_lang_mask](#sortname) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -52,4 +53,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

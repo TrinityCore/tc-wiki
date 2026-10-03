@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T09:36:19.402Z
 | [requiredSpecialization](#requiredspecialization) | int | unsigned |  | NO | 0 |  | Specialization spell id |
 | [additionalCreateChance](#additionalcreatechance) | float |  |  | NO | 0 |  | chance to create add |
 | [additionalMaxNum](#additionalmaxnum) | tinyint | unsigned |  | NO | 0 |  | max num of adds |
+
 &nbsp;
 ## Description of fields
 
@@ -45,8 +46,6 @@ given **additionalCreateChance** = 35 and **additionalMaxNum** = 4:
 | 3 | 12.25% |
 | 4 | 1.50% |
 | 5 | 0.00% |
-{.dense}
 
 
 &nbsp;
-

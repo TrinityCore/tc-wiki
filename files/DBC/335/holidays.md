@@ -75,6 +75,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 52 | [Priority](#priority) | uint32 |  |
 | 53 | [CalendarFilterType](#calendarfiltertype) | int32 |  |
 | 54 | [Flags](#flags) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -176,4 +177,3 @@ WoW region
 0 = Darkmoon Faire, Fishing Contest and Wotlk Launch, rest is 1
 IsRegionwide?
 &nbsp;
-

@@ -38,6 +38,7 @@ dateCreated: 2021-11-14T20:12:34.174Z
 | [ShapeData7](#shapedata0-7) | float |  |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -73,6 +74,7 @@ Describes whether referenced `AreaTriggerId` is a custom id or not.
 |0x00200 | HasAnimKitId (DEPRECATED)|
 |0x00400 | HasCircularMovement (DEPRECATED)|
 |0x00800 | Unk5|
+
 &nbsp;
 
 ### MoveCurveId
@@ -126,6 +128,7 @@ Shape determines the general design of an areatrigger.
 |3|AREATRIGGER_TYPE_POLYGON|
 |4|AREATRIGGER_TYPE_CYLINDER|
 |5|AREATRIGGER_TYPE_MAX|
+
 &nbsp;
 
 ### ShapeData0-7
@@ -138,6 +141,7 @@ The data changes depending on the Shape.
 |ShapeData3| - | ExtentsTargetX | | - | HeightTarget |
 |ShapeData4| - | ExtentsTargetY | | - | LocationZOffset |
 |ShapeData5| - | ExtentsTargetZ | | - | LocationZOffsetTarget |
+
 &nbsp;
 
 ### ScriptName
@@ -156,4 +160,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 
 &nbsp;
-

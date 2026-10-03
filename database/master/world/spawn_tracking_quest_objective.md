@@ -15,6 +15,7 @@ dateCreated: 2025-01-08T23:43:09.237Z
 | [SpawnTrackingId](#spawntrackingid) | int | unsigned | PRI | NO |  |  |  |
 | [QuestObjectiveId](#questobjectiveid) | int | unsigned | PRI | NO |  |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -23,7 +24,7 @@ SpawnTracking ID linked to the quest objective. It must match a SpawnTracking al
 &nbsp;
 
 ### QuestObjectiveId
-An existing [quest_objectives.Id](/database/master/world/quest_objectives#id).
+An existing [quest_objectives.Id](/database/master/world/quest_objectives#id-alt).
 Some SpawnTrackings are reused for several quest objectives.
 &nbsp;
 
@@ -37,5 +38,3 @@ If value is above 0 then it has been parsed with WDB files from that specific cl
 If value is -1 then it is just a place holder until proper data are found on WDBs.
 
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
-
-

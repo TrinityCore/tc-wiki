@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T21:59:04.555Z
 | [type](#type) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [time](#time) | int | unsigned |  | NO | 0 |  |  |
 | [data](#data) | blob |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -36,7 +37,6 @@ AccountDataType of this entry.
 | 5 | PER_CHARACTER_MACROS_CACHE | Macros cache per character |
 | 6 | PER_CHARACTER_LAYOUT_CACHE | Layout cache per character |
 | 7 | PER_CHARACTER_CHAT_CACHE | Chat cache per character |
-{.dense}
 
 &nbsp;
 
@@ -47,4 +47,3 @@ Time of last modification in Unixtime
 ### data
 No description can be written. You just must understand it's data.
 &nbsp;
-

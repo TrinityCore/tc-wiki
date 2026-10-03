@@ -18,11 +18,12 @@ This table holds information on the base health and mana of characters when they
 | [level](#level) | tinyint | unsigned | PRI | NO |  |  |  |
 | [basehp](#basehp) | smallint | unsigned |  | NO |  |  |  |
 | [basemana](#basemana) | smallint | unsigned |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### class
-The players [ChrClass ID](/files/DBC/335/chrclasses#id)
+The players [ChrClass ID](/files/DBC/335/chrclasses#id-alt)
 <!--@include: @/partial/335/chrclasses.md{3,9}-->
 
 &nbsp;

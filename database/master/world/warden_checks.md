@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T09:38:03.122Z
 | [comment](#comment) | varchar(50) |  |  | YES | NULL |  |  |
 | [data](#data) | binary(24) |  |  | YES | NULL |  |  |
 | [result](#result) | varbinary(24) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -40,7 +41,6 @@ Unique ID, automatically incremented by 1
 | 191 |  PAGE_CHECK_B | scans only pages starts with MZ+PE headers for specified hash |
 | 217 |  MODULE_CHECK | check to make sure module isn't injected |
 | 243 |  MEM_CHECK | retrieve specific memory |
-{.dense}
 
 &nbsp;
 
@@ -67,4 +67,3 @@ Unique ID, automatically incremented by 1
 ### result
 *- no description -*
 &nbsp;
-

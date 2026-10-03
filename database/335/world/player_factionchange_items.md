@@ -20,6 +20,7 @@ Basically all item changes made when player changes faction.
 | [race_H](#race_h) | int | unsigned |  | NO |  |  |  |
 | [horde_id](#horde_id) | int | unsigned | PRI | NO |  |  |  |
 | [commentH](#commenth) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -54,4 +55,3 @@ This is the horde [item entry](../world/item_template#entry). If you convert to 
 ### commentH
 This is for easy item name identifying. Comment style should be name(ItemLevel).
 &nbsp;
-

@@ -80,6 +80,7 @@ dateCreated: 2023-10-04T08:01:51.629Z
 | 57 | [Flags](#flags) | uint32 |  |
 | 58 | [CinematicSequenceID](#cinematicsequenceid) | uint32 | [CinematicSequences.dbc/0](/files/DBC/335/cinematicsequences#id-alt) |
 | 59 | [RequiredExpansion](#requiredexpansion) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -154,7 +155,6 @@ Doesn't work for ChrClass 6?
 | 16 | 0x10 | Can Wear Scaling-Stat Mail |
 | 32 | 0x20 | Can Wear Scaling-Stat Plate |
 | 64 | 0x40 | Bind Starting Area |
-{.dense}
 
 &nbsp;
 

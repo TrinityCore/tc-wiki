@@ -18,6 +18,7 @@ Contains all creature instances that need to change display id and/or equipment 
 | [guid](#guid) | int | unsigned | PRI | NO | 0 |  |  |
 | [modelid](#modelid) | int | unsigned |  | NO | 0 |  |  |
 | [equipment_id](#equipment_id) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -35,7 +36,6 @@ Use 0 if only the **equipment_id** is to be changed during event.
 &nbsp;
 
 ### equipment_id
-New [equipmentID](../world/creature_equip_template#id) to be used during the event.
+New [equipmentID](../world/creature_equip_template#id-alt) to be used during the event.
 Use 0 if only the **modelid** is to be changed during event.
 &nbsp;
-

@@ -20,6 +20,7 @@ dateCreated: 2025-01-08T23:23:37.308Z
 | [StateAnimId](#stateanimid) | int | unsigned |  | NO |  |  |  |
 | [StateAnimKitId](#stateanimkitid) | int | unsigned |  | NO |  |  |  |
 | [StateWorldEffects](#stateworldeffects) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -67,5 +68,3 @@ AnimKit ID from AnimKit.db2 that is applied on creature/gameobject.
 
 ### StateWorldEffects
 This field controls any world effect (WorldEffect.db2) to be applied on the creature/gameobject. To apply multiple world effects, you can add more world effect ids, separating each id by a space.
-
-

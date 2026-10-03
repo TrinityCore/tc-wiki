@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T09:31:46.100Z
 | [spawnId](#spawnid) | bigint | unsigned | PRI | NO | 0 |  |  |
 | [faction](#faction) | smallint | unsigned |  | NO | 0 |  |  |
 | [flags](#flags) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -41,7 +42,5 @@ Replaces flags from [gameobject_template_addon.flags](../world/gameobject_templa
 | 128 | 0x00000080 | GO_FLAG_FREEZE_ANIMATION |  |
 | 512 | 0x00000200 | GO_FLAG_DAMAGED | Gameobject has been siege damaged |
 | 1024 | 0x00000400 | GO_FLAG_DESTROYED | Gameobject has been destroyed |
-{.dense}
 
 &nbsp;
-

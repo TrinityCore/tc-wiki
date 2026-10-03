@@ -18,11 +18,12 @@ This table holds the contents of pools created in [quest_pool_template](../world
 | [poolId](#poolid) | int | unsigned |  | NO |  |  |  |
 | [poolIndex](#poolindex) | tinyint | unsigned |  | NO |  |  | Multiple quests with the same index will always spawn together! |
 | [description](#description) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### questId
-adds a [quest entry](../world/quest_template#ID) to the pool with **poolId**.
+adds a [quest entry](../world/quest_template#id-alt) to the pool with **poolId**.
 > Note: The quest must be repeatable.
 {.is-info}
 
@@ -40,4 +41,3 @@ Incremental index of pool with **poolId**. Starts at `0`.
 This field usually names the quest and describes the pool it belongs to.
 Example: Fueling the Demolishers (Alliance, defenders)
 &nbsp;
-

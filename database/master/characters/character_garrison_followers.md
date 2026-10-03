@@ -23,6 +23,7 @@ dateCreated: 2021-08-30T07:27:58.825Z
 | [currentBuilding](#currentbuilding) | int | unsigned |  | NO | 0 |  |  |
 | [currentMission](#currentmission) | int | unsigned |  | NO | 0 |  |  |
 | [status](#status) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -69,5 +70,3 @@ dateCreated: 2021-08-30T07:27:58.825Z
 ### status
 *- no description -*
 &nbsp;
-
-

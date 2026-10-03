@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T07:30:06.447Z
 | [accusative](#accusative) | varchar(12) |  |  | NO | '' |  |  |
 | [instrumental](#instrumental) | varchar(12) |  |  | NO | '' |  |  |
 | [prepositional](#prepositional) | varchar(12) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -49,4 +50,3 @@ dateCreated: 2021-08-30T07:30:06.447Z
 ### prepositional
 *- no description -*
 &nbsp;
-

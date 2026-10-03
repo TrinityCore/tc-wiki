@@ -14,6 +14,7 @@ dateCreated: 2021-08-26T02:26:33.699Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [id](#id-alt) | int | unsigned | PRI | NO | 0 |  | Permission id |
 | [name](#name-alt) | varchar(100) |  |  | NO |  |  | Permission name |
+
 &nbsp;
 ## Description of fields
 
@@ -24,4 +25,3 @@ dateCreated: 2021-08-26T02:26:33.699Z
 ### name {#name-alt}
 *- no description -*
 &nbsp;
-

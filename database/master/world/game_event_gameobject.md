@@ -14,11 +14,12 @@ dateCreated: 2021-08-30T09:31:10.123Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [eventEntry](#evententry) | tinyint | signed | PRI | NO |  |  | Entry of the game event. Put negative entry to remove during event. |
 | [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### eventEntry
-This field signifies the [`game_event.eventEntry`](/database/master/world/game_event#eventEntry)
+This field signifies the [`game_event.eventEntry`](/database/master/world/game_event#evententry)
 ```
 Use  entry to add the gameobject during the event
 Use -entry to remove the gameobject during the event
@@ -28,5 +29,3 @@ Use -entry to remove the gameobject during the event
 ### guid
 GUID of the gameobject which should spawned/despawned during the event. Referenced in [`gameobject.guid`](/database/master/world/gameobject#guid)
 &nbsp;
-
-

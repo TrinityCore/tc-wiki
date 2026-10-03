@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T09:34:05.274Z
 | [SpellID](#spellid) | int | signed |  | YES | 0 |  |  |
 | [MaxStacks](#maxstacks) | int | signed |  | YES | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -63,5 +64,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 
 &nbsp;
-
-

@@ -22,12 +22,12 @@ If there is a record in the table for a quest, then the quest will not be comple
 ## Description of fields
 
 ### id {#id-alt}
-This is the [AreaTrigger ID](/files/DBC/335/areatrigger#id).
+This is the [AreaTrigger ID](/files/DBC/335/areatrigger#id-alt).
 
 <br>
 
 ### quest
-This is the [quest](../world/quest_template#id) id that the trigger is tied to.
+This is the [quest](../world/quest_template#id-alt) id that the trigger is tied to.
 
 <br>
 

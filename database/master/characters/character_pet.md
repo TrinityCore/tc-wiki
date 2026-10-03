@@ -29,6 +29,7 @@ dateCreated: 2021-08-30T07:29:46.627Z
 | [savetime](#savetime) | int | unsigned |  | NO | 0 |  |  |
 | [abdata](#abdata) | text |  |  | YES | NULL |  |  |
 | [specialization](#specialization) | smallint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -99,4 +100,3 @@ dateCreated: 2021-08-30T07:29:46.627Z
 ### specialization
 *- no description -*
 &nbsp;
-

@@ -54,6 +54,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 31 | [Data_13](#data) | float |  |
 | 32 | [Data_14](#data) | float |  |
 | 33 | [Data_15](#data) | float |  |
+
 &nbsp;
 ## Description of fields
 
@@ -70,7 +71,6 @@ Every [LightParamsID](/files/DBC/335/lightparams#id-alt) corresponds to 6 **ID**
 | 3 | Cloud Density - Controls the density of cloud cover in the area. Value range is 0.0 to 1.0. |
 | 4 | ? |
 | 5 | ? |
-{.dense}
 
 &nbsp;
 
@@ -91,4 +91,3 @@ Number of **Time**/**Data** pairs in use.
 
 *- no description -*
 &nbsp;
-

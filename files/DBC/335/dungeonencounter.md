@@ -43,6 +43,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 20 | [Name_15](#name-alt) | string |  |
 | 21 | [Name_lang_mask](#name-alt) | uint32 |  |
 | 22 | [SpellIconID](#spelliconid) | uint32 | [SpellIcon.dbc/0](/files/DBC/335/spellicon#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -87,4 +88,3 @@ Encounter index for creating completed mask.
 
 *- no description -*
 &nbsp;
-

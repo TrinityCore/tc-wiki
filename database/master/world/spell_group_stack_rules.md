@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T09:36:58.554Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [group_id](#group_id) | int | unsigned | PRI | NO | 0 |  |  |
 | [stack_rule](#stack_rule) | tinyint | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -31,5 +32,3 @@ Rule deciding which spell effect will prevail over the others as they are not st
 | 3 | SPELL_GROUP_STACK_RULE_EXCLUSIVE_SAME_EFFECT
 | 4 | SPELL_GROUP_STACK_RULE_EXCLUSIVE_HIGHEST
 &nbsp;
-
-

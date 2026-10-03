@@ -49,6 +49,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 26 | [AllocationPct_2](#allocationpct) | uint32 |  |
 | 27 | [AllocationPct_3](#allocationpct) | uint32 |  |
 | 28 | [AllocationPct_4](#allocationpct) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -83,4 +84,3 @@ Col 27 + 28 empty in 3.3.5a and unused in TC.
 
 <code>amount = [RandPropPoints](/files/DBC/335/randproppoints) value \* **AllocationPct** / 10000</code>
 &nbsp;
-

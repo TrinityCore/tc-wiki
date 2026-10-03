@@ -38,6 +38,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 15 | [InfoName_14](#infoname) | string |  |
 | 16 | [InfoName_15](#infoname) | string |  |
 | 17 | [InfoName_lang_mask](#infoname) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -52,4 +53,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

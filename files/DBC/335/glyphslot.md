@@ -23,6 +23,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [Type](#type) | uint32 |  |
 | 2 | [Tooltip](#tooltip) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -44,4 +45,3 @@ TC: used as slot type
 
 TC: used as slot index
 &nbsp;
-

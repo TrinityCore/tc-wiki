@@ -24,6 +24,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 1 | [CondExtendedCost](#condextendedcost) | uint32 |  |
 | 2 | [ItemExtendedCostEntry](#itemextendedcostentry) | uint32 | [ItemExtendedCost.dbc/0](/files/DBC/335/itemextendedcost#id-alt) |
 | 3 | [ArenaSeason](#arenaseason) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -50,4 +51,3 @@ ItemTemplate::ExtendedCost
 
 arena season number (1-4)
 &nbsp;
-

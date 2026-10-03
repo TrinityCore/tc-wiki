@@ -22,6 +22,7 @@ dateCreated: 2024-05-15T17:59:51.559Z
 | [StaticFlags6](#staticflags6) | int | unsigned |  | YES | NULL |  |  |
 | [StaticFlags7](#staticflags7) | int | unsigned |  | YES | NULL |  |  |
 | [StaticFlags8](#staticflags8) | int | unsigned |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -64,4 +65,3 @@ dateCreated: 2024-05-15T17:59:51.559Z
 ### StaticFlags8
 *- no description -*
 &nbsp;
-

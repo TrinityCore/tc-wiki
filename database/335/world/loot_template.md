@@ -47,6 +47,7 @@ Loot templates define only items in the loot. See comments about money drop in c
 | [MinCount](#mincount) | tinyint | unsigned |  | NO | 1 |  |  |
 | [MaxCount](#maxcount) | tinyint | unsigned |  | NO | 1 |  |  |
 | [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 
 ## Relations
@@ -55,9 +56,9 @@ The 12 tables have different relations with other DB tables.
 
 | table | field | relation | related table | related field | comment |
 |-------|-------|----------|---------------|---------------|---------|
-| fishing_loot_template | | no db relation | [AreaTable](/files/DBC/335/areatable) | [id](/files/DBC/335/areatable#id) | Entry is linked with ID of the fishing zone or area |
+| fishing_loot_template | | no db relation | [AreaTable](/files/DBC/335/areatable) | [id](/files/DBC/335/areatable#id-alt) | Entry is linked with ID of the fishing zone or area |
 | creature_loot_template | [Entry](#entry) | many <- many | [creature_template](../world/creature_template) | [lootid](../world/creature_template#lootid) |  |
-| gameobject_loot_template | [Entry](#entry) | many <- many |[gameobject_template](../world/gameobject_template) | [data1](../world/gameobject_template#data1) | Only GAMEOBJECT_TYPE_CHEST (3) or GAMEOBJECT_TYPE_FISHINGHOLE (25) |
+| gameobject_loot_template | [Entry](#entry) | many <- many |[gameobject_template](../world/gameobject_template) | [data1](../world/gameobject_template#data-0-23) | Only GAMEOBJECT_TYPE_CHEST (3) or GAMEOBJECT_TYPE_FISHINGHOLE (25) |
 | item_loot_template | [Entry](#entry) | many <- one | [item_template](../world/item_template) | [entry](../world/item_template#entry) | | |
 | disenchant_loot_template | [Entry](#entry) | many <- many | [item_template](../world/item_template) | [DisenchantID](../world/item_template#disenchantid) | | |
 | prospecting_loot_template | [Entry](#entry) | many <- one | [item_template](../world/item_template) | [entry](../world/item_template#entry) | | |
@@ -65,8 +66,8 @@ The 12 tables have different relations with other DB tables.
 | pickpocketing_loot_template | [Entry](#entry) | many <- many | [creature_template](../world/creature_template) | [pickpocketloot](../world/creature_template#pickpocketloot) | |
 | skinning_loot_template | [Entry](#entry) | many <- many | [creature_template](../world/creature_template) | [skinloot](../world/creature_template#skinloot) | Can also store minable/herbable items gathered from creatures |
 | mail_loot_template | [Entry](#entry) | many <- one | [quest_template_addon](../world/quest_template_addon)<br>[achievement_reward](../world/achievement_reward) | [RewardMailTemplateID](../world/quest_template_addon#rewardmailtemplateid)<br>[MailTemplateID](../world/achievement_reward#mailtemplateid) | |
-| spell_loot_template | [Entry](#entry) | no db relation | [Spell](/files/DBC/335/spell) | [id](/files/DBC/335/spell#id) | Only spells with SPELL_EFFECT_CREATE_RANDOM_ITEM (59) or SPELL_EFFECT_CREATE_ITEM_2 (157) |
-| reference_loot_template | [Entry](#entry) | many <- many | \*_loot_template | [Reference](#Reference) | |
+| spell_loot_template | [Entry](#entry) | no db relation | [Spell](/files/DBC/335/spell) | [id](/files/DBC/335/spell#id-alt) | Only spells with SPELL_EFFECT_CREATE_RANDOM_ITEM (59) or SPELL_EFFECT_CREATE_ITEM_2 (157) |
+| reference_loot_template | [Entry](#entry) | many <- many | \*_loot_template | [Reference](#reference) | |
 
 ## Description of fields
 
@@ -93,7 +94,7 @@ Agreements on **Entry** field values are described [there](#agreements).
 ### Reference
 Template reference asks core to process another loot template and to include all items dropped for that template into current loot. Simple idea.
 
-Value of [MaxCount](#MaxCount) field is used as a repetition factor for references - the reference will be processed not just once but exactly **MaxCount** times. So if the referenced template can produce 3 to 10 items (depending on luck) and value of **MaxCount** is '5' then after processing of that reference 15 to 50 items will be added to the loot. An awful example, isn't it? Actually no good example for whole template reference repetition is known, but it is quite useful for group references sometimes.
+Value of [MaxCount](#maxcount) field is used as a repetition factor for references - the reference will be processed not just once but exactly **MaxCount** times. So if the referenced template can produce 3 to 10 items (depending on luck) and value of **MaxCount** is '5' then after processing of that reference 15 to 50 items will be added to the loot. An awful example, isn't it? Actually no good example for whole template reference repetition is known, but it is quite useful for group references sometimes.
 
 Be careful. Self references (loot template includes reference to itself) and loop references (loot template A includes reference to entire template B, loot template B includes reference to entire template A) are completely different from internal references. If you make a self-reference like
 ```sql
@@ -132,7 +133,7 @@ Zero value of **Chance** is allowed for grouped entries only.
 &nbsp;
 
 ### QuestRequired
-Informs the core that the item should be shown only to characters having appropriate quest. This means that even if item is dropped, in order to see it in the loot the player must have at least one quest that has the [item ID](../world/item_template#entry) in its [RequiredItemId](../world/quest_template#requireditemid1) fields or in its [StartItem](quest_template#startitem) fields. The player must also have less copies of the item than [RequiredItemCount](../world/quest_template#requireditemcount1) or [ProvidedItemCount](../world/quest_template_addon#provideditemcount).
+Informs the core that the item should be shown only to characters having appropriate quest. This means that even if item is dropped, in order to see it in the loot the player must have at least one quest that has the [item ID](../world/item_template#entry) in its [RequiredItemId](../world/quest_template#requireditemid-1-6) fields or in its [StartItem](quest_template#startitem) fields. The player must also have less copies of the item than [RequiredItemCount](../world/quest_template#requireditemcount-1-6) or [ProvidedItemCount](../world/quest_template_addon#provideditemcount).
 &nbsp;
 
 ### LootMode
@@ -235,7 +236,7 @@ These agreements are different for different loot tables. Mainly agreements defi
 
 ### Fishing haul
 
-For fishing_loot_template, ID is the [AreaTable ID](/files/DBC/335/areatable#id)
+For fishing_loot_template, ID is the [AreaTable ID](/files/DBC/335/areatable#id-alt)
 
 Also an extra note on fishing_loot_template: if just one area ID is defined for a zone, then that whole zone ID is skipped and therefore all areas in that zone need to have entries in the table. Only when there doesn't exist any area entries for a zone does the core use the zone ID directly. Zone = Wetlands, Elwynn, etc; Area = Northshire, Lakeshire, etc.
 
@@ -321,7 +322,6 @@ Agreements for Reference Templates are as followed:
 | 14000-29000 | World Reference Templates |
 | 34000-34999 | Raid: Creature Reference Templates |
 | 35000-35999 | Dungeon Reference Templates |
-{.dense}
 
 &nbsp;
 

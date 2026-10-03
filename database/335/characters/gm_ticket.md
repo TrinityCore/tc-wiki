@@ -36,6 +36,7 @@ dateCreated: 2021-08-30T22:00:46.758Z
 | [viewed](#viewed) | tinyint | unsigned |  | NO | 0 |  |  |
 | [needMoreHelp](#needmorehelp) | tinyint | unsigned |  | NO | 0 |  |  |
 | [resolvedBy](#resolvedby) | int | signed |  | NO | 0 |  | GUID of GM who resolved the ticket |
+
 &nbsp;
 ## Description of fields
 
@@ -49,7 +50,6 @@ Unique ticket enumerator.
 | 0 | TICKET_TYPE_OPEN |
 | 1 | TICKET_TYPE_CLOSED |
 | 2 | TICKET_TYPE_CHARACTER_DELETED |
-{.dense}
 
 &nbsp;
 
@@ -58,7 +58,7 @@ The [guid](../characters/characters#guid) of the reporting character.
 &nbsp;
 
 ### name {#name-alt}
-The [character name](../characters/characters#name), who created that ticket.
+The [character name](../characters/characters#name-alt), who created that ticket.
 &nbsp;
 
 ### description
@@ -70,7 +70,7 @@ Unix timestamp when the ticket was submitted.
 &nbsp;
 
 ### mapId
-[Map ID](/files/DBC/335/map#id) where ticket has ben created.
+[Map ID](/files/DBC/335/map#id-alt) where ticket has ben created.
 &nbsp;
 
 ### posX
@@ -119,7 +119,6 @@ Successful resolution?
 | 1 | TICKET_ASSIGNED | ticket is assigned to a normal gm |
 | 2 | TICKET_IN_ESCALATION_QUEUE | ticket is in the escalation queue |
 | 3 | TICKET_ESCALATED_ASSIGNED | is a custom value and should never actually be sent |
-{.dense}
 
 &nbsp;
 
@@ -138,4 +137,3 @@ Requests further GM interaction on a ticket to which a GM has already responded.
 * 0: ticket is open or was closed by console.
 * \>0: [character guid](../characters/characters#guid) of the GM who resolved it by closing or completing the ticket.
 &nbsp;
-

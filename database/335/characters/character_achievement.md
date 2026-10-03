@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T21:59:07.193Z
 | [guid](#guid) | int | unsigned | PRI | NO |  |  |  |
 | [achievement](#achievement) | smallint | unsigned | PRI | NO |  |  |  |
 | [date](#date) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -27,10 +28,9 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### achievement
-[Achievement ID](/files/DBC/335/achievement#id)
+[Achievement ID](/files/DBC/335/achievement#id-alt)
 &nbsp;
 
 ### date
 The date/time when this achievement was earned, in Unix time.
 &nbsp;
-

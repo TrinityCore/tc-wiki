@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T22:01:19.039Z
 | [rname](#rname) | varchar(20) |  |  | NO | '' |  |  |
 | [rights](#rights) | mediumint | unsigned |  | NO | 0 |  |  |
 | [BankMoneyPerDay](#bankmoneyperday) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -65,11 +66,9 @@ The rights a player of this rank has in the guild.
 | 524288 | 0x00080000 | GR_RIGHT_WITHDRAW_GOLD | Can withdraw gold. |
 | 1048576 | 0x00100000 | GR_RIGHT_CREATE_GUILD_EVENT | Can create a guild event. |
 | 1962495 | 0x001DF1FF | GR_RIGHT_ALL | Has all of the rights. |
-{.dense}
 
 &nbsp;
 
 ### BankMoneyPerDay
 The total money per day, in copper, that a person with this rank can withdraw. Use the maximum value of an unsigned int (4294967295) to specify unlimited amount.
 &nbsp;
-

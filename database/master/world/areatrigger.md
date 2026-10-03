@@ -27,6 +27,7 @@ dateCreated: 2021-08-30T09:28:46.460Z
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
 | [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -35,7 +36,7 @@ A unique identifier given to each areatrigger to distinguish one areatrigger fro
 &nbsp;
 
 ### AreaTriggerCreatePropertiesId
-References [`areatrigger_create_properties.Id`](/database/master/world/areatrigger_create_properties#Id)
+References [`areatrigger_create_properties.Id`](/database/master/world/areatrigger_create_properties#id-alt)
 &nbsp;
 
 ### IsCustom
@@ -49,7 +50,7 @@ The [ID](https://wago.tools/db2/map){target=_blank} of the map that the areatrig
 ### SpawnDifficulties
 Comma separated list of difficulties.
 
-| Name | Value
+| Name | Value |
 | --- | :---: |
 | DIFFICULTY_NONE | 0 |
 | DIFFICULTY_NORMAL | 1 |
@@ -89,6 +90,7 @@ Comma separated list of difficulties.
 | DIFFICULTY_LFR_15TH_ANNIVERSARY | 151 |
 | DIFFICULTY_VISIONS_OF_NZOTH | 152 |
 | DIFFICULTY_TEEMING_ISLAND | 153 |
+
 &nbsp;
 
 ### PosX

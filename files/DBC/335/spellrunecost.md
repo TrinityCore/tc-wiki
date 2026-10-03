@@ -25,6 +25,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 2 | [RuneCost_1](#runecost) | uint32 |  |
 | 3 | [RuneCost_2](#runecost) | uint32 |  |
 | 4 | [RunicPower](#runicpower) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -47,4 +48,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 Runic Power gained.
 &nbsp;
-

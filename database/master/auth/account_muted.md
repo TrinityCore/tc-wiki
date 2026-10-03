@@ -17,6 +17,7 @@ dateCreated: 2021-08-20T13:54:11.358Z
 | [mutetime](#mutetime) | int | unsigned |  | NO | 0 |  |  |
 | [mutedby](#mutedby) | varchar(50) |  |  | NO |  |  |  |
 | [mutereason](#mutereason) | varchar(255) |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -39,4 +40,3 @@ dateCreated: 2021-08-20T13:54:11.358Z
 ### mutereason
 *- no description -*
 &nbsp;
-

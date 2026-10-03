@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T08:15:47.028Z
 | [maxDuration](#maxduration) | int | signed |  | NO | 0 |  |  |
 | [remainTime](#remaintime) | int | signed |  | NO | 0 |  |  |
 | [remainCharges](#remaincharges) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -64,4 +65,3 @@ dateCreated: 2021-08-30T08:15:47.028Z
 ### remainCharges
 *- no description -*
 &nbsp;
-

@@ -39,6 +39,7 @@ Contains individual creature spawn data. Spawn of a creature is an instance of t
 | [ScriptName](#scriptname) | char(64) |  |  | YES | '' |  |  |
 | [StringId](#stringid) | varchar(64) |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -54,7 +55,7 @@ The [entry](../world/creature_template#entry) of the template that is used when 
 &nbsp;
 
 ### map
-The [Map ID](/files/DBC/335/map#id) of the position of the creature.
+The [Map ID](/files/DBC/335/map#id-alt) of the position of the creature.
 &nbsp;
 
 ### zoneId
@@ -81,7 +82,7 @@ SPELL_AURA_PHASE (261) determines the phase you can see. For example, if you had
 ### modelid
 The model ID associated with this creature. Note that two creatures that use the same template can have different models. See [creature_model_info](../world/creature_model_info#displayid) for more information on model-specific characteristics.
 
-> Note: This can be left at 0 and a random model from its assigned models in [creature_template](../world/creature_template#modelid1) will be assigned by the core.
+> Note: This can be left at 0 and a random model from its assigned models in [creature_template](../world/creature_template#modelid-1-4) will be assigned by the core.
 {.is-info}
 
 &nbsp;
@@ -90,7 +91,7 @@ The model ID associated with this creature. Note that two creatures that use the
 The ID as defined within [creature_equip_template](../world/creature_equip_template) corresponding to the CreatureID.
 * **equipment_id** = -1: A random equipment set chosen for [creature_equip_template.CreatureID](../world/creature_equip_template#creatureid).
 * **equipment_id** = 0: No equipment defined.
-* **equipment_id** > 0: [creature_equip_template.ID](../world/creature_equip_template#id)
+* **equipment_id** > 0: [creature_equip_template.ID](../world/creature_equip_template#id-alt)
 &nbsp;
 
 ### position_x

@@ -21,6 +21,7 @@ This table is used to tell the server to spawn an additional NPC with this vehic
 | [description](#description) | mediumtext |  |  | NO |  |  |  |
 | [summontype](#summontype) | tinyint | unsigned |  | NO | 6 |  | see enum TempSummonType |
 | [summontimer](#summontimer) | int | unsigned |  | NO | 30000 |  | timer, only relevant for certain summontypes |
+
 &nbsp;
 ## Description of fields
 
@@ -31,11 +32,11 @@ This table is used to tell the server to spawn an additional NPC with this vehic
 ### accessory_entry
 [creature entry](../world/creature_template#entry) to be attached to the main vehicle.
 
-Flying vehicles must have [Flight](../world/creature_template_movement#Flight) enabled.
+Flying vehicles must have [Flight](../world/creature_template_movement#flight) enabled.
 &nbsp;
 
 ### seat_id
-[VehicleSeat ID](/files/DBC/335/vehicleseat#id) in witch the accessory should be spawned.
+[VehicleSeat ID](/files/DBC/335/vehicleseat#id-alt) in witch the accessory should be spawned.
 &nbsp;
 
 ### minion

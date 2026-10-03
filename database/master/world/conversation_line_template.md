@@ -18,6 +18,7 @@ dateCreated: 2021-08-30T09:29:35.885Z
 | [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ChatType](#chattype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -38,6 +39,7 @@ Links the line to an actor by [conversation_actors.Idx](/database/master/world/c
 | Value | Name |Description |
 | :---: | --- | --- |
 | 0x1 | CONVERSATION_LINE_FLAG_NOTIFY_STARTED  | Client will send CMSG_CONVERSATION_LINE_STARTED when it runs this line |
+
 &nbsp;
 
 ### ChatType
@@ -56,4 +58,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 
 &nbsp;
-

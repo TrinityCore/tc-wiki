@@ -27,6 +27,7 @@ dateCreated: 2023-10-04T08:03:55.279Z
 | :---: | --- | :---: | --- |
 | 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [Data](#data) | float |  |
+
 &nbsp;
 ## Description of fields
 

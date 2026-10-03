@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T09:32:24.856Z
 | [MinGuildRep](#minguildrep) | tinyint | unsigned |  | YES | 0 |  |  |
 | [RaceMask](#racemask) | bigint | unsigned |  | YES | 0 |  |  |
 | [Cost](#cost) | bigint | unsigned |  | YES | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,5 +35,3 @@ dateCreated: 2021-08-30T09:32:24.856Z
 ### Cost
 *- no description -*
 &nbsp;
-
-

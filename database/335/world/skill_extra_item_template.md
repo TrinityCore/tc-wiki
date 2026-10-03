@@ -18,15 +18,16 @@ This table holds information about when using certain profession spells will cre
 | [requiredSpecialization](#requiredspecialization) | int | unsigned |  | NO | 0 |  | Specialization spell id |
 | [additionalCreateChance](#additionalcreatechance) | float |  |  | NO | 0 |  | chance to create add |
 | [additionalMaxNum](#additionalmaxnum) | tinyint | unsigned |  | NO | 0 |  | max num of adds |
+
 &nbsp;
 ## Description of fields
 
 ### spellId
-The [Spell ID](/files/DBC/335/spell#id) that creates the item.
+The [Spell ID](/files/DBC/335/spell#id-alt) that creates the item.
 &nbsp;
 
 ### requiredSpecialization
-The character must have the [Spell ID](/files/DBC/335/spell#id) specified here learned to have a chance at triggering the extra item proc.
+The character must have the [Spell ID](/files/DBC/335/spell#id-alt) specified here learned to have a chance at triggering the extra item proc.
 &nbsp;
 
 ### additionalCreateChance
@@ -47,8 +48,6 @@ given **additionalCreateChance** = 35 and **additionalMaxNum** = 4:
 | 3 | 12.25% |
 | 4 | 1.50% |
 | 5 | 0.00% |
-{.dense}
 
 
 &nbsp;
-

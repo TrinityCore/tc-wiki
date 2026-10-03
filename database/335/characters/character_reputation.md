@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T22:00:11.525Z
 | [faction](#faction) | smallint | unsigned | PRI | NO | 0 |  |  |
 | [standing](#standing) | int | signed |  | NO | 0 |  |  |
 | [flags](#flags) | smallint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -28,7 +29,7 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### faction
-The [Faction ID](/files/DBC/335/faction#id) that the character has the given reputation in.
+The [Faction ID](/files/DBC/335/faction#id-alt) that the character has the given reputation in.
 &nbsp;
 
 ### standing

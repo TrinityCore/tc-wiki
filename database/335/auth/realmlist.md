@@ -28,6 +28,7 @@ dateCreated: 2021-08-30T21:58:11.484Z
 | [allowedSecurityLevel](#allowedsecuritylevel) | tinyint | unsigned |  | NO | 0 |  |  |
 | [population](#population) | float |  |  | NO | 0 |  |  |
 | [gamebuild](#gamebuild) | int | unsigned |  | NO | 12340 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -68,6 +69,7 @@ The icon of the realm.
 | 4 | REALM_TYPE_NORMAL2 | Normal |
 | 6 | REALM_TYPE_RP | RP |
 | 8 | REALM_TYPE_RPPVP | RP PvP |
+
 &nbsp;
 
 ### flag
@@ -85,14 +87,13 @@ Realmflag of this realm.
 | 32 | 0x20 | REALM_FLAG_RECOMMENDED | Recommended |
 | 64 | 0x40 | REALM_FLAG_NEW | New Players |
 | 128 | 0x80 | REALM_FLAG_FULL | Full |
-{.dense}
 
 &nbsp;
 
 ### timezone
 The realm timezone, it will be displayed in the tabs of the realmlist.
 
-**timezone** corresponds to [cfg_categories IDs](/files/DBC/335/cfg_categories#id)
+**timezone** corresponds to [cfg_categories IDs](/files/DBC/335/cfg_categories#id-alt)
 | timezone | displayed name | | timezone | displayed name |
 | --- | --- |--| --- | --- |
 | 1 | Development | | 20 | CN4 |
@@ -115,7 +116,6 @@ The realm timezone, it will be displayed in the tabs of the realmlist.
 | 18 | CN2 | | 37 | CN5/8 |
 | 19 | CN3 | | | |
 
-{.dense}
 
 &nbsp;
 
@@ -149,7 +149,5 @@ Accepted Client version for the realm.
 | 11623  | 3.3.3  |
 | 11723  | 3.3.3a  |
 | 12340  | 3.3.5a  |
-{.dense}
 
 &nbsp;
-

@@ -89,6 +89,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 66 | [FacialHairCustomization_1](#facialhaircustomization) | string |  |
 | 67 | [HairCustomization](#haircustomization) | string |  |
 | 68 | [RequiredExpansion](#requiredexpansion) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -107,7 +108,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 2 | 0x02 | CHRRACES_FLAGS_BARE_FEET | Do Not Component Feet |
 | 4 | 0x04 | CHRRACES_FLAGS_CAN_MOUNT | Can Mount |
 | 8 | 0x08 |  | Has Bald |
-{.dense}
 
 &nbsp;
 
@@ -187,7 +187,6 @@ ID from CinematicSequences.dbc, used for the opening cinematic.
 | 0 | TEAM_ALLIANCE |
 | 1 | TEAM_HORDE |
 | 2 | TEAM_NEUTRAL |
-{.dense}
 
 &nbsp;
 

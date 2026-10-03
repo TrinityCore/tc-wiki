@@ -44,6 +44,7 @@ dateCreated: 2023-10-04T08:08:33.366Z
 | 21 | [PetTalentMask](#pettalentmask) | uint32 | [CreatureFamily.dbc/8](/files/DBC/335/creaturefamily#pettalenttype) |
 | 22 | [OrderIndex](#orderindex) | uint32 |  |
 | 23 | [BackgroundFile](#backgroundfile) | string |  |
+
 &nbsp;
 ## Description of fields
 

@@ -78,6 +78,7 @@ dateCreated: 2023-10-04T08:09:06.318Z
 | 55 | [CameraEnteringZoom](#cameraenteringzoom) | float |  |
 | 56 | [CameraSeatZoomMin](#cameraseatzoommin) | float |  |
 | 57 | [CameraSeatZoomMax](#cameraseatzoommax) | float |  |
+
 &nbsp;
 ## Description of fields
 
@@ -117,7 +118,6 @@ dateCreated: 2023-10-04T08:09:06.318Z
 | 536870912 | 0x20000000 | VEHICLE_SEAT_FLAG_CAN_CAST | Lua_UnitHasVehicleUI |
 | 1073741824 | 0x40000000 | VEHICLE_SEAT_FLAG_UNK2 | checked in conjunction with 0x800 in CastSpell2 |
 | 2147483648 | 0x80000000 | VEHICLE_SEAT_FLAG_ALLOWS_INTERACTION |  |
-{.dense}
 
 &nbsp;
 
@@ -382,7 +382,6 @@ dateCreated: 2023-10-04T08:09:06.318Z
 | 33554432 | 0x02000000 | VEHICLE_SEAT_FLAG_B_USABLE_FORCED_4 |  |
 | 67108864 | 0x04000000 | VEHICLE_SEAT_FLAG_B_CAN_SWITCH |  |
 | 2147483648 | 0x80000000 | VEHICLE_SEAT_FLAG_B_VEHICLE_PLAYERFRAME_UI | Lua_UnitHasVehiclePlayerFrameUI - actually checked for flagsb &~ 0x80000000 |
-{.dense}
 
 &nbsp;
 
@@ -445,4 +444,3 @@ dateCreated: 2023-10-04T08:09:06.318Z
 
 *- no description -*
 &nbsp;
-

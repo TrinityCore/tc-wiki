@@ -24,6 +24,7 @@ e.g.: When asking a City Guard for the location of a trainer.
 | [Importance](#importance) | int | unsigned |  | NO | 0 |  |  |
 | [Name](#name-alt) | mediumtext |  |  | NO |  |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -75,7 +76,6 @@ excerpt from [`enum Poi_Icon`](https://github.com/TrinityCore/TrinityCore/blob/3
 | 38 | ICON_POI_BLUEHORSE | Blue Horse |
 | 39 | ICON_POI_RWHORSE | Red and White Horse |
 | 40 | ICON_POI_REDHORSE | Red Horse |
-{.dense}
 
 &nbsp;
 
@@ -102,4 +102,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -[Client Build](/database/335/auth/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
-

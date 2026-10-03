@@ -26,6 +26,7 @@ dateCreated: 2023-10-04T08:03:57.435Z
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
 | 0 | [Data](#data) | float |  |
+
 &nbsp;
 ## Description of fields
 
@@ -37,4 +38,3 @@ Character base HP regeneration per point spirit.
 Ordered by character class, character level 1 &ndash; 100 ASC.
 <code>idx = (([ChrClassID](/files/DBC/335/chrclasses#id-alt) - 1) * 100) + (level - 1)</code>
 &nbsp;
-

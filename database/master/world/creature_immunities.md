@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T06:00:00.000Z
 | [ImmuneAoE](#immuneaoe) | tinyint(1) | signed |  | NO | 0 |  |  |
 | [ImmuneChain](#immunechain) | tinyint(1) | signed |  | NO | 0 |  |  |
 | [Comment](#comment) | mediumtext |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -59,4 +60,3 @@ dateCreated: 2021-08-30T06:00:00.000Z
 ### Comment
 *- no description -*
 &nbsp;
-

@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T07:47:08.680Z
 | [TabId](#tabid) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [SlotId](#slotid) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [item_guid](#item_guid) | bigint | unsigned | MUL | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,5 +35,3 @@ dateCreated: 2021-08-30T07:47:08.680Z
 ### item_guid
 *- no description -*
 &nbsp;
-
-

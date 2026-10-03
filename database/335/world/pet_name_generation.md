@@ -18,6 +18,7 @@ This table holds pieces of names (first and last half) that are use for pet name
 | [word](#word) | text |  |  | NO |  |  |  |
 | [entry](#entry) | int | unsigned |  | NO | 0 |  |  |
 | [half](#half) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -39,4 +40,3 @@ This determines whether this is the first or last half of the name for this entr
 * 1: Last half
     
 &nbsp;
-

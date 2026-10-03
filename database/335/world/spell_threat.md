@@ -18,11 +18,12 @@ This table holds manual corrections to threat values on all spells that should e
 | [flatMod](#flatmod) | int | signed |  | YES | NULL |  |  |
 | [pctMod](#pctmod) | float |  |  | NO | 1 |  | threat multiplier for damage/healing |
 | [apPctMod](#appctmod) | float |  |  | NO | 0 |  | additional threat bonus from attack power |
+
 &nbsp;
 ## Description of fields
 
 ### entry
-references [Spell ID](/files/DBC/335/spell#id)
+references [Spell ID](/files/DBC/335/spell#id-alt)
 If **entry** is a [first_spell_id](../world/spell_ranks#first_spell_id), the custom threat applies to all associated spells from [spell_ranks](../world/spell_ranks).
 &nbsp;
 
@@ -44,4 +45,3 @@ e.g.:
 ### apPctMod
 A percentage of attack power that is added as flat threat before multipliers.
 &nbsp;
-

@@ -42,6 +42,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 19 | [AreaName_14](#areaname) | string |  |
 | 20 | [AreaName_15](#areaname) | string |  |
 | 21 | [AreaName_lang_mask](#areaname) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -68,4 +69,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

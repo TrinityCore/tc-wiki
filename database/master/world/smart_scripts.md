@@ -50,6 +50,7 @@ dateCreated: 2021-08-30T09:36:32.378Z
 | [target_z](#target_type) | float |  |  | NO | 0 |  |  |
 | [target_o](#target_type) | float |  |  | NO | 0 |  |  |
 | [comment](#comment) | mediumtext |  |  | NO |  |  | Event Comment |
+
 &nbsp;
 ## Description of fields
 
@@ -68,17 +69,16 @@ Object type (creature, gameobject, quest, etc.).
 | SMART_SCRIPT_TYPE_CREATURE | 0 | [creature_template.entry](/database/master/world/creature_template#entry) or [creature.guid](/database/master/world/creature#guid) | SmartAI ([creature_template.AIName](/database/master/world/creature_template#ainame)) | Creature |
 | SMART_SCRIPT_TYPE_GAMEOBJECT | 1 | [gameobject_template.entry](/database/master/world/gameobject_template#entry) or [gameobject.guid](/database/master/world/gameobject#guid) | SmartGameObjectAI ([gameobject_template.AIName](/database/master/world/gameobject_template#ainame)) | GameObject |
 | SMART_SCRIPT_TYPE_AREATRIGGER | 2 | Areatrigger.db2 (ID) | SmartTrigger ([areatrigger_scripts.ScriptName](/database/master/world/areatrigger_scripts#scriptname)) | Player |
-| SMART_SCRIPT_TYPE_EVENT | 3 | [event_script_names.Id](/database/master/world/event_script_names#id) | SmartEventTrigger ([event_script_names.ScriptName](/database/master/world/event_script_names#scriptname)) | Player, Creature or GameObject |
+| SMART_SCRIPT_TYPE_EVENT | 3 | [event_script_names.Id](/database/master/world/event_script_names#id-alt) | SmartEventTrigger ([event_script_names.ScriptName](/database/master/world/event_script_names#scriptname)) | Player, Creature or GameObject |
 | :x: SMART_SCRIPT_TYPE_GOSSIP | 4 | | | |
-| SMART_SCRIPT_TYPE_QUEST | 5 | [quest_template.ID](/database/master/world/quest_template#id) | SmartQuest ([quest_template_addon.ScriptName](/database/master/world/quest_template_addon#scriptname)) | Player |
+| SMART_SCRIPT_TYPE_QUEST | 5 | [quest_template.ID](/database/master/world/quest_template#id-alt) | SmartQuest ([quest_template_addon.ScriptName](/database/master/world/quest_template_addon#scriptname)) | Player |
 | :x: SMART_SCRIPT_TYPE_SPELL | 6 | | | |
 | :x: SMART_SCRIPT_TYPE_TRANSPORT | 7 | | | |
 | :x: SMART_SCRIPT_TYPE_INSTANCE | 8 | | | |
 | SMART_SCRIPT_TYPE_TIMED_ACTIONLIST | 9 | [smart_scripts.entryorguid](#entryorguid) | | Creature, GameObject or AreaTrigger |
 | SMART_SCRIPT_TYPE_SCENE | 10 | [scene_template.id](/database/master/world/scene_template#id) | SmartScene ([scene_template.ScriptName](/database/master/world/scene_template#scriptname)) | Player |
-| SMART_SCRIPT_TYPE_AREATRIGGER_ENTITY | 11 | [areatrigger_template.Id](/database/master/world/areatrigger_template#id) (IsServerSide = 0) | SmartAreaTriggerAI ([areatrigger.ScriptName](/database/master/world/areatrigger#scriptname)) | AreaTrigger |
-| SMART_SCRIPT_TYPE_AREATRIGGER_ENTITY_SERVERSIDE | 12 | [areatrigger_template.Id](/database/master/world/areatrigger_template#id) (IsServerSide = 1) | SmartAreaTriggerAI ([areatrigger.ScriptName](/database/master/world/areatrigger#scriptname)) | AreaTrigger |
-{.dense}
+| SMART_SCRIPT_TYPE_AREATRIGGER_ENTITY | 11 | [areatrigger_template.Id](/database/master/world/areatrigger_template#id-alt) (IsServerSide = 0) | SmartAreaTriggerAI ([areatrigger.ScriptName](/database/master/world/areatrigger#scriptname)) | AreaTrigger |
+| SMART_SCRIPT_TYPE_AREATRIGGER_ENTITY_SERVERSIDE | 12 | [areatrigger_template.Id](/database/master/world/areatrigger_template#id-alt) (IsServerSide = 1) | SmartAreaTriggerAI ([areatrigger.ScriptName](/database/master/world/areatrigger#scriptname)) | AreaTrigger |
 
 >Please note :x:means that the source_type is not (yet) implemented.
 {.is-danger}
@@ -89,7 +89,7 @@ Incremental id bound to each [entryorguid](#entryorguid) & [source_type](#source
 
 ### link
 Simple event linking.
-> The linked [id](#id) must use [event_type](#event_type) **SMART_EVENT_LINK (61)**.
+> The linked [id](#id-alt) must use [event_type](#event_type) **SMART_EVENT_LINK (61)**.
 {.is-info}
 
 > **Example**: If id = 0 and link = 1, id = 1 will only be able to occur if id = 0 was triggered.
@@ -121,7 +121,6 @@ Event can only occur if the source is in this event phase. The default event pha
 | SMART_EVENT_PHASE_10 | 512 | 0x200 | Phase 10 only. |
 | SMART_EVENT_PHASE_11 | 1024 | 0x400 | Phase 11 only. |
 | SMART_EVENT_PHASE_12 | 2048 | 0x800 | Phase 12 only. |
-{.dense}
 
 > **Example**: If we want an event to be able to occur only in event phases 1 and 4, event_phase_mask: **1 + 8 = 9**.
 
@@ -151,7 +150,6 @@ This is the probability of the event to occur as a percentage from 0-100. So, if
 | SMART_EVENT_FLAG_DEBUG_ONLY | 128 | 0x80 | Event only occurs in debug build |
 | SMART_EVENT_FLAG_DONT_RESET | 256 | 0x100 | Event will not reset in SmartScript::OnReset() |
 | SMART_EVENT_FLAG_WHILE_CHARMED | 512 | 0x200 | Event occurs even if AI owner is charmed |
-{.dense}
 
 <!-- .is-info is applied to list instead of the blockquote -->
 <blockquote class="line is-info">
@@ -227,7 +225,7 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | :x: SMART_EVENT_INSTANCE_PLAYER_ENTER | 45 | Team (0 any) | CooldownMin | CooldownMax | | | | Not yet implemented |
 | SMART_EVENT_AREATRIGGER_ENTER | 46 | | | | | | | On areatrigger enter |
 | SMART_EVENT_QUEST_ACCEPTED | 47 | | | | | | | On target quest accepted |
-| SMART_EVENT_QUEST_OBJ_COMPLETION | 48 | [quest_objectives.ID](/database/master/world/quest_objectives#id) | | | | | | On target quest objective completed |
+| SMART_EVENT_QUEST_OBJ_COMPLETION | 48 | [quest_objectives.ID](/database/master/world/quest_objectives#id-alt) | | | | | | On target quest objective completed |
 | SMART_EVENT_QUEST_COMPLETION | 49 | | | | | | | On target quest completed |
 | SMART_EVENT_QUEST_REWARDED | 50 | | | | | | | On target quest rewarded |
 | SMART_EVENT_QUEST_FAIL | 51 | | | | | | | On target quest failed |
@@ -270,7 +268,6 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_EVENT_AREATRIGGER_EXIT | 88 | | | | | | | On areatrigger exit |
 | SMART_EVENT_ON_AURA_APPLIED | 89 | SpellID | CooldownMin | CooldownMax | | | | On Aura apply |
 | SMART_EVENT_ON_AURA_REMOVED | 90 | SpellID | CooldownMin | CooldownMax | | | | On Aura remove |
-{.dense}
 
 > Please note :warning:means that the event_type is deprecated and should not be used.
 {.is-warning}
@@ -287,8 +284,8 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_MORPH_TO_ENTRY_OR_MODEL | 3 | [creature_template.entry](/database/master/world/creature_template#entry) | Creature_template.modelID |  |  |  |  |  |  |
 | SMART_ACTION_SOUND | 4 | SoundId | onlySelf (0/1) | Distant Sound (0/1) |  |  |  |  |  |
 | SMART_ACTION_PLAY_EMOTE | 5 | [emote.db2.ID](https://wago.tools/db2/Emotes) |  |  |  |  |  |  | Play Emote |
-| SMART_ACTION_FAIL_QUEST | 6 | [quest_template.ID](/database/master/world/quest_template#id) |  |  |  |  |  |  | Fail Quest of Target |
-| SMART_ACTION_OFFER_QUEST | 7 | [quest_template.ID](/database/master/world/quest_template#id) |  |  |  |  |  |  | Add Quest to Target |
+| SMART_ACTION_FAIL_QUEST | 6 | [quest_template.ID](/database/master/world/quest_template#id-alt) |  |  |  |  |  |  | Fail Quest of Target |
+| SMART_ACTION_OFFER_QUEST | 7 | [quest_template.ID](/database/master/world/quest_template#id-alt) |  |  |  |  |  |  | Add Quest to Target |
 | SMART_ACTION_SET_REACT_STATE | 8 | State:<ul><li>0 &rarr; Passiv</li><li>1 &rarr; Defensive</li><li>2 &rarr; Aggresive</li><li>3 &rarr; Assist</li></ul>|  |  |  |  |  |  |  |
 | SMART_ACTION_ACTIVATE_GOBJECT | 9 |  |  |  |  |  |  |  | Activate Object |
 | SMART_ACTION_RANDOM_EMOTE | 10 | EmoteId1 | EmoteId2 | EmoteId3 | EmoteId4 | EmoteId5 | EmoteId6 |  | Play Random Emote |
@@ -325,7 +322,7 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_FORCE_DESPAWN | 41 | Despawn timer in ms | Respawn timer in sec |  |  |  |  |  |  |
 | SMART_ACTION_SET_INVINCIBILITY_HP_LEVEL | 42 | flat hp value | percent hp value |  |  |  |  |  |  |
 | SMART_ACTION_MOUNT_TO_ENTRY_OR_MODEL | 43 | [creature_template.entry](/database/master/world/creature_template#entry) | creature.template.ModelID |  |  |  |  |  |  |
-| SMART_ACTION_SET_INGAME_PHASE_MASK | 44 | [creature.phaseId](/database/master/world/creature#PhaseId) |  |  |  |  |  |  |  |
+| SMART_ACTION_SET_INGAME_PHASE_MASK | 44 | [creature.phaseId](/database/master/world/creature#phaseid) |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_DATA | 45 | Field | Data |  |  |  |  |  |  |
 | SMART_ACTION_ATTACK_STOP | 46 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_SET_VISIBILITY | 47 | 0/1 |  |  |  |  |  |  |  |
@@ -392,8 +389,8 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_SET_POWER | 108 | Power Type | New Power |  |  |  |  |  |  |
 | SMART_ACTION_ADD_POWER | 109 | Power Type | Power to add |  |  |  |  |  |  |
 | SMART_ACTION_REMOVE_POWER | 110 | Power Type | Power to remove |  |  |  |  |  |  |
-| SMART_ACTION_GAME_EVENT_STOP | 111 | [game_event.eventEntry](/database/master/world/game_event#eventEntry) |  |  |  |  |  |  |  |
-| SMART_ACTION_GAME_EVENT_START | 112 | [game_event.eventEntry](/database/master/world/game_event#eventEntry) |  |  |  |  |  |  |  |
+| SMART_ACTION_GAME_EVENT_STOP | 111 | [game_event.eventEntry](/database/master/world/game_event#evententry) |  |  |  |  |  |  |  |
+| SMART_ACTION_GAME_EVENT_START | 112 | [game_event.eventEntry](/database/master/world/game_event#evententry) |  |  |  |  |  |  |  |
 | SMART_ACTION_START_CLOSEST_WAYPOINT | 113 | wp1 | wp2 | wp3 | wp4 | wp5 | wp6 |  |  |
 | SMART_ACTION_MOVE_OFFSET | 114 |  |  |  |  |  |  |  |  |
 | SMART_ACTION_RANDOM_SOUND | 115 | soundId1 | soundId2 | soundId3 | soundId4 | onlySelf(0/1) | Distant Sound (0/1) |  |  |
@@ -433,7 +430,7 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_BECOME_PERSONAL_CLONE_FOR_PLAYER | 149 | SummonType | duration in ms |  |  |  |  |  |  |
 | SMART_ACTION_TRIGGER_GAME_EVENT | 150 | eventId |  |  |  |  |  |  |  |
 | SMART_ACTION_DO_ACTION | 151 | actionId |  |  |  |  |  |  |  |
-| SMART_ACTION_COMPLETE_QUEST | 152 | [quest_template.ID](/database/master/world/quest_template#id) |  |  |  |  |  |  | Complete quest with:<br/>*QUEST_FLAGS_COMPLETION_EVENT, QUEST_FLAGS_COMPLETION_AREA_TRIGGER or QUEST_FLAGS_TRACKING_EVENT* |
+| SMART_ACTION_COMPLETE_QUEST | 152 | [quest_template.ID](/database/master/world/quest_template#id-alt) |  |  |  |  |  |  | Complete quest with:<br/>*QUEST_FLAGS_COMPLETION_EVENT, QUEST_FLAGS_COMPLETION_AREA_TRIGGER or QUEST_FLAGS_TRACKING_EVENT* |
 | SMART_ACTION_CREDIT_QUEST_OBJECTIVE_TALK_TO | 153 |  |  |  |  |  |  |  | Only valid for SMART_SCRIPT_TYPE_CREATURE |
 | SMART_ACTION_DESTROY_CONVERSATION | 154 | [conversation_template.id](//database/master/world/conversation_template#Id) | isPrivate 0/1 | range |  |  |  |  |  |
 | SMART_ACTION_ENTER_VEHICLE | 155 | seat.Id |  |  |  |  |  |  |  |
@@ -441,7 +438,6 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_ACTION_EXIT_VEHICLE | 157 |  |  |  |  |  |  |  |  |
 | :x: SMART_ACTION_RESUME_MOVEMENT | 158 | UNUSED NEEDS CHERRYPICK |  |  |  |  |  |  |  |
 | SMART_ACTION_FALL | 159 | pointId |  |  |  |  |  |  |  |
-{.dense}
 
 > Please note :warning:means that the action_type is deprecated and should not be used.
 {.is-warning}
@@ -460,11 +456,11 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_TARGET_ACTION_INVOKER | 7 |  |  |  |  |  |  |  |  |  | Unit who caused this event to occur |
 | SMART_TARGET_POSITION | 8 |  |  |  |  |  | x | y | z | o | Use xyzo from target params |
 | SMART_TARGET_CREATURE_RANGE | 9 | [creature_template.entry](/database/master/world/creature_template#entry) (0: any) | Min dist | Max dist | Number of targets (0: all targets) | StringId |  |  |  |  | Creatures with specified entry within specified range |
-| SMART_TARGET_CREATURE_GUID | 10 | [creature.guid](/database/master/world/creature#guid) | [creature.id](/database/master/world/creature#id) |  |  |  |  |  |  |  | Creature with specified GUID (and id) |
+| SMART_TARGET_CREATURE_GUID | 10 | [creature.guid](/database/master/world/creature#guid) | [creature.id](/database/master/world/creature#id-alt) |  |  |  |  |  |  |  | Creature with specified GUID (and id) |
 | SMART_TARGET_CREATURE_DISTANCE | 11 | [creature_template.entry](/database/master/world/creature_template#entry) (0: any) | Max dist | Number of targets (0: all targets) |  | StringId |  |  |  |  | Creatures with specified entry within distance |
 | SMART_TARGET_STORED | 12 | Id |  |  |  |  |  |  |  |  | Uses pre-stored target (list) |
 | SMART_TARGET_GAMEOBJECT_RANGE | 13 | [gameobject_template.entry](/database/master/world/gameobject_template#entry) (0: any) | Min dist | Max dist | Number of targets (0: all targets) | StringId |  |  |  |  | Gameobjects with specified entry within specified range |
-| SMART_TARGET_GAMEOBJECT_GUID | 14 | [gameobject.guid](/database/master/world/gameobject#guid) | [gameobject.id](/database/master/world/gameobject#id) |  |  |  |  |  |  |  | Gameobject with specified GUID (and id) |
+| SMART_TARGET_GAMEOBJECT_GUID | 14 | [gameobject.guid](/database/master/world/gameobject#guid) | [gameobject.id](/database/master/world/gameobject#id-alt) |  |  |  |  |  |  |  | Gameobject with specified GUID (and id) |
 | SMART_TARGET_GAMEOBJECT_DISTANCE | 15 | [gameobject_template.entry](/database/master/world/gameobject_template#entry) (0: any) | Max dist | Number of targets (0: all targets) |  | StringId |  |  |  |  | Gameobjects with specified entry within distance |
 | SMART_TARGET_INVOKER_PARTY | 16 |  |  |  |  |  |  |  |  |  | Invoker's party members |
 | SMART_TARGET_PLAYER_RANGE | 17 | Min dist | Max dist |  |  |  |  |  |  |  | All players within specified range |
@@ -481,14 +477,13 @@ SMART_EVENT_OOC_LOS | 10 | HostilityMode:<ul><li>0 &rarr; Hostile</li><li>1 &rar
 | SMART_TARGET_FARTHEST | 28 | Max dist | Player only (0/1) | Is in Los (0/1) |  |  |  |  |  |  | Farthest unit on the threat list |
 | SMART_TARGET_VEHICLE_PASSENGER | 29 | SeatMask (0: all seats) |  |  |  |  |  |  |  |  | Vehicle targets unit in given seat |
 | SMART_TARGET_CLOSEST_UNSPAWNED_GAMEOBJECT | 30 | [gameobject_template.entry](/database/master/world/gameobject_template#entry) (0: any) | Max dist (0-100 yards) |  |  |  |  |  |  |  | Closest unspawned gameobject with specified entry within specified distance.<br/>*(To be used only with SMART_ACTION_ENABLE_TEMP_GOBJ (70) and gameobjects with negative respawn time in the DB)* |
-{.dense}
 
 ### comment
 Commenting on SAI uses a template which is the following: `"Creature name - Event - Action"`
 > **Example**: "Minion of Gurok - On spawn - Set Random Movement"
 
 ## Enums
-### TabSet {.tabset}
+
 #### PowerType
 | Name | Value |
 | :--- | :--- | 
@@ -519,5 +514,3 @@ Commenting on SAI uses a template which is the following: `"Creature name - Even
 | POWER_ALTERNATE_QUEST     | 23 |
 | POWER_ALTERNATE_ENCOUNTER | 24 |
 | POWER_ALTERNATE_MOUNT     | 25 |
-### EndTabset {.tabset}
-

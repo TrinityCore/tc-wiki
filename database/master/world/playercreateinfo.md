@@ -28,6 +28,7 @@ dateCreated: 2021-08-30T09:34:20.895Z
 | [intro_movie_id](#intro_movie_id) | int | unsigned |  | YES | NULL |  |  |
 | [intro_scene_id](#intro_scene_id) | int | unsigned |  | YES | NULL |  |  |
 | [npe_intro_scene_id](#npe_intro_scene_id) | int | unsigned |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -45,7 +46,6 @@ The character's [ChrRace ID](https://wago.tools/db2/chrraces)
 |  8 | Troll     |
 | 10 | Blood Elf |
 | 11 | Draenei   |
-{.dense}
 
 &nbsp;
 
@@ -63,7 +63,6 @@ The character's [ChrClass ID](https://wago.tools/db2/chrclasses)
 |  8 | Mage         |
 |  9 | Warlock      |
 | 11 | Druid        |
-{.dense}
 
 &nbsp;
 

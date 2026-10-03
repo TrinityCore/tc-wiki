@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2021-08-30T21:57:37.429Z
 ---
 
-> This table holds security access level for any realm in [realmlist](../auth/realmlist#id) table.
+> This table holds security access level for any realm in [realmlist](../auth/realmlist#id-alt) table.
 {.is-info}
 
 
@@ -20,11 +20,12 @@ dateCreated: 2021-08-30T21:57:37.429Z
 | [SecurityLevel](#securitylevel) | tinyint | unsigned |  | NO |  |  |  |
 | [RealmID](#realmid) | int | signed | PRI | NO | -1 |  |  |
 | [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### AccountID
-references [account.id](../auth/account#id)
+references [account.id](../auth/account#id-alt)
 &nbsp;
 
 ### SecurityLevel
@@ -38,12 +39,11 @@ The individual level required for a command is defined in the [command table](..
 | 2 | SEC_GAMEMASTER |  |
 | 3 | SEC_ADMINISTRATOR |  |
 | 4 | :x: SEC_CONSOLE | not available to accounts |
-{.dense}
 
 &nbsp;
 
 ### RealmID
-The [realm id](../auth/realmlist#id).
+The [realm id](../auth/realmlist#id-alt).
 
 `-1` applies the rights to all realms.
 &nbsp;
@@ -51,4 +51,3 @@ The [realm id](../auth/realmlist#id).
 ### Comment
 This field is for any comment you want to make. It is arbitrary text.
 &nbsp;
-

@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T09:37:16.690Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [spell_id](#spell_id) | int | signed | PRI | NO |  |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  | PRI | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -26,4 +27,3 @@ One spell can have more than one script assigned.
 ### ScriptName
 The script name for the given spell(s).
 &nbsp;
-

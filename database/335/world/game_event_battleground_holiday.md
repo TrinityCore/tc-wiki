@@ -16,6 +16,7 @@ This table is used to add a holiday to a battleground, for things like extra rep
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [EventEntry](#evententry) | tinyint | unsigned | PRI | NO |  |  | game_event EventEntry identifier |
 | [BattlegroundID](#battlegroundid) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

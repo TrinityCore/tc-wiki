@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T09:31:53.728Z
 | [id](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [quest](#quest) | int | unsigned | PRI | NO | 0 |  | Quest Identifier |
 | [VerifiedBuild](#verifiedbuild) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -23,7 +24,7 @@ The template ID of the game object. See [`gameobject_template.entry`](/database/
 &nbsp;
 
 ### quest
-The quest ID that this game object starts. See [`quest_template.ID`](/database/master/world/quest_template#ID)
+The quest ID that this game object starts. See [`quest_template.ID`](/database/master/world/quest_template#id-alt)
 &nbsp;
 
 ### VerifiedBuild
@@ -37,4 +38,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
-

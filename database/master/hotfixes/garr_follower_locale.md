@@ -18,6 +18,7 @@ dateCreated: 2021-08-30T09:54:13.645Z
 | [AllianceSourceText_lang](#alliancesourcetext_lang) | text |  |  | YES | NULL |  |  |
 | [TitleName_lang](#titlename_lang) | text |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

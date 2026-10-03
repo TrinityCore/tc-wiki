@@ -29,6 +29,7 @@ dateCreated: 2021-08-30T21:58:45.939Z
 | [startbid](#startbid) | int | unsigned |  | NO | 0 |  |  |
 | [deposit](#deposit) | int | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -37,7 +38,7 @@ Unique identifier for every auction.
 &nbsp;
 
 ### houseid
-The Auctionhouse where this auction was created. Referes to [AuctionHouse ID](/files/DBC/335/auctionhouse#id). Options are :
+The Auctionhouse where this auction was created. Referes to [AuctionHouse ID](/files/DBC/335/auctionhouse#id-alt). Options are :
 
 - 2: Alliance Auction House
 - 6: Horde Auction House
@@ -81,7 +82,5 @@ The amount of money in copper spent on the deposit.
 |-------|------|------|---------|
 | 0 | 0x0 | AUCTION_ENTRY_FLAG_NONE |  |
 | 1 | 0x1 | AUCTION_ENTRY_FLAG_GM_LOG_BUYER | write transaction to gm log file for buyer (optimization flag - avoids querying database for offline player permissions) |
-{.dense}
 
 &nbsp;
-

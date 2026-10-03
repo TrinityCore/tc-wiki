@@ -13,20 +13,21 @@ dateCreated: 2021-08-30T09:34:54.995Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
-| [Emote1](#emote1) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote2](#emote2) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote3](#emote3) | smallint | unsigned |  | NO | 0 |  |  |
-| [Emote4](#emote4) | smallint | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay1](#emotedelay1) | int | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay2](#emotedelay2) | int | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay3](#emotedelay3) | int | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay4](#emotedelay4) | int | unsigned |  | NO | 0 |  |  |
+| [Emote1](#emote-1-4) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote2](#emote-1-4) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote3](#emote-1-4) | smallint | unsigned |  | NO | 0 |  |  |
+| [Emote4](#emote-1-4) | smallint | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay1](#emotedelay-1-4) | int | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay2](#emotedelay-1-4) | int | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay3](#emotedelay-1-4) | int | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay4](#emotedelay-1-4) | int | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### ID {#id-alt}
-references [quest_template.ID](../world/quest_template#id)
+references [quest_template.ID](../world/quest_template#id-alt)
 &nbsp;
 
 ### Emote\[1-4]
@@ -49,4 +50,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 
 &nbsp;
-

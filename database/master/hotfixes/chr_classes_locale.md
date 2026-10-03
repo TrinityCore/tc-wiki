@@ -23,6 +23,7 @@ dateCreated: 2021-08-30T09:51:12.980Z
 | [HyphenatedNameMale_lang](#hyphenatednamemale_lang) | text |  |  | YES | NULL |  |  |
 | [HyphenatedNameFemale_lang](#hyphenatednamefemale_lang) | text |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

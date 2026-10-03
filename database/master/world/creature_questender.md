@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T09:30:05.431Z
 | [id](#id-alt) | int | unsigned | PRI | NO | 0 |  | Identifier |
 | [quest](#quest) | int | unsigned | PRI | NO | 0 |  | Quest Identifier |
 | [VerifiedBuild](#verifiedbuild) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -23,7 +24,7 @@ The ID of the creature. See [creature_template.entry](/database/master/world/cre
 &nbsp;
 
 ### quest
-The quest ID that the creature finishes. See [quest_template.id](/database/master/world/quest_template#id)
+The quest ID that the creature finishes. See [quest_template.id](/database/master/world/quest_template#id-alt)
 &nbsp;
 
 ### VerifiedBuild
@@ -37,4 +38,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
-

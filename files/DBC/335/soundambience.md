@@ -23,6 +23,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [AmbienceID_0](#ambienceid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 | 2 | [AmbienceID_1](#ambienceid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -38,4 +39,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 * col 1: day
 * col 2: night
 &nbsp;
-

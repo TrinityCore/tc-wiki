@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T09:28:43.912Z
 | [Locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
 | [Subject](#subject) | mediumtext |  |  | YES | NULL |  |  |
 | [Body](#body) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

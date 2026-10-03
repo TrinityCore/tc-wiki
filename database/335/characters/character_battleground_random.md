@@ -17,10 +17,10 @@ dateCreated: 2021-08-30T21:59:25.764Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | int | unsigned | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### guid
 The [guid](../characters/characters#guid) of the character who has already won random battleground today.
 &nbsp;
-

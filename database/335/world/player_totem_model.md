@@ -17,6 +17,7 @@ This table enables shamans to have visually distinct totems on a per race basis.
 | [TotemSlot](#totemslot) | tinyint | unsigned | PRI | NO |  |  |  |
 | [RaceId](#raceid) | tinyint | unsigned | PRI | NO |  |  |  |
 | [DisplayId](#displayid) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -30,16 +31,15 @@ excerpt:
 | 2 | SUMMON_SLOT_TOTEM_EARTH |
 | 3 | SUMMON_SLOT_TOTEM_WATER |
 | 4 | SUMMON_SLOT_TOTEM_AIR |
-{.dense}
 
 &nbsp;
 
 ### RaceId
-A [ChrRace ID](/files/DBC/335/chrraces#id) that should use the given **DisplayId** for this **TotemSlot**.
+A [ChrRace ID](/files/DBC/335/chrraces#id-alt) that should use the given **DisplayId** for this **TotemSlot**.
 <!--@include: @/partial/335/chrraces.md{3,9}-->
 
 &nbsp;
 
 ### DisplayId
-references [CreatureDisplayInfo ID](/files/DBC/335/creaturedisplayinfo#id)
+references [CreatureDisplayInfo ID](/files/DBC/335/creaturedisplayinfo#id-alt)
 &nbsp;

@@ -31,11 +31,12 @@ dateCreated: 2021-08-30T09:35:34.485Z
 | [ProvidedItemCount](#provideditemcount) | tinyint | unsigned |  | NO | 0 |  |  |
 | [SpecialFlags](#specialflags) | tinyint | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### ID {#id-alt}
-references [quest_template.ID](../world/quest_template#id)
+references [quest_template.ID](../world/quest_template#id-alt)
 &nbsp;
 
 ### MaxLevel
@@ -56,7 +57,6 @@ Class mask of [ChrClass IDs](https://wago.tools/db2/chrraces) allowed to get the
 |   128 | 0x0080 | Mage         |
 |   256 | 0x0100 | Warlock      |
 |  1024 | 0x0400 | Druid        |
-{.dense}
 
 &nbsp;
 
@@ -88,7 +88,7 @@ E.g. if quest 1000 dependent from one of quests 1200, 1201 and 1202 and all this
 
 ### BreadcrumbForQuestId
 Breadcrumb quests exist for the sole purpose of guiding the player to a new zone or subzone to quest in. They are often given by NPCs upon completing the previous quest hub, as well as Hero's Call Boards, Warchief's Command Boards, and the Adventure Guide. Often there are multiple breadcrumb quests followed by the same follow-up quest, and normally they are mutually exclusive, meaning that accepting one breadcrumb quest will make all the others leading to the same location unavailable. Also, normally completing the follow-up quest will make any breadcrumb quests leading to it unavailable, whether or not they were completed.
-**BreadcrumbForQuestId** is the follow up [quest_template.ID](../world/quest_template#id)
+**BreadcrumbForQuestId** is the follow up [quest_template.ID](../world/quest_template#id-alt)
 &nbsp;
 
 ### RewardMailTemplateID
@@ -139,11 +139,10 @@ excerpt from [`enum QuestSpecialFlags`](https://github.com/TrinityCore/TrinityCo
 | 8 | 0x08 | QUEST_SPECIAL_FLAGS_DF_QUEST | if the quest is used by Dungeon Finder. |
 | 16 | 0x10 | QUEST_SPECIAL_FLAGS_MONTHLY | if the quest is reset at the begining of the month |
 | 32 | 0x20 | QUEST_SPECIAL_FLAGS_CAST | if the quest requires RequiredOrNpcGo killcredit but NOT kill (a spell cast). This action usually involves "killing" an invisible "bunny" NPC. |
-{.dense}
+
 UPDATE ME
 &nbsp;
 
 ### ScriptName
 *- no description -*
 &nbsp;
-

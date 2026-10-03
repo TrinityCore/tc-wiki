@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T09:29:20.165Z
 | [Name](#name-alt) | varchar(70) |  |  | NO |  |  |  |
 | [Description](#description) | varchar(100) |  |  | NO |  |  |  |
 | [Level](#level) | tinyint | unsigned |  | NO | 1 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,4 +35,3 @@ dateCreated: 2021-08-30T09:29:20.165Z
 ### Level
 *- no description -*
 &nbsp;
-

@@ -16,11 +16,12 @@ dateCreated: 2021-08-30T09:31:15.199Z
 | [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  |  |
 | [modelid](#modelid) | int | unsigned |  | NO | 0 |  |  |
 | [equipment_id](#equipment_id) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### eventEntry
-This field signifies the [`game_event.eventEntry`](/database/master/world/game_event#eventEntry)
+This field signifies the [`game_event.eventEntry`](/database/master/world/game_event#evententry)
 &nbsp;
 
 ### guid
@@ -33,7 +34,6 @@ Use 0 if only the equipment is to be changed during event.
 &nbsp;
 
 ### equipment_id
-New equipment to be used during the event (Refers to [`creature_equip_template.ID`](/database/master/world/creature_equip_template#ID))
+New equipment to be used during the event (Refers to [`creature_equip_template.ID`](/database/master/world/creature_equip_template#id-alt))
 Use 0 if only the model is to be changed during event.
 &nbsp;
-

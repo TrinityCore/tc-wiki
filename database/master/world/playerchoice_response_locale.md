@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T09:34:02.658Z
 | [Description](#description) | varchar(2047) |  |  | NO | '' |  |  |
 | [Confirmation](#confirmation) | varchar(127) |  |  | NO | '' |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

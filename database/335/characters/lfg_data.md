@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T22:01:42.951Z
 | [guid](#guid) | int | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
 | [dungeon](#dungeon) | int | unsigned |  | NO | 0 |  |  |
 | [state](#state) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -27,7 +28,7 @@ references [groups.guid](../characters/groups#guid)
 &nbsp;
 
 ### dungeon
-[LFGDungeon ID](/files/DBC/335/lfgdungeons#id)
+[LFGDungeon ID](/files/DBC/335/lfgdungeons#id-alt)
 &nbsp;
 
 ### state
@@ -42,7 +43,5 @@ references [groups.guid](../characters/groups#guid)
 | 5 | LFG_STATE_DUNGEON | In LFG Group, in a Dungeon |
 | 6 | LFG_STATE_FINISHED_DUNGEON | In LFG Group, in a finished Dungeon |
 | 7 | LFG_STATE_RAIDBROWSER | Using Raid finder |
-{.dense}
 
 &nbsp;
-

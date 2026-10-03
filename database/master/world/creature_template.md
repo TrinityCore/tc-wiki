@@ -54,6 +54,7 @@ dateCreated: 2021-08-30T09:30:15.744Z
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
 | [StringId](#stringid) | varchar(64) |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -129,7 +130,6 @@ Just because more than one faction has the same name, the inter-faction relation
 ### npcflag
 A bitmask that represents what NPC flags the creature has. Each bit controls a different flag and to combine flags, you can add each flag that you want, in effect activating the respective bits.
 
-| Flag                    ||        |         |
 | Decimal    | Hexadecimal | Name   | Comment |
 |:-----------|-------------|--------|---------|
 | 1          | 0x0000 0001 | Gossip | If creature has more gossip options, add this flag to bring up a menu. |
@@ -187,8 +187,8 @@ If non-zero, this field defines the size of how the model of the creature appear
 ### Classification
 The classification of the creature:
 
-| Classification | Name | Default Corpse Decay Time</br>Worldserver.conf ([Corpse.Decay](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/worldserver/worldserver.conf.dist#L1745)) |
-|---|---|:---:|:---:|:---:|
+| Classification | Name | Default Corpse Decay Time<br>Worldserver.conf ([Corpse.Decay](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/worldserver/worldserver.conf.dist#L1745)) |
+|---|---|:---:|
 | 0 | Normal | 5 min |
 | 1 | Elite | 5 min |
 | 2 | Rare Elite | 5 min |
@@ -218,6 +218,7 @@ Creature's melee damage school.
 | 4 | SPELL_SCHOOL_FROST |
 | 5 | SPELL_SCHOOL_SHADOW |
 | 6 | SPELL_SCHOOL_ARCANE |
+
 &nbsp;
 
 ### BaseAttackTime
@@ -245,6 +246,7 @@ This is the creature's class, and it dictates levels of health and mana. Also no
 | 2 | CLASS_PALADIN | Health & Mana (more health than Mage but less mana) |
 | 4 | CLASS_ROGUE | Health only (equal to Warrior) |
 | 8 | CLASS_MAGE | Health & Mana (less health than Paladin but more mana) |
+
 &nbsp;
 
 ### unit_flags
@@ -287,7 +289,6 @@ This field is overridden by ScriptName field if both are set.
 | PetAI | Creature is a pet. |
 | TotemAI | Creature casts [Spell](../world/creature_template_spell#spell) from **Index** 1 , otherwise like NullAI. |
 | SmartAI | Creature uses [Smart AI](../world/smart_scripts). |
-{.dense}
 
 &nbsp;
 
@@ -298,7 +299,6 @@ The creature's default movement type.
 | 0 | Idle; stay in one place |
 | 1 | Random movement inside the spawndist radius |
 | 2 | Waypoint movement |
-{.dense}
 
 &nbsp;
 
@@ -356,6 +356,7 @@ Extra flags which aren't sniffable
 268435456 | CREATURE_FLAG_EXTRA_DUNGEON_BOSS | 0x10000000 | Creature is a dungeon boss. This flag is generically set by core during runtime. Setting this in database will give you startup error. |
 536870912 | CREATURE_FLAG_EXTRA_IGNORE_PATHFINDING | 0x20000000 | Creature will ignore pathfinding. This is like disabling Mmaps, only for one creature. |
 1073741824 | CREATURE_FLAG_EXTRA_IMMUNITY_KNOCKBACK | 0x40000000 | creature will immune all knockback effects |
+
 &nbsp;
 
 ### ScriptName
@@ -378,4 +379,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 
 &nbsp;
-

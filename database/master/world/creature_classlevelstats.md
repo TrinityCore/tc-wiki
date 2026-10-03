@@ -18,6 +18,7 @@ dateCreated: 2021-08-30T09:29:47.087Z
 | [attackpower](#attackpower) | smallint | signed |  | NO | 0 |  |  |
 | [rangedattackpower](#rangedattackpower) | smallint | signed |  | NO | 0 |  |  |
 | [comment](#comment) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -44,5 +45,3 @@ Base mana for the creature. This value is multiplied by [creature_template.mana_
 ### comment
 A comment describing the purpose of the record (entry).
 &nbsp;
-
-

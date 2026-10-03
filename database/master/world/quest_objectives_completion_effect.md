@@ -18,15 +18,16 @@ dateCreated: 2023-10-06T19:42:39.882Z
 | [ConversationID](#conversationid) | int | signed |  | YES | NULL |  |  |
 | [UpdatePhaseShift](#updatephaseshift) | tinyint(1) | signed |  | YES | 0 |  |  |
 | [UpdateZoneAuras](#updatezoneauras) | tinyint(1) | signed |  | YES | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### ObjectiveID
-Id of the Quest [Objective](/database/master/world/quest_objectives#ID) 
+Id of the Quest [Objective](/database/master/world/quest_objectives#id-alt) 
 &nbsp;
 
 ### GameEventID
-Id of a [GameEvent](/database/master/world/game_event#eventEntry) which starts after player receive the Quest Objective
+Id of a [GameEvent](/database/master/world/game_event#evententry) which starts after player receive the Quest Objective
 &nbsp;
 
 ### SpellID
@@ -34,7 +35,7 @@ SpellID of the spell the player should cast after receive the Quest Objective
 &nbsp;
 
 ### ConversationID
-Id of the [Conversation](/database/master/world/conversation_template#Id) which gets played after player received the Quest Objective
+Id of the [Conversation](/database/master/world/conversation_template#id-alt) which gets played after player received the Quest Objective
 &nbsp;
 
 ### UpdatePhaseShift
@@ -44,4 +45,3 @@ Send update for phaseshift (0/1)
 ### UpdateZoneAuras
 Send update for zone auras (0/1)
 &nbsp;
-

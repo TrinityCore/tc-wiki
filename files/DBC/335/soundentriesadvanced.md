@@ -44,6 +44,7 @@ dateCreated: 2023-09-05CEST16:09:35.000Z
 | 21 | [OutsideVolume](#outsidevolume) | float |  |
 | 22 | [OuterRadius2D](#outerradius2d) | float |  |
 | 23 | [Name](#name-alt) | string |  |
+
 &nbsp;
 ## Description of fields
 
@@ -172,4 +173,3 @@ dateCreated: 2023-09-05CEST16:09:35.000Z
 
 *- no description -*
 &nbsp;
-

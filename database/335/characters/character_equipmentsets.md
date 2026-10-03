@@ -22,25 +22,26 @@ dateCreated: 2021-08-30T21:59:31.038Z
 | [name](#name-alt) | varchar(31) |  |  | NO |  |  |  |
 | [iconname](#iconname) | varchar(100) |  |  | NO |  |  |  |
 | [ignore_mask](#ignore_mask) | int | unsigned |  | NO | 0 |  |  |
-| [item0](#item0-18) | int | unsigned |  | NO | 0 |  |  |
-| [item1](#item0-18) | int | unsigned |  | NO | 0 |  |  |
-| [item2](#item0-18) | int | unsigned |  | NO | 0 |  |  |
-| [item3](#item0-18) | int | unsigned |  | NO | 0 |  |  |
-| [item4](#item0-18) | int | unsigned |  | NO | 0 |  |  |
-| [item5](#item0-18) | int | unsigned |  | NO | 0 |  |  |
-| [item6](#item0-18) | int | unsigned |  | NO | 0 |  |  |
-| [item7](#item0-18) | int | unsigned |  | NO | 0 |  |  |
-| [item8](#item0-18) | int | unsigned |  | NO | 0 |  |  |
-| [item9](#item0-18) | int | unsigned |  | NO | 0 |  |  |
-| [item10](#item10-18) | int | unsigned |  | NO | 0 |  |  |
-| [item11](#item10-18) | int | unsigned |  | NO | 0 |  |  |
-| [item12](#item10-18) | int | unsigned |  | NO | 0 |  |  |
-| [item13](#item10-18) | int | unsigned |  | NO | 0 |  |  |
-| [item14](#item10-18) | int | unsigned |  | NO | 0 |  |  |
-| [item15](#item10-18) | int | unsigned |  | NO | 0 |  |  |
-| [item16](#item10-18) | int | unsigned |  | NO | 0 |  |  |
-| [item17](#item10-18) | int | unsigned |  | NO | 0 |  |  |
-| [item18](#item10-18) | int | unsigned |  | NO | 0 |  |  |
+| [item0](#item-0-18) | int | unsigned |  | NO | 0 |  |  |
+| [item1](#item-0-18) | int | unsigned |  | NO | 0 |  |  |
+| [item2](#item-0-18) | int | unsigned |  | NO | 0 |  |  |
+| [item3](#item-0-18) | int | unsigned |  | NO | 0 |  |  |
+| [item4](#item-0-18) | int | unsigned |  | NO | 0 |  |  |
+| [item5](#item-0-18) | int | unsigned |  | NO | 0 |  |  |
+| [item6](#item-0-18) | int | unsigned |  | NO | 0 |  |  |
+| [item7](#item-0-18) | int | unsigned |  | NO | 0 |  |  |
+| [item8](#item-0-18) | int | unsigned |  | NO | 0 |  |  |
+| [item9](#item-0-18) | int | unsigned |  | NO | 0 |  |  |
+| [item10](#item-0-18) | int | unsigned |  | NO | 0 |  |  |
+| [item11](#item-0-18) | int | unsigned |  | NO | 0 |  |  |
+| [item12](#item-0-18) | int | unsigned |  | NO | 0 |  |  |
+| [item13](#item-0-18) | int | unsigned |  | NO | 0 |  |  |
+| [item14](#item-0-18) | int | unsigned |  | NO | 0 |  |  |
+| [item15](#item-0-18) | int | unsigned |  | NO | 0 |  |  |
+| [item16](#item-0-18) | int | unsigned |  | NO | 0 |  |  |
+| [item17](#item-0-18) | int | unsigned |  | NO | 0 |  |  |
+| [item18](#item-0-18) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

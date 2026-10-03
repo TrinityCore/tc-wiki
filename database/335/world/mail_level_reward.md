@@ -18,6 +18,7 @@ On certain levels, the player receives a mail with some text.
 | [raceMask](#racemask) | int | unsigned | PRI | NO | 0 |  |  |
 | [mailTemplateId](#mailtemplateid) | int | unsigned |  | NO | 0 |  |  |
 | [senderEntry](#senderentry) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -32,7 +33,7 @@ Players race must match mask to receive mail.
 &nbsp;
 
 ### mailTemplateId
-[MailTemplate ID](/files/DBC/335/mailtemplate#id) to send.
+[MailTemplate ID](/files/DBC/335/mailtemplate#id-alt) to send.
 &nbsp;
 
 ### senderEntry

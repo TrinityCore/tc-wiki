@@ -20,8 +20,9 @@ dateCreated: 2021-08-30T09:36:40.299Z
 | [racemask](#racemask) | bigint | unsigned | PRI | NO | 0 |  |  |
 | [gender](#gender) | tinyint | unsigned | PRI | NO | 2 |  |  |
 | [flags](#flags) | tinyint | unsigned |  | NO | 3 |  |  |
-| [quest_start_status](#quest_start_status/quest_end_status) | int | signed |  | NO | 64 |  |  |
-| [quest_end_status](#quest_start_status/quest_end_status) | int | signed |  | NO | 11 |  |  |
+| [quest_start_status](#quest_start_status-quest_end_status) | int | signed |  | NO | 64 |  |  |
+| [quest_end_status](#quest_start_status-quest_end_status) | int | signed |  | NO | 11 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,11 +35,11 @@ The area ID. Type ".gps" in-game and find the "Area:" number to use for this cel
 &nbsp;
 
 ### quest_start
-The entry of the quest which the player must have in the state defined by quest_start_status. See [quest_template.ID](/database/master/world/quest_template#ID).
+The entry of the quest which the player must have in the state defined by quest_start_status. See [quest_template.ID](/database/master/world/quest_template#id-alt).
 &nbsp;
 
 ### quest_end
-The entry of the quest which the player must not have in the state defined by quest_end_status. See [quest_template.ID](/database/master/world/quest_template#ID). Setting both quest_start and quest_end to the same value is useless.
+The entry of the quest which the player must not have in the state defined by quest_end_status. See [quest_template.ID](/database/master/world/quest_template#id-alt). Setting both quest_start and quest_end to the same value is useless.
 &nbsp;
 
 ### aura_spell
@@ -90,6 +91,7 @@ Calculate using table below. (ordered by Race ID)
 | RACEMASK_ALLIANCE | 0xB1214C4D |
 | RACEMASK_HORDE | 0x4E00B3B2 |
 | RACEMASK_ALL_PLAYABLE | 0xFFA1FFFF |
+
 &nbsp;
 
 ### gender
@@ -101,6 +103,7 @@ The gender type this entry applies to. 0 = Male, 1 = Female, 2 = Any.
 | --- | --- | --- | --- |
 | 1 | 0x01 | SPELL_AREA_FLAG_AUTOCAST | If the spell should be automatically applied when the character enters the area. Also prevents the user from removing it. |
 | 2 | 0x02 | SPELL_AREA_FLAG_AUTOREMOVE | If the spell should be automatically removed when the character is inside the area (only works with quest updates) |
+
 &nbsp;
 
 ### quest_start_status/quest_end_status
@@ -113,7 +116,5 @@ The gender type this entry applies to. 0 = Male, 1 = Female, 2 = Any.
 | :x: QUEST_STATUS_AVAILABLE | 16 | (not used) |
 | QUEST_STATUS_FAILED | 32 | Player failed to fulfill objectives for any reason, e.g. time limit |
 | QUEST_STATUS_REWARDED | 64 | Player handed quest in and this is sort of a post-quest interaction |
+
 &nbsp;
-
-
-

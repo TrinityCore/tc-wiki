@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T07:33:09.754Z
 | [quest](#quest) | int | unsigned | PRI | NO | 0 |  | Quest Identifier |
 | [event](#event) | int | unsigned |  | NO | 0 |  | Event Identifier |
 | [completedTime](#completedtime) | bigint | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,4 +35,3 @@ dateCreated: 2021-08-30T07:33:09.754Z
 ### completedTime
 *- no description -*
 &nbsp;
-

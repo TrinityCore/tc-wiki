@@ -135,7 +135,6 @@ dateCreated: 2023-10-04T08:05:02.714Z
 | 2 | 0x2 | GLOBAL |  |
 | 4 | 0x4 | HOLIDAY | Headless Horseman, Brewfest, etc. |
 | 8 | 0x8 | SPECIFIC_REWARD |  |
-{.dense}
 
 &nbsp;
 

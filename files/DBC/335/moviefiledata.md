@@ -22,6 +22,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | :---: | --- | :---: | --- |
 | 0 | [FileDataID](#filedataid) | uint32 | [FileData.dbc/0](/files/DBC/335/filedata#id-alt) |
 | 1 | [Resolution](#resolution) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -37,4 +38,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 * `800`
 * `1024`
 &nbsp;
-

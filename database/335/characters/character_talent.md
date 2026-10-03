@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T22:00:27.602Z
 | [guid](#guid) | int | unsigned | PRI | NO |  |  |  |
 | [spell](#spell) | mediumint | unsigned | PRI | NO |  |  |  |
 | [talentGroup](#talentgroup) | tinyint | unsigned | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -27,11 +28,10 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### spell
-The [Spell ID](/files/DBC/335/spell#id) known to the character.
+The [Spell ID](/files/DBC/335/spell#id-alt) known to the character.
 &nbsp;
 
 ### talentGroup
 * 0: characters fist spec
 * 1: characters second spec
 &nbsp;
-

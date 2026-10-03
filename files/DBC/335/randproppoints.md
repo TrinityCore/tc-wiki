@@ -36,6 +36,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 13 | [Good_2](#good) | uint32 |  |
 | 14 | [Good_3](#good) | uint32 |  |
 | 15 | [Good_4](#good) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -67,4 +68,3 @@ Col offset depending on `INVTYPE_*`, valid for all qualities:
 
 *- no description -*
 &nbsp;
-

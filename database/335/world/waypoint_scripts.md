@@ -28,6 +28,7 @@ Holds scripts used in the [waypoint_data](../world/waypoint_data) table.
 | [o](#o) | float |  |  | NO | 0 |  |  |
 | [guid](#guid) | int | signed | PRI | NO | 0 |  |  |
 | [Comment](#comment) | varchar(255) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -78,4 +79,3 @@ Holds scripts used in the [waypoint_data](../world/waypoint_data) table.
 ### Comment
 *- no description -*
 &nbsp;
-

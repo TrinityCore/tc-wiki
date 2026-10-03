@@ -77,6 +77,7 @@ dateCreated: 2023-10-04T08:02:56.984Z
 | 54 | [Description_14](#description) | string |  |
 | 55 | [Description_15](#description) | string |  |
 | 56 | [Description_lang_mask](#description) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

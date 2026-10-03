@@ -110,6 +110,7 @@ Structurally similar to the [Spell.dbc](/files/DBC/335/spell) file, this table h
 | [DmgMultiplier3](#dmgmultiplier3) | float |  |  | NO | 0 |  |  |
 | [AreaGroupId](#areagroupid) | int | signed |  | NO | 0 |  |  |
 | [SchoolMask](#schoolmask) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -496,4 +497,3 @@ Structurally similar to the [Spell.dbc](/files/DBC/335/spell) file, this table h
 ### SchoolMask
 *- no description -*
 &nbsp;
-

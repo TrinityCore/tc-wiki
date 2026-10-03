@@ -26,6 +26,7 @@ dateCreated: 2021-08-30T21:57:55.797Z
 | [unixtime](#unixtime) | int | unsigned |  | NO |  |  | Unixtime |
 | [time](#time) | timestamp |  |  | NO | CURRENT_TIMESTAMP | DEFAULT_GENERATED | Timestamp |
 | [comment](#comment) | text |  |  | YES | NULL |  | Allows users to add a comment |
+
 &nbsp;
 ## Description of fields
 
@@ -34,7 +35,7 @@ Unique log enumerator
 &nbsp;
 
 ### account_id
-references [account.id](../auth/account#id)
+references [account.id](../auth/account#id-alt)
 &nbsp;
 
 ### character_guid
@@ -43,7 +44,7 @@ references [characters.guid](../characters/characters#guid)
 &nbsp;
 
 ### realm_id
-The [realm](../auth/realmlist#id) this happened on.
+The [realm](../auth/realmlist#id-alt) this happened on.
 `0` on account actions
 &nbsp;
 
@@ -63,7 +64,6 @@ The [realm](../auth/realmlist#id) this happened on.
 | 10 | CHARACTER_DELETE | Character Deleted |
 | 11 | CHARACTER_FAILED_DELETE | Character Deletion Failed |
 | 12 | UNKNOWN_ACTION | ERROR! Unknown action! |
-{.dense}
 
 ### ip
 IP address of the player.
@@ -84,4 +84,3 @@ Timestamp as DateTime string.
 ### comment
 Comments can be added manually.
 &nbsp;
-

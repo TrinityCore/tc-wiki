@@ -24,6 +24,7 @@ dateCreated: 2021-08-30T09:35:37.173Z
 | [PortraitTurnInName](#portraitturninname) | mediumtext |  |  | YES | NULL |  |  |
 | [QuestCompletionLog](#questcompletionlog) | mediumtext |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

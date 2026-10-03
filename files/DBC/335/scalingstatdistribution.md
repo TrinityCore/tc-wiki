@@ -42,6 +42,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 19 | [Bonus_8](#bonus) | uint32 |  |
 | 20 | [Bonus_9](#bonus) | uint32 |  |
 | 21 | [Maxlevel](#maxlevel) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

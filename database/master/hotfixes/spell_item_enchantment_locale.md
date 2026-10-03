@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T10:01:32.429Z
 | [Name_lang](#name_lang) | text |  |  | YES | NULL |  |  |
 | [HordeName_lang](#hordename_lang) | text |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

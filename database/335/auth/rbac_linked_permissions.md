@@ -20,14 +20,14 @@ dateCreated: 2021-08-30T21:58:03.658Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [id](#id-alt) | int | unsigned | PRI | NO |  |  | Permission id |
 | [linkedId](#linkedid) | int | unsigned | PRI | NO |  |  | Linked Permission id |
+
 &nbsp;
 ## Description of fields
 
 ### id {#id-alt}
-references [rbac_permissions.id](../auth/rbac_permissions#id)
+references [rbac_permissions.id](../auth/rbac_permissions#id-alt)
 &nbsp;
 
 ### linkedId
-references [rbac_permissions.id](../auth/rbac_permissions#id)
+references [rbac_permissions.id](../auth/rbac_permissions#id-alt)
 &nbsp;
-

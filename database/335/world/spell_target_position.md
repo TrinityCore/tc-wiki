@@ -22,11 +22,12 @@ This table holds coordinate information on where the player should be teleported
 | [PositionZ](#positionz) | float |  |  | NO | 0 |  |  |
 | [Orientation](#orientation) | float |  |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### ID {#id-alt}
-references [Spell ID](/files/DBC/335/spell#id)
+references [Spell ID](/files/DBC/335/spell#id-alt)
 &nbsp;
 
 ### EffectIndex
@@ -35,7 +36,7 @@ The effect index of the spell with TARGET_DEST_DB.
 &nbsp;
 
 ### MapID
-The [Map ID](/files/DBC/335/map#id) the player should be teleported to.
+The [Map ID](/files/DBC/335/map#id-alt) the player should be teleported to.
 &nbsp;
 
 ### PositionX
@@ -65,4 +66,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -[Client Build](/database/335/auth/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
-

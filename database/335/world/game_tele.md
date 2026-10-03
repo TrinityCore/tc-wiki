@@ -21,6 +21,7 @@ This table contains a list of teleport locations that can be used with the `.tel
 | [orientation](#orientation) | float |  |  | NO | 0 |  |  |
 | [map](#map) | smallint | unsigned |  | NO | 0 |  |  |
 | [name](#name-alt) | varchar(100) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -47,7 +48,7 @@ The direction that the player will face after arriving at the teleport location.
 &nbsp;
 
 ### map
-The [Map ID](/files/DBC/335/map#id) of the location.
+The [Map ID](/files/DBC/335/map#id-alt) of the location.
 &nbsp;
 
 ### name {#name-alt}

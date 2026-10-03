@@ -55,6 +55,7 @@ dateCreated: 2023-10-04T08:08:04.899Z
 | 32 | [PresetSpellID_5](#presetspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
 | 33 | [PresetSpellID_6](#presetspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
 | 34 | [PresetSpellID_7](#presetspellid) | uint32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -96,7 +97,6 @@ dateCreated: 2023-10-04T08:08:04.899Z
 | 4096 | 0x01000 | NoEmoteSounds | Prevents emote sounds. |
 | 8192 | 0x02000 | NoTriggerTeleport | Enables Alliance and Horde to participate in the activity as a group together. |
 | 16384 | 0x04000 | CannotChangeEquippedItems | Prevents emote sounds.  |
-{.dense}
 
 &nbsp;
 
@@ -132,4 +132,3 @@ Auto hit delay in msec.
 
 *- no description -*
 &nbsp;
-

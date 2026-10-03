@@ -26,6 +26,7 @@ dateCreated: 2023-10-04T08:03:59.548Z
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
 | 0 | [Data](#data) | float |  |
+
 &nbsp;
 ## Description of fields
 
@@ -37,4 +38,3 @@ Character base MP regeneration per point spirit? Not used as indicated by PaperD
 Ordered by character class, character level 1 &ndash; 100 ASC.
 <code>idx = (([ChrClassID](/files/DBC/335/chrclasses#id-alt) - 1) * 100) + (level - 1)</code>
 &nbsp;
-

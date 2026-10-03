@@ -28,11 +28,12 @@ This table holds the percentages for weather changes in various zones. Not all z
 | [winter_snow_chance](#winter_snow_chance) | tinyint | unsigned |  | NO | 25 |  |  |
 | [winter_storm_chance](#winter_storm_chance) | tinyint | unsigned |  | NO | 25 |  |  |
 | [ScriptName](#scriptname) | char(64) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### zone
-This field contains the [AreaTable ID](/files/DBC/335/areatable#id) of the zone that you wish to change the weather for.
+This field contains the [AreaTable ID](/files/DBC/335/areatable#id-alt) of the zone that you wish to change the weather for.
 &nbsp;
 
 ### spring_rain_chance
@@ -86,4 +87,3 @@ Percentage chance for sand storm in the winter.
 ### ScriptName
 The name of the script that modifies weather in this zone, if any. This ties a script from a scripting engine to this weather definition.
 &nbsp;
-

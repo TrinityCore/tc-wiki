@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T08:17:08.779Z
 | [ownerguid](#ownerguid) | bigint | unsigned | PRI | NO |  |  |  |
 | [petitionguid](#petitionguid) | bigint | unsigned |  | YES | 0 |  |  |
 | [name](#name-alt) | varchar(24) |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,4 +30,3 @@ dateCreated: 2021-08-30T08:17:08.779Z
 ### name {#name-alt}
 *- no description -*
 &nbsp;
-

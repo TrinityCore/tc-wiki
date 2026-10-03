@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T07:28:21.272Z
 | [item_guid](#item_guid) | bigint | unsigned | PRI | NO | 0 |  |  |
 | [entry](#entry) | int | unsigned |  | NO | 0 |  |  |
 | [flags](#flags) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,5 +35,3 @@ dateCreated: 2021-08-30T07:28:21.272Z
 ### flags
 *- no description -*
 &nbsp;
-
-

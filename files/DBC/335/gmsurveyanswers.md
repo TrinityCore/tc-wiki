@@ -40,6 +40,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 17 | [Answer_14](#answer) | string |  |
 | 18 | [Answer_15](#answer) | string |  |
 | 19 | [Answer_lang_mask](#answer) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -66,4 +67,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

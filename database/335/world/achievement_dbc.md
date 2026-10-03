@@ -21,6 +21,7 @@ Stores achievement data that is missing in [Achievement.dbc](/files/DBC/335/achi
 | [flags](#flags) | int | unsigned |  | NO | 0 |  |  |
 | [count](#count) | int | unsigned |  | NO | 0 |  |  |
 | [refAchievement](#refachievement) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

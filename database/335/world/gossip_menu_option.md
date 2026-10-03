@@ -29,6 +29,7 @@ Examples of options: `"Train me!"`, `"I want to unlearn my talents"`
 | [BoxText](#boxtext) | mediumtext |  |  | YES | NULL |  |  |
 | [BoxBroadcastTextID](#boxbroadcasttextid) | int | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -57,7 +58,6 @@ An icon prefixed to the **OptionText**.
 | 8 | GOSSIP_ICON_TABARD | white tabard | TabardGossipIcon.blp |
 | 9 | GOSSIP_ICON_BATTLE | two crossed swords | BattlemasterGossipIcon.blp |
 | 10 | GOSSIP_ICON_DOT | yellow dot/point | AuctioneerGossipIcon.blp &ndash; :x: missing in 335a |
-{.dense}
 
 &nbsp;
 
@@ -67,12 +67,12 @@ This is the text that you want to be displayed in the player selectable option. 
 * "I would like to browse your goods."
 * "Learn Dual Spec".
 
-If **OptionBroadcastTextID** contains a valid [broadcast_text.ID](../world/broadcast_text#id), it links to broadcast_text so the content from broadcast_text is displayed directly instead of the **OptionText** field content.
+If **OptionBroadcastTextID** contains a valid [broadcast_text.ID](../world/broadcast_text#id-alt), it links to broadcast_text so the content from broadcast_text is displayed directly instead of the **OptionText** field content.
 
 &nbsp;
 
 ### OptionBroadcastTextID
-The ID of the same text in [broadcast_text](../world/broadcast_text#id).
+The ID of the same text in [broadcast_text](../world/broadcast_text#id-alt).
 &nbsp;
 
 ### OptionType
@@ -99,7 +99,6 @@ The ID of the same text in [broadcast_text](../world/broadcast_text#id).
 | 18 | GOSSIP_OPTION_LEARNDUALSPEC | UNIT_NPC_FLAG_TRAINER (bonus option for GOSSIP_OPTION_TRAINER) | 16 |
 | 19 | GOSSIP_OPTION_OUTDOORPVP | added by code (option for outdoor pvp creatures) |  |
 | 20 | GOSSIP_OPTION_DUALSPEC_INFO | UNIT_NPC_FLAG_TRAINER (bonus option for GOSSIP_OPTION_TRAINER) | 16 |
-{.dense}
 
 &nbsp;
 
@@ -112,7 +111,7 @@ If you want to create a sub-menu, this is the ID ([gossip_menu.MenuID](../world/
 &nbsp;
 
 ### ActionPoiID
-If you want a POI (point of interest) to display on the minimap (like how a city guard places a marker when you ask directions), this is the ID from [points_of_interest](../world/points_of_interest#id)
+If you want a POI (point of interest) to display on the minimap (like how a city guard places a marker when you ask directions), this is the ID from [points_of_interest](../world/points_of_interest#id-alt)
 &nbsp;
 
 ### BoxCoded
@@ -126,11 +125,11 @@ The DB value you insert here must be given in the number of copper, so 10 gold i
 
 ### BoxText
 This is the text of the window that appears that has "Yes" or "No" as clickable buttons. This is useful if you want a Yes/No confirmation window before the script executes. For example: "Are you sure you want to teleport to Dalaran?".
-If **BoxBroadCastTextID** contains a valid [broadcast_text.ID](../world/broadcast_text#id), it links to broadcast_text so the content from broadcast_text is displayed directly instead of the **BoxText** field content.
+If **BoxBroadCastTextID** contains a valid [broadcast_text.ID](../world/broadcast_text#id-alt), it links to broadcast_text so the content from broadcast_text is displayed directly instead of the **BoxText** field content.
 &nbsp;
 
 ### BoxBroadcastTextID
-The ID of the same text in [broadcast_text](../world/broadcast_text#id).
+The ID of the same text in [broadcast_text](../world/broadcast_text#id-alt).
 &nbsp;
 
 ### VerifiedBuild
@@ -144,5 +143,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -[Client Build](/database/335/auth/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
-
-

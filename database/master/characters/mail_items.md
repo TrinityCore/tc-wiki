@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T08:15:32.034Z
 | [mail_id](#mail_id) | bigint | unsigned | MUL | NO | 0 |  |  |
 | [item_guid](#item_guid) | bigint | unsigned | PRI | NO | 0 |  |  |
 | [receiver](#receiver) | bigint | unsigned | MUL | NO | 0 |  | Character Global Unique Identifier |
+
 &nbsp;
 ## Description of fields
 
@@ -29,4 +30,3 @@ dateCreated: 2021-08-30T08:15:32.034Z
 ### receiver
 *- no description -*
 &nbsp;
-

@@ -14,15 +14,14 @@ dateCreated: 2021-08-30T09:35:02.771Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [QuestId](#questid) | int | unsigned | PRI | NO | 0 |  |  |
 | [RewardMailSenderEntry](#rewardmailsenderentry) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### QuestId
-references [quest_template.ID](../world/quest_template#id)
+references [quest_template.ID](../world/quest_template#id-alt)
 &nbsp;
 
 ### RewardMailSenderEntry
 [creature_template.entry](../world/creature_template#entry) of the NPC appearing as mail sender.
 &nbsp;
-
-

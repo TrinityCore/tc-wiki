@@ -18,6 +18,7 @@ dateCreated: 2021-08-30T07:20:38.863Z
 | [bannedby](#bannedby) | varchar(50) |  |  | NO |  |  |  |
 | [banreason](#banreason) | varchar(255) |  |  | NO |  |  |  |
 | [active](#active) | tinyint | unsigned |  | NO | 1 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -44,4 +45,3 @@ dateCreated: 2021-08-30T07:20:38.863Z
 ### active
 *- no description -*
 &nbsp;
-

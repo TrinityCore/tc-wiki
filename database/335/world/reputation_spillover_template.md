@@ -15,27 +15,28 @@ This table defines when reputation gain with one faction should also affect othe
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [faction](#faction) | smallint | unsigned | PRI | NO | 0 |  | faction entry |
-| [faction1](#faction1-4) | smallint | unsigned |  | NO | 0 |  | faction to give spillover for |
-| [rate_1](#rate_1-4) | float |  |  | NO | 0 |  | the given rep points * rate |
-| [rank_1](#rank_1-4) | tinyint | unsigned |  | NO | 0 |  | max rank,above this will not give any spillover |
-| [faction2](#faction1-4) | smallint | unsigned |  | NO | 0 |  |  |
-| [rate_2](#rate_1-4) | float |  |  | NO | 0 |  |  |
-| [rank_2](#rank_1-4) | tinyint | unsigned |  | NO | 0 |  |  |
-| [faction3](#faction1-4) | smallint | unsigned |  | NO | 0 |  |  |
-| [rate_3](#rate_1-4) | float |  |  | NO | 0 |  |  |
-| [rank_3](#rank_1-4) | tinyint | unsigned |  | NO | 0 |  |  |
-| [faction4](#faction1-4) | smallint | unsigned |  | NO | 0 |  |  |
-| [rate_4](#rate_1-4) | float |  |  | NO | 0 |  |  |
-| [rank_4](#rank_1-4) | tinyint | unsigned |  | NO | 0 |  |  |
+| [faction1](#faction-1-4) | smallint | unsigned |  | NO | 0 |  | faction to give spillover for |
+| [rate_1](#rate_-1-4) | float |  |  | NO | 0 |  | the given rep points * rate |
+| [rank_1](#rank_-1-4) | tinyint | unsigned |  | NO | 0 |  | max rank,above this will not give any spillover |
+| [faction2](#faction-1-4) | smallint | unsigned |  | NO | 0 |  |  |
+| [rate_2](#rate_-1-4) | float |  |  | NO | 0 |  |  |
+| [rank_2](#rank_-1-4) | tinyint | unsigned |  | NO | 0 |  |  |
+| [faction3](#faction-1-4) | smallint | unsigned |  | NO | 0 |  |  |
+| [rate_3](#rate_-1-4) | float |  |  | NO | 0 |  |  |
+| [rank_3](#rank_-1-4) | tinyint | unsigned |  | NO | 0 |  |  |
+| [faction4](#faction-1-4) | smallint | unsigned |  | NO | 0 |  |  |
+| [rate_4](#rate_-1-4) | float |  |  | NO | 0 |  |  |
+| [rank_4](#rank_-1-4) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### faction
-[Faction ID](/files/DBC/335/faction#id), whose reputation affects others.
+[Faction ID](/files/DBC/335/faction#id-alt), whose reputation affects others.
 &nbsp;
 
 ### faction\[1-4]
-[Faction ID](/files/DBC/335/faction#id), receiving the spillover from **faction**.
+[Faction ID](/files/DBC/335/faction#id-alt), receiving the spillover from **faction**.
 &nbsp;
 
 ### rate_\[1-4]

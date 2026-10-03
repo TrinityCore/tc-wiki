@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T07:17:42.777Z
 | [ResponseTime](#responsetime) | bigint | signed |  | NO | 0 |  |  |
 | [ModerationRank](#moderationrank) | tinyint | unsigned |  | NO | 0 |  |  |
 | [Note](#note) | varchar(255) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -54,4 +55,3 @@ dateCreated: 2021-08-30T07:17:42.777Z
 ### Note
 *- no description -*
 &nbsp;
-

@@ -19,11 +19,12 @@ dateCreated: 2021-08-30T09:38:08.386Z
 | [PositionZ](#positionz) | float |  |  | NO | 0 |  |  |
 | [Orientation](#orientation) | float |  |  | YES | NULL |  |  |
 | [Delay](#delay) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### PathId
-References unique path id from [`waypoint_path.PathId`](/database/master/world/waypoint_path#PathId)
+References unique path id from [`waypoint_path.PathId`](/database/master/world/waypoint_path#pathid)
 &nbsp;
 
 ### NodeId
@@ -49,4 +50,3 @@ The orientation when node is reached.
 ### Delay
 Time to wait (in ms) before running to next node.
 &nbsp;
-

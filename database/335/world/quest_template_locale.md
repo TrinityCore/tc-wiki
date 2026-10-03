@@ -24,6 +24,7 @@ dateCreated: 2021-08-30T22:08:37.006Z
 | [ObjectiveText3](#objectivetext3) | mediumtext |  |  | YES | NULL |  |  |
 | [ObjectiveText4](#objectivetext4) | mediumtext |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

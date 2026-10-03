@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T22:00:44.193Z
 | [mainSurvey](#mainsurvey) | int | unsigned |  | NO | 0 |  |  |
 | [comment](#comment) | longtext |  |  | NO |  |  |  |
 | [createTime](#createtime) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,7 +35,7 @@ The [guid](../characters/characters#guid) of the surveyed character.
 &nbsp;
 
 ### mainSurvey
-An [GMSurveySurveys ID](/files/DBC/335/gmsurveysurveys#id), defining the questions.
+An [GMSurveySurveys ID](/files/DBC/335/gmsurveysurveys#id-alt), defining the questions.
 &nbsp;
 
 ### comment
@@ -44,4 +45,3 @@ A player composed comment.
 ### createTime
 Unix timestamp when the survey was submitted.
 &nbsp;
-

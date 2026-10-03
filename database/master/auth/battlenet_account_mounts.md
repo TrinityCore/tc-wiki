@@ -15,6 +15,7 @@ dateCreated: 2021-08-21T03:37:00.752Z
 | [battlenetAccountId](#battlenetaccountid) | int | unsigned | PRI | NO |  |  |  |
 | [mountSpellId](#mountspellid) | int | unsigned | PRI | NO |  |  |  |
 | [flags](#flags) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ dateCreated: 2021-08-21T03:37:00.752Z
 ### flags
 *- no description -*
 &nbsp;
-
-

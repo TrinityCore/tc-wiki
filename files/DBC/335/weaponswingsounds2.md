@@ -24,6 +24,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 1 | [SwingType](#weight) | uint32 | [ItemSubClass.dbc/9](/files/DBC/335/itemsubclass#weaponswingsize) |
 | 2 | [Critical](#critical) | uint32 |  |
 | 3 | [SoundID](#soundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+
 &nbsp;
 ## Description of fields
 

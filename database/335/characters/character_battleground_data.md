@@ -27,6 +27,7 @@ dateCreated: 2021-08-30T21:59:23.068Z
 | [taxiStart](#taxistart) | int | unsigned |  | NO | 0 |  |  |
 | [taxiEnd](#taxiend) | int | unsigned |  | NO | 0 |  |  |
 | [mountSpell](#mountspell) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -61,17 +62,17 @@ Character's last orientation before joining a battleground.
 &nbsp;
 
 ### joinMapId
-Character's last [Map ID](/files/DBC/335/map#id) before joining a battleground.
+Character's last [Map ID](/files/DBC/335/map#id-alt) before joining a battleground.
 &nbsp;
 
 ### taxiStart
-Character's last [TaxiNode ID](/files/DBC/335/taxinodes#id) before joining a battleground.
+Character's last [TaxiNode ID](/files/DBC/335/taxinodes#id-alt) before joining a battleground.
 &nbsp;
 
 ### taxiEnd
-Character's heading [TaxiNode ID](/files/DBC/335/taxinodes#id) before joining a battleground.
+Character's heading [TaxiNode ID](/files/DBC/335/taxinodes#id-alt) before joining a battleground.
 &nbsp;
 
 ### mountSpell
-Character's mount [Spell ID](/files/DBC/335/spell#id) before joining a battleground.
+Character's mount [Spell ID](/files/DBC/335/spell#id-alt) before joining a battleground.
 &nbsp;

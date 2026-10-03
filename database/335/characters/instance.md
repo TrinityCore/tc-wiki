@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T22:01:21.703Z
 | [difficulty](#difficulty) | tinyint | unsigned | MUL | NO | 0 |  |  |
 | [completedEncounters](#completedencounters) | int | unsigned |  | NO | 0 |  |  |
 | [data](#data) | tinytext |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -30,7 +31,7 @@ The instance ID. This number is unique to every instance.
 &nbsp;
 
 ### map
-The [Map ID](/files/DBC/335/map#id) the instance is in.
+The [Map ID](/files/DBC/335/map#id-alt) the instance is in.
 &nbsp;
 
 ### resettime

@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T09:32:53.049Z
 | [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  |  |
 | [linkedGuid](#linkedguid) | bigint | unsigned |  | NO | 0 |  |  |
 | [linkType](#linktype) | tinyint | unsigned | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -33,8 +34,5 @@ This is the guid of the [creature](../world/creature#guid) or [gameobject](../wo
 | 1 | creature | gameobject |
 | 2 | gameobject | gameobject |
 | 3 | gameobject | creature |
-{.dense}
 
 &nbsp;
-
-

@@ -16,11 +16,12 @@ Table used for storing custom spell attributes.
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entry](#entry) | int | unsigned | PRI | NO | 0 |  | spell id |
 | [attributes](#attributes) | int | unsigned |  | NO | 0 |  | SpellCustomAttributes |
+
 &nbsp;
 ## Description of fields
 
 ### entry
-references [Spell ID](/files/DBC/335/spell#id)
+references [Spell ID](/files/DBC/335/spell#id-alt)
 &nbsp;
 
 ### attributes
@@ -52,7 +53,5 @@ references [Spell ID](/files/DBC/335/spell#id)
 | 4194304 | 0x00400000 | :x: SPELL_ATTR0_CU_DEPRECATED_LIQUID_AURA | DO NOT REUSE |
 | 8388608 | 0x00800000 | :x: SPELL_ATTR0_CU_IS_TALENT | reserved for master branch |
 | 16777216 | 0x01000000 | SPELL_ATTR0_CU_AURA_CANNOT_BE_SAVED |  |
-{.dense}
 
 &nbsp;
-

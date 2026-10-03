@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T22:00:41.523Z
 | [questionId](#questionid) | int | unsigned | PRI | NO | 0 |  |  |
 | [answer](#answer) | int | unsigned |  | NO | 0 |  |  |
 | [answerComment](#answercomment) | text |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,16 +30,15 @@ references [gm_survey.surveyId](../characters/gm_survey#surveyid).
 &nbsp;
 
 ### questionId
-[GMSurveyQuestion ID](/files/DBC/335/gmsurveyquestions#id)
-Should be limited to questions defined by [mainSurvey](../characters/gm_survey#mainsurvey), pointing to [GMSurveySurveys ID](/files/DBC/335/gmsurveysurveys#id)
+[GMSurveyQuestion ID](/files/DBC/335/gmsurveyquestions#id-alt)
+Should be limited to questions defined by [mainSurvey](../characters/gm_survey#mainsurvey), pointing to [GMSurveySurveys ID](/files/DBC/335/gmsurveysurveys#id-alt)
 &nbsp;
 
 ### answer
-A [GMSurveyAnswers SortIndex](/files/DBC/335/gmsurveyanswers#sortindex) limited by [**questionId**](/files/DBC/335/gmsurveyanswers#gmsurveyquestionid).
+A [GMSurveyAnswers SortIndex](/files/DBC/335/gmsurveyanswers#sort_index) limited by [**questionId**](/files/DBC/335/gmsurveyanswers#gmsurveyquestionid).
 (Range: 0 – 11)
 &nbsp;
 
 ### answerComment
 A player composed comment.
 &nbsp;
-

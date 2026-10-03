@@ -76,6 +76,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 53 | [AlternateVerb_15](#alternateverb) | string |  |
 | 54 | [AlternateVerb_lang_mask](#alternateverb) | uint32 |  |
 | 55 | [CanLink](#canlink) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -126,4 +127,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 Can generate TradeSkilLink.
 &nbsp;
-

@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T09:33:34.298Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [alliance_id](#alliance_id) | int | unsigned | PRI | NO |  |  |  |
 | [horde_id](#horde_id) | int | unsigned | PRI | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -24,4 +25,3 @@ This is the alliance [Achievement ID](https://wago.tools/db2/achievement). If yo
 ### horde_id
 This is the horde [Achievement ID](https://wago.tools/db2/achievement). If you convert to alliance and your achievements have a record in his table, they will be converted to **alliance_id**.
 &nbsp;
-

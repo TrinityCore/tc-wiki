@@ -17,6 +17,7 @@ dateCreated: 2022-12-19T18:38:47.737Z
 | [AbilityVerb_lang](#abilityverb_lang) | text |  |  | YES | NULL |  |  |
 | [AbilityAllVerb_lang](#abilityallverb_lang) | text |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

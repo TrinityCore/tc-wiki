@@ -18,6 +18,7 @@ dateCreated: 2021-08-30T07:22:55.418Z
 | [itemLevel](#itemlevel) | int | unsigned |  | NO | 0 |  |  |
 | [battlePetSpeciesId](#battlepetspeciesid) | int | unsigned |  | NO | 0 |  |  |
 | [suffixItemNameDescriptionId](#suffixitemnamedescriptionid) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -44,5 +45,3 @@ dateCreated: 2021-08-30T07:22:55.418Z
 ### suffixItemNameDescriptionId
 *- no description -*
 &nbsp;
-
-

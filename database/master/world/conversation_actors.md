@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T09:29:33.163Z
 | [NoActorObject](#noactorobject) | tinyint | unsigned |  | YES | 0 |  |  |
 | [ActivePlayerObject](#activeplayerobject) | tinyint | unsigned |  | YES | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -56,6 +57,7 @@ Decides the visual appearance from the actor.
 | --- | --- |
 | 0 | If WorldObject ([ConversationActorGuid](#conversationactorguid)) is missing conversation is interrupted |
 | 1 | If WorldObject ([ConversationActorGuid](#conversationactorguid)) is missing conversation is continuing |
+
 &nbsp;
 
 ### ActivePlayerObject
@@ -63,6 +65,7 @@ Decides the visual appearance from the actor.
 | --- | --- |
 | 0 | CreatureID or WorldObject is actor for conversation |
 | 1 | ActivePlayer is actor for conversation |
+
 &nbsp;
 
 ### VerifiedBuild
@@ -77,4 +80,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 
 &nbsp;
-

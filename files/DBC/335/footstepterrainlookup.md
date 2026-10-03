@@ -25,6 +25,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 2 | [TerrainSoundID](#terrainsoundid) | uint32 | [TerrainTypeSounds.dbc/0](/files/DBC/335/terraintypesounds#id-alt) |
 | 3 | [SoundID](#soundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 | 4 | [SoundIDSplash](#soundidsplash) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -57,4 +58,3 @@ dry ground
 
 wet ground
 &nbsp;
-

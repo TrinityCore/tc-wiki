@@ -28,6 +28,7 @@ dateCreated: 2021-08-30T22:00:57.718Z
 | [motd](#motd) | varchar(128) |  |  | NO | '' |  |  |
 | [createdate](#createdate) | int | unsigned |  | NO | 0 |  |  |
 | [BankMoney](#bankmoney) | bigint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -78,4 +79,3 @@ Unix timestamp when the guild was created.
 ### BankMoney
 The total money, in copper, that is currently in the guild's guild bank.
 &nbsp;
-

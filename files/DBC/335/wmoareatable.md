@@ -48,6 +48,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 25 | [AreaName_14](#areaname) | string |  |
 | 26 | [AreaName_15](#areaname) | string |  |
 | 27 | [AreaName_lang_mask](#areaname) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -118,7 +119,6 @@ Used in group WMO
 | 32 | 0x20 | Chunk uses terrain for Minimap |
 | 64 | 0x40 | Ignore for Minimap and Effects |
 | 128 | 0x80 | Ignore Fatigue |
-{.dense}
 
 &nbsp;
 
@@ -133,4 +133,3 @@ Used in group WMO
 
 *- no description -*
 &nbsp;
-

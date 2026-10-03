@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T22:01:11.079Z
 | [PlayerGuid2](#eventtype) | int | unsigned | MUL | NO |  |  | Player 2 |
 | [NewRank](#eventtype) | tinyint | unsigned |  | NO |  |  | New rank(in case promotion/demotion) |
 | [TimeStamp](#timestamp) | int | unsigned |  | NO |  |  | Event UNIX time |
+
 &nbsp;
 ## Description of fields
 
@@ -42,11 +43,9 @@ Log record enumerator, unique per guild.
 | GUILD_EVENT_LOG_DEMOTE_PLAYER | 4 | OfficerGUID | MemberGUID | 2 – 9 | guild rank-- |
 | GUILD_EVENT_LOG_UNINVITE_PLAYER | 5 | OfficerGUID | MemberGUID | 0 | player was kicked from guild |
 | GUILD_EVENT_LOG_LEAVE_GUILD | 6 | MemberGUID | 0 | 0 | player left guild on own volition |
-{.dense}
 
 &nbsp;
 
 ### TimeStamp
 Unix timestamp when the event occured.
 &nbsp;
-

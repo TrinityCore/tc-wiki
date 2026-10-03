@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T21:58:06.265Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [id](#id-alt) | int | unsigned | PRI | NO | 0 |  | Permission id |
 | [name](#name-alt) | varchar(100) |  |  | NO |  |  | Permission name |
+
 &nbsp;
 ## Description of fields
 
@@ -30,4 +31,3 @@ Unique permission enumerator
 ### name {#name-alt}
 Permission descriptor
 &nbsp;
-

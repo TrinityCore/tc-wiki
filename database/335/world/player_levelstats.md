@@ -22,17 +22,18 @@ This table holds information on what stats are gained by characters when they le
 | [sta](#sta) | smallint | unsigned |  | NO |  |  | stamina |
 | [inte](#inte) | smallint | unsigned |  | NO |  |  | intellect |
 | [spi](#spi) | smallint | unsigned |  | NO |  |  | spirit |
+
 &nbsp;
 ## Description of fields
 
 ### race
-The characters [ChrRace ID](/files/DBC/335/chrraces#id). This field along with **class** defines what stats to be applied on the character.
+The characters [ChrRace ID](/files/DBC/335/chrraces#id-alt). This field along with **class** defines what stats to be applied on the character.
 <!--@include: @/partial/335/chrraces.md{3,9}-->
 
 &nbsp;
 
 ### class
-The characters [ChrClass ID](/files/DBC/335/chrclasses#id). This field along with **race** defines what stats to be applied on the character.
+The characters [ChrClass ID](/files/DBC/335/chrclasses#id-alt). This field along with **race** defines what stats to be applied on the character.
 <!--@include: @/partial/335/chrclasses.md{3,9}-->
 
 &nbsp;

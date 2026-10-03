@@ -24,6 +24,7 @@ dateCreated: 2021-08-30T07:44:16.220Z
 | [closedBy](#closedby) | bigint | signed |  | NO | 0 |  |  |
 | [assignedTo](#assignedto) | bigint | unsigned |  | NO | 0 |  | GUID of admin to whom ticket is assigned |
 | [comment](#comment) | text |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -74,5 +75,3 @@ dateCreated: 2021-08-30T07:44:16.220Z
 ### comment
 *- no description -*
 &nbsp;
-
-

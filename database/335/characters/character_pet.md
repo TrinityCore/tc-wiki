@@ -33,6 +33,7 @@ dateCreated: 2021-08-30T21:59:50.131Z
 | [curhappiness](#curhappiness) | int | unsigned |  | NO | 0 |  |  |
 | [savetime](#savetime) | int | unsigned |  | NO | 0 |  |  |
 | [abdata](#abdata) | text |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -50,11 +51,11 @@ The [character guid](../characters/characters#guid) of the pet's owner.
 &nbsp;
 
 ### modelid
-The [model id](../world/creature_template#modelid1) used to display the pet.
+The [model id](../world/creature_template#modelid-1-4) used to display the pet.
 &nbsp;
 
 ### CreatedBySpell
-The [Spell ID](/files/DBC/335/spell#id) that has created this pet. May be 0 if pet was tamed via command `.pet create`
+The [Spell ID](/files/DBC/335/spell#id-alt) that has created this pet. May be 0 if pet was tamed via command `.pet create`
 For hunters, this is [Tame Beast](https://aowow.trinitycore.info/?spell=13481) or [Call Pet](https://aowow.trinitycore.info/?spell=883). For warlocks, mages or death knight, it is the spell that summoned the creature.
 &nbsp;
 
@@ -64,7 +65,6 @@ The type of pet that this is.
 |----|------|---------|
 | 0 | SUMMON_PET | Warlock, Mage, Death Knight |
 | 1 | HUNTER_PET | Hunter tamed |
-{.dense}
 
 &nbsp;
 
@@ -83,7 +83,6 @@ The current reaction state of the pet.
 | 0 | REACT_PASSIVE | attack when ordered |
 | 1 | REACT_DEFENSIVE | attack when attacked |
 | 2 | REACT_AGGRESSIVE | attack on sight |
-{.dense}
 
 &nbsp;
 
@@ -125,12 +124,10 @@ Pets Action Bar data.
 10 space separated type-action pairs `type1 action1 typeN actionN`
 | type | Name | Comment | action |
 |------|------|---------|--------|
-| 0x01 | ACT_PASSIVE | 0x01 - passive | [Spell ID](/files/DBC/335/spell#id) or 0 |
-| 0x81 | ACT_DISABLED | 0x80 - castable | [Spell ID](/files/DBC/335/spell#id) |
-| 0xC1 | ACT_ENABLED | 0x40 \| 0x80 - auto cast + castable | [Spell ID](/files/DBC/335/spell#id) |
+| 0x01 | ACT_PASSIVE | 0x01 - passive | [Spell ID](/files/DBC/335/spell#id-alt) or 0 |
+| 0x81 | ACT_DISABLED | 0x80 - castable | [Spell ID](/files/DBC/335/spell#id-alt) |
+| 0xC1 | ACT_ENABLED | 0x40 \| 0x80 - auto cast + castable | [Spell ID](/files/DBC/335/spell#id-alt) |
 | 0x07 | ACT_COMMAND | 0x01 \| 0x02 \| 0x04 | COMMAND_&nbsp;\[STAY, FOLLOW, ATTACK\] |
 | 0x06 | ACT_REACTION | 0x02 \| 0x04 | REACT_&nbsp;\[PASSIVE, DEFENSIVE, AGGRESSIVE\] |
-{.dense}
 
 &nbsp;
-

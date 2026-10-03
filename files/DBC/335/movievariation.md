@@ -23,6 +23,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [MovieID](#movieid) | uint32 | [Movie.dbc/0](/files/DBC/335/movie#id-alt) |
 | 2 | [FileDataID](#filedataid) | uint32 | [FileData.dbc/0](/files/DBC/335/filedata#id-alt); [MovieFileData.dbc/0](/files/DBC/335/moviefiledata#filedataid) |
+
 &nbsp;
 ## Description of fields
 
@@ -43,4 +44,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

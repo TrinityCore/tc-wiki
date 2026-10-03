@@ -18,6 +18,7 @@ dateCreated: 2021-08-30T09:54:08.198Z
 | [ClassSpecMale_lang](#classspecmale_lang) | text |  |  | YES | NULL |  |  |
 | [ClassSpecFemale_lang](#classspecfemale_lang) | text |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

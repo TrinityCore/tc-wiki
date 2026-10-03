@@ -24,6 +24,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 1 | [Name](#name-alt) | string |  |
 | 2 | [Path](#path) | string |  |
 | 3 | [HasWidescreen](#haswidescreen) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -50,4 +51,3 @@ Internal name
 
 Appends `Wide` to **Path** before the file extension.
 &nbsp;
-

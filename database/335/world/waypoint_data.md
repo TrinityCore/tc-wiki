@@ -25,6 +25,7 @@ This table contains all the path data for creatures that use waypoints.
 | [action](#action-alt) | int | signed |  | NO | 0 |  |  |
 | [action_chance](#action_chance) | smallint | signed |  | NO | 100 |  |  |
 | [wpguid](#wpguid) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -71,12 +72,11 @@ Time to wait (in ms) before moving to the next point.
 | 1 | WAYPOINT_MOVE_TYPE_RUN |
 | 2 | WAYPOINT_MOVE_TYPE_LAND |
 | 3 | WAYPOINT_MOVE_TYPE_TAKEOFF |
-{.dense}
 
 &nbsp;
 
 ### action {#action-alt}
-[Script ID](../world/waypoint_scripts#id) of the action to be performed.
+[Script ID](../world/waypoint_scripts#id-alt) of the action to be performed.
 &nbsp;
 
 ### action_chance

@@ -33,6 +33,7 @@ The creature_addon and creature_template_addon tables define different things th
 | [meleeAnimKit](#meleeanimkit) | smallint | signed |  | NO | 0 |  |  |
 | [visibilityDistanceType](#visibilitydistancetype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [auras](#auras) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -41,7 +42,7 @@ This field signifies a unique creature guid. It will affect just that creature w
 &nbsp;
 
 ### PathId
-If a creature has waypoint pathed movement, this field hold the [waypoint_path.PathId](/database/master/world/waypoint_path#PathId) for the path the creature is to follow.
+If a creature has waypoint pathed movement, this field hold the [waypoint_path.PathId](/database/master/world/waypoint_path#pathid) for the path the creature is to follow.
 &nbsp;
 
 ### mount
@@ -155,4 +156,3 @@ List of useful aura entries (examples):
 - '18950' - Makes the creature detect other invisible units (players or creatures).
 - '16380 18950' - Both auras above
 &nbsp;
-

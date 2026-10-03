@@ -28,6 +28,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 5 | [HardLevelMax](#hardlevelmax) | uint32 |  |
 | 6 | [TargetLevelMin](#targetlevelmin) | uint32 |  |
 | 7 | [TargetLevelMax](#targetlevelmax) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

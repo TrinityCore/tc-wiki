@@ -22,15 +22,16 @@ Visually speaking, this table is used to identify the X and Y coordinates on the
 | [X](#x) | int | signed |  | NO | 0 |  |  |
 | [Y](#y) | int | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### QuestID
-references [quest_template.ID](../world/quest_template#id) and [quest_poi.QuestID](../world/quest_poi#questid)
+references [quest_template.ID](../world/quest_template#id-alt) and [quest_poi.QuestID](../world/quest_poi#questid)
 &nbsp;
 
 ### Idx1
-Used to group multiple entries from [quest_poi.id](../world/quest_poi#id). You must manually increment this value by 1 for each new row in quest_poi_point with the same questId (0, 1, 2, 3...).
+Used to group multiple entries from [quest_poi.id](../world/quest_poi#id-alt). You must manually increment this value by 1 for each new row in quest_poi_point with the same questId (0, 1, 2, 3...).
 &nbsp;
 
 ### Idx2
@@ -47,7 +48,6 @@ Example quest: [Secret Communication](https://aowow.trinitycore.info/?quest=8318
 |    8318 |    3 |    5 | -6483 | 250 |             0 |
 |    8318 |    3 |    6 | -6483 | 217 |             0 |
 |    8318 |    3 |    7 | -6326 |  -7 |             0 |
-{.dense}
 
 These points are all the little corners on the blue box. idx1 represents an area defined by the points of idx2 to draw the shape.
 ![quest_poi.png](/quest_poi.png)
@@ -72,4 +72,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -[Client Build](/database/335/auth/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
-

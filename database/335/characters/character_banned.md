@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T21:59:20.380Z
 | [bannedby](#bannedby) | varchar(50) |  |  | NO |  |  |  |
 | [banreason](#banreason) | varchar(255) |  |  | NO |  |  |  |
 | [active](#active) | tinyint | unsigned |  | NO | 1 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -50,4 +51,3 @@ Boolean controlling if the ban is currently active or not.
 * 0: expired
 * 1: active
 &nbsp;
-

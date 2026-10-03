@@ -25,6 +25,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 2 | [MaxCountInv](#maxcountinv) | uint32 |  |
 | 3 | [MaxCountItem](#maxcountitem) | uint32 |  |
 | 4 | [Type](#type) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

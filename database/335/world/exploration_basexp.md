@@ -16,6 +16,7 @@ This table holds the base experience point information needed for when a player 
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [level](#level) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [basexp](#basexp) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -26,4 +27,3 @@ The player level.
 ### basexp
 The base experience the player will receive when he or she discovers a new zone at the level specified in the level field.
 &nbsp;
-

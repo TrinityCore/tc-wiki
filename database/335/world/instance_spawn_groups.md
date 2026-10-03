@@ -21,11 +21,12 @@ A spawn group is activated if any of its FLAG_ACTIVATE_SPAWN conditions are met,
 | [bossStates](#bossstates) | tinyint | unsigned | PRI | NO |  |  |  |
 | [spawnGroupId](#spawngroupid) | int | unsigned | PRI | NO |  |  |  |
 | [flags](#flags) | tinyint | unsigned |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### instanceMapId
-[Map ID](/files/DBC/335/map#id) the boss is on.
+[Map ID](/files/DBC/335/map#id-alt) the boss is on.
 &nbsp;
 
 ### bossStateId
@@ -56,6 +57,5 @@ groupId from [spawn_group_template](../world/spawn_group_template#groupid)
 | 2 | 0x02 | FLAG_BLOCK_SPAWN |  |
 | 4 | 0x04 | FLAG_ALLIANCE_ONLY |  |
 | 8 | 0x08 | FLAG_HORDE_ONLY |  |
-{.dense}
 
 &nbsp;

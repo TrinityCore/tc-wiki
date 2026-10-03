@@ -19,20 +19,21 @@ This table contains all the trainer spell entries.
 | [MoneyCost](#moneycost) | int | unsigned |  | NO | 0 |  |  |
 | [ReqSkillLine](#reqskillline) | int | unsigned |  | NO | 0 |  |  |
 | [ReqSkillRank](#reqskillrank) | int | unsigned |  | NO | 0 |  |  |
-| [ReqAbility1](#reqability1-3) | int | unsigned |  | NO | 0 |  |  |
-| [ReqAbility2](#reqability1-3) | int | unsigned |  | NO | 0 |  |  |
-| [ReqAbility3](#reqability1-3) | int | unsigned |  | NO | 0 |  |  |
+| [ReqAbility1](#reqability-1-3) | int | unsigned |  | NO | 0 |  |  |
+| [ReqAbility2](#reqability-1-3) | int | unsigned |  | NO | 0 |  |  |
+| [ReqAbility3](#reqability-1-3) | int | unsigned |  | NO | 0 |  |  |
 | [ReqLevel](#reqlevel) | tinyint | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### TrainerId
-references [trainer.id](../world/trainer#id)
+references [trainer.id](../world/trainer#id-alt)
 &nbsp;
 
 ### SpellId
-The [Spell ID](/files/DBC/335/spell#id) being taught.
+The [Spell ID](/files/DBC/335/spell#id-alt) being taught.
 &nbsp;
 
 ### MoneyCost
@@ -40,7 +41,7 @@ The cost in copper for the spell being taught.
 &nbsp;
 
 ### ReqSkillLine
-The [SkillLine ID](/files/DBC/335/skillline#id) the player ist requird to have.
+The [SkillLine ID](/files/DBC/335/skillline#id-alt) the player ist requird to have.
 
 [SkillLine](/files/DBC/335/skillline) excerpt
 | ID | Name |
@@ -61,7 +62,6 @@ The [SkillLine ID](/files/DBC/335/skillline#id) the player ist requird to have.
 | 755 | Jewelcrafting |
 | 773 | Inscription |
 | 776 | Runeforging |
-{.dense}
 
 &nbsp;
 
@@ -70,7 +70,7 @@ The minimum level of skill points in **ReqSkillLine** required to be taught the 
 &nbsp;
 
 ### ReqAbility\[1-3]
-A [Spell ID](/files/DBC/335/spell#id) the player is required to know.
+A [Spell ID](/files/DBC/335/spell#id-alt) the player is required to know.
 &nbsp;
 
 ### ReqLevel
@@ -88,4 +88,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -[Client Build](/database/335/auth/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
-

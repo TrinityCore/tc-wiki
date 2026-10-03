@@ -23,11 +23,12 @@ dateCreated: 2021-08-30T21:59:52.882Z
 | [accusative](#accusative) | varchar(12) |  |  | NO | '' |  |  |
 | [instrumental](#instrumental) | varchar(12) |  |  | NO | '' |  |  |
 | [prepositional](#prepositional) | varchar(12) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### id {#id-alt}
-The [id](../characters/character_pet#id) of the pet.
+The [id](../characters/character_pet#id-alt) of the pet.
 &nbsp;
 
 ### owner
@@ -53,4 +54,3 @@ Name in instrumental casus.
 ### prepositional
 Name in prepositional casus.
 &nbsp;
-

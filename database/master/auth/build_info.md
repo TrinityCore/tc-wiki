@@ -17,6 +17,7 @@ dateCreated: 2021-08-26T00:01:46.748Z
 | [minorVersion](#minorversion) | int | signed |  | YES | NULL |  |  |
 | [bugfixVersion](#bugfixversion) | int | signed |  | YES | NULL |  |  |
 | [hotfixVersion](#hotfixversion) | char(3) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -39,4 +40,3 @@ dateCreated: 2021-08-26T00:01:46.748Z
 ### hotfixVersion
 *- no description -*
 &nbsp;
-

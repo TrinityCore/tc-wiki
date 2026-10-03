@@ -25,6 +25,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 2 | [DifficultySpellID_1](#difficultyspellid) | int32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
 | 3 | [DifficultySpellID_2](#difficultyspellid) | int32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
 | 4 | [DifficultySpellID_3](#difficultyspellid) | int32 | [Spell.dbc/0](/files/DBC/335/spell#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -39,4 +40,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 Instance modes: 10N, 25N, 10H, 25H or Normal/Heroic if only 1-2 is set, if 3-4 is 0 then Mode-2
 &nbsp;
-

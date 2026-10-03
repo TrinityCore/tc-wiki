@@ -14,6 +14,7 @@ dateCreated: 2022-02-16T23:50:51.622Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [AchievementId](#achievementid) | int | signed | PRI | NO |  |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -24,4 +25,3 @@ ID from [Achievement.db2](https://wago.tools/db2/achievement){target=_blank}.
 ### ScriptName
 The ScriptName for when scripting it in the core.
 &nbsp;
-

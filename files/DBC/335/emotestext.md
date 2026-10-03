@@ -41,6 +41,7 @@ Player usable text emotes.
 | 16 | [EmoteText_13](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id-alt) |
 | 17 | [EmoteText_14](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id-alt) |
 | 18 | [EmoteText_15](#emotetext) | uint32 | [EmotesTextData.dbc/0](/files/DBC/335/emotestextdata#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -83,7 +84,5 @@ Same as the slash command.
 | 16 | female | no | :x: UNUSED - redundant with 15 |
 | 17 | self | no | :x: UNUSED - redundant with 9 |
 | 18 | self | no | :x: UNUSED - redundant with 9 |
-{.dense}
 
 &nbsp;
-

@@ -23,6 +23,7 @@ dateCreated: 2021-08-30T09:30:13.033Z
 | [summonType](#summontype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [summonTime](#summontime) | int | unsigned |  | NO | 0 |  |  |
 | [Comment](#comment) | varchar(255) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -36,6 +37,7 @@ Summoner's id depending on summonerType
 | 0 | SUMMONER_TYPE_CREATURE |
 | 1 | SUMMONER_TYPE_GAMEOBJECT |
 | 2 | SUMMONER_TYPE_MAP |
+
 &nbsp;
 
 ### groupId
@@ -73,6 +75,7 @@ Orientation the summoned creature will get when spawned
 | 6 | TEMPSUMMON_CORPSE_TIMED_DESPAWN | Despawns after a specified time after death |
 | 7 | TEMPSUMMON_DEAD_DESPAWN | Despawns when the creature disappears |
 | 8 | TEMPSUMMON_MANUAL_DESPAWN | Despawns when UnSummon() is called |
+
 &nbsp;
 
 ### summonTime
@@ -82,4 +85,3 @@ Timer linked to summontype
 ### Comment
 Field to add a description or comment for the entry.
 &nbsp;
-

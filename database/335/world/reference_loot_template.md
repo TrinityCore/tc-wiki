@@ -26,6 +26,7 @@ Contains commonly dropped item pools, referenced by other loot templates.
 | [MinCount](#mincount) | tinyint | unsigned |  | NO | 1 |  |  |
 | [MaxCount](#maxcount) | tinyint | unsigned |  | NO | 1 |  |  |
 | [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -68,4 +69,3 @@ Contains commonly dropped item pools, referenced by other loot templates.
 ### Comment
 *- no description -*
 &nbsp;
-

@@ -19,15 +19,16 @@ dateCreated: 2021-08-30T22:01:53.626Z
 | [guid](#guid) | int | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
 | [spell](#spell) | mediumint | unsigned | PRI | NO | 0 |  | Spell Identifier |
 | [active](#active) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### guid
-The [pet id](../characters/character_pet#id) of the pet having this spell.
+The [pet id](../characters/character_pet#id-alt) of the pet having this spell.
 &nbsp;
 
 ### spell
-The [Spell ID](/files/DBC/335/spell#id) known to this pet.
+The [Spell ID](/files/DBC/335/spell#id-alt) known to this pet.
 &nbsp;
 
 ### active
@@ -39,7 +40,5 @@ The [Spell ID](/files/DBC/335/spell#id) known to this pet.
 | 7 | 0x07 | ACT_COMMAND | 0x01 \| 0x02 \| 0x04 |
 | 129 | 0x81 | ACT_DISABLED | 0x80 - castable |
 | 193 | 0xC1 | ACT_ENABLED | 0x40 \| 0x80 - auto cast + castable |
-{.dense}
 
 &nbsp;
-

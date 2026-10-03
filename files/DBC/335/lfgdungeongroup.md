@@ -41,6 +41,7 @@ dateCreated: 2023-10-04T08:05:00.544Z
 | 18 | [OrderIndex](#orderindex) | uint32 |  |
 | 19 | [ParentGroupID](#parentgroupid) | uint32 |  |
 | 20 | [TypeID](#typeid) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

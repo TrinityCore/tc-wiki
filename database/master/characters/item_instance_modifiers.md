@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T08:13:03.528Z
 | [itemGuid](#itemguid) | bigint | unsigned | PRI | NO |  |  |  |
 | [fixedScalingLevel](#fixedscalinglevel) | int | unsigned |  | YES | 0 |  |  |
 | [artifactKnowledgeLevel](#artifactknowledgelevel) | int | unsigned |  | YES | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ dateCreated: 2021-08-30T08:13:03.528Z
 ### artifactKnowledgeLevel
 *- no description -*
 &nbsp;
-
-

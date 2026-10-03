@@ -33,6 +33,7 @@ dateCreated: 2021-08-30T07:52:17.826Z
 | [battlePetDisplayId](#battlepetdisplayid) | int | unsigned |  | NO | 0 |  |  |
 | [context](#context) | tinyint | unsigned |  | NO | 0 |  |  |
 | [bonusListIDs](#bonuslistids) | text |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -119,4 +120,3 @@ dateCreated: 2021-08-30T07:52:17.826Z
 ### bonusListIDs
 *- no description -*
 &nbsp;
-

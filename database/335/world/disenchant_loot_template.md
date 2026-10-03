@@ -26,6 +26,7 @@ Contains items created by using a spell with SPELL_EFFECT_DISENCHANT(99) on an i
 | [MinCount](#mincount) | tinyint | unsigned |  | NO | 1 |  |  |
 | [MaxCount](#maxcount) | tinyint | unsigned |  | NO | 1 |  |  |
 | [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -68,4 +69,3 @@ Contains items created by using a spell with SPELL_EFFECT_DISENCHANT(99) on an i
 ### Comment
 *- no description -*
 &nbsp;
-

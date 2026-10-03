@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T07:18:56.493Z
 | [criteria](#criteria) | int | unsigned | PRI | NO |  |  |  |
 | [counter](#counter) | bigint | unsigned |  | NO |  |  |  |
 | [date](#date) | bigint | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,5 +35,3 @@ dateCreated: 2021-08-30T07:18:56.493Z
 ### date
 *- no description -*
 &nbsp;
-
-

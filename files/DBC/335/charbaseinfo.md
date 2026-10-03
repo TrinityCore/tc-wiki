@@ -24,6 +24,7 @@ Allowed Race/Class combinations
 | :---: | --- | :---: | --- |
 | 0 | [RaceID](#raceid) | uint8 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id-alt) |
 | 1 | [ClassID](#classid) | uint8 | [ChrClasses.dbc/0](/files/DBC/335/chrclasses#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -38,4 +39,3 @@ Allowed Race/Class combinations
 
 *- no description -*
 &nbsp;
-

@@ -27,6 +27,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 4 | [CheckMaterial](#checkmaterial) | uint32 |  |
 | 5 | [SheatheSoundID](#sheathesoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 | 6 | [UnsheatheSoundID](#unsheathesoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -71,4 +72,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

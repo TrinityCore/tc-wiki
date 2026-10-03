@@ -27,6 +27,7 @@ This table contains the base values for creatures' health, mana and armor.
 | [damage_exp1](#damage_exp1) | float |  |  | NO | 0 |  |  |
 | [damage_exp2](#damage_exp2) | float |  |  | NO | 0 |  |  |
 | [comment](#comment) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -81,4 +82,3 @@ Base damage for the creature if [creature_template.exp](../world/creature_templa
 ### comment
 This field is for any comment you want to make about the requirements. It is arbitrary text.
 &nbsp;
-

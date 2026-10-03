@@ -26,6 +26,7 @@ dateCreated: 2021-08-30T08:15:12.328Z
 | [money](#money) | bigint | unsigned |  | NO | 0 |  |  |
 | [cod](#cod) | bigint | unsigned |  | NO | 0 |  |  |
 | [checked](#checked) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -84,4 +85,3 @@ dateCreated: 2021-08-30T08:15:12.328Z
 ### checked
 *- no description -*
 &nbsp;
-

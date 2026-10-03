@@ -22,6 +22,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | :---: | --- | :---: | --- |
 | 0 | [ID](#id-alt) | uint32 | [item quality](/database/335/world/item_template#quality) |
 | 1 | [Data](#data) | float |  |
+
 &nbsp;
 ## Description of fields
 
@@ -36,4 +37,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 Multiplier to repair cost.
 &nbsp;
-

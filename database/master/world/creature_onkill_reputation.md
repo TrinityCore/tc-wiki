@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T09:30:02.872Z
 | [IsTeamAward2](#isteamaward2) | tinyint | signed |  | NO | 0 |  |  |
 | [RewOnKillRepValue2](#rewonkillrepvalue2) | int | signed |  | NO | 0 |  |  |
 | [TeamDependent](#teamdependent) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -48,6 +49,7 @@ The maximum standing that the creature will award reputation until. If the playe
 | 5   | Honored    |
 | 6   | Revered    |
 | 7   | Exalted    |
+
 &nbsp;
 
 ### IsTeamAward1
@@ -76,6 +78,7 @@ The maximum standing that the creature will award reputation until. If the playe
 | 5   | Honored    |
 | 6   | Revered    |
 | 7   | Exalted    |
+
 &nbsp;
 
 ### IsTeamAward2
@@ -97,4 +100,3 @@ Boolean 0 or 1.
 - 0: The creature will give reputation to the any player from both fields (RewOnKillRepFaction1 and RewOnKillRepFaction2) if both fields are non-zero.
 - 1: The creature will award alliance players the reputation from RewOnKillRepFaction1 and will award horde players the reputation from RewOnKillRepFaction2
 &nbsp;
-

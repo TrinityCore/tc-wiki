@@ -53,7 +53,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 4 | 0x04 | weapon puts back automatically(either somehow different ?) |
 | 16 | 0x10 | weapon puts back automatically(either somehow different ?) |
 | 32 | 0x20 | pull weapons out during animation. |
-{.dense}
 
 &nbsp;
 
@@ -92,7 +91,5 @@ Same as ID for normal animations.
 | 2 | Hover | plays flying tier animations or falls back to ground tier animations, automatically enables hover clientside when entering visibility with this value |
 | 3 | Fly | plays flying tier animations |
 | 4 | Submerged |  |
-{.dense}
 
 &nbsp;
-

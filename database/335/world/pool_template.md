@@ -17,6 +17,7 @@ Each unique pool is defined in this table.
 | [entry](#entry) | int | unsigned | PRI | NO | 0 |  | Pool entry |
 | [max_limit](#max_limit) | int | unsigned |  | NO | 0 |  | Max number of objects (0) is no limit |
 | [description](#description) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -33,4 +34,3 @@ This is the maximum number of objects in this pool that should be spawned at a t
 Field describes the basic information about what the pool refers to.
 Example:  Aotona Rare Spawn (1 out 6)
 &nbsp;
-

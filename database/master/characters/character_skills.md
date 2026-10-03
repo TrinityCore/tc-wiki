@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T07:34:02.674Z
 | [value](#value) | smallint | unsigned |  | NO |  |  |  |
 | [max](#max) | smallint | unsigned |  | NO |  |  |  |
 | [professionSlot](#professionslot) | tinyint | signed |  | NO | -1 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -39,4 +40,3 @@ dateCreated: 2021-08-30T07:34:02.674Z
 ### professionSlot
 *- no description -*
 &nbsp;
-

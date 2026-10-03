@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T09:31:30.415Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [questId](#questid) | int | unsigned | PRI | NO |  |  | Quest Identifier |
 | [eventEntry](#evententry) | int | unsigned | PRI | NO | 0 |  | Entry of the game event |
+
 &nbsp;
 ## Description of fields
 
@@ -22,7 +23,5 @@ dateCreated: 2021-08-30T09:31:30.415Z
 &nbsp;
 
 ### eventEntry
-The [`game_event.eventEntry`](/database/master/world/game_event#eventEntry) the quest belongs to
+The [`game_event.eventEntry`](/database/master/world/game_event#evententry) the quest belongs to
 &nbsp;
-
-

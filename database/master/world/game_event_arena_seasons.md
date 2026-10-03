@@ -14,15 +14,14 @@ dateCreated: 2021-08-30T09:30:57.436Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [eventEntry](#evententry) | tinyint | unsigned | PRI | NO |  |  | Entry of the game event |
 | [season](#season) | tinyint | unsigned | PRI | NO |  |  | Arena season number |
+
 &nbsp;
 ## Description of fields
 
 ### eventEntry
-This field signifies the [`game_event.eventEntry`](/database/master/world/game_event#eventEntry)
+This field signifies the [`game_event.eventEntry`](/database/master/world/game_event#evententry)
 &nbsp;
 
 ### season
 Arena season number: 1 - 9
 &nbsp;
-
-

@@ -22,11 +22,12 @@ Contains all the teleport triggers definition. This table is used to complete .d
 | [target_position_z](#target_position_z) | float |  |  | NO | 0 |  |  |
 | [target_orientation](#target_orientation) | float |  |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### ID {#id-alt}
-This is the [AreaTrigger ID](/files/DBC/335/areatrigger#id).
+This is the [AreaTrigger ID](/files/DBC/335/areatrigger#id-alt).
 &nbsp;
 
 ### Name {#name-alt}
@@ -34,7 +35,7 @@ Name of the trigger. This can be an arbitrary name, and is for descriptive purpo
 &nbsp;
 
 ### target_map
-Target [Map ID](/files/DBC/335/map#id) of the trigger.
+Target [Map ID](/files/DBC/335/map#id-alt) of the trigger.
 &nbsp;
 
 ### target_position_x
@@ -64,4 +65,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -[Client Build](/database/335/auth/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
-

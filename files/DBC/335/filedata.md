@@ -25,6 +25,7 @@ Only cinematics in 3.3.5a
 | 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [FileName](#filename) | string |  |
 | 2 | [FilePath](#filepath) | string |  |
+
 &nbsp;
 ## Description of fields
 
@@ -45,4 +46,3 @@ Only cinematics in 3.3.5a
 
 *- no description -*
 &nbsp;
-

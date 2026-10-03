@@ -22,11 +22,12 @@ dateCreated: 2021-08-30T09:37:39.919Z
 | [ReqAbility3](#reqability3) | int | unsigned |  | NO | 0 |  |  |
 | [ReqLevel](#reqlevel) | tinyint | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### TrainerId
-ID referencing [`trainer.Id`](/database/master/world/trainer#Id)
+ID referencing [`trainer.Id`](/database/master/world/trainer#id-alt)
 &nbsp;
 
 ### SpellId
@@ -73,4 +74,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 
 &nbsp;
-

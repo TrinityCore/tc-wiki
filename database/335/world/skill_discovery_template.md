@@ -18,11 +18,12 @@ This table controls the so called "discovery" system of learning spells. This sy
 | [reqSpell](#reqspell) | int | unsigned | PRI | NO | 0 |  | spell requirement |
 | [reqSkillValue](#reqskillvalue) | smallint | unsigned |  | NO | 0 |  | skill points requirement |
 | [chance](#chance) | float |  |  | NO | 0 |  | chance to discover |
+
 &nbsp;
 ## Description of fields
 
 ### spellId
-The recipe [Spell ID](/files/DBC/335/spell#id) that has a chance to be automatically discovered.
+The recipe [Spell ID](/files/DBC/335/spell#id-alt) that has a chance to be automatically discovered.
 &nbsp;
 
 ### reqSpell
@@ -37,4 +38,3 @@ The minimum points requirement in profession skill to discover **spellId**.
 ### chance
 The chance, in percent, that a recipe has of being automatically "discovered", whether by any recipe use or by the specific recipe use defined in **reqSpell**.
 &nbsp;
-

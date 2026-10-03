@@ -17,6 +17,7 @@ dateCreated: 2022-07-03T15:50:59.544Z
 | [GroundMountDisplayID](#groundmountdisplayid) | int | unsigned |  | YES | NULL |  |  |
 | [FlyingMountDisplayID](#flyingmountdisplayid) | int | unsigned |  | YES | NULL |  |  |
 | [DespawnOnQuestsRemoved](#despawnonquestsremoved) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -39,4 +40,3 @@ This is the flight mount displayID that the creature will use if the summoner mo
 ### DespawnOnQuestsRemoved
 *- no description -*
 &nbsp;
-

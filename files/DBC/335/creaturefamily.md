@@ -48,6 +48,7 @@ dateCreated: 2023-10-04T08:02:04.989Z
 | 25 | [Name_15](#name-alt) | string |  |
 | 26 | [Name_lang_mask](#name-alt) | uint32 |  |
 | 27 | [IconFile](#iconfile) | string |  |
+
 &nbsp;
 ## Description of fields
 
@@ -102,7 +103,6 @@ Max level for model scaling.
 | 0 | Ferocity |
 | 1 | Tanacity |
 | 2 | Cunning |
-{.dense}
 
 &nbsp;
 
@@ -123,4 +123,3 @@ Max level for model scaling.
 
 "Interface\\Icons\\\*"
 &nbsp;
-

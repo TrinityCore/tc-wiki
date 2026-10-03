@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T22:02:06.932Z
 | [bracket_id](#bracket_id) | tinyint | unsigned |  | NO |  |  |  |
 | [type](#type) | tinyint | unsigned |  | NO |  |  |  |
 | [date](#date) | datetime |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -36,7 +37,6 @@ The faction which won the BattleGround:
 | 0 | PVP_TEAM_HORDE |  |
 | 1 | PVP_TEAM_ALLIANCE |  |
 | 2 | PVP_TEAM_NEUTRAL | no winner |
-{.dense}
 
 &nbsp;
 
@@ -52,7 +52,6 @@ Identifies the bracket level range:
 | 6 | 60 – 69 |
 | 7 | 70 – 79 |
 | 8 | 80 |
-{.dense}
 
 &nbsp;
 

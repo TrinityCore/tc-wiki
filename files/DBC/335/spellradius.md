@@ -24,6 +24,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 1 | [Radius](#radius) | float |  |
 | 2 | [RadiusPerLevel](#radiusperlevel) | float |  |
 | 3 | [RadiusMax](#radiusmax) | float |  |
+
 &nbsp;
 ## Description of fields
 
@@ -50,4 +51,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

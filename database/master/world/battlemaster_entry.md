@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T09:29:14.941Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entry](#entry) | int | unsigned | PRI | NO | 0 |  | Entry of a creature |
 | [bg_template](#bg_template) | int | unsigned |  | NO | 0 |  | Battleground template id |
+
 &nbsp;
 ## Description of fields
 
@@ -22,7 +23,5 @@ The ID of the creature. See [creature_template.entry](/database/master/world/cre
 &nbsp;
 
 ### bg_template
-The [battleground_template.ID](/database/master/world/battleground_template#id).
+The [battleground_template.ID](/database/master/world/battleground_template#id-alt).
 &nbsp;
-
-

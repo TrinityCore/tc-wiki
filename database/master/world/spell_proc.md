@@ -30,6 +30,7 @@ dateCreated: 2021-08-30T09:37:11.455Z
 | [Chance](#chance) | float |  |  | NO | 0 |  |  |
 | [Cooldown](#cooldown) | int | unsigned |  | NO | 0 |  |  |
 | [Charges](#charges) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -104,5 +105,3 @@ dateCreated: 2021-08-30T09:37:11.455Z
 ### Charges
 *- no description -*
 &nbsp;
-
-

@@ -17,15 +17,16 @@ Table used by the core to group different ranks of spells (the gray text seen on
 | [first_spell_id](#first_spell_id) | int | unsigned | PRI | NO | 0 |  |  |
 | [spell_id](#spell_id) | int | unsigned | UNI | NO | 0 |  |  |
 | [rank](#rank) | tinyint | unsigned | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### first_spell_id
-[Spell ID](/files/DBC/335/spell#id) which is first rank of spell rank chain. It identifies the whole chain.
+[Spell ID](/files/DBC/335/spell#id-alt) which is first rank of spell rank chain. It identifies the whole chain.
 &nbsp;
 
 ### spell_id
-references [Spell ID](/files/DBC/335/spell#id)
+references [Spell ID](/files/DBC/335/spell#id-alt)
 &nbsp;
 
 ### rank
@@ -36,4 +37,3 @@ Several conditions have to be fulfilled:
 * The ranking must be continuous (e.g. one spell being level 3 and one being level 5 while level 4 is missing altogether)
 * There can be no duplicates in ranks.
 &nbsp;
-

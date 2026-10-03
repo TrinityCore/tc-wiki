@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T22:01:05.790Z
 | [rid](#rid) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [gbright](#gbright) | tinyint | unsigned |  | NO | 0 |  |  |
 | [SlotPerDay](#slotperday) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -46,11 +47,9 @@ the guild rank this permission belongs to.
 | 4 | 0x04 | GUILD_BANK_RIGHT_UPDATE_TEXT | update item name shown when navigating the tab |
 | 3 | 0x03 | GUILD_BANK_RIGHT_DEPOSIT_ITEM |  |
 | 255 | 0xFF | GUILD_BANK_RIGHT_FULL |  |
-{.dense}
 
 &nbsp;
 
 ### SlotPerDay
 The number of items that a player can withdraw per day (if permissions give him the right to withdraw items).
 &nbsp;
-

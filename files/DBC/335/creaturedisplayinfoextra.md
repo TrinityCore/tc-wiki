@@ -41,6 +41,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 18 | [NPCItemDisplay_10](#npcitemdisplay) | uint32 | [ItemDisplayInfo.dbc/0](/files/DBC/335/itemdisplayinfo#id-alt) |
 | 19 | [Flags](#flags) | uint32 |  |
 | 20 | [BakeName](#bakename) | string |  |
+
 &nbsp;
 ## Description of fields
 
@@ -109,7 +110,6 @@ Look up into CharSections.dbc, where BaseSection=SECTION_TYPE_FACIAL_HAIR (2) to
 | 16 | Gloves |
 | 17 | Tabard |
 | 18 | Cape |
-{.dense}
 
 &nbsp;
 

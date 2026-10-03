@@ -25,6 +25,7 @@ dateCreated: 2021-08-30T22:01:40.327Z
 | [posZ](#posz) | float |  |  | NO | 0 |  |  |
 | [latency](#latency) | int | unsigned |  | NO | 0 |  |  |
 | [createTime](#createtime) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -46,12 +47,11 @@ The [guid](../characters/characters#guid) of the reporting character.
 | 4 | LAG_REPORT_TYPE_CHAT |
 | 5 | LAG_REPORT_TYPE_MOVEMENT |
 | 6 | LAG_REPORT_TYPE_SPELL |
-{.dense}
 
 &nbsp;
 
 ### mapId
-[Map ID](/files/DBC/335/map#id) where lag was reported.
+[Map ID](/files/DBC/335/map#id-alt) where lag was reported.
 &nbsp;
 
 ### posX
@@ -73,4 +73,3 @@ Measured lag amount in ms.
 ### createTime
 Unix timestamp when report was received.
 &nbsp;
-

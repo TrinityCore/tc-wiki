@@ -28,6 +28,7 @@ dateCreated: 2021-08-30T09:35:50.113Z
 | [faction5](#faction5) | smallint | unsigned |  | NO | 0 |  |  |
 | [rate_5](#rate_5) | float |  |  | NO | 0 |  |  |
 | [rank_5](#rank_5) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -94,5 +95,3 @@ dateCreated: 2021-08-30T09:35:50.113Z
 ### rank_5
 *- no description -*
 &nbsp;
-
-

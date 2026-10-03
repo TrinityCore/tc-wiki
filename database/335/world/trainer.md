@@ -19,6 +19,7 @@ This table contains all the trainer entries.
 | [Requirement](#type) | int | unsigned |  | NO | 0 |  |  |
 | [Greeting](#greeting) | mediumtext |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -28,30 +29,23 @@ For trainer, this field signifies a unique trainer ID. It is to this ID that all
 
 ### Type
 The trainer type dictates the **Requirement**, if any (0 for no **Requirement**).
-### Tabset {.tabset}
 
-#### Type::Class (0)
-**Trainer::Type::Class**
-[ChrClass ID](/files/DBC/335/chrclasses#id) or `0`
-<!--@include: @/partial/335/chrclasses.md{3,9}-->
+#### Trainer::Type::Class (0)
+* **Reqirement**: [ChrClass ID](/files/DBC/335/chrclasses#id-alt) or `0`  
+  <!--@include: @/partial/335/chrclasses.md{3,9}-->
 
-#### Type::Mount (1)
-**Trainer::Type::Mount**
-[ChrRace ID](/files/DBC/335/chrraces#id) or `0`
-<!--@include: @/partial/335/chrraces.md{3,9}-->
+#### Trainer::Type::Mount (1)
+* **Reqirement**: [ChrRace ID](/files/DBC/335/chrraces#id-alt) or `0`  
+  <!--@include: @/partial/335/chrraces.md{3,9}-->
 
-#### Type::Tradeskill (2)
-**Trainer::Type::Tradeskill**
-[Spell ID](/files/DBC/335/spell#id) or `0`
+#### Trainer::Type::Tradeskill (2)
+* **Reqirement**: [Spell ID](/files/DBC/335/spell#id-alt) or `0`  
+  The player must know this spell to learn from this trainer.
 
-The player must know this spell to learn from this trainer.
+#### Trainer::Type::Pet (3)
+* **Requirement**: [ChrClass ID](/files/DBC/335/chrclasses#id-alt) or `0`  
+  <!--@include: @/partial/335/chrclasses.md{3,9}-->
 
-#### Type::Pet (3)
-**Trainer::Type::Pet**
-[ChrClass ID](/files/DBC/335/chrclasses#id) or `0`
-<!--@include: @/partial/335/chrclasses.md{3,9}-->
-
-### EndTabset {.tabset}
 &nbsp;
 
 ### Greeting

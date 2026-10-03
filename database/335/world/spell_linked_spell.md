@@ -18,42 +18,40 @@ This table provides data for spell linking system, telling it which spells trigg
 | [spell_effect](#spell_effect) | int | signed | PRI | NO | 0 |  |  |
 | [type](#type) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [comment](#comment) | mediumtext |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### spell_trigger
-The [Spell ID](/files/DBC/335/spell#id), which when cast, will trigger the spell listed in **spell_effect**.
+The [Spell ID](/files/DBC/335/spell#id-alt), which when cast, will trigger the spell listed in **spell_effect**.
 &nbsp;
 
 ### spell_effect
-The [Spell ID](/files/DBC/335/spell#id) that you want to be triggered. How this spell acts is determined by the **type** field.
+The [Spell ID](/files/DBC/335/spell#id-alt) that you want to be triggered. How this spell acts is determined by the **type** field.
 &nbsp;
 
 ### type
 Describes how both spells are linked
 * 0: SPELL_LINK_CAST
-| -- | -- | -- |
-|  | **spell_trigger > 0** | **spell_trigger < 0** |
-| **spell_effect > 0** | When spell_trigger is cast<br>spell_effect is also cast (as triggered cast) on the same targets, or caster. | When the aura of spell_trigger is removed<br>spell_effect is also cast (as triggered cast) on the same targets, or caster. |
-| **spell_effect < 0** | When spell_trigger is cast<br>auras of spell_effect are removed. | When the aura of spell_trigger is removed<br>auras of spell_effect are removed. |
-
+  |  | **spell_trigger > 0** | **spell_trigger < 0** |
+  | -- | -- | -- |
+  | **spell_effect > 0** | When spell_trigger is cast<br>spell_effect is also cast (as triggered cast) on the same targets, or caster. | When the aura of spell_trigger is removed<br>spell_effect is also cast (as triggered cast) on the same targets, or caster. |
+  | **spell_effect < 0** | When spell_trigger is cast<br>auras of spell_effect are removed. | When the aura of spell_trigger is removed<br>auras of spell_effect are removed. |
 
 * 1: SPELL_LINK_HIT
-| -- | -- | -- |
-|  | **spell_trigger > 0** | **spell_trigger < 0** |
-| **spell_effect > 0** | When spell_trigger hits it's target<br>spell_effect is cast (as triggered cast) on the same target. | *- invalid -* |
-| **spell_effect < 0** | When spell_trigger hits it's target<br>auras of spell_effect are removed. | *- invalid -* |
-
+  |  | **spell_trigger > 0** | **spell_trigger < 0** |
+  | -- | -- | -- |
+  | **spell_effect > 0** | When spell_trigger hits it's target<br>spell_effect is cast (as triggered cast) on the same target. | *- invalid -* |
+  | **spell_effect < 0** | When spell_trigger hits it's target<br>auras of spell_effect are removed. | *- invalid -* |
 
 * 2: SPELL_LINK_AURA
-| -- | -- | -- | -- |
-|  | **spell_trigger > 0** | **spell_trigger < 0** |
-| **spell_effect > 0** | While aura of spell_trigger is applied<br>aura of spell_effect is also applied on the same target. | *- invalid -* |
-| **spell_effect < 0** | While aura of spell_trigger is applied<br>target is immune to spell_effect. | *- invalid -* |
+  |  | **spell_trigger > 0** | **spell_trigger < 0** |
+  | -- | -- | -- | -- |
+  | **spell_effect > 0** | While aura of spell_trigger is applied<br>aura of spell_effect is also applied on the same target. | *- invalid -* |
+  | **spell_effect < 0** | While aura of spell_trigger is applied<br>target is immune to spell_effect. | *- invalid -* |
 
 &nbsp;
 
 ### comment
 Optional comment to explain the link.
 &nbsp;
-

@@ -23,6 +23,7 @@ dateCreated: 2021-08-30T21:59:01.893Z
 | [password](#password) | varchar(32) |  |  | YES | NULL |  |  |
 | [bannedList](#bannedlist) | text |  |  | YES | NULL |  |  |
 | [lastUsed](#lastused) | int | unsigned |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 

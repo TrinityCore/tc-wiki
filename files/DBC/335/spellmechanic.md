@@ -38,6 +38,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 15 | [StateName_14](#statename) | string |  |
 | 16 | [StateName_15](#statename) | string |  |
 | 17 | [StateName_lang_mask](#statename) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -52,4 +53,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

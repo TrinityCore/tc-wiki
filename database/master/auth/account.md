@@ -44,6 +44,7 @@ dateCreated: 2021-08-19T10:37:27.827Z
 | [recruiter](#recruiter) | int | unsigned |  | NO | 0 |  |  |
 | [battlenet_account](#battlenet_account) | int | unsigned | MUL | YES | NULL |  |  |
 | [battlenet_index](#battlenet_index) | tinyint | unsigned |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -135,6 +136,7 @@ Integer 0 - 8 controlling if the client logged in on the account has any expansi
 |6|Legion|
 |7|Battle for Azeroth (BfA)|
 |8|Shadowlands (SL)|
+
 &nbsp;
 
 ### mutetime
@@ -175,7 +177,7 @@ Stores information about client's OS. Used by Warden system.
 &nbsp;
 
 ### recruiter
-The account ID of another account. Used for recuit-a-friend system. See [account.id](#id)
+The account ID of another account. Used for recuit-a-friend system. See [account.id](#id-alt)
 &nbsp;
 
 ### battlenet_account
@@ -185,4 +187,3 @@ The account ID of another account. Used for recuit-a-friend system. See [account
 ### battlenet_index
 *- no description -*
 &nbsp;
-

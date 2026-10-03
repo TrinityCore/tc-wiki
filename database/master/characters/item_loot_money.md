@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T08:13:48.922Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [container_id](#container_id) | bigint | unsigned | PRI | NO | 0 |  | guid of container (item_instance.guid) |
 | [money](#money) | int | unsigned |  | NO | 0 |  | money loot (in copper) |
+
 &nbsp;
 ## Description of fields
 
@@ -24,5 +25,3 @@ dateCreated: 2021-08-30T08:13:48.922Z
 ### money
 *- no description -*
 &nbsp;
-
-

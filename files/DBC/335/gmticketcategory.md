@@ -38,6 +38,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 15 | [Category_14](#category) | string |  |
 | 16 | [Category_15](#category) | string |  |
 | 17 | [Category_lang_mask](#category) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -52,4 +53,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

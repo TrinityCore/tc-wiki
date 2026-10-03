@@ -70,16 +70,16 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 47 | [Speed](#speed) | float |  |
 | 48 | [ModalNextSpell](#modalnextspell) | uint32 | [Spell.dbc/0](#id-alt) |
 | 49 | [CumulativeAura](#cumulativeaura) | uint32 |  |
-| 50 | [Totem_0](#totem) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 51 | [Totem_1](#totem) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 52 | [Reagent_0](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 53 | [Reagent_1](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 54 | [Reagent_2](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 55 | [Reagent_3](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 56 | [Reagent_4](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 57 | [Reagent_5](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 58 | [Reagent_6](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 59 | [Reagent_7](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 50 | [Totem_0](#totem) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 51 | [Totem_1](#totem) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 52 | [Reagent_0](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 53 | [Reagent_1](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 54 | [Reagent_2](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 55 | [Reagent_3](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 56 | [Reagent_4](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 57 | [Reagent_5](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 58 | [Reagent_6](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 59 | [Reagent_7](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
 | 60 | [ReagentCount_0](#reagentcount) | uint32 |  |
 | 61 | [ReagentCount_1](#reagentcount) | uint32 |  |
 | 62 | [ReagentCount_2](#reagentcount) | uint32 |  |
@@ -127,9 +127,9 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 104 | [EffectChainTargets_0](#effectchaintargets) | uint32 |  |
 | 105 | [EffectChainTargets_1](#effectchaintargets) | uint32 |  |
 | 106 | [EffectChainTargets_2](#effectchaintargets) | uint32 |  |
-| 107 | [EffectItemType_0](#effectitemtype) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 108 | [EffectItemType_1](#effectitemtype) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 109 | [EffectItemType_2](#effectitemtype) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 107 | [EffectItemType_0](#effectitemtype) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 108 | [EffectItemType_1](#effectitemtype) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 109 | [EffectItemType_2](#effectitemtype) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
 | 110 | [EffectMiscValue_0](#effectmiscvalue) | int32 |  |
 | 111 | [EffectMiscValue_1](#effectmiscvalue) | int32 |  |
 | 112 | [EffectMiscValue_2](#effectmiscvalue) | int32 |  |
@@ -254,6 +254,7 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 231 | [EffectBonusCoefficient_2](#effectbonuscoefficient) | float |  |
 | 232 | [DescriptionVariablesID](#descriptionvariablesid) | int32 | [SpellDescriptionVariables.dbc/0](/files/DBC/335/spelldescriptionvariables#id-alt) |
 | 233 | [Difficulty](#difficulty) | uint32 | [SpellDifficulty.dbc/0](/files/DBC/335/spelldifficulty#id-alt); [spelldifficulty id](/database/335/world/spelldifficulty_dbc#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -286,7 +287,6 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 9 | DISPEL_ENRAGE |
 | 10 | DISPEL_ZG_TICKET |
 | 11 | DESPEL_OLD_UNUSED |
-{.dense}
 
 &nbsp;
 
@@ -311,7 +311,6 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 13 | MECHANIC_FREEZE |  | 29 | MECHANIC_IMMUNE_SHIELD |
 | 14 | MECHANIC_KNOCKOUT |  | 30 | MECHANIC_SAPPED |
 | 15 | MECHANIC_BLEED |  | 31 | MECHANIC_ENRAGED |
-{.dense}
 
 &nbsp;
 
@@ -353,7 +352,6 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 536870912 | 0x20000000 | SPELL_ATTR0_UNAFFECTED_BY_INVULNERABILITY | Pierce invulnerability DESCRIPTION Allows spell to pierce invulnerability, unless the invulnerability spell also has this attribute |
 | 1073741824 | 0x40000000 | SPELL_ATTR0_HEARTBEAT_RESIST_CHECK | Periodic resistance checks DESCRIPTION Periodically re-rolls against resistance to potentially expire aura early |
 | 2147483648 | 0x80000000 | SPELL_ATTR0_CANT_CANCEL | Aura cannot be cancelled DESCRIPTION Prevents the player from voluntarily canceling a positive aura |
-{.dense}
 
 &nbsp;
 
@@ -395,7 +393,6 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 536870912 | 0x20000000 | SPELL_ATTR1_CHANNEL_DISPLAY_SPELL_NAME | Show spell name during channel (client only) |
 | 1073741824 | 0x40000000 | SPELL_ATTR1_ENABLE_AT_DODGE | Enable at dodge |
 | 2147483648 | 0x80000000 | SPELL_ATTR1_UNK31 | Unknown attribute 31@Attr1 |
-{.dense}
 
 &nbsp;
 
@@ -437,7 +434,6 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 536870912 | 0x20000000 | SPELL_ATTR2_CANT_CRIT | Cannot critically strike |
 | 1073741824 | 0x40000000 | SPELL_ATTR2_TRIGGERED_CAN_TRIGGER_PROC | Allow triggered spell to trigger (type 1) DESCRIPTION Without this attribute, any triggered spell will be unable to trigger other auras' procs |
 | 2147483648 | 0x80000000 | SPELL_ATTR2_FOOD_BUFF | Food buff (client only) |
-{.dense}
 
 &nbsp;
 
@@ -479,7 +475,6 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 536870912 | 0x20000000 | SPELL_ATTR3_NO_DONE_BONUS | Damage dealt is unaffected by modifiers |
 | 1073741824 | 0x40000000 | SPELL_ATTR3_DONT_DISPLAY_RANGE | Do not show range in tooltip (client only) |
 | 2147483648 | 0x80000000 | SPELL_ATTR3_UNK31 | Unknown attribute 31@Attr3 |
-{.dense}
 
 &nbsp;
 
@@ -521,7 +516,6 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 536870912 | 0x20000000 | SPELL_ATTR4_UNK29 | Unknown attribute 29@Attr4 |
 | 1073741824 | 0x40000000 | SPELL_ATTR4_UNK30 | Unknown attribute 30@Attr4 |
 | 2147483648 | 0x80000000 | SPELL_ATTR4_UNK31 | Unknown attribute 31@Attr4 |
-{.dense}
 
 &nbsp;
 
@@ -563,7 +557,6 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 536870912 | 0x20000000 | SPELL_ATTR5_UNK29 | Unknown attribute 29@Attr5 |
 | 1073741824 | 0x40000000 | SPELL_ATTR5_UNK30 | Unknown attribute 30@Attr5 |
 | 2147483648 | 0x80000000 | SPELL_ATTR5_UNK31 | Unknown attribute 31@Attr5 DESCRIPTION Forces nearby enemies to attack caster? |
-{.dense}
 
 &nbsp;
 
@@ -605,7 +598,6 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 536870912 | 0x20000000 | SPELL_ATTR6_LIMIT_PCT_DAMAGE_MODS | Limit applicable %damage modifiers DESCRIPTION This prevents certain damage modifiers from applying - see implementation if you really care about details |
 | 1073741824 | 0x40000000 | SPELL_ATTR6_UNK30 | Unknown attribute 30@Attr6 |
 | 2147483648 | 0x80000000 | SPELL_ATTR6_IGNORE_CATEGORY_COOLDOWN_MODS | Ignore cooldown modifiers for category cooldown |
-{.dense}
 
 &nbsp;
 
@@ -647,7 +639,6 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 536870912 | 0x20000000 | SPELL_ATTR7_UNK29 | Unknown attribute 29@Attr7 |
 | 1073741824 | 0x40000000 | SPELL_ATTR7_UNK30 | Unknown attribute 30@Attr7 |
 | 2147483648 | 0x80000000 | SPELL_ATTR7_CLIENT_INDICATOR | Client indicator (client only) |
-{.dense}
 
 &nbsp;
 
@@ -671,7 +662,6 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 4096 | 0x00001000 | Shadowdance |  | 536870912 | 0x20000000 | Stealth |
 | 8192 | 0x00002000 | Creature - Bear |  | 1073741824 | 0x40000000 | Moonkin Form |
 | 16384 | 0x00004000 | Creature - Cat |  | 2147483648 | 0x80000000 | Spirit of Redemption |
-{.dense}
 
 &nbsp;
 
@@ -709,7 +699,6 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 262144 | 0x00040000 | TARGET_FLAG_DEST_TARGET | sometimes appears with DEST_TARGET spells (may appear or not for a given spell) |
 | 524288 | 0x00080000 | TARGET_FLAG_UNUSED20 | uint32 counter, loop { vec3 - screen position (?), guid }, not used so far |
 | 1048576 | 0x00100000 | TARGET_FLAG_UNIT_PASSENGER | guessed, used to validate target (if vehicle passenger) |
-{.dense}
 
 &nbsp;
 
@@ -731,7 +720,6 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 1024 | 0x0400 | Totem |
 | 2048 | 0x0800 | Non-combat Pet |
 | 4096 | 0x1000 | Gas Cloud |
-{.dense}
 
 &nbsp;
 
@@ -749,7 +737,6 @@ Required object has the type GAMEOBJECT_TYPE_SPELL_FOCUS (8) and **Data0** match
 | Value | Flag | Name |
 |-------|------|------|
 | 1 | 0x1 | SPELL_FACING_FLAG_INFRONT |
-{.dense}
 
 &nbsp;
 
@@ -782,7 +769,6 @@ Required object has the type GAMEOBJECT_TYPE_SPELL_FOCUS (8) and **Data0** match
 | 21 | AURA_STATE_UNKNOWN21 | not used |
 | 22 | AURA_STATE_UNKNOWN22 | varius spells (63884, 50240) |
 | 23 | AURA_STATE_HEALTH_ABOVE_75_PERCENT |  |
-{.dense}
 
 &nbsp;
 
@@ -858,7 +844,6 @@ Cooldown for all spells this spells **Category** in msec.
 | 8 | 0x08 | SPELL_INTERRUPT_FLAG_INTERRUPT | interrupt |
 | 16 | 0x10 | SPELL_INTERRUPT_FLAG_ABORT_ON_DMG | _complete_ interrupt on direct damage |
 | 32 | 0x20 | SPELL_INTERRUPT_UNK | unk, 564 of 727 spells having this spell start with "Glyph" |
-{.dense}
 
 &nbsp;
 
@@ -895,7 +880,6 @@ Cooldown for all spells this spells **Category** in msec.
 | 16777216 | 0x01000000 | AURA_INTERRUPT_FLAG_DIRECT_DAMAGE | removed by any direct damage |
 | 33554432 | 0x02000000 | AURA_INTERRUPT_FLAG_LANDING | removed by hitting the ground |
 | 134217728 | 0x80000000 | AURA_INTERRUPT_FLAG_LEAVE_COMBAT | removed by leaving combat |
-{.dense}
 
 &nbsp;
 
@@ -907,7 +891,6 @@ Cooldown for all spells this spells **Category** in msec.
 |-------|------|------|
 | 8 | 0x0008 | CHANNEL_INTERRUPT_FLAG_INTERRUPT |
 | 16384 | 0x4000 | CHANNEL_FLAG_DELAY |
-{.dense}
 
 &nbsp;
 
@@ -1123,7 +1106,6 @@ as SubClassMask
 | 53 | SPELL_EFFECT_ENCHANT_ITEM |  | 108 | SPELL_EFFECT_DISPEL_MECHANIC |  | 163 | SPELL_EFFECT_163 |
 | 54 | SPELL_EFFECT_ENCHANT_ITEM_TEMPORARY |  | 109 | SPELL_EFFECT_RESURRECT_PET |  | 164 | SPELL_EFFECT_REMOVE_AURA |
 | 55 | SPELL_EFFECT_TAMECREATURE |  | 110 | SPELL_EFFECT_DESTROY_ALL_TOTEMS |  |  |  |
-{.dense}
 
 &nbsp;
 
@@ -1192,7 +1174,6 @@ see **Mechanic**
 | 38 | TARGET_UNIT_NEARBY_ENTRY |  | 73 | TARGET_DEST_CASTER_RADIUS |  | 108 | TARGET_GAMEOBJECT_CONE |
 | 39 | TARGET_DEST_CASTER_FISHING |  | 74 | TARGET_DEST_TARGET_RANDOM |  | 110 | TARGET_UNIT_CONE_ENTRY_110 |
 | 40 | TARGET_GAMEOBJECT_NEARBY_ENTRY |  | 75 | TARGET_DEST_TARGET_RADIUS |  |  |  |
-{.dense}
 
 &nbsp;
 
@@ -1320,7 +1301,6 @@ see **EffectImplicitTargetA**
 | 104 | SPELL_AURA_WATER_WALK |  | 210 | SPELL_AURA_MOD_VEHICLE_SPEED_ALWAYS |  | 316 | SPELL_AURA_PERIODIC_HASTE |
 | 105 | SPELL_AURA_FEATHER_FALL |  | 211 | SPELL_AURA_MOD_FLIGHT_SPEED_NOT_STACK |  |  |  |
 | 106 | SPELL_AURA_HOVER |  | 212 | SPELL_AURA_MOD_RANGED_ATTACK_POWER_OF_STAT_PERCENT |  |  |  |
-{.dense}
 
 &nbsp;
 
@@ -1479,7 +1459,6 @@ Similar spells are grouped by their **SpellClassMask**.
 | 1 | SPELL_DAMAGE_CLASS_MAGIC |
 | 2 | SPELL_DAMAGE_CLASS_MELEE |
 | 3 | SPELL_DAMAGE_CLASS_RANGED |
-{.dense}
 
 &nbsp;
 
@@ -1492,7 +1471,6 @@ Similar spells are grouped by their **SpellClassMask**.
 | 0 | SPELL_PREVENTION_TYPE_NONE |
 | 1 | SPELL_PREVENTION_TYPE_SILENCE |
 | 2 | SPELL_PREVENTION_TYPE_PACIFY |
-{.dense}
 
 &nbsp;
 
@@ -1548,7 +1526,6 @@ Items with TotemCategory required for spell cast. (not consumed)
 | 14 | Arclight Spanner         |  | 169 | Flint and Tinder              |
 | 15 | Gyromatic Micro-Adjustor |  | 189 | Runed Cobalt Rod (DO NOT USE) |
 | 21 | Master Totem             |  | 190 | Runed Titanium Rod            |
-{.dense}
 
 &nbsp;
 

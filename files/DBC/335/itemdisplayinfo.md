@@ -45,6 +45,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 22 | [Texture_7](#texture) | string |  |
 | 23 | [ItemVisual](#itemvisual) | int32 | [ItemVisuals.dbc/0](/files/DBC/335/itemvisuals#classid) |
 | 24 | [ParticleColorID](#particlecolorid) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -88,7 +89,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 1 | 0x1 | Emblazoned Tabard - Apply guild tabard texture on the char select screen |
 | 2 | 0x2 | Hides underwear |
 | 4 | 0x4 | Hides Pants and Belt |
-{.dense}
 
 &nbsp;
 
@@ -135,4 +135,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

@@ -19,11 +19,12 @@ dateCreated: 2021-08-30T22:01:48.242Z
 | [mail_id](#mail_id) | int | unsigned | MUL | NO | 0 |  |  |
 | [item_guid](#item_guid) | int | unsigned | PRI | NO | 0 |  |  |
 | [receiver](#receiver) | int | unsigned | MUL | NO | 0 |  | Character Global Unique Identifier |
+
 &nbsp;
 ## Description of fields
 
 ### mail_id
-references [mail.id](../characters/mail#id)
+references [mail.id](../characters/mail#id-alt)
 &nbsp;
 
 ### item_guid
@@ -33,4 +34,3 @@ references [mail.id](../characters/mail#id)
 ### receiver
 [character guid](../characters/characters#guid) which should receive this item.
 &nbsp;
-

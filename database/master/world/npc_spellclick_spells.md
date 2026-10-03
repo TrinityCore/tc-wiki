@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T09:33:05.858Z
 | [spell_id](#spell_id) | int | unsigned | PRI | NO |  |  | spell which should be casted  |
 | [cast_flags](#cast_flags) | tinyint | unsigned |  | NO |  |  | first bit defines caster: 1=player, 0=creature; second bit defines target, same mapping as caster bit |
 | [user_type](#user_type) | smallint | unsigned |  | NO | 0 |  | relation with summoner: 0-no 1-friendly 2-raid 3-party player can click |
+
 &nbsp;
 ## Description of fields
 
@@ -44,6 +45,7 @@ You can use that table for the actual value:
 | Clicker | Clickee | 1 |
 | Clickee | Clicker | 2 |
 | Clicker | Clicker | 3 |
+
 &nbsp;
 
 ### user_type
@@ -54,6 +56,5 @@ Relation with summoner: defines who is able to use this spellclick.
 | 1 | Friendly |
 | 2 | Raid |
 | 3 | Party |
+
 &nbsp;
-
-

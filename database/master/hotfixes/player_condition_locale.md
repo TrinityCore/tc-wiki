@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T09:58:51.996Z
 | [locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
 | [FailureDescription_lang](#failuredescription_lang) | text |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

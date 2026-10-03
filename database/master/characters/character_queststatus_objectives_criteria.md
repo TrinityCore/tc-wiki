@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T07:32:14.341Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | bigint | unsigned | PRI | NO |  |  |  |
 | [questObjectiveId](#questobjectiveid) | int | unsigned | PRI | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -24,5 +25,3 @@ dateCreated: 2021-08-30T07:32:14.341Z
 ### questObjectiveId
 *- no description -*
 &nbsp;
-
-

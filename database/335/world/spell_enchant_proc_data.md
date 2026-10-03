@@ -19,11 +19,12 @@ This table holds information how and when an enchantment proc can occur.
 | [ProcsPerMinute](#procsperminute) | float |  |  | NO | 0 |  |  |
 | [HitMask](#hitmask) | int | unsigned |  | NO | 0 |  |  |
 | [AttributesMask](#attributesmask) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### EnchantID
-references [SpellItemEnchantment ID](/files/DBC/335/spellitemenchantment#id)
+references [SpellItemEnchantment ID](/files/DBC/335/spellitemenchantment#id-alt)
 Any of the types (0 – 2) must be of ITEM_ENCHANTMENT_TYPE_COMBAT_SPELL (1)
 &nbsp;
 
@@ -52,6 +53,5 @@ Adds special behaviour to the proc, spell might trigger proc only if these condi
 | 8 | 0x0008 | PROC_ATTR_REQ_SPELLMOD | requires triggering spell to be affected by proccing aura to drop charges |
 | 128 | 0x0080 | PROC_ATTR_REDUCE_PROC_60 | aura should have a reduced chance to proc if level of proc Actor > 60 |
 | 256 | 0x0100 | PROC_ATTR_CANT_PROC_FROM_ITEM_CAST | do not allow aura proc if proc is caused by a spell casted by item |
-{.dense}
 
 &nbsp;

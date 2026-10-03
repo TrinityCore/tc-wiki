@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T09:29:27.863Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [name](#name-alt) | varchar(50) |  | PRI | NO | '' |  |  |
 | [help](#help) | mediumtext |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -27,4 +28,3 @@ The help text displayed by the .help command.
 
 **Some battlenet commands:**
 ![command-bnetaccount.png](/command-bnetaccount.png)
-

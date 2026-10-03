@@ -19,6 +19,7 @@ dateCreated: 2021-12-15T19:39:39.401Z
 | [spellVisualId](#spellvisualid) | int | signed |  | YES | NULL |  |  |
 | [progressCurveId](#progresscurveid) | int | signed |  | YES | NULL |  |  |
 | [parabolicCurveId](#paraboliccurveid) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -49,5 +50,3 @@ dateCreated: 2021-12-15T19:39:39.401Z
 ### parabolicCurveId
 *- no description -*
 &nbsp;
-
-

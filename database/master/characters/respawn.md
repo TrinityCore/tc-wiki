@@ -17,6 +17,7 @@ dateCreated: 2022-01-03T11:54:43.125Z
 | [respawnTime](#respawntime) | bigint | signed |  | NO |  |  |  |
 | [mapId](#mapid) | smallint | unsigned |  | NO |  |  |  |
 | [instanceId](#instanceid) | int | unsigned | PRI | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -39,5 +40,3 @@ dateCreated: 2022-01-03T11:54:43.125Z
 ### instanceId
 *- no description -*
 &nbsp;
-
-

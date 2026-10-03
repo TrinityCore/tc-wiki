@@ -18,11 +18,12 @@ dateCreated: 2021-08-30T22:02:25.427Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [wardenId](#wardenid) | smallint | unsigned | PRI | NO |  |  |  |
 | [action](#action-alt) | tinyint | unsigned |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### wardenId
-references [warden_checks.id](../world/warden_checks#id)
+references [warden_checks.id](../world/warden_checks#id-alt)
 &nbsp;
 
 ### action {#action-alt}
@@ -32,7 +33,5 @@ references [warden_checks.id](../world/warden_checks#id)
 | 0 | WARDEN_ACTION_LOG |
 | 1 | WARDEN_ACTION_KICK |
 | 2 | WARDEN_ACTION_BAN |
-{.dense}
 
 &nbsp;
-

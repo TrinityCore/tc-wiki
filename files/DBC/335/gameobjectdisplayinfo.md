@@ -39,6 +39,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 16 | [GeoBoxMax_Y](#geoboxmax) | float |  |
 | 17 | [GeoBoxMax_Z](#geoboxmax) | float |  |
 | 18 | [ObjectEffectPackageID](#objecteffectpackageid) | uint32 | [ObjectEffectPackage.dbc/0](/files/DBC/335/objecteffectpackage#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -69,7 +70,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 9 | custom1 |
 | 10 | custom2 |
 | 11 | custom3 |
-{.dense}
 
 &nbsp;
 
@@ -90,4 +90,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

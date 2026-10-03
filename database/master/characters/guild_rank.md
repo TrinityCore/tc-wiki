@@ -18,6 +18,7 @@ dateCreated: 2021-08-30T07:49:45.833Z
 | [rname](#rname) | varchar(20) |  |  | NO | '' |  |  |
 | [rights](#rights) | int | unsigned |  | NO | 0 |  |  |
 | [BankMoneyPerDay](#bankmoneyperday) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -44,4 +45,3 @@ dateCreated: 2021-08-30T07:49:45.833Z
 ### BankMoneyPerDay
 *- no description -*
 &nbsp;
-

@@ -20,12 +20,13 @@ This table is used to disable dungeons/bgs/spells/etc.
 | [params_0](#params_0) | varchar(255) |  |  | NO | '' |  |  |
 | [params_1](#params_1) | varchar(255) |  |  | NO | '' |  |  |
 | [comment](#comment) | varchar(255) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### sourceType
 | Value | Type |
-|-------|------|
+| --- | --- |
 | 0 | DISABLE_TYPE_SPELL |
 | 1 | DISABLE_TYPE_QUEST |
 | 2 | DISABLE_TYPE_MAP |
@@ -35,28 +36,27 @@ This table is used to disable dungeons/bgs/spells/etc.
 | 6 | DISABLE_TYPE_VMAP |
 | 7 | DISABLE_TYPE_MMAP |
 | 8 | DISABLE_TYPE_LFG_MAP |
-{.dense}
 
 &nbsp;
 
 ### entry
 | sourceType | entry |
-|-------|------|
+| --- | --- |
 | 0 | [Spell ID](/files/DBC/335/spell#id-alt) |
 | 1 | [quest_template.ID](../world/quest_template#id-alt) |
 | 3 | [BattlemasterList ID](/files/DBC/335/battlemasterlist#id-alt) |
 | 4 | [AchievementCriteria ID](/files/DBC/335/achievement_criteria#id-alt) |
 | 5 | value from [`enum OutdoorPvPTypes`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/OutdoorPvP/OutdoorPvP.h)|
 | 2, 6, 7, 8 | [Map ID](/files/DBC/335/map#id-alt) |
+
 &nbsp;
 
 ### flags
 Depending on **sourceType**. `0` if not specified otherwise.
 
-### Tabset {.tabset}
-#### DISABLE_TYPE_SPELL
+::: details DISABLE_TYPE_SPELL (0)
 | Value | Flag | Name | Comment |
-|-------|------|------|---------|
+| --- | --- | --- | --- |
 | 1 | 0x0001 | SPELL_DISABLE_PLAYER | Spell disabled for players |
 | 2 | 0x0002 | SPELL_DISABLE_CREATURE | Spell disabled for creatures |
 | 4 | 0x0004 | SPELL_DISABLE_PET | Spell disabled for pets |
@@ -67,40 +67,43 @@ Depending on **sourceType**. `0` if not specified otherwise.
 | 128 | 0x0080 | SPELL_DISABLE_GAMEOBJECT | Spell disabled for game objects |
 | 256 | 0x0100 | SPELL_DISABLE_ARENAS | disabled in arena |
 | 512 | 0x0200 | SPELL_DISABLE_BATTLEGROUNDS | Spell disabled in battlegrounds |
-{.dense}
 
-#### DISABLE_TYPE_MAP
+:::
+
+::: details DISABLE_TYPE_MAP (2)
 Specifies what mode of the map is disabled (5man/10man/heroic/etc).
 | Value | Flag | Name |
-|-------|------|------|
-| InstanceType of map = 1 (Dungeon) |||
+| --- | --- | --- |
+| InstanceType of map = 1 (Dungeon) | | |
 | 1 | 0x01 | DUNGEON_STATUSFLAG_NORMAL |
 | 2 | 0x02 | DUNGEON_STATUSFLAG_HEROIC |
-| InstanceType of map = 4 (Raid) |||
+| InstanceType of map = 4 (Raid) | | |
 | 1 | 0x01 | RAID_STATUSFLAG_10MAN_NORMAL |
 | 2 | 0x02 | RAID_STATUSFLAG_25MAN_NORMAL |
 | 4 | 0x04 | RAID_STATUSFLAG_10MAN_HEROIC |
 | 8 | 0x08 | RAID_STATUSFLAG_25MAN_HEROIC |
-{.dense}
 
-#### DISABLE_TYPE_VMAP
+:::
+
+::: details DISABLE_TYPE_VMAP (6)
 Specifies what part of the vMap system should be disabled on which map.
 | Value | Flag | Name |
-|-------|------|------|
+| --- | --- | --- |
 | 1 | 0x01 | VMAP_DISABLE_AREAFLAG |
 | 2 | 0x02 | VMAP_DISABLE_HEIGHT |
 | 4 | 0x04 | VMAP_DISABLE_LOS |
 | 8 | 0x08 | VMAP_LIQUIDSTATUS |
-{.dense}
-### EndTabset {.tabset}
+
+:::
+
 &nbsp;
 
 ### params_0
-comma seperated list of [Map IDs](/files/DBC/335/map#id) if DISABLE_TYPE_SPELL used, 0 for all maps.
+comma seperated list of [Map IDs](/files/DBC/335/map#id-alt) if DISABLE_TYPE_SPELL used, 0 for all maps.
 &nbsp;
 
 ### params_1
-comma seperated list of [AreaTable IDs](/files/DBC/335/areatable#id) if DISABLE_TYPE_SPELL used, 0 for all areas.
+comma seperated list of [AreaTable IDs](/files/DBC/335/areatable#id-alt) if DISABLE_TYPE_SPELL used, 0 for all areas.
 &nbsp;
 
 ### comment
@@ -113,4 +116,3 @@ A comment as to why the something was disabled, or any other text that you want.
 
 <code>INSERT INTO \`disables` VALUES (6, 1, (2 + 4), 0, 0, "Disable Kalimdor vMaps");</code>
 .. will disable vMaps on whole Kalimdor.
-

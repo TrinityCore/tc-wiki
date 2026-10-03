@@ -19,11 +19,12 @@ This table contains all models of mobs, their gender and other information that 
 | [CombatReach](#combatreach) | float |  |  | NO | 0 |  |  |
 | [Gender](#gender) | tinyint | unsigned |  | NO | 2 |  |  |
 | [DisplayID_Other_Gender](#displayid_other_gender) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### DisplayID
-references [CreatureDisplayInfo ID](/files/DBC/335/creaturedisplayinfo#id)
+references [CreatureDisplayInfo ID](/files/DBC/335/creaturedisplayinfo#id-alt)
 &nbsp;
 
 ### BoundingRadius
@@ -47,4 +48,3 @@ Note: do not modify this field without sniffs or talking to Kinzcool before (ref
 Point to [creature_model_info.DisplayID](../world/creature_model_info#displayid).
 When the entry is gender male (0) or female (1), this value can point to the opposite gender counterpart.
 &nbsp;
-

@@ -17,21 +17,21 @@ This table holds enchantment chance information for items that should have eithe
 | [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
 | [ench](#ench) | int | unsigned | PRI | NO | 0 |  |  |
 | [chance](#chance) | float |  |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### entry
-This field ties in with _*either*_ [RandomProperty](../world/item_template#RandomProperty) OR [RandomSuffix](../world/item_template#RandomSuffix) fields in the item_template table. An item cannot have both of those fields set at non-zero values.
+This field ties in with _*either*_ [RandomProperty](../world/item_template#randomproperty) OR [RandomSuffix](../world/item_template#randomsuffix) fields in the item_template table. An item cannot have both of those fields set at non-zero values.
 &nbsp;
 
 ### ench
 The enchantment to apply on the item. This fields value depends on the source of **entry**.
-* RandomProperty: **ench** is an [ItemRandomPropery ID](/files/DBC/335/itemrandomproperties#id).
-* RandomSuffix: **ench** is an [ItemRandomSuffix ID](/files/DBC/335/itemrandomsuffix#id).
+* RandomProperty: **ench** is an [ItemRandomPropery ID](/files/DBC/335/itemrandomproperties#id-alt).
+* RandomSuffix: **ench** is an [ItemRandomSuffix ID](/files/DBC/335/itemrandomsuffix#id-alt).
 
 &nbsp;
 
 ### chance
 The chance for a random property or suffix to be applied to the item. For each entry in this table, the combined chances of all properties/suffixes need to equal 100 otherwise the item may not get a random enchantment on it.
 &nbsp;
-

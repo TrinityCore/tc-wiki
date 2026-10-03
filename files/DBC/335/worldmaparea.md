@@ -31,6 +31,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 8 | [DisplayMapID](#displaymapid) | int32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
 | 9 | [DefaultDungeonFloor](#defaultdungeonfloor) | int32 | [DungeonMap.dbc/2](/files/DBC/335/dungeonmap#floorindex) |
 | 10 | [ParentWorldMapID](#parentworldmapid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -81,4 +82,3 @@ Pointer to DungeonMap.dbc (override x1, x2, y1, y2 coordinates)
 
 *- no description -*
 &nbsp;
-

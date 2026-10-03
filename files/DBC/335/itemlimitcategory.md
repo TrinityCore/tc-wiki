@@ -40,6 +40,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 17 | [Name_lang_mask](#name-alt) | uint32 |  |
 | 18 | [Quantity](#quantity) | uint32 |  |
 | 19 | [Flags](#flags) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -69,7 +70,5 @@ Max allowed equipped as item or in gem slot.
 |----|------|---------|
 | 0 | ITEM_LIMIT_CATEGORY_MODE_HAVE | limit applied to amount items in inventory/bank |
 | 1 | ITEM_LIMIT_CATEGORY_MODE_EQUIP | limit applied to amount equipped items (including used gems) |
-{.dense}
 
 &nbsp;
-

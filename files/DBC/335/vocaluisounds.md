@@ -27,6 +27,7 @@ dateCreated: 2023-10-04T08:09:15.363Z
 | 4 | [SoundID_1](#soundid) | int32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 | 5 | [SoundID_2](#soundid) | int32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 | 6 | [SoundID_3](#soundid) | int32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -64,7 +65,6 @@ dateCreated: 2023-10-04T08:09:15.363Z
 | 20 | VUI_ALREADYINGROUP |  | 43 | VUI_CANTEQUIP2H_NOSKILL |  | 66 | NUM_VOCALUISOUNDS |
 | 21 | VUI_ALREADYINGUILD |  | 44 | VUI_NOTEQUIPPABLE |  | 66 | VUI_NONE |
 | 22 | VUI_CANTAFFORDBANKSLOT |  | 45 | VUI_GENERICNOTARGET |  |  |  |
-{.dense}
 
 &nbsp;
 
@@ -81,7 +81,5 @@ dateCreated: 2023-10-04T08:09:15.363Z
 | :--: | :--: | :--: |
 | & 0x1 | Male | Female |
 | & 0x2 | Normal | Pissed (Drunk) |
-{.dense}
 
 &nbsp;
-

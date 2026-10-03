@@ -25,6 +25,7 @@ dateCreated: 2021-08-30T08:12:46.915Z
 | [gemBonuses3](#gembonuses3) | text |  |  | YES | NULL |  |  |
 | [gemContext3](#gemcontext3) | tinyint | unsigned |  | NO | 0 |  |  |
 | [gemScalingLevel3](#gemscalinglevel3) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -79,5 +80,3 @@ dateCreated: 2021-08-30T08:12:46.915Z
 ### gemScalingLevel3
 *- no description -*
 &nbsp;
-
-

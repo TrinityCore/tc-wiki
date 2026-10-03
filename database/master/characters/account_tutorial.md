@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T07:13:30.491Z
 | [tut5](#tut5) | int | unsigned |  | NO | 0 |  |  |
 | [tut6](#tut6) | int | unsigned |  | NO | 0 |  |  |
 | [tut7](#tut7) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -59,5 +60,3 @@ dateCreated: 2021-08-30T07:13:30.491Z
 ### tut7
 *- no description -*
 &nbsp;
-
-

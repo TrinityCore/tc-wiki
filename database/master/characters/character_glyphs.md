@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T07:28:39.568Z
 | [guid](#guid) | bigint | unsigned | PRI | NO |  |  |  |
 | [talentGroup](#talentgroup) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [glyphId](#glyphid) | smallint | unsigned | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ dateCreated: 2021-08-30T07:28:39.568Z
 ### glyphId
 *- no description -*
 &nbsp;
-
-

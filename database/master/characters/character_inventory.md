@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T07:29:29.533Z
 | [bag](#bag) | bigint | unsigned |  | NO | 0 |  |  |
 | [slot](#slot) | tinyint | unsigned |  | NO | 0 |  |  |
 | [item](#item) | bigint | unsigned | PRI | NO | 0 |  | Item Global Unique Identifier |
+
 &nbsp;
 ## Description of fields
 
@@ -34,5 +35,3 @@ dateCreated: 2021-08-30T07:29:29.533Z
 ### item
 *- no description -*
 &nbsp;
-
-

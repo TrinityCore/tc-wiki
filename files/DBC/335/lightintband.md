@@ -54,6 +54,7 @@ dateCreated: 2023-10-04T08:05:09.347Z
 | 31 | [Data_13](#data) | uint32 |  |
 | 32 | [Data_14](#data) | uint32 |  |
 | 33 | [Data_15](#data) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -82,7 +83,6 @@ Every [LightParamsID](/files/DBC/335/lightparams#id-alt) corresponds to 18 **ID*
 | 15 | Ocean color \[dark] deep ocean water |
 | 16 | River color \[light] shallow river water |
 | 17 | River color \[dark] deep river water |
-{.dense}
 
 &nbsp;
 
@@ -103,4 +103,3 @@ Number of **Time**/**Data** pairs in use.
 
 RGB color value.
 &nbsp;
-

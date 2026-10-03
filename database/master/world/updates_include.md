@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T09:37:50.344Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [path](#path) | varchar(200) |  | PRI | NO |  |  | directory to include. $ means relative to the source directory. |
 | [state](#state) | enum(<br />'RELEASED',<br />'ARCHIVED') |  |  | NO | RELEASED |  | defines if the directory contains released or archived updates. |
+
 &nbsp;
 ## Description of fields
 
@@ -24,4 +25,3 @@ Directory to include. Prefixing with $ means relative to the source directory.
 ### state
 Defines if the directory contains released or archived updates.
 &nbsp;
-

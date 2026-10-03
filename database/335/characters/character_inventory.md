@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T21:59:47.506Z
 | [bag](#bag) | int | unsigned |  | NO | 0 |  |  |
 | [slot](#slot) | tinyint | unsigned |  | NO | 0 |  |  |
 | [item](#item) | int | unsigned | PRI | NO | 0 |  | Item Global Unique Identifier |
+
 &nbsp;
 ## Description of fields
 
@@ -64,11 +65,9 @@ Slot # | Description
 74 – 85 | Vendor Buyback Slots
 86 – 117 | Keys in Keyring
 118 – 149 | Currencies (Emblems, Badges, Marks, etc.)
-{.dense}
 
 &nbsp;
 
 ### item
 The [item guid](../characters/item_instance#guid) in inventory.
 &nbsp;
-

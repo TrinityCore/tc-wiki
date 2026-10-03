@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T09:29:09.799Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [speciesId](#speciesid) | int | unsigned | PRI | NO | 0 |  |  |
 | [quality](#quality) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -24,5 +25,3 @@ dateCreated: 2021-08-30T09:29:09.799Z
 ### quality
 *- no description -*
 &nbsp;
-
-

@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T07:20:02.024Z
 | [effectIndex](#effectindex) | tinyint | unsigned | PRI | NO |  |  |  |
 | [amount](#amount) | int | signed |  | NO | 0 |  |  |
 | [baseAmount](#baseamount) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -54,4 +55,3 @@ dateCreated: 2021-08-30T07:20:02.024Z
 ### baseAmount
 *- no description -*
 &nbsp;
-

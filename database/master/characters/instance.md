@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T07:51:32.222Z
 | [data](#data) | text |  |  | YES | NULL |  |  |
 | [completedEncountersMask](#completedencountersmask) | int | unsigned |  | YES | NULL |  |  |
 | [entranceWorldSafeLocId](#entranceworldsafelocid) | int | unsigned |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,4 +35,3 @@ dateCreated: 2021-08-30T07:51:32.222Z
 ### entranceWorldSafeLocId
 *- no description -*
 &nbsp;
-

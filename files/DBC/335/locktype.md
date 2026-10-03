@@ -73,6 +73,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 50 | [Verb_15](#verb) | string |  |
 | 51 | [Verb_lang_mask](#verb) | uint32 |  |
 | 52 | [CursorName](#cursorname) | string |  |
+
 &nbsp;
 ## Description of fields
 
@@ -105,4 +106,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

@@ -23,6 +23,7 @@ dateCreated: 2021-08-30T07:16:31.153Z
 | [startTime](#starttime) | bigint | signed |  | NO | 0 |  |  |
 | [endTime](#endtime) | bigint | signed |  | NO | 0 |  |  |
 | [serverFlags](#serverflags) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -69,5 +70,3 @@ dateCreated: 2021-08-30T07:16:31.153Z
 ### serverFlags
 *- no description -*
 &nbsp;
-
-

@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T22:00:06.229Z
 | [guid](#guid) | int | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
 | [quest](#quest) | int | unsigned | PRI | NO | 0 |  | Quest Identifier |
 | [event](#event) | int | unsigned |  | NO | 0 |  | Event Identifier |
+
 &nbsp;
 ## Description of fields
 
@@ -30,10 +31,9 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### quest
-The [quest ID](../world/quest_template#id) of the non-repeatable seasonal quest.
+The [quest ID](../world/quest_template#id-alt) of the non-repeatable seasonal quest.
 &nbsp;
 
 ### event
 The [eventEntry](../world/game_event#evententry) of the game event that the seasonal quest belongs to.
 &nbsp;
-

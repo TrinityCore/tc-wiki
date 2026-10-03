@@ -15,6 +15,7 @@ dateCreated: 2024-09-05T22:48:27.034Z
 | [QuestID](#questid) | int | unsigned | PRI | NO |  |  |  |
 | [TreasurePickerID](#treasurepickerid) | int | signed | PRI | NO |  |  |  |
 | [OrderIndex](#orderindex) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,4 +30,3 @@ dateCreated: 2024-09-05T22:48:27.034Z
 ### OrderIndex
 *- no description -*
 &nbsp;
-

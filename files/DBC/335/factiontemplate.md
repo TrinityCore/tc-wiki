@@ -34,6 +34,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 11 | [Friend_1](#friend) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id-alt) |
 | 12 | [Friend_2](#friend) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id-alt) |
 | 13 | [Friend_3](#friend) | uint32 | [Faction.dbc/0](/files/DBC/335/faction#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -69,7 +70,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 2048 | 0x0800 | FACTION_TEMPLATE_FLAG_PVP | Assist players |
 | 4096 | 0x1000 | FACTION_TEMPLATE_FLAG_CONTESTED_GUARD | Attack PvP active players |
 | 8192 | 0x2000 | FACTION_TEMPLATE_FLAG_HOSTILE_BY_DEFAULT | Hates all except friends  |
-{.dense}
 
 &nbsp;
 
@@ -83,7 +83,6 @@ Same mask logic in **FriendGroup** and **EnemyGroup**
 | 2 | 0x02 | 2 - Alliance players (and their pets) |
 | 4 | 0x04 | 3 - Horde players (and their pets) |
 | 8 | 0x08 | 4 - Monster (Not a player nor a pet) |
-{.dense}
 
 &nbsp;
 
@@ -112,4 +111,3 @@ Always enemy of these factions. Overriding **FriendGroup** and **EnemyGroup** re
 
 Always friendly to these factions. Overriding **FriendGroup** and **EnemyGroup** relations.
 &nbsp;
-

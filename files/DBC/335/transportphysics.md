@@ -31,6 +31,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 8 | [MaxBankTurnSpeed](#maxbankturnspeed) | float |  |
 | 9 | [SpeedDampThresh](#speeddampthresh) | float |  |
 | 10 | [SpeedDamp](#speeddamp) | float |  |
+
 &nbsp;
 ## Description of fields
 
@@ -99,4 +100,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

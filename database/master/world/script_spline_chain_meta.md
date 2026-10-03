@@ -18,6 +18,7 @@ dateCreated: 2021-08-30T09:36:03.111Z
 | [expectedDuration](#expectedduration) | int | unsigned |  | NO |  |  |  |
 | [msUntilNext](#msuntilnext) | int | unsigned |  | NO |  |  |  |
 | [velocity](#velocity) | float |  |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -44,5 +45,3 @@ dateCreated: 2021-08-30T09:36:03.111Z
 ### velocity
 *- no description -*
 &nbsp;
-
-

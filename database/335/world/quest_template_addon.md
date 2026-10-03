@@ -32,11 +32,12 @@ Contains extra definitions like linking quests, dependencies and requirements fo
 | [RequiredMaxRepValue](#requiredmaxrepvalue) | int | signed |  | NO | 0 |  |  |
 | [ProvidedItemCount](#provideditemcount) | tinyint | unsigned |  | NO | 0 |  |  |
 | [SpecialFlags](#specialflags) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### ID {#id-alt}
-references [quest_template.ID](../world/quest_template#id)
+references [quest_template.ID](../world/quest_template#id-alt)
 &nbsp;
 
 ### MaxLevel
@@ -44,13 +45,13 @@ Maximum level at which a player can get the quest.
 &nbsp;
 
 ### AllowableClasses
-Class mask of [ChrClass IDs](/files/DBC/335/chrclasses#id) allowed to get the quest.
+Class mask of [ChrClass IDs](/files/DBC/335/chrclasses#id-alt) allowed to get the quest.
 <!--@include: @/partial/335/chrclasses.md{13,}-->
 
 &nbsp;
 
 ### SourceSpellID
-[Spell ID](/files/DBC/335/spell#id) cast on player when quest is started. Can be a buff or a learning spell.
+[Spell ID](/files/DBC/335/spell#id-alt) cast on player when quest is started. Can be a buff or a learning spell.
 &nbsp;
 
 ### PrevQuestID
@@ -77,11 +78,11 @@ E.g. if quest 1000 dependent from one of quests 1200, 1201 and 1202 and all this
 
 ### BreadcrumbForQuestId
 Breadcrumb quests exist for the sole purpose of guiding the player to a new zone or subzone to quest in. They are often given by NPCs upon completing the previous quest hub, as well as Hero's Call Boards, Warchief's Command Boards, and the Adventure Guide. Often there are multiple breadcrumb quests followed by the same follow-up quest, and normally they are mutually exclusive, meaning that accepting one breadcrumb quest will make all the others leading to the same location unavailable. Also, normally completing the follow-up quest will make any breadcrumb quests leading to it unavailable, whether or not they were completed.
-**BreadcrumbForQuestId** is the follow up [quest_template.ID](../world/quest_template#id)
+**BreadcrumbForQuestId** is the follow up [quest_template.ID](../world/quest_template#id-alt)
 &nbsp;
 
 ### RewardMailTemplateID
-If the quest gives as a reward an item from a possible list of items, the ID here corresponds to the proper entry in [mail_loot_template](../world/loot_template) and [MailTemplate ID](/files/DBC/335/mailtemplate#id). According to the rules in that loot template, items "looted" will be sent by mail at the completion of the quest.
+If the quest gives as a reward an item from a possible list of items, the ID here corresponds to the proper entry in [mail_loot_template](../world/loot_template) and [MailTemplate ID](/files/DBC/335/mailtemplate#id-alt). According to the rules in that loot template, items "looted" will be sent by mail at the completion of the quest.
 &nbsp;
 
 ### RewardMailDelay
@@ -89,7 +90,7 @@ How many seconds to wait until the mail is sent to the character that turned in 
 &nbsp;
 
 ### RequiredSkillID
-[SkillLine ID](/files/DBC/335/skillline#id) required to know to accept the quest.
+[SkillLine ID](/files/DBC/335/skillline#id-alt) required to know to accept the quest.
 &nbsp;
 
 ### RequiredSkillPoints
@@ -97,11 +98,11 @@ Skill points in **RequiredSkillID** required to have in order to accept the ques
 &nbsp;
 
 ### RequiredMinRepFaction
-[Faction ID](/files/DBC/335/faction#id) for reputation requirement.
+[Faction ID](/files/DBC/335/faction#id-alt) for reputation requirement.
 &nbsp;
 
 ### RequiredMaxRepFaction
-[Faction ID](/files/DBC/335/faction#id) for reputation requirement.
+[Faction ID](/files/DBC/335/faction#id-alt) for reputation requirement.
 &nbsp;
 
 ### RequiredMinRepValue
@@ -128,6 +129,5 @@ excerpt from [`enum QuestSpecialFlags`](https://github.com/TrinityCore/TrinityCo
 | 8 | 0x08 | QUEST_SPECIAL_FLAGS_DF_QUEST | if the quest is used by Dungeon Finder. |
 | 16 | 0x10 | QUEST_SPECIAL_FLAGS_MONTHLY | if the quest is reset at the begining of the month |
 | 32 | 0x20 | QUEST_SPECIAL_FLAGS_CAST | if the quest requires RequiredOrNpcGo killcredit but NOT kill (a spell cast). This action usually involves "killing" an invisible "bunny" NPC. |
-{.dense}
 
 &nbsp;

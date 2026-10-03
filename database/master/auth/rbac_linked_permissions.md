@@ -14,6 +14,7 @@ dateCreated: 2021-08-26T02:24:40.840Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [id](#id-alt) | int | unsigned | PRI | NO |  |  | Permission id |
 | [linkedId](#linkedid) | int | unsigned | PRI | NO |  |  | Linked Permission id |
+
 &nbsp;
 ## Description of fields
 
@@ -24,5 +25,3 @@ dateCreated: 2021-08-26T02:24:40.840Z
 ### linkedId
 *- no description -*
 &nbsp;
-
-

@@ -26,6 +26,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 3 | [MinLevel](#minlevel) | uint32 |  |
 | 4 | [MaxLevel](#maxlevel) | uint32 |  |
 | 5 | [Difficulty](#difficulty) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

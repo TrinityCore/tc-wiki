@@ -30,6 +30,7 @@ dateCreated: 2021-08-30T22:01:26.999Z
 | [durability](#durability) | smallint | unsigned |  | NO | 0 |  |  |
 | [playedTime](#playedtime) | int | unsigned |  | NO | 0 |  |  |
 | [text](#text) | text |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -63,7 +64,7 @@ Remaining [item duration](../world/item_template#duration) in sec.
 &nbsp;
 
 ### charges
-The number of charges for each of the five possible [spellcharges](../world/item_template#spellcharges_[1-5]) on an item, specified via five space separated integers.
+The number of charges for each of the five possible [spellcharges](../world/item_template#spellcharges_-1-5) on an item, specified via five space separated integers.
 &nbsp;
 
 ### flags
@@ -72,7 +73,7 @@ The number of charges for each of the five possible [spellcharges](../world/item
 &nbsp;
 
 ### enchantments
-Stores all enchantments as 12 space separated 3-tuples of \[EnchantmentId duration charges\]. EnchantmentId is a [SpellItemEnchantment ID](/files/DBC/335/spellitemenchantment#id).
+Stores all enchantments as 12 space separated 3-tuples of \[EnchantmentId duration charges\]. EnchantmentId is a [SpellItemEnchantment ID](/files/DBC/335/spellitemenchantment#id-alt).
 `enum EnchantmentSlot`
 | ID | Name | Comment |
 |----|------|---------|
@@ -88,13 +89,12 @@ Stores all enchantments as 12 space separated 3-tuples of \[EnchantmentId durati
 | 9 | PROP_ENCHANTMENT_SLOT_2 | used with RandomSuffix and RandomProperty |
 | 10 | PROP_ENCHANTMENT_SLOT_3 | used with RandomProperty |
 | 11 | PROP_ENCHANTMENT_SLOT_4 | used with RandomProperty |
-{.dense}
 
 &nbsp;
 
 ### randomPropertyId
-* **randomPropertyId** > 0: [ItemRandomProperty ID](/files/DBC/335/itemrandomproperties#id)
-* **randomPropertyId** < 0: [ItemRandomSuffix ID](/files/DBC/335/itemrandomsuffix#id)
+* **randomPropertyId** > 0: [ItemRandomProperty ID](/files/DBC/335/itemrandomproperties#id-alt)
+* **randomPropertyId** < 0: [ItemRandomSuffix ID](/files/DBC/335/itemrandomsuffix#id-alt)
 &nbsp;
 
 ### durability

@@ -26,6 +26,7 @@ This table holds information on individual pet base stats based on level.
 | [spi](#spi) | smallint | unsigned |  | NO |  |  |  |
 | [min_dmg](#min_dmg) | smallint | unsigned |  | NO | 0 |  |  |
 | [max_dmg](#max_dmg) | smallint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -76,4 +77,3 @@ The base minimum damage of the pet at currently selected **level**.
 ### max_dmg
 The base maximum damage of the pet at currently selected **level**.
 &nbsp;
-

@@ -20,6 +20,7 @@ This table contains all the equipment combinations that can be set for each crea
 | [ItemID2](#itemid2) | int | unsigned |  | NO | 0 |  |  |
 | [ItemID3](#itemid3) | int | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -32,15 +33,15 @@ An additional identifier for each individual entry, enabling multiple equipments
 &nbsp;
 
 ### ItemID1
-This is the [Item ID](/files/DBC/335/item#id) of the equipment used in the right hand slot.
+This is the [Item ID](/files/DBC/335/item#id-alt) of the equipment used in the right hand slot.
 &nbsp;
 
 ### ItemID2
-This is the [Item ID](/files/DBC/335/item#id) of the equipment used in the left hand slot.
+This is the [Item ID](/files/DBC/335/item#id-alt) of the equipment used in the left hand slot.
 &nbsp;
 
 ### ItemID3
-This is the [Item ID](/files/DBC/335/item#id) of the equipment used in the ranged slot.
+This is the [Item ID](/files/DBC/335/item#id-alt) of the equipment used in the ranged slot.
 &nbsp;
 
 ### VerifiedBuild
@@ -54,4 +55,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -[Client Build](/database/335/auth/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
-

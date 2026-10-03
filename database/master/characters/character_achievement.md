@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T07:18:38.004Z
 | [guid](#guid) | bigint | unsigned | PRI | NO |  |  |  |
 | [achievement](#achievement) | int | unsigned | PRI | NO |  |  |  |
 | [date](#date) | bigint | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ dateCreated: 2021-08-30T07:18:38.004Z
 ### date
 *- no description -*
 &nbsp;
-
-

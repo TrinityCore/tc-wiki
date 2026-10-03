@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T22:00:03.562Z
 | [guid](#guid) | int | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
 | [quest](#quest) | int | unsigned | PRI | NO | 0 |  | Quest Identifier |
 | [active](#active) | tinyint | unsigned |  | NO | 1 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -27,7 +28,7 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### quest
-The [quest ID](../world/quest_template#id) to mark as rewarded.
+The [quest ID](../world/quest_template#id-alt) to mark as rewarded.
 &nbsp;
 
 ### active
@@ -35,4 +36,3 @@ In case of a player faction change, quests not matching the new faction are mark
 * 0: inactive (not counting towards achievements, etc.)
 * 1: active (handled normally)
 &nbsp;
-

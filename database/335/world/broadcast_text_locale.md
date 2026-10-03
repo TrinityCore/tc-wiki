@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T22:03:05.205Z
 | [Text](#text) | mediumtext |  |  | YES | NULL |  |  |
 | [Text1](#text1) | mediumtext |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

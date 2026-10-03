@@ -31,6 +31,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 7 | [ZoneMusicID](#zonemusicid) | uint32 | [ZoneMusic.dbc/0](/files/DBC/335/zonemusic#id-alt) |
 | 8 | [SoundAmbienceID](#soundambienceid) | uint32 | [SoundAmbience.dbc/0](/files/DBC/335/soundambience#id-alt) |
 | 9 | [SoundProviderPreferencesID](#soundproviderpreferencesid) | uint32 | [SoundProviderPreferences.dbc/0](/files/DBC/335/soundproviderpreferences#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -93,4 +94,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

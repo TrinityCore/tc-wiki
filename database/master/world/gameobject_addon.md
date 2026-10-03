@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T09:31:40.941Z
 | [invisibilityValue](#invisibilityvalue) | int | unsigned |  | NO | 0 |  |  |
 | [WorldEffectID](#worldeffectid) | int | unsigned |  | NO | 0 |  |  |
 | [AIAnimKitID](#aianimkitid) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -55,7 +56,6 @@ from [`enum InvisibilityType`](https://github.com/TrinityCore/TrinityCore/blob/m
 | 0 | INVISIBILITY_GENERAL |
 | 3 | INVISIBILITY_TRAP |
 | 6 | INVISIBILITY_DRUNK |
-{.dense}
 
 &nbsp;
 
@@ -70,5 +70,3 @@ The larger the value the harder it is to detect this gameobject.
 ### AIAnimKitID
 *- no description -*
 &nbsp;
-
-

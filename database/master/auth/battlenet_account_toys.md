@@ -16,6 +16,7 @@ dateCreated: 2021-08-21T03:39:35.615Z
 | [itemId](#itemid) | int | signed | PRI | NO | 0 |  |  |
 | [isFavourite](#isfavourite) | tinyint(1) | signed |  | YES | 0 |  |  |
 | [hasFanfare](#hasfanfare) | tinyint(1) | signed |  | YES | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,5 +35,3 @@ dateCreated: 2021-08-21T03:39:35.615Z
 ### hasFanfare
 *- no description -*
 &nbsp;
-
-

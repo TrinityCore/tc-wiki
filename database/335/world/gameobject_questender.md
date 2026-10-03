@@ -16,6 +16,7 @@ Holds gameobject quest taker relations. The gameobjects in this table should all
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [id](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [quest](#quest) | int | unsigned | PRI | NO | 0 |  | Quest Identifier |
+
 &nbsp;
 ## Description of fields
 
@@ -24,6 +25,5 @@ The [entry](../world/gameobject_template#entry) of the gameobject ending the que
 &nbsp;
 
 ### quest
-The [quest ID](../world/quest_template#id) that this gameobject finishes.
+The [quest ID](../world/quest_template#id-alt) that this gameobject finishes.
 &nbsp;
-

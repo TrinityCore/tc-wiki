@@ -30,6 +30,7 @@ dateCreated: 2021-08-30T22:01:29.745Z
 | [needs_quest](#needs_quest) | tinyint(1) | signed |  | NO | 0 |  | quest drop |
 | [rnd_prop](#rnd_prop) | int | signed |  | NO | 0 |  | random enchantment added when originally rolled |
 | [rnd_suffix](#rnd_suffix) | int | signed |  | NO | 0 |  | random suffix added when originally rolled |
+
 &nbsp;
 ## Description of fields
 
@@ -95,12 +96,11 @@ Flag to determine if the item is a quest item to be counted as a "quest drop".
 &nbsp;
 
 ### rnd_prop
-[ItemRandomProperty ID](/files/DBC/335/itemrandomproperties#id) (if any) that was rolled and added to the item when the loot container was originally opened.
+[ItemRandomProperty ID](/files/DBC/335/itemrandomproperties#id-alt) (if any) that was rolled and added to the item when the loot container was originally opened.
 Mutually exclusive with **rnd_suffix**.
 &nbsp;
 
 ### rnd_suffix
-[ItemRandomSuffix ID](/files/DBC/335/itemrandomsuffix#id) (if any) that was rolled and added to the item when the loot container was originally opened.
+[ItemRandomSuffix ID](/files/DBC/335/itemrandomsuffix#id-alt) (if any) that was rolled and added to the item when the loot container was originally opened.
 Mutually exclusive with **rnd_prop**.
 &nbsp;
-

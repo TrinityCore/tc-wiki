@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T07:36:40.251Z
 | [guid](#guid) | bigint | unsigned | PRI | NO |  |  |  |
 | [talentId](#talentid) | int | unsigned | PRI | NO |  |  |  |
 | [talentGroup](#talentgroup) | tinyint | unsigned | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ dateCreated: 2021-08-30T07:36:40.251Z
 ### talentGroup
 *- no description -*
 &nbsp;
-
-

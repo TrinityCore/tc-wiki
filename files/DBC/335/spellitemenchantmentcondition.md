@@ -51,6 +51,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 28 | [Logic_3](#logic) | uint8 |  |
 | 29 | [Logic_4](#logic) | uint8 |  |
 | 30 | [Logic_5](#logic) | uint8 |  |
+
 &nbsp;
 ## Description of fields
 

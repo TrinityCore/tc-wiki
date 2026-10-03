@@ -17,12 +17,13 @@ dateCreated: 2021-08-30T09:36:53.405Z
 | [ProcsPerMinute](#procsperminute) | float |  |  | NO | 0 |  |  |
 | [HitMask](#hitmask) | int | unsigned |  | NO | 0 |  |  |
 | [AttributesMask](#attributesmask) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### EnchantID
 references [SpellItemEnchantment ID](https://wago.tools/db2/spellitemenchantmen)
-Any of the types (0 � 2) must be of ITEM_ENCHANTMENT_TYPE_COMBAT_SPELL (1)
+Any of the types (0 &ndash; 2) must be of ITEM_ENCHANTMENT_TYPE_COMBAT_SPELL (1)
 &nbsp;
 
 ### Chance
@@ -53,7 +54,6 @@ Used to add special conditions to spells, some spells might trigger only on crit
 | 2048 | 0x0800 | PROC_HIT_REFLECT |  |
 | 4096 | 0x1000 | PROC_HIT_INTERRUPT |  |
 | 8192 | 0x2000 | PROC_HIT_FULL_BLOCK |  |
-{.dense}
 
 &nbsp;
 
@@ -67,7 +67,5 @@ Adds special behaviour to the proc, spell might trigger proc only if these condi
 | 8 | 0x0008 | PROC_ATTR_REQ_SPELLMOD | requires triggering spell to be affected by proccing aura to drop charges |
 | 128 | 0x0080 | PROC_ATTR_REDUCE_PROC_60 | aura should have a reduced chance to proc if level of proc Actor > 60 |
 | 256 | 0x0100 | PROC_ATTR_CANT_PROC_FROM_ITEM_CAST | do not allow aura proc if proc is caused by a spell casted by item |
-{.dense}
 
 &nbsp;
-

@@ -26,6 +26,7 @@ dateCreated: 2021-08-30T07:21:30.199Z
 | [topOffset](#topoffset) | smallint | unsigned |  | NO | 0 |  | Frame position offset from top |
 | [bottomOffset](#bottomoffset) | smallint | unsigned |  | NO | 0 |  | Frame position offset from bottom |
 | [leftOffset](#leftoffset) | smallint | unsigned |  | NO | 0 |  | Frame position offset from left |
+
 &nbsp;
 ## Description of fields
 
@@ -84,4 +85,3 @@ dateCreated: 2021-08-30T07:21:30.199Z
 ### leftOffset
 *- no description -*
 &nbsp;
-

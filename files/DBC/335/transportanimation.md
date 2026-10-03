@@ -27,6 +27,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 4 | [Pos_Y](#pos) | float |  |
 | 5 | [Pos_Z](#pos) | float |  |
 | 6 | [SequenceID](#sequenceid) | uint32 | [AnimationData.dbc/0](/files/DBC/335/animationdata#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -59,4 +60,3 @@ GO must be of type GAMEOBJECT_TYPE_TRANSPORT (11)
 
 *- no description -*
 &nbsp;
-

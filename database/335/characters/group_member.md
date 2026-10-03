@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T22:00:52.221Z
 | [memberFlags](#memberflags) | tinyint | unsigned |  | NO | 0 |  |  |
 | [subgroup](#subgroup) | tinyint | unsigned |  | NO | 0 |  |  |
 | [roles](#roles) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -39,7 +40,6 @@ references [groups.guid](../characters/groups#guid).
 | 1 | 0x1 | MEMBER_FLAG_ASSISTANT |  |
 | 2 | 0x2 | MEMBER_FLAG_MAINTANK | unique per group |
 | 4 | 0x4 | MEMBER_FLAG_MAINASSIST | unique per group |
-{.dense}
 
 &nbsp;
 
@@ -55,7 +55,5 @@ Range 0 – 7, representing the subgroups of a raid group. There can only be 5 m
 | 2 | 0x02 | PLAYER_ROLE_TANK |
 | 4 | 0x04 | PLAYER_ROLE_HEALER |
 | 8 | 0x08 | PLAYER_ROLE_DAMAGE |
-{.dense}
 
 &nbsp;
-

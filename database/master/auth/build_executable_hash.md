@@ -15,6 +15,7 @@ dateCreated: 2024-09-05T22:43:12.328Z
 | [build](#build) | int | signed | PRI | NO |  |  |  |
 | [platform](#platform) | char(4) |  | PRI | NO |  |  |  |
 | [executableHash](#executablehash) | binary(20) |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,4 +30,3 @@ dateCreated: 2024-09-05T22:43:12.328Z
 ### executableHash
 *- no description -*
 &nbsp;
-

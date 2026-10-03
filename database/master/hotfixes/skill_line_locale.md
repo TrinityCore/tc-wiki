@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T10:00:30.623Z
 | [Description_lang](#description_lang) | text |  |  | YES | NULL |  |  |
 | [HordeDisplayName_lang](#hordedisplayname_lang) | text |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T09:38:13.594Z
 | [Facing](#facing) | float |  |  | YES | NULL |  |  |
 | [TransportSpawnId](#transportspawnid) | bigint | unsigned |  | YES | NULL |  |  |
 | [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -32,6 +33,7 @@ New (custom) IDs should be used per expansion as followed:
 | Shadowlands (9.x)        |          90000 |        99999 |
 | Dragonflight (10.x)      |         100000 |       109999 |
 | The War Within (11.x)    |         110000 |       119999 |
+
 &nbsp;
 
 ### MapID
@@ -67,4 +69,3 @@ Alternative in Python you can use this [gist](https://gist.github.com/TheSCREWED
 ### Comment
 The usage of the location and where it is (as in zone/map name)
 &nbsp;
-

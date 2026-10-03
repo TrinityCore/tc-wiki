@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T09:36:37.700Z
 | [groupId](#groupid) | int | unsigned | PRI | NO |  |  |  |
 | [groupName](#groupname) | varchar(100) |  |  | NO |  |  |  |
 | [groupFlags](#groupflags) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -37,4 +38,3 @@ Descriptive name for the group.
 | SPAWNGROUP_FLAG_DYNAMIC_SPAWN_RATE           |   0x08 | Group will have dynamic spawn rates applied (by default quest interested creatures/gos and gather nodes use this) |
 | SPAWNGROUP_FLAG_ESCORTQUESTNPC               |   0x10 | Group contains Escort quest NPCs. This further enhances Dynamic spawn to begin respawn time at the point a quest is taken and the escort begins |
 | SPAWNGROUP_FLAG_DESPAWN_ON_CONDITION_FAILURE | 0x20 | Group despawns on condition failure |
-

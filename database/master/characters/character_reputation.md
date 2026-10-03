@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T07:33:45.166Z
 | [faction](#faction) | smallint | unsigned | PRI | NO | 0 |  |  |
 | [standing](#standing) | int | signed |  | NO | 0 |  |  |
 | [flags](#flags) | smallint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,5 +35,3 @@ dateCreated: 2021-08-30T07:33:45.166Z
 ### flags
 *- no description -*
 &nbsp;
-
-

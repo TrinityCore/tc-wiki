@@ -26,6 +26,7 @@ Contains items generated when using a spell with SPELL_EFFECT_MILLING(158) on an
 | [MinCount](#mincount) | tinyint | unsigned |  | NO | 1 |  |  |
 | [MaxCount](#maxcount) | tinyint | unsigned |  | NO | 1 |  |  |
 | [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -68,4 +69,3 @@ Contains items generated when using a spell with SPELL_EFFECT_MILLING(158) on an
 ### Comment
 *- no description -*
 &nbsp;
-

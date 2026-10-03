@@ -73,13 +73,13 @@ dateCreated: 2021-08-30T22:00:30.288Z
 | [watchedFaction](#watchedfaction) | int | unsigned |  | NO | 0 |  |  |
 | [drunk](#drunk) | tinyint | unsigned |  | NO | 0 |  |  |
 | [health](#health) | int | unsigned |  | NO | 0 |  |  |
-| [power1](#power1-7) | int | unsigned |  | NO | 0 |  |  |
-| [power2](#power1-7) | int | unsigned |  | NO | 0 |  |  |
-| [power3](#power1-7) | int | unsigned |  | NO | 0 |  |  |
-| [power4](#power1-7) | int | unsigned |  | NO | 0 |  |  |
-| [power5](#power1-7) | int | unsigned |  | NO | 0 |  |  |
-| [power6](#power1-7) | int | unsigned |  | NO | 0 |  |  |
-| [power7](#power1-7) | int | unsigned |  | NO | 0 |  |  |
+| [power1](#power-1-7) | int | unsigned |  | NO | 0 |  |  |
+| [power2](#power-1-7) | int | unsigned |  | NO | 0 |  |  |
+| [power3](#power-1-7) | int | unsigned |  | NO | 0 |  |  |
+| [power4](#power-1-7) | int | unsigned |  | NO | 0 |  |  |
+| [power5](#power-1-7) | int | unsigned |  | NO | 0 |  |  |
+| [power6](#power-1-7) | int | unsigned |  | NO | 0 |  |  |
+| [power7](#power-1-7) | int | unsigned |  | NO | 0 |  |  |
 | [latency](#latency) | mediumint | unsigned |  | NO | 0 |  |  |
 | [talentGroupsCount](#talentgroupscount) | tinyint | unsigned |  | NO | 1 |  |  |
 | [activeTalentGroup](#activetalentgroup) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -92,6 +92,7 @@ dateCreated: 2021-08-30T22:00:30.288Z
 | [deleteInfos_Account](#deleteinfos_account) | int | unsigned |  | YES | NULL |  |  |
 | [deleteInfos_Name](#deleteinfos_name) | varchar(12) |  |  | YES | NULL |  |  |
 | [deleteDate](#deletedate) | int | unsigned |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -100,7 +101,7 @@ The character global unique identifier. This number must be unique and is the be
 &nbsp;
 
 ### account
-The [account ID](../auth/account#id) in which this character resides.
+The [account ID](../auth/account#id-alt) in which this character resides.
 &nbsp;
 
 ### name {#name-alt}
@@ -108,11 +109,11 @@ The name of the character.
 &nbsp;
 
 ### race
-The [Race ID](/files/DBC/335/chrraces#id) of the character.
+The [Race ID](/files/DBC/335/chrraces#id-alt) of the character.
 &nbsp;
 
 ### class
-The [Class ID](/files/DBC/335/chrclasses#id) of the character.
+The [Class ID](/files/DBC/335/chrclasses#id-alt) of the character.
 &nbsp;
 
 ### gender
@@ -164,7 +165,6 @@ Bag slots in bank bought by the character.
 | 1 | REST_STATE_RESTED | rested |
 | 2 | REST_STATE_NOT_RAF_LINKED | not rested |
 | 6 | REST_STATE_RAF_LINKED | linked by 'recruit a friend' |
-{.dense}
 
 &nbsp;
 
@@ -197,7 +197,6 @@ A bitmask that represents what Player flags the player has. Each bit controls a 
 | 8388608 | 0x00800000 | PLAYER_ALLOW_ONLY_ABILITY | used by bladestorm and killing spree, allowed only spells with SPELL_ATTR0_REQ_AMMO, SPELL_EFFECT_ATTACK, checked only for active player |
 | 16777216 | 0x01000000 | PLAYER_FLAGS_UNK24 | disabled all melee ability on tab include autoattack |
 | 33554432 | 0x02000000 | PLAYER_FLAGS_NO_XP_GAIN | |
-{.dense}
 
 &nbsp;
 
@@ -214,11 +213,11 @@ The z position of the character's location.
 &nbsp;
 
 ### map
-The [Map ID](/files/DBC/335/map#id) the character is on.
+The [Map ID](/files/DBC/335/map#id-alt) the character is on.
 &nbsp;
 
 ### instance_id
-The [instance id](../characters/instance#id) the character is currently in and bound to.
+The [instance id](../characters/instance#id-alt) the character is currently in and bound to.
 &nbsp;
 
 ### instance_mode_mask
@@ -233,7 +232,6 @@ High nibble encodes raid difficulty, Low nibble encodes dungeon difficulty:
 | 16 | RAID_DIFFICULTY_25MAN_NORMAL |
 | 32 | RAID_DIFFICULTY_10MAN_HEROIC |
 | 48 | RAID_DIFFICULTY_25MAN_HEROIC |
-{.dense}
 
 &nbsp;
 
@@ -244,7 +242,7 @@ The orientation the character is facing.
 &nbsp;
 
 ### taximask
-Known [TaxiNode IDs](/files/DBC/335/taxinodes#id) stored in space separated bit masks.
+Known [TaxiNode IDs](/files/DBC/335/taxinodes#id-alt) stored in space separated bit masks.
 ```cpp
 uint8  fieldIdx = uint8((nodeId - 1) / 32);
 uint32 maskBit  = 1 << ((nodeId - 1) % 32);
@@ -327,7 +325,6 @@ These flags control certain player specific attributes, mostly GM features.
 | 512 | 0x0200 | PLAYER_EXTRA_HAS_RACE_CHANGED | characters races was changed at some point |
 | 1024 | 0x0400 | PLAYER_EXTRA_GRANTED_LEVELS_FROM_RAF | was grantend levels from 'recruit a friend' at some point |
 | 2048 | 0x0800 | :x: PLAYER_EXTRA_LEVEL_BOOSTED | reserved for master branch |
-{.dense}
 
 &nbsp;
 
@@ -348,12 +345,11 @@ This field is a bitmask controlling different actions taken once a player logs i
 | 64 | 0x0040 | AT_LOGIN_CHANGE_FACTION | Faction change |
 | 128 | 0x0080 | AT_LOGIN_CHANGE_RACE | Race change |
 | 256 | 0x0100 | AT_LOGIN_RESURRECT | Resurrect at corpse |
-{.dense}
 
 &nbsp;
 
 ### zone
-The [AreaTable ID](/files/DBC/335/areatable#id) the character is in.
+The [AreaTable ID](/files/DBC/335/areatable#id-alt) the character is in.
 &nbsp;
 
 ### death_expire_time
@@ -361,7 +357,7 @@ Unix timestamp when a character can be resurrected in case of a server crash or 
 &nbsp;
 
 ### taxi_path
-Stores the players current [TaxiPath ID](/files/DBC/335/taxipath#id) if logged off while on one.
+Stores the players current [TaxiPath ID](/files/DBC/335/taxipath#id-alt) if logged off while on one.
 &nbsp;
 
 ### arenaPoints
@@ -438,7 +434,6 @@ Current character powers (snapshot from when the character was saved)
 | 5 | Happiness |
 | 6 | Runes |
 | 7 | Runic Power |
-{.dense}
 
 &nbsp;
 
@@ -466,7 +461,7 @@ uint32 maskBit  = 1 << (AreaBit % 32);
 
 ### equipmentCache
 Equipment shown on character login screen.
-Space separated list of "[ItemEntry](../world/item_template#entry) [SpellItemEnchantmentID](/files/DBC/335/spellitemenchantment#id)" pairs. 0 for no item equipped or item not enchanted.
+Space separated list of "[ItemEntry](../world/item_template#entry) [SpellItemEnchantmentID](/files/DBC/335/spellitemenchantment#id-alt)" pairs. 0 for no item equipped or item not enchanted.
 Pairs are ordered from EQUIPMENT_SLOT + INVENTORY_SLOT_BAG (19 + 4 pairs)
 
 <!--@include: @/partial/335/equipment-slots.md-->
@@ -495,7 +490,6 @@ A bitmask that contains visible actionbars for the player.
 | 2 | 0x2 | Bottom Right Bar |
 | 4 | 0x4 | Rigth Bar |
 | 8 | 0x8 | Right Bar 2 |
-{.dense}
 
 &nbsp;
 
@@ -504,7 +498,7 @@ Number of levels that can be granted to the characters 'recruit a friend' partne
 &nbsp;
 
 ### deleteInfos_Account
-Stores the [account id](../auth/account#id) if the character is deleted and worldserver.conf [`CharDelete.Method = 1`](/files/configuration/home).
+Stores the [account id](../auth/account#id-alt) if the character is deleted and worldserver.conf [`CharDelete.Method = 1`](/files/configuration/home).
 &nbsp;
 
 ### deleteInfos_Name

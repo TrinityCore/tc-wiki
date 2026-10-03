@@ -26,6 +26,7 @@ dateCreated: 2021-08-30T08:13:33.626Z
 | [rnd_bonus](#rnd_bonus) | int | unsigned |  | NO | 0 |  | random bonus list added when originally rolled |
 | [context](#context) | tinyint | unsigned |  | NO | 0 |  |  |
 | [bonus_list_ids](#bonus_list_ids) | text |  |  | YES | NULL |  | Space separated list of bonus list ids |
+
 &nbsp;
 ## Description of fields
 
@@ -84,4 +85,3 @@ dateCreated: 2021-08-30T08:13:33.626Z
 ### bonus_list_ids
 *- no description -*
 &nbsp;
-

@@ -17,13 +17,14 @@ dateCreated: 2021-08-30T09:31:59.104Z
 | [flags](#flags) | int | unsigned |  | NO | 0 |  |  |
 | [mingold](#mingold) | int | unsigned |  | NO | 0 |  |  |
 | [maxgold](#maxgold) | int | unsigned |  | NO | 0 |  |  |
-| [artkit0](#artkit0) | int | signed |  | NO | 0 |  |  |
-| [artkit1](#artkit1) | int | signed |  | NO | 0 |  |  |
-| [artkit2](#artkit2) | int | signed |  | NO | 0 |  |  |
-| [artkit3](#artkit3) | int | signed |  | NO | 0 |  |  |
-| [artkit4](#artkit4) | int | signed |  | NO | 0 |  |  |
+| [artkit0](#artkit-0-4) | int | signed |  | NO | 0 |  |  |
+| [artkit1](#artkit-0-4) | int | signed |  | NO | 0 |  |  |
+| [artkit2](#artkit-0-4) | int | signed |  | NO | 0 |  |  |
+| [artkit3](#artkit-0-4) | int | signed |  | NO | 0 |  |  |
+| [artkit4](#artkit-0-4) | int | signed |  | NO | 0 |  |  |
 | [WorldEffectID](#worldeffectid) | int | unsigned |  | NO | 0 |  |  |
 | [AIAnimKitID](#aianimkitid) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -47,6 +48,7 @@ Faction of the gameobject, referencing [Faction.db2](https://wago.tools/db2/Fact
 | 0x00000040 | GO_FLAG_TRIGGERED | typically, summoned objects. Triggered by spell or other events |
 | 0x00000200 | GO_FLAG_DAMAGED | Gameobject has been siege damaged |
 | 0x00000400 | GO_FLAG_DESTROYED | Gameobject has been destroyed |
+
 &nbsp;
 
 ### mingold
@@ -69,4 +71,3 @@ Updates display if object is activated by SPELL_EFFCT_ACTIVATE_OBJECT with MiscV
 ### AIAnimKitID
 *- no description -*
 &nbsp;
-

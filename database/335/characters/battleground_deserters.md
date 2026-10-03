@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T21:58:51.310Z
 | [guid](#guid) | int | unsigned |  | NO |  |  | characters.guid |
 | [type](#type) | tinyint | unsigned |  | NO |  |  | type of the desertion |
 | [datetime](#datetime) | datetime |  |  | NO |  |  | datetime of the desertion |
+
 &nbsp;
 ## Description of fields
 
@@ -37,4 +38,3 @@ The [character guid](../characters/characters#guid).
 ### datetime
 Date and time of the event
 &nbsp;
-

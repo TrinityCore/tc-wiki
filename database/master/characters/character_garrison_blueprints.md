@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T07:24:05.761Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | bigint | unsigned | PRI | NO |  |  |  |
 | [buildingId](#buildingid) | int | unsigned | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -24,5 +25,3 @@ dateCreated: 2021-08-30T07:24:05.761Z
 ### buildingId
 *- no description -*
 &nbsp;
-
-

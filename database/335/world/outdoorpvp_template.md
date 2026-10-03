@@ -17,6 +17,7 @@ Comes from sniffs and is not to be changed, EVER!
 | [TypeId](#typeid) | tinyint | unsigned | PRI | NO |  |  |  |
 | [ScriptName](#scriptname) | char(64) |  |  | NO | '' |  |  |
 | [comment](#comment) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -31,4 +32,3 @@ The name of the script that this outdoor pvp uses. This ties a script from a scr
 ### comment
 This field is for any comment you want to make. It is arbitrary text.
 &nbsp;
-

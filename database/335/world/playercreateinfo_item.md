@@ -18,17 +18,18 @@ This table is used for any custom items that you might want to give to character
 | [class](#class) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [itemid](#itemid) | int | unsigned | PRI | NO | 0 |  |  |
 | [amount](#amount) | tinyint | signed |  | NO | 1 |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### race
-The character's [ChrRace ID](/files/DBC/335/chrraces#id)
+The character's [ChrRace ID](/files/DBC/335/chrraces#id-alt)
 <!--@include: @/partial/335/chrraces.md{3,9}-->
 
 &nbsp;
 
 ### class
-The character's [ChrClass ID](/files/DBC/335/chrclasses#id)
+The character's [ChrClass ID](/files/DBC/335/chrclasses#id-alt)
 <!--@include: @/partial/335/chrclasses.md{3,9}-->
 
 &nbsp;

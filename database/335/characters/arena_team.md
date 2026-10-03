@@ -31,6 +31,7 @@ dateCreated: 2021-08-30T21:58:37.950Z
 | [emblemColor](#emblemcolor) | int | unsigned |  | NO | 0 |  |  |
 | [borderStyle](#borderstyle) | tinyint | unsigned |  | NO | 0 |  |  |
 | [borderColor](#bordercolor) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -105,4 +106,3 @@ file index to
 ### borderColor
 ARGB color value.
 &nbsp;
-

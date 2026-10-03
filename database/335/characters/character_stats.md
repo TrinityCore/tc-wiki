@@ -48,6 +48,7 @@ dateCreated: 2021-08-30T22:00:24.767Z
 | [rangedAttackPower](#rangedattackpower) | int | unsigned |  | NO | 0 |  |  |
 | [spellPower](#spellpower) | int | unsigned |  | NO | 0 |  |  |
 | [resilience](#resilience) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -174,4 +175,3 @@ Character's current spellpower.
 ### resilience
 Character's current resilience value.
 &nbsp;
-

@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T22:03:21.129Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [CreatureId](#creatureid) | int | unsigned | PRI | NO |  |  |  |
 | [TrainerId](#trainerid) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 &nbsp;
@@ -23,7 +24,7 @@ references a [creature entry](../world/creature_template#entry)
 &nbsp;
 
 ### TrainerId
-references a [trainer Id](../world/trainer#id)
+references a [trainer Id](../world/trainer#id-alt)
 
 | ID | Comment |
 |---|---|
@@ -38,7 +39,5 @@ references a [trainer Id](../world/trainer#id)
 | 31 | Trainer Warlock |
 | 33 | Trainer Druid |
 | 36 | Trainer Mount and Fly |
-{.dense}
 
 &nbsp;
-

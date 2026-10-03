@@ -20,23 +20,24 @@ Please note you'll have to set `PlayerStart.AllSpells = 1` in config, else this 
 | [classmask](#classmask) | int | unsigned | PRI | NO | 0 |  |  |
 | [Spell](#spell) | int | unsigned | PRI | NO | 0 |  |  |
 | [Note](#note) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### racemask
-Race mask of [ChrRace IDs](/files/DBC/335/chrraces#id). `0` is all races.
+Race mask of [ChrRace IDs](/files/DBC/335/chrraces#id-alt). `0` is all races.
 <!--@include: @/partial/335/chrraces.md{13,}-->
 
 &nbsp;
 
 ### classmask
-Class mask of [ChrClass IDs](/files/DBC/335/chrclasses#id). `0` is all classes.
+Class mask of [ChrClass IDs](/files/DBC/335/chrclasses#id-alt). `0` is all classes.
 <!--@include: @/partial/335/chrclasses.md{13,}-->
 
 &nbsp;
 
 ### Spell
-A [Spell ID](/files/DBC/335/spell#id) to start with.
+A [Spell ID](/files/DBC/335/spell#id-alt) to start with.
 &nbsp;
 
 ### Note

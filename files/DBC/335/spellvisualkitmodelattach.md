@@ -30,6 +30,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 7 | [Yaw](#yaw) | float |  |
 | 8 | [Pitch](#pitch) | float |  |
 | 9 | [Roll](#roll) | float |  |
+
 &nbsp;
 ## Description of fields
 
@@ -80,4 +81,3 @@ in radians
 
 *- no description -*
 &nbsp;
-

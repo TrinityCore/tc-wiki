@@ -21,11 +21,12 @@ dateCreated: 2021-08-30T21:57:45.276Z
 | [id](#id-alt) | tinyint | unsigned | PRI | NO |  | auto_increment |  |
 | [weight](#weight) | tinyint | unsigned |  | YES | 1 |  |  |
 | [text](#text) | longtext |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### realmid
-The [realm id](../auth/realmlist#id) defines which realm this entry belongs to.
+The [realm id](../auth/realmlist#id-alt) defines which realm this entry belongs to.
 
 Use `-1` for all realms to load this entry.
 &nbsp;
@@ -41,4 +42,3 @@ A non-negative integer. Entries with higher weight have more chance to get picke
 ### text
 The text to broadcast. [UI escape sequences](https://wowpedia.fandom.com/wiki/UI_escape_sequences?oldid=1972918) can be used.
 &nbsp;
-

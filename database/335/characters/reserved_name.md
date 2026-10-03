@@ -21,10 +21,10 @@ dateCreated: 2021-08-30T22:02:14.903Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [name](#name-alt) | varchar(12) |  | PRI | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### name {#name-alt}
 The name that cannot be used by players when naming characters.
 &nbsp;
-

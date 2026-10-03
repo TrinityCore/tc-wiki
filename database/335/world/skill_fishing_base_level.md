@@ -20,11 +20,12 @@ This table controls the minimum skill level required in SKILL_FISHING (356), to 
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entry](#entry) | int | unsigned | PRI | NO | 0 |  | Area identifier |
 | [skill](#skill) | smallint | signed |  | NO | 0 |  | Base skill level requirement |
+
 &nbsp;
 ## Description of fields
 
 ### entry
-references [AreaTable ID](/files/DBC/335/areatable#id)
+references [AreaTable ID](/files/DBC/335/areatable#id-alt)
 &nbsp;
 
 ### skill
@@ -33,4 +34,3 @@ The minimum skill points in fishing required to fish in the area without receivi
 If the player is less skilled, the chance to fish successfully is as follows:
 * `chance = MAX(1; (playerSkill / areaSkill)^2 * 100)`
 &nbsp;
-

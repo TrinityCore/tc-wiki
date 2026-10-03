@@ -43,6 +43,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 20 | [FixLag](#fixlag) | uint32 |  |
 | 21 | [Multisample](#multisample) | uint32 |  |
 | 22 | [Atlasdisable](#atlasdisable) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -183,4 +184,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

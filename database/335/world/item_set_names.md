@@ -19,6 +19,7 @@ Yes those names can be different from the actual item.
 | [name](#name-alt) | varchar(255) |  |  | NO | '' |  |  |
 | [InventoryType](#inventorytype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T07:23:49.541Z
 | [guid](#guid) | bigint | unsigned | PRI | NO |  |  |  |
 | [siteLevelId](#sitelevelid) | int | unsigned |  | NO | 0 |  |  |
 | [followerActivationsRemainingToday](#followeractivationsremainingtoday) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ dateCreated: 2021-08-30T07:23:49.541Z
 ### followerActivationsRemainingToday
 *- no description -*
 &nbsp;
-
-

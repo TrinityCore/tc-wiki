@@ -16,6 +16,7 @@ dateCreated: 2021-08-20T14:08:55.833Z
 | [id](#id-alt) | tinyint | unsigned | PRI | NO |  | auto_increment |  |
 | [weight](#weight) | tinyint | unsigned |  | YES | 1 |  |  |
 | [text](#text) | longtext |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,5 +35,3 @@ A non-negative integer. Entries with higher weight have more chance to get picke
 ### text
 The text to broadcast. Color and item/spell/quest link formating codes can be used.
 &nbsp;
-
-

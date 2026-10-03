@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T08:16:39.858Z
 | [categoryId](#categoryid) | int | unsigned |  | NO | 0 |  | SpellCategory.dbc Identifier |
 | [rechargeStart](#rechargestart) | bigint | signed |  | NO | 0 |  |  |
 | [rechargeEnd](#rechargeend) | bigint | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,5 +35,3 @@ dateCreated: 2021-08-30T08:16:39.858Z
 ### rechargeEnd
 *- no description -*
 &nbsp;
-
-

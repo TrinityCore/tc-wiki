@@ -57,6 +57,7 @@ dateCreated: 2023-10-04T08:08:11.623Z
 | 34 | [CharParamD_1](#charparamd) | float |  |
 | 35 | [CharParamD_2](#charparamd) | float |  |
 | 36 | [CharParamD_3](#charparamd) | float |  |
+
 &nbsp;
 ## Description of fields
 
@@ -179,4 +180,3 @@ Colormask converted from HEX to DECIMAL (can be used for caster or target color)
 
 *- no description -*
 &nbsp;
-

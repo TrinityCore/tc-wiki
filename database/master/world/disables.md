@@ -18,6 +18,7 @@ dateCreated: 2021-08-30T09:30:41.993Z
 | [params_0](#params_0) | varchar(255) |  |  | NO | '' |  |  |
 | [params_1](#params_1) | varchar(255) |  |  | NO | '' |  |  |
 | [comment](#comment) | varchar(255) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,6 +35,7 @@ dateCreated: 2021-08-30T09:30:41.993Z
 | 7 | DISABLE_TYPE_MMAP |
 | 8	| DISABLE_TYPE_LFG_MAP |
 | 9 | DISABLE_TYPE_PHASE_AREA |
+
 &nbsp;
 
 ### entry
@@ -44,7 +46,6 @@ Entry of Spell/Quest/Map/BG/Achievement/Map.
 > flags are dependent on sourceType!
 {.is-info}
 
-### Linux {.tabset}
 #### DISABLE_TYPE_SPELL
 > Specifies who the spell is disabled for.
 {.is-info}
@@ -103,4 +104,3 @@ AreaId if **DISABLE_TYPE_SPELL** used, 0 for all areas.
 ### comment
 A comment as to why the something was disabled, or any other text that you want.
 &nbsp;
-

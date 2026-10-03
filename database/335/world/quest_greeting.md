@@ -20,6 +20,7 @@ This table adds greeting behavior to an NPC or an Gameobject.
 | [GreetEmoteDelay](#greetemotedelay) | int | unsigned |  | NO | 0 |  |  |
 | [Greeting](#greeting) | mediumtext |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,7 +35,7 @@ This table adds greeting behavior to an NPC or an Gameobject.
 &nbsp;
 
 ### GreetEmoteType
-Quest NPC [Emote ID](/files/DBC/335/emotes#id)
+Quest NPC [Emote ID](/files/DBC/335/emotes#id-alt)
 &nbsp;
 
 ### GreetEmoteDelay
@@ -56,4 +57,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -[Client Build](/database/335/auth/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
-

@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T09:32:55.578Z
 | [raceMask](#racemask) | bigint | unsigned | PRI | NO |  |  |  |
 | [mailTemplateId](#mailtemplateid) | int | unsigned |  | NO | 0 |  |  |
 | [senderEntry](#senderentry) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -62,6 +63,7 @@ Calculate using table below. (ordered by Race ID)
 | RACEMASK_ALLIANCE | 0xB1214C4D |
 | RACEMASK_HORDE | 0x4E00B3B2 |
 | RACEMASK_ALL_PLAYABLE | 0xFFA1FFFF |
+
 &nbsp;
 
 ### mailTemplateId
@@ -71,4 +73,3 @@ Calculate using table below. (ordered by Race ID)
 ### senderEntry
 [creature_template.entry](../world/creature_template#entry) used as source of the mail.
 &nbsp;
-

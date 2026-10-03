@@ -29,6 +29,7 @@ The [creature_addon](../world/creature_addon) and [creature_template_addon](../w
 | [emote](#emote) | int | unsigned |  | NO | 0 |  |  |
 | [visibilityDistanceType](#visibilitydistancetype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [auras](#auras) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -37,11 +38,11 @@ Signifies a [creature entry](../world/creature_template#entry). All creatures ma
 &nbsp;
 
 ### path_id
-If a creature has waypoint pathed movement, this field hold the [waypoint_data.id](../world/waypoint_data#id) for the path the creature is to follow.
+If a creature has waypoint pathed movement, this field hold the [waypoint_data.id](../world/waypoint_data#id-alt) for the path the creature is to follow.
 &nbsp;
 
 ### mount
-The [CreatureDisplayInfo ID](/files/DBC/335/creaturedisplayinfo#id) of the mount to be used to make the creature appear mounted. The value here overrides the value for the creature's unit field UNIT_FIELD_MOUNTDISPLAYID.
+The [CreatureDisplayInfo ID](/files/DBC/335/creaturedisplayinfo#id-alt) of the mount to be used to make the creature appear mounted. The value here overrides the value for the creature's unit field UNIT_FIELD_MOUNTDISPLAYID.
 &nbsp;
 
 ### MountCreatureID
@@ -87,7 +88,7 @@ The value here overrides the `UnitPVPStateFlags` for the creature's unit field U
 &nbsp;
 
 ### emote
-[Emote ID](/files/DBC/335/emotes#id) that the creature should continually perform.
+[Emote ID](/files/DBC/335/emotes#id-alt) that the creature should continually perform.
 &nbsp;
 
 ### visibilityDistanceType

@@ -18,6 +18,7 @@ This tables defines spells that can be used by the creatures [AI-Template](../wo
 | [Index](#index) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [Spell](#spell) | int | unsigned |  | NO |  |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -30,7 +31,7 @@ The spells position on the cast bar if the creature is player controlled. Must b
 &nbsp;
 
 ### Spell
-A [Spell ID](/files/DBC/335/spell#id) to use.
+A [Spell ID](/files/DBC/335/spell#id-alt) to use.
 &nbsp;
 
 ### VerifiedBuild
@@ -44,4 +45,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -[Client Build](/database/335/auth/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
-

@@ -21,11 +21,12 @@ dateCreated: 2021-08-30T21:57:42.686Z
 | [mutetime](#mutetime) | int | unsigned |  | NO | 0 |  |  |
 | [mutedby](#mutedby) | varchar(50) |  |  | NO |  |  |  |
 | [mutereason](#mutereason) | varchar(255) |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### guid
-references [account.id](../auth/account#id)
+references [account.id](../auth/account#id-alt)
 &nbsp;
 
 ### mutedate
@@ -43,4 +44,3 @@ The name of the character executing the `.mute` command.
 ### mutereason
 The reason for the mute.
 &nbsp;
-

@@ -17,6 +17,7 @@ This table changes the faction and flags values of an gameobject on a per-spawn 
 | [spawnId](#spawnid) | int | unsigned | PRI | NO | 0 |  |  |
 | [faction](#faction) | smallint | unsigned |  | NO | 0 |  |  |
 | [flags](#flags) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -25,7 +26,7 @@ refers to [gameobject.guid](../world/gameobject#guid)
 &nbsp;
 
 ### faction
-[FactionTemplate ID](/files/DBC/335/factiontemplate#id)
+[FactionTemplate ID](/files/DBC/335/factiontemplate#id-alt)
 Replaces faction from [gameobject_template_addon.faction](../world/gameobject_template_addon#faction) if set.
 &nbsp;
 

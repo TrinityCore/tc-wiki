@@ -18,24 +18,25 @@ This table holds information on spells a new character casts when he logs in for
 | [classMask](#classmask) | int | unsigned |  | NO | 0 |  |  |
 | [spell](#spell) | int | unsigned |  | NO | 0 |  |  |
 | [note](#note) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### raceMask
-Race mask of [ChrRace IDs](/files/DBC/335/chrraces#id). `0` is all races.
+Race mask of [ChrRace IDs](/files/DBC/335/chrraces#id-alt). `0` is all races.
 
 <!--@include: @/partial/335/chrraces.md{13,}-->
 
 &nbsp;
 
 ### classMask
-Class mask of [ChrClass IDs](/files/DBC/335/chrclasses#id). `0` is all classes.
+Class mask of [ChrClass IDs](/files/DBC/335/chrclasses#id-alt). `0` is all classes.
 <!--@include: @/partial/335/chrclasses.md{13,}-->
 
 &nbsp;
 
 ### spell
-[Spell ID](/files/DBC/335/spell#id) to cast on first log in.
+[Spell ID](/files/DBC/335/spell#id-alt) to cast on first log in.
 &nbsp;
 
 ### note

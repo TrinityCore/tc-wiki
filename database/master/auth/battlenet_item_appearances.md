@@ -15,6 +15,7 @@ dateCreated: 2021-08-21T03:41:40.992Z
 | [battlenetAccountId](#battlenetaccountid) | int | unsigned | PRI | NO |  |  |  |
 | [blobIndex](#blobindex) | smallint | unsigned | PRI | NO |  |  |  |
 | [appearanceMask](#appearancemask) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ dateCreated: 2021-08-21T03:41:40.992Z
 ### appearanceMask
 *- no description -*
 &nbsp;
-
-

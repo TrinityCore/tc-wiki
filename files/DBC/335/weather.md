@@ -28,6 +28,7 @@ dateCreated: 2023-10-04T08:09:22.075Z
 | 5 | [EffectColor_G](#effectcolor) | float |  |
 | 6 | [EffectColor_B](#effectcolor) | float |  |
 | 7 | [EffectTexture](#effecttexture) | string |  |
+
 &nbsp;
 ## Description of fields
 
@@ -68,4 +69,3 @@ The sound played when the weather is taking place.
 
 *- no description -*
 &nbsp;
-

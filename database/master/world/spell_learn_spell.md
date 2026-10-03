@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T09:37:01.097Z
 | [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
 | [SpellID](#spellid) | int | unsigned | PRI | NO | 0 |  |  |
 | [Active](#active) | tinyint | unsigned |  | NO | 1 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ The entry of the spell that will be automatically learned by the player when the
 ### Active
 Defines whether spell is shown in spell book or not.
 &nbsp;
-
-

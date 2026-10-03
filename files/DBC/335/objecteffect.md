@@ -32,6 +32,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 9 | [Offset_Y](#offset) | float |  |
 | 10 | [Offset_Z](#offset) | float |  |
 | 11 | [ObjectEffectModifierID](#objecteffectmodifierid) | uint32 | [ObjectEffectModifier.dbc/0](/files/DBC/335/objecteffectmodifier#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -94,4 +95,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

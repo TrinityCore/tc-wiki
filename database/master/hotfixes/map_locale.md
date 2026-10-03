@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T09:58:02.656Z
 | [PvpShortDescription_lang](#pvpshortdescription_lang) | text |  |  | YES | NULL |  |  |
 | [PvpLongDescription_lang](#pvplongdescription_lang) | text |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

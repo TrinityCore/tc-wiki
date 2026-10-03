@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T09:34:31.272Z
 | [classmask](#classmask) | int | unsigned | PRI | NO | 0 |  |  |
 | [Spell](#spell) | int | unsigned | PRI | NO | 0 |  |  |
 | [Note](#note) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -33,7 +34,6 @@ Race mask of [ChrRace IDs](https://wago.tools/db2/chrraces). `0` is all races.
 |   128 | 0x0080 | Troll     |
 |   512 | 0x0200 | Blood Elf |
 |  1024 | 0x0400 | Draenei   |
-{.dense}
 
 &nbsp;
 
@@ -51,7 +51,6 @@ Class mask of [ChrClass IDs](https://wago.tools/db2/chrclasses). `0` is all clas
 |   128 | 0x0080 | Mage         |
 |   256 | 0x0100 | Warlock      |
 |  1024 | 0x0400 | Druid        |
-{.dense}
 
 &nbsp;
 
@@ -62,4 +61,3 @@ A [Spell ID](https://wago.tools/db2/spell) to start with.
 ### Note
 This field is for any comment you want to make. It is arbitrary text.
 &nbsp;
-

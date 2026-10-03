@@ -16,6 +16,7 @@ dateCreated: 2021-08-25T23:56:57.316Z
 | [battlenetAccountId](#battlenetaccountid) | int | signed | PRI | NO |  |  |  |
 | [battlePetGuid](#battlepetguid) | bigint | signed |  | NO |  |  |  |
 | [locked](#locked) | tinyint | signed |  | NO | 1 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,5 +35,3 @@ dateCreated: 2021-08-25T23:56:57.316Z
 ### locked
 *- no description -*
 &nbsp;
-
-

@@ -21,9 +21,10 @@ dateCreated: 2023-10-04T08:08:24.615Z
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
 | 0 | [ID](#id-alt) | uint32 |  |
-| 1 | [ItemID](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 1 | [ItemID](#itemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
 | 2 | [Texture](#texture) | string |  |
 | 3 | [Flags](#flags) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -52,7 +53,5 @@ dateCreated: 2023-10-04T08:08:24.615Z
 |-------|------|---------|
 | 1 | 0x1 | Default |
 | 2 | 0x2 | GM Mail |
-{.dense}
 
 &nbsp;
-

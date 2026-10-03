@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T08:12:31.536Z
 | [itemGuid](#itemguid) | bigint | unsigned | PRI | NO |  |  |  |
 | [azeriteEssenceId](#azeriteessenceid) | int | unsigned | PRI | NO | 0 |  |  |
 | [rank](#rank) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ dateCreated: 2021-08-30T08:12:31.536Z
 ### rank
 *- no description -*
 &nbsp;
-
-

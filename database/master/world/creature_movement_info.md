@@ -15,6 +15,7 @@ dateCreated: 2022-04-17T19:08:15.909Z
 | [MovementID](#movementid) | int | unsigned | PRI | NO | 0 |  | creature_template.movementId value |
 | [WalkSpeed](#walkspeed) | float |  |  | YES | NULL |  |  |
 | [RunSpeed](#runspeed) | float |  |  | YES | NULL |  |  |
+
 &nbsp;
 
 ## Info
@@ -35,4 +36,3 @@ generic value: `2.5`
 ### RunSpeed
 generic value: `8.0`
 &nbsp;
-

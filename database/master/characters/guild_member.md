@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T07:48:56.589Z
 | [rank](#rank) | tinyint | unsigned |  | NO |  |  |  |
 | [pnote](#pnote) | varchar(31) |  |  | NO | '' |  |  |
 | [offnote](#offnote) | varchar(31) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -39,4 +40,3 @@ dateCreated: 2021-08-30T07:48:56.589Z
 ### offnote
 *- no description -*
 &nbsp;
-

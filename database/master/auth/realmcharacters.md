@@ -15,6 +15,7 @@ dateCreated: 2021-08-26T02:41:58.611Z
 | [realmid](#realmid) | int | unsigned | PRI | NO | 0 |  |  |
 | [acctid](#acctid) | int | unsigned | PRI | NO |  |  |  |
 | [numchars](#numchars) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ The account ID. See account.id
 ### numchars
 The number of characters the account has on the realm.
 &nbsp;
-
-

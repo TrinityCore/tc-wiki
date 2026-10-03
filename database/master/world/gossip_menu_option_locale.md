@@ -17,15 +17,16 @@ dateCreated: 2021-08-30T09:32:19.746Z
 | [Locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
 | [OptionText](#optiontext) | mediumtext |  |  | YES | NULL |  |  |
 | [BoxText](#boxtext) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### MenuID
-MenuID as referenced in [`gossip_menu_option.MenuID`](/database/master/world/gossip_menu_option#MenuID)
+MenuID as referenced in [`gossip_menu_option.MenuID`](/database/master/world/gossip_menu_option#menuid)
 &nbsp;
 
 ### OptionID
-Option ID as referenced in [`gossip_menu_option.OptionID`](/database/master/world/gossip_menu_option#OptionID)
+Option ID as referenced in [`gossip_menu_option.OptionID`](/database/master/world/gossip_menu_option#optionid)
 &nbsp;
 
 ### Locale

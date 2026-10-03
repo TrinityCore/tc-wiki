@@ -29,6 +29,7 @@ Loot templates define only items in the loot. See comments about money drop in c
 | [MinCount](#mincount) | tinyint | unsigned |  | NO | 1 |  |  |
 | [MaxCount](#maxcount) | tinyint | unsigned |  | NO | 1 |  |  |
 | [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Relations
 The 12 tables have different relations with other DB tables.
@@ -36,7 +37,7 @@ The 12 tables have different relations with other DB tables.
 | --- | --- | --- | --- | --- | --- |
 | fishing_loot_template | no relation | entry is linked with ID of the fishing zone or area |  |  |  |
 | creature_loot_template | entry | 	many <- many | [creature_template](/database/master/world/creature_template){target=_blank} | [lootid](/database/master/world/creature_template#lootid){target=_blank} |  |
-| gameobject_loot_template | entry | many <- many | [gameobject_template](/database/master/world/gameobject_template){target=_blank} | [Data1](/database/master/world/gameobject_template#data1){target=_blank} | Only gameobject type 3 (GAMEOBJECT_TYPE_CHEST) or<br/>25 (GAMEOBJECT_TYPE_FISHINGHOLE) use data1 as loot ID,<br/>for other types data1 is used in other ways |
+| gameobject_loot_template | entry | many <- many | [gameobject_template](/database/master/world/gameobject_template){target=_blank} | [Data1](/database/master/world/gameobject_template#data-0-34){target=_blank} | Only gameobject type 3 (GAMEOBJECT_TYPE_CHEST) or<br/>25 (GAMEOBJECT_TYPE_FISHINGHOLE) use data1 as loot ID,<br/>for other types data1 is used in other ways |
 | item_loot_template | entry | many <- many | [ItemSparse.db2 (wago.tools)](https://wago.tools/db2/itemsparse){target=_blank} | ID |  |
 | disenchant_loot_template | entry | many <- many | [ItemSparse.db2 (wago.tools)](https://wago.tools/db2/itemsparse){target=_blank} |  |  |
 | prospecting_loot_template | entry | many <- many | [ItemSparse.db2 (wago.tools)](https://wago.tools/db2/itemsparse){target=_blank} | ID |  |
@@ -46,6 +47,7 @@ The 12 tables have different relations with other DB tables.
 | quest_mail_loot_template | entry |  | [quest_template_addon](/database/master/world/quest_template_addon){target=_blank} | [RewardMailTemplateID](/database/master/world/quest_template_addon#rewardmailtemplateid){target=_blank} |  |
 | reference_loot_template | entry | many <- many | *_loot_template | [Item](#reference) (if ItemType = 1) |  |
 | spell_loot_template | entry | many <- many | [Spell.db2 (wago.tools)](https://wago.tools/db2/spell){target=_blank} or [SpellName.db2 (wago.tools)](https://wago.tools/db2/spellname){target=_blank} | ID |  |
+
 &nbsp;
 ## Description of fields
 
@@ -70,7 +72,7 @@ Changes what [Item](#item) column refers to
 ### Reference
 Template reference asks core to process another loot template and to include all items dropped for that template into current loot. Simple idea.
 
-Value of [MaxCount](#MaxCount) field is used as a repetition factor for references - the reference will be processed not just once but exactly **MaxCount** times. So if the referenced template can produce 3 to 10 items (depending on luck) and value of **MaxCount** is '5' then after processing of that reference 15 to 50 items will be added to the loot. An awful example, isn't it? Actually no good example for whole template reference repetition is known, but it is quite useful for group references sometimes.
+Value of [MaxCount](#maxcount) field is used as a repetition factor for references - the reference will be processed not just once but exactly **MaxCount** times. So if the referenced template can produce 3 to 10 items (depending on luck) and value of **MaxCount** is '5' then after processing of that reference 15 to 50 items will be added to the loot. An awful example, isn't it? Actually no good example for whole template reference repetition is known, but it is quite useful for group references sometimes.
 
 Be careful. Self references (loot template includes reference to itself) and loop references (loot template A includes reference to entire template B, loot template B includes reference to entire template A) are completely different from internal references. If you make a self-reference like
 ```sql
@@ -281,7 +283,7 @@ When a skin is pulled for a quest it becoms the second skin from the mob. This i
 ## Reference Template Numbering
 Agreements for Reference Templates are as followed:
 
-| Expansion | Range start | Range end | 
+| Expansion | Range start | Range end |
 | --------- | ----------- | --------- |
 | Vanilla (1.x)                   |                1 |          99999 |               
 | The Burning Crusade (2.x)       |           100000 |         199999 |               
@@ -294,7 +296,6 @@ Agreements for Reference Templates are as followed:
 | Shadowlands (9.x)               |           800000 |         899999 |               
 | Dragonflight (10.x)             |           900000 |         999999 |               
 | The War Within (11.x)           |          1000000 |        1099999 |               
-{.dense}
 
 | Subrange start | Subrange end | Used for |
 | -------- | -------- | -------- |
@@ -303,7 +304,6 @@ Agreements for Reference Templates are as followed:
 | X60000 | X69999 | Raid Reference Templates |
 | X70000 | X79999 | Item Reference Templates |
 | X80000 | X99999 | Profession Reference Templates<br>(Skinning, Mining, Scraping, Herb Gathering, Prospecting, Milling, Pick Pocket) |
-{.dense}
 
 &nbsp;
 
@@ -329,4 +329,3 @@ VALUES
    (6846,7675,100,0,0,1,1);
 ```
 &nbsp;
-

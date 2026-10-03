@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T08:18:26.637Z
 | [completed_by_gm](#completed_by_gm) | tinyint(1) | signed |  | NO | 0 |  |  |
 | [core_hash](#core_hash) | varchar(120) |  |  | NO | 0 |  |  |
 | [core_revision](#core_revision) | varchar(120) |  |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -54,4 +55,3 @@ dateCreated: 2021-08-30T08:18:26.637Z
 ### core_revision
 *- no description -*
 &nbsp;
-

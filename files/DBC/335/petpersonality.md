@@ -44,6 +44,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 21 | [HappinessDamage_0](#happinessdamage) | float |  |
 | 22 | [HappinessDamage_1](#happinessdamage) | float |  |
 | 23 | [HappinessDamage_2](#happinessdamage) | float |  |
+
 &nbsp;
 ## Description of fields
 
@@ -74,4 +75,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 * col 22: Content
 * col 23: Happy
 &nbsp;
-

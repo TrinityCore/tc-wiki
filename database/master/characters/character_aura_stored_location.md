@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T07:20:17.747Z
 | [PositionY](#positiony) | float |  |  | NO |  |  | position y |
 | [PositionZ](#positionz) | float |  |  | NO |  |  | position z |
 | [Orientation](#orientation) | float |  |  | NO |  |  | Orientation |
+
 &nbsp;
 ## Description of fields
 
@@ -49,5 +50,3 @@ dateCreated: 2021-08-30T07:20:17.747Z
 ### Orientation
 *- no description -*
 &nbsp;
-
-

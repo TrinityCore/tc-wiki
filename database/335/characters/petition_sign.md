@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T22:02:01.622Z
 | [playerguid](#playerguid) | int | unsigned | PRI | NO | 0 |  |  |
 | [player_account](#player_account) | int | unsigned |  | NO | 0 |  |  |
 | [type](#type) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -37,7 +38,7 @@ The [character guid](../characters/characters#guid) of the player that has signe
 &nbsp;
 
 ### player_account
-The [account id](../auth/account#id) of the player that has signed the charter. No two players can sign the same charter from the same account.
+The [account id](../auth/account#id-alt) of the player that has signed the charter. No two players can sign the same charter from the same account.
 &nbsp;
 
 ### type

@@ -21,6 +21,7 @@ Table defines if auras in one [spell_group](../world/spell_group) can't stack wi
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [group_id](#group_id) | int | unsigned | PRI | NO | 0 |  |  |
 | [stack_rule](#stack_rule) | tinyint | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -37,8 +38,6 @@ Rule deciding which spell effect will prevail over the others as they are not st
 | 2 | SPELL_GROUP_STACK_RULE_EXCLUSIVE_FROM_SAME_CASTER | Auras from group can't stack with each other when cast by same caster |
 | 3 | SPELL_GROUP_STACK_RULE_EXCLUSIVE_SAME_EFFECT | Same effects of spells will not stack, yet auras will remain on a target |
 | 4 | SPELL_GROUP_STACK_RULE_EXCLUSIVE_HIGHEST | Only highest effect will remain on target |
-{.dense}
 
 A spell should be in only 1 group with this stack rule.
 &nbsp;
-

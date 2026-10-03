@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T22:01:08.488Z
 | [TabName](#tabname) | varchar(16) |  |  | NO | '' |  |  |
 | [TabIcon](#tabicon) | varchar(100) |  |  | NO | '' |  |  |
 | [TabText](#tabtext) | varchar(500) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -44,4 +45,3 @@ An icon string like `INV_Misc_QuestionMark`.
 ### TabText
 The description assigned to the tab.
 &nbsp;
-

@@ -20,22 +20,23 @@ dateCreated: 2021-08-30T22:02:09.605Z
 | [battleground_id](#battleground_id) | bigint | unsigned | PRI | NO |  |  |  |
 | [character_guid](#character_guid) | int | unsigned | PRI | NO |  |  |  |
 | [winner](#winner) | bit(1) |  |  | NO |  |  |  |
-| [score_killing_blows](#score_*) | mediumint | unsigned |  | NO |  |  |  |
-| [score_deaths](#score_*) | mediumint | unsigned |  | NO |  |  |  |
-| [score_honorable_kills](#score_*) | mediumint | unsigned |  | NO |  |  |  |
-| [score_bonus_honor](#score_*) | mediumint | unsigned |  | NO |  |  |  |
-| [score_damage_done](#score_*) | mediumint | unsigned |  | NO |  |  |  |
-| [score_healing_done](#score_*) | mediumint | unsigned |  | NO |  |  |  |
-| [attr_1](#attr_1-5) | mediumint | unsigned |  | NO | 0 |  |  |
-| [attr_2](#attr_1-5) | mediumint | unsigned |  | NO | 0 |  |  |
-| [attr_3](#attr_1-5) | mediumint | unsigned |  | NO | 0 |  |  |
-| [attr_4](#attr_1-5) | mediumint | unsigned |  | NO | 0 |  |  |
-| [attr_5](#attr_1-5) | mediumint | unsigned |  | NO | 0 |  |  |
+| [score_killing_blows](#score_) | mediumint | unsigned |  | NO |  |  |  |
+| [score_deaths](#score_) | mediumint | unsigned |  | NO |  |  |  |
+| [score_honorable_kills](#score_) | mediumint | unsigned |  | NO |  |  |  |
+| [score_bonus_honor](#score_) | mediumint | unsigned |  | NO |  |  |  |
+| [score_damage_done](#score_) | mediumint | unsigned |  | NO |  |  |  |
+| [score_healing_done](#score_) | mediumint | unsigned |  | NO |  |  |  |
+| [attr_1](#attr_-1-5) | mediumint | unsigned |  | NO | 0 |  |  |
+| [attr_2](#attr_-1-5) | mediumint | unsigned |  | NO | 0 |  |  |
+| [attr_3](#attr_-1-5) | mediumint | unsigned |  | NO | 0 |  |  |
+| [attr_4](#attr_-1-5) | mediumint | unsigned |  | NO | 0 |  |  |
+| [attr_5](#attr_-1-5) | mediumint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### battleground_id
-references [pvpstats_battlegrounds.id](../characters/pvpstats_battlegrounds#id)
+references [pvpstats_battlegrounds.id](../characters/pvpstats_battlegrounds#id-alt)
 &nbsp;
 
 ### character_guid
@@ -61,7 +62,5 @@ Accumulated statistics, unique to a [battleground type](../characters/pvpstats_b
 | 7 | EotS | FlagCaptures | 0 | 0 | 0 | 0 |
 | 9 | SotA | DemolishersDestroyed | GatesDestroyed | 0 | 0 | 0 |
 | 30 | IoC | BasesAssaulted | BasesDefended | 0 | 0 | 0 |
-{.dense}
 
 &nbsp;
-

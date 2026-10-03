@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T09:36:16.804Z
 | [reqSpell](#reqspell) | int | unsigned | PRI | NO | 0 |  | spell requirement |
 | [reqSkillValue](#reqskillvalue) | smallint | unsigned |  | NO | 0 |  | skill points requirement |
 | [chance](#chance) | float |  |  | NO | 0 |  | chance to discover |
+
 &nbsp;
 ## Description of fields
 
@@ -35,4 +36,3 @@ The minimum points requirement in profession skill to discover **spellId**.
 ### chance
 The chance, in percent, that a recipe has of being automatically "discovered", whether by any recipe use or by the specific recipe use defined in **reqSpell**.
 &nbsp;
-

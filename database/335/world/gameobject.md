@@ -35,6 +35,7 @@ Contains individual gameobject spawn data. Spawn of an object is an instance of 
 | [ScriptName](#scriptname) | char(64) |  |  | YES | '' |  |  |
 | [StringId](#stringid) | varchar(64) |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -50,7 +51,7 @@ The [entry](../world/gameobject_template#entry) of the template that is used whe
 &nbsp;
 
 ### map
-The [Map ID](/files/DBC/335/map#id) where this object is spawned.
+The [Map ID](/files/DBC/335/map#id-alt) where this object is spawned.
 &nbsp;
 
 ### zoneId

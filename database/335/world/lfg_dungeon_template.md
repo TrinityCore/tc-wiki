@@ -21,15 +21,16 @@ Used by LFG system to teleport players on specified position. This table should 
 | [position_z](#position_z) | float |  |  | NO | 0 |  |  |
 | [orientation](#orientation) | float |  |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### dungeonId
-references [LfgDungeons ID](/files/DBC/335/lfgdungeons#id)
+references [LfgDungeons ID](/files/DBC/335/lfgdungeons#id-alt)
 &nbsp;
 
 ### name {#name-alt}
-references [LfgDungeons Name](/files/DBC/335/lfgdungeons#name)
+references [LfgDungeons Name](/files/DBC/335/lfgdungeons#name-alt)
 &nbsp;
 
 ### position_x
@@ -59,4 +60,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 
 If value is -[Client Build](/database/335/auth/realmlist#gamebuild) then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 &nbsp;
-

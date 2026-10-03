@@ -23,6 +23,7 @@ dateCreated: 2021-08-29T20:43:51.863Z
 | [completed_achievement](#completed_achievement) | int | unsigned |  | NO | 0 |  |  |
 | [quest_failed_text](#quest_failed_text) | mediumtext |  |  | YES | NULL |  |  |
 | [comment](#comment) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -53,11 +54,11 @@ A second [item](https://wago.tools/db2/itemsparse){target=_blank} that you must 
 &nbsp;
 
 ### quest_done_A
-A [quest](/database/master/world/quest_template#id) that you must have completed. This field is only for alliance.
+A [quest](/database/master/world/quest_template#id-alt) that you must have completed. This field is only for alliance.
 &nbsp;
 
 ### quest_done_H
-A [quest](/database/master/world/quest_template#id) that you must have completed. This field is only for horde.
+A [quest](/database/master/world/quest_template#id-alt) that you must have completed. This field is only for horde.
 &nbsp;
 
 ### completed_achievement
@@ -71,4 +72,3 @@ The text that is shown if you try and enter the instance without having complete
 ### comment
 This field is for any comment you want to make about the requirements. It is arbitrary text.
 &nbsp;
-

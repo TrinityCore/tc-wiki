@@ -25,9 +25,9 @@ dateCreated: 2021-08-30T09:35:31.131Z
 | [RewardMoneyDifficulty](#rewardmoneydifficulty) | int | unsigned |  | NO | 0 |  |  |
 | [RewardMoneyMultiplier](#rewardmoneymultiplier) | float |  |  | NO | 1 |  |  |
 | [RewardBonusMoney](#rewardbonusmoney) | int | unsigned |  | NO | 0 |  |  |
-| [RewardDisplaySpell1](#rewarddisplayspell1-3) | int | unsigned |  | NO | 0 |  |  |
-| [RewardDisplaySpell2](#rewarddisplayspell1-3) | int | unsigned |  | NO | 0 |  |  |
-| [RewardDisplaySpell3](#rewarddisplayspell1-3) | int | unsigned |  | NO | 0 |  |  |
+| [RewardDisplaySpell1](#rewarddisplayspell-1-3) | int | unsigned |  | NO | 0 |  |  |
+| [RewardDisplaySpell2](#rewarddisplayspell-1-3) | int | unsigned |  | NO | 0 |  |  |
+| [RewardDisplaySpell3](#rewarddisplayspell-1-3) | int | unsigned |  | NO | 0 |  |  |
 | [RewardSpell](#rewardspell) | int | unsigned |  | NO | 0 |  |  |
 | [RewardHonor](#rewardhonor) | int | unsigned |  | NO | 0 |  |  |
 | [RewardKillHonor](#rewardkillhonor) | int | unsigned |  | NO | 0 |  |  |
@@ -38,39 +38,39 @@ dateCreated: 2021-08-30T09:35:31.131Z
 | [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
 | [FlagsEx](#flagsex) | int | unsigned |  | NO | 0 |  |  |
 | [FlagsEx2](#flagsex2) | int | unsigned |  | NO | 0 |  |  |
-| [RewardItem1](#rewarditem1) | int | unsigned |  | NO | 0 |  |  |
-| [RewardAmount1](#rewardamount1) | int | unsigned |  | NO | 0 |  |  |
-| [RewardItem2](#rewarditem2) | int | unsigned |  | NO | 0 |  |  |
-| [RewardAmount2](#rewardamount2) | int | unsigned |  | NO | 0 |  |  |
-| [RewardItem3](#rewarditem3) | int | unsigned |  | NO | 0 |  |  |
-| [RewardAmount3](#rewardamount3) | int | unsigned |  | NO | 0 |  |  |
-| [RewardItem4](#rewarditem4) | int | unsigned |  | NO | 0 |  |  |
-| [RewardAmount4](#rewardamount4) | int | unsigned |  | NO | 0 |  |  |
-| [ItemDrop1](#itemdrop1) | int | unsigned |  | NO | 0 |  |  |
-| [ItemDropQuantity1](#itemdropquantity1) | int | unsigned |  | NO | 0 |  |  |
-| [ItemDrop2](#itemdrop2) | int | unsigned |  | NO | 0 |  |  |
-| [ItemDropQuantity2](#itemdropquantity2) | int | unsigned |  | NO | 0 |  |  |
-| [ItemDrop3](#itemdrop3) | int | unsigned |  | NO | 0 |  |  |
-| [ItemDropQuantity3](#itemdropquantity3) | int | unsigned |  | NO | 0 |  |  |
-| [ItemDrop4](#itemdrop4) | int | unsigned |  | NO | 0 |  |  |
-| [ItemDropQuantity4](#itemdropquantity4) | int | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemID1](#rewardchoiceitemid1) | int | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemQuantity1](#rewardchoiceitemquantity1) | int | unsigned |  | NO | 0 |  |  |
+| [RewardItem1](#rewarditem-1-4) | int | unsigned |  | NO | 0 |  |  |
+| [RewardAmount1](#rewardamount-1-4) | int | unsigned |  | NO | 0 |  |  |
+| [RewardItem2](#rewarditem-1-4) | int | unsigned |  | NO | 0 |  |  |
+| [RewardAmount2](#rewardamount-1-4) | int | unsigned |  | NO | 0 |  |  |
+| [RewardItem3](#rewarditem-1-4) | int | unsigned |  | NO | 0 |  |  |
+| [RewardAmount3](#rewardamount-1-4) | int | unsigned |  | NO | 0 |  |  |
+| [RewardItem4](#rewarditem-1-4) | int | unsigned |  | NO | 0 |  |  |
+| [RewardAmount4](#rewardamount-1-4) | int | unsigned |  | NO | 0 |  |  |
+| [ItemDrop1](#itemdrop-1-4) | int | unsigned |  | NO | 0 |  |  |
+| [ItemDropQuantity1](#itemdropquantity-1-4) | int | unsigned |  | NO | 0 |  |  |
+| [ItemDrop2](#itemdrop-1-4) | int | unsigned |  | NO | 0 |  |  |
+| [ItemDropQuantity2](#itemdropquantity-1-4) | int | unsigned |  | NO | 0 |  |  |
+| [ItemDrop3](#itemdrop-1-4) | int | unsigned |  | NO | 0 |  |  |
+| [ItemDropQuantity3](#itemdropquantity-1-4) | int | unsigned |  | NO | 0 |  |  |
+| [ItemDrop4](#itemdrop-1-4) | int | unsigned |  | NO | 0 |  |  |
+| [ItemDropQuantity4](#itemdropquantity-1-4) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemID1](#rewardchoiceitemid-1-6) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemQuantity1](#rewardchoiceitemquantity-1-6) | int | unsigned |  | NO | 0 |  |  |
 | [RewardChoiceItemDisplayID1](#rewardchoiceitemdisplayid1) | int | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemID2](#rewardchoiceitemid2) | int | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemQuantity2](#rewardchoiceitemquantity2) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemID2](#rewardchoiceitemid-1-6) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemQuantity2](#rewardchoiceitemquantity-1-6) | int | unsigned |  | NO | 0 |  |  |
 | [RewardChoiceItemDisplayID2](#rewardchoiceitemdisplayid2) | int | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemID3](#rewardchoiceitemid3) | int | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemQuantity3](#rewardchoiceitemquantity3) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemID3](#rewardchoiceitemid-1-6) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemQuantity3](#rewardchoiceitemquantity-1-6) | int | unsigned |  | NO | 0 |  |  |
 | [RewardChoiceItemDisplayID3](#rewardchoiceitemdisplayid3) | int | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemID4](#rewardchoiceitemid4) | int | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemQuantity4](#rewardchoiceitemquantity4) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemID4](#rewardchoiceitemid-1-6) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemQuantity4](#rewardchoiceitemquantity-1-6) | int | unsigned |  | NO | 0 |  |  |
 | [RewardChoiceItemDisplayID4](#rewardchoiceitemdisplayid4) | int | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemID5](#rewardchoiceitemid5) | int | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemQuantity5](#rewardchoiceitemquantity5) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemID5](#rewardchoiceitemid-1-6) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemQuantity5](#rewardchoiceitemquantity-1-6) | int | unsigned |  | NO | 0 |  |  |
 | [RewardChoiceItemDisplayID5](#rewardchoiceitemdisplayid5) | int | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemID6](#rewardchoiceitemid6) | int | unsigned |  | NO | 0 |  |  |
-| [RewardChoiceItemQuantity6](#rewardchoiceitemquantity6) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemID6](#rewardchoiceitemid-1-6) | int | unsigned |  | NO | 0 |  |  |
+| [RewardChoiceItemQuantity6](#rewardchoiceitemquantity-1-6) | int | unsigned |  | NO | 0 |  |  |
 | [RewardChoiceItemDisplayID6](#rewardchoiceitemdisplayid6) | int | unsigned |  | NO | 0 |  |  |
 | [POIContinent](#poicontinent) | int | unsigned |  | NO | 0 |  |  |
 | [POIx](#poix) | float |  |  | NO | 0 |  |  |
@@ -84,26 +84,26 @@ dateCreated: 2021-08-30T09:35:31.131Z
 | [PortraitGiverMount](#portraitgivermount) | int | signed |  | NO | 0 |  |  |
 | [PortraitGiverModelSceneID](#portraitgivermodelsceneid) | int | signed |  | NO | 0 |  |  |
 | [PortraitTurnIn](#portraitturnin) | int | unsigned |  | NO | 0 |  |  |
-| [RewardFactionID1](#rewardfactionid1) | int | unsigned |  | NO | 0 |  |  |
-| [RewardFactionValue1](#rewardfactionvalue1) | int | signed |  | NO | 0 |  |  |
-| [RewardFactionOverride1](#rewardfactionoverride1) | int | signed |  | NO | 0 |  |  |
-| [RewardFactionCapIn1](#rewardfactioncapin1) | int | signed |  | NO | 0 |  |  |
-| [RewardFactionID2](#rewardfactionid2) | int | unsigned |  | NO | 0 |  |  |
-| [RewardFactionValue2](#rewardfactionvalue2) | int | signed |  | NO | 0 |  |  |
-| [RewardFactionOverride2](#rewardfactionoverride2) | int | signed |  | NO | 0 |  |  |
-| [RewardFactionCapIn2](#rewardfactioncapin2) | int | signed |  | NO | 0 |  |  |
-| [RewardFactionID3](#rewardfactionid3) | int | unsigned |  | NO | 0 |  |  |
-| [RewardFactionValue3](#rewardfactionvalue3) | int | signed |  | NO | 0 |  |  |
-| [RewardFactionOverride3](#rewardfactionoverride3) | int | signed |  | NO | 0 |  |  |
-| [RewardFactionCapIn3](#rewardfactioncapin3) | int | signed |  | NO | 0 |  |  |
-| [RewardFactionID4](#rewardfactionid4) | int | unsigned |  | NO | 0 |  |  |
-| [RewardFactionValue4](#rewardfactionvalue4) | int | signed |  | NO | 0 |  |  |
-| [RewardFactionOverride4](#rewardfactionoverride4) | int | signed |  | NO | 0 |  |  |
-| [RewardFactionCapIn4](#rewardfactioncapin4) | int | signed |  | NO | 0 |  |  |
-| [RewardFactionID5](#rewardfactionid5) | int | unsigned |  | NO | 0 |  |  |
-| [RewardFactionValue5](#rewardfactionvalue5) | int | signed |  | NO | 0 |  |  |
-| [RewardFactionOverride5](#rewardfactionoverride5) | int | signed |  | NO | 0 |  |  |
-| [RewardFactionCapIn5](#rewardfactioncapin5) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionID1](#rewardfactionid-1-5) | int | unsigned |  | NO | 0 |  |  |
+| [RewardFactionValue1](#rewardfactionvalue-1-5) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionOverride1](#rewardfactionoverride-1-5) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionCapIn1](#rewardfactioncapin-1-5) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionID2](#rewardfactionid-1-5) | int | unsigned |  | NO | 0 |  |  |
+| [RewardFactionValue2](#rewardfactionvalue-1-5) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionOverride2](#rewardfactionoverride-1-5) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionCapIn2](#rewardfactioncapin-1-5) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionID3](#rewardfactionid-1-5) | int | unsigned |  | NO | 0 |  |  |
+| [RewardFactionValue3](#rewardfactionvalue-1-5) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionOverride3](#rewardfactionoverride-1-5) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionCapIn3](#rewardfactioncapin-1-5) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionID4](#rewardfactionid-1-5) | int | unsigned |  | NO | 0 |  |  |
+| [RewardFactionValue4](#rewardfactionvalue-1-5) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionOverride4](#rewardfactionoverride-1-5) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionCapIn4](#rewardfactioncapin-1-5) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionID5](#rewardfactionid-1-5) | int | unsigned |  | NO | 0 |  |  |
+| [RewardFactionValue5](#rewardfactionvalue-1-5) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionOverride5](#rewardfactionoverride-1-5) | int | signed |  | NO | 0 |  |  |
+| [RewardFactionCapIn5](#rewardfactioncapin-1-5) | int | signed |  | NO | 0 |  |  |
 | [RewardFactionFlags](#rewardfactionflags) | int | unsigned |  | NO | 0 |  |  |
 | [RewardCurrencyID1](#rewardcurrencyid1) | int | unsigned |  | NO | 0 |  |  |
 | [RewardCurrencyQty1](#rewardcurrencyqty1) | int | unsigned |  | NO | 0 |  |  |
@@ -132,6 +132,7 @@ dateCreated: 2021-08-30T09:35:31.131Z
 | [QuestCompletionLog](#questcompletionlog) | mediumtext |  |  | YES | NULL |  |  |
 | [ResetByScheduler](#resetbyscheduler) | tinyint | signed |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -178,7 +179,6 @@ This field defines under what category the quest falls in the quest log.
 | 182 | Leatherworking | | 374 | Noblegarden |
 | 201 | Engineering | | 375 | Pilgrim's Bounty |
 | 241 | Tournament | | 376 | Love is in the Air |
-{.dense}
 
 &nbsp;
 
@@ -197,7 +197,6 @@ This field defines under what category the quest falls in the quest log.
 | 85 | Heroic |
 | 88 | Raid (10) |
 | 89 | Raid (25) |
-{.dense}
 
 &nbsp;
 
@@ -298,8 +297,8 @@ Example: An example value is 8 for [For Great Honor](https://aowow.trinitycore.i
 | 131072 | 0x020000 | QUEST_FLAGS_DISPLAY_ITEM_IN_TRACKER | Displays usable item in quest tracker |
 | 262144 | 0x040000 | QUEST_FLAGS_OBJ_TEXT | use Objective text as Complete text |
 | 524288 | 0x080000 | QUEST_FLAGS_AUTO_ACCEPT | The client recognizes this flag as auto-accept. However, NONE of the current quests (3.3.5a) have this flag. Maybe blizz used to use it, or will use it in the future. |
-{.dense}
-&nbsp;
+
+nbsp;
 
 ### FlagsEx
 *- no description -*
@@ -394,12 +393,11 @@ This field is used for reputation lookup in [QuestFactionReward](https://wago.to
 |----|------|------|------|------|------|------|------|------|------|------|
 1 | 0 | 10 | 25 | 75 | 150 | 250 | 350 | 500 | 1000 | 5 |
 2 | 0 | -10 | -25 | -75 | -150 | -250 | -350 | -500 | -1000 | -5 |
-{.dense}
 
 &nbsp;
 
 ### RewardFactionOverride\[1-5]
-This field is used to give reputation values not present in [QuestFactionReward](https://wago.tools/db2/questfactionreward) or to override them if **RewardFactionValue\*** is wrong for some reason. The value in this field is 100� the intended reputation reward (if you want to give 400 rep, put 40000 in **RewardFactionOverride\***).
+This field is used to give reputation values not present in [QuestFactionReward](https://wago.tools/db2/questfactionreward) or to override them if **RewardFactionValue\*** is wrong for some reason. The value in this field is 100× the intended reputation reward (if you want to give 400 rep, put 40000 in **RewardFactionOverride\***).
 &nbsp;
 
 ### RewardFactionCapIn\[1-5]
@@ -469,8 +467,8 @@ Race mask of [ChrRace IDs](https://wago.tools/db2/chrraces) allowed to get the q
 |    64 | 0x0040 | Gnome     |  |   128 | 0x0080 | Troll     |
 |  1024 | 0x0400 | Draenei   |  |   512 | 0x0200 | Blood Elf |
 |  1101 | 0x044D | *_Alliance_* |  |   690 | 0x02B2 | *_Horde_* |
-{.dense}
-UPDATE ME
+
+PDATE ME
 &nbsp;
 
 ### Expansion
@@ -538,4 +536,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 
 &nbsp;
-

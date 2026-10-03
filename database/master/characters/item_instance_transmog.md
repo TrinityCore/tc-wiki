@@ -31,6 +31,7 @@ dateCreated: 2021-08-30T08:13:18.822Z
 | [secondaryItemModifiedAppearanceSpec3](#secondaryitemmodifiedappearancespec3) | int | signed |  | NO | 0 |  |  |
 | [secondaryItemModifiedAppearanceSpec4](#secondaryitemmodifiedappearancespec4) | int | signed |  | NO | 0 |  |  |
 | [secondaryItemModifiedAppearanceSpec5](#secondaryitemmodifiedappearancespec5) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -109,5 +110,3 @@ dateCreated: 2021-08-30T08:13:18.822Z
 ### secondaryItemModifiedAppearanceSpec5
 *- no description -*
 &nbsp;
-
-

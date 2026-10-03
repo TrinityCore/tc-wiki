@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T22:00:36.210Z
 | [eventEntry](#evententry) | tinyint | unsigned | PRI | NO |  |  |  |
 | [condition_id](#condition_id) | int | unsigned | PRI | NO | 0 |  |  |
 | [done](#done) | float |  |  | YES | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -33,4 +34,3 @@ The [condition](../world/game_event_condition#condition_id) accumulating progres
 ### done
 Indicates how much progress out of [req_num](../world/game_event_condition#req_num) has been done.
 &nbsp;
-

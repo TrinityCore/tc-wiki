@@ -83,6 +83,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 60 | [ExtendedUIStateVariable_0](#extendeduistatevariable) | uint32 |  |
 | 61 | [ExtendedUIStateVariable_1](#extendeduistatevariable) | uint32 |  |
 | 62 | [ExtendedUIStateVariable_2](#extendeduistatevariable) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -166,4 +167,3 @@ The icon that is used in the interface.
 
 *- no description -*
 &nbsp;
-

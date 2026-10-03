@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T09:30:21.440Z
 | [Title](#title) | mediumtext |  |  | YES | NULL |  |  |
 | [TitleAlt](#titlealt) | mediumtext |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -39,14 +40,15 @@ This entry must be the same as [creature_template.entry](/database/master/world/
 |ruRU|Russian|
 |zhCN|Chinese (China)|
 |zhTW|Chinese (Taiwan/Traditional)|
+
 &nbsp;
 
 ### Name {#name-alt}
-Translated content for [creature_template.name](/database/master/world/creature_template#name) field
+Translated content for [creature_template.name](/database/master/world/creature_template#name-alt) field
 &nbsp;
 
 ### NameAlt
-Translated content for [creature_template.femaleName](/database/master/world/creature_template#femaleName) field
+Translated content for [creature_template.femaleName](/database/master/world/creature_template#femalename) field
 &nbsp;
 
 ### Title
@@ -54,7 +56,7 @@ Translated content for [creature_template.subname](/database/master/world/creatu
 &nbsp;
 
 ### TitleAlt
-Translated content for [creature_template.TitleAlt](/database/master/world/creature_template#TitleAlt) field
+Translated content for [creature_template.TitleAlt](/database/master/world/creature_template#titlealt) field
 &nbsp;
 
 ### VerifiedBuild
@@ -69,4 +71,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 
 &nbsp;
-

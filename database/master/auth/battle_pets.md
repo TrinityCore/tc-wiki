@@ -26,6 +26,7 @@ dateCreated: 2021-08-21T03:48:21.661Z
 | [nameTimestamp](#nametimestamp) | bigint | signed |  | NO | 0 |  |  |
 | [owner](#owner) | bigint | signed |  | YES | NULL |  |  |
 | [ownerRealmId](#ownerrealmid) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -79,10 +80,11 @@ List of BattlePetDbFlags.
 | 64   | 0x040   | Ability2Selection | Selected second ability of ability slot 2     |
 | 128  | 0x080   | FanfareNeeded     | Shown as a present in battle pet journal      |
 | 256  | 0x100   | DisplayOverridden |                                               |
+
 &nbsp;
 
 ### name {#name-alt}
-Current battle pet name. If empty, the battle pet will use the [name](../world/creature_template#name) of the creature associated with the [species](#species).
+Current battle pet name. If empty, the battle pet will use the [name](../world/creature_template#name-alt) of the creature associated with the [species](#species).
 &nbsp;
 
 ### nameTimestamp
@@ -96,4 +98,3 @@ Current battle pet name. If empty, the battle pet will use the [name](../world/c
 ### ownerRealmId
 *- no description -*
 &nbsp;
-

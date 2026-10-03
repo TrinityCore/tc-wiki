@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T07:23:33.138Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  | Global Unique Identifier |
 | [fishingSteps](#fishingsteps) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -24,5 +25,3 @@ dateCreated: 2021-08-30T07:23:33.138Z
 ### fishingSteps
 *- no description -*
 &nbsp;
-
-

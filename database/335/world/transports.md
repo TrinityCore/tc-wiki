@@ -20,6 +20,7 @@ All other transport types have their frame time read from [TransportAnimation](/
 | [entry](#entry) | int | unsigned | UNI | NO | 0 |  |  |
 | [name](#name-alt) | mediumtext |  |  | YES | NULL |  |  |
 | [ScriptName](#scriptname) | char(64) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -58,4 +59,3 @@ Creatures and gameobjects spawn points will be used as relative to the transport
 
 > Note: Transports have their own map.
 {.is-info}
-

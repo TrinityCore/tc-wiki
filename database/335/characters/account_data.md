@@ -20,11 +20,12 @@ dateCreated: 2021-08-30T21:58:27.362Z
 | [type](#type) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [time](#time) | int | unsigned |  | NO | 0 |  |  |
 | [data](#data) | blob |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### accountId
-The unique [account id](../auth/account#id).
+The unique [account id](../auth/account#id-alt).
 &nbsp;
 
 ### type
@@ -40,4 +41,3 @@ Time of last modification in Unixtime
 ### data
 No description can be written. You just must understand it's data.
 &nbsp;
-

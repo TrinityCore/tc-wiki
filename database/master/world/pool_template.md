@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T09:34:49.800Z
 | [entry](#entry) | int | unsigned | PRI | NO | 0 |  | Pool entry |
 | [max_limit](#max_limit) | int | unsigned |  | NO | 0 |  | Max number of objects (0) is no limit |
 | [description](#description) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -35,6 +36,7 @@ The pool ID. This is an arbitrary number that is only used to link the gameobjec
 | Dragonflight (10.X)          | 900000					|
 | The War Within (11.X)				 | 1000000				|
 | Midnight (12.X)							 | 1100000				|
+
 &nbsp;
 
 ### max_limit
@@ -46,4 +48,3 @@ This is the maximum number of objects that should be spawned in this pool.
 Field describes the basic information about what the pool refers to. 
 Example: `Snarlflare (14272)`
 &nbsp;
-

@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T09:32:09.447Z
 | [MenuID](#menuid) | int | unsigned | PRI | NO | 0 |  |  | SMSG_GOSSIP_MESSAGE |
 | [TextID](#textid) | int | unsigned | PRI | NO | 0 |  |  | SMSG_GOSSIP_MESSAGE |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  | generated |
+
 &nbsp;
 ## Description of fields
 
@@ -23,7 +24,7 @@ This matches the id used in [creature_template.gossip_menu_id](/database/master/
 &nbsp;
 
 ### TextID
-This links to [npc_text.ID](/database/master/world/npc_text#ID). It is used for the text being displayed when the gossip menu is opened. Default text is `Greetings, <name>` if an invalid `npc_text` id is provided.
+This links to [npc_text.ID](/database/master/world/npc_text#id-alt). It is used for the text being displayed when the gossip menu is opened. Default text is `Greetings, <name>` if an invalid `npc_text` id is provided.
 &nbsp;
 
 ### VerifiedBuild
@@ -38,5 +39,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 
 &nbsp;
-
-

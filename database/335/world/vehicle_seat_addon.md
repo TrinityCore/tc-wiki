@@ -21,11 +21,12 @@ This table allows to specify special vehicle seat behavior by extending/overridi
 | [ExitParamZ](#exitparamz) | float |  |  | YES | 0 |  |  |
 | [ExitParamO](#exitparamo) | float |  |  | YES | 0 |  |  |
 | [ExitParamValue](#exitparamvalue) | tinyint(1) | signed |  | YES | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### SeatEntry
-references [VehicleSeat ID](/files/DBC/335/vehicleseat#id)
+references [VehicleSeat ID](/files/DBC/335/vehicleseat#id-alt)
 &nbsp;
 
 ### SeatOrientation
@@ -54,7 +55,5 @@ The exit orientation.
 | 0 | VehicleExitParamNone | provided parameters will be ignored |
 | 1 | VehicleExitParamOffset | provided parameters will be used as offset values |
 | 2 | VehicleExitParamDest | provided parameters will be used as absolute destination |
-{.dense}
 
 &nbsp;
-

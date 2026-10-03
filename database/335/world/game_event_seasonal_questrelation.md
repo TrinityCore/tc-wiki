@@ -16,14 +16,14 @@ Holds information on the game event seasonal quest relations to allow for resett
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [questId](#questid) | int | unsigned | PRI | NO |  |  | Quest Identifier |
 | [eventEntry](#evententry) | int | unsigned | PRI | NO | 0 |  | Entry of the game event |
+
 &nbsp;
 ## Description of fields
 
 ### questId
-[quest_template.ID](../world/quest_template#id) to be reset.
+[quest_template.ID](../world/quest_template#id-alt) to be reset.
 &nbsp;
 
 ### eventEntry
 [eventEntry](../world/game_event#evententry) of the game event that the seasonal quest belongs to.
 &nbsp;
-

@@ -25,9 +25,10 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 2 | [Direction](#direction) | uint32 |  |
 | 3 | [Amplitude](#amplitude) | float |  |
 | 4 | [Frequency](#frequency) | float |  |
-| 5 | [Duration](#Duration) | float |  |
+| 5 | [Duration](#duration) | float |  |
 | 6 | [Phase](#phase) | float |  |
 | 7 | [Coefficient](#coefficient) | float |  |
+
 &nbsp;
 ## Description of fields
 
@@ -81,4 +82,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

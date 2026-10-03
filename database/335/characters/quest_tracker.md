@@ -26,11 +26,12 @@ dateCreated: 2021-08-30T22:02:12.278Z
 | [completed_by_gm](#completed_by_gm) | tinyint(1) | signed |  | NO | 0 |  |  |
 | [core_hash](#core_hash) | varchar(120) |  |  | NO | 0 |  |  |
 | [core_revision](#core_revision) | varchar(120) |  |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### id {#id-alt}
-The tracked [quest ID](../world/quest_template#id).
+The tracked [quest ID](../world/quest_template#id-alt).
 &nbsp;
 
 ### character_guid
@@ -62,4 +63,3 @@ current `_HASH` (see revision_data.h)
 ### core_revision
 current `_DATE` (see revision_data.h)
 &nbsp;
-

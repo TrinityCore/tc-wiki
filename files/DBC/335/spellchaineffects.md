@@ -69,6 +69,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 45 | [RenderLayer](#renderlayer) | uint32 |  |
 | 46 | [TextureLength](#texturelength) | float |  |
 | 47 | [WavePhase](#wavephase) | float |  |
+
 &nbsp;
 ## Description of fields
 
@@ -359,5 +360,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-
-

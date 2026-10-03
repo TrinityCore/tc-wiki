@@ -23,6 +23,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 0 | [ID](#id-alt) | uint32 |  |
 | 0 | [Word](#word) | string |  |
 | 0 | [Locale](#locale) | uint32 | [Locale](/how-to/localization) |
+
 &nbsp;
 ## Description of fields
 
@@ -43,4 +44,3 @@ Contains RegEx like syntax.
 
 *- no description -*
 &nbsp;
-

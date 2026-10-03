@@ -53,11 +53,12 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 30 | [Name_lang_mask](#name-alt) | uint32 |  |
 | 31 | [ItemVisual](#itemvisual) | uint32 | [ItemVisuals.dbc/0](/files/DBC/335/itemvisuals#classid) |
 | 32 | [Flags](#flags) | uint32 |  |
-| 33 | [SrcItemID](#srcitemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 33 | [SrcItemID](#srcitemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
 | 34 | [ConditionID](#conditionid) | uint32 | [SpellItemEnchantmentCondition.dbc/0](/files/DBC/335/spellitemenchantmentcondition#id-alt) |
 | 35 | [RequiredSkillID](#requiredskillid) | uint32 | [SkillLine.dbc/0](/files/DBC/335/skillline#id-alt) |
 | 36 | [RequiredSkillRank](#requiredskillrank) | uint32 |  |
 | 37 | [MinLevel](#minlevel) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -87,7 +88,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 6 | ITEM_ENCHANTMENT_TYPE_TOTEM | 0 | + weapon dps |
 | 7 | ITEM_ENCHANTMENT_TYPE_USE_SPELL | [Spell ID](/files/DBC/335/spell#id-alt) | use Spell |
 | 8 | ITEM_ENCHANTMENT_TYPE_PRISMATIC_SOCKET | 0 |  |
-{.dense}
 
 &nbsp;
 
@@ -138,7 +138,6 @@ __**Effect** = ITEM_ENCHANTMENT_TYPE_STAT (5)__
 | 2 | 0x02 | ENCHANTMENT_UNK1 | do not log |
 | 4 | 0x04 | ENCHANTMENT_UNK2 | mainhand only |
 | 8 | 0x08 | ENCHANTMENT_UNK3 | allowed in arena / player class skill |
-{.dense}
 
 &nbsp;
 

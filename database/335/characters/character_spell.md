@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T22:00:19.475Z
 | [spell](#spell) | mediumint | unsigned | PRI | NO | 0 |  | Spell Identifier |
 | [active](#active) | tinyint | unsigned |  | NO | 1 |  |  |
 | [disabled](#disabled) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -28,7 +29,7 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### spell
-The [Spell ID](/files/DBC/335/spell#id) known to the character.
+The [Spell ID](/files/DBC/335/spell#id-alt) known to the character.
 &nbsp;
 
 ### active
@@ -42,4 +43,3 @@ Signifies when a spell is disabled because talent which teaches it has been unle
 * 0: available
 * 1: unavailable due to precondition
 &nbsp;
-

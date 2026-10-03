@@ -20,11 +20,12 @@ Table used for storing custom damage/healing bonus coefficients.
 | [ap_bonus](#ap_bonus) | float |  |  | NO | 0 |  |  |
 | [ap_dot_bonus](#ap_dot_bonus) | float |  |  | NO | 0 |  |  |
 | [comments](#comments) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### entry
-references [Spell ID](/files/DBC/335/spell#id)
+references [Spell ID](/files/DBC/335/spell#id-alt)
 Only the first rank of the spell needs data if spell exists in [spell_ranks](../world/spell_ranks) and coefficients are the same for each rank.
 &nbsp;
 
@@ -54,4 +55,3 @@ Attack Power coefficient for the over time component of the spell.
 commonly: Spell User – Spell Name
 e.g.: `Item - Onyxia 10 Caster Trinket - Searing Flames`
 &nbsp;
-

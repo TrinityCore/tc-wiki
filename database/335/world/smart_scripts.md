@@ -42,13 +42,13 @@ dateCreated: 2021-08-30T22:09:09.695Z
 | [target_z](#target_type) | float |  |  | NO | 0 |  |  |
 | [target_o](#target_type) | float |  |  | NO | 0 |  |  |
 | [comment](#comment) | mediumtext |  |  | NO |  |  | Event Comment |
+
 &nbsp;
 
 ## Description of fields
 
 > Note: :x: means that the feature/option is not (yet) implemented.
 {.is-info}
-
 
 ### entryorguid
 * **source_type** = 9: invoking **entryorguid** * 100 (+i, if multiple timed action lists are set)
@@ -74,7 +74,6 @@ What type to script:
 | 10 | :x: SMART_SCRIPT_TYPE_SCENE | RESERVED master branch |
 | 11 | :x: SMART_SCRIPT_TYPE_AREATRIGGER_ENTITY | RESERVED master branch |
 | 12 | :x: SMART_SCRIPT_TYPE_AREATRIGGER_ENTITY_SERVERSIDE | RESERVED master branch |
-{.dense}
 
 &nbsp;
 
@@ -88,8 +87,7 @@ Example: if **id** = 0 and **link** = 1; **id** 1 will only be able to occur if 
 &nbsp;
 
 ### event
-### Tabset {.tabset}
-#### UpdateIC (0)
+::: details UpdateIC (0)
 Update in combat.
 * **event_type**:
 SMART_EVENT_UPDATE_IC (0)
@@ -105,11 +103,12 @@ RepeatMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-| 9 | SMART_SCRIPT_TYPE_TIMED_ACTIONLIST |
-{.dense}
-#### UpdateOOC (1)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+ * `9`: SMART_SCRIPT_TYPE_TIMED_ACTIONLIST
+
+:::
+
+::: details UpdateOOC (1)
 Update out of combat.
 * **event_type**:
 SMART_EVENT_UPDATE_OOC (1)
@@ -125,12 +124,13 @@ RepeatMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
-| 8 | SMART_SCRIPT_TYPE_INSTANCE |
-{.dense}
-#### HealthPct (2)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+ * `1`: SMART_SCRIPT_TYPE_GAMEOBJECT
+ * `8`: SMART_SCRIPT_TYPE_INSTANCE
+
+:::
+
+::: details HealthPct (2)
 Health percentage
 * **event_type**:
 SMART_EVENT_HEALTH_PCT (2)
@@ -146,10 +146,11 @@ RepeatMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### ManaPct (3)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details ManaPct (3)
 Mana percentage
 * **event_type**:
 SMART_EVENT_MANA_PCT (3)
@@ -165,10 +166,11 @@ RepeatMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### Aggro (4)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details Aggro (4)
 on creature aggro
 * **event_type**:
 SMART_EVENT_AGGRO (4)
@@ -184,10 +186,11 @@ SMART_EVENT_AGGRO (4)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### Kill (5)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details Kill (5)
 On creature / player kill
 * **event_type**:
 SMART_EVENT_KILL (5)
@@ -204,10 +207,11 @@ if **event_param3** = 0: [creature entry](../world/creature_template#entry) (`0`
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### Death (6)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details Death (6)
 On creature death
 * **event_type**:
 SMART_EVENT_DEATH (6)
@@ -223,10 +227,11 @@ SMART_EVENT_DEATH (6)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### Evade (7)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details Evade (7)
 On creature enter evade mode
 * **event_type**:
 SMART_EVENT_EVADE (7)
@@ -242,15 +247,16 @@ SMART_EVENT_EVADE (7)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### SpellHit (8)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details SpellHit (8)
 On creature / gameobject spell hit
 * **event_type**:
 SMART_EVENT_SPELLHIT (8)
 * **event_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **event_param2**:
 (`0`: any SpellSchool)
 <!--@include: @/partial/335/spell-schools.md{28,37}-->
@@ -263,11 +269,12 @@ CooldownMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
-{.dense}
-#### Range (9)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+ * `1`: SMART_SCRIPT_TYPE_GAMEOBJECT
+
+:::
+
+::: details Range (9)
 On target in range
 * **event_type**:
 SMART_EVENT_RANGE (9)
@@ -283,10 +290,11 @@ RepeatMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### LineOfSightOOC (10)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details LineOfSightOOC (10)
 On target in distance out of combat
 * **event_type**:
 SMART_EVENT_OOC_LOS (10)
@@ -305,35 +313,36 @@ CooldownMax (in msec.)
   * 1: Player only
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### Respawn (11)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details Respawn (11)
 On creature / gameobject Respawn
 * **event_type**:
 SMART_EVENT_RESPAWN (11)
 * **event_param1**:
 [`enum SMART_SCRIPT_RESPAWN_CONDITION`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/AI/SmartScripts/SmartScriptMgr.h#L442-L448)
-  |--|--|
-  | SMART_SCRIPT_RESPAWN_CONDITION_NONE | 0 |
+    | SMART_SCRIPT_RESPAWN_CONDITION_NONE | 0 |
   | SMART_SCRIPT_RESPAWN_CONDITION_MAP | 1 |
   | SMART_SCRIPT_RESPAWN_CONDITION_AREA | 2 |
-  {.dense}
+
 * **event_param2**:
-if **event_param1** = 1: [Map ID](/files/DBC/335/map#id)
+if **event_param1** = 1: [Map ID](/files/DBC/335/map#id-alt)
 * **event_param3**:
-if **event_param1** = 2: [AreaTable ID](/files/DBC/335/areatable#id)
+if **event_param1** = 2: [AreaTable ID](/files/DBC/335/areatable#id-alt)
 * **event_param4**:
 `0`
 * **event_param5**:
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
-{.dense}
-#### TargetHealthPct ⚠️&nbsp;(12)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+ * `1`: SMART_SCRIPT_TYPE_GAMEOBJECT
+
+:::
+
+::: details TargetHealthPct ⚠️ (12)
 On target health percentage
 > UNUSED, DO NOT REUSE
 {.is-warning}
@@ -351,10 +360,11 @@ RepeatMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### VictimCast (13)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details VictimCast (13)
 On target casting spell
 * **event_type**:
 SMART_EVENT_VICTIM_CASTING (13)
@@ -363,17 +373,18 @@ RepeatMin (in msec.)
 * **event_param2**:
 RepeatMax (in msec.)
 * **event_param3**:
-[Spell ID](/files/DBC/335/spell#id) (`0`: any)
+[Spell ID](/files/DBC/335/spell#id-alt) (`0`: any)
 * **event_param4**:
 `0`
 * **event_param5**:
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### FriendHealth ⚠️&nbsp;(14)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details FriendHealth ⚠️ (14)
 On friendly health deficit
 > UNUSED, DO NOT REUSE
 {.is-warning}
@@ -391,10 +402,11 @@ RepeatMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### FriendCCed (15)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details FriendCCed (15)
 Ally is feared, charmed, rooted, stunned or confused
 * **event_type**:
 SMART_EVENT_FRIENDLY_IS_CC (15)
@@ -410,15 +422,16 @@ RepeatMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### FriendNoBuff (16)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details FriendNoBuff (16)
 On friendly lost buff
 * **event_type**:
 SMART_EVENT_FRIENDLY_MISSING_BUFF (16)
 * **event_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **event_param2**:
 Radius
 * **event_param3**:
@@ -429,10 +442,11 @@ RepeatMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### Summon (17)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details Summon (17)
 On creature / gameobject summoned unit
 * **event_type**:
 SMART_EVENT_SUMMONED_UNIT (17)
@@ -448,11 +462,12 @@ CooldownMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
-{.dense}
-#### TargetManaPct ⚠️&nbsp;(18)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+ * `1`: SMART_SCRIPT_TYPE_GAMEOBJECT
+
+:::
+
+::: details TargetManaPct ⚠️ (18)
 On target mana percentage
 > UNUSED, DO NOT REUSE
 {.is-warning}
@@ -470,15 +485,16 @@ RepeatMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### AcceptedQuest (19)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details AcceptedQuest (19)
 On target accepted quest
 * **event_type**:
 SMART_EVENT_ACCEPTED_QUEST (19)
 * **event_param1**:
-[quest ID](../world/quest_template#id) (`0`: any)
+[quest ID](../world/quest_template#id-alt) (`0`: any)
 * **event_param2**:
 CooldownMin (in msec.)
 * **event_param3**:
@@ -489,16 +505,17 @@ CooldownMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
-{.dense}
-#### RewardedQuest (20)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+ * `1`: SMART_SCRIPT_TYPE_GAMEOBJECT
+
+:::
+
+::: details RewardedQuest (20)
 On target rewarded quest
 * **event_type**:
 SMART_EVENT_REWARD_QUEST (20)
 * **event_param1**:
-[quest ID](../world/quest_template#id) (`0`: any)
+[quest ID](../world/quest_template#id-alt) (`0`: any)
 * **event_param2**:
 CooldownMin (in msec.)
 * **event_param3**:
@@ -509,11 +526,12 @@ CooldownMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
-{.dense}
-#### ReachedHome (21)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+ * `1`: SMART_SCRIPT_TYPE_GAMEOBJECT
+
+:::
+
+::: details ReachedHome (21)
 On creature reached home position
 * **event_type**:
 SMART_EVENT_REACHED_HOME (21)
@@ -529,15 +547,16 @@ SMART_EVENT_REACHED_HOME (21)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### ReceiveEmote (22)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details ReceiveEmote (22)
 On receive player emote
 * **event_type**:
 SMART_EVENT_RECEIVE_EMOTE (22)
 * **event_param1**:
-[EmotesText ID](/files/DBC/335/emotestext#id)
+[EmotesText ID](/files/DBC/335/emotestext#id-alt)
 * **event_param2**:
 CooldownMin (in msec.)
 * **event_param3**:
@@ -548,15 +567,16 @@ CooldownMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### HasAura (23)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details HasAura (23)
 On creature has aura (optional: more or equal stacks to **event_param2**)
 * **event_type**:
 SMART_EVENT_HAS_AURA (23)
 * **event_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **event_param2**:
 Stack amount
 * **event_param3**:
@@ -567,15 +587,16 @@ RepeatMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### TargetBuffed (24)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details TargetBuffed (24)
 On target buffed with spell (optional: more or equal stacks to **event_param2**)
 * **event_type**:
 SMART_EVENT_TARGET_BUFFED (24)
 * **event_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **event_param2**:
 Stack amount
 * **event_param3**:
@@ -586,10 +607,11 @@ RepeatMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### Reset (25)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details Reset (25)
 Called after combat and when the creature respawns or spawns.
 * **event_type**:
 SMART_EVENT_RESET (25)
@@ -605,10 +627,11 @@ SMART_EVENT_RESET (25)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### LineOfSightIC (26)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details LineOfSightIC (26)
 On target in distance in combat
 * **event_type**:
 SMART_EVENT_IC_LOS (26)
@@ -627,10 +650,11 @@ CooldownMax (in msec.)
   * 1: Player only
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### PassengerEntered (27)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details PassengerEntered (27)
 On player / creature entered creature (Vehicle)
 * **event_type**:
 SMART_EVENT_PASSENGER_BOARDED (27)
@@ -646,10 +670,11 @@ CooldownMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### PassengerLeft (28)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details PassengerLeft (28)
 On player / creature left creature (Vehicle)
 * **event_type**:
 SMART_EVENT_PASSENGER_REMOVED (28)
@@ -665,10 +690,11 @@ CooldownMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### Charmed (29)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details Charmed (29)
 On creature charmed
 * **event_type**:
 SMART_EVENT_CHARMED (29)
@@ -685,10 +711,11 @@ SMART_EVENT_CHARMED (29)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### TargetCharmed ⚠️&nbsp;(30)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details TargetCharmed ⚠️ (30)
 On target charmed
 > UNUSED, DO NOT REUSE
 {.is-warning}
@@ -706,15 +733,16 @@ SMART_EVENT_CHARMED_TARGET (30)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### SpellHitTarget (31)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details SpellHitTarget (31)
 On target spell hit
 * **event_type**:
 SMART_EVENT_SPELLHIT_TARGET (31)
 * **event_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **event_param2**:
 (`0`: any SpellSchool)
 <!--@include: @/partial/335/spell-schools.md{28,37}-->
@@ -727,10 +755,11 @@ CooldownMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### Damaged (32)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details Damaged (32)
 On creature damaged
 * **event_type**:
 SMART_EVENT_DAMAGED (32)
@@ -746,10 +775,11 @@ CooldownMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### DamagedTarget (33)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details DamagedTarget (33)
 On target damaged
 * **event_type**:
 SMART_EVENT_DAMAGED_TARGET (33)
@@ -765,10 +795,11 @@ CooldownMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### MovementType (34)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details MovementType (34)
 
 * **event_type**:
 SMART_EVENT_MOVEMENTINFORM (34)
@@ -785,10 +816,11 @@ PointID
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### SummonDespawn (35)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details SummonDespawn (35)
 On summoned unit despawned
 * **event_type**:
 SMART_EVENT_SUMMON_DESPAWNED (35)
@@ -804,11 +836,12 @@ CooldownMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
-{.dense}
-#### CorpseRemoved (36)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+ * `1`: SMART_SCRIPT_TYPE_GAMEOBJECT
+
+:::
+
+::: details CorpseRemoved (36)
 On creature corpse removed
 * **event_type**:
 SMART_EVENT_CORPSE_REMOVED (36)
@@ -824,10 +857,11 @@ SMART_EVENT_CORPSE_REMOVED (36)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### InitSAI (37)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details InitSAI (37)
 SmartScript::OnInitialize()
 * **event_type**:
 SMART_EVENT_AI_INIT (37)
@@ -843,11 +877,12 @@ SMART_EVENT_AI_INIT (37)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
-{.dense}
-#### DataSet (38)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+ * `1`: SMART_SCRIPT_TYPE_GAMEOBJECT
+
+:::
+
+::: details DataSet (38)
 On creature / gameobject data set (SMART_ACTION_SET_DATA (45))
 * **event_type**:
 SMART_EVENT_DATA_SET (38)
@@ -863,11 +898,12 @@ CooldownMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
-{.dense}
-#### WaypointStart ⚠️&nbsp;(39)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+ * `1`: SMART_SCRIPT_TYPE_GAMEOBJECT
+
+:::
+
+::: details WaypointStart ⚠️ (39)
 On creature waypoint ID started
 > UNUSED, DO NOT REUSE
 {.is-warning}
@@ -876,7 +912,7 @@ SMART_EVENT_WAYPOINT_START (39)
 * **event_param1**:
 [waypoint point](../world/waypoint_data#point) (`0`: any)
 * **event_param2**:
-[waypoint id](../world/waypoint_data#id) (`0`: any)
+[waypoint id](../world/waypoint_data#id-alt) (`0`: any)
 * **event_param3**:
 `0`
 * **event_param4**:
@@ -885,17 +921,18 @@ SMART_EVENT_WAYPOINT_START (39)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### WaypointReached (40)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details WaypointReached (40)
 On creature waypoint ID reached
 * **event_type**:
 SMART_EVENT_WAYPOINT_REACHED (40)
 * **event_param1**:
 [waypoint point](../world/waypoint_data#point) (`0`: any)
 * **event_param2**:
-[waypoint id](../world/waypoint_data#id) (`0`: any)
+[waypoint id](../world/waypoint_data#id-alt) (`0`: any)
 * **event_param3**:
 `0`
 * **event_param4**:
@@ -904,10 +941,11 @@ SMART_EVENT_WAYPOINT_REACHED (40)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### Trans.AddPlayer ❌&nbsp;(41)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details Trans.AddPlayer ❌ (41)
 > RESERVED for master branch
 {.is-danger}
 * **event_type**:
@@ -924,10 +962,11 @@ SMART_EVENT_TRANSPORT_ADDPLAYER (41)
 `0`
 
 valid for **source_type**
-|--|--|
-| 7 | SMART_SCRIPT_TYPE_TRANSPORT |
-{.dense}
-#### Trans.AddCreatue ❌&nbsp;(42)
+ * `7`: SMART_SCRIPT_TYPE_TRANSPORT
+
+:::
+
+::: details Trans.AddCreatue ❌ (42)
 > RESERVED for master branch
 {.is-danger}
 * **event_type**:
@@ -944,10 +983,11 @@ Entry (`0`: any)
 `0`
 
 valid for **source_type**
-|--|--|
-| 7 | SMART_SCRIPT_TYPE_TRANSPORT |
-{.dense}
-#### Trans.Rem.Player ❌&nbsp;(43)
+ * `7`: SMART_SCRIPT_TYPE_TRANSPORT
+
+:::
+
+::: details Trans.Rem.Player ❌ (43)
 > RESERVED for master branch
 {.is-danger}
 * **event_type**:
@@ -964,10 +1004,11 @@ SMART_EVENT_TRANSPORT_REMOVE_PLAYER (43)
 `0`
 
 valid for **source_type**
-|--|--|
-| 7 | SMART_SCRIPT_TYPE_TRANSPORT |
-{.dense}
-#### Trans.Relocate ❌&nbsp;(44)
+ * `7`: SMART_SCRIPT_TYPE_TRANSPORT
+
+:::
+
+::: details Trans.Relocate ❌ (44)
 > RESERVED for master branch
 {.is-danger}
 * **event_type**:
@@ -984,10 +1025,11 @@ PointId
 `0`
 
 valid for **source_type**
-|--|--|
-| 7 | SMART_SCRIPT_TYPE_TRANSPORT |
-{.dense}
-#### PlayerEnter ❌&nbsp;(45)
+ * `7`: SMART_SCRIPT_TYPE_TRANSPORT
+
+:::
+
+::: details PlayerEnter ❌ (45)
 > RESERVED for master branch
 {.is-danger}
 * **event_type**:
@@ -1004,15 +1046,16 @@ CooldownMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 8 | SMART_SCRIPT_TYPE_INSTANCE |
-{.dense}
-#### AreaTrigger (46)
+ * `8`: SMART_SCRIPT_TYPE_INSTANCE
+
+:::
+
+::: details AreaTrigger (46)
 
 * **event_type**:
 SMART_EVENT_AREATRIGGER_ONTRIGGER (46)
 * **event_param1**:
-[AreaTrigger ID](/files/DBC/335/areatrigger#id) (`0`: any)
+[AreaTrigger ID](/files/DBC/335/areatrigger#id-alt) (`0`: any)
 yes, same value as **entryorguid**
 * **event_param2**:
 `0`
@@ -1024,10 +1067,11 @@ yes, same value as **entryorguid**
 `0`
 
 valid for **source_type**
-|--|--|
-| 2 | SMART_SCRIPT_TYPE_AREATRIGGER |
-{.dense}
-#### QuestAccepted ❌&nbsp;(47)
+ * `2`: SMART_SCRIPT_TYPE_AREATRIGGER
+
+:::
+
+::: details QuestAccepted ❌ (47)
 On target quest accepted
 > RESERVED for master branch
 {.is-danger}
@@ -1045,10 +1089,11 @@ SMART_EVENT_QUEST_ACCEPTED (47)
 `0`
 
 valid for **source_type**
-|--|--|
-| 5 | SMART_SCRIPT_TYPE_QUEST |
-{.dense}
-#### QuestProgress ❌&nbsp;(48)
+ * `5`: SMART_SCRIPT_TYPE_QUEST
+
+:::
+
+::: details QuestProgress ❌ (48)
 On target quest objective completed
 > RESERVED for master branch
 {.is-danger}
@@ -1066,10 +1111,11 @@ SMART_EVENT_QUEST_OBJ_COMPLETION (48)
 `0`
 
 valid for **source_type**
-|--|--|
-| 5 | SMART_SCRIPT_TYPE_QUEST |
-{.dense}
-#### QuestCompleted ❌&nbsp;(49)
+ * `5`: SMART_SCRIPT_TYPE_QUEST
+
+:::
+
+::: details QuestCompleted ❌ (49)
 On target quest completed
 > RESERVED for master branch
 {.is-danger}
@@ -1087,10 +1133,11 @@ SMART_EVENT_QUEST_COMPLETION (49)
 `0`
 
 valid for **source_type**
-|--|--|
-| 5 | SMART_SCRIPT_TYPE_QUEST |
-{.dense}
-#### QuestRewarded ❌&nbsp;(50)
+ * `5`: SMART_SCRIPT_TYPE_QUEST
+
+:::
+
+::: details QuestRewarded ❌ (50)
 On target quest rewarded
 > RESERVED for master branch
 {.is-danger}
@@ -1108,10 +1155,11 @@ SMART_EVENT_QUEST_REWARDED (50)
 `0`
 
 valid for **source_type**
-|--|--|
-| 5 | SMART_SCRIPT_TYPE_QUEST |
-{.dense}
-#### QuestFailed ❌&nbsp;(51)
+ * `5`: SMART_SCRIPT_TYPE_QUEST
+
+:::
+
+::: details QuestFailed ❌ (51)
 On target quest failed
 > RESERVED for master branch
 {.is-danger}
@@ -1129,10 +1177,11 @@ SMART_EVENT_QUEST_FAIL (51)
 `0`
 
 valid for **source_type**
-|--|--|
-| 5 | SMART_SCRIPT_TYPE_QUEST |
-{.dense}
-#### TextOver (52)
+ * `5`: SMART_SCRIPT_TYPE_QUEST
+
+:::
+
+::: details TextOver (52)
 On duration ended after SMART_ACTION_TALK (1)
 * **event_type**:
 SMART_EVENT_TEXT_OVER (52)
@@ -1148,11 +1197,12 @@ SMART_EVENT_TEXT_OVER (52)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
-{.dense}
-#### ReceivedHeal (53)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+ * `1`: SMART_SCRIPT_TYPE_GAMEOBJECT
+
+:::
+
+::: details ReceivedHeal (53)
 On creature received healing
 * **event_type**:
 SMART_EVENT_RECEIVE_HEAL (53)
@@ -1168,10 +1218,11 @@ CooldownMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### JustSummoned (54)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details JustSummoned (54)
 On creature just spawned
 * **event_type**:
 SMART_EVENT_JUST_SUMMONED (54)
@@ -1187,17 +1238,18 @@ SMART_EVENT_JUST_SUMMONED (54)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### WaypointPaused (55)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details WaypointPaused (55)
 On creature paused at waypoint ID
 * **event_type**:
 SMART_EVENT_WAYPOINT_PAUSED (55)
 * **event_param1**:
 [waypoint point](../world/waypoint_data#point) (`0`: any)
 * **event_param2**:
-[waypoint id](../world/waypoint_data#id) (`0`: any)
+[waypoint id](../world/waypoint_data#id-alt) (`0`: any)
 * **event_param3**:
 `0`
 * **event_param4**:
@@ -1206,17 +1258,18 @@ SMART_EVENT_WAYPOINT_PAUSED (55)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### WaypointResumed (56)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details WaypointResumed (56)
 On Creature resumed after waypoint ID
 * **event_type**:
 SMART_EVENT_WAYPOINT_RESUMED (56)
 * **event_param1**:
 [waypoint point](../world/waypoint_data#point) (`0`: any)
 * **event_param2**:
-[waypoint id](../world/waypoint_data#id) (`0`: any)
+[waypoint id](../world/waypoint_data#id-alt) (`0`: any)
 * **event_param3**:
 `0`
 * **event_param4**:
@@ -1225,17 +1278,18 @@ SMART_EVENT_WAYPOINT_RESUMED (56)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### WaypointStopped (57)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details WaypointStopped (57)
 On creature stopped on waypoint ID
 * **event_type**:
 SMART_EVENT_WAYPOINT_STOPPED (57)
 * **event_param1**:
 [waypoint point](../world/waypoint_data#point) (`0`: any)
 * **event_param2**:
-[waypoint id](../world/waypoint_data#id) (`0`: any)
+[waypoint id](../world/waypoint_data#id-alt) (`0`: any)
 * **event_param3**:
 `0`
 * **event_param4**:
@@ -1244,17 +1298,18 @@ SMART_EVENT_WAYPOINT_STOPPED (57)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### WaypointEnded (58)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details WaypointEnded (58)
 On creature waypoint path ended
 * **event_type**:
 SMART_EVENT_WAYPOINT_ENDED (58)
 * **event_param1**:
 [waypoint point](../world/waypoint_data#point) (`0`: any)
 * **event_param2**:
-[waypoint id](../world/waypoint_data#id) (`0`: any)
+[waypoint id](../world/waypoint_data#id-alt) (`0`: any)
 * **event_param3**:
 `0`
 * **event_param4**:
@@ -1263,10 +1318,11 @@ SMART_EVENT_WAYPOINT_ENDED (58)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### EventTriggered (59)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details EventTriggered (59)
 On SMART_ACTION_TRIGGER_TIMED_EVENT (73) trigger. 
 > Note: Other ACTION_TIMED_EVENT actions create a SMART_ACTION_TRIGGER_TIMED_EVENT (73) in a roundabout way and will thus also trigger this event indirectly.
 {.is-info}
@@ -1284,11 +1340,12 @@ id
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
-{.dense}
-#### Update (60)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+ * `1`: SMART_SCRIPT_TYPE_GAMEOBJECT
+
+:::
+
+::: details Update (60)
 Update always
 * **event_type**:
 SMART_EVENT_UPDATE (60)
@@ -1304,11 +1361,12 @@ RepeatMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
-{.dense}
-#### Link (61)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+ * `1`: SMART_SCRIPT_TYPE_GAMEOBJECT
+
+:::
+
+::: details Link (61)
 requires another **link** to point at this entries **id**
 Used to link together multiple events, does not use any extra resources to iterate event lists needlessly.
 * **event_type**:
@@ -1327,7 +1385,9 @@ SMART_EVENT_LINK (61)
 valid for **source_type**
 < any >
 
-#### GossipSelect (62)
+:::
+
+::: details GossipSelect (62)
 Player selects an option from the gossip menu.
 * **event_type**:
 SMART_EVENT_GOSSIP_SELECT (62)
@@ -1343,11 +1403,12 @@ SMART_EVENT_GOSSIP_SELECT (62)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
-{.dense}
-#### JustCreated (63)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+ * `1`: SMART_SCRIPT_TYPE_GAMEOBJECT
+
+:::
+
+::: details JustCreated (63)
 On creature / gameobject first time load
 * **event_type**:
 SMART_EVENT_JUST_CREATED (63)
@@ -1363,11 +1424,12 @@ SMART_EVENT_JUST_CREATED (63)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
-{.dense}
-#### GossipHello (64)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+ * `1`: SMART_SCRIPT_TYPE_GAMEOBJECT
+
+:::
+
+::: details GossipHello (64)
 On right click creature / gameobject that have gossip enabled
 * **event_type**:
 SMART_EVENT_GOSSIP_HELLO (64)
@@ -1386,11 +1448,12 @@ OnReportUse (for GOs)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
-{.dense}
-#### FollowComplete (65)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+ * `1`: SMART_SCRIPT_TYPE_GAMEOBJECT
+
+:::
+
+::: details FollowComplete (65)
 On stop following
 * **event_type**:
 SMART_EVENT_FOLLOW_COMPLETED (65)
@@ -1406,10 +1469,11 @@ SMART_EVENT_FOLLOW_COMPLETED (65)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### EventPhase ⚠️&nbsp;(66)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details EventPhase ⚠️ (66)
 On event phase mask set
 > UNUSED, DO NOT REUSE
 {.is-warning}
@@ -1427,11 +1491,12 @@ event phase mask (<= SMART_EVENT_PHASE_ALL)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
-{.dense}
-#### BehindTarget ⚠️&nbsp;(67)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+ * `1`: SMART_SCRIPT_TYPE_GAMEOBJECT
+
+:::
+
+::: details BehindTarget ⚠️ (67)
 On creature is behind target
 > UNUSED, DO NOT REUSE
 {.is-warning}
@@ -1449,15 +1514,16 @@ CooldownMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### GameEventStart (68)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details GameEventStart (68)
 On game event started
 * **event_type**:
 SMART_EVENT_GAME_EVENT_START (68)
 * **event_param1**:
-[game_event eventEntry](../world/game_event#eventEntry)
+[game_event eventEntry](../world/game_event#evententry)
 * **event_param2**:
 `0`
 * **event_param3**:
@@ -1468,16 +1534,17 @@ SMART_EVENT_GAME_EVENT_START (68)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
-{.dense}
-#### GameEventEnd (69)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+ * `1`: SMART_SCRIPT_TYPE_GAMEOBJECT
+
+:::
+
+::: details GameEventEnd (69)
 On game event ended
 * **event_type**:
 SMART_EVENT_GAME_EVENT_END (69)
 * **event_param1**:
-[game_event eventEntry](../world/game_event#eventEntry)
+[game_event eventEntry](../world/game_event#evententry)
 * **event_param2**:
 `0`
 * **event_param3**:
@@ -1488,11 +1555,12 @@ SMART_EVENT_GAME_EVENT_END (69)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
-{.dense}
-#### LootState (70)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+ * `1`: SMART_SCRIPT_TYPE_GAMEOBJECT
+
+:::
+
+::: details LootState (70)
 
 * **event_type**:
 SMART_EVENT_GO_LOOT_STATE_CHANGED (70)
@@ -1509,15 +1577,16 @@ SMART_EVENT_GO_LOOT_STATE_CHANGED (70)
 `0`
 
 valid for **source_type**
-|--|--|
-| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
-{.dense}
-#### GOEventInform (71)
+ * `1`: SMART_SCRIPT_TYPE_GAMEOBJECT
+
+:::
+
+::: details GOEventInform (71)
 On gameobject emits event
 * **event_type**:
 SMART_EVENT_GO_EVENT_INFORM (71)
 * **event_param1**:
-eventId from [gameobject template](../world/gameobject_template#data0-23)
+eventId from [gameobject template](../world/gameobject_template#data-0-23)
 * **event_param2**:
 `0`
 * **event_param3**:
@@ -1528,10 +1597,11 @@ eventId from [gameobject template](../world/gameobject_template#data0-23)
 `0`
 
 valid for **source_type**
-|--|--|
-| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
-{.dense}
-#### ActionDone (72)
+ * `1`: SMART_SCRIPT_TYPE_GAMEOBJECT
+
+:::
+
+::: details ActionDone (72)
 manual values or [enum EventId](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/SharedDefines.h#L3336-L3350) passed by SmartAI::DoAction()
 * **event_type**:
 SMART_EVENT_ACTION_DONE (72)
@@ -1547,10 +1617,11 @@ eventId
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### Spellclick (73)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details Spellclick (73)
 Player clicked on [spellclick enabled creature](../world/creature_template#npcflag)
 * **event_type**:
 SMART_EVENT_ON_SPELLCLICK (73)
@@ -1566,10 +1637,11 @@ SMART_EVENT_ON_SPELLCLICK (73)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### FriendHealthPct (74)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details FriendHealthPct (74)
 'friendly' determined by **target_type**
 * **event_type**:
 SMART_EVENT_FRIENDLY_HEALTH_PCT (74)
@@ -1585,10 +1657,11 @@ RepeatMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### DistanceNPC (75)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details DistanceNPC (75)
 On creature guid _OR_ any instance of creature entry is within distance
 * **event_type**:
 SMART_EVENT_DISTANCE_CREATURE (75)
@@ -1604,10 +1677,11 @@ repeat (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### DistanceGO (76)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details DistanceGO (76)
 On gameobject guid _OR_ any instance of gameobject entry is within distance
 * **event_type**:
 SMART_EVENT_DISTANCE_GAMEOBJECT (76)
@@ -1623,10 +1697,11 @@ repeat (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### CounterSet (77)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details CounterSet (77)
 after SMART_ACTION_SET_COUNTER (63), check if quantity of counterId is equal to value
 * **event_type**:
 SMART_EVENT_COUNTER_SET (77)
@@ -1642,11 +1717,12 @@ CooldownMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
-{.dense}
-#### SceneStart ❌&nbsp;(78)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+ * `1`: SMART_SCRIPT_TYPE_GAMEOBJECT
+
+:::
+
+::: details SceneStart ❌ (78)
 > RESERVED for master branch
 {.is-danger}
 * **event_type**:
@@ -1663,10 +1739,11 @@ SMART_EVENT_SCENE_START (78)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### SceneTrigger ❌&nbsp;(79)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details SceneTrigger ❌ (79)
 > RESERVED for master branch
 {.is-danger}
 * **event_type**:
@@ -1683,10 +1760,11 @@ SMART_EVENT_SCENE_TRIGGER (79)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### SceneCancel ❌&nbsp;(80)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details SceneCancel ❌ (80)
 > RESERVED for master branch
 {.is-danger}
 * **event_type**:
@@ -1703,10 +1781,11 @@ SMART_EVENT_SCENE_CANCEL (80)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### SceneComplete ❌&nbsp;(81)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details SceneComplete ❌ (81)
 > RESERVED for master branch
 {.is-danger}
 * **event_type**:
@@ -1723,10 +1802,11 @@ SMART_EVENT_SCENE_COMPLETE (81)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### SummonDies (82)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details SummonDies (82)
 
 * **event_type**:
 SMART_EVENT_SUMMONED_UNIT_DIES (82)
@@ -1742,16 +1822,17 @@ CooldownMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-| 1 | SMART_SCRIPT_TYPE_GAMEOBJECT |
-{.dense}
-#### SpellCast (83)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+ * `1`: SMART_SCRIPT_TYPE_GAMEOBJECT
+
+:::
+
+::: details SpellCast (83)
 on Spell::cast
 * **event_type**:
 SMART_EVENT_ON_SPELL_CAST (83)
 * **event_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **event_param2**:
 CooldownMin (in msec.)
 * **event_param3**:
@@ -1762,15 +1843,16 @@ CooldownMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### SpellFailed (84)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details SpellFailed (84)
 on Unit::InterruptSpell
 * **event_type**:
 SMART_EVENT_ON_SPELL_FAILED (84)
 * **event_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **event_param2**:
 CooldownMin (in msec.)
 * **event_param3**:
@@ -1781,15 +1863,16 @@ CooldownMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### SpellStart (85)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details SpellStart (85)
 on Spell::prapare
 * **event_type**:
 SMART_EVENT_ON_SPELL_START (85)
 * **event_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **event_param2**:
 CooldownMin (in msec.)
 * **event_param3**:
@@ -1800,10 +1883,11 @@ CooldownMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### Despawn (86)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details Despawn (86)
 On before creature removed
 * **event_type**:
 SMART_EVENT_ON_DESPAWN (86)
@@ -1819,10 +1903,11 @@ SMART_EVENT_ON_DESPAWN (86)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### SendEventTrigger ⚠️&nbsp;(87)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details SendEventTrigger ⚠️ (87)
 > UNUSED NEEDS CHERRYPICK
 {.is-warning}
 * **event_type**:
@@ -1838,7 +1923,9 @@ SMART_EVENT_SEND_EVENT_TRIGGER (87)
 * **event_param5**:
 `0`
 
-#### AreatriggerExit ❌&nbsp;(88)
+:::
+
+::: details AreatriggerExit ❌ (88)
 > don't use on 3.3.5a
 {.is-danger}
 * **event_type**:
@@ -1855,15 +1942,16 @@ SMART_EVENT_AREATRIGGER_EXIT (88)
 `0`
 
 valid for **source_type**
-|--|--|
-| 2 | SMART_SCRIPT_TYPE_AREATRIGGER |
-{.dense}
-#### AuraApplied (89)
+ * `2`: SMART_SCRIPT_TYPE_AREATRIGGER
+
+:::
+
+::: details AuraApplied (89)
 On aura applied
 * **event_type**:
 SMART_EVENT_ON_AURA_APPLIED (89)
 * **event_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **event_param2**:
 CooldownMin (in msec.)
 * **event_param3**:
@@ -1874,15 +1962,16 @@ CooldownMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-#### AuraRemoved (90)
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
+::: details AuraRemoved (90)
 On aura removed
 * **event_type**:
 SMART_EVENT_ON_AURA_REMOVED (90)
 * **event_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **event_param2**:
 CooldownMin (in msec.)
 * **event_param3**:
@@ -1893,10 +1982,10 @@ CooldownMax (in msec.)
 `0`
 
 valid for **source_type**
-|--|--|
-| 0 | SMART_SCRIPT_TYPE_CREATURE |
-{.dense}
-### EndTabset {.tabset}
+ * `0`: SMART_SCRIPT_TYPE_CREATURE
+
+:::
+
 &nbsp;
 
 ### event_phase_mask
@@ -1927,7 +2016,6 @@ If the script is in phase 1 and want to skip to phase 2:
 | 512 | 0x0200 | SMART_EVENT_PHASE_10 |  |
 | 1024 | 0x0400 | SMART_EVENT_PHASE_11 |  |
 | 2048 | 0x0800 | SMART_EVENT_PHASE_12 |  |
-{.dense}
 
 &nbsp;
 
@@ -1948,13 +2036,11 @@ Sets if the event should not repeat or should only happen in a given instance/du
 | 128 | 0x0080 | SMART_EVENT_FLAG_DEBUG_ONLY | Event only occurs in debug build |
 | 256 | 0x0100 | SMART_EVENT_FLAG_DONT_RESET | Event will not reset in SmartScript::OnReset() |
 | 512 | 0x0200 | SMART_EVENT_FLAG_WHILE_CHARMED | Event occurs even if AI owner is charmed |
-{.dense}
 
 &nbsp;
 
 ### action {#action-alt}
-### Tabset {.tabset}
-#### None (0)
+::: details None (0)
 No action.
 * **action_type**:
 SMART_ACTION_NONE (0)
@@ -1970,7 +2056,10 @@ SMART_ACTION_NONE (0)
 `0`
 * **action_param6**:
 `0`
-#### Talk (1)
+
+:::
+
+::: details Talk (1)
 Display a creature text entry.
 > Note: SMART_EVENT_TEXT_OVER (52) is triggered.
 {.is-info}
@@ -1990,12 +2079,15 @@ useTalkTarget: only considered for creature targets
 `0`
 * **action_param6**:
 `0`
-#### SetFaction (2)
+
+:::
+
+::: details SetFaction (2)
 Sets faction of target creatures.
 * **action_type**:
 SMART_ACTION_SET_FACTION (2)
 * **action_param1**:
-[FactionTemplate ID](/files/DBC/335/factiontemplate#id) (`0`: default)
+[FactionTemplate ID](/files/DBC/335/factiontemplate#id-alt) (`0`: default)
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -2006,7 +2098,10 @@ SMART_ACTION_SET_FACTION (2)
 `0`
 * **action_param6**:
 `0`
-#### Morph (3)
+
+:::
+
+::: details Morph (3)
 Target creatures take on another appearance.
 > Note: creature entry takes precedence over DisplayID. If both are `0`, the original appearance is restored.
 {.is-info}
@@ -2024,12 +2119,15 @@ SMART_ACTION_MORPH_TO_ENTRY_OR_MODEL (3)
 `0`
 * **action_param6**:
 `0`
-#### Sound (4)
+
+:::
+
+::: details Sound (4)
 Target units play a sound entry.
 * **action_type**:
 SMART_ACTION_SOUND (4)
 * **action_param1**:
-[SoundEntry ID](/files/DBC/335/soundentries#id)
+[SoundEntry ID](/files/DBC/335/soundentries#id-alt)
 * **action_param2**:
 onlySelf
   * 0: heard by all players in visibility range
@@ -2044,12 +2142,15 @@ distanceSound
 `0`
 * **action_param6**:
 `0`
-#### PlayEmote (5)
+
+:::
+
+::: details PlayEmote (5)
 Plays an emote as oneshot. 
 * **action_type**:
 SMART_ACTION_PLAY_EMOTE (5)
 * **action_param1**:
-[Emote ID](/files/DBC/335/emotes#id)
+[Emote ID](/files/DBC/335/emotes#id-alt)
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -2060,12 +2161,15 @@ SMART_ACTION_PLAY_EMOTE (5)
 `0`
 * **action_param6**:
 `0`
-#### FailQuest (6)
+
+:::
+
+::: details FailQuest (6)
 Fail quest for target players.
 * **action_type**:
 SMART_ACTION_FAIL_QUEST (6)
 * **action_param1**:
-[quest ID](../world/quest_template#id)
+[quest ID](../world/quest_template#id-alt)
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -2076,12 +2180,15 @@ SMART_ACTION_FAIL_QUEST (6)
 `0`
 * **action_param6**:
 `0`
-#### OfferQuest (7)
+
+:::
+
+::: details OfferQuest (7)
 Offer quest to target players.
 * **action_type**:
 SMART_ACTION_OFFER_QUEST (7)
 * **action_param1**:
-[quest ID](../world/quest_template#id)
+[quest ID](../world/quest_template#id-alt)
 * **action_param2**:
 directAdd:
   * 0: offer quest
@@ -2094,7 +2201,10 @@ directAdd:
 `0`
 * **action_param6**:
 `0`
-#### SetReactState (8)
+
+:::
+
+::: details SetReactState (8)
 Makes the target react passive, defensive or aggressive.
 * **action_type**:
 SMART_ACTION_SET_REACT_STATE (8)
@@ -2105,7 +2215,7 @@ SMART_ACTION_SET_REACT_STATE (8)
   | 0 | REACT_PASSIVE | Does not defend or attack at all. Does nothing. |
   | 1 | REACT_DEFENSIVE | Only attacks back when attacked. |
   | 2 | REACT_AGGRESSIVE | Will attack if on threat list and in threat radius. (default) |
-  {.dense}
+
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -2116,7 +2226,10 @@ SMART_ACTION_SET_REACT_STATE (8)
 `0`
 * **action_param6**:
 `0`
-#### ActivateObject (9)
+
+:::
+
+::: details ActivateObject (9)
 Set target gameobjects as active. This opens a door or makes a container lootable.
 * **action_type**:
 SMART_ACTION_ACTIVATE_GOBJECT (9)
@@ -2132,30 +2245,36 @@ SMART_ACTION_ACTIVATE_GOBJECT (9)
 `0`
 * **action_param6**:
 `0`
-#### PlayRandomEmote (10)
+
+:::
+
+::: details PlayRandomEmote (10)
 Play random emote. 
 > Note: An **action_param** of 0 is skipped and not interpreted as emote: ONESHOT_NONE (0).
 {.is-info}
 * **action_type**:
 SMART_ACTION_RANDOM_EMOTE (10)
 * **action_param1**:
-[Emote ID](/files/DBC/335/emotes#id) #1
+[Emote ID](/files/DBC/335/emotes#id-alt) #1
 * **action_param2**:
-[Emote ID](/files/DBC/335/emotes#id) #2
+[Emote ID](/files/DBC/335/emotes#id-alt) #2
 * **action_param3**:
-[Emote ID](/files/DBC/335/emotes#id) #3
+[Emote ID](/files/DBC/335/emotes#id-alt) #3
 * **action_param4**:
-[Emote ID](/files/DBC/335/emotes#id) #4
+[Emote ID](/files/DBC/335/emotes#id-alt) #4
 * **action_param5**:
-[Emote ID](/files/DBC/335/emotes#id) #5
+[Emote ID](/files/DBC/335/emotes#id-alt) #5
 * **action_param6**:
-[Emote ID](/files/DBC/335/emotes#id) #6
-#### CastSpell (11)
+[Emote ID](/files/DBC/335/emotes#id-alt) #6
+
+:::
+
+::: details CastSpell (11)
 Cast spell at targets.
 * **action_type**:
 SMART_ACTION_CAST (11)
 * **action_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **action_param2**:  
   <!--@include: @/partial/335/smart-cast-flags.md-->
 
@@ -2168,7 +2287,10 @@ SMART_ACTION_CAST (11)
 `0`
 * **action_param6**:
 `0`
-#### SummonNPC (12)
+
+:::
+
+::: details SummonNPC (12)
 Summon NPC
 * **action_type**:
 SMART_ACTION_SUMMON_CREATURE (12)
@@ -2187,7 +2309,10 @@ SmartActionSummonCreatureFlags:
   * 0x2: PreferUnit (.. as summoner)
 * **action_param6**:
 `0`
-#### ThreatPctSingle (13)
+
+:::
+
+::: details ThreatPctSingle (13)
 Change own threat percentage against target units.
 * **action_type**:
 SMART_ACTION_THREAT_SINGLE_PCT (13)
@@ -2203,7 +2328,10 @@ Threat% decrease
 `0`
 * **action_param6**:
 `0`
-#### ThreatPctAll (14)
+
+:::
+
+::: details ThreatPctAll (14)
 Change own threat percentage against all units engaged with this creature.
 * **action_type**:
 SMART_ACTION_THREAT_ALL_PCT (14)
@@ -2219,12 +2347,15 @@ Threat% decrease
 `0`
 * **action_param6**:
 `0`
-#### ExploreEvent (15)
+
+:::
+
+::: details ExploreEvent (15)
 Satisfy exploration requirement for quest for target players.
 * **action_type**:
 SMART_ACTION_CALL_AREAEXPLOREDOREVENTHAPPENS (15)
 * **action_param1**:
-[QuestID](../world/quest_template#id)
+[QuestID](../world/quest_template#id-alt)
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -2235,7 +2366,10 @@ SMART_ACTION_CALL_AREAEXPLOREDOREVENTHAPPENS (15)
 `0`
 * **action_param6**:
 `0`
-#### Reserved16 ❌&nbsp;(16)
+
+:::
+
+::: details Reserved16 ❌ (16)
 > used on 4.3.4 and higher scripts
 {.is-danger}
 * **action_type**:
@@ -2252,12 +2386,15 @@ SMART_ACTION_RESERVED_16 (16)
 `0`
 * **action_param6**:
 `0`
-#### PlayEmoteState (17)
+
+:::
+
+::: details PlayEmoteState (17)
 Play Emote Continuously. Useful for displaying activity on a NPC (fishing, working, etc.)
 * **action_type**:
 SMART_ACTION_SET_EMOTE_STATE (17)
 * **action_param1**:
-[Emote ID](/files/DBC/335/emotes#id)
+[Emote ID](/files/DBC/335/emotes#id-alt)
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -2268,7 +2405,10 @@ SMART_ACTION_SET_EMOTE_STATE (17)
 `0`
 * **action_param6**:
 `0`
-#### SetUnitFlags ⚠️&nbsp;(18)
+
+:::
+
+::: details SetUnitFlags ⚠️ (18)
 Set multiple flags at once
 > UNUSED, DO NOT REUSE
 {.is-warning}
@@ -2287,7 +2427,10 @@ flags
 `0`
 * **action_param6**:
 `0`
-#### UnsetUnitFlags ⚠️&nbsp;(19)
+
+:::
+
+::: details UnsetUnitFlags ⚠️ (19)
 Remove multiple flags at once
 > UNUSED, DO NOT REUSE
 {.is-warning}
@@ -2306,7 +2449,10 @@ flags
 `0`
 * **action_param6**:
 `0`
-#### AutoAttack (20)
+
+:::
+
+::: details AutoAttack (20)
 Set if creature can auto attack.
 * **action_type**:
 SMART_ACTION_AUTO_ATTACK (20)
@@ -2324,7 +2470,10 @@ allowAttack
 `0`
 * **action_param6**:
 `0`
-#### CombatMovement (21)
+
+:::
+
+::: details CombatMovement (21)
 Set if creature can move during combat.
 * **action_type**:
 SMART_ACTION_ALLOW_COMBAT_MOVEMENT (21)
@@ -2340,7 +2489,10 @@ allowMovement? (`0`/`1`)
 `0`
 * **action_param6**:
 `0`
-#### SetEventPhase (22)
+
+:::
+
+::: details SetEventPhase (22)
 Set own event phase. (see **event_phase_mask**)
 * **action_type**:
 SMART_ACTION_SET_EVENT_PHASE (22)
@@ -2356,7 +2508,10 @@ phase
 `0`
 * **action_param6**:
 `0`
-#### IncEventPhase (23)
+
+:::
+
+::: details IncEventPhase (23)
 Increment or decrement own event phase. (see **event_phase_mask**)
 > Note: only set increment OR decrement, not both.
 {.is-info}
@@ -2374,7 +2529,10 @@ decrement
 `0`
 * **action_param6**:
 `0`
-#### EnterEvadeMode (24)
+
+:::
+
+::: details EnterEvadeMode (24)
 This creature enters evade mode.
 > Note: SMART_EVENT_EVADE (7) is triggered.
 {.is-info}
@@ -2393,7 +2551,10 @@ SMART_ACTION_EVADE (24)
 `0`
 * **action_param6**:
 `0`
-#### FleeForAssist (25)
+
+:::
+
+::: details FleeForAssist (25)
 This creature walks towards nearest ally.
 * **action_type**:
 SMART_ACTION_FLEE_FOR_ASSIST (25)
@@ -2411,12 +2572,15 @@ withEmote
 `0`
 * **action_param6**:
 `0`
-#### ExploreEventParty (26)
+
+:::
+
+::: details ExploreEventParty (26)
 Like SMART_ACTION_CALL_AREAEXPLOREDOREVENTHAPPENS (15) but for the whole party.
 * **action_type**:
 SMART_ACTION_CALL_GROUPEVENTHAPPENS (26)
 * **action_param1**:
-[quest ID](../world/quest_template#id)
+[quest ID](../world/quest_template#id-alt)
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -2427,7 +2591,10 @@ SMART_ACTION_CALL_GROUPEVENTHAPPENS (26)
 `0`
 * **action_param6**:
 `0`
-#### CombatStop (27)
+
+:::
+
+::: details CombatStop (27)
 Creature disengages combat.
 * **action_type**:
 SMART_ACTION_COMBAT_STOP (27)
@@ -2443,13 +2610,16 @@ SMART_ACTION_COMBAT_STOP (27)
 `0`
 * **action_param6**:
 `0`
-#### RemoveAura (28)
+
+:::
+
+::: details RemoveAura (28)
 Removes any or all auras from targets.
 An **action_param1** = 0 will always remove all auras regardless of other parameters.
 * **action_type**:
 SMART_ACTION_REMOVEAURASFROMSPELL (28)
 * **action_param1**:
-[Spell ID](/files/DBC/335/spell#id) (`0`: all auras)
+[Spell ID](/files/DBC/335/spell#id-alt) (`0`: all auras)
 * **action_param2**:
 charges (`0`: all charges)
 * **action_param3**:
@@ -2460,7 +2630,10 @@ onlyOwned? (`0`/`1`)
 `0`
 * **action_param6**:
 `0`
-#### Follow (29)
+
+:::
+
+::: details Follow (29)
 Creature starts to follow target at distance and angle. Optional quest credit is rewarded upon StopFollow.
 * **action_type**:
 SMART_ACTION_FOLLOW (29)
@@ -2471,14 +2644,17 @@ angle (`0`: default)
 * **action_param3**:
 Following ends when reaching [creature entry](../world/creature_template#entry)
 * **action_param4**:
-[creature entry](../world/creature_template#entry) or [quest ID](../world/quest_template#id), depending on **action_param5**
+[creature entry](../world/creature_template#entry) or [quest ID](../world/quest_template#id-alt), depending on **action_param5**
 * **action_param5**:
 creditType:
   * 0: creature kill
   * 1: exploration event
 * **action_param6**:
 `0`
-#### RandEventPhase (30)
+
+:::
+
+::: details RandEventPhase (30)
 Set own event phase to random phase from **action_param**. (see **event_phase_mask**)
 
 > Note: An **action_param** of 0 is skipped and not interpreted as SMART_EVENT_PHASE_ALWAYS (0)
@@ -2497,7 +2673,10 @@ Phase4
 Phase5
 * **action_param6**:
 Phase6
-#### RangeEventPhase (31)
+
+:::
+
+::: details RangeEventPhase (31)
 Set own event phase to phase in within given range. (see **event_phase_mask**)
 * **action_type**:
 SMART_ACTION_RANDOM_PHASE_RANGE (31)
@@ -2513,7 +2692,10 @@ PhaseMax
 `0`
 * **action_param6**:
 `0`
-#### ResetObject (32)
+
+:::
+
+::: details ResetObject (32)
 Resets active target gameobjects.
 * **action_type**:
 SMART_ACTION_RESET_GOBJECT (32)
@@ -2529,8 +2711,11 @@ SMART_ACTION_RESET_GOBJECT (32)
 `0`
 * **action_param6**:
 `0`
-#### KillCredit (33)
-Credits a creature kill to satisfy [quest RequiredNpcOrGo](../world/quest_template##requirednpcorgo1-4) requirements to target players.
+
+:::
+
+::: details KillCredit (33)
+Credits a creature kill to satisfy [quest RequiredNpcOrGo](../world/quest_template##requirednpcorgo-1-4) requirements to target players.
 > Note: If target is SMART_TARGET_NONE (0) or SMART_TARGET_SELF (1), the kill is credited to all players eligible for loot from this creature.
 {.is-info} 
 * **action_type**:
@@ -2547,7 +2732,10 @@ SMART_ACTION_CALL_KILLEDMONSTER (33)
 `0`
 * **action_param6**:
 `0`
-#### SetInstanceData (34)
+
+:::
+
+::: details SetInstanceData (34)
 Store data in scripted instance this entity is located in.
 * **action_type**:
 SMART_ACTION_SET_INST_DATA (34)
@@ -2578,7 +2766,10 @@ type:
 `0`
 * **action_param6**:
 `0`
-#### SetInstanceData64 (35)
+
+:::
+
+::: details SetInstanceData64 (35)
 Store target's guid in scripted instance this entity is located in.
 * **action_type**:
 SMART_ACTION_SET_INST_DATA64 (35)
@@ -2594,7 +2785,10 @@ fieldId
 `0`
 * **action_param6**:
 `0`
-#### UpdateTemplate (36)
+
+:::
+
+::: details UpdateTemplate (36)
 Updates creature template of target creature to given entry.
 Can set level from given creature entry.
 * **action_type**:
@@ -2611,7 +2805,10 @@ updateLevel? (`0`/`1`)
 `0`
 * **action_param6**:
 `0`
-#### Die (37)
+
+:::
+
+::: details Die (37)
 Creature suicides.
 * **action_type**:
 SMART_ACTION_DIE (37)
@@ -2627,7 +2824,10 @@ SMART_ACTION_DIE (37)
 `0`
 * **action_param6**:
 `0`
-#### SetInCombat (38)
+
+:::
+
+::: details SetInCombat (38)
 Creature engages all players in instanced map.
 * **action_type**:
 SMART_ACTION_SET_IN_COMBAT_WITH_ZONE (38)
@@ -2643,7 +2843,10 @@ SMART_ACTION_SET_IN_COMBAT_WITH_ZONE (38)
 `0`
 * **action_param6**:
 `0`
-#### CallForHelp (39)
+
+:::
+
+::: details CallForHelp (39)
 Allies in range start assisting creature. Must be in combat.
 * **action_type**:
 SMART_ACTION_CALL_FOR_HELP (39)
@@ -2661,7 +2864,10 @@ withEmote
 `0`
 * **action_param6**:
 `0`
-#### SetSheath (40)
+
+:::
+
+::: details SetSheath (40)
 Creature draws or puts away it's weapon.
 * **action_type**:
 SMART_ACTION_SET_SHEATH (40)
@@ -2678,7 +2884,10 @@ SMART_ACTION_SET_SHEATH (40)
 `0`
 * **action_param6**:
 `0`
-#### ForceDespawn (41)
+
+:::
+
+::: details ForceDespawn (41)
 Despawns target creatures / gameobjects.
 * **action_type**:
 SMART_ACTION_FORCE_DESPAWN (41)
@@ -2694,7 +2903,10 @@ forceRespawnTimer (in sec.) (`0`: default respawn)
 `0`
 * **action_param6**:
 `0`
-#### SetInvincibleHP (42)
+
+:::
+
+::: details SetInvincibleHP (42)
 Target creatures become damage immune below HP threshold.
 > Note: Percent value takes precedence over flat value.
 {.is-info}
@@ -2712,7 +2924,10 @@ percent HP (0 &ndash; 100)
 `0`
 * **action_param6**:
 `0`
-#### Mount (43)
+
+:::
+
+::: details Mount (43)
 Target creatures mount / dismount.
 > Note: creature entry takes precedence over DisplayID. If both are `0` the target dismounts.
 {.is-info}
@@ -2730,7 +2945,10 @@ SMART_ACTION_MOUNT_TO_ENTRY_OR_MODEL (43)
 `0`
 * **action_param6**:
 `0`
-#### SetGamePhase (44)
+
+:::
+
+::: details SetGamePhase (44)
 Set visibility phase mask of all targets.
 * **action_type**:
 SMART_ACTION_SET_INGAME_PHASE_MASK (44)
@@ -2746,7 +2964,10 @@ phaseMask
 `0`
 * **action_param6**:
 `0`
-#### SetData (45)
+
+:::
+
+::: details SetData (45)
 Store data in fieldId in AI enabled targets.
 * **action_type**:
 SMART_ACTION_SET_DATA (45)
@@ -2762,7 +2983,10 @@ data
 `0`
 * **action_param6**:
 `0`
-#### AttackStop (46)
+
+:::
+
+::: details AttackStop (46)
 Target creatures stop melee, spell casting during combat and victim chasing.
 * **action_type**:
 SMART_ACTION_ATTACK_STOP (46)
@@ -2778,7 +3002,10 @@ SMART_ACTION_ATTACK_STOP (46)
 `0`
 * **action_param6**:
 `0`
-#### SetVisibility (47)
+
+:::
+
+::: details SetVisibility (47)
 Set visibility of unit targets.
 * **action_type**:
 SMART_ACTION_SET_VISIBILITY (47)
@@ -2794,7 +3021,10 @@ visible? (`0`/`1`)
 `0`
 * **action_param6**:
 `0`
-#### SetActive (48)
+
+:::
+
+::: details SetActive (48)
 Enables/disables grid active for targets. (They update without a player being present)
 * **action_type**:
 SMART_ACTION_SET_ACTIVE (48)
@@ -2810,7 +3040,10 @@ active? (`0`/`1`)
 `0`
 * **action_param6**:
 `0`
-#### AttackStart (49)
+
+:::
+
+::: details AttackStart (49)
 Creature starts attacking random target.
 * **action_type**:
 SMART_ACTION_ATTACK_START (49)
@@ -2826,7 +3059,10 @@ SMART_ACTION_ATTACK_START (49)
 `0`
 * **action_param6**:
 `0`
-#### SummonObject (50)
+
+:::
+
+::: details SummonObject (50)
 Spawns Gameobject, use **target_type** to set spawn position.
 * **action_type**:
 SMART_ACTION_SUMMON_GO (50)
@@ -2840,14 +3076,17 @@ despawnTime (in sec.)
   |----|------|---------|
   | 0 | GO_SUMMON_TIMED_OR_CORPSE_DESPAWN | despawns after a specified time OR when the summoner dies |
   | 1 | GO_SUMMON_TIMED_DESPAWN | despawns after a specified time |
-  {.dense}
+
 * **action_param4**:
 `0`
 * **action_param5**:
 `0`
 * **action_param6**:
 `0`
-#### KillUnit (51)
+
+:::
+
+::: details KillUnit (51)
 Forces targets to suicide.
 * **action_type**:
 SMART_ACTION_KILL_UNIT (51)
@@ -2863,14 +3102,17 @@ SMART_ACTION_KILL_UNIT (51)
 `0`
 * **action_param6**:
 `0`
-#### ActivateTaxi (52)
+
+:::
+
+::: details ActivateTaxi (52)
 Sends target player to flight path.
 > Note: The player must not be in combat, stunned or rooted.
 {.is-info}
 * **action_type**:
 SMART_ACTION_ACTIVATE_TAXI (52)
 * **action_param1**:
-[TaxiPath ID](/files/DBC/335/taxipath#id)
+[TaxiPath ID](/files/DBC/335/taxipath#id-alt)
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -2881,23 +3123,29 @@ SMART_ACTION_ACTIVATE_TAXI (52)
 `0`
 * **action_param6**:
 `0`
-#### WaypointStart (53)
+
+:::
+
+::: details WaypointStart (53)
 Creature starts Waypoint Movement. Use waypoint_data table to create movement.
 * **action_type**:
 SMART_ACTION_WP_START (53)
 * **action_param1**:
 run? (`0`/`1`)
 * **action_param2**:
-[waypoint id](../world/waypoint_data#id)
+[waypoint id](../world/waypoint_data#id-alt)
 * **action_param3**:
 canRepeat? (`0`/`1`)
 * **action_param4**:
-Binds creature to [quest ID](../world/quest_template#id). It's objective is satisfied when the last waypoint is reached and failed when the creature is killed or the player is out of range.
+Binds creature to [quest ID](../world/quest_template#id-alt). It's objective is satisfied when the last waypoint is reached and failed when the creature is killed or the player is out of range.
 * **action_param5**:
 despawntime (in msec.)
 * **action_param6**:
 `0`
-#### WaypointPause (54)
+
+:::
+
+::: details WaypointPause (54)
 Creature pauses its Waypoint Movement for given time.
 * **action_type**:
 SMART_ACTION_WP_PAUSE (54)
@@ -2913,14 +3161,17 @@ time (in msec.)
 `0`
 * **action_param6**:
 `0`
-#### WaypointStop (55)
+
+:::
+
+::: details WaypointStop (55)
 Creature stops its Waypoint Movement.
 * **action_type**:
 SMART_ACTION_WP_STOP (55)
 * **action_param1**:
 despawnTime (in msec.)
 * **action_param2**:
-[quest ID](../world/quest_template#id)
+[quest ID](../world/quest_template#id-alt)
 * **action_param3**:
 failQuest?
   * 0: quest objective is satisfied
@@ -2933,7 +3184,10 @@ failQuest?
 `0`
 * **action_param6**:
 `0`
-#### AddItem (56)
+
+:::
+
+::: details AddItem (56)
 Adds count of item to target players.
 * **action_type**:
 SMART_ACTION_ADD_ITEM (56)
@@ -2949,7 +3203,10 @@ count
 `0`
 * **action_param6**:
 `0`
-#### RemoveItem (57)
+
+:::
+
+::: details RemoveItem (57)
 Removes count of item from target players.
 * **action_type**:
 SMART_ACTION_REMOVE_ITEM (57)
@@ -2965,7 +3222,10 @@ count
 `0`
 * **action_param6**:
 `0`
-#### UseAITemplate ⚠️&nbsp;(58)
+
+:::
+
+::: details UseAITemplate ⚠️ (58)
 > UNUSED, DO NOT REUSE
 {.is-warning}
 * **action_type**:
@@ -2982,7 +3242,10 @@ AITemplateID
 `0`
 * **action_param6**:
 `0`
-#### SetRun (59)
+
+:::
+
+::: details SetRun (59)
 Set if creature can run or must walk.
 * **action_type**:
 SMART_ACTION_SET_RUN (59)
@@ -2998,7 +3261,10 @@ enable? (`0`/`1`)
 `0`
 * **action_param6**:
 `0`
-#### DisableGravity (60)
+
+:::
+
+::: details DisableGravity (60)
 Enable/disable smooth aerial movement for creature.
 > Note: Only works for creatures with INHABIT_AIR (4).
 {.is-info}
@@ -3018,7 +3284,10 @@ disable
 `0`
 * **action_param6**:
 `0`
-#### SetSwim ⚠️&nbsp;(61)
+
+:::
+
+::: details SetSwim ⚠️ (61)
 > UNUSED, DO NOT REUSE
 {.is-warning}
 * **action_type**:
@@ -3035,12 +3304,15 @@ SMART_ACTION_SET_SWIM (61)
 `0`
 * **action_param6**:
 `0`
-#### Teleport (62)
+
+:::
+
+::: details Teleport (62)
 Teleport targets to World Position set in the same target definition.
 * **action_type**:
 SMART_ACTION_TELEPORT (62)
 * **action_param1**:
-[Map ID](/files/DBC/335/map#id)
+[Map ID](/files/DBC/335/map#id-alt)
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -3051,7 +3323,10 @@ SMART_ACTION_TELEPORT (62)
 `0`
 * **action_param6**:
 `0`
-#### SetCounter (63)
+
+:::
+
+::: details SetCounter (63)
 Store value in counterId in SAI enabled targets.
 > Note: SMART_EVENT_COUNTER_SET (77) is triggered.
 {.is-info}
@@ -3071,7 +3346,10 @@ reset
 `0`
 * **action_param6**:
 `0`
-#### StoreTargets (64)
+
+:::
+
+::: details StoreTargets (64)
 Store selected targets in varID for later use.
 * **action_type**:
 SMART_ACTION_STORE_TARGET_LIST (64)
@@ -3087,7 +3365,10 @@ varID
 `0`
 * **action_param6**:
 `0`
-#### WaypointResume (65)
+
+:::
+
+::: details WaypointResume (65)
 Creature continues paused Waypoint Movement.
 * **action_type**:
 SMART_ACTION_WP_RESUME (65)
@@ -3103,7 +3384,10 @@ SMART_ACTION_WP_RESUME (65)
 `0`
 * **action_param6**:
 `0`
-#### SetOrientation (66)
+
+:::
+
+::: details SetOrientation (66)
 Creature turns in a given direction, depending on **target_type**.
 * SMART_TARGET_SELF (1): 
   * orientation of Home Position
@@ -3127,7 +3411,10 @@ SMART_ACTION_SET_ORIENTATION (66)
 `0`
 * **action_param6**:
 `0`
-#### NewTimedEvent (67)
+
+:::
+
+::: details NewTimedEvent (67)
 Similar to SMART_ACTION_TRIGGER_TIMED_EVENT (73) but delayed and optionally repeatable.
 > Note: SMART_EVENT_TIMED_EVENT_TRIGGERED (77) will be triggered.
 {.is-info}
@@ -3145,7 +3432,10 @@ RepeatMin (`0`: no repeat; in msec.)
 RepeatMax (`0`: no repeat; in msec.)
 * **action_param6**:
 chance (`0`: 100%)
-#### PlayMovie (68)
+
+:::
+
+::: details PlayMovie (68)
 Play movie for target players.
 * **action_type**:
 SMART_ACTION_PLAYMOVIE (68)
@@ -3161,7 +3451,10 @@ MovieID
 `0`
 * **action_param6**:
 `0`
-#### MoveToPos (69)
+
+:::
+
+::: details MoveToPos (69)
 Move to target Entity or target World Position.
 > Note: SMART_EVENT_MOVEMENTINFORM (34) is triggered.
 {.is-info}
@@ -3179,7 +3472,10 @@ ContactDistance
 `0`
 * **action_param6**:
 `0`
-#### EnableTmpObject (70)
+
+:::
+
+::: details EnableTmpObject (70)
 Enable target Gameobjects, not spawned by default.
 * **action_type**:
 SMART_ACTION_ENABLE_TEMP_GOBJ (70)
@@ -3195,13 +3491,16 @@ respawn time (in sec.)
 `0`
 * **action_param6**:
 `0`
-#### EquipItem (71)
+
+:::
+
+::: details EquipItem (71)
 Set equipment on target creatures.
 Slots 1 &ndash; 3 item entries are only used if no equipment ID is set.
 * **action_type**:
 SMART_ACTION_EQUIP (71)
 * **action_param1**:
-[equipment ID](../world/creature_equip_template#id)
+[equipment ID](../world/creature_equip_template#id-alt)
 * **action_param2**:
 slotmask (`0`: 0x7)
 Only slots matching the slotmask are equipped.
@@ -3213,7 +3512,10 @@ left hand slot (2) [item entry](../world/item_template#entry)
 ranged slot (3) [item entry](../world/item_template#entry)
 * **action_param6**:
 `0`
-#### CloseGossip (72)
+
+:::
+
+::: details CloseGossip (72)
 Closes open gossip window.
 * **action_type**:
 SMART_ACTION_CLOSE_GOSSIP (72)
@@ -3229,7 +3531,10 @@ SMART_ACTION_CLOSE_GOSSIP (72)
 `0`
 * **action_param6**:
 `0`
-#### TriggerTimedEvent (73)
+
+:::
+
+::: details TriggerTimedEvent (73)
 > Note: SMART_EVENT_TIMED_EVENT_TRIGGERED (77) is triggered.
 {.is-info}
 * **action_type**:
@@ -3246,7 +3551,10 @@ id
 `0`
 * **action_param6**:
 `0`
-#### RemoveTimedEvent (74)
+
+:::
+
+::: details RemoveTimedEvent (74)
 Delete scheduled Timed Event with id.
 * **action_type**:
 SMART_ACTION_REMOVE_TIMED_EVENT (74)
@@ -3262,7 +3570,10 @@ id
 `0`
 * **action_param6**:
 `0`
-#### AddAura ⚠️&nbsp;(75)
+
+:::
+
+::: details AddAura ⚠️ (75)
 Add aura to target units.
 > UNUSED, DO NOT REUSE
 {.is-warning}
@@ -3280,7 +3591,10 @@ SMART_ACTION_ADD_AURA (75)
 `0`
 * **action_param6**:
 `0`
-#### OverrideScript ⚠️&nbsp;(76)
+
+:::
+
+::: details OverrideScript ⚠️ (76)
 > UNUSED, DO NOT REUSE
 {.is-warning}
 * **action_type**:
@@ -3297,7 +3611,10 @@ SMART_ACTION_OVERRIDE_SCRIPT_BASE_OBJECT (76)
 `0`
 * **action_param6**:
 `0`
-#### ResetScript ⚠️&nbsp;(77)
+
+:::
+
+::: details ResetScript ⚠️ (77)
 > UNUSED, DO NOT REUSE
 {.is-warning}
 * **action_type**:
@@ -3314,7 +3631,10 @@ SMART_ACTION_RESET_SCRIPT_BASE_OBJECT (77)
 `0`
 * **action_param6**:
 `0`
-#### ScriptReset (78)
+
+:::
+
+::: details ScriptReset (78)
 Reset this creature / gameobject.
 > Note: SMART_EVENT_RESET (25) is triggered.
 {.is-info}
@@ -3332,7 +3652,10 @@ SMART_ACTION_CALL_SCRIPT_RESET (78)
 `0`
 * **action_param6**:
 `0`
-#### SetRangedMove (79)
+
+:::
+
+::: details SetRangedMove (79)
 Sets attack distance and angle for SAI enabled target creatures currenctly in combat.
 * **action_type**:
 SMART_ACTION_SET_RANGED_MOVEMENT (79)
@@ -3348,7 +3671,10 @@ attackAngle
 `0`
 * **action_param6**:
 `0`
-#### StartTimedAction (80)
+
+:::
+
+::: details StartTimedAction (80)
 Start TimedActionList on SAI enabled targets.
 * **action_type**:
 SMART_ACTION_CALL_TIMED_ACTIONLIST (80)
@@ -3368,7 +3694,10 @@ Determines if an already active TimedActionList can be overridden.
 `0`
 * **action_param6**:
 `0`
-#### SetNpcFlag (81)
+
+:::
+
+::: details SetNpcFlag (81)
 Replace npcflags on target creature.
 * **action_type**:
 SMART_ACTION_SET_NPC_FLAG (81)
@@ -3384,7 +3713,10 @@ SMART_ACTION_SET_NPC_FLAG (81)
 `0`
 * **action_param6**:
 `0`
-#### AddNpcFlag (82)
+
+:::
+
+::: details AddNpcFlag (82)
 Add npcflags to target creatures.
 * **action_type**:
 SMART_ACTION_ADD_NPC_FLAG (82)
@@ -3400,7 +3732,10 @@ SMART_ACTION_ADD_NPC_FLAG (82)
 `0`
 * **action_param6**:
 `0`
-#### RemoveNpcFlag (83)
+
+:::
+
+::: details RemoveNpcFlag (83)
 Remove npcflags from target creatures.
 * **action_type**:
 SMART_ACTION_REMOVE_NPC_FLAG (83)
@@ -3416,7 +3751,10 @@ SMART_ACTION_REMOVE_NPC_FLAG (83)
 `0`
 * **action_param6**:
 `0`
-#### SimpleTalk (84)
+
+:::
+
+::: details SimpleTalk (84)
 Target units will say the text.
 > Note: SMART_EVENT_TEXT_OVER (52) is **not** triggered.
 {.is-warning}
@@ -3434,12 +3772,15 @@ SMART_ACTION_SIMPLE_TALK (84)
 `0`
 * **action_param6**:
 `0`
-#### SelfCastSpell (85)
+
+:::
+
+::: details SelfCastSpell (85)
 The targets will cast the spell on themselves.
 * **action_type**:
 SMART_ACTION_SELF_CAST (85)
 * **action_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **action_param2**:  
   <!--@include: @/partial/335/smart-cast-flags.md-->
 
@@ -3452,14 +3793,17 @@ maxTargets (`0`: all targets)
 `0`
 * **action_param6**:
 `0`
-#### CrossCastSpell (86)
+
+:::
+
+::: details CrossCastSpell (86)
 CasterTarget will cast Spell ID on all (regular) targets.
 > Use with caution when targeting multiple * multiple units.
 {.is-warning}
 * **action_type**:
 SMART_ACTION_CROSS_CAST (86)
 * **action_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **action_param2**:  
   <!--@include: @/partial/335/smart-cast-flags.md-->
 
@@ -3471,7 +3815,10 @@ caster_**target_param1**
 caster_**target_param2**
 * **action_param6**:
 caster_**target_param3**
-#### RandTimedAction (87)
+
+:::
+
+::: details RandTimedAction (87)
 Start random (**entryorguid** > 0) TimedActionList on SAI enabled targets.
 * **action_type**:
 SMART_ACTION_CALL_RANDOM_TIMED_ACTIONLIST (87)
@@ -3487,7 +3834,10 @@ SMART_ACTION_CALL_RANDOM_TIMED_ACTIONLIST (87)
 **entryorguid** #5
 * **action_param6**:
 **entryorguid** #6
-#### RandRangeTimedAction (88)
+
+:::
+
+::: details RandRangeTimedAction (88)
 Start random (min <= **entryorguid** <= max) TimedActionList on SAI enabled targets.
 * **action_type**:
 SMART_ACTION_CALL_RANDOM_RANGE_TIMED_ACTIONLIST (88)
@@ -3503,7 +3853,10 @@ max. **entryorguid**
 `0`
 * **action_param6**:
 `0`
-#### RandomMove (89)
+
+:::
+
+::: details RandomMove (89)
 Target creatures move maxDist in random direction. If no target was found, this creature moves instead.
 * **action_type**:
 SMART_ACTION_RANDOM_MOVE (89)
@@ -3519,7 +3872,10 @@ maxDist (`0`: use idle movement)
 `0`
 * **action_param6**:
 `0`
-#### SetUnitBytes (90)
+
+:::
+
+::: details SetUnitBytes (90)
 Set BYTES_1 for target units at given offset.
 * **action_type**:
 SMART_ACTION_SET_UNIT_FIELD_BYTES_1 (90)
@@ -3538,7 +3894,10 @@ offset
 `0`
 * **action_param6**:
 `0`
-#### RemoveUnitBytes (91)
+
+:::
+
+::: details RemoveUnitBytes (91)
 Reset BYTES_1 for target units at given offset.
 * **action_type**:
 SMART_ACTION_REMOVE_UNIT_FIELD_BYTES_1 (91)
@@ -3557,7 +3916,10 @@ offset
 `0`
 * **action_param6**:
 `0`
-#### InterruptSpell (92)
+
+:::
+
+::: details InterruptSpell (92)
 Interrupt the current spell being cast by target.
 Without Spell ID, the core will find the current spell depending on withDelay and withInstant.
 * **action_type**:
@@ -3565,7 +3927,7 @@ SMART_ACTION_INTERRUPT_SPELL (92)
 * **action_param1**:
 withDelayed? (`0`/`1`)
 * **action_param2**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **action_param3**:
 withInstant? (`0`/`1`)
 * **action_param4**:
@@ -3574,7 +3936,10 @@ withInstant? (`0`/`1`)
 `0`
 * **action_param6**:
 `0`
-#### AnimateObject ⚠️&nbsp;(93)
+
+:::
+
+::: details AnimateObject ⚠️ (93)
 > UNUSED, DO NOT REUSE
 {.is-warning}
 * **action_type**:
@@ -3591,7 +3956,10 @@ SMART_ACTION_SEND_GO_CUSTOM_ANIM (93)
 `0`
 * **action_param6**:
 `0`
-#### SetDynFlag ⚠️&nbsp;(94)
+
+:::
+
+::: details SetDynFlag ⚠️ (94)
 > UNUSED, DO NOT REUSE
 {.is-warning}
 * **action_type**:
@@ -3608,7 +3976,10 @@ SMART_ACTION_SET_DYNAMIC_FLAG (94)
 `0`
 * **action_param6**:
 `0`
-#### AddDynFlag ⚠️&nbsp;(95)
+
+:::
+
+::: details AddDynFlag ⚠️ (95)
 > UNUSED, DO NOT REUSE
 {.is-warning}
 * **action_type**:
@@ -3625,7 +3996,10 @@ SMART_ACTION_ADD_DYNAMIC_FLAG (95)
 `0`
 * **action_param6**:
 `0`
-#### RemoveDynFlag ⚠️&nbsp;(96)
+
+:::
+
+::: details RemoveDynFlag ⚠️ (96)
 > UNUSED, DO NOT REUSE
 {.is-warning}
 * **action_type**:
@@ -3642,7 +4016,10 @@ SMART_ACTION_REMOVE_DYNAMIC_FLAG (96)
 `0`
 * **action_param6**:
 `0`
-#### JumpToPos (97)
+
+:::
+
+::: details JumpToPos (97)
 Target creatures jump to World Position set in the same target definition. Speed* describes the jump arc.
 * **action_type**:
 SMART_ACTION_JUMP_TO_POS (97)
@@ -3658,7 +4035,10 @@ speedZ
 `0`
 * **action_param6**:
 `0`
-#### SendGossip (98)
+
+:::
+
+::: details SendGossip (98)
 Open gossip menu to target players. Can be used together with SMART_EVENT_GOSSIP_HELLO (64) to set custom gossip.
 * **action_type**:
 SMART_ACTION_SEND_GOSSIP_MENU (98)
@@ -3674,7 +4054,10 @@ SMART_ACTION_SEND_GOSSIP_MENU (98)
 `0`
 * **action_param6**:
 `0`
-#### SetLootState (99)
+
+:::
+
+::: details SetLootState (99)
 Set loot state of target gameobjects.
 * **action_type**:
 SMART_ACTION_GO_SET_LOOT_STATE (99)
@@ -3691,7 +4074,10 @@ SMART_ACTION_GO_SET_LOOT_STATE (99)
 `0`
 * **action_param6**:
 `0`
-#### SendTargets (100)
+
+:::
+
+::: details SendTargets (100)
 Send targets previously stored with SMART_ACTION_STORE_TARGET_LIST (64), to target creatures / gameobjects.
 The other entities can then access them as if it was their own stored list.
 * **action_type**:
@@ -3708,7 +4094,10 @@ varId
 `0`
 * **action_param6**:
 `0`
-#### SetHomePos (101)
+
+:::
+
+::: details SetHomePos (101)
 Set Home Position of target creatures.
 If **target_type** is SMART_TARGET_POSITION (8) Home Position is the World Position defined in target, otherwise it's the creatures current position. 
 * **action_type**:
@@ -3725,7 +4114,10 @@ SMART_ACTION_SET_HOME_POS (101)
 `0`
 * **action_param6**:
 `0`
-#### SetHealthRegen (102)
+
+:::
+
+::: details SetHealthRegen (102)
 Enable/Disable health regeneration for target creatures.
 * **action_type**:
 SMART_ACTION_SET_HEALTH_REGEN (102)
@@ -3741,7 +4133,10 @@ enable? (`0`/`1`)
 `0`
 * **action_param6**:
 `0`
-#### SetRoot (103)
+
+:::
+
+::: details SetRoot (103)
 Root/Unroot target creatures.
 * **action_type**:
 SMART_ACTION_SET_ROOT (103)
@@ -3757,7 +4152,10 @@ enable? (`0`/`1`)
 `0`
 * **action_param6**:
 `0`
-#### SetGoFlag ⚠️&nbsp;(104)
+
+:::
+
+::: details SetGoFlag ⚠️ (104)
 > UNUSED, DO NOT REUSE
 {.is-warning}
 * **action_type**:
@@ -3774,7 +4172,10 @@ SMART_ACTION_SET_GO_FLAG (104)
 `0`
 * **action_param6**:
 `0`
-#### AddGoFlag ⚠️&nbsp;(105)
+
+:::
+
+::: details AddGoFlag ⚠️ (105)
 > UNUSED, DO NOT REUSE
 {.is-warning}
 * **action_type**:
@@ -3791,7 +4192,10 @@ SMART_ACTION_ADD_GO_FLAG (105)
 `0`
 * **action_param6**:
 `0`
-#### RemoveGoFlag ⚠️&nbsp;(106)
+
+:::
+
+::: details RemoveGoFlag ⚠️ (106)
 > UNUSED, DO NOT REUSE
 {.is-warning}
 * **action_type**:
@@ -3808,7 +4212,10 @@ SMART_ACTION_REMOVE_GO_FLAG (106)
 `0`
 * **action_param6**:
 `0`
-#### SpawnCreatureGrp (107)
+
+:::
+
+::: details SpawnCreatureGrp (107)
 Summon a predefined creature group, attacking event invoker. 
 * **action_type**:
 SMART_ACTION_SUMMON_CREATURE_GROUP (107)
@@ -3824,7 +4231,10 @@ attackInvoker? (`0`/`1`)
 `0`
 * **action_param6**:
 `0`
-#### SetPower (108)
+
+:::
+
+::: details SetPower (108)
 Set power of target units to given amount.
 * **action_type**:
 SMART_ACTION_SET_POWER (108)
@@ -3840,7 +4250,10 @@ amount
 `0`
 * **action_param6**:
 `0`
-#### AddPower (109)
+
+:::
+
+::: details AddPower (109)
 Add given amount of power to target units.
 * **action_type**:
 SMART_ACTION_ADD_POWER (109)
@@ -3856,7 +4269,10 @@ amount
 `0`
 * **action_param6**:
 `0`
-#### RemovePower (110)
+
+:::
+
+::: details RemovePower (110)
 Remove given amount of power from target units.
 * **action_type**:
 SMART_ACTION_REMOVE_POWER (110)
@@ -3872,7 +4288,10 @@ amount
 `0`
 * **action_param6**:
 `0`
-#### GameEventStop (111)
+
+:::
+
+::: details GameEventStop (111)
 Stop currently active game event.
 * **action_type**:
 SMART_ACTION_GAME_EVENT_STOP (111)
@@ -3888,7 +4307,10 @@ SMART_ACTION_GAME_EVENT_STOP (111)
 `0`
 * **action_param6**:
 `0`
-#### GameEventStart (112)
+
+:::
+
+::: details GameEventStart (112)
 Start currently inactive game event.
 * **action_type**:
 SMART_ACTION_GAME_EVENT_START (112)
@@ -3904,23 +4326,29 @@ SMART_ACTION_GAME_EVENT_START (112)
 `0`
 * **action_param6**:
 `0`
-#### StartClosestWP (113)
+
+:::
+
+::: details StartClosestWP (113)
 Make target creatures follow the provided path closest to its location.
 * **action_type**:
 SMART_ACTION_START_CLOSEST_WAYPOINT (113)
 * **action_param1**:
-[waypoint id](../world/waypoint_data#id) #1
+[waypoint id](../world/waypoint_data#id-alt) #1
 * **action_param2**:
-[waypoint id](../world/waypoint_data#id) #2
+[waypoint id](../world/waypoint_data#id-alt) #2
 * **action_param3**:
-[waypoint id](../world/waypoint_data#id) #3
+[waypoint id](../world/waypoint_data#id-alt) #3
 * **action_param4**:
-[waypoint id](../world/waypoint_data#id) #4
+[waypoint id](../world/waypoint_data#id-alt) #4
 * **action_param5**:
-[waypoint id](../world/waypoint_data#id) #5
+[waypoint id](../world/waypoint_data#id-alt) #5
 * **action_param6**:
-[waypoint id](../world/waypoint_data#id) #6
-#### MoveOffset (114)
+[waypoint id](../world/waypoint_data#id-alt) #6
+
+:::
+
+::: details MoveOffset (114)
 Target creatures move to World Position offset set in the same target definition.
 * **action_type**:
 SMART_ACTION_MOVE_OFFSET (114)
@@ -3936,18 +4364,21 @@ SMART_ACTION_MOVE_OFFSET (114)
 `0`
 * **action_param6**:
 `0`
-#### RandomSound (115)
+
+:::
+
+::: details RandomSound (115)
 Target units play a random sound entry from list.
 * **action_type**:
 SMART_ACTION_RANDOM_SOUND (115)
 * **action_param1**:
-[SoundEntry ID](/files/DBC/335/soundentries#id) #1
+[SoundEntry ID](/files/DBC/335/soundentries#id-alt) #1
 * **action_param2**:
-[SoundEntry ID](/files/DBC/335/soundentries#id) #2
+[SoundEntry ID](/files/DBC/335/soundentries#id-alt) #2
 * **action_param3**:
-[SoundEntry ID](/files/DBC/335/soundentries#id) #3
+[SoundEntry ID](/files/DBC/335/soundentries#id-alt) #3
 * **action_param4**:
-[SoundEntry ID](/files/DBC/335/soundentries#id) #4
+[SoundEntry ID](/files/DBC/335/soundentries#id-alt) #4
 * **action_param5**:
 onlySelf
   * 0: heard by all players in visibility range
@@ -3956,7 +4387,10 @@ onlySelf
 distanceSound
   * 0: uses WorldObject::PlayDirectSound()
   * 1: uses WorldObject::PlayDistanceSound()
-#### SetCorpseDelay (116)
+
+:::
+
+::: details SetCorpseDelay (116)
 Set corpse despawn for target creatures.
 * **action_type**:
 SMART_ACTION_SET_CORPSE_DELAY (116)
@@ -3972,7 +4406,10 @@ includeDecayRatio? (`0`/`1`)
 `0`
 * **action_param6**:
 `0`
-#### DisableEvade (117)
+
+:::
+
+::: details DisableEvade (117)
 Disable/Enable evade mode for this creature.
 * **action_type**:
 SMART_ACTION_DISABLE_EVADE (117)
@@ -3988,7 +4425,10 @@ disabled? (`0`/`1`)
 `0`
 * **action_param6**:
 `0`
-#### SetGoState (118)
+
+:::
+
+::: details SetGoState (118)
 Set state of target gameobjects.
 * **action_type**:
 SMART_ACTION_GO_SET_GO_STATE (118)
@@ -3999,7 +4439,7 @@ SMART_ACTION_GO_SET_GO_STATE (118)
   | 0 | GO_STATE_ACTIVE | show in world as used and not reset (closed door open) |
   | 1 | GO_STATE_READY | show in world as ready (closed door close) |
   | 2 | GO_STATE_DESTROYED | show the object in-game as already used and not yet reset (e.g. door opened by a cannon blast) |
-  {.dense}
+
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -4010,7 +4450,10 @@ SMART_ACTION_GO_SET_GO_STATE (118)
 `0`
 * **action_param6**:
 `0`
-#### SetCanFly ⚠️&nbsp;(119)
+
+:::
+
+::: details SetCanFly ⚠️ (119)
 > UNUSED, DO NOT REUSE
 {.is-warning}
 * **action_type**:
@@ -4027,7 +4470,10 @@ SMART_ACTION_SET_CAN_FLY (119)
 `0`
 * **action_param6**:
 `0`
-#### RemoveAuraType ⚠️&nbsp;(120)
+
+:::
+
+::: details RemoveAuraType ⚠️ (120)
 > UNUSED, DO NOT REUSE
 {.is-warning}
 * **action_type**:
@@ -4044,7 +4490,10 @@ SMART_ACTION_REMOVE_AURAS_BY_TYPE (120)
 `0`
 * **action_param6**:
 `0`
-#### SetSightDist ⚠️&nbsp;(121)
+
+:::
+
+::: details SetSightDist ⚠️ (121)
 > UNUSED, DO NOT REUSE
 {.is-warning}
 * **action_type**:
@@ -4061,7 +4510,10 @@ SMART_ACTION_SET_SIGHT_DIST (121)
 `0`
 * **action_param6**:
 `0`
-#### Flee ⚠️&nbsp;(122)
+
+:::
+
+::: details Flee ⚠️ (122)
 > UNUSED, DO NOT REUSE
 {.is-warning}
 * **action_type**:
@@ -4078,7 +4530,10 @@ SMART_ACTION_FLEE (122)
 `0`
 * **action_param6**:
 `0`
-#### AddThreat (123)
+
+:::
+
+::: details AddThreat (123)
 Change own threat amount against target units.
 * **action_type**:
 SMART_ACTION_ADD_THREAT (123)
@@ -4094,12 +4549,15 @@ flat decrease
 `0`
 * **action_param6**:
 `0`
-#### LoadEquipment (124)
+
+:::
+
+::: details LoadEquipment (124)
 Load equipment on target creatures.
 * **action_type**:
 SMART_ACTION_LOAD_EQUIPMENT (124)
 * **action_param1**:
-[equipment ID](../world/creature_equip_template#id)
+[equipment ID](../world/creature_equip_template#id-alt)
 * **action_param2**:
 forceUnequip? (`0`/`1`)
 * **action_param3**:
@@ -4110,7 +4568,10 @@ forceUnequip? (`0`/`1`)
 `0`
 * **action_param6**:
 `0`
-#### TriggerRndTimedEvent (125)
+
+:::
+
+::: details TriggerRndTimedEvent (125)
 Trigger random (min <= id <= max) Timed Event.
 > Note: SMART_EVENT_TIMED_EVENT_TRIGGERED (77) is triggered.
 {.is-info}
@@ -4128,7 +4589,10 @@ max. id
 `0`
 * **action_param6**:
 `0`
-#### RemoveAllObjects ⚠️&nbsp;(126)
+
+:::
+
+::: details RemoveAllObjects ⚠️ (126)
 > UNUSED, DO NOT REUSE
 {.is-warning}
 * **action_type**:
@@ -4145,7 +4609,10 @@ SMART_ACTION_REMOVE_ALL_GAMEOBJECTS (126)
 `0`
 * **action_param6**:
 `0`
-#### PauseMovement (127)
+
+:::
+
+::: details PauseMovement (127)
 Target units pause movement caused by given movement slot.
 * **action_type**:
 SMART_ACTION_PAUSE_MOVEMENT (127)
@@ -4163,7 +4630,10 @@ force? (`0`/`1`)
 `0`
 * **action_param6**:
 `0`
-#### PlayAnimkit ❌&nbsp;(128)
+
+:::
+
+::: details PlayAnimkit ❌ (128)
 > don't use on 3.3.5a
 {.is-danger}
 * **action_type**:
@@ -4180,7 +4650,10 @@ SMART_ACTION_PLAY_ANIMKIT (128)
 `0`
 * **action_param6**:
 `0`
-#### ScenePlay ❌&nbsp;(129)
+
+:::
+
+::: details ScenePlay ❌ (129)
 > don't use on 3.3.5a
 {.is-danger}
 * **action_type**:
@@ -4197,7 +4670,10 @@ SMART_ACTION_SCENE_PLAY (129)
 `0`
 * **action_param6**:
 `0`
-#### SceneCancel ❌&nbsp;(130)
+
+:::
+
+::: details SceneCancel ❌ (130)
 > don't use on 3.3.5a
 {.is-danger}
 * **action_type**:
@@ -4214,7 +4690,10 @@ SMART_ACTION_SCENE_CANCEL (130)
 `0`
 * **action_param6**:
 `0`
-#### SpawnSpawngroup (131)
+
+:::
+
+::: details SpawnSpawngroup (131)
 Spawn predefined group of creatures.
 * **action_type**:
 SMART_ACTION_SPAWN_SPAWNGROUP (131)
@@ -4231,7 +4710,10 @@ maxDelay (in sec.)
 `0`
 * **action_param6**:
 `0`
-#### DespawnSpawngroup (132)
+
+:::
+
+::: details DespawnSpawngroup (132)
 Despawn predefined group of creatures.
 * **action_type**:
 SMART_ACTION_DESPAWN_SPAWNGROUP (132)
@@ -4248,7 +4730,10 @@ maxDelay (in sec.)
 `0`
 * **action_param6**:
 `0`
-#### RespawnUnit (133)
+
+:::
+
+::: details RespawnUnit (133)
 Respawn a single creature / gameobject. 
 * **action_type**:
 SMART_ACTION_RESPAWN_BY_SPAWNID (133)
@@ -4266,12 +4751,15 @@ guid
 `0`
 * **action_param6**:
 `0`
-#### InvokerCastSpell (134)
+
+:::
+
+::: details InvokerCastSpell (134)
 Last invoker will cast spell ID with castFlags on target units.
 * **action_type**:
 SMART_ACTION_INVOKER_CAST (134)
 * **action_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **action_param2**:  
   <!--@include: @/partial/335/smart-cast-flags.md-->
 
@@ -4284,12 +4772,15 @@ maxTargets (`0`: all)
 `0`
 * **action_param6**:
 `0`
-#### PlayCinematic (135)
+
+:::
+
+::: details PlayCinematic (135)
 Play cinematic for target players.
 * **action_type**:
 SMART_ACTION_PLAY_CINEMATIC (135)
 * **action_param1**:
-[CinematicSequence ID](/files/DBC/335/cinematicsequences#id)
+[CinematicSequence ID](/files/DBC/335/cinematicsequences#id-alt)
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -4300,7 +4791,10 @@ SMART_ACTION_PLAY_CINEMATIC (135)
 `0`
 * **action_param6**:
 `0`
-#### SetSpeed (136)
+
+:::
+
+::: details SetSpeed (136)
 Set movement speed of target creatures.
 * **action_type**:
 SMART_ACTION_SET_MOVEMENT_SPEED (136)
@@ -4317,13 +4811,16 @@ speedFraction
 `0`
 * **action_param6**:
 `0`
-#### PlaySpellVisual ❌&nbsp;(137)
+
+:::
+
+::: details PlaySpellVisual ❌ (137)
 > RESERVED, PENDING CHERRYPICK
 {.is-danger}
 * **action_type**:
 SMART_ACTION_PLAY_SPELL_VISUAL_KIT (137)
 * **action_param1**:
-[SpellVisualKit ID](/files/DBC/335/spellvisualkit#id)
+[SpellVisualKit ID](/files/DBC/335/spellvisualkit#id-alt)
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -4334,30 +4831,36 @@ SMART_ACTION_PLAY_SPELL_VISUAL_KIT (137)
 `0`
 * **action_param6**:
 `0`
-#### OverrideLight (138)
+
+:::
+
+::: details OverrideLight (138)
 Override skybox visual in area.
 * **action_type**:
 SMART_ACTION_OVERRIDE_LIGHT (138)
 * **action_param1**:
-[AreaTable ID](/files/DBC/335/areatable#id)
+[AreaTable ID](/files/DBC/335/areatable#id-alt)
 * **action_param2**:
-area [Light ID](/files/DBC/335/light#id)
+area [Light ID](/files/DBC/335/light#id-alt)
 * **action_param3**:
-new [Light ID](/files/DBC/335/light#id)
+new [Light ID](/files/DBC/335/light#id-alt)
 * **action_param4**:
 fadeIn time (in msec.)
 * **action_param5**:
 `0`
 * **action_param6**:
 `0`
-#### OverrideWeather (139)
+
+:::
+
+::: details OverrideWeather (139)
 Override weather in area.
 * **action_type**:
 SMART_ACTION_OVERRIDE_WEATHER (139)
 * **action_param1**:
-[AreaTable ID](/files/DBC/335/areatable#id)
+[AreaTable ID](/files/DBC/335/areatable#id-alt)
 * **action_param2**:
-[Weather ID](/files/DBC/335/weather#id)
+[Weather ID](/files/DBC/335/weather#id-alt)
 * **action_param3**:
 intensity (`0`: low; `1`: full)
 * **action_param4**:
@@ -4366,7 +4869,10 @@ intensity (`0`: low; `1`: full)
 `0`
 * **action_param6**:
 `0`
-#### SetAIAnim ❌&nbsp;(140)
+
+:::
+
+::: details SetAIAnim ❌ (140)
 > DEPRECATED, DO REUSE
 {.is-danger}
 * **action_type**:
@@ -4383,7 +4889,10 @@ SMART_ACTION_SET_AI_ANIM_KIT (140)
 `0`
 * **action_param6**:
 `0`
-#### SetHover (141)
+
+:::
+
+::: details SetHover (141)
 Enable/Disable hover for target units.
 * **action_type**:
 SMART_ACTION_SET_HOVER (141)
@@ -4399,7 +4908,10 @@ enable? (`0`/`1`)
 `0`
 * **action_param6**:
 `0`
-#### SetHealthPct (142)
+
+:::
+
+::: details SetHealthPct (142)
 Set current health percentage of target units.
 * **action_type**:
 SMART_ACTION_SET_HEALTH_PCT (142)
@@ -4415,7 +4927,10 @@ percent
 `0`
 * **action_param6**:
 `0`
-#### CreateConvers. ❌&nbsp;(143)
+
+:::
+
+::: details CreateConvers. ❌ (143)
 > don't use on 3.3.5a
 {.is-danger}
 * **action_type**:
@@ -4432,7 +4947,10 @@ SMART_ACTION_CREATE_CONVERSATION (143)
 `0`
 * **action_param6**:
 `0`
-#### SetImmunePC (144)
+
+:::
+
+::: details SetImmunePC (144)
 Enable/Disable immunity to players of target units.
 * **action_type**:
 SMART_ACTION_SET_IMMUNE_PC (144)
@@ -4448,7 +4966,10 @@ enable? (`0`/`1`)
 `0`
 * **action_param6**:
 `0`
-#### SetImmuneNPC (145)
+
+:::
+
+::: details SetImmuneNPC (145)
 Enable/Disable immunity to creatures of target units.
 * **action_type**:
 SMART_ACTION_SET_IMMUNE_NPC (145)
@@ -4464,7 +4985,10 @@ enable? (`0`/`1`)
 `0`
 * **action_param6**:
 `0`
-#### SetUninteractible (146)
+
+:::
+
+::: details SetUninteractible (146)
 Make/Reset target units uninteractible.
 * **action_type**:
 SMART_ACTION_SET_UNINTERACTIBLE (146)
@@ -4480,7 +5004,10 @@ enable? (`0`/`1`)
 `0`
 * **action_param6**:
 `0`
-#### ActivateGObject (147)
+
+:::
+
+::: details ActivateGObject (147)
 Activate target gameobjects, using given action.
 * **action_type**:
 SMART_ACTION_ACTIVATE_GAMEOBJECT (147)
@@ -4511,7 +5038,7 @@ SMART_ACTION_ACTIVATE_GAMEOBJECT (147)
   | 21 | UseArtKit2 | Use ArtKit2 |
   | 22 | UseArtKit3 | Use ArtKit3 |
   | 23 | SetTapList | Set Tap List |
-  {.dense}
+
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -4522,7 +5049,10 @@ SMART_ACTION_ACTIVATE_GAMEOBJECT (147)
 `0`
 * **action_param6**:
 `0`
-#### AddStoredTargets (148)
+
+:::
+
+::: details AddStoredTargets (148)
 Add selected targets to varID for later use.
 * **action_type**:
 SMART_ACTION_ADD_TO_STORED_TARGET_LIST (148)
@@ -4538,7 +5068,10 @@ varID
 `0`
 * **action_param6**:
 `0`
-#### BecomeClone ❌&nbsp;(149)
+
+:::
+
+::: details BecomeClone ❌ (149)
 > don't use on 3.3.5a
 {.is-danger}
 * **action_type**:
@@ -4555,7 +5088,10 @@ SMART_ACTION_BECOME_PERSONAL_CLONE_FOR_PLAYER (149)
 `0`
 * **action_param6**:
 `0`
-#### TriggerGameEvent ❌&nbsp;(150)
+
+:::
+
+::: details TriggerGameEvent ❌ (150)
 > RESERVED, PENDING CHERRYPICK
 {.is-danger}
 * **action_type**:
@@ -4572,7 +5108,10 @@ useSaiTargetAsGameEventSource
 `0`
 * **action_param6**:
 `0`
-#### DoAction ❌&nbsp;(151)
+
+:::
+
+::: details DoAction ❌ (151)
 > RESERVED, PENDING CHERRYPICK
 {.is-danger}
 * **action_type**:
@@ -4589,7 +5128,10 @@ actionId
 `0`
 * **action_param6**:
 `0`
-#### CompleteQuest ❌&nbsp;(152)
+
+:::
+
+::: details CompleteQuest ❌ (152)
 > RESERVED, PENDING CHERRYPICK
 {.is-danger}
 * **action_type**:
@@ -4606,7 +5148,10 @@ QuestId
 `0`
 * **action_param6**:
 `0`
-#### QuestCreditTalkTo ❌&nbsp;(153)
+
+:::
+
+::: details QuestCreditTalkTo ❌ (153)
 > RESERVED, PENDING CHERRYPICK
 {.is-danger}
 * **action_type**:
@@ -4623,7 +5168,10 @@ SMART_ACTION_CREDIT_QUEST_OBJECTIVE_TALK_TO (153)
 `0`
 * **action_param6**:
 `0`
-#### DestroyConversation ❌&nbsp;(154)
+
+:::
+
+::: details DestroyConversation ❌ (154)
 > don't use on 3.3.5a
 {.is-danger}
 * **action_type**:
@@ -4640,7 +5188,10 @@ SMART_ACTION_DESTROY_CONVERSATION (154)
 `0`
 * **action_param6**:
 `0`
-#### EnterVehicle ❌&nbsp;(155)
+
+:::
+
+::: details EnterVehicle ❌ (155)
 > RESERVED, PENDING CHERRYPICK
 {.is-danger}
 * **action_type**:
@@ -4657,7 +5208,10 @@ seatId
 `0`
 * **action_param6**:
 `0`
-#### BoardPassenger ❌&nbsp;(156)
+
+:::
+
+::: details BoardPassenger ❌ (156)
 > RESERVED, PENDING CHERRYPICK
 {.is-danger}
 * **action_type**:
@@ -4674,7 +5228,10 @@ seatId
 `0`
 * **action_param6**:
 `0`
-#### ExitVehicle ❌&nbsp;(157)
+
+:::
+
+::: details ExitVehicle ❌ (157)
 > RESERVED, PENDING CHERRYPICK
 {.is-danger}
 * **action_type**:
@@ -4691,7 +5248,10 @@ SMART_ACTION_EXIT_VEHICLE (157)
 `0`
 * **action_param6**:
 `0`
-#### ResumeMovement (158)
+
+:::
+
+::: details ResumeMovement (158)
 Target units resumes movement caused by given movement slot.
 **action_type**:
 SMART_ACTION_RESUME_MOVEMENT (158)
@@ -4709,7 +5269,9 @@ ResumeTime (in ms.)
 `0`
 * **action_param6**:
 `0`
-### EndTabset {.tabset}
+
+:::
+
 &nbsp;
 
 ### target_type
@@ -4746,7 +5308,6 @@ ResumeTime (in ms.)
 | 28 | SMART_TARGET_FARTHEST | maxDist | playerOnly? (0/1) | isInLos? (0/1) |  |  | Farthest unit on the threat list |
 | 29 | SMART_TARGET_VEHICLE_PASSENGER | seatMask (0: all seats) |  |  |  |  | Vehicle can target unit in given seat |
 | 30 | SMART_TARGET_CLOSEST_UNSPAWNED_GAMEOBJECT | [gameobject entry](../world/gameobject_template#entry) (0: any) | maxDist |  |  |  | Closest unspawned gameobject with specified entry within specified range.<br>To be used only with SMART_ACTION_ENABLE_TEMP_GOBJ (70) and gameobjects with negative respawn time in the DB. |
-{.dense}
 
 &nbsp;
 

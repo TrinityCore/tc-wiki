@@ -37,6 +37,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 14 | [OutsideVolumeHF](#outsidevolumehf) | float |  |
 | 15 | [AirAbsorptionFactor](#airabsorptionfactor) | float |  |
 | 16 | [Unknown_3](#unknown_3) | NULL |  |
+
 &nbsp;
 ## Description of fields
 
@@ -141,4 +142,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

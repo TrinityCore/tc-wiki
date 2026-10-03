@@ -17,6 +17,7 @@ dateCreated: 2021-08-26T01:58:03.477Z
 | [type](#type) | varchar(250) |  |  | NO |  |  |  |
 | [level](#level) | tinyint | unsigned |  | NO | 0 |  |  |
 | [string](#string) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -60,4 +61,3 @@ Depends on LogLevel in authserver.conf
 ### string
 The actual string that has been logged.
 &nbsp;
-

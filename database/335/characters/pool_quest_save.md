@@ -18,14 +18,14 @@ dateCreated: 2021-08-30T22:02:04.280Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [pool_id](#pool_id) | int | unsigned | PRI | NO | 0 |  |  |
 | [quest_id](#quest_id) | int | unsigned | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### pool_id
-references [quest_pool_template.poolId](../world/quest_pool_template#poolId)
+references [quest_pool_template.poolId](../world/quest_pool_template#poolid)
 &nbsp;
 
 ### quest_id
-The active [quest ID](../world/quest_template#id).
+The active [quest ID](../world/quest_template#id-alt).
 &nbsp;
-

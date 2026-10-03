@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T09:28:56.867Z
 | [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [PortLocID](#portlocid) | int | unsigned |  | NO | 0 |  |  |
 | [Name](#name-alt) | mediumtext |  | MUL | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,4 +30,3 @@ This is the ID from [world_safe_locs](/database/master/world/world_safe_locs).
 ### Name {#name-alt}
 Name of the trigger. This can be an arbitrary name, and is for descriptive purposes only.
 &nbsp;
-

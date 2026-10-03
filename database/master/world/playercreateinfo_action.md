@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T09:34:23.529Z
 | [button](#button) | smallint | unsigned | PRI | NO | 0 |  |  |
 | [action](#action-alt) | int | unsigned |  | NO | 0 |  |  |
 | [type](#type) | smallint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,7 +35,6 @@ The character's [ChrRace ID](https://wago.tools/db2/chrraces)
 |  8 | Troll     |
 | 10 | Blood Elf |
 | 11 | Draenei   |
-{.dense}
 
 &nbsp;
 
@@ -52,7 +52,6 @@ The character's [ChrClass ID](https://wago.tools/db2/chrclasses)
 |  8 | Mage         |
 |  9 | Warlock      |
 | 11 | Druid        |
-{.dense}
 
 &nbsp;
 
@@ -71,7 +70,6 @@ Special bars are used for stances, auras, pets, stealth, and other similar speci
 | 84-95 | 1 SpecialB |  |
 | 96-107 | 1 SpecialC |  |
 | 108-119 | 1 SpecialD |  |
-{.dense}
 
 &nbsp;
 
@@ -88,4 +86,3 @@ The type of action:
 * 64: Macro
 * 128: Item
 &nbsp;
-

@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T22:08:03.627Z
 | [locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
 | [Greeting](#greeting) | mediumtext |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T21:59:09.789Z
 | [criteria](#criteria) | smallint | unsigned | PRI | NO |  |  |  |
 | [counter](#counter) | int | unsigned |  | NO |  |  |  |
 | [date](#date) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -28,7 +29,7 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### criteria
-[AchievementCriteria ID](/files/DBC/335/achievement_criteria#id)
+[AchievementCriteria ID](/files/DBC/335/achievement_criteria#id-alt)
 &nbsp;
 
 ### counter
@@ -38,4 +39,3 @@ The counter related to the respective achievement
 ### date
 The date/time when this criteria was last updated, in Unix time.
 &nbsp;
-

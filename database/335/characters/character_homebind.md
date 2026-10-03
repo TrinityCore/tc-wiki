@@ -22,6 +22,7 @@ dateCreated: 2021-08-30T21:59:42.236Z
 | [posX](#posx) | float |  |  | NO | 0 |  |  |
 | [posY](#posy) | float |  |  | NO | 0 |  |  |
 | [posZ](#posz) | float |  |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -30,11 +31,11 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### mapId
-[Map ID](/files/DBC/335/map#id) of the map where homebind is set.
+[Map ID](/files/DBC/335/map#id-alt) of the map where homebind is set.
 &nbsp;
 
 ### zoneId
-[AreaTable ID](/files/DBC/335/areatable#id) of the zone where homebind is set.
+[AreaTable ID](/files/DBC/335/areatable#id-alt) of the zone where homebind is set.
 &nbsp;
 
 ### posX
@@ -48,4 +49,3 @@ The Y position where the character gets teleported to.
 ### posZ
 The Z position where the character gets teleported to.
 &nbsp;
-

@@ -15,6 +15,7 @@ dateCreated: 2024-05-15T17:59:51.678Z
 | [Id](#id-alt) | int | unsigned | PRI | NO |  |  |  |
 | [IntactNumHits](#intactnumhits) | int | unsigned |  | NO |  |  |  |
 | [DamagedNumHits](#damagednumhits) | int | unsigned |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,4 +30,3 @@ dateCreated: 2024-05-15T17:59:51.678Z
 ### DamagedNumHits
 *- no description -*
 &nbsp;
-

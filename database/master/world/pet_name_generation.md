@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T09:33:24.050Z
 | [word](#word) | text |  |  | NO |  |  |  |
 | [entry](#entry) | int | unsigned |  | NO | 0 |  |  |
 | [half](#half) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -37,5 +38,3 @@ This determines whether this is the first or last half of the name for this entr
 * 1: Last half
     
 &nbsp;
-
-

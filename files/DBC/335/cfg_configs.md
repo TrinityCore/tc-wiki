@@ -24,6 +24,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 1 | [RealmType](#realmtype) | uint32 |  |
 | 2 | [PlayerKillingAllowed](#playerkillingallowed) | uint32 |  |
 | 3 | [Roleplaying](#roleplaying) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -50,4 +51,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

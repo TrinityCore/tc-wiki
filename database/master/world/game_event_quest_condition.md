@@ -16,11 +16,12 @@ dateCreated: 2021-08-30T09:31:27.894Z
 | [quest](#quest) | int | unsigned | PRI | NO | 0 |  |  |
 | [condition_id](#condition_id) | int | unsigned |  | NO | 0 |  |  |
 | [num](#num) | float |  |  | YES | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### eventEntry
-This field signifies the [`game_event.eventEntry`](/database/master/world/game_event#eventEntry)
+This field signifies the [`game_event.eventEntry`](/database/master/world/game_event#evententry)
 &nbsp;
 
 ### quest
@@ -34,5 +35,3 @@ The [`game_event_condition.condition_id`](/database/master/world/game_event_cond
 ### num
 The number of "units" (for lack of a better word) that will be added to the condition to fulfill the required number needed for the condition.
 &nbsp;
-
-

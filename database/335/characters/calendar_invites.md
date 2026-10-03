@@ -22,6 +22,7 @@ This table holds player event attendance.
 | [statustime](#statustime) | int | unsigned |  | NO | 0 |  |  |
 | [rank](#rank) | tinyint | unsigned |  | NO | 0 |  |  |
 | [text](#text) | varchar(255) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -30,7 +31,7 @@ The GUID of the invite.
 &nbsp;
 
 ### event
-The [calendar event id](../characters/calendar_events#id) the player belongs to.
+The [calendar event id](../characters/calendar_events#id-alt) the player belongs to.
 &nbsp;
 
 ### invitee
@@ -56,7 +57,6 @@ When creating a new event the owner invites itself (**sender** == **invitee**).
 | 7 | CALENDAR_STATUS_NOT_SIGNED_UP | not saved in db |
 | 8 | CALENDAR_STATUS_TENTATIVE |  |
 | 9 | CALENDAR_STATUS_REMOVED | not saved in db |
-{.dense}
 
 &nbsp;
 
@@ -70,11 +70,9 @@ Unixtime of last status change.
 | 0 | CALENDAR_RANK_PLAYER |
 | 1 | CALENDAR_RANK_MODERATOR |
 | 2 | CALENDAR_RANK_OWNER |
-{.dense}
 
 &nbsp;
 
 ### text
 *- unknown -*
 &nbsp;
-

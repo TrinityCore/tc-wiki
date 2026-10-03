@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T22:01:35.054Z
 | [player_guid](#player_guid) | int | unsigned | PRI | NO |  |  | Player GUID |
 | [paidMoney](#paidmoney) | int | unsigned |  | NO | 0 |  |  |
 | [paidExtendedCost](#paidextendedcost) | smallint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -36,6 +37,5 @@ The amount of money (in copper) paid for the item.
 &nbsp;
 
 ### paidExtendedCost
-The [ItemExtendedCost ID](/files/DBC/335/itemextendedcost#id) that was paid for the item.
+The [ItemExtendedCost ID](/files/DBC/335/itemextendedcost#id-alt) that was paid for the item.
 &nbsp;
-

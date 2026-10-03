@@ -50,6 +50,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 27 | [ArmorSubClassCost_5](#armorsubclasscost) | uint32 |  |
 | 28 | [ArmorSubClassCost_6](#armorsubclasscost) | uint32 |  |
 | 29 | [ArmorSubClassCost_7](#armorsubclasscost) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -90,7 +91,6 @@ for [item class](/database/335/world/item_template#class) = ITEM_CLASS_WEAPON (2
 | 18 | ITEM_SUBCLASS_WEAPON_CROSSBOW |  |
 | 19 | ITEM_SUBCLASS_WEAPON_WAND |  |
 | 20 | ITEM_SUBCLASS_WEAPON_FISHING_POLE |  |
-{.dense}
 
 &nbsp;
 
@@ -115,7 +115,5 @@ for [item class](/database/335/world/item_template#class) = ITEM_CLASS_ARMOR (4)
 | 8 | :x: ITEM_SUBCLASS_ARMOR_IDOL | no col. |
 | 9 | :x: ITEM_SUBCLASS_ARMOR_TOTEM | no col. |
 | 10 | :x: ITEM_SUBCLASS_ARMOR_SIGIL | no col. |
-{.dense}
 
 &nbsp;
-

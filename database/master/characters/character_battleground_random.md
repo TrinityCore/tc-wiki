@@ -13,11 +13,10 @@ dateCreated: 2021-08-30T07:21:12.596Z
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [guid](#guid) | bigint | unsigned | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### guid
 *- no description -*
 &nbsp;
-
-

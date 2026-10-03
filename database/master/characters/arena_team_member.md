@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T07:15:10.514Z
 | [seasonGames](#seasongames) | smallint | unsigned |  | NO | 0 |  |  |
 | [seasonWins](#seasonwins) | smallint | unsigned |  | NO | 0 |  |  |
 | [personalRating](#personalrating) | smallint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -49,5 +50,3 @@ dateCreated: 2021-08-30T07:15:10.514Z
 ### personalRating
 *- no description -*
 &nbsp;
-
-

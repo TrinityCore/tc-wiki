@@ -25,6 +25,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 2 | [SoundEntry_1](#soundentry) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 | 3 | [SoundEntry_2](#soundentry) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 | 4 | [SoundEntry_3](#soundentry) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -42,4 +43,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 * col 3: Use?
 * col 4: Close?
 &nbsp;
-

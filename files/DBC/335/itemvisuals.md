@@ -26,6 +26,7 @@ dateCreated: 2023-10-04T08:04:51.922Z
 | 3 | [VisualEffectID_2](#visualeffectid) | int32 | [ItemVisualEffects.dbc/0](/files/DBC/335/itemvisualeffects#id-alt) |
 | 4 | [VisualEffectID_3](#visualeffectid) | int32 | [ItemVisualEffects.dbc/0](/files/DBC/335/itemvisualeffects#id-alt) |
 | 5 | [VisualEffectID_4](#visualeffectid) | int32 | [ItemVisualEffects.dbc/0](/files/DBC/335/itemvisualeffects#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -40,4 +41,3 @@ Table index
 
 Visual effect for each attachment point (0 &ndash; 4) on the item.
 &nbsp;
-

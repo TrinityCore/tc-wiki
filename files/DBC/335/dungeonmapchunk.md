@@ -25,6 +25,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 2 | [WMOGroupID](#wmogroupid) | uint32 | [WMOAreaTable/3](/files/DBC/335/wmoareatable#wmogroupid) |
 | 3 | [DungeonMapID](#dungeonmapid) | uint32 | [DungeonMap.dbc/0](/files/DBC/335/dungeonmap#id-alt) |
 | 4 | [MinZ](#minz) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -57,4 +58,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

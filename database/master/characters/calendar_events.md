@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T07:17:23.993Z
 | [Date](#date) | bigint | signed |  | NO | 0 |  |  |
 | [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
 | [LockDate](#lockdate) | bigint | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -59,4 +60,3 @@ dateCreated: 2021-08-30T07:17:23.993Z
 ### LockDate
 *- no description -*
 &nbsp;
-

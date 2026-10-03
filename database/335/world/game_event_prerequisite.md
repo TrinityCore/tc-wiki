@@ -16,6 +16,7 @@ This table contains events that must have been completed to start the given even
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [eventEntry](#evententry) | tinyint | unsigned | PRI | NO |  |  | Entry of the game event |
 | [prerequisite_event](#prerequisite_event) | int | unsigned | PRI | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -26,4 +27,3 @@ This is the [game_event.eventEntry](../world/game_event#evententry) that will st
 ### prerequisite_event
 The is the [game_event.eventEntry](../world/game_event#evententry) that must be completed before the event from **eventEntry** will start.
 &nbsp;
-

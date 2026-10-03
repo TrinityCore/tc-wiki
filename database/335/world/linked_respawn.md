@@ -21,6 +21,7 @@ Gameobjects can be linked too!
 | [guid](#guid) | int | unsigned | PRI | NO |  |  | dependent creature |
 | [linkedGuid](#linkedguid) | int | unsigned |  | NO |  |  | master creature |
 | [linkType](#linktype) | tinyint | unsigned | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -39,7 +40,5 @@ This is the guid of the [creature](../world/creature#guid) or [gameobject](../wo
 | 1 | creature | gameobject |
 | 2 | gameobject | gameobject |
 | 3 | gameobject | creature |
-{.dense}
 
 &nbsp;
-

@@ -51,6 +51,7 @@ dateCreated: 2023-10-04T08:00:55.057Z
 | 28 | [StartAsset](#startasset) | uint32 |  |
 | 29 | [StartTimer](#starttimer) | uint32 |  |
 | 30 | [UiOrder](#uiorder) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -103,13 +104,13 @@ dateCreated: 2023-10-04T08:00:55.057Z
 | 33 | ACHIEVEMENT_CRITERIA_TYPE_PLAY_ARENA | [Map ID](/files/DBC/335/map#id-alt) |  |
 | 34 | ACHIEVEMENT_CRITERIA_TYPE_LEARN_SPELL | [Spell ID](/files/DBC/335/spell#id-alt) |  |
 | 35 | ACHIEVEMENT_CRITERIA_TYPE_HONORABLE_KILL |  |  |
-| 36 | ACHIEVEMENT_CRITERIA_TYPE_OWN_ITEM | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |  |
+| 36 | ACHIEVEMENT_CRITERIA_TYPE_OWN_ITEM | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |  |
 | 37 | ACHIEVEMENT_CRITERIA_TYPE_WIN_RATED_ARENA |  |  |
 | 38 | ACHIEVEMENT_CRITERIA_TYPE_HIGHEST_TEAM_RATING | [`enum ArenaType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Battlegrounds/Battleground.h#L200-L205) |  |
 | 39 | ACHIEVEMENT_CRITERIA_TYPE_HIGHEST_PERSONAL_RATING | [`enum ArenaType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Battlegrounds/Battleground.h#L200-L205) |  |
 | 40 | ACHIEVEMENT_CRITERIA_TYPE_LEARN_SKILL_LEVEL | [SkillLine ID](/files/DBC/335/skillline#id-alt) |  |
-| 41 | ACHIEVEMENT_CRITERIA_TYPE_USE_ITEM | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |  |
-| 42 | ACHIEVEMENT_CRITERIA_TYPE_LOOT_ITEM | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |  |
+| 41 | ACHIEVEMENT_CRITERIA_TYPE_USE_ITEM | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |  |
+| 42 | ACHIEVEMENT_CRITERIA_TYPE_LOOT_ITEM | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |  |
 | 43 | ACHIEVEMENT_CRITERIA_TYPE_EXPLORE_AREA | [WorldMapOverlay ID](/files/DBC/335/worldmapoverlay#id-alt) |  |
 | 44 | ACHIEVEMENT_CRITERIA_TYPE_OWN_RANK | PvpRank |  |
 | 45 | ACHIEVEMENT_CRITERIA_TYPE_BUY_BANK_SLOT |  |  |
@@ -124,7 +125,7 @@ dateCreated: 2023-10-04T08:00:55.057Z
 | 54 | ACHIEVEMENT_CRITERIA_TYPE_DO_EMOTE | [EmotesText ID](/files/DBC/335/emotestext#id-alt) |  |
 | 55 | ACHIEVEMENT_CRITERIA_TYPE_HEALING_DONE |  |  |
 | 56 | ACHIEVEMENT_CRITERIA_TYPE_GET_KILLING_BLOWS |  | @todo in some cases map not present, and in some cases need do without die |
-| 57 | ACHIEVEMENT_CRITERIA_TYPE_EQUIP_ITEM | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |  |
+| 57 | ACHIEVEMENT_CRITERIA_TYPE_EQUIP_ITEM | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |  |
 | 59 | ACHIEVEMENT_CRITERIA_TYPE_MONEY_FROM_VENDORS |  |  |
 | 60 | ACHIEVEMENT_CRITERIA_TYPE_GOLD_SPENT_FOR_TALENTS |  |  |
 | 61 | ACHIEVEMENT_CRITERIA_TYPE_NUMBER_OF_TALENT_RESETS |  |  |
@@ -183,7 +184,6 @@ dateCreated: 2023-10-04T08:00:55.057Z
 | 121 | :x: UNUSED |  | missing ref Achievement |
 | 122 | :x: UNUSED |  | missing ref Achievement |
 | 123 | :x: UNUSED |  | missing ref Achievement |
-{.dense}
 
 &nbsp;
 
@@ -217,7 +217,6 @@ Two additional \[**Type**, **Asset**\] condition tuples.
 | 8 | 0x08 | ACHIEVEMENT_CRITERIA_FLAG_RESET_ON_START | criteria counters reset each restart  |
 | 16 | 0x10 | ACHIEVEMENT_CRITERIA_FLAG_IS_DATE | is a date requirement |
 | 32 | 0x20 | ACHIEVEMENT_CRITERIA_FLAG_MONEY_COUNTER | Displays counter as money |
-{.dense}
 
 &nbsp;
 
@@ -233,7 +232,6 @@ Two additional \[**Type**, **Asset**\] condition tuples.
 | 6 | ACHIEVEMENT_TIMED_TYPE_SPELL_TARGET | Timer is started by being target of spell with entry in **StartAsset** |
 | 7 | ACHIEVEMENT_TIMED_TYPE_CREATURE | Timer is started by killing creature with entry in **StartAsset** |
 | 9 | ACHIEVEMENT_TIMED_TYPE_ITEM | Timer is started by using item with entry in **StartAsset** |
-{.dense}
 
 &nbsp;
 
@@ -254,4 +252,3 @@ time limit in seconds
 
 *- no description -*
 &nbsp;
-

@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T09:29:07.241Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [speciesId](#speciesid) | int | unsigned | PRI | NO | 0 |  |  |
 | [breedId](#breedid) | smallint | unsigned | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -24,5 +25,3 @@ dateCreated: 2021-08-30T09:29:07.241Z
 ### breedId
 *- no description -*
 &nbsp;
-
-

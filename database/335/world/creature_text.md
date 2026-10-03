@@ -27,6 +27,7 @@ This table holds all the speech text (whisper, say, yell, emote text in speech b
 | [BroadcastTextId](#broadcasttextid) | int | signed |  | NO | 0 |  |  |
 | [TextRange](#textrange) | tinyint | unsigned |  | NO | 0 |  |  |
 | [comment](#comment) | varchar(255) |  |  | YES | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -55,12 +56,11 @@ The text the creature will say.
 | 41 | 3 | Boss Emote | <div style="font-size:larger; color:#ffdd00; background-color:#000; padding:2px 5px;">Boss Emote</div> |
 | 15 | 4 | Whisper | <div style="font-size:larger; color:#ffb2eb ; background-color:#000; padding:2px 5px;">Creature whispers: Whisper</div> |
 | 42 | 5 | Boss Whisper | <div style="font-size:larger; color:#ffdd00; background-color:black; padding:2px 5px;">Boss Whisper</div> |
-{.dense}
 
 &nbsp;
 
 ### Language
-A [Language ID](/files/DBC/335/languages#id). When set to 0, the current default language will be used.
+A [Language ID](/files/DBC/335/languages#id-alt). When set to 0, the current default language will be used.
 <!--@include: @/partial/335/languages.md-->
 
 &nbsp;
@@ -70,7 +70,7 @@ A value from 1&ndash;100 that represents the percentage chance that this text wi
 &nbsp;
 
 ### Emote
-The [Emote ID](/files/DBC/335/emotes#id) that the creature plays when the text is executed.
+The [Emote ID](/files/DBC/335/emotes#id-alt) that the creature plays when the text is executed.
 &nbsp;
 
 ### Duration
@@ -78,11 +78,11 @@ Time in milliseconds to see the text. 0 is default and calculated by core.
 &nbsp;
 
 ### Sound
-The [SoundEntry ID](/files/DBC/335/soundentries#id) this creature will play at the same time the text is executed.
+The [SoundEntry ID](/files/DBC/335/soundentries#id-alt) this creature will play at the same time the text is executed.
 &nbsp;
 
 ### BroadcastTextId
-Id of the equivalent text found in [broadcast_text](../world/broadcast_text#ID).
+Id of the equivalent text found in [broadcast_text](../world/broadcast_text#id-alt).
 &nbsp;
 
 ### TextRange
@@ -93,7 +93,6 @@ Id of the equivalent text found in [broadcast_text](../world/broadcast_text#ID).
 | 2 | Zone |
 | 3 | Map |
 | 4 | World |
-{.dense}
 
 &nbsp;
 

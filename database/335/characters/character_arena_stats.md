@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T21:59:15.038Z
 | [guid](#guid) | int | unsigned | PRI | NO | 0 |  |  |
 | [slot](#slot) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [matchMakerRating](#matchmakerrating) | smallint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -36,4 +37,3 @@ Arena slot index:
 ### matchMakerRating
 Player's matchmaker rating
 &nbsp;
-

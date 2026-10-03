@@ -30,6 +30,7 @@ dateCreated: 2021-08-30T22:01:45.503Z
 | [money](#money) | int | unsigned |  | NO | 0 |  |  |
 | [cod](#cod) | int | unsigned |  | NO | 0 |  |  |
 | [checked](#checked) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -46,14 +47,13 @@ This field contains the unique ID across all messages.
 | 3 | MAIL_CREATURE | send by npc |
 | 4 | MAIL_GAMEOBJECT | send by object |
 | 5 | MAIL_CALENDAR | calendar event notification |
-{.dense}
 
 &nbsp;
 
 ### stationery
 Defines the background texture of the mail.
 
-[`enum MailStationery`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Mails/Mail.h#L55-L64) gathered from [Stationery ID](/files/DBC/335/stationery#id)
+[`enum MailStationery`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Mails/Mail.h#L55-L64) gathered from [Stationery ID](/files/DBC/335/stationery#id-alt)
 | ID | Name | Comment |
 |----|------|---------|
 | 1 | MAIL_STATIONERY_TEST |  |
@@ -63,21 +63,20 @@ Defines the background texture of the mail.
 | 64 | MAIL_STATIONERY_VAL | Valentine |
 | 65 | MAIL_STATIONERY_CHR | Christmas |
 | 67 | MAIL_STATIONERY_ORP | Orphan |
-{.dense}
 
 &nbsp;
 
 ### mailTemplateId
-[MailTemplate ID](/files/DBC/335/mailtemplate#id) if available.
+[MailTemplate ID](/files/DBC/335/mailtemplate#id-alt) if available.
 &nbsp;
 
 ### sender
 Can be one of:
 * [character guid](../characters/characters#guid)
-* [AuctionHouse ID](/files/DBC/335/auctionhouse#id)
+* [AuctionHouse ID](/files/DBC/335/auctionhouse#id-alt)
 * [creature entry](../world/creature_template#entry)
 * [gameobject entry](../world/gameobject_template#entry)
-* [calendar event id](../characters/calendar_events#id)
+* [calendar event id](../characters/calendar_events#id-alt)
 * 0 (unknown sender case)
 &nbsp;
 
@@ -128,7 +127,5 @@ Determines if **money** is an attachment or COD due.
 | 4 | 0x04 | MAIL_CHECK_MASK_COPIED | This mail was copied. Do not allow making a copy of items in mail. |
 | 8 | 0x08 | MAIL_CHECK_MASK_COD_PAYMENT |  |
 | 16 | 0x10 | MAIL_CHECK_MASK_HAS_BODY | This mail has body text. |
-{.dense}
 
 &nbsp;
-

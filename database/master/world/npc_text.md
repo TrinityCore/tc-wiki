@@ -30,6 +30,7 @@ dateCreated: 2021-08-30T09:33:08.406Z
 | [BroadcastTextID6](#broadcasttextid6) | int | unsigned |  | NO | 0 |  |  | fetched from hotfixes db (via wpp) |
 | [BroadcastTextID7](#broadcasttextid7) | int | unsigned |  | NO | 0 |  |  | fetched from hotfixes db (via wpp) |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  | generated |
+
 &nbsp;
 ## Description of fields
 
@@ -54,6 +55,7 @@ The ID ranges are defined as followed:
 | Shadowlands (9.x)            |           580000 |         589999 |
 | Dragonflight (10.x)          |           590000 |         599999 |
 | The War Within (11.x)        |           600000 |         609999 |
+
 &nbsp;
 
 ### Probability0 - Probability7
@@ -62,7 +64,7 @@ The percent-chance (probability) that the NPC will say related `BroadcastTextID<
 &nbsp;
 
 ### BroadcastTextID0 - BroadcastTextID7
-References to [`broadcast_text.ID`](/database/master/hotfixes/broadcast_text#ID)
+References to [`broadcast_text.ID`](/database/master/hotfixes/broadcast_text#id-alt)
 &nbsp;
 
 ### VerifiedBuild
@@ -77,5 +79,3 @@ If value is -1 then it is just a place holder until proper data are found on WDB
 If value is -Client Build then it was parsed with WDB files from that specific client build and manually edited later for some special necessity.
 
 &nbsp;
-
-

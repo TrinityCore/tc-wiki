@@ -31,6 +31,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 8 | [Delay](#delay) | uint32 |  |
 | 9 | [ArrivalEventID](#arrivaleventid) | uint32 | [event_script id](/database/335/world/scripts#id-alt) |
 | 10 | [DepartureEventID](#departureeventid) | uint32 | [event_script id](/database/335/world/scripts#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -87,4 +88,3 @@ Delay in seconds before moving to next point. (used on boats / trams / zepplins)
 
 *- no description -*
 &nbsp;
-

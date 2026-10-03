@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T09:29:22.721Z
 | [TemplateId](#templateid) | int | unsigned | PRI | NO |  |  |  |
 | [FactionGroup](#factiongroup) | tinyint | unsigned | PRI | NO |  |  | 3 - Alliance, 5 - Horde |
 | [Class](#class) | tinyint | unsigned | PRI | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,5 +30,3 @@ dateCreated: 2021-08-30T09:29:22.721Z
 ### Class
 *- no description -*
 &nbsp;
-
-

@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T07:52:32.236Z
 | [xp](#xp) | bigint | unsigned |  | NO | 0 |  |  |
 | [artifactAppearanceId](#artifactappearanceid) | int | unsigned |  | NO | 0 |  |  |
 | [artifactTierId](#artifacttierid) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,5 +35,3 @@ dateCreated: 2021-08-30T07:52:32.236Z
 ### artifactTierId
 *- no description -*
 &nbsp;
-
-

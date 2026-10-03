@@ -34,6 +34,7 @@ dateCreated: 2023-10-04T08:06:51.451Z
 | 11 | [TrivialSkillLineRankLow](#trivialskilllineranklow) | uint32 |  |
 | 12 | [CharacterPoints_0](#characterpoints) | uint32 |  |
 | 13 | [CharacterPoints_1](#characterpoints) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -102,7 +103,6 @@ dateCreated: 2023-10-04T08:06:51.451Z
 | 0 |  | Taught by trainer |
 | 1 | SKILL_LINE_ABILITY_LEARNED_ON_SKILL_VALUE | Spell state will update depending on skill value |
 | 2 | SKILL_LINE_ABILITY_LEARNED_ON_SKILL_LEARN | Spell will be learned/removed together with entire skill |
-{.dense}
 
 &nbsp;
 

@@ -19,6 +19,7 @@ dateCreated: 2021-08-30T09:31:32.965Z
 | [orientation](#orientation) | float |  |  | NO | 0 |  |  |
 | [map](#map) | smallint | unsigned |  | NO | 0 |  |  |
 | [name](#name-alt) | varchar(100) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -49,4 +50,3 @@ The map ID of the location. See the [Map.ID](https://wago.tools/db2/map){target=
 ### name {#name-alt}
 A descriptive name for the teleport location. The name cannot have any spaces in it. It is also not recommended to use special characters such as periods, commas, slashes, etc...
 &nbsp;
-

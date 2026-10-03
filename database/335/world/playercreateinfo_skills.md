@@ -19,23 +19,24 @@ This table holds information on what skills newly created characters should star
 | [skill](#skill) | smallint | unsigned | PRI | NO |  |  |  |
 | [rank](#rank) | smallint | unsigned |  | NO | 0 |  |  |
 | [comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### raceMask
-Race id mask from [ChrRace ID](/files/DBC/335/chrraces#id). `0` is all races.
+Race id mask from [ChrRace ID](/files/DBC/335/chrraces#id-alt). `0` is all races.
 <!--@include: @/partial/335/chrraces.md{13,}-->
 
 &nbsp;
 
 ### classMask
-Class id mask from [ChrClass ID](/files/DBC/335/chrclasses#id). `0` is all classes.
+Class id mask from [ChrClass ID](/files/DBC/335/chrclasses#id-alt). `0` is all classes.
 <!--@include: @/partial/335/chrclasses.md{13,}-->
 
 &nbsp;
 
 ### skill
-A [SkillLine ID](/files/DBC/335/skillline#id) to start with.
+A [SkillLine ID](/files/DBC/335/skillline#id-alt) to start with.
 &nbsp;
 
 ### rank

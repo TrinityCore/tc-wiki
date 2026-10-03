@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T21:58:01.076Z
 | [secId](#secid) | int | unsigned | PRI | NO |  |  | Security Level id |
 | [permissionId](#permissionid) | int | unsigned | PRI | NO |  |  | permission id |
 | [realmId](#realmid) | int | signed | PRI | NO | -1 |  | Realm Id, -1 means all |
+
 &nbsp;
 ## Description of fields
 
@@ -29,11 +30,10 @@ references [account_access.SecurityLevel](../auth/account_access#securitylevel)
 &nbsp;
 
 ### permissionId
-references [rbac_permissions.id](../auth/rbac_permissions#id)
+references [rbac_permissions.id](../auth/rbac_permissions#id-alt)
 &nbsp;
 
 ### realmId
 * -1: all realms
-* [realm id](../auth/realmlist#id): only this realm
+* [realm id](../auth/realmlist#id-alt): only this realm
 &nbsp;
-

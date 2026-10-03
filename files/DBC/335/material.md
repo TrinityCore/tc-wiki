@@ -25,6 +25,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 2 | [FoleySoundID](#foleysoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 | 3 | [SheatheSoundID](#sheathesoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 | 4 | [UnsheatheSoundID](#unsheathesoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -42,7 +43,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 1 | 0x1 | is Metal |
 | 2 | 0x2 | is Plate |
 | 4 | 0x4 | is Chain |
-{.dense}
 
 &nbsp;
 
@@ -63,4 +63,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

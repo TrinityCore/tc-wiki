@@ -30,6 +30,7 @@ dateCreated: 2021-08-30T22:06:40.070Z
 | [Text6_1](#text6_1) | longtext |  |  | YES | NULL |  |  |
 | [Text7_0](#text7_0) | longtext |  |  | YES | NULL |  |  |
 | [Text7_1](#text7_1) | longtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 

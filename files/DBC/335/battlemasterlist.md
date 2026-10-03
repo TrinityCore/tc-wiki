@@ -52,6 +52,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 29 | [HolidayWorldState](#holidayworldstate) | uint32 |  |
 | 30 | [MinLevel](#minlevel) | uint32 |  |
 | 31 | [MaxLevel](#maxlevel) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 

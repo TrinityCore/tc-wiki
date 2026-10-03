@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T09:30:39.492Z
 | [value1](#value1) | int | unsigned |  | NO | 0 |  |  |
 | [value2](#value2) | int | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -39,4 +40,3 @@ dateCreated: 2021-08-30T09:30:39.492Z
 ### ScriptName
 *- no description -*
 &nbsp;
-

@@ -23,6 +23,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [LanguageID](#languageid) | uint32 | [Languages.dbc/0](/files/DBC/335/languages#id-alt) |
 | 2 | [Word](#word) | string |  |
+
 &nbsp;
 ## Description of fields
 
@@ -43,4 +44,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 scrambled word
 &nbsp;
-

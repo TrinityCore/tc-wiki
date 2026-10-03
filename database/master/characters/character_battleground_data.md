@@ -24,6 +24,7 @@ dateCreated: 2021-08-30T07:20:54.346Z
 | [taxiEnd](#taxiend) | int | unsigned |  | NO | 0 |  |  |
 | [mountSpell](#mountspell) | int | unsigned |  | NO | 0 |  |  |
 | [queueId](#queueid) | bigint | unsigned |  | YES | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -74,4 +75,3 @@ dateCreated: 2021-08-30T07:20:54.346Z
 ### queueId
 *- no description -*
 &nbsp;
-

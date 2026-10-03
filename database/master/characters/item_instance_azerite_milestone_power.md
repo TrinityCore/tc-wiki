@@ -14,6 +14,7 @@ dateCreated: 2021-08-30T08:12:16.031Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [itemGuid](#itemguid) | bigint | unsigned | PRI | NO |  |  |  |
 | [azeriteItemMilestonePowerId](#azeriteitemmilestonepowerid) | int | unsigned | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -24,5 +25,3 @@ dateCreated: 2021-08-30T08:12:16.031Z
 ### azeriteItemMilestonePowerId
 *- no description -*
 &nbsp;
-
-

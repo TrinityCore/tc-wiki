@@ -44,6 +44,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 21 | [LeatherChestArmor](#leatherchestarmor) | uint32 |  |
 | 22 | [MailChestArmor](#mailchestarmor) | uint32 |  |
 | 23 | [PlateChestArmor](#platechestarmor) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -190,4 +191,3 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 *- no description -*
 &nbsp;
-

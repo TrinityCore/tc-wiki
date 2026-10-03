@@ -14,6 +14,7 @@ dateCreated: 2023-07-09T10:57:33.139Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [Id](#id-alt) | int | unsigned | PRI | NO |  |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -28,4 +29,3 @@ Event ID.
 The ScriptName for when scripting it in the core.
 This might also be '**SmartEventTrigger**'. It will then use [SmartAI](/database/master/world/smart_scripts).
 &nbsp;
-

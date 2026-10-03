@@ -15,6 +15,7 @@ dateCreated: 2021-08-30T09:37:32.193Z
 | [TerrainSwapMap](#terrainswapmap) | int | unsigned | PRI | NO |  |  |  |
 | [UiMapPhaseId](#uimapphaseid) | int | unsigned | PRI | NO |  |  |  |
 | [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -29,4 +30,3 @@ dateCreated: 2021-08-30T09:37:32.193Z
 ### Comment
 *- no description -*
 &nbsp;
-

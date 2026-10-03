@@ -22,6 +22,7 @@ dateCreated: 2021-11-14T20:02:03.877Z
 | [RightFeatureTitle_lang](#rightfeaturetitle_lang) | text |  |  | YES | NULL |  |  |
 | [RightFeatureDesc_lang](#rightfeaturedesc_lang) | text |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

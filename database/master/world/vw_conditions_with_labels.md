@@ -27,6 +27,7 @@ dateCreated: 2022-02-06T20:04:09.448Z
 | [ErrorTextId](#errortextid) | int | unsigned |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
 | [Comment](#comment) | varchar(255) |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -89,4 +90,3 @@ dateCreated: 2022-02-06T20:04:09.448Z
 ### Comment
 *- no description -*
 &nbsp;
-

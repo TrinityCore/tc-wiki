@@ -28,6 +28,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 5 | [MinY](#miny) | float |  |
 | 6 | [MaxY](#maxy) | float |  |
 | 7 | [ParentWorldMapID](#parentworldmapid) | uint32 | [WorldMapArea.dbc/0](/files/DBC/335/worldmaparea#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -78,4 +79,3 @@ In which range in x and y is this shown. used for scaling.
 
 If only used in a specific area. see the northrend one.
 &nbsp;
-

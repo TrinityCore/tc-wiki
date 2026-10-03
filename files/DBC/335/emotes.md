@@ -27,6 +27,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 4 | [EmoteSpecProc](#emotespecproc) | uint32 |  |
 | 5 | [EmoteSpecProcParam](#emotespecprocparam) | uint32 |  |
 | 6 | [EventSoundID](#eventsoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -69,7 +70,6 @@ Ref to animationData
 | 8192 | 0x2000 | Interrupt on interact |
 | 16384 | 0x4000 | Only while still |
 | 32768 | 0x8000 | Not while flying |
-{.dense}
 
 &nbsp;
 
@@ -98,7 +98,6 @@ if **EmoteSpecProc** = 1 then this contains:
 | 7 | UNIT_STAND_STATE_DEAD |
 | 8 | UNIT_STAND_STATE_KNEEL |
 | 9 | UNIT_STAND_STATE_SUBMERGED |
-{.dense}
 
 &nbsp;
 
@@ -107,4 +106,3 @@ if **EmoteSpecProc** = 1 then this contains:
 
 *- no description -*
 &nbsp;
-

@@ -16,6 +16,7 @@ Contains all gameobjects instances that participate to any game event.
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [eventEntry](#evententry) | tinyint | signed | PRI | NO |  |  | Entry of the game event. Put negative entry to remove during event. |
 | [guid](#guid) | int | unsigned | PRI | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -28,4 +29,3 @@ refers to [game_event.eventEntry](../world/game_event#evententry)
 ### guid
 refers to [gameobject.guid](../world/gameobject#guid)
 &nbsp;
-

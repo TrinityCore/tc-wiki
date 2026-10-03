@@ -18,6 +18,7 @@ Includes information on current core and database version.
 | [core_revision](#core_revision) | varchar(120) |  |  | YES | NULL |  |  |
 | [db_version](#db_version) | varchar(120) |  |  | YES | NULL |  | Version of world DB. |
 | [cache_id](#cache_id) | int | signed |  | YES | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -44,4 +45,3 @@ Minor DB version.
 
 Example: `23061`
 &nbsp;
-

@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T07:44:00.335Z
 | [lineId](#lineid) | int | unsigned | PRI | NO |  |  |  |
 | [timestamp](#timestamp) | bigint | signed |  | NO |  |  |  |
 | [text](#text) | text |  |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,5 +35,3 @@ dateCreated: 2021-08-30T07:44:00.335Z
 ### text
 *- no description -*
 &nbsp;
-
-

@@ -22,11 +22,12 @@ dateCreated: 2021-08-30T21:57:40.058Z
 | [bannedby](#bannedby) | varchar(50) |  |  | NO |  |  |  |
 | [banreason](#banreason) | varchar(255) |  |  | NO |  |  |  |
 | [active](#active) | tinyint | unsigned |  | NO | 1 |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### id {#id-alt}
-references [account.id](../auth/account#id)
+references [account.id](../auth/account#id-alt)
 &nbsp;
 
 ### bandate
@@ -51,4 +52,3 @@ Controls if the ban is currently active or not.
 * 0: ban expired
 * 1: ban is active
 &nbsp;
-

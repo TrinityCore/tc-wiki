@@ -24,6 +24,7 @@ This table controls the reputation given by creatures when killed by players.
 | [IsTeamAward2](#isteamaward2) | tinyint | signed |  | NO | 0 |  |  |
 | [RewOnKillRepValue2](#rewonkillrepvalue2) | int | signed |  | NO | 0 |  |  |
 | [TeamDependent](#teamdependent) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -33,7 +34,7 @@ The template ID of the creature. See [creature_template.entry](../world/creature
 
 ### RewOnKillRepFaction1
 ### RewOnKillRepFaction2
-The [Faction ID](/files/DBC/335/faction#id) that the player will gain or lose points in.
+The [Faction ID](/files/DBC/335/faction#id-alt) that the player will gain or lose points in.
 &nbsp;
 
 
@@ -50,7 +51,6 @@ The maximum standing that the creature will award reputation until. If the playe
 | 5 | Honored |
 | 6 | Revered |
 | 7 | Exalted |
-{.dense}
 
 &nbsp;
 
@@ -60,7 +60,7 @@ Boolean 0 or 1 that controls if the player receives the reputation not only to t
 * 0: Player receives reputation only for the faction
 * 1: Player receives reputation both for the faction and the faction's team
 
-> NOTE: The reputation value that the player gains for the team (if the field is 1) is half of the value specified in [RewOnKillRepValue](#RewOnKillRepValue1)
+> NOTE: The reputation value that the player gains for the team (if the field is 1) is half of the value specified in [RewOnKillRepValue](#rewonkillrepvalue1)
 {.is-info}
 
 &nbsp;
@@ -72,7 +72,6 @@ The reputation value that the player gains (or loses if it's negative) by killin
 
 ### TeamDependent
 Boolean 0 or 1.
-* 0: The creature will give reputation to the any player from both fields ([RewOnKillRepFaction1](#RewOnKillRepFaction1) and [RewOnKillRepFaction2](#RewOnKillRepFaction2)) if both fields are non-zero.
-* 1: The creature will award alliance players the reputation from [RewOnKillRepFaction1](#RewOnKillRepFaction1) and will award horde players the reputation from [RewOnKillRepFaction2](#RewOnKillRepFaction2)
+* 0: The creature will give reputation to the any player from both fields ([RewOnKillRepFaction1](#rewonkillrepfaction1) and [RewOnKillRepFaction2](#rewonkillrepfaction2)) if both fields are non-zero.
+* 1: The creature will award alliance players the reputation from [RewOnKillRepFaction1](#rewonkillrepfaction1) and will award horde players the reputation from [RewOnKillRepFaction2](#rewonkillrepfaction2)
 &nbsp;
-

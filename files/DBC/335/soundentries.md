@@ -50,6 +50,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 27 | [DistanceCutoff](#distancecutoff) | float |  |
 | 28 | [EAXDef](#eaxdef) | uint32 |  |
 | 29 | [SoundEntriesAdvancedID](#soundentriesadvancedid) | uint32 | [SoundEntriesAdvanced.dbc/0](/files/DBC/335/soundentriesadvanced#id-alt) |
+
 &nbsp;
 ## Description of fields
 
@@ -62,8 +63,8 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 ### SoundType
 :x: <code>Col: 1 (uint32)</code>
 
-| ID | Name | Comment |  | ID | Name | Comment
-|----|------|---------|--|----|------|---------
+| ID | Name | Comment |  | ID | Name | Comment |
+|----|------|---------|--|----|------|---------|
 | 1 | Spells |  | | 20 | Footsteps(Splashes) |  |
 | 2 | UI |  | | 21 | CharacterSplashSounds |  |
 | 3 | Footsteps |  | | 22 | WaterVolume Sounds |  |
@@ -80,7 +81,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 17 | NPC Sounds |  | | 52 | Sound Emitters |  |
 | 18 | Test/Temporary | deosn't exist in blizzard's enum in 2.5 | | 53 | Vehicle States |
 | 19 | Foley Sounds (NOT EDITABLE) |  |  |  |  |
-{.dense}
 
 &nbsp;
 
@@ -143,4 +143,3 @@ Probability weight for **File**.
 
 *- no description -*
 &nbsp;
-

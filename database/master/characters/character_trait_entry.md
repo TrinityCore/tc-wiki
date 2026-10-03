@@ -17,6 +17,7 @@ dateCreated: 2022-12-19T18:37:11.363Z
 | [traitNodeId](#traitnodeid) | int | signed | PRI | NO |  |  |  |
 | [traitNodeEntryId](#traitnodeentryid) | int | signed | PRI | NO |  |  |  |
 | [rank](#rank) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -39,4 +40,3 @@ dateCreated: 2022-12-19T18:37:11.363Z
 ### rank
 *- no description -*
 &nbsp;
-

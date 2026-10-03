@@ -26,11 +26,12 @@ This table contains the access requirements to enter an instance.
 | [completed_achievement](#completed_achievement) | int | unsigned |  | NO | 0 |  |  |
 | [quest_failed_text](#quest_failed_text) | mediumtext |  |  | YES | NULL |  |  |
 | [comment](#comment) | mediumtext |  |  | YES | NULL |  |  |
+
 &nbsp;
 ## Description of fields
 
 ### mapId
-The [Map ID](/files/DBC/335/map#id) of the instance.
+The [Map ID](/files/DBC/335/map#id-alt) of the instance.
 &nbsp;
 
 ### difficulty
@@ -63,15 +64,15 @@ A second [item](../world/item_template#entry) that you must have in your invento
 &nbsp;
 
 ### quest_done_A
-A [quest](../world/quest_template#id) that you must have completed. This field is only for alliance.
+A [quest](../world/quest_template#id-alt) that you must have completed. This field is only for alliance.
 &nbsp;
 
 ### quest_done_H
-A [quest](../world/quest_template#id) that you must have completed. This field is only for horde.
+A [quest](../world/quest_template#id-alt) that you must have completed. This field is only for horde.
 &nbsp;
 
 ### completed_achievement
-An [Achievement ID](/files/DBC/335/achievement#id) that must be completed by the player to enter an instance.
+An [Achievement ID](/files/DBC/335/achievement#id-alt) that must be completed by the player to enter an instance.
 &nbsp;
 
 ### quest_failed_text

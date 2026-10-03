@@ -40,6 +40,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 17 | [Name_lang_mask](#name-alt) | uint32 |  |
 | 18 | [TotemCategoryType](#totemcategorytype) | uint32 |  |
 | 19 | [TotemCategoryMask](#totemcategorymask) | uint32 |  |
+
 &nbsp;
 ## Description of fields
 
@@ -68,7 +69,6 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 22 | TOTEM_CATEGORY_TYPE_STONE |
 | 23 | TOTEM_CATEGORY_TYPE_HAMMER |
 | 24 | TOTEM_CATEGORY_TYPE_SPANNER |
-{.dense}
 
 &nbsp;
 
@@ -84,4 +84,3 @@ For instance for totems:
 > bit 3 = water
 "Master Totem" has the bitmask 0b1111, meaning it can be used instead of all four normal totems.
 &nbsp;
-

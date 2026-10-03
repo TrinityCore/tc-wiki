@@ -45,7 +45,7 @@ When reading a \*\_locale table from database, the localized string can be fetch
 | 6 | `esES` |  | Spanish (EU) |
 | 7 | `esMX` |  | Spanish (Latin America) |
 | 8 | `ruRU` |  | Russian |
-| 9 | `jaJP` |  | :x: Japanese<sup>>(unsure)</sup> |
+| 9 | `jaJP` |  | :x: Japanese<sup>(unsure)</sup> |
 | 10 | `ptBR` | ptPT | Portuguese (Latin America / EU) <sup>(master branch)</sup> |
 | 11 | `itIT` |  | Italian <sup>(master branch)</sup> |
 | 12 |  |  | Unknown |

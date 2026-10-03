@@ -31,6 +31,7 @@ dateCreated: 2021-08-30T07:45:04.322Z
 | [legacyRaidDifficulty](#legacyraiddifficulty) | tinyint | unsigned |  | NO | 3 |  |  |
 | [masterLooterGuid](#masterlooterguid) | bigint | unsigned |  | NO |  |  |  |
 | [pingRestriction](#pingrestriction) | tinyint | signed |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -109,4 +110,3 @@ dateCreated: 2021-08-30T07:45:04.322Z
 ### pingRestriction
 *- no description -*
 &nbsp;
-

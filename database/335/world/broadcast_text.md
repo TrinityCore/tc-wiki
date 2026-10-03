@@ -22,16 +22,17 @@ All the values are from sniffs (ADBVerified) so, don't add things in it - Kinzco
 | [LanguageID](#languageid) | int | unsigned |  | NO | 0 |  |  |
 | [Text](#text) | longtext |  |  | YES | NULL |  |  |
 | [Text1](#text1) | longtext |  |  | YES | NULL |  |  |
-| [EmoteID1](#emoteid1-3) | int | unsigned |  | NO | 0 |  |  |
-| [EmoteID2](#emoteid1-3) | int | unsigned |  | NO | 0 |  |  |
-| [EmoteID3](#emoteid1-3) | int | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay1](#emotedelay1-3) | int | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay2](#emotedelay1-3) | int | unsigned |  | NO | 0 |  |  |
-| [EmoteDelay3](#emotedelay1-3) | int | unsigned |  | NO | 0 |  |  |
+| [EmoteID1](#emoteid-1-3) | int | unsigned |  | NO | 0 |  |  |
+| [EmoteID2](#emoteid-1-3) | int | unsigned |  | NO | 0 |  |  |
+| [EmoteID3](#emoteid-1-3) | int | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay1](#emotedelay-1-3) | int | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay2](#emotedelay-1-3) | int | unsigned |  | NO | 0 |  |  |
+| [EmoteDelay3](#emotedelay-1-3) | int | unsigned |  | NO | 0 |  |  |
 | [SoundEntriesID](#soundentriesid) | int | unsigned |  | NO | 0 |  |  |
 | [EmotesID](#emotesid) | int | unsigned |  | NO | 0 |  |  |
 | [Flags](#flags) | int | unsigned |  | NO | 0 |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -40,7 +41,7 @@ Self description.
 &nbsp;
 
 ### LanguageID
-The [Language ID](/files/DBC/335/languages#id) in which the text will be broadcasted.
+The [Language ID](/files/DBC/335/languages#id-alt) in which the text will be broadcasted.
 <!--@include: @/partial/335/languages.md-->
 
 &nbsp;
@@ -54,7 +55,7 @@ The alternative text that the creature will broadcast.
 &nbsp;
 
 ### EmoteID\[1-3]
-The [Emote ID](/files/DBC/335/emotes#id) played when the texts are broadcasted.
+The [Emote ID](/files/DBC/335/emotes#id-alt) played when the texts are broadcasted.
 &nbsp;
 
 ### EmoteDelay\[1-3]
@@ -62,7 +63,7 @@ The delays of the broadcasted emotes.
 &nbsp;
 
 ### SoundEntriesID
-The [SoundEntry ID](/files/DBC/335/soundentries#id) played when the texts are broadcasted.
+The [SoundEntry ID](/files/DBC/335/soundentries#id-alt) played when the texts are broadcasted.
 &nbsp;
 
 ### EmotesID

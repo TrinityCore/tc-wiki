@@ -20,6 +20,7 @@ dateCreated: 2021-08-30T22:00:14.157Z
 | [skill](#skill) | smallint | unsigned | PRI | NO |  |  |  |
 | [value](#value) | smallint | unsigned |  | NO |  |  |  |
 | [max](#max) | smallint | unsigned |  | NO |  |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -28,7 +29,7 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### skill
-The [SkillLine ID](/files/DBC/335/skillline#id) a character owns.
+The [SkillLine ID](/files/DBC/335/skillline#id-alt) a character owns.
 &nbsp;
 
 ### value
@@ -38,4 +39,3 @@ The current points accumulated in the skill.
 ### max
 The highest possible **value** for the given skill within a given rank.
 &nbsp;
-

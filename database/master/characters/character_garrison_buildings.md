@@ -17,6 +17,7 @@ dateCreated: 2021-08-30T07:26:11.755Z
 | [buildingId](#buildingid) | int | unsigned |  | NO | 0 |  |  |
 | [timeBuilt](#timebuilt) | bigint | signed |  | NO |  |  |  |
 | [active](#active) | tinyint | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -39,5 +40,3 @@ dateCreated: 2021-08-30T07:26:11.755Z
 ### active
 *- no description -*
 &nbsp;
-
-

@@ -24,6 +24,7 @@ This table holds definitions for all game events that are activated or deactivat
 | [description](#description) | varchar(255) |  |  | YES | NULL |  | Description of the event displayed in console |
 | [world_event](#world_event) | tinyint | unsigned |  | NO | 0 |  | 0 if normal event, 1 if world event |
 | [announce](#announce) | tinyint | unsigned |  | YES | 2 |  | 0 dont announce, 1 announce, 2 value from config |
+
 &nbsp;
 ## Description of fields
 
@@ -52,7 +53,7 @@ This value must be lower than occurrence one or the event will never stop.
 &nbsp;
 
 ### holiday
-[Holiday ID](/files/DBC/335/holidays#id). This is sent to the client to update the calender.
+[Holiday ID](/files/DBC/335/holidays#id-alt). This is sent to the client to update the calender.
 &nbsp;
 
 ### holidayStage
@@ -76,4 +77,3 @@ This is a boolean field that determines if this game event is a world event or n
 * 1: announce **description** to world
 * 2: use `Event.Announce` setting from config
 &nbsp;
-

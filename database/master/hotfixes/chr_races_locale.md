@@ -28,6 +28,7 @@ dateCreated: 2021-08-30T09:51:47.457Z
 | [ShortNameLower_lang](#shortnamelower_lang) | text |  |  | YES | NULL |  |  |
 | [ShortNameLowerFemale_lang](#shortnamelowerfemale_lang) | text |  |  | YES | NULL |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | signed | PRI | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 

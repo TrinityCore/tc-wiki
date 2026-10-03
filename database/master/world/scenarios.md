@@ -16,6 +16,7 @@ dateCreated: 2021-08-30T09:35:57.979Z
 | [difficulty](#difficulty) | tinyint | unsigned | PRI | NO | 0 |  |  |
 | [scenario_A](#scenario_a) | int | unsigned |  | NO | 0 |  |  |
 | [scenario_H](#scenario_h) | int | unsigned |  | NO | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -34,5 +35,3 @@ dateCreated: 2021-08-30T09:35:57.979Z
 ### scenario_H
 *- no description -*
 &nbsp;
-
-

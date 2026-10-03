@@ -21,6 +21,7 @@ dateCreated: 2021-08-30T22:01:13.733Z
 | [rank](#rank) | tinyint | unsigned |  | NO |  |  |  |
 | [pnote](#pnote) | varchar(31) |  |  | NO | '' |  |  |
 | [offnote](#offnote) | varchar(31) |  |  | NO | '' |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -43,4 +44,3 @@ The note set by the player that can be read by everyone.
 ### offnote
 The note set by officers in the guild that can only be read by other officers of the guild.
 &nbsp;
-

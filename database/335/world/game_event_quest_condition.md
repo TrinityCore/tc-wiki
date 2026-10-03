@@ -18,6 +18,7 @@ This table contains the mapping of a quest in a world event to the condition tha
 | [quest](#quest) | int | unsigned | PRI | NO | 0 |  |  |
 | [condition_id](#condition_id) | int | unsigned |  | NO | 0 |  |  |
 | [num](#num) | float |  |  | YES | 0 |  |  |
+
 &nbsp;
 ## Description of fields
 
@@ -26,7 +27,7 @@ refers to [game_event.eventEntry](../world/game_event#evententry)
 &nbsp;
 
 ### quest
-The [quest_template.ID](../world/quest_template#id) that will trigger this condition.
+The [quest_template.ID](../world/quest_template#id-alt) that will trigger this condition.
 &nbsp;
 
 ### condition_id
@@ -36,4 +37,3 @@ The [condition_id](../world/game_event_condition#condition_id) that will be trig
 ### num
 On quest completion the amount **num** will be contributed towards the [required number](../world/game_event_condition#req_num) needed for the condition.
 &nbsp;
-

@@ -33,6 +33,7 @@ dateCreated: 2021-08-30T22:00:33.428Z
 | [time](#time) | int | unsigned | MUL | NO | 0 |  |  |
 | [corpseType](#corpsetype) | tinyint | unsigned | MUL | NO | 0 |  |  |
 | [instanceId](#instanceid) | int | unsigned | MUL | NO | 0 |  | Instance Identifier |
+
 &nbsp;
 ## Description of fields
 
@@ -59,7 +60,7 @@ The orientation of the corpse.
 &nbsp;
 
 ### mapId
-The [Map ID](/files/DBC/335/map#id) the corpse resides on.
+The [Map ID](/files/DBC/335/map#id-alt) the corpse resides on.
 
 ### phaseMask
 This is a bitmask field that describes all the phases the corpse is visible in.
@@ -87,7 +88,6 @@ Byte encoded 8bit integers. Shift each value left by 8 * byteIndex.
 | 1 | [race](../characters/characters#race) |
 | 2 | [gender](../characters/characters#gender) |
 | 3 | [skin](../characters/characters#skin) |
-{.dense}
 
 &nbsp;
 
@@ -99,7 +99,6 @@ Byte encoded 8bit integers. Shift each value left by 8 * byteIndex.
 | 1 | [hairStyle](../characters/characters#hairstyle) |
 | 2 | [hairColor](../characters/characters#haircolor) |
 | 3 | [facialStyle](../characters/characters#facialstyle) |
-{.dense}
 
 &nbsp;
 
@@ -115,7 +114,6 @@ The corpses [guildid](../characters/guild#guildid).
 | 8 | 0x08 | CORPSE_FLAG_HIDE_HELM | inherited from PLAYER_FLAGS_HIDE_HELM |
 | 16 | 0x10 | CORPSE_FLAG_HIDE_CLOAK | inherited from PLAYER_FLAGS_HIDE_CLOAK |
 | 32 | 0x20 | CORPSE_FLAG_LOOTABLE | can collect insignia in BGs |
-{.dense}
 
 &nbsp;
 
@@ -123,7 +121,6 @@ The corpses [guildid](../characters/guild#guildid).
 | Value | Flag | Name |
 |-------|------|------|
 | 1 | 0x1 | CORPSE_DYNFLAG_LOOTABLE |
-{.dense}
 
 &nbsp;
 
@@ -137,10 +134,9 @@ Unix timestamp when the corpse was created.
 | 0 | CORPSE_BONES |
 | 1 | CORPSE_RESURRECTABLE_PVE |
 | 2 | CORPSE_RESURRECTABLE_PVP |
-{.dense}
 
 &nbsp;
 
 ### instanceId
-The [instance id](../characters/instance#id) this corpse belongs to.
+The [instance id](../characters/instance#id-alt) this corpse belongs to.
 &nbsp;

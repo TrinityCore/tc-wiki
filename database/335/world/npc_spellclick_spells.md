@@ -20,6 +20,7 @@ That opcode is sent for quests in which you have to loot creatures, who are alre
 | [spell_id](#spell_id) | int | unsigned | PRI | NO |  |  | spell which should be casted  |
 | [cast_flags](#cast_flags) | tinyint | unsigned |  | NO |  |  | first bit defines caster: 1=player, 0=creature; second bit defines target, same mapping as caster bit |
 | [user_type](#user_type) | smallint | unsigned |  | NO | 0 |  | relation with summoner: 0-no 1-friendly 2-raid 3-party player can click |
+
 &nbsp;
 ## Description of fields
 
@@ -28,7 +29,7 @@ That opcode is sent for quests in which you have to loot creatures, who are alre
 &nbsp;
 
 ### spell_id
-The [Spell ID](/files/DBC/335/spell#id) which should be cast.
+The [Spell ID](/files/DBC/335/spell#id-alt) which should be cast.
 
 > Note: that for several quests there are more than one spell per click.
 {.is-info}
@@ -50,7 +51,6 @@ You can use this table for the actual value:
 | 1 | Player | Creature |
 | 2 | Creature | Player |
 | 3 | Player | Player |
-{.dense}
 
 &nbsp;
 
@@ -63,7 +63,5 @@ Relation with summoner: defines who is able to use this spellclick.
 | 1 | Friendly |
 | 2 | Raid |
 | 3 | Party |
-{.dense}
 
 &nbsp;
-
