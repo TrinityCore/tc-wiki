@@ -28,7 +28,7 @@ references [groups.guid](../characters/groups#guid)
 &nbsp;
 
 ### dungeon
-[LFGDungeon ID](/files/DBC/335/lfgdungeons#id)
+[LFGDungeon ID](/files/DBC/335/lfgdungeons#id-alt)
 &nbsp;
 
 ### state

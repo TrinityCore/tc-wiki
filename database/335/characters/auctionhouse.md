@@ -38,7 +38,7 @@ Unique identifier for every auction.
 &nbsp;
 
 ### houseid
-The Auctionhouse where this auction was created. Referes to [AuctionHouse ID](/files/DBC/335/auctionhouse#id). Options are :
+The Auctionhouse where this auction was created. Referes to [AuctionHouse ID](/files/DBC/335/auctionhouse#id-alt). Options are :
 
 - 2: Alliance Auction House
 - 6: Horde Auction House

@@ -60,7 +60,7 @@ The text the creature will say.
 &nbsp;
 
 ### Language
-A [Language ID](/files/DBC/335/languages#id). When set to 0, the current default language will be used.
+A [Language ID](/files/DBC/335/languages#id-alt). When set to 0, the current default language will be used.
 <!--@include: @/partial/335/languages.md-->
 
 &nbsp;
@@ -70,7 +70,7 @@ A value from 1&ndash;100 that represents the percentage chance that this text wi
 &nbsp;
 
 ### Emote
-The [Emote ID](/files/DBC/335/emotes#id) that the creature plays when the text is executed.
+The [Emote ID](/files/DBC/335/emotes#id-alt) that the creature plays when the text is executed.
 &nbsp;
 
 ### Duration
@@ -78,11 +78,11 @@ Time in milliseconds to see the text. 0 is default and calculated by core.
 &nbsp;
 
 ### Sound
-The [SoundEntry ID](/files/DBC/335/soundentries#id) this creature will play at the same time the text is executed.
+The [SoundEntry ID](/files/DBC/335/soundentries#id-alt) this creature will play at the same time the text is executed.
 &nbsp;
 
 ### BroadcastTextId
-Id of the equivalent text found in [broadcast_text](../world/broadcast_text#ID).
+Id of the equivalent text found in [broadcast_text](../world/broadcast_text#id-alt).
 &nbsp;
 
 ### TextRange

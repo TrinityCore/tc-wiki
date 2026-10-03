@@ -55,7 +55,7 @@ fulltext event description
 &nbsp;
 
 ### dungeon
-[LFGDungeon ID](/files/DBC/335/lfgdungeons#id) or `-1` if not set.
+[LFGDungeon ID](/files/DBC/335/lfgdungeons#id-alt) or `-1` if not set.
 &nbsp;
 
 ### eventtime

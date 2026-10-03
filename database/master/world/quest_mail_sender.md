@@ -19,7 +19,7 @@ dateCreated: 2021-08-30T09:35:02.771Z
 ## Description of fields
 
 ### QuestId
-references [quest_template.ID](../world/quest_template#id)
+references [quest_template.ID](../world/quest_template#id-alt)
 &nbsp;
 
 ### RewardMailSenderEntry

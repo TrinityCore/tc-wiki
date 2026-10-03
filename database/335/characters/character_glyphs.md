@@ -38,5 +38,5 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### glyph\[1-6]
-Contains a [GlyphPropery ID](/files/DBC/335/glyphproperties#id). This fields index is linked to [GlyphSlot Tooltip](/files/DBC/335/glyphslot#tooltip), constraining the glyph type of this index. 
+Contains a [GlyphPropery ID](/files/DBC/335/glyphproperties#id-alt). This fields index is linked to [GlyphSlot Tooltip](/files/DBC/335/glyphslot#tooltip), constraining the glyph type of this index. 
 &nbsp;

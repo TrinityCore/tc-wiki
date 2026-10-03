@@ -25,7 +25,7 @@ If you want to change the spot you will start in when you enter/leave an instanc
 ## Description of fields
 
 ### map
-The [Map ID](/files/DBC/335/map#id) of the instance.
+The [Map ID](/files/DBC/335/map#id-alt) of the instance.
 &nbsp;
 
 ### parent

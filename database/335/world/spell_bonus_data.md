@@ -25,7 +25,7 @@ Table used for storing custom damage/healing bonus coefficients.
 ## Description of fields
 
 ### entry
-references [Spell ID](/files/DBC/335/spell#id)
+references [Spell ID](/files/DBC/335/spell#id-alt)
 Only the first rank of the spell needs data if spell exists in [spell_ranks](../world/spell_ranks) and coefficients are the same for each rank.
 &nbsp;
 

@@ -36,7 +36,7 @@ A unique identifier given to each areatrigger to distinguish one areatrigger fro
 &nbsp;
 
 ### AreaTriggerCreatePropertiesId
-References [`areatrigger_create_properties.Id`](/database/master/world/areatrigger_create_properties#Id)
+References [`areatrigger_create_properties.Id`](/database/master/world/areatrigger_create_properties#id-alt)
 &nbsp;
 
 ### IsCustom

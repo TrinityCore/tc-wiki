@@ -30,7 +30,7 @@ A Unix timestamp indicating when this string was logged.
 &nbsp;
 
 ### realm
-The [realm id](../auth/realmlist#id) this log string came from. 
+The [realm id](../auth/realmlist#id-alt) this log string came from. 
 
 `0` if it came from realmd.
 &nbsp;

@@ -26,7 +26,7 @@ This table allows to specify special vehicle seat behavior by extending/overridi
 ## Description of fields
 
 ### SeatEntry
-references [VehicleSeat ID](/files/DBC/335/vehicleseat#id)
+references [VehicleSeat ID](/files/DBC/335/vehicleseat#id-alt)
 &nbsp;
 
 ### SeatOrientation

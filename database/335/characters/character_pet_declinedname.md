@@ -28,7 +28,7 @@ dateCreated: 2021-08-30T21:59:52.882Z
 ## Description of fields
 
 ### id {#id-alt}
-The [id](../characters/character_pet#id) of the pet.
+The [id](../characters/character_pet#id-alt) of the pet.
 &nbsp;
 
 ### owner

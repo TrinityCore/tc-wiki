@@ -29,7 +29,7 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### faction
-The [Faction ID](/files/DBC/335/faction#id) that the character has the given reputation in.
+The [Faction ID](/files/DBC/335/faction#id-alt) that the character has the given reputation in.
 &nbsp;
 
 ### standing

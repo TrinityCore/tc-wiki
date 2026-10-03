@@ -34,11 +34,11 @@ Records in this table can be overwritten by [vehicle_accessory](../world/vehicle
 ### accessory_entry
 [creature entry](../world/creature_template#entry) to be attached to the main vehicle.
 
-Flying vehicles must have [Flight](../world/creature_template_movement#Flight) enabled.
+Flying vehicles must have [Flight](../world/creature_template_movement#flight) enabled.
 &nbsp;
 
 ### seat_id
-[VehicleSeat ID](/files/DBC/335/vehicleseat#id) in witch the accessory should be spawned.
+[VehicleSeat ID](/files/DBC/335/vehicleseat#id-alt) in witch the accessory should be spawned.
 &nbsp;
 
 ### minion

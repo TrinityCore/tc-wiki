@@ -17,14 +17,14 @@ Definitions of instance encounters. Used by the LFG system.
 | [entry](#entry) | int | unsigned | PRI | NO |  |  | Unique entry from [DungeonEncounter](/files/DBC/335/dungeonencounter) |
 | [creditType](#credittype) | tinyint | unsigned |  | NO | 0 |  |  |
 | [creditEntry](#creditentry) | int | unsigned |  | NO | 0 |  |  |
-| [lastEncounterDungeon](#lastencounterdungeon) | smallint | unsigned |  | NO | 0 |  | If not 0, [LfgDungeon ID](/files/DBC/335/lfgdungeons#id) entry for the instance it is last encounter in |
+| [lastEncounterDungeon](#lastencounterdungeon) | smallint | unsigned |  | NO | 0 |  | If not 0, [LfgDungeon ID](/files/DBC/335/lfgdungeons#id-alt) entry for the instance it is last encounter in |
 | [comment](#comment) | varchar(255) |  |  | NO | '' |  |  |
 
 &nbsp;
 ## Description of fields
 
 ### entry
-Unique [DungeonEncounter ID](/files/DBC/335/dungeonencounter#id)
+Unique [DungeonEncounter ID](/files/DBC/335/dungeonencounter#id-alt)
 &nbsp;
 
 ### creditType
@@ -35,13 +35,13 @@ from [`enum EncounterCreditType`](https://github.com/TrinityCore/TrinityCore/tre
 
 ### creditEntry
 * **creditType** = 0: this field is a [creature entry](../world/creature_template#entry).
-* **creditType** = 1: this field is a [Spell ID](/files/DBC/335/spell#id).
+* **creditType** = 1: this field is a [Spell ID](/files/DBC/335/spell#id-alt).
 
 Casting the spell or killing the creature will mark the encounter as completed.
 &nbsp;
 
 ### lastEncounterDungeon
-Reference to [LfgDungeon ID](/files/DBC/335/lfgdungeons#id) for the instance which this encounter is the last of. If 0, encounter is not the final one.
+Reference to [LfgDungeon ID](/files/DBC/335/lfgdungeons#id-alt) for the instance which this encounter is the last of. If 0, encounter is not the final one.
 &nbsp;
 
 ### comment

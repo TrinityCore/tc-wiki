@@ -51,7 +51,7 @@ The [guid](../characters/characters#guid) of the reporting character.
 &nbsp;
 
 ### mapId
-[Map ID](/files/DBC/335/map#id) where lag was reported.
+[Map ID](/files/DBC/335/map#id-alt) where lag was reported.
 &nbsp;
 
 ### posX

@@ -25,7 +25,7 @@ This table controls the minimum skill level required in SKILL_FISHING (356), to 
 ## Description of fields
 
 ### entry
-references [AreaTable ID](/files/DBC/335/areatable#id)
+references [AreaTable ID](/files/DBC/335/areatable#id-alt)
 &nbsp;
 
 ### skill

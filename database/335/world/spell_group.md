@@ -28,6 +28,6 @@ Arbitrary ID defining a group of spells. For custom made DB groups, it is requir
 &nbsp;
 
 ### spell_id
-* **spell_id** > 0: [Spell ID](/files/DBC/335/spell#id) associated to this group. If the spell has multiple ranks it must be the [first_spell_id](/database/335/world/spell_ranks#first_spell_id).
+* **spell_id** > 0: [Spell ID](/files/DBC/335/spell#id-alt) associated to this group. If the spell has multiple ranks it must be the [first_spell_id](/database/335/world/spell_ranks#first_spell_id).
 * **spell_id** < 0: References another spell_group **id**.
 &nbsp;

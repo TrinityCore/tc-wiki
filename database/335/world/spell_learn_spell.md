@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2021-08-30T22:09:37.780Z
 ---
 
-This table holds information on spells that should be learned at the same time a player learns another spell. For example the few spells that are automatically learned when a player first learns a new profession. All fields in this table use [Spell IDs](/files/DBC/335/spell#id).
+This table holds information on spells that should be learned at the same time a player learns another spell. For example the few spells that are automatically learned when a player first learns a new profession. All fields in this table use [Spell IDs](/files/DBC/335/spell#id-alt).
 
 > Note: Spells with spell effects SPELL_EFFECT_LEARN_SPELL should NOT be included in this table.
 {.is-info}

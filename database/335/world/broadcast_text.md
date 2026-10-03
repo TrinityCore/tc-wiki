@@ -41,7 +41,7 @@ Self description.
 &nbsp;
 
 ### LanguageID
-The [Language ID](/files/DBC/335/languages#id) in which the text will be broadcasted.
+The [Language ID](/files/DBC/335/languages#id-alt) in which the text will be broadcasted.
 <!--@include: @/partial/335/languages.md-->
 
 &nbsp;
@@ -55,7 +55,7 @@ The alternative text that the creature will broadcast.
 &nbsp;
 
 ### EmoteID\[1-3]
-The [Emote ID](/files/DBC/335/emotes#id) played when the texts are broadcasted.
+The [Emote ID](/files/DBC/335/emotes#id-alt) played when the texts are broadcasted.
 &nbsp;
 
 ### EmoteDelay\[1-3]
@@ -63,7 +63,7 @@ The delays of the broadcasted emotes.
 &nbsp;
 
 ### SoundEntriesID
-The [SoundEntry ID](/files/DBC/335/soundentries#id) played when the texts are broadcasted.
+The [SoundEntry ID](/files/DBC/335/soundentries#id-alt) played when the texts are broadcasted.
 &nbsp;
 
 ### EmotesID

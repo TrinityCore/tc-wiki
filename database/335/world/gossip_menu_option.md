@@ -67,12 +67,12 @@ This is the text that you want to be displayed in the player selectable option. 
 * "I would like to browse your goods."
 * "Learn Dual Spec".
 
-If **OptionBroadcastTextID** contains a valid [broadcast_text.ID](../world/broadcast_text#id), it links to broadcast_text so the content from broadcast_text is displayed directly instead of the **OptionText** field content.
+If **OptionBroadcastTextID** contains a valid [broadcast_text.ID](../world/broadcast_text#id-alt), it links to broadcast_text so the content from broadcast_text is displayed directly instead of the **OptionText** field content.
 
 &nbsp;
 
 ### OptionBroadcastTextID
-The ID of the same text in [broadcast_text](../world/broadcast_text#id).
+The ID of the same text in [broadcast_text](../world/broadcast_text#id-alt).
 &nbsp;
 
 ### OptionType
@@ -111,7 +111,7 @@ If you want to create a sub-menu, this is the ID ([gossip_menu.MenuID](../world/
 &nbsp;
 
 ### ActionPoiID
-If you want a POI (point of interest) to display on the minimap (like how a city guard places a marker when you ask directions), this is the ID from [points_of_interest](../world/points_of_interest#id)
+If you want a POI (point of interest) to display on the minimap (like how a city guard places a marker when you ask directions), this is the ID from [points_of_interest](../world/points_of_interest#id-alt)
 &nbsp;
 
 ### BoxCoded
@@ -125,11 +125,11 @@ The DB value you insert here must be given in the number of copper, so 10 gold i
 
 ### BoxText
 This is the text of the window that appears that has "Yes" or "No" as clickable buttons. This is useful if you want a Yes/No confirmation window before the script executes. For example: "Are you sure you want to teleport to Dalaran?".
-If **BoxBroadCastTextID** contains a valid [broadcast_text.ID](../world/broadcast_text#id), it links to broadcast_text so the content from broadcast_text is displayed directly instead of the **BoxText** field content.
+If **BoxBroadCastTextID** contains a valid [broadcast_text.ID](../world/broadcast_text#id-alt), it links to broadcast_text so the content from broadcast_text is displayed directly instead of the **BoxText** field content.
 &nbsp;
 
 ### BoxBroadcastTextID
-The ID of the same text in [broadcast_text](../world/broadcast_text#id).
+The ID of the same text in [broadcast_text](../world/broadcast_text#id-alt).
 &nbsp;
 
 ### VerifiedBuild

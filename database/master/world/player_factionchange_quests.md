@@ -19,9 +19,9 @@ dateCreated: 2021-08-30T09:33:39.430Z
 ## Description of fields
 
 ### alliance_id
-This is the alliance [quest ID](../world/quest_template#id). If you convert to horde and your quests have a record in his table, they will be converted to **horde_id**.
+This is the alliance [quest ID](../world/quest_template#id-alt). If you convert to horde and your quests have a record in his table, they will be converted to **horde_id**.
 &nbsp;
 
 ### horde_id
-This is the horde [quest ID](../world/quest_template#id). If you convert to alliance and your quests have a record in his table, they will be converted to **alliance_id**.
+This is the horde [quest ID](../world/quest_template#id-alt). If you convert to alliance and your quests have a record in his table, they will be converted to **alliance_id**.
 &nbsp;

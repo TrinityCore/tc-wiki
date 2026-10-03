@@ -24,11 +24,11 @@ dateCreated: 2021-08-30T21:58:29.996Z
 ## Description of fields
 
 ### accountId
-The unique [account id](../auth/account#id).
+The unique [account id](../auth/account#id-alt).
 &nbsp;
 
 ### instanceId
-This is the [instance id](../characters/instance#id) which characters of this account has been past 5 hours.
+This is the [instance id](../characters/instance#id-alt) which characters of this account has been past 5 hours.
 &nbsp;
 
 ### releaseTime

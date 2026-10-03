@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T21:58:43.350Z
 ## Description of fields
 
 ### id {#id-alt}
-references [auctionhouse id](../characters/auctionhouse#id)
+references [auctionhouse id](../characters/auctionhouse#id-alt)
 &nbsp;
 
 ### bidderguid

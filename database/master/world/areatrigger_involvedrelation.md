@@ -27,5 +27,5 @@ This is the trigger ID from [AreaTrigger.db2](https://wago.tools/db2/areatrigger
 &nbsp;
 
 ### quest
-This is the [QuestId](/database/master/world/quest_template#id) that the trigger is tied to.
+This is the [QuestId](/database/master/world/quest_template#id-alt) that the trigger is tied to.
 &nbsp;

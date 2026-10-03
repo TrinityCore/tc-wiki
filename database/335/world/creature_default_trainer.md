@@ -24,7 +24,7 @@ references a [creature entry](../world/creature_template#entry)
 &nbsp;
 
 ### TrainerId
-references a [trainer Id](../world/trainer#id)
+references a [trainer Id](../world/trainer#id-alt)
 
 | ID | Comment |
 |---|---|

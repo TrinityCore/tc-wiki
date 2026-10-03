@@ -27,7 +27,7 @@ dateCreated: 2021-08-30T21:57:40.058Z
 ## Description of fields
 
 ### id {#id-alt}
-references [account.id](../auth/account#id)
+references [account.id](../auth/account#id-alt)
 &nbsp;
 
 ### bandate

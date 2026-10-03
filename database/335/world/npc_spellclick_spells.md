@@ -29,7 +29,7 @@ That opcode is sent for quests in which you have to loot creatures, who are alre
 &nbsp;
 
 ### spell_id
-The [Spell ID](/files/DBC/335/spell#id) which should be cast.
+The [Spell ID](/files/DBC/335/spell#id-alt) which should be cast.
 
 > Note: that for several quests there are more than one spell per click.
 {.is-info}

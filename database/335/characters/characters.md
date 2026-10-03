@@ -101,7 +101,7 @@ The character global unique identifier. This number must be unique and is the be
 &nbsp;
 
 ### account
-The [account ID](../auth/account#id) in which this character resides.
+The [account ID](../auth/account#id-alt) in which this character resides.
 &nbsp;
 
 ### name {#name-alt}
@@ -109,11 +109,11 @@ The name of the character.
 &nbsp;
 
 ### race
-The [Race ID](/files/DBC/335/chrraces#id) of the character.
+The [Race ID](/files/DBC/335/chrraces#id-alt) of the character.
 &nbsp;
 
 ### class
-The [Class ID](/files/DBC/335/chrclasses#id) of the character.
+The [Class ID](/files/DBC/335/chrclasses#id-alt) of the character.
 &nbsp;
 
 ### gender
@@ -213,11 +213,11 @@ The z position of the character's location.
 &nbsp;
 
 ### map
-The [Map ID](/files/DBC/335/map#id) the character is on.
+The [Map ID](/files/DBC/335/map#id-alt) the character is on.
 &nbsp;
 
 ### instance_id
-The [instance id](../characters/instance#id) the character is currently in and bound to.
+The [instance id](../characters/instance#id-alt) the character is currently in and bound to.
 &nbsp;
 
 ### instance_mode_mask
@@ -242,7 +242,7 @@ The orientation the character is facing.
 &nbsp;
 
 ### taximask
-Known [TaxiNode IDs](/files/DBC/335/taxinodes#id) stored in space separated bit masks.
+Known [TaxiNode IDs](/files/DBC/335/taxinodes#id-alt) stored in space separated bit masks.
 ```cpp
 uint8  fieldIdx = uint8((nodeId - 1) / 32);
 uint32 maskBit  = 1 << ((nodeId - 1) % 32);
@@ -349,7 +349,7 @@ This field is a bitmask controlling different actions taken once a player logs i
 &nbsp;
 
 ### zone
-The [AreaTable ID](/files/DBC/335/areatable#id) the character is in.
+The [AreaTable ID](/files/DBC/335/areatable#id-alt) the character is in.
 &nbsp;
 
 ### death_expire_time
@@ -357,7 +357,7 @@ Unix timestamp when a character can be resurrected in case of a server crash or 
 &nbsp;
 
 ### taxi_path
-Stores the players current [TaxiPath ID](/files/DBC/335/taxipath#id) if logged off while on one.
+Stores the players current [TaxiPath ID](/files/DBC/335/taxipath#id-alt) if logged off while on one.
 &nbsp;
 
 ### arenaPoints
@@ -461,7 +461,7 @@ uint32 maskBit  = 1 << (AreaBit % 32);
 
 ### equipmentCache
 Equipment shown on character login screen.
-Space separated list of "[ItemEntry](../world/item_template#entry) [SpellItemEnchantmentID](/files/DBC/335/spellitemenchantment#id)" pairs. 0 for no item equipped or item not enchanted.
+Space separated list of "[ItemEntry](../world/item_template#entry) [SpellItemEnchantmentID](/files/DBC/335/spellitemenchantment#id-alt)" pairs. 0 for no item equipped or item not enchanted.
 Pairs are ordered from EQUIPMENT_SLOT + INVENTORY_SLOT_BAG (19 + 4 pairs)
 
 <!--@include: @/partial/335/equipment-slots.md-->
@@ -498,7 +498,7 @@ Number of levels that can be granted to the characters 'recruit a friend' partne
 &nbsp;
 
 ### deleteInfos_Account
-Stores the [account id](../auth/account#id) if the character is deleted and worldserver.conf [`CharDelete.Method = 1`](/files/configuration/home).
+Stores the [account id](../auth/account#id-alt) if the character is deleted and worldserver.conf [`CharDelete.Method = 1`](/files/configuration/home).
 &nbsp;
 
 ### deleteInfos_Name

@@ -23,11 +23,11 @@ This table holds information about when using certain profession spells will cre
 ## Description of fields
 
 ### spellId
-The [Spell ID](/files/DBC/335/spell#id) that creates the item.
+The [Spell ID](/files/DBC/335/spell#id-alt) that creates the item.
 &nbsp;
 
 ### requiredSpecialization
-The character must have the [Spell ID](/files/DBC/335/spell#id) specified here learned to have a chance at triggering the extra item proc.
+The character must have the [Spell ID](/files/DBC/335/spell#id-alt) specified here learned to have a chance at triggering the extra item proc.
 &nbsp;
 
 ### additionalCreateChance

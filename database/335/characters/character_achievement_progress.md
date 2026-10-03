@@ -29,7 +29,7 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### criteria
-[AchievementCriteria ID](/files/DBC/335/achievement_criteria#id)
+[AchievementCriteria ID](/files/DBC/335/achievement_criteria#id-alt)
 &nbsp;
 
 ### counter

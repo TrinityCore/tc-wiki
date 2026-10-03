@@ -177,7 +177,7 @@ Stores information about client's OS. Used by Warden system.
 &nbsp;
 
 ### recruiter
-The account ID of another account. Used for recuit-a-friend system. See [account.id](#id)
+The account ID of another account. Used for recuit-a-friend system. See [account.id](#id-alt)
 &nbsp;
 
 ### battlenet_account

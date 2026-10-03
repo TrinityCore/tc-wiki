@@ -93,7 +93,7 @@ Realmflag of this realm.
 ### timezone
 The realm timezone, it will be displayed in the tabs of the realmlist.
 
-**timezone** corresponds to [cfg_categories IDs](/files/DBC/335/cfg_categories#id)
+**timezone** corresponds to [cfg_categories IDs](/files/DBC/335/cfg_categories#id-alt)
 | timezone | displayed name | | timezone | displayed name |
 | --- | --- |--| --- | --- |
 | 1 | Development | | 20 | CN4 |

@@ -22,13 +22,13 @@ This table holds enchantment chance information for items that should have eithe
 ## Description of fields
 
 ### entry
-This field ties in with _*either*_ [RandomProperty](../world/item_template#RandomProperty) OR [RandomSuffix](../world/item_template#RandomSuffix) fields in the item_template table. An item cannot have both of those fields set at non-zero values.
+This field ties in with _*either*_ [RandomProperty](../world/item_template#randomproperty) OR [RandomSuffix](../world/item_template#randomsuffix) fields in the item_template table. An item cannot have both of those fields set at non-zero values.
 &nbsp;
 
 ### ench
 The enchantment to apply on the item. This fields value depends on the source of **entry**.
-* RandomProperty: **ench** is an [ItemRandomPropery ID](/files/DBC/335/itemrandomproperties#id).
-* RandomSuffix: **ench** is an [ItemRandomSuffix ID](/files/DBC/335/itemrandomsuffix#id).
+* RandomProperty: **ench** is an [ItemRandomPropery ID](/files/DBC/335/itemrandomproperties#id-alt).
+* RandomSuffix: **ench** is an [ItemRandomSuffix ID](/files/DBC/335/itemrandomsuffix#id-alt).
 
 &nbsp;
 

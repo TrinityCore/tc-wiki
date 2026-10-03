@@ -30,11 +30,11 @@ This table manages the area and point markers for quest objectives.
 ## Description of fields
 
 ### QuestID
-The Quest Id from [quest_template.ID](../world/quest_template#id)
+The Quest Id from [quest_template.ID](../world/quest_template#id-alt)
 &nbsp;
 
 ### id {#id-alt}
-Used to group multiple entries from [quest_poi_points.QuestID](../world/quest_poi_points#QuestID). It is the id of the POI.
+Used to group multiple entries from [quest_poi_points.QuestID](../world/quest_poi_points#questid). It is the id of the POI.
 &nbsp;
 
 ### ObjectiveIndex
@@ -42,11 +42,11 @@ If `-1`, it's the position of the npc where you can complete the quest.
 &nbsp;
 
 ### MapID
-The [Map ID](/files/DBC/335/map#id) to display the POI on.
+The [Map ID](/files/DBC/335/map#id-alt) to display the POI on.
 &nbsp;
 
 ### WorldMapAreaId
-A [WorldMapArea ID](/files/DBC/335/worldmaparea#id), matching **MapID**, to disply the POI on.
+A [WorldMapArea ID](/files/DBC/335/worldmaparea#id-alt), matching **MapID**, to disply the POI on.
 &nbsp;
 
 ### Floor

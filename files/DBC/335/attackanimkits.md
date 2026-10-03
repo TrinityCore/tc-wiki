@@ -23,7 +23,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [AnimationData](#animationdata) | uint32 | [AnimationData.dbc/0](/files/DBC/335/animationdata#id-alt) |
 | 2 | [AttackAnimTypes](#attackanimtypes) | uint32 | [AttackAnimTypes.dbc/0](/files/DBC/335/attackanimtypes#id-alt) |
-| 3 | [Flags](#Flags) | uint32  |
+| 3 | [Flags](#flags) | uint32  |
 | 4 | [WhichHand](#whichhand) | uint32 |  |
 
 &nbsp;

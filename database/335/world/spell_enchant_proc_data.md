@@ -24,7 +24,7 @@ This table holds information how and when an enchantment proc can occur.
 ## Description of fields
 
 ### EnchantID
-references [SpellItemEnchantment ID](/files/DBC/335/spellitemenchantment#id)
+references [SpellItemEnchantment ID](/files/DBC/335/spellitemenchantment#id-alt)
 Any of the types (0 – 2) must be of ITEM_ENCHANTMENT_TYPE_COMBAT_SPELL (1)
 &nbsp;
 

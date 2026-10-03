@@ -24,13 +24,13 @@ This table holds information on what default actions a brand new character shoul
 ## Description of fields
 
 ### race
-The character's [ChrRace ID](/files/DBC/335/chrraces#id)
+The character's [ChrRace ID](/files/DBC/335/chrraces#id-alt)
 <!--@include: @/partial/335/chrraces.md{3,9}-->
 
 &nbsp;
 
 ### class
-The character's [ChrClass ID](/files/DBC/335/chrclasses#id)
+The character's [ChrClass ID](/files/DBC/335/chrclasses#id-alt)
 <!--@include: @/partial/335/chrclasses.md{3,9}-->
 
 &nbsp;
@@ -55,7 +55,7 @@ Special bars are used for stances, auras, pets, stealth, and other similar speci
 
 ### action {#action-alt}
 Depending on the **type** value:
-* type = 0: [Spell ID](/files/DBC/335/spell#id)
+* type = 0: [Spell ID](/files/DBC/335/spell#id-alt)
 * type = 128: [item entry](../world/item_template#entry) (yes item prototype, not item instance)
 * type = 64: macro id
 &nbsp;

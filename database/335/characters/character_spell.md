@@ -29,7 +29,7 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### spell
-The [Spell ID](/files/DBC/335/spell#id) known to the character.
+The [Spell ID](/files/DBC/335/spell#id-alt) known to the character.
 &nbsp;
 
 ### active

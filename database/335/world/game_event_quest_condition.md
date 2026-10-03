@@ -27,7 +27,7 @@ refers to [game_event.eventEntry](../world/game_event#evententry)
 &nbsp;
 
 ### quest
-The [quest_template.ID](../world/quest_template#id) that will trigger this condition.
+The [quest_template.ID](../world/quest_template#id-alt) that will trigger this condition.
 &nbsp;
 
 ### condition_id

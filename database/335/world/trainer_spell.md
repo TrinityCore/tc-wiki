@@ -29,11 +29,11 @@ This table contains all the trainer spell entries.
 ## Description of fields
 
 ### TrainerId
-references [trainer.id](../world/trainer#id)
+references [trainer.id](../world/trainer#id-alt)
 &nbsp;
 
 ### SpellId
-The [Spell ID](/files/DBC/335/spell#id) being taught.
+The [Spell ID](/files/DBC/335/spell#id-alt) being taught.
 &nbsp;
 
 ### MoneyCost
@@ -41,7 +41,7 @@ The cost in copper for the spell being taught.
 &nbsp;
 
 ### ReqSkillLine
-The [SkillLine ID](/files/DBC/335/skillline#id) the player ist requird to have.
+The [SkillLine ID](/files/DBC/335/skillline#id-alt) the player ist requird to have.
 
 [SkillLine](/files/DBC/335/skillline) excerpt
 | ID | Name |
@@ -70,7 +70,7 @@ The minimum level of skill points in **ReqSkillLine** required to be taught the 
 &nbsp;
 
 ### ReqAbility\[1-3]
-A [Spell ID](/files/DBC/335/spell#id) the player is required to know.
+A [Spell ID](/files/DBC/335/spell#id-alt) the player is required to know.
 &nbsp;
 
 ### ReqLevel

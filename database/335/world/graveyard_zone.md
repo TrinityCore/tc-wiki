@@ -25,11 +25,11 @@ This table is used to set what factions a given graveyard will accept, and also 
 ## Description of fields
 
 ### ID {#id-alt}
-references [WorldSafeLoc ID](/files/DBC/335/worldsafelocs#id)
+references [WorldSafeLoc ID](/files/DBC/335/worldsafelocs#id-alt)
 &nbsp;
 
 ### GhostZone
-[AreaTable ID](/files/DBC/335/areatable#id) of ghost position before teleportation to graveyard.
+[AreaTable ID](/files/DBC/335/areatable#id-alt) of ghost position before teleportation to graveyard.
 &nbsp;
 
 ### Faction

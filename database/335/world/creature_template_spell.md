@@ -31,7 +31,7 @@ The spells position on the cast bar if the creature is player controlled. Must b
 &nbsp;
 
 ### Spell
-A [Spell ID](/files/DBC/335/spell#id) to use.
+A [Spell ID](/files/DBC/335/spell#id-alt) to use.
 &nbsp;
 
 ### VerifiedBuild

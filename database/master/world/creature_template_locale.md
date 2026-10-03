@@ -44,11 +44,11 @@ This entry must be the same as [creature_template.entry](/database/master/world/
 &nbsp;
 
 ### Name {#name-alt}
-Translated content for [creature_template.name](/database/master/world/creature_template#name) field
+Translated content for [creature_template.name](/database/master/world/creature_template#name-alt) field
 &nbsp;
 
 ### NameAlt
-Translated content for [creature_template.femaleName](/database/master/world/creature_template#femaleName) field
+Translated content for [creature_template.femaleName](/database/master/world/creature_template#femalename) field
 &nbsp;
 
 ### Title
@@ -56,7 +56,7 @@ Translated content for [creature_template.subname](/database/master/world/creatu
 &nbsp;
 
 ### TitleAlt
-Translated content for [creature_template.TitleAlt](/database/master/world/creature_template#TitleAlt) field
+Translated content for [creature_template.TitleAlt](/database/master/world/creature_template#titlealt) field
 &nbsp;
 
 ### VerifiedBuild

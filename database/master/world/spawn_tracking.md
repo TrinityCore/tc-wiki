@@ -39,5 +39,5 @@ Spawn ID/GUID of the creature/game object that should be included in the group. 
 {.is-info}
 
 ### QuestObjectiveIds
-Valid [quest_objectives.Ids](/database/master/world/quest_objectives#id).
+Valid [quest_objectives.Ids](/database/master/world/quest_objectives#id-alt).
 Some SpawnTrackings are reused for several quest objectives so spawn's state changes will be checked for all of them (priority will be the completed objectives and then the active ones).

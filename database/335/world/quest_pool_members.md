@@ -23,7 +23,7 @@ This table holds the contents of pools created in [quest_pool_template](../world
 ## Description of fields
 
 ### questId
-adds a [quest entry](../world/quest_template#ID) to the pool with **poolId**.
+adds a [quest entry](../world/quest_template#id-alt) to the pool with **poolId**.
 > Note: The quest must be repeatable.
 {.is-info}
 

@@ -31,7 +31,7 @@ The instance ID. This number is unique to every instance.
 &nbsp;
 
 ### map
-The [Map ID](/files/DBC/335/map#id) the instance is in.
+The [Map ID](/files/DBC/335/map#id-alt) the instance is in.
 &nbsp;
 
 ### resettime

@@ -27,11 +27,11 @@ Visually speaking, this table is used to identify the X and Y coordinates on the
 ## Description of fields
 
 ### QuestID
-references [quest_template.ID](../world/quest_template#id) and [quest_poi.QuestID](../world/quest_poi#questid)
+references [quest_template.ID](../world/quest_template#id-alt) and [quest_poi.QuestID](../world/quest_poi#questid)
 &nbsp;
 
 ### Idx1
-Used to group multiple entries from [quest_poi.id](../world/quest_poi#id). You must manually increment this value by 1 for each new row in quest_poi_point with the same questId (0, 1, 2, 3...).
+Used to group multiple entries from [quest_poi.id](../world/quest_poi#id-alt). You must manually increment this value by 1 for each new row in quest_poi_point with the same questId (0, 1, 2, 3...).
 &nbsp;
 
 ### Idx2

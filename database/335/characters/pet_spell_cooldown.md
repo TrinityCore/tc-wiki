@@ -26,11 +26,11 @@ dateCreated: 2021-08-30T22:01:56.278Z
 ## Description of fields
 
 ### guid
-references [character_pet.id](../characters/character_pet#id).
+references [character_pet.id](../characters/character_pet#id-alt).
 &nbsp;
 
 ### spell
-The [Spell ID](/files/DBC/335/spell#id) on cooldown.
+The [Spell ID](/files/DBC/335/spell#id-alt) on cooldown.
 &nbsp;
 
 ### time
@@ -38,7 +38,7 @@ The Unix timestamp when the spell cooldown will finish.
 &nbsp;
 
 ### categoryId
-The [SpellCategory ID](/files/DBC/335/spellcategory#id) (if any) linking to [Spell Category](/files/DBC/335/spell#category). Used for category cooldown handling.
+The [SpellCategory ID](/files/DBC/335/spellcategory#id-alt) (if any) linking to [Spell Category](/files/DBC/335/spell#category). Used for category cooldown handling.
 &nbsp;
 
 ### categoryEnd

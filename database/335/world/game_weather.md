@@ -33,7 +33,7 @@ This table holds the percentages for weather changes in various zones. Not all z
 ## Description of fields
 
 ### zone
-This field contains the [AreaTable ID](/files/DBC/335/areatable#id) of the zone that you wish to change the weather for.
+This field contains the [AreaTable ID](/files/DBC/335/areatable#id-alt) of the zone that you wish to change the weather for.
 &nbsp;
 
 ### spring_rain_chance

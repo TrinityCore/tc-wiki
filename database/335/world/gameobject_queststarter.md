@@ -25,5 +25,5 @@ The [entry](../world/gameobject_template#entry) of the gameobject starting the q
 &nbsp;
 
 ### quest
-The [quest ID](../world/quest_template#id) that this gameobject provides.
+The [quest ID](../world/quest_template#id-alt) that this gameobject provides.
 &nbsp;

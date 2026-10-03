@@ -26,9 +26,9 @@ dateCreated: 2021-08-30T21:59:17.652Z
 | [amount0](#amount-0-2) | int | signed |  | NO | 0 |  |  |
 | [amount1](#amount-0-2) | int | signed |  | NO | 0 |  |  |
 | [amount2](#amount-0-2) | int | signed |  | NO | 0 |  |  |
-| [base_amount0](#base_amount0-2) | int | signed |  | NO | 0 |  |  |
-| [base_amount1](#base_amount0-2) | int | signed |  | NO | 0 |  |  |
-| [base_amount2](#base_amount0-2) | int | signed |  | NO | 0 |  |  |
+| [base_amount0](#base_amount-0-2) | int | signed |  | NO | 0 |  |  |
+| [base_amount1](#base_amount-0-2) | int | signed |  | NO | 0 |  |  |
+| [base_amount2](#base_amount-0-2) | int | signed |  | NO | 0 |  |  |
 | [maxDuration](#maxduration) | int | signed |  | NO | 0 |  |  |
 | [remainTime](#remaintime) | int | signed |  | NO | 0 |  |  |
 | [remainCharges](#remaincharges) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -51,7 +51,7 @@ The [item guid](../characters/item_instance#guid) of the item which casted the a
 &nbsp;
 
 ### spell
-The [Spell ID](/files/DBC/335/spell#id) which applied the aura.
+The [Spell ID](/files/DBC/335/spell#id-alt) which applied the aura.
 &nbsp;
 
 ### effectMask

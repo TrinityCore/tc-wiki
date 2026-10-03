@@ -58,7 +58,7 @@ The [guid](../characters/characters#guid) of the reporting character.
 &nbsp;
 
 ### name {#name-alt}
-The [character name](../characters/characters#name), who created that ticket.
+The [character name](../characters/characters#name-alt), who created that ticket.
 &nbsp;
 
 ### description
@@ -70,7 +70,7 @@ Unix timestamp when the ticket was submitted.
 &nbsp;
 
 ### mapId
-[Map ID](/files/DBC/335/map#id) where ticket has ben created.
+[Map ID](/files/DBC/335/map#id-alt) where ticket has ben created.
 &nbsp;
 
 ### posX

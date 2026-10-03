@@ -17,11 +17,11 @@ dateCreated: 2021-08-30T09:31:59.104Z
 | [flags](#flags) | int | unsigned |  | NO | 0 |  |  |
 | [mingold](#mingold) | int | unsigned |  | NO | 0 |  |  |
 | [maxgold](#maxgold) | int | unsigned |  | NO | 0 |  |  |
-| [artkit0](#artkit0) | int | signed |  | NO | 0 |  |  |
-| [artkit1](#artkit1) | int | signed |  | NO | 0 |  |  |
-| [artkit2](#artkit2) | int | signed |  | NO | 0 |  |  |
-| [artkit3](#artkit3) | int | signed |  | NO | 0 |  |  |
-| [artkit4](#artkit4) | int | signed |  | NO | 0 |  |  |
+| [artkit0](#artkit-0-4) | int | signed |  | NO | 0 |  |  |
+| [artkit1](#artkit-0-4) | int | signed |  | NO | 0 |  |  |
+| [artkit2](#artkit-0-4) | int | signed |  | NO | 0 |  |  |
+| [artkit3](#artkit-0-4) | int | signed |  | NO | 0 |  |  |
+| [artkit4](#artkit-0-4) | int | signed |  | NO | 0 |  |  |
 | [WorldEffectID](#worldeffectid) | int | unsigned |  | NO | 0 |  |  |
 | [AIAnimKitID](#aianimkitid) | int | unsigned |  | NO | 0 |  |  |
 

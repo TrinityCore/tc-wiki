@@ -37,7 +37,7 @@ The 12 tables have different relations with other DB tables.
 | --- | --- | --- | --- | --- | --- |
 | fishing_loot_template | no relation | entry is linked with ID of the fishing zone or area |  |  |  |
 | creature_loot_template | entry | 	many <- many | [creature_template](/database/master/world/creature_template){target=_blank} | [lootid](/database/master/world/creature_template#lootid){target=_blank} |  |
-| gameobject_loot_template | entry | many <- many | [gameobject_template](/database/master/world/gameobject_template){target=_blank} | [Data1](/database/master/world/gameobject_template#data1){target=_blank} | Only gameobject type 3 (GAMEOBJECT_TYPE_CHEST) or<br/>25 (GAMEOBJECT_TYPE_FISHINGHOLE) use data1 as loot ID,<br/>for other types data1 is used in other ways |
+| gameobject_loot_template | entry | many <- many | [gameobject_template](/database/master/world/gameobject_template){target=_blank} | [Data1](/database/master/world/gameobject_template#data-0-34){target=_blank} | Only gameobject type 3 (GAMEOBJECT_TYPE_CHEST) or<br/>25 (GAMEOBJECT_TYPE_FISHINGHOLE) use data1 as loot ID,<br/>for other types data1 is used in other ways |
 | item_loot_template | entry | many <- many | [ItemSparse.db2 (wago.tools)](https://wago.tools/db2/itemsparse){target=_blank} | ID |  |
 | disenchant_loot_template | entry | many <- many | [ItemSparse.db2 (wago.tools)](https://wago.tools/db2/itemsparse){target=_blank} |  |  |
 | prospecting_loot_template | entry | many <- many | [ItemSparse.db2 (wago.tools)](https://wago.tools/db2/itemsparse){target=_blank} | ID |  |
@@ -72,7 +72,7 @@ Changes what [Item](#item) column refers to
 ### Reference
 Template reference asks core to process another loot template and to include all items dropped for that template into current loot. Simple idea.
 
-Value of [MaxCount](#MaxCount) field is used as a repetition factor for references - the reference will be processed not just once but exactly **MaxCount** times. So if the referenced template can produce 3 to 10 items (depending on luck) and value of **MaxCount** is '5' then after processing of that reference 15 to 50 items will be added to the loot. An awful example, isn't it? Actually no good example for whole template reference repetition is known, but it is quite useful for group references sometimes.
+Value of [MaxCount](#maxcount) field is used as a repetition factor for references - the reference will be processed not just once but exactly **MaxCount** times. So if the referenced template can produce 3 to 10 items (depending on luck) and value of **MaxCount** is '5' then after processing of that reference 15 to 50 items will be added to the loot. An awful example, isn't it? Actually no good example for whole template reference repetition is known, but it is quite useful for group references sometimes.
 
 Be careful. Self references (loot template includes reference to itself) and loop references (loot template A includes reference to entire template B, loot template B includes reference to entire template A) are completely different from internal references. If you make a self-reference like
 ```sql

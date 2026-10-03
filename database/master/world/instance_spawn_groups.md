@@ -55,7 +55,7 @@ Mask based on EncounterState, you can combine multiple states by OR-ing them, al
 &nbsp;
 
 ### spawnGroupId
-ID of the spawn group, referenced in [`spawn_group_template.groupId`](/database/master/world/spawn_group_template#groupId)
+ID of the spawn group, referenced in [`spawn_group_template.groupId`](/database/master/world/spawn_group_template#groupid)
 &nbsp;
 
 ### flags

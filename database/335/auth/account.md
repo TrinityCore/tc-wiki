@@ -174,5 +174,5 @@ Offset to UTC in minutes.
 &nbsp;
 
 ### recruiter
-The [account id](#id) of another account. Used for recuit-a-friend system.
+The [account id](#id-alt) of another account. Used for recuit-a-friend system.
 &nbsp;

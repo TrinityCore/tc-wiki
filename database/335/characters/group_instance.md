@@ -28,7 +28,7 @@ references [groups.guid](../characters/groups#guid).
 &nbsp;
 
 ### instance
-[instance id](../characters/instance#id) the group is tied to.
+[instance id](../characters/instance#id-alt) the group is tied to.
 &nbsp;
 
 ### permanent

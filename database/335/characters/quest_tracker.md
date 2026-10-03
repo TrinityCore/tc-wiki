@@ -31,7 +31,7 @@ dateCreated: 2021-08-30T22:02:12.278Z
 ## Description of fields
 
 ### id {#id-alt}
-The tracked [quest ID](../world/quest_template#id).
+The tracked [quest ID](../world/quest_template#id-alt).
 &nbsp;
 
 ### character_guid

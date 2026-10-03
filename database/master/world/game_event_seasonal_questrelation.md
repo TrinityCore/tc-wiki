@@ -23,5 +23,5 @@ dateCreated: 2021-08-30T09:31:30.415Z
 &nbsp;
 
 ### eventEntry
-The [`game_event.eventEntry`](/database/master/world/game_event#eventEntry) the quest belongs to
+The [`game_event.eventEntry`](/database/master/world/game_event#evententry) the quest belongs to
 &nbsp;

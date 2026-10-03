@@ -54,11 +54,11 @@ A second [item](https://wago.tools/db2/itemsparse){target=_blank} that you must 
 &nbsp;
 
 ### quest_done_A
-A [quest](/database/master/world/quest_template#id) that you must have completed. This field is only for alliance.
+A [quest](/database/master/world/quest_template#id-alt) that you must have completed. This field is only for alliance.
 &nbsp;
 
 ### quest_done_H
-A [quest](/database/master/world/quest_template#id) that you must have completed. This field is only for horde.
+A [quest](/database/master/world/quest_template#id-alt) that you must have completed. This field is only for horde.
 &nbsp;
 
 ### completed_achievement

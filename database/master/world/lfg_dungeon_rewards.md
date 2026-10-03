@@ -29,9 +29,9 @@ Max level at which this reward is rewarded.
 &nbsp;
 
 ### firstQuestId
-[quest_template.ID](../world/quest_template#id) with rewards for the first dungeon this day.
+[quest_template.ID](../world/quest_template#id-alt) with rewards for the first dungeon this day.
 &nbsp;
 
 ### otherQuestId
-[quest_template.ID](../world/quest_template#id) with rewards for subsequent dungeons this day.
+[quest_template.ID](../world/quest_template#id-alt) with rewards for subsequent dungeons this day.
 &nbsp;

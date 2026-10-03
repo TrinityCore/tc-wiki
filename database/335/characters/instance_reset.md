@@ -26,7 +26,7 @@ dateCreated: 2021-08-30T22:01:24.380Z
 ## Description of fields
 
 ### mapid
-[Map ID](/files/DBC/335/map#id)
+[Map ID](/files/DBC/335/map#id-alt)
 &nbsp;
 
 ### difficulty

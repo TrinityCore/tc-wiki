@@ -36,7 +36,7 @@ This field signifies the creature_template.entry. It will affect all spawned cre
 &nbsp;
 
 ### PathId
-If a creature has waypoint pathed movement, this field hold the [waypoint_path.PathId](/database/master/world/waypoint_path#PathId) for the path the creature is to follow.
+If a creature has waypoint pathed movement, this field hold the [waypoint_path.PathId](/database/master/world/waypoint_path#pathid) for the path the creature is to follow.
 &nbsp;
 
 ### mount

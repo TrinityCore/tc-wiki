@@ -44,11 +44,11 @@ Unix timestamp when the entity should be respawned.
 &nbsp;
 
 ### mapId
-[Map ID](/files/DBC/335/map#id) where the entity should be spawned.
+[Map ID](/files/DBC/335/map#id-alt) where the entity should be spawned.
 &nbsp;
 
 ### instanceId
-If the entity was killed/destroyed in an instance, this field holds the [instance id](../characters/instance#id) where this entity should be respawned.
+If the entity was killed/destroyed in an instance, this field holds the [instance id](../characters/instance#id-alt) where this entity should be respawned.
 
 Each instance is different depending on the group so this field is vital in keeping track of which creatures/gameobjects should be respawned for which players at what time.
 &nbsp;

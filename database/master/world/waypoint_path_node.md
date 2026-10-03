@@ -24,7 +24,7 @@ dateCreated: 2021-08-30T09:38:08.386Z
 ## Description of fields
 
 ### PathId
-References unique path id from [`waypoint_path.PathId`](/database/master/world/waypoint_path#PathId)
+References unique path id from [`waypoint_path.PathId`](/database/master/world/waypoint_path#pathid)
 &nbsp;
 
 ### NodeId

@@ -25,5 +25,5 @@ The [entry](../world/creature_template#entry) of the creature.
 &nbsp;
 
 ### bg_template
-The [battleground_template](../world/battleground_template#id) id.
+The [battleground_template](../world/battleground_template#id-alt) id.
 &nbsp;

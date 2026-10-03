@@ -30,5 +30,5 @@ The [gameobject_template.entry](../world/gameobject_template#entry) of the quest
 &nbsp;
 
 ### quest
-The [quest_template.ID](../world/quest_template#id) that is made available.
+The [quest_template.ID](../world/quest_template#id-alt) that is made available.
 &nbsp;

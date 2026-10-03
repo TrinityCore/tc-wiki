@@ -57,5 +57,5 @@ Description for the path.
 | Formation Path | Npc is leader of a formation |
 | Scripted Path  | Npc has a scripted path |
 
-For example: `<Npc name> - Cosmetic Path` if this path is assigned in [`creature_addon.PathId`](/database/master/world/creature_addon#PathId).
+For example: `<Npc name> - Cosmetic Path` if this path is assigned in [`creature_addon.PathId`](/database/master/world/creature_addon#pathid).
 &nbsp;

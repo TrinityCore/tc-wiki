@@ -27,23 +27,23 @@ This table holds the start positions of each class-race combinations for all new
 ## Description of fields
 
 ### race
-The character's [ChrRace ID](/files/DBC/335/chrraces#id)
+The character's [ChrRace ID](/files/DBC/335/chrraces#id-alt)
 <!--@include: @/partial/335/chrraces.md{3,9}-->
 
 &nbsp;
 
 ### class
-The character's [ChrClass ID](/files/DBC/335/chrclasses#id)
+The character's [ChrClass ID](/files/DBC/335/chrclasses#id-alt)
 <!--@include: @/partial/335/chrclasses.md{3,9}-->
 
 &nbsp;
 
 ### map
-The [Map ID](/files/DBC/335/map#id) the player will start on. It can not be instanceable.
+The [Map ID](/files/DBC/335/map#id-alt) the player will start on. It can not be instanceable.
 &nbsp;
 
 ### zone
-The start zone [AreaTable ID](/files/DBC/335/areatable#id).
+The start zone [AreaTable ID](/files/DBC/335/areatable#id-alt).
 > unused?
 {.is-info}
 

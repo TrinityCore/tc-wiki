@@ -21,7 +21,7 @@ dateCreated: 2021-08-30T22:02:41.230Z
 ## Description of fields
 
 ### ID {#id-alt}
-references [achievement_reward](../world/achievement_reward#id)
+references [achievement_reward](../world/achievement_reward#id-alt)
 &nbsp;
 
 ### Locale

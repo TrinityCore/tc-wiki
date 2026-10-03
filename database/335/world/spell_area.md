@@ -29,31 +29,31 @@ This table is used to apply a specific spell aura to the player within an area i
 ## Description of fields
 
 ### spell
-The [Spell ID](/files/DBC/335/spell#id) to be casted on the player.
+The [Spell ID](/files/DBC/335/spell#id-alt) to be casted on the player.
 &nbsp;
 
 ### area
-The [AreaTable ID](/files/DBC/335/areatable#id) where **spell** should be applied.
+The [AreaTable ID](/files/DBC/335/areatable#id-alt) where **spell** should be applied.
 &nbsp;
 
 ### quest_start
-The [Quest ID](../world/quest_template#id) which the player must have in the state defined by **quest_start_status** for the spell to apply.
+The [Quest ID](../world/quest_template#id-alt) which the player must have in the state defined by **quest_start_status** for the spell to apply.
 &nbsp;
 
 ### quest_end
-The [Quest ID](../world/quest_template#id) which the player must not have in the state defined by **quest_end_status** for the spell to apply.
+The [Quest ID](../world/quest_template#id-alt) which the player must not have in the state defined by **quest_end_status** for the spell to apply.
 Setting both quest_start and quest_end to the same value is useless.
 &nbsp;
 
 ### aura_spell
-If set, this value (plus or minus aura [Spell ID](/files/DBC/335/spell#id)) imposes additional condition.
+If set, this value (plus or minus aura [Spell ID](/files/DBC/335/spell#id-alt)) imposes additional condition.
 * **aura_spell** < 0: If the player has aura **-aura_spell** then **spell** will not be activated.
 * **aura_spell** = 0: This column is ignored.
 * **aura_spell** > 0: If the player has no aura **aura_spell** then **spell** will not be activated.
 &nbsp;
 
 ### racemask
-Race mask of [ChrRace IDs](/files/DBC/335/chrraces#id) **spell** applies to. (0: any race)
+Race mask of [ChrRace IDs](/files/DBC/335/chrraces#id-alt) **spell** applies to. (0: any race)
 <!--@include: @/partial/335/chrraces.md{13,}-->
 
 &nbsp;

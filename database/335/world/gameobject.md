@@ -51,7 +51,7 @@ The [entry](../world/gameobject_template#entry) of the template that is used whe
 &nbsp;
 
 ### map
-The [Map ID](/files/DBC/335/map#id) where this object is spawned.
+The [Map ID](/files/DBC/335/map#id-alt) where this object is spawned.
 &nbsp;
 
 ### zoneId

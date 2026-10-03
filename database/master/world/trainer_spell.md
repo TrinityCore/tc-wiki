@@ -27,7 +27,7 @@ dateCreated: 2021-08-30T09:37:39.919Z
 ## Description of fields
 
 ### TrainerId
-ID referencing [`trainer.Id`](/database/master/world/trainer#Id)
+ID referencing [`trainer.Id`](/database/master/world/trainer#id-alt)
 &nbsp;
 
 ### SpellId

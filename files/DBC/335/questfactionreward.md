@@ -44,5 +44,5 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 ### Difficulty
 <code>Col: 1 &ndash; 10 (uint32)</code>
 
-Col indexed by [quest RewardFactionValue](/database/335/world/quest_template#rewardfactionvalue[1-5])
+Col indexed by [quest RewardFactionValue](/database/335/world/quest_template#rewardfactionvalue-1-5)
 &nbsp;

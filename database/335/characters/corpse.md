@@ -60,7 +60,7 @@ The orientation of the corpse.
 &nbsp;
 
 ### mapId
-The [Map ID](/files/DBC/335/map#id) the corpse resides on.
+The [Map ID](/files/DBC/335/map#id-alt) the corpse resides on.
 
 ### phaseMask
 This is a bitmask field that describes all the phases the corpse is visible in.
@@ -138,5 +138,5 @@ Unix timestamp when the corpse was created.
 &nbsp;
 
 ### instanceId
-The [instance id](../characters/instance#id) this corpse belongs to.
+The [instance id](../characters/instance#id-alt) this corpse belongs to.
 &nbsp;

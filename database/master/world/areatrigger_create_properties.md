@@ -28,14 +28,14 @@ dateCreated: 2021-11-14T20:12:34.174Z
 | [TimeToTargetScale](#timetotargetscale) | int | unsigned |  | NO | 0 |  |  |
 | [Speed](#speed) | float |  |  | NO | 1 |  |  |
 | [Shape](#shape) | tinyint | unsigned |  | NO | 0 |  |  |
-| [ShapeData0](#shapedata-0-7) | float |  |  | NO | 0 |  |  |
-| [ShapeData1](#shapedata-0-7) | float |  |  | NO | 0 |  |  |
-| [ShapeData2](#shapedata-0-7) | float |  |  | NO | 0 |  |  |
-| [ShapeData3](#shapedata-0-7) | float |  |  | NO | 0 |  |  |
-| [ShapeData4](#shapedata-0-7) | float |  |  | NO | 0 |  |  |
-| [ShapeData5](#shapedata-0-7) | float |  |  | NO | 0 |  |  |
-| [ShapeData6](#shapedata-0-7) | float |  |  | NO | 0 |  |  |
-| [ShapeData7](#shapedata-0-7) | float |  |  | NO | 0 |  |  |
+| [ShapeData0](#shapedata0-7) | float |  |  | NO | 0 |  |  |
+| [ShapeData1](#shapedata0-7) | float |  |  | NO | 0 |  |  |
+| [ShapeData2](#shapedata0-7) | float |  |  | NO | 0 |  |  |
+| [ShapeData3](#shapedata0-7) | float |  |  | NO | 0 |  |  |
+| [ShapeData4](#shapedata0-7) | float |  |  | NO | 0 |  |  |
+| [ShapeData5](#shapedata0-7) | float |  |  | NO | 0 |  |  |
+| [ShapeData6](#shapedata0-7) | float |  |  | NO | 0 |  |  |
+| [ShapeData7](#shapedata0-7) | float |  |  | NO | 0 |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
 | [VerifiedBuild](#verifiedbuild) | int | unsigned |  | NO | 0 |  |  |
 

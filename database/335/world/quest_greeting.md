@@ -35,7 +35,7 @@ This table adds greeting behavior to an NPC or an Gameobject.
 &nbsp;
 
 ### GreetEmoteType
-Quest NPC [Emote ID](/files/DBC/335/emotes#id)
+Quest NPC [Emote ID](/files/DBC/335/emotes#id-alt)
 &nbsp;
 
 ### GreetEmoteDelay

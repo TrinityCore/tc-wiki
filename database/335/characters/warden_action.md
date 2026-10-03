@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T22:02:25.427Z
 ## Description of fields
 
 ### wardenId
-references [warden_checks.id](../world/warden_checks#id)
+references [warden_checks.id](../world/warden_checks#id-alt)
 &nbsp;
 
 ### action {#action-alt}

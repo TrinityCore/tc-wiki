@@ -27,7 +27,7 @@ Contains all the teleport triggers definition. This table is used to complete .d
 ## Description of fields
 
 ### ID {#id-alt}
-This is the [AreaTrigger ID](/files/DBC/335/areatrigger#id).
+This is the [AreaTrigger ID](/files/DBC/335/areatrigger#id-alt).
 &nbsp;
 
 ### Name {#name-alt}
@@ -35,7 +35,7 @@ Name of the trigger. This can be an arbitrary name, and is for descriptive purpo
 &nbsp;
 
 ### target_map
-Target [Map ID](/files/DBC/335/map#id) of the trigger.
+Target [Map ID](/files/DBC/335/map#id-alt) of the trigger.
 &nbsp;
 
 ### target_position_x

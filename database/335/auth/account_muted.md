@@ -26,7 +26,7 @@ dateCreated: 2021-08-30T21:57:42.686Z
 ## Description of fields
 
 ### guid
-references [account.id](../auth/account#id)
+references [account.id](../auth/account#id-alt)
 &nbsp;
 
 ### mutedate

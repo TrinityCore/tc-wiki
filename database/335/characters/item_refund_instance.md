@@ -37,5 +37,5 @@ The amount of money (in copper) paid for the item.
 &nbsp;
 
 ### paidExtendedCost
-The [ItemExtendedCost ID](/files/DBC/335/itemextendedcost#id) that was paid for the item.
+The [ItemExtendedCost ID](/files/DBC/335/itemextendedcost#id-alt) that was paid for the item.
 &nbsp;

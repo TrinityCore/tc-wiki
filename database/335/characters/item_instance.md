@@ -64,7 +64,7 @@ Remaining [item duration](../world/item_template#duration) in sec.
 &nbsp;
 
 ### charges
-The number of charges for each of the five possible [spellcharges](../world/item_template#spellcharges_[1-5]) on an item, specified via five space separated integers.
+The number of charges for each of the five possible [spellcharges](../world/item_template#spellcharges_-1-5) on an item, specified via five space separated integers.
 &nbsp;
 
 ### flags
@@ -73,7 +73,7 @@ The number of charges for each of the five possible [spellcharges](../world/item
 &nbsp;
 
 ### enchantments
-Stores all enchantments as 12 space separated 3-tuples of \[EnchantmentId duration charges\]. EnchantmentId is a [SpellItemEnchantment ID](/files/DBC/335/spellitemenchantment#id).
+Stores all enchantments as 12 space separated 3-tuples of \[EnchantmentId duration charges\]. EnchantmentId is a [SpellItemEnchantment ID](/files/DBC/335/spellitemenchantment#id-alt).
 `enum EnchantmentSlot`
 | ID | Name | Comment |
 |----|------|---------|
@@ -93,8 +93,8 @@ Stores all enchantments as 12 space separated 3-tuples of \[EnchantmentId durati
 &nbsp;
 
 ### randomPropertyId
-* **randomPropertyId** > 0: [ItemRandomProperty ID](/files/DBC/335/itemrandomproperties#id)
-* **randomPropertyId** < 0: [ItemRandomSuffix ID](/files/DBC/335/itemrandomsuffix#id)
+* **randomPropertyId** > 0: [ItemRandomProperty ID](/files/DBC/335/itemrandomproperties#id-alt)
+* **randomPropertyId** < 0: [ItemRandomSuffix ID](/files/DBC/335/itemrandomsuffix#id-alt)
 &nbsp;
 
 ### durability

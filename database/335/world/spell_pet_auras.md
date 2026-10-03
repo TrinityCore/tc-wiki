@@ -23,7 +23,7 @@ This table links player controlled pet spells with their actual effects.
 ## Description of fields
 
 ### spell
-Dummy [Spell ID](/files/DBC/335/spell#id).
+Dummy [Spell ID](/files/DBC/335/spell#id-alt).
 On the selected **effectId** it must either have SPELL_EFFECT_DUMMY (3) or apply a SPELL_AURA_DUMMY (4).
 &nbsp;
 
@@ -36,5 +36,5 @@ If set, **aura** is only applied to this [creature entry](../world/creature_temp
 &nbsp;
 
 ### aura
-[Spell ID](/files/DBC/335/spell#id) with the actual effects described by **spell**.
+[Spell ID](/files/DBC/335/spell#id-alt) with the actual effects described by **spell**.
 &nbsp;

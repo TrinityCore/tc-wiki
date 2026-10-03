@@ -53,7 +53,7 @@ This value must be lower than occurrence one or the event will never stop.
 &nbsp;
 
 ### holiday
-[Holiday ID](/files/DBC/335/holidays#id). This is sent to the client to update the calender.
+[Holiday ID](/files/DBC/335/holidays#id-alt). This is sent to the client to update the calender.
 &nbsp;
 
 ### holidayStage

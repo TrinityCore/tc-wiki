@@ -23,11 +23,11 @@ This table provides data for spell linking system, telling it which spells trigg
 ## Description of fields
 
 ### spell_trigger
-The [Spell ID](/files/DBC/335/spell#id), which when cast, will trigger the spell listed in **spell_effect**.
+The [Spell ID](/files/DBC/335/spell#id-alt), which when cast, will trigger the spell listed in **spell_effect**.
 &nbsp;
 
 ### spell_effect
-The [Spell ID](/files/DBC/335/spell#id) that you want to be triggered. How this spell acts is determined by the **type** field.
+The [Spell ID](/files/DBC/335/spell#id-alt) that you want to be triggered. How this spell acts is determined by the **type** field.
 &nbsp;
 
 ### type

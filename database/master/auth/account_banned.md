@@ -27,7 +27,7 @@ dateCreated: 2021-08-20T13:45:13.968Z
 ## Description of fields
 
 ### id {#id-alt}
-The account ID. See [account.id](/database/master/auth/account#id)
+The account ID. See [account.id](/database/master/auth/account#id-alt)
 &nbsp;
 
 ### bandate

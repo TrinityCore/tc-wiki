@@ -29,15 +29,15 @@ This table basically handles 3 quest details:
 ## Description of fields
 
 ### ID {#id-alt}
-references [quest_template.ID](../world/quest_template#id)
+references [quest_template.ID](../world/quest_template#id-alt)
 &nbsp;
 
 ### EmoteOnComplete
-[Emote ID](/files/DBC/335/emotes#id) played by the quest ender NPC when all quest objectives are completed.
+[Emote ID](/files/DBC/335/emotes#id-alt) played by the quest ender NPC when all quest objectives are completed.
 &nbsp;
 
 ### EmoteOnIncomplete
-[Emote ID](/files/DBC/335/emotes#id) played by the quest ender NPC if any of the quest objectives are incomplete.
+[Emote ID](/files/DBC/335/emotes#id-alt) played by the quest ender NPC if any of the quest objectives are incomplete.
 &nbsp;
 
 ### EmoteOnCompleteDelay

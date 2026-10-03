@@ -31,7 +31,7 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### quest
-The [quest ID](../world/quest_template#id) of the non-repeatable seasonal quest.
+The [quest ID](../world/quest_template#id-alt) of the non-repeatable seasonal quest.
 &nbsp;
 
 ### event

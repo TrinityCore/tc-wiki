@@ -30,11 +30,11 @@ This table is used for quests offering rewards without any required quest items 
 ## Description of fields
 
 ### ID {#id-alt}
-references [quest_template.ID](../world/quest_template#id)
+references [quest_template.ID](../world/quest_template#id-alt)
 &nbsp;
 
 ### Emote\[1-4]
-[Emote ID](/files/DBC/335/emotes#id) played by NPC.
+[Emote ID](/files/DBC/335/emotes#id-alt) played by NPC.
 &nbsp;
 
 ### EmoteDelay\[1-4]

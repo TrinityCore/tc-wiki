@@ -48,7 +48,7 @@ The direction that the player will face after arriving at the teleport location.
 &nbsp;
 
 ### map
-The [Map ID](/files/DBC/335/map#id) of the location.
+The [Map ID](/files/DBC/335/map#id-alt) of the location.
 &nbsp;
 
 ### name {#name-alt}

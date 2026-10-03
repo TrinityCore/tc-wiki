@@ -23,7 +23,7 @@ This table controls the so called "discovery" system of learning spells. This sy
 ## Description of fields
 
 ### spellId
-The recipe [Spell ID](/files/DBC/335/spell#id) that has a chance to be automatically discovered.
+The recipe [Spell ID](/files/DBC/335/spell#id-alt) that has a chance to be automatically discovered.
 &nbsp;
 
 ### reqSpell

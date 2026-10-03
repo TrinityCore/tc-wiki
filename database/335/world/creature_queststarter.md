@@ -25,5 +25,5 @@ The ID of the creature. See [creature_template.entry](../world/creature_template
 &nbsp;
 
 ### quest
-The quest ID that the creature starts. See [quest_template.ID](../world/quest_template#id)
+The quest ID that the creature starts. See [quest_template.ID](../world/quest_template#id-alt)
 &nbsp;

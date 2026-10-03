@@ -28,7 +28,7 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### achievement
-[Achievement ID](/files/DBC/335/achievement#id)
+[Achievement ID](/files/DBC/335/achievement#id-alt)
 &nbsp;
 
 ### date

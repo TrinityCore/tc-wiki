@@ -25,11 +25,11 @@ dateCreated: 2021-08-30T21:58:08.875Z
 ## Description of fields
 
 ### realmid
-The [id](../auth/realmlist#id) of the realm.
+The [id](../auth/realmlist#id-alt) of the realm.
 &nbsp;
 
 ### acctid
-The [account id](../auth/account#id).
+The [account id](../auth/account#id-alt).
 &nbsp;
 
 ### numchars

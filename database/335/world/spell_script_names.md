@@ -21,7 +21,7 @@ Holds the spell id to ScriptName pairings for use in spell scripts.
 ## Description of fields
 
 ### spell_id
-The [Spell ID](/files/DBC/335/spell#id) to link. If it is negative and a [first_spell_id](../world/spell_ranks#first_spell_id), all ranks of the spell specified in [spell_ranks](../world/spell_ranks) are included.
+The [Spell ID](/files/DBC/335/spell#id-alt) to link. If it is negative and a [first_spell_id](../world/spell_ranks#first_spell_id), all ranks of the spell specified in [spell_ranks](../world/spell_ranks) are included.
 
 One spell can have more than one script assigned.
 &nbsp;

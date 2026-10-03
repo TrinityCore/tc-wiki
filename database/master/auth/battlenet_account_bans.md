@@ -22,7 +22,7 @@ dateCreated: 2021-08-20T15:28:44.730Z
 ## Description of fields
 
 ### id {#id-alt}
-The battlenet account ID. See [battlenet_accounts.id](/database/master/auth/battlenet_accounts#id).
+The battlenet account ID. See [battlenet_accounts.id](/database/master/auth/battlenet_accounts#id-alt).
 &nbsp;
 
 ### bandate

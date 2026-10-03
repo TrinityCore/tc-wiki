@@ -29,7 +29,7 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### skill
-The [SkillLine ID](/files/DBC/335/skillline#id) a character owns.
+The [SkillLine ID](/files/DBC/335/skillline#id-alt) a character owns.
 &nbsp;
 
 ### value

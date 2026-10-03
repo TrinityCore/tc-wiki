@@ -41,7 +41,7 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### quest
-The [quest ID](../world/quest_template#id).
+The [quest ID](../world/quest_template#id-alt).
 &nbsp;
 
 ### status

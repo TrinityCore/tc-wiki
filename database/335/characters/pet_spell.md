@@ -24,11 +24,11 @@ dateCreated: 2021-08-30T22:01:53.626Z
 ## Description of fields
 
 ### guid
-The [pet id](../characters/character_pet#id) of the pet having this spell.
+The [pet id](../characters/character_pet#id-alt) of the pet having this spell.
 &nbsp;
 
 ### spell
-The [Spell ID](/files/DBC/335/spell#id) known to this pet.
+The [Spell ID](/files/DBC/335/spell#id-alt) known to this pet.
 &nbsp;
 
 ### active

@@ -62,17 +62,17 @@ Character's last orientation before joining a battleground.
 &nbsp;
 
 ### joinMapId
-Character's last [Map ID](/files/DBC/335/map#id) before joining a battleground.
+Character's last [Map ID](/files/DBC/335/map#id-alt) before joining a battleground.
 &nbsp;
 
 ### taxiStart
-Character's last [TaxiNode ID](/files/DBC/335/taxinodes#id) before joining a battleground.
+Character's last [TaxiNode ID](/files/DBC/335/taxinodes#id-alt) before joining a battleground.
 &nbsp;
 
 ### taxiEnd
-Character's heading [TaxiNode ID](/files/DBC/335/taxinodes#id) before joining a battleground.
+Character's heading [TaxiNode ID](/files/DBC/335/taxinodes#id-alt) before joining a battleground.
 &nbsp;
 
 ### mountSpell
-Character's mount [Spell ID](/files/DBC/335/spell#id) before joining a battleground.
+Character's mount [Spell ID](/files/DBC/335/spell#id-alt) before joining a battleground.
 &nbsp;

@@ -53,7 +53,7 @@ This field contains the unique ID across all messages.
 ### stationery
 Defines the background texture of the mail.
 
-[`enum MailStationery`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Mails/Mail.h#L55-L64) gathered from [Stationery ID](/files/DBC/335/stationery#id)
+[`enum MailStationery`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Mails/Mail.h#L55-L64) gathered from [Stationery ID](/files/DBC/335/stationery#id-alt)
 | ID | Name | Comment |
 |----|------|---------|
 | 1 | MAIL_STATIONERY_TEST |  |
@@ -67,16 +67,16 @@ Defines the background texture of the mail.
 &nbsp;
 
 ### mailTemplateId
-[MailTemplate ID](/files/DBC/335/mailtemplate#id) if available.
+[MailTemplate ID](/files/DBC/335/mailtemplate#id-alt) if available.
 &nbsp;
 
 ### sender
 Can be one of:
 * [character guid](../characters/characters#guid)
-* [AuctionHouse ID](/files/DBC/335/auctionhouse#id)
+* [AuctionHouse ID](/files/DBC/335/auctionhouse#id-alt)
 * [creature entry](../world/creature_template#entry)
 * [gameobject entry](../world/gameobject_template#entry)
-* [calendar event id](../characters/calendar_events#id)
+* [calendar event id](../characters/calendar_events#id-alt)
 * 0 (unknown sender case)
 &nbsp;
 

@@ -33,7 +33,7 @@ Players race must match mask to receive mail.
 &nbsp;
 
 ### mailTemplateId
-[MailTemplate ID](/files/DBC/335/mailtemplate#id) to send.
+[MailTemplate ID](/files/DBC/335/mailtemplate#id-alt) to send.
 &nbsp;
 
 ### senderEntry

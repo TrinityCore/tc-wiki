@@ -27,7 +27,7 @@ Holds reputation multipliers for specific factions.
 ## Description of fields
 
 ### faction
-[Faction ID](/files/DBC/335/faction#id) these rates apply to.
+[Faction ID](/files/DBC/335/faction#id-alt) these rates apply to.
 &nbsp;
 
 ### quest_rate

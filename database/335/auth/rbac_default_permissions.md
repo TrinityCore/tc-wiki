@@ -30,10 +30,10 @@ references [account_access.SecurityLevel](../auth/account_access#securitylevel)
 &nbsp;
 
 ### permissionId
-references [rbac_permissions.id](../auth/rbac_permissions#id)
+references [rbac_permissions.id](../auth/rbac_permissions#id-alt)
 &nbsp;
 
 ### realmId
 * -1: all realms
-* [realm id](../auth/realmlist#id): only this realm
+* [realm id](../auth/realmlist#id-alt): only this realm
 &nbsp;

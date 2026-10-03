@@ -256,7 +256,7 @@ On creature / gameobject spell hit
 * **event_type**:
 SMART_EVENT_SPELLHIT (8)
 * **event_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **event_param2**:
 (`0`: any SpellSchool)
 <!--@include: @/partial/335/spell-schools.md{28,37}-->
@@ -328,9 +328,9 @@ SMART_EVENT_RESPAWN (11)
   | SMART_SCRIPT_RESPAWN_CONDITION_AREA | 2 |
 
 * **event_param2**:
-if **event_param1** = 1: [Map ID](/files/DBC/335/map#id)
+if **event_param1** = 1: [Map ID](/files/DBC/335/map#id-alt)
 * **event_param3**:
-if **event_param1** = 2: [AreaTable ID](/files/DBC/335/areatable#id)
+if **event_param1** = 2: [AreaTable ID](/files/DBC/335/areatable#id-alt)
 * **event_param4**:
 `0`
 * **event_param5**:
@@ -373,7 +373,7 @@ RepeatMin (in msec.)
 * **event_param2**:
 RepeatMax (in msec.)
 * **event_param3**:
-[Spell ID](/files/DBC/335/spell#id) (`0`: any)
+[Spell ID](/files/DBC/335/spell#id-alt) (`0`: any)
 * **event_param4**:
 `0`
 * **event_param5**:
@@ -431,7 +431,7 @@ On friendly lost buff
 * **event_type**:
 SMART_EVENT_FRIENDLY_MISSING_BUFF (16)
 * **event_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **event_param2**:
 Radius
 * **event_param3**:
@@ -494,7 +494,7 @@ On target accepted quest
 * **event_type**:
 SMART_EVENT_ACCEPTED_QUEST (19)
 * **event_param1**:
-[quest ID](../world/quest_template#id) (`0`: any)
+[quest ID](../world/quest_template#id-alt) (`0`: any)
 * **event_param2**:
 CooldownMin (in msec.)
 * **event_param3**:
@@ -515,7 +515,7 @@ On target rewarded quest
 * **event_type**:
 SMART_EVENT_REWARD_QUEST (20)
 * **event_param1**:
-[quest ID](../world/quest_template#id) (`0`: any)
+[quest ID](../world/quest_template#id-alt) (`0`: any)
 * **event_param2**:
 CooldownMin (in msec.)
 * **event_param3**:
@@ -556,7 +556,7 @@ On receive player emote
 * **event_type**:
 SMART_EVENT_RECEIVE_EMOTE (22)
 * **event_param1**:
-[EmotesText ID](/files/DBC/335/emotestext#id)
+[EmotesText ID](/files/DBC/335/emotestext#id-alt)
 * **event_param2**:
 CooldownMin (in msec.)
 * **event_param3**:
@@ -576,7 +576,7 @@ On creature has aura (optional: more or equal stacks to **event_param2**)
 * **event_type**:
 SMART_EVENT_HAS_AURA (23)
 * **event_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **event_param2**:
 Stack amount
 * **event_param3**:
@@ -596,7 +596,7 @@ On target buffed with spell (optional: more or equal stacks to **event_param2**)
 * **event_type**:
 SMART_EVENT_TARGET_BUFFED (24)
 * **event_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **event_param2**:
 Stack amount
 * **event_param3**:
@@ -742,7 +742,7 @@ On target spell hit
 * **event_type**:
 SMART_EVENT_SPELLHIT_TARGET (31)
 * **event_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **event_param2**:
 (`0`: any SpellSchool)
 <!--@include: @/partial/335/spell-schools.md{28,37}-->
@@ -912,7 +912,7 @@ SMART_EVENT_WAYPOINT_START (39)
 * **event_param1**:
 [waypoint point](../world/waypoint_data#point) (`0`: any)
 * **event_param2**:
-[waypoint id](../world/waypoint_data#id) (`0`: any)
+[waypoint id](../world/waypoint_data#id-alt) (`0`: any)
 * **event_param3**:
 `0`
 * **event_param4**:
@@ -932,7 +932,7 @@ SMART_EVENT_WAYPOINT_REACHED (40)
 * **event_param1**:
 [waypoint point](../world/waypoint_data#point) (`0`: any)
 * **event_param2**:
-[waypoint id](../world/waypoint_data#id) (`0`: any)
+[waypoint id](../world/waypoint_data#id-alt) (`0`: any)
 * **event_param3**:
 `0`
 * **event_param4**:
@@ -1055,7 +1055,7 @@ valid for **source_type**
 * **event_type**:
 SMART_EVENT_AREATRIGGER_ONTRIGGER (46)
 * **event_param1**:
-[AreaTrigger ID](/files/DBC/335/areatrigger#id) (`0`: any)
+[AreaTrigger ID](/files/DBC/335/areatrigger#id-alt) (`0`: any)
 yes, same value as **entryorguid**
 * **event_param2**:
 `0`
@@ -1249,7 +1249,7 @@ SMART_EVENT_WAYPOINT_PAUSED (55)
 * **event_param1**:
 [waypoint point](../world/waypoint_data#point) (`0`: any)
 * **event_param2**:
-[waypoint id](../world/waypoint_data#id) (`0`: any)
+[waypoint id](../world/waypoint_data#id-alt) (`0`: any)
 * **event_param3**:
 `0`
 * **event_param4**:
@@ -1269,7 +1269,7 @@ SMART_EVENT_WAYPOINT_RESUMED (56)
 * **event_param1**:
 [waypoint point](../world/waypoint_data#point) (`0`: any)
 * **event_param2**:
-[waypoint id](../world/waypoint_data#id) (`0`: any)
+[waypoint id](../world/waypoint_data#id-alt) (`0`: any)
 * **event_param3**:
 `0`
 * **event_param4**:
@@ -1289,7 +1289,7 @@ SMART_EVENT_WAYPOINT_STOPPED (57)
 * **event_param1**:
 [waypoint point](../world/waypoint_data#point) (`0`: any)
 * **event_param2**:
-[waypoint id](../world/waypoint_data#id) (`0`: any)
+[waypoint id](../world/waypoint_data#id-alt) (`0`: any)
 * **event_param3**:
 `0`
 * **event_param4**:
@@ -1309,7 +1309,7 @@ SMART_EVENT_WAYPOINT_ENDED (58)
 * **event_param1**:
 [waypoint point](../world/waypoint_data#point) (`0`: any)
 * **event_param2**:
-[waypoint id](../world/waypoint_data#id) (`0`: any)
+[waypoint id](../world/waypoint_data#id-alt) (`0`: any)
 * **event_param3**:
 `0`
 * **event_param4**:
@@ -1523,7 +1523,7 @@ On game event started
 * **event_type**:
 SMART_EVENT_GAME_EVENT_START (68)
 * **event_param1**:
-[game_event eventEntry](../world/game_event#eventEntry)
+[game_event eventEntry](../world/game_event#evententry)
 * **event_param2**:
 `0`
 * **event_param3**:
@@ -1544,7 +1544,7 @@ On game event ended
 * **event_type**:
 SMART_EVENT_GAME_EVENT_END (69)
 * **event_param1**:
-[game_event eventEntry](../world/game_event#eventEntry)
+[game_event eventEntry](../world/game_event#evententry)
 * **event_param2**:
 `0`
 * **event_param3**:
@@ -1832,7 +1832,7 @@ on Spell::cast
 * **event_type**:
 SMART_EVENT_ON_SPELL_CAST (83)
 * **event_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **event_param2**:
 CooldownMin (in msec.)
 * **event_param3**:
@@ -1852,7 +1852,7 @@ on Unit::InterruptSpell
 * **event_type**:
 SMART_EVENT_ON_SPELL_FAILED (84)
 * **event_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **event_param2**:
 CooldownMin (in msec.)
 * **event_param3**:
@@ -1872,7 +1872,7 @@ on Spell::prapare
 * **event_type**:
 SMART_EVENT_ON_SPELL_START (85)
 * **event_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **event_param2**:
 CooldownMin (in msec.)
 * **event_param3**:
@@ -1951,7 +1951,7 @@ On aura applied
 * **event_type**:
 SMART_EVENT_ON_AURA_APPLIED (89)
 * **event_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **event_param2**:
 CooldownMin (in msec.)
 * **event_param3**:
@@ -1971,7 +1971,7 @@ On aura removed
 * **event_type**:
 SMART_EVENT_ON_AURA_REMOVED (90)
 * **event_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **event_param2**:
 CooldownMin (in msec.)
 * **event_param3**:
@@ -2087,7 +2087,7 @@ Sets faction of target creatures.
 * **action_type**:
 SMART_ACTION_SET_FACTION (2)
 * **action_param1**:
-[FactionTemplate ID](/files/DBC/335/factiontemplate#id) (`0`: default)
+[FactionTemplate ID](/files/DBC/335/factiontemplate#id-alt) (`0`: default)
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -2127,7 +2127,7 @@ Target units play a sound entry.
 * **action_type**:
 SMART_ACTION_SOUND (4)
 * **action_param1**:
-[SoundEntry ID](/files/DBC/335/soundentries#id)
+[SoundEntry ID](/files/DBC/335/soundentries#id-alt)
 * **action_param2**:
 onlySelf
   * 0: heard by all players in visibility range
@@ -2150,7 +2150,7 @@ Plays an emote as oneshot.
 * **action_type**:
 SMART_ACTION_PLAY_EMOTE (5)
 * **action_param1**:
-[Emote ID](/files/DBC/335/emotes#id)
+[Emote ID](/files/DBC/335/emotes#id-alt)
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -2169,7 +2169,7 @@ Fail quest for target players.
 * **action_type**:
 SMART_ACTION_FAIL_QUEST (6)
 * **action_param1**:
-[quest ID](../world/quest_template#id)
+[quest ID](../world/quest_template#id-alt)
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -2188,7 +2188,7 @@ Offer quest to target players.
 * **action_type**:
 SMART_ACTION_OFFER_QUEST (7)
 * **action_param1**:
-[quest ID](../world/quest_template#id)
+[quest ID](../world/quest_template#id-alt)
 * **action_param2**:
 directAdd:
   * 0: offer quest
@@ -2255,17 +2255,17 @@ Play random emote.
 * **action_type**:
 SMART_ACTION_RANDOM_EMOTE (10)
 * **action_param1**:
-[Emote ID](/files/DBC/335/emotes#id) #1
+[Emote ID](/files/DBC/335/emotes#id-alt) #1
 * **action_param2**:
-[Emote ID](/files/DBC/335/emotes#id) #2
+[Emote ID](/files/DBC/335/emotes#id-alt) #2
 * **action_param3**:
-[Emote ID](/files/DBC/335/emotes#id) #3
+[Emote ID](/files/DBC/335/emotes#id-alt) #3
 * **action_param4**:
-[Emote ID](/files/DBC/335/emotes#id) #4
+[Emote ID](/files/DBC/335/emotes#id-alt) #4
 * **action_param5**:
-[Emote ID](/files/DBC/335/emotes#id) #5
+[Emote ID](/files/DBC/335/emotes#id-alt) #5
 * **action_param6**:
-[Emote ID](/files/DBC/335/emotes#id) #6
+[Emote ID](/files/DBC/335/emotes#id-alt) #6
 
 :::
 
@@ -2274,7 +2274,7 @@ Cast spell at targets.
 * **action_type**:
 SMART_ACTION_CAST (11)
 * **action_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **action_param2**:  
   <!--@include: @/partial/335/smart-cast-flags.md-->
 
@@ -2355,7 +2355,7 @@ Satisfy exploration requirement for quest for target players.
 * **action_type**:
 SMART_ACTION_CALL_AREAEXPLOREDOREVENTHAPPENS (15)
 * **action_param1**:
-[QuestID](../world/quest_template#id)
+[QuestID](../world/quest_template#id-alt)
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -2394,7 +2394,7 @@ Play Emote Continuously. Useful for displaying activity on a NPC (fishing, worki
 * **action_type**:
 SMART_ACTION_SET_EMOTE_STATE (17)
 * **action_param1**:
-[Emote ID](/files/DBC/335/emotes#id)
+[Emote ID](/files/DBC/335/emotes#id-alt)
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -2580,7 +2580,7 @@ Like SMART_ACTION_CALL_AREAEXPLOREDOREVENTHAPPENS (15) but for the whole party.
 * **action_type**:
 SMART_ACTION_CALL_GROUPEVENTHAPPENS (26)
 * **action_param1**:
-[quest ID](../world/quest_template#id)
+[quest ID](../world/quest_template#id-alt)
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -2619,7 +2619,7 @@ An **action_param1** = 0 will always remove all auras regardless of other parame
 * **action_type**:
 SMART_ACTION_REMOVEAURASFROMSPELL (28)
 * **action_param1**:
-[Spell ID](/files/DBC/335/spell#id) (`0`: all auras)
+[Spell ID](/files/DBC/335/spell#id-alt) (`0`: all auras)
 * **action_param2**:
 charges (`0`: all charges)
 * **action_param3**:
@@ -2644,7 +2644,7 @@ angle (`0`: default)
 * **action_param3**:
 Following ends when reaching [creature entry](../world/creature_template#entry)
 * **action_param4**:
-[creature entry](../world/creature_template#entry) or [quest ID](../world/quest_template#id), depending on **action_param5**
+[creature entry](../world/creature_template#entry) or [quest ID](../world/quest_template#id-alt), depending on **action_param5**
 * **action_param5**:
 creditType:
   * 0: creature kill
@@ -3112,7 +3112,7 @@ Sends target player to flight path.
 * **action_type**:
 SMART_ACTION_ACTIVATE_TAXI (52)
 * **action_param1**:
-[TaxiPath ID](/files/DBC/335/taxipath#id)
+[TaxiPath ID](/files/DBC/335/taxipath#id-alt)
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -3133,11 +3133,11 @@ SMART_ACTION_WP_START (53)
 * **action_param1**:
 run? (`0`/`1`)
 * **action_param2**:
-[waypoint id](../world/waypoint_data#id)
+[waypoint id](../world/waypoint_data#id-alt)
 * **action_param3**:
 canRepeat? (`0`/`1`)
 * **action_param4**:
-Binds creature to [quest ID](../world/quest_template#id). It's objective is satisfied when the last waypoint is reached and failed when the creature is killed or the player is out of range.
+Binds creature to [quest ID](../world/quest_template#id-alt). It's objective is satisfied when the last waypoint is reached and failed when the creature is killed or the player is out of range.
 * **action_param5**:
 despawntime (in msec.)
 * **action_param6**:
@@ -3171,7 +3171,7 @@ SMART_ACTION_WP_STOP (55)
 * **action_param1**:
 despawnTime (in msec.)
 * **action_param2**:
-[quest ID](../world/quest_template#id)
+[quest ID](../world/quest_template#id-alt)
 * **action_param3**:
 failQuest?
   * 0: quest objective is satisfied
@@ -3312,7 +3312,7 @@ Teleport targets to World Position set in the same target definition.
 * **action_type**:
 SMART_ACTION_TELEPORT (62)
 * **action_param1**:
-[Map ID](/files/DBC/335/map#id)
+[Map ID](/files/DBC/335/map#id-alt)
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -3500,7 +3500,7 @@ Slots 1 &ndash; 3 item entries are only used if no equipment ID is set.
 * **action_type**:
 SMART_ACTION_EQUIP (71)
 * **action_param1**:
-[equipment ID](../world/creature_equip_template#id)
+[equipment ID](../world/creature_equip_template#id-alt)
 * **action_param2**:
 slotmask (`0`: 0x7)
 Only slots matching the slotmask are equipped.
@@ -3780,7 +3780,7 @@ The targets will cast the spell on themselves.
 * **action_type**:
 SMART_ACTION_SELF_CAST (85)
 * **action_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **action_param2**:  
   <!--@include: @/partial/335/smart-cast-flags.md-->
 
@@ -3803,7 +3803,7 @@ CasterTarget will cast Spell ID on all (regular) targets.
 * **action_type**:
 SMART_ACTION_CROSS_CAST (86)
 * **action_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **action_param2**:  
   <!--@include: @/partial/335/smart-cast-flags.md-->
 
@@ -3927,7 +3927,7 @@ SMART_ACTION_INTERRUPT_SPELL (92)
 * **action_param1**:
 withDelayed? (`0`/`1`)
 * **action_param2**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **action_param3**:
 withInstant? (`0`/`1`)
 * **action_param4**:
@@ -4334,17 +4334,17 @@ Make target creatures follow the provided path closest to its location.
 * **action_type**:
 SMART_ACTION_START_CLOSEST_WAYPOINT (113)
 * **action_param1**:
-[waypoint id](../world/waypoint_data#id) #1
+[waypoint id](../world/waypoint_data#id-alt) #1
 * **action_param2**:
-[waypoint id](../world/waypoint_data#id) #2
+[waypoint id](../world/waypoint_data#id-alt) #2
 * **action_param3**:
-[waypoint id](../world/waypoint_data#id) #3
+[waypoint id](../world/waypoint_data#id-alt) #3
 * **action_param4**:
-[waypoint id](../world/waypoint_data#id) #4
+[waypoint id](../world/waypoint_data#id-alt) #4
 * **action_param5**:
-[waypoint id](../world/waypoint_data#id) #5
+[waypoint id](../world/waypoint_data#id-alt) #5
 * **action_param6**:
-[waypoint id](../world/waypoint_data#id) #6
+[waypoint id](../world/waypoint_data#id-alt) #6
 
 :::
 
@@ -4372,13 +4372,13 @@ Target units play a random sound entry from list.
 * **action_type**:
 SMART_ACTION_RANDOM_SOUND (115)
 * **action_param1**:
-[SoundEntry ID](/files/DBC/335/soundentries#id) #1
+[SoundEntry ID](/files/DBC/335/soundentries#id-alt) #1
 * **action_param2**:
-[SoundEntry ID](/files/DBC/335/soundentries#id) #2
+[SoundEntry ID](/files/DBC/335/soundentries#id-alt) #2
 * **action_param3**:
-[SoundEntry ID](/files/DBC/335/soundentries#id) #3
+[SoundEntry ID](/files/DBC/335/soundentries#id-alt) #3
 * **action_param4**:
-[SoundEntry ID](/files/DBC/335/soundentries#id) #4
+[SoundEntry ID](/files/DBC/335/soundentries#id-alt) #4
 * **action_param5**:
 onlySelf
   * 0: heard by all players in visibility range
@@ -4557,7 +4557,7 @@ Load equipment on target creatures.
 * **action_type**:
 SMART_ACTION_LOAD_EQUIPMENT (124)
 * **action_param1**:
-[equipment ID](../world/creature_equip_template#id)
+[equipment ID](../world/creature_equip_template#id-alt)
 * **action_param2**:
 forceUnequip? (`0`/`1`)
 * **action_param3**:
@@ -4759,7 +4759,7 @@ Last invoker will cast spell ID with castFlags on target units.
 * **action_type**:
 SMART_ACTION_INVOKER_CAST (134)
 * **action_param1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **action_param2**:  
   <!--@include: @/partial/335/smart-cast-flags.md-->
 
@@ -4780,7 +4780,7 @@ Play cinematic for target players.
 * **action_type**:
 SMART_ACTION_PLAY_CINEMATIC (135)
 * **action_param1**:
-[CinematicSequence ID](/files/DBC/335/cinematicsequences#id)
+[CinematicSequence ID](/files/DBC/335/cinematicsequences#id-alt)
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -4820,7 +4820,7 @@ speedFraction
 * **action_type**:
 SMART_ACTION_PLAY_SPELL_VISUAL_KIT (137)
 * **action_param1**:
-[SpellVisualKit ID](/files/DBC/335/spellvisualkit#id)
+[SpellVisualKit ID](/files/DBC/335/spellvisualkit#id-alt)
 * **action_param2**:
 `0`
 * **action_param3**:
@@ -4839,11 +4839,11 @@ Override skybox visual in area.
 * **action_type**:
 SMART_ACTION_OVERRIDE_LIGHT (138)
 * **action_param1**:
-[AreaTable ID](/files/DBC/335/areatable#id)
+[AreaTable ID](/files/DBC/335/areatable#id-alt)
 * **action_param2**:
-area [Light ID](/files/DBC/335/light#id)
+area [Light ID](/files/DBC/335/light#id-alt)
 * **action_param3**:
-new [Light ID](/files/DBC/335/light#id)
+new [Light ID](/files/DBC/335/light#id-alt)
 * **action_param4**:
 fadeIn time (in msec.)
 * **action_param5**:
@@ -4858,9 +4858,9 @@ Override weather in area.
 * **action_type**:
 SMART_ACTION_OVERRIDE_WEATHER (139)
 * **action_param1**:
-[AreaTable ID](/files/DBC/335/areatable#id)
+[AreaTable ID](/files/DBC/335/areatable#id-alt)
 * **action_param2**:
-[Weather ID](/files/DBC/335/weather#id)
+[Weather ID](/files/DBC/335/weather#id-alt)
 * **action_param3**:
 intensity (`0`: low; `1`: full)
 * **action_param4**:

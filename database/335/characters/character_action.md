@@ -62,7 +62,7 @@ The content of **action** depends on the **type**
 
 | type | Flag | Name | Comment | action |
 |------|------|------|---------|--------|
-| 0 | 0x00 | ACTION_BUTTON_SPELL | Spell | [Spell ID](/files/DBC/335/spell#id)
+| 0 | 0x00 | ACTION_BUTTON_SPELL | Spell | [Spell ID](/files/DBC/335/spell#id-alt)
 | 1 | 0x01 | ACTION_BUTTON_C | Click |  |
 | 32 | 0x20 | ACTION_BUTTON_EQSET | Equipment Set | Set ID |
 | 64 | 0x40 | ACTION_BUTTON_MACRO | Macro | Macro ID |

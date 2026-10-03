@@ -24,7 +24,7 @@ dateCreated: 2021-08-30T22:01:48.242Z
 ## Description of fields
 
 ### mail_id
-references [mail.id](../characters/mail#id)
+references [mail.id](../characters/mail#id-alt)
 &nbsp;
 
 ### item_guid

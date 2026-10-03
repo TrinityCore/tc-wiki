@@ -38,7 +38,7 @@ The [character guid](../characters/characters#guid) of the player that has signe
 &nbsp;
 
 ### player_account
-The [account id](../auth/account#id) of the player that has signed the charter. No two players can sign the same charter from the same account.
+The [account id](../auth/account#id-alt) of the player that has signed the charter. No two players can sign the same charter from the same account.
 &nbsp;
 
 ### type

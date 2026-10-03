@@ -58,7 +58,7 @@ The maximum level that players can be to enter the battleground.
 &nbsp;
 
 ### AllianceStartLoc
-The [WorldSafeLoc ID](/files/DBC/335/worldsafelocs#id) where the alliance players get teleported to when the battleground first starts.
+The [WorldSafeLoc ID](/files/DBC/335/worldsafelocs#id-alt) where the alliance players get teleported to when the battleground first starts.
 &nbsp;
 
 ### AllianceStartO
@@ -68,7 +68,7 @@ The orientation of the alliance players upon teleport into the battleground.
 &nbsp;
 
 ### HordeStartLoc
-The [WorldSafeLoc ID](/files/DBC/335/worldsafelocs#id) where the horde players get teleported to when the battleground first starts.
+The [WorldSafeLoc ID](/files/DBC/335/worldsafelocs#id-alt) where the horde players get teleported to when the battleground first starts.
 &nbsp;
 
 ### HordeStartO

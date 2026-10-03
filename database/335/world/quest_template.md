@@ -71,19 +71,19 @@ Contains all basic definitions of available quests.
 | [RewardTitle](#rewardtitle) | tinyint | unsigned |  | NO | 0 |  |  |
 | [RewardTalents](#rewardtalents) | tinyint | unsigned |  | NO | 0 |  |  |
 | [RewardArenaPoints](#rewardarenapoints) | smallint | unsigned |  | NO | 0 |  |  |
-| [RewardFactionID1](#rewardfactionid-1-5) | smallint | unsigned |  | NO | 0 |  | [Faction ID](/files/DBC/335/faction#id) |
+| [RewardFactionID1](#rewardfactionid-1-5) | smallint | unsigned |  | NO | 0 |  | [Faction ID](/files/DBC/335/faction#id-alt) |
 | [RewardFactionValue1](#rewardfactionvalue-1-5) | int | signed |  | NO | 0 |  |  |
 | [RewardFactionOverride1](#rewardfactionoverride-1-5) | int | signed |  | NO | 0 |  |  |
-| [RewardFactionID2](#rewardfactionid-1-5) | smallint | unsigned |  | NO | 0 |  | [Faction ID](/files/DBC/335/faction#id) |
+| [RewardFactionID2](#rewardfactionid-1-5) | smallint | unsigned |  | NO | 0 |  | [Faction ID](/files/DBC/335/faction#id-alt) |
 | [RewardFactionValue2](#rewardfactionvalue-1-5) | int | signed |  | NO | 0 |  |  |
 | [RewardFactionOverride2](#rewardfactionoverride-1-5) | int | signed |  | NO | 0 |  |  |
-| [RewardFactionID3](#rewardfactionid-1-5) | smallint | unsigned |  | NO | 0 |  | [Faction ID](/files/DBC/335/faction#id) |
+| [RewardFactionID3](#rewardfactionid-1-5) | smallint | unsigned |  | NO | 0 |  | [Faction ID](/files/DBC/335/faction#id-alt) |
 | [RewardFactionValue3](#rewardfactionvalue-1-5) | int | signed |  | NO | 0 |  |  |
 | [RewardFactionOverride3](#rewardfactionoverride-1-5) | int | signed |  | NO | 0 |  |  |
-| [RewardFactionID4](#rewardfactionid-1-5) | smallint | unsigned |  | NO | 0 |  | [Faction ID](/files/DBC/335/faction#id) |
+| [RewardFactionID4](#rewardfactionid-1-5) | smallint | unsigned |  | NO | 0 |  | [Faction ID](/files/DBC/335/faction#id-alt) |
 | [RewardFactionValue4](#rewardfactionvalue-1-5) | int | signed |  | NO | 0 |  |  |
 | [RewardFactionOverride4](#rewardfactionoverride-1-5) | int | signed |  | NO | 0 |  |  |
-| [RewardFactionID5](#rewardfactionid-1-5) | smallint | unsigned |  | NO | 0 |  | [Faction ID](/files/DBC/335/faction#id) |
+| [RewardFactionID5](#rewardfactionid-1-5) | smallint | unsigned |  | NO | 0 |  | [Faction ID](/files/DBC/335/faction#id-alt) |
 | [RewardFactionValue5](#rewardfactionvalue-1-5) | int | signed |  | NO | 0 |  |  |
 | [RewardFactionOverride5](#rewardfactionoverride-1-5) | int | signed |  | NO | 0 |  |  |
 | [RewardFactionFlags](#rewardfactionflags) | int | unsigned |  | NO | 0 |  |  |
@@ -144,8 +144,8 @@ Minimum level at which a player can get the quest.
 
 ### QuestSortID
 This field defines under what category the quest falls in the quest log.
-* **QuestSortID** > 0: positive [AreaTable ID](/files/DBC/335/areatable#id)
-* **QuestSortID** < 0: negative [QuestSort ID](/files/DBC/335/questsort#id) (in general profession, class or holiday quests)
+* **QuestSortID** > 0: positive [AreaTable ID](/files/DBC/335/areatable#id-alt)
+* **QuestSortID** < 0: negative [QuestSort ID](/files/DBC/335/questsort#id-alt) (in general profession, class or holiday quests)
 
 [QuestSort](/files/DBC/335/questsort) excerpt:
 | ID | Name |  | ID | Name |
@@ -170,7 +170,7 @@ This field defines under what category the quest falls in the quest log.
 &nbsp;
 
 ### QuestInfoID
-[QuestInfo ID](/files/DBC/335/questinfo#id)
+[QuestInfo ID](/files/DBC/335/questinfo#id-alt)
 | ID | Name |
 |----|------|
 | 1 | Group |
@@ -192,7 +192,7 @@ Recommended number of players to do the quest together.
 &nbsp;
 
 ### RequiredFactionId\[1-2]
-[Faction ID](/files/DBC/335/faction#id) for an objective to achieve a certain reputation value with.
+[Faction ID](/files/DBC/335/faction#id-alt) for an objective to achieve a certain reputation value with.
 &nbsp;
 
 ### RequiredFactionValue\[1-2]
@@ -314,7 +314,7 @@ The amount of items to reward if if the correspondig **RewardChoiceItemID\*** is
 &nbsp;
 
 ### POIContinent
-[Map ID](/files/DBC/335/map#id) of a quest point of interest (POI - Point Of Interest). POI will be shown on the map when quest is active.
+[Map ID](/files/DBC/335/map#id-alt) of a quest point of interest (POI - Point Of Interest). POI will be shown on the map when quest is active.
 &nbsp;
 
 ### POIx
@@ -330,7 +330,7 @@ Y coordinate of quest POI.
 &nbsp;
 
 ### RewardTitle
-[CharTitle ID](/files/DBC/335/chartitles#id) to reward on completion.
+[CharTitle ID](/files/DBC/335/chartitles#id-alt) to reward on completion.
 &nbsp;
 
 ### RewardTalents
@@ -342,7 +342,7 @@ An amount of arena points to reward on completion.
 &nbsp;
 
 ### RewardFactionID\[1-5]
-[Faction ID](/files/DBC/335/faction#id) for which the quest rewards reputation points.
+[Faction ID](/files/DBC/335/faction#id-alt) for which the quest rewards reputation points.
 &nbsp;
 
 ### RewardFactionValue\[1-5]
@@ -370,7 +370,7 @@ Time in seconds that the player has to complete this quest.
 &nbsp;
 
 ### AllowableRaces
-Race mask of [ChrRace IDs](/files/DBC/335/chrraces#id) allowed to get the quest.
+Race mask of [ChrRace IDs](/files/DBC/335/chrraces#id-alt) allowed to get the quest.
 0 means the quest is accessible for all races.
 <!--@include: @/partial/335/chrraces.md{13,}-->
 

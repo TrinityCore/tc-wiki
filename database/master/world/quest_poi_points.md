@@ -24,7 +24,7 @@ dateCreated: 2021-08-30T09:35:18.209Z
 ## Description of fields
 
 ### QuestID
-references [quest_template.ID](../world/quest_template#id) and [quest_poi.QuestID](../world/quest_poi#questid)
+references [quest_template.ID](../world/quest_template#id-alt) and [quest_poi.QuestID](../world/quest_poi#questid)
 &nbsp;
 
 ### Idx1

@@ -35,7 +35,7 @@ This table holds information on what events (or procs) certain spells are activa
 ## Description of fields
 
 ### SpellId
-The [Spell ID](/files/DBC/335/spell#id) that is capable to proc on an event. (Can use negative SpellID for [ranked spells](../world/spell_ranks#first_spell_id))
+The [Spell ID](/files/DBC/335/spell#id-alt) that is capable to proc on an event. (Can use negative SpellID for [ranked spells](../world/spell_ranks#first_spell_id))
 &nbsp;
 
 ### SchoolMask

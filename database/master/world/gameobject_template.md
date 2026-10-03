@@ -20,41 +20,41 @@ dateCreated: 2021-08-30T09:31:56.235Z
 | [castBarCaption](#castbarcaption) | varchar(100) |  |  | NO | '' |  |  |
 | [unk1](#unk1) | varchar(100) |  |  | NO | '' |  |  |
 | [size](#size) | float |  |  | NO | 1 |  |  |
-| [Data0](#data0) | int | signed |  | NO | 0 |  |  |
-| [Data1](#data1) | int | signed |  | NO | 0 |  |  |
-| [Data2](#data2) | int | signed |  | NO | 0 |  |  |
-| [Data3](#data3) | int | signed |  | NO | 0 |  |  |
-| [Data4](#data4) | int | signed |  | NO | 0 |  |  |
-| [Data5](#data5) | int | signed |  | NO | 0 |  |  |
-| [Data6](#data6) | int | signed |  | NO | 0 |  |  |
-| [Data7](#data7) | int | signed |  | NO | 0 |  |  |
-| [Data8](#data8) | int | signed |  | NO | 0 |  |  |
-| [Data9](#data9) | int | signed |  | NO | 0 |  |  |
-| [Data10](#data10) | int | signed |  | NO | 0 |  |  |
-| [Data11](#data11) | int | signed |  | NO | 0 |  |  |
-| [Data12](#data12) | int | signed |  | NO | 0 |  |  |
-| [Data13](#data13) | int | signed |  | NO | 0 |  |  |
-| [Data14](#data14) | int | signed |  | NO | 0 |  |  |
-| [Data15](#data15) | int | signed |  | NO | 0 |  |  |
-| [Data16](#data16) | int | signed |  | NO | 0 |  |  |
-| [Data17](#data17) | int | signed |  | NO | 0 |  |  |
-| [Data18](#data18) | int | signed |  | NO | 0 |  |  |
-| [Data19](#data19) | int | signed |  | NO | 0 |  |  |
-| [Data20](#data20) | int | signed |  | NO | 0 |  |  |
-| [Data21](#data21) | int | signed |  | NO | 0 |  |  |
-| [Data22](#data22) | int | signed |  | NO | 0 |  |  |
-| [Data23](#data23) | int | signed |  | NO | 0 |  |  |
-| [Data24](#data24) | int | signed |  | NO | 0 |  |  |
-| [Data25](#data25) | int | signed |  | NO | 0 |  |  |
-| [Data26](#data26) | int | signed |  | NO | 0 |  |  |
-| [Data27](#data27) | int | signed |  | NO | 0 |  |  |
-| [Data28](#data28) | int | signed |  | NO | 0 |  |  |
-| [Data29](#data29) | int | signed |  | NO | 0 |  |  |
-| [Data30](#data30) | int | signed |  | NO | 0 |  |  |
-| [Data31](#data31) | int | signed |  | NO | 0 |  |  |
-| [Data32](#data32) | int | signed |  | NO | 0 |  |  |
-| [Data33](#data33) | int | signed |  | NO | 0 |  |  |
-| [Data34](#data34) | int | signed |  | NO | 0 |  |  |
+| [Data0](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data1](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data2](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data3](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data4](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data5](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data6](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data7](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data8](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data9](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data10](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data11](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data12](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data13](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data14](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data15](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data16](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data17](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data18](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data19](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data20](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data21](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data22](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data23](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data24](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data25](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data26](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data27](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data28](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data29](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data30](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data31](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data32](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data33](#data-0-34) | int | signed |  | NO | 0 |  |  |
+| [Data34](#data-0-34) | int | signed |  | NO | 0 |  |  |
 | [ContentTuningId](#contenttuningid) | int | signed |  | NO | 0 |  |  |
 | [AIName](#ainame) | varchar(64) |  |  | NO | '' |  |  |
 | [ScriptName](#scriptname) | varchar(64) |  |  | NO | '' |  |  |
@@ -212,7 +212,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 5 | maxSuccessOpens |  | Max successful loot attempts for Mining, Herbalism etc (deprecated post 3.0) |
 | 6 | eventId | unknown EventID | lootedEvent |
 | 7 | linkedTrapId | [gameobject_template.entry](../world/gameobject_template#entry) | the trap object must be of GAMEOBJECT_TYPE_TRAP (6) |
-| 8 | questId | [quest_template.ID](../world/quest_template#id) | quest must be rewarded for GO activation; not currently used |
+| 8 | questId | [quest_template.ID](../world/quest_template#id-alt) | quest must be rewarded for GO activation; not currently used |
 | 9 | level | 0 &ndash; 80 | minimum level required to open this gameobject |
 | 10 | losOK | 0, 1 | ignores line of sight checks |
 | 11 | leaveLoot | 0, 1 | unused |
@@ -249,7 +249,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 2 | serverOnly | 0, 1 | not visible in client |
 | 3 | large | 0, 1 | large objects are visible from further away |
 | 4 | floatOnWater | 0, 1 | unused |
-| 5 | questID | [quest_template.ID](../world/quest_template#id) | quest must be active for GO interaction |
+| 5 | questID | [quest_template.ID](../world/quest_template#id-alt) | quest must be active for GO interaction |
 | 6 | conditionID1 | 0 | unused |
 
 **_GAMEOBJECT_TYPE_TRAP (6)_**
@@ -288,7 +288,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | 1 | dist |  | radius in m |
 | 2 | linkedTrapId | [gameobject_template.entry](../world/gameobject_template#entry) | the trap object must be of GAMEOBJECT_TYPE_TRAP (6) |
 | 3 | serverOnly | 0, 1 | not visible in client |
-| 4 | questID | [quest_template.ID](../world/quest_template#id) | quest must be active for GO interaction |
+| 4 | questID | [quest_template.ID](../world/quest_template#id-alt) | quest must be active for GO interaction |
 | 5 | large | 0, 1 | large objects are visible from further away |
 | 6 | floatingTooltip | 0, 1 | unused |
 | 7 | floatOnWater | 0, 1 | unused |
@@ -297,7 +297,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 **_GAMEOBJECT_TYPE_TEXT (9)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | pageID | [page_text.ID](../world/page_text#id) |  |
+| 0 | pageID | [page_text.ID](../world/page_text#id-alt) |  |
 | 1 | language | [Language ID](https://wago.tools/db2/languages) |  |
 | 2 | pageMaterial | [PageTextMaterial ID](https://wago.tools/db2/pagetextmaterial) | Background texture of the gossip window |
 | 3 | allowMounted | 0, 1 | Is usable while on mount/vehicle. |
@@ -309,16 +309,16 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
 | 0 | lockId | [Lock ID](https://wago.tools/db2/lock) |  |
-| 1 | questId | [quest_template.ID](../world/quest_template#id) | quest must be active for GO interaction |
+| 1 | questId | [quest_template.ID](../world/quest_template#id-alt) | quest must be active for GO interaction |
 | 2 | eventId | [event_script.id](../world/scripts#id) | also usable by script oder SmartAI |
 | 3 | autoCloseTime |  | time untill state reset in milliseconds |
 | 4 | customAnim | 0 &ndash; 4 | just sent to client on use |
 | 5 | consumable | 0, 1 | despawns after use |
 | 6 | cooldown |  | time in seconds |
-| 7 | pageId | [page_text.ID](../world/page_text#id) |  |
+| 7 | pageId | [page_text.ID](../world/page_text#id-alt) |  |
 | 8 | language | [Language ID](https://wago.tools/db2/languages) |  |
 | 9 | pageMaterial | [PageTextMaterial ID](https://wago.tools/db2/pagetextmaterial) | Background texture of the gossip window |
-| 10 | spellId | [Spell ID](/files/DBC/335/spell#id) | spell cast on interaction |
+| 10 | spellId | [Spell ID](/files/DBC/335/spell#id-alt) | spell cast on interaction |
 | 11 | noDamageImmune | 0, 1 | can not be used by player under immunity |
 | 12 | linkedTrapId | [gameobject_template.entry](../world/gameobject_template#entry) | the trap object must be of GAMEOBJECT_TYPE_TRAP (6) |
 | 13 | large | 0, 1 | large objects are visible from further away |
@@ -519,7 +519,7 @@ Fields denoted as *unused* aren't further handled by the core but just sent to t
 **_GAMEOBJECT_TYPE_DUNGEON_DIFFICULTY (31)_**
 | Data# | Name | Value | Comment |
 |-------|------|-------|---------|
-| 0 | mapID | [Map ID](/files/DBC/335/map#id) | destination map |
+| 0 | mapID | [Map ID](/files/DBC/335/map#id-alt) | destination map |
 | 1 | difficulty | 0 &ndash; 3 | [`enum Difficulty`](https://github.com/TrinityCore/TrinityCore/blob/master/src/server/game/DataStores/DBCEnums.h) |
 
 **_GAMEOBJECT_TYPE_BARBER_CHAIR (32)_**

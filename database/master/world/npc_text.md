@@ -64,7 +64,7 @@ The percent-chance (probability) that the NPC will say related `BroadcastTextID<
 &nbsp;
 
 ### BroadcastTextID0 - BroadcastTextID7
-References to [`broadcast_text.ID`](/database/master/hotfixes/broadcast_text#ID)
+References to [`broadcast_text.ID`](/database/master/hotfixes/broadcast_text#id-alt)
 &nbsp;
 
 ### VerifiedBuild

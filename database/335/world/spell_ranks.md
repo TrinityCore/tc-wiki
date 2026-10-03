@@ -22,11 +22,11 @@ Table used by the core to group different ranks of spells (the gray text seen on
 ## Description of fields
 
 ### first_spell_id
-[Spell ID](/files/DBC/335/spell#id) which is first rank of spell rank chain. It identifies the whole chain.
+[Spell ID](/files/DBC/335/spell#id-alt) which is first rank of spell rank chain. It identifies the whole chain.
 &nbsp;
 
 ### spell_id
-references [Spell ID](/files/DBC/335/spell#id)
+references [Spell ID](/files/DBC/335/spell#id-alt)
 &nbsp;
 
 ### rank

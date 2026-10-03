@@ -24,7 +24,7 @@ This table contains the data that a player needs to obtain / complete in order t
 ## Description of fields
 
 ### criteria_id
-This is the [AchievementCriteria ID](/files/DBC/335/achievement_criteria#id).
+This is the [AchievementCriteria ID](/files/DBC/335/achievement_criteria#id-alt).
 &nbsp;
 
 ### type
@@ -46,9 +46,9 @@ Depending on this value, it will determine how **value1** and **value2** are use
 
 ::: details ACHIEVEMENT_CRITERIA_DATA_TYPE_T_PLAYER_CLASS_RACE (2)
 * **value1**:  
-  [ChrClass ID](/files/DBC/335/chrclasses#id)
+  [ChrClass ID](/files/DBC/335/chrclasses#id-alt)
 * **value2**:  
-  [ChrRace ID](/files/DBC/335/chrraces#id)
+  [ChrRace ID](/files/DBC/335/chrraces#id-alt)
 
  
 :::
@@ -71,21 +71,21 @@ not corpse (not released body), own_team == false if enemy team expected
 
 ::: details ACHIEVEMENT_CRITERIA_DATA_TYPE_S_AURA (5)
 * **value1**:  
-  The [Spell ID](/files/DBC/335/spell#id) of the aura that must be on the player
+  The [Spell ID](/files/DBC/335/spell#id-alt) of the aura that must be on the player
 * **value2**:  
   Effect Index of the aura
 :::
 
 ::: details ACHIEVEMENT_CRITERIA_DATA_TYPE_S_AREA (6)
 * **value1**:  
-  [AreaTable ID](/files/DBC/335/areatable#id)
+  [AreaTable ID](/files/DBC/335/areatable#id-alt)
 * **value2**:  
   `0`
 :::
 
 ::: details ACHIEVEMENT_CRITERIA_DATA_TYPE_T_AURA (7)
 * **value1**:  
-  The [Spell ID](/files/DBC/335/spell#id) of the aura that must be on the target
+  The [Spell ID](/files/DBC/335/spell#id-alt) of the aura that must be on the target
 * **value2**:  
   Effect Index of the aura
 :::
@@ -165,7 +165,7 @@ not corpse (not released body), own_team == false if enemy team expected
 
 ::: details ACHIEVEMENT_CRITERIA_DATA_TYPE_HOLIDAY (16)
 * **value1**:  
-  [Holiday ID](/files/DBC/335/holidays#id). Must be an active holiday
+  [Holiday ID](/files/DBC/335/holidays#id-alt). Must be an active holiday
 * **value2**:  
   `0`
 
@@ -201,16 +201,16 @@ for equipped item in slot to check item level and quality
 
 ::: details ACHIEVEMENT_CRITERIA_DATA_TYPE_MAP_ID (20)
 * **value1**:  
-  Player must be on [Map ID](/files/DBC/335/map#id)
+  Player must be on [Map ID](/files/DBC/335/map#id-alt)
 * **value2**:  
   `0`
 :::
 
 ::: details ACHIEVEMENT_CRITERIA_DATA_TYPE_S_PLAYER_CLASS_RACE (21)
 * **value1**:  
-  [ChrClass ID](/files/DBC/335/chrclasses#id)
+  [ChrClass ID](/files/DBC/335/chrclasses#id-alt)
 * **value2**:  
-  [ChrRace ID](/files/DBC/335/chrraces#id)
+  [ChrRace ID](/files/DBC/335/chrraces#id-alt)
 :::
 
 ::: details ACHIEVEMENT_CRITERIA_DATA_TYPE_NTH_BIRTHDAY (22)
@@ -224,7 +224,7 @@ login on day of N-th Birthday
 
 ::: details ACHIEVEMENT_CRITERIA_DATA_TYPE_S_KNOWN_TITLE (23)
 * **value1**:  
-  [CharTitle ID](/files/DBC/335/chartitles#id)
+  [CharTitle ID](/files/DBC/335/chartitles#id-alt)
 * **value2**:  
   `0`
 
@@ -233,7 +233,7 @@ known (pvp) title
 
 ::: details ACHIEVEMENT_CRITERIA_DATA_TYPE_GAME_EVENT (24)
 * **value1**:  
-  [game_event.eventEntry](../world/game_event#eventEntry)
+  [game_event.eventEntry](../world/game_event#evententry)
 * **value2**:  
   `0`
 

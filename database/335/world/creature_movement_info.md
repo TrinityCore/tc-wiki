@@ -26,7 +26,7 @@ Supplemental data to [CreatureMovementInfo](/files/DBC/335/creaturemovementinfo)
 ## Description of fields
 
 ### MovementID
-references [creature_template.movementId](../world/creature_template#movementid) / [CreatureMovementInfo ID](/files/DBC/335/creaturemovementinfo#id)
+references [creature_template.movementId](../world/creature_template#movementid) / [CreatureMovementInfo ID](/files/DBC/335/creaturemovementinfo#id-alt)
 &nbsp;
 
 ### WalkSpeed

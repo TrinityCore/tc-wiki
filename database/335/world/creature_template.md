@@ -15,9 +15,9 @@ This table contains the description of creatures. Each spawned creature is an in
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [entry](#entry) | int | unsigned | PRI | NO | 0 |  |  |
-| [difficulty_entry_1](#difficulty_entry_1-3) | int | unsigned |  | NO | 0 |  |  |
-| [difficulty_entry_2](#difficulty_entry_1-3) | int | unsigned |  | NO | 0 |  |  |
-| [difficulty_entry_3](#difficulty_entry_1-3) | int | unsigned |  | NO | 0 |  |  |
+| [difficulty_entry_1](#difficulty_entry_-1-3) | int | unsigned |  | NO | 0 |  |  |
+| [difficulty_entry_2](#difficulty_entry_-1-3) | int | unsigned |  | NO | 0 |  |  |
+| [difficulty_entry_3](#difficulty_entry_-1-3) | int | unsigned |  | NO | 0 |  |  |
 | [KillCredit1](#killcredit-1-2) | int | unsigned |  | NO | 0 |  |  |
 | [KillCredit2](#killcredit-1-2) | int | unsigned |  | NO | 0 |  |  |
 | [modelid1](#modelid-1-4) | int | unsigned |  | NO | 0 |  |  |
@@ -98,7 +98,7 @@ If this creature needs to count towards more than 3 quest objectives, a SmartScr
 &nbsp;
 
 ### modelid\[1-4\]
-A random graphical model that the client applies on this creature. This is a [creature_model_info.DisplayID](../world/creature_model_info#displayid) / [CreatureDisplayInfo ID](/files/DBC/335/creaturedisplayinfo#id).
+A random graphical model that the client applies on this creature. This is a [creature_model_info.DisplayID](../world/creature_model_info#displayid) / [CreatureDisplayInfo ID](/files/DBC/335/creaturedisplayinfo#id-alt).
 &nbsp;
 
 ### name {#name-alt}
@@ -153,7 +153,7 @@ The expansion table the creatures health value is taken from. Values are from 0 
 &nbsp;
 
 ### faction
-The [FactionTemplate ID](/files/DBC/335/factiontemplate#id) of the creature.
+The [FactionTemplate ID](/files/DBC/335/factiontemplate#id-alt) of the creature.
 Just because more than one faction has the same name, the inter-faction relationships can be different.
 
 > Note: This field also controls the creature family assistance mechanic. Only creatures with the same faction will assist each other.
@@ -337,7 +337,7 @@ Flags that control visual appearance of the creature. A few known flags and thei
 &nbsp;
 
 ### family
-The [CreatureFamily ID](/files/DBC/335/creaturefamily#id) this creature belongs to.
+The [CreatureFamily ID](/files/DBC/335/creaturefamily#id-alt) this creature belongs to.
 | ID | Name | ID | Name |
 |----|------|----|------|
 | 1 | Wolf | 26 | Owl |
@@ -364,7 +364,7 @@ The [CreatureFamily ID](/files/DBC/335/creaturefamily#id) this creature belongs 
 &nbsp;
 
 ### type
-The [CreatureType ID](/files/DBC/335/creaturetype#id) of the creature.
+The [CreatureType ID](/files/DBC/335/creaturetype#id-alt) of the creature.
 | ID | Name |
 |----|------|
 | 0 | None |
@@ -436,11 +436,11 @@ The ID of the [skinning_loot_template](../world/loot_template) that this creatur
 &nbsp;
 
 ### PetSpellDataId
-[CreatureSpellData ID](/files/DBC/335/creaturespelldata#id), that displays what spells the pet has in the client.
+[CreatureSpellData ID](/files/DBC/335/creaturespelldata#id-alt), that displays what spells the pet has in the client.
 &nbsp;
 
 ### VehicleId
-[Vehicle ID](/files/DBC/335/vehicle#id) if creature is/has a vehicle entry. This field determines how the player appears on the vehicle, how the vehicle moves, and whether or not the vehicle action bar is shown.
+[Vehicle ID](/files/DBC/335/vehicle#id-alt) if creature is/has a vehicle entry. This field determines how the player appears on the vehicle, how the vehicle moves, and whether or not the vehicle action bar is shown.
 For example, a **VehicleId** of 292 will make the player invisible, prevent the vehicle from strafing left/right (but will allow fowards/backwards), and will show the vehicle action bar spells (which are defined in spell1-8). An [npc_spellclick_spells](../world/npc_spellclick_spells) entry must be made for this creature entry in order for this to work.
 &nbsp;
 

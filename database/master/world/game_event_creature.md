@@ -19,7 +19,7 @@ dateCreated: 2021-08-30T09:31:05.090Z
 ## Description of fields
 
 ### eventEntry
-This field signifies the [`game_event.eventEntry`](/database/master/world/game_event#eventEntry)
+This field signifies the [`game_event.eventEntry`](/database/master/world/game_event#evententry)
 ```
 Use  entry to add the creature during the event
 Use -entry to remove the creature during the event

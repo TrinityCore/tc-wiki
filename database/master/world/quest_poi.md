@@ -33,7 +33,7 @@ dateCreated: 2021-08-30T09:35:15.540Z
 ## Description of fields
 
 ### QuestID
-The Quest Id from [quest_template.ID](../world/quest_template#id)
+The Quest Id from [quest_template.ID](../world/quest_template#id-alt)
 &nbsp;
 
 ### BlobIndex

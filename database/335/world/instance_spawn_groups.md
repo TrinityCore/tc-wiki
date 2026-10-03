@@ -26,7 +26,7 @@ A spawn group is activated if any of its FLAG_ACTIVATE_SPAWN conditions are met,
 ## Description of fields
 
 ### instanceMapId
-[Map ID](/files/DBC/335/map#id) the boss is on.
+[Map ID](/files/DBC/335/map#id-alt) the boss is on.
 &nbsp;
 
 ### bossStateId

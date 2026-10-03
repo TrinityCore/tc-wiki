@@ -27,15 +27,15 @@ This table describes the reward that you will receive when you obtain a given ac
 ## Description of fields
 
 ### ID {#id-alt}
-[Achievement ID](/files/DBC/335/achievement#id)
+[Achievement ID](/files/DBC/335/achievement#id-alt)
 &nbsp;
 
 ### TitleA
-This is the [CharTitle ID](/files/DBC/335/chartitles#id) for Alliance if the achievement rewards a title.
+This is the [CharTitle ID](/files/DBC/335/chartitles#id-alt) for Alliance if the achievement rewards a title.
 &nbsp;
 
 ### TitleH
-This is the [CharTitle ID](/files/DBC/335/chartitles#id) for Horde from if the achievement rewards a title.
+This is the [CharTitle ID](/files/DBC/335/chartitles#id-alt) for Horde from if the achievement rewards a title.
 &nbsp;
 
 ### ItemID
@@ -55,5 +55,5 @@ This is the text of the body of that mail that you receive.
 &nbsp;
 
 ### MailTemplateID
-This is the [MailTemplate ID](/files/DBC/335/mailtemplate#id) for the mail that you receive. Subject and Text must be empty. They are read from dbc file.
+This is the [MailTemplate ID](/files/DBC/335/mailtemplate#id-alt) for the mail that you receive. Subject and Text must be empty. They are read from dbc file.
 &nbsp;

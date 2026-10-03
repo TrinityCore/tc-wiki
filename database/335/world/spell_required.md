@@ -21,9 +21,9 @@ Table used to add restrictions for learning spells from trainer. Player can't le
 ## Description of fields
 
 ### spell_id
-[Spell ID](/files/DBC/335/spell#id), which require knowing **req_spell** to learn from trainer.
+[Spell ID](/files/DBC/335/spell#id-alt), which require knowing **req_spell** to learn from trainer.
 &nbsp;
 
 ### req_spell
-[Spell ID](/files/DBC/335/spell#id), which is required to be known before **spell_id** can be learned from trainer.
+[Spell ID](/files/DBC/335/spell#id-alt), which is required to be known before **spell_id** can be learned from trainer.
 &nbsp;

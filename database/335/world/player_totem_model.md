@@ -35,11 +35,11 @@ excerpt:
 &nbsp;
 
 ### RaceId
-A [ChrRace ID](/files/DBC/335/chrraces#id) that should use the given **DisplayId** for this **TotemSlot**.
+A [ChrRace ID](/files/DBC/335/chrraces#id-alt) that should use the given **DisplayId** for this **TotemSlot**.
 <!--@include: @/partial/335/chrraces.md{3,9}-->
 
 &nbsp;
 
 ### DisplayId
-references [CreatureDisplayInfo ID](/files/DBC/335/creaturedisplayinfo#id)
+references [CreatureDisplayInfo ID](/files/DBC/335/creaturedisplayinfo#id-alt)
 &nbsp;

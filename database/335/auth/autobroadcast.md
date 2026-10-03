@@ -26,7 +26,7 @@ dateCreated: 2021-08-30T21:57:45.276Z
 ## Description of fields
 
 ### realmid
-The [realm id](../auth/realmlist#id) defines which realm this entry belongs to.
+The [realm id](../auth/realmlist#id-alt) defines which realm this entry belongs to.
 
 Use `-1` for all realms to load this entry.
 &nbsp;

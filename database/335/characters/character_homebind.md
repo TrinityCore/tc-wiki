@@ -31,11 +31,11 @@ The [guid](../characters/characters#guid) of the character.
 &nbsp;
 
 ### mapId
-[Map ID](/files/DBC/335/map#id) of the map where homebind is set.
+[Map ID](/files/DBC/335/map#id-alt) of the map where homebind is set.
 &nbsp;
 
 ### zoneId
-[AreaTable ID](/files/DBC/335/areatable#id) of the zone where homebind is set.
+[AreaTable ID](/files/DBC/335/areatable#id-alt) of the zone where homebind is set.
 &nbsp;
 
 ### posX

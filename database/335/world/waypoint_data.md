@@ -76,7 +76,7 @@ Time to wait (in ms) before moving to the next point.
 &nbsp;
 
 ### action {#action-alt}
-[Script ID](../world/waypoint_scripts#id) of the action to be performed.
+[Script ID](../world/waypoint_scripts#id-alt) of the action to be performed.
 &nbsp;
 
 ### action_chance

@@ -23,5 +23,5 @@ The ID of the creature. See [creature_template.entry](/database/master/world/cre
 &nbsp;
 
 ### bg_template
-The [battleground_template.ID](/database/master/world/battleground_template#id).
+The [battleground_template.ID](/database/master/world/battleground_template#id-alt).
 &nbsp;

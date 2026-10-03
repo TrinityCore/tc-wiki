@@ -82,7 +82,7 @@ dateCreated: 2023-10-04T08:05:24.618Z
 Dependant on **Type**:
 | Type | Name | **Index** |
 |:----:|------|------------|
-| 1 | LOCK_KEY_ITEM | [item entry](/database/335/world/item_template#id-alt) |
+| 1 | LOCK_KEY_ITEM | [item entry](/database/335/world/item_template#entry) |
 | 2 | LOCK_KEY_SKILL | [LockType ID](/files/DBC/335/locktype#id-alt) |
 | 3 | LOCK_KEY_SPELL | [Spell ID](/files/DBC/335/spell#id-alt) |
 

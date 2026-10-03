@@ -35,7 +35,7 @@ The [guid](../characters/characters#guid) of the surveyed character.
 &nbsp;
 
 ### mainSurvey
-An [GMSurveySurveys ID](/files/DBC/335/gmsurveysurveys#id), defining the questions.
+An [GMSurveySurveys ID](/files/DBC/335/gmsurveysurveys#id-alt), defining the questions.
 &nbsp;
 
 ### comment

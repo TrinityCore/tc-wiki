@@ -31,7 +31,7 @@ groups the options from [gossip_menu_option](../world/gossip_menu_option) and di
 &nbsp;
 
 ### TextID
-This links to the [npc_text.ID](../world/npc_text#id) for the gossip you want to be initially displayed. Also this tells the NPC what to say at the top of the options menu when it is displayed.
+This links to the [npc_text.ID](../world/npc_text#id-alt) for the gossip you want to be initially displayed. Also this tells the NPC what to say at the top of the options menu when it is displayed.
 &nbsp;
 
 ### VerifiedBuild

@@ -26,11 +26,11 @@ Used by LFG system to teleport players on specified position. This table should 
 ## Description of fields
 
 ### dungeonId
-references [LfgDungeons ID](/files/DBC/335/lfgdungeons#id)
+references [LfgDungeons ID](/files/DBC/335/lfgdungeons#id-alt)
 &nbsp;
 
 ### name {#name-alt}
-references [LfgDungeons Name](/files/DBC/335/lfgdungeons#name)
+references [LfgDungeons Name](/files/DBC/335/lfgdungeons#name-alt)
 &nbsp;
 
 ### position_x

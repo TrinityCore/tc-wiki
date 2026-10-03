@@ -23,7 +23,7 @@ This table is used to extend the values of [Holidays](/files/DBC/335/holidays). 
 ## Description of fields
 
 ### id {#id-alt}
-references [HolidayID](/files/DBC/335/holidays#id)
+references [HolidayID](/files/DBC/335/holidays#id-alt)
 &nbsp;
 
 ### date_id

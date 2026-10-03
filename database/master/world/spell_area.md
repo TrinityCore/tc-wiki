@@ -20,8 +20,8 @@ dateCreated: 2021-08-30T09:36:40.299Z
 | [racemask](#racemask) | bigint | unsigned | PRI | NO | 0 |  |  |
 | [gender](#gender) | tinyint | unsigned | PRI | NO | 2 |  |  |
 | [flags](#flags) | tinyint | unsigned |  | NO | 3 |  |  |
-| [quest_start_status](#quest_start_status/quest_end_status) | int | signed |  | NO | 64 |  |  |
-| [quest_end_status](#quest_start_status/quest_end_status) | int | signed |  | NO | 11 |  |  |
+| [quest_start_status](#quest_start_status-quest_end_status) | int | signed |  | NO | 64 |  |  |
+| [quest_end_status](#quest_start_status-quest_end_status) | int | signed |  | NO | 11 |  |  |
 
 &nbsp;
 ## Description of fields
@@ -35,11 +35,11 @@ The area ID. Type ".gps" in-game and find the "Area:" number to use for this cel
 &nbsp;
 
 ### quest_start
-The entry of the quest which the player must have in the state defined by quest_start_status. See [quest_template.ID](/database/master/world/quest_template#ID).
+The entry of the quest which the player must have in the state defined by quest_start_status. See [quest_template.ID](/database/master/world/quest_template#id-alt).
 &nbsp;
 
 ### quest_end
-The entry of the quest which the player must not have in the state defined by quest_end_status. See [quest_template.ID](/database/master/world/quest_template#ID). Setting both quest_start and quest_end to the same value is useless.
+The entry of the quest which the player must not have in the state defined by quest_end_status. See [quest_template.ID](/database/master/world/quest_template#id-alt). Setting both quest_start and quest_end to the same value is useless.
 &nbsp;
 
 ### aura_spell

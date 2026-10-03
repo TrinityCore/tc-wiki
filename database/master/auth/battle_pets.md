@@ -84,7 +84,7 @@ List of BattlePetDbFlags.
 &nbsp;
 
 ### name {#name-alt}
-Current battle pet name. If empty, the battle pet will use the [name](../world/creature_template#name) of the creature associated with the [species](#species).
+Current battle pet name. If empty, the battle pet will use the [name](../world/creature_template#name-alt) of the creature associated with the [species](#species).
 &nbsp;
 
 ### nameTimestamp

@@ -21,7 +21,7 @@ Allows for an area trigger to be scripted with Trinity Script.
 ## Description of fields
 
 ### entry
-This is the [AreaTrigger ID](/files/DBC/335/areatrigger#id).
+This is the [AreaTrigger ID](/files/DBC/335/areatrigger#id-alt).
 &nbsp;
 
 ### ScriptName

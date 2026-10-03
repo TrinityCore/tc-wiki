@@ -99,11 +99,11 @@ Specifies what part of the vMap system should be disabled on which map.
 &nbsp;
 
 ### params_0
-comma seperated list of [Map IDs](/files/DBC/335/map#id) if DISABLE_TYPE_SPELL used, 0 for all maps.
+comma seperated list of [Map IDs](/files/DBC/335/map#id-alt) if DISABLE_TYPE_SPELL used, 0 for all maps.
 &nbsp;
 
 ### params_1
-comma seperated list of [AreaTable IDs](/files/DBC/335/areatable#id) if DISABLE_TYPE_SPELL used, 0 for all areas.
+comma seperated list of [AreaTable IDs](/files/DBC/335/areatable#id-alt) if DISABLE_TYPE_SPELL used, 0 for all areas.
 &nbsp;
 
 ### comment

@@ -23,7 +23,7 @@ This table holds manual corrections to threat values on all spells that should e
 ## Description of fields
 
 ### entry
-references [Spell ID](/files/DBC/335/spell#id)
+references [Spell ID](/files/DBC/335/spell#id-alt)
 If **entry** is a [first_spell_id](../world/spell_ranks#first_spell_id), the custom threat applies to all associated spells from [spell_ranks](../world/spell_ranks).
 &nbsp;
 

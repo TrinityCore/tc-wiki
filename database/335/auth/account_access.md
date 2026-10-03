@@ -8,7 +8,7 @@ editor: markdown
 dateCreated: 2021-08-30T21:57:37.429Z
 ---
 
-> This table holds security access level for any realm in [realmlist](../auth/realmlist#id) table.
+> This table holds security access level for any realm in [realmlist](../auth/realmlist#id-alt) table.
 {.is-info}
 
 
@@ -25,7 +25,7 @@ dateCreated: 2021-08-30T21:57:37.429Z
 ## Description of fields
 
 ### AccountID
-references [account.id](../auth/account#id)
+references [account.id](../auth/account#id-alt)
 &nbsp;
 
 ### SecurityLevel
@@ -43,7 +43,7 @@ The individual level required for a command is defined in the [command table](..
 &nbsp;
 
 ### RealmID
-The [realm id](../auth/realmlist#id).
+The [realm id](../auth/realmlist#id-alt).
 
 `-1` applies the rights to all realms.
 &nbsp;

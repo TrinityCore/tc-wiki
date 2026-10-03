@@ -32,7 +32,7 @@ references [gameobject_template.entry](../world/gameobject_template#entry)
 &nbsp;
 
 ### faction
-Object's [FactionTemplate ID](/files/DBC/335/factiontemplate#id), if any.
+Object's [FactionTemplate ID](/files/DBC/335/factiontemplate#id-alt), if any.
 &nbsp;
 
 ### flags
@@ -50,6 +50,6 @@ Maximum money, in copper, that the gameobject can drop when accessed / used.
 &nbsp;
 
 ### artkit\[0-3]
-[GameObjectArtKit ID](/files/DBC/335/gameobjectartkit#id)
+[GameObjectArtKit ID](/files/DBC/335/gameobjectartkit#id-alt)
 Updates display if object is activated by SPELL_EFFECT_ACTIVATE_OBJECT (86) with a MiscValue of 19&ndash;22.
 &nbsp;

@@ -29,7 +29,7 @@ dateCreated: 2021-08-30T21:58:32.647Z
 ## Description of fields
 
 ### accountId
-The unique [account id](../auth/account#id).
+The unique [account id](../auth/account#id-alt).
 &nbsp;
 
 ### tut\[0-7]

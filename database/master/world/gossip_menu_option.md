@@ -35,7 +35,7 @@ dateCreated: 2021-08-30T09:32:12.004Z
 ## Description of fields
 
 ### MenuID
-Gossip entry from [`gossip_menu.MenuID`](/database/master/world/gossip_menu#MenuID) this option is associated with.
+Gossip entry from [`gossip_menu.MenuID`](/database/master/world/gossip_menu#menuid) this option is associated with.
 &nbsp;
 
 ### GossipOptionID
@@ -73,7 +73,7 @@ If you want to create a sub-menu, this is the ID ([gossip_menu.MenuID](../world/
 &nbsp;
 
 ### ActionPoiID
-If you want a POI (point of interest) to display on the minimap (like how a city guard places a marker when you ask directions), this is the ID from [points_of_interest](../world/points_of_interest#id)
+If you want a POI (point of interest) to display on the minimap (like how a city guard places a marker when you ask directions), this is the ID from [points_of_interest](../world/points_of_interest#id-alt)
 &nbsp;
 
 ### GossipNpcOptionID

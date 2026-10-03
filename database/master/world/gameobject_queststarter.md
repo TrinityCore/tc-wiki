@@ -24,7 +24,7 @@ The template ID of the game object. See [`gameobject_template.entry`](/database/
 &nbsp;
 
 ### quest
-The quest ID that this game object starts. See [`quest_template.ID`](/database/master/world/quest_template#ID)
+The quest ID that this game object starts. See [`quest_template.ID`](/database/master/world/quest_template#id-alt)
 &nbsp;
 
 ### VerifiedBuild

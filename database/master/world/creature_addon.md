@@ -42,7 +42,7 @@ This field signifies a unique creature guid. It will affect just that creature w
 &nbsp;
 
 ### PathId
-If a creature has waypoint pathed movement, this field hold the [waypoint_path.PathId](/database/master/world/waypoint_path#PathId) for the path the creature is to follow.
+If a creature has waypoint pathed movement, this field hold the [waypoint_path.PathId](/database/master/world/waypoint_path#pathid) for the path the creature is to follow.
 &nbsp;
 
 ### mount

@@ -24,7 +24,7 @@ SpawnTracking ID linked to the quest objective. It must match a SpawnTracking al
 &nbsp;
 
 ### QuestObjectiveId
-An existing [quest_objectives.Id](/database/master/world/quest_objectives#id).
+An existing [quest_objectives.Id](/database/master/world/quest_objectives#id-alt).
 Some SpawnTrackings are reused for several quest objectives.
 &nbsp;
 

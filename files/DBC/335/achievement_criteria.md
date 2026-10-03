@@ -104,13 +104,13 @@ dateCreated: 2023-10-04T08:00:55.057Z
 | 33 | ACHIEVEMENT_CRITERIA_TYPE_PLAY_ARENA | [Map ID](/files/DBC/335/map#id-alt) |  |
 | 34 | ACHIEVEMENT_CRITERIA_TYPE_LEARN_SPELL | [Spell ID](/files/DBC/335/spell#id-alt) |  |
 | 35 | ACHIEVEMENT_CRITERIA_TYPE_HONORABLE_KILL |  |  |
-| 36 | ACHIEVEMENT_CRITERIA_TYPE_OWN_ITEM | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |  |
+| 36 | ACHIEVEMENT_CRITERIA_TYPE_OWN_ITEM | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |  |
 | 37 | ACHIEVEMENT_CRITERIA_TYPE_WIN_RATED_ARENA |  |  |
 | 38 | ACHIEVEMENT_CRITERIA_TYPE_HIGHEST_TEAM_RATING | [`enum ArenaType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Battlegrounds/Battleground.h#L200-L205) |  |
 | 39 | ACHIEVEMENT_CRITERIA_TYPE_HIGHEST_PERSONAL_RATING | [`enum ArenaType`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Battlegrounds/Battleground.h#L200-L205) |  |
 | 40 | ACHIEVEMENT_CRITERIA_TYPE_LEARN_SKILL_LEVEL | [SkillLine ID](/files/DBC/335/skillline#id-alt) |  |
-| 41 | ACHIEVEMENT_CRITERIA_TYPE_USE_ITEM | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |  |
-| 42 | ACHIEVEMENT_CRITERIA_TYPE_LOOT_ITEM | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |  |
+| 41 | ACHIEVEMENT_CRITERIA_TYPE_USE_ITEM | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |  |
+| 42 | ACHIEVEMENT_CRITERIA_TYPE_LOOT_ITEM | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |  |
 | 43 | ACHIEVEMENT_CRITERIA_TYPE_EXPLORE_AREA | [WorldMapOverlay ID](/files/DBC/335/worldmapoverlay#id-alt) |  |
 | 44 | ACHIEVEMENT_CRITERIA_TYPE_OWN_RANK | PvpRank |  |
 | 45 | ACHIEVEMENT_CRITERIA_TYPE_BUY_BANK_SLOT |  |  |
@@ -125,7 +125,7 @@ dateCreated: 2023-10-04T08:00:55.057Z
 | 54 | ACHIEVEMENT_CRITERIA_TYPE_DO_EMOTE | [EmotesText ID](/files/DBC/335/emotestext#id-alt) |  |
 | 55 | ACHIEVEMENT_CRITERIA_TYPE_HEALING_DONE |  |  |
 | 56 | ACHIEVEMENT_CRITERIA_TYPE_GET_KILLING_BLOWS |  | @todo in some cases map not present, and in some cases need do without die |
-| 57 | ACHIEVEMENT_CRITERIA_TYPE_EQUIP_ITEM | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |  |
+| 57 | ACHIEVEMENT_CRITERIA_TYPE_EQUIP_ITEM | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |  |
 | 59 | ACHIEVEMENT_CRITERIA_TYPE_MONEY_FROM_VENDORS |  |  |
 | 60 | ACHIEVEMENT_CRITERIA_TYPE_GOLD_SPENT_FOR_TALENTS |  |  |
 | 61 | ACHIEVEMENT_CRITERIA_TYPE_NUMBER_OF_TALENT_RESETS |  |  |

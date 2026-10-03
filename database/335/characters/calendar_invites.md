@@ -31,7 +31,7 @@ The GUID of the invite.
 &nbsp;
 
 ### event
-The [calendar event id](../characters/calendar_events#id) the player belongs to.
+The [calendar event id](../characters/calendar_events#id-alt) the player belongs to.
 &nbsp;
 
 ### invitee

@@ -33,15 +33,15 @@ An additional identifier for each individual entry, enabling multiple equipments
 &nbsp;
 
 ### ItemID1
-This is the [Item ID](/files/DBC/335/item#id) of the equipment used in the right hand slot.
+This is the [Item ID](/files/DBC/335/item#id-alt) of the equipment used in the right hand slot.
 &nbsp;
 
 ### ItemID2
-This is the [Item ID](/files/DBC/335/item#id) of the equipment used in the left hand slot.
+This is the [Item ID](/files/DBC/335/item#id-alt) of the equipment used in the left hand slot.
 &nbsp;
 
 ### ItemID3
-This is the [Item ID](/files/DBC/335/item#id) of the equipment used in the ranged slot.
+This is the [Item ID](/files/DBC/335/item#id-alt) of the equipment used in the ranged slot.
 &nbsp;
 
 ### VerifiedBuild

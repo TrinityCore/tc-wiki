@@ -21,9 +21,9 @@ Basically all spell changes made when player changes faction.
 ## Description of fields
 
 ### alliance_id
-This is the alliance [Spell ID](/files/DBC/335/spell#id). If you convert to horde and your spells have a record in his table, they will be converted to **horde_id**.
+This is the alliance [Spell ID](/files/DBC/335/spell#id-alt). If you convert to horde and your spells have a record in his table, they will be converted to **horde_id**.
 &nbsp;
 
 ### horde_id
-This is the horde [Spell ID](/files/DBC/335/spell#id). If you convert to alliance and your spells have a record in his table, they will be converted to **alliance_id**.
+This is the horde [Spell ID](/files/DBC/335/spell#id-alt). If you convert to alliance and your spells have a record in his table, they will be converted to **alliance_id**.
 &nbsp;

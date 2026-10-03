@@ -23,7 +23,7 @@ dateCreated: 2021-08-30T09:31:02.498Z
 ## Description of fields
 
 ### eventEntry
-This field signifies the [`game_event.eventEntry`](/database/master/world/game_event#eventEntry)
+This field signifies the [`game_event.eventEntry`](/database/master/world/game_event#evententry)
 &nbsp;
 
 ### condition_id

@@ -24,7 +24,7 @@ This table contains all models of mobs, their gender and other information that 
 ## Description of fields
 
 ### DisplayID
-references [CreatureDisplayInfo ID](/files/DBC/335/creaturedisplayinfo#id)
+references [CreatureDisplayInfo ID](/files/DBC/335/creaturedisplayinfo#id-alt)
 &nbsp;
 
 ### BoundingRadius

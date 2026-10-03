@@ -21,7 +21,7 @@ dateCreated: 2021-12-21T22:43:59.533Z
 ## Description of fields
 
 ### questId
-adds a [quest entry](../world/quest_template#ID) to the pool with **poolId**.
+adds a [quest entry](../world/quest_template#id-alt) to the pool with **poolId**.
 > Note: The quest must be repeatable.
 {.is-info}
 

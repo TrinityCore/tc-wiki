@@ -25,15 +25,15 @@ dateCreated: 2021-08-30T09:30:34.430Z
 ## Description of fields
 
 ### CreatureID
-This entry must be the same as [`creature_text.CreatureID`](/database/master/world/creature_text#CreatureID) and then the row will be used to provide localization support for this creature record.
+This entry must be the same as [`creature_text.CreatureID`](/database/master/world/creature_text#creatureid) and then the row will be used to provide localization support for this creature record.
 &nbsp;
 
 ### GroupID
-This entry must be the same as [`creature_text.GroupID`](/database/master/world/creature_text#GroupID) and then the row will be used to provide localization support for this creature record.
+This entry must be the same as [`creature_text.GroupID`](/database/master/world/creature_text#groupid) and then the row will be used to provide localization support for this creature record.
 &nbsp;
 
 ### ID {#id-alt}
-This entry must be the same as [`creature_text.ID`](/database/master/world/creature_text#ID) and then the row will be used to provide localization support for this creature record.
+This entry must be the same as [`creature_text.ID`](/database/master/world/creature_text#id-alt) and then the row will be used to provide localization support for this creature record.
 &nbsp;
 
 ### Locale
@@ -43,5 +43,5 @@ This entry must be the same as [`creature_text.ID`](/database/master/world/creat
 &nbsp;
 
 ### Text
-Translated content for [`creature_text.Text`](/database/master/world/creature_text#Text)
+Translated content for [`creature_text.Text`](/database/master/world/creature_text#text)
 &nbsp;

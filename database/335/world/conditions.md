@@ -226,7 +226,7 @@ Mask of effects to be affected by condition:
 <!--@include: @/partial/335/spell-effect-index.md-->
 
 * **SourceEntry**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **SourceId**:
 `0`
 * **ConditionTarget**:
@@ -290,7 +290,7 @@ CONDITION_SOURCE_TYPE_SPELL (17)
 * **SourceGroup**:
 `0`
 * **SourceEntry**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **SourceId**:
 `0`
 * **ConditionTarget**:
@@ -328,7 +328,7 @@ CONDITION_SOURCE_TYPE_QUEST_AVAILABLE (19)
 * **SourceGroup**:
 `0`
 * **SourceEntry**:
-[quest ID](/database/335/world/quest_template#id)
+[quest ID](/database/335/world/quest_template#id-alt)
 * **SourceId**:
 `0`
 * **ConditionTarget**:
@@ -362,7 +362,7 @@ CONDITION_SOURCE_TYPE_VEHICLE_SPELL (21)
 * **SourceGroup**:
 [creature entry](/database/335/world/creature_template#entry)
 * **SourceEntry**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **SourceId**:
 `0`
 * **ConditionTarget**:
@@ -377,7 +377,7 @@ This will show or hide spells in vehicle spell bar.
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_SMART_EVENT (22)
 * **SourceGroup**:
-[smart_script id](/database/335/world/smart_scripts#id) + 1
+[smart_script id](/database/335/world/smart_scripts#id-alt) + 1
 * **SourceEntry**:
 [smart_script EntryOrGuid](/database/335/world/smart_scripts#entryorguid)
 * **SourceId**:
@@ -409,7 +409,7 @@ CONDITION_SOURCE_TYPE_SPELL_PROC (24)
 * **SourceGroup**:
 `0`
 * **SourceEntry**:
-[Spell ID](/files/DBC/335/spell#id) of aura which triggers the proc
+[Spell ID](/files/DBC/335/spell#id-alt) of aura which triggers the proc
 * **SourceId**:
 `0`
 * **ConditionTarget**:
@@ -441,7 +441,7 @@ CONDITION_SOURCE_TYPE_PHASE (26)
 * **SourceGroup**:
 PhaseID
 * **SourceEntry**:
-[AreaTable ID](/files/DBC/335/areatable#id) (or 0 for any area)
+[AreaTable ID](/files/DBC/335/areatable#id-alt) (or 0 for any area)
 * **SourceId**:
 `0`
 * **ConditionTarget**:
@@ -458,7 +458,7 @@ CONDITION_SOURCE_TYPE_GRAVEYARD (27)
 * **SourceGroup**:
 `0`
 * **SourceEntry**:
-[world_safe_locs.ID](/database/master/world/world_safe_locs#id)
+[world_safe_locs.ID](/database/master/world/world_safe_locs#id-alt)
 * **SourceId**:
 `0`
 * **ConditionTarget**:
@@ -473,7 +473,7 @@ CONDITION_SOURCE_TYPE_GRAVEYARD (27)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_AREATRIGGER (28)
 * **SourceGroup**:
-[areatrigger_template.Id](/database/master/world/areatrigger_template#id)
+[areatrigger_template.Id](/database/master/world/areatrigger_template#id-alt)
 * **SourceEntry**:
   * 0: **Non**-ServersideAreatrigger
   * 1: ServersideAreatrigger 
@@ -513,7 +513,7 @@ CONDITION_SOURCE_TYPE_AREATRIGGER_CLIENT_TRIGGERED (30)
 * **SourceGroup**:
 `0`
 * **SourceEntry**:
-[Areatrigger ID](/files/DBC/335/areatrigger#id)
+[Areatrigger ID](/files/DBC/335/areatrigger#id-alt)
 * **SourceId**:
 `0`
 * **ConditionTarget**:
@@ -527,7 +527,7 @@ CONDITION_SOURCE_TYPE_TRAINER_SPELL (31)
 * **SourceGroup**:
 TrainerID
 * **SourceEntry**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **SourceId**:
 `0`
 * **ConditionTarget**:
@@ -609,7 +609,7 @@ always true
 * **ConditionTypeOrReference**:
 CONDITION_AURA (1)
 * **ConditionValue1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **ConditionValue2**:
 Effect index (0 &ndash; 2)
 * **ConditionValue3**:
@@ -658,7 +658,7 @@ true if has item equipped
 * **ConditionTypeOrReference**:
 CONDITION_ZONEID (4)
 * **ConditionValue1**:
-[AreaTable ID](/files/DBC/335/areatable#id) where this condition will be true.
+[AreaTable ID](/files/DBC/335/areatable#id-alt) where this condition will be true.
 * **ConditionValue2**:
 `0`
 * **ConditionValue3**:
@@ -674,7 +674,7 @@ true if in zone
 * **ConditionTypeOrReference**:
 CONDITION_REPUTATION_RANK (5)
 * **ConditionValue1**:
-[Faction ID](/files/DBC/335/faction#id)
+[Faction ID](/files/DBC/335/faction#id-alt)
 * **ConditionValue2**:
 Add the target ranks together for the condition to be true for all those ranks.
 <!--@include: @/partial/335/reputation-rank.md-->
@@ -705,7 +705,7 @@ CONDITION_TEAM (6)
 * **ConditionTypeOrReference**:
 CONDITION_SKILL (7)
 * **ConditionValue1**:
-Required [SkillLine ID](/files/DBC/335/skillline#id)
+Required [SkillLine ID](/files/DBC/335/skillline#id-alt)
 * **ConditionValue2**:
 Skill rank value (1 &ndash; 450)
 * **ConditionValue3**:
@@ -719,7 +719,7 @@ Skill rank value (1 &ndash; 450)
 * **ConditionTypeOrReference**:
 CONDITION_QUESTREWARDED (8)
 * **ConditionValue1**:
-[quest ID](/database/335/world/quest_template#id)
+[quest ID](/database/335/world/quest_template#id-alt)
 * **ConditionValue2**:
 `0`
 * **ConditionValue3**:
@@ -735,7 +735,7 @@ true if quest was rewarded before
 * **ConditionTypeOrReference**:
 CONDITION_QUESTTAKEN (9)
 * **ConditionValue1**:
-[quest ID](/database/335/world/quest_template#id)
+[quest ID](/database/335/world/quest_template#id-alt)
 * **ConditionValue2**:
 `0`
 * **ConditionValue3**:
@@ -823,7 +823,7 @@ true if the instance info defined by **ConditionValue3** equals data.
 * **ConditionTypeOrReference**:
 CONDITION_QUEST_NONE (14)
 * **ConditionValue1**:
-[quest ID](/database/335/world/quest_template#id)
+[quest ID](/database/335/world/quest_template#id-alt)
 * **ConditionValue2**:
 `0`
 * **ConditionValue3**:
@@ -839,7 +839,7 @@ true if doesn't have quest saved
 * **ConditionTypeOrReference**:
 CONDITION_CLASS (15)
 * **ConditionValue1**:
-Class mask from [ChrClass ID](/files/DBC/335/chrclasses#id)<br/>Add flags together for all classes where condition is true.
+Class mask from [ChrClass ID](/files/DBC/335/chrclasses#id-alt)<br/>Add flags together for all classes where condition is true.
 * **ConditionValue2**:
 `0`
 * **ConditionValue3**:
@@ -855,7 +855,7 @@ true if player's class is equal to class
 * **ConditionTypeOrReference**:
 CONDITION_RACE (16)
 * **ConditionValue1**:
-Race mask from [ChrRace ID](/files/DBC/335/chrraces#id)<br/>Add flags together for all races where condition is true.
+Race mask from [ChrRace ID](/files/DBC/335/chrraces#id-alt)<br/>Add flags together for all races where condition is true.
 * **ConditionValue2**:
 `0`
 * **ConditionValue3**:
@@ -871,7 +871,7 @@ true if player's race is equal to race
 * **ConditionTypeOrReference**:
 CONDITION_ACHIEVEMENT (17)
 * **ConditionValue1**:
-[Achievement ID](/files/DBC/335/achievement#id)
+[Achievement ID](/files/DBC/335/achievement#id-alt)
 * **ConditionValue2**:
 `0`
 * **ConditionValue3**:
@@ -887,7 +887,7 @@ true if achievement is complete
 * **ConditionTypeOrReference**:
 CONDITION_TITLE (18)
 * **ConditionValue1**:
-[CharTitle ID](/files/DBC/335/chartitles#id)
+[CharTitle ID](/files/DBC/335/chartitles#id-alt)
 * **ConditionValue2**:
 `0`
 * **ConditionValue3**:
@@ -987,7 +987,7 @@ true if unit has unitState
 * **ConditionTypeOrReference**:
 CONDITION_MAPID (22)
 * **ConditionValue1**:
-[Map ID](/files/DBC/335/map#id)
+[Map ID](/files/DBC/335/map#id-alt)
 * **ConditionValue2**:
 `0`
 * **ConditionValue3**:
@@ -1003,7 +1003,7 @@ true if in map
 * **ConditionTypeOrReference**:
 CONDITION_AREAID (23)
 * **ConditionValue1**:
-[AreaTable ID](/files/DBC/335/areatable#id)
+[AreaTable ID](/files/DBC/335/areatable#id-alt)
 * **ConditionValue2**:
 `0`
 * **ConditionValue3**:
@@ -1035,7 +1035,7 @@ true if creature type = value1
 * **ConditionTypeOrReference**:
 CONDITION_SPELL (25)
 * **ConditionValue1**:
-[Spell ID](/files/DBC/335/spell#id)
+[Spell ID](/files/DBC/335/spell#id-alt)
 * **ConditionValue2**:
 `0`
 * **ConditionValue3**:
@@ -1083,7 +1083,7 @@ true if unit's level is equal to **ConditionValue1** (**ConditionValue2** can mo
 * **ConditionTypeOrReference**:
 CONDITION_QUEST_COMPLETE (28)
 * **ConditionValue1**:
-[quest ID](/database/335/world/quest_template#id)
+[quest ID](/database/335/world/quest_template#id-alt)
 * **ConditionValue2**:
 `0`
 * **ConditionValue3**:
@@ -1296,7 +1296,7 @@ true if unit's hp matches given pct
 * **ConditionTypeOrReference**:
 CONDITION_REALM_ACHIEVEMENT (39)
 * **ConditionValue1**:
-[Achievement ID](/files/DBC/335/achievement#id)
+[Achievement ID](/files/DBC/335/achievement#id-alt)
 * **ConditionValue2**:
 `0`
 * **ConditionValue3**:
@@ -1373,7 +1373,7 @@ true if unit matches specified sitstate
 * **ConditionTypeOrReference**:
 CONDITION_DAILY_QUEST_DONE (43)
 * **ConditionValue1**:
-[quest ID](/database/335/world/quest_template#id)
+[quest ID](/database/335/world/quest_template#id-alt)
 * **ConditionValue2**:
 `0`
 * **ConditionValue3**:
@@ -1438,7 +1438,7 @@ true if player is on taxi
 * **ConditionTypeOrReference**:
 CONDITION_QUESTSTATE (47)
 * **ConditionValue1**:
-[quest ID](/database/335/world/quest_template#id)
+[quest ID](/database/335/world/quest_template#id-alt)
 * **ConditionValue2**:
   state_mask from 
   <!--@include: @/partial/335/quest-status.md-->
@@ -1456,7 +1456,7 @@ true if player is in any of the provided quest states for the quest
 * **ConditionTypeOrReference**:
 CONDITION_QUEST_OBJECTIVE_PROGRESS (48)
 * **ConditionValue1**:
-[quest ID](/database/335/world/quest_template#id)
+[quest ID](/database/335/world/quest_template#id-alt)
 * **ConditionValue2**:
 Objective index (0 &ndash; 3)
 * **ConditionValue3**:

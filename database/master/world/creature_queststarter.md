@@ -24,7 +24,7 @@ The ID of the creature. See [creature_template.entry](/database/master/world/cre
 &nbsp;
 
 ### quest
-The quest ID that the creature finishes. See [quest_template.id](/database/master/world/quest_template#id)
+The quest ID that the creature finishes. See [quest_template.id](/database/master/world/quest_template#id-alt)
 &nbsp;
 
 ### VerifiedBuild

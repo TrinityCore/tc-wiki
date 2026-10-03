@@ -35,7 +35,7 @@ Unique log enumerator
 &nbsp;
 
 ### account_id
-references [account.id](../auth/account#id)
+references [account.id](../auth/account#id-alt)
 &nbsp;
 
 ### character_guid
@@ -44,7 +44,7 @@ references [characters.guid](../characters/characters#guid)
 &nbsp;
 
 ### realm_id
-The [realm](../auth/realmlist#id) this happened on.
+The [realm](../auth/realmlist#id-alt) this happened on.
 `0` on account actions
 &nbsp;
 

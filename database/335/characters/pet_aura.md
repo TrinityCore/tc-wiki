@@ -25,9 +25,9 @@ dateCreated: 2021-08-30T22:01:50.883Z
 | [amount0](#amount-0-2) | mediumint | signed |  | NO |  |  |  |
 | [amount1](#amount-0-2) | mediumint | signed |  | NO |  |  |  |
 | [amount2](#amount-0-2) | mediumint | signed |  | NO |  |  |  |
-| [base_amount0](#base_amount0-2) | mediumint | signed |  | NO |  |  |  |
-| [base_amount1](#base_amount0-2) | mediumint | signed |  | NO |  |  |  |
-| [base_amount2](#base_amount0-2) | mediumint | signed |  | NO |  |  |  |
+| [base_amount0](#base_amount-0-2) | mediumint | signed |  | NO |  |  |  |
+| [base_amount1](#base_amount-0-2) | mediumint | signed |  | NO |  |  |  |
+| [base_amount2](#base_amount-0-2) | mediumint | signed |  | NO |  |  |  |
 | [maxDuration](#maxduration) | int | signed |  | NO | 0 |  |  |
 | [remainTime](#remaintime) | int | signed |  | NO | 0 |  |  |
 | [remainCharges](#remaincharges) | tinyint | unsigned |  | NO | 0 |  |  |
@@ -50,7 +50,7 @@ Depending on the caster who applied the aura:
 &nbsp;
 
 ### spell
-The [Spell ID](/files/DBC/335/spell#id) which applied the aura.
+The [Spell ID](/files/DBC/335/spell#id-alt) which applied the aura.
 &nbsp;
 
 ### effectMask

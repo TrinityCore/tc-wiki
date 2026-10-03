@@ -36,6 +36,6 @@ Use 0 if only the **equipment_id** is to be changed during event.
 &nbsp;
 
 ### equipment_id
-New [equipmentID](../world/creature_equip_template#id) to be used during the event.
+New [equipmentID](../world/creature_equip_template#id-alt) to be used during the event.
 Use 0 if only the **modelid** is to be changed during event.
 &nbsp;

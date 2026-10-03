@@ -36,7 +36,7 @@ dateCreated: 2021-08-30T09:35:34.485Z
 ## Description of fields
 
 ### ID {#id-alt}
-references [quest_template.ID](../world/quest_template#id)
+references [quest_template.ID](../world/quest_template#id-alt)
 &nbsp;
 
 ### MaxLevel
@@ -88,7 +88,7 @@ E.g. if quest 1000 dependent from one of quests 1200, 1201 and 1202 and all this
 
 ### BreadcrumbForQuestId
 Breadcrumb quests exist for the sole purpose of guiding the player to a new zone or subzone to quest in. They are often given by NPCs upon completing the previous quest hub, as well as Hero's Call Boards, Warchief's Command Boards, and the Adventure Guide. Often there are multiple breadcrumb quests followed by the same follow-up quest, and normally they are mutually exclusive, meaning that accepting one breadcrumb quest will make all the others leading to the same location unavailable. Also, normally completing the follow-up quest will make any breadcrumb quests leading to it unavailable, whether or not they were completed.
-**BreadcrumbForQuestId** is the follow up [quest_template.ID](../world/quest_template#id)
+**BreadcrumbForQuestId** is the follow up [quest_template.ID](../world/quest_template#id-alt)
 &nbsp;
 
 ### RewardMailTemplateID

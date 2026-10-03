@@ -21,7 +21,7 @@ Table used for storing custom spell attributes.
 ## Description of fields
 
 ### entry
-references [Spell ID](/files/DBC/335/spell#id)
+references [Spell ID](/files/DBC/335/spell#id-alt)
 &nbsp;
 
 ### attributes

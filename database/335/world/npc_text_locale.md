@@ -14,22 +14,22 @@ dateCreated: 2021-08-30T22:06:40.070Z
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
 | [ID](#id-alt) | int | unsigned | PRI | NO | 0 |  |  |
 | [Locale](#locale) | varchar(4) |  | PRI | NO |  |  |  |
-| [Text0_0](#text0-0) | longtext |  |  | YES | NULL |  |  |
-| [Text0_1](#text0-1) | longtext |  |  | YES | NULL |  |  |
-| [Text1_0](#text1-0) | longtext |  |  | YES | NULL |  |  |
-| [Text1_1](#text1-1) | longtext |  |  | YES | NULL |  |  |
-| [Text2_0](#text2-0) | longtext |  |  | YES | NULL |  |  |
-| [Text2_1](#text2-1) | longtext |  |  | YES | NULL |  |  |
-| [Text3_0](#text3-0) | longtext |  |  | YES | NULL |  |  |
-| [Text3_1](#text3-1) | longtext |  |  | YES | NULL |  |  |
-| [Text4_0](#text4-0) | longtext |  |  | YES | NULL |  |  |
-| [Text4_1](#text4-1) | longtext |  |  | YES | NULL |  |  |
-| [Text5_0](#text5-0) | longtext |  |  | YES | NULL |  |  |
-| [Text5_1](#text5-1) | longtext |  |  | YES | NULL |  |  |
-| [Text6_0](#text6-0) | longtext |  |  | YES | NULL |  |  |
-| [Text6_1](#text6-1) | longtext |  |  | YES | NULL |  |  |
-| [Text7_0](#text7-0) | longtext |  |  | YES | NULL |  |  |
-| [Text7_1](#text7-1) | longtext |  |  | YES | NULL |  |  |
+| [Text0_0](#text0_0) | longtext |  |  | YES | NULL |  |  |
+| [Text0_1](#text0_1) | longtext |  |  | YES | NULL |  |  |
+| [Text1_0](#text1_0) | longtext |  |  | YES | NULL |  |  |
+| [Text1_1](#text1_1) | longtext |  |  | YES | NULL |  |  |
+| [Text2_0](#text2_0) | longtext |  |  | YES | NULL |  |  |
+| [Text2_1](#text2_1) | longtext |  |  | YES | NULL |  |  |
+| [Text3_0](#text3_0) | longtext |  |  | YES | NULL |  |  |
+| [Text3_1](#text3_1) | longtext |  |  | YES | NULL |  |  |
+| [Text4_0](#text4_0) | longtext |  |  | YES | NULL |  |  |
+| [Text4_1](#text4_1) | longtext |  |  | YES | NULL |  |  |
+| [Text5_0](#text5_0) | longtext |  |  | YES | NULL |  |  |
+| [Text5_1](#text5_1) | longtext |  |  | YES | NULL |  |  |
+| [Text6_0](#text6_0) | longtext |  |  | YES | NULL |  |  |
+| [Text6_1](#text6_1) | longtext |  |  | YES | NULL |  |  |
+| [Text7_0](#text7_0) | longtext |  |  | YES | NULL |  |  |
+| [Text7_1](#text7_1) | longtext |  |  | YES | NULL |  |  |
 
 &nbsp;
 ## Description of fields

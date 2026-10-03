@@ -19,9 +19,9 @@ dateCreated: 2021-08-30T09:31:25.363Z
 ## Description of fields
 
 ### eventEntry
-This is the [`game_event.eventEntry`](/database/master/world/game_event#eventEntry) that will start when all prerequisite events have been completed. 
+This is the [`game_event.eventEntry`](/database/master/world/game_event#evententry) that will start when all prerequisite events have been completed. 
 &nbsp;
 
 ### prerequisite_event
-The is the [`game_event.eventEntry`](/database/master/world/game_event#eventEntry) that must be completed before the next event will start.
+The is the [`game_event.eventEntry`](/database/master/world/game_event#evententry) that must be completed before the next event will start.
 &nbsp;

@@ -70,16 +70,16 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 47 | [Speed](#speed) | float |  |
 | 48 | [ModalNextSpell](#modalnextspell) | uint32 | [Spell.dbc/0](#id-alt) |
 | 49 | [CumulativeAura](#cumulativeaura) | uint32 |  |
-| 50 | [Totem_0](#totem) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 51 | [Totem_1](#totem) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 52 | [Reagent_0](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 53 | [Reagent_1](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 54 | [Reagent_2](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 55 | [Reagent_3](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 56 | [Reagent_4](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 57 | [Reagent_5](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 58 | [Reagent_6](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 59 | [Reagent_7](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 50 | [Totem_0](#totem) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 51 | [Totem_1](#totem) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 52 | [Reagent_0](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 53 | [Reagent_1](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 54 | [Reagent_2](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 55 | [Reagent_3](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 56 | [Reagent_4](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 57 | [Reagent_5](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 58 | [Reagent_6](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 59 | [Reagent_7](#reagent) | int32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
 | 60 | [ReagentCount_0](#reagentcount) | uint32 |  |
 | 61 | [ReagentCount_1](#reagentcount) | uint32 |  |
 | 62 | [ReagentCount_2](#reagentcount) | uint32 |  |
@@ -127,9 +127,9 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 104 | [EffectChainTargets_0](#effectchaintargets) | uint32 |  |
 | 105 | [EffectChainTargets_1](#effectchaintargets) | uint32 |  |
 | 106 | [EffectChainTargets_2](#effectchaintargets) | uint32 |  |
-| 107 | [EffectItemType_0](#effectitemtype) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 108 | [EffectItemType_1](#effectitemtype) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
-| 109 | [EffectItemType_2](#effectitemtype) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#id-alt) |
+| 107 | [EffectItemType_0](#effectitemtype) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 108 | [EffectItemType_1](#effectitemtype) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
+| 109 | [EffectItemType_2](#effectitemtype) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
 | 110 | [EffectMiscValue_0](#effectmiscvalue) | int32 |  |
 | 111 | [EffectMiscValue_1](#effectmiscvalue) | int32 |  |
 | 112 | [EffectMiscValue_2](#effectmiscvalue) | int32 |  |

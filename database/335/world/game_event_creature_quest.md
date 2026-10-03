@@ -30,5 +30,5 @@ The [creature_template.entry](../world/creature_template#entry) of the quest giv
 &nbsp;
 
 ### quest
-The [quest_template.ID](../world/quest_template#id) that is made available.
+The [quest_template.ID](../world/quest_template#id-alt) that is made available.
 &nbsp;
