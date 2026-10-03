@@ -211,7 +211,7 @@ If non-zero, this field defines the size of how the model of the creature appear
 ### rank
 The rank of the creature:
 | Value | Name | Default Corpse Decay Time<br>Worldserver.conf ([Corpse.Decay](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/worldserver/worldserver.conf.dist#L1687-L1703)) |
-|---|---|---|---|---|
+|---|---|---|
 | 0 | Normal | 5 min |
 | 1 | Elite | 5 min |
 | 2 | Rare Elite | 5 min |

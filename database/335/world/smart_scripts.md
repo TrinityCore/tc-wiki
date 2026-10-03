@@ -259,7 +259,7 @@ SMART_EVENT_SPELLHIT (8)
 [Spell ID](/files/DBC/335/spell#id-alt)
 * **event_param2**:
 (`0`: any SpellSchool)
-<!--@include: @/partial/335/spell-schools.md{28,37}-->
+  <!--@include: @/partial/335/spell-schools.md{28,37}-->
 
 * **event_param3**:
 CooldownMin (in msec.)
@@ -745,7 +745,7 @@ SMART_EVENT_SPELLHIT_TARGET (31)
 [Spell ID](/files/DBC/335/spell#id-alt)
 * **event_param2**:
 (`0`: any SpellSchool)
-<!--@include: @/partial/335/spell-schools.md{28,37}-->
+  <!--@include: @/partial/335/spell-schools.md{28,37}-->
 
 * **event_param3**:
 CooldownMin (in msec.)
@@ -2297,7 +2297,7 @@ SMART_ACTION_SUMMON_CREATURE (12)
 * **action_param1**:
 [creature entry](../world/creature_template#entry)
 * **action_param2**:
-<!--@include: @/partial/335/temp-summon-type.md-->
+  <!--@include: @/partial/335/temp-summon-type.md-->
 
 * **action_param3**:
 duration in ms
@@ -2872,7 +2872,7 @@ Creature draws or puts away it's weapon.
 * **action_type**:
 SMART_ACTION_SET_SHEATH (40)
 * **action_param1**:
-<!--@include: @/partial/335/unit-bytes2.md{4,9}-->
+  <!--@include: @/partial/335/unit-bytes2.md{4,9}-->
 
 * **action_param2**:
 `0`

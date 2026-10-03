@@ -223,7 +223,7 @@ CONDITION_SOURCE_TYPE_SPELL_LOOT_TEMPLATE (12)
 CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET (13)
 * **SourceGroup**:
 Mask of effects to be affected by condition:
-<!--@include: @/partial/335/spell-effect-index.md-->
+  <!--@include: @/partial/335/spell-effect-index.md-->
 
 * **SourceEntry**:
 [Spell ID](/files/DBC/335/spell#id-alt)
@@ -677,7 +677,7 @@ CONDITION_REPUTATION_RANK (5)
 [Faction ID](/files/DBC/335/faction#id-alt)
 * **ConditionValue2**:
 Add the target ranks together for the condition to be true for all those ranks.
-<!--@include: @/partial/335/reputation-rank.md-->
+  <!--@include: @/partial/335/reputation-rank.md-->
 
 * **ConditionValue3**:
 `0`
@@ -690,7 +690,7 @@ Add the target ranks together for the condition to be true for all those ranks.
 * **ConditionTypeOrReference**:
 CONDITION_TEAM (6)
 * **ConditionValue1**:
-<!--@include: @/partial/335/team.md-->
+  <!--@include: @/partial/335/team.md-->
 
 * **ConditionValue2**:
 `0`
@@ -753,7 +753,7 @@ CONDITION_DRUNKENSTATE (10)
 * **ConditionValue1**:  
   <!--@include: @/partial/335/drunken-state.md-->
 
- **ConditionValue2**:
+* **ConditionValue2**:
 `0`
 * **ConditionValue3**:
 `0`
@@ -812,7 +812,7 @@ _data_: (see corresponding source script files for more info)
   | 2 | INSTANCE_INFO_BOSS_STATE |
   | 3 | INSTANCE_INFO_DATA64 |
 
- **ConditionStringValue1**:
+* **ConditionStringValue1**:
 `-`
 
 true if the instance info defined by **ConditionValue3** equals data.
@@ -904,7 +904,7 @@ true if player has title
 CONDITION_SPAWNMASK (19)
 * **ConditionValue1**:
 [creature spawnMask](/database/335/world/creature#spawnmask) or [gameobject spawnMask](/database/335/world/gameobject#spawnmask)
-<!--@include: @/partial/335/spawn-mask.md-->
+  <!--@include: @/partial/335/spawn-mask.md-->
 
 * **ConditionValue2**:
 `0`
@@ -921,7 +921,7 @@ true if in spawnMask
 * **ConditionTypeOrReference**:
 CONDITION_GENDER (20)
 * **ConditionValue1**:
-<!--@include: @/partial/335/gender.md-->
+  <!--@include: @/partial/335/gender.md-->
 
 * **ConditionValue2**:
 `0`
@@ -972,7 +972,7 @@ CONDITION_UNIT_STATE (21)
   | 268435456 | 0x10000000 | UNIT_STATE_IGNORE_PATHFINDING | do not use pathfinding in any MovementGenerator |
   | 536870912 | 0x20000000 | UNIT_STATE_FOLLOW_FORMATION_MOVE | |
 
- **ConditionValue2**:
+* **ConditionValue2**:
 `0`
 * **ConditionValue3**:
 `0`
@@ -1164,7 +1164,7 @@ TypeMask - a bitmask of following object types:
   | 32 | 0x20 | TYPEMASK_GAMEOBJECT |
   | 128 | 0x80 | TYPEMASK_CORPSE (player corpse after spirit release) |
 
- **ConditionValue2**:
+* **ConditionValue2**:
 `0`
 * **ConditionValue3**:
 `0`
@@ -1192,7 +1192,7 @@ Target to which relation is checked.
   | 4 | RELATION_PASSENGER_OF | **ConditionTarget** is passenger of **ConditionValue1** |
   | 5 | RELATION_CREATED_BY | **ConditionTarget** is summoned by **ConditionValue1** |
 
- **ConditionValue3**:
+* **ConditionValue3**:
 `0`
 * **ConditionStringValue1**:
 `-`
@@ -1209,7 +1209,7 @@ Target to which reaction is checked.
   - one of the ConditionTargets available in current SourceType
 * **ConditionValue2**:
 rankMask: This bitmask defines the reaction(s) of the current **ConditionTarget** to the target specified in **ConditionValue1** (which are allowed).
-<!--@include: @/partial/335/reputation-rank.md-->
+  <!--@include: @/partial/335/reputation-rank.md-->
 
 * **ConditionValue3**:
 `0`
@@ -1443,7 +1443,7 @@ CONDITION_QUESTSTATE (47)
   state_mask from 
   <!--@include: @/partial/335/quest-status.md-->
 
- **ConditionValue3**:
+* **ConditionValue3**:
 `0`
 * **ConditionStringValue1**:
 `-`
@@ -1472,7 +1472,7 @@ true if player has reached the specified objectiveCount quest progress for the o
 * **ConditionTypeOrReference**:
 CONDITION_DIFFICULTY_ID (49)
 * **ConditionValue1**:
-<!--@include: @/partial/335/difficulty.md-->
+  <!--@include: @/partial/335/difficulty.md-->
 
 * **ConditionValue2**:
 `0` 
