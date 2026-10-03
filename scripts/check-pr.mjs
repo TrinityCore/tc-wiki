@@ -104,7 +104,7 @@ function templateProblems(node, found) {
 }
 
 function expandIncludes(source, readFile, found) {
-  return source.replace(INCLUDE, (match, target) => {
+  return source.replace(INCLUDE, (match, target, offset) => {
     const partial = PARTIAL.exec(target)?.[1]
     if (!partial) {
       found.push(`file include: ${target}`)
@@ -120,7 +120,9 @@ function expandIncludes(source, readFile, found) {
     // VitePress strips an included page's front matter and expands its includes.
     if (content.startsWith('---')) found.push(`front matter in included file: ${partial}`)
     if (/<!--\s*@include:/.test(content)) found.push(`include inside included file: ${partial}`)
-    return content
+    // The site config pastes an include that starts an indented line with every line at that indent.
+    const indent = /(?:^|\n)([ \t]+)$/.exec(source.slice(0, offset))?.[1]
+    return indent ? content.replace(/\n/g, '\n' + indent) : content
   })
 }
 

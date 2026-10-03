@@ -114,6 +114,24 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/tc_logo.png' }],
     ['script', { defer: '', src: 'https://tr.kpsn.dev/script.js', 'data-website-id': 'eaecc4a9-c766-4563-8ef6-500085fd579f' }],
   ],
+  vite: {
+    plugins: [{
+      // VitePress pastes an included file at column 0, so a table included inside a list item
+      // falls out of the item or renders as plain text. Paste indented includes ourselves, with
+      // every line at the include's indent. Same pattern and {start,end} line range as VitePress.
+      name: 'indent-includes',
+      enforce: 'pre',
+      transform(code, id) {
+        if (!id.endsWith('.md')) return
+        return code.replace(/^([ \t]+)<!--\s*@include:\s*@\/(.*?)(?:\{(\d*),(\d*)\})?\s*-->/gm, (_, indent, file, start, end) => {
+          this.addWatchFile(path.resolve(file))
+          const lines = fs.readFileSync(file, 'utf8').split(/\r?\n/)
+            .slice(start ? Number(start) - 1 : undefined, end ? Number(end) : undefined)
+          return lines.map((l) => indent + l).join('\n')
+        })
+      },
+    }],
+  },
   markdown: {
     // Wiki.js turned every newline into a line break; the pages were written that way.
     breaks: true,

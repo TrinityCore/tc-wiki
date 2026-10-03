@@ -95,6 +95,10 @@ test('checks pages with their partials pasted in', async () => {
     if (path === 'partial/a.md') throw new Error('missing')
     return FRONT + include
   }), [])
+  // An indented include is pasted at its indent, so the whole fence stays inside the list item.
+  const listed = (partial) => problems(edit('how-to/a.md'), (path) => path === 'partial/a.md' ? partial : FRONT + '* a\n\n  ' + include)
+  assert.deepEqual(await listed('```\n{{ constructor }}\n```\n'), [])
+  assert.notDeepEqual(await listed('x\n\n{{ constructor }}\n'), [])
   for (const target of ['@/partial/a.md#region', '@/partial/a.md{1,2}', 'partial/a.md', '@/how-to/b.md', '@/partial/../README.md']) {
     assert.notDeepEqual(await page(`<!--@include: ${target}-->\n`), [], target)
   }
