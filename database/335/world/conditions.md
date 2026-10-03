@@ -36,8 +36,7 @@ dateCreated: 2021-08-30T22:03:10.475Z
 - **SourceTypeOrReferenceId** < 0: id of a reference (referenced directly in the [ConditionTypeOrReference](#condition) of another condition).
 - **SourceTypeOrReferenceId** > 0: source type of the condition to be applied:
 
-### Tabset {.tabset}
-#### None (0)
+::: details None (0)
 * **SourceTypeOrReferenceId**: 
 CONDITION_SOURCE_TYPE_NONE (0)
 * **SourceGroup**:
@@ -48,7 +47,10 @@ CONDITION_SOURCE_TYPE_NONE (0)
 \-
 * **ConditionTarget**:
 \-
-#### CreatureLoot (1)
+
+:::
+
+::: details CreatureLoot (1)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_CREATURE_LOOT_TEMPLATE (1)
 * **SourceGroup**:
@@ -59,7 +61,10 @@ CONDITION_SOURCE_TYPE_CREATURE_LOOT_TEMPLATE (1)
 `0`
 * **ConditionTarget**:
 `0`
-#### DisenchantLoot (2)
+
+:::
+
+::: details DisenchantLoot (2)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_DISENCHANT_LOOT_TEMPLATE (2)
 * **SourceGroup**:
@@ -70,7 +75,10 @@ CONDITION_SOURCE_TYPE_DISENCHANT_LOOT_TEMPLATE (2)
 `0`
 * **ConditionTarget**:
 `0`
-#### FishingLoot (3)
+
+:::
+
+::: details FishingLoot (3)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_FISHING_LOOT_TEMPLATE (3)
 * **SourceGroup**:
@@ -81,7 +89,10 @@ CONDITION_SOURCE_TYPE_FISHING_LOOT_TEMPLATE (3)
 `0`
 * **ConditionTarget**:
 `0`
-#### GameobjectLoot (4)
+
+:::
+
+::: details GameobjectLoot (4)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_GAMEOBJECT_LOOT_TEMPLATE (4)
 * **SourceGroup**:
@@ -92,7 +103,10 @@ CONDITION_SOURCE_TYPE_GAMEOBJECT_LOOT_TEMPLATE (4)
 `0`
 * **ConditionTarget**:
 `0`
-#### ItemLoot (5)
+
+:::
+
+::: details ItemLoot (5)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_ITEM_LOOT_TEMPLATE (5)
 * **SourceGroup**:
@@ -103,7 +117,10 @@ CONDITION_SOURCE_TYPE_ITEM_LOOT_TEMPLATE (5)
 `0`
 * **ConditionTarget**:
 `0`
-#### MailLoot (6)
+
+:::
+
+::: details MailLoot (6)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_MAIL_LOOT_TEMPLATE (6)
 * **SourceGroup**:
@@ -114,7 +131,10 @@ CONDITION_SOURCE_TYPE_MAIL_LOOT_TEMPLATE (6)
 `0`
 * **ConditionTarget**:
 `0`
-#### MillingLoot (7)
+
+:::
+
+::: details MillingLoot (7)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_MILLING_LOOT_TEMPLATE (7)
 * **SourceGroup**:
@@ -125,7 +145,10 @@ CONDITION_SOURCE_TYPE_MILLING_LOOT_TEMPLATE (7)
 `0`
 * **ConditionTarget**:
 `0`
-#### PickpocketLoot (8)
+
+:::
+
+::: details PickpocketLoot (8)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_PICKPOCKETING_LOOT_TEMPLATE (8)
 * **SourceGroup**:
@@ -136,7 +159,10 @@ CONDITION_SOURCE_TYPE_PICKPOCKETING_LOOT_TEMPLATE (8)
 `0`
 * **ConditionTarget**:
 `0`
-#### ProspectingLoot (9)
+
+:::
+
+::: details ProspectingLoot (9)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_PROSPECTING_LOOT_TEMPLATE (9)
 * **SourceGroup**:
@@ -147,7 +173,10 @@ CONDITION_SOURCE_TYPE_PROSPECTING_LOOT_TEMPLATE (9)
 `0`
 * **ConditionTarget**:
 `0`
-#### ReferenceLoot (10)
+
+:::
+
+::: details ReferenceLoot (10)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_REFERENCE_LOOT_TEMPLATE (10)
 * **SourceGroup**:
@@ -158,7 +187,10 @@ CONDITION_SOURCE_TYPE_REFERENCE_LOOT_TEMPLATE (10)
 `0`
 * **ConditionTarget**:
 `0`
-#### SkinningLoot (11)
+
+:::
+
+::: details SkinningLoot (11)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_SKINNING_LOOT_TEMPLATE (11)
 * **SourceGroup**:
@@ -169,7 +201,10 @@ CONDITION_SOURCE_TYPE_SKINNING_LOOT_TEMPLATE (11)
 `0`
 * **ConditionTarget**:
 `0`
-#### SpellLoot (12)
+
+:::
+
+::: details SpellLoot (12)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_SPELL_LOOT_TEMPLATE (12)
 * **SourceGroup**:
@@ -180,7 +215,10 @@ CONDITION_SOURCE_TYPE_SPELL_LOOT_TEMPLATE (12)
 `0`
 * **ConditionTarget**:
 `0`
-#### Impl.SpellTarget (13)
+
+:::
+
+::: details Impl.SpellTarget (13)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_SPELL_IMPLICIT_TARGET (13)
 * **SourceGroup**:
@@ -197,7 +235,11 @@ Mask of effects to be affected by condition:
 
 > Don't use wowhead to get number of effects, data from wowhead sometimes doesn't match real effect number.
 {.is-info}
-#### GossipMenu (14)
+
+<!-- keeps the {.is-*} class on the quote above, not on the details block -->
+:::
+
+::: details GossipMenu (14)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_GOSSIP_MENU (14)
 * **SourceGroup**:
@@ -209,7 +251,10 @@ CONDITION_SOURCE_TYPE_GOSSIP_MENU (14)
 * **ConditionTarget**:
   * 0: Player
   * 1: WorldObject
-#### GossipMenuOption (15)
+
+:::
+
+::: details GossipMenuOption (15)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_GOSSIP_MENU_OPTION (15)
 * **SourceGroup**:
@@ -221,7 +266,10 @@ CONDITION_SOURCE_TYPE_GOSSIP_MENU_OPTION (15)
 * **ConditionTarget**:
   * 0: Player
   * 1: WorldObject
-#### VehicleCreature (16)
+
+:::
+
+::: details VehicleCreature (16)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_CREATURE_TEMPLATE_VEHICLE (16)
 * **SourceGroup**:
@@ -233,7 +281,10 @@ CONDITION_SOURCE_TYPE_CREATURE_TEMPLATE_VEHICLE (16)
 * **ConditionTarget**:
   * 0: Player riding vehicle
   * 1: Vehicle creature
-#### Spell (17)
+
+:::
+
+::: details Spell (17)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_SPELL (17)
 * **SourceGroup**:
@@ -253,7 +304,10 @@ Explicit target of the spell is the target which is selected by player during ca
 If you are looking for old CONDITION_SOURCE_TYPE_ITEM_REQUIRED_TARGET, use this condition source type instead (ConditionTarget = 1 allows you to set requirements for a given spell, so to use this condition type you need spellid of the spell cast on item use).
 
 Remember that conditions with the same ElseGroup value will be used to make logical AND check, so to allow different targets for the same spell effect you have to set ElseGroup respectively.
-#### ClickEvent (18)
+
+:::
+
+::: details ClickEvent (18)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_SPELL_CLICK_EVENT (18)
 * **SourceGroup**:
@@ -265,7 +319,10 @@ CONDITION_SOURCE_TYPE_SPELL_CLICK_EVENT (18)
 * **ConditionTarget**:
   * 0: Clicker
   * 1: Spellclick target
-#### Quest (19)
+
+:::
+
+::: details Quest (19)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_QUEST_AVAILABLE (19)
 * **SourceGroup**:
@@ -278,7 +335,10 @@ CONDITION_SOURCE_TYPE_QUEST_AVAILABLE (19)
 `0`
 
 Condition must be met for quest to be available to player.
-#### Unused ❌&nbsp;(20)
+
+:::
+
+::: details Unused ❌ (20)
 * **SourceTypeOrReferenceId**: 
 UNUSED (20)
 * **SourceGroup**:
@@ -292,7 +352,11 @@ UNUSED (20)
 
 > UNUSED
 {.is-danger}
-#### VehicleSpell (21)
+
+<!-- keeps the {.is-*} class on the quote above, not on the details block -->
+:::
+
+::: details VehicleSpell (21)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_VEHICLE_SPELL (21)
 * **SourceGroup**:
@@ -306,7 +370,10 @@ CONDITION_SOURCE_TYPE_VEHICLE_SPELL (21)
   * 1: Vehicle creature
 
 This will show or hide spells in vehicle spell bar.
-#### SmartEvent (22)
+
+:::
+
+::: details SmartEvent (22)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_SMART_EVENT (22)
 * **SourceGroup**:
@@ -318,7 +385,10 @@ CONDITION_SOURCE_TYPE_SMART_EVENT (22)
 * **ConditionTarget**:
   * 0: Invoker
   * 1: Object
-#### NPCVendor (23)
+
+:::
+
+::: details NPCVendor (23)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_NPC_VENDOR (23)
 * **SourceGroup**:
@@ -330,7 +400,10 @@ CONDITION_SOURCE_TYPE_NPC_VENDOR (23)
 * **ConditionTarget**:
   * 0: Player
   * 1: Vendor
-#### SpellProc (24)
+
+:::
+
+::: details SpellProc (24)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_SPELL_PROC (24)
 * **SourceGroup**:
@@ -342,7 +415,10 @@ CONDITION_SOURCE_TYPE_SPELL_PROC (24)
 * **ConditionTarget**:
   * 0: Actor
   * 1: ActionTarget
-#### TerrainSwap ❌&nbsp;(25)
+
+:::
+
+::: details TerrainSwap ❌ (25)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_TERRAIN_SWAP (25)
 * **SourceGroup**:
@@ -355,7 +431,11 @@ terrainSwap - object in terrainswap
 \-
 > RESERVED master branch
 {.is-warning}
-#### Phase ❌&nbsp;(26)
+
+<!-- keeps the {.is-*} class on the quote above, not on the details block -->
+:::
+
+::: details Phase ❌ (26)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_PHASE (26)
 * **SourceGroup**:
@@ -368,7 +448,11 @@ PhaseID
 \-
 > RESERVED master branch
 {.is-warning}
-#### Graveyard ❌&nbsp;(27)
+
+<!-- keeps the {.is-*} class on the quote above, not on the details block -->
+:::
+
+::: details Graveyard ❌ (27)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_GRAVEYARD (27)
 * **SourceGroup**:
@@ -381,7 +465,11 @@ CONDITION_SOURCE_TYPE_GRAVEYARD (27)
 \-
 > RESERVED master branch
 {.is-warning}
-#### Areatrigger ❌&nbsp;(28)
+
+<!-- keeps the {.is-*} class on the quote above, not on the details block -->
+:::
+
+::: details Areatrigger ❌ (28)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_AREATRIGGER (28)
 * **SourceGroup**:
@@ -398,7 +486,11 @@ CONDITION_SOURCE_TYPE_AREATRIGGER (28)
 
 > RESERVED master branch
 {.is-warning}
-#### Conversation ❌&nbsp;(29)
+
+<!-- keeps the {.is-*} class on the quote above, not on the details block -->
+:::
+
+::: details Conversation ❌ (29)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_CONVERSATION_LINE (29)
 * **SourceGroup**:
@@ -411,7 +503,11 @@ ConversationLineID
 \-
 > RESERVED master branch
 {.is-warning}
-#### ClientAreatrigger (30)
+
+<!-- keeps the {.is-*} class on the quote above, not on the details block -->
+:::
+
+::: details ClientAreatrigger (30)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_AREATRIGGER_CLIENT_TRIGGERED (30)
 * **SourceGroup**:
@@ -422,7 +518,10 @@ CONDITION_SOURCE_TYPE_AREATRIGGER_CLIENT_TRIGGERED (30)
 `0`
 * **ConditionTarget**:
 \-
-#### TrainerSpell ❌&nbsp;(31)
+
+:::
+
+::: details TrainerSpell ❌ (31)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_TRAINER_SPELL (31)
 * **SourceGroup**:
@@ -435,7 +534,11 @@ TrainerID
 \-
 > RESERVED master branch
 {.is-warning}
-#### ObjectVisibility ❌&nbsp;(32)
+
+<!-- keeps the {.is-*} class on the quote above, not on the details block -->
+:::
+
+::: details ObjectVisibility ❌ (32)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_OBJECT_ID_VISIBILITY (32)
 * **SourceGroup**:
@@ -450,7 +553,11 @@ ObjectType:
 \-
 > RESERVED master branch
 {.is-warning}
-#### SpawnGroup ❌&nbsp;(33)
+
+<!-- keeps the {.is-*} class on the quote above, not on the details block -->
+:::
+
+::: details SpawnGroup ❌ (33)
 * **SourceTypeOrReferenceId**:
 CONDITION_SOURCE_TYPE_SPAWN_GROUP (33)
 * **SourceGroup**:
@@ -463,7 +570,10 @@ CONDITION_SOURCE_TYPE_SPAWN_GROUP (33)
 \-
 > RESERVED master branch
 {.is-warning}
-### EndTabset {.tabset}
+
+<!-- keeps the {.is-*} class on the quote above, not on the details block -->
+:::
+
 &nbsp;
 
 ### ElseGroup
@@ -479,8 +589,7 @@ Two conditions with the same SourceType, SourceGroup and SourceEntry but with a 
 ### Condition
 - **ConditionTypeOrReference** < 0: id of a reference (references directly the [SourceTypeOrReferenceId](#sourcetypeorreferenceid) of another condition).
 - **ConditionTypeOrReference** > 0: condition type to be applied:
-### Tabset {.tabset}
-#### None (0)
+::: details None (0)
 * **ConditionTypeOrReference**:
 CONDITION_NONE (0)
 * **ConditionValue1**:
@@ -493,7 +602,10 @@ CONDITION_NONE (0)
 (Never used)
 
 always true
-#### Aura (1)
+
+:::
+
+::: details Aura (1)
 * **ConditionTypeOrReference**:
 CONDITION_AURA (1)
 * **ConditionValue1**:
@@ -506,7 +618,10 @@ Effect index (0 &ndash; 2)
 `-`
 
 true if target has aura from spell with effect index
-#### Item (2)
+
+:::
+
+::: details Item (2)
 * **ConditionTypeOrReference**:
 CONDITION_ITEM (2)
 * **ConditionValue1**:
@@ -520,7 +635,10 @@ item count
 `-`
 
 true if has count of item (if **ConditionValue3** is set it searches in bank slots too)
-#### ItemEquipped (3)
+
+:::
+
+::: details ItemEquipped (3)
 * **ConditionTypeOrReference**:
 CONDITION_ITEM_EQUIPPED (3)
 * **ConditionValue1**:
@@ -533,7 +651,10 @@ CONDITION_ITEM_EQUIPPED (3)
 `-`
 
 true if has item equipped
-#### Zone (4)
+
+:::
+
+::: details Zone (4)
 * **ConditionTypeOrReference**:
 CONDITION_ZONEID (4)
 * **ConditionValue1**:
@@ -546,7 +667,10 @@ CONDITION_ZONEID (4)
 `-`
 
 true if in zone
-#### Reputation (5)
+
+:::
+
+::: details Reputation (5)
 * **ConditionTypeOrReference**:
 CONDITION_REPUTATION_RANK (5)
 * **ConditionValue1**:
@@ -559,7 +683,10 @@ Add the target ranks together for the condition to be true for all those ranks.
 `0`
 * **ConditionStringValue1**:
 `-`
-#### Team (6)
+
+:::
+
+::: details Team (6)
 * **ConditionTypeOrReference**:
 CONDITION_TEAM (6)
 * **ConditionValue1**:
@@ -571,7 +698,10 @@ CONDITION_TEAM (6)
 `0`
 * **ConditionStringValue1**:
 `-`
-#### Skill (7)
+
+:::
+
+::: details Skill (7)
 * **ConditionTypeOrReference**:
 CONDITION_SKILL (7)
 * **ConditionValue1**:
@@ -582,7 +712,10 @@ Skill rank value (1 &ndash; 450)
 `0`
 * **ConditionStringValue1**:
 `-`
-#### QuestReward (8)
+
+:::
+
+::: details QuestReward (8)
 * **ConditionTypeOrReference**:
 CONDITION_QUESTREWARDED (8)
 * **ConditionValue1**:
@@ -595,7 +728,10 @@ CONDITION_QUESTREWARDED (8)
 `-`
 
 true if quest was rewarded before
-#### QuestTaken (9)
+
+:::
+
+::: details QuestTaken (9)
 * **ConditionTypeOrReference**:
 CONDITION_QUESTTAKEN (9)
 * **ConditionValue1**:
@@ -608,7 +744,10 @@ CONDITION_QUESTTAKEN (9)
 `-`
 
 true while quest active
-#### Drunk (10)
+
+:::
+
+::: details Drunk (10)
 * **ConditionTypeOrReference**:
 CONDITION_DRUNKENSTATE (10)
 * **ConditionValue1**:  
@@ -622,7 +761,10 @@ CONDITION_DRUNKENSTATE (10)
 `-`
 
 true if player is drunk enough
-#### Worldstate (11)
+
+:::
+
+::: details Worldstate (11)
 * **ConditionTypeOrReference**:
 CONDITION_WORLD_STATE (11)
 * **ConditionValue1**:
@@ -635,7 +777,10 @@ World state value
 `-`
 
 true if world has the value for the index
-#### ActiveEvent (12)
+
+:::
+
+::: details ActiveEvent (12)
 * **ConditionTypeOrReference**:
 CONDITION_ACTIVE_EVENT (12)
 * **ConditionValue1**:
@@ -648,7 +793,10 @@ CONDITION_ACTIVE_EVENT (12)
 `-`
 
 true if event is active
-#### InstanceInfo (13)
+
+:::
+
+::: details InstanceInfo (13)
 * **ConditionTypeOrReference**:
 CONDITION_INSTANCE_INFO (13)
 * **ConditionValue1**:
@@ -668,7 +816,10 @@ _data_: (see corresponding source script files for more info)
 `-`
 
 true if the instance info defined by **ConditionValue3** equals data.
-#### QuestNone (14)
+
+:::
+
+::: details QuestNone (14)
 * **ConditionTypeOrReference**:
 CONDITION_QUEST_NONE (14)
 * **ConditionValue1**:
@@ -681,7 +832,10 @@ CONDITION_QUEST_NONE (14)
 `-`
 
 true if doesn't have quest saved
-#### Class (15)
+
+:::
+
+::: details Class (15)
 * **ConditionTypeOrReference**:
 CONDITION_CLASS (15)
 * **ConditionValue1**:
@@ -694,7 +848,10 @@ Class mask from [ChrClass ID](/files/DBC/335/chrclasses#id)<br/>Add flags togeth
 `-`
 
 true if player's class is equal to class
-#### Race (16)
+
+:::
+
+::: details Race (16)
 * **ConditionTypeOrReference**:
 CONDITION_RACE (16)
 * **ConditionValue1**:
@@ -707,7 +864,10 @@ Race mask from [ChrRace ID](/files/DBC/335/chrraces#id)<br/>Add flags together f
 `-`
 
 true if player's race is equal to race
-#### Achievement (17)
+
+:::
+
+::: details Achievement (17)
 * **ConditionTypeOrReference**:
 CONDITION_ACHIEVEMENT (17)
 * **ConditionValue1**:
@@ -720,7 +880,10 @@ CONDITION_ACHIEVEMENT (17)
 `-`
 
 true if achievement is complete
-#### Title (18)
+
+:::
+
+::: details Title (18)
 * **ConditionTypeOrReference**:
 CONDITION_TITLE (18)
 * **ConditionValue1**:
@@ -733,7 +896,10 @@ CONDITION_TITLE (18)
 `-`
 
 true if player has title
-#### SpawnMask (19)
+
+:::
+
+::: details SpawnMask (19)
 * **ConditionTypeOrReference**:
 CONDITION_SPAWNMASK (19)
 * **ConditionValue1**:
@@ -748,7 +914,10 @@ CONDITION_SPAWNMASK (19)
 `-`
 
 true if in spawnMask
-#### Gender (20)
+
+:::
+
+::: details Gender (20)
 * **ConditionTypeOrReference**:
 CONDITION_GENDER (20)
 * **ConditionValue1**:
@@ -762,7 +931,10 @@ CONDITION_GENDER (20)
 `-`
 
 true if player's gender is equal to gender
-#### UnitState (21)
+
+:::
+
+::: details UnitState (21)
 * **ConditionTypeOrReference**:
 CONDITION_UNIT_STATE (21)
 * **ConditionValue1**:
@@ -808,7 +980,10 @@ CONDITION_UNIT_STATE (21)
 `-`
 
 true if unit has unitState
-#### Map (22)
+
+:::
+
+::: details Map (22)
 * **ConditionTypeOrReference**:
 CONDITION_MAPID (22)
 * **ConditionValue1**:
@@ -821,7 +996,10 @@ CONDITION_MAPID (22)
 `-`
 
 true if in map
-#### Area (23)
+
+:::
+
+::: details Area (23)
 * **ConditionTypeOrReference**:
 CONDITION_AREAID (23)
 * **ConditionValue1**:
@@ -834,7 +1012,10 @@ CONDITION_AREAID (23)
 `-`
 
 true if in area
-#### CreatureType (24)
+
+:::
+
+::: details CreatureType (24)
 * **ConditionTypeOrReference**:
 CONDITION_CREATURE_TYPE (24)
 * **ConditionValue1**:
@@ -847,7 +1028,10 @@ CONDITION_CREATURE_TYPE (24)
 `-`
 
 true if creature type = value1
-#### Spell (25)
+
+:::
+
+::: details Spell (25)
 * **ConditionTypeOrReference**:
 CONDITION_SPELL (25)
 * **ConditionValue1**:
@@ -860,7 +1044,10 @@ CONDITION_SPELL (25)
 `-`
 
 true if player has learned spell
-#### PhaseMask (26)
+
+:::
+
+::: details PhaseMask (26)
 * **ConditionTypeOrReference**:
 CONDITION_PHASEMASK (26)
 * **ConditionValue1**:
@@ -873,7 +1060,10 @@ phasemask value
 `-`
 
 true if object is in phasemask
-#### Level (27)
+
+:::
+
+::: details Level (27)
 * **ConditionTypeOrReference**:
 CONDITION_LEVEL (27)
 * **ConditionValue1**:
@@ -886,7 +1076,10 @@ Player/Creature level (1 &ndash; 83)
 `-`
 
 true if unit's level is equal to **ConditionValue1** (**ConditionValue2** can modify the statement)
-#### QuestComplete (28)
+
+:::
+
+::: details QuestComplete (28)
 * **ConditionTypeOrReference**:
 CONDITION_QUEST_COMPLETE (28)
 * **ConditionValue1**:
@@ -899,7 +1092,10 @@ CONDITION_QUEST_COMPLETE (28)
 `-`
 
 true if player has quest with all objectives complete, but not yet rewarded
-#### NearCreature (29)
+
+:::
+
+::: details NearCreature (29)
 * **ConditionTypeOrReference**:
 CONDITION_NEAR_CREATURE (29)
 * **ConditionValue1**:
@@ -913,7 +1109,10 @@ Distance in yards
 `-`
 
 true if there is a creature of entry in range
-#### NearGameobject (30)
+
+:::
+
+::: details NearGameobject (30)
 * **ConditionTypeOrReference**:
 CONDITION_NEAR_GAMEOBJECT (30)
 * **ConditionValue1**:
@@ -926,7 +1125,10 @@ Distance in yards
 `-`
 
 true if there is a gameobject of entry in range
-#### ObjectEntry (31)
+
+:::
+
+::: details ObjectEntry (31)
 * **ConditionTypeOrReference**:
 CONDITION_OBJECT_ENTRY_GUID (31)
 * **ConditionValue1**:
@@ -947,7 +1149,10 @@ TypeID - Available object types:
 `-`
 
 true if object is type TypeID and the entry is 0 or matches entry of the object or matches guid of the object
-#### TypeMask (32)
+
+:::
+
+::: details TypeMask (32)
 * **ConditionTypeOrReference**:
 CONDITION_TYPE_MASK (32)
 * **ConditionValue1**:
@@ -967,7 +1172,10 @@ TypeMask - a bitmask of following object types:
 `-`
 
 true if object's TypeMask matches provided TypeMask
-#### Relation (33)
+
+:::
+
+::: details Relation (33)
 * **ConditionTypeOrReference**:
 CONDITION_RELATION_TO (33)
 * **ConditionValue1**:
@@ -990,7 +1198,10 @@ Target to which relation is checked.
 `-`
 
 true if object is in given relation with object specified by **ConditionTarget**
-#### Reaction (34)
+
+:::
+
+::: details Reaction (34)
 * **ConditionTypeOrReference**:
 CONDITION_REACTION_TO (34)
 * **ConditionValue1**:
@@ -1006,7 +1217,10 @@ rankMask: This bitmask defines the reaction(s) of the current **ConditionTarget*
 `-`
 
 true if object's reaction matches rankMask object specified by **ConditionTarget**
-#### Distance (35)
+
+:::
+
+::: details Distance (35)
 * **ConditionTypeOrReference**:
 CONDITION_DISTANCE_TO (35)
 * **ConditionValue1**:
@@ -1020,7 +1234,10 @@ Distance between current **ConditionTarget** and target specified in **Condition
 `-`
 
 true if object and **ConditionTarget** are within distance given by parameters
-#### Alive (36)
+
+:::
+
+::: details Alive (36)
 * **ConditionTypeOrReference**:
 CONDITION_ALIVE (36)
 * **ConditionValue1**:
@@ -1040,7 +1257,10 @@ Use **NegativeCondition** to test for the inverse:
 {.is-info}
 
 true if unit is alive
-#### HitpointVal (37)
+
+:::
+
+::: details HitpointVal (37)
 * **ConditionTypeOrReference**:
 CONDITION_HP_VAL (37)
 * **ConditionValue1**:
@@ -1053,7 +1273,10 @@ HP value
 `-`
 
 true if unit's hp matches given value
-#### HitpointPct (38)
+
+:::
+
+::: details HitpointPct (38)
 * **ConditionTypeOrReference**:
 CONDITION_HP_PCT (38)
 * **ConditionValue1**:
@@ -1066,7 +1289,10 @@ Percentage of max HP
 `-`
 
 true if unit's hp matches given pct
-#### RealmAchievement (39)
+
+:::
+
+::: details RealmAchievement (39)
 * **ConditionTypeOrReference**:
 CONDITION_REALM_ACHIEVEMENT (39)
 * **ConditionValue1**:
@@ -1079,7 +1305,10 @@ CONDITION_REALM_ACHIEVEMENT (39)
 `-`
 
 true if realm achievement is complete
-#### InWater (40)
+
+:::
+
+::: details InWater (40)
 * **ConditionTypeOrReference**:
 CONDITION_IN_WATER (40)
 * **ConditionValue1**:
@@ -1096,7 +1325,10 @@ Use **NegativeCondition** to test for the inverse:
 * **NegativeCondition** = 1: If target needs to be ON LAND.
 
 true if unit in water
-#### TerrainSwap ❌&nbsp;(41)
+
+:::
+
+::: details TerrainSwap ❌ (41)
 * **ConditionTypeOrReference**:
 CONDITION_TERRAIN_SWAP (41)
 * **ConditionValue1**:
@@ -1112,7 +1344,10 @@ terrainSwap
 {.is-warning}
 
 true if object is in terrainswap
-#### StandState (42)
+
+:::
+
+::: details StandState (42)
 * **ConditionTypeOrReference**:
 CONDITION_STAND_STATE (42)
 * **ConditionValue1**:
@@ -1131,7 +1366,10 @@ stateType (exact or any):
 `-`
 
 true if unit matches specified sitstate
-#### DailyQuest (43)
+
+:::
+
+::: details DailyQuest (43)
 * **ConditionTypeOrReference**:
 CONDITION_DAILY_QUEST_DONE (43)
 * **ConditionValue1**:
@@ -1144,7 +1382,10 @@ CONDITION_DAILY_QUEST_DONE (43)
 `-`
 
 true if daily quest has been completed for the day
-#### Charmed (44)
+
+:::
+
+::: details Charmed (44)
 * **ConditionTypeOrReference**:
 CONDITION_CHARMED (44)
 * **ConditionValue1**:
@@ -1157,7 +1398,10 @@ CONDITION_CHARMED (44)
 `-`
 
 true if unit is currently charmed
-#### PetType (45)
+
+:::
+
+::: details PetType (45)
 * **ConditionTypeOrReference**:
 CONDITION_PET_TYPE (45)
 * **ConditionValue1**:
@@ -1171,7 +1415,10 @@ CONDITION_PET_TYPE (45)
 `-`
 
 true if player has a pet of given type(s)
-#### Taxi (46)
+
+:::
+
+::: details Taxi (46)
 * **ConditionTypeOrReference**:
 CONDITION_TAXI (46)
 * **ConditionValue1**:
@@ -1184,7 +1431,10 @@ CONDITION_TAXI (46)
 `-`
 
 true if player is on taxi
-#### QuestState (47)
+
+:::
+
+::: details QuestState (47)
 * **ConditionTypeOrReference**:
 CONDITION_QUESTSTATE (47)
 * **ConditionValue1**:
@@ -1199,7 +1449,10 @@ CONDITION_QUESTSTATE (47)
 `-`
 
 true if player is in any of the provided quest states for the quest
-#### QuestProgress (48)
+
+:::
+
+::: details QuestProgress (48)
 * **ConditionTypeOrReference**:
 CONDITION_QUEST_OBJECTIVE_PROGRESS (48)
 * **ConditionValue1**:
@@ -1212,7 +1465,10 @@ Counter
 `-`
 
 true if player has reached the specified objectiveCount quest progress for the objectiveIndex for the specified quest
-#### Difficulty (49)
+
+:::
+
+::: details Difficulty (49)
 * **ConditionTypeOrReference**:
 CONDITION_DIFFICULTY_ID (49)
 * **ConditionValue1**:
@@ -1226,7 +1482,10 @@ CONDITION_DIFFICULTY_ID (49)
 `-`
 
 true if map has difficulty id
-#### Gamemaster (50)
+
+:::
+
+::: details Gamemaster (50)
 * **ConditionTypeOrReference**:
 CONDITION_GAMEMASTER (50)
 * **ConditionValue1**:
@@ -1239,7 +1498,10 @@ canBeGM (0, 1)
 `-`
 
 true if player is gamemaster (or can be gamemaster)
-#### ObjectEntry2 ❌&nbsp;(51)
+
+:::
+
+::: details ObjectEntry2 ❌ (51)
 * **ConditionTypeOrReference**:
 CONDITION_OBJECT_ENTRY_GUID_MASTER (51)
 * **ConditionValue1**:
@@ -1255,7 +1517,10 @@ guid
 {.is-warning}
 
 true if object is type TypeID and the entry is 0 or matches entry of the object or matches guid of the object
-#### TypeMask2 ❌&nbsp;(52)
+
+:::
+
+::: details TypeMask2 ❌ (52)
 * **ConditionTypeOrReference**:
 CONDITION_TYPE_MASK_MASTER (52)
 * **ConditionValue1**:
@@ -1271,7 +1536,10 @@ TypeMask
 {.is-warning}
 
 true if object is type object's TypeMask matches provided TypeMask using master branch TypeMask
-#### BattlePetCount ❌&nbsp;(53)
+
+:::
+
+::: details BattlePetCount ❌ (53)
 * **ConditionTypeOrReference**:
 CONDITION_BATTLE_PET_COUNT (53)
 * **ConditionValue1**:
@@ -1287,7 +1555,10 @@ count
 {.is-warning}
 
 true if player has count of battle pet species
-#### ScenarioStep ❌&nbsp;(54)
+
+:::
+
+::: details ScenarioStep ❌ (54)
 * **ConditionTypeOrReference**:
 CONDITION_SCENARIO_STEP (54)
 * **ConditionValue1**:
@@ -1303,7 +1574,10 @@ cenarioStepId
 {.is-warning}
 
 true if object is at scenario with current step equal to ScenarioStepID
-#### SceneProgress ❌&nbsp;(55)
+
+:::
+
+::: details SceneProgress ❌ (55)
 * **ConditionTypeOrReference**:
 CONDITION_SCENE_IN_PROGRESS (55)
 * **ConditionValue1**:
@@ -1319,7 +1593,10 @@ SceneScriptPackageId
 {.is-warning}
 
 true if player is playing a scene with ScriptPackageId equal to given value
-#### PlayerCondition ❌&nbsp;(56)
+
+:::
+
+::: details PlayerCondition ❌ (56)
 * **ConditionTypeOrReference**:
 CONDITION_PLAYER_CONDITION (56)
 * **ConditionValue1**:
@@ -1335,7 +1612,10 @@ PlayerConditionId
 {.is-warning}
 
 true if player satisfies PlayerCondition
-#### PrivateObject ❌&nbsp;(57)
+
+:::
+
+::: details PrivateObject ❌ (57)
 * **ConditionTypeOrReference**:
 CONDITION_PRIVATE_OBJECT (57)
 * **ConditionValue1**:
@@ -1351,7 +1631,10 @@ CONDITION_PRIVATE_OBJECT (57)
 {.is-warning}
 
 true if entity is private object
-#### StringID (58)
+
+:::
+
+::: details StringID (58)
 * **ConditionTypeOrReference**:
 CONDITION_STRING_ID (58)
 * **ConditionValue1**:
@@ -1364,7 +1647,10 @@ CONDITION_STRING_ID (58)
 StringId
 
 true if gameobject or creature has StringId
-#### Label ❌&nbsp;(59)
+
+:::
+
+::: details Label ❌ (59)
 * **ConditionTypeOrReference**:
 CONDITION_LABEL (59)
 * **ConditionValue1**:
@@ -1378,7 +1664,11 @@ CONDITION_LABEL (59)
 
 > RESERVED master branch
 {.is-warning}
-#### Group&nbsp;Status (60)
+
+<!-- keeps the {.is-*} class on the quote above, not on the details block -->
+:::
+
+::: details Group Status (60)
 * **ConditionTypeOrReference**:
 CONDITION_GROUP_STATUS (60)
 * **ConditionValue1**:
@@ -1400,7 +1690,9 @@ CONDITION_GROUP_STATUS (60)
 `-`
 
 true if group status matches player
-### EndTabset {.tabset}
+
+:::
+
 &nbsp;
 
 ##### ComparisonType
