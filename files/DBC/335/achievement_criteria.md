@@ -223,7 +223,7 @@ Two additional \[**Type**, **Asset**\] condition tuples.
 ### StartEvent
 <code>Col: 27 (uint32)</code>
 
-[`enum AchievementCriteriaCondition`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/DataStores/DBCEnums.h#L96-L108)
+[`enum AchievementCriteriaTimedTypes`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/shared/DataStores/DBCEnums.h#L120-L130)
 | ID | Name | Comment |
 |----|------|---------|
 | 1 | ACHIEVEMENT_TIMED_TYPE_EVENT | Timer is started by internal event with id in **StartAsset** |
