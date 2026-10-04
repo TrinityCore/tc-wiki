@@ -651,10 +651,10 @@ dateCreated: 2023-10-04T08:07:22.166Z
 | 2 | 0x00000002 | Tree of Life |  | 65536 | 0x00010000 | Battle Stance |
 | 4 | 0x00000004 | Travel Form |  | 131072 | 0x00020000 | Defensive Stance |
 | 8 | 0x00000008 | Aquatic Form |  | 262144 | 0x00040000 | Berserker Stance |
-| 16 | 0x00000010 | Bear From |  | 524288 | 0x00080000 | Test |
+| 16 | 0x00000010 | Bear Form |  | 524288 | 0x00080000 | Test |
 | 32 | 0x00000020 | Ambient |  | 1048576 | 0x00100000 | Zombie |
 | 64 | 0x00000040 | Ghoul |  | 2097152 | 0x00200000 | Metamorphosis |
-| 128 | 0x00000080 | Dire Bear Form |  | 16777216 | 0x0100000 | Undead |
+| 128 | 0x00000080 | Dire Bear Form |  | 16777216 | 0x01000000 | Undead |
 | 256 | 0x00000100 | Steve's Ghoul |  | 33554432 | 0x02000000 | Frenzy |
 | 512 | 0x00000200 | Tharon'ja Skeleton |  | 67108864 | 0x04000000 | Flight Form, Epic |
 | 1024 | 0x00000400 | Darkmoon - Test of Strength |  | 134217728 | 0x08000000 | Shadowform |
@@ -879,7 +879,7 @@ Cooldown for all spells this spells **Category** in msec.
 | 8388608 | 0x00800000 | AURA_INTERRUPT_FLAG_ENTER_PVP_COMBAT | removed by entering pvp combat |
 | 16777216 | 0x01000000 | AURA_INTERRUPT_FLAG_DIRECT_DAMAGE | removed by any direct damage |
 | 33554432 | 0x02000000 | AURA_INTERRUPT_FLAG_LANDING | removed by hitting the ground |
-| 134217728 | 0x80000000 | AURA_INTERRUPT_FLAG_LEAVE_COMBAT | removed by leaving combat |
+| 2147483648 | 0x80000000 | AURA_INTERRUPT_FLAG_LEAVE_COMBAT | removed by leaving combat |
 
 &nbsp;
 
@@ -891,6 +891,8 @@ Cooldown for all spells this spells **Category** in msec.
 |-------|------|------|
 | 8 | 0x0008 | CHANNEL_INTERRUPT_FLAG_INTERRUPT |
 | 16384 | 0x4000 | CHANNEL_FLAG_DELAY |
+
+TrinityCore reads the other bits like [AuraInterruptFlags](#aurainterruptflags).
 
 &nbsp;
 
