@@ -25,7 +25,7 @@ dateCreated: 2023-10-04T08:02:22.477Z
 | 2 | [Value](#value) | uint32 | mixed |
 | 3 | [Fallback](#fallback) | uint32 |  |
 | 4 | [Racemask](#racemask) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id-alt) |
-| 5 | [Internal](#internal) | uint32 |  |
+| 5 | [Internal](#internal) | string |  |
 | 6 | [Name_0](#name-alt) | string |  |
 | 7 | [Name_1](#name-alt) | string |  |
 | 8 | [Name_2](#name-alt) | string |  |
@@ -93,13 +93,13 @@ See **Type**
 &nbsp;
 
 ### Name {#name-alt}
-:x: <code>Col: 6 &ndash; 23 ([Loc](/how-to/localization))</code>
+:x: <code>Col: 6 &ndash; 22 ([Loc](/how-to/localization))</code>
 
 *- no description -*
 &nbsp;
 
 ### LockID
-:x: <code>Col: 24 (uint32)</code>
+:x: <code>Col: 23 (uint32)</code>
 
 Surely not pointing to Lock.dbc/0 ?
 &nbsp;

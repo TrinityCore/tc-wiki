@@ -169,7 +169,7 @@ dateCreated: 2023-09-05CEST16:09:35.000Z
 &nbsp;
 
 ### Name {#name-alt}
-:x: <code>Col: 23 (uint32)</code>
+:x: <code>Col: 23 (string)</code>
 
 *- no description -*
 &nbsp;

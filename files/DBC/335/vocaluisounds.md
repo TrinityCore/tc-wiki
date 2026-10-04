@@ -75,7 +75,7 @@ dateCreated: 2023-10-04T08:09:15.363Z
 &nbsp;
 
 ### SoundID
-:x: <code>Col: 3 &ndash; 6 (uint32)</code>
+:x: <code>Col: 3 &ndash; 6 (int32)</code>
 
 | Index | 0 | 1 |
 | :--: | :--: | :--: |

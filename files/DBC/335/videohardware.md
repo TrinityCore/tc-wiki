@@ -156,13 +156,13 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### OglOverrides
-:x: <code>Col: 18 (uint32)</code>
+:x: <code>Col: 18 (string)</code>
 
 *- no description -*
 &nbsp;
 
 ### D3dOverrides
-:x: <code>Col: 19 (uint32)</code>
+:x: <code>Col: 19 (string)</code>
 
 *- no description -*
 &nbsp;

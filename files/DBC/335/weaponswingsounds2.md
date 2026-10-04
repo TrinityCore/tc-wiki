@@ -21,7 +21,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
 | 0 | [ID](#id-alt) | uint32 |  |
-| 1 | [SwingType](#weight) | uint32 | [ItemSubClass.dbc/9](/files/DBC/335/itemsubclass#weaponswingsize) |
+| 1 | [SwingType](#swingtype) | uint32 | [ItemSubClass.dbc/9](/files/DBC/335/itemsubclass#weaponswingsize) |
 | 2 | [Critical](#critical) | uint32 |  |
 | 3 | [SoundID](#soundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 
@@ -35,20 +35,20 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### SwingType
-:x: <code>Col: 0 (uint32)</code>
+:x: <code>Col: 1 (uint32)</code>
 
 <!--@include: @/partial/335/weapon-swing-size.md-->
 
 &nbsp;
 
 ### Critical
-:x: <code>Col: 0 (bool)</code>
+:x: <code>Col: 2 (bool)</code>
 
 *- no description -*
 &nbsp;
 
 ### SoundID
-:x: <code>Col: 0 (uint32)</code>
+:x: <code>Col: 3 (uint32)</code>
 
 *- no description -*
 &nbsp;

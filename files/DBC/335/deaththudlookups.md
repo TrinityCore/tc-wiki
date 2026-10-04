@@ -21,10 +21,10 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
 | 0 | [ID](#id-alt) | uint32 |  |
-| 1 | [SizeClass](#type) | uint32 | [CreatureDisplayInfo.dbc/10](/files/DBC/335/creaturedisplayinfo#sizeclass) |
-| 2 | [TerrainTypeSoundID](#type) | uint32 | [TerrainType.dbc/0](/files/DBC/335/terraintype#id-alt) |
-| 3 | [SoundEntryID](#type) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
-| 4 | [SoundEntryIDWater](#type) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 1 | [SizeClass](#sizeclass) | uint32 | [CreatureDisplayInfo.dbc/10](/files/DBC/335/creaturedisplayinfo#sizeclass) |
+| 2 | [TerrainTypeSoundID](#terraintypesoundid) | uint32 | [TerrainType.dbc/0](/files/DBC/335/terraintype#id-alt) |
+| 3 | [SoundEntryID](#soundentryid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 4 | [SoundEntryIDWater](#soundentryidwater) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 
 &nbsp;
 ## Description of fields
@@ -45,19 +45,19 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### TerrainTypeSoundID
-:x: <code>Col: 1 (uint32)</code>
-
-*- no description -*
-&nbsp;
-
-### SoundEntryID
 :x: <code>Col: 2 (uint32)</code>
 
 *- no description -*
 &nbsp;
 
-### SoundEntryIDWater
+### SoundEntryID
 :x: <code>Col: 3 (uint32)</code>
+
+*- no description -*
+&nbsp;
+
+### SoundEntryIDWater
+:x: <code>Col: 4 (uint32)</code>
 
 *- no description -*
 &nbsp;

@@ -127,7 +127,7 @@ dateCreated: 2023-10-04T08:05:02.714Z
 &nbsp;
 
 ### Flags
-<code>Col: 25 (int32)</code>
+<code>Col: 25 (uint32)</code>
 
 | Value | Flag | Name | Comment |
 |-------|------|------|---------|

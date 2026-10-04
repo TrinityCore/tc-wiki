@@ -71,7 +71,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### OceanShallowAlpha
-:x: <code>Col: 60 (float)</code>
+:x: <code>Col: 6 (float)</code>
 
 *- no description -*
 &nbsp;

@@ -101,7 +101,7 @@ Used in group WMO
 &nbsp;
 
 ### IntroSound
-:x: <code>Col: 8 (uint32)</code>
+:x: <code>Col: 8 (int32)</code>
 
 *- no description -*
 &nbsp;
