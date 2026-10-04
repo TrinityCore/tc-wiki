@@ -33,7 +33,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### Text
-:x: <code>Col: 1 (uint32)</code>
+:x: <code>Col: 1 (string)</code>
 
 RegExp
 &nbsp;

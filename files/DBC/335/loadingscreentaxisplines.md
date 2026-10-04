@@ -62,7 +62,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### LegIndex
-<code>Col: 0 (uint32)</code>
+<code>Col: 18 (uint32)</code>
 
 *- no description -*
 &nbsp;

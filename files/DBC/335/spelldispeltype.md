@@ -40,7 +40,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 17 | [Name_lang_mask](#name-alt) | uint32 |  |
 | 18 | [Mask](#mask) | uint32 |  |
 | 19 | [ImmunityPossible](#immunitypossible) | uint32 |  |
-| 20 | [InternalName](#internalname) | uint32 |  |
+| 20 | [InternalName](#internalname) | string |  |
 
 &nbsp;
 ## Description of fields
@@ -58,19 +58,19 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### Mask
-:x: <code>Col: 0 (uint32)</code>
+:x: <code>Col: 18 (uint32)</code>
 
 <code>**Mask** |= 1 << (**ID** - 1)</code>
 &nbsp;
 
 ### ImmunityPossible
-:x: <code>Col: 0 (bool)</code>
+:x: <code>Col: 19 (bool)</code>
 
 *- no description -*
 &nbsp;
 
 ### InternalName
-:x: <code>Col: 0 (uint32)</code>
+:x: <code>Col: 20 (string)</code>
 
 *- no description -*
 &nbsp;

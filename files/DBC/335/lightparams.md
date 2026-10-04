@@ -28,7 +28,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 5 | [WaterDeepAlpha](#waterdeepalpha) | float |  |
 | 6 | [OceanShallowAlpha](#oceanshallowalpha) | float |  |
 | 7 | [OceanDeepAlpha](#oceandeepalpha) | float |  |
-| 8 | [Flags](#flags) | uint32 |  |
+| 8 | [Flags](#flags) | float |  |
 
 &nbsp;
 ## Description of fields
@@ -71,7 +71,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### OceanShallowAlpha
-:x: <code>Col: 60 (float)</code>
+:x: <code>Col: 6 (float)</code>
 
 *- no description -*
 &nbsp;
@@ -83,7 +83,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### Flags
-:x: <code>Col: 8 (uint32)</code>
+:x: <code>Col: 8 (float)</code>
 
-*- no description -*
+Holds float values in the 3.3.5a client data, not flags: mostly 1.0, also 0.9, 0.7, 0.5 and 0.
 &nbsp;

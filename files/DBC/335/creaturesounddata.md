@@ -207,13 +207,13 @@ Used by SMSG_PET_DISMISS_SOUND.
 &nbsp;
 
 ### FidgetDelaySecondsMin
-:x: <code>Col: 31 (flaot)</code>
+:x: <code>Col: 31 (float)</code>
 
 Time / Interval? 30 seconds?
 &nbsp;
 
 ### FidgetDelaySecondsMax
-:x: <code>Col: 32 (flaot)</code>
+:x: <code>Col: 32 (float)</code>
 
 Time / Interval? 30 seconds?
 &nbsp;
