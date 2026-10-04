@@ -36,8 +36,8 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 ### ID {#id-alt}
 :x: <code>Col: 0 (uint32)</code>
 
-* [LightIntBand ID](/files/DBC/335/lightintband#id-alt) = **ID** \* 6 - [0 &ndash; 5]
-* [LightFloatBand.dbc/0](/files/DBC/335/lightfloatband#id-alt) = **ID** \* 18 - [0 &ndash; 17]
+* [LightIntBand.dbc/0](/files/DBC/335/lightintband#id-alt) = **ID** \* 18 - [0 &ndash; 17]
+* [LightFloatBand.dbc/0](/files/DBC/335/lightfloatband#id-alt) = **ID** \* 6 - [0 &ndash; 5]
 &nbsp;
 
 ### HighlightSky
