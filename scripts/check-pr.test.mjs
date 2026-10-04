@@ -88,6 +88,7 @@ test('checks pages with their partials pasted in', async () => {
   const include = '<!--@include: @/partial/a.md-->\n'
   const withPartial = (partial) => problems(edit('how-to/a.md'), (path) => path === 'partial/a.md' ? partial : FRONT + include)
   assert.deepEqual(await withPartial('| a | b |\n|---|---|\n| 1 | 2 |\n'), [])
+  assert.deepEqual(await problems(edit('how-to/a.md'), (path) => path === 'partial/335/a.md' ? 'x\n' : FRONT + '<!--@include: @/partial/335/a.md-->\n'), [])
   assert.notDeepEqual(await withPartial('{{ constructor }}\n'), [])
   assert.notDeepEqual(await withPartial('---\ntitle: x\n---\n'), [])
   assert.notDeepEqual(await withPartial('<!--@include: @/partial/b.md-->\n'), [])
@@ -99,7 +100,7 @@ test('checks pages with their partials pasted in', async () => {
   const listed = (partial) => problems(edit('how-to/a.md'), (path) => path === 'partial/a.md' ? partial : FRONT + '* a\n\n  ' + include)
   assert.deepEqual(await listed('```\n{{ constructor }}\n```\n'), [])
   assert.notDeepEqual(await listed('x\n\n{{ constructor }}\n'), [])
-  for (const target of ['@/partial/a.md#region', '@/partial/a.md{1,2}', 'partial/a.md', '@/how-to/b.md', '@/partial/../README.md']) {
+  for (const target of ['@/partial/a.md#region', '@/partial/a.md{1,2}', 'partial/a.md', '@/how-to/b.md', '@/partial/../README.md', '@/partial//a.md', '@/partial/335/.md']) {
     assert.notDeepEqual(await page(`<!--@include: ${target}-->\n`), [], target)
   }
 })

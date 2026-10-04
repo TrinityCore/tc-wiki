@@ -28,7 +28,7 @@ const SCHEME = /(javascript|vbscript):|data:text\/html/i
 // page is checked with its includes pasted in. Only whole partial/ pages can
 // be included; VitePress's own pattern finds them.
 const INCLUDE = /<!--\s*@include:\s*(.*?)\s*-->/g
-const PARTIAL = /^@\/(partial\/[\w-]+\.md)$/
+const PARTIAL = /^@\/(partial\/(?:[\w-]+\/)*[\w-]+\.md)$/
 
 const NODE = { ELEMENT: 1, INTERPOLATION: 5, ATTRIBUTE: 6, DIRECTIVE: 7 }
 const PLAIN_ELEMENT = 0
