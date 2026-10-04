@@ -24,7 +24,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 1 | [MapID](#mapid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
 | 2 | [WMOGroupID](#wmogroupid) | uint32 | [WMOAreaTable/3](/files/DBC/335/wmoareatable#wmogroupid) |
 | 3 | [DungeonMapID](#dungeonmapid) | uint32 | [DungeonMap.dbc/0](/files/DBC/335/dungeonmap#id-alt) |
-| 4 | [MinZ](#minz) | uint32 |  |
+| 4 | [MinZ](#minz) | float |  |
 
 &nbsp;
 ## Description of fields
@@ -54,7 +54,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### MinZ
-:x: <code>Col: 4 (uint32)</code>
+:x: <code>Col: 4 (float)</code>
 
 *- no description -*
 &nbsp;

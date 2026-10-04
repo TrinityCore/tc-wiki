@@ -23,7 +23,7 @@ dateCreated: 2023-10-04T08:09:22.075Z
 | 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [AmbienceSoundID](#ambiencesoundid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 | 2 | [EffectType](#effecttype) | uint32 |  |
-| 3 | [TransitionSkyBox](#transitionskybox) | uint32 |  |
+| 3 | [TransitionSkyBox](#transitionskybox) | float |  |
 | 4 | [EffectColor_R](#effectcolor) | float |  |
 | 5 | [EffectColor_G](#effectcolor) | float |  |
 | 6 | [EffectColor_B](#effectcolor) | float |  |
@@ -53,7 +53,7 @@ The sound played when the weather is taking place.
 &nbsp;
 
 ### TransitionSkyBox
-:x: <code>Col: 3 (uint32)</code>
+:x: <code>Col: 3 (float)</code>
 
 *- no description -*
 &nbsp;

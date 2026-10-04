@@ -22,21 +22,21 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | :---: | --- | :---: | --- |
 | 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [Direct](#direct) | uint32 |  |
-| 2 | [DirectHF](#directhf) | NULL |  |
+| 2 | [DirectHF](#directhf) | uint32 |  |
 | 3 | [Room](#room) | uint32 |  |
-| 4 | [RoomHF](#roomhf) | NULL |  |
-| 5 | [Obstruction](#obstruction) | NULL |  |
+| 4 | [RoomHF](#roomhf) | uint32 |  |
+| 5 | [Obstruction](#obstruction) | float |  |
 | 6 | [OcclusionLFRatio](#occlusionlfratio) | float |  |
-| 7 | [Unknown_0](#unknown_0) | NULL |  |
+| 7 | [Unknown_0](#unknown_0) | uint32 |  |
 | 8 | [OcclusionLFRatio](#occlusionlfratio) | float |  |
 | 9 | [OcclusionRoomRatio](#occlusionroomratio) | float |  |
-| 10 | [Unknown_1](#unknown_1) | NULL |  |
+| 10 | [Unknown_1](#unknown_1) | uint32 |  |
 | 11 | [ExclusionLFRatio](#exclusionlfratio) | float |  |
-| 12 | [Unknown_2](#unknown_2) | NULL |  |
+| 12 | [Unknown_2](#unknown_2) | uint32 |  |
 | 13 | [OcclusionDirectRatio](#occlusiondirectratio) | float |  |
 | 14 | [OutsideVolumeHF](#outsidevolumehf) | float |  |
 | 15 | [AirAbsorptionFactor](#airabsorptionfactor) | float |  |
-| 16 | [Unknown_3](#unknown_3) | NULL |  |
+| 16 | [Unknown_3](#unknown_3) | uint32 |  |
 
 &nbsp;
 ## Description of fields
@@ -54,7 +54,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### DirectHF
-:x: <code>Col: 2 (NULL)</code>
+:x: <code>Col: 2 (uint32)</code>
 
 *- no description -*
 &nbsp;
@@ -66,13 +66,13 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### RoomHF
-:x: <code>Col: 4 (NULL)</code>
+:x: <code>Col: 4 (uint32)</code>
 
 *- no description -*
 &nbsp;
 
 ### Obstruction
-:x: <code>Col: 5 (NULL)</code>
+:x: <code>Col: 5 (float)</code>
 
 *- no description -*
 &nbsp;
@@ -84,7 +84,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### Unknown_0
-:x: <code>Col: 7 (NULL)</code>
+:x: <code>Col: 7 (uint32)</code>
 
 *- no description -*
 &nbsp;
@@ -102,7 +102,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### Unknown_1
-:x: <code>Col: 10 (NULL)</code>
+:x: <code>Col: 10 (uint32)</code>
 
 *- no description -*
 &nbsp;
@@ -114,7 +114,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### Unknown_2
-:x: <code>Col: 12 (NULL)</code>
+:x: <code>Col: 12 (uint32)</code>
 
 *- no description -*
 &nbsp;
@@ -138,7 +138,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### Unknown_3
-:x: <code>Col: 16 (NULL)</code>
+:x: <code>Col: 16 (uint32)</code>
 
 *- no description -*
 &nbsp;

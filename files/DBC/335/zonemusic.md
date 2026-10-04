@@ -21,13 +21,13 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
 | 0 | [ID](#id-alt) | uint32 |  |
-| 1 | [Name](#id-alt) | uint32 |  |
-| 2 | [SilenceIntervalMinDay](#id-alt) | uint32 |  |
-| 3 | [SilenceIntervalMinNight](#id-alt) | uint32 |  |
-| 4 | [SilenceIntervalMaxDay](#id-alt) | uint32 |  |
-| 5 | [SilenceIntervalMaxNight](#id-alt) | uint32 |  |
-| 6 | [MusicDay](#id-alt) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
-| 7 | [MusicNight](#id-alt) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 1 | [Name](#name-alt) | string |  |
+| 2 | [SilenceIntervalMinDay](#silenceinterval) | uint32 |  |
+| 3 | [SilenceIntervalMinNight](#silenceinterval) | uint32 |  |
+| 4 | [SilenceIntervalMaxDay](#silenceinterval) | uint32 |  |
+| 5 | [SilenceIntervalMaxNight](#silenceinterval) | uint32 |  |
+| 6 | [MusicDay](#music) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
+| 7 | [MusicNight](#music) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 
 &nbsp;
 ## Description of fields

@@ -27,11 +27,11 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 4 | [ModelScale](#modelscale) | float |  |
 | 5 | [BloodID](#bloodid) | int32 | [UnitBloodLevels.dbc/0](/files/DBC/335/unitbloodlevels#id-alt) |
 | 6 | [FootprintTextureID](#footprinttextureid) | int32 | [FootprintTextures.dbc/0](/files/DBC/335/footprinttextures#id-alt) |
-| 7 | [FootprintTextureLength](#footprinttexturelength) | uint32 |  |
-| 8 | [FootprintTextureWidth](#footprinttexturewidth) | uint32 |  |
+| 7 | [FootprintTextureLength](#footprinttexturelength) | float |  |
+| 8 | [FootprintTextureWidth](#footprinttexturewidth) | float |  |
 | 9 | [FootprintParticleScale](#footprintparticlescale) | float |  |
 | 10 | [FoleyMaterialID](#foleymaterialid) | uint32 | [Material.dbc/0](/files/DBC/335/material#id-alt) |
-| 11 | [FootstepShakeSize](#footstepshakesize) | float |  |
+| 11 | [FootstepShakeSize](#footstepshakesize) | uint32 |  |
 | 12 | [DeathThudShakeSize](#deaththudshakesize) | uint32 |  |
 | 13 | [SoundID](#soundid) | uint32 | [CreatureSoundData.dbc/0](/files/DBC/335/creaturesounddata#id-alt) |
 | 14 | [CollisionWidth](#collisionwidth) | float |  |
@@ -110,13 +110,13 @@ Used in calculation of unit collision data.
 &nbsp;
 
 ### FootprintTextureLength
-:x: <code>Col: 7 (uint32)</code>
+:x: <code>Col: 7 (float)</code>
 
 *- no description -*
 &nbsp;
 
 ### FootprintTextureWidth
-:x: <code>Col: 8 (uint32)</code>
+:x: <code>Col: 8 (float)</code>
 
 *- no description -*
 &nbsp;
@@ -134,7 +134,7 @@ Used in calculation of unit collision data.
 &nbsp;
 
 ### FootstepShakeSize
-:x: <code>Col: 11 (float)</code>
+:x: <code>Col: 11 (uint32)</code>
 
 *- no description -*
 &nbsp;

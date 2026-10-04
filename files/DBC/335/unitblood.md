@@ -25,11 +25,11 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 2 | [CombatBloodSpurt_1](#combatbloodspurt) | uint32 |  |
 | 3 | [CombatBloodSpurt_2](#combatbloodspurt) | uint32 |  |
 | 4 | [CombatBloodSpurt_3](#combatbloodspurt) | uint32 |  |
-| 5 | [GroundBlood_0](#groundblood) | uint32 |  |
-| 6 | [GroundBlood_1](#groundblood) | uint32 |  |
-| 7 | [GroundBlood_2](#groundblood) | uint32 |  |
-| 8 | [GroundBlood_3](#groundblood) | uint32 |  |
-| 9 | [GroundBlood_4](#groundblood) | uint32 |  |
+| 5 | [GroundBlood_0](#groundblood) | string |  |
+| 6 | [GroundBlood_1](#groundblood) | string |  |
+| 7 | [GroundBlood_2](#groundblood) | string |  |
+| 8 | [GroundBlood_3](#groundblood) | string |  |
+| 9 | [GroundBlood_4](#groundblood) | string |  |
 
 &nbsp;
 ## Description of fields
@@ -51,7 +51,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### GroundBlood
-:x: <code>Col: 5 &ndash; 9 (uint32)</code>
+:x: <code>Col: 5 &ndash; 9 (string)</code>
 
 *- no description -*
 &nbsp;

@@ -21,7 +21,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
 | 0 | [ID](#id-alt) | uint32 |  |
-| 1 | [SmoothFacingChaseRate](#smoothfacingchaserate) | uint32 |  |
+| 1 | [SmoothFacingChaseRate](#smoothfacingchaserate) | float |  |
 
 &nbsp;
 ## Description of fields
@@ -33,7 +33,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### Flags
-:x: <code>Col: 1 (uint32)</code>
+:x: <code>Col: 1 (float)</code>
 
 *- no description -*
 &nbsp;
