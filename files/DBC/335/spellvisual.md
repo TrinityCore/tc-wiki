@@ -37,7 +37,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 14 | [CasterImpactKit](#casterimpactkit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id-alt) |
 | 15 | [TargetImpactKit](#targetimpactkit) | uint32 | [SpellVisualKit.dbc/0](/files/DBC/335/spellvisualkit#id-alt) |
 | 16 | [MissileAttachment](#missileattachment) | int32 |  |
-| 17 | [MissileFollowGroundHeight](#missilefollowgroundheight) | uint32 |  |
+| 17 | [MissileFollowGroundHeight](#missilefollowgroundheight) | int32 |  |
 | 18 | [MissileFollowGroundDropSpeed](#missilefollowgrounddropspeed) | uint32 |  |
 | 19 | [MissileFollowGroundApproach](#missilefollowgroundapproach) | uint32 |  |
 | 20 | [MissileFollowGroundFlags](#missilefollowgroundflags) | uint32 |  |
@@ -159,7 +159,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### MissileFollowGroundHeight
-:x: <code>Col: 17 (uint32)</code>
+:x: <code>Col: 17 (int32)</code>
 
 *- no description -*
 &nbsp;

@@ -25,12 +25,12 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 2 | [Effect_0](#effect) | uint32 |  |
 | 3 | [Effect_1](#effect) | uint32 |  |
 | 4 | [Effect_2](#effect) | uint32 |  |
-| 5 | [EffectPointsMin_0](#effectpointsmin) | uint32 |  |
-| 6 | [EffectPointsMin_1](#effectpointsmin) | uint32 |  |
-| 7 | [EffectPointsMin_2](#effectpointsmin) | uint32 |  |
-| 8 | [EffectPointsMax_0](#effectpointsmax) | uint32 |  |
-| 9 | [EffectPointsMax_1](#effectpointsmax) | uint32 |  |
-| 10 | [EffectPointsMax_2](#effectpointsmax) | uint32 |  |
+| 5 | [EffectPointsMin_0](#effectpointsmin) | int32 |  |
+| 6 | [EffectPointsMin_1](#effectpointsmin) | int32 |  |
+| 7 | [EffectPointsMin_2](#effectpointsmin) | int32 |  |
+| 8 | [EffectPointsMax_0](#effectpointsmax) | int32 |  |
+| 9 | [EffectPointsMax_1](#effectpointsmax) | int32 |  |
+| 10 | [EffectPointsMax_2](#effectpointsmax) | int32 |  |
 | 11 | [EffectArg_0](#effectarg) | uint32 |  |
 | 12 | [EffectArg_1](#effectarg) | uint32 |  |
 | 13 | [EffectArg_2](#effectarg) | uint32 |  |
@@ -92,13 +92,13 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### EffectPointsMin
-<code>Col: 5 &ndash; 7 (uint32)</code>
+<code>Col: 5 &ndash; 7 (int32)</code>
 
 *- no description -*
 &nbsp;
 
 ### EffectPointsMax
-:x: <code>Col: 8 &ndash; 10 (uint32)</code>
+:x: <code>Col: 8 &ndash; 10 (int32)</code>
 
 *- no description -*
 &nbsp;
