@@ -51,7 +51,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 28 | [Name_14](#name-alt) | string |  |
 | 29 | [Name_15](#name-alt) | string |  |
 | 30 | [Name_lang_mask](#name-alt) | uint32 |  |
-| 31 | [ItemVisual](#itemvisual) | uint32 | [ItemVisuals.dbc/0](/files/DBC/335/itemvisuals#classid) |
+| 31 | [ItemVisual](#itemvisual) | uint32 | [ItemVisuals.dbc/0](/files/DBC/335/itemvisuals#id-alt) |
 | 32 | [Flags](#flags) | uint32 |  |
 | 33 | [SrcItemID](#srcitemid) | uint32 | [Item.dbc/0](/files/DBC/335/item#id-alt); [item entry](/database/335/world/item_template#entry) |
 | 34 | [ConditionID](#conditionid) | uint32 | [SpellItemEnchantmentCondition.dbc/0](/files/DBC/335/spellitemenchantmentcondition#id-alt) |
