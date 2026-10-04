@@ -38,7 +38,7 @@ dateCreated: 2023-10-04T08:08:33.366Z
 | 15 | [Name_14](#name-alt) | string |  |
 | 16 | [Name_15](#name-alt) | string |  |
 | 17 | [Name_lang_mask](#name-alt) | uint32 |  |
-| 18 | [SpellIconID](#spelliconid) | unit32 | [SpellIcon.dbc/0](/files/DBC/335/spellicon#id-alt) |
+| 18 | [SpellIconID](#spelliconid) | uint32 | [SpellIcon.dbc/0](/files/DBC/335/spellicon#id-alt) |
 | 19 | [RaceMask](#racemask) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id-alt) |
 | 20 | [ClassMask](#classmask) | uint32 | [ChrClasses.dbc/0](/files/DBC/335/chrclasses#id-alt) |
 | 21 | [PetTalentMask](#pettalentmask) | uint32 | [CreatureFamily.dbc/8](/files/DBC/335/creaturefamily#pettalenttype) |
@@ -61,7 +61,7 @@ dateCreated: 2023-10-04T08:08:33.366Z
 &nbsp;
 
 ### SpellIconID
-:x: <code>Col: 18 (unit32)</code>
+:x: <code>Col: 18 (uint32)</code>
 
 *- no description -*
 &nbsp;

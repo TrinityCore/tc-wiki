@@ -78,7 +78,7 @@ column in talent tab
 &nbsp;
 
 ### PrereqTalent
-<code>Col: 13 &ndash; 15  (uint32)</code>
+<code>Col: 13 &ndash; 15 (uint32)</code>
 
 *- no description -*
 &nbsp;
