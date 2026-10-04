@@ -35,22 +35,22 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 12 | [Operator_1](#operator) | uint8 |  |
 | 13 | [Operator_2](#operator) | uint8 |  |
 | 14 | [Operator_3](#operator) | uint8 |  |
-| 15 | [RtOperandType_0](#rtoperandtype) | uint8 |  |
-| 16 | [RtOperandType_1](#rtoperandtype) | uint8 |  |
-| 17 | [RtOperandType_2](#rtoperandtype) | uint8 |  |
-| 18 | [RtOperandType_3](#rtoperandtype) | uint8 |  |
-| 19 | [RtOperandType_4](#rtoperandtype) | uint8 |  |
-| 20 | [RtOperandType_5](#rtoperandtype) | uint8 |  |
+| 15 | [Operator_4](#operator) | uint8 |  |
+| 16 | [RtOperandType_0](#rtoperandtype) | uint8 |  |
+| 17 | [RtOperandType_1](#rtoperandtype) | uint8 |  |
+| 18 | [RtOperandType_2](#rtoperandtype) | uint8 |  |
+| 19 | [RtOperandType_3](#rtoperandtype) | uint8 |  |
+| 20 | [RtOperandType_4](#rtoperandtype) | uint8 |  |
 | 21 | [RtOperand_0](#rtoperand) | uint32 |  |
 | 22 | [RtOperand_1](#rtoperand) | uint32 |  |
 | 23 | [RtOperand_2](#rtoperand) | uint32 |  |
 | 24 | [RtOperand_3](#rtoperand) | uint32 |  |
-| 25 | [Logic_0](#logic) | uint8 |  |
-| 26 | [Logic_1](#logic) | uint8 |  |
-| 27 | [Logic_2](#logic) | uint8 |  |
-| 28 | [Logic_3](#logic) | uint8 |  |
-| 29 | [Logic_4](#logic) | uint8 |  |
-| 30 | [Logic_5](#logic) | uint8 |  |
+| 25 | [RtOperand_4](#rtoperand) | uint32 |  |
+| 26 | [Logic_0](#logic) | uint8 |  |
+| 27 | [Logic_1](#logic) | uint8 |  |
+| 28 | [Logic_2](#logic) | uint8 |  |
+| 29 | [Logic_3](#logic) | uint8 |  |
+| 30 | [Logic_4](#logic) | uint8 |  |
 
 &nbsp;
 ## Description of fields
@@ -84,7 +84,7 @@ unshifted SocketColor: `ID = LOG(enumBit, 2) + 1`
 &nbsp;
 
 ### RtOperandType
-<code>Col: 15 &ndash; 20 (uint8)</code>
+<code>Col: 16 &ndash; 20 (uint8)</code>
 
 unshifted SocketColor: `ID = LOG(enumBit, 2) + 1`
 <!--@include: @/partial/335/socket-color.md-->
@@ -98,7 +98,7 @@ Amount of **LtOperandType** gems.
 &nbsp;
 
 ### Logic
-:x: <code>Col: 25 &ndash; 30 (uint8)</code>
+:x: <code>Col: 26 &ndash; 30 (uint8)</code>
 
 *- no description -*
 &nbsp;

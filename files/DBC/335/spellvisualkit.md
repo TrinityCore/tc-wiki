@@ -57,6 +57,7 @@ dateCreated: 2023-10-04T08:08:11.623Z
 | 34 | [CharParamD_1](#charparamd) | float |  |
 | 35 | [CharParamD_2](#charparamd) | float |  |
 | 36 | [CharParamD_3](#charparamd) | float |  |
+| 37 | [Flags](#flags) | uint32 |  |
 
 &nbsp;
 ## Description of fields
@@ -179,4 +180,13 @@ Colormask converted from HEX to DECIMAL (can be used for caster or target color)
 :x: <code>Col: 33 &ndash; 36 (float)</code>
 
 *- no description -*
+&nbsp;
+
+### Flags
+:x: <code>Col: 37 (uint32)</code>
+
+| Value | Description |
+| --- | --- |
+| 0x40 | LOOP_ANIMATION |
+
 &nbsp;

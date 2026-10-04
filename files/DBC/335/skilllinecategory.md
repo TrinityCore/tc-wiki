@@ -37,9 +37,8 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 14 | [Name_13](#name-alt) | string |  |
 | 15 | [Name_14](#name-alt) | string |  |
 | 16 | [Name_15](#name-alt) | string |  |
-| 17 | [Name_16](#name-alt) | string |  |
-| 18 | [Name_lang_mask](#name-alt) | uint32 |  |
-| 19 | [SortIndex](#sortindex) | uint32 |  |
+| 17 | [Name_lang_mask](#name-alt) | uint32 |  |
+| 18 | [SortIndex](#sortindex) | uint32 |  |
 
 &nbsp;
 ## Description of fields
@@ -51,13 +50,13 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### Name {#name-alt}
-:x: <code>Col: 1 &ndash; 18 ([Loc](/how-to/localization))</code>
+:x: <code>Col: 1 &ndash; 17 ([Loc](/how-to/localization))</code>
 
 *- no description -*
 &nbsp;
 
 ### SortIndex
-:x: <code>Col: 19 (uint32)</code>
+:x: <code>Col: 18 (uint32)</code>
 
 UI display order
 &nbsp;

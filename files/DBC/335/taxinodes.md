@@ -41,10 +41,9 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 18 | [Name_13](#name-alt) | string |  |
 | 19 | [Name_14](#name-alt) | string |  |
 | 20 | [Name_15](#name-alt) | string |  |
-| 21 | [Name_16](#name-alt) | string |  |
-| 22 | [Name_lang_mask](#name-alt) | uint32 |  |
-| 23 | [MountCreatureID_0](#mountcreatureid) | uint32 | [creature entry](/database/335/world/creature_template#entry) |
-| 24 | [MountCreatureID_1](#mountcreatureid) | uint32 | [creature entry](/database/335/world/creature_template#entry) |
+| 21 | [Name_lang_mask](#name-alt) | uint32 |  |
+| 22 | [MountCreatureID_0](#mountcreatureid) | uint32 | [creature entry](/database/335/world/creature_template#entry) |
+| 23 | [MountCreatureID_1](#mountcreatureid) | uint32 | [creature entry](/database/335/world/creature_template#entry) |
 
 &nbsp;
 ## Description of fields
@@ -68,13 +67,13 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### Name {#name-alt}
-<code>Col: 5 &ndash; 22 ([Loc](/how-to/localization))</code>
+<code>Col: 5 &ndash; 21 ([Loc](/how-to/localization))</code>
 
 *- no description -*
 &nbsp;
 
 ### MountCreatureID
-<code>Col: 23 &ndash; 24 (uint32)</code>
+<code>Col: 22 &ndash; 23 (uint32)</code>
 
 * col 23: Alliance
 * col 24: Horde
