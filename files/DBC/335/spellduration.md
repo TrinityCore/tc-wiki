@@ -41,7 +41,7 @@ Base duration in msec.
 &nbsp;
 
 ### DurationPerLevel
-:x: <code>Col: 2 (int32)</code>
+<code>Col: 2 (int32)</code>
 
 *- not used -*
 &nbsp;

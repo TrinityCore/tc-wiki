@@ -44,25 +44,25 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 ## Description of fields
 
 ### ID {#id-alt}
-<code>Col: 0 (uint32)</code>
+:x: <code>Col: 0 (uint32)</code>
 
 *- no description -*
 &nbsp;
 
 ### TaxiPathID
-<code>Col: 1 (uint32)</code>
+:x: <code>Col: 1 (uint32)</code>
 
 *- no description -*
 &nbsp;
 
 ### Loc
-<code>Col: 2 &ndash; 17 (Position2D)</code>
+:x: <code>Col: 2 &ndash; 17 (Position2D)</code>
 
 *- no description -*
 &nbsp;
 
 ### LegIndex
-<code>Col: 18 (uint32)</code>
+:x: <code>Col: 18 (uint32)</code>
 
 *- no description -*
 &nbsp;
