@@ -1,10 +1,10 @@
 ---
 title: Windows Server Setup
 description: Extracting Cameras, DBC, Maps, VMaps & MMaps
+tags: null
 published: true
-date: 2022-11-21T22:45:57.128Z
-tags: 
 editor: markdown
+date: 2022-11-21T22:45:57.128Z
 dateCreated: 2021-12-20T19:17:37.572Z
 ---
 
@@ -35,12 +35,12 @@ Browse into your (Drive):\TrinityCore\contrib and copy "**extractor.bat**" into 
 Launch "**extractor.bat**" and select your extractor option. For a fresh setup, this should be option 4 - extract all.
 
 The time this takes highly depends on the mode where the tools have been builded in and also on the amount of available cpu cores.
-For a full extraction, this can be anything from below 15 minutes up to several hours depening on your hardware. (Master takes way longer than 335)
+For a full extraction, this can be anything from below 15 minutes up to several hours depending on your hardware. (Master takes way longer than 3.3.5)
 
 Important Notes:
 
 - dbc/db2, maps AND vmaps are needed to make server work properly!
-- Do not attempt to stop vmaps exctraction process. It is finished when it prints "Press any key...". It will create two new folders: buildings and vmaps. The buildings folder is completely useless post-running and can be safely deleted.
+- Do not attempt to stop vmaps extraction process. It is finished when it prints "Press any key...". It will create two new folders: buildings and vmaps. The buildings folder is completely useless post-running and can be safely deleted.
 - If, out of whatever reason, you run the files manually (not using extractor.bat), don't run another task before the 1st is finished or you will have errors.
 - If you stop vmap4extractor before finish you will need to delete the Buildings directory before start again.
 
