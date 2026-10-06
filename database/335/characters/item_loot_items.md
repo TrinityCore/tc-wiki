@@ -1,10 +1,10 @@
 ---
 title: item_loot_items
-description:
-published: true
-date: 2023-07-31T19:31:11.812Z
+description: null
 tags: database, characters, 3.3.5, 3.3.5a, 335, 335a, wotlk
+published: true
 editor: markdown
+date: 2023-07-31T19:31:11.812Z
 dateCreated: 2021-08-30T22:01:29.745Z
 ---
 
@@ -18,10 +18,10 @@ dateCreated: 2021-08-30T22:01:29.745Z
 
 | Field | Type | Attributes | Key | Null | Default | Extra | Comment |
 | --- | --- | --- | :---: | :---: | --- | --- | --- |
-| [container_id](#container_id) | int | unsigned |  | NO | 0 |  | guid of container (item_instance.guid) |
+| [container_id](#container_id) | int | unsigned | PRI | NO | 0 |  | guid of container (item_instance.guid) |
 | [item_id](#item_id) | int | unsigned |  | NO | 0 |  | loot item entry (item_instance.itemEntry) |
 | [item_count](#item_count) | int | signed |  | NO | 0 |  | stack size |
-| [item_index](#item_index) | int | unsigned |  | NO | 0 |  |  |
+| [item_index](#item_index) | int | unsigned | PRI | NO | 0 |  |  |
 | [follow_rules](#follow_rules) | tinyint(1) | signed |  | NO | 0 |  | follow loot rules |
 | [ffa](#ffa) | tinyint(1) | signed |  | NO | 0 |  | free-for-all |
 | [blocked](#blocked) | tinyint(1) | signed |  | NO | 0 |  |  |
