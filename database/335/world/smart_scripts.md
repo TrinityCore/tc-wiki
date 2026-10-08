@@ -5282,7 +5282,7 @@ ResumeTime (in ms.)
 
 ### target_type
 ::: details None (0)
-No target
+No target.
 * **target_type**:
 SMART_TARGET_NONE (0)
 * **target_param1**:
@@ -5298,7 +5298,7 @@ SMART_TARGET_NONE (0)
 :::
 
 ::: details Self (1)
-Self cast
+Target self.
 * **target_type**:
 SMART_TARGET_SELF (1)
 * **target_param1**:
@@ -5314,7 +5314,7 @@ SMART_TARGET_SELF (1)
 :::
 
 ::: details Victim (2)
-Our current target (ie: highest aggro)
+Our current target. (i.e.: first in threat list)
 * **target_type**:
 SMART_TARGET_VICTIM (2)
 * **target_param1**:
@@ -5330,7 +5330,7 @@ SMART_TARGET_VICTIM (2)
 :::
 
 ::: details Hostile Second Aggro (3)
-Second highest aggro
+Second highest in threat list.
 * **target_type**:
 SMART_TARGET_HOSTILE_SECOND_AGGRO (3)
 * **target_param1**:
@@ -5349,7 +5349,7 @@ PowerType + 1 (0: any)
 :::
 
 ::: details Hostile Last Aggro (4)
-Dead last on aggro
+Dead last on threat list.
 * **target_type**:
 SMART_TARGET_HOSTILE_LAST_AGGRO (4)
 * **target_param1**:
@@ -5368,7 +5368,7 @@ PowerType + 1 (0: any)
 :::
 
 ::: details Hostile Random (5)
-Just any random target on our threat list
+Just any random target on our threat list.
 * **target_type**:
 SMART_TARGET_HOSTILE_RANDOM (5)
 * **target_param1**:
@@ -5387,7 +5387,7 @@ PowerType + 1 (0: any)
 :::
 
 ::: details Hostile Random Not Top (6)
-Any random target except top threat
+Any random target except first in threat list.
 * **target_type**:
 SMART_TARGET_HOSTILE_RANDOM_NOT_TOP (6)
 * **target_param1**:
@@ -5406,7 +5406,7 @@ PowerType + 1 (0: any)
 :::
 
 ::: details Action Invoker (7)
-Unit who caused this Event to occur
+Unit who caused this event to occur.
 * **target_type**:
 SMART_TARGET_ACTION_INVOKER (7)
 * **target_param1**:
@@ -5422,7 +5422,7 @@ SMART_TARGET_ACTION_INVOKER (7)
 :::
 
 ::: details Position (8)
-Use xyz from target params
+Absolute world coordinates.
 * **target_type**:
 SMART_TARGET_POSITION (8)
 * **target_param1**:
@@ -5486,7 +5486,7 @@ maxTargets (0: all)
 :::
 
 ::: details Stored (12)
-Use previously stored target list
+Use previously stored target list.
 * **target_type**:
 SMART_TARGET_STORED (12)
 * **target_param1**:
@@ -5550,7 +5550,7 @@ maxTargets (0: all)
 :::
 
 ::: details Invoker Party (16)
-Invoker's party members
+Invoker and it's party members.
 * **target_type**:
 SMART_TARGET_INVOKER_PARTY (16)
 * **target_param1**:
@@ -5662,7 +5662,7 @@ SMART_TARGET_ACTION_INVOKER_VEHICLE (22)
 :::
 
 ::: details Owner Or Summoner (23)
-Unit's owner or summoner, use owner/charmer of this unit
+Unit's owner or summoner. (uses owner/charmer of this unit)
 * **target_type**:
 SMART_TARGET_OWNER_OR_SUMMONER (23)
 * **target_param1**:
@@ -5678,7 +5678,7 @@ SMART_TARGET_OWNER_OR_SUMMONER (23)
 :::
 
 ::: details Threat List (24)
-All units on creature's threat list
+All units on creature's threat list.
 * **target_type**:
 SMART_TARGET_THREAT_LIST (24)
 * **target_param1**:
@@ -5694,7 +5694,7 @@ maxDist (0: any)
 :::
 
 ::: details Closest Enemy (25)
-Any attackable target (creature or player) within maxDist
+Any attackable unit (creature, player or pet) within maxDist.
 * **target_type**:
 SMART_TARGET_CLOSEST_ENEMY (25)
 * **target_param1**:
@@ -5726,7 +5726,7 @@ playerOnly? (0/1)
 :::
 
 ::: details Loot Recipients (27)
-All players that have tagged this creature (for kill credit)
+All players that have tagged this creature. (for kill credit)
 * **target_type**:
 SMART_TARGET_LOOT_RECIPIENTS (27)
 * **target_param1**:
@@ -5742,7 +5742,7 @@ SMART_TARGET_LOOT_RECIPIENTS (27)
 :::
 
 ::: details Farthest (28)
-Farthest unit on the threat list
+Farthest unit on the threat list.
 * **target_type**:
 SMART_TARGET_FARTHEST (28)
 * **target_param1**:
@@ -5758,7 +5758,7 @@ isInLos? (0/1)
 :::
 
 ::: details Vehicle Passenger (29)
-Vehicle can target unit in given seat
+Vehicle can target unit in given seat.
 * **target_type**:
 SMART_TARGET_VEHICLE_PASSENGER (29)
 * **target_param1**:
