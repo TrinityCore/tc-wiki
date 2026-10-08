@@ -43,7 +43,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 ## Description of fields
 
 ### ID {#id-alt}
-<code>Col: 0 (uint32)</code>
+:x: <code>Col: 0 (uint32)</code>
 
 *- no description -*
 &nbsp;

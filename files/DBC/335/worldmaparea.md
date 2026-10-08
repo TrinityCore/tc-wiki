@@ -30,7 +30,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 7 | [LocBottom](#loc) | float |  |
 | 8 | [DisplayMapID](#displaymapid) | int32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
 | 9 | [DefaultDungeonFloor](#defaultdungeonfloor) | int32 | [DungeonMap.dbc/2](/files/DBC/335/dungeonmap#floorindex) |
-| 10 | [ParentWorldMapID](#parentworldmapid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
+| 10 | [ParentWorldMapID](#parentworldmapid) | uint32 | [WorldMapArea.dbc/0](#id-alt) |
 
 &nbsp;
 ## Description of fields

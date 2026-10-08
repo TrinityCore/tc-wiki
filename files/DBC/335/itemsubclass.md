@@ -29,7 +29,7 @@ dateCreated: 2023-10-04T08:04:45.370Z
 | 6 | [WeaponParrySeq](#weaponparryseq) | uint32 |  |
 | 7 | [WeaponReadySeq](#weaponreadyseq) | uint32 |  |
 | 8 | [WeaponAttackSeq](#weaponattackseq) | uint32 |  |
-| 9 | [WeaponSwingSize](#weaponswingsize) | uint32 | [WeaponSwingSounds2.dbc/1](/files/DBC/335/weaponswingsounds2#size) |
+| 9 | [WeaponSwingSize](#weaponswingsize) | uint32 | [WeaponSwingSounds2.dbc/1](/files/DBC/335/weaponswingsounds2#swingtype) |
 | 10 | [DisplayName_0](#displayname) | string |  |
 | 11 | [DisplayName_1](#displayname) | string |  |
 | 12 | [DisplayName_2](#displayname) | string |  |

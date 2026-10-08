@@ -57,7 +57,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 34 | [Description_15](#description) | string |  |
 | 35 | [Description_lang_mask](#description) | uint32 |  |
 | 36 | [CostModifier](#costmodifier) | float |  |
-| 37 | [Race](#race) | uint32 | [ChrClasses.dbc/0](/files/DBC/335/chrclasses#id-alt) |
+| 37 | [Race](#race) | uint32 | [ChrRaces.dbc/0](/files/DBC/335/chrraces#id-alt) |
 | 38 | [Sex](#sex) | uint32 |  |
 | 39 | [Data](#data) | uint32 |  |
 

@@ -29,7 +29,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 ## Description of fields
 
 ### ID {#id-alt}
-<code>Col: 0 (uint32)</code>
+:x: <code>Col: 0 (uint32)</code>
 
 *- no description -*
 &nbsp;
@@ -41,13 +41,13 @@ Internal name
 &nbsp;
 
 ### Path
-<code>Col: 2 (string)</code>
+:x: <code>Col: 2 (string)</code>
 
 `Interface\Glues\LoadingScreens\[a-z0-9].blp`
 &nbsp;
 
 ### HasWidescreen
-<code>Col: 3 (bool)</code>
+:x: <code>Col: 3 (bool)</code>
 
 Appends `Wide` to **Path** before the file extension.
 &nbsp;
