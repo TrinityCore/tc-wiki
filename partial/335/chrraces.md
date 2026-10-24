@@ -2,11 +2,11 @@
 
 | ID | Name |  | ID | Name |
 | --- | --- | --- | --- | --- |
-|    1 | Human     |  |   2 | Orc       |
-|    4 | Dwarf     |  |  16 | Undead    |
-|    8 | Night Elf |  |  32 | Tauren    |
-|   64 | Gnome     |  | 128 | Troll     |
-| 1024 | Draenei   |  | 512 | Blood Elf |
+|  1 | Human     |  |  2 | Orc       |
+|  3 | Dwarf     |  |  5 | Undead    |
+|  4 | Night Elf |  |  6 | Tauren    |
+|  7 | Gnome     |  |  8 | Troll     |
+| 11 | Draenei   |  | 10 | Blood Elf |
 
 -- by mask
 
