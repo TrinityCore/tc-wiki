@@ -1,10 +1,10 @@
 ---
 title: smart_scripts
-description: 
-published: true
-date: 2025-11-16T14:46:49.818Z
+description: ''
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
+published: true
 editor: markdown
+date: 2025-11-16T14:46:49.818Z
 dateCreated: 2021-08-30T22:09:09.695Z
 ---
 
@@ -323,7 +323,7 @@ On creature / gameobject Respawn
 SMART_EVENT_RESPAWN (11)
 * **event_param1**:
 [`enum SMART_SCRIPT_RESPAWN_CONDITION`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/AI/SmartScripts/SmartScriptMgr.h#L442-L448)
-    | SMART_SCRIPT_RESPAWN_CONDITION_NONE | 0 |
+  | SMART_SCRIPT_RESPAWN_CONDITION_NONE | 0 |
   | SMART_SCRIPT_RESPAWN_CONDITION_MAP | 1 |
   | SMART_SCRIPT_RESPAWN_CONDITION_AREA | 2 |
 
@@ -4239,7 +4239,9 @@ Set power of target units to given amount.
 * **action_type**:
 SMART_ACTION_SET_POWER (108)
 * **action_param1**:
-[PowerType](#powertype)
+
+  <!--@include: @/partial/335/powers.md-->
+
 * **action_param2**:
 amount
 * **action_param3**:
@@ -4258,7 +4260,9 @@ Add given amount of power to target units.
 * **action_type**:
 SMART_ACTION_ADD_POWER (109)
 * **action_param1**:
-[PowerType](#powertype)
+
+  <!--@include: @/partial/335/powers.md-->
+
 * **action_param2**:
 amount
 * **action_param3**:
@@ -4277,7 +4281,9 @@ Remove given amount of power from target units.
 * **action_type**:
 SMART_ACTION_REMOVE_POWER (110)
 * **action_param1**:
-[PowerType](#powertype)
+
+  <!--@include: @/partial/335/powers.md-->
+
 * **action_param2**:
 amount
 * **action_param3**:
@@ -5275,39 +5281,514 @@ ResumeTime (in ms.)
 &nbsp;
 
 ### target_type
-| ID | Name | target_param1 | target_param2 |target_param3 | target_param4 | World Pos. | Comment |
-|----|------|---------------|---------------|--------------|---------------|------------|---------|
-| 0 | SMART_TARGET_NONE |  |  |  |  |  | NONE |
-| 1 | SMART_TARGET_SELF |  |  |  |  |  | Self cast |
-| 2 | SMART_TARGET_VICTIM |  |  |  |  |  | Our current target (ie: highest aggro) |
-| 3 | SMART_TARGET_HOSTILE_SECOND_AGGRO | maxDist | playerOnly? (0/1) | [powerType](#powertype) + 1 (0: any) |  |  | Second highest aggro|
-| 4 | SMART_TARGET_HOSTILE_LAST_AGGRO | maxDist | playerOnly? (0/1) | [powerType](#powertype) + 1 (0: any) |  |  | Dead last on aggro |
-| 5 | SMART_TARGET_HOSTILE_RANDOM | maxDist | playerOnly? (0/1) | [powerType](#powertype) + 1 (0: any) |  |  | Just any random target on our threat list |
-| 6 | SMART_TARGET_HOSTILE_RANDOM_NOT_TOP | maxDist | playerOnly? (0/1) | [powerType](#powertype) + 1 (0: any) |  |  | Any random target except top threat |
-| 7 | SMART_TARGET_ACTION_INVOKER |  |  |  |  |  | Unit who caused this Event to occur |
-| 8 | SMART_TARGET_POSITION |  |  |  |  | [x y z o](/how-to/worldposition) | use xyz from target params |
-| 9 | SMART_TARGET_CREATURE_RANGE | [creature entry](../world/creature_template#entry) (0: any) | minDist | maxDist | maxTargets (0: all) |  | Creatures with specified entry within specified range. |
-| 10 | SMART_TARGET_CREATURE_GUID | [creature guid](../world/creature#guid) | [creature entry](../world/creature_template#entry) (0: any) |  |  |  | Creature with specified GUID (and entry). |
-| 11 | SMART_TARGET_CREATURE_DISTANCE | [creature entry](../world/creature_template#entry) (0: any) | maxDist | maxTargets (0: all) |  |  | Creatures with specified entry within distance. (Like #9 w/o minDist) |
-| 12 | SMART_TARGET_STORED | id |  |  |  |  | uses pre-stored target (list) |
-| 13 | SMART_TARGET_GAMEOBJECT_RANGE | [gameobject entry](../world/gameobject_template#entry) (0: any) | minDist | maxDist | maxTargets (0: all) |  | Gameobjects with specified entry within specified range. |
-| 14 | SMART_TARGET_GAMEOBJECT_GUID | [gameobject guid](../world/gameobject#guid) | [gameobject entry](../world/gameobject_template#entry) (0: any) |  |  |  | Gameobject with specified GUID (and entry). |
-| 15 | SMART_TARGET_GAMEOBJECT_DISTANCE | [gameobject entry](../world/gameobject_template#entry) (0: any) | maxDist |maxTargets (0: all) |  |  | Gameobjects with specified entry within distance. (Like #13 w/o minDist) |
-| 16 | SMART_TARGET_INVOKER_PARTY |  |  |  |  |  | invoker's party members |
-| 17 | SMART_TARGET_PLAYER_RANGE | minDist | maxDist |  |  |  | Players within specified range. |
-| 18 | SMART_TARGET_PLAYER_DISTANCE | maxDist |  |  |  |  | Player within specified distance. (Like #17 w/o minDist)  |
-| 19 | SMART_TARGET_CLOSEST_CREATURE | [creature entry](../world/creature_template#entry) (0: any) | maxDist (0: 100m) | dead? (0/1) |  |  | Closest creature with specified entry within specified range. |
-| 20 | SMART_TARGET_CLOSEST_GAMEOBJECT | [gameobject entry](../world/gameobject_template#entry) (0: any) | maxDist (0: 100m) |  |  |  | Closest gameobject with specified entry within specified range. |
-| 21 | SMART_TARGET_CLOSEST_PLAYER | maxDist |  |  |  |  | Closest player within specified range. |
-| 22 | SMART_TARGET_ACTION_INVOKER_VEHICLE |  |  |  |  |  | Unit's vehicle who caused this Event to occur |
-| 23 | SMART_TARGET_OWNER_OR_SUMMONER |  |  |  |  |  | Unit's owner or summoner, Use Owner/Charmer of this unit |
-| 24 | SMART_TARGET_THREAT_LIST | maxDist (0: any)  |  |  |  |  | All units on creature's threat list |
-| 25 | SMART_TARGET_CLOSEST_ENEMY | maxDist | playerOnly? (0/1) |  |  |  | Any attackable target (creature or player) within maxDist |
-| 26 | SMART_TARGET_CLOSEST_FRIENDLY | maxDist | playerOnly? (0/1) |  |  |  | Any friendly unit (creature, player or pet) within maxDist |
-| 27 | SMART_TARGET_LOOT_RECIPIENTS |  |  |  |  |  | all players that have tagged this creature (for kill credit) |
-| 28 | SMART_TARGET_FARTHEST | maxDist | playerOnly? (0/1) | isInLos? (0/1) |  |  | Farthest unit on the threat list |
-| 29 | SMART_TARGET_VEHICLE_PASSENGER | seatMask (0: all seats) |  |  |  |  | Vehicle can target unit in given seat |
-| 30 | SMART_TARGET_CLOSEST_UNSPAWNED_GAMEOBJECT | [gameobject entry](../world/gameobject_template#entry) (0: any) | maxDist |  |  |  | Closest unspawned gameobject with specified entry within specified range.<br>To be used only with SMART_ACTION_ENABLE_TEMP_GOBJ (70) and gameobjects with negative respawn time in the DB. |
+::: details None (0)
+No target.
+* **target_type**:
+SMART_TARGET_NONE (0)
+* **target_param1**:
+`0`
+* **target_param2**:
+`0`
+* **target_param3**:
+`0`
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Self (1)
+Target self.
+* **target_type**:
+SMART_TARGET_SELF (1)
+* **target_param1**:
+`0`
+* **target_param2**:
+`0`
+* **target_param3**:
+`0`
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Victim (2)
+Our current target. (i.e.: first in threat list)
+* **target_type**:
+SMART_TARGET_VICTIM (2)
+* **target_param1**:
+`0`
+* **target_param2**:
+`0`
+* **target_param3**:
+`0`
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Hostile Second Aggro (3)
+Second highest in threat list.
+* **target_type**:
+SMART_TARGET_HOSTILE_SECOND_AGGRO (3)
+* **target_param1**:
+maxDist
+* **target_param2**:
+playerOnly? (0/1)
+* **target_param3**:
+PowerType + 1 (0: any)
+
+  <!--@include: @/partial/335/powers.md-->
+
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Hostile Last Aggro (4)
+Dead last on threat list.
+* **target_type**:
+SMART_TARGET_HOSTILE_LAST_AGGRO (4)
+* **target_param1**:
+maxDist
+* **target_param2**:
+playerOnly? (0/1)
+* **target_param3**:
+PowerType + 1 (0: any)
+
+  <!--@include: @/partial/335/powers.md-->
+
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Hostile Random (5)
+Just any random target on our threat list.
+* **target_type**:
+SMART_TARGET_HOSTILE_RANDOM (5)
+* **target_param1**:
+maxDist
+* **target_param2**:
+playerOnly? (0/1)
+* **target_param3**:
+PowerType + 1 (0: any)
+
+  <!--@include: @/partial/335/powers.md-->
+
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Hostile Random Not Top (6)
+Any random target except first in threat list.
+* **target_type**:
+SMART_TARGET_HOSTILE_RANDOM_NOT_TOP (6)
+* **target_param1**:
+maxDist
+* **target_param2**:
+playerOnly? (0/1)
+* **target_param3**:
+PowerType + 1 (0: any)
+
+  <!--@include: @/partial/335/powers.md-->
+
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Action Invoker (7)
+Unit who caused this event to occur.
+* **target_type**:
+SMART_TARGET_ACTION_INVOKER (7)
+* **target_param1**:
+`0`
+* **target_param2**:
+`0`
+* **target_param3**:
+`0`
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Position (8)
+Absolute world coordinates.
+* **target_type**:
+SMART_TARGET_POSITION (8)
+* **target_param1**:
+`0`
+* **target_param2**:
+`0`
+* **target_param3**:
+`0`
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+[World Position](/how-to/worldposition)
+:::
+
+::: details Creature Range (9)
+Creatures with specified entry within specified range.
+* **target_type**:
+SMART_TARGET_CREATURE_RANGE (9)
+* **target_param1**:
+[creature entry](../world/creature_template#entry) (0: any)
+* **target_param2**:
+minDist
+* **target_param3**:
+maxDist
+* **target_param4**:
+maxTargets (0: all)
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Creature Guid (10)
+Creature with specified GUID (and entry).
+* **target_type**:
+SMART_TARGET_CREATURE_GUID (10)
+* **target_param1**:
+[creature guid](../world/creature#guid)
+* **target_param2**:
+[creature entry](../world/creature_template#entry) (0: any)
+* **target_param3**:
+`0`
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Creature Distance (11)
+Creatures with specified entry within distance. (Like #9 w/o minDist)
+* **target_type**:
+SMART_TARGET_CREATURE_DISTANCE (11)
+* **target_param1**:
+[creature entry](../world/creature_template#entry) (0: any)
+* **target_param2**:
+maxDist
+* **target_param3**:
+maxTargets (0: all)
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Stored (12)
+Use previously stored target list.
+* **target_type**:
+SMART_TARGET_STORED (12)
+* **target_param1**:
+id
+* **target_param2**:
+`0`
+* **target_param3**:
+`0`
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Gameobject Range (13)
+Gameobjects with specified entry within specified range.
+* **target_type**:
+SMART_TARGET_GAMEOBJECT_RANGE (13)
+* **target_param1**:
+[gameobject entry](../world/gameobject_template#entry) (0: any)
+* **target_param2**:
+minDist
+* **target_param3**:
+maxDist
+* **target_param4**:
+maxTargets (0: all)
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Gameobject Guid (14)
+Gameobject with specified GUID (and entry).
+* **target_type**:
+SMART_TARGET_GAMEOBJECT_GUID (14)
+* **target_param1**:
+[gameobject guid](../world/gameobject#guid)
+* **target_param2**:
+[gameobject entry](../world/gameobject_template#entry) (0: any)
+* **target_param3**:
+`0`
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Gameobject Distance (15)
+Gameobjects with specified entry within distance. (Like #13 w/o minDist)
+* **target_type**:
+SMART_TARGET_GAMEOBJECT_DISTANCE (15)
+* **target_param1**:
+[gameobject entry](../world/gameobject_template#entry) (0: any)
+* **target_param2**:
+maxDist
+* **target_param3**:
+maxTargets (0: all)
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Invoker Party (16)
+Invoker and it's party members.
+* **target_type**:
+SMART_TARGET_INVOKER_PARTY (16)
+* **target_param1**:
+`0`
+* **target_param2**:
+`0`
+* **target_param3**:
+`0`
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Player Range (17)
+Players within specified range.
+* **target_type**:
+SMART_TARGET_PLAYER_RANGE (17)
+* **target_param1**:
+minDist
+* **target_param2**:
+maxDist
+* **target_param3**:
+`0`
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Player Distance (18)
+Player within specified distance. (Like #17 w/o minDist)
+* **target_type**:
+SMART_TARGET_PLAYER_DISTANCE (18)
+* **target_param1**:
+maxDist
+* **target_param2**:
+`0`
+* **target_param3**:
+`0`
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Closest Creature (19)
+Closest creature with specified entry within specified range.
+* **target_type**:
+SMART_TARGET_CLOSEST_CREATURE (19)
+* **target_param1**:
+[creature entry](../world/creature_template#entry) (0: any)
+* **target_param2**:
+maxDist (0: 100m)
+* **target_param3**:
+dead? (0/1)
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Closest Gameobject (20)
+Closest gameobject with specified entry within specified range.
+* **target_type**:
+SMART_TARGET_CLOSEST_GAMEOBJECT (20)
+* **target_param1**:
+[gameobject entry](../world/gameobject_template#entry) (0: any)
+* **target_param2**:
+maxDist (0: 100m)
+* **target_param3**:
+`0`
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Closest Player (21)
+Closest player within specified range.
+* **target_type**:
+SMART_TARGET_CLOSEST_PLAYER (21)
+* **target_param1**:
+maxDist
+* **target_param2**:
+`0`
+* **target_param3**:
+`0`
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Action Invoker Vehicle (22)
+Vehicle owned by invoking unit.
+* **target_type**:
+SMART_TARGET_ACTION_INVOKER_VEHICLE (22)
+* **target_param1**:
+`0`
+* **target_param2**:
+`0`
+* **target_param3**:
+`0`
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Owner Or Summoner (23)
+Unit's owner or summoner. (uses owner/charmer of this unit)
+* **target_type**:
+SMART_TARGET_OWNER_OR_SUMMONER (23)
+* **target_param1**:
+`0`
+* **target_param2**:
+`0`
+* **target_param3**:
+`0`
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Threat List (24)
+All units on creature's threat list.
+* **target_type**:
+SMART_TARGET_THREAT_LIST (24)
+* **target_param1**:
+maxDist (0: any)
+* **target_param2**:
+`0`
+* **target_param3**:
+`0`
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Closest Enemy (25)
+Any attackable unit (creature, player or pet) within maxDist.
+* **target_type**:
+SMART_TARGET_CLOSEST_ENEMY (25)
+* **target_param1**:
+maxDist
+* **target_param2**:
+playerOnly? (0/1)
+* **target_param3**:
+`0`
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Closest Friendly (26)
+Any friendly unit (creature, player or pet) within maxDist
+* **target_type**:
+SMART_TARGET_CLOSEST_FRIENDLY (26)
+* **target_param1**:
+maxDist
+* **target_param2**:
+playerOnly? (0/1)
+* **target_param3**:
+`0`
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Loot Recipients (27)
+All players that have tagged this creature. (for kill credit)
+* **target_type**:
+SMART_TARGET_LOOT_RECIPIENTS (27)
+* **target_param1**:
+`0`
+* **target_param2**:
+`0`
+* **target_param3**:
+`0`
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Farthest (28)
+Farthest unit on the threat list.
+* **target_type**:
+SMART_TARGET_FARTHEST (28)
+* **target_param1**:
+maxDist
+* **target_param2**:
+playerOnly? (0/1)
+* **target_param3**:
+isInLos? (0/1)
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Vehicle Passenger (29)
+Vehicle can target unit in given seat.
+* **target_type**:
+SMART_TARGET_VEHICLE_PASSENGER (29)
+* **target_param1**:
+seatMask (0: all seats)
+* **target_param2**:
+`0`
+* **target_param3**:
+`0`
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
+
+::: details Closest Unspawned Gameobject (30)
+Closest unspawned gameobject with specified entry within specified range.  
+To be used only with SMART_ACTION_ENABLE_TEMP_GOBJ (70) and gameobjects with negative respawn time in the DB.
+* **target_type**:
+SMART_TARGET_CLOSEST_UNSPAWNED_GAMEOBJECT (30)
+* **target_param1**:
+[gameobject entry](../world/gameobject_template#entry) (0: any)
+* **target_param2**:
+maxDist
+* **target_param3**:
+`0`
+* **target_param4**:
+`0`
+* **target_\[xyzo\]**:
+`0`
+:::
 
 &nbsp;
 
@@ -5315,11 +5796,4 @@ ResumeTime (in ms.)
 Commenting on SAI uses a template which is the following:
 * "Creature name - Event - Action"
 * "Minion of Gurok - On spawn - Set Random Movement"
-&nbsp;
-
----
-##### PowerType
-
-<!--@include: @/partial/335/powers.md-->
-
 &nbsp;
