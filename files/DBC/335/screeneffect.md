@@ -62,7 +62,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### Edge
-<code>Col: 4 (uint32)</code>
+:x: <code>Col: 4 (uint32)</code>
 
 *- no description -*
 &nbsp;

@@ -36,7 +36,7 @@ dateCreated: 2023-10-04T08:08:11.623Z
 | 13 | [SpecialEffect_2](#specialeffect) | int32 |  |
 | 14 | [WorldEffect](#worldeffect) | int32 | [SpellVisualEffectName.dbc/0](/files/DBC/335/spellvisualeffectname#id-alt) |
 | 15 | [SoundID](#soundid) | int32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
-| 16 | [ShakeID](#shakeid) | uint32 | [CameraShakes.dbc/0](/files/DBC/335/camerashakes#id-alt) |
+| 16 | [ShakeID](#shakeid) | uint32 | [SpellEffectCameraShakes.dbc/0](/files/DBC/335/spelleffectcamerashakes#id-alt) |
 | 17 | [CharProc_0](#charproc) | int32 |  |
 | 18 | [CharProc_1](#charproc) | int32 |  |
 | 19 | [CharProc_2](#charproc) | int32 |  |

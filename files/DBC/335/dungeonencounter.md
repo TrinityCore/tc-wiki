@@ -21,7 +21,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
 | 0 | [ID](#id-alt) | uint32 |  |
-| 1 | [MapID](#mapid) | uint32 | [MapDifficulty.dbc/0](/files/DBC/335/mapdifficulty#id-alt); [Map/0](/files/DBC/335/map#id-alt) |
+| 1 | [MapID](#mapid) | uint32 | [MapDifficulty.dbc/1](/files/DBC/335/mapdifficulty#mapid); [Map.dbc/0](/files/DBC/335/map#id-alt) |
 | 2 | [Difficulty](#difficulty) | uint32 | [MapDifficulty.dbc/2](/files/DBC/335/mapdifficulty#difficulty) |
 | 3 | [OrderIndex](#orderindex) | int32 |  |
 | 4 | [Bit](#bit) | uint32 |  |

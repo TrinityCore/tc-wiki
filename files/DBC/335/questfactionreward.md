@@ -21,16 +21,16 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
 | 0 | [ID](#id-alt) | uint32 |  |
-| 1 | [Difficulty_0](#difficulty) | uint32 |  |
-| 2 | [Difficulty_1](#difficulty) | uint32 |  |
-| 3 | [Difficulty_2](#difficulty) | uint32 |  |
-| 4 | [Difficulty_3](#difficulty) | uint32 |  |
-| 5 | [Difficulty_4](#difficulty) | uint32 |  |
-| 6 | [Difficulty_5](#difficulty) | uint32 |  |
-| 7 | [Difficulty_6](#difficulty) | uint32 |  |
-| 8 | [Difficulty_7](#difficulty) | uint32 |  |
-| 9 | [Difficulty_8](#difficulty) | uint32 |  |
-| 10 | [Difficulty_9](#difficulty) | uint32 |  |
+| 1 | [Difficulty_0](#difficulty) | int32 |  |
+| 2 | [Difficulty_1](#difficulty) | int32 |  |
+| 3 | [Difficulty_2](#difficulty) | int32 |  |
+| 4 | [Difficulty_3](#difficulty) | int32 |  |
+| 5 | [Difficulty_4](#difficulty) | int32 |  |
+| 6 | [Difficulty_5](#difficulty) | int32 |  |
+| 7 | [Difficulty_6](#difficulty) | int32 |  |
+| 8 | [Difficulty_7](#difficulty) | int32 |  |
+| 9 | [Difficulty_8](#difficulty) | int32 |  |
+| 10 | [Difficulty_9](#difficulty) | int32 |  |
 
 &nbsp;
 ## Description of fields
@@ -42,7 +42,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### Difficulty
-<code>Col: 1 &ndash; 10 (uint32)</code>
+<code>Col: 1 &ndash; 10 (int32)</code>
 
 Col indexed by [quest RewardFactionValue](/database/335/world/quest_template#rewardfactionvalue-1-5)
 &nbsp;

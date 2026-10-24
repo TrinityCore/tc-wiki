@@ -38,7 +38,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 15 | [Name_14](#name-alt) | string |  |
 | 16 | [Name_15](#name-alt) | string |  |
 | 17 | [Name_lang_mask](#name-alt) | uint32 |  |
-| 18 | [InternalName](#internalname) | string | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id-alt) |
+| 18 | [InternalName](#internalname) | string |  |
 | 19 | [Enchantment_0](#enchantment) | uint32 | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id-alt) |
 | 20 | [Enchantment_1](#enchantment) | uint32 | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id-alt) |
 | 21 | [Enchantment_2](#enchantment) | uint32 | [SpellItemEnchantment.dbc/0](/files/DBC/335/spellitemenchantment#id-alt) |

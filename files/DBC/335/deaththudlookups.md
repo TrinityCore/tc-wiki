@@ -22,7 +22,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | :---: | --- | :---: | --- |
 | 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [SizeClass](#sizeclass) | uint32 | [CreatureDisplayInfo.dbc/10](/files/DBC/335/creaturedisplayinfo#sizeclass) |
-| 2 | [TerrainTypeSoundID](#terraintypesoundid) | uint32 | [TerrainType.dbc/0](/files/DBC/335/terraintype#id-alt) |
+| 2 | [TerrainTypeSoundID](#terraintypesoundid) | uint32 | [TerrainTypeSounds.dbc/0](/files/DBC/335/terraintypesounds#id-alt) |
 | 3 | [SoundEntryID](#soundentryid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 | 4 | [SoundEntryIDWater](#soundentryidwater) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 

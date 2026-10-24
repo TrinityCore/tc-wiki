@@ -29,7 +29,7 @@ dateCreated: 2023-10-04T08:02:11.651Z
 | 6 | [SoundDeathID](#sounddeathid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 | 7 | [SoundStunID](#soundstunid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 | 8 | [SoundStandID](#soundstandid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
-| 9 | [SoundFootstepID](#soundfootstepid) | uint32 | [FootstepTerrainLookup.dbc/0](/files/DBC/335/footstepterrainlookup#id-alt) |
+| 9 | [SoundFootstepID](#soundfootstepid) | uint32 | [FootstepTerrainLookup.dbc/1](/files/DBC/335/footstepterrainlookup#creaturefootstepid) |
 | 10 | [SoundAggroID](#soundaggroid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 | 11 | [SoundWingFlapID](#soundwingflapid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |
 | 12 | [SoundWingGlideID](#soundwingglideid) | uint32 | [SoundEntries.dbc/0](/files/DBC/335/soundentries#id-alt) |

@@ -39,13 +39,13 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### LfgDungeonID
-:x: <code>Col: 1 (uint32)</code>
+<code>Col: 1 (uint32)</code>
 
 *- no description -*
 &nbsp;
 
 ### Expansion
-:x: <code>Col: 2 (uint32)</code>
+<code>Col: 2 (uint32)</code>
 
 <!--@include: @/partial/335/expansions.md-->
 
@@ -58,13 +58,13 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 
 ### HardLevelMin
-:x: <code>Col: 4 (uint32)</code>
+<code>Col: 4 (uint32)</code>
 
 *- no description -*
 &nbsp;
 
 ### HardLevelMax
-:x: <code>Col: 5 (uint32)</code>
+<code>Col: 5 (uint32)</code>
 
 *- no description -*
 &nbsp;

@@ -27,7 +27,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 4 | [Direction_X](#direction) | float |  |
 | 5 | [Direction_Y](#direction) | float |  |
 | 6 | [Direction_Z](#direction) | float |  |
-| 7 | [SoundEntriesAdvancedID](#soundentriesadvancedid) | uint32 | [SoundEntriesAdvanced.dbc/1](/files/DBC/335/soundentriesadvanced#soundentriesid) |
+| 7 | [SoundEntriesAdvancedID](#soundentriesadvancedid) | uint32 | [SoundEntriesAdvanced.dbc/1](/files/DBC/335/soundentriesadvanced#soundentryid) |
 | 8 | [MapID](#mapid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
 | 9 | [Name](#name-alt) | string |  |
 

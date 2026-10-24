@@ -83,8 +83,8 @@ for [item class](/database/335/world/item_template#class) = ITEM_CLASS_WEAPON (2
 | 10 | ITEM_SUBCLASS_WEAPON_STAFF |  |
 | 11 | ITEM_SUBCLASS_WEAPON_EXOTIC |  |
 | 12 | ITEM_SUBCLASS_WEAPON_EXOTIC2 |  |
-| 13 | ITEM_SUBCLASS_WEAPON_FIST |  |
-| 14 | ITEM_SUBCLASS_WEAPON_MISC |  |
+| 13 | ITEM_SUBCLASS_WEAPON_FIST_WEAPON |  |
+| 14 | ITEM_SUBCLASS_WEAPON_MISCELLANEOUS |  |
 | 15 | ITEM_SUBCLASS_WEAPON_DAGGER |  |
 | 16 | ITEM_SUBCLASS_WEAPON_THROWN |  |
 | 17 | ITEM_SUBCLASS_WEAPON_SPEAR |  |
@@ -104,7 +104,7 @@ for [item class](/database/335/world/item_template#class) = ITEM_CLASS_ARMOR (4)
 [`enum ItemSubclassArmor`](https://github.com/TrinityCore/TrinityCore/blob/3.3.5/src/server/game/Entities/Item/ItemTemplate.h#L393-L406)
 | Offset | Name | Comment |
 |--------|------|---------|
-| 0 | ITEM_SUBCLASS_ARMOR_MISC | always 0 |
+| 0 | ITEM_SUBCLASS_ARMOR_MISCELLANEOUS | always 0 |
 | 1 | ITEM_SUBCLASS_ARMOR_CLOTH |  |
 | 2 | ITEM_SUBCLASS_ARMOR_LEATHER |  |
 | 3 | ITEM_SUBCLASS_ARMOR_MAIL |  |

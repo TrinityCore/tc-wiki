@@ -43,7 +43,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 | 20 | [Texture_5](#texture) | string |  |
 | 21 | [Texture_6](#texture) | string |  |
 | 22 | [Texture_7](#texture) | string |  |
-| 23 | [ItemVisual](#itemvisual) | int32 | [ItemVisuals.dbc/0](/files/DBC/335/itemvisuals#classid) |
+| 23 | [ItemVisual](#itemvisual) | int32 | [ItemVisuals.dbc/0](/files/DBC/335/itemvisuals#id-alt) |
 | 24 | [ParticleColorID](#particlecolorid) | uint32 |  |
 
 &nbsp;

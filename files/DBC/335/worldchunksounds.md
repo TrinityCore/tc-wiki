@@ -21,7 +21,7 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 
 | Index | Field | Type | Reference |
 | :---: | --- | :---: | --- |
-| 0 | [WorldMapContinentID](#worldmapcontinentid) | uint32 | [Map.dbc/0](/files/DBC/335/map#id-alt) |
+| 0 | [ID](#id-alt) | uint32 |  |
 | 1 | [ChunkX](#chunkx) | uint32 |  |
 | 2 | [ChunkY](#chunky) | uint32 |  |
 | 3 | [SubchunkX](#subchunkx) | uint32 |  |
@@ -34,14 +34,14 @@ dateCreated: 2023-08-09CEST00:06:01.000Z
 &nbsp;
 ## Description of fields
 
-### GeneratedID
-Not stored in the file: the 3.3.5a file has 9 columns (36 bytes per record). The client generates this ID when it loads the table.
-&nbsp;
-
-### WorldMapContinentID
+### ID {#id-alt}
 :x: <code>Col: 0 (uint32)</code>
 
 *- no description -*
+&nbsp;
+
+### WorldMapContinentID
+Not stored in the 3.3.5a file. [WoWDBDefs](https://github.com/wowdev/WoWDBDefs/blob/master/definitions/WorldChunkSounds.dbd) lists ID as the first of the 9 columns and no WorldMapContinentID. The 3.3.5a file has no records, so the data cannot confirm either layout.
 &nbsp;
 
 ### ChunkX
