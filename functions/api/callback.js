@@ -19,7 +19,7 @@ export async function onRequestGet({ request, env }) {
   return reply('success', { token: data.access_token, provider: 'github' })
 }
 
-// Decap's handshake: announce to the editor window, wait for it to answer,
+// The CMS handshake: announce to the editor window, wait for it to answer,
 // then send the result to that window's origin only.
 function reply(status, content) {
   const message = `authorization:github:${status}:${JSON.stringify(content)}`

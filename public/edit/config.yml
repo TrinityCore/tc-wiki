@@ -1,4 +1,4 @@
-# Decap CMS config for the page editor at /edit.
+# Sveltia CMS config for the page editor at /edit (/contribute redirects here).
 # Anyone with a GitHub account can edit: open_authoring forks the wiki for
 # people without write access, and each change becomes a pull request.
 backend:
@@ -16,7 +16,7 @@ backend:
 publish_mode: editorial_workflow
 
 site_url: https://trinitycore.info
-logo_url: /tc_logo.png
+logo: { src: /tc_logo.png }
 media_folder: public
 public_folder: /
 
@@ -24,7 +24,7 @@ collections:
   # Pages keep their Wiki.js front matter. The body uses raw markdown only:
   # the rich text mode rewrites markdown and breaks {.is-info} attributes,
   # raw HTML and the Structure tables.
-  # No meta path field: Decap rejects any path that is not lower case, so pages
+  # No meta path field: the old Decap editor rejected any path that is not lower case, so pages
   # under files/DBC or install/Core-Installation could not be saved. New pages
   # go in the collection folder.
   - name: install
@@ -38,8 +38,8 @@ collections:
       - { name: tags, label: Tags, widget: string, required: false, hint: Comma-separated }
       - { name: published, label: Published, widget: boolean, default: true }
       - { name: editor, label: Editor, widget: hidden, default: markdown }
-      - { name: date, label: Date, widget: hidden, required: false }
-      - { name: dateCreated, label: Date created, widget: hidden, required: false }
+      - { name: date, label: Date, widget: hidden }
+      - { name: dateCreated, label: Date created, widget: hidden }
       - { name: body, label: Body, widget: markdown, modes: [raw] }
   - { name: how-to, label: How-to, folder: how-to, create: true, nested: *nested, fields: *fields }
   - { name: database, label: Databases, folder: database, create: true, nested: *nested, fields: *fields }

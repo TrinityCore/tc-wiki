@@ -1,4 +1,4 @@
-// Starts the GitHub login for the page editor at /edit (Decap CMS).
+// Starts the GitHub login for the page editor at /edit (Sveltia CMS).
 export function onRequestGet({ request, env }) {
   const state = crypto.randomUUID()
   const authorize = new URL('https://github.com/login/oauth/authorize')

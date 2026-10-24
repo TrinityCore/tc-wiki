@@ -16,23 +16,17 @@
   </style>
 </head>
 <body>
-  <!-- Start Decap by hand, once the preview stylesheet is registered. -->
+  <!-- Start Sveltia CMS by hand, once the preview stylesheet is registered. -->
   <script>window.CMS_MANUAL_INIT = true</script>
-  <!-- Decap loads its lazy chunks from the same pinned version directory. -->
-  <script src="https://cdn.jsdelivr.net/npm/decap-cms@3.16.3/dist/decap-cms.js" integrity="sha384-A/Gdn928CNLufmnGWGs9RM4Q9o8bSNLeJERqBFrBjwzL7FRpoLT3MPF8Tl0+Wd2p" crossorigin="anonymous"></script>
-  <!-- Saves stay draft pull requests, which are never checked or merged, until the
-       author sets the status to In review. Say so right after each save. -->
-  <div id="review-hint" class="hint" role="status" hidden onclick="this.hidden = true">
-    Saved as a draft. When you are done, set <b>Status</b> (next to Save) to <b>In review</b>.
-    Drafts are not checked or merged.
-  </div>
+  <!-- Sveltia loads its lazy chunks from the same pinned version directory, and
+       Immutable.js and other helpers from unpkg.com. -->
+  <script src="https://cdn.jsdelivr.net/npm/@sveltia/cms@0.227.2/dist/sveltia-cms.js" integrity="sha384-gCr3f3RuJYg6+sIiMAg2eO1+YeXswqgZAF7gmS1lggpTauAbv+2yFhIX8gol7JCy" crossorigin="anonymous"></script>
   <div id="fork-hint" class="hint" role="alert" hidden onclick="this.hidden = true">
     Your fork of the wiki is out of date, so GitHub rejects the save. Open
     <a id="fork-link" target="_blank" rel="noopener">your fork</a>, click <b>Sync fork</b>,
     then <b>Update branch</b>, and save again.
   </div>
-  <!-- Decap's own preview uses an old remark parser that shows {.is-info}, :emoji:,
-       &nbsp; and tables right under a line of text as plain text. Render with the
+  <!-- The CMS's own preview does not know {.is-info} or :emoji:. Render with the
        same markdown-it plugins VitePress uses, in the site stylesheet, instead. -->
   <script src="https://cdn.jsdelivr.net/npm/markdown-it@14.1.0/dist/markdown-it.min.js" integrity="sha384-wLhprpjsmjc/XYIcF+LpMxd8yS1gss6jhevOp6F6zhiIoFK6AmHtm4bGKtehTani" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/markdown-it-attrs@4.3.1/markdown-it-attrs.browser.js" integrity="sha384-x7/cajBAdDAXNBhe8vNNlRjlB/UuamDg9uMIUg3C+kQOPaBWDg7khpyX13BiKuue" crossorigin="anonymous"></script>
@@ -41,7 +35,7 @@
   <script>
     const md = markdownit({ html: true, linkify: true }).use(markdownItAttrs).use(markdownitEmoji.full || markdownitEmoji)
     // Other people's drafts can be opened here with a maintainer's GitHub token in
-    // the page, so sanitize like Decap's own preview does.
+    // the page, so sanitize like the CMS's own preview does.
     const PagePreview = ({ entry }) => {
       const html = DOMPurify.sanitize(md.render(entry.getIn(['data', 'body']) || ''))
       // The site shows the title as the H1 when the page has none.
@@ -55,11 +49,11 @@
       const css = t.match(/href="(\/assets\/style\.[\w-]+\.css)"/)
       if (css) CMS.registerPreviewStyle(css[1])
     }).finally(() => CMS.init())
-    // Decap syncs an existing fork with upstream at login, but GitHub refuses that
+    // The CMS syncs an existing fork with upstream at login, but GitHub refuses that
     // when upstream changed .github/workflows (the token has no workflow scope), and
     // every save from the stale fork then fails. Stop the save and say how to sync.
     CMS.registerEventListener({ name: 'preSave', handler: async () => {
-      const { token } = JSON.parse(localStorage.getItem('decap-cms-user') || '{}')
+      const { token } = JSON.parse(localStorage.getItem('sveltia-cms.user') || '{}')
       const gh = path => fetch('https://api.github.com/' + path, { headers: { Authorization: `token ${token}` } })
         .then(r => r.ok ? r.json() : null)
       const upstream = await gh('repos/TrinityCore/tc-wiki')
@@ -72,7 +66,6 @@
       document.getElementById('fork-hint').hidden = false
       throw new Error('your fork is out of date, sync it on GitHub first')
     } })
-    CMS.registerEventListener({ name: 'postSave', handler: () => { document.getElementById('review-hint').hidden = false } })
   </script>
 </body>
 </html>
