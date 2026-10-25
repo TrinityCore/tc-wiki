@@ -11,6 +11,11 @@ backend:
   # Forking and opening pull requests from the fork need no more than this.
   auth_scope: public_repo
   squash_merges: true
+  # The pull request title, and the commit message once squashed into main.
+  commit_messages:
+    create: 'Add {{collection}} page "{{slug}}"'
+    update: 'Edit {{collection}} page "{{slug}}"'
+    delete: 'Delete {{collection}} page "{{slug}}"'
   # auto-merge.yml skips pull requests labeled decap-cms/draft.
   cms_label_prefix: decap-cms/
 publish_mode: editorial_workflow
