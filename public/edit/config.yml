@@ -16,8 +16,6 @@ backend:
     create: 'Add {{collection}} page "{{slug}}"'
     update: 'Edit {{collection}} page "{{slug}}"'
     delete: 'Delete {{collection}} page "{{slug}}"'
-  # auto-merge.yml skips pull requests labeled decap-cms/draft.
-  cms_label_prefix: decap-cms/
 publish_mode: editorial_workflow
 
 site_url: https://trinitycore.info
