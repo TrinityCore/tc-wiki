@@ -1,10 +1,10 @@
 ---
 title: Windows Requirements
-description: 
-published: true
-date: 2026-07-08T23:06:02.248Z
+description: ''
 tags: requirements, installation, setup, windows
+published: true
 editor: markdown
+date: 2026-07-08T23:06:02.248Z
 dateCreated: 2021-08-14T03:18:48.201Z
 ---
 
@@ -144,7 +144,6 @@ If you download the Light version, it will not work. If you download the Light v
 > when given the choice on where to copy the OpenSSL DLLs. These DLLs will need to be located easily for Core Installation.
 {.is-info}
 
-&nbsp;
 ### (Optional)
 
 1. If you use different PCs to compile/run Trinity, install one of the following packages on your Server-PC to avoid missing dependencies (depending on your Visual Studio Version and your Server-PC Operating System)
@@ -152,4 +151,3 @@ If you download the Light version, it will not work. If you download the Light v
 	- **<span style="color:red">NOTE: Whatever you do you CAN'T run TrinityCore on Windows XP or Windows Server 2003 or Windows Vista or Windows 7.</span>**
 2. [TortoiseGit](https://tortoisegit.org/){target=_blank}
 	- This instruction supports Git Extensions only, but TortoiseGit is another viable option if you're comfortable with the process.
-  
