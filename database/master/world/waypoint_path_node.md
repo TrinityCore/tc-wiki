@@ -1,10 +1,10 @@
 ---
 title: waypoint_path_node
-description: 
-published: true
-date: 2024-02-17T07:27:20.592Z
+description: Added some notes on cyclic splines from sniffs.
 tags: database, master, world
+published: true
 editor: markdown
+date: 2024-02-17T07:27:20.592Z
 dateCreated: 2021-08-30T09:38:08.386Z
 ---
 
@@ -50,3 +50,6 @@ The orientation when node is reached.
 ### Delay
 Time to wait (in ms) before running to next node.
 &nbsp;
+
+## Additional Notes
+In looping Catmull-Rom splines, the last three points are identical to the first three. TrinityCore calculates looped paths internally, so those three duplicated points are unnecessary and should be discarded. If they are not removed, then when the unit reaches the last point, it will backtrack to the first.
