@@ -1,10 +1,10 @@
 ---
 title: quest_template
-description: 
-published: true
-date: 2026-09-15T13:48:52.315Z
+description: ''
 tags: database, world, 3.3.5, 3.3.5a, 335, 335a, wotlk
+published: true
 editor: markdown
+date: 2026-09-15T13:48:52.315Z
 dateCreated: 2021-08-30T22:08:30.767Z
 ---
 
@@ -390,12 +390,12 @@ Fulltext quest description under heading: _*Description*_
 You can use certain placeholders that will be filled in in-game:
 * `$B`: line break
 * `$N`: the players name
-* `$R`/`$r`: player race in upper case first/lower case
-* `$C`/`$c`: player class in upper case first/lower case
+* `$r`/`$R`: player race; using lower case `r` casts the name to lowercase
+* `$c`/`$C`: player class; using lower case `c` casts the name to lowercase
 * `$Gmale:female[:reference];`: _male_ and _female_ can be replaced with any synonym you want and one will be chosen depending on the reference. 
 _:reference_ is optional and can be `r` (the players race), `c` (the players class) or if omitted the players chosen gender.
 * `$4022W`: references a worldstate and will be replaced with it's current value. (here BATTLEFIELD_WG_WORLD_STATE_DEFENDED_H (4022) is chosen as an example)
-* `$Tstring1:string2;`: becomes the players PVP rank. (the provided strings are apparently ignored by the client)
+* `$tmale:female;`/`$Tmale:female;`: the players PVP rank. If unranked one of the strings is selected based on the players chosen gender. Using lower case `t` casts the string to lowercase.
 &nbsp;
 
 ### AreaDescription
