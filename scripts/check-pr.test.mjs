@@ -100,7 +100,11 @@ test('checks pages with their partials pasted in', async () => {
   const listed = (partial) => problems(edit('how-to/a.md'), (path) => path === 'partial/a.md' ? partial : FRONT + '* a\n\n  ' + include)
   assert.deepEqual(await listed('```\n{{ constructor }}\n```\n'), [])
   assert.notDeepEqual(await listed('x\n\n{{ constructor }}\n'), [])
-  for (const target of ['@/partial/a.md#region', '@/partial/a.md{1,2}', 'partial/a.md', '@/how-to/b.md', '@/partial/../README.md', '@/partial//a.md', '@/partial/335/.md']) {
+  // A line range pastes only those lines.
+  const ranged = (range) => problems(edit('how-to/a.md'), (path) => path === 'partial/a.md' ? 'x\n\n{{ constructor }}\n\ny\n' : FRONT + `<!--@include: @/partial/a.md${range}-->\n`)
+  for (const range of ['{1,2}', '{4,}', '{,1}']) assert.deepEqual(await ranged(range), [], range)
+  for (const range of ['{3,3}', '{3,}', '{,3}', '{,}']) assert.notDeepEqual(await ranged(range), [], range)
+  for (const target of ['@/partial/a.md#region', '@/partial/a.md{1-2}', '@/partial/a.md{1,2}#region', 'partial/a.md', '@/how-to/b.md', '@/partial/../README.md', '@/partial//a.md', '@/partial/335/.md']) {
     assert.notDeepEqual(await page(`<!--@include: ${target}-->\n`), [], target)
   }
 })

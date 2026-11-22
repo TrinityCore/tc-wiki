@@ -25,10 +25,10 @@ const BLOCKED_TAGS = /^(script|style|iframe|frame|frameset|object|embed|applet|l
 // schemes are checked on the decoded, whitespace-free text of the whole page.
 const SCHEME = /(javascript|vbscript):|data:text\/html/i
 // VitePress pastes included files into the page before rendering it, so a
-// page is checked with its includes pasted in. Only whole partial/ pages can
-// be included; VitePress's own pattern finds them.
+// page is checked with its includes pasted in. Only partial/ pages can be
+// included, whole or as a {start,end} line range; VitePress's own pattern finds them.
 const INCLUDE = /<!--\s*@include:\s*(.*?)\s*-->/g
-const PARTIAL = /^@\/(partial\/(?:[\w-]+\/)*[\w-]+\.md)$/
+const PARTIAL = /^@\/(partial\/(?:[\w-]+\/)*[\w-]+\.md)(?:\{(\d*),(\d*)\})?$/
 
 const NODE = { ELEMENT: 1, INTERPOLATION: 5, ATTRIBUTE: 6, DIRECTIVE: 7 }
 const PLAIN_ELEMENT = 0
@@ -105,7 +105,7 @@ function templateProblems(node, found) {
 
 function expandIncludes(source, readFile, found) {
   return source.replace(INCLUDE, (match, target, offset) => {
-    const partial = PARTIAL.exec(target)?.[1]
+    const [, partial, start, end] = PARTIAL.exec(target) ?? []
     if (!partial) {
       found.push(`file include: ${target}`)
       return match
@@ -120,6 +120,10 @@ function expandIncludes(source, readFile, found) {
     // VitePress strips an included page's front matter and expands its includes.
     if (content.startsWith('---')) found.push(`front matter in included file: ${partial}`)
     if (/<!--\s*@include:/.test(content)) found.push(`include inside included file: ${partial}`)
+    // Lines start at 1 and the end line is included, as in VitePress.
+    if (start || end) {
+      content = content.split(/\r?\n/).slice(start ? start - 1 : undefined, end ? +end : undefined).join('\n')
+    }
     // The site config pastes an include that starts an indented line with every line at that indent.
     const indent = /(?:^|\n)([ \t]+)$/.exec(source.slice(0, offset))?.[1]
     return indent ? content.replace(/\n/g, '\n' + indent) : content
