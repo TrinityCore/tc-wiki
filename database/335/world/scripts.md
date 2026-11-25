@@ -1,10 +1,10 @@
 ---
-title: "*_scripts"
-description: 
+title: '*_scripts'
+description: ''
+tags: ''
 published: true
-date: 2026-01-12T22:49:57.955Z
-tags: 
 editor: markdown
+date: 2026-01-12T22:49:57.955Z
 dateCreated: 2023-07-09T16:57:16.125Z
 ---
 
@@ -107,7 +107,7 @@ The following commands can be used:
 | 17 | [item entry](../world/item_template#entry) to create | amount | 0 | - |
 | 18 | despawn delay (in seconds?) | 0 | 0 | - |
 | 20 | waypoint [path id](../world/waypoint_data#id-alt) to load | repeatable: 0 - no; 1 - yes | 0 | - |
-| 21 | creature [entry](../world/creature_template#entry) or [guid](../world/creature#guid) to load script on | script **id** | 3: use spell_scripts table<br>5: use event_scripts table<br>6: use waypoint_scripts table | - |
+| 21 | [creature guid](../world/creature#guid) to load script on | script **id** | 1: use event_scripts table<br>2: use waypoint_scripts table | - |
 | 22 | 0 | 0 | 0: leave corpse; 1: remove corpse | - |
 | 30 | face: 0 - **o** value; 1 - target | 0 | 0 | 0, 0, 0, **o** (0 &ndash; 2π) |
 | 31 | ID from [creature_equip_template](../world/creature_equip_template#id-alt) | 0 | 0 | - |
